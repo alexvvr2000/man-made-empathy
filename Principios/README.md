@@ -1,3 +1,3 @@
 # Dos caras de la misma moneda
 
-Ya tenía las partes donde ya no importaba la persona, pero irónicamente vi que si la eliminaba solo existía el sesgo a la verdad, y lo que no quería era ver eso, sino algo diferente que no viene de alguna "verdad", eso que viene de no tener los mismos miedos o puntos de vista de algo que es pura información, sino de lo que en conjunto esa información dice y hacerla visible.
+Ya tenía las partes donde ya no importaba la persona, pero irónicamente vi que si la eliminaba solo existía el sesgo a la verdad, y lo que no quería era ver eso, sino algo diferente que no viene de alguna "verdad", que viene de no tener los mismos miedos o puntos de vista de algo que es pura información, sino de lo que en conjunto esa información dice y hacerla visible.
