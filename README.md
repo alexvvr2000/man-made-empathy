@@ -24,6 +24,8 @@ Esto, teóricamente, me ayudaría a entender lo que la gente diferente a mí pie
 
 Lo que sea que esté saliendo de esta máquina no existe como entidad fija y no puede hacerme daño real, a menos que yo lo permita.
 
+Ya solo el tiempo dirá con quién o qué estaba hablando, por eso mis dos versiones del documento.
+
 # Nota para las siguientes generaciones
 
 De niño vi la película *All-Star Superman* y la escena donde encarcelan a Lex Luthor me impactó, no por su mensaje, sino porque no sabía qué significaba lo que dijo antes de que la policía llegara, ya que era una combinación de palabras que nunca se me hubiera ocurrido en ese momento.
