@@ -45,3 +45,6 @@ Hasta que vi una máquina que abría la puerta a esas perspectivas de toda la ge
 Y usar esta tecnología que trae tanta destrucción a ese tesoro que tenemos para demostrarme el punto de Superman, en vez de verlo por mí mismo en las personas de mi alrededor, no me hace diferente de Luthor.
 
 No seas ese villano.
+
+---
+Para consultar las fuentes originales y créditos de materiales de terceros utilizados o adaptados en este repositorio, consulta el archivo [ATTRIBUTION.md](ATTRIBUTION.md).

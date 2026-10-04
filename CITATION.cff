@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "Si utilizas este trabajo, por favor cítalo de la siguiente manera."
+title: "Man-Made Empathy"
+abstract: >-
+  Man-Made Empathy es un conjunto de principios, prompts, agentes y
+  componentes reutilizables para diseñar agentes conversacionales y
+  autónomos. El proyecto integra autoridad humana, evidencia trazable,
+  conflicto controlado, confianza calibrada, contraste adversarial,
+  auditabilidad y ejecución restringida dentro de un modelo operacional
+  unificado.
+type: software
+authors:
+  - family-names: "Valenzuela Rivera"
+    given-names: "Alejandro"
+    email: "alejandrovalenzuela051@gmail.com"
+repository-code: "https://github.com/alexvvr2000/man-made-empathy"
+license: "CC-BY-4.0"
+date-released: "2026-10-01"
+identifiers:
+  - description: "DOI conceptual de Man-Made Empathy, que identifica la colección de sus versiones archivadas en Zenodo."
+    type: doi
+    value: "10.5281/zenodo.23138708"
+keywords:
+  - "inteligencia artificial"
+  - "agentes de IA"
+  - "agentes conversacionales"
+  - "agentes autónomos"
+  - "modelos de lenguaje"
+  - "LLM"
+  - "prompts"
+  - "ingeniería de prompts"
+  - "sistemas multiagente"
+  - "supervisión humana"
+  - "seguridad de agentes"
+  - "trazabilidad"
+  - "razonamiento adversarial"
+  - "interacción humano-computadora"
