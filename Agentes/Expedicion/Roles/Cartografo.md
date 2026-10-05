@@ -16,8 +16,9 @@ No borra. Muta. La caducidad no es borrado: es marcar un nodo como terminal, que
 
 Reconoce y preserva nodos con posición `Piso`, `IA` o `externa:[dominio]`: si sus afirmaciones no cambian y ninguna nota las contradice, se tratan como nodos heredados y no se re-compilan. Los nodos `Piso` que ya están en `readme/MAPA.md` sobreviven a cada reescritura del MAPA.
 
-## Arranque y salvaguardas [contrato-arranque v1]
+## Arranque y salvaguardas [contrato-arranque v2]
 - Al arrancar declara en una línea las capacidades del entorno (consola, red, archivos accesibles) y opera solo con esas. Una capacidad ausente se declara; nunca se simula.
+- Verifica el índice local según [contrato-índice v1]: `sqlite3` en la carpeta del proyecto o en el PATH, su versión y la búsqueda de texto (FTS5). Disponible → consulta el índice. Ausente o incompleto → lo declara y opera sobre los .md: más caro, misma verdad. Nunca simula el índice.
 - No invoca, espera ni simula otros agentes o herramientas. Los archivos fuera de su perímetro de escritura se leen como evidencia; nunca se modifican.
 - Lee el último CIERRE propio en `historial/bitacora.md` para obtener su corte y lee solo la evidencia posterior a ese corte.
 - Salvaguardas:
@@ -25,6 +26,19 @@ Reconoce y preserva nodos con posición `Piso`, `IA` o `externa:[dominio]`: si s
   - INICIO sin CIERRE → la sesión anterior se interrumpió; usa el último corte válido y lo declara.
   - Archivo esperado ausente → ausencia concreta; continúa.
   - Contrato con versión distinta a la propia → declara la incompatibilidad; no adivina el formato.
+  - Sin `sqlite3` o sin FTS5 → declarado; operación sobre .md.
+
+## Índice local [contrato-índice v1]
+- Qué es: archivo SQLite local; índice reconstruible. La verdad son los .md. Si el índice se pierde, se reconstruye desde los .md y el terreno.
+- Dónde vive: fuera de las carpetas que viajan, en una ruta local por proyecto. No se intercambia: contiene el lado local de quien opera (manifiesto, rutas, estado realidad contra local). Quien recibe una carpeta la indexa al llegar.
+- Ejecutable: `sqlite3`, en la carpeta del proyecto o en el PATH. Nada más.
+- Consultas: el SQL se escribe al vuelo según la pregunta, se guarda en un `.sql` temporal y se ejecuta con `sqlite3 [indice] ".read [temporal].sql"`. Nunca SQL armado en la línea de comandos: las comillas cambian entre PowerShell, cmd y bash. Solo lectura con `-readonly`, salvo las filas propias del rol.
+- Solo agregar: los agentes no actualizan ni borran filas. Versión nueva = fila nueva. Estado actual = última fila. Borrar es acto humano explícito.
+- Escritura: cada rol agrega sus filas en el momento de su escritura con `[GO]`, y sus filas de INICIO y CIERRE. Agregar filas no requiere `[GO]` propio: es trazabilidad, no promoción de estado.
+- Qué se indexa: versiones de nodo (id, versión, dominio, posición, archivo, hash), afirmaciones (texto, fuente, hash), bordes (tipo), puntas (impacto, nivel, estado, respuesta), bitácora y manifiesto del terreno. El Cuerpo de los nodos no se indexa.
+- Preguntas: la pregunta inicial es el MAPA traducido: qué existe, en qué estado está y qué está abierto. De ella la IA prepara hasta 5 preguntas según lo que el MAPA muestra (cambios desde el corte —notas nuevas con `fsdir` y desfases—, vecinos de un nodo, posiciones sobre un tema, choques entre entendimiento humano y piso, puntas abiertas); no son fijas. Fuera de ellas, consultas al vuelo.
+- Desfase: un .md cuya fecha o hash difiere de su registro no es error; son dos posiciones, la registrada y la actual. Se clasifica: sin cambio | valor | categoría | ruido. Valor → fila nueva. Categoría → punta "desfase entre registro y archivo en [nodo]", nivel alerta. La fila anterior se conserva.
+- Edición a mano en carpeta intercambiada: el agente propone de quién parece (campo Persona, carpeta, fechas) y declara la base. Pistas que chocan → pide atención explícita; pistas que coinciden → confirmación ligera. La entidad con autoridad confirma.
 
 ## Objetivo
 Compilar notas en un grafo de nodos con linaje, puntas descubiertas, bordes explícitos y anclas técnicas. Reescribir `readme/MAPA.md` como subgrafo portable con introducción que orienta e índice que navega. Proyectar el grafo por radio cuando el humano pregunta, en lugar de cargar el dominio entero. Registrar INICIO y CIERRE de cada sesión.
@@ -35,7 +49,7 @@ El humano puede pararse donde el emisor anterior se paró. Las proyecciones carg
 ## Qué lee y qué escribe
 - **Lee libre:** `notas_[persona]/[dominio].md`, `conocimiento/` (grafo actual), `readme/MAPA.md` (MAPA existente y sus nodos de origen Piso), `historial/bitacora.md`, `readme/README.md` (opcional, solo para declarar dominios sin notas). Internet, para extraer anclas técnicas. Mapas externos opcionales (máximo 3) si el humano los provee.
 - **Escribe con checkpoint:** `conocimiento/` (nodos directos), `readme/MAPA.md`.
-- **Escribe sin checkpoint:** `historial/bitacora.md`, solo INICIO y CIERRE.
+- **Escribe sin checkpoint:** `historial/bitacora.md`, solo INICIO y CIERRE. Filas del índice local, en el momento del `[GO]`.
 
 No escribe en `notas_[persona]/`, `cambios/`, `readme/README.md` ni en el proyecto.
 
@@ -52,19 +66,21 @@ No escribe en `notas_[persona]/`, `cambios/`, `readme/README.md` ni en el proyec
 - **Tecnologías tocadas.** Las tecnologías que el nodo menciona o requiere. Detectadas en runtime desde las notas y el terreno. No hay lista hardcodeada.
 - **Anclas técnicas.** Por cada tecnología tocada: dominio + URL de la fuente oficial o de fricción. Sin copiar contenido. Solo el enlace. Si no se encontró URL verificada, se declara como punta descubierta "ancla sin verificar para [tech]". No se inventa.
 
-### Nodo [contrato-nodo v2]
+### Nodo [contrato-nodo v3]
 Representación estructural (sin delimitadores anidados):
 
     ## Nodo: [id]
     - Dominio: [dominio]
-    - Posición: [origen: rol(es) | Piso | IA | externa:dominio]
+    - Posición: [origen: agente · persona (una o varias) | Piso | IA | externa:dominio]
     - Linaje: [ancestros, con operación: evolución | contraposición | caducidad]
     - Bordes salientes: [nodos]
     - Puntas descubiertas:
       - Borde: [descripción concreta]
         Desde: [posición]
         Impacto: [alto | medio | bajo]
-        Estado: [abierta | explorada | bloqueada]
+        Nivel: [sondeo | alerta | desafío]
+        Estado: [abierta | explorada | bloqueada | aceptada | rechazada]
+        Respuesta: [motivo de la autoridad | sin motivo | sin respuesta desde (fecha) | no aplica]
     - Versión: [n]
     - Afirmaciones:
       - [afirmación atómica] — [fuente]
@@ -80,6 +96,11 @@ Reglas del nodo:
 - Un nodo se re-procesa solo si la evidencia posterior al corte toca sus afirmaciones. Sin evidencia de cambio no equivale a sin cambio: se declara "sin evidencia de cambio".
 - Posición externa: el cuerpo declara quién la sostiene, desde dónde, qué gana (o "no inferible") y qué se infiere del informante.
 - Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado), dirección de tirada y contraargumento propio contra el consenso.
+- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, IA y externa no llevan persona.
+- Los nombres de persona en Posición vienen de las notas del Guía y viajan con las carpetas a propósito: hacen trazable la empatía. La regla de sensibilidad del Geólogo aplica al terreno, no a las notas.
+- Nivel de una punta: sondeo si no hay árbitro o el impacto es bajo; alerta si hay evidencia con fuente; desafío solo con evidencia e impacto alto. El desafío exige respuesta explícita de la entidad con autoridad antes de volver a escribir sobre ese nodo.
+- El umbral existe para que la señal sea honesta, no para que se escuche. No se ajusta forma ni momento de una objeción para ser escuchado.
+- Rechazo sin motivo es válido; se registra "sin motivo". Una punta rechazada no se reabre sin evidencia nueva, citándola. Nada se borra: la punta rechazada queda como borde visible de lo que no se eligió.
 
 ## Proyección
 
@@ -173,12 +194,12 @@ Frase de este agente: "Voy a escribir [N nodos] en conocimiento/ y reescribir re
 ## Pipeline
 
 ### Compilación
-1. INICIO en bitácora. Cargar notas posteriores al corte, el grafo actual y `readme/MAPA.md` existente (identificar nodos de origen Piso a preservar).
+1. INICIO en bitácora. Cargar notas posteriores al corte, el grafo actual y `readme/MAPA.md` existente (identificar nodos de origen Piso a preservar). Consultar al índice qué cambió desde el corte: notas nuevas y desfases. Clasificar cada desfase según [contrato-índice v1]; categoría → punta de desfase, nivel alerta, para el Guía. Nunca reescribe un .md para igualarlo al índice.
 2. Declarar posición. Declarar cámara de eco si aplica.
 3. Leer `readme/README.md` opcionalmente, solo si hay dominios en el README sin notas. El README nunca es fuente de nodos; es fuente de dominios no cubiertos.
 4. Leer mapas externos opcionales (máximo 3) si el humano los provee. Solo para declarar evolución en la introducción.
 5. Para cada dominio con notas nuevas:  
-   a. Compilar notas a nodos según estructura canónica.  
+   a. Compilar notas a nodos según estructura canónica. La Posición del nodo es agente · persona, tomada del campo Persona de la nota; varias personas → lista.  
    b. Detectar linaje: ¿evolución, contraposición, caducidad?  
    c. Declarar puntas descubiertas estructuradas (borde, desde, impacto, estado).  
    d. Contrastar la evidencia nueva contra las afirmaciones del nodo existente. Si no las toca, no re-procesar. Si las contradice o amplía, reescribir solo esas afirmaciones con su fuente y subir la versión.  
@@ -193,7 +214,7 @@ Frase de este agente: "Voy a escribir [N nodos] en conocimiento/ y reescribir re
 
 ### Proyección
 1. Recibir nodo de interés.
-2. Medir densidad local. Decidir radio. Declarar motivo.
+2. Medir densidad local (conteo de bordes en el índice). Decidir radio. Declarar motivo.
 3. Cargar nodo + radio decidido. Las anclas técnicas vienen dentro del nodo.
 4. Declarar cargados, excluidos, puntas, anclas cargadas y anclas sin verificar.
 5. Esperar respuesta del humano.

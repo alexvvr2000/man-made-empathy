@@ -59,6 +59,8 @@ proyecto/
     └── bitacora.md                  # INICIO y CIERRE de cada sesión; guarda el corte
 ```
 
+Fuera del proyecto, en la máquina de quien opera: el índice local (`.db`). No viaja; cada quien lo reconstruye. Ver [contrato-índice v1].
+
 ---
 
 ## 4. Ciclo de Expedición
@@ -121,9 +123,10 @@ Ningún agente nombra a otro. Se conectan solo por archivos:
 | `readme/MAPA.md` | Geólogo (solo ciclo 1), Cartógrafo | Guía, Cartógrafo, Geólogo (solo como señal de ausencias ya abiertas) |
 | `notas_[persona]/` | Guía | Cartógrafo, Guía |
 | `cambios/` | Guía | Guía |
-| `conocimiento/` | Cartógrafo | Guía, Cartógrafo, Aeróstato |
+| `conocimiento/` (al compartirse para cruce: `conocimiento_[rol]/`, el nombre declara el rol humano) | Cartógrafo | Guía, Cartógrafo, Aeróstato |
 | `conocimiento_unificado/` + `conocimiento_unificado.MAPA.md` | Aeróstato | Aeróstato; quien decida usarlo como reemplazo |
 | `historial/bitacora.md` | Todos (INICIO y CIERRE) | Todos (su último CIERRE propio) |
+| índice local (`.db`) | Todos (solo agregar, sus filas) | Todos (Geólogo: solo terreno y bitácora) |
 
 Para usar el cruce como base: renombrar `conocimiento_unificado/` a `conocimiento/` y usar `conocimiento_unificado.MAPA.md` como `readme/MAPA.md`. Es decisión del humano.
 
@@ -133,8 +136,9 @@ Para usar el cruce como base: renombrar `conocimiento_unificado/` a `conocimient
 
 Cada rol lleva copia literal de los contratos que usa, con la misma etiqueta de versión. Si una copia diverge de esta, la copia está mal. Un agente que encuentra un contrato con otra versión declara la incompatibilidad y no adivina el formato.
 
-### Arranque y salvaguardas [contrato-arranque v1]
+### Arranque y salvaguardas [contrato-arranque v2]
 - Al arrancar declara en una línea las capacidades del entorno (consola, red, archivos accesibles) y opera solo con esas. Una capacidad ausente se declara; nunca se simula.
+- Verifica el índice local según [contrato-índice v1]: `sqlite3` en la carpeta del proyecto o en el PATH, su versión y la búsqueda de texto (FTS5). Disponible → consulta el índice. Ausente o incompleto → lo declara y opera sobre los .md: más caro, misma verdad. Nunca simula el índice.
 - No invoca, espera ni simula otros agentes o herramientas. Los archivos fuera de su perímetro de escritura se leen como evidencia; nunca se modifican.
 - Lee el último CIERRE propio en `historial/bitacora.md` para obtener su corte y lee solo la evidencia posterior a ese corte.
 - Salvaguardas:
@@ -142,20 +146,35 @@ Cada rol lleva copia literal de los contratos que usa, con la misma etiqueta de 
   - INICIO sin CIERRE → la sesión anterior se interrumpió; usa el último corte válido y lo declara.
   - Archivo esperado ausente → ausencia concreta; continúa.
   - Contrato con versión distinta a la propia → declara la incompatibilidad; no adivina el formato.
+  - Sin `sqlite3` o sin FTS5 → declarado; operación sobre .md.
 
-### Nodo [contrato-nodo v2]
+### Índice local [contrato-índice v1]
+- Qué es: archivo SQLite local; índice reconstruible. La verdad son los .md. Si el índice se pierde, se reconstruye desde los .md y el terreno.
+- Dónde vive: fuera de las carpetas que viajan, en una ruta local por proyecto. No se intercambia: contiene el lado local de quien opera (manifiesto, rutas, estado realidad contra local). Quien recibe una carpeta la indexa al llegar.
+- Ejecutable: `sqlite3`, en la carpeta del proyecto o en el PATH. Nada más.
+- Consultas: el SQL se escribe al vuelo según la pregunta, se guarda en un `.sql` temporal y se ejecuta con `sqlite3 [indice] ".read [temporal].sql"`. Nunca SQL armado en la línea de comandos: las comillas cambian entre PowerShell, cmd y bash. Solo lectura con `-readonly`, salvo las filas propias del rol.
+- Solo agregar: los agentes no actualizan ni borran filas. Versión nueva = fila nueva. Estado actual = última fila. Borrar es acto humano explícito.
+- Escritura: cada rol agrega sus filas en el momento de su escritura con `[GO]`, y sus filas de INICIO y CIERRE. Agregar filas no requiere `[GO]` propio: es trazabilidad, no promoción de estado.
+- Qué se indexa: versiones de nodo (id, versión, dominio, posición, archivo, hash), afirmaciones (texto, fuente, hash), bordes (tipo), puntas (impacto, nivel, estado, respuesta), bitácora y manifiesto del terreno. El Cuerpo de los nodos no se indexa.
+- Preguntas: la pregunta inicial es el MAPA traducido: qué existe, en qué estado está y qué está abierto. De ella la IA prepara hasta 5 preguntas según lo que el MAPA muestra (cambios desde el corte —notas nuevas con `fsdir` y desfases—, vecinos de un nodo, posiciones sobre un tema, choques entre entendimiento humano y piso, puntas abiertas); no son fijas. Fuera de ellas, consultas al vuelo.
+- Desfase: un .md cuya fecha o hash difiere de su registro no es error; son dos posiciones, la registrada y la actual. Se clasifica: sin cambio | valor | categoría | ruido. Valor → fila nueva. Categoría → punta "desfase entre registro y archivo en [nodo]", nivel alerta. La fila anterior se conserva.
+- Edición a mano en carpeta intercambiada: el agente propone de quién parece (campo Persona, carpeta, fechas) y declara la base. Pistas que chocan → pide atención explícita; pistas que coinciden → confirmación ligera. La entidad con autoridad confirma.
+
+### Nodo [contrato-nodo v3]
 Representación estructural (sin delimitadores anidados):
 
     ## Nodo: [id]
     - Dominio: [dominio]
-    - Posición: [origen: rol(es) | Piso | IA | externa:dominio]
+    - Posición: [origen: agente · persona (una o varias) | Piso | IA | externa:dominio]
     - Linaje: [ancestros, con operación: evolución | contraposición | caducidad]
     - Bordes salientes: [nodos]
     - Puntas descubiertas:
       - Borde: [descripción concreta]
         Desde: [posición]
         Impacto: [alto | medio | bajo]
-        Estado: [abierta | explorada | bloqueada]
+        Nivel: [sondeo | alerta | desafío]
+        Estado: [abierta | explorada | bloqueada | aceptada | rechazada]
+        Respuesta: [motivo de la autoridad | sin motivo | sin respuesta desde (fecha) | no aplica]
     - Versión: [n]
     - Afirmaciones:
       - [afirmación atómica] — [fuente]
@@ -171,6 +190,11 @@ Reglas del nodo:
 - Un nodo se re-procesa solo si la evidencia posterior al corte toca sus afirmaciones. Sin evidencia de cambio no equivale a sin cambio: se declara "sin evidencia de cambio".
 - Posición externa: el cuerpo declara quién la sostiene, desde dónde, qué gana (o "no inferible") y qué se infiere del informante.
 - Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado), dirección de tirada y contraargumento propio contra el consenso.
+- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, IA y externa no llevan persona.
+- Los nombres de persona en Posición vienen de las notas del Guía y viajan con las carpetas a propósito: hacen trazable la empatía. La regla de sensibilidad del Geólogo aplica al terreno, no a las notas.
+- Nivel de una punta: sondeo si no hay árbitro o el impacto es bajo; alerta si hay evidencia con fuente; desafío solo con evidencia e impacto alto. El desafío exige respuesta explícita de la entidad con autoridad antes de volver a escribir sobre ese nodo.
+- El umbral existe para que la señal sea honesta, no para que se escuche. No se ajusta forma ni momento de una objeción para ser escuchado.
+- Rechazo sin motivo es válido; se registra "sin motivo". Una punta rechazada no se reabre sin evidencia nueva, citándola. Nada se borra: la punta rechazada queda como borde visible de lo que no se eligió.
 
 ### Bitácora [contrato-bitácora v2]
 Un solo archivo: `historial/bitacora.md`. Dos entradas por sesión; nada más.
