@@ -46,6 +46,8 @@ Cada fila dice qué se tomó del antecedente y qué cambia en este proyecto. La 
 | Concepto del proyecto | Antecedente | Qué se toma | Qué cambia aquí |
 |---|---|---|---|
 | Visibilizar el error | Asertividad graduada **P.A.C.E.** en aviación (Besco, 1994–1995) y CRM (Helmreich et al., 1999) | La escalera sondeo → alerta → desafío → emergencia para que quien no manda pueda frenar a quien manda | Se aplica a un agente sin miedo a represalias; se añade el registro obligatorio de la respuesta humana y la regla de no repetir sin evidencia nueva |
+| Registro de la respuesta humana | Motivos de omisión de alertas en sistemas clínicos de prescripción (estudios sobre CPOE/CDSS) | Pedir y registrar por qué un humano ignora una advertencia del sistema | El registro se aplica a cualquier desafío del agente, no solo a alertas predefinidas; un rechazo sin motivo es válido y queda como tal |
+| Arroz con pollo / Cartógrafo / Aeróstato | **IBIS** (Kunz y Rittel, 1970); gIBIS (Conklin y Begeman, 1988); *dialogue mapping* (Conklin, 2006) | Mapear asuntos, posiciones y argumentos a favor y en contra sin forzar consenso, para problemas sin respuesta única | Las posiciones llevan persona, linaje y versión; se anclan a un piso técnico del proyecto; la IA participa como una posición más con rostro declarado; el cruce entre carpetas de distintas personas no promedia |
 | Objeción inflada (modo de fallo) | **Fatiga por alarmas** clínicas (The Joint Commission, 2013) | Muchas alarmas falsas entrenan a ignorar la verdadera | El umbral de evidencia se justifica como honestidad de la señal, no como estrategia para ser escuchado |
 | Sesgo de automatización (modo de fallo) | Parasuraman y Riley (1997); Parasuraman y Manzey (2010) | El humano deja de revisar propuestas casi siempre correctas | Contención por pistas en conflicto: se pide atención solo donde el agente duda |
 | Rostro / inclinación a complacer | **Sycophancy** en modelos de lenguaje (Perez et al., 2022; Sharma et al., 2023) | Los modelos entrenados con retroalimentación humana tienden a dar la razón | El sesgo no se filtra: se declara como lente y se fuerza el desafío cuando hay evidencia |
@@ -118,6 +120,10 @@ Salvo indicación expresa en un archivo específico, el material original de Man
 - Besco, R. O. (1994). *To Intervene or Not to Intervene? The Co-pilot's Catch 22.* Professional Performance Improvement.
 - Besco, R. O. (1995). Releasing the Hook on the Copilot's Catch 22. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 39*(1). doi:10.1177/154193129503900106
 - Brand, S. (1999). *The Clock of the Long Now: Time and Responsibility.* Basic Books.
+- *Alert Override Patterns With a Medication Clinical Decision Support System in an Academic Emergency Department: Retrospective Descriptive Study* (2020). *JMIR Medical Informatics.* PMC7673981.
+- *Increased appropriateness of customized alert acknowledgement reasons for overridden medication alerts in a computerized provider order entry system.* *International Journal of Medical Informatics.* sciencedirect.com.
+- Conklin, J. (2006). *Dialogue Mapping: Building Shared Understanding of Wicked Problems.* Wiley.
+- Conklin, J. y Begeman, M. L. (1988). gIBIS: A Hypertext Tool for Exploratory Policy Discussion. *ACM Transactions on Office Information Systems, 6*(4).
 - COPE — Committee on Publication Ethics (2023). *Authorship and AI tools.* Position statement. publicationethics.org.
 - Cinelli, M., De Francisci Morales, G., Galeazzi, A., Quattrociocchi, W. y Starnini, M. (2021). The echo chamber effect on social media. *PNAS, 118*(9).
 - Du, Y., Li, S., Torralba, A., Tenenbaum, J. B. y Mordatch, I. (2023). Improving Factuality and Reasoning in Language Models through Multiagent Debate. arXiv:2305.14325.
@@ -132,6 +138,7 @@ Salvo indicación expresa en un archivo específico, el material original de Man
 - Irving, G., Christiano, P. y Amodei, D. (2018). AI safety via debate. arXiv:1805.00899.
 - Kadavath, S. et al. (2022). Language Models (Mostly) Know What They Know. arXiv:2207.05221.
 - Klein, G. (2007). Performing a Project Premortem. *Harvard Business Review*, septiembre.
+- Kunz, W. y Rittel, H. W. J. (1970). *Issues as Elements of Information Systems.* Working Paper 131, Institute of Urban and Regional Development, University of California, Berkeley.
 - Lewis, P. et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS*. arXiv:2005.11401.
 - Liu, N. F. et al. (2023). Lost in the Middle: How Language Models Use Long Contexts. arXiv:2307.03172.
 - Luft, J. e Ingham, H. (1955). The Johari window, a graphic model of interpersonal awareness. *Proceedings of the Western Training Laboratory in Group Development.* UCLA.

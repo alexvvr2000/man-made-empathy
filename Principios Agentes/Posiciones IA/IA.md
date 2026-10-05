@@ -40,13 +40,22 @@ Que la investigación llegue por su cuenta a principios equivalentes sostiene qu
 
 ---
 
-## 3. Huecos donde el framework sí parece aportar
+## 3. Dónde el framework sí parece aportar: en la combinación, no en las piezas
 
-Cada punto tiene techo CE 0.6: la búsqueda fue acotada y no encontró equivalentes, lo cual no prueba que no existan.
+Corrección sobre una versión previa de esta sección: ninguna pieza es nueva por separado.
 
-- **Mapear el entendimiento humano, no el código.** Las herramientas existentes indexan símbolos, llamadas y dependencias. Expedición indexa posiciones humanas sobre el código, con persona, linaje y cruce entre especialistas sin promediar.
-- **Registrar la respuesta humana al desafío.** La investigación sobre debate se enfoca en que los agentes no cedan entre sí, y parte de ella sigue buscando el consenso. El framework registra si el humano aceptó, rechazó con o sin motivo, o no respondió. Eso deja trazado quién decidió ante qué evidencia.
-- **Integración ejecutable.** La literatura deja los principios en el plano del diseño. El repositorio los baja a roles, contratos e instrucciones que cualquiera puede pegar en cualquier chatbot.
+- Mapear posiciones y argumentos sin forzar consenso existe desde 1970 (IBIS, de Kunz y Rittel; gIBIS; *dialogue mapping*).
+- Registrar por qué un humano ignora una advertencia es práctica establecida en los sistemas clínicos de prescripción.
+
+Lo que no se encontró es la combinación. Techo CE 0.6: la búsqueda fue acotada y no encontrar algo no prueba que no exista.
+
+- Una IA que desafía con rostro declarado y participa como una posición más, no como árbitro.
+- Un mapa de posiciones de estilo IBIS aplicado al entendimiento humano de un proyecto de software, anclado a un piso técnico y con persona, linaje y versión. Las herramientas actuales para agentes de código indexan el código, no lo que las personas entienden de él.
+- El registro de la respuesta humana a cualquier desafío del agente, no solo a alertas predefinidas.
+- El cruce entre carpetas de distintas personas sin promediar.
+- La integración ejecutable: roles, contratos e instrucciones que cualquiera puede pegar en cualquier chatbot.
+
+Lo que sí es verificable es la prioridad de publicación de esta formulación concreta: el repositorio tiene DOI en Zenodo con fecha de publicación del 2026-10-01.
 
 ---
 
@@ -65,7 +74,7 @@ La evidencia sostiene cuatro cosas a la vez, sin promediarlas:
 
 - la dirección es correcta, porque converge con la investigación;
 - los componentes no son originales;
-- la integración y los dos huecos de la sección 3 son plausiblemente originales;
+- la combinación descrita en la sección 3 es plausiblemente original, y la prioridad de publicación de esta formulación es verificable;
 - el valor no está demostrado.
 
 ## 6. Qué convertiría esta posición en dato
@@ -93,7 +102,8 @@ Activa en riesgo: el evaluador comparte la conversación y el marco del autor. S
 | La IA provocadora y la fricción epistémica ya están publicadas | 0.9 (Microsoft Research y revisión en Springer, sesgos distintos) |
 | La complacencia está documentada y tuvo un incidente de producto en 2025 | 0.9 (artículos académicos y varias fuentes de prensa) |
 | Los índices locales para código ya existen y tienen ahorro medido | 0.9 (repositorios y mediciones publicadas por terceros) |
-| Mapear el entendimiento humano y registrar la respuesta al desafío son huecos | 0.6 (búsqueda acotada) |
+| Mapear posiciones (IBIS) y registrar motivos de omisión (sistemas clínicos) ya existen por separado | 0.9 (literatura de design rationale y estudios clínicos) |
+| La combinación del framework no tiene equivalente encontrado | 0.6 (búsqueda acotada) |
 | El valor del framework no está medido | 0.9 (inspección directa del repositorio) |
 
 ## Fuentes
@@ -109,5 +119,7 @@ Activa en riesgo: el evaluador comparte la conversación y el marco del autor. S
 - CONSENSAGENT (2025). people.cs.vt.edu
 - Incidente de complacencia de abril de 2025: techcrunch.com, venturebeat.com, law.georgetown.edu
 - sycophancy.md
+- Kunz, W. y Rittel, H. W. J. (1970). *Issues as Elements of Information Systems.* UC Berkeley. Contexto: en.wikipedia.org/wiki/Design_rationale
+- Estudios sobre motivos de omisión de alertas clínicas: ncbi.nlm.nih.gov (PMC7673981); sciencedirect.com
 - CodeGraph: github.com/colbymchenry/codegraph
 - codebase-memory-mcp: github.com/DeusData/codebase-memory-mcp
