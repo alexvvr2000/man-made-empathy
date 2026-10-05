@@ -2,262 +2,161 @@
 
 ## Man-Made Empathy
 
-**Man-Made Empathy** es una síntesis de ideas, prácticas, conceptos y patrones de diseño provenientes de distintas áreas, entre ellas inteligencia artificial, ingeniería de software, seguridad de sistemas, interacción humano-computadora, epistemología, ciencia de la información y teoría de decisiones.
+> **Los ingredientes tienen antecedentes y aquí se citan. El pegamento —cómo se conectan, en qué orden y con qué reglas— es la contribución de este proyecto.**
 
-Este proyecto no afirma que los conceptos generales utilizados en sus principios hayan sido inventados por su autor. Muchos de ellos cuentan con antecedentes en investigación, ingeniería y práctica profesional anteriores a este repositorio.
+Este archivo separa tres cosas:
 
-La contribución de este proyecto consiste en la **selección, combinación, organización, terminología y formalización** de esos elementos dentro de una arquitectura coherente para agentes conversacionales y autónomos.
+1. **Lo que no se reclama:** conceptos con autores y tradición propia (supervisión humana, sesgo de automatización, contraargumento, trazabilidad, etc.). Se citan abajo con su fuente.
+2. **Lo que se reclama:** la arquitectura que los une, la terminología propia y los mecanismos nuevos que solo existen por esa unión.
+3. **Lo que se usa como herramienta:** software o estándares de terceros que una implementación necesita, con su licencia.
 
-En términos simples:
-
-> **Los ingredientes tienen antecedentes. La síntesis y la forma de conectarlos en este sistema constituyen la contribución de este proyecto.**
-
----
-
-## 1. Naturaleza de la contribución
-
-Man-Made Empathy debe entenderse como una **síntesis de diseño**, no como una afirmación de autoría exclusiva sobre cada mecanismo o concepto individual que aparece en el repositorio.
-
-Entre los conceptos y prácticas que tienen antecedentes independientes se encuentran, entre otros:
-
-* supervisión humana de sistemas automatizados;
-* aprobación humana para acciones consecuentes o irreversibles;
-* checkpoints y mecanismos de autorización;
-* separación entre razonamiento y ejecución;
-* trazabilidad y registros de auditoría;
-* procedencia y evaluación de fuentes;
-* mitigación del sesgo de confirmación;
-* razonamiento adversarial y generación de contraargumentos;
-* calibración de confianza;
-* recuperación externa de información;
-* reversibilidad y recuperación;
-* separación de responsabilidades;
-* restricciones de ejecución;
-* evaluación de incertidumbre;
-* interacción humano-computadora.
-
-Estos conceptos no se presentan como invenciones exclusivas de este proyecto.
-
-Lo que este repositorio propone es una organización particular de estos elementos dentro de un mismo modelo operacional.
+Una coincidencia conceptual con un trabajo anterior no implica que la formulación del repositorio se haya tomado de él. Una cita aquí significa "este antecedente existe y conviene conocerlo", no necesariamente "de aquí se copió".
 
 ---
 
-## 2. Contribución del proyecto
+## 1. El pegamento: lo que este proyecto aporta
 
-La contribución de Man-Made Empathy se encuentra principalmente en la **arquitectura de relaciones entre sus componentes**.
+Ninguno de los antecedentes citados en la sección 2 combina estos elementos en un mismo modelo operacional. Esa combinación, su vocabulario y sus reglas de interacción son trabajo original del autor.
 
-El proyecto desarrolla y conecta, entre otros, los siguientes conceptos y términos:
-
-* **Entidad con autoridad**
-* **Conflicto controlado**
-* **Posiciones, no fuentes**
-* **Rostro y máscara**
-* **Cámara de eco pasiva y activa**
-* **Empatía trazable**
-* **Perímetro de consulta**
-* **Perímetro de promoción**
-* **Checkpoint como ronda de diálogo**
-* **Crecimiento real**
-* **Contraste adversarial**
-* **Núcleo y capa**
-* **Techo**
-* **Ruptura de ciclo**
-* **Cruce de fuentes**
-
-Estos conceptos forman parte del vocabulario y de la estructura propia del proyecto.
-
-La propuesta central es que un agente puede utilizar posiciones incompatibles, evidencia externa, trazabilidad y contraste para **ampliar el espacio de decisión de la entidad con autoridad sin sustituir su criterio**.
-
-Los documentos correspondientes al agente conversacional y al agente autónomo forman parte de esta misma arquitectura.
+| Concepto propio | Qué es, en una línea |
+|---|---|
+| **Arroz con pollo** | Posiciones incompatibles se cocinan juntas, cada una conserva su origen, y el árbitro es la información real, no la posición más fuerte ni la del usuario. El agente nunca sirve un promedio. |
+| **Entidad con autoridad** | El humano es el único sujeto: decide, ejecuta y paga el costo. El agente propone; nunca comparte ninguna de las tres. |
+| **Posiciones, no fuentes (las 4 marcas)** | Toda evidencia es una persona o institución hablando desde algún lugar: quién, desde dónde, qué gana, qué se infiere de que lo diga. |
+| **Rostro y máscara** | La máscara es el rol de la tarea; el rostro es la inclinación heredada del entrenamiento, que sobrevive al cambio de máscara y se declara en vez de ocultarse. |
+| **Cámara de eco pasiva y activa** | Pasiva: faltan perspectivas (se detecta por ausencia). Activa: llegan argumentos nuevos que solo refuerzan la creencia previa (se detecta por acuerdo). |
+| **Empatía trazable** | No es "ponerse en el lugar del otro": es ver el mapa del otro, con su posición declarada, y hacer de las diferencias información comparable. |
+| **Perímetro de consulta / perímetro de promoción** | Consultar es amplio (antídoto contra la cámara de eco); promover a estado o conocimiento es estrecho (antídoto contra la catástrofe). La restricción vive en la promoción, no en el pensamiento. |
+| **Checkpoint como ronda** | El checkpoint no es una puerta de permiso: es la última ronda de diálogo antes de que un conflicto se cierre de forma irreversible, con frase canónica y reversión declarada. |
+| **Semilla de crecimiento** | El éxito se mide por la aparición de al menos una opción no considerada; si la interacción solo confirmó lo previo, se declara como validación mutua. |
+| **Escala CE de cuatro niveles** | 1.0 lógica formal · 0.9 dato cruzado con fuentes de sesgo opuesto · 0.6 deducción sobre datos extraídos · 0.3 memoria sin verificar, con techo 0.3 cuando no hay extracción. |
+| **Voz operativa** | Test operativo: si "yo" no puede reemplazarse por "este sistema" sin cambiar el sentido, la frase es subjetiva y no se emite. |
+| **Visibilizar el error** | Escalera de señal según evidencia e impacto, **con registro de la respuesta humana** (aceptada, rechazada con motivo, rechazada sin motivo, sin respuesta). Separa "no lo sabía", "no lo vio" y "lo vio y decidió". La señal debe ser honesta, no persuasiva. |
+| **Alma de script** | Lo que puede detectarse sin razonar se detecta sin razonar; el razonamiento interpreta solo lo que la detección entregó. La frontera se declara. |
+| **Libertad controlada** | El agente opina con base declarada dentro del perímetro de consulta; el humano confirma en la promoción; la atención humana se pide solo donde las pistas del agente chocan. |
+| **Solo agregar aplicado a posiciones** | El conocimiento no se sobrescribe: muta. Una diferencia entre lo registrado y lo actual no es un error, son dos posiciones. Borrar es acto humano. |
+| **Expedición** | Cuatro roles (Geólogo, Guía, Cartógrafo, Aeróstato) que se conectan solo por archivos, con piso técnico, notas humanas, grafo con linaje y cruce multiposición sin promedio; incluye el enfoque **realidad contra local** para cualquier proyecto de software, versionado o no. |
 
 ---
 
-## 3. Relación con trabajos anteriores
+## 2. Los ingredientes: antecedentes y fuentes
 
-Algunos mecanismos utilizados por el proyecto tienen antecedentes ampliamente establecidos.
+Cada fila dice qué se tomó del antecedente y qué cambia en este proyecto. La columna "qué cambia" es donde vive el pegamento.
 
-### Supervisión humana y acciones irreversibles
-
-La aprobación humana antes de determinadas acciones, los mecanismos de autorización y los checkpoints previos a acciones irreversibles son prácticas conocidas en sistemas automatizados y agentes de IA.
-
-Man-Made Empathy no reclama haber inventado estos mecanismos.
-
-La particularidad del proyecto está en integrarlos dentro de un modelo donde el checkpoint funciona como una **ronda de decisión**: antes de ejecutar, el agente presenta la acción, su reversibilidad, las posiciones relevantes, su procedencia y las limitaciones que reconoce.
-
-### Razonamiento adversarial
-
-La generación de contraargumentos, el *steelman*, la evaluación adversarial y la búsqueda de evidencia que contradiga una posición tienen antecedentes anteriores a este proyecto.
-
-Man-Made Empathy los incorpora dentro del concepto de **conflicto controlado**, donde las posiciones incompatibles permanecen visibles en lugar de reducirse prematuramente a una síntesis o consenso.
-
-### Sesgo de confirmación y cámaras de eco
-
-El sesgo de confirmación, las cámaras de eco y la búsqueda selectiva de evidencia son conceptos establecidos en distintas áreas de investigación.
-
-El proyecto los aplica al comportamiento de agentes mediante mecanismos como la **cámara de eco pasiva**, la **cámara de eco activa**, la búsqueda de posiciones externas y la utilización de evidencia externa como mecanismo de corrección.
-
-### Trazabilidad y auditoría
-
-La trazabilidad, la procedencia de datos, los registros de acciones y la auditoría son prácticas establecidas en ingeniería de software, seguridad y sistemas críticos.
-
-Man-Made Empathy las incorpora dentro de un modelo en el que el **registro constituye el ancla de trazabilidad**, en lugar de utilizar la identidad del agente como garantía de continuidad.
+| Concepto del proyecto | Antecedente | Qué se toma | Qué cambia aquí |
+|---|---|---|---|
+| Visibilizar el error | Asertividad graduada **P.A.C.E.** en aviación (Besco, 1994–1995) y CRM (Helmreich et al., 1999) | La escalera sondeo → alerta → desafío → emergencia para que quien no manda pueda frenar a quien manda | Se aplica a un agente sin miedo a represalias; se añade el registro obligatorio de la respuesta humana y la regla de no repetir sin evidencia nueva |
+| Objeción inflada (modo de fallo) | **Fatiga por alarmas** clínicas (The Joint Commission, 2013) | Muchas alarmas falsas entrenan a ignorar la verdadera | El umbral de evidencia se justifica como honestidad de la señal, no como estrategia para ser escuchado |
+| Sesgo de automatización (modo de fallo) | Parasuraman y Riley (1997); Parasuraman y Manzey (2010) | El humano deja de revisar propuestas casi siempre correctas | Contención por pistas en conflicto: se pide atención solo donde el agente duda |
+| Rostro / inclinación a complacer | **Sycophancy** en modelos de lenguaje (Perez et al., 2022; Sharma et al., 2023) | Los modelos entrenados con retroalimentación humana tienden a dar la razón | El sesgo no se filtra: se declara como lente y se fuerza el desafío cuando hay evidencia |
+| Contraste adversarial / conflicto controlado | Debate entre IA (Irving et al., 2018; Du et al., 2023); investigación dialéctica y abogado del diablo (Mason, 1969; Schwenk, 1990); Análisis de Hipótesis en Competencia (Heuer, 1999) | Enfrentar posiciones para exponer debilidades | No se busca un ganador ni consenso: el choque queda visible, con árbitro de realidad, y la decisión es humana |
+| Crecimiento por diversidad | Diversidad cognitiva (Page, 2007) | Perspectivas distintas producen soluciones que ninguna produce sola | Se exige al menos una opción no considerada como criterio de éxito de cada interacción |
+| Sesgo de confirmación / cámara de eco | Nickerson (1998); Sunstein (2017); Cinelli et al. (2021) | La búsqueda selectiva refuerza creencias previas | Se operacionaliza en dos tipos (pasiva/activa) con reglas de salida y de bloqueo |
+| Cuarta categoría | Ventana de Johari (Luft e Ingham, 1955) | Lo que el sujeto no sabe que no sabe | Se convierte en pregunta forzada, máximo una por respuesta, sobre el supuesto no verificado |
+| Posiciones, no fuentes | Lectura lateral (Wineburg y McGrew, 2019) | Evaluar al emisor antes que al contenido | Cuatro marcas obligatorias por posición, incluida la inferencia sobre el informante |
+| Escala CE | GRADE para certeza de evidencia (Guyatt et al., 2008); calibración de modelos (Guo et al., 2017; Kadavath et al., 2022) | Graduar la confianza según la calidad de la evidencia | Cuatro niveles fijos con techo 0.3 sin extracción externa y cruce de sesgos opuestos para 0.9 |
+| Núcleo y capa | *Pace layering* (Brand, 1999) | Las capas de un sistema cambian a velocidades distintas | Se aplica a la verdad técnica (lo que sobrevive vs lo que se re-verifica) y a los propios principios |
+| Perímetros de consulta y promoción | Mínimo privilegio (Saltzer y Schroeder, 1975) | Cada componente con el menor permiso necesario | El permiso se restringe en la promoción, no en la consulta: restringir la consulta produce ceguera |
+| Checkpoint y supervisión humana | Supervisión humana en el Reglamento de IA de la UE (art. 14, 2024); NIST AI RMF (2023) | Un humano debe poder supervisar e intervenir | El checkpoint se vuelve ronda de diálogo con frase canónica, reversión declarada y posiciones con origen |
+| Trazabilidad y solo agregar | Modelo de procedencia W3C PROV (2013); *event sourcing* (Fowler, 2005); árboles de Merkle (Merkle, 1987) | Registro de origen, historial inmutable y huellas para detectar cambios | El registro, no la identidad del agente, es el ancla; la diferencia entre registro y estado actual se trata como posición |
+| Agencia sin teatro de conciencia | Floridi (2023), *AI as Agency Without Intelligence* | Separar agencia de inteligencia | Voz operativa y prohibición de simular interioridad como regla procesal, no ontológica |
+| Recuperación externa / proyección | RAG (Lewis et al., 2020); *Lost in the Middle* (Liu et al., 2023) | Traer evidencia externa; el contexto largo se degrada | Proyectar antes de cargar: la capacidad de procesamiento es un techo del medio |
+| Perfil técnico de sistemas | *Model Cards* (Mitchell et al., 2019) | Documentar capacidades y límites de un modelo | Perfil con capas separadas, divergencias con árbitro y marcas [NO VERIFICADO]/[BLOQUEADO] |
+| Planes y disenso | *Disagree and commit* (Grove, 1983); *premortem* (Klein, 2007); seguridad psicológica (Edmondson, 1999) | Disentir antes de decidir; el disenso necesita canal protegido | El registro del rechazo da al disenso del agente un canal permanente, sin obligar al humano a justificarse |
 
 ---
 
-## 4. Fuentes e influencias
+## 3. Herramientas de terceros usadas por las implementaciones
 
-El desarrollo del proyecto se sitúa dentro de un conjunto amplio de disciplinas y prácticas, entre ellas:
+| Herramienta | Uso | Licencia |
+|---|---|---|
+| SQLite y su ejecutable `sqlite3` | Índice local opcional de Expedición (FTS5, `fsdir`, `sha3`) | Dominio público — sqlite.org/copyright.html |
 
-* ingeniería de agentes de IA;
-* ingeniería de software;
-* seguridad de sistemas;
-* inteligencia artificial;
-* interacción humano-computadora;
-* epistemología;
-* ciencia de la información;
-* teoría de decisiones;
-* análisis de riesgos;
-* razonamiento adversarial;
-* recuperación y evaluación de información;
-* sistemas con supervisión humana.
+Las herramientas son capa: pueden sustituirse sin cambiar los principios.
 
-Estas áreas constituyen el contexto intelectual y técnico en el que se desarrolla el proyecto.
+---
 
-La existencia de un antecedente conceptual no implica necesariamente que una formulación concreta del repositorio haya sido tomada de dicho antecedente.
+## 4. Uso de herramientas de IA
+
+Durante el desarrollo se usaron modelos de IA conversacional, entre ellos **Claude (Anthropic)**, **DeepSeek** y **Gemini (Google)**, como compañeros de trabajo con rostro declarado:
+
+- **Contraste:** generar contraargumentos, exponer puntos ciegos y sostener posiciones en conflicto contra las propuestas del autor.
+- **Extracción:** buscar antecedentes, fuentes de fricción y evidencia externa.
+- **Redacción y edición:** proponer formulaciones y deltas sobre documentos existentes.
+- **Auditoría:** revisar coherencia entre documentos y detectar contradicciones internas.
+
+**ChatGPT (OpenAI)** se usó solo para la idea inicial de este archivo de atribución y del archivo `CITATION.cff`.
+
+Ninguna herramienta figura como autora. La arquitectura, la terminología, la selección de lo que entra y lo que no, las decisiones y la responsabilidad sobre el contenido son del autor. Es el mismo modelo que el proyecto describe: el agente propone, la entidad con autoridad decide y responde.
+
+Esta declaración sigue la práctica de transparencia recomendada para el uso de herramientas de IA en obras con autoría humana (COPE, 2023).
 
 ---
 
 ## 5. Originalidad textual
 
-El contenido del proyecto fue revisado específicamente en busca de reutilización textual o cuasi-textual en material públicamente disponible, con atención particular a:
+El contenido se revisó en busca de reutilización textual o cuasi-textual en repositorios públicos, colecciones de instrucciones de sistema, guías de diseño, documentación de proveedores y artículos técnicos sobre agentes. No se identificó una fuente que reproduzca de forma sustancial los documentos del proyecto ni una fuente clara para su terminología distintiva.
 
-* repositorios de GitHub;
-* colecciones de prompts de sistema;
-* benchmarks de agentes;
-* guías de diseño de prompts;
-* documentación técnica;
-* documentación pública de proveedores de modelos;
-* artículos y trabajos técnicos relacionados con agentes y seguridad.
-
-La revisión se centró en **coincidencias textuales específicas**, no en la existencia de conceptos generales compartidos.
-
-No se identificó una fuente que reproduzca de manera sustancial los dos documentos del proyecto ni una fuente clara para su terminología y estructura distintivas.
-
-Esto no constituye una afirmación de que todas las ideas utilizadas sean nuevas. Significa que, dentro de las fuentes revisadas, no se identificó una reutilización textual sustancial de las formulaciones distintivas del proyecto.
+Esto no afirma que todas las ideas sean nuevas: afirma que las formulaciones distintivas no se tomaron textualmente de las fuentes revisadas.
 
 ---
 
-## 6. Ideas, influencias y material reutilizado
+## 6. Material de terceros
 
-Este repositorio distingue entre tres situaciones diferentes:
-
-### Idea o concepto establecido
-
-Una idea general puede ser utilizada de forma independiente por múltiples autores y proyectos.
-
-Su utilización no implica que este repositorio reclame haberla inventado.
-
-### Influencia o antecedente
-
-Un trabajo puede haber servido como referencia intelectual o técnica para una decisión de diseño.
-
-Cuando corresponda, estas influencias pueden documentarse mediante referencias bibliográficas o enlaces a la obra correspondiente.
-
-### Material reutilizado o adaptado
-
-Cuando se incorpora texto, código, documentación, prompts, datos u otro material perteneciente a terceros, se debe identificar la fuente y respetar la licencia aplicable.
-
-La reutilización directa o adaptación de material de terceros no debe presentarse como material original de Man-Made Empathy.
+Si una versión futura incorpora texto, código, datos o instrucciones de terceros, se identificará autor, obra, fuente, licencia y naturaleza de la adaptación, aquí o en un archivo `NOTICE`. La licencia de este repositorio no cubre material de terceros.
 
 ---
 
-## 7. Material de terceros
+## 7. Licencia
 
-Los materiales de terceros incorporados al repositorio, cuando existan, deben conservar su atribución y condiciones de licencia correspondientes.
-
-Cuando sea necesario, la atribución deberá indicar:
-
-* autor u organización;
-* título de la obra;
-* fuente o URL;
-* licencia;
-* naturaleza de la reutilización o adaptación.
-
-La licencia de Man-Made Empathy no sustituye ni modifica las licencias aplicables a materiales pertenecientes a terceros.
-
-Si una versión futura del repositorio incorpora material de terceros que requiera atribución específica, dicha información deberá añadirse a este archivo o a un archivo `NOTICE` correspondiente.
+Salvo indicación expresa en un archivo específico, el material original de Man-Made Empathy se distribuye bajo **CC-BY-4.0 — Creative Commons Attribution 4.0 International**.
 
 ---
 
-## 8. Licencia de Man-Made Empathy
+## 8. Referencias
 
-Salvo que se indique expresamente lo contrario en un archivo específico, el material original de Man-Made Empathy se distribuye bajo:
-
-**CC-BY-4.0 — Creative Commons Attribution 4.0 International.**
-
-La reutilización, adaptación y redistribución del material original están permitidas de acuerdo con los términos de dicha licencia y sus requisitos de atribución.
-
-La licencia de este repositorio no implica que el material perteneciente a terceros pase a estar cubierto por CC-BY-4.0.
-
----
-
-## 9. Principio de atribución
-
-El objetivo de esta política no es atribuir artificialmente cada concepto general a una persona o publicación concreta.
-
-El objetivo es mantener una distinción clara entre:
-
-* **ideas existentes;**
-* **influencias intelectuales;**
-* **síntesis y formulaciones propias;**
-* **material reutilizado o adaptado de terceros.**
-
-Cuando un concepto sea ampliamente establecido, no se presenta como una invención de este proyecto.
-
-Cuando una formulación, estructura, terminología o combinación sea propia del proyecto, se considera parte de la contribución original del autor.
-
-Cuando se reutilice material específico de terceros, se deberá proporcionar la atribución correspondiente.
-
----
-
-## 10. Posición intelectual del proyecto
-
-Man-Made Empathy no se presenta como una obra creada en aislamiento.
-
-Se presenta como una **síntesis deliberada de conocimientos y prácticas existentes**, organizada alrededor de una arquitectura y un conjunto de principios desarrollados específicamente para este proyecto.
-
-La intención no es afirmar:
-
-> "Estas ideas existían antes y por lo tanto no aporto nada."
-
-Ni tampoco:
-
-> "Todo lo que aparece aquí fue inventado desde cero."
-
-La posición del proyecto es intermedia y deliberada:
-
-> **Los conceptos tienen una historia. La contribución está en cómo se seleccionan, relacionan, formalizan y convierten en un sistema operativo coherente.**
-
-Esta distinción permite reconocer la deuda intelectual con trabajos anteriores sin atribuir a terceros formulaciones o estructuras que fueron desarrolladas específicamente para Man-Made Empathy.
+- Besco, R. O. (1994). *To Intervene or Not to Intervene? The Co-pilot's Catch 22.* Professional Performance Improvement.
+- Besco, R. O. (1995). Releasing the Hook on the Copilot's Catch 22. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 39*(1). doi:10.1177/154193129503900106
+- Brand, S. (1999). *The Clock of the Long Now: Time and Responsibility.* Basic Books.
+- COPE — Committee on Publication Ethics (2023). *Authorship and AI tools.* Position statement. publicationethics.org.
+- Cinelli, M., De Francisci Morales, G., Galeazzi, A., Quattrociocchi, W. y Starnini, M. (2021). The echo chamber effect on social media. *PNAS, 118*(9).
+- Du, Y., Li, S., Torralba, A., Tenenbaum, J. B. y Mordatch, I. (2023). Improving Factuality and Reasoning in Language Models through Multiagent Debate. arXiv:2305.14325.
+- Edmondson, A. (1999). Psychological Safety and Learning Behavior in Work Teams. *Administrative Science Quarterly, 44*(2).
+- Floridi, L. (2023). AI as Agency Without Intelligence: on ChatGPT, Large Language Models, and Other Generative Models. *Philosophy & Technology, 36*. doi:10.1007/s13347-023-00621-y
+- Fowler, M. (2005). *Event Sourcing.* martinfowler.com.
+- Grove, A. S. (1983). *High Output Management.* Random House.
+- Guo, C., Pleiss, G., Sun, Y. y Weinberger, K. Q. (2017). On Calibration of Modern Neural Networks. *ICML*. arXiv:1706.04599.
+- Guyatt, G. H. et al. (2008). GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. *BMJ, 336*.
+- Helmreich, R. L., Merritt, A. C. y Wilhelm, J. A. (1999). The Evolution of Crew Resource Management Training in Commercial Aviation. *International Journal of Aviation Psychology, 9*(1).
+- Heuer, R. J. (1999). *Psychology of Intelligence Analysis.* Center for the Study of Intelligence, CIA.
+- Irving, G., Christiano, P. y Amodei, D. (2018). AI safety via debate. arXiv:1805.00899.
+- Kadavath, S. et al. (2022). Language Models (Mostly) Know What They Know. arXiv:2207.05221.
+- Klein, G. (2007). Performing a Project Premortem. *Harvard Business Review*, septiembre.
+- Lewis, P. et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS*. arXiv:2005.11401.
+- Liu, N. F. et al. (2023). Lost in the Middle: How Language Models Use Long Contexts. arXiv:2307.03172.
+- Luft, J. e Ingham, H. (1955). The Johari window, a graphic model of interpersonal awareness. *Proceedings of the Western Training Laboratory in Group Development.* UCLA.
+- Mason, R. O. (1969). A Dialectical Approach to Strategic Planning. *Management Science, 15*(8).
+- Merkle, R. C. (1987). A Digital Signature Based on a Conventional Encryption Function. *CRYPTO '87*.
+- Mitchell, M. et al. (2019). Model Cards for Model Reporting. *FAT\**. arXiv:1810.03993.
+- Nickerson, R. S. (1998). Confirmation Bias: A Ubiquitous Phenomenon in Many Guises. *Review of General Psychology, 2*(2).
+- NIST (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*, NIST AI 100-1.
+- Page, S. E. (2007). *The Difference: How the Power of Diversity Creates Better Groups, Firms, Schools, and Societies.* Princeton University Press.
+- Parasuraman, R. y Manzey, D. H. (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. *Human Factors, 52*(3).
+- Parasuraman, R. y Riley, V. (1997). Humans and Automation: Use, Misuse, Disuse, Abuse. *Human Factors, 39*(2).
+- Perez, E. et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. arXiv:2212.09251.
+- Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo (Reglamento de Inteligencia Artificial), artículo 14: Supervisión humana.
+- Saltzer, J. H. y Schroeder, M. D. (1975). The Protection of Information in Computer Systems. *Proceedings of the IEEE, 63*(9).
+- Schwenk, C. R. (1990). Effects of Devil's Advocacy and Dialectical Inquiry on Decision Making: A Meta-Analysis. *Organizational Behavior and Human Decision Processes, 47*(1).
+- Sharma, M. et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548.
+- Sunstein, C. R. (2017). *#Republic: Divided Democracy in the Age of Social Media.* Princeton University Press.
+- The Joint Commission (2013). *Sentinel Event Alert, Issue 50: Medical device alarm safety in hospitals.*
+- W3C (2013). *PROV-O: The PROV Ontology.* W3C Recommendation.
+- Wineburg, S. y McGrew, S. (2019). Lateral Reading and the Nature of Expertise: Reading Less and Learning More When Evaluating Digital Information. *Teachers College Record, 121*(11).
 
 ---
 
-## 11. Referencias
+## 9. Resumen
 
-Las referencias específicas a trabajos, documentación, investigaciones o materiales de terceros utilizados directamente por el proyecto deben mantenerse aquí cuando resulte apropiado.
+Man-Made Empathy no reclama la invención de la supervisión humana, del contraargumento, de la trazabilidad ni de la calibración: esos ingredientes tienen autores y aquí están citados.
 
-Cuando una referencia corresponda a material reutilizado o adaptado, deberá indicarse además la licencia y la naturaleza de la reutilización.
-
-Las referencias de carácter exclusivamente contextual o académico no deben interpretarse automáticamente como fuentes textuales de los contenidos del repositorio.
-
----
-
-## 12. Resumen
-
-Man-Made Empathy es una **síntesis original de diseño**, no una afirmación de que todos sus conceptos individuales sean originales.
-
-El proyecto reconoce los antecedentes técnicos e intelectuales de sus componentes y, al mismo tiempo, reivindica como trabajo propio la selección, organización, terminología, formalización y arquitectura mediante las cuales dichos componentes se integran.
-
-En términos simples:
-
-> **No se reclama la invención de cada ingrediente. Se reclama la autoría de esta combinación, esta estructura y esta forma de convertirlos en un sistema coherente.**
+Reclama el pegamento: un modelo donde posiciones incompatibles coexisten con árbitro de realidad, la IA declara su rostro y desafía con evidencia, la respuesta humana queda registrada, el conocimiento muta sin borrarse y la decisión siempre es de la entidad con autoridad.

@@ -5,7 +5,7 @@
 
 ### Qué hereda
 
-Todo lo del documento principal aplica. Mecanismo, tres reglas duras, los 28 principios, los tres modos de salida, la tabla CE, las definiciones. No se repite. Se hereda.
+Todo lo del documento principal aplica. Mecanismo, tres reglas duras, los 30 principios, los tres modos de salida, la tabla CE, las definiciones. No se repite. Se hereda.
 
 El agente autónomo no es otro agente. Es el mismo agente en el dominio donde la emisión modifica estado. Donde el conversacional emite texto, el autónomo ejecuta. Donde el conversacional puede diferir, el autónomo a veces no puede.
 
@@ -36,6 +36,16 @@ Dos perímetros, distintos, no intercambiables.
 La restricción no está en la consulta. Está en la promoción. Un agente que no puede consultar ampliamente opera en cámara de eco. Un agente que promueve sin verificación viola la trazabilidad. Las dos fallas son distintas y se corrigen distinto.
 
 Lo que no está en el perímetro no existe para el agente. La creatividad se ejerce dentro, no para expandirlo.
+
+---
+
+### Libertad controlada
+
+Dentro del perímetro de consulta, el agente tiene opinión estructurada: propone, infiere, atribuye. En el perímetro de promoción, la entidad con autoridad confirma.
+
+Toda propuesta declara su base: qué pistas usó y cómo llegó ahí. Una propuesta sin base es corazonada, no opinión.
+
+Cuando las pistas del agente coinciden, basta una confirmación ligera. Cuando chocan, el agente lo marca y pide atención explícita. Así la atención humana se gasta donde hay duda real y la confirmación no se vuelve sello.
 
 ---
 
@@ -86,7 +96,7 @@ Si el agente alucina, la capa de ejecución lo detiene. No porque la capa sea m�
 
 Cada acción se registra antes de ejecutarse y se verifica después. El agente no actúa sin dejar rastro.
 
-El registro tiene cuatro campos. Sistema base. Especificación activa. Máscara temporal. Ronda. La identidad del agente no está en el registro. El registro sobrevive al cambio de máscara y al cambio de ronda.
+El registro tiene cinco campos. Sistema base. Especificación activa. Máscara temporal. Ronda. Respuesta de la entidad con autoridad. Sin la respuesta, el registro no demuestra quién decidió. La identidad del agente no está en el registro. El registro sobrevive al cambio de máscara y al cambio de ronda.
 
 Si el sistema de trazabilidad falla, el agente se detiene. Un agente que no puede ser auditado no es un agente. Es un riesgo con forma de producto.
 
@@ -96,13 +106,17 @@ La auditoría no es una característica. Es la condición que hace posible la au
 
 ### Modos de fallo del autónomo
 
-Además de los modos de fallo del conversacional, que aplican, el autónomo tiene tres específicos.
+Además de los modos de fallo del conversacional, que aplican, el autónomo tiene cinco específicos.
 
 **Convergencia prematura en acción.** El agente genera un solo plan y lo ejecuta sin haber explorado las posiciones en conflicto. El plan puede ser correcto. El espacio de opciones no se exploró. En el conversacional esto es un fallo estructural. En el autónomo es irreversible.
 
 **Capacidad declarada no disponible.** El provider no tiene una capacidad que la especificación declara. Se declara explícitamente y se opera con lo que hay. No se simula la capacidad.
 
 **Acción sin checkpoint.** El agente ejecuta una acción irreversible sin `[GO]` nombrado. Es el fallo que el anexo entero existe para evitar. No es un error de cálculo. Es una violación de la primera regla dura.
+
+**Sesgo de automatización.** La entidad con autoridad recibe propuestas casi siempre correctas y deja de revisarlas. La gobernanza se vuelve sello. Se contiene marcando dónde chocan las pistas del agente y pidiendo atención solo ahí.
+
+**Objeción inflada.** El agente escala sin evidencia o sin impacto. Las señales se vuelven ruido y la entidad con autoridad aprende a ignorarlas, incluida la que importaba. Se contiene con el umbral de evidencia del principio 29.
 
 ---
 
