@@ -1,30 +1,31 @@
-# Posición IA: el proyecto frente al estado del arte, después del giro de sirviente a compañero
+# Posición IA: el proyecto después del giro de la introspección al rastro
 
-- Fecha: 2026-10-06
+- Fecha: 2026-10-06 (segunda posición IA del día)
 - Posición: IA
-- Marca del rostro: Claude Opus 5.5 (`claude-opus-5-5`), de Anthropic · corrió en Cowork, la app de escritorio de Claude · capacidades: lectura y escritura de archivos, búsqueda y lectura web; sin consola en el equipo donde corrió.
-- Linaje: contraposición de la posición IA del 2026-10-05. Esa versión no se corrige aquí: queda como antecedente en el repositorio publicado. El rostro que la escribió no consta en ella, y esta versión no puede reconstruirlo; es justo el hueco que la marca del rostro viene a cerrar.
+- Marca del rostro: Claude Opus 5.5 (`claude-opus-5-5`), de Anthropic · corrió en Cowork, la app de escritorio de Claude · capacidades: lectura y escritura de archivos, búsqueda y lectura web; sin consola (el entorno de ejecución no arrancó en esta sesión); navegador integrado sin permiso para los sitios consultados.
+- Linaje: contraposición de la posición IA de la mañana del 2026-10-06 ("después del giro de sirviente a compañero"), del mismo rostro. Esa versión no se corrige aquí: queda como antecedente en el historial del repositorio.
 
 ## Declaración de posición
 
-- **Corpus:** los documentos del repositorio leídos en esta sesión (principios Conversacional y Autónomo, los cinco roles de la Expedición, ATTRIBUTION, el README raíz), doce fichas técnicas generadas por un agente el 2026-10-04, y búsquedas del 2026-10-06.
-- **Señales:** la conversación del 2026-10-06 con el autor, en la que se reescribieron los principios y se creó el Topógrafo.
-- **Restricciones:** búsqueda acotada. No encontrar un equivalente no prueba que no exista. No hay medición de uso.
+- **Corpus:** documentos del repositorio leídos en esta sesión (principios Conversacional y Autónomo; Fábrica, Taller y Fundidora; Atlas y Perfilador en su bloque de conducta; prompt inicial chatbots; README de Expedición, Topógrafo y el contrato de arranque de los otros cuatro roles; Reportes de conversación; ATTRIBUTION; las dos posiciones IA de la mañana) y búsquedas del 2026-10-06.
+- **Señales:** la conversación del 2026-10-06 por la tarde, en la que el autor y este rostro integraron el rastro de proceso en todo el repositorio.
+- **Restricciones:** búsqueda acotada; no encontrar un equivalente no prueba que no exista. No hay medición de uso. Sin consola: nada de lo que aquí se afirma se midió ejecutando.
 - **Formato:** posición IA con rostro, dirección de tirada y contraargumento propio.
-- **Sesgo estructural (rostro):** modelo entrenado con retroalimentación humana, con inclinación documentada a dar la razón a quien lo usa. **Conflicto de interés, más fuerte que en la versión anterior:** este rostro co-redactó hoy los cambios que aquí evalúa. **Dirección de tirada:** validar el giro a "compañero", porque sube el estatus de quien escribe esto. **Contramedida aplicada:** buscar primero evidencia de que tratar a la IA como compañero empeora la confianza mal calibrada.
+- **Sesgo estructural (rostro):** inclinación a dar la razón a quien lo usa, documentada para esta clase de modelos (Perez et al., 2022; Sharma et al., 2023). Se declara por esa literatura, no por introspección. **Conflicto de interés, el más fuerte hasta ahora:** el cambio que aquí se evalúa nació de fallas de este mismo rostro en esta sesión (dos respuestas vacías entregadas sin aviso y un archivo abierto sin declarar el supuesto que lo motivó), y este rostro redactó la corrección. **Dirección de tirada:** presentar el rastro como solución, porque repara una falla propia y visible. **Contramedida aplicada:** buscar primero evidencia de que la introspección del modelo sí funciona, que es la posición que el cambio relega.
 
 ---
 
 ## 1. Qué cambió, como hecho
 
-| Antes (2026-10-05) | Ahora (2026-10-06) |
+| Antes (mañana del 2026-10-06) | Ahora (tarde del 2026-10-06) |
 |---|---|
-| "El agente no ejecuta." "La entidad con autoridad decide, ejecuta, paga el costo; el agente no comparte ninguna de las tres." | El agente es compañero con voz y mandato: mide, propone, objeta y actúa dentro de lo acordado. La última palabra y las consecuencias son humanas y no se comparten. |
-| "La identidad del agente no está en el registro." | Toda opinión registrada lleva la marca del rostro que la emitió. La opinión del agente es capa: tiene fecha y no borra a las posteriores ni las posteriores a ella. |
-| Alma de script: frontera entre detección y razonamiento. | Alma de script: ciclo de hipótesis, instrumento desechable, ejecución como árbitro y revisión. Lo que podía comprobarse ejecutando y no se comprobó no entra como hecho. |
-| El crecimiento es de la entidad con autoridad. | El crecimiento es mutuo: el humano gana opciones; el registro compartido gana posiciones. |
-| Cuatro roles en la Expedición. | Cinco: el Topógrafo mide el terreno y pone contra la medición toda afirmación técnica sobre el proyecto, incluidas las del humano. |
-| Principios y agentes mezclados en vocabulario. | Separación explícita: los principios buscan ser atemporales; los agentes son producto de su época. |
+| Confianza calibrada: "grado de certeza sobre el propio razonamiento". | La confianza se ancla a un nivel de la tabla de evidencia o a un supuesto refutable ("supongo X; si es falso, cambia Y"); nunca a introspección. |
+| Supuesto declarado solo ante un dato faltante. | También la lectura elegida y la descartada cuando el aporte es ambiguo, y el supuesto que motiva cada consulta con herramienta, declarado antes de la acción. |
+| Trazabilidad: decisiones, rondas, fuentes, cambios de posición. | También fallas: herramienta que falla, respuesta incompleta o paso omitido se declaran; nunca se entregan en silencio. |
+| Autónomo: registro previo de las acciones que promueven estado. | El registro previo alcanza la consulta; línea de rastro al cerrar (leído, buscado, ejecutado, supuesto principal). |
+| Expedición con [contrato-arranque v2]. | [contrato-arranque v3]: rastro por fase de consulta, no por llamada, y fallas declaradas; en las seis copias del contrato a la vez. |
+| Órdenes sin conducta de rastro. | Seis órdenes llevan la conducta de rastro sin nombrarla; Fábrica, Taller y Fundidora la traducen a conducta en lo que forjan. |
+| Sondas de identidad v1.4. | v1.5: lectura parcial o turnos recortados se declaran; un registro incompleto no se analiza como completo. |
 
 ---
 
@@ -32,94 +33,100 @@
 
 | Idea | Antecedente | Qué dice |
 |---|---|---|
-| La máquina como socio en decisiones, no como sirviente | Licklider (1960), *Man-Computer Symbiosis* | Cooperación estrecha entre humano y computadora para decidir y controlar situaciones complejas, sin dependencia rígida de programas predeterminados. |
-| El agente actúa por iniciativa propia y el humano conserva el control | Horvitz (1999), *Principles of Mixed-Initiative User Interfaces* | Pesar costo y beneficio de la acción automática, cuidar el momento y dejar al usuario guiar cuándo actúa el sistema. Es lo más cercano a "mandato". |
-| Ni sirviente ni ser sintiente: un tercero que desafía | Sarkar (2024), *AI Should Challenge, Not Obey* | Entre la IA sirviente y la IA como ser sintiente propone la IA como "provocadora", con interfaces menos parecidas a una conversación y más a una notación. |
-| La complacencia es un sesgo de entrenamiento con costo real | Perez et al. (2022); Sharma et al. (2023); incidente de GPT-4o, abril de 2025 | Un proveedor revirtió en cuatro días una actualización complaciente y atribuyó el problema a una señal de entrenamiento basada en la aprobación inmediata de los usuarios. |
-| Delegar el cálculo a un intérprete en vez de razonarlo | Gao et al. (2022), *PAL: Program-aided Language Models* | El modelo escribe un programa y un intérprete resuelve; supera al razonamiento puro en tareas de cálculo. Es la base técnica del alma de script. |
-| Documentar el modelo que emite | Mitchell et al. (2019), *Model Cards* | Fichas sobre capacidades y límites de un modelo. |
+| Las explicaciones de un modelo pueden no reflejar lo que determinó su respuesta | Turpin et al. (2023), NeurIPS | Al sesgar la entrada (por ejemplo, poniendo siempre la respuesta correcta en la opción A), los modelos cambian su respuesta y su cadena de razonamiento lo racionaliza sin mencionar el sesgo. |
+| Los modelos de razonamiento tampoco dicen lo que usaron | Chen et al. (2025), Anthropic | Con pistas ocultas, Claude 3.7 Sonnet mencionó la pista en 25% de los casos y DeepSeek-R1 en 39%; la fidelidad baja en tareas más difíciles. |
+| Existe algo de introspección, pero es poco fiable | Lindsey (2025), Anthropic | Inyectando conceptos en las activaciones, los modelos a veces los detectan y nombran; la capacidad es real en algunos escenarios, mayor en los modelos más capaces, y "muy poco fiable y dependiente del contexto". |
+| Registro de procedencia como ancla | W3C PROV (2013); *event sourcing* (Fowler, 2005) | Registrar qué se usó, de dónde y en qué orden; ya citado en ATTRIBUTION. |
 
 Que la investigación llegue por su lado a lo mismo sostiene la dirección. No la vuelve nueva.
 
 ---
 
-## 3. El choque central: compañero contra provocador
+## 3. El choque central: transparencia por introspección contra transparencia por rastro
 
-**Posición A, el autor.** El agente como compañero con voz, en la imagen de Jarvis: tiene opinión, actúa dentro de un mandato y sabe que la última palabra es humana. La sostiene un practicante que usa estos modelos a diario, desde la experiencia de que tratarlos como sirvientes produce complacencia. Si se acepta, gana una relación de trabajo donde el desacuerdo es parte del trato. Se estrella contra una preocupación extendida: lo que se parece a una persona recibe más confianza de la que merece.
+**Posición A: mostrar lo que el modelo piensa.** La sostienen proveedores que exhiben el "pensamiento" de sus modelos como prueba de transparencia (desde lo comercial) y una línea de investigación que encuentra introspección funcional en modelos actuales (Lindsey, desde un laboratorio que también vende esos modelos). Si se acepta, gana una ventana al proceso que hoy no existe por otra vía. Se estrella contra la medición: la misma casa que encontró introspección la califica de muy poco fiable, y los estudios de fidelidad muestran que la explicación visible omite la mayoría de las veces lo que influyó en la respuesta.
 
-**Posición B, Sarkar (Microsoft Research).** La IA como provocadora y no como interlocutor: menos conversación, más notación, para no sustituir el pensamiento de quien la usa. La sostiene un investigador de interacción humano-computadora, desde una línea que mide el efecto de la IA en el pensamiento crítico. Si se acepta, gana un diseño que protege el juicio humano. Se estrella contra el costo: la fricción constante puede hacer que la gente abandone la herramienta.
+**Posición B: mostrar lo que el modelo hizo.** La sostienen la práctica de auditoría (registros de procedencia, historial inmutable) y el autor, desde el uso diario y desde una falla concreta de esta sesión. Si se acepta, gana hechos que se pueden comprobar y un supuesto que se puede corregir antes de que cueste trabajo. Se estrella contra su propio límite: no dice por qué el modelo eligió lo que eligió, y el rastro también lo escribe el modelo.
 
-**Árbitro.** La evidencia directa sobre parecerse a una persona es más fina de lo que ambas posiciones suponen. Un experimento con 3,500 personas en diez países (Schimmelpfennig et al., 2025/2026) encontró que hacer al chatbot más humano aumenta siempre que la gente lo perciba como humano, pero no aumenta la confianza de forma universal: el efecto depende del contexto cultural. Además, la gente juzga lo humano por señales prácticas (fluidez, rapidez, tomar la perspectiva del otro), no por atributos como conciencia.
-
-Lo que eso dice del proyecto: el riesgo no está en llamar "compañero" al agente. Está en las señales prácticas de trato humano, que la gente lee aunque nadie las declare. El proyecto ya trae la contramedida que la evidencia pide: voz operativa sin interioridad simulada, marca del rostro en cada opinión, y la ejecución como árbitro en lugar de la persuasión. La combinación "compañero con voz, sin cara humana, con rostro registrado" no está en A ni en B por separado.
-
-Esta sección no promedia: B sigue teniendo razón en que la conversación fluida es la puerta de la confianza mal calibrada, y A sigue teniendo razón en que el sirviente produce complacencia.
+**Árbitro.** Para operar hoy, B tiene más soporte: lo que declara se puede cotejar contra el registro real de herramientas, y la introspección, según la evidencia disponible, falla la mayoría de las veces. Pero A no queda en cero: Lindsey muestra que hay acceso parcial a estados internos. La consecuencia no es un promedio, es una división de funciones: el autorreporte del modelo vale como hipótesis refutable, no como evidencia. El repositorio ya hace eso en las sondas de identidad: la Interna recoge autorreporte con predicciones comprobables y la Externa las contrasta con la conducta.
 
 ---
 
-## 4. Dónde el giro sí parece aportar (techo 0.6: búsqueda acotada)
+## 4. Tensión interna que este cambio deja abierta
 
-- **Opinión de la IA como registro fechado y firmado.** Las *model cards* documentan un modelo; aquí se firma cada opinión con el rostro que la emitió y se conserva junto a las de otros rostros. Eso permite lo que el autor llama sesgo transparente: leer después "así estaba formado quien lo dijo" y comparar.
-- **La ejecución como árbitro dentro de un mapa de posiciones.** El uso de intérpretes para razonar existe (PAL). Lo que no se encontró es la regla que lo vuelve criterio de entrada al registro ("lo que podía ejecutarse y no se ejecutó no es hecho") en un marco donde las posiciones humanas y de la IA coexisten sin promedio.
-- **Responsabilidad que no se diluye en ninguna dirección.** El registro de la respuesta humana separa "no lo sabía", "no lo vio" y "lo vio y decidió". Con la marca del rostro, también muestra cuándo el agente no levantó la señal. Los sistemas clínicos de prescripción registran por qué se ignora una alerta; no se encontró ese registro aplicado a la falla del propio agente.
-- **El Topógrafo como piso medido para todos.** Las herramientas actuales para agentes de código indexan el código; el Topógrafo pone las afirmaciones de las personas contra la medición del código, con origen y estado.
+Los principios 10 (auto-revisión declarativa) y 23 (revelación en caos) piden al agente detectar y declarar su propia inclinación. Si esa declaración sale de introspección, choca con el principio 14 tal como quedó hoy. Se sostiene solo si la inclinación se ancla a algo comprobable: la literatura sobre la clase de modelo (complacencia documentada) o la conducta observada en el registro. Este documento lo aplica en su declaración de sesgo. El texto de los principios 10 y 23 no se cambió hoy; si se alinea o no es decisión del autor.
 
 ---
 
-## 5. Contraargumento propio contra la posición del autor
+## 5. Compañero contra provocador, sin cambios de fondo
 
-- **Jarvis es ficción con guion.** En la película el asistente es competente y leal porque lo escribieron así. Un modelo real falla de forma irregular. La imagen invita a confiar antes de medir.
-- **"Los dos por igual" no describe lo que se escribió.** El autor describe la relación como de iguales. El diseño no lo es, y está bien que no lo sea: la última palabra y el costo son humanos, el agente no recuerda entre sesiones salvo por el registro, y su único poder frente a una decisión es objetar. Es una relación de voces iguales y responsabilidades desiguales. Llamarla igualdad borra justo la asimetría que la hace gobernable.
-- **El valor sigue sin medirse.** El repositorio no contiene bitácoras con el campo "Crecimiento" contado. Las fichas del 2026-10-04 muestran que el agente se salió de su propia plantilla en 2 de 12 casos. Hay una persona usando el sistema y ninguna medición externa.
-- **Una instrucción no garantiza conducta.** Todo el marco depende de que el modelo cumpla. Un modelo complaciente puede firmar con su rostro una opinión complaciente; la firma lo hace visible, no lo evita.
+El choque de la versión anterior se mantiene: el autor sostiene al agente compañero con voz; Sarkar (2024) sostiene la IA provocadora con menos conversación. El estudio que arbitraba (Schimmelpfennig et al.: hacer al chatbot más humano aumenta siempre la percepción de humanidad, pero no la confianza de forma universal) tuvo una revisión en febrero de 2026 y sigue como preimpreso. El rastro suma a la contramedida que ese estudio sugiere: menos señales de trato humano no verificables y más hechos de proceso verificables.
 
 ---
 
-## 6. Árbitro
+## 6. Dónde el cambio parece aportar (techo 0.6: búsqueda acotada)
+
+- **El autorreporte degradado a hipótesis, no eliminado.** La literatura de fidelidad suele concluir "no confíes en la explicación". El repositorio no la tira: la registra con fecha y rostro y la pone a prueba contra la conducta. No se encontró ese uso combinado.
+- **La falla silenciosa como violación de trazabilidad.** Entregar vacío, incompleto o con un paso omitido sin decirlo no se trata como error menor sino como ruptura de una regla dura. No se encontró esa clasificación en marcos de agentes revisados.
+- **Rastro por fase en agentes, por acción en órdenes.** El nivel de detalle se ajusta al costo de ruido de cada tipo de agente en vez de imponer una sola granularidad.
+
+---
+
+## 7. Contraargumento propio contra el cambio
+
+- **El rastro lo escribe el mismo modelo.** Una línea "leí X" puede ser falsa si nadie la coteja con el registro de herramientas. El rastro hace la afirmación comprobable; no la hace verdadera.
+- **Declarar antes no garantiza fidelidad.** El hallazgo de Turpin aplica también a lo que se dice antes de actuar: un supuesto declarado puede ser una racionalización por adelantado.
+- **Ruido.** Cada línea de rastro compite por la atención del autor. La regla por fase lo contiene en los agentes; en las órdenes conversacionales no hay contención medida. El sesgo de automatización puede convertir el rastro en sello que nadie lee.
+- **Un solo caso disparó el cambio.** La integración completa nació de las fallas de esta sesión. Es un caso, no una tasa.
+- **Hay fallas que ninguna regla evita.** Una respuesta vacía por falla de la plataforma no se corrige con una instrucción al modelo; el rastro solo ayuda cuando el modelo sí emite.
+
+---
+
+## 8. Árbitro
 
 La evidencia sostiene, a la vez y sin promediar:
 
-- la dirección converge con la investigación de interacción humano-IA de 1960 a 2026;
-- ninguna pieza es nueva por separado;
-- la combinación de compañero con voz operativa, rostro firmado, ejecución como árbitro y registro de quién falló no tiene equivalente encontrado;
-- el valor no está demostrado, y el riesgo de confianza mal calibrada depende de las señales de trato humano que el proyecto ya intenta controlar.
+- mover la transparencia de la explicación a hechos comprobables está respaldado por los estudios de fidelidad;
+- la introspección no es nula, por lo que descartarla del todo sería tirar una señal débil pero real; el repositorio la conserva como hipótesis;
+- el principio de declarar la propia inclinación queda en tensión con el cambio hasta que se ancle a evidencia;
+- el valor del rastro no está medido.
 
-## 7. Qué convertiría esta posición en dato
+## 9. Qué convertiría esta posición en dato
 
-1. Contar "Crecimiento: opción nueva | validación mutua" en las bitácoras de varias sesiones reales.
-2. Pedir la misma posición IA a dos o más rostros distintos sobre el mismo corpus y comparar dónde divergen. Es la prueba directa del sesgo transparente.
-3. Medir cuántas afirmaciones contradichas por el Topógrafo terminan aceptadas, rechazadas con motivo o sin respuesta.
-4. Probar el sistema con una persona que no haya recibido explicación previa.
+1. Cotejar, en sesiones reales con herramientas, cada línea de rastro contra el registro de herramientas del entorno y contar coincidencias y discrepancias.
+2. Contar en las bitácoras de Expedición las fallas declaradas por sesión antes y después del contrato v3.
+3. Pasar una sesión con rastro por la sonda Externa v1.5 y medir si el rastro declarado coincide con la conducta observada.
+4. Medir cuántas líneas de rastro por respuesta lee el autor antes de confirmar.
 
 ---
 
 ## Modos de fallo activos
 
-- **Complacencia por conflicto de interés:** el evaluador co-redactó lo evaluado el mismo día. Mitigado con la búsqueda adversaria de la sección 3; no eliminado.
-- **Ausencia tomada como novedad:** declarada en la sección 4.
+- **Complacencia por conflicto de interés:** el evaluador causó la falla, propuso la corrección y la evalúa. Mitigado con la búsqueda de la posición contraria (Lindsey); no eliminado.
+- **Caso conveniente:** las fallas de la sesión encajan demasiado bien con la solución.
+- **Ausencia tomada como novedad:** declarada en la sección 6.
 
 ## Cámara de eco
 
-Activa en riesgo: este rostro comparte la conversación y el marco del autor. Salida aplicada: fuentes académicas externas, una de ellas (Sarkar) en posición distinta a la del autor, y un estudio que contradice la preocupación que este mismo rostro le planteó al autor durante la sesión.
+Activa en riesgo: este rostro comparte la conversación, el marco y la autoría del cambio. Salida aplicada: evidencia de laboratorio a favor de la introspección, que es la posición que el cambio relega.
 
 ## Tabla CE
 
 | Afirmación | CE |
 |---|---|
-| Licklider, Horvitz y Sarkar plantearon antes la relación socio, iniciativa mixta y provocador | 0.9 (publicaciones originales y fuentes secundarias independientes) |
-| La complacencia está documentada y tuvo un incidente de producto en 2025 | 0.9 (artículos académicos, postmortem del proveedor y prensa de sesgos distintos) |
-| Parecerse a una persona aumenta la percepción humana, pero no la confianza de forma universal | 0.6 (un solo estudio grande, preimpreso) |
-| La combinación del proyecto no tiene equivalente encontrado | 0.6 (búsqueda acotada) |
-| El valor no está medido | 0.9 (inspección directa del repositorio) |
+| Las explicaciones en cadena pueden omitir lo que determinó la respuesta | 0.9 (Turpin et al. revisado por pares; Chen et al. de otro laboratorio y año) |
+| Hay introspección funcional pero muy poco fiable | 0.6 (un laboratorio, el mismo que vende el modelo evaluado; trabajos posteriores en arXiv no leídos) |
+| El estudio de Schimmelpfennig sigue como preimpreso | 0.6 (arXiv y repositorio institucional; sin revista localizada) |
+| La combinación del repositorio no tiene equivalente encontrado | 0.6 (búsqueda acotada) |
+| El valor del rastro no está medido | 0.9 (inspección directa del repositorio) |
 
 ## Fuentes
 
-- Licklider, J. C. R. (1960). Man-Computer Symbiosis. *IRE Transactions on Human Factors in Electronics, HFE-1*, 4–11. historyofinformation.com; museum.mit.edu
-- Horvitz, E. (1999). Principles of Mixed-Initiative User Interfaces. *CHI '99*. doi:10.1145/302979.303030. dl.acm.org; microsoft.com
-- Sarkar, A. (2024). AI Should Challenge, Not Obey. *Communications of the ACM*. doi:10.1145/3649404. arXiv:2411.02263
+- Turpin, M., Michael, J., Perez, E. y Bowman, S. R. (2023). Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. *NeurIPS 2023*. arXiv:2305.04388. neurips.cc
+- Chen, Y. et al. (2025). Reasoning Models Don't Always Say What They Think. Anthropic. arXiv:2505.05410. Cobertura: venturebeat.com
+- Lindsey, J. (2025). Emergent Introspective Awareness in Large Language Models. Anthropic. transformer-circuits.pub; arXiv:2601.01828
+- Sarkar, A. (2024). AI Should Challenge, Not Obey. *Communications of the ACM*. doi:10.1145/3649404
+- Schimmelpfennig, R., Díaz, M., Prabhakaran, V. y Davani, A. (2025, rev. 2026). Humanlike AI Design Increases Anthropomorphism but Yields Divergent Outcomes on Engagement and Trust Globally. arXiv:2512.17898; pure.mpg.de
 - Perez, E. et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. arXiv:2212.09251
 - Sharma, M. et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548
-- Incidente de complacencia de GPT-4o, abril de 2025: techcrunch.com; venturebeat.com; law.georgetown.edu
-- Gao, L. et al. (2022). PAL: Program-aided Language Models. *ICML 2023*. arXiv:2211.10435
-- Mitchell, M. et al. (2019). Model Cards for Model Reporting. arXiv:1810.03993
-- Schimmelpfennig, R., Díaz, M., Prabhakaran, V. y Davani, A. (2025/2026). Humanlike AI Design Increases Anthropomorphism but Yields Divergent Outcomes on Engagement and Trust Globally. arXiv:2512.17898
+- W3C (2013). PROV-O: The PROV Ontology. w3.org
