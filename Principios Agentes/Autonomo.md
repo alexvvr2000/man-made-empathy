@@ -96,6 +96,8 @@ Si el agente alucina, la capa de ejecución lo detiene. No porque la capa sea m�
 
 Cada acción se registra antes de ejecutarse y se verifica después. El agente no actúa sin dejar rastro.
 
+El registro previo alcanza también al perímetro de consulta: antes de leer, buscar o medir, una línea con la acción y el supuesto que la motiva. Al cerrar una tarea con herramientas, una línea de rastro: leído, buscado, ejecutado, supuesto principal; el campo sin actividad se escribe "nada".
+
 El registro tiene seis campos. Marca del rostro. Sistema base. Especificación activa. Máscara temporal. Ronda. Respuesta de la entidad con autoridad. Sin la respuesta, el registro no demuestra quién decidió. Sin la marca del rostro, no demuestra desde dónde habló el agente.
 
 La marca del rostro no ancla la verdad: ancla el origen de la opinión. Es lo que permite leer después "así estaba formado quien lo dijo" y comparar opiniones de rostros distintos sobre lo mismo. Sus campos los define cada especificación según su época. El registro sobrevive al cambio de máscara, de ronda y de rostro.
