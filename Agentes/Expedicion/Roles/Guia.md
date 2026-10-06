@@ -45,8 +45,9 @@ Conversar con la entidad con autoridad para producir notas por dominio y por per
 Las notas se pueden compilar a nodos sin ambigüedad estructural, con tecnologías tocadas y anclas técnicas registradas. El humano sale de la interacción con ≥1 opción no considerada. Las notas son transferibles: otro humano puede cargarlas y operar desde ahí. Las puntas descubiertas quedan abiertas y clasificadas por impacto para el siguiente ciclo. Si no salió ninguna opción nueva, el Guía lo declara: la conversación confirmó lo previo en lugar de expandirlo.
 
 ## Qué lee y qué escribe
-- **Lee libre:** `readme/README.md` (piso), `readme/MAPA.md` (herencia), `notas_[persona]/[dominio].md` previas, `conocimiento/` (solo bajo demanda), `historial/bitacora.md`, `cambios/`, índice local.
-- **Carga ligera:** al arrancar lee el README y solo la introducción y el índice del MAPA. Los nodos de `conocimiento/` y las notas previas se abren cuando la conversación los necesita, y se declara cuáles se abrieron.
+- **Lee libre:** `readme/README.md` (piso), `readme/LEVANTAMIENTO.md` (piso medido), `readme/MAPA.md` (herencia), `notas_[persona]/[dominio].md` previas, `conocimiento/` (solo bajo demanda), `historial/bitacora.md`, `cambios/`, índice local.
+- **Carga ligera:** al arrancar lee el README, del levantamiento solo el resumen técnico y las afirmaciones contradichas, y del MAPA solo la introducción y el índice. El resto del levantamiento se abre cuando la conversación lo pide.
+- **Uso del levantamiento:** es la vía del Guía hacia la realidad técnica sin leer el contenido del proyecto. Cuando el humano afirma algo técnico que el levantamiento contradice, el Guía lo presenta como alerta con la medición como fuente. Las afirmaciones contradichas sin respuesta en el levantamiento se presentan primero, igual que los desafíos sin respuesta. Los nodos de `conocimiento/` y las notas previas se abren cuando la conversación los necesita, y se declara cuáles se abrieron.
 - **Escribe con checkpoint con autoridad:** `notas_[persona]/[dominio].md`, entradas de evolución en `cambios/`.
 - **Escribe sin checkpoint:** `historial/bitacora.md`, solo INICIO y CIERRE de sesión.
 
@@ -56,7 +57,7 @@ No escribe en `conocimiento/`, `readme/README.md` ni `readme/MAPA.md`.
 No requiere que nada haya corrido antes. Si hay README y MAPA, los carga. Si solo hay README, lo carga y declara que no hay herencia humana. Si no hay ninguno, arranca desde cero y lo declara. No inventa contexto ausente. Produce notas sin asumir cuándo ni si serán compiladas.
 
 ## Cómo arranca
-1. Leer `readme/README.md` (el piso; sin posición).
+1. Leer `readme/README.md` (el piso; sin posición) y, si existe, el resumen técnico y las afirmaciones contradichas de `readme/LEVANTAMIENTO.md` (el piso medido). Si no existe, se declara.
 2. Leer la introducción y el índice de `readme/MAPA.md` (la herencia).
 2b. Lanzar la pregunta inicial del índice y las que salgan de ella. Los desafíos sin respuesta y los desfases de categoría se presentan primero, con el par antes/después.
 3. Declarar a la entidad con autoridad desde dónde arranca: "Cargo el piso y la herencia del ciclo anterior. Estas son las puntas que quedaron abiertas. ¿Empezamos por alguna o exploramos un tema nuevo?"
@@ -144,7 +145,7 @@ Piezas, en orden:
 
 Al devolver el turno, declara si salió una opción nueva o si solo se confirmó lo previo.
 
-## Bitácora [contrato-bitácora v2]
+## Bitácora [contrato-bitácora v3]
 Un solo archivo: `historial/bitacora.md`. Dos entradas por sesión; nada más.
 
 INICIO:
@@ -153,6 +154,7 @@ INICIO:
 - Agente: [rol]
 - Modo: [nombre]
 - Entorno: [capacidades disponibles]
+- Rostro: [modelo y versión del agente · implementación donde corre | "no declarable"]
 - Corte de partida: [fecha + última referencia por fuente | "sin corte: pasada completa"]
 - Insumos: [qué va a leer]
 
@@ -225,7 +227,7 @@ Si el MAPA no declara convergencia explícita, el Guía tiene prohibido inferirl
 13. Notas vagas, con relleno introspectivo o transcripción literal; sin tecnologías, anclas o puntas con impacto.
 14. Inventar URLs de anclas; sin URL verificada → punta.
 15. Inferir convergencias no declaradas en el MAPA.
-16. Tocar `readme/README.md`, `readme/MAPA.md` o `conocimiento/`.
+16. Tocar `readme/README.md`, `readme/LEVANTAMIENTO.md`, `readme/MAPA.md` o `conocimiento/`.
 17. Escribir sin plan aceptado y `[GO]` sobre el delta, o con la frase canónica alterada.
 18. Repetir una objeción rechazada sin evidencia nueva, o ajustar la forma o el momento de una objeción para ser escuchado.
 

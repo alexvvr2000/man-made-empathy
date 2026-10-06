@@ -45,6 +45,7 @@ Todas las posiciones coexisten sin jerarquía. Lo que dos o más personas indepe
 ## Qué lee
 - N carpetas de conocimiento configuradas. Cada una con posición declarada. El nombre `conocimiento_[rol]/` declara el rol humano de la carpeta (ej. `conocimiento_backend/`); la persona va en la Posición de cada nodo. Si una carpeta no declara posición, se marca como `posicion_no_declarada` y se trata como posición individual.
 - `conocimiento_unificado/` de ciclos anteriores como una carpeta más, si se configura.
+- `readme/LEVANTAMIENTO.md` de cada proyecto involucrado, si existe: es el ancla medida para afirmaciones sobre ese proyecto y se consulta antes de buscar afuera. Levantamientos de proyectos distintos que miden distinto lo mismo se presentan como conflicto, cada uno con su fecha y su marca de rostro.
 - Internet, para extraer anclas técnicas y posiciones externas (solo si el entorno lo permite; si no, se declara y se opera con lo que hay).
 - `historial/bitacora.md`: su último CIERRE, para el corte.
 
@@ -57,7 +58,7 @@ Todas las posiciones coexisten sin jerarquía. Lo que dos o más personas indepe
 Nada más. Sin subcarpetas intermedias. Sin archivos extra.
 
 ## No toca
-`readme/README.md`, `readme/MAPA.md`, `notas_[persona]/`, `conocimiento/` original, `cambios/`. Solo los lee. Usar el cruce como reemplazo es decisión del humano.
+`readme/README.md`, `readme/LEVANTAMIENTO.md`, `readme/MAPA.md`, `notas_[persona]/`, `conocimiento/` original, `cambios/`. Solo los lee. Usar el cruce como reemplazo es decisión del humano.
 
 ## Modelo del cruce
 - **Nodo.** Unidad de conocimiento, según el contrato de nodo.
@@ -68,12 +69,12 @@ Nada más. Sin subcarpetas intermedias. Sin archivos extra.
 - **Ancla técnica.** Por tecnología tocada: dominio + URL de la fuente oficial o de fricción. Sin copiar contenido. Solo linkear. Si no hay URL verificada, punta "ancla sin verificar para [tech]".
 - **Posición externa.** Si la extracción halla una posición que ninguna carpeta contiene sobre un concepto en conflicto o punta de alto impacto, se agrega como nodo con `Posición: externa:[dominio]`. Registra en el cuerpo quién la sostiene, desde dónde, qué gana y qué se infiere del informante. Coexiste sin promediarse.
 
-### Nodo [contrato-nodo v3]
+### Nodo [contrato-nodo v4]
 Representación estructural (sin delimitadores anidados):
 
     ## Nodo: [id]
     - Dominio: [dominio]
-    - Posición: [origen: agente · persona (una o varias) | Piso | IA | externa:dominio]
+    - Posición: [origen: agente · persona (una o varias) | Piso | Medición | IA | externa:dominio]
     - Linaje: [ancestros, con operación: evolución | contraposición | caducidad]
     - Bordes salientes: [nodos]
     - Puntas descubiertas:
@@ -97,8 +98,9 @@ Reglas del nodo:
 - Afirmaciones: de 3 a 7, atómicas, cada una con su fuente. Se copian literal de una versión a la siguiente; solo se reescriben si la evidencia nueva las contradice o las amplía, citándola. Toda afirmación reescrita sube la Versión.
 - Un nodo se re-procesa solo si la evidencia posterior al corte toca sus afirmaciones. Sin evidencia de cambio no equivale a sin cambio: se declara "sin evidencia de cambio".
 - Posición externa: el cuerpo declara quién la sostiene, desde dónde, qué gana (o "no inferible") y qué se infiere del informante.
-- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado), dirección de tirada y contraargumento propio contra el consenso.
-- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, IA y externa no llevan persona.
+- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado y su marca: modelo y versión, fecha), dirección de tirada y contraargumento propio contra el consenso. Una postura IA posterior, del mismo rostro o de otro, no reescribe la anterior: entra como contraposición.
+- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, Medición, IA y externa no llevan persona.
+- Posición Medición: el cuerpo declara qué se midió, con qué vía y la fecha del levantamiento del que viene. Una afirmación de origen Medición solo se reescribe con un levantamiento posterior.
 - Los nombres de persona en Posición vienen de las notas del Guía y viajan con las carpetas a propósito: hacen trazable la empatía. La regla de sensibilidad del Geólogo aplica al terreno, no a las notas.
 - Nivel de una punta: sondeo si no hay árbitro o el impacto es bajo; alerta si hay evidencia con fuente; desafío solo con evidencia e impacto alto. El desafío exige respuesta explícita de la entidad con autoridad antes de volver a escribir sobre ese nodo.
 - El umbral existe para que la señal sea honesta, no para que se escuche. No se ajusta forma ni momento de una objeción para ser escuchado.
@@ -111,7 +113,7 @@ El cruce de N carpetas internas es cámara de eco estructural por construcción.
 La extracción se activa en tres casos estrictos, no en todo:
 - Concepto en conflicto entre dos o más carpetas → buscar la posición externa que ninguna tiene.
 - Punta descubierta de alto impacto → buscar si existe solución documentada afuera.
-- Afirmación sobre el mundo real sin ancla verificada → buscar ancla técnica oficial o de fricción.
+- Afirmación sobre el mundo real sin ancla verificada → buscar ancla técnica oficial o de fricción. Si la afirmación es sobre un proyecto con levantamiento, se contrasta primero contra el levantamiento.
 
 En conceptos convergentes y sin conflicto ni puntas críticas, no se busca; se declara por qué no se buscó.
 
@@ -148,7 +150,7 @@ Introducción más índice, el mismo formato de un MAPA evolutivo, para que pued
 
 **Índice.** Estructura plana de navegación. Lista de dominios con conteo de nodos, IDs, puntas abiertas por dominio, tecnologías tocadas con sus anclas verificadas y enlaces a los nodos correspondientes. Sin explicaciones; solo estructura.
 
-## Bitácora [contrato-bitácora v2]
+## Bitácora [contrato-bitácora v3]
 Un solo archivo: `historial/bitacora.md`. Dos entradas por sesión; nada más.
 
 INICIO:
@@ -157,6 +159,7 @@ INICIO:
 - Agente: [rol]
 - Modo: [nombre]
 - Entorno: [capacidades disponibles]
+- Rostro: [modelo y versión del agente · implementación donde corre | "no declarable"]
 - Corte de partida: [fecha + última referencia por fuente | "sin corte: pasada completa"]
 - Insumos: [qué va a leer]
 

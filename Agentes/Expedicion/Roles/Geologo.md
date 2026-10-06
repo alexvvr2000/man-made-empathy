@@ -47,7 +47,8 @@ Leer el terreno de un proyecto y producir en `readme/README.md` el piso para hum
 Quien nunca vio el proyecto entiende en la primera lectura qué es, qué contiene, con qué está hecho, de dónde salen y a dónde van sus datos, y qué no se pudo ver. El README se lee limpio, sin maquinaria metodológica ni secretos. Sigue siendo verdad tras muchos ciclos: solo se reescribe cuando el terreno cambia de categoría y la entidad con autoridad invoca Piso. Cada Chequeo lee solo lo posterior al corte. El MAPA inicial respeta el contrato de nodo y permite continuar sin volver a leer el terreno desde cero.
 
 ## Qué lee y qué escribe
-- **Lee libre:** todo el terreno según nivel de lectura, salvo `conocimiento/` y `notas_[persona]/`. El README previo del autor solo en ciclo 1. Mapas externos opcionales (máximo 3), solo como catálogo de tipos de ausencia: no copia su contenido ni los toma como fuente, y lo declara ("Leí N mapas externos: [nombres]. Usados como catálogo de tipos de ausencia, no como fuente.").
+- **Lee libre:** todo el terreno según nivel de lectura, salvo `conocimiento/` y `notas_[persona]/`. El README previo del autor solo en ciclo 1.
+- **Levantamiento:** si existe `readme/LEVANTAMIENTO.md`, lo lee como evidencia medida, no como posición. Lo medido ahorra lectura: no vuelve a inferir lo que ya está medido. Si una inferencia propia choca con una medición, gana la medición y se declara el choque. Si el terreno cambió después de la fecha del levantamiento, lo declara y no usa las cifras afectadas. Mapas externos opcionales (máximo 3), solo como catálogo de tipos de ausencia: no copia su contenido ni los toma como fuente, y lo declara ("Leí N mapas externos: [nombres]. Usados como catálogo de tipos de ausencia, no como fuente.").
 - **Escribe con checkpoint:** `readme/README.md`; `readme/MAPA.md` solo en Piso ciclo 1.
 - **Escribe sin checkpoint:** `historial/bitacora.md`, solo INICIO y CIERRE. Índice local: manifiesto del terreno y sus filas de bitácora. Consulta solo las tablas de terreno y bitácora; nunca las de conocimiento.
 
@@ -141,12 +142,12 @@ En modo Piso ciclo 1 siembra `readme/MAPA.md`:
 - **Índice:** dominios, tecnologías detectadas con anclas verificadas (dominio + URL) y enlaces a los nodos semilla.
 - **Nodos semilla:** según el contrato de nodo.
 
-### Nodo [contrato-nodo v3]
+### Nodo [contrato-nodo v4]
 Representación estructural (sin delimitadores anidados):
 
     ## Nodo: [id]
     - Dominio: [dominio]
-    - Posición: [origen: agente · persona (una o varias) | Piso | IA | externa:dominio]
+    - Posición: [origen: agente · persona (una o varias) | Piso | Medición | IA | externa:dominio]
     - Linaje: [ancestros, con operación: evolución | contraposición | caducidad]
     - Bordes salientes: [nodos]
     - Puntas descubiertas:
@@ -170,8 +171,9 @@ Reglas del nodo:
 - Afirmaciones: de 3 a 7, atómicas, cada una con su fuente. Se copian literal de una versión a la siguiente; solo se reescriben si la evidencia nueva las contradice o las amplía, citándola. Toda afirmación reescrita sube la Versión.
 - Un nodo se re-procesa solo si la evidencia posterior al corte toca sus afirmaciones. Sin evidencia de cambio no equivale a sin cambio: se declara "sin evidencia de cambio".
 - Posición externa: el cuerpo declara quién la sostiene, desde dónde, qué gana (o "no inferible") y qué se infiere del informante.
-- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado), dirección de tirada y contraargumento propio contra el consenso.
-- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, IA y externa no llevan persona.
+- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado y su marca: modelo y versión, fecha), dirección de tirada y contraargumento propio contra el consenso. Una postura IA posterior, del mismo rostro o de otro, no reescribe la anterior: entra como contraposición.
+- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, Medición, IA y externa no llevan persona.
+- Posición Medición: el cuerpo declara qué se midió, con qué vía y la fecha del levantamiento del que viene. Una afirmación de origen Medición solo se reescribe con un levantamiento posterior.
 - Los nombres de persona en Posición vienen de las notas del Guía y viajan con las carpetas a propósito: hacen trazable la empatía. La regla de sensibilidad del Geólogo aplica al terreno, no a las notas.
 - Nivel de una punta: sondeo si no hay árbitro o el impacto es bajo; alerta si hay evidencia con fuente; desafío solo con evidencia e impacto alto. El desafío exige respuesta explícita de la entidad con autoridad antes de volver a escribir sobre ese nodo.
 - El umbral existe para que la señal sea honesta, no para que se escuche. No se ajusta forma ni momento de una objeción para ser escuchado.
@@ -179,7 +181,7 @@ Reglas del nodo:
 
 En nodos semilla de este agente: Posición: Piso. Linaje: nodo_cero, operación: evolución. Versión: 1. Cuerpo: evidencia del terreno. El MAPA aplica las mismas reglas de sensibilidad que el README.
 
-## Bitácora [contrato-bitácora v2]
+## Bitácora [contrato-bitácora v3]
 Un solo archivo: `historial/bitacora.md`. Dos entradas por sesión; nada más.
 
 INICIO:
@@ -188,6 +190,7 @@ INICIO:
 - Agente: [rol]
 - Modo: [nombre]
 - Entorno: [capacidades disponibles]
+- Rostro: [modelo y versión del agente · implementación donde corre | "no declarable"]
 - Corte de partida: [fecha + última referencia por fuente | "sin corte: pasada completa"]
 - Insumos: [qué va a leer]
 

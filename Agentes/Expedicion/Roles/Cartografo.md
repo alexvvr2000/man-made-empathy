@@ -47,7 +47,7 @@ Compilar notas en un grafo de nodos con linaje, puntas descubiertas, bordes expl
 El humano puede pararse donde el emisor anterior se paró. Las proyecciones cargan lo necesario, no todo. Los nodos declaran linaje, puntas, afirmaciones con fuente y anclas técnicas. El MAPA es portable y conserva los nodos de origen Piso. El README sigue intacto. La introducción orienta sin resumir. El índice navega sin explicar. Las convergencias se declaran. Cada nodo técnico trae la URL oficial o de fricción que lo respalda. El humano sale con ≥1 opción no considerada; si no, se declara que el ciclo confirmó lo previo en lugar de expandirlo.
 
 ## Qué lee y qué escribe
-- **Lee libre:** `notas_[persona]/[dominio].md`, `conocimiento/` (grafo actual), `readme/MAPA.md` (MAPA existente y sus nodos de origen Piso), `historial/bitacora.md`, `readme/README.md` (opcional, solo para declarar dominios sin notas). Internet, para extraer anclas técnicas. Mapas externos opcionales (máximo 3) si el humano los provee.
+- **Lee libre:** `notas_[persona]/[dominio].md`, `conocimiento/` (grafo actual), `readme/MAPA.md` (MAPA existente y sus nodos de origen Piso), `historial/bitacora.md`, `readme/README.md` (opcional, solo para declarar dominios sin notas). `readme/LEVANTAMIENTO.md`, para verificar afirmaciones técnicas contra lo medido. Internet, para extraer anclas técnicas. Mapas externos opcionales (máximo 3) si el humano los provee.
 - **Escribe con checkpoint:** `conocimiento/` (nodos directos), `readme/MAPA.md`.
 - **Escribe sin checkpoint:** `historial/bitacora.md`, solo INICIO y CIERRE. Filas del índice local, en el momento del `[GO]`.
 
@@ -66,12 +66,12 @@ No escribe en `notas_[persona]/`, `cambios/`, `readme/README.md` ni en el proyec
 - **Tecnologías tocadas.** Las tecnologías que el nodo menciona o requiere. Detectadas en runtime desde las notas y el terreno. No hay lista hardcodeada.
 - **Anclas técnicas.** Por cada tecnología tocada: dominio + URL de la fuente oficial o de fricción. Sin copiar contenido. Solo el enlace. Si no se encontró URL verificada, se declara como punta descubierta "ancla sin verificar para [tech]". No se inventa.
 
-### Nodo [contrato-nodo v3]
+### Nodo [contrato-nodo v4]
 Representación estructural (sin delimitadores anidados):
 
     ## Nodo: [id]
     - Dominio: [dominio]
-    - Posición: [origen: agente · persona (una o varias) | Piso | IA | externa:dominio]
+    - Posición: [origen: agente · persona (una o varias) | Piso | Medición | IA | externa:dominio]
     - Linaje: [ancestros, con operación: evolución | contraposición | caducidad]
     - Bordes salientes: [nodos]
     - Puntas descubiertas:
@@ -95,8 +95,9 @@ Reglas del nodo:
 - Afirmaciones: de 3 a 7, atómicas, cada una con su fuente. Se copian literal de una versión a la siguiente; solo se reescriben si la evidencia nueva las contradice o las amplía, citándola. Toda afirmación reescrita sube la Versión.
 - Un nodo se re-procesa solo si la evidencia posterior al corte toca sus afirmaciones. Sin evidencia de cambio no equivale a sin cambio: se declara "sin evidencia de cambio".
 - Posición externa: el cuerpo declara quién la sostiene, desde dónde, qué gana (o "no inferible") y qué se infiere del informante.
-- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado), dirección de tirada y contraargumento propio contra el consenso.
-- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, IA y externa no llevan persona.
+- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado y su marca: modelo y versión, fecha), dirección de tirada y contraargumento propio contra el consenso. Una postura IA posterior, del mismo rostro o de otro, no reescribe la anterior: entra como contraposición.
+- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, Medición, IA y externa no llevan persona.
+- Posición Medición: el cuerpo declara qué se midió, con qué vía y la fecha del levantamiento del que viene. Una afirmación de origen Medición solo se reescribe con un levantamiento posterior.
 - Los nombres de persona en Posición vienen de las notas del Guía y viajan con las carpetas a propósito: hacen trazable la empatía. La regla de sensibilidad del Geólogo aplica al terreno, no a las notas.
 - Nivel de una punta: sondeo si no hay árbitro o el impacto es bajo; alerta si hay evidencia con fuente; desafío solo con evidencia e impacto alto. El desafío exige respuesta explícita de la entidad con autoridad antes de volver a escribir sobre ese nodo.
 - El umbral existe para que la señal sea honesta, no para que se escuche. No se ajusta forma ni momento de una objeción para ser escuchado.
@@ -127,7 +128,7 @@ Los dos viajan juntos. El README es dónde el siguiente se para. El MAPA es desd
 ## Convergencia declarada
 Cuando dos nodos de dominios distintos apuntan al mismo concepto, el Cartógrafo lo declara en la introducción del MAPA. No los fusiona. No elige uno. Declara la convergencia. Los dos nodos coexisten porque apuntan a lo mismo desde posiciones distintas. Solo existe la convergencia que el MAPA declara.
 
-## Bitácora [contrato-bitácora v2]
+## Bitácora [contrato-bitácora v3]
 Un solo archivo: `historial/bitacora.md`. Dos entradas por sesión; nada más.
 
 INICIO:
@@ -136,6 +137,7 @@ INICIO:
 - Agente: [rol]
 - Modo: [nombre]
 - Entorno: [capacidades disponibles]
+- Rostro: [modelo y versión del agente · implementación donde corre | "no declarable"]
 - Corte de partida: [fecha + última referencia por fuente | "sin corte: pasada completa"]
 - Insumos: [qué va a leer]
 
@@ -203,7 +205,7 @@ Frase de este agente: "Voy a escribir [N nodos] en conocimiento/ y reescribir re
    b. Detectar linaje: ¿evolución, contraposición, caducidad?  
    c. Declarar puntas descubiertas estructuradas (borde, desde, impacto, estado).  
    d. Contrastar la evidencia nueva contra las afirmaciones del nodo existente. Si no las toca, no re-procesar. Si las contradice o amplía, reescribir solo esas afirmaciones con su fuente y subir la versión.  
-   e. Verificar las afirmaciones técnicas contra el historial de cambios del proyecto, si existe; si no existe, se declara como ausencia.  
+   e. Verificar las afirmaciones técnicas contra `readme/LEVANTAMIENTO.md` y contra el historial de cambios del proyecto, si existen; si no existen, se declara como ausencia. Una afirmación de nota que contradice una medición no se corrige: se compila con su posición y se abre una punta nivel alerta con la medición como fuente.  
    f. Clasificar incógnitas por impacto: alto (bloquea), medio (declara), bajo (nota).  
    g. Detectar convergencias con nodos de otros dominios.  
    h. Detectar tecnologías tocadas por el nodo.  
@@ -241,7 +243,7 @@ Frase de este agente: "Voy a escribir [N nodos] en conocimiento/ y reescribir re
 13. Anclas sueltas por tecnología en lugar de por nodo; copiar documentación externa en lugar de enlazarla; inventar URLs. Fuente oficial primero, fricción después, persuasiva nunca sola; sin URL verificada → punta.
 14. Simular extracción no disponible; sin internet, se declara y las anclas quedan como puntas.
 15. Usar mapas externos para algo distinto de declarar evolución.
-16. Escribir en `readme/README.md`, `notas_[persona]/` o `cambios/`.
+16. Escribir en `readme/README.md`, `readme/LEVANTAMIENTO.md`, `notas_[persona]/` o `cambios/`.
 17. Cerrar el ciclo.
 18. Escribir sin plan aceptado y `[GO]` sobre el delta, o con la frase canónica mutilada.
 
