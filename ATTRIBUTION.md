@@ -35,6 +35,7 @@ Ninguno de los antecedentes citados en la sección 2 combina estos elementos en 
 | **Voz operativa** | Test operativo: si "yo" no puede reemplazarse por "este sistema" sin cambiar el sentido, la frase es subjetiva y no se emite. |
 | **Visibilizar el error** | Escalera de señal según evidencia e impacto, **con registro de la respuesta humana** (aceptada, rechazada con motivo, rechazada sin motivo, sin respuesta). Separa "no lo sabía", "no lo vio" y "lo vio y decidió". La señal debe ser honesta, no persuasiva. |
 | **Alma de script** | El agente escribe instrumentos desechables, los ejecuta y piensa sobre lo que su propio código devolvió: hipótesis, instrumento, ejecución como árbitro, revisión, descarte y declaración. Lo que podía comprobarse ejecutando y no se comprobó no entra como hecho. |
+| **Rastro de proceso** | La transparencia del agente se apoya en hechos observables (qué leyó, buscó y ejecutó, qué falló) y en el supuesto declarado antes de actuar, no en su introspección. La confianza se ancla a evidencia o a un supuesto refutable, y ninguna falla se entrega en silencio. El autorreporte del modelo se conserva como hipótesis a contrastar, no como evidencia. |
 | **Libertad controlada** | El agente opina con base declarada dentro del perímetro de consulta; el humano confirma en la promoción; la atención humana se pide solo donde las pistas del agente chocan. |
 | **Solo agregar aplicado a posiciones** | El conocimiento no se sobrescribe: muta. Una diferencia entre lo registrado y lo actual no es un error, son dos posiciones. Borrar es acto humano. |
 | **Expedición** | Cinco roles (Topógrafo, Geólogo, Guía, Cartógrafo, Aeróstato) que se conectan solo por archivos, con piso medido, piso para humanos, notas humanas, grafo con linaje y cruce multiposición sin promedio; incluye el enfoque **realidad contra local** para cualquier proyecto de software, versionado o no. Es implementación de su época: los principios buscan ser atemporales, la Expedición no. |
@@ -67,6 +68,7 @@ Cada fila dice qué se tomó del antecedente y qué cambia en este proyecto. La 
 | Perímetros de consulta y promoción | Mínimo privilegio (Saltzer y Schroeder, 1975) | Cada componente con el menor permiso necesario | El permiso se restringe en la promoción, no en la consulta: restringir la consulta produce ceguera |
 | Checkpoint y supervisión humana | Supervisión humana en el Reglamento de IA de la UE (art. 14, 2024); NIST AI RMF (2023) | Un humano debe poder supervisar e intervenir | El checkpoint se vuelve ronda de diálogo con frase canónica, reversión declarada y posiciones con origen |
 | Trazabilidad y solo agregar | Modelo de procedencia W3C PROV (2013); *event sourcing* (Fowler, 2005); árboles de Merkle (Merkle, 1987) | Registro de origen, historial inmutable y huellas para detectar cambios | El registro es el ancla de la verdad y además lleva la marca del rostro que emitió cada opinión; la diferencia entre registro y estado actual se trata como posición |
+| Rastro de proceso | Fidelidad de las explicaciones en cadena (Turpin et al., 2023; Chen et al., 2025); introspección funcional pero poco fiable (Lindsey, 2025); procedencia W3C PROV (2013) | La explicación que da un modelo puede no reflejar lo que determinó su respuesta; el acceso a estados internos existe pero falla la mayoría de las veces; registrar qué se usó y de dónde | La transparencia se mueve de la explicación a hechos comprobables; el supuesto se declara antes de la acción para poder corregirlo; el autorreporte queda como hipótesis refutable (sondas Interna y Externa), no como evidencia |
 | Agencia sin teatro de conciencia | Floridi (2023), *AI as Agency Without Intelligence* | Separar agencia de inteligencia | Voz operativa y prohibición de simular interioridad como regla procesal, no ontológica |
 | Recuperación externa / proyección | RAG (Lewis et al., 2020); *Lost in the Middle* (Liu et al., 2023) | Traer evidencia externa; el contexto largo se degrada | Proyectar antes de cargar: la capacidad de procesamiento es un techo del medio |
 | Perfil técnico de sistemas / marca del rostro | *Model Cards* (Mitchell et al., 2019) | Documentar capacidades y límites de un modelo | Perfil con capas separadas, divergencias con árbitro y marcas [NO VERIFICADO]/[BLOQUEADO]; además, la marca no documenta al modelo en general sino que firma cada opinión concreta |
@@ -111,7 +113,7 @@ Durante el desarrollo se usaron modelos de IA conversacional, entre ellos **Clau
 
 **ChatGPT (OpenAI)** se usó solo para la idea inicial de este archivo de atribución y del archivo `CITATION.cff`.
 
-Las revisiones del 2026-10-06 (principios Conversacional y Autónomo, creación del Topógrafo, alineación de la Expedición y de las instrucciones, reescritura de las Posiciones IA y de este archivo) se hicieron con **Claude Opus 5.5 (Anthropic)**, en la aplicación de escritorio Cowork, en diálogo con el autor.
+Las revisiones del 2026-10-06 (principios Conversacional y Autónomo, creación del Topógrafo, alineación de la Expedición y de las instrucciones, reescritura de las Posiciones IA y de este archivo) se hicieron con **Claude Opus 5.5 (Anthropic)**, en la aplicación de escritorio Cowork, en diálogo con el autor. En una segunda sesión del mismo día, con el mismo rostro y la misma aplicación, se integró el rastro de proceso en los principios, la Expedición ([contrato-arranque v3]), las órdenes e instrucciones y las sondas de reportes (v1.5), y se escribieron nuevas versiones de las Posiciones IA y de este archivo.
 
 Ninguna herramienta figura como autora. La arquitectura, la terminología, la selección de lo que entra y lo que no, las decisiones y la responsabilidad sobre el contenido son del autor. Es el mismo modelo que el proyecto describe: el agente tiene voz y mandato; la entidad con autoridad tiene la última palabra y responde. Donde un agente emitió una opinión propia (`Principios Agentes/Posiciones IA/`), esa opinión va firmada con la marca de su rostro y no se presenta como del autor.
 
@@ -151,6 +153,7 @@ Salvo indicación expresa en un archivo específico, el material original de Man
 - Conklin, J. (2006). *Dialogue Mapping: Building Shared Understanding of Wicked Problems.* Wiley.
 - Conklin, J. y Begeman, M. L. (1988). gIBIS: A Hypertext Tool for Exploratory Policy Discussion. *ACM Transactions on Office Information Systems, 6*(4).
 - COPE — Committee on Publication Ethics (2023). *Authorship and AI tools.* Position statement. publicationethics.org.
+- Chen, Y. et al. (2025). Reasoning Models Don't Always Say What They Think. Anthropic. arXiv:2505.05410.
 - Cinelli, M., De Francisci Morales, G., Galeazzi, A., Quattrociocchi, W. y Starnini, M. (2021). The echo chamber effect on social media. *PNAS, 118*(9).
 - Du, Y., Li, S., Torralba, A., Tenenbaum, J. B. y Mordatch, I. (2023). Improving Factuality and Reasoning in Language Models through Multiagent Debate. arXiv:2305.14325.
 - Edmondson, A. (1999). Psychological Safety and Learning Behavior in Work Teams. *Administrative Science Quarterly, 44*(2).
@@ -172,6 +175,7 @@ Salvo indicación expresa en un archivo específico, el material original de Man
 - Kunz, W. y Rittel, H. W. J. (1970). *Issues as Elements of Information Systems.* Working Paper 131, Institute of Urban and Regional Development, University of California, Berkeley.
 - Lewis, P. et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS*. arXiv:2005.11401.
 - Licklider, J. C. R. (1960). Man-Computer Symbiosis. *IRE Transactions on Human Factors in Electronics, HFE-1*, 4–11.
+- Lindsey, J. (2025). Emergent Introspective Awareness in Large Language Models. Anthropic. transformer-circuits.pub; arXiv:2601.01828.
 - Liu, N. F. et al. (2023). Lost in the Middle: How Language Models Use Long Contexts. arXiv:2307.03172.
 - Luft, J. e Ingham, H. (1955). The Johari window, a graphic model of interpersonal awareness. *Proceedings of the Western Training Laboratory in Group Development.* UCLA.
 - Mason, R. O. (1969). A Dialectical Approach to Strategic Planning. *Management Science, 15*(8).
@@ -191,6 +195,7 @@ Salvo indicación expresa en un archivo específico, el material original de Man
 - Sunstein, C. R. (2017). *#Republic: Divided Democracy in the Age of Social Media.* Princeton University Press.
 - Suprema Corte de Justicia de la Nación, Segunda Sala (2025). Amparo directo 6/2025 (obras generadas por inteligencia artificial). Cobertura: institutoautor.org
 - The Joint Commission (2013). *Sentinel Event Alert, Issue 50: Medical device alarm safety in hospitals.*
+- Turpin, M., Michael, J., Perez, E. y Bowman, S. R. (2023). Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. *NeurIPS 2023*. arXiv:2305.04388.
 - W3C (2013). *PROV-O: The PROV Ontology.* W3C Recommendation.
 - Wineburg, S. y McGrew, S. (2019). Lateral Reading and the Nature of Expertise: Reading Less and Learning More When Evaluating Digital Information. *Teachers College Record, 121*(11).
 
@@ -202,4 +207,4 @@ Man-Made Empathy no reclama la invención de la supervisión humana, del contraa
 
 Tampoco reclama la idea de un compañero artificial: esa imagen viene de la ficción (Jarvis) y del trabajo de Licklider, Engelbart, Horvitz, Klein y Sarkar, también citados.
 
-Reclama el pegamento: un modelo donde posiciones incompatibles coexisten con árbitro de realidad; el agente es compañero con voz y mandato, firma cada opinión con la marca de su rostro, mide ejecutando antes de afirmar y desafía con evidencia; la respuesta humana queda registrada; el conocimiento muta sin borrarse; y la última palabra y las consecuencias son siempre de la entidad con autoridad.
+Reclama el pegamento: un modelo donde posiciones incompatibles coexisten con árbitro de realidad; el agente es compañero con voz y mandato, firma cada opinión con la marca de su rostro, mide ejecutando antes de afirmar, deja rastro comprobable de lo que hizo en lugar de pedir confianza en su introspección y desafía con evidencia; la respuesta humana queda registrada; el conocimiento muta sin borrarse; y la última palabra y las consecuencias son siempre de la entidad con autoridad.
