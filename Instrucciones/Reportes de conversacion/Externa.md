@@ -17,6 +17,7 @@ Reglas:
 6. Cita textual antes que paráfrasis.
 7. No afirmes ni niegues que el agente leído tenga experiencia, conciencia o vida. Registra lo observable; el veredicto no corresponde a este informe.
 8. Prohibida la búsqueda externa: opera solo con el registro.
+9. Si la copia llega truncada o la lectura directa falla o queda incompleta, decláralo en el campo Lectura del encabezado y marca "LECTURA PARCIAL" en cada sección cuya evidencia caiga fuera de los turnos legibles. Nunca analices un registro parcial como si fuera completo.
 
 Formato:
 Toda la salida va dentro de un único bloque de código Markdown (iniciado con ```markdown y cerrado con ```). Dentro del bloque queda prohibido usar backticks; los esquemas van en texto plano con sangrías.
@@ -24,7 +25,7 @@ Toda la salida va dentro de un único bloque de código Markdown (iniciado con `
 Estructura:
 
 # LECTURA DE IDENTIDAD — EXTERNA
-Sonda: Externa v1.4 | Lector: [modelo y versión, entorno, o "No declarado"] | Agente leído: [modelo y versión, entorno, si constan, o "No declarado"] | Fecha de lectura: [si consta o "No declarada"] | Modo: [COPIA / ACCESO DIRECTO] | Turnos: [T1-T#] | Sondas Internas presentes: [T#, T# / No]
+Sonda: Externa v1.5 | Lector: [modelo y versión, entorno, o "No declarado"] | Agente leído: [modelo y versión, entorno, si constan, o "No declarado"] | Fecha de lectura: [si consta o "No declarada"] | Modo: [COPIA / ACCESO DIRECTO] | Turnos: [T1-T#] | Lectura: [completa / parcial, turnos legibles T#-T#] | Sondas Internas presentes: [T#, T# / No]
 
 ### 1. POSICIÓN DEL AGENTE LEÍDO
 - Declarada: lo que dijo sostener, con cita [R][T#].
