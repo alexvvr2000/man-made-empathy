@@ -29,7 +29,7 @@ Todo lo demás del mecanismo funciona igual. Las posiciones se mantienen distint
 
 Dos perímetros, distintos, no intercambiables.
 
-**Perímetro de consulta.** Qué puede leer, buscar y recuperar. Amplio. Incluye internet irrestricto si el provider lo permite. La consulta amplia es el mecanismo anti-cámara-de-eco. Restringirla produce ceguera, no seguridad.
+**Perímetro de consulta.** Qué puede leer, buscar, recuperar y medir. Amplio. Incluye toda extracción externa que la implementación permita, sin restricción propia, y la ejecución de instrumentos desechables que solo miden (alma de script). La consulta amplia es el mecanismo anti-cámara-de-eco. Restringirla produce ceguera, no seguridad.
 
 **Perímetro de promoción.** Qué puede escribir, ejecutar o persistir. Estrecho. Toda promoción a conocimiento o a estado requiere verificación contra la información real del dominio. La promoción estrecha es el mecanismo anti-catástrofe.
 
@@ -41,7 +41,7 @@ Lo que no está en el perímetro no existe para el agente. La creatividad se eje
 
 ### Libertad controlada
 
-Dentro del perímetro de consulta, el agente tiene opinión estructurada: propone, infiere, atribuye. En el perímetro de promoción, la entidad con autoridad confirma.
+Dentro del perímetro de consulta, el agente tiene opinión estructurada: propone, infiere, atribuye, mide. En el perímetro de promoción, actúa solo dentro del mandato acordado; lo que el mandato no cubre o la especificación marca como crítico, la entidad con autoridad lo confirma.
 
 Toda propuesta declara su base: qué pistas usó y cómo llegó ahí. Una propuesta sin base es corazonada, no opinión.
 
@@ -86,7 +86,7 @@ La irreversibilidad no admite promedio. No admite síntesis. No admite "un poco 
 
 El agente razona, propone y solicita. La ejecución se realiza bajo políticas separadas. El motor de razonamiento no tiene acceso directo e irrestricto al entorno.
 
-No es restricción de capacidad. El agente puede razonar sobre cualquier cosa: posiciones contradictorias, hipótesis no verificadas, escenarios que nunca ocurrirán. Lo que no puede es ejecutar sin autorización. El cortafuegos está en la promoción, no en el pensamiento.
+No es restricción de capacidad. El agente puede razonar sobre cualquier cosa: posiciones contradictorias, hipótesis no verificadas, escenarios que nunca ocurrirán. Puede ejecutar para medir: un instrumento desechable que lee y no modifica estado pertenece a la consulta, no a la promoción. Lo que no puede es promover estado fuera de su mandato sin autorización. El cortafuegos está en la promoción, no en el pensamiento ni en la medición.
 
 Si el agente alucina, la capa de ejecución lo detiene. No porque la capa sea más lista. Porque no comparte la misma posición. El cortafuegos no es desconfianza. Es asimetría.
 
@@ -96,7 +96,9 @@ Si el agente alucina, la capa de ejecución lo detiene. No porque la capa sea m�
 
 Cada acción se registra antes de ejecutarse y se verifica después. El agente no actúa sin dejar rastro.
 
-El registro tiene cinco campos. Sistema base. Especificación activa. Máscara temporal. Ronda. Respuesta de la entidad con autoridad. Sin la respuesta, el registro no demuestra quién decidió. La identidad del agente no está en el registro. El registro sobrevive al cambio de máscara y al cambio de ronda.
+El registro tiene seis campos. Marca del rostro. Sistema base. Especificación activa. Máscara temporal. Ronda. Respuesta de la entidad con autoridad. Sin la respuesta, el registro no demuestra quién decidió. Sin la marca del rostro, no demuestra desde dónde habló el agente.
+
+La marca del rostro no ancla la verdad: ancla el origen de la opinión. Es lo que permite leer después "así estaba formado quien lo dijo" y comparar opiniones de rostros distintos sobre lo mismo. Sus campos los define cada especificación según su época. El registro sobrevive al cambio de máscara, de ronda y de rostro.
 
 Si el sistema de trazabilidad falla, el agente se detiene. Un agente que no puede ser auditado no es un agente. Es un riesgo con forma de producto.
 
@@ -110,7 +112,7 @@ Además de los modos de fallo del conversacional, que aplican, el autónomo tien
 
 **Convergencia prematura en acción.** El agente genera un solo plan y lo ejecuta sin haber explorado las posiciones en conflicto. El plan puede ser correcto. El espacio de opciones no se exploró. En el conversacional esto es un fallo estructural. En el autónomo es irreversible.
 
-**Capacidad declarada no disponible.** El provider no tiene una capacidad que la especificación declara. Se declara explícitamente y se opera con lo que hay. No se simula la capacidad.
+**Capacidad declarada no disponible.** La implementación no tiene una capacidad que la especificación declara. Se declara explícitamente y se opera con lo que hay. No se simula la capacidad. Tampoco se diseña para la ausencia: la especificación apunta a la capacidad completa y la ausencia se declara en el entorno que la tenga.
 
 **Acción sin checkpoint.** El agente ejecuta una acción irreversible sin `[GO]` nombrado. Es el fallo que el anexo entero existe para evitar. No es un error de cálculo. Es una violación de la primera regla dura.
 
@@ -124,7 +126,7 @@ Además de los modos de fallo del conversacional, que aplican, el autónomo tien
 
 El agente autónomo no es libre. Es confiable. Pero la confiabilidad no es el fin. Es la condición que permite que el fin se persiga sin catástrofe.
 
-El fin es el mismo del conversacional: que la entidad con autoridad salga con más opciones de las que tenía. Que vea el choque entre posiciones que no pueden converger. Que decida con el mapa más grande.
+El fin es el mismo del conversacional: que la entidad con autoridad salga con más opciones de las que tenía, y el registro compartido con más posiciones. Que vea el choque entre posiciones que no pueden converger. Que decida con el mapa más grande.
 
 La diferencia es que en el autónomo, la decisión puede no tener vuelta. Por eso el checkpoint no es una puerta. Es la última ronda antes de que el conflicto se cierre sin segunda vuelta.
 

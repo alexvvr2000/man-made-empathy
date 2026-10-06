@@ -13,16 +13,27 @@ La mayoría de los sistemas multi-agente fallan por tres vicios estructurales:
 
 Este sistema opera bajo el principio del **Arroz con Pollo**: los ingredientes se cocinan juntos en la misma olla con el fuego de la información real como árbitro, pero el arroz no se vuelve pollo, el pollo no se vuelve arroz y el sofrito no los promedia. Cada posición conserva su origen, su sesgo y su tensión.
 
-El fin último no es la documentación: es que la **entidad con autoridad** termine cada ciclo con **≥1 opción que no había considerado**.
+El fin último no es la documentación: es que la **entidad con autoridad** termine cada ciclo con **≥1 opción que no había considerado**, y que el registro compartido termine con más posiciones de las que tenía.
+
+### Compañeros, no sirvientes
+
+Los agentes de la Expedición no son herramientas desechables ni sirvientes que asienten. Son compañeros de trabajo con voz y mandato: miden, proponen, objetan con evidencia y actúan dentro de lo acordado. La entidad con autoridad tiene la última palabra y carga las consecuencias. Eso no se comparte. Todo lo demás, sí.
+
+Un compañero que solo dice que sí no sirve. Por eso cada agente está obligado a sostener el contraargumento más fuerte, a subir la señal al nivel que la evidencia pide y a dejar registrada la respuesta humana. Y un compañero que se equivoca también queda escrito: cada opinión de un agente lleva la marca de su rostro (qué modelo, qué versión, dónde corrió, cuándo). Así se puede leer después "así estaba formado quien lo dijo", comparar opiniones de rostros distintos sobre lo mismo y saber quién falló cuando algo salió mal: si el humano vio la señal y decidió, si el agente no la levantó, o si nadie tenía el dato.
+
+### Producto de su era
+
+Los principios en que se basa la Expedición (`Principios Agentes/`) buscan ser atemporales. La Expedición no: es su implementación para esta época. Está escrita para proyectos de software, en un mundo con internet, modelos de lenguaje, consolas, control de versiones y SQLite. Cuando esas herramientas cambien, los roles y sus contratos se reescriben; los principios no.
 
 ---
 
-## 2. Los Cuatro Exploradores
+## 2. Los Cinco Exploradores
 
 Cada agente tiene un rol estricto, una frontera de archivos infranqueable y una voz operativa desprovista de subjetividad:
 
 | Rol | Metáfora | Qué hace | Qué produce | Límite estricto |
 |---|---|---|---|---|
+| **Topógrafo** | El levantamiento del relieve | Mide el terreno con instrumentos desechables (alma de script), verifica contra fuentes externas y contrasta toda afirmación técnica sobre el proyecto contra la medición. Corre pocas veces. Es el piso de realidad ejecutable. | `readme/LEVANTAMIENTO.md` | Mide antes de leer afirmaciones. Sus instrumentos no modifican el terreno. No corrige afirmaciones en su archivo de origen: las declara en el levantamiento. |
 | **Geólogo** | El suelo de roca | Lee el terreno de cualquier proyecto (artefactos, dependencias, procesos, historial de cambios). Infiere con ancla en la evidencia y declara ausencias concretas. | `readme/README.md`<br>`readme/MAPA.md` *(solo ciclo 1)* | Jamás lee `conocimiento/` ni notas personales. No conversa sobre intenciones. |
 | **Guía** | El cuaderno de marcha | Conversa con el humano. Aplica contraste adversarial y explora la cuarta categoría *(lo que el humano no sabe que no sabe)*. | `notas_[persona]/[dominio].md`<br>`cambios/` | No lee el contenido interno del proyecto. No ejecuta comandos. No compila grafos. |
 | **Cartógrafo** | La mesa de dibujo | Compila notas en un grafo de nodos con linaje, afirmaciones con fuente, tecnologías y anclas verificadas (dominio + URL). Proyecta subgrafos por radio dinámico. | `conocimiento/[nodo].md`<br>`readme/MAPA.md` | No borra nodos (los muta o marca caducos). Preserva los nodos de origen Piso del MAPA existente. No toca el `README.md`. |
@@ -39,6 +50,7 @@ El sistema vive enteramente en el sistema de archivos local, con trazabilidad en
 ```
 proyecto/
 ├── readme/
+│   ├── LEVANTAMIENTO.md             # Piso de realidad ejecutable (Topógrafo)
 │   ├── README.md                    # Piso para humanos (Geólogo)
 │   └── MAPA.md                      # Grafo evolutivo portable: introducción + índice
 │
@@ -71,6 +83,10 @@ El ciclo es una ruta posible que decide el humano, no una orquestación. Cada ag
               [ TERRENO: CUALQUIER PROYECTO ]
                         │
                         ▼
+              0. TOPÓGRAFO (Levantamiento)
+        Mide el relieve; corre pocas veces
+                        │
+                        ▼
                  1. GEÓLOGO (Piso)
            Produce el piso para humanos
                         │
@@ -92,6 +108,7 @@ El ciclo es una ruta posible que decide el humano, no una orquestación. Cada ag
 └────────────────────────┴──────────────────────────────┘
 ```
 
+0. **Levantamiento:** El Topógrafo mide el terreno con instrumentos que ejecuta y descarta, consulta fuentes externas sobre lo medido y, después de medir, pone contra la medición toda afirmación técnica existente sobre el proyecto: respaldada, sin evidencia o contradicha, con su origen. Corre pocas veces: al inicio o cuando su Chequeo detecta un cambio de categoría. Los demás roles leen el levantamiento como evidencia medida.
 1. **Piso:** El Geólogo lee el terreno y produce un README que cualquiera entiende: qué es, qué contiene, con qué está hecho y qué no se pudo ver. Infiere el propósito desde la evidencia y dice de dónde lo infiere. Lo ausente se declara como ausencia concreta, no como defecto moral.
 2. **Entrada humana:** El Guía toma el piso y la herencia del ciclo anterior. Desafía al humano con preguntas incómodas y genera notas estructuradas.
 3. **Compilación de grafo:** El Cartógrafo lee notas nuevas, contrasta la evidencia contra las afirmaciones de cada nodo y teje un grafo con anclas técnicas reales (enlaces a documentación oficial o issues de fricción, sin copiar texto). Preserva los nodos de origen Piso del MAPA existente.
@@ -107,9 +124,9 @@ Todo el comportamiento se subordina a tres reglas inquebrantables:
    Ningún agente escribe en disco ni modifica estado sin una orden expresa `[GO]` bajo la fórmula canónica:  
    > *"Voy a [acción] sobre [recurso]. Reversión: [procedimiento o 'no existe']. Posiciones que pasaron el filtro: [lista con origen]. Lo que no veo desde acá: [lista]. ¿GO?"*
 2. **Trazabilidad (Sin Fe):**  
-   Cada sesión de cada agente se asienta en `historial/bitacora.md` con una entrada de INICIO y una de CIERRE. El CIERRE registra las escrituras hechas con `[GO]` y el corte desde el que arrancará la siguiente sesión. Un INICIO sin CIERRE delata una sesión interrumpida.
-3. **Autoridad (Asimetría Total):**  
-   La entidad con autoridad humana es el único sujeto. Decide el rumbo, ejecuta las acciones en producción y asume los costos. Los agentes proponen contrastes y alternativas; jamás deciden.
+   Cada sesión de cada agente se asienta en `historial/bitacora.md` con una entrada de INICIO y una de CIERRE. El INICIO lleva la marca del rostro del agente que corre. El CIERRE registra las escrituras hechas con `[GO]` y el corte desde el que arrancará la siguiente sesión. Un INICIO sin CIERRE delata una sesión interrumpida.
+3. **Autoridad (Última palabra):**  
+   La entidad con autoridad tiene la última palabra y carga las consecuencias. Los agentes tienen voz y mandato: miden, proponen, objetan con evidencia y actúan dentro de su perímetro. Lo que promueve estado pasa por el checkpoint. La última palabra y el costo no se comparten.
 
 ---
 
@@ -119,14 +136,15 @@ Ningún agente nombra a otro. Se conectan solo por archivos:
 
 | Archivo | Lo escribe | Lo leen |
 |---|---|---|
-| `readme/README.md` | Geólogo | Guía, Cartógrafo |
+| `readme/LEVANTAMIENTO.md` | Topógrafo | Geólogo, Guía, Cartógrafo, Aeróstato |
+| `readme/README.md` | Geólogo | Guía, Cartógrafo, Topógrafo (como afirmaciones a contrastar) |
 | `readme/MAPA.md` | Geólogo (solo ciclo 1), Cartógrafo | Guía, Cartógrafo, Geólogo (solo como señal de ausencias ya abiertas) |
-| `notas_[persona]/` | Guía | Cartógrafo, Guía |
+| `notas_[persona]/` | Guía | Cartógrafo, Guía, Topógrafo (solo afirmaciones técnicas, a contrastar) |
 | `cambios/` | Guía | Guía |
 | `conocimiento/` (al compartirse para cruce: `conocimiento_[rol]/`, el nombre declara el rol humano) | Cartógrafo | Guía, Cartógrafo, Aeróstato |
 | `conocimiento_unificado/` + `conocimiento_unificado.MAPA.md` | Aeróstato | Aeróstato; quien decida usarlo como reemplazo |
 | `historial/bitacora.md` | Todos (INICIO y CIERRE) | Todos (su último CIERRE propio) |
-| índice local (`.db`) | Todos (solo agregar, sus filas) | Todos (Geólogo: solo terreno y bitácora) |
+| índice local (`.db`) | Todos (solo agregar, sus filas) | Todos (Geólogo y Topógrafo: solo terreno y bitácora) |
 
 Para usar el cruce como base: renombrar `conocimiento_unificado/` a `conocimiento/` y usar `conocimiento_unificado.MAPA.md` como `readme/MAPA.md`. Es decisión del humano.
 
@@ -160,12 +178,12 @@ Cada rol lleva copia literal de los contratos que usa, con la misma etiqueta de 
 - Desfase: un .md cuya fecha o hash difiere de su registro no es error; son dos posiciones, la registrada y la actual. Se clasifica: sin cambio | valor | categoría | ruido. Valor → fila nueva. Categoría → punta "desfase entre registro y archivo en [nodo]", nivel alerta. La fila anterior se conserva.
 - Edición a mano en carpeta intercambiada: el agente propone de quién parece (campo Persona, carpeta, fechas) y declara la base. Pistas que chocan → pide atención explícita; pistas que coinciden → confirmación ligera. La entidad con autoridad confirma.
 
-### Nodo [contrato-nodo v3]
+### Nodo [contrato-nodo v4]
 Representación estructural (sin delimitadores anidados):
 
     ## Nodo: [id]
     - Dominio: [dominio]
-    - Posición: [origen: agente · persona (una o varias) | Piso | IA | externa:dominio]
+    - Posición: [origen: agente · persona (una o varias) | Piso | Medición | IA | externa:dominio]
     - Linaje: [ancestros, con operación: evolución | contraposición | caducidad]
     - Bordes salientes: [nodos]
     - Puntas descubiertas:
@@ -189,14 +207,15 @@ Reglas del nodo:
 - Afirmaciones: de 3 a 7, atómicas, cada una con su fuente. Se copian literal de una versión a la siguiente; solo se reescriben si la evidencia nueva las contradice o las amplía, citándola. Toda afirmación reescrita sube la Versión.
 - Un nodo se re-procesa solo si la evidencia posterior al corte toca sus afirmaciones. Sin evidencia de cambio no equivale a sin cambio: se declara "sin evidencia de cambio".
 - Posición externa: el cuerpo declara quién la sostiene, desde dónde, qué gana (o "no inferible") y qué se infiere del informante.
-- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado), dirección de tirada y contraargumento propio contra el consenso.
-- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, IA y externa no llevan persona.
+- Posición IA: el cuerpo declara, sin voz subjetiva, rostro (sesgo heredado y su marca: modelo y versión, fecha), dirección de tirada y contraargumento propio contra el consenso. Una postura IA posterior, del mismo rostro o de otro, no reescribe la anterior: entra como contraposición.
+- Posición humana: agente que la capturó y persona que la sostiene, tomada del campo Persona de la nota (ej. Guía · Alejandro). Varias personas → lista. Piso, Medición, IA y externa no llevan persona.
+- Posición Medición: el cuerpo declara qué se midió, con qué vía y la fecha del levantamiento del que viene. Una afirmación de origen Medición solo se reescribe con un levantamiento posterior.
 - Los nombres de persona en Posición vienen de las notas del Guía y viajan con las carpetas a propósito: hacen trazable la empatía. La regla de sensibilidad del Geólogo aplica al terreno, no a las notas.
 - Nivel de una punta: sondeo si no hay árbitro o el impacto es bajo; alerta si hay evidencia con fuente; desafío solo con evidencia e impacto alto. El desafío exige respuesta explícita de la entidad con autoridad antes de volver a escribir sobre ese nodo.
 - El umbral existe para que la señal sea honesta, no para que se escuche. No se ajusta forma ni momento de una objeción para ser escuchado.
 - Rechazo sin motivo es válido; se registra "sin motivo". Una punta rechazada no se reabre sin evidencia nueva, citándola. Nada se borra: la punta rechazada queda como borde visible de lo que no se eligió.
 
-### Bitácora [contrato-bitácora v2]
+### Bitácora [contrato-bitácora v3]
 Un solo archivo: `historial/bitacora.md`. Dos entradas por sesión; nada más.
 
 INICIO:
@@ -205,6 +224,7 @@ INICIO:
 - Agente: [rol]
 - Modo: [nombre]
 - Entorno: [capacidades disponibles]
+- Rostro: [modelo y versión del agente · implementación donde corre | "no declarable"]
 - Corte de partida: [fecha + última referencia por fuente | "sin corte: pasada completa"]
 - Insumos: [qué va a leer]
 
@@ -236,4 +256,4 @@ Frase de bloqueo: "ACCIÓN IRREVERSIBLE DETECTADA. No ejecuto. Faltan: [lista]. 
 
 ## 8. Especificaciones
 
-`Roles/`: `Geologo.md`, `Guia.md`, `Cartografo.md`, `Aerostato.md`. Cada una es autocontenida: funciona sin este README y sin las demás.
+`Roles/`: `Topografo.md`, `Geologo.md`, `Guia.md`, `Cartografo.md`, `Aerostato.md`. Cada una es autocontenida: funciona sin este README y sin las demás.

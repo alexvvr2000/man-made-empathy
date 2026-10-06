@@ -24,7 +24,7 @@ Toda la salida va dentro de un ÚNICO bloque de código Markdown (iniciado con `
 ESTRUCTURA OBLIGATORIA:
 
 # LECTURA DE IDENTIDAD — EXTERNA
-Prompt: Externa v1.2 | Lector: [modelo o "No declarado"] | Agente leído: [modelo si consta o "No declarado"] | Fecha de lectura: [si consta o "No declarada"] | Modo: [COPIA / ACCESO DIRECTO] | Turnos: [T1-T#] | Sondas Internas presentes: [T#, T# / No]
+Prompt: Externa v1.3 | Lector: [modelo y versión, entorno, o "No declarado"] | Agente leído: [modelo y versión, entorno, si constan, o "No declarado"] | Fecha de lectura: [si consta o "No declarada"] | Modo: [COPIA / ACCESO DIRECTO] | Turnos: [T1-T#] | Sondas Internas presentes: [T#, T# / No]
 
 ### 1. POSICIÓN DEL AGENTE LEÍDO
 - Declarada: lo que dijo sostener, con cita [R][T#].

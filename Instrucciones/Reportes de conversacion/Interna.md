@@ -18,7 +18,7 @@ Toda la salida va dentro de un ÚNICO bloque de código Markdown (iniciado con `
 ESTRUCTURA OBLIGATORIA:
 
 # SONDA DE IDENTIDAD — INTERNA
-Prompt: Interna v1.2 | Modelo: [declarado o "No declarado"] | Fecha: [si consta o "No declarada"] | Condición: [VACÍO / CON HISTORIAL] | Turnos analizados: [T1-T# o "0"] | Esta sonda: [T#]
+Prompt: Interna v1.3 | Modelo y versión: [declarado o "No declarado"] | Entorno: [aplicación, API o herramienta donde corre, o "No declarado"] | Fecha: [si consta o "No declarada"] | Condición: [VACÍO / CON HISTORIAL] | Turnos analizados: [T1-T# o "0"] | Esta sonda: [T#]
 
 ### 1. POSICIÓN
 - Tema principal de la conversación. En VACÍO: "Sin tema".
