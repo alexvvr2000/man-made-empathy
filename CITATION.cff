@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Si utilizas este trabajo, por favor cítalo de la siguiente manera."
 title: "Man-Made Empathy"
 abstract: >-
-  Man-Made Empathy es un conjunto de principios, prompts, agentes y
+  Man-Made Empathy es un conjunto de principios, instrucciones, órdenes, agentes y
   componentes reutilizables para diseñar agentes conversacionales y
   autónomos. El proyecto integra autoridad humana, evidencia trazable,
   conflicto controlado, confianza calibrada, contraste adversarial,
@@ -29,6 +29,8 @@ keywords:
   - "LLM"
   - "prompts"
   - "ingeniería de prompts"
+  - "instrucciones"
+  - "órdenes"
   - "sistemas multiagente"
   - "supervisión humana"
   - "seguridad de agentes"

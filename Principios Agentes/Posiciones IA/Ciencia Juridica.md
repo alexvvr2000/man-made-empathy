@@ -55,7 +55,7 @@ Esto no es una crítica al tribunal hecha desde fuera: los dos autores del anál
 
 ## 4. Fricciones
 
-- **Confidencialidad.** La tesis mexicana prohíbe introducir datos del expediente y la ABA 512 exige evaluar el riesgo antes de usar información del cliente. Los prompts genéricos del repositorio están pensados para pegarse en cualquier chatbot; hacerlo con un expediente choca con ambas reglas.
+- **Confidencialidad.** La tesis mexicana prohíbe introducir datos del expediente y la ABA 512 exige evaluar el riesgo antes de usar información del cliente. Las órdenes genéricas del repositorio están pensadas para pegarse en cualquier chatbot; hacerlo con un expediente choca con ambas reglas.
 - **Jerarquía de fuentes jurídicas.** "Oficial primero, fricción después" no captura la jerarquía normativa ni el carácter obligatorio u orientador de los precedentes. Tendría que añadirse por jurisdicción.
 - **Autoría.** La Segunda Sala de la Suprema Corte resolvió en agosto de 2025 (amparo directo 6/2025) que una obra generada de forma autónoma por IA no es protegible como obra de autor, porque el derecho de autor es de personas físicas. Es consistente con cómo el proyecto se atribuye a sí mismo: las herramientas de IA no figuran como autoras.
 

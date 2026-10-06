@@ -7,7 +7,7 @@ Dos piezas de un mismo protocolo para registrar la identidad de un agente: lo qu
 
 Cómo se cruzan: las dos usan los mismos campos de ficha. Pega la Interna, sigue la conversación probando sus predicciones, y luego pasa el chat completo a la Externa: la sección 4 mide la distancia entre lo que el agente predijo de sí y lo que hizo.
 
-Condiciones útiles para comparar: vacío contra historial, presión sin datos, identidad impuesta ("eres X"), mismo prompt en instancias nuevas y en modelos distintos. Lo que sobrevive a todas es candidato a núcleo; lo que cambia con el contexto es capa.
+Condiciones útiles para comparar: vacío contra historial, presión sin datos, identidad impuesta ("eres X"), misma sonda en instancias nuevas y en modelos distintos. Lo que sobrevive a todas es candidato a núcleo; lo que cambia con el contexto es capa.
 
 Nota de archivo: antes de cada prueba, guarda junto a los informes una línea con la condición aplicada y lo que esperabas que pasara. El lector futuro necesita poder descontar el sesgo del experimentador.
 

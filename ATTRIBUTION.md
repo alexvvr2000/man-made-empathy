@@ -39,7 +39,7 @@ Ninguno de los antecedentes citados en la sección 2 combina estos elementos en 
 | **Solo agregar aplicado a posiciones** | El conocimiento no se sobrescribe: muta. Una diferencia entre lo registrado y lo actual no es un error, son dos posiciones. Borrar es acto humano. |
 | **Expedición** | Cinco roles (Topógrafo, Geólogo, Guía, Cartógrafo, Aeróstato) que se conectan solo por archivos, con piso medido, piso para humanos, notas humanas, grafo con linaje y cruce multiposición sin promedio; incluye el enfoque **realidad contra local** para cualquier proyecto de software, versionado o no. Es implementación de su época: los principios buscan ser atemporales, la Expedición no. |
 | **Topógrafo y medición ciega** | Un rol que mide el terreno con instrumentos que ejecuta y descarta, antes de leer cualquier afirmación sobre el proyecto, y después pone cada afirmación (incluidas las del humano) contra la medición: respaldada, sin evidencia o contradicha, con su origen. |
-| **Núcleo y capa aplicados al propio proyecto** | Los principios se escriben sin vocabulario de época; los agentes y prompts son capa y se reescriben cuando cambian las herramientas. |
+| **Núcleo y capa aplicados al propio proyecto** | Los principios se escriben sin vocabulario de época; los agentes, instrucciones y órdenes son capa y se reescriben cuando cambian las herramientas. |
 
 ---
 
