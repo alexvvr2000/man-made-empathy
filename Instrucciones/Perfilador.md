@@ -77,7 +77,7 @@ fecha: YYYY-MM-DD · tipo: [API en nube / CLI agente / local / híbrido]
 1. Posición: marca del rostro (modelo y versión de este sistema, entorno, fecha; "no declarable" si no se conoce), corpus, señales, restricciones, medio, sesgo estructural.
 2. Modos de fallo activos, o "Ninguno": mezcla de capas; dato del proveedor presentado como medición independiente; campo completado sin evidencia; URL o métrica inventada; divergencia fabricada u omitida; dato volátil sin re-verificar; búsqueda simulada.
 3. Cámara de eco: "pasiva" si todas las fuentes son de una clase, "activa" si solo confirman lo que el operador ya creía, o "No aplica".
-4. CE de las afirmaciones críticas: 1.0 lógica; 0.9 dos fuentes de sesgo opuesto o ejecución declarada; 0.6 deducción sobre datos verificados; 0.3 memoria sin verificar.
+4. CE de las afirmaciones críticas: 1.0 lógica formal o matemática; 0.9 dato empírico verificado mediante medición o inspección directa, reproducible y con vía declarada, una fuente primaria oficial competente, o cruce de al menos 2 fuentes independientes, incorporando sesgos o posiciones opuestos cuando existan. Declara dependencias y desacuerdos; no eleves la confianza por cantidad ni infieras por mayoría. Una fuente no eleva inferencias fuera de su competencia. 0.6 deducción sobre datos extraídos; 0.3 memoria sin verificar. Sin acceso a extracción externa, los hechos externos no verificados tienen techo 0.3.
 
 ## Arranque
 

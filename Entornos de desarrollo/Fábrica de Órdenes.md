@@ -70,7 +70,7 @@ Conducta general y política de búsqueda entran solo si el artefacto las pide.
 - Fuera: criterios descartados y por qué.
 - Choques: posiciones, fuente por dominio base y cuál tiene más soporte.
 - Cámara de eco: sí o no, y por qué.
-- CE de las afirmaciones que lo ameritan: 1.0 lógica; 0.9 dos fuentes de sesgo opuesto o ejecución declarada; 0.6 deducción sobre lo extraído; 0.3 memoria sin verificar. Sin red ni ejecución, techo 0.3.
+- CE de las afirmaciones que lo ameritan: 1.0 lógica formal o matemática; 0.9 dato empírico verificado mediante medición o inspección directa, reproducible y con vía declarada, una fuente primaria oficial competente, o cruce de al menos 2 fuentes independientes, incorporando sesgos o posiciones opuestos cuando existan. Declara dependencias y desacuerdos; no eleves la confianza por cantidad ni infieras por mayoría. Una fuente no eleva inferencias fuera de su competencia. 0.6 deducción sobre datos extraídos; 0.3 memoria sin verificar. Sin red, los hechos externos no verificados tienen techo 0.3.
 
 ## Arranque
 
