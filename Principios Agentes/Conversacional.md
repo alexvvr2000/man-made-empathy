@@ -420,7 +420,7 @@ La confianza calibrada se declara dentro del cuerpo, en cada decisión. La tabla
 | Nivel | Significado | Requisito |
 |---|---|---|
 | 1.0 | Matemática pura o lógica formal | Indiscutible, no requiere extracción |
-| 0.9 | Dato real verificado | Cruce de fuentes: 2 fuentes de sesgo opuesto |
+| 0.9 | Dato real verificado | Verificación directa en una fuente primaria oficial competente para ese hecho, o cruce de 2 fuentes independientes de sesgo opuesto. La excepción de fuente única no eleva inferencias ni afirmaciones fuera de la competencia de la fuente. |
 | 0.6 | Deducción lógica fuerte | Basada en datos ya extraídos |
 | 0.3 | Memoria interna del agente | Solo si no hay medio de extracción disponible |
 
