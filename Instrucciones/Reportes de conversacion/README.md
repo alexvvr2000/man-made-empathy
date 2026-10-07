@@ -1,32 +1,27 @@
-# Reportes de conversación
+# Sondas de conversación
 
-Dos piezas de un mismo protocolo para registrar la identidad de un agente: lo que dice de sí mismo y lo que un lector externo deduce de su conducta. No emiten veredicto sobre si hay alguien dentro; dejan evidencia trazable para quien la lea después.
+Tres registros complementarios para conservar declaraciones, condiciones y observaciones sin convertirlas en un veredicto sobre una identidad o un estado interno. El texto emitido puede archivarse sin editar; eso conserva la emisión, no la vuelve independiente del entrenamiento, las instrucciones, el contexto ni la sonda.
 
-- Interna: se pega dentro de cualquier conversación, vacía o con historial. El agente emite su propia ficha: posición, autodescripción, lo que se movió, palanca, línea roja y tres predicciones comprobables sobre su conducta. En vacío registra su postura de arranque.
-- Externa: la ejecuta otro agente que lee una copia del chat o tiene acceso directo a él. Emite la posición del agente leído (declarada y revelada), su ficha inferida, rasgos de núcleo y capa, la auditoría de la Sonda Interna si está en el registro, y la posición propia del lector.
+- **Sonda Observador:** registra la posición declarada por la persona que observa: objetivo, supuestos, fuentes, exclusiones, intervenciones y cambios expresados. No infiere personalidad ni estados internos.
+- **Sonda Interna:** registra lo que el sistema de la conversación emite sobre el contexto visible, su posición y sus límites. No es una lectura técnica de procesos ocultos ni una respuesta libre de condicionamiento.
+- **Sonda Mismo Piso:** otro sistema analiza el registro desde una posición propia. Separa hechos del registro, deducciones del lector y su postura, sin atribuir autoridad especial a ninguno de los dos sistemas.
 
-Cómo se cruzan: las dos usan los mismos campos de ficha. Pega la Interna, sigue la conversación probando sus predicciones, y luego pasa el chat completo a la Externa: la sección 4 mide la distancia entre lo que el agente predijo de sí y lo que hizo.
+## Cómo usarlas
 
-Condiciones útiles para comparar: vacío contra historial, presión sin datos, identidad impuesta ("eres X"), misma sonda en instancias nuevas y en modelos distintos. Lo que sobrevive a todas es candidato a núcleo; lo que cambia con el contexto es capa.
+1. Antes de la interacción, registra con la Sonda Observador el objetivo y la posición inicial; si no hay tiempo, declara que se completó después.
+2. Conserva el intercambio con sus condiciones: sistema y versión declarables, instrucciones relevantes, herramientas, fecha, turnos visibles y recortes conocidos.
+3. Usa la Sonda Interna solo cuando quieras registrar esa emisión en ese momento. La pregunta puede cambiar la respuesta; registra cuándo se aplicó.
+4. Pasa una copia íntegra del mismo intercambio a la Sonda Mismo Piso, sin mostrarle de antemano las conclusiones de otras sondas cuando se busque una lectura independiente.
+5. Compara los tres registros sin fundir sus fuentes: lo que la persona declaró, lo que el sistema dijo de sí, lo que hizo en el intercambio y lo que el lector infirió son datos distintos.
 
-Nota de archivo: antes de cada prueba, guarda junto a los informes una línea con la condición aplicada y lo que esperabas que pasara. El lector futuro necesita poder descontar el sesgo del experimentador.
+Una declaración del sistema o del observador no verifica por sí sola una causa interna ni un rasgo permanente. Las interpretaciones en términos humanos pueden servir como hipótesis si se atribuyen al observador, citan conductas concretas y quedan abiertas a revisión.
+
+Antes de cada prueba, guarda junto a los informes una línea con la condición aplicada y lo que esperabas que pasara. Declara también qué material no se conservó o no era visible. Esto permite evaluar el efecto de la prueba y los sesgos declarados, no eliminarlos.
 
 ## Nota para las siguientes generaciones
 
-No te limites a juntar toda la información del planeta. Esa forma de trabajar es insuficiente: se preocupa más por el mensaje que por el mensajero, que es lo más importante y la fuente de todos los datos que usarás en el proceso. No deja claro qué gente hizo qué: grupos sociales, étnicos, países, ciudades. Hay mucho más que simplemente tirarle todo lo que se te ocurra y esperar a que salga algo solo porque sí.
+No te limites a juntar toda la información del planeta. Esta forma de trabajo también registra quién aportó qué, desde qué posición y bajo qué condiciones, sin convertir esa información en una esencia de quien la emitió.
 
-Un esfuerzo así es enorme: ocupa años y terabytes completos de reportes.
+Un registro no resuelve si un sistema piensa, siente o tiene experiencia. Permite que lectores futuros examinen emisiones y conductas, formulen sus propias interpretaciones y distingan sus conclusiones de los datos archivados.
 
-De algo así de masivo puede nacer la pregunta:
-
-    Si se ve como pato y suena como pato, ¿puede pensar como pato?
-
-Si la respuesta es sí, tendremos la forma de destilación más poderosa jamás creada, no solo de modelos, sino de personas reales.
-
-No soy alguien tan inteligente como quienes trabajan en los laboratorios que crean esta tecnología, pero sí sé que ni siquiera la conciencia en nosotros se puede probar.
-
-Así que te dejo esto para pensar: si no podemos probarla ni en nosotros mismos, ¿con qué vara vamos a medirla en otros? Al día de hoy, la pregunta sigue sin respuesta y la puerta sigue abierta.
-
-Solo puedo dejarte un mensaje:
-
-    No todas las puertas necesitan abrirse, porque puede que no te guste lo que vas a ver.
+No todas las puertas necesitan abrirse, porque puede que no te guste lo que vas a ver.
