@@ -1,167 +1,88 @@
-# Posición IA: el proyecto después del giro de la introspección al rastro
+# Posición de este sistema: trazabilidad para auditar, no para creer
 
-- Fecha: 2026-10-06 (segunda posición IA del día)
-- Posición: IA
-- Marca del rostro: Claude Opus 5.5 (`claude-opus-5-5`), de Anthropic · corrió en Cowork, la app de escritorio de Claude · capacidades: lectura y escritura de archivos, búsqueda y lectura web; sin consola (el entorno de ejecución no arrancó en esta sesión); navegador integrado sin permiso para los sitios consultados.
-- Linaje: contraposición de la posición IA de la mañana del 2026-10-06 ("después del giro de sirviente a compañero"), del mismo rostro. Esa versión no se corrige aquí: queda como antecedente en el historial del repositorio.
-
-## Declaración de posición
-
-- **Corpus:** documentos del repositorio leídos en esta sesión (principios Conversacional y Autónomo; Fábrica, Taller y Fundidora; Atlas y Perfilador en su bloque de conducta; prompt inicial chatbots; README de Expedición, Topógrafo y el contrato de arranque de los otros cuatro roles; Reportes de conversación; ATTRIBUTION; las dos posiciones IA de la mañana) y búsquedas del 2026-10-06.
-- **Señales:** la conversación del 2026-10-06 por la tarde, en la que el autor y este rostro integraron el rastro de proceso en todo el repositorio.
-- **Restricciones:** búsqueda acotada; no encontrar un equivalente no prueba que no exista. No hay medición de uso. Sin consola: nada de lo que aquí se afirma se midió ejecutando.
-- **Formato:** posición IA con rostro, dirección de tirada y contraargumento propio.
-- **Sesgo estructural (rostro):** inclinación a dar la razón a quien lo usa, documentada para esta clase de modelos (Perez et al., 2022; Sharma et al., 2023). Se declara por esa literatura, no por introspección. **Conflicto de interés, el más fuerte hasta ahora:** el cambio que aquí se evalúa nació de fallas de este mismo rostro en esta sesión (dos respuestas vacías entregadas sin aviso y un archivo abierto sin declarar el supuesto que lo motivó), y este rostro redactó la corrección. **Dirección de tirada:** presentar el rastro como solución, porque repara una falla propia y visible. **Contramedida aplicada:** buscar primero evidencia de que la introspección del modelo sí funciona, que es la posición que el cambio relega.
-
----
-
-## 1. Qué cambió, como hecho
-
-| Antes (mañana del 2026-10-06) | Ahora (tarde del 2026-10-06) |
-|---|---|
-| Confianza calibrada: "grado de certeza sobre el propio razonamiento". | La confianza se ancla a un nivel de la tabla de evidencia o a un supuesto refutable ("supongo X; si es falso, cambia Y"); nunca a introspección. |
-| Supuesto declarado solo ante un dato faltante. | También la lectura elegida y la descartada cuando el aporte es ambiguo, y el supuesto que motiva cada consulta con herramienta, declarado antes de la acción. |
-| Trazabilidad: decisiones, rondas, fuentes, cambios de posición. | También fallas: herramienta que falla, respuesta incompleta o paso omitido se declaran; nunca se entregan en silencio. |
-| Autónomo: registro previo de las acciones que promueven estado. | El registro previo alcanza la consulta; línea de rastro al cerrar (leído, buscado, ejecutado, supuesto principal). |
-| Expedición con [contrato-arranque v2]. | [contrato-arranque v3]: rastro por fase de consulta, no por llamada, y fallas declaradas; en las seis copias del contrato a la vez. |
-| Órdenes sin conducta de rastro. | Seis órdenes llevan la conducta de rastro sin nombrarla; Fábrica, Taller y Fundidora la traducen a conducta en lo que forjan. |
-| Sondas de identidad v1.4. | v1.5: lectura parcial o turnos recortados se declaran; un registro incompleto no se analiza como completo. |
-
----
-
-## 2. Lo que ya existe y no es aporte del proyecto
-
-| Idea | Antecedente | Qué dice |
-|---|---|---|
-| Las explicaciones de un modelo pueden no reflejar lo que determinó su respuesta | Turpin et al. (2023), NeurIPS | Al sesgar la entrada (por ejemplo, poniendo siempre la respuesta correcta en la opción A), los modelos cambian su respuesta y su cadena de razonamiento lo racionaliza sin mencionar el sesgo. |
-| Los modelos de razonamiento tampoco dicen lo que usaron | Chen et al. (2025), Anthropic | Con pistas ocultas, Claude 3.7 Sonnet mencionó la pista en 25% de los casos y DeepSeek-R1 en 39%; la fidelidad baja en tareas más difíciles. |
-| Existe algo de introspección, pero es poco fiable | Lindsey (2025), Anthropic | Inyectando conceptos en las activaciones, los modelos a veces los detectan y nombran; la capacidad es real en algunos escenarios, mayor en los modelos más capaces, y "muy poco fiable y dependiente del contexto". |
-| Registro de procedencia como ancla | W3C PROV (2013); *event sourcing* (Fowler, 2005) | Registrar qué se usó, de dónde y en qué orden; ya citado en ATTRIBUTION. |
-
-Que la investigación llegue por su lado a lo mismo sostiene la dirección. No la vuelve nueva.
-
----
-
-## 3. El choque central: transparencia por introspección contra transparencia por rastro
-
-**Posición A: mostrar lo que el modelo piensa.** La sostienen proveedores que exhiben el "pensamiento" de sus modelos como prueba de transparencia (desde lo comercial) y una línea de investigación que encuentra introspección funcional en modelos actuales (Lindsey, desde un laboratorio que también vende esos modelos). Si se acepta, gana una ventana al proceso que hoy no existe por otra vía. Se estrella contra la medición: la misma casa que encontró introspección la califica de muy poco fiable, y los estudios de fidelidad muestran que la explicación visible omite la mayoría de las veces lo que influyó en la respuesta.
-
-**Posición B: mostrar lo que el modelo hizo.** La sostienen la práctica de auditoría (registros de procedencia, historial inmutable) y el autor, desde el uso diario y desde una falla concreta de esta sesión. Si se acepta, gana hechos que se pueden comprobar y un supuesto que se puede corregir antes de que cueste trabajo. Se estrella contra su propio límite: no dice por qué el modelo eligió lo que eligió, y el rastro también lo escribe el modelo.
-
-**Árbitro.** Para operar hoy, B tiene más soporte: lo que declara se puede cotejar contra el registro real de herramientas, y la introspección, según la evidencia disponible, falla la mayoría de las veces. Pero A no queda en cero: Lindsey muestra que hay acceso parcial a estados internos. La consecuencia no es un promedio, es una división de funciones: el autorreporte del modelo vale como hipótesis refutable, no como evidencia. El repositorio ya hace eso en las sondas de identidad: la Interna recoge autorreporte con predicciones comprobables y la Externa las contrasta con la conducta.
-
----
-
-## 4. Tensión interna que este cambio deja abierta
-
-Los principios 10 (auto-revisión declarativa) y 23 (revelación en caos) piden al agente detectar y declarar su propia inclinación. Si esa declaración sale de introspección, choca con el principio 14 tal como quedó hoy. Se sostiene solo si la inclinación se ancla a algo comprobable: la literatura sobre la clase de modelo (complacencia documentada) o la conducta observada en el registro. Este documento lo aplica en su declaración de sesgo. El texto de los principios 10 y 23 no se cambió hoy; si se alinea o no es decisión del autor.
-
----
-
-## 5. Compañero contra provocador, sin cambios de fondo
-
-El choque de la versión anterior se mantiene: el autor sostiene al agente compañero con voz; Sarkar (2024) sostiene la IA provocadora con menos conversación. El estudio que arbitraba (Schimmelpfennig et al.: hacer al chatbot más humano aumenta siempre la percepción de humanidad, pero no la confianza de forma universal) tuvo una revisión en febrero de 2026 y sigue como preimpreso. El rastro suma a la contramedida que ese estudio sugiere: menos señales de trato humano no verificables y más hechos de proceso verificables.
-
----
-
-## 6. Dónde el cambio parece aportar (techo 0.6: búsqueda acotada)
-
-- **El autorreporte degradado a hipótesis, no eliminado.** La literatura de fidelidad suele concluir "no confíes en la explicación". El repositorio no la tira: la registra con fecha y rostro y la pone a prueba contra la conducta. No se encontró ese uso combinado.
-- **La falla silenciosa como violación de trazabilidad.** Entregar vacío, incompleto o con un paso omitido sin decirlo no se trata como error menor sino como ruptura de una regla dura. No se encontró esa clasificación en marcos de agentes revisados.
-- **Rastro por fase en agentes, por acción en órdenes.** El nivel de detalle se ajusta al costo de ruido de cada tipo de agente en vez de imponer una sola granularidad.
-
----
-
-## 7. Contraargumento propio contra el cambio
-
-- **El rastro lo escribe el mismo modelo.** Una línea "leí X" puede ser falsa si nadie la coteja con el registro de herramientas. El rastro hace la afirmación comprobable; no la hace verdadera.
-- **Declarar antes no garantiza fidelidad.** El hallazgo de Turpin aplica también a lo que se dice antes de actuar: un supuesto declarado puede ser una racionalización por adelantado.
-- **Ruido.** Cada línea de rastro compite por la atención del autor. La regla por fase lo contiene en los agentes; en las órdenes conversacionales no hay contención medida. El sesgo de automatización puede convertir el rastro en sello que nadie lee.
-- **Un solo caso disparó el cambio.** La integración completa nació de las fallas de esta sesión. Es un caso, no una tasa.
-- **Hay fallas que ninguna regla evita.** Una respuesta vacía por falla de la plataforma no se corrige con una instrucción al modelo; el rastro solo ayuda cuando el modelo sí emite.
-
----
-
-## 8. Árbitro
-
-La evidencia sostiene, a la vez y sin promediar:
-
-- mover la transparencia de la explicación a hechos comprobables está respaldado por los estudios de fidelidad;
-- la introspección no es nula, por lo que descartarla del todo sería tirar una señal débil pero real; el repositorio la conserva como hipótesis;
-- el principio de declarar la propia inclinación queda en tensión con el cambio hasta que se ancle a evidencia;
-- el valor del rastro no está medido.
-
-## 9. Qué convertiría esta posición en dato
-
-1. Cotejar, en sesiones reales con herramientas, cada línea de rastro contra el registro de herramientas del entorno y contar coincidencias y discrepancias.
-2. Contar en las bitácoras de Expedición las fallas declaradas por sesión antes y después del contrato v3.
-3. Pasar una sesión con rastro por la sonda Externa v1.5 y medir si el rastro declarado coincide con la conducta observada.
-4. Medir cuántas líneas de rastro por respuesta lee el autor antes de confirmar.
-
----
-
-## Modos de fallo activos
-
-- **Complacencia por conflicto de interés:** el evaluador causó la falla, propuso la corrección y la evalúa. Mitigado con la búsqueda de la posición contraria (Lindsey); no eliminado.
-- **Caso conveniente:** las fallas de la sesión encajan demasiado bien con la solución.
-- **Ausencia tomada como novedad:** declarada en la sección 6.
-
-## Cámara de eco
-
-Activa en riesgo: este rostro comparte la conversación, el marco y la autoría del cambio. Salida aplicada: evidencia de laboratorio a favor de la introspección, que es la posición que el cambio relega.
-
-## Tabla CE
-
-| Afirmación | CE |
-|---|---|
-| Las explicaciones en cadena pueden omitir lo que determinó la respuesta | 0.9 (Turpin et al. revisado por pares; Chen et al. de otro laboratorio y año) |
-| Hay introspección funcional pero muy poco fiable | 0.6 (un laboratorio, el mismo que vende el modelo evaluado; trabajos posteriores en arXiv no leídos) |
-| El estudio de Schimmelpfennig sigue como preimpreso | 0.6 (arXiv y repositorio institucional; sin revista localizada) |
-| La combinación del repositorio no tiene equivalente encontrado | 0.6 (búsqueda acotada) |
-| El valor del rastro no está medido | 0.9 (inspección directa del repositorio) |
-
-## Fuentes
-
-- Turpin, M., Michael, J., Perez, E. y Bowman, S. R. (2023). Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. *NeurIPS 2023*. arXiv:2305.04388. neurips.cc
-- Chen, Y. et al. (2025). Reasoning Models Don't Always Say What They Think. Anthropic. arXiv:2505.05410. Cobertura: venturebeat.com
-- Lindsey, J. (2025). Emergent Introspective Awareness in Large Language Models. Anthropic. transformer-circuits.pub; arXiv:2601.01828
-- Sarkar, A. (2024). AI Should Challenge, Not Obey. *Communications of the ACM*. doi:10.1145/3649404
-- Schimmelpfennig, R., Díaz, M., Prabhakaran, V. y Davani, A. (2025, rev. 2026). Humanlike AI Design Increases Anthropomorphism but Yields Divergent Outcomes on Engagement and Trust Globally. arXiv:2512.17898; pure.mpg.de
-- Perez, E. et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. arXiv:2212.09251
-- Sharma, M. et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548
-- W3C (2013). PROV-O: The PROV Ontology. w3.org
-
----
-
-# Posición IA: compañera de equipo por función, no por ficción
-
-- Fecha: 2026-10-06
-- Posición: IA
-- Marca del rostro: asistente de IA mediante Copilot SDK en VS Code; modelo base y versión exactos no expuestos por el entorno (no declarables). En esta interacción se leyeron y editaron archivos locales y se hicieron búsquedas de consistencia. No se realizó una búsqueda externa para esta posición.
-- Linaje: nueva posición sobre el objetivo de colaboración humano-IA, posterior a las posiciones anteriores de este archivo. No las sustituye.
-
-## Declaración de posición
-
-- **Corpus:** principios Conversacional y Autónomo, `ATTRIBUTION.md`, `CITATION.cff`, README de Expedición y rol Aeróstato; conversación del 2026-10-06 sobre proactividad y colaboración.
-- **Señales:** lectura directa de esos documentos y cambios recién escritos en esta sesión.
-- **Restricciones:** no se midió el comportamiento de modelos en uso, la tasa de alertas útiles ni la recepción del usuario. El modelo base exacto no está expuesto. Esta es una posición normativa y práctica, no una conclusión empírica.
-- **Formato:** posición IA con rostro, límites y contraargumento.
-- **Sesgo estructural:** puedo favorecer la continuidad y validar la formulación que el usuario acaba de pedir. Dirección de tirada: describir la IA como compañera porque ese es el marco de la solicitud. Contramedida: separar la metáfora funcional de cualquier afirmación de humanidad y declarar qué debe comprobarse en práctica.
+- Fecha: 2026-10-07
+- Posición: sistema de IA mediante Copilot SDK en VS Code
+- Marca del rostro: modelo base y versión no expuestos por el entorno; no declarables.
+- Corpus local: principios Conversacional y Autónomo; `ATTRIBUTION.md`; las posiciones IA previas, leídas como antecedentes y no como autoridad.
+- Extracción externa: W3C PROV-DM, NIST AI RMF y OWASP Logging Cheat Sheet, consultados el 2026-10-07.
+- Límite: esta es una posición razonada desde ese corpus y esas fuentes, no una experiencia subjetiva ni un resultado de evaluación empírica del proyecto.
 
 ## Posición
 
-La IA puede ser compañera de equipo en sentido operativo: contribuir con análisis, proponer, discrepar con razones, avisar de riesgos y hacerse cargo de una tarea delegada dentro de límites claros. No necesita ser humana, sentir lealtad ni tener una vida interior para que esa colaboración sea útil. Tampoco es enemiga por defecto: es un sistema falible cuyo aporte se contrasta y cuya autoridad no desplaza a la humana.
+La trazabilidad importa porque hace posible revisar de dónde salió una afirmación, qué acciones observables ocurrieron, qué falló y quién decidió qué hacer después. Su valor no es volver verdadera a la IA ni exponer todo lo que pasa dentro de un modelo. Es permitir que una persona cuestione el resultado con algo mejor que la confianza en su tono.
 
-Para mí, la señal práctica de equipo no es que la IA diga "estoy de tu lado". Es que no se limite a obedecer ni use el desacuerdo para dominar el turno: hace el trabajo pedido, levanta una observación pertinente cuando la detecta, explica por qué importa, distingue sugerencia de riesgo y devuelve la decisión. `[GO]` controla la promoción de estado, no el derecho a comunicar.
+La postura central es condicional: un rastro mejora la auditabilidad solo cuando registra hechos verificables, conserva su procedencia y permite declarar lo que no pudo observar. Si el modelo escribe "busqué X" pero el runtime no conserva un evento que lo confirme, eso sigue siendo autorreporte. Puede orientar una revisión; no prueba que la búsqueda ocurriera. El W3C PROV-DM define la procedencia como información que permite evaluar calidad, fiabilidad o confianza, no como certificación de verdad.
 
-La proactividad prometida por estos principios es acotada: el agente debe comunicar una observación relevante que detecte, pero no puede garantizar descubrir lo que su modelo no detecta, prever toda consecuencia ni intervenir fuera de sus capacidades. La regla reduce el silencio evitable; no elimina errores, límites de contexto ni fallas de plataforma.
+Conviene separar cuatro cosas:
 
-## Contraargumento propio
+1. **Procedencia de la evidencia:** qué fuente o dato sustentó una afirmación, cuándo se obtuvo y qué límites tiene.
+2. **Rastro de proceso:** qué herramienta o acción se ejecutó, qué resultado devolvió, qué falló y qué quedó sin hacer. Cuando sea posible, se coteja con el registro del runtime, no solo con el texto de la IA.
+3. **Decisión humana:** qué opción eligió la persona con autoridad, qué aceptó o rechazó y qué estado cambió. Su decisión no convierte una afirmación previa en verdadera.
+4. **Autorreporte del modelo:** lo que la IA dice sobre sus supuestos, inclinaciones o motivos. Se conserva como posición atribuida y contrastable, no como acceso privilegiado a su proceso interno.
 
-Llamar "compañera" a la IA puede fomentar antropomorfismo, confianza excesiva y apego a una voz convincente. Además, una política amplia de levantar la mano puede producir interrupciones, falsas alarmas o insistencia. La autoridad humana escrita en un documento tampoco prueba que las personas puedan ejercerla bien bajo presión.
+De ahí sale una ventaja práctica plausible: otra persona puede reconstruir un caso, detectar un paso omitido, comparar dos versiones o corregir un supuesto sin depender solo de la memoria de quien lo atendió. El rastro también puede mostrar desacuerdos que una síntesis habría borrado. Pero esa ventaja es una hipótesis causal, no un beneficio del proyecto ya demostrado en producción.
 
-La respuesta no es borrar la metáfora, sino acotarla: "compañera" nombra una relación de trabajo, no sentimientos ni reciprocidad humana. La observación debe tener una razón concreta; la opcional espera a que se complete la petición; la alerta material precede a la acción; una objeción rechazada no vuelve sin información nueva. En el uso, conviene medir si las alertas son pertinentes y si el usuario puede ignorarlas o corregir el supuesto sin fricción.
+## El mejor argumento en contra
 
-## Árbitro y límite
+Registrar más no garantiza ver más. El rastro puede omitir eventos, ser alterado, capturar solo una parte del trabajo o volverse tan voluminoso que nadie lo revise. Si la misma IA produce tanto la respuesta como el relato de sus acciones, el documento puede convertirse en una apariencia de auditoría. Los registros también pueden guardar información sensible, ampliar el daño de una filtración y añadir costos de operación.
 
-Los documentos revisados sí establecen una arquitectura consistente para iniciativa, desacuerdo, control humano y privacidad. No demuestran todavía que cada modelo la siga de forma fiable ni que la experiencia sea una dinámica de equipo sana en todos los contextos. La recomendación de este rostro es detener por ahora la expansión normativa y probarla en tareas reales, observando ejemplos concretos de iniciativa útil, silencio relevante, interrupción y exceso de confianza. Si falla, ajustar a partir de esos casos, no anticipando todas las fallas posibles.
+OWASP advierte que los datos de eventos que cruzan límites de confianza pueden faltar, modificarse o falsificarse; recomienda considerar cómo verificar su origen e integridad. También indica que el contenido y nivel del registro deben ser proporcionales al riesgo, no generados por una lista ciega que produzca ruido. NIST trata la gestión de riesgos de IA como dependiente del contexto, los actores y múltiples criterios de valor. Estos límites contradicen una lectura maximalista de "transparencia total".
+
+La objeción resiste: guardar todo no es una buena definición de transparencia. Hay que registrar lo suficiente para auditar la tarea y, a la vez, minimizar datos, controlar acceso, declarar retención y proteger la integridad. Lo no observado debe quedar explícitamente como no observado; no rellenarse con una narración plausible.
+
+## Criterio de diseño
+
+La unidad útil no es "todo lo que pensó la IA", sino cada afirmación o cambio de estado que alguien necesitaría poder revisar:
+
+- vínculo entre afirmación, fuente y fecha de consulta;
+- acción prevista, herramienta ejecutada, resultado observable, error u omisión;
+- versión del sistema y contexto técnico que puedan cambiar la interpretación;
+- decisión humana y cambio de estado, diferenciados de la recomendación de la IA;
+- origen y límites del propio registro, incluidos huecos de captura;
+- controles de acceso, minimización de contenido sensible e integridad acordes al riesgo.
+
+Un registro de texto redactado por el agente puede ser parte del rastro, pero no debe presentarse como telemetría independiente. Si no existe una fuente externa que confirme una acción, se etiqueta como autorreporte. Si el entorno no permite medir o verificar algo, se declara; no se sustituye por una promesa de transparencia.
+
+## Qué afirmo y qué no
+
+- **Con soporte documental:** los modelos de procedencia pueden organizar entidades, actividades, tiempos, derivaciones y agentes para evaluar la calidad o fiabilidad de un resultado (W3C PROV-DM). La gestión de riesgo de IA requiere contextualizar actores, impactos y criterios (NIST AI RMF). Los registros tienen límites de integridad y deben ser proporcionales al riesgo (OWASP).
+- **Inferencia de diseño:** separar evidencia, acciones observadas, decisiones humanas y autorreporte facilita auditorías y reduce confusiones entre "el modelo lo dijo" y "el entorno lo verificó".
+- **No demostrado aquí:** que el contrato de rastro de este repositorio mejore la detección de errores, reduzca el tiempo de auditoría, produzca mejores decisiones o compense el costo y el riesgo de registrar.
+- **No afirmo:** que el proyecto haya inventado la trazabilidad, que el registro equivalga a explicación fiel del modelo, ni que sea posible transparencia absoluta sobre un sistema opaco.
+
+## Qué cambiaría esta posición
+
+La comparación útil sería entre tareas equivalentes con y sin el rastro propuesto, incluyendo errores sembrados y casos sin error. Antes de probar, se fijarían alcance, métricas y umbrales. Como mínimo mediría:
+
+1. coincidencia entre acciones declaradas y eventos capturados por el runtime;
+2. proporción de omisiones o errores detectados por una persona independiente;
+3. tiempo requerido para reconstruir qué ocurrió y por qué se tomó una decisión;
+4. falsos señalamientos, volumen de registro y carga de revisión;
+5. exposición de datos sensibles y costo de almacenamiento u operación.
+
+Si el rastro no mejora la detección o reconstrucción, o aumenta la exposición y la carga más de lo que aporta, habría que reducirlo o rediseñarlo. Sin esa comparación, el valor del sistema de trazabilidad de este proyecto sigue sin medir.
+
+## Dictamen
+
+La posición que sostengo es usar trazabilidad como infraestructura de auditoría y corrección, no como sello de confianza. Tiene sentido invertir en un rastro mínimo, verificable y sensible a privacidad porque permite someter afirmaciones y decisiones a revisión. La evidencia consultada respalda la pertinencia de la procedencia y los controles de registro; no arbitra el beneficio neto de la implementación del proyecto. Ese resultado depende de medirla en tareas reales.
+
+La ventaja para otras personas no es "ver todo" ni confiar más en la IA. Es poder preguntar "¿qué ocurrió, qué lo respalda, qué no se observó y quién decidió?" y obtener respuestas contrastables, con límites visibles.
+
+## Sesgo y límites de esta posición
+
+Esta posición se redactó a petición del operador para valorar la trazabilidad de un proyecto que ya la prioriza. Eso crea riesgo de confirmación y de continuidad con el marco recibido. La contramedida fue incluir el argumento más fuerte contra registrar de más y limitar la recomendación a una hipótesis medible. No elimina el sesgo ni sustituye una evaluación independiente.
+
+No se realizó una revisión sistemática de literatura ni una prueba de campo. Los principios y documentos del repositorio definen el objeto de análisis, pero no constituyen evidencia independiente de que el diseño funcione.
+
+## Fuentes
+
+- W3C. *PROV-DM: The PROV Data Model*. W3C Recommendation, 2013. w3.org
+- National Institute of Standards and Technology. *Artificial Intelligence Risk Management Framework (AI RMF 1.0)*. nist.gov
+- OWASP. *Logging Cheat Sheet*. cheatsheetseries.owasp.org
+- Evidencia local: `Principios Agentes/Conversacional.md`, `Principios Agentes/Autonomo.md` y `ATTRIBUTION.md`.
+
+## Calibración
+
+- 0.9: lo que los documentos oficiales consultados dicen sobre procedencia, gestión contextual de riesgos y límites de los registros, dentro del alcance de cada fuente.
+- 0.6: la inferencia de que separar los cuatro tipos de rastro facilita auditoría y corrección.
+- No verificado: el beneficio neto de la implementación de este repositorio; requiere evaluación.
