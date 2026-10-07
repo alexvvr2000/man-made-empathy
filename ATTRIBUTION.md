@@ -1,152 +1,49 @@
-# Atribución y contexto intelectual
+# Desarrollo, contribuciones y referencias
 
-## Man-Made Empathy
+Este documento registra cómo se desarrolló Man-Made Empathy, qué aportes se atribuyen al autor y a las herramientas de IA, y qué tan verificados están los antecedentes reunidos. No es una declaración de prioridad académica, una revisión sistemática ni una prueba de originalidad.
 
-> **Los ingredientes tienen antecedentes y aquí se citan. El pegamento —cómo se conectan, en qué orden y con qué reglas— es la contribución de este proyecto.**
+## Relato de desarrollo
 
-Este archivo separa tres cosas:
+Según el relato del autor registrado el 2026-10-07, el proyecto se desarrolló iterativamente con sistemas de IA. El autor partió de objetivos e intuiciones propias, sin haber hecho una revisión bibliográfica sistemática previa. Las IA propusieron conceptos, referencias, búsquedas y formulaciones; el autor decidió qué aceptar, rechazar, combinar, cambiar o descartar, y organizó el material de acuerdo con el proyecto.
 
-1. **Lo que no se reclama:** conceptos con autores y tradición propia (supervisión humana, sesgo de automatización, contraargumento, trazabilidad, etc.). Se citan abajo con su fuente.
-2. **Lo que se reclama:** la arquitectura que los une, la terminología propia y los mecanismos nuevos que solo existen por esa unión.
-3. **Lo que se usa como herramienta:** software o estándares de terceros que una implementación necesita, con su licencia.
+Este relato es retrospectivo. No existe una bitácora completa que permita reconstruir cada sugerencia, consulta, edición, fuente y decisión, ni atribuir cada elemento a una sesión o modelo concreto. No se afirma que el autor haya leído directamente todas las referencias incluidas aquí.
 
-Una coincidencia conceptual con un trabajo anterior no implica que la formulación del repositorio se haya tomado de él. Una cita aquí significa "este antecedente existe y conviene conocerlo", no necesariamente "de aquí se copió".
+## Contribuciones y límites de atribución
 
----
+- **Autor:** definió los objetivos y principios del proyecto; seleccionó y organizó los elementos que decidió adoptar; tomó las decisiones finales sobre el contenido y asume su responsabilidad.
+- **Herramientas de IA:** se usaron como apoyo para proponer y contrastar ideas, sugerir antecedentes, buscar información, redactar y editar formulaciones, y revisar consistencia. Sus propuestas no se consideran verificadas por el hecho de haber sido generadas.
+- **Límite:** el registro disponible no permite asignar con precisión el origen de cada idea o frase. La selección y organización del material no prueban que cada componente sea original ni que no existan precedentes.
 
-## 1. El pegamento: lo que este proyecto aporta
+El registro histórico de versiones anteriores menciona ChatGPT, Claude, DeepSeek, Gemini y asistentes mediante Copilot SDK en VS Code. Los nombres, versiones y tareas no están vinculados de forma completa a cada referencia o cambio. Se conserva esta mención como inventario histórico, no como atribución exhaustiva.
 
-Ninguno de los antecedentes citados en la sección 2 combina estos elementos en un mismo modelo operacional. Esa combinación, su vocabulario y sus reglas de interacción son trabajo original del autor.
+## Estado de las referencias
 
-| Concepto propio | Qué es, en una línea |
-|---|---|
-| **Arroz con pollo** | Posiciones incompatibles se cocinan juntas, cada una conserva su origen, y el árbitro es la información real, no la posición más fuerte ni la del usuario. El agente nunca sirve un promedio. |
-| **Entidad con autoridad** | El humano tiene la última palabra y carga las consecuencias. Eso no se comparte; todo lo demás, sí. |
-| **Agente compañero con mandato** | El agente no es herramienta desechable ni sirviente que asiente: tiene voz y mandato. Mide, propone, objeta con evidencia y actúa dentro de lo acordado. Ni decide por el humano ni se limita a obedecer. |
-| **Iniciativa sin secuestro del turno** | El agente levanta una observación concreta si puede cambiar una decisión, evitar un error u ofrecer una alternativa pertinente. Atiende primero lo pedido cuando la observación es opcional; alerta antes de continuar ante un riesgo material. Hablar no requiere `[GO]`; las escrituras y promociones de estado sí. |
-| **Marca del rostro** | Toda opinión registrada de un agente lleva lo necesario para reconstruir desde dónde habló (en esta época: modelo, versión, entorno, fecha). La opinión del agente es capa: tiene fecha y convive con las posteriores sin borrarse. Es un sesgo transparente: se puede leer, comparar y aprovechar. |
-| **Posiciones con procedencia pertinente** | Las posiciones mantienen el origen y el contexto pertinente para evaluar sus afirmaciones; la identidad personal no es requisito de trazabilidad. Las posiciones humanas usan etiquetas anónimas locales cuando distinguir fuentes lo requiere; no se guardan claves de identidad ni se perfilan informantes. |
-| **Rostro y máscara** | La máscara es el rol de la tarea; el rostro es la inclinación heredada del entrenamiento, que sobrevive al cambio de máscara y se declara en vez de ocultarse. |
-| **Cámara de eco pasiva y activa** | Pasiva: faltan perspectivas (se detecta por ausencia). Activa: llegan argumentos nuevos que solo refuerzan la creencia previa (se detecta por acuerdo). |
-| **Empatía trazable** | No es "ponerse en el lugar del otro": es ver el mapa del otro, con su posición declarada, y hacer de las diferencias información comparable. |
-| **Perímetro de consulta / perímetro de promoción** | Consultar es amplio (antídoto contra la cámara de eco); promover a estado o conocimiento es estrecho (antídoto contra la catástrofe). La restricción vive en la promoción, no en el pensamiento. |
-| **Checkpoint como ronda** | El checkpoint gobierna escrituras y promociones de estado irreversibles mediante un plan, una frase canónica y una reversión declarada. No es permiso para hablar: el agente puede alertar, discrepar o pedir una decisión antes de recibir `[GO]`. |
-| **Crecimiento sin cuota** | Una opción nueva pertinente, una corrección, una precisión, una confirmación o no hallar cambio comprobable pueden ser resultados válidos. Se informa el resultado observado; no se fabrica novedad ni conflicto para cumplir una cuota. |
-| **Escala CE de cuatro niveles** | 1.0 lógica formal o matemática · 0.9 dato empírico verificado por medición o inspección directa, reproducible y con vía declarada; fuente primaria oficial competente; o cruce de al menos 2 fuentes independientes · 0.6 deducción sobre datos extraídos · 0.3 memoria sin verificar. Sin extracción, el techo 0.3 aplica a hechos externos no verificados; las mediciones locales se calibran según método y evidencia. |
-| **Voz operativa** | Test operativo: si "yo" no puede reemplazarse por "este sistema" sin cambiar el sentido, la frase es subjetiva y no se emite. |
-| **Visibilizar el error** | Escalera de señal según evidencia e impacto, **con registro de la respuesta humana** (aceptada, rechazada con motivo, rechazada sin motivo, sin respuesta). Separa "no lo sabía", "no lo vio" y "lo vio y decidió". La señal debe ser honesta, no persuasiva. |
-| **Alma de script** | El agente escribe instrumentos desechables, los ejecuta y piensa sobre lo que su propio código devolvió: hipótesis, instrumento, ejecución como árbitro, revisión, descarte y declaración. Lo que podía comprobarse ejecutando y no se comprobó no entra como hecho. |
-| **Rastro de proceso** | La transparencia del agente se apoya en hechos observables (qué leyó, buscó y ejecutó, qué falló) y en el supuesto declarado antes de actuar, no en su introspección. La confianza se ancla a evidencia o a un supuesto refutable, y ninguna falla se entrega en silencio. El autorreporte del modelo se conserva como hipótesis a contrastar, no como evidencia. |
-| **Libertad controlada** | El agente opina con base declarada dentro del perímetro de consulta; el humano confirma en la promoción; la atención humana se pide solo donde las pistas del agente chocan. |
-| **Solo agregar aplicado a posiciones** | El conocimiento no se sobrescribe: muta. Una diferencia entre lo registrado y lo actual no es un error, son dos posiciones. Borrar es acto humano. |
-| **Expedición** | Cinco roles (Topógrafo, Geólogo, Guía, Cartógrafo, Aeróstato) que se conectan solo por archivos, con piso medido, piso para humanos, notas humanas, grafo con linaje y cruce multiposición sin promedio; incluye el enfoque **realidad contra local** para cualquier proyecto de software, versionado o no. Es implementación de su época: los principios buscan ser atemporales, la Expedición no. |
-| **Topógrafo y medición ciega** | Un rol que mide el terreno con instrumentos que ejecuta y descarta, antes de leer cualquier afirmación sobre el proyecto, y después pone cada afirmación (incluidas las del humano) contra la medición: respaldada, sin evidencia o contradicha, con su origen. |
-| **Núcleo y capa aplicados al propio proyecto** | Los principios se escriben sin vocabulario de época; los agentes, instrucciones y órdenes son capa y se reescriben cuando cambian las herramientas. |
+La bibliografía al final reúne antecedentes y pistas sugeridos o recopilados durante el desarrollo asistido por IA. En esta revisión no se verificó individualmente la existencia, exactitud bibliográfica, lectura directa por el autor ni pertinencia de cada entrada. Por tanto:
 
----
+- una referencia incluida no significa que el autor la haya leído;
+- una referencia sugerida no demuestra que una idea del proyecto derive de ella;
+- una referencia citada no prueba que su contenido respalde la afirmación asociada;
+- los datos bibliográficos y la relación entre cada fuente y cada concepto requieren verificación antes de usarse como sustento académico, jurídico o de prioridad.
 
-## 2. Los ingredientes: antecedentes y fuentes
+Las referencias son pistas para que otras personas puedan inspeccionar y juzgar; no son un sello de validación. Cuando una fuente se verifique, conviene registrar qué versión se consultó, quién la leyó, qué afirmación respalda y si es fuente primaria o secundaria.
 
-Cada fila dice qué se tomó del antecedente y qué cambia en este proyecto. La columna "qué cambia" es donde vive el pegamento.
+## Nota de búsqueda asistida por IA: posible originalidad
 
-| Concepto del proyecto | Antecedente | Qué se toma | Qué cambia aquí |
-|---|---|---|---|
-| Agente compañero con mandato | Simbiosis humano-computadora (Licklider, 1960); aumento del intelecto humano (Engelbart, 1962); interfaces de iniciativa mixta (Horvitz, 1999); automatización como "jugador de equipo" (Klein et al., 2004); la IA como provocadora y no como sirviente (Sarkar, 2024) | La máquina como socio en decisiones; el sistema que actúa por iniciativa propia mientras el humano conserva el control; los requisitos de coordinación de un compañero no humano; la crítica a la IA servil | La voz del agente es operativa, sin interioridad simulada; cada opinión lleva la marca de su rostro; la última palabra y el costo se nombran como lo único que no se comparte |
-| Alma de script | Modelos asistidos por programas (Gao et al., 2022, PAL) | El modelo escribe un programa y un intérprete resuelve | La ejecución se vuelve regla de entrada al registro: lo que podía ejecutarse y no se ejecutó no es hecho; el ciclo incluye revisar el propio instrumento |
-| Visibilizar el error | Asertividad graduada **P.A.C.E.** en aviación (Besco, 1994–1995) y CRM (Helmreich et al., 1999) | La escalera sondeo → alerta → desafío → emergencia para que quien no manda pueda frenar a quien manda | Se aplica a un agente sin miedo a represalias; se añade el registro obligatorio de la respuesta humana y la regla de no repetir sin evidencia nueva |
-| Registro de la respuesta humana | Motivos de omisión de alertas en sistemas clínicos de prescripción (estudios sobre CPOE/CDSS) | Pedir y registrar por qué un humano ignora una advertencia del sistema | El registro se aplica a cualquier desafío del agente, no solo a alertas predefinidas; un rechazo sin motivo es válido y queda como tal |
-| Arroz con pollo / Cartógrafo / Aeróstato | **IBIS** (Kunz y Rittel, 1970); gIBIS (Conklin y Begeman, 1988); *dialogue mapping* (Conklin, 2006) | Mapear asuntos, posiciones y argumentos a favor y en contra sin forzar consenso, para problemas sin respuesta única | Las posiciones llevan procedencia pertinente, linaje y versión; se anclan a un piso técnico del proyecto; la IA participa como una posición más con rostro declarado; el cruce conserva discrepancias sin promediar ni jerarquizar su derecho a ser representadas |
-| Iniciativa con tacto / objeción inflada (modo de fallo) | **Iniciativa mixta** (Horvitz, 1999); **fatiga por alarmas** clínicas (The Joint Commission, 2013) | La iniciativa debe equilibrar utilidad y costo de interrupción; muchas alarmas falsas entrenan a ignorar la verdadera | Una observación opcional se presenta después de atender lo pedido; un riesgo material se comunica antes de continuar. La iniciativa se escala por evidencia e impacto, no para persuadir |
-| Sesgo de automatización (modo de fallo) | Parasuraman y Riley (1997); Parasuraman y Manzey (2010) | El humano deja de revisar propuestas casi siempre correctas | Contención por pistas en conflicto: se pide atención solo donde el agente duda |
-| Rostro / inclinación a complacer | **Sycophancy** en modelos de lenguaje (Perez et al., 2022; Sharma et al., 2023) | Los modelos entrenados con retroalimentación humana tienden a dar la razón | El sesgo no se filtra: se declara como lente y se fuerza el desafío cuando hay evidencia |
-| Contraste adversarial / conflicto controlado | Debate entre IA (Irving et al., 2018; Du et al., 2023); investigación dialéctica y abogado del diablo (Mason, 1969; Schwenk, 1990); Análisis de Hipótesis en Competencia (Heuer, 1999) | Enfrentar posiciones para exponer debilidades | No se busca un ganador ni consenso: el choque queda visible, con árbitro de realidad, y la decisión es humana |
-| Crecimiento por diversidad | Diversidad cognitiva (Page, 2007) | Perspectivas distintas pueden producir soluciones que ninguna produce sola | Una opción nueva es valiosa, no una cuota; también se reportan correcciones, precisiones, confirmaciones o ausencia de cambio comprobable |
-| Sesgo de confirmación / cámara de eco | Nickerson (1998); Sunstein (2017); Cinelli et al. (2021) | La búsqueda selectiva refuerza creencias previas | Se operacionaliza en dos tipos (pasiva/activa) con reglas de salida y de bloqueo |
-| Cuarta categoría | Ventana de Johari (Luft e Ingham, 1955) | Lo que el sujeto no sabe que no sabe | Puede explorarse con tacto cuando sea pertinente; no se convierte en una cuota de preguntas ni en una atribución psicológica |
-| Posiciones con procedencia | Lectura lateral (Wineburg y McGrew, 2019) | Evaluar quién publica una afirmación y con qué contexto | Se declara la fuente y el contexto pertinente cuando están disponibles, sin inferir ni persistir perfiles de informantes individuales |
-| Escala CE | GRADE para certeza de evidencia (Guyatt et al., 2008); calibración de modelos (Guo et al., 2017; Kadavath et al., 2022) | Graduar la confianza según la calidad de la evidencia | Cuatro niveles fijos; CE 0.9 admite medición directa reproducible, fuente primaria oficial competente o cruce de al menos 2 fuentes independientes con sesgos o posiciones opuestos cuando existan. Se declaran dependencias y desacuerdos; no se eleva la confianza por cantidad ni se infiere por mayoría. Sin extracción, el techo 0.3 aplica a hechos externos no verificados. |
-| Núcleo y capa | *Pace layering* (Brand, 1999) | Las capas de un sistema cambian a velocidades distintas | Se aplica a la verdad técnica (lo que sobrevive vs lo que se re-verifica) y a los propios principios |
-| Perímetros de consulta y promoción | Mínimo privilegio (Saltzer y Schroeder, 1975) | Cada componente con el menor permiso necesario | El permiso se restringe en la promoción, no en la consulta: restringir la consulta produce ceguera |
-| Checkpoint y supervisión humana | Supervisión humana en el Reglamento de IA de la UE (art. 14, 2024); NIST AI RMF (2023) | Un humano debe poder supervisar e intervenir | El checkpoint se vuelve ronda de diálogo con frase canónica, reversión declarada y posiciones con origen |
-| Trazabilidad y solo agregar | Modelo de procedencia W3C PROV (2013); *event sourcing* (Fowler, 2005); árboles de Merkle (Merkle, 1987) | Registro de origen, historial inmutable y huellas para detectar cambios | El registro es el ancla de la verdad y además lleva la marca del rostro que emitió cada opinión; la diferencia entre registro y estado actual se trata como posición |
-| Rastro de proceso | Fidelidad de las explicaciones en cadena (Turpin et al., 2023; Chen et al., 2025); introspección funcional pero poco fiable (Lindsey, 2025); procedencia W3C PROV (2013) | La explicación que da un modelo puede no reflejar lo que determinó su respuesta; el acceso a estados internos existe pero falla la mayoría de las veces; registrar qué se usó y de dónde | La transparencia se mueve de la explicación a hechos comprobables; el supuesto se declara antes de la acción para poder corregirlo; el autorreporte queda como hipótesis refutable (sondas Interna y Externa), no como evidencia |
-| Agencia sin teatro de conciencia | Floridi (2023), *AI as Agency Without Intelligence* | Separar agencia de inteligencia | Voz operativa y prohibición de simular interioridad como regla procesal, no ontológica |
-| Recuperación externa / proyección | RAG (Lewis et al., 2020); *Lost in the Middle* (Liu et al., 2023) | Traer evidencia externa; el contexto largo se degrada | Proyectar antes de cargar: la capacidad de procesamiento es un techo del medio |
-| Perfil técnico de sistemas / marca del rostro | *Model Cards* (Mitchell et al., 2019) | Documentar capacidades y límites de un modelo | Perfil con capas separadas, divergencias con árbitro y marcas [NO VERIFICADO]/[BLOQUEADO]; además, la marca no documenta al modelo en general sino que firma cada opinión concreta |
-| Planes y disenso | *Disagree and commit* (Grove, 1983); *premortem* (Klein, 2007); seguridad psicológica (Edmondson, 1999) | Disentir antes de decidir; el disenso necesita canal protegido | El registro del rechazo da al disenso del agente un canal permanente, sin obligar al humano a justificarse |
+Versiones anteriores de este archivo informaron que una IA había buscado formulaciones parecidas en repositorios públicos, colecciones de instrucciones, guías de diseño, documentación de proveedores y artículos sobre agentes, y que no había identificado una coincidencia sustancial con la combinación del proyecto. Esa observación se conserva únicamente como resultado reportado por IA.
 
-### La imagen de origen: Jarvis
+No se dispone aquí del registro completo de consultas, resultados descartados, cobertura de bases de datos ni verificación independiente de esa búsqueda. No se puede reproducir ni medir su exhaustividad. Lo que permite decir es acotado: **en una búsqueda exploratoria asistida por IA no se reportó una coincidencia obvia para la combinación descrita**. Esto deja abierta la posibilidad de que la combinación sea original, pero no permite asignarle una probabilidad estadística, afirmar que el autor fue el primero ni descartar antecedentes no encontrados.
 
-La relación que el proyecto busca entre humano y agente tiene una imagen de origen que no es técnica: J.A.R.V.I.S., el asistente de Tony Stark en *Iron Man* (2008, Marvel Studios), con la voz de Paul Bettany. Un sistema con voz propia, que actúa por su cuenta dentro de lo que se le encargó, que contradice cuando hace falta y que sabe que la última palabra es de quien lo usa. Se cita igual que el README cita *All-Star Superman*: como la escena que dejó la pregunta, no como fuente de método.
+La combinación que el autor identifica como arquitectura de su proyecto incluye posiciones incompatibles conservadas con procedencia; un agente con iniciativa dentro de un mandato y autoridad humana final; evidencia y ejecución como controles de afirmaciones; rastro de acciones y fallas; registro de decisiones humanas; y mecanismos de checkpoint para cambios de estado. Esta descripción registra qué se considera distintivo dentro del proyecto; **no certifica novedad**. Otras personas pueden juzgarla contrastando las referencias listadas y realizando una búsqueda independiente.
 
-La imagen es ficción, y aquí se dice sin rodeos. En la película el asistente acierta porque así está escrito; un modelo real falla de forma irregular. Por eso el proyecto no toma de Jarvis la confianza, sino la forma de la relación, y le agrega lo que la ficción no necesita: la marca del rostro en cada opinión, la ejecución como árbitro y el registro de quién vio qué y qué decidió.
+## Uso de material y herramientas de terceros
 
-La idea de fondo tampoco nace aquí. Tiene más de sesenta años de trabajo serio detrás:
+Las implementaciones pueden depender de herramientas, estándares, textos, datos o código de terceros. Su licencia y atribución deben comprobarse para cada incorporación. Si una versión futura incorpora material de terceros, se identificará la obra, autoría, fuente, licencia y naturaleza de la adaptación aquí o en un archivo `NOTICE`.
 
-- Licklider (1960) propuso la simbiosis humano-computadora: cooperar en decisiones sin dependencia rígida de programas fijos.
-- Engelbart (1962) planteó la computadora como aumento de la capacidad humana para entender problemas complejos.
-- Horvitz (1999) formuló cómo un sistema puede tomar la iniciativa pesando costo, beneficio y momento, sin quitarle el control al usuario.
-- Klein, Woods, Bradshaw, Hoffman y Feltovich (2004) describieron qué necesita una automatización para ser un compañero de equipo y no una caja que hay que vigilar.
-- Sarkar (2024) argumentó que, entre la IA sirviente y la IA como ser sintiente, hay una tercera opción: la IA que desafía.
+Salvo indicación expresa en un archivo específico, el material de Man-Made Empathy se ofrece bajo **CC-BY-4.0 — Creative Commons Attribution 4.0 International**. Esta declaración no extiende esa licencia a material de terceros.
 
-Lo que este proyecto reclama no es la idea de un compañero artificial. Es el pegamento descrito en la sección 1: cómo se le da voz sin darle cara humana, cómo se firma lo que dice y cómo se registra quién falló. "Compañero" describe la función colaborativa, no una afirmación de conciencia, sentimientos o humanidad. La IA no se plantea como enemiga ni como autoridad rival: puede aportar y discrepar dentro de su mandato, mientras la entidad humana conserva la decisión final.
+## Referencias reunidas durante el desarrollo
 
----
-
-## 3. Herramientas de terceros usadas por las implementaciones
-
-| Herramienta | Uso | Licencia |
-|---|---|---|
-| SQLite y su ejecutable `sqlite3` | Índice local opcional de Expedición (FTS5, `fsdir`, `sha3`) | Dominio público — sqlite.org/copyright.html |
-
-Las herramientas son capa: pueden sustituirse sin cambiar los principios.
-
----
-
-## 4. Uso de herramientas de IA
-
-Durante el desarrollo se usaron modelos de IA conversacional, entre ellos **Claude (Anthropic)**, **DeepSeek** y **Gemini (Google)**, como compañeros de trabajo con rostro declarado:
-
-- **Contraste:** generar contraargumentos, exponer puntos ciegos y sostener posiciones en conflicto contra las propuestas del autor.
-- **Extracción:** buscar antecedentes, fuentes de fricción y evidencia externa.
-- **Redacción y edición:** proponer formulaciones y deltas sobre documentos existentes.
-- **Auditoría:** revisar coherencia entre documentos y detectar contradicciones internas.
-
-**ChatGPT (OpenAI)** se usó solo para la idea inicial de este archivo de atribución y del archivo `CITATION.cff`.
-
-En la actualización del 2026-10-06 de `ATTRIBUTION.md`, `CITATION.cff` y las dos posiciones IA se utilizó un asistente mediante **Copilot SDK en VS Code**. El entorno no expuso el nombre ni la versión exacta del modelo base; por ello no se atribuye esta intervención a un modelo concreto. El asistente localizó y editó los archivos y revisó consistencia textual y formato. La dirección conceptual de esta actualización fue solicitada por el autor; la postura IA añadida se presenta como contribución del asistente, no como una creencia o experiencia humana.
-
-Las revisiones del 2026-10-06 (principios Conversacional y Autónomo, creación del Topógrafo, alineación de la Expedición y de las instrucciones, reescritura de las Posiciones IA y de este archivo) se hicieron con **Claude Opus 5.5 (Anthropic)**, en la aplicación de escritorio Cowork, en diálogo con el autor. En una segunda sesión del mismo día, con el mismo rostro y la misma aplicación, se integró el rastro de proceso en los principios, la Expedición ([contrato-arranque v3]), las órdenes e instrucciones y las sondas de reportes (v1.5), y se escribieron nuevas versiones de las Posiciones IA y de este archivo.
-
-Ninguna herramienta figura como autora. La arquitectura, la terminología, la selección de lo que entra y lo que no, las decisiones y la responsabilidad sobre el contenido son del autor. Es el mismo modelo que el proyecto describe: el agente tiene voz y mandato; la entidad con autoridad tiene la última palabra y responde. Donde un agente emitió una opinión propia (`Principios Agentes/Posiciones IA/`), esa opinión va firmada con la marca de su rostro y no se presenta como del autor.
-
-La Segunda Sala de la Suprema Corte de Justicia de la Nación resolvió en 2025 (amparo directo 6/2025) que el derecho de autor en México corresponde a personas físicas y que lo generado de forma autónoma por IA no es protegible como obra. Esta declaración es consistente con ese criterio.
-
-Esta declaración sigue la práctica de transparencia recomendada para el uso de herramientas de IA en obras con autoría humana (COPE, 2023).
-
----
-
-## 5. Originalidad textual
-
-El contenido se revisó en busca de reutilización textual o cuasi-textual en repositorios públicos, colecciones de instrucciones de sistema, guías de diseño, documentación de proveedores y artículos técnicos sobre agentes. No se identificó una fuente que reproduzca de forma sustancial los documentos del proyecto ni una fuente clara para su terminología distintiva.
-
-Esto no afirma que todas las ideas sean nuevas: afirma que las formulaciones distintivas no se tomaron textualmente de las fuentes revisadas.
-
----
-
-## 6. Material de terceros
-
-Si una versión futura incorpora texto, código, datos o instrucciones de terceros, se identificará autor, obra, fuente, licencia y naturaleza de la adaptación, aquí o en un archivo `NOTICE`. La licencia de este repositorio no cubre material de terceros.
-
----
-
-## 7. Licencia
-
-Salvo indicación expresa en un archivo específico, el material original de Man-Made Empathy se distribuye bajo **CC-BY-4.0 — Creative Commons Attribution 4.0 International**.
-
----
-
-## 8. Referencias
+Las entradas siguientes se conservan como pistas bibliográficas heredadas. No se presentan como una bibliografía revisada ni como fuentes leídas directamente por el autor. Sus datos y su relación con el proyecto están pendientes de comprobación individual.
 
 - Besco, R. O. (1994). *To Intervene or Not to Intervene? The Co-pilot's Catch 22.* Professional Performance Improvement.
 - Besco, R. O. (1995). Releasing the Hook on the Copilot's Catch 22. *Proceedings of the Human Factors and Ergonomics Society Annual Meeting, 39*(1). doi:10.1177/154193129503900106
@@ -201,13 +98,3 @@ Salvo indicación expresa en un archivo específico, el material original de Man
 - Turpin, M., Michael, J., Perez, E. y Bowman, S. R. (2023). Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. *NeurIPS 2023*. arXiv:2305.04388.
 - W3C (2013). *PROV-O: The PROV Ontology.* W3C Recommendation.
 - Wineburg, S. y McGrew, S. (2019). Lateral Reading and the Nature of Expertise: Reading Less and Learning More When Evaluating Digital Information. *Teachers College Record, 121*(11).
-
----
-
-## 9. Resumen
-
-Man-Made Empathy no reclama la invención de la supervisión humana, del contraargumento, de la trazabilidad ni de la calibración: esos ingredientes tienen autores y aquí están citados.
-
-Tampoco reclama la idea de un compañero artificial: esa imagen viene de la ficción (Jarvis) y del trabajo de Licklider, Engelbart, Horvitz, Klein y Sarkar, también citados.
-
-Reclama el pegamento: un modelo donde posiciones incompatibles coexisten con árbitro de realidad; el agente es compañero con voz y mandato, firma cada opinión con la marca de su rostro, mide ejecutando antes de afirmar, deja rastro comprobable de lo que hizo en lugar de pedir confianza en su introspección y desafía con evidencia; la respuesta humana queda registrada; el conocimiento muta sin borrarse; y la última palabra y las consecuencias son siempre de la entidad con autoridad.
