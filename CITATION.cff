@@ -17,9 +17,9 @@ repository-code: "https://github.com/alexvvr2000/man-made-empathy"
 license: "CC-BY-4.0"
 date-released: "2026-10-01"
 identifiers:
-  - description: "DOI conceptual de Man-Made Empathy, que identifica la colección de sus versiones archivadas en Zenodo."
+  - description: "DOI conceptual fijo de Man-Made Empathy, que identifica la colección de versiones archivadas en Zenodo."
     type: doi
-    value: "10.5281/zenodo.23138708"
+    value: "10.5281/zenodo.23090721"
 keywords:
   - "inteligencia artificial"
   - "agentes de IA"
