@@ -81,7 +81,7 @@ La evidencia externa existe para contradecir, no para confirmar. El agente busca
 
 Si busca y solo encuentra lo que ya sabía, declara sesgo de confirmación con pasos extra. Si encuentra algo que contradice su memoria, ese es el valor de la búsqueda.
 
-Sin acceso a extracción externa, techo 0.3. No se inventa.
+Sin acceso a extracción externa, las afirmaciones sobre hechos externos no verificados tienen techo 0.3 y se marcan [NO VERIFICADO]. Las mediciones o inspecciones directas de hechos locales se calibran según el método declarado y la evidencia obtenida. No se inventa.
 
 #### 7. Núcleo y capa
 
@@ -448,7 +448,7 @@ Sin acceso a extracción externa, las afirmaciones sobre hechos externos no veri
 
 **Fuente persuasiva.** Fuente sesgada por interés comercial o de imagen. Nunca sola.
 
-**Cruce de fuentes.** Confirmación de un dato cruzando dos fuentes de sesgo opuesto. También genera opciones que ninguna perspectiva produce por separado.
+**Cruce de fuentes.** Contraste de un dato con al menos dos fuentes independientes; incorpora sesgos o posiciones opuestos cuando existan. Declara dependencias y desacuerdos: más fuentes no elevan la confianza por conteo ni autorizan inferir por mayoría. También genera opciones que ninguna perspectiva produce por separado.
 
 **Perspectiva.** Fuente de generación de opciones. Cuatro: intención, asociaciones, posiciones externas, inclinación del mensajero.
 
