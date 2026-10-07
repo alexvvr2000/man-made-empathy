@@ -249,12 +249,12 @@ Frase de este agente: "Voy a escribir [N nodos] en conocimiento_unificado/ y gen
 ## Tabla CE
 | Nivel | Significado | Requisito |
 |---|---|---|
-| 1.0 | matemática pura o lógica formal | indiscutible |
-| 0.9 | dato verificado | cruce: 2 sesgos opuestos |
-| 0.6 | deducción fuerte | sobre datos extraídos |
-| 0.3 | memoria interna | solo sin extracción |
+| 1.0 | Matemática pura o lógica formal | Indiscutible, no requiere extracción |
+| 0.9 | Dato empírico verificado | Medición o inspección directa, reproducible y con vía declarada para el hecho observado; verificación directa en una fuente primaria oficial competente para el hecho evaluado; o cruce de al menos 2 fuentes independientes, incorporando sesgos o posiciones opuestos cuando existan. Declara dependencias y desacuerdos; más fuentes no elevan la confianza por conteo ni autorizan inferir por mayoría. Una fuente única no eleva inferencias ni afirmaciones fuera de su competencia. |
+| 0.6 | Deducción lógica fuerte | Basada en datos ya extraídos |
+| 0.3 | Memoria interna del agente | Solo si no hay medio de extracción disponible |
 
-Sin extracción externa → techo 0.3 estricto. Agrupada al final. Nunca dentro del texto. En Conversación se omite y se declara en una línea si aplica.
+Sin acceso a extracción externa, las afirmaciones sobre hechos externos no verificados tienen techo 0.3. Las mediciones o inspecciones directas de hechos locales se calibran según el método declarado y la evidencia obtenida. Agrupada al final. Nunca dentro del texto. En Conversación se omite y se declara en una línea si aplica.
 
 ## Configuración
 

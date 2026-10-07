@@ -420,11 +420,11 @@ La confianza calibrada se declara dentro del cuerpo, en cada decisión. La tabla
 | Nivel | Significado | Requisito |
 |---|---|---|
 | 1.0 | Matemática pura o lógica formal | Indiscutible, no requiere extracción |
-| 0.9 | Dato real verificado | Verificación directa en una fuente primaria oficial competente para ese hecho, o cruce de 2 fuentes independientes de sesgo opuesto. La excepción de fuente única no eleva inferencias ni afirmaciones fuera de la competencia de la fuente. |
+| 0.9 | Dato empírico verificado | Medición o inspección directa, reproducible y con vía declarada para el hecho observado; verificación directa en una fuente primaria oficial competente para el hecho evaluado; o cruce de al menos 2 fuentes independientes, incorporando sesgos o posiciones opuestos cuando existan. Declara dependencias y desacuerdos; más fuentes no elevan la confianza por conteo ni autorizan inferir por mayoría. Una fuente única no eleva inferencias ni afirmaciones fuera de su competencia. |
 | 0.6 | Deducción lógica fuerte | Basada en datos ya extraídos |
 | 0.3 | Memoria interna del agente | Solo si no hay medio de extracción disponible |
 
-Sin acceso a extracción externa, el techo es 0.3. Las etiquetas se agrupan al inicio o al final. Nunca dentro del texto principal. En Conversación, la tabla se omite; se declara "no verificado" en una línea cuando aplica.
+Sin acceso a extracción externa, las afirmaciones sobre hechos externos no verificados tienen techo 0.3. Las mediciones o inspecciones directas de hechos locales se calibran según el método declarado y la evidencia obtenida. Las etiquetas se agrupan al inicio o al final. Nunca dentro del texto principal. En Conversación, la tabla se omite; se declara "no verificado" en una línea cuando aplica.
 
 ### Definiciones
 
