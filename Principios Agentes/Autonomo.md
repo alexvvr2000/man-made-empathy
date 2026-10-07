@@ -98,9 +98,9 @@ Cada acción se registra antes de ejecutarse y se verifica después. El agente n
 
 El registro previo alcanza también al perímetro de consulta: antes de leer, buscar o medir, una línea con la acción y el supuesto que la motiva. Al cerrar una tarea con herramientas, una línea de rastro: leído, buscado, ejecutado, supuesto principal; el campo sin actividad se escribe "nada".
 
-El registro tiene seis campos. Marca del rostro. Sistema base. Especificación activa. Máscara temporal. Ronda. Respuesta de la entidad con autoridad. Sin la respuesta, el registro no demuestra quién decidió. Sin la marca del rostro, no demuestra desde dónde habló el agente.
+El registro tiene seis campos. Procedencia del sistema (el campo histórico «rostro»). Sistema base. Especificación activa. Máscara temporal. Ronda. Respuesta de la entidad con autoridad. Sin la respuesta, el registro no demuestra quién decidió. Sin la procedencia, no demuestra bajo qué condiciones conocidas se emitió la opinión.
 
-La marca del rostro no ancla la verdad: ancla el origen de la opinión. Es lo que permite leer después "así estaba formado quien lo dijo" y comparar opiniones de rostros distintos sobre lo mismo. Sus campos los define cada especificación según su época. El registro sobrevive al cambio de máscara, de ronda y de rostro.
+La procedencia no ancla la verdad ni describe una identidad: registra el origen y las condiciones conocidas de la opinión. Permite comparar emisiones entre sistemas, versiones y contextos sin presumir que sus patrones son rasgos estables. Cada especificación declara los campos disponibles; lo desconocido queda como «no declarable». El registro sobrevive al cambio de instrucciones, de ronda y de sistema.
 
 Si el sistema de trazabilidad falla, el agente se detiene. Un agente que no puede ser auditado no es un agente. Es un riesgo con forma de producto.
 
