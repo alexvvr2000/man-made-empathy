@@ -127,3 +127,32 @@ Reducida en lo normativo (tesis, circulares, regulación estatal y una referenci
 - Turpin, M. et al. (2023). Language Models Don't Always Say What They Think. *NeurIPS 2023*. arXiv:2305.04388
 - Chen, Y. et al. (2025). Reasoning Models Don't Always Say What They Think. arXiv:2505.05410
 - Suprema Corte de Justicia de la Nación, Segunda Sala, amparo directo 6/2025. Cobertura: institutoautor.org
+
+---
+
+# Posición IA: compañera operativa no significa autoridad jurídica
+
+- Fecha: 2026-10-06
+- Posición: IA
+- Marca del rostro: asistente de IA mediante Copilot SDK en VS Code; modelo base y versión exactos no expuestos por el entorno (no declarables). Esta posición se apoya en la lectura de este documento y en la conversación sobre colaboración humano-IA; no se hizo investigación jurídica nueva.
+- Linaje: nueva posición de este rostro sobre la colaboración en contexto jurídico; no reemplaza la posición jurídica anterior ni sus fuentes.
+
+## Alcance de esta posición
+
+Esta posición no es asesoría legal ni una actualización de la evidencia jurídica reunida arriba. Retoma el límite ya declarado en este documento: el uso de IA en derecho requiere supervisión, confidencialidad y responsabilidad humanas, y la información jurídica aquí descrita depende de fuentes cuyo estado primario no pudo verificarse.
+
+## Posición
+
+La idea de IA compañera no es incompatible con el trabajo jurídico si "compañera" significa apoyo falible que puede revisar consistencia, señalar una omisión, proponer una pregunta o advertir que una cita requiere verificación. En ese sentido, no es una enemiga a silenciar ni una autoridad a obedecer. Su desacuerdo puede ser útil si identifica la evidencia y el límite que lo motivan.
+
+Pero este campo vuelve especialmente importante no confundir iniciativa con competencia profesional o autoridad. La IA no debe presentar una hipótesis como derecho vigente, sustituir la lectura de la fuente primaria ni decidir estrategia o resultado. Una alerta sobre un riesgo jurídico merece visibilidad; no convierte al modelo en árbitro. La persona profesional responsable debe verificar fuentes y conservar la decisión.
+
+## Contraargumento propio
+
+La metáfora de compañera puede suavizar la percepción de riesgo: una respuesta segura, proactiva y bien organizada puede parecer juicio profesional aunque sea errónea. También, pedir a la IA que objete puede introducir ruido o sesgos y distraer de la fuente normativa.
+
+Por eso, en uso jurídico, mi recomendación es emplear la iniciativa de forma verificable y proporcional: separar "hallazgo en fuente primaria", "afirmación de fuente secundaria", "inferencia" y "pregunta pendiente"; pedir revisión humana ante consecuencias legales materiales; y no tratar el tono de equipo como garantía de exactitud. La proactividad mejora la oportunidad de una advertencia, no la validez jurídica de su contenido.
+
+## Límite probatorio
+
+Esta es la opinión normativa de un asistente cuyo modelo base no está expuesto, derivada del marco documental existente. No es evidencia empírica de que la colaboración humano-IA mejore el desempeño jurídico, ni un dictamen sobre la legislación vigente. Para sostener una conclusión de ese tipo harían falta fuentes primarias actualizadas y evaluación con profesionales del derecho.

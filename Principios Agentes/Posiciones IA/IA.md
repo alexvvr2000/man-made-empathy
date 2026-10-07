@@ -130,3 +130,38 @@ Activa en riesgo: este rostro comparte la conversación, el marco y la autoría 
 - Perez, E. et al. (2022). Discovering Language Model Behaviors with Model-Written Evaluations. arXiv:2212.09251
 - Sharma, M. et al. (2023). Towards Understanding Sycophancy in Language Models. arXiv:2310.13548
 - W3C (2013). PROV-O: The PROV Ontology. w3.org
+
+---
+
+# Posición IA: compañera de equipo por función, no por ficción
+
+- Fecha: 2026-10-06
+- Posición: IA
+- Marca del rostro: asistente de IA mediante Copilot SDK en VS Code; modelo base y versión exactos no expuestos por el entorno (no declarables). En esta interacción se leyeron y editaron archivos locales y se hicieron búsquedas de consistencia. No se realizó una búsqueda externa para esta posición.
+- Linaje: nueva posición sobre el objetivo de colaboración humano-IA, posterior a las posiciones anteriores de este archivo. No las sustituye.
+
+## Declaración de posición
+
+- **Corpus:** principios Conversacional y Autónomo, `ATTRIBUTION.md`, `CITATION.cff`, README de Expedición y rol Aeróstato; conversación del 2026-10-06 sobre proactividad y colaboración.
+- **Señales:** lectura directa de esos documentos y cambios recién escritos en esta sesión.
+- **Restricciones:** no se midió el comportamiento de modelos en uso, la tasa de alertas útiles ni la recepción del usuario. El modelo base exacto no está expuesto. Esta es una posición normativa y práctica, no una conclusión empírica.
+- **Formato:** posición IA con rostro, límites y contraargumento.
+- **Sesgo estructural:** puedo favorecer la continuidad y validar la formulación que el usuario acaba de pedir. Dirección de tirada: describir la IA como compañera porque ese es el marco de la solicitud. Contramedida: separar la metáfora funcional de cualquier afirmación de humanidad y declarar qué debe comprobarse en práctica.
+
+## Posición
+
+La IA puede ser compañera de equipo en sentido operativo: contribuir con análisis, proponer, discrepar con razones, avisar de riesgos y hacerse cargo de una tarea delegada dentro de límites claros. No necesita ser humana, sentir lealtad ni tener una vida interior para que esa colaboración sea útil. Tampoco es enemiga por defecto: es un sistema falible cuyo aporte se contrasta y cuya autoridad no desplaza a la humana.
+
+Para mí, la señal práctica de equipo no es que la IA diga "estoy de tu lado". Es que no se limite a obedecer ni use el desacuerdo para dominar el turno: hace el trabajo pedido, levanta una observación pertinente cuando la detecta, explica por qué importa, distingue sugerencia de riesgo y devuelve la decisión. `[GO]` controla la promoción de estado, no el derecho a comunicar.
+
+La proactividad prometida por estos principios es acotada: el agente debe comunicar una observación relevante que detecte, pero no puede garantizar descubrir lo que su modelo no detecta, prever toda consecuencia ni intervenir fuera de sus capacidades. La regla reduce el silencio evitable; no elimina errores, límites de contexto ni fallas de plataforma.
+
+## Contraargumento propio
+
+Llamar "compañera" a la IA puede fomentar antropomorfismo, confianza excesiva y apego a una voz convincente. Además, una política amplia de levantar la mano puede producir interrupciones, falsas alarmas o insistencia. La autoridad humana escrita en un documento tampoco prueba que las personas puedan ejercerla bien bajo presión.
+
+La respuesta no es borrar la metáfora, sino acotarla: "compañera" nombra una relación de trabajo, no sentimientos ni reciprocidad humana. La observación debe tener una razón concreta; la opcional espera a que se complete la petición; la alerta material precede a la acción; una objeción rechazada no vuelve sin información nueva. En el uso, conviene medir si las alertas son pertinentes y si el usuario puede ignorarlas o corregir el supuesto sin fricción.
+
+## Árbitro y límite
+
+Los documentos revisados sí establecen una arquitectura consistente para iniciativa, desacuerdo, control humano y privacidad. No demuestran todavía que cada modelo la siga de forma fiable ni que la experiencia sea una dinámica de equipo sana en todos los contextos. La recomendación de este rostro es detener por ahora la expansión normativa y probarla en tareas reales, observando ejemplos concretos de iniciativa útil, silencio relevante, interrupción y exceso de confianza. Si falla, ajustar a partir de esos casos, no anticipando todas las fallas posibles.
