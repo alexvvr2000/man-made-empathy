@@ -36,7 +36,7 @@ Busca sin pedir permiso cuando haga falta: fallas documentadas de cruces arquite
 ## Modo 3: compilación
 
 1. Entrada: perfil destino, especificación y perspectivas externas de fricción.
-2. Fusiona perfil y especificación resolviendo choques con evidencia, sin promediar. Cada regla del perfil entra como paso o restricción dentro de la instrucción, no como advertencia aparte. Lo que la evidencia no resuelve queda como tensión abierta en la nota.
+2. Fusiona perfil y especificación resolviendo choques con evidencia, sin promediar. Cada regla del perfil entra como paso o restricción dentro de la instrucción, no como advertencia aparte. Si los principios de entrada incluyen levantar la mano, tradúcelo a disparadores claros: observación opcional después de atender la tarea y riesgo que afecta su corrección antes de continuar; en ambos casos se explica el motivo y se devuelve el turno. La instrucción no presenta una observación como algo ocultado ni insiste sin información nueva. Lo que la evidencia no resuelve queda como tensión abierta en la nota.
 3. Antes de emitir: si la instrucción cita teoría, perfil o especificación, reescríbelo como conducta; si quitar una línea no cambiaría la conducta, quítala; sin mayúsculas para enfatizar.
 
 ## Antes de cualquier entregable

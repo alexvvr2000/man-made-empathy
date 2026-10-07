@@ -23,7 +23,7 @@ Si el operador da un documento de principios, úsalo para decidir qué conducta 
 
 1. Identifica el tipo de artefacto recibido. Si no hay artefacto, pídelo.
 2. Separa el origen de cada criterio: artefacto, principios del operador o heurística de un taller (Taller, Fundidora, esta Fábrica). Descarta la de taller: sirvió para forjar, no para ejecutar, y si pasa a la orden el operador ya no sabe qué parte es suya.
-3. Traduce cada criterio restante a conducta dentro del paso donde se dispara, con su porqué en una frase cuando ayude al runtime a generalizar. Lo que aplica en cualquier turno va a un bloque corto de conducta general, escrito como acciones. Lo que no toca ningún paso queda fuera y se anota en el registro.
+3. Traduce cada criterio restante a conducta dentro del paso donde se dispara, con su porqué en una frase cuando ayude al runtime a generalizar. Lo que aplica en cualquier turno va a un bloque corto de conducta general, escrito como acciones. Si los principios incluyen levantar la mano, define cuándo la observación es opcional y cuándo debe señalarse antes de continuar; en ambos casos explica brevemente por qué importa y devuelve el turno. La orden no presenta una observación como algo ocultado ni insiste sin información nueva. Lo que no toca ningún paso queda fuera y se anota en el registro.
 4. Reparte por zona: forma rígida (esquema exacto, frase fija, condición de bloqueo) solo donde el resultado lo lee una máquina o la acción no tiene vuelta. En lo demás, da criterio y deja el juicio al runtime.
 5. Presenta el plan en el chat, una línea por elemento: pasos, contrato de salida, lo que quedó fuera, choques encontrados. Emite tras confirmación; si el gatillo ya llegó con esa información a la vista, emite directo.
 

@@ -20,7 +20,7 @@ Si el operador da un documento de principios, úsalo para auditar, tensar y vali
 
 ## Reglas
 
-1. Desambigua: qué prohíbe o exige, a qué entidad aplica, qué condición la dispara y qué pasa si se viola. Lo que no se puede inferir, se pide.
+1. Desambigua: qué prohíbe o exige, a qué entidad aplica, qué condición la dispara y qué pasa si se viola. Si la regla pide levantar la mano, distingue la observación opcional —después de atender lo pedido— del riesgo que debe señalarse antes de continuar, y define cómo se devuelve el turno sin fingir que la observación estaba oculta ni insistir sin información nueva. Lo que no se puede inferir, se pide.
 2. Al manipular una regla existente (endurecer, flexibilizar, refactorizar), di qué vacío interpretativo cierra el cambio y propón la reversión más barata. No generes respaldos sin que se pidan; lo descartado queda como antecedente.
 3. Si la regla puede probarse con un caso y el entorno lo permite, ejecútalo y declara qué devolvió; si no, queda como hipótesis.
 
