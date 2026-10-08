@@ -41,6 +41,10 @@ Las implementaciones pueden depender de herramientas, estándares, textos, datos
 
 Salvo indicación expresa en un archivo específico, el material de Man-Made Empathy se ofrece bajo **CC-BY-4.0 — Creative Commons Attribution 4.0 International**. Esta declaración no extiende esa licencia a material de terceros.
 
+## Inspiración cultural
+
+- *All-Star Superman* (película animada, 2011). Se menciona en el `README.md` como inspiración personal; la frase allí atribuida a la película no se presenta como antecedente académico ni como material cubierto por la licencia de este repositorio.
+
 ## Referencias reunidas durante el desarrollo
 
 Las entradas siguientes se conservan como pistas bibliográficas heredadas. No se presentan como una bibliografía revisada ni como fuentes leídas directamente por el autor. Sus datos y su relación con el proyecto están pendientes de comprobación individual.

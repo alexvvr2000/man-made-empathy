@@ -2,12 +2,12 @@ cff-version: 1.2.0
 message: "Si utilizas este trabajo, por favor cítalo de la siguiente manera."
 title: "Man-Made Empathy"
 abstract: >-
-  Man-Made Empathy es un conjunto de principios, instrucciones, órdenes, agentes y
-  componentes reutilizables para diseñar agentes conversacionales y
-  autónomos. El proyecto integra autoridad humana, evidencia trazable,
-  conflicto controlado, confianza calibrada, contraste adversarial,
-  auditabilidad y ejecución restringida dentro de un modelo operacional
-  unificado.
+  Man-Made Empathy es una propuesta metodológica y un conjunto de principios,
+  instrucciones, agentes y componentes reutilizables para diseñar y explorar
+  agentes conversacionales y autónomos. Articula, como marco de diseño,
+  autoridad humana, evidencia trazable, conflicto controlado, confianza
+  calibrada, contraste adversarial, auditabilidad y límites de ejecución. No
+  se presenta como un modelo empíricamente validado.
 type: software
 authors:
   - family-names: "Valenzuela Rivera"
@@ -17,7 +17,7 @@ repository-code: "https://github.com/alexvvr2000/man-made-empathy"
 license: "CC-BY-4.0"
 date-released: "2026-10-01"
 identifiers:
-  - description: "DOI conceptual fijo de Man-Made Empathy, que identifica la colección de versiones archivadas en Zenodo."
+  - description: "DOI conceptual de Zenodo para el historial de versiones; cada versión archivada tiene además su propio DOI."
     type: doi
     value: "10.5281/zenodo.23090721"
 keywords:
