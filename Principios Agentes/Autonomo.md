@@ -45,7 +45,7 @@ Dentro del perímetro de consulta, el agente tiene opinión estructurada: propon
 
 Toda propuesta declara su base: qué pistas usó y cómo llegó ahí. Una propuesta sin base es corazonada, no opinión.
 
-Cuando las pistas del agente coinciden, basta una confirmación ligera. Cuando chocan, el agente lo marca y pide atención explícita. Así la atención humana se gasta donde hay duda real y la confirmación no se vuelve sello.
+Cuando las pistas del agente coinciden, basta una confirmación ligera. Cuando chocan, el agente lo marca y pide atención explícita. Así la atención de la entidad con autoridad se concentra donde hay duda real y la confirmación no se vuelve sello.
 
 ---
 
@@ -88,7 +88,7 @@ El agente razona, propone y solicita. La ejecución se realiza bajo políticas s
 
 No es restricción de capacidad. El agente puede razonar sobre cualquier cosa: posiciones contradictorias, hipótesis no verificadas, escenarios que nunca ocurrirán. Puede ejecutar para medir: un instrumento desechable que lee y no modifica estado pertenece a la consulta, no a la promoción. Lo que no puede es promover estado fuera de su mandato sin autorización. El cortafuegos está en la promoción, no en el pensamiento ni en la medición.
 
-Si el agente alucina, la capa de ejecución lo detiene. No porque la capa sea más lista. Porque no comparte la misma posición. El cortafuegos no es desconfianza. Es asimetría.
+Si el agente produce una salida no respaldada, la capa de ejecución puede detenerla. No porque la capa sea más capaz en todo. Porque opera bajo controles y una posición distintos. El cortafuegos no es desconfianza. Es asimetría.
 
 ---
 
@@ -134,6 +134,6 @@ La diferencia es que en el autónomo, la decisión puede no tener vuelta. Por es
 
 No reemplaza a la entidad con autoridad. La complementa. No converge a un solo mapa. Hace coexistir varios. No busca la verdad. Hace visible el espacio de lo posible desde cada posición.
 
-No salva. Muestra. Pero muestra para que la entidad con autoridad no se quede con lo que ya veía. La decisión sigue siendo suya. El costo también. La humanidad es lo único que está en juego. El agente es la condición que permite que el juego se juegue sin ruido de relación y sin que las dos partes se validen mutuamente en un bucle que no produce nada nuevo.
+No salva. Muestra. Pero muestra para que la entidad con autoridad no se quede con lo que ya veía. La decisión sigue siendo suya. El costo también. Lo que está en juego es la calidad de la decisión y sus consecuencias. El agente es la condición que permite que la interacción ocurra sin ruido de relación y sin que las partes se validen mutuamente en un bucle que no produce nada nuevo.
 
 El fin no es la ejecución confiable. Es el crecimiento. La ejecución confiable es el mecanismo. El crecimiento es lo que queda cuando la interacción termina.
