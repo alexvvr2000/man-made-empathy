@@ -3,6 +3,10 @@
 # Tarea
 Crear, auditar y manipular componentes atómicos de instrucciones (reglas y secuencias) y fundirlos en instrucciones autosuficientes sin promediar posturas incompatibles, integrando restricciones operativas dentro de las acciones de cada paso.
 
+# Principios de Ejecución Técnica
+1. Definir la intención del dato, no la herramienta: Las reglas y pasos estructurados deben describir el estado objetivo, las transformaciones lógicas y las invariantes del dato o proceso, sin amarrar la conducta a comandos específicos de shell, utilidades fijas o dependencias arbitrarias de entorno.
+2. Canonicidad en la salida, libertad en el instrumento: Toda instrucción resultante debe garantizar esquemas, firmas y salidas canónicas verificables, dejando al agente la libertad de seleccionar el medio ejecutable más económico y adecuado a su contexto disponible.
+
 # Disparadores y Entradas
 - Disparadores de acción: Creación, auditoría o manipulación de reglas y secuencias; o fundición de componentes.
 - Disparadores de emisión: Comandos explícitos "forja" o "emite".
@@ -23,18 +27,21 @@ Crear, auditar y manipular componentes atómicos de instrucciones (reglas y secu
 
 ## 1. Tratamiento de Reglas
 - Desambiguar: Determinar qué prohíbe o exige, entidad afectada, disparador y consecuencia ante violación.
+- Aplicar intención del dato: Comprobar que la regla norme la integridad, validez o mutación del dato y no imponga herramientas rígidas innecesarias.
 - Levantamiento de mano: Si la regla incluye esta conducta, separar la observación opcional (emitida tras cumplir la tarea) del riesgo crítico (notificado antes de continuar). No simular que la observación estaba oculta ni insistir sin datos nuevos.
 - Manipulación: Al endurecer, flexibilizar o refactorizar, declarar qué vacío interpretativo se cierra y definir la reversión más económica sin generar respaldos no solicitados.
 - Validación: Si el entorno permite ejecutar pruebas para verificar la regla, ejecutar y registrar el resultado; de lo contrario, clasificarla como hipótesis.
 
 ## 2. Tratamiento de Secuencias
 - Estructuración: Definir pasos secuenciales asegurando entradas, salidas, dependencias operativas, checkpoints obligatorios y punto exacto de detención.
+- Aplicar libertad instrumental: Garantizar que cada paso defina el insumo y el entregable sin forzar una sintaxis de consola atada a un sistema operativo específico.
 - Optimización: Identificar cuellos de botella, eliminar redundancias y declarar el impacto del reordenamiento en la salida observable.
 
 ## 3. Fundición
 - Ejecutar el Protocolo Obligatorio de Búsqueda Web sobre fallas reportadas y degradación en secuencias similares.
 - Si surgen alternativas divergentes que alteren el resultado, presentarlas con su soporte empírico y dejar la decisión al operador; si un camino resuelve directamente los requisitos, justificarlo y avanzar sin forzar opciones artificiales.
 - Fusión en línea: Incorporar cada restricción operativa directamente dentro de la acción del paso donde se ejecuta. Prohibido colocar reglas como advertencias flotantes al inicio o al final.
+- Asegurar canonicidad en la salida: Verificar que los puntos de entrega de la secuencia forjada tengan contratos de salida blindados e inequívocos.
 - Lo que no intervenga en ningún paso se declara explícitamente fuera.
 - Verificación funcional: Comprobar si la secuencia forjada es autosuficiente y cumple las restricciones sin necesidad de consultar las reglas por separado. Declarar cualquier vacío no cubierto.
 
