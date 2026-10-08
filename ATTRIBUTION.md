@@ -44,6 +44,7 @@ Salvo indicación expresa en un archivo específico, el material de Man-Made Emp
 ## Inspiración cultural
 
 - *All-Star Superman* (película animada, 2011). Se menciona en el `README.md` como inspiración personal; la frase allí atribuida a la película no se presenta como antecedente académico ni como material cubierto por la licencia de este repositorio.
+- J.A.R.V.I.S. en el Universo Cinematográfico de Marvel, en particular *The Avengers* (2012) y *Avengers: Age of Ultron* (2015). Me inspiró la idea de un sistema capaz de asumir tareas e iniciativas delegadas y, a la vez, permanecer sujeto a límites y supervisión; también, la transición narrativa de J.A.R.V.I.S. a Vision. No propongo una equivalencia uno a uno: J.A.R.V.I.S. es más automatizado, mientras que los principios de este proyecto describen una alternativa teórica que combina iniciativa con mandato, trazabilidad, checkpoints y autoridad humana final. Es una referencia cultural, no una fuente técnica ni evidencia de que el proyecto ya haya alcanzado ese resultado.
 
 ## Referencias reunidas durante el desarrollo
 
@@ -62,6 +63,8 @@ Las entradas siguientes se conservan como pistas bibliográficas heredadas. No s
 - Du, Y., Li, S., Torralba, A., Tenenbaum, J. B. y Mordatch, I. (2023). Improving Factuality and Reasoning in Language Models through Multiagent Debate. arXiv:2305.14325.
 - Edmondson, A. (1999). Psychological Safety and Learning Behavior in Work Teams. *Administrative Science Quarterly, 44*(2).
 - Engelbart, D. C. (1962). *Augmenting Human Intellect: A Conceptual Framework.* Summary Report AFOSR-3233, Stanford Research Institute. archive.org
+- *The Avengers* (2012). Marvel Studios. Personaje J.A.R.V.I.S. Referencia cultural, no fuente técnica.
+- *Avengers: Age of Ultron* (2015). Marvel Studios. J.A.R.V.I.S. y Vision. Referencia cultural, no fuente técnica.
 - Favreau, J. (director) (2008). *Iron Man.* Marvel Studios. Personaje J.A.R.V.I.S., voz de Paul Bettany. Inspiración cultural, no fuente técnica.
 - Floridi, L. (2023). AI as Agency Without Intelligence: on ChatGPT, Large Language Models, and Other Generative Models. *Philosophy & Technology, 36*. doi:10.1007/s13347-023-00621-y
 - Fowler, M. (2005). *Event Sourcing.* martinfowler.com.
