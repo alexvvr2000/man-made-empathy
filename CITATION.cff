@@ -2,12 +2,7 @@ cff-version: 1.2.0
 message: "Si utilizas este trabajo, por favor cítalo de la siguiente manera."
 title: "Man-Made Empathy"
 abstract: >-
-  Man-Made Empathy es una propuesta metodológica y un conjunto de principios,
-  instrucciones, agentes y componentes reutilizables para diseñar y explorar
-  agentes conversacionales y autónomos. Articula, como marco de diseño,
-  autoridad humana, evidencia trazable, conflicto controlado, confianza
-  calibrada, contraste adversarial, auditabilidad y límites de ejecución. No
-  se presenta como un modelo empíricamente validado.
+  Man-Made Empathy es una propuesta metodológica compuesta por principios, directrices y componentes reutilizables concebidos para diseñar agentes conversacionales autónomos basados en dinámicas de colaboración humana. Como marco de diseño, articula autoridad humana, evidencia trazable, conflicto controlado, confianza calibrada, contraste adversarial, auditabilidad y límites de ejecución. No se presenta como un modelo validado empíricamente.
 type: software
 authors:
   - family-names: "Valenzuela Rivera"
