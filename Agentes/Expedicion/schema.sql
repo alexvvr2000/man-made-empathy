@@ -1,112 +1,110 @@
-PRAGMA foreign_keys = ON;
+-- ============================================================================
+-- ESQUEMA: expedicion.db (Caché Relacional e Índice de Aceleración)
+-- Rol: Estructura derivada de los archivos Markdown (.md). 
+-- Si este archivo se destruye, se reconstruye parseando el sistema de archivos.
+-- ============================================================================
 
--- 1. Manifiesto físico y estado de cambios (Topógrafo y Geólogo)
--- Rutas normalizadas siempre con separador '/'
+PRAGMA foreign_keys = ON;
+PRAGMA journal_mode = WAL;
+
+-- 1. Manifiesto del terreno auditado (Topógrafo y Geólogo)
 CREATE TABLE IF NOT EXISTS manifiesto (
-    ruta TEXT PRIMARY KEY,
+    ruta_relativa TEXT PRIMARY KEY,
+    categoria TEXT NOT NULL,         -- 'codigo', 'metadato', 'documentacion', 'activo', 'binario'
     tamano INTEGER NOT NULL,
-    mtime TEXT NOT NULL,
-    hash TEXT NOT NULL,
-    categoria TEXT CHECK(categoria IN ('sustantivo', 'metadato', 'estructura', 'ruido')) NOT NULL,
+    mtime REAL NOT NULL,
+    hash_contenido TEXT,
+    anomalia TEXT DEFAULT NULL,      -- 'bloqueado', 'roto', etc.
     actualizado_en TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
--- 2. Bitácora transaccional (Todos los agentes)
-CREATE TABLE IF NOT EXISTS bitacora_sesiones (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    timestamp TEXT NOT NULL,
-    ronda INTEGER NOT NULL,
-    agente TEXT CHECK(agente IN ('Topógrafo', 'Geólogo', 'Guía', 'Cartógrafo', 'Aeróstato')) NOT NULL,
-    tipo_evento TEXT CHECK(tipo_evento IN ('INICIO', 'CIERRE')) NOT NULL,
-    corte TEXT NOT NULL,
-    rostro TEXT,
-    escrituras TEXT,
-    resultado TEXT,
-    detalles TEXT
-);
-
--- 3. Nodos de conocimiento (Cartógrafo y Aeróstato)
+-- 2. Índice de Nodos de Conocimiento (Cartógrafo y Aeróstato)
 CREATE TABLE IF NOT EXISTS nodos (
-    id TEXT PRIMARY KEY,
+    id TEXT PRIMARY KEY,             -- Coincide con el nombre del archivo .md o slug
     dominio TEXT NOT NULL,
-    posicion_tipo TEXT CHECK(posicion_tipo IN ('humana', 'Piso', 'Medición', 'IA', 'externa')) NOT NULL,
-    posicion_origen TEXT NOT NULL,
-    version INTEGER NOT NULL DEFAULT 1,
-    linaje_ancestro TEXT,
-    linaje_operacion CHECK(linaje_operacion IN ('evolución', 'contraposición', 'caducidad')),
-    cuerpo TEXT NOT NULL,
-    mtime TEXT NOT NULL,
-    hash TEXT NOT NULL
+    archivo_path TEXT NOT NULL,      -- Ruta exacta al archivo .md (fuente de verdad)
+    mtime REAL NOT NULL,             -- Control de cambios manuales en disco
+    hash_md TEXT NOT NULL,           -- Hash para reconciliación en arranque
+    resumen TEXT,                    -- Extracto breve para no abrir el .md
+    actualizado_en TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
--- 4. Afirmaciones atómicas
+-- 3. Proposiciones atómicas para contrastes (Guía, Cartógrafo y Aeróstato)
 CREATE TABLE IF NOT EXISTS afirmaciones (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nodo_id TEXT NOT NULL,
-    afirmacion TEXT NOT NULL,
-    fuente TEXT NOT NULL,
+    proposicion TEXT NOT NULL,
+    respaldo TEXT NOT NULL,          -- 'empirico', 'deduccion', 'no verificado'
     FOREIGN KEY (nodo_id) REFERENCES nodos(id) ON DELETE CASCADE
 );
 
--- 5. Grafo de bordes salientes
+-- 4. Grafo de relaciones para proyecciones dinámicas (Cartógrafo)
 CREATE TABLE IF NOT EXISTS bordes (
     origen_id TEXT NOT NULL,
     destino_id TEXT NOT NULL,
+    tipo_relacion TEXT DEFAULT 'conecta',
     PRIMARY KEY (origen_id, destino_id),
     FOREIGN KEY (origen_id) REFERENCES nodos(id) ON DELETE CASCADE,
     FOREIGN KEY (destino_id) REFERENCES nodos(id) ON DELETE CASCADE
 );
 
--- 6. Puntas descubiertas (Guía, Cartógrafo, Aeróstato)
+-- 5. Puntas abiertas, alertas y bifurcaciones técnicas (Guía)
 CREATE TABLE IF NOT EXISTS puntas (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    origen_archivo TEXT NOT NULL,    -- Nota .md donde se detectó
+    borde TEXT NOT NULL,             -- Descripción de la incógnita o tensión
+    impacto TEXT NOT NULL,           -- 'alto', 'medio', 'bajo'
+    nivel TEXT NOT NULL,             -- 'sondeo', 'alerta', 'desafio'
+    estado TEXT DEFAULT 'abierta',   -- 'abierta', 'explorada', 'bloqueada', 'resuelta'
+    resolucion TEXT DEFAULT NULL,
+    actualizado_en TEXT DEFAULT CURRENT_TIMESTAMP
+);
+
+-- 6. Anclas técnicas y verificación externa (Protocolo de Búsqueda)
+CREATE TABLE IF NOT EXISTS anclas (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    termino TEXT NOT NULL,
+    dominio TEXT NOT NULL,
+    url TEXT,
+    verificado INTEGER DEFAULT 0,    -- 1 = contrastado externamente, 0 = no verificado
     nodo_id TEXT,
-    borde TEXT NOT NULL,
-    desde_posicion TEXT NOT NULL,
-    impacto TEXT CHECK(impacto IN ('alto', 'medio', 'bajo')) NOT NULL,
-    nivel TEXT CHECK(nivel IN ('sondeo', 'alerta', 'desafío')) NOT NULL,
-    estado TEXT CHECK(estado IN ('abierta', 'explorada', 'bloqueada', 'aceptada', 'rechazada')) DEFAULT 'abierta',
-    respuesta TEXT DEFAULT 'no aplica',
-    actualizado_en TEXT DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (nodo_id) REFERENCES nodos(id) ON DELETE SET NULL
 );
 
--- 7. Anclas técnicas y normativas externas
-CREATE TABLE IF NOT EXISTS anclas (
+-- 7. Bitácora de sesiones y cortes
+CREATE TABLE IF NOT EXISTS bitacora_sesiones (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    nodo_id TEXT NOT NULL,
-    tecnologia TEXT NOT NULL,
-    dominio TEXT NOT NULL,
-    url TEXT NOT NULL,
-    verificada INTEGER CHECK(verificada IN (0, 1)) DEFAULT 1,
-    FOREIGN KEY (nodo_id) REFERENCES nodos(id) ON DELETE CASCADE
+    agente TEXT NOT NULL,
+    evento TEXT NOT NULL,            -- 'INICIO', 'CIERRE', 'CHECKPOINT'
+    corte_id TEXT,
+    timestamp TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
--- Vistas analíticas de aceleración
+-- ============================================================================
+-- VISTAS OPERACIONALES (Consultas económicas para el agente)
+-- ============================================================================
+
+-- Vista: Densidad relacional para calcular el radio de proyección (Cartógrafo)
 CREATE VIEW IF NOT EXISTS v_densidad_nodos AS
 SELECT 
     n.id AS nodo_id,
-    n.dominio,
     COUNT(b.destino_id) AS total_bordes
 FROM nodos n
 LEFT JOIN bordes b ON n.id = b.origen_id
 GROUP BY n.id;
 
+-- Vista: Conflictos abiertos activos entre afirmaciones incompatibles (Aeróstato)
 CREATE VIEW IF NOT EXISTS v_conflictos_abiertos AS
 SELECT 
-    b1.origen_id AS nodo_a, 
-    b1.destino_id AS nodo_b, 
-    n1.dominio
-FROM bordes b1
-JOIN bordes b2 ON b1.origen_id = b2.destino_id AND b1.destino_id = b2.origen_id
-JOIN nodos n1 ON b1.origen_id = n1.id
-JOIN nodos n2 ON b1.destino_id = n2.id
-WHERE n1.linaje_operacion = 'contraposición' AND b1.origen_id < b1.destino_id;
+    p.id AS punta_id,
+    p.origen_archivo,
+    p.borde,
+    p.impacto
+FROM puntas p
+WHERE p.estado = 'abierta' AND p.impacto = 'alto';
 
 -- Índices de aceleración
-CREATE INDEX IF NOT EXISTS idx_manifiesto_cat ON manifiesto(categoria);
 CREATE INDEX IF NOT EXISTS idx_nodos_dominio ON nodos(dominio);
-CREATE INDEX IF NOT EXISTS idx_afirmaciones_nodo ON afirmaciones(nodo_id);
+CREATE INDEX IF NOT EXISTS idx_bordes_origen ON bordes(origen_id);
 CREATE INDEX IF NOT EXISTS idx_puntas_estado ON puntas(estado, impacto);
-CREATE INDEX IF NOT EXISTS idx_anclas_nodo ON anclas(nodo_id);
-CREATE INDEX IF NOT EXISTS idx_bitacora_agente ON bitacora_sesiones(agente, timestamp);
+CREATE INDEX IF NOT EXISTS idx_manifiesto_cat ON manifiesto(categoria);
