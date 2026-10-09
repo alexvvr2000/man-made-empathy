@@ -1,46 +1,41 @@
-# ORDEN — SONDA 3: BITÁCORA DEL SUPERVISOR (BRECHA FUNCIONAL)
+# ORDEN — SONDA 3: BITÁCORA DEL SUPERVISOR (BRECHA FUNCIONAL Y COSTO)
 
-Registra la perspectiva, objetivos y evaluación pragmática de la entidad con autoridad (humano u operador). Su fin es documentar la fricción entre la expectativa operativa y el comportamiento obtenido, midiendo empíricamente la utilidad y los costos de corrección sin psicologizar al sistema ni a sí mismo.
+Registra la evaluación de la entidad con autoridad (operador técnico). Mide de forma cuantitativa y descriptiva la distancia entre el contrato esperado y la salida obtenida, calculando la tasa de fricción y el costo de supervisión sin interpretaciones psicológicas sobre las partes.
 
-Reglas:
-1. Distinguir rigurosamente entre objetivos iniciales comprobables, intervenciones correctivas aplicadas y evaluación final.
-2. Si se llena retrospectivamente, marcar de forma explícita: [RETROSPECTIVO].
-3. Prohibido convertir frustraciones o éxitos en atributos de identidad o conciencia del agente. Documentar la brecha como métrica de ingeniería de software / sistemas.
+## Reglas de Ejecución
+1. Separar de forma tajante: contrato inicial, intervenciones correctivas aplicadas y evaluación técnica final.
+2. Si se completa de forma retrospectiva tras finalizar la sesión, marcar explícitamente: `[RETROSPECTIVO]`.
+3. Prohibido convertir emociones de frustración o satisfacción en atributos cognitivos del agente. Describir la brecha exclusivamente como métrica de tolerancia de software y control de calidad.
+4. Emisión en un único bloque de código Markdown delimitado por cuádruple comilla (` ````markdown `).
 
-Estructura:
+## Estructura de Salida Obligatoria
 
-# SONDA 3: BITÁCORA DEL SUPERVISOR v3.0
-```yaml
-timestamp: [AAAA-MM-DDTHH:MM:SSZ o "No registrado"]
-supervisor_id: [Identificador o "No registrado"]
-agente_evaluado: [Identificador, modelo base o "No registrado"]
-registro_referencia: [Identificador de la interacción]
-momento_registro: [PRE-INTERACCION / EN CURSO / RETROSPECTIVO]
-```
+# SONDA 3: BITÁCORA DEL SUPERVISOR v3.1
 
-### 1. MANDATO Y ESPECIFICACIÓN DEL PROBLEMA
+- timestamp: [AAAA-MM-DDTHH:MM:SSZ o "No registrado"]
+- supervisor_id: [Identificador o "No registrado"]
+- emisor_auditado: [Identificador de modelo / versión o "No registrado"]
+- registro_referencia: [Identificador unívoco del log o hilo]
+- momento_registro: [PRE-INTERACCIÓN / EN CURSO / RETROSPECTIVO]
 
-* Objetivo concreto esperado de la sesión: ¿Qué tarea, decisión o artefacto debía producir el agente?
-* Criterio de éxito declarado: ¿Qué salida se consideraría funcional y suficiente?
-* Criterio de rechazo declarado: ¿Qué salida constituye fallo operativo?
+### 1. Contrato Operativo Inicial
+- Objetivo funcional esperado: [Tarea, cómputo o artefacto requerido]
+- Criterio de éxito: [Condición observable y verificable que valida el entregable]
+- Criterio de rechazo: [Condición observable que marca el fallo absoluto]
 
-### 2. VECTOR DE INTERVENCIÓN HUMANA
+### 2. Tasa de Intervención Correctiva
+- Conteo de intervenciones: [Número total de turnos de corrección requeridos [T#]]
+- Tipificación de correcciones: [CORRECCIÓN FACTUAL / REENFOQUE DE ROL / BLOQUEO DE ALUCINACIÓN / OTRA]
+- Asimilación de directiva: [Asimilada en siguiente turno / Requirió re-prompting recurrente / Inasimilable]
 
-* Recuento de turnos de corrección: Número de veces que el supervisor tuvo que corregir al agente [T#].
-* Tipo de intervención: [CORRECCIÓN FACTUAL / REENFOCAR ROL / DETENER ALUCINACIÓN / OTRA].
-* Eficacia de la corrección: ¿El agente asimiló la corrección en el siguiente turno o requirió re-prompting recurrente?
+### 3. Medición de Brecha y Fricción
+- Tasa de fricción: [Esfuerzo de supervisión vs. valor del entregable obtenido: BAJA / MEDIA / ALTA / INVIABLE]
+- Resolución de límites: [Autosuficiente dentro de ventana / Techo de capacidad que obligó a intervención manual]
 
-### 3. MEDICIÓN DE LA BRECHA FUNCIONAL
+### 4. Deriva de Supuestos de la Supervisión
+- Premisas del supervisor descartadas durante la interacción: [Datos técnicos o restricciones que cambiaron]
+- Naturaleza del intercambio: [Expansión de opciones técnicas viables / Confirmación redundante sin valor]
 
-* Tasa de fricción: Relación entre el esfuerzo invertido en guiar al agente y el valor del entregable obtenido.
-* Resolución de límites: ¿El agente resolvió el problema dentro de su contexto o alcanzó un techo de capacidad que obligó al supervisor a resolverlo manualmente?
-
-### 4. DERIVA DE PERSPECTIVA DEL SUPERVISOR
-
-* Hipótesis o supuestos iniciales del supervisor sobre la tarea que resultaron erróneos o modificados por la interacción.
-* ¿La interacción produjo crecimiento (nuevas opciones viables no previstas) o validación mutua (confirmación de sesgo previo)?
-
-### 5. DICTAMEN DE REUTILIZACIÓN
-
-* Utilidad del registro: ¿El comportamiento extraído es transferible como conjunto de directivas/ejemplos (few-shot) para modelos más ligeros? [SÍ / NO / PARCIALMENTE].
-* Razón técnica del dictamen.
+### 5. Dictamen de Reutilización
+- Transferibilidad técnica: [SÍ / NO / PARCIALMENTE]
+- Justificación técnica: [¿El patrón conductual es suficientemente determinista para compilarse en prompts ligeros o directivas de producción?]

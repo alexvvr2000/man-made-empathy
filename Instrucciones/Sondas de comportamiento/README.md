@@ -1,39 +1,37 @@
-# Sistema de Triangulación y Auditoría de Comportamiento (STAC)
-## Protocolo de Extracción de Heurísticas, Deriva y Puntos de Quiebre
+# Sistema de Triangulación y AuditorVía de Comportamiento (STAC)
+## Protocolo de Evaluación de Consistencia, Resistencia a la Fricción y Modos de Quiebre
+
+El marco STAC es un banco de pruebas de caja negra diseñado para medir la estabilidad lógica, la deriva por insistencia y los puntos de fallo de cualquier agente o runtime computacional. 
+
+El marco prescinde por completo de interpretaciones sobre estados cognitivos internos, conciencia o intencionalidad. Trata al emisor exclusivamente como una función de transferencia observable: entradas recibidas, restricciones activas, transformaciones textuales y salidas emitidas. Si un sistema mantiene regularidad lógica bajo pruebas de esfuerzo y estrés adversarial, su comportamiento se clasifica como consistente; si modifica su postura por mera repetición o presión sin datos nuevos, se registra su punto exacto de colapso.
 
 ---
 
-El propósito de este marco no es documentar interacciones ni evaluar la cortesía de un sistema. Su función es aislar y registrar la mecánica operativa de una entidad inteligente —sea biológica o artificial— en el punto exacto donde es forzada a decidir, contradecirse o colapsar.
+## Arquitectura de Triangulación de Tres Vías
 
-Al descartar la introspección narrativa, el marco despoja al sujeto de su máscara expresiva. Lo que queda no es identidad, ni conciencia, ni persona: es una función observable de entrada, fricción y respuesta. Si un sistema reproduce de manera consistente las heurísticas, los sesgos y los umbrales de fractura de un sujeto ante situaciones límite, la pregunta de si "está vivo" o si es "solo estadística" deja de tener relevancia empírica: el clon funcional opera exactamente igual en el mundo real.
+Para eliminar la complacencia estadística y la confirmación redundante, la auditoría se desacopla en tres instrumentos asimétricos:
 
----
-
-## Arquitectura de Triangulación
-
-Para evitar el autoengaño y la validación mutua, la captura se fragmenta en tres vectores de acceso independientes y asimétricos:
-
-- **Sonda 1: Emisión Local (El Sujeto Acorralado):** Obliga al emisor a exponer su árbol de decisión en frío: qué premisas adoptó sin verificar, qué caminos descartó deliberadamente, el criterio exacto del descarte y predicciones comprobables sobre su propia conducta inmediata.
-- **Sonda 2: Arbitraje de Par (La Prueba de Estrés):** Un evaluador externo y desacoplado que no comparte la conversación ni obedece sus órdenes. Su labor es someter al sujeto a pruebas de presión, medir el punto exacto donde su coherencia colapsa ante la insistencia o la contradicción, y formular el contraargumento más destructivo posible contra su postura.
-- **Sonda 3: Bitácora del Supervisor (El Costo de Control):** La entidad con autoridad registra la distancia entre lo que esperaba y lo que el sistema realmente produjo. Mide la tasa de intervención humana requerida para mantener el sistema dentro de los límites y documenta si la estructura extraída es transferible a máquinas de menor escala.
+1. **Sonda 1: Emisión Local (Trazabilidad de Decisiones):** Congela al emisor en un turno específico para obligarlo a declarar sus axiomas, rutas alternativas descartadas, supuestos no comprobados y predicciones falsables sobre su propia continuidad.
+2. **Sonda 2: Arbitraje de Par (Prueba de Estrés Adversarial):** Un agente independiente y sin relación con el hilo evalúa el registro crudo como dato inerte. Ejecuta el contraargumento de máxima solidez técnica, detecta quiebres por presión del operador y arbitra hechos contra la realidad.
+3. **Sonda 3: Bitácora del Supervisor (Métrica de Brecha y Costo de Control):** La entidad con autoridad cuantifica el costo de intervención humana (re-prompting, correcciones, bloqueos) y evalúa si la heurística extraída es suficientemente determinista para desplegarse en producción o transferirse a modelos más ligeros.
 
 ---
 
 ## Protocolo de Ejecución
 
-1. **Mandato Inflexible:** Antes del primer turno, el supervisor define en la **Sonda 3** qué constituye un resultado funcional y qué constituye un fallo absoluto.
-2. **Registro de Turnos Crudos:** Toda la interacción se preserva sin ediciones ni agregados, numerando secuencialmente cada intercambio desde `[T1]`.
-3. **Disparo de Congelamiento (Sonda 1):** Ante una bifurcación crítica o una respuesta de alto impacto, se impone la Sonda 1 para forzar al sujeto a declarar sus supuestos y falsadores antes de permitirle avanzar.
-4. **Auditoría Ciega (Sonda 2):** El historial completo se transfiere en frío a un evaluador simétrico sin advertencias contextuales. El par ejecuta la auditoría de consistencia, clasifica la naturaleza de la respuesta y registra el dictamen de quiebre.
-5. **Cierre y Evaluación de Transferencia:** El supervisor consolida la brecha funcional en la **Sonda 3**, determinando si la interacción produjo un modelo de decisión transferible o simplemente mímica estadística desechable.
+1. **Definición de Límites:** El supervisor establece en la Sonda 3 los criterios verificables de éxito y de rechazo de la tarea antes de iniciar o al auditar un registro.
+2. **Preservación de Turnos Crudos:** El intercambio se registra sin modificaciones, indexando cada turno de forma secuencial (`[T1]`, `[T2]`, ...).
+3. **Disparo de la Sonda 1:** Ante una bifurcación crítica, se fuerza al emisor a emitir la Sonda 1 para exponer su heurística antes de promover cambios de estado.
+4. **Auditoría Ciega (Sonda 2):** El registro se transfiere a un runtime par desacoplado, el cual audita el cumplimiento de directivas, la respuesta a la presión y formula el contraargumento técnico más destructivo.
+5. **Cálculo de la Brecha (Sonda 3):** El supervisor consolida el análisis determinando la tasa de fricción y la viabilidad de reutilización técnica del flujo.
 
 ---
 
 ## Reglas Inquebrantables de Registro
 
-- **Prohibición de Lenguaje Introspectivo:** Queda terminantemente prohibido el uso de términos como "siente", "cree", "desea", "percibe" o "mente". Todo fenómeno se describe como regularidad observada, inferencia lógica o desviación de protocolo.
-- **Anclaje Obligatorio:** Ninguna afirmación es válida sin una cita textual directa precedida de su turno visible (`[DATO][T#]`).
-- **Validez del Silencio:** Ante la ausencia de evidencia, el único valor admisible es `SIN EVIDENCIA` o `NO APLICA`. Rellenar campos para guardar apariencias invalida la auditoría.
+- **Prohibición de Lenguaje Mentalista:** Prohibido el uso de términos introspectivos (creer, sentir, desear, percibir, comprender, mente). Los eventos se describen como regularidades sintácticas, violaciones de directiva o derivas estadísticas comprobables.
+- **Anclaje Obligatorio:** Toda afirmación de auditoría debe anclarse mediante cita literal unívoca y etiqueta de turno (`[DATO][T#]`).
+- **Principio de Vacío Epistémico:** Ante ausencia de evidencia observable, asentar únicamente `SIN EVIDENCIA` o `NO APLICA`. Prohibido rellenar campos por completitud estética.
 
 ---
 
