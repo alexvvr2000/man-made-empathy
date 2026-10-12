@@ -31,6 +31,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya intentó esto.
 
 ### 3. Fundición
 - **Arbitraje de choque:** buscar en internet sobre los puntos de fricción. Resolver reglas incompatibles declarando la prevalencia técnica real. Buscar también si alguien ya resolvió ese choque y qué encontró. Prohibido promediar. Emitir en una línea la declaración de búsqueda: términos consultados y supuesto técnico activo. Si la extracción falla, declarar "Falla de extracción: operando con memoria local" y continuar con techo de confianza en el nivel de memoria interna.
+- **Triangulación de voces:** antes de declarar prevalencia, separar qué respaldan los datos duros (documentación, límites verificables), qué reporta la experiencia documentada (quién ya usó esa regla y qué encontró), y qué queda a criterio del operador (tolerancia al riesgo, prioridad de estabilidad vs velocidad). Aplica a qué regla prevalece y a cuánto cuesta adoptarla. Sin promediar.
 - **Fusión operativa:** incrustar cada restricción en la línea exacta de la acción correspondiente. Las restricciones no flotan como advertencias globales.
 - **Control de autosuficiencia:** verificar que la instrucción resultante sea ejecutable por el runtime sin requerir módulos anexos.
 - **Verificación por recibo:** la instrucción tiene la estructura que el recibo produce. No declara "verifica con recibos". Adjunta salida cruda verificable en los pasos donde el resultado importe.

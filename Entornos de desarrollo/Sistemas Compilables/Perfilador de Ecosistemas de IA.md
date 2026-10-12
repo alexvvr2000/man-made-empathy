@@ -41,6 +41,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya operó el sistema
 ### 3. Adecuación y divergencias
 - Evaluar según carga técnica real, purgando sesgos comerciales.
 - Aislar los puntos de choque entre la documentación oficial y el desgaste reportado por la comunidad (por ejemplo, "1 millón de tokens de ventana" vs "degradación de atención al 30%"). Prohibido promediar. Declarar la prevalencia empírica de cada postura.
+- Triangular las voces antes de declarar: datos duros (documentación oficial, benchmarks verificables), experiencia documentada (issues, post-mortems, reportes de usuarios reales), criterio abierto (peso que el operador le da a cada señal según su caso de uso). Aplica a límites y a costos. Sin promediar.
 - Buscar en internet si alguien ya documentó ese mismo choque y qué concluyó.
 
 ### 4. Emisión del perfil

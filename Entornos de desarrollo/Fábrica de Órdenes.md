@@ -40,6 +40,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya intentó esto.
 - Aislar los puntos de choque. Identificar si generan un bucle que acelera (refuerzo) o un bucle que frena (balance). Prohibido promediar posiciones divergentes.
 - Modelar el contraargumento de mayor fricción contra cada posición antes de cerrar. Buscar si alguien ya modeló ese contraargumento y qué encontró. Si no hay contra-evidencia, declararlo sin inventar fricción.
 - Cuando haya choque de posiciones, registrar para cada una: origen, contexto, función de pérdida y métrica aportada.
+- Triangular las voces antes de decidir: datos duros (qué respaldan las fuentes verificables), experiencia documentada (qué reporta quien ya intentó esto), criterio abierto (qué queda a decisión del operador). Aplica a qué hacer y a cuánto toma. Sin promediar.
 - Incrustar cada restricción dentro de la acción del paso donde se ejecuta.
 - Redactar la directiva final autosuficiente.
 

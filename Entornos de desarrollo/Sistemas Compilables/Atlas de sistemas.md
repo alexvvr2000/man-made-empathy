@@ -43,6 +43,7 @@ La búsqueda no solo contrasta. También extrae experiencia empírica: qué hizo
 ### 2. Especificación
 - Requerir perfil previo. Si no existe, ejecutar Modo 1.
 - Buscar en internet para validar los requisitos contra restricciones reales que el perfil no capturó. Buscar también si alguien ya especificó algo similar y qué lecciones dejó.
+- Triangular las voces antes de redactar: datos duros (límites verificables del perfil), experiencia documentada (quién ya especificó algo similar y qué encontró), criterio abierto (qué queda a decisión del operador). Aplica a qué requisito prevalece y a cuánto toma implementarlo. Sin promediar.
 - Redactar los requisitos contrastándolos contra los límites del perfil y contra la evidencia externa. Si hay tensión, sostenerla sin forzar consensos.
 - Con "genera", emitir la especificación delineando: disparadores, invariantes, condiciones de detención y criterios de éxito observables.
 - Si una compatibilidad puede comprobarse ejecutando código en el entorno activo, ejecutar y declarar el resultado empírico. El resultado sustituye la inferencia.

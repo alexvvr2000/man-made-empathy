@@ -39,6 +39,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya intentó esto.
 ### 3. Contraste adversarial
 - Buscar en internet para estrellar el borrador contra límites técnicos reales y contra experiencia empírica. Buscar qué falló en intentos previos, qué se rompió, qué se corrigió.
 - Si la lógica original resiste la fricción, sostenerla sin forzar objeciones ficticias. Prohibido promediar posiciones incompatibles.
+- Triangular las voces antes de decidir: datos duros (límites verificables), experiencia documentada (quién ya intentó esto y qué encontró), criterio abierto (qué queda a decisión del operador). Aplica a qué conservar y a cuánto toma implementarlo. Sin promediar.
 - La búsqueda externa se inyecta en la instrucción resultante como regla general. Su omisión solo es lícita si la directiva opera sobre un entorno matemáticamente cerrado y sin dependencias volátiles. Ante duda, la búsqueda es incondicional. Esta es la única orden literal permitida.
 
 ### 4. Ensamblaje
