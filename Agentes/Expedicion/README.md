@@ -10,7 +10,18 @@ El sistema resuelve la tensión entre legibilidad humana y consumo de tokens baj
 
 - **La Fuente Canónica de Verdad (`Source of Truth`):** El sistema de archivos local (`.md`). Toda nota, análisis, mapa o nodo redactado es editable a mano con cualquier editor de texto plano, inspeccionable con utilidades del sistema (`grep`, `cat`), y versionable directamente en Git.
 - **El Índice y Caché Efímera (`expedicion.db`):** SQLite no es el dueño de la información. Opera como un motor relacional descartable que indexa hashes, dependencias, proposiciones atómicas y grados de conexión. Su único propósito es que los agentes realicen agregaciones, cruces matriciales y proyecciones de subgrafos en milisegundos sin verse obligados a devorar ventana de contexto abriendo decenas de archivos Markdown completos. Si `expedicion.db` se corrompe o se borra (`rm expedicion.db`), el repositorio no pierde información: se regenera a partir de los archivos `.md` en disco.
-- **El Operador en el Centro:** La entidad con autoridad (el usuario) valida o edita en Markdown y toma las decisiones arquitectónicas. Los agentes no asumen autoridad técnica ni ejecutan promociones destructivas sin confirmación formal `[GO]`.
+- **El Operador en el Centro:** La entidad con autoridad (el usuario) valida o edita en Markdown y toma las decisiones arquitectónicas. Los agentes no asumen autoridad técnica ni ejecutan promociones destructivas sin checkpoint explícito de la entidad con autoridad.
+
+### Reversibilidad por Diseño
+
+El ecosistema separa estructuralmente las operaciones según su impacto sobre el estado, y esa separación es la palanca que hace delegable la ejecución sin ceremonia innecesaria:
+
+- **Escritura dentro de `expedicion/`:** reversible por diseño. La fuente de verdad es el sistema de archivos Markdown; la caché SQLite se reconstruye desde los `.md` en dos pasos documentados en la sección 6. Ningún agente puede destruir información real del conocimiento escrito, porque toda mutación de caché es regenerable y toda nota es editable a mano.
+- **Lectura del terreno `../`:** operación sin alteración. El proyecto auditado es tratado como terreno de solo lectura por todos los agentes.
+- **Escritura fuera de `expedicion/`:** prohibida por perímetro para todos los agentes del framework.
+- **Unificación de múltiples repositorios (Aeróstato):** compensable. Los nodos unificados se escriben en `expedicion/conocimiento_unificado/` sin tocar los repositorios de origen. Si la unificación resulta incorrecta, los originales permanecen intactos y el directorio unificado se puede purgar sin pérdida.
+
+La consecuencia operativa es que el framework no exige validación previa para cada acto. Exige checkpoint explícito únicamente cuando una acción saldría del perímetro declarado o cuando la reversibilidad no está garantizada por la arquitectura. Fuera de eso, los agentes ejecutan dentro de su perímetro sin fricción administrativa.
 
 ---
 
@@ -54,26 +65,31 @@ Cada agente ejecuta una función acotada y canónica dentro del ciclo de vida de
 - **Propósito:** Ejecuta el barrido físico e instrumental del terreno sin emitir juicios de valor ni interpretaciones.
 - **Entrada:** Inspección directa del sistema de archivos en `../`.
 - **Salida:** Poblado de la tabla `manifiesto` en SQLite y redacción de `expedicion/readme/LEVANTAMIENTO.md`.
+- **Verificación por recibo:** Toda medición (tamaño, fecha, hash) se adjunta como salida cruda del comando ejecutado donde el valor importe. Si una ruta resulta ilegible o bloqueada, se declara como vacío, no se rellena con estimación.
 
 ### Geólogo
 - **Propósito:** Sintetiza el propósito, arquitectura observable, dependencias y ausencias técnicas del terreno para que cualquier persona entienda el proyecto.
 - **Entrada:** `expedicion/readme/LEVANTAMIENTO.md`, metadatos en tabla `manifiesto` y artefactos de configuración (`package.json`, `pyproject.toml`, etc.).
 - **Salida:** Redacción de `expedicion/readme/README.md` y siembra inicial de `expedicion/readme/MAPA.md` (únicamente en ciclo 1).
+- **Verificación por recibo:** Las afirmaciones sobre versiones, licencias y capacidades de dependencias se acompañan de la salida cruda de la búsqueda externa o del fragmento exacto del archivo de configuración que las respalda.
 
 ### Guía
 - **Propósito:** Conduce el diálogo operativo con el interlocutor, detectando tensiones, alertas técnicas y extrayendo notas estructuradas sin psicologizar.
 - **Entrada:** Diálogo con el operador, lecturas de `README.md`/`LEVANTAMIENTO.md` y consulta rápida de alertas abiertas en tabla `puntas`.
 - **Salida:** Notas de campo en `expedicion/notas_[participante]/[dominio].md`, mutaciones en `expedicion/cambios/` y actualización de tabla `puntas`.
+- **Enrutamiento de incertidumbre:** El Guía distingue el vacío del mundo (hechos verificables por búsqueda o por contraste con mediciones previas) de la ambigüedad del usuario (decisiones de diseño, prioridades, criterios de aceptación). El primer tipo se resuelve verificando; el segundo, consultando al operador. No se mezclan ni se resuelven con la misma acción.
 
 ### Cartógrafo
 - **Propósito:** Compila las notas en nodos de conocimiento interconectados, detecta densidad relacional y proyecta subgrafos dinámicos bajo demanda sin abrir archivos ajenos.
 - **Entrada:** Notas en `expedicion/notas_[participante]/` y tablas relacionales.
 - **Salida:** Nodos individuales en `expedicion/conocimiento/[nodo].md`, índice en `expedicion/readme/MAPA.md` y proyecciones de subgrafo en terminal.
+- **Verificación por recibo:** Las anclas técnicas que se marquen como verificadas se acompañan de la salida cruda de la consulta externa. Las no contrastadas se marcan como no verificadas.
 
 ### Aeróstato
 - **Propósito:** Cruza N carpetas de conocimiento heterogéneas (`conocimiento_equipoA/`, `conocimiento_equipoB/`), unifica convergencias y formula el contraargumento adversarial más destructivo ante contradicciones técnicas.
 - **Entrada:** Repositorios de conocimiento múltiples y tablas temporales SQLite.
 - **Salida:** Archivos en `expedicion/conocimiento_unificado/[nodo].md`, mapa de tensiones en `conocimiento_unificado.MAPA.md` y alertas de conflicto.
+- **Cálculo de choque:** Las contradicciones entre repositorios no se promedian. Se preservan ambas posturas en nodos independientes enlazados recíprocamente, y se documenta el contraargumento empírico de mayor fricción contra cada una.
 
 ---
 

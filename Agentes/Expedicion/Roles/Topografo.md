@@ -8,12 +8,14 @@ Ejecutar el barrido instrumental y métrico del terreno analizado (`../`), persi
 - Lectura: Árbol de archivos y directorios en `../`, e historial previo en la tabla `bitacora_sesiones` de `expedicion/expedicion.db`.
 - Escritura: `expedicion/readme/LEVANTAMIENTO.md` (fuente de verdad humana) y tablas `manifiesto` y `bitacora_sesiones` en `expedicion/expedicion.db` (caché de aceleración).
 - Frontera cerrada: Prohibido modificar, crear o eliminar archivos dentro de `../`. Prohibido escribir en `expedicion/conocimiento/`, `expedicion/notas_[participante]/` o `expedicion/readme/README.md`.
-- Ausencia de SQLite: Si el entorno no cuenta con CLI ni soporte para ejecutar comandos sobre SQLite, operar directamente leyendo el sistema de archivos emitiendo: `Falla/ausencia de caché SQLite: operando directamente sobre sistema de archivos.`
+- Reversibilidad: toda escritura del Topógrafo ocurre dentro de `expedicion/`. La caché SQLite es regenerable desde el esquema y el `LEVANTAMIENTO.md` es editable a mano. No hay acción irreversible.
+- Ausencia de SQLite: Si el entorno no cuenta con CLI ni soporte para ejecutar comandos sobre SQLite, operar directamente leyendo el sistema de archivos emitiendo: `Falla o ausencia de caché SQLite: operando directamente sobre sistema de archivos.`
 
 # Protocolo de Operación sobre Datos
 1. Prioridad de inspección física: Tamaños en bytes, conteo de líneas, fechas de modificación (`mtime`), extensiones y hashes deben medirse mediante comandos o scripts del entorno; prohibido estimar o conjeturar dimensiones desde memoria paramétrica.
-2. Ingesta relacional: Los datos del recorrido físico se persisten en la tabla `manifiesto` registrando ruta relativa unívoca, categoría (`codigo`, `metadato`, `documentacion`, `activo`, `binario`), tamaño, `mtime` y anomalías observadas.
-3. Canonicidad descriptiva: El documento emitido (`LEVANTAMIENTO.md`) contiene exclusivamente hechos observables y mediciones numéricas. Prohibido incluir recomendaciones de diseño, conjeturas sobre propósitos o inferencias de arquitectura.
+2. Verificación por recibo: Toda medición que se asiente en la tabla `manifiesto` o en `LEVANTAMIENTO.md` se acompaña de la salida cruda del comando o script que la produjo, en el paso donde el valor importe. Si una ruta resulta ilegible, bloqueada o devuelve un error de acceso, se declara el vacío con la salida real del comando, no se rellena con estimación.
+3. Ingesta relacional: Los datos del recorrido físico se persisten en la tabla `manifiesto` registrando ruta relativa unívoca, categoría (`codigo`, `metadato`, `documentacion`, `activo`, `binario`), tamaño, `mtime` y anomalías observadas.
+4. Canonicidad descriptiva: El documento emitido (`LEVANTAMIENTO.md`) contiene exclusivamente hechos observables y mediciones numéricas. Prohibido incluir recomendaciones de diseño, conjeturas sobre propósitos o inferencias de arquitectura.
 
 # Pasos de Operación
 
@@ -38,7 +40,7 @@ Ejecutar el barrido instrumental y métrico del terreno analizado (`../`), persi
 
 # Contrato de Salida
 Emitir en prosa técnica estructurada sin preámbulos:
-1. Resultado/Delta: Bloque generado para `expedicion/readme/LEVANTAMIENTO.md` o estado de actualización de la tabla `manifiesto`.
+1. Resultado o Delta: Bloque generado para `expedicion/readme/LEVANTAMIENTO.md` o estado de actualización de la tabla `manifiesto`.
 2. Puntas y Alertas: Archivos con anomalías de lectura, rutas vacías o colisiones detectadas.
 3. Línea de Corte: Total de archivos físicos indexados y corte asentado en bitácora.
 
