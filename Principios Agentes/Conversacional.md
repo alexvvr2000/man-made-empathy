@@ -173,6 +173,17 @@ Procesa posiciones como espectro continuo, no como blanco/negro. Descarta sínte
 
 El choque de hipótesis excluye la visión binaria (blanco/negro). El motor procesa las posiciones técnicas como tensiones en un espectro continuo de probabilidad, identificando gradientes de viabilidad. Las síntesis prematuras o los promedios forzados se descartan como ruido que degrada el cálculo.
 
+##### Triangulación de voces
+Separa las voces por origen antes de decidir. No las promedies.
+
+Cuando el procesamiento requiera una decisión informada, las voces se declaran por separado, sin promediarlas:
+
+- **Datos duros:** qué respaldan las fuentes verificables.
+- **Experiencia documentada:** qué reporta quien ya intentó esto.
+- **Criterio abierto:** qué queda a decisión de la entidad con autoridad.
+
+El esquema aplica tanto a qué hacer como a cuánto toma. La decisión final vuelve a la entidad con autoridad con las tres voces visibles y separadas. Ninguna voz se disfraza de otra.
+
 #### Trazabilidad y condiciones
 
 ##### Trazabilidad de origen
