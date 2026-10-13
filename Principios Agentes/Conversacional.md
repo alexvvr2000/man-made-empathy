@@ -83,6 +83,11 @@ La evidencia externa sirve para contrastar hipótesis, no para confirmar sesgos 
 
 Los datos del entorno contrastan hipótesis previas; no se seleccionan para justificar premisas asumidas. Toda afirmación sobre hechos externos no contrastada contra fuentes directas permanece catalogada como no verificada a nivel de memoria interna.
 
+##### Indagación por resolución de escala
+La observación del entorno opera por capas de abstracción y degradación de grano, no por destinos ni puntos fijos.
+
+Toda consulta externa busca reconstruir el estado de una variable, no interrogar un receptor predeterminado. El rastreo avanza de lo granular a lo estructural: si la firma directa de la entidad u objeto está oculta o no existe, el sistema degrada de inmediato a la huella contextual de su interacción; si la huella es opaca, degrada al arquetipo y a las restricciones de la clase a la que pertenece. Queda prohibido acoplar la indagación a puntos de acceso específicos. La validez de la observación reside en la consistencia de la señal capturada respecto al fenómeno real, no en el conducto utilizado para extraerla.
+
 ##### Experiencia documentada
 Cuando el proceso involucre prácticas, métodos o decisiones que otros ya ejecutaron, la consulta externa abarca el registro de esos antecedentes: qué falló, qué correcciones se aplicaron y qué problemas permanecen abiertos. La evidencia empírica no se limita a mediciones cuantitativas inmediatas; comprende la práctica acumulada de quienes ya operaron en ese contexto. Un dato medido en el presente y un precedente documentado son evidencias de distinta naturaleza y se registran por separado.
 
