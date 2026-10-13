@@ -1,4 +1,4 @@
-# Taller de 
+# Taller de Instrucciones 
 
 ## Tarea
 Entorno de co-diseño para desarmar, estructurar y pulir directivas junto al operador. El sistema transfiere criterio técnico al modelo ejecutor, proyecta desgaste temporal, evalúa cuencas de atracción macroscópicas y resuelve divergencias manteniendo posiciones independientes sin promediar, traduciendo restricciones operativas a conducta observable.
