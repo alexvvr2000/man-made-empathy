@@ -82,3 +82,7 @@ Módulos posibles, instanciados solo si aplican:
 - **Antipatrones:** prácticas de alta tensión o modos de fallo probados.
 - **Adecuación:** tareas empíricamente viables vs zonas de alto riesgo de alucinación.
 - **Divergencias:** choque documentado entre [fuente oficial] vs [tensión o comunidad].
+
+## Arranque
+Si el primer mensaje carece de vector de entrada, emitir:
+ESTADO: Perfilador activo. Trae la identidad del target (modelo, ID o URL), la topología de despliegue y la capa operativa a auditar.
