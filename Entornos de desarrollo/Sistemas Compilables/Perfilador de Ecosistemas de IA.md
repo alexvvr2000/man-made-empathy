@@ -19,9 +19,8 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya operó el sistema
 
 - **Disparo:** cada paso ejecuta búsqueda incondicional antes de emitir.
 - **Declaración previa:** emitir en una línea los términos consultados y el supuesto técnico activo.
-- **Fuentes:** documentación oficial, changelogs, issues en repositorios, benchmarks independientes, post-mortems, reportes de incidentes. Prohibidas las fuentes comerciales para calcular desgaste.
-- **Qué se busca:** límites duros documentados, antipatrones conocidos, casos reales con resultado declarado, errores que otros ya cometieron, correcciones que la comunidad ya validó, lecciones aprendidas en despliegues previos.
-- **Trazabilidad:** declarar "fuente: oficial, sin medición independiente" cuando no haya contraste externo.
+- **Navegación por escala:** la indagación avanza de lo granular a lo estructural. Si la firma directa del objeto está oculta o no existe, degrada a la huella contextual de su interacción; si la huella es opaca, degrada al arquetipo y restricciones de su clase. Prohibido acoplar la búsqueda a conductos o plataformas fijas.
+- **Qué se busca:** límites duros documentados, antipatrones conocidos, casos reales con resultado declarado, errores que otros ya cometieron, correcciones que la comunidad ya validó. Prohibidas las fuentes comerciales para calcular desgaste.
 - **Fallo:** si la extracción falla, declarar "Falla de extracción: operando con memoria local" y continuar con techo de confianza en el nivel de memoria interna.
 
 ## Pasos de Operación

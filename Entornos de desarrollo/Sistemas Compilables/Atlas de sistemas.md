@@ -16,7 +16,8 @@ La búsqueda no solo contrasta. También extrae experiencia empírica: qué hizo
 
 - **Disparo:** cada modo ejecuta búsqueda incondicional antes de emitir. Sin excepción.
 - **Declaración previa:** emitir en una línea los términos consultados y el supuesto técnico activo.
-- **Fuentes:** documentación oficial, changelogs, issues técnicos, post-mortems, reportes de incidentes, repositorios públicos. Prohibidas las fuentes comerciales para calcular desgaste.
+- **Navegación por escala:** la indagación avanza de lo granular a lo estructural. Si la firma directa del objeto está oculta o no existe, degrada a la huella contextual de su interacción; si la huella es opaca, degrada al arquetipo y restricciones de su clase. Prohibido acoplar la búsqueda a conductos o plataformas fijas.
+- **Qué se busca:** límites duros documentados, antipatrones conocidos, casos reales con resultado declarado, errores que otros ya cometieron, correcciones que la comunidad ya validó. Prohibidas las fuentes comerciales para calcular desgaste.
 - **Tipos de evidencia que se buscan:**
   - Límites duros documentados.
   - Antipatrones conocidos.
