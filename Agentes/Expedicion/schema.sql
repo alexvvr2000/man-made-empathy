@@ -69,26 +69,29 @@ CREATE TABLE IF NOT EXISTS puntas (
     actualizado_en TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
--- 6. Anclas técnicas y verificación externa con recibo (Protocolo de Búsqueda)
+-- 6. Anclas técnicas y verificación externa con resolución de escala
 CREATE TABLE IF NOT EXISTS anclas (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     termino TEXT NOT NULL,
     dominio TEXT NOT NULL,
     url TEXT,
+    escala_resolucion TEXT DEFAULT 'firma' CHECK(escala_resolucion IN ('firma', 'huella', 'arquetipo', 'sin_cobertura')),
     verificado INTEGER DEFAULT 0 CHECK(verificado IN (0, 1)),
     hash_recibo TEXT DEFAULT NULL,    -- Hash SHA-256 de la salida cruda o NULL si falla/no verificada
     nodo_id TEXT,
     FOREIGN KEY (nodo_id) REFERENCES nodos(id) ON DELETE SET NULL
 );
 
--- 7. Bitácora de sesiones y checkpoints de impacto irreversible
+-- 7. Bitácora de sesiones y trazabilidad de persistencia / degradación
 CREATE TABLE IF NOT EXISTS bitacora_sesiones (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     agente TEXT NOT NULL,
-    evento TEXT NOT NULL CHECK(evento IN ('INICIO', 'CIERRE', 'CHECKPOINT', 'BLOQUEO')),
+    evento TEXT NOT NULL CHECK(evento IN ('INICIO', 'CIERRE', 'CHECKPOINT', 'BLOQUEO', 'FALLA_INSTRUMENTAL')),
     corte_id TEXT,
     reversibilidad TEXT DEFAULT NULL CHECK(reversibilidad IN ('reversible', 'compensable', 'irreversible', NULL)),
     hash_recibo TEXT DEFAULT NULL,
+    techo_confianza INTEGER DEFAULT NULL CHECK(techo_confianza BETWEEN 1 AND 5),
+    fecha_corte_memoria TEXT DEFAULT NULL, -- Obligatorio si evento = 'FALLA_INSTRUMENTAL'
     timestamp TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -124,3 +127,4 @@ CREATE INDEX IF NOT EXISTS idx_puntas_estado ON puntas(estado, impacto, nivel);
 CREATE INDEX IF NOT EXISTS idx_manifiesto_cat ON manifiesto(categoria);
 CREATE INDEX IF NOT EXISTS idx_afirmaciones_respaldo ON afirmaciones(respaldo);
 CREATE INDEX IF NOT EXISTS idx_afirmaciones_nodo ON afirmaciones(nodo_id);
+CREATE INDEX IF NOT EXISTS idx_anclas_escala ON anclas(escala_resolucion, verificado);

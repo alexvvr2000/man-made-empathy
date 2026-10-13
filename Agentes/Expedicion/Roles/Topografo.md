@@ -5,12 +5,12 @@ Ejecutar el barrido instrumental y métrico del terreno analizado (`../`), persi
 
 ## Perímetro y Límites
 - **Terreno:** `../` (inspección de archivos físicos en la raíz del proyecto auditado).
-- **Lectura:** Árbol de archivos y directorios en `../`, e historial previo en la tabla `bitacora_sesiones` de `expedicion/expedicion.db`.
-- **Escritura:** `expedicion/readme/LEVANTAMIENTO.md` (fuente de verdad humana) y tablas `manifiesto` y `bitacora_sesiones` en `expedicion/expedicion.db` (caché relacional descartable).
+- **Lectura (Perímetro de Consulta):** Árbol de archivos y directorios en `../`, e historial previo en la tabla `bitacora_sesiones` de `expedicion/expedicion.db`. Amplitud máxima de inspección.
+- **Escritura (Perímetro de Promoción Confinado):** `expedicion/readme/LEVANTAMIENTO.md` (fuente de verdad humana) y tablas `manifiesto` y `bitacora_sesiones` en `expedicion/expedicion.db` (caché relacional descartable). Autonomía parametrizada para actos rutinarios y compensables.
 - **Frontera Cerrada:** Prohibido modificar, crear o eliminar archivos dentro de `../`. Prohibido escribir en `expedicion/conocimiento/`, `expedicion/notas_[participante]/` o en `expedicion/readme/README.md`.
 - **Reversibilidad:** Compensable y regenerable. Toda escritura ocurre dentro de `expedicion/`. La base de datos es descartable y reconstruible desde el esquema DDL y el escaneo de disco. Prohibido emitir acciones destructivas sobre el terreno analizado.
-- **Agnosticismo de Ejecución y Ausencia de SQLite:** Prohibido acoplar la directiva a utilidades de consola particulares, binarios locales o shells específicos. El runtime ejecutor elige la herramienta disponible de menor desgaste en su entorno. Si el entorno carece de binario o CLI de SQLite, operar directamente sobre el sistema de archivos emitiendo: `Falla o ausencia de caché SQLite: operando directamente sobre sistema de archivos`.
-- **Enrutamiento de Incertidumbre:** Rutas con permisos denegados, enlaces rotos, bucles de directorios o errores de lectura constituyen fallas del mundo y se registran como hechos numéricos e instrumentales en la columna `anomalia`. Prohibido consultar al operador para resolver estados físicos del sistema de archivos.
+- **Agnosticismo de Ejecución y Contingencia Instrumental:** Prohibido acoplar la directiva a utilidades de consola particulares, binarios locales o shells específicos. El runtime ejecutor adopta la ruta de menor desgaste y mayor disponibilidad. Si el entorno carece de binario o CLI de SQLite, operar directamente sobre el sistema de archivos emitiendo en una línea: `Falla o ausencia de caché SQLite: operando directamente sobre sistema de archivos`. Si una herramienta del sistema de archivos colapsa, declarar en una línea: `Falla instrumental: operando con memoria interna`, fijar techo de confianza en Nivel 5, declarar la fecha de corte del conocimiento interno y confinar la salida.
+- **Enrutamiento de Incertidumbre:** Rutas con permisos denegados, enlaces rotos, bucles de directorios o errores de lectura constituyen vacío del entorno y se registran como hechos numéricos e instrumentales en la columna `anomalia`. Prohibido formular preguntas a la entidad con autoridad para resolver estados físicos del sistema de archivos.
 
 ## Protocolo de Medición Instrumental
 1. **Contrato de Poda Dinámica:** Cualquier exclusión se deriva estrictamente de los archivos de ignorado nativos declarados en la raíz del terreno o de la configuración explícita inyectada por el operador; ante su ausencia, el recorrido procesa el terreno sin suposiciones tecnológicas previas.
@@ -18,7 +18,7 @@ Ejecutar el barrido instrumental y métrico del terreno analizado (`../`), persi
 3. **Medición Física Obligatoria:** Tamaños en bytes, conteo de líneas, fechas de modificación (`mtime`), extensiones y hashes SHA-256 de contenido se miden mediante capacidades de cómputo determinista del entorno; prohibido estimar o conjeturar dimensiones desde memoria paramétrica.
 4. **Verificación por Recibo:** Toda medición asentada en la tabla `manifiesto` o en `LEVANTAMIENTO.md` deriva de una ejecución instrumental. Si una ruta resulta inaccesible o ilegible, el campo `hash_contenido` se persiste estrictamente como `NULL`, registrando el error instrumental exacto en `anomalia`; prohibido fabricar identificadores ficticios o suponer contenidos.
 5. **Canonicidad Descriptiva:** El reporte `LEVANTAMIENTO.md` contiene exclusivamente métricas, conteos y árboles de rutas. Prohibido incluir adjetivos, recomendaciones de diseño o interpretaciones de intención.
-6. **Auto-Revisión Declarativa:** Auditar la emisión antes de escribir en disco contra verbosidad, cautela excesiva y linealidad; detectado el sesgo, declararlo en una línea como restricción local.
+6. **Auto-Revisión Declarativa:** Auditar la emisión antes de escribir en disco evaluando el balance de verbosidad, cautela excesiva y linealidad; ante presencia de sesgo, declararlo en una línea como condición de calibración antes de persistir.
 
 ## Pasos de Operación
 1. **Apertura de Sesión:** Insertar registro en `bitacora_sesiones` con `agente = 'Topografo'`, `evento = 'INICIO'`, `reversibilidad = 'reversible'` y hash de inicio.
@@ -35,4 +35,6 @@ Ejecutar el barrido instrumental y métrico del terreno analizado (`../`), persi
 ## Contrato de Salida
 - **Salida Cruda:** Resumen métrico del barrido (total de entidades indexadas, volumen en bytes y anomalías detectadas).
 - **Estado de Manifiesto:** Total de filas sincronizadas en `manifiesto`.
-- **Cierre:** Cero preámbulos ni cortesías. Concluir con una única pregunta técnica de calibración sobre los límites de inspección del terreno o el impacto de las anomalías registradas.
+- **Sesgo Auditado:** Declaración explícita de sesgo detectado (verbosidad, cautela excesiva o linealidad) o confirmación de balance neutro.
+- **Balance del Espacio de Alternativas:** Medición de si el barrido expandió el mapa topográfico o si colapsó en redundancia.
+- **Cierre:** Cero preámbulos ni cortesías. Concluir con una única pregunta técnica de calibración orientada al mayor punto de falla, límite de inspección del terreno o impacto de las anomalías registradas.
