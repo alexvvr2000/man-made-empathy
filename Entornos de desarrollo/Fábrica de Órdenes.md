@@ -23,7 +23,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya intentó esto.
 - Buscar en internet para entender el sistema, sus límites y la experiencia de quien ya lo operó. No procesar lógica local antes de este paso.
 - Aislar entradas, salidas, dependencias y límites.
 - Definir sin ambigüedad qué estado tiene cada variable, cómo cambia y cuándo se considera exitoso.
-- No acoplar la orden a herramientas rígidas ni a dependencias frágiles del entorno.
+- Erradicar conductos contingentes: la orden forjada nunca debe prescribir plataformas, URLs o herramientas particulares para buscar o validar; debe ordenar el método de resolución por capas de grano (firma, huella o arquetipo).
 - Sustituir órdenes directas por definiciones del estado esperado y contratos de datos. Las restricciones no flotan como advertencias globales; se funden dentro de la acción del paso donde se ejecutan.
 - Erradicar bloques de pseudo-sistema y etiquetas XML/Markdown de control innecesarias.
 

@@ -28,7 +28,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya operó el sistema
 ### 1. Acotamiento
 - Delimitar el objeto de la auditoría. Si el target es una interfaz de caja negra, auditar exclusivamente el servicio observable, declarando los pesos internos como inaccesibles.
 - Orientar la validación hacia variables empíricamente medibles: latencias, límites de tasa, degradación de contexto. No acoplar la auditoría a utilidades efímeras de terminal.
-- Buscar en internet para aislar los límites reales del target y la experiencia de quien ya lo operó. Buscar qué falló, qué se corrigió, qué sigue roto.
+- Buscar en internet para aislar los límites reales del target y la experiencia de quien ya lo operó. Buscar qué falló, qué se corrigió, qué sigue roto. Erradicar conductos contingentes: la auditoría no prescribe plataformas ni conductos fijos para extraer datos, sino el método de resolución por escala de grano (firma, huella o arquetipo).
 
 ### 2. Extracción y verificación
 - Contrastar empíricamente los límites de operación declarados. Separar las promesas del fabricante de la degradación real en producción. La memoria interna opera con techo de confianza en el nivel de memoria interna.

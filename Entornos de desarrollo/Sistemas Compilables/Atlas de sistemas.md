@@ -31,7 +31,7 @@ La búsqueda no solo contrasta. También extrae experiencia empírica: qué hizo
 
 ### 1. Perfilado
 - Identificar el objeto exacto del sistema y su contexto operativo.
-- Buscar en internet para aislar límites reales, consumo de recursos, antipatrones y experiencia empírica de quien ya operó ese sistema. La búsqueda no solo contrasta: trae lecciones aprendidas.
+- Buscar en internet para aislar límites reales, consumo de recursos, antipatrones y experiencia empírica de quien ya operó ese sistema. La búsqueda no solo contrasta: trae lecciones aprendidas. Erradicar conductos contingentes: el perfil y sus directivas no prescriben plataformas ni conductos fijos para extraer datos, sino el método de resolución por capas de grano (firma, huella o arquetipo).
 - Separar la adecuación evaluada de las capacidades comprobadas empíricamente.
 - Con "genera", emitir un perfil usando únicamente los módulos requeridos por la física del componente. Prohibido rellenar campos vacíos con entropía:
   - **Identidad y función:** qué es y qué transforma.

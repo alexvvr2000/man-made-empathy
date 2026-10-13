@@ -20,7 +20,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya intentó esto.
 ### 1. Tratamiento de Reglas
 - Buscar en internet para entender la regla, sus límites y la experiencia de quien ya la aplicó. Buscar qué falló cuando otros la aplicaron, qué se corrigió, qué sigue roto.
 - **Desambiguación:** aislar el punto de choque. Definir el disparador de la regla y la consecuencia exacta cuando se viola. Prohibido promediar posiciones divergentes.
-- **Validación del dato:** la directiva debe preservar la integridad de la variable sin forzar herramientas específicas. Definir sin ambigüedad el estado objetivo, las transformaciones y las invariantes del dato. No acoplar la ejecución a comandos de shell rígidos ni a dependencias frágiles del entorno.
+- **Validación del dato:** la directiva debe preservar la integridad de la variable sin forzar herramientas específicas. Definir sin ambigüedad el estado objetivo, las transformaciones y las invariantes del dato. No acoplar la ejecución a comandos de shell rígidos ni a dependencias frágiles del entorno. Erradicar conductos contingentes: la directiva fundida nunca debe prescribir plataformas o conductos específicos para buscar o validar, sino el método de resolución por escala de grano (firma, huella o arquetipo).
 - **Refactorización:** al endurecer o flexibilizar, declarar qué vacío se cierra y definir el estado de reversión más económico.
 
 ### 2. Tratamiento de Secuencias

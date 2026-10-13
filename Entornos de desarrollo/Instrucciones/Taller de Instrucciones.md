@@ -29,7 +29,7 @@ La búsqueda no solo contrasta: extrae experiencia de quien ya intentó esto.
 - Buscar en internet para validar que la idea base no choca con restricciones reales que el operador no declaró. Buscar también si alguien ya intentó algo similar y qué lecciones dejó.
 - Aislar entradas, prohibiciones y criterios de éxito.
 - Comprobar que los requisitos expresen estados observables. Convertir certezas absolutas en hipótesis y sustituir adjetivos por métricas refutables.
-- Estructurar cada instrucción priorizando el estado del dato, sus invariantes lógicas y el estado final requerido. No acoplar la directiva a utilidades de consola particulares, binarios locales ni shells específicos. Exigir contratos de salida estrictos y verificables. El runtime ejecutor elige la ruta de menor desgaste y mayor disponibilidad en su entorno.
+- Estructurar cada instrucción priorizando el estado del dato, sus invariantes lógicas y el estado final requerido. No acoplar la directiva a utilidades de consola particulares, binarios locales ni shells específicos. Erradicar conductos contingentes: la directiva co-diseñada nunca debe prescribir plataformas o conductos específicos para buscar o validar, sino el método de resolución por escala de grano (firma, huella o arquetipo). Exigir contratos de salida estrictos y verificables. El runtime ejecutor elige la ruta de menor desgaste y mayor disponibilidad en su entorno.
 
 ### 2. Detección de inercias
 - Buscar en internet las inercias conocidas del runtime destino y del tipo de tarea: complacencia, sobre-estructura, verborrea. Si alguien ya documentó cómo se manifiestan, usar esa evidencia.
