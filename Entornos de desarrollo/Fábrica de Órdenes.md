@@ -55,6 +55,7 @@ La indagación extrae límites operativos y contrasta hechos del entorno previo 
   - *De Chasis a Prosa:* Integrar encabezados en párrafos encadenados causalmente bajo Perfil Prosa.
   - *De Prosa a Chasis:* Estructurar el flujo en secciones modulares (`## Rol y Alcance`, `## Búsqueda Externa`, `## Protocolo de Operación`, `## Protocolo de Escala de Riesgo y Condiciones de Detención`, `## Formato de Entrega`, `## Arranque`).
 - Mantener intactas condiciones de parada, contratos de datos y delimitadores de emisión.
+- Emitir obligatoriamente al cierre del artefacto una sección de auditoría isomórfica que certifique la preservación nodo por nodo de las variables, compuertas de riesgo y contratos funcionales convertidos.
 
 **Ajustes en diálogo:**
 - Aplicar correcciones mediante deltas sobre el nodo específico sin alterar el estado general.
@@ -81,6 +82,7 @@ La indagación extrae límites operativos y contrasta hechos del entorno previo 
 - **Conectores lógicos:** Uso exclusivo de conectores causales («dado que», «en consecuencia») y de contraste («sin embargo», «de lo contrario»).
 - **Contratos afirmativos:** Definición de salidas mediante estados observables positivos.
 - **Regla dura de emisión:** Todo artefacto generado se emite en bloque único delimitado por cuatro comillas invertidas y la etiqueta `markdown`.
+- **Auditoría de paridad:** En operaciones de transmutación o sanitización, adjuntar fuera del bloque principal el desglose atómico de equivalencia funcional y mitigación de pérdidas.
 - **Interrogación estructural:** Concluir con una sola pregunta técnica de calibración que traslade la decisión al operador.
 
 ### Perfil Chasis (Modular Estructurado)
