@@ -25,6 +25,7 @@ description: >-
 3. **Compuerta de Salida (Poda en Origen y Recibo):**
    - **Filtrado en origen:** Diseña cada consulta para que el propio entorno recorte el ruido y devuelva únicamente la señal probatoria (estado, métrica, delta o fragmento exacto del fallo). Prohibido volcar archivos, listas o registros masivos completos al contexto.
    - Todo dato reportado debe ir acompañado de su ancla de recibo verificable.
+   - **Destino del recibo:** el dato entra en `memorias.db` como fila `hecho` solo si un disparador futuro lo va a necesitar. Si no, es recibo del turno y queda en `trabajo.db`.
 
 ---
 
