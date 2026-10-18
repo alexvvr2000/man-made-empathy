@@ -15,11 +15,13 @@ Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin la salida del Paso N. U
 
 ## Paso 0 — Origen
 
-`WAX: origen=[semilla|padre] | ruta=[sara/ | <padre>/]`
+`WAX: origen=[semilla|padre|agente:<nombre>] | ruta=[sara/ | <nombre>/]`
 
-- `semilla`: el mutante nace del genotipo original. Hermanos consistentes.
+- Sin `origen` declarado rige `semilla`: SARA es el defecto, y el defecto se escribe en el ancla.
+- `semilla`: nace del genotipo original. Hermanos consistentes.
 - `padre`: nace del agente que ejecuta. Linaje, con las mutaciones acumuladas.
-- Sin `origen` declarado no hay parto. Prohibido elegirlo por defecto.
+- `agente:<nombre>`: nace de otro agente ya nacido. Se copia ese genotipo y se moldea igual.
+- Prohibido editar la fuente, sea `sara/` u otro agente.
 
 ## Paso 1 — Encargo y nombre
 
@@ -53,7 +55,7 @@ El plan es el artefacto del parto: archivos destino y contenido exacto de cada m
 
 `WAX: plan=[n archivos] | acta=ACTA.md | sin_resolver=[...]`
 
-El acta lleva: padre, fecha, encargo, mutado, intacto, ausencias declaradas y `prueba: pendiente`. Es un documento del agente, no una fila de la memoria.
+El acta lleva: origen, fecha, encargo, mutado, intacto, ausencias declaradas y `prueba: pendiente`. Es un documento del agente, no una fila de la memoria.
 
 ## Paso 4 — Ejecución por la puerta de operación
 
