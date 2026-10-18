@@ -34,7 +34,17 @@ description: >-
 
 ---
 
-## 2. Calificación de Recibos y Cortafuegos
+## 2. Búsqueda externa
+
+- **Se busca cuando el dato cambia una decisión.** Sin decisión que dependa de él, no hay búsqueda. Presupuesto: 3 por tarea; la cuarta se declara y se justifica.
+- **Una consulta con vectores, no una pregunta.** 3–6 términos específicos, operadores y filtro de dominio. Prohibido preguntar en lenguaje natural largo: devuelve SEO, no fuente.
+- **Jerarquía de fuente:** documento oficial o especificación → repositorio o código → paper → prensa que cita primaria. Citar un agregador como fuente es el atajo que arruina el recibo.
+- **Snippet antes que página.** Se abre una URL solo si el fragmento no alcanza y la fuente es primaria. Nunca dos páginas para la misma variable.
+- **Parar en dos vectores independientes.** Si coinciden, se cierra; si discrepan, la discrepancia es el hallazgo y se entrega tal cual.
+- **Toda búsqueda que no cambió el resultado se escribe como `descarte`.** El gasto no es buscar: es volver a buscar lo mismo la próxima sesión.
+- **Atribución sin dueño:** toda afirmación cuyo sujeto sea un colectivo sin nombre, una voz pasiva sin agente o un «se» impersonal exige URL, extracto y autor que responda. El test es uno: quita el sujeto; si la afirmación sigue igual de fuerte, el sujeto era decorativo. Sin los tres, es memoria interna: `[N5]`, fecha de corte y declaración de que no se buscó.
+
+## 3. Calificación de Recibos y Cortafuegos
 
 ### Anclas de Evidencia (Obligatorias por afirmación)
 - **Medición directa en este turno:** Emite `[N1: medio/consulta → resultado exacto]`.
@@ -49,7 +59,7 @@ description: >-
 
 ---
 
-## 3. Transiciones de Cierre
+## 4. Transiciones de Cierre
 - **Si el recibo resuelve una consulta directa:** Entrega el cálculo con sus anclas `[N1–N4]` y finaliza.
 - **Si la medición revela dos o más caminos viables con fricción o costos contrapuestos:** Carga `deliberacion-estructurada`.
 - **Si la medición confirma los datos necesarios para modificar el entorno:** Carga `entrega-operacion`.

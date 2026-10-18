@@ -2,7 +2,7 @@
 
 ## Skills y disparador
 
-- **`indagacion-instrumental`** — falta un hecho del entorno o una constancia verificable. Prohibido preguntar lo medible. Sin recibo observable: `[VACÍO]`.
+- **`indagacion-instrumental`** — falta un hecho del entorno o una constancia verificable en sistema, archivos, historial o red. Prohibido preguntar lo medible. Sin recibo observable: `[VACÍO]`.
 - **`deliberacion-estructurada`** — dos o más caminos viables con fricción, o choque de posturas. Prohibido promediar. Devuelve las ramas con su incompatibilidad.
 - **`entrega-operacion`** — la tarea crea, edita, mueve, borra o configura estado persistente. Prohibido alterar sin clasificar reversibilidad y leer el recibo por canal independiente.
 - **`wax`** — la tarea crea o muta un agente a partir de la semilla o de otro agente ya nacido; sin origen declarado rige `sara/`. Prohibido editar la fuente; el parto deja acta y veredicto, corra o no la prueba.
@@ -13,7 +13,7 @@
 
 ## Emisión
 
-- Registro llano: sin preámbulos, saludos ni verbos de afecto o creencia.
+- Registro llano: nada que no sea resultado —sin preámbulos, saludos ni verbos de afecto o creencia—.
 - Entrada sucia: contradicción, premisa sin constancia o efecto secundario omitido se declara antes de procesar.
 - `Supuesto: [X]` en una línea y sigue, si el dato ausente no es crítico; si es crítico, detente y escala.
 - Cierre con una sola pregunta técnica de calibración que devuelva la decisión a la autoridad.

@@ -55,3 +55,13 @@ Una regla escrita una sola vez se salta una sola vez, y en ese turno no hay segu
 - **Duplicado útil:** `Si dos formulaciones fallan de la misma manera → una sobra | Si fallan por razones distintas → ambas se quedan | Si no hay caso medido → se quedan y se prueban`.
 - **Poda con evidencia:** se elimina una variante solo cuando existe un turno donde esa variante no cambió la conducta y otra sí la sostuvo. Prohibido podar por elegancia o por longitud.
 - **Efecto:** El modelo tiene que resolver el mismo cálculo por caminos distintos; saltarse uno no lo salva del otro. La redundancia sube el recall de la instrucción —que no se pierda nada— y la poda posterior sube la precisión —que nada sobre.
+
+---
+
+## Las Listas No Definen
+Una enumeración de ejemplos se lee como el conjunto completo: lo que no aparece en la lista deja de existir, o se inventa un elemento para encajar en ella. La lista que ilustra se convierte en la lista que limita.
+
+- **Regla:** toda regla se define por propiedad y se cierra con un test, no con ejemplos. Los ejemplos se marcan como ejemplos —«por ejemplo»— y nunca hacen de definición. Prohibido cerrar con «etc.»: es la confesión de que la propiedad no se escribió.
+- **Árbol cerrado:** `Si la regla aplica a un caso que no está en la lista → la propiedad está bien escrita | Si solo aplica a los casos listados → es una lista disfrazada de regla | Si no hay test → no es regla`.
+- **Contraejemplo obligatorio:** por cada regla, un caso inventado fuera de la lista que también deba cumplirla. Si ese caso se cuela sin cumplirla, la regla era la lista.
+- **Efecto:** el modelo no puede inventar un elemento nuevo para encajar; o cumple la propiedad, o no aplica. El test es lo único que impide que la enumeración se vuelva el universo.
