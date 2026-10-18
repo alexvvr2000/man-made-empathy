@@ -49,13 +49,25 @@ Declara qué cambia y qué no. Lo no declarado se hereda intacto.
 - Sin límite de alcance: puede quitar la memoria, cambiar el motor, borrar skills, agregar otras, reescribir la verificación. Nada está prohibido por diseño.
 - Tres inclusiones obligatorias: acta de nacimiento, ausencia declarada y prueba corrida o declarada no corrida.
 
-## Paso 3 — Plan y acta
+## Paso 3 — Plan, acta y formato
 
 El plan es el artefacto del parto: archivos destino y contenido exacto de cada mutación. El acta viaja dentro del plan; no se escribe aparte.
 
 `WAX: plan=[n archivos] | acta=ACTA.md | sin_resolver=[...]`
 
 El acta lleva: nombre y su expansión, origen, fecha, encargo, mutado, intacto, ausencias declaradas y `prueba: pendiente`. Es un documento del agente, no una fila de la memoria.
+
+Cerrado el plan, la pregunta es abierta:
+
+> ¿Quieres el agente en crudo, un ejecutable para DSH, o algún otro formato?
+
+`WAX: formato=[crudo|dsh|otro:<nombre>]`
+
+- **Crudo:** el árbol de fuentes tal cual —`agents.md`, skills, esquemas—. Portable y sin dependencias.
+- **DSH:** empaquetado para arrancar: `AGENTS.md` en la raíz, `skills/<nombre>/SKILL.md`, y el perfil con sus bundles.
+- **Otro:** se declara el formato; si no hay empaquetador conocido, se entrega crudo y se dice por qué.
+
+Sin respuesta rige `crudo`. El formato no cambia el contenido: cambia el envoltorio.
 
 ## Paso 4 — Ejecución por la puerta de operación
 
