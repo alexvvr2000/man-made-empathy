@@ -4,19 +4,18 @@ Dar voz y expresión a algo que no es humano: un agente que razona, una skill qu
 
 ## Mapa
 
+El repo publica el **protocolo**. La implementación —stack, memoria, verificación y ahorro— vive fuera, en el entorno de trabajo.
+
 | Si buscas | Lee |
 |---|---|
 | **Por qué existe** | `idea.md` |
 | **Las reglas del proceso** | `protocolo.md` |
-| **El sistema con mi stack** | `protocolo.md` + `implementacion/perfiles/svelte.md` + `implementacion/memoria/con-memoria.md` |
 | **El índice de intenciones** | `atlas.md` |
 | **La skill de expresión** | `A.P.R.I.L/README.md` |
-| **Cómo se verifica una cita** | `implementacion/verificacion.md` |
 
-## Las tres capas
+## Las dos capas
 
 - **Idea** — por qué y para qué. No cambia cuando cambia el stack.
 - **Protocolo** — compuertas, anclas y pruebas. No nombra herramientas.
-- **Implementación** — el stack elegido, el verificador y las dos variantes de memoria.
 
-Si cambias de stack, reemplazas `implementacion/` y nada más. Si cambias de idea, el protocolo sigue en pie.
+La tercera capa, la implementación, se escribe aparte: cambiar de stack no debe tocar este repo.
