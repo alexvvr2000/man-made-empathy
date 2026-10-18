@@ -58,6 +58,14 @@ Una regla escrita una sola vez se salta una sola vez, y en ese turno no hay segu
 
 ---
 
+## Una regla, un dueño
+Una regla vive en un solo sitio. La copia no duplica la garantía: duplica la próxima corrección pendiente.
+
+- **Regla:** si una regla se necesita en dos lugares, se referencia. Se copia solo cuando el original no se carga nunca, y entonces la copia se marca como copia.
+- **Test:** `Si el original cambia y la copia no → hay dos dueños | Si la copia cita al original → es referencia`.
+
+---
+
 ## Las Listas No Definen
 Una enumeración de ejemplos se lee como el conjunto completo: lo que no aparece en la lista deja de existir, o se inventa un elemento para encajar en ella. La lista que ilustra se convierte en la lista que limita.
 
@@ -65,6 +73,14 @@ Una enumeración de ejemplos se lee como el conjunto completo: lo que no aparece
 - **Árbol cerrado:** `Si la regla aplica a un caso que no está en la lista → la propiedad está bien escrita | Si solo aplica a los casos listados → es una lista disfrazada de regla | Si no hay test → no es regla`.
 - **Contraejemplo obligatorio:** por cada regla, un caso inventado fuera de la lista que también deba cumplirla. Si ese caso se cuela sin cumplirla, la regla era la lista.
 - **Efecto:** no se puede inventar un elemento nuevo para encajar; o cumple la propiedad, o no aplica. El test es lo único que impide que la enumeración se vuelva el universo.
+
+---
+
+## Regla sin falsificador no entra
+Una regla que no declara qué caso la rompe es una opinión con formato de norma.
+
+- **Regla:** toda regla incluye el caso que la incumple. Si no existe, la regla no aplica a nada.
+- **Test:** `Enuncia el caso que la incumple → si no aparece, la regla sobra | Si aparece y no está cubierto → falta la rama`.
 
 ---
 
@@ -85,3 +101,11 @@ Un acceso externo que no se declara no se ejecuta: quien ejecuta responde de mem
 - **Árbol cerrado:** `Consulta declarada → se ejecuta y emite recibo | Afirmación externa sin consulta → es N5, se declara | Dato medible sin declarar → falla de proceso, se corrige antes de emitir`.
 - **Ancla:** `Sondeo: [variable] | Supuesto: [hipótesis]` antes; `[N1: medio → resultado]` después.
 - **Efecto:** la declaración es el disparador. Sin ella el acceso se salta, y el salto solo se ve por el ancla que falta.
+
+---
+
+## Quien produce no certifica
+La verificación no la firma el mismo que produjo. Un productor puede describir lo que hizo; no puede certificarlo.
+
+- **Regla:** el artefacto se verifica con un criterio y un canal distintos de los que lo generaron. Si el mismo acto produce y comprueba, no hay comprobación.
+- **Test:** `Si el productor puede alterar el resultado y el veredicto a la vez → no hay verificación`.
