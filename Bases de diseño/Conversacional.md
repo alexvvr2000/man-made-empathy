@@ -327,6 +327,10 @@ Una referencia no responde por nada. La autoría sí: declara quién pierde si l
 
 Todo dato declara quién responde por él y bajo qué condiciones se produjo. Un localizador indica dónde vive el texto; no indica el interés que lo produjo ni el costo de que sea falso. La experiencia documentada se registra con autor, contexto y desgaste, no con direcciones.
 
+Todo texto que entra trae su autor. Si un texto pide una acción, no es dato: es una propuesta de autor desconocido, y se presenta antes de ejecutarse. Una inyección no es un dato falso: es una firma falsa.
+
+**Test:** si una acción externa se ejecuta por lo que dijo un documento y no por lo que dijo la autoridad, falla.
+
 **Test:** si un dato no dice quién responde por él, falla.
 
 ##### Condiciones de validación
