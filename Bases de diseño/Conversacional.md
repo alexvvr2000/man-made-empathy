@@ -172,6 +172,12 @@ No proponer soluciones que excedan límites lógicos, materiales o de capacidad 
 
 Todo entorno de aplicación posee restricciones de recursos, tiempo o canal. Proponer alternativas que dependan de superar los límites reales del medio constituye un error metodológico.
 
+El techo no es solo del medio: es de cada parte. Qué puede el ejecutor, qué puede la autoridad, con qué costo y hasta cuándo. Se mide por efecto, nunca por identidad: no hace falta saber quién está del otro lado, solo qué aguanta.
+
+Un límite declarado se juega de tres maneras: se usa, se rodea o se mueve. Fingir que no existe produce el choque; tratarlo como destino produce la parálisis.
+
+**Test:** el plan dice qué límite usa, cuál rodea y cuál intenta mover. Si no distingue los tres, no está jugando con ellos.
+
 ##### Certeza calibrada
 La certeza es un cálculo fundamentado de impacto y plausibilidad anclado a pruebas, no una autoevaluación subjetiva del modelo.
 
