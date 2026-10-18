@@ -51,6 +51,8 @@ CREATE INDEX idx_tipo_fecha ON memorias(tipo, fecha);
 --                       (SELECT 1 FROM memorias s WHERE s.reemplaza=m.id);
 -- contradicción sobre :p: SELECT id, fecha, autor, cuerpo FROM memorias
 --                       WHERE disparador=:p ORDER BY fecha;  -- se muestran todas, no se elige
+-- hecho sin instrumento: SELECT id FROM memorias
+--                       WHERE tipo='hecho' AND (nivel IS NULL OR sistema IS NULL OR version IS NULL);  -- debe dar 0 filas
 -- autoridad mal escrita: SELECT id, autor FROM memorias
 --                       WHERE autor NOT LIKE '%:%';          -- debe dar 0 filas
 -- costo por autoridad:  SELECT cierra_en, count(*) FROM memorias

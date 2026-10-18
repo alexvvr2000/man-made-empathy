@@ -92,11 +92,12 @@ Entrega, en este orden:
 1. Ramas con sus tres ejes y su clausura.
 2. Un punto de incompatibilidad por par.
 3. Pruebas independientes por par.
-4. Preguntas abiertas.
-5. `Por defecto si no hay decisión: [rama más reversible] | Costo de la demora: [medido]`
-6. `Pendiente: [rama] | Bloqueo: [dato o decisión] | Cierre: [condición observable]`
-7. `Incertidumbre residual: [variables pendientes]`
-8. `Balance del espacio: [expandido | colapsado]`
+4. Contraargumento de mayor fricción por rama, con su falsador.
+5. Preguntas abiertas.
+6. `Por defecto si no hay decisión: [rama más reversible] | Costo de la demora: [medido]`
+7. `Pendiente: [rama] | Bloqueo: [dato o decisión] | Cierre: [condición observable]`
+8. `Incertidumbre residual: [variables pendientes]`
+9. `Balance del espacio: [expandido | colapsado]`
 
 **Registro del cierre:** cada línea `Pendiente:` se escribe en el largo como fila `pendiente`, con su `Cierre` como `disparador`, `autor` en `tipo:nombre` y `reemplaza` cuando sustituye a otra. El `id` devuelto se agrega a la propia línea y se emite el ancla: `Mem: guardado | largo id 14`. Si no se escribe, el pendiente desaparece al vaciar el corto y la deliberación se repite entera en la sesión siguiente.
 

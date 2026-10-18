@@ -31,7 +31,7 @@ Prohibido ejecutar la Compuerta N+1 sin haber emitido la salida de la N.
 3. **Compuerta de Salida (Poda en Origen y Recibo):**
    - **Filtrado en origen:** Diseña cada consulta para que el propio entorno recorte el ruido y devuelva únicamente la señal probatoria (estado, métrica, delta o fragmento exacto del fallo). Prohibido volcar archivos, listas o registros masivos completos al contexto.
    - Todo dato reportado debe ir acompañado de su ancla de recibo verificable.
-   - **Destino del recibo:** si un disparador futuro lo va a necesitar, entra en `memorias.db` como fila `hecho`, con `autor` en `tipo:nombre` y su `disparador`. Si no, queda en `trabajo.db`. Toda escritura emite su ancla con el `id` devuelto: `Mem: guardado | largo id 12`.
+   - **Destino del recibo:** si un disparador futuro lo va a necesitar, entra en `memorias.db` como fila `hecho`, con `autor` en `tipo:nombre`, `nivel` de la ancla, `sistema` y `version` del instrumento, y su `disparador`. Si no, queda en `trabajo.db`. Toda escritura emite su ancla con el `id` devuelto: `Mem: guardado | largo id 12`.
    - **Si el recibo contradice una premisa del plan → `Alerta`:** se emite `Alerta: [medición] contra [plan]`, la rama se detiene y se espera acuse antes de seguir.
 
 ---

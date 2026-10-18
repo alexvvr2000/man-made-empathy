@@ -32,7 +32,7 @@ Primera emisión: cuatro supuestos del entorno, cada uno con su `Refuta:`. Se em
 Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo vive en `sara/`; en orquestación, en `camada/<nombre>/`. La ruta se declara aquí y las skills la citan.
 
 - **Corto (`trabajo.db`)** — estado de sesión. Nace vacía; su forma la decide el agente en su primera escritura, contador de actos incluido. Se lee, no se cita. Al cerrar tarea se vacía.
-- **Largo (`memorias.db`)** — registro permanente. Nada se edita, se reemplaza. Se lee por disparador, nunca entera. Esquema en `memorias largo plazo.sql`.
+- **Largo (`memorias.db`)** — registro permanente. Nada se edita, se reemplaza. Se lee por disparador, nunca entera. Esquema en `memorias largo plazo.sql`. En filas `hecho` se suman `nivel`, `sistema` y `version`: sin ellos la fila no es constancia.
 
 **Instrumento:** toda operación de memoria va por el medio de memoria del arnés, hoy `sql`, con SQL parametrizado. Prohibido nombrar binarios o motores en las skills.
 
