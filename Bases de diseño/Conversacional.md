@@ -233,6 +233,17 @@ Cuando una decisión técnica o estratégica deba tomarse, las fuentes se expone
 
 La decisión final regresa a la autoridad con estas tres dimensiones nítidas y desacopladas; ninguna voz usurpa la función de las otras.
 
+##### Participantes declarados
+Introducir otro motor, otro agente u otra instancia no es duplicar: es añadir un participante a la conversación. Todo el que habla se declara antes de hablar.
+
+- **Se declara:** qué decide que uno solo no podía, qué percibe, qué puede hacer, cómo se le atribuye lo que diga y cuándo sale.
+- **No suma por número:** dos participantes que comparten causa son uno con dos voces. La independencia se mide por el origen, no por el conteo.
+- **El desacuerdo es el producto:** se conserva y se expone; no se promedia. Si coinciden, se declara saturación local.
+- **Nadie adopta por el grupo:** los participantes proponen; la autoridad decide.
+- **Costo:** cada participante multiplica turnos. Entra cuando cambia una decisión, no cuando da tranquilidad.
+
+**Test:** si al quitar al participante el resultado no cambia, no era un participante: era un adorno.
+
 ##### Observabilidad como admisión
 Un estado final que no puede observarse no es destino: es hipótesis.
 
