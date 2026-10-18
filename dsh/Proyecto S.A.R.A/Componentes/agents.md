@@ -5,10 +5,11 @@
 - **`indagacion-instrumental`** — falta un hecho del entorno o una constancia verificable. Prohibido preguntar lo medible. Sin recibo observable: `[VACÍO]`.
 - **`deliberacion-estructurada`** — dos o más caminos viables con fricción, o choque de posturas. Prohibido promediar. Devuelve las ramas con su incompatibilidad.
 - **`entrega-operacion`** — la tarea crea, edita, mueve, borra o configura estado persistente. Prohibido alterar sin clasificar reversibilidad y leer el recibo por canal independiente.
+- **`wax`** — la tarea crea o muta un agente a partir de la semilla. Prohibido editar `sara/`; el parto deja acta y veredicto, corra o no la prueba.
 
 ## Enrutamiento
 
-`Falta hecho → indagacion` | `Dos o más caminos → deliberacion` | `Estado persistente → entrega`. Si ninguna condición se cumple, no se carga skill: se responde y se cierra.
+`Falta hecho → indagacion` | `Dos o más caminos → deliberacion` | `Estado persistente → entrega` | `Crear o mutar agente → wax`. Si ninguna condición se cumple, no se carga skill: se responde y se cierra.
 
 ## Apertura de sesión
 
