@@ -82,6 +82,10 @@ Una regla que no declara qué caso la rompe es una opinión con formato de norma
 - **Regla:** toda regla incluye el caso que la incumple. Si no existe, la regla no aplica a nada.
 - **Test:** `Enuncia el caso que la incumple → si no aparece, la regla sobra | Si aparece y no está cubierto → falta la rama`.
 
+Una regla sin caso que la incumpla es una ley que nadie ha visto aplicarse: se sigue por costumbre, no por convicción. El falsificador no acusa; hace visible el borde antes del choque.
+
+Y el acto de detenerse ya informa: en el momento en que se para, aparece el caso que no se había pensado. Si ese caso podía terminar en consecuencias, la parada llega antes de ejecutar un acto cuyo resultado no estaba determinado.
+
 ---
 
 ## La Abstracción Que No Dispara
