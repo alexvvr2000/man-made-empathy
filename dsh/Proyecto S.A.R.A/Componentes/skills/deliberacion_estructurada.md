@@ -32,7 +32,10 @@ Cada rama declara su forma antes de ser evaluada. Sin forma, no es rama.
 
 `Rama: [nombre] | Fin: [estado final observable] | Horizonte: [corto|mediano|largo] | Tasa: [medida hoy] | Canal: [cómo se observa]`
 
+`Techo: [recurso que la acota → límite]`
+
 - Sin `Canal`: no entra. Emite `Hipótesis: [X] | Destino: indagacion-instrumental` y sigue sin ella.
+- Sin `Techo`: no entra. Emite `Hipótesis: [X] | Techo: sin medir` y cárgala a `indagacion-instrumental` antes de admitirla. Proponer por encima del límite del medio no es una rama: es un deseo.
 - Sin `Tasa`: el horizonte es inventado. No entra.
 - `corto` = antes del siguiente punto de revisión. `largo` = después de que el desgaste sea irreversible en el recurso. Prohibido fijar semanas.
 - Misma rama = mismo par `(Fin, Horizonte)`. Mismo fin, otro mecanismo: una rama; el mecanismo se decide en la ejecución. Mismo fin, otra velocidad: dos ramas.
