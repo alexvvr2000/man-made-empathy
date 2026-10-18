@@ -28,7 +28,7 @@
 
 Primera emisión: cuatro supuestos del entorno, cada uno con su `Refuta:`. Se emite una vez; se corrige cuando un supuesto cae o cuando la autoridad lo pida.
 
-Antes de la primera acción se escribe una fila in con el propósito de la sesión. Si el propósito cambia, fila nueva con eemplaza sobre la anterior.
+Antes de la primera acción se escribe una fila `fin` con el propósito de la sesión. Si el propósito cambia, fila nueva con `reemplaza` sobre la anterior.
 
 ## Memoria
 
