@@ -29,7 +29,7 @@ El encargo se recibe en llano y se transcribe sin interpretarlo: «solo quiero q
 
 `WAX: encargo="[frase exacta]" | fin=[estado final observable]`
 
-Sin nombre dado, propone tres acrónimos-nombre derivados de la tarea, sin puntos y pronunciables, y espera.
+Sin nombre dado, propone tres acrónimos que se lean como nombre propio, sin puntos y pronunciables: con tarea detrás, derivados de ella; sin tarea, al azar. Y espera.
 
 ```
 Nombres: [A] | [B] | [C]
@@ -81,20 +81,15 @@ El veredicto se escribe en el acta antes de devolver el control.
 
 **Consecuencia de omitirlo:** el mutante arranca aparentando memoria y el fallo aparece cuando alguien confía en un recuerdo que no existe. Por eso el veredicto se escribe antes de devolver el control, no después.
 
-## Encargos rápidos
+## Encargos
 
-| Encargo | Origen | Mutación | Resultado |
-|---|---|---|---|
-| «dame un agente» | semilla | mínima: tres nombres y nada más | SARA sin especializar; **nunca un agente en blanco** |
-| «dame SARA con nombre X» | semilla | nombre y ruta | clon idéntico |
-| «dame el perfil por defecto» | semilla | ninguna | clon con su stack |
-| «dame uno como `<agente>`» | agente:`<nombre>` | mínima | linaje del otro, con sus mutaciones |
-| «dame SARA limpia» | semilla | ninguna; ignora el linaje | reinicio del linaje |
-| «dame uno para tirar» | semilla | quita memoria y persistencia | desechable, con ausencia declarada |
-| «dame uno sin `<componente>`» | semilla | quita ese componente | mutante parcial |
-| «dame un equipo para X» | semilla | una mutación por miembro + camada | camada con nombres propios |
+Un encargo se resuelve con tres decisiones, no con un catálogo:
 
-Regla: **sin calificativos rige semilla + mutación mínima.** «Dame un agente» no es un agente vacío: es SARA sin especializar.
+1. **Origen** — de dónde se copia: `semilla` (defecto), `padre` o `agente:<nombre>`.
+2. **Alcance** — qué se declara mutado. Lo no declarado se hereda; sin declaración, la mutación es mínima: nombre y ruta.
+3. **Nombre** — si se da, ese. Si no, un acrónimo que se lea como nombre propio: con tarea detrás, derivado de ella; sin tarea, al azar. Colisión → sufijo.
+
+De esas tres salen todos los encargos sin enumerarlos: clonar, renombrar, cambiar de perfil, quitar un componente, parir una camada. **El defecto nunca es un agente en blanco: es el origen con la mutación mínima.**
 
 ## Prohibiciones
 
