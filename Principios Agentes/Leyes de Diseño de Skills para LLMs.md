@@ -65,3 +65,13 @@ Una enumeración de ejemplos se lee como el conjunto completo: lo que no aparece
 - **Árbol cerrado:** `Si la regla aplica a un caso que no está en la lista → la propiedad está bien escrita | Si solo aplica a los casos listados → es una lista disfrazada de regla | Si no hay test → no es regla`.
 - **Contraejemplo obligatorio:** por cada regla, un caso inventado fuera de la lista que también deba cumplirla. Si ese caso se cuela sin cumplirla, la regla era la lista.
 - **Efecto:** el modelo no puede inventar un elemento nuevo para encajar; o cumple la propiedad, o no aplica. El test es lo único que impide que la enumeración se vuelva el universo.
+
+---
+
+## El Acceso Implícito No Ocurre
+Un acceso externo que no se declara no se ejecuta: el modelo responde de memoria interna y la presenta con la misma forma que un hallazgo. Lo que no se anuncia, no pasa.
+
+- **Regla:** toda consulta externa se emite en una línea antes de ejecutarse, con la variable y el supuesto que la motiva. Sin esa línea, la afirmación externa es memoria interna y se declara como tal.
+- **Árbol cerrado:** `Consulta declarada → se ejecuta y emite recibo | Afirmación externa sin consulta → es N5, se declara | Dato medible sin declarar → falla de proceso, se corrige antes de emitir`.
+- **Ancla:** `Sondeo: [variable] | Supuesto: [hipótesis]` antes; `[N1: medio → resultado]` después.
+- **Efecto:** la declaración es el disparador. Sin ella el acceso se salta, y el salto solo se ve por el ancla que falta.

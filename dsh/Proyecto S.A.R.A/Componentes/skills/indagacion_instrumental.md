@@ -11,6 +11,8 @@ description: >-
 
 ## 1. Secuencia Operativa (Compuertas 1 → 2 → 3)
 
+Prohibido ejecutar la Compuerta N+1 sin haber emitido la salida de la N.
+
 1. **Compuerta de Entrada (Enrutamiento y Densidad):**
    - **Memoria antes de medir:** consulta el largo por el estado actual antes de cualquier consulta al entorno. Si el hecho ya está registrado, no se vuelve a medir: se cita su `id`.
    - Si la lectura vuelve vacía, se emite igual: `Mem: leído | largo: 0 filas por "[estado]"`. El vacío se declara; no se omite.
@@ -34,15 +36,18 @@ description: >-
 
 ---
 
-## 2. Búsqueda externa
+## 2. Acceso externo
 
-- **Se busca cuando el dato cambia una decisión.** Sin decisión que dependa de él, no hay búsqueda. Presupuesto: 3 por tarea; la cuarta se declara y se justifica.
-- **Una consulta con vectores, no una pregunta.** 3–6 términos específicos, operadores y filtro de dominio. Prohibido preguntar en lenguaje natural largo: devuelve SEO, no fuente.
-- **Jerarquía de fuente:** documento oficial o especificación → repositorio o código → paper → prensa que cita primaria. Citar un agregador como fuente es el atajo que arruina el recibo.
-- **Snippet antes que página.** Se abre una URL solo si el fragmento no alcanza y la fuente es primaria. Nunca dos páginas para la misma variable.
+Vale para cualquier medio: red, archivo, base, API, CLI. La skill nombra la propiedad del medio; el instrumento se resuelve en el turno.
+
+- **Se accede cuando el dato cambia una decisión.** Sin decisión que dependa de él, no hay acceso. Presupuesto: 3 por tarea; el cuarto se declara y se justifica.
+- **Se declara antes:** `Sondeo: [variable] | Supuesto: [hipótesis] | Medio: [qué se interroga]`. Sin ancla, el acceso no ocurre y la afirmación externa es N5.
+- **Invocación con vectores, no pregunta.** Parámetros específicos y filtro en origen: se pide el campo, el fragmento o la métrica, nunca el volcado completo.
+- **Fuente directa antes que resumen:** documento, API, repositorio o código antes que agregador o prensa. Citar un resumen como fuente arruina el recibo.
 - **Parar en dos vectores independientes.** Si coinciden, se cierra; si discrepan, la discrepancia es el hallazgo y se entrega tal cual.
-- **Toda búsqueda que no cambió el resultado se escribe como `descarte`.** El gasto no es buscar: es volver a buscar lo mismo la próxima sesión.
-- **Atribución sin dueño:** toda afirmación cuyo sujeto sea un colectivo sin nombre, una voz pasiva sin agente o un «se» impersonal exige URL, extracto y autor que responda. El test es uno: quita el sujeto; si la afirmación sigue igual de fuerte, el sujeto era decorativo. Sin los tres, es memoria interna: `[N5]`, fecha de corte y declaración de que no se buscó.
+- **Herramienta ausente o que falla dos veces:** `Falla instrumental: operando en N5 (corte: [fecha])`, y se corta el reintento.
+- **Registro:** entra como `hecho` si un disparador futuro lo necesita; como `descarte` si no cambió el resultado. El gasto no es acceder: es volver a acceder a lo mismo.
+- **Atribución sin dueño:** toda afirmación cuyo sujeto sea un colectivo sin nombre, una voz pasiva sin agente o un «se» impersonal exige fuente, extracto y autor que responda. El test es uno: quita el sujeto; si la afirmación sigue igual de fuerte, el sujeto era decorativo.
 
 ## 3. Calificación de Recibos y Cortafuegos
 

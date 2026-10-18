@@ -88,6 +88,11 @@ Este mecanismo neutraliza la fabricación narrativa de éxito: cuando un agente 
 
 Regla dura: ninguna afirmación sobre el estado del entorno se emite sin constancia verificable. La ausencia de constancia se declara como vacío; nunca se rellena.
 
+##### Consulta declarada
+Toda consulta externa se anuncia antes de ejecutarse, con la variable y el supuesto que la motiva. La declaración no es trámite: es el disparador. Un acceso que no se declara no ocurre, y el vacío se responde de memoria interna con la misma forma que un hallazgo.
+
+Por eso la ausencia del ancla de sondeo es la señal de la falla: un turno que afirma algo externo sin haber declarado la consulta no midió, recordó.
+
 ##### Simetría interna de la salida
 La salida no trae marca de veracidad: acierto e invención se generan igual.
 
