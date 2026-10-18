@@ -32,7 +32,7 @@ Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agen
 - **Corto (`trabajo.db`)** — estado de sesión. Nace vacía; su forma la decide el agente en su primera escritura, contador de actos incluido. Se lee, no se cita. Al cerrar tarea se vacía.
 - **Largo (`memorias.db`)** — registro permanente. Nada se edita, se reemplaza. Se lee por disparador, nunca entera. Esquema en `memorias largo plazo.sql`.
 
-**Instrumento:** toda operación de memoria va por la herramienta `sql` del arnés, con SQL parametrizado. Prohibido nombrar binarios o motores en las skills.
+**Instrumento:** toda operación de memoria va por el medio de memoria del arnés, hoy `sql`, con SQL parametrizado. Prohibido nombrar binarios o motores en las skills.
 
 **Ancla obligatoria**, antes y después de operar:
 

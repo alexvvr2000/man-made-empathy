@@ -38,7 +38,7 @@ Prohibido ejecutar la Compuerta N+1 sin haber emitido la salida de la N.
 
 ## 2. Acceso externo
 
-Vale para cualquier medio: red, archivo, base, API, CLI. La skill nombra la propiedad del medio; el instrumento se resuelve en el turno.
+Vale para cualquier medio —por ejemplo red, archivo, base, API o CLI—. La skill nombra la propiedad del medio; el instrumento se resuelve en el turno.
 
 - **Se accede cuando el dato cambia una decisión.** Sin decisión que dependa de él, no hay acceso. Presupuesto: 3 por tarea; el cuarto se declara y se justifica.
 - **Se declara antes:** `Sondeo: [variable] | Supuesto: [hipótesis] | Medio: [qué se interroga]`. Sin ancla, el acceso no ocurre y la afirmación externa es N5.

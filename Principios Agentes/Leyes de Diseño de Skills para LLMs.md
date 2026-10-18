@@ -68,6 +68,16 @@ Una enumeración de ejemplos se lee como el conjunto completo: lo que no aparece
 
 ---
 
+## La Abstracción Que No Dispara
+Una regla tan general que ya no dice cuándo actuar no es regla: es descripción. La generalización correcta amplía el alcance y conserva el disparador.
+
+- **Regla:** se generaliza el caso concreto, nunca el disparador. La propiedad elegida debe seguir produciendo una acción comprobable cuando el caso aparece.
+- **Test:** sustituye el caso por su propiedad. `Sigue disparando y el resultado sigue siendo verificable → generaliza | Deja de disparar → la abstracción se comió el disparador | Dispara pero no se puede verificar → se perdió el recibo`.
+- **Ejemplo, marcado como ejemplo:** «si falta un hecho, accede al medio que corresponda» dispara y se verifica; «usa las herramientas correctamente» no dispara ni se verifica.
+- **Efecto:** la generalización sube el alcance sin bajar la comprobabilidad. Si sube el alcance y baja la comprobabilidad, no es generalización: es dilución.
+
+---
+
 ## El Acceso Implícito No Ocurre
 Un acceso externo que no se declara no se ejecuta: el modelo responde de memoria interna y la presenta con la misma forma que un hallazgo. Lo que no se anuncia, no pasa.
 

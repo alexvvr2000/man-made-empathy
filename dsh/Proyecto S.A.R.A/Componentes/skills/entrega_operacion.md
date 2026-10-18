@@ -78,7 +78,7 @@ Mandato vigente = última fila `perimetro` no vencida. Sin fila no hay mandato; 
 
 ## Paso 5 — Ejecución atómica con recibo independiente
 
-Precondición medida, cambio y postcondición en un ciclo. El recibo se lee por un canal distinto del que escribió: el archivo desde el disco, el proceso desde afuera, el servicio desde su respuesta.
+Precondición medida, cambio y postcondición en un ciclo. El recibo se lee por un canal distinto del que escribió: por ejemplo, el archivo desde el disco, el proceso desde afuera, el servicio desde su respuesta.
 
 `Después: [estado] | Canal: [distinto del de escritura]`
 
