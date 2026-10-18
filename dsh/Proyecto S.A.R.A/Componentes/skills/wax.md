@@ -9,7 +9,7 @@ description: >-
 
 # WAX — Workshop for Autonomous eXperiments
 
-WAX no crea de cero: copia la semilla y la moldea. La semilla `sara/` no se edita nunca.
+WAX no crea de cero: copia la semilla y la moldea.
 
 Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin la salida del Paso N. Una línea por ancla.
 
@@ -47,7 +47,7 @@ Declara qué cambia y qué no. Lo no declarado se hereda intacto.
 
 - Encargo estrecho → mutación mínima: propósito y la skill que lo ejecuta. Todo lo demás se hereda, memoria incluida.
 - Sin límite de alcance: puede quitar la memoria, cambiar el motor, borrar skills, agregar otras, reescribir la verificación. Nada está prohibido por diseño.
-- Tres inclusiones obligatorias, y ninguna limita qué muta: acta de nacimiento, ausencia declarada y prueba corrida o declarada no corrida.
+- Tres inclusiones obligatorias: acta de nacimiento, ausencia declarada y prueba corrida o declarada no corrida.
 
 ## Paso 3 — Plan y acta
 

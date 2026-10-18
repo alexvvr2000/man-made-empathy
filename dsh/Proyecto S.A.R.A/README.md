@@ -48,4 +48,4 @@ La ausencia se declara. Un agente sin memoria lo dice; un agente sin motor lo di
 
 ## Estado
 
-Semilla acoplada a SQLite. Escrita y auditada; pendiente el primer arranque y la instalación de la herramienta `sql` del arnés. Mientras no exista, el contrato la nombra igual y el agente declara `Mem: sin motor (N5)`.
+Semilla acoplada a SQLite. Pendiente el primer arranque y la instalación de la herramienta `sql` del arnés. Mientras no exista, el contrato la nombra igual y el agente declara `Mem: sin motor (N5)`.

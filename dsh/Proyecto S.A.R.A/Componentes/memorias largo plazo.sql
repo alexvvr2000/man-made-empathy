@@ -1,7 +1,6 @@
 -- memorias.db : registro permanente de un agente. Una por agente.
 -- Ruta: <agente>/memorias.db — sara/ en la semilla, camada/<nombre>/ en orquestación.
 -- Append-only por convención: nada se edita, se reemplaza. Sin triggers, sin vistas.
--- Nativo de SQLite. La portabilidad a otro motor es trabajo de WAX, no de la semilla.
 
 PRAGMA journal_mode = WAL;
 PRAGMA user_version = 1;   -- versión de este esquema
@@ -34,9 +33,7 @@ CREATE INDEX idx_tipo_fecha ON memorias(tipo, fecha);
 --    tomadas con su id, pendientes abiertos con su id y siguiente paso. Su reemplaza
 --    apunta al cierre anterior: la cadena de cierres es la conversación comprimida.
 -- 4. trabajo.db no lleva DDL aquí. Nace vacía; su forma la decide el agente en su
---    primera escritura, incluido el contador de actos y el fin vigente. WAX puede
---    añadirle estructura sin tocar este archivo.
--- 5. El acta de nacimiento no vive en esta base: es un documento del agente.
+--    primera escritura, incluido el contador de actos y el fin vigente.
 
 -- Lecturas mínimas. No son objetos: se sintetizan en el turno.
 -- por disparador:       SELECT id, fecha, tipo, nivel, condiciones FROM memorias
