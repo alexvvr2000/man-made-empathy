@@ -7,10 +7,10 @@
 `intención | capa | primitiva | ejemplo mínimo | límite | compone | verifica`
 
 - **intención:** en palabras de quien pide, no de la API.
-- **primitiva:** el mecanismo del stack (o del medio).
+- **primitiva:** el mecanismo del stack, o del medio.
 - **límite:** cuándo NO usarla. Sin esto, la fila es una corazonada.
 - **compone:** con qué otras filas se combina.
-- **verifica:** doc en disco + hash. Sin esto, es hipótesis.
+- **verifica:** `ruta-del-doc#ancla` + hash del documento. Sin ruta y hash no hay fila: hay hipótesis.
 
 ## Reglas
 
@@ -20,19 +20,23 @@
 4. Nada se edita: se reemplaza.
 5. Una fila sin `límite` o sin `verifica` no entra al índice; va a `hipótesis`.
 
+## Estado
+
+**Índice: vacío (0 filas).** No hay docs espejados aún, así que no hay hash, así que nada cumple la regla 5. El atlas nace vacío a propósito: se llena cuando el primer espejo existe.
+
 ## Franjas
 
 ### Hipótesis
 
 `Hipótesis: [intención] | propuesta: [forma] | prueba: [cómo se falsifica] | estado: abierta`
 
-Combinaciones no probadas. Se intentan; si funcionan, se promueven a fila; si no, se descartan y se anota.
+Candidatas no verificadas. Se intentan; si funcionan y se consigue su hash, se promueven a fila. Si no, se descartan y se anota el descarte.
 
 ### Opaco
 
 `Opaco: [firma] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no] | compone: [...]`
 
-Pasa si una instancia limpia lo reproduce leyendo solo el registro. Si no transfiere ni compone, es ruido y se descarta.
+Formas nacidas del agente que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, son ruido y se descartan.
 
 ## Capas e intenciones
 
@@ -45,13 +49,15 @@ Pasa si una instancia limpia lo reproduce leyendo solo el registro. Si no transf
 | Docs | traer un docset, actualizar, filtrar ruido |
 | Memoria | verificar cita, decidir corto/largo, consolidar |
 
-## Filas iniciales
+## Propuestas iniciales — ninguna indexada
 
-| Intención | Capa | Primitiva | Ejemplo mínimo | Límite | Compone | Verifica |
+Las seis son `hipótesis` hasta que existan los docs espejados y su hash. La columna `verifica` dice qué doc habría que espejar para poder promoverlas.
+
+| Intención | Capa | Primitiva | Ejemplo mínimo | Límite | Compone | Verifica (pendiente) |
 |---|---|---|---|---|---|---|
-| que no se pierda al recargar | estado | store persistido | `writable` + `localStorage` | no para datos sensibles | con «cargar datos» | doc de stores |
-| que no se rompa en móvil | estilo | grid + container queries | `grid` + `@container` | no para una sola columna | con «tema» | doc de CSS grid |
-| que entre desde abajo | movimiento | tween de entrada | `gsap.from(el, {y:24, opacity:0})` | listas largas: virtualizar | con «escalonar» | doc de GSAP |
-| que la UI pida datos | plataforma | canal invoke | `ipcRenderer.invoke('task:start')` | no para estado masivo | con «actualizar UI» | doc de Electron IPC |
-| traer un docset | docs | espejo local | `httrack` con profundidad y filtros | sitios con login o JS obligatorio | con «verificar cita» | doc de httrack |
+| que no se pierda al recargar | estado | store persistido | `writable` + `localStorage` | no para datos sensibles | con «cargar datos» | doc de Svelte: stores |
+| que no se rompa en móvil | estilo | grid + container queries | `grid` + `@container` | no para una sola columna | con «tema» | doc de CSS: grid |
+| que entre desde abajo | movimiento | tween de entrada | `gsap.from(el, {y:24, opacity:0})` | listas largas: virtualizar | con «escalonar» | doc de GSAP: `from` |
+| que la UI pida datos | plataforma | canal invoke | `ipcRenderer.invoke('task:start')` | no para estado masivo | con «actualizar UI» | doc de Electron: IPC |
+| traer un docset | docs | espejo local | `httrack` con profundidad y filtros | sitios con login o JS obligatorio | con «verificar cita» | doc de httrack: opciones |
 | recordar una decisión | memoria | fila de largo | `INSERT` con `disparador` y `vigencia` | no para actividad | con «consolidar» | esquema de memorias |
