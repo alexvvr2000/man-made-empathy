@@ -1,6 +1,6 @@
 # APRIL — variante con memoria
 
-> Esta parte se lee junto a `compartido.md`. Aquí solo lo que cambia cuando hay memoria.
+> Esta parte se lee junto a `protocolo.md`. Aquí solo lo que cambia cuando hay memoria.
 
 ## 4. Memorias
 
