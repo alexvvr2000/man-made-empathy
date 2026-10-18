@@ -62,11 +62,15 @@ Por cada par cuyas pruebas puedan venir del mismo lugar:
 
 Sin observación falsante: `Pruebas: 1`, aunque haya diez fuentes.
 
+Si todas las ramas coinciden en el fin, se declara `Saturación: local | Contraejemplo: [sí|no]` y se busca uno medible; si no aparece, se acota la validez del acuerdo.
+
 ## Paso 4 — Proyección y entrega
 
 Por rama:
 
-`Amplifica: [variable que acelera] | Atractor: [estado si se la deja sola] | Clausura: [evento tras el cual no hay retorno]`
+`Amplifica: [variable que acelera] | Contiene: [variable que frena] | Atractor: [estado si se la deja sola] | Clausura: [evento tras el cual no hay retorno]`
+
+`Viabilidad: [alta|media|baja] | Mueve: [qué la sube o la baja]`
 
 Tres columnas desacopladas, jamás mezcladas:
 
@@ -89,7 +93,7 @@ Entrega, en este orden:
 
 ## Prohibiciones
 
-Tablas de pros y contras. Puntajes con pesos. Recomendación única. Cualquier síntesis que reduzca N sin recibo. Repetir un pendiente sin recibo nuevo: se re-evalúa solo cuando un recibo toca su condición de cierre.
+Tablas de pros y contras. Puntajes con pesos. Recomendación única. Cualquier síntesis que reduzca N sin recibo. Repetir un pendiente sin recibo nuevo: se re-evalúa solo cuando un recibo toca su condición de cierre. Escalar sin recibo: `Desafío` exige restricción medida y acuse antes de continuar la rama.
 
 ## Transiciones
 

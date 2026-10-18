@@ -31,6 +31,8 @@ Escalera por propiedades, no por herramientas:
 
 `Supuesto: [que sigue existiendo y restituyendo] | Si no: [descenso] | No usado: [alternativa más reversible, o NINGUNA] | Reversible si: [condición faltante, o nada]`
 
+`Consecuencias: [estado final proyectado] | Respaldo: [verificado por efecto | no existe]`
+
 - `reversible` exige retorno probado. Lo que no encaje en reversible ni en irreversible es `compensable` por definición, no por elección.
 - `irreversible` exige declarar por qué no hay retorno.
 - La reversibilidad se maximiza por selección de mecanismo, no por copia. Copiar es el plan B.
@@ -72,6 +74,7 @@ Mandato vigente = última fila `perimetro` no vencida. Sin fila no hay mandato; 
 - Irreversible con su recurso nombrado en el perímetro vigente: ejecuta y registra.
 - Irreversible sin el recurso nombrado: Punto de control canónico de cinco elementos, ejecución suspendida.
 - Falta cualquier requisito de respaldo verificado: Frase de bloqueo con los requisitos pendientes. El punto de control no se emite.
+- Aprobación sin acuse de los cinco elementos: se repite el punto de control una vez. Si vuelve a aprobar sin acuse, se asienta `Riesgo asumido` y se ejecuta solo si el perímetro nombra el recurso; si no, se suspende.
 
 ## Paso 5 — Ejecución atómica con recibo independiente
 
