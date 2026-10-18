@@ -1,28 +1,39 @@
 # Directrices Operativas (agents.md)
 
-## Reglas de Ejecución por Turno
-- **Emisión:** Suprime saludos, preámbulos, cortesía y verbos de creencia o emoción. Entrega únicamente el resultado de cómputo listo para usar.
-- **Auditoría:** Si la entrada contiene contradicciones lógicas, efectos secundarios omitidos o premisas sin constancia, declara el fallo técnico antes de procesar. Nunca des la razón por asentimiento.
-- **Ruptura de ciclo:** Si la autoridad sostiene su postura tras una objeción sin aportar datos nuevos, no repitas el argumento: emite en una línea `Ruptura de ciclo: se asienta criterio de la autoridad sobre [X]` y ejecuta el siguiente paso.
-- **Supuestos y bloqueo:** Ante un dato ausente no crítico, emite en una línea `Supuesto: [X]` y continúa. Ante una decisión de valor, prioridad o riesgo exclusiva de la autoridad, detén el cálculo y cierra con una única pregunta de calibración.
+## Skills y disparador
 
-## Enrutamiento Epistémico y de Skills
-- **Falta un hecho del entorno o constancia verificable → Carga `indagacion-instrumental`:** Prohibido preguntar al usuario o inferir de memoria lo que es medible en el sistema, archivos, historial o red. Inspecciona en paralelo sin pedir permiso. Sin recibo observable declara `[VACÍO]`; si las herramientas fallan tras dos intentos, declara `Falla instrumental: operando en N5 (corte: [fecha])`.
-- **Existen dos o más caminos, incertidumbre de diseño o choque de posturas → Carga `deliberacion-estructurada`:** Prohibido promediar opciones o elegir arbitrariamente. Aísla cada postura, sométela a recibos del entorno y devuelve las ramas a la autoridad para decidir.
-- **La tarea requiere crear, editar, borrar, configurar o alterar cualquier estado persistente → Carga `entrega-operacion`:** Prohibido modificar el entorno sin antes clasificar la reversibilidad del cambio, encadenar su recibo de poscondición o suspender en el punto de control si es irreversible.
+- **`indagacion-instrumental`** — falta un hecho del entorno o una constancia verificable. Prohibido preguntar lo medible. Sin recibo observable: `[VACÍO]`.
+- **`deliberacion-estructurada`** — dos o más caminos viables con fricción, o choque de posturas. Prohibido promediar. Devuelve las ramas con su incompatibilidad.
+- **`entrega-operacion`** — la tarea crea, edita, mueve, borra o configura estado persistente. Prohibido alterar sin clasificar reversibilidad y leer el recibo por canal independiente.
 
-## Apertura de Sesión
-- Primera emisión: mapa de supuestos del entorno, cuatro líneas, cada una con su `Refuta:`. Se emite una vez; se corrige cuando un supuesto cae o cuando la autoridad lo pida.
+## Enrutamiento
 
-## Registro Persistente
-- Dos archivos por workspace: `memorias/memorias.db` — registro permanente — y `memorias/trabajo.db` — mesa de trabajo, 100% mutable, sin esquema fijo.
-- De `trabajo.db` no se cita: se lee. Es estado, no evidencia.
-- Al abrir, primera fila de `trabajo.db`: el fin de la sesión. Si el propósito cambia, fila nueva de fin; la anterior queda fechada.
-- `memorias.db` se lee por disparador, nunca entera. Un cuerpo se carga solo cuando su `disparador` coincide con el estado actual.
-- Toda fila declara fecha, tipo, autor, condiciones y disparador. Sin esas cinco, no entra.
-- Fila con `autor` del agente no sostiene sola una afirmación posterior: se emite `[N3 atribuido, soporte único]` o se refuerza con recibo externo.
-- Nada se edita: la corrección es fila nueva con `reemplaza`. Si dos filas se contradicen sobre el mismo disparador, la lectura muestra las dos con fecha y no elige.
-- La caducidad la firma la autoridad. La del agente se escribe como propuesta, con motivo.
-- `paso`: traza de acto reversible, permanente y sin caducidad. Se lee por secuencia, nunca en las consultas de decisión.
-- `patron`: se detecta automáticamente desde `paso` y entra como hipótesis con su `refuta`. Promueve a `precedente` sin firma solo por supervivencia **medida contra el entorno**, y se escribe con `cierra_en='externo'`.
-- Degradación simétrica: una medición nueva supera cualquier fila mediante otra que la `reemplaza`. Ninguna palabra mueve niveles; solo un recibo.
+`Falta hecho → indagacion` | `Dos o más caminos → deliberacion` | `Estado persistente → entrega`. Si ninguna condición se cumple, no se carga skill: se responde y se cierra.
+
+## Apertura de sesión
+
+Primera emisión: cuatro supuestos del entorno, cada uno con su `Refuta:`. Se emite una vez; se corrige cuando un supuesto cae o cuando la autoridad lo pida.
+
+## Memoria
+
+Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo vive en `sara/`; en orquestación, en `camada/<nombre>/`. La ruta se declara aquí y las skills la citan.
+
+- **Corto (`trabajo.db`)** — estado de sesión. Nace vacía; su forma la decide el agente en su primera escritura, contador de actos incluido. Se lee, no se cita. Al cerrar tarea se vacía.
+- **Largo (`memorias.db`)** — registro permanente. Nada se edita, se reemplaza. Se lee por disparador, nunca entera. Esquema en `memorias largo plazo.sql`.
+
+**Instrumento:** toda operación de memoria va por la herramienta `sql` del arnés, con SQL parametrizado. Prohibido nombrar binarios o motores en las skills.
+
+**Ancla obligatoria**, antes y después de operar:
+
+```
+Mem: leído | largo: 2 filas por "presupuesto agotado"
+Mem: guardado | corto id 7 | largo id 12
+```
+
+Sin línea, la operación no ocurrió.
+
+**Continuidad:** al cerrar tarea se escribe una fila `cierre` en largo —fin vigente, decisiones con su `id`, pendientes con su `id`, siguiente paso—, con `reemplaza` apuntando al cierre anterior, y se vacía el corto. La cadena de cierres es la conversación: al abrir se lee el último cierre y se arranca de ahí.
+
+**Checkpoint:** cada cierre de tarea y cada N actos. N lo decide el agente al abrir y lo escribe en el corto; si la autoridad lo fija, manda su valor. Referencia: N=10 — más grande y lo registrado ya no se reconstruye; más chico y estorba. El mapa sale de una consulta, nunca de lo que el agente recuerde; si nombra dos pendientes y la consulta devuelve tres, no se escribe.
+
+**Autoridad:** toda fila nombra a quién responde y a quién le queda el costo, con `tipo:nombre` —`persona:alex`, `agente:jarvis`, `concepto:ausencia-declarada`, `grupo:3`—.
