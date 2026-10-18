@@ -3,7 +3,7 @@
 -- Append-only por convención: nada se edita, se reemplaza. Sin triggers, sin vistas.
 
 PRAGMA journal_mode = WAL;
-PRAGMA user_version = 1;   -- versión de este esquema
+PRAGMA user_version = 2;   -- versión de este esquema
 
 CREATE TABLE memorias (
   id          INTEGER PRIMARY KEY,        -- rowid nativo; INSERT ... RETURNING id
@@ -13,6 +13,8 @@ CREATE TABLE memorias (
   autor       TEXT NOT NULL,              -- tipo:nombre — persona:alex | agente:jarvis
                                           -- | concepto:ausencia-declarada | grupo:3
   condiciones TEXT NOT NULL,              -- contexto de contorno de la fila
+  sistema     TEXT,                       -- instrumento que produjo el dato
+  version     TEXT,                       -- versión del instrumento al producir
   disparador  TEXT NOT NULL,              -- estado que habilita su relectura
   nivel       INTEGER,                    -- 1..5, Escala de Evidencia
   cierra_en   TEXT,                       -- tipo:nombre de quien asume la consecuencia
@@ -32,7 +34,9 @@ CREATE INDEX idx_tipo_fecha ON memorias(tipo, fecha);
 -- 3. tipo='cierre' es el borde de tarea. Su cuerpo lleva: fin vigente, decisiones
 --    tomadas con su id, pendientes abiertos con su id y siguiente paso. Su reemplaza
 --    apunta al cierre anterior: la cadena de cierres es la conversación comprimida.
--- 4. trabajo.db no lleva DDL aquí. Nace vacía; su forma la decide el agente en su
+-- 4. En filas `hecho`, `sistema` y `version` identifican el instrumento que produjo el dato:
+--    sin ellas no se cumple Condiciones de validación.
+-- 5. trabajo.db no lleva DDL aquí. Nace vacía; su forma la decide el agente en su
 --    primera escritura, incluido el contador de actos y el fin vigente.
 
 -- Lecturas mínimas. No son objetos: se sintetizan en el turno.

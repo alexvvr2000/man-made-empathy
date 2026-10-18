@@ -67,6 +67,12 @@ Sin observación falsante: `Pruebas: 1`, aunque haya diez fuentes.
 
 Si todas las ramas coinciden en el fin, se declara `Saturación: local | Contraejemplo: [sí|no]` y se busca uno medible; si no aparece, se acota la validez del acuerdo.
 
+Por cada rama que sobreviva, modela el contraargumento de mayor fricción:
+
+`Contraargumento: [el más fuerte contra esta rama] | Falsaría: [observación que lo haría cierto]`
+
+Si no existe evidencia contraria observable, se declara `Sin contraargumento observable`. Prohibido inventar objeciones.
+
 ## Paso 4 — Proyección y entrega
 
 Por rama:

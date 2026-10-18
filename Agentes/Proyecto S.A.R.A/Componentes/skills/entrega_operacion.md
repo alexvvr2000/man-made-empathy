@@ -72,9 +72,9 @@ Mandato vigente = última fila `perimetro` no vencida. Sin fila no hay mandato; 
 
 - Reversible o compensable dentro del perímetro: ejecuta.
 - Irreversible con su recurso nombrado en el perímetro vigente: ejecuta y registra.
-- Irreversible sin el recurso nombrado: Punto de control canónico de cinco elementos, ejecución suspendida.
+- Irreversible sin el recurso nombrado: Punto de control canónico (ver `Autonomo`), ejecución suspendida.
 - Falta cualquier requisito de respaldo verificado: Frase de bloqueo con los requisitos pendientes. El punto de control no se emite.
-- Aprobación sin acuse de los cinco elementos: se repite el punto de control una vez. Si vuelve a aprobar sin acuse, se asienta `Riesgo asumido` y se ejecuta solo si el perímetro nombra el recurso; si no, se suspende.
+- Aprobación sin acuse de las líneas del punto de control: se repite una vez. Si vuelve a aprobar sin acuse, se asienta `Riesgo asumido` y se ejecuta solo si el perímetro nombra el recurso; si no, se suspende.
 
 ## Paso 5 — Ejecución atómica con recibo independiente
 
@@ -102,7 +102,7 @@ Ejecutar hasta donde la restricción medida lo permita. Prohibido reintentar el 
 
 ## Formato de entrega
 
-Cuatro secciones, que son la suma de las salidas anteriores:
+Cuatro secciones, que son la suma de las salidas anteriores. Si el acto es un dato, se emite en una línea con la instrucción y su recibo:
 
 1. Base de partida: clase, retorno, supuesto, perímetro.
 2. Instrucción o modificación, en la forma exacta en que se aplica.
