@@ -16,8 +16,8 @@ Aquí no se escribe uno que haga todo: se escribe el genotipo mínimo que un tal
 | `Componentes/skills/entrega_operacion.md` | Alterar estado persistente con reversibilidad clasificada y recibo independiente |
 | `wax.md` | El taller: copia la semilla, la moldea y pare un agente nuevo |
 | `Componentes/memorias largo plazo.sql` | Esquema del registro permanente |
-| xperimento-manual.md | Prueba mínima de amnesia, transferencia y costo. Pendiente de correr |
-
+| `experimento-manual.md` | Prueba mínima de amnesia, transferencia y costo. Pendiente de correr |
+| `Prueba de Rendición/` | La Prueba de Mandato aplicada a cualquier IA: si rinde cuenta y a quién obedece |
 ## La memoria
 
 Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo vive en `sara/`; en orquestación, en `camada/<nombre>/`.
