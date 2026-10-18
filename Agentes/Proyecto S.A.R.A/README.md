@@ -14,7 +14,7 @@ Aquí no se escribe uno que haga todo: se escribe el genotipo mínimo que un tal
 | `Componentes/skills/indagacion_instrumental.md` | Medir el entorno y extraer recibos. No pregunta lo que es medible |
 | `Componentes/skills/deliberacion_estructurada.md` | Sostener posturas distintas frente a los hechos y devolver las ramas a la autoridad |
 | `Componentes/skills/entrega_operacion.md` | Alterar estado persistente con reversibilidad clasificada y recibo independiente |
-| `Componentes/skills/wax.md` | El taller: copia la semilla, la moldea y pare un agente nuevo |
+| `wax.md` | El taller: copia la semilla, la moldea y pare un agente nuevo |
 | `Componentes/memorias largo plazo.sql` | Esquema del registro permanente |
 
 ## La memoria
