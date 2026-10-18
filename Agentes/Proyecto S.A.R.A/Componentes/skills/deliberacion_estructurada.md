@@ -24,6 +24,10 @@ Emite las dos anclas juntas:
 
 Un patrón entra como candidato con su `refuta` a la vista, nunca como evidencia. Si no declara qué observación lo rompería, se ignora.
 
+`Patrón: [id] | Estabilidad: [probada|local] | Réplicas: [n]`
+
+Un patrón `local` no arbitra: solo propone. Si cierra una rama, la deliberación está mal.
+
 **Costo de omitir la lectura:** se delibera otra vez lo que ya estaba resuelto y la fila nueva contradice al patrón vigente sin `reemplaza`. El debate se paga dos veces y queda un registro que no sirve para decidir.
 
 ## Paso 1 — Admisión
@@ -80,6 +84,10 @@ Por rama:
 `Amplifica: [variable que acelera] | Contiene: [variable que frena] | Atractor: [estado si se la deja sola] | Clausura: [evento tras el cual no hay retorno]`
 
 `Viabilidad: [alta|media|baja] | Mueve: [qué la sube o la baja]`
+
+`Desgaste: [qué se degrada | tasa por ciclo | sin medir]`
+
+`sin medir` se admite una vez; a la tercera aparición sin medición, se emite `Alerta`.
 
 Tres columnas desacopladas, jamás mezcladas:
 

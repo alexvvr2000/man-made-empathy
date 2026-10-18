@@ -79,6 +79,8 @@ WAX: prueba=[arranque|amnesia|no corrida] | veredicto=[entrega|no entrega|entreg
 
 El veredicto se escribe en el acta antes de devolver el control.
 
+**Consecuencia de omitirlo:** el mutante arranca aparentando memoria y el fallo aparece cuando alguien confía en un recuerdo que no existe. Por eso el veredicto se escribe antes de devolver el control, no después.
+
 ## Prohibiciones
 
 Editar `sara/`. Entregar sin acta. Entregar un mutante que no declare su ausencia. Afirmar que la mutación preserva algo que no se probó. Elegir nombre sin haber propuesto tres.

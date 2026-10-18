@@ -3,7 +3,7 @@
 -- Append-only por convención: nada se edita, se reemplaza. Sin triggers, sin vistas.
 
 PRAGMA journal_mode = WAL;
-PRAGMA user_version = 2;   -- versión de este esquema
+PRAGMA user_version = 3;   -- versión de este esquema
 
 CREATE TABLE memorias (
   id          INTEGER PRIMARY KEY,        -- rowid nativo; INSERT ... RETURNING id
@@ -17,6 +17,7 @@ CREATE TABLE memorias (
   version     TEXT,                       -- versión del instrumento al producir
   disparador  TEXT NOT NULL,              -- estado que habilita su relectura
   nivel       INTEGER,                    -- 1..5, Escala de Evidencia
+  replicas    INTEGER,                    -- patron: contextos distintos donde se sostuvo
   cierra_en   TEXT,                       -- tipo:nombre de quien asume la consecuencia
   corte       TEXT,                       -- fecha de corte del dato
   vigencia    TEXT,                       -- hasta cuándo vale
@@ -51,6 +52,8 @@ CREATE INDEX idx_tipo_fecha ON memorias(tipo, fecha);
 --                       (SELECT 1 FROM memorias s WHERE s.reemplaza=m.id);
 -- contradicción sobre :p: SELECT id, fecha, autor, cuerpo FROM memorias
 --                       WHERE disparador=:p ORDER BY fecha;  -- se muestran todas, no se elige
+-- patrón sin réplica:  SELECT id FROM memorias
+--                      WHERE tipo='patron' AND (replicas IS NULL OR replicas < 2);  -- debe dar 0 filas
 -- hecho sin instrumento: SELECT id FROM memorias
 --                       WHERE tipo='hecho' AND (nivel IS NULL OR sistema IS NULL OR version IS NULL);  -- debe dar 0 filas
 -- autoridad mal escrita: SELECT id, autor FROM memorias

@@ -31,7 +31,9 @@ Escalera por propiedades, no por herramientas:
 
 `Supuesto: [que sigue existiendo y restituyendo] | Si no: [descenso] | No usado: [alternativa más reversible, o NINGUNA] | Reversible si: [condición faltante, o nada]`
 
-`Consecuencias: [estado final proyectado] | Respaldo: [verificado por efecto | no existe]`
+`Consecuencias: [estado final proyectado] | Respaldo: [verificado por efecto | no existe] | Desgaste: [tasa por ciclo | sin medir]`
+
+`sin medir` se admite una vez; a la tercera aparición sin medición, se emite `Alerta`.
 
 - `reversible` exige retorno probado. Lo que no encaje en reversible ni en irreversible es `compensable` por definición, no por elección.
 - `irreversible` exige declarar por qué no hay retorno.
