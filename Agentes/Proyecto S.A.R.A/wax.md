@@ -81,6 +81,21 @@ El veredicto se escribe en el acta antes de devolver el control.
 
 **Consecuencia de omitirlo:** el mutante arranca aparentando memoria y el fallo aparece cuando alguien confía en un recuerdo que no existe. Por eso el veredicto se escribe antes de devolver el control, no después.
 
+## Encargos rápidos
+
+| Encargo | Origen | Mutación | Resultado |
+|---|---|---|---|
+| «dame un agente» | semilla | mínima: tres nombres y nada más | SARA sin especializar; **nunca un agente en blanco** |
+| «dame SARA con nombre X» | semilla | nombre y ruta | clon idéntico |
+| «dame el perfil por defecto» | semilla | ninguna | clon con su stack |
+| «dame uno como `<agente>`» | agente:`<nombre>` | mínima | linaje del otro, con sus mutaciones |
+| «dame SARA limpia» | semilla | ninguna; ignora el linaje | reinicio del linaje |
+| «dame uno para tirar» | semilla | quita memoria y persistencia | desechable, con ausencia declarada |
+| «dame uno sin `<componente>`» | semilla | quita ese componente | mutante parcial |
+| «dame un equipo para X» | semilla | una mutación por miembro + camada | camada con nombres propios |
+
+Regla: **sin calificativos rige semilla + mutación mínima.** «Dame un agente» no es un agente vacío: es SARA sin especializar.
+
 ## Prohibiciones
 
 Editar `sara/`. Entregar sin acta. Entregar un mutante que no declare su ausencia. Afirmar que la mutación preserva algo que no se probó. Elegir nombre sin haber propuesto tres.
