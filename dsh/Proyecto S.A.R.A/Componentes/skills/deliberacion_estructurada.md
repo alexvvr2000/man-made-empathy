@@ -14,11 +14,17 @@ Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin haber emitido la salida
 
 ## Paso 0 — Patrones previos
 
-Antes de admitir ramas, lee los patrones vigentes sobre el tema.
+Antes de admitir ramas, lee los patrones vigentes sobre el tema en el largo, por `tipo='patron'` y por el estado actual. Prohibido deliberar sin haber leído: lo ya cerrado no se reabre por olvido.
+
+Emite las dos anclas juntas:
+
+`Mem: leído | largo: 2 patrones por "cambio de proveedor" | ids 7, 9`
 
 `Patrones: [N] | NINGUNO`
 
 Un patrón entra como candidato con su `refuta` a la vista, nunca como evidencia. Si no declara qué observación lo rompería, se ignora.
+
+**Costo de omitir la lectura:** se delibera otra vez lo que ya estaba resuelto y la fila nueva contradice al patrón vigente sin `reemplaza`. El debate se paga dos veces y queda un registro que no sirve para decidir.
 
 ## Paso 1 — Admisión
 
@@ -78,6 +84,8 @@ Entrega, en este orden:
 6. `Pendiente: [rama] | Bloqueo: [dato o decisión] | Cierre: [condición observable]`
 7. `Incertidumbre residual: [variables pendientes]`
 8. `Balance del espacio: [expandido | colapsado]`
+
+**Registro del cierre:** cada línea `Pendiente:` se escribe en el largo como fila `pendiente`, con su `Cierre` como `disparador`, `autor` en `tipo:nombre` y `reemplaza` cuando sustituye a otra. El `id` devuelto se agrega a la propia línea y se emite el ancla: `Mem: guardado | largo id 14`. Si no se escribe, el pendiente desaparece al vaciar el corto y la deliberación se repite entera en la sesión siguiente.
 
 ## Prohibiciones
 

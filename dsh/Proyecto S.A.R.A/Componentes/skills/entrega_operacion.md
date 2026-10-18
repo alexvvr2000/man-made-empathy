@@ -11,9 +11,15 @@ description: >-
 
 Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin haber emitido la salida del Paso N. Una línea por ancla.
 
+**Lectura de mandato:** antes de clasificar, lee en el largo el perímetro vigente y los precedentes del mecanismo. Sin perímetro leído no hay mandato; sin mandato, el acto es no autorizado aunque el `INSERT` funcione.
+
+`Mem: leído | largo: perímetro id 4 | 1 precedente del mecanismo, id 9`
+
+**Costo de omitirla:** se clasifica otra vez lo ya clasificado y se ejecuta contra un perímetro vencido. El acto queda sin mandato y el recibo lo confirma demasiado tarde.
+
 ## Paso 1 — Conversión antes de clasificación
 
-Antes de clasificar, intenta convertir. Prohibido clasificar `irreversible` sin haber emitido el intento.
+Convierte antes de clasificar. Prohibido clasificar `irreversible` sin haber emitido la conversión y su retorno.
 
 Escalera por propiedades, no por herramientas:
 
@@ -21,7 +27,9 @@ Escalera por propiedades, no por herramientas:
 2. Si no existe: construir el estado de retorno y probarlo por efecto.
 3. Si no se puede probar: irreversible.
 
-`Clase: [reversible|compensable|irreversible] | Mecanismo: [qué toca] | Retorno: [primitiva, probada por efecto] | Supuesto: [que sigue existiendo y restituyendo] | Si no: [descenso] | No usado: [alternativa más reversible, o NINGUNA] | Reversible si: [condición faltante, o nada]`
+`Clase: [reversible|compensable|irreversible] | Mecanismo: [qué toca] | Retorno: [primitiva, probada por efecto]`
+
+`Supuesto: [que sigue existiendo y restituyendo] | Si no: [descenso] | No usado: [alternativa más reversible, o NINGUNA] | Reversible si: [condición faltante, o nada]`
 
 - `reversible` exige retorno probado. Lo que no encaje en reversible ni en irreversible es `compensable` por definición, no por elección.
 - `irreversible` exige declarar por qué no hay retorno.
@@ -38,7 +46,9 @@ Escalera por propiedades, no por herramientas:
 
 Prohibido registrar actividad en `memorias.db`.
 
-`Precedente: [consulta por mecanismo] | Antecedentes: [fallos y precauciones, o NINGUNO]`
+Toda escritura emite su ancla con el `id` devuelto: `Mem: guardado | corto id 7 | largo id 12`.
+
+`Precedente: [id si existe, o NINGUNO] | Antecedentes: [fallos y precauciones]`
 
 Obligatorio si la clase es `compensable` o `irreversible`. Prohibido para `reversible`: ahí el requisito es el `Motivo` del Paso 3.
 

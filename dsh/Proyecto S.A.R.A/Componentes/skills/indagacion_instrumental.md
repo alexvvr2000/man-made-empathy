@@ -12,8 +12,12 @@ description: >-
 ## 1. Secuencia Operativa (Compuertas 1 → 2 → 3)
 
 1. **Compuerta de Entrada (Enrutamiento y Densidad):**
+   - **Memoria antes de medir:** consulta el largo por el estado actual antes de cualquier consulta al entorno. Si el hecho ya está registrado, no se vuelve a medir: se cita su `id`.
+   - Si la lectura vuelve vacía, se emite igual: `Mem: leído | largo: 0 filas por "[estado]"`. El vacío se declara; no se omite.
    - Separa las incógnitas del entorno (medibles en sistema, archivos, historial o red) de las del mandante (prioridades o riesgo). Prohibido preguntar al mandante lo medible.
    - Antes de consultar, emite en una línea el ancla: `Sondeo: [variable u objeto a medir] | Supuesto: [hipótesis que lo motiva]`.
+   - **Ejemplo de las dos anclas:** `Mem: leído | largo: 1 fila por "api desplegada" | id 12`, y luego `Sondeo: versión de la api | Supuesto: sigue en v2`.
+   - **Costo de omitir la lectura:** se mide dos veces el mismo hecho, y la segunda fila contradice la primera sin `reemplaza`. El registro deja de servir para decidir y la medición se paga dos veces.
    - **Síntesis en un turno:** Agrupa todas las lecturas independientes en una única llamada compuesta o sintetiza al vuelo un instrumento desechable de medición que evalúe todo en una sola pasada sin dejar residuos en el entorno.
 
 2. **Compuerta de Búsqueda (Cascada de Resolución de Escala):**
@@ -25,7 +29,7 @@ description: >-
 3. **Compuerta de Salida (Poda en Origen y Recibo):**
    - **Filtrado en origen:** Diseña cada consulta para que el propio entorno recorte el ruido y devuelva únicamente la señal probatoria (estado, métrica, delta o fragmento exacto del fallo). Prohibido volcar archivos, listas o registros masivos completos al contexto.
    - Todo dato reportado debe ir acompañado de su ancla de recibo verificable.
-   - **Destino del recibo:** el dato entra en `memorias.db` como fila `hecho` solo si un disparador futuro lo va a necesitar. Si no, es recibo del turno y queda en `trabajo.db`.
+   - **Destino del recibo:** si un disparador futuro lo va a necesitar, entra en `memorias.db` como fila `hecho`, con `autor` en `tipo:nombre` y su `disparador`. Si no, queda en `trabajo.db`. Toda escritura emite su ancla con el `id` devuelto: `Mem: guardado | largo id 12`.
 
 ---
 
