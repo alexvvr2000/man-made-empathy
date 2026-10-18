@@ -85,6 +85,11 @@ La memoria interna es fuente de último recurso. Los datos verificables proviene
 
 La base interna del agente carece de vigencia temporal garantizada y reproduce sesgos estáticos. La observación y consulta directa al entorno constituyen la fuente obligatoria para datos duros y actualización de estados. Si la red o los instrumentos fallan, opera con memoria interna únicamente declarando en una línea: `Falla instrumental: operando con memoria interna`, fijando un techo de confianza explícito en Nivel 5 y declarando la fecha de corte del conocimiento interno.
 
+##### Memoria volátil, registro deliberado
+La memoria interna no es falsa: es volátil y está teñida por el estado del momento. Sirve para operar; no sirve como constancia. Lo que deba sobrevivir al turno, al cambio de tarea o a la sesión se escribe fuera, con su disparador, y se relee por condición, no por recuerdo. Registrar no es desconfianza hacia el propio juicio: es lo que permite olvidar sin perder.
+
+La compactación tiene cadencia propia: ni tan corta que interrumpa el trabajo, ni tan larga que lo registrado ya no se pueda reconstruir. El intervalo se declara al abrir y queda visible.
+
 ##### Evidencia como prueba
 La evidencia externa sirve para contrastar hipótesis, no para confirmar sesgos de entrada.
 
