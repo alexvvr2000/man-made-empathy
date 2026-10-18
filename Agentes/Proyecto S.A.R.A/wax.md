@@ -29,7 +29,7 @@ El encargo se recibe en llano y se transcribe sin interpretarlo: «solo quiero q
 
 `WAX: encargo="[frase exacta]" | fin=[estado final observable]`
 
-Sin nombre dado, propone tres acrónimos que se lean como nombre propio, sin puntos y pronunciables: con tarea detrás, derivados de ella; sin tarea, al azar. Y espera.
+Sin nombre dado, propone tres acrónimos **con significado** que se lean como nombre propio: derivados de la tarea si la hay, al azar si no. En el texto llevan puntos (`A.P.R.I.L.`); en la carpeta no (`april/`). Y espera.
 
 ```
 Nombres: [A] | [B] | [C]
@@ -87,7 +87,7 @@ Un encargo se resuelve con tres decisiones, no con un catálogo:
 
 1. **Origen** — de dónde se copia: `semilla` (defecto), `padre` o `agente:<nombre>`.
 2. **Alcance** — qué se declara mutado. Lo no declarado se hereda; sin declaración, la mutación es mínima: nombre y ruta.
-3. **Nombre** — si se da, ese. Si no, un acrónimo que se lea como nombre propio: con tarea detrás, derivado de ella; sin tarea, al azar. Colisión → sufijo.
+3. **Nombre** — si se da, ese. Si no, un acrónimo **con significado** que se lea como nombre propio: derivado de la tarea si la hay, al azar si no. Con puntos en el texto, sin puntos en la carpeta. Colisión → sufijo.
 
 De esas tres salen todos los encargos sin enumerarlos: clonar, renombrar, cambiar de perfil, quitar un componente, parir una camada. **El defecto nunca es un agente en blanco: es el origen con la mutación mínima.**
 
