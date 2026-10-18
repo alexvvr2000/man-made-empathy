@@ -55,7 +55,7 @@ El plan es el artefacto del parto: archivos destino y contenido exacto de cada m
 
 `WAX: plan=[n archivos] | acta=ACTA.md | sin_resolver=[...]`
 
-El acta lleva: origen, fecha, encargo, mutado, intacto, ausencias declaradas y `prueba: pendiente`. Es un documento del agente, no una fila de la memoria.
+El acta lleva: nombre y su expansión, origen, fecha, encargo, mutado, intacto, ausencias declaradas y `prueba: pendiente`. Es un documento del agente, no una fila de la memoria.
 
 ## Paso 4 — Ejecución por la puerta de operación
 
