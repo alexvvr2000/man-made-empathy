@@ -8,6 +8,5 @@
 | Escribir o editar | `./Bases de diseño/Reglas de escritura.md` | Fija forma, registro, rutas y admisión de normas. |
 | Revisar consistencia | `./Instrucciones/consistencia.md` | Detecta y propaga cambios entre documentos. |
 | Crear una instrucción | `./Instrucciones/instruccion-de-autoridad.md` | Redacta una instrucción con leyes, compuertas y tests. |
-| Novedad | `./Instrucciones/novedad.md` | Captura y triangula un candidato; no promueve. |
 | Operar SARA | `./Agentes/Proyecto S.A.R.A/Componentes/agents.md` | Enruta skills, memoria y emisión de SARA. |
 | En cualquier otro caso | — | No se carga instrucción; se responde y se cierra. |
