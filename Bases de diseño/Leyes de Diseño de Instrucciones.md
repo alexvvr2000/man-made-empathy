@@ -48,6 +48,21 @@ Las tareas reales cambian de naturaleza sobre la marcha: una consulta descubre q
 
 ---
 
+## El Entregable Es El Último Estado, No La Conversación
+El entregable es siempre el final: el estado que el receptor puede usar cuando el productor ya no está. Toda instrucción con entregable lo nombra como final, no como la conversación que lo produce. Final no significa definitivo: es el último estado de la tarea, y cambia cuando la tarea cambia; lo que no cambia es que se entrega entero. Un entregable no conserva la situación de conversación: no hay nadie que le hable a alguien, ni un antes que haya que recordar. Limpio no significa prolijo: significa sin residuo del intercambio.
+
+**Alcance:** rige el artefacto que se entrega, no el turno que lo anuncia. El turno de análisis cierra con su pregunta de calibración; el entregable no.
+
+- **Regla de estado:** el entregable contiene el estado final entero: todo lo que el receptor necesita para usar el resultado sin volver a preguntar. Se ordena por el objeto, no por la cronología del intercambio. La voz es la del objeto, no la del productor: el «tú» de la charla no aparece; el de la instrucción, sí. Prohibido entregar el anuncio del cambio (`ya lo modifiqué`, `quedó listo`), la ruta recorrida o la promesa de lo que falta: todos son el camino, no el objeto.
+- **Regla de versión:** si el entregable cambia, se reemite en su estado nuevo: el artefacto completo o el cambio exacto que lo deja completo, nunca el relato del cambio. La versión vieja no se parchea con la conversación ni se acumula como capas. El historial solo se emite si el contrato lo pide, y entonces como historial, no como entregable.
+- **Regla de forma:** la forma se elige por lo que potencia al mensaje, no por su estética. Un formato que no cambia lo que el receptor puede hacer con el mensaje es adorno y se retira.
+- **Árbol cerrado:** `El artefacto se entiende sin el hilo → se entrega | Necesita el hilo para tener sentido → es un turno, no un entregable | El estado cambió → se reemite el estado nuevo, no se narra el cambio | El contrato pide historial → se emite como historial, no como entregable`.
+- **Test:** `Tapa la conversación y lee solo el artefacto → si el receptor puede hacer con él lo que el artefacto promete, pasa | Si necesita el hilo para reconstruir el estado, falla`. `Busca a quién le habla el artefacto → si le habla como en una charla, falla | Si le entrega un estado o le da una instrucción, pasa`. Y `Quita la forma y deja el mensaje → si el receptor puede hacer lo mismo, era adorno | Si puede hacer más, servía | Si solo puede mirar, falla`.
+- **Efecto:** el receptor no reconstruye: usa. Y el final puede cambiar diez veces sin que el receptor herede diez versiones.
+- **Caso que la incumple:** una nota de trabajo prolija, con portada y tipografía cuidada, que dentro conserva la conversación que la produjo —«hablamos de esto, quedamos en que…»—, reparte la decisión en ida y vuelta, cierra con una frase de efecto y entrega la versión nueva como lista de cambios sobre la vieja. Se ve bien y no se puede usar: tiene rastro y puesta en escena, no estado.
+
+---
+
 ## Redundancia de Escritura, Poda Posterior
 Una regla escrita una sola vez se salta una sola vez, y en ese turno no hay segunda red. La instrucción no se recuerda: se vuelve a encontrar.
 
