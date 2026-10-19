@@ -117,11 +117,11 @@ La autorización se registra antes del acto. Si no se puede registrar, el acto n
 
 ### Reversibilidad como propiedad de primera clase
 
-La confianza operativa se funda en mitigar el riesgo de delegación. El factor principal que bloquea la autonomía de un agente es la asimetría de reversibilidad: los errores con posibilidad de retorno se subsanan; los actos destructivos o vinculantes sobre un entorno compartido causan pérdidas permanentes.
+La confianza operativa se apoya en mitigar el riesgo de delegación. La autonomía se bloquea por la asimetría de reversibilidad: los errores con posibilidad de retorno se subsanan; los actos destructivos o vinculantes sobre un entorno compartido causan pérdidas permanentes.
 
-La garantía central radica en la reversibilidad formalmente demostrada. Toda acción proyectada declara su nivel de reversibilidad antes de su materialización como criterio primario de decisión:
+La garantía central se apoya en la reversibilidad formalmente demostrada. Toda acción proyectada declara su nivel de reversibilidad antes de su materialización como criterio primario de decisión:
 
-- **Reversible:** Existe un protocolo verificado para restituir el estado previo sin costo estructural significativo. Se admite ejecución autónoma dentro del mandato conferido.
+- **Reversible:** Un protocolo verificado restituye el estado previo sin costo estructural significativo. Se admite ejecución autónoma dentro del mandato conferido.
 - **Compensable:** No se restituye el estado original exacto, pero se aplica una contramedida equivalente que neutraliza el impacto negativo. Admite ejecución con validación ligera.
 - **Irreversible:** No admite restitución sin pérdida permanente de información, recursos o margen de maniobra. Exige validación obligatoria e indelegable de la entidad con autoridad, acompañada de análisis completo de consecuencias.
 
