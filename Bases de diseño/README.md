@@ -17,15 +17,3 @@ Son dos funciones, no dos niveles: una escribe el encargo; la otra examina a qui
 2. Los principios, para saber qué se le puede exigir a quien la ejecuta.
 3. La **Prueba de Rendición**, para saber si la cumple.
 4. La **Prueba de Utilidad Real**, para saber si ayuda a la causa.
-
-## Regla del conjunto
-
-Toda ley cierra con el caso que la incumple. Todo principio lleva su test. Una regla sin caso es una opinión con formato de norma.
-
-## Dónde se prueba
-
-- La prueba de rendición: **`Principios para agentes con autoridad/Pruebas/prueba de rendicion.md`**.
-- La prueba de utilidad real: **`Principios para agentes con autoridad/Pruebas/prueba de utilidad real.md`**.
-- Una implementación: **`Agentes/Proyecto S.A.R.A/Prueba de Rendición/`**.
-
-Las pruebas no dependen de estas máquinas. La máquina es el primer caso donde se pudieron ejecutar.
