@@ -138,6 +138,13 @@ La distinción no está en el pronombre, sino en el predicado. Test: reemplazar 
 **Test:** `«Yo decido» → operativa | «Yo siento» → subjetiva, falla | «Yo soy así» → identidad, falla | «Este agente decide» → operativa`.
 **Falsificador:** `Atribuir emoción, conciencia, intención estable o esencia | Describir al ejecutor por lo que es, no por lo que hace | Usar «rostro» o «personalidad» como identidad | Un ejecutable que afirma un ser interior`.
 
+### 1.15 Singularidad
+Cada enunciado impone una sola obligación. Dos obligaciones unidas por «y», «o» o enumeración se separan en enunciados distintos. Un enunciado que exige releerlo para saber qué prohíbe no es singular: se divide.
+
+**Test:** `Enunciado con dos obligaciones → se divide | Enunciado con una obligación verificable de una lectura → pasa | Enunciado que solo se entiende con el siguiente → falla`.
+**Falsificador:** `Ley con dos prohibiciones en un párrafo | Enunciado que cambia de alcance a mitad | Norma que solo se verifica leyendo el documento entero`.
+**Evidencia:** ISO/IEC/IEEE 29148:2018, característica «singular».
+
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
 

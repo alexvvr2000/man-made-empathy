@@ -81,3 +81,11 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 **Test:** ¿puedes enunciar el caso que la rompe? Si no, sobra.
 
 **Falsificador:** una ley que nadie ha visto aplicarse; una ley sin caso de fallo.
+
+## 9. El marco no se ejecuta: se convierte
+
+**Enunciado:** una instrucción no cita un marco; lo convierte en compuertas. Cada compuerta declara la norma del marco que descarga y la señal que la prueba.
+
+**Test:** ¿hay compuertas o el nombre de un marco? ¿cada compuerta nombra su norma?
+
+**Falsificador:** «implementa según [marco]» | un paso que no descarga norma | marco citado sin conversión.

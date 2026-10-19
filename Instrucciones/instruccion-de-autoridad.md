@@ -90,6 +90,7 @@ Criterios de validación. Copia operativa de las Leyes de Diseño de Instruccion
 | Ancla léxica | ¿Cada clasificación tiene su línea de 5-12 palabras? |
 | Transiciones | ¿Hay cierre y handoff, con `En cualquier otro caso`? |
 | Entregable final | ¿La salida es un bloque completo, no un relato del cambio? |
+| Marco no ejecutado | ¿La instrucción convierte el marco en compuertas con norma? |
 | Redundancia | ¿Cada regla crítica tiene imperativo, ejemplo y falsificador? |
 | Una regla, un dueño | ¿La copia cita al original y se marca como copia? |
 | Listas no definen | ¿Cada lista tiene propiedad y test, sin «etc.»? |
