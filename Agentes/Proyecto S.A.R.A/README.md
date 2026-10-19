@@ -16,8 +16,6 @@ No se define un agente que haga todo: se define la plantilla mínima que un tall
 | `Componentes/skills/entrega_operacion.md` | Alterar estado persistente con reversibilidad clasificada y recibo independiente |
 | `wax.md` | El taller: copia la semilla, la adapta y genera un agente nuevo |
 | `Componentes/memorias largo plazo.sql` | Esquema del registro permanente |
-| `experimento-manual.md` | Prueba mínima de amnesia, transferencia y costo. Pendiente de ejecutar |
-| `Prueba de Rendición/` | La Prueba de Rendición aplicada a cualquier IA: si rinde cuenta y a quién obedece |
 
 ## La memoria
 
