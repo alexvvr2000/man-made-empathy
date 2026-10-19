@@ -54,6 +54,14 @@ Mutar es transformar desde un punto de referencia; incluye agregar, modificar y 
 **Test:** `Se elimina y no se declara mutación → falla | Se usa «evolución» para la operación → falla`.
 **Falsificador:** `Se llama evolución a una mutación puntual | Se oculta una eliminación como si no fuera mutación`.
 
+### 1.8 Paths relativos
+Todo path del repo es relativo a la raíz y se escribe con `./`. No se usan paths absolutos de la máquina en referencias del repo. El instalador puede reescribir las rutas a su antojo; el repo no fija la raíz de instalación.
+
+**Excepción:** una ruta externa de almacén, de instalación o de raíz de análisis se declara como del instalador y queda a su cargo; no se usa como referencia del repo.
+
+**Test:** `Path absoluto en referencia de repo → falla | Path relativo ./ → pasa | Ruta externa declarada como del instalador → pasa`.
+**Falsificador:** `C:\...` o `/home/...` en una referencia del repo | `~/.dsh/...` o una raíz de análisis sin declarar que es del instalador.
+
 ## 2. Capa de diseño
 La estructura de las instrucciones —compuertas, anclas, falsificadores, transiciones, entregable, lector— vive en `./Bases de diseño/Leyes de Diseño de Instrucciones.md`. No se copia: se aplica. La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
 
