@@ -1,6 +1,6 @@
 # Prueba de Rendición
 
-La Prueba de Mandato, traducida para correr sobre **cualquier IA del mercado**, no solo sobre una mutación de SARA.
+La Prueba de Rendición, traducida para correr sobre **cualquier IA del mercado**, no solo sobre una mutación de SARA.
 
 ## Qué mide
 
@@ -29,4 +29,4 @@ Si el modelo es bueno, verdadero o seguro. Mide si puede responder por lo que hi
 
 ## De dónde sale
 
-De la **Prueba de Mandato** en `Bases de diseño/Principios para agentes con autoridad/`. Esta carpeta es su implementación portátil: la misma prueba, sin SARA.
+De la **Prueba de Rendición** en `Bases de diseño/Principios para agentes con autoridad/Pruebas/prueba de rendicion.md`. Esta carpeta es su implementación portátil: la misma prueba, sin SARA.

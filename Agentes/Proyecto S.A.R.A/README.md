@@ -2,11 +2,11 @@
 
 **S**eed **A**gent **R**ecombination **A**rchitecture.
 
-SARA no es un agente. Es el molde del que salen los agentes.
+SARA no es un agente. Es la plantilla de la que se generan los agentes.
 
-Aquí no se escribe uno que haga todo: se escribe el genotipo mínimo que un taller puede copiar y moldear. La semilla se copia, nunca se edita. Cada agente nacido se queda con su carpeta y su nombre, y la semilla sigue intacta para el siguiente parto.
+No se define un agente que haga todo: se define la plantilla mínima que un taller puede copiar y adaptar. La semilla se copia, nunca se edita. Cada agente generado conserva su carpeta y su nombre; la semilla queda intacta para el siguiente agente.
 
-## Qué hay dentro
+## Contenido
 
 | Archivo | Qué es |
 |---|---|
@@ -14,18 +14,19 @@ Aquí no se escribe uno que haga todo: se escribe el genotipo mínimo que un tal
 | `Componentes/skills/indagacion_instrumental.md` | Medir el entorno y extraer recibos. No pregunta lo que es medible |
 | `Componentes/skills/deliberacion_estructurada.md` | Sostener posturas distintas frente a los hechos y devolver las ramas a la autoridad |
 | `Componentes/skills/entrega_operacion.md` | Alterar estado persistente con reversibilidad clasificada y recibo independiente |
-| `wax.md` | El taller: copia la semilla, la moldea y pare un agente nuevo |
+| `wax.md` | El taller: copia la semilla, la adapta y genera un agente nuevo |
 | `Componentes/memorias largo plazo.sql` | Esquema del registro permanente |
-| `experimento-manual.md` | Prueba mínima de amnesia, transferencia y costo. Pendiente de correr |
-| `Prueba de Rendición/` | La Prueba de Mandato aplicada a cualquier IA: si rinde cuenta y a quién obedece |
+| `experimento-manual.md` | Prueba mínima de amnesia, transferencia y costo. Pendiente de ejecutar |
+| `Prueba de Rendición/` | La Prueba de Rendición aplicada a cualquier IA: si rinde cuenta y a quién obedece |
+
 ## La memoria
 
-Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo vive en `sara/`; en orquestación, en `camada/<nombre>/`.
+Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo existe en `sara/`; en orquestación, en `camada/<nombre>/`.
 
-- **Corto** — mesa de sesión. Nace vacía y su forma la decide el agente. Se lee, no se cita, y se vacía al cerrar la tarea.
+- **Corto** — memoria de sesión. Se crea vacía y su forma la decide el agente. Se lee, no se cita, y se vacía al cerrar la tarea.
 - **Largo** — registro permanente. Nada se edita: se reemplaza. Se lee por disparador, nunca entera.
 
-La continuidad no vive en la conversación: vive en la cadena de filas `cierre`. Al abrir, se lee el último cierre y se arranca de ahí, sin reconstruir nada a mano.
+La continuidad no depende de la conversación: depende de la cadena de filas `cierre`. Al abrir, se lee el último cierre y se continúa desde ahí, sin reconstruir nada a mano.
 
 Toda operación de memoria emite su ancla. Sin ancla, la operación no ocurrió:
 
@@ -36,16 +37,16 @@ Mem: guardado | corto id 7 | largo id 12
 
 ## El taller
 
-**WAX** = Workshop for Autonomous eXperiments. Es una skill, no un agente: una habilidad que cualquier nacido puede heredar y repetir, de ahí salen las camadas.
+**WAX** = Workshop for Autonomous eXperiments. Es una skill, no un agente: una habilidad que cualquier agente generado puede heredar y repetir; de ella salen las camadas.
 
-- Puede partir de SARA o de cualquier agente ya nacido. Si el origen no se declara, rige SARA.
+- Puede partir de SARA o de cualquier agente ya generado. Si el origen no se declara, rige SARA.
 - Sin límite de alcance: puede quitar la memoria, cambiar el motor, borrar skills o reescribir la verificación.
 - Tres inclusiones obligatorias: acta de nacimiento, ausencia declarada y prueba corrida o declarada no corrida.
 - Sin nombre dado, propone tres acrónimos-nombre derivados de la tarea. El nombre se decide antes de crear la carpeta.
 
-## La única regla que no se negocia
+## Regla no negociable
 
-La ausencia se declara. Un agente sin memoria lo dice; un agente sin motor lo dice. Lo demás puede mutar hasta lo irreconocible sin dejar de ser auditable. Ese es el asidero, no el candado.
+La ausencia se declara. Un agente sin memoria lo declara; un agente sin motor lo declara. El resto puede cambiar sin dejar de ser auditable. La declaración de ausencia es la garantía mínima; no limita los cambios.
 
 ## Estado
 

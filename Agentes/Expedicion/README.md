@@ -62,9 +62,9 @@ raiz_del_proyecto/              # Terreno físico auditado (../) [Solo lectura]
 
 ---
 
-## 4. El Ciclo de Transformación del Dato (Cómo Opera el Sistema)
+## 4. Ciclo de Transformación del Dato
 
-La suite opera como una tubería determinista en cinco fases secuenciales:
+La suite opera como una secuencia determinista de cinco fases:
 
 ```text
 1. ENTRADA CRUDA        [Terreno físico ../]   ó   [Mensaje del Operador]
@@ -96,7 +96,7 @@ La suite opera como una tubería determinista en cinco fases secuenciales:
 ### Fase 3: Persistencia Dual Desacoplada
 - Toda modificación se escribe primero en texto plano Markdown estructurado dentro de `expedicion/`.
 - Inmediatamente después, el agente ejecuta una transacción en `expedicion.db` actualizando las tablas relacionales (`nodos`, `afirmaciones`, `bordes`, `puntas`, `anclas`).
-- La base de datos nunca es la dueña del dato; es un acelerador de índices.
+- La base de datos no es la fuente del dato: es un acelerador de índices.
 
 ### Fase 4: Proyección Relacional
 - Cuando el operador solicita analizar un módulo o concepto, el **Cartógrafo** no abre cientos de archivos Markdown en disco.
@@ -105,7 +105,7 @@ La suite opera como una tubería determinista en cinco fases secuenciales:
 
 ---
 
-## 5. Anatomía de un Conflicto: Protocolo "Arroz con Pollo"
+## 5. Resolución de Conflictos: Protocolo «Arroz con Pollo»
 
 Cuando dos agentes, dos repositorios o el operador introducen afirmaciones contradictorias, el sistema aplica el siguiente árbol de resolución sin forzar promedios:
 
