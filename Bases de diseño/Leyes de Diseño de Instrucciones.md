@@ -81,6 +81,29 @@ Una regla vive en un solo sitio. La copia no duplica la garantía: duplica la pr
 
 ---
 
+## La Referencia No Se Explica
+Una referencia dice a qué instrucción se llama y cuándo; la instrucción dice qué se hace. Explicar la referencia es reescribir la instrucción: el texto extra no agrega garantía, agrega una copia que se queda vieja.
+
+- **Regla:** la referencia contiene la condición de llamada y el nombre de la instrucción. No copia sus pasos, reglas, anclas ni salida. Si el caso exige un cambio, se escribe solo el delta y se marca `Delta: [qué cambia]`.
+- **Test:** `Borra el texto que explica la instrucción → si la conducta cambia, era un delta (se queda y se marca) | Si no cambia, era repetición (se borra)`.
+- **Falsificador:** un apartado que repite lo que la instrucción ya dice; una referencia que enumera los pasos de la instrucción; una llamada que copia el contrato.
+- **Efecto:** la referencia queda corta, la instrucción es el único dueño, y el caso borde no rompe: si lo que rige por defecto no aplica, el delta se escribe y se marca.
+
+Es prima de `Una regla, un dueño`, pero cubre otro fallo: no la copia entre documentos, sino la explicación de la llamada.
+
+---
+
+## La Copia Se Paga Con Contexto
+Copiar no elimina la lectura: la adelanta. El original se lee una vez y se copia; la copia se lee muchas veces. Si el original se lee una sola vez, copiarlo es pagar dos veces. Si se lee siempre, no copiarlo es pagar el original en cada uso.
+
+- **Regla:** la copia se justifica por uso repetido, no por comodidad. Se copia solo la parte que se usa, se cita el original y se declara cómo se mantiene sincronizada. Lo que no se puede citar no es copia: es bifurcación.
+- **Árbol cerrado:** `El original se lee una vez → se referencia | Se lee más de una vez → se copia la parte usada, citada y con regla de sincronización | La copia no puede citar el original → es bifurcación, no copia | El original cambia y la copia no → hay dos dueños`.
+- **Test:** `Borra la copia y lee el original en cada uso → si el costo de esa lectura supera el de mantener la copia, la copia se justifica | Si no lo supera, se referencia`. Y `El original cambia → si la copia no cambia, la copia es un dueño paralelo`.
+- **Falsificador:** una copia sin cita del original; una copia que copia más de lo que se usa; una copia sin regla de sincronización; una copia que se defiende como «más práctica» sin medir el uso.
+- **Efecto:** el original sigue siendo el dueño; la copia paga su costo en contexto y en mantenimiento. No prohíbe copiar: le pone precio. No hay ni lectura infinita ni copia infinita.
+
+---
+
 ## Las Listas No Definen
 Una enumeración de ejemplos se lee como el conjunto completo: lo que no aparece en la lista deja de existir, o se inventa un elemento para encajar en ella. La lista que ilustra se convierte en la lista que limita.
 

@@ -3,7 +3,8 @@ name: instruccion-de-autoridad
 description: >-
   Úsala cuando la autoridad quiera redactar una instrucción para un agente:
   fijar mandato, compuertas, anclas, falsificadores y transiciones. Si no se
-  pasan reglas, usa por defecto las Leyes de Diseño de Instrucciones.
+  pasan reglas, usa los criterios de validación del skill, copia operativa
+  de las Leyes de Diseño de Instrucciones.
   No la uses para ejecutar la instrucción ni para medir el entorno.
 ---
 
@@ -11,7 +12,7 @@ description: >-
 
 Convierte el encargo de una autoridad en una instrucción ejecutable por un agente. No ejecuta la instrucción: la escribe.
 
-**Reglas por defecto:** si no se pasan reglas, se usan las Leyes de Diseño de Instrucciones. Las reglas pasadas por la autoridad mandan sobre ese conjunto.
+**Reglas por defecto:** si no se pasan reglas, se usan los criterios de validación de este skill, copia operativa de las Leyes de Diseño de Instrucciones. Las reglas pasadas por la autoridad mandan sobre ese conjunto.
 
 Compuertas 1 → 7. Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 
@@ -19,14 +20,14 @@ Compuertas 1 → 7. Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 
 Antes de escribir una línea, emite:
 
-`Mandato: [autoridad] → [agente] | Objetivo: [resultado observable] | Perímetro: [lo que puede tocar] | Reglas: [pasadas | por defecto: Leyes de Diseño de Instrucciones]`
+`Mandato: [autoridad] → [agente] | Objetivo: [resultado observable] | Perímetro: [lo que puede tocar] | Reglas: [pasadas | por defecto: criterios del skill]`
 
 Prohibido escribir la instrucción sin esta línea. Si falta la autoridad, el agente o el objetivo, no se escribe: se devuelve `[VACÍO - MANDATO INCOMPLETO]` y se pide lo que falta.
 
 ## 2. Compuerta de reglas
 
 - Si la autoridad pasa reglas, se usan esas. El conjunto por defecto solo cubre lo que las reglas no digan.
-- Si no pasa reglas, emite `Sondeo: reglas por defecto | Supuesto: la autoridad no pasó reglas` y usa las Leyes de Diseño de Instrucciones. Ese conjunto es el de reglas de diseño; las compuertas 4 y 5 lo aplican.
+- Si no pasa reglas, emite `Sondeo: reglas por defecto | Supuesto: la autoridad no pasó reglas` y usa los criterios de validación de este skill. No se carga el archivo de Leyes.
 - Si no hay reglas pasadas ni conjunto por defecto disponible, se detiene: `[VACÍO - SIN REGLAS]`. Prohibido inventar las reglas.
 
 ## 3. Compuerta de forma
@@ -55,7 +56,7 @@ La instrucción contiene, en este orden:
 
 ## 5. Compuerta de validación
 
-La lista se deriva de las Leyes de Diseño de Instrucciones; el original manda. Antes de emitir, recórrela. Si falla una, corrige o declara la falta; no emitas.
+Criterios de validación. Copia operativa de las Leyes de Diseño de Instrucciones; se incluyen aquí para no cargar el archivo de Leyes en cada uso. Si el original cambia, esta copia se actualiza.
 
 | Ley | Test |
 |---|---|
@@ -67,14 +68,16 @@ La lista se deriva de las Leyes de Diseño de Instrucciones; el original manda. 
 | Transiciones | ¿Hay cierre y handoff, con `En cualquier otro caso`? |
 | Entregable final | ¿La salida es un bloque completo, no un relato del cambio? |
 | Redundancia | ¿Cada regla crítica tiene imperativo, ejemplo y falsificador? |
-| Una regla, un dueño | ¿Las reglas están referenciadas, no copiadas? |
+| Una regla, un dueño | ¿La copia cita al original y se marca como copia? |
 | Listas no definen | ¿Cada lista tiene propiedad y test, sin «etc.»? |
 | Falsificador | ¿Cada regla declara qué la incumple? |
 | Abstracción que dispara | ¿Cada regla dice cuándo actuar y cómo verificarse? |
 | Acceso implícito | ¿Toda consulta externa se declara antes? |
+| La referencia no se explica | ¿La llamada repite lo que la instrucción referenciada ya dice? |
+| La copia se paga con contexto | ¿La copia se justifica por uso repetido, cita el original y declara su sincronización? |
 | Quien produce no certifica | ¿La verificación es de otro canal o runtime? |
 
-La lista es un control de producción, no una certificación. La instrucción se certifica con la autoridad o con un runtime distinto; si el mismo acto escribe y certifica, no hay certificación.
+Si falla una, corrige o declara la falta; no emitas. La validación es un control de producción, no una certificación; la instrucción se certifica con la autoridad o con un runtime distinto.
 
 ## 6. Plantilla de salida
 
@@ -86,7 +89,7 @@ La lista es un control de producción, no una certificación. La instrucción se
 - Agente: [...]
 - Objetivo observable: [...]
 - Perímetro: [...]
-- Reglas: [pasadas | por defecto: Leyes de Diseño de Instrucciones]
+- Reglas: [pasadas | por defecto: criterios del skill]
 
 ## Compuertas
 1. [...]
