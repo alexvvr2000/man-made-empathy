@@ -41,6 +41,13 @@ Se aplica con `./Bases de diseño/Leyes de Diseño de Instrucciones.md` (`Contra
 **Test:** `Regla con tecnología → falla | Ejemplo marcado con tecnología → pasa | Regla que solo se entiende con la tecnología → falla`.
 **Falsificador:** `Una ley que dice "usa X" → stack, no ley | Un ejemplo sin marca que se lee como regla → contaminación | Una regla que no se puede aplicar sin X → dependencia`.
 
+### 1.6 Español neutro
+Todo artefacto se escribe en español neutro, siempre. Sin voseo, sin regionalismos, sin modismos locales y sin jerga de país. La prosa se entiende en cualquier región. Los nombres propios, las siglas, las rutas y los términos técnicos establecidos se conservan.
+
+**Árbol cerrado:** `Registro neutro → se emite | Voseo, regionalismo o modismo → se corrige | Duda de región → forma neutra`.
+**Test:** `Voseo, regionalismo o modismo → falla | Prosa neutra → pasa | Duda → forma neutra`.
+**Falsificador:** `Se usa «vos», «tenés», «querés» o un modismo local → no es neutro`.
+
 ## 2. Capa de diseño
 La estructura de las instrucciones —compuertas, anclas, falsificadores, transiciones, entregable, lector— vive en `./Bases de diseño/Leyes de Diseño de Instrucciones.md`. No se copia: se aplica. La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
 
