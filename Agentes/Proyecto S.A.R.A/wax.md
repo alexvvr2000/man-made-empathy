@@ -22,9 +22,9 @@ Antes de copiar la semilla, se responde: **¿esto cambia lo que el agente puede 
 `WAX: cambio=[puede|debe] | uso=[una vez|recurrente] | prueba=[arranque|amnesia|no corrida]`
 
 - `puede` + recurrente + `prueba=arranque|amnesia` → se sigue al Paso 0; queda como mutación.
-- `puede` + recurrente + `prueba=no corrida` → WAX solo con acta `no probada`; si no se acepta, `instruccion_de_autoridad`.
-- `puede` + una vez → no se copia la semilla: `instruccion_de_autoridad` con un delta; se cierra.
-- `debe` + recurrente → `instruccion_de_autoridad`; el agente no cambia.
+- `puede` + recurrente + `prueba=no corrida` → WAX solo con acta `no probada`; si no se acepta, `instruccion-de-autoridad`.
+- `puede` + una vez → no se copia la semilla: `instruccion-de-autoridad` con un delta; se cierra.
+- `debe` + recurrente → `instruccion-de-autoridad`; el agente no cambia.
 - `debe` + una vez → se responde y se cierra; si el encargo pide formato, instrucción.
 
 **Test:** `Cualquier agente con el mismo mandato puede hacerla → instrucción | El cambio se usa una vez → no amortiza la mutación | No hay prueba de arranque o amnesia → no se entrega la mutación`.
