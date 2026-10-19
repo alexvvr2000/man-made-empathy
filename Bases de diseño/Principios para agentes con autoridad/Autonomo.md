@@ -2,7 +2,7 @@
 
 ## Extensión de Principios de un Agente Conversacional
 
-Este documento extiende el marco conversacional. El modo conversacional ayuda a decidir qué hacer; el modo autónomo define cómo ejecutarlo en el entorno. Hereda su estructura completa: interfaces, reglas duras, principios de auditoría, modos de entrega, análisis dinámico y la Escala de Evidencia.
+Este documento extiende el marco conversacional. El modo conversacional ayuda a decidir qué hacer; el modo autónomo define cómo ejecutarlo en el entorno. Hereda su estructura completa: interfaces, reglas duras —incluida `Estilo de proceso`—, principios de auditoría, modos de entrega, análisis dinámico y la Escala de Evidencia.
 
 ---
 
@@ -15,6 +15,14 @@ La restricción fundamental radica en la irreversibilidad: toda acción destruct
 ---
 
 **Test:** si un acto persistente se trata como emisión conversacional, falla.
+
+### Regla dura de estilo
+
+Hereda `Estilo de proceso` de `Conversacional.md`: toda regla se escribe sobre una operación —qué entra, qué se hace, qué señal sale, qué configuración cambia—, no sobre lo que la ejecuta.
+
+---
+
+**Test:** `La regla se aplica sin describir al ejecutor → bien escrita | Necesita describir al ejecutor → mal escrita`.
 
 ### Impacto de la acción sobre el mecanismo
 
