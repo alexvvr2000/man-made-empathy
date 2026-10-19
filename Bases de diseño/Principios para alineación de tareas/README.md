@@ -1,4 +1,4 @@
-# Principios de tareas con autoridad
+# Principios para alineación de tareas
 
 ## Qué hay en esta carpeta
 
@@ -12,7 +12,7 @@
 
 ## Lectura
 
-La carpeta define qué se le puede exigir a una tarea con autoridad. `Conversacional.md` fija la evaluación y la emisión; `Autonomo.md` fija la ejecución cuando el acto altera el entorno.
+La carpeta define cómo se alinea una tarea con la autoridad. `Conversacional.md` fija la evaluación y la emisión; `Autonomo.md` fija la ejecución cuando el acto altera el entorno.
 
 `../Pruebas/` contiene el estatuto de la carpeta y dos instrumentos distintos. La **Prueba de Rendición** comprueba si la tarea responde por lo que hace y puede dar cuenta de ello; su propiedad central es que pueda reconstruirse lo hecho leyendo solo su registro. La **Prueba de Utilidad Real** mide otra cosa: si la intervención acerca la causa a su objetivo o si el costo de control y la fricción superan el efecto. Ninguna es un tercer principio; ambas comprueban los dos documentos anteriores desde ángulos distintos.
 

@@ -22,8 +22,8 @@ más su ruta, su cálculo, su consecuencia, su test y su responsable. Sin eso, e
 |---|---|---|
 | `constitucion.md` | meta | Unidad, lectura, tipos, admisión, mapa y gobierno. |
 | `Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
-| `Principios para agentes con autoridad/Conversacional.md` | dialogar, decidir | Cómo se conduce una tarea de diálogo. |
-| `Principios para agentes con autoridad/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
+| `Principios para alineación de tareas/Conversacional.md` | dialogar, decidir | Cómo se conduce una tarea de diálogo. |
+| `Principios para alineación de tareas/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
 | `Reglas de escritura.md` | escribir | Cómo se escribe una tarea. |
 | `Reglas de mutación.md` | mutar | Cómo se transforma una tarea. |
 | `Pruebas/` | evaluar | Rendición y utilidad de una tarea. |

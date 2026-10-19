@@ -37,7 +37,7 @@ Mutar es cambiar una tarea desde un estado inicial sin borrar el origen ni al re
 
 ## 5. Retorno
 
-**Enunciado:** mutar de regreso no está prohibido: es otra mutación. Se declara la clase `reversible | compensable | irreversible` como información, no como prohibición. La acción persistente irreversible se rige por `./Principios para agentes con autoridad/Autonomo.md`.
+**Enunciado:** mutar de regreso no está prohibido: es otra mutación. Se declara la clase `reversible | compensable | irreversible` como información, no como prohibición. La acción persistente irreversible se rige por `./Principios para alineación de tareas/Autonomo.md`.
 **Test:** ¿la clase y el retorno están declarados?
 **Falsificador:** una mutación irreversible sin autoridad; una mutación de regreso sin registro.
 
