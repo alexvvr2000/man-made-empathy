@@ -1,14 +1,13 @@
-# agents.md — Índice bajo demanda
+# agents.md — Kernel de enrutamiento
 
-**Tipo:** índice. No carga instrucciones por sí solo.
+**Tipo:** kernel. Máquina primero. Se carga la fila que coincide; el resto no se carga.
 **Alcance:** todo artefacto de este repositorio.
-**Uso:** se carga solo la fila que coincide; el resto no se carga.
 
-| Quiero... | Cargo... |
-|---|---|
-| Escribir o editar | `./Bases de diseño/Reglas de escritura.md` |
-| Revisar consistencia | `./Instrucciones/consistencia.md` |
-| Crear una instrucción | `./Instrucciones/instruccion-de-autoridad.md` |
-| Novedad | `./Instrucciones/novedad.md` |
-| Operar SARA | `./Agentes/Proyecto S.A.R.A/Componentes/agents.md` |
-| En cualquier otro caso | no se carga instrucción; se responde y se cierra |
+| Disparador | Documento | Qué hace |
+|---|---|---|
+| Escribir o editar | `./Bases de diseño/Reglas de escritura.md` | Fija forma, registro, rutas y admisión de normas. |
+| Revisar consistencia | `./Instrucciones/consistencia.md` | Detecta y propaga cambios entre documentos. |
+| Crear una instrucción | `./Instrucciones/instruccion-de-autoridad.md` | Redacta una instrucción con leyes, compuertas y tests. |
+| Novedad | `./Instrucciones/novedad.md` | Captura y triangula un candidato; no promueve. |
+| Operar SARA | `./Agentes/Proyecto S.A.R.A/Componentes/agents.md` | Enruta skills, memoria y emisión de SARA. |
+| En cualquier otro caso | — | No se carga instrucción; se responde y se cierra. |

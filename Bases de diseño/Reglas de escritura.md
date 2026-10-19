@@ -112,6 +112,12 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 **Test:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, test o falsificador → no entra`.
 **Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, test o falsificador`.
 
+### 1.13 agents.md como kernel
+`agents.md` es un kernel: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de disparador, destino y una línea de qué hace cada destino. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
+
+**Test:** `Fila sin descripción → falla | Fila que duplica el destino → falla | Fila que no cambia la carga → sobra | Kernel con prosa → falla`.
+**Falsificador:** `agents.md que explica los documentos | Fila con ruta y nada más | Sección que repite el contenido del destino`.
+
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
 
