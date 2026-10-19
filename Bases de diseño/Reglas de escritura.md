@@ -68,12 +68,12 @@ Mutar es transformar desde un punto de referencia; incluye agregar, modificar y 
 **Falsificador:** `Se llama evolución a una mutación puntual | Se oculta una eliminación como si no fuera mutación`.
 
 ### 1.8 Rutas relativas
-Toda ruta del proyecto es relativa a la raíz y se escribe con `./`. No se usan rutas absolutas de la máquina en referencias del proyecto. El instalador puede reescribir las rutas a su antojo; el proyecto no fija la raíz de instalación.
+Toda ruta del proyecto es relativa a la raíz y se escribe con `./`. No se usan rutas absolutas de la máquina en referencias del proyecto.
 
-**Excepción:** una ruta externa de almacén, de instalación o de raíz de análisis se declara como del instalador y queda a su cargo; no se usa como referencia del proyecto.
+**Excepción:** una ruta externa de almacén o de raíz de análisis se declara externa y queda fuera de las referencias del proyecto.
 
-**Test:** `Ruta absoluta en referencia del proyecto → falla | Ruta relativa ./ → pasa | Ruta externa declarada como del instalador → pasa`.
-**Falsificador:** `C:\...` o `/home/...` en una referencia del proyecto | `~/.dsh/...` o una raíz de análisis sin declarar que es del instalador.
+**Test:** `Ruta absoluta en referencia del proyecto → falla | Ruta relativa ./ → pasa | Ruta externa declarada → pasa`.
+**Falsificador:** `C:\...` o `/home/...` en una referencia del proyecto | una ruta externa sin declarar.
 
 ### 1.9 Registro llano
 La emisión usa vocabulario mínimo, sin jerga gremial ni metáforas accesorias, con cadencia articulada. Sin términos psicológicos ni morales. Prohibidos los verbos de creencia, emoción o simulación afectiva. Declara el registro: legible o nativo. El legible converge al código del lector; el nativo solo a transferencia. Cambiar de registro a mitad de una respuesta está prohibido.
