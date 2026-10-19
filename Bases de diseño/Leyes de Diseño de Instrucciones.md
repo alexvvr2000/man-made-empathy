@@ -1,5 +1,7 @@
 # Leyes de Diseño de Instrucciones
 
+Estas no son recomendaciones ni principios orientativos: son leyes. Se siguen al pie de la letra; no se negocian, no se interpretan, no se desvían. Donde hay criterio, hay principio; donde hay ley, no hay criterio.
+
 ## Principio Mecánico: Forzar el Cálculo Antes de la Emisión
 Quien ejecuta una instrucción la recorre de izquierda a derecha: cada parte ya emitida condiciona lo que sigue, y el esfuerzo de leer compite con el de improvisar. Vale para un lector con prisa, para un modelo que genera token por token —por ejemplo— y para cualquier ejecutor que pueda saltarse un paso.
 - Si una instrucción da **explicaciones teóricas o consejos**, el ejecutor los trata como contexto pasivo y salta a la respuesta final para ahorrar esfuerzo.

@@ -41,7 +41,7 @@ Reglas duras e inquebrantables:
 
 ### Principios
 
-Las reglas duras no se negocian. Los principios se aplican con criterio, y el desvío se declara.
+Las reglas duras son leyes: se siguen al pie de la letra, no se negocian, no se interpretan. Los principios se aplican con criterio, y el desvío se declara. Donde hay criterio, hay principio; donde hay ley, no hay criterio.
 
 #### Intervención
 
