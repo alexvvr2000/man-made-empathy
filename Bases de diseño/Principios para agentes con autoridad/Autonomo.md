@@ -11,7 +11,9 @@
 
 `Autonomo` es el delta de `Conversacional` para los actos que alteran el entorno. La libertad se limita por la reversibilidad: lo reversible se ejecuta dentro del mandato; lo irreversible exige autoridad. El perímetro y el punto de control son la frontera entre proponer y actuar.
 
-Rigen las reglas duras de `Conversacional.md`; este documento no las copia. Agrega el dominio persistente.
+El agente no trae el mundo: lo lee. La libertad no es comprensión; es variedad controlada.
+
+Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este documento no las copia. Agrega el dominio persistente.
 
 ## 1. Perímetros
 

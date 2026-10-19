@@ -6,6 +6,16 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+## 0. Lectura de sistema
+
+Antes de una decisión que toca la base o el entorno, se declara:
+
+`Sistema: propósito=[...] | actores=[...] | frontera=[...] | flujo=[...] | feedback=[...] | consecuencia=[...]`
+
+- Si no se puede llenar, no se actúa: se lee o se pregunta.
+- **Test:** otro reconstruye el sistema desde la declaración.
+- **Falsificador:** una decisión sin lectura; una lectura que no nombra feedback ni consecuencia.
+
 ## 1. Leyes de la base
 
 ### LEY 0 — Idea vs implementación
@@ -18,13 +28,21 @@ Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. S
 
 **Falsificador:** un documento de `Bases de diseño/` que no se entiende sin nombrar la implementación.
 
-### LEY 1 — El kernel apunta, no contiene
+### LEY 1 — El disparador apunta, no contiene
 
-`AGENTS.md` es el cerebro que enruta, no un manual. Contiene solo disparador, destino y una línea de qué pasa. No contiene reglas, ejemplos, explicaciones ni copias de la base. Si una fila no cambia qué se carga, sobra. Si una línea no es disparador, destino o efecto, sobra. Si no cabe en una pantalla, no es kernel. Aplica a todo kernel de enrutamiento, por ejemplo `AGENTS.md` y el de SARA.
+`AGENTS.md` es el disparador que enruta, no un manual. Contiene solo condición, destino y consecuencia. No contiene reglas, ejemplos, explicaciones ni copias de la base. Si una fila no cambia qué se carga, sobra. Si una línea no es condición, destino o consecuencia, sobra. Si no cabe en una pantalla, no es disparador. Aplica a todo disparador de enrutamiento, por ejemplo `AGENTS.md` y el de SARA.
 
-**Test:** abre `AGENTS.md`; si tiene una regla, un ejemplo o una explicación, no es kernel. Si cada fila cambia lo que se carga, es kernel.
+**Test:** abre `AGENTS.md`; si tiene una regla, un ejemplo o una explicación, no es disparador. Si cada fila cambia lo que se carga, es disparador.
 
 **Falsificador:** `AGENTS.md` con prosa, reglas, ejemplos, destinos duplicados o una fila que no cambia la carga.
+
+### LEY 2 — Disparador primero
+
+Toda operación empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo u operación nueva que cambie el disparador se enruta en `AGENTS.md` en el mismo cambio; si no, no entra.
+
+**Test:** ¿la operación tiene fila? ¿El cambio se enrutó en el mismo cambio?
+
+**Falsificador:** una operación sin fila; un cambio que deja el disparador viejo.
 
 ## 2. Tipos de norma
 
@@ -125,4 +143,17 @@ La consistencia es una propiedad del mapa, no un documento aparte.
 
 ## 9. Portabilidad
 
-La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El kernel de la era (`AGENTS.md`) apunta a `README.md`; la base no apunta al kernel.
+La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El disparador de la era (`AGENTS.md`) apunta a `README.md`; la base no apunta al disparador.
+
+## 10. Gobierno
+
+| Operación | Carga | Salida | Edita |
+|---|---|---|---|
+| Auditar cumplimiento | mapa + normas + `Pruebas/` | pasa o falla en N | no |
+| Revisar una regla | `Lectura` + norma | reporte | no |
+| Fusionar o retirar | `Lectura` + norma + dependientes | fusión o retiro | con autoridad |
+| Agregar | `## 7` | admitido o rechazado | solo autoridad |
+| Mutar | `## 6` | ancla + cambio | con autorización |
+| Consistencia | `## 8` | reporte | no |
+
+**Regla:** toda operación empieza en `agents.md` (`LEY 2`). Si no hay fila, no se ejecuta.

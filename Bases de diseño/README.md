@@ -10,7 +10,7 @@ No es un manual de SARA, APRIL, DSH ni de una era. Si un documento necesita la i
 
 | Artefacto | Funciones | Qué hace |
 |---|---|---|
-| `constitucion.md` | meta | Define ley, regla y principio; admisión; mapa; validación. |
+| `constitucion.md` | meta | Define ley, regla y principio; lectura de sistema; admisión; mapa; validación; gobierno. |
 | `Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una instrucción que no se puede saltar. |
 | `Principios para agentes con autoridad/Conversacional.md` | dialogar, decidir | Cómo evalúa y emite un agente con autoridad. |
 | `Principios para agentes con autoridad/Autonomo.md` | ejecutar | Cómo ejecuta cuando el acto altera el entorno. |

@@ -11,6 +11,8 @@
 
 Una instrucción es una delegación de autoridad a un agente. El agente debe poder ejecutarla sin preguntar. El que la escribe no la ejecuta. La instrucción no describe al ejecutor: describe la operación que lo habilita.
 
+Una instrucción no le pide al agente que entienda: le pide que ejecute un cálculo. Si necesita entender para ejecutar, la instrucción falló. El agente no interpreta: recorre compuertas.
+
 Una instrucción que necesita explicar al ejecutor no es instrucción: es una descripción. Una instrucción que el agente puede saltarse no es ley: es un consejo.
 
 ## 1. Cálculo antes de la emisión

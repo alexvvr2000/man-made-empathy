@@ -39,8 +39,10 @@ Un documento cuya forma declara un lector humano —prosa, contexto y decisión,
 **Test:** `La forma declara lector humano → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
 **Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
-### 1.5 Agnosticismo de era y tecnología
-Las normas no nombran **coordenadas de tiempo o de instrumento** —eras, tecnologías, herramientas, modelos, plataformas o versiones—. Se escriben por propiedad y operación.
+### 1.5 Agnosticismo de era, tecnología y especie
+Las normas no nombran **coordenadas de tiempo, instrumento o especie** —eras, tecnologías, herramientas, modelos, plataformas, versiones o especies—. Se escriben por propiedad y operación.
+
+Una regla que nombra una era, una tecnología o una especie se vuelve **dependencia**: muere cuando eso cambia. Se escribe por propiedad. **Test:** quita el nombre; si la regla sigue, es ley; si no, es stack.
 
 Se complementa con el contrato de diseño (`Leyes de Diseño de Instrucciones.md`, `Contratos por Propiedades`). El contrato de agentes lo referencia; no se copia.
 
@@ -117,8 +119,8 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 **Test:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, test o falsificador → no entra`.
 **Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, test o falsificador`.
 
-### 1.13 agents.md como kernel
-`agents.md` es un kernel: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de disparador, destino y una línea de qué hace cada destino. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
+### 1.13 agents.md como disparador
+`agents.md` es un disparador: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de condición, destino y consecuencia. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
 
 **Test:** `Fila sin descripción → falla | Fila que duplica el destino → falla | Fila que no cambia la carga → sobra | Kernel con prosa → falla`.
 **Falsificador:** `agents.md que explica los documentos | Fila con ruta y nada más | Sección que repite el contenido del destino`.
