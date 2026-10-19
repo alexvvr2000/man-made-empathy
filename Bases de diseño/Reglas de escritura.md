@@ -1,6 +1,7 @@
 # Reglas de escritura
 
 **Tipo:** reglas de escritura. Se aplican, no se ejecutan.
+**Aplica a:** escribir
 **Contrato:** reglas-de-escritura
 **Requiere:** ninguno
 **Compatible con:** contrato-de-diseño, contrato-de-agentes

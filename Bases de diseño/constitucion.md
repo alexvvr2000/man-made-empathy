@@ -1,0 +1,128 @@
+# Constitución de la base
+
+**Tipo:** ley. Se aplica, no se ejecuta.
+**Lector:** humano y máquina.
+**Alcance:** todo artefacto dentro de `Bases de diseño/`.
+**Dueño:** la autoridad.
+**Estado:** vigente.
+
+## 1. Leyes de la base
+
+### LEY 0 — Idea vs implementación
+
+Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. Si no es en `Bases de diseño/`, no se toca.
+
+**Enunciado:** un documento de la base no puede necesitar SARA, APRIL, DSH, WAX, skills, agentes con nombre ni el instalador para tener sentido. Las implementaciones se nombran solo como ejemplo marcado y la regla se sostiene sin ellas.
+
+**Test:** quita toda referencia a implementaciones concretas; si el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
+
+**Falsificador:** un documento de `Bases de diseño/` que no se entiende sin nombrar la implementación.
+
+### LEY 1 — El kernel apunta, no contiene
+
+`AGENTS.md` es el cerebro que enruta, no un manual. Contiene solo disparador, destino y una línea de qué pasa. No contiene reglas, ejemplos, explicaciones ni copias de la base. Si una fila no cambia qué se carga, sobra. Si una línea no es disparador, destino o efecto, sobra. Si no cabe en una pantalla, no es kernel. Aplica a todo kernel de enrutamiento, por ejemplo `AGENTS.md` y el de SARA.
+
+**Test:** abre `AGENTS.md`; si tiene una regla, un ejemplo o una explicación, no es kernel. Si cada fila cambia lo que se carga, es kernel.
+
+**Falsificador:** `AGENTS.md` con prosa, reglas, ejemplos, destinos duplicados o una fila que no cambia la carga.
+
+## 2. Tipos de norma
+
+| Tipo | Verbo | Discreción | Cumplimiento | Violación |
+|---|---|---|---|---|
+| Ley | DEBE | ninguna | compuerta | falla |
+| Regla | DEBERÍA | operativa | revisión | se corrige |
+| Principio | PUEDE | criterio | declaración | se declara |
+
+Una norma se clasifica por su modo de cumplimiento, no por su importancia. Si no se puede clasificar, no entra.
+
+## 3. Admisión
+
+Una norma entra solo si pasa las siete compuertas:
+
+1. **Tipo.** ¿Es ley, regla o principio? Sin tipo, no entra.
+2. **Derivación o duplicado.** ¿Se deriva de otra? Se absorbe o se referencia. ¿Falla por la misma razón que otra? Una sobra.
+3. **Observabilidad.** ¿Su cumplimiento es observable? Si no, no entra.
+4. **Decisión.** ¿Su ausencia cambia una decisión? Si no, sobra.
+5. **Calibración.** ¿Puede una norma existente absorberla ajustando alcance, test o ancla? Si sí, se calibra; no se crea.
+6. **Test y falsificador.** ¿Declara el caso que la incumple? Sin eso, no entra.
+7. **Evidencia y autoridad.** ¿Hay caso medido o fuente externa? Sin evidencia queda `en prueba`; sin autoridad no se aplica.
+
+**Alta:** `Tipo | Enunciado | Test | Falsificador | Evidencia | Estado`.
+
+**Estados:** `propuesta → en prueba → vigente → deprecada → retirada`.
+
+**Operaciones:** alta, calibrar, fusionar, escindir, retirar. Toda operación deja registro y, si cambia el nombre, redirección.
+
+## 4. Mapa del núcleo
+
+El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no existe en la base. Si tiene fila y no tiene implementación, existe como mecanismo, pero no está implementado en esta era.
+
+| Artefacto | Funciones | Mecanismo | Invariante | Test |
+|---|---|---|---|---|
+| `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | El agente ejecuta sin preguntar | Una instancia limpia ejecuta la instrucción |
+| `Conversacional.md` | dialogar, decidir | Autoridad, perímetro y trazabilidad | La autoridad responde; el acto se reconstruye | Prueba de Rendición |
+| `Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
+| `Reglas de escritura.md` | escribir | Legibilidad y registro | El mensaje sobrevive al medio | El receptor actúa sin preguntar |
+| `Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
+| `Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin la entidad | Las pruebas pasan |
+| `A.R.E.S/` | expresar | Legible y nativo | La forma transfiere | Una instancia limpia la reproduce |
+
+**Aplicación:** cada norma declara `Aplica a: [función]`. Una norma se activa si su `Aplica a` coincide con una función del artefacto. Si no coincide, no la rige. El artefacto no lleva lista de normas; la norma lleva su alcance.
+
+**Ejemplo:** `Reglas de escritura.md` declara `Aplica a: escribir`; se activa en todo artefacto con función `escribir`.
+
+**Presupuesto:** por función, no por fila. Muchas implementaciones de una función no cuentan; una función nueva sí.
+
+## 5. Validación
+
+Toda norma y todo artefacto se validan con el mismo esquema:
+
+- Toda fila del mapa tiene funciones, mecanismo, invariante y test.
+- Toda norma tiene test y falsificador.
+- No hay duplicados que fallen igual.
+- No hay huérfanos: toda implementación cita su fila del núcleo.
+- No hay copias sin cita.
+- Toda referencia resuelve dentro de la base.
+
+**Test:** si una fila no tiene test, no es norma; es una idea. Si una implementación no cita su núcleo, es una bifurcación.
+
+**Falsificador:** una norma sin test, una fila sin funciones, una implementación sin núcleo.
+
+## 6. Mutación y origen
+
+Toda mutación parte de un **marco de origen** y conserva ese marco. La forma puede cambiar; el origen no se edita. La mutación declara qué cambia, qué conserva y cómo se verifica. Las etiquetas de la era —`agente | instrucción | skill`— son ejemplos marcados; el mecanismo es agnóstico.
+
+**Test:** el cambio se puede rastrear hasta su origen; la fuente no se editó.
+
+**Falsificador:** una mutación sin origen, una fuente editada, un cambio sin declaración.
+
+## 7. Agregar
+
+1. La autoridad dice qué agregar.
+2. Se lee `README.md`, luego esta constitución, luego `Reglas de escritura.md` y `Reglas de mutación.md` si aplica.
+3. Se clasifica la norma y se pasan las siete compuertas.
+4. Se escribe con `Tipo | Enunciado | Test | Falsificador | Evidencia`.
+5. Se actualiza el mapa, se valida y se registra.
+6. Si no pasa, no entra; se reporta.
+
+La lista de pendientes es local (`.contexto/pendientes.md`); no forma parte de la base y no se cita en los documentos.
+
+## 8. Consistencia
+
+La consistencia es una propiedad del mapa, no un documento aparte.
+
+- **Inventario:** el mapa es el inventario. Lo que no tiene fila no existe; lo que tiene fila y no está implementado se declara como vacío.
+- **Cambio formal:** typo, formato o comentario sin cambio de sentido. Se declara y no se revisa.
+- **Cambio semántico:** cambia el sentido, una referencia, una función o un test. Se revisan las filas que comparten función y las referencias que citan el documento.
+- **Dependientes:** si cambia el núcleo, la implementación se invalida; si cambia una implementación, el núcleo no se toca.
+- **Poda:** una fila sin función se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
+- **Reporte y aplicación:** la validación reporta; la mutación aplica con autoridad. El reporte no toca; la aplicación deja registro.
+
+**Test:** `Cambio semántico → dependientes revisados | Cambio formal → sin revisión | Copia sin cita → se elimina | Huérfano → se reporta`.
+
+**Falsificador:** un cambio semántico sin revisión; una copia sin cita; un huérfano sin reporte.
+
+## 9. Portabilidad
+
+La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El kernel de la era (`AGENTS.md`) apunta a `README.md`; la base no apunta al kernel.
