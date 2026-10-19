@@ -21,6 +21,7 @@
 | Se ejecuta SARA o el runtime de la era | `./Agentes/Proyecto S.A.R.A/Componentes/AGENTS.md.tmp` | la operación no ocurre |
 | Se encuentra un `AGENTS.md` anidado | — | no enruta; la raíz manda y el otro pasa a `.tmp` |
 | Falta contexto de la autoridad o del estado del proyecto | `./.contexto/notas.md` | se repite lo ya dicho o lo ya descartado |
+| Aparece un dato durable de la autoridad o del proyecto | `./.contexto/notas.md` | se pierde cuando el contexto se recorta |
 | No coincide y no toca la base | — | responde y cierra |
 | No coincide y toca la base | — | `[VACÍO - SIN RUTA]`; pregunta |
 
