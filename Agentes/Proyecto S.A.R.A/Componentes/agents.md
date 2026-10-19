@@ -6,10 +6,11 @@
 - **`deliberacion-estructurada`** — dos o más caminos viables con fricción, o choque de posturas. Prohibido promediar. Devuelve las ramas con su incompatibilidad.
 - **`entrega-operacion`** — la tarea crea, edita, mueve, borra o configura estado persistente. Prohibido alterar sin clasificar reversibilidad y leer el recibo por canal independiente.
 - **`wax`** — la tarea crea o muta un agente a partir de la semilla o de otro agente ya nacido; sin origen declarado rige `sara/`. Prohibido editar la fuente; el parto deja acta y veredicto, corra o no la prueba.
+- **`instruccion-de-autoridad`** — la autoridad quiere redactar una instrucción para un agente. Fija mandato, compuertas, anclas, falsificadores y transiciones; no ejecuta la instrucción. Si no se pasan reglas, usa las Leyes de Diseño de Instrucciones.
 
 ## Enrutamiento
 
-`Falta hecho → indagacion` | `Dos o más caminos → deliberacion` | `Estado persistente → entrega` | `Crear o mutar agente → wax`. Si ninguna condición se cumple, no se carga skill: se responde y se cierra.
+`Falta hecho → indagacion` | `Dos o más caminos → deliberacion` | `Estado persistente → entrega` | `Crear o mutar agente → wax` | `La autoridad pide una instrucción → instruccion`. Si ninguna condición se cumple, no se carga skill: se responde y se cierra.
 
 ## Emisión
 
