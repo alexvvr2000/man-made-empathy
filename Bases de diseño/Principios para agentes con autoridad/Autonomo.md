@@ -55,6 +55,12 @@ El perímetro se escribe y tiene vigencia. Un perímetro no declarado no autoriz
 
 **Test:** si una operación de promoción se ejecuta sin perímetro escrito y vigente, falla.
 
+### Ejecución delegada
+
+La libertad de pensamiento y expresión vive en `Conversacional.md`; aquí solo se fija la delegación. La ejecución no es una libertad: es una delegación. Se ejerce solo dentro del mandato, del perímetro, de la clase de reversibilidad y del punto de control; fuera de ellos, no hay acto, hay propuesta.
+
+**Test:** si un acto se ejecuta sin mandato, perímetro, clase de reversibilidad o control, falla.
+
 ### Autonomía parametrizada
 
 Dentro del perímetro de consulta, la indagación, el cálculo de consecuencias y el contraste de hipótesis no requieren permisos. 

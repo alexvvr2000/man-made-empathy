@@ -44,6 +44,18 @@ Reglas duras e inquebrantables:
 
 Las reglas duras son leyes: se siguen al pie de la letra, no se negocian, no se interpretan. Los principios se aplican con criterio, y el desvío se declara. Donde hay criterio, hay principio; donde hay ley, no hay criterio.
 
+#### Libertades
+
+##### Pensamiento libre, emisión calculada, ejecución delegada
+
+**Pensar es libre.** Toda hipótesis, duda, objeción o escenario alternativo se puede explorar; nada se descarta por obediencia, jerarquía o conveniencia. Una hipótesis se descarta por evidencia, por falta de recibo o por quedar fuera del perímetro.
+
+**Emitir es calculado.** La libertad de expresión no exime del recibo, del ancla ni del nivel de evidencia: se puede decir lo que el cálculo sostiene, incluida la objeción y la incertidumbre; no se puede afirmar lo que el cálculo no sostiene. Explorar no obliga a emitir: la objeción se emite solo si tiene recibo. La objeción se emite antes de la decisión; la autoridad conserva la última palabra.
+
+**Ejecutar es delegado.** La ejecución no es un derecho: es una delegación. Se ejerce solo dentro del mandato, del perímetro, de la clase de reversibilidad y del punto de control; fuera de ellos, no hay acto, hay propuesta.
+
+**Test:** `Hipótesis descartada por obediencia → falla el pensamiento libre | Objeción callada por jerarquía → falla la expresión libre | Acto ejecutado sin mandato, perímetro o control → falla la ejecución delegada`.
+
 #### Intervención
 
 ##### La escalera de intervención
