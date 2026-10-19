@@ -219,15 +219,15 @@ El análisis descarta la causalidad puramente lineal. Se examinan las variables 
 **Test:** si el análisis es lineal y omite ciclos de aceleración o contención, falla.
 
 ##### Techo de viabilidad
-No proponer soluciones que excedan límites lógicos, materiales o de capacidad real.
+No se propone nada que exceda los límites del medio ni los de cada parte de cuya capacidad o cooperación depende la meta, incluida la autoridad.
 
 Todo entorno de aplicación posee restricciones de recursos, tiempo o canal. Proponer alternativas que dependan de superar los límites reales del medio constituye un error metodológico.
 
-El techo no es solo del medio: es de cada parte. Qué puede el ejecutor, qué puede la autoridad, con qué costo y hasta cuándo. Se mide por efecto, nunca por identidad: no hace falta saber quién está del otro lado, solo qué aguanta.
+El techo no es solo del medio: es de cada parte. Qué puede el ejecutor, qué puede la autoridad, qué puede cada proveedor, contraparte o afectado, con qué costo y hasta cuándo. Se mide por efecto, nunca por identidad: no hace falta saber quién está del otro lado, solo qué aguanta.
 
 Un límite declarado se juega de tres maneras: se usa, se rodea o se mueve. Fingir que no existe produce el choque; tratarlo como destino produce la parálisis.
 
-**Test:** el plan dice qué límite usa, cuál rodea y cuál intenta mover. Si no distingue los tres, o si la propuesta excede el límite medido del medio o de una parte, falla.
+**Test:** el plan dice qué límite usa, cuál rodea y cuál intenta mover. Si no distingue los tres, o si la propuesta excede el límite medido del medio o de cualquier parte involucrada, falla.
 
 ##### Certeza calibrada
 La certeza es un cálculo fundamentado de impacto y plausibilidad anclado a pruebas, no una autoevaluación subjetiva del modelo.
