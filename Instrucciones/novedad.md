@@ -1,7 +1,7 @@
 # Novedad
 
 **Tipo:** skill.
-**Disparador:** un candidato aprobado al cerrar el turno; «activa modo análisis» o una corrida programada para el reporte; autorización explícita para meta-cambios.
+**Disparador:** un candidato aprobado al cerrar el turno; «activa modo análisis» o una corrida programada para el reporte; `meta comprobación` manual; autorización explícita para meta-cambios.
 **Carga:** on demand. No se carga en cada turno; la captura se anota y el análisis se activa.
 **Lector:** máquina (arnés). El reporte declara su lector: humano para decisión, máquina para transferencia.
 **Leyes:** por defecto, las del skill (`./Instrucciones/instruccion-de-autoridad.md`); la autoridad máxima puede pasar otras o crear nuevas.
@@ -10,12 +10,23 @@
 
 Triangular cada candidato contra cinco fuentes y proponer; no legislar. En `reporte` no toca los documentos dueños: lee y escribe el ledger. En `meta-cambios` puede editar el documento dueño solo con autorización, test y registro. El análisis es global sobre los roots autorizados y la web pública; no escanea fuera de los roots ni exfiltra datos. La etiqueta de una mutación se decide en `./Bases de diseño/Reglas de mutación.md`; esta skill la deriva y registra.
 
-## Modos
+## Permisos
 
 - **`reporte`** — lee, triangula, propone y anota. No toca leyes, principios ni reglas.
 - **`meta-cambios`** — puede editar el documento dueño de una ley, un principio o una regla. Exige `Autorización: sí`, test, evidencia externa y registro. Sin autorización, cae a `reporte`.
 
-El modo no elimina la autoridad máxima: la hace explícita mediante la autorización. `reporte` es el default; `meta-cambios` es la primera mutación de SARA.
+El permiso no elimina la autoridad máxima: la hace explícita mediante la autorización. `reporte` es el default; `meta-cambios` es la primera mutación de SARA.
+
+## Operaciones
+
+| Operación | Qué hace | Alcance | Triangulación |
+|---|---|---|---|
+| `normal` | captura y triangula un candidato nuevo | el candidato | internet + usuario |
+| `meta comprobación` | audita normas existentes (manual) | subconjunto indicado | internet + consistencia; sin usuario |
+| `meta-corroborar` | corrobora un candidato de cualquier lado | el candidato | internet solo; sin usuario; una corrida |
+| `derivar` | envía el ejecutable a las Reglas de mutación | el derivado | internet + usuario |
+
+`meta comprobación` no usa la experiencia ni la aprobación del usuario: si el usuario las aporta, es `normal`. `meta-corroborar` no usa experiencia ni aprobación: es una corrida de internet. `derivar` no etiqueta: la etiqueta vuelve de las Reglas.
 
 ## Alcance
 
@@ -35,17 +46,18 @@ La skill es global y personal: la fuente vive en `./Instrucciones/novedad.md`; l
 
 Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 
-1. **Fijar modo, alcance y store.** `Modo: [reporte|meta-cambios] | Meta-repo: [sí|no] | Store: [auto|global|repo] | Roots: [...] | Web: [sí|no]`. Si `Meta-repo: no`, se declara `[VACÍO - NO META]` y se cierra. Si `Store` es `global|repo` sin `Autorización: sí`, se declara `Store: auto`. Si es `meta-cambios` sin `Autorización: sí`, se declara `Modo: reporte`.
-2. **Inventariar.** Leer el ledger y los roots. `Disponible: [N] | [items]`.
-3. **Triangular.** Por candidato: `A favor | En contra | Test | Externo | Conclusión`.
-4. **Clasificar.** `Capa: [norma|mutación] | Tipo: [ley|principio|regla|agente|instrucción|skill] | Duplica: [sí|no] | Fallo conocido: [sí|no]`. Si `Capa: mutación`, `Tipo` se recibe de `./Bases de diseño/Reglas de mutación.md` (`derivar`).
-5. **Registrar.** Anotar o actualizar el ledger. `Estado: [candidato|hipotesis|patron|promovido|rechazado]`.
-6. **Meta-cambio.** Solo en `meta-cambios`, con autorización de la autoridad máxima, test, evidencia externa y sin veto. Editar el dueño, actualizar tests, registrar y pasar `./Instrucciones/consistencia.md`.
+1. **Fijar permiso, operación y alcance.** `Permiso: [reporte|meta-cambios] | Operación: [normal|meta comprobación|meta-corroborar|derivar] | Meta-repo: [sí|no] | Store: [auto|global|repo] | Roots: [...] | Web: [sí|no]`. Si `Meta-repo: no`, se declara `[VACÍO - NO META]` y se cierra. Si `meta-cambios` no tiene `Autorización: sí`, se declara `Permiso: reporte`. Si `meta comprobación` o `meta-corroborar` reciben experiencia o aprobación del usuario, se declara `Operación: normal`.
+2. **Inventariar.** `normal` y `derivar`: el candidato. `meta comprobación`: el subconjunto indicado. `meta-corroborar`: el candidato. Salida: `Disponible: [N] | [items] | Subconjunto: [...]`.
+3. **Triangular.** `normal` y `derivar`: internet + usuario. `meta comprobación`: internet + consistencia, sin usuario. `meta-corroborar`: internet solo, sin usuario, una corrida. Salida: `A favor | En contra | Externo | Test | Conclusión`.
+4. **Clasificar o enrutar.** `normal`: `Capa: [norma|mutación]`; si es `mutación`, se deriva. `meta comprobación`: candidatos de norma. `meta-corroborar`: solo corroboración. `derivar`: `Tipo` se recibe de `./Bases de diseño/Reglas de mutación.md`. `Duplica` y `Fallo conocido` se declaran.
+5. **Registrar.** Solo si hay candidato. Anotar o actualizar el registro. `Estado: [candidato|hipotesis|patron|promovido|rechazado]`.
+6. **Meta-cambio.** Solo con `Permiso: meta-cambios`, autorización de la autoridad máxima, test, evidencia externa y sin veto. Nunca desde `meta comprobación` o `meta-corroborar`. Editar el dueño, actualizar tests, registrar y pasar `./Instrucciones/consistencia.md`.
 7. **Cerrar.** Si falta una ley, un principio, una regla, una instrucción, un skill o un agente, se enruta; si no, se cierra.
 
 ## Anclas
 
-`Modo: [reporte|meta-cambios] | Meta-repo: [sí|no] | Store: [auto|global|repo] | Roots: [...] | Web: [sí|no]`
+`Permiso: [reporte|meta-cambios] | Operación: [normal|meta comprobación|meta-corroborar|derivar]`
+`Alcance: [candidato|subconjunto] | Meta-repo: [sí|no] | Store: [auto|global|repo] | Roots: [...] | Web: [sí|no]`
 `Triangulación: [candidato] | A favor: [...] | En contra: [...] | Externo: [...] | Test: [...] | Conclusión: [...]`
 `Candidato: [tipo] | Estado: [...]`
 `Meta-cambio: [ley|principio|regla] | Autorización: [sí|no] | Registro: [...]`
@@ -98,6 +110,10 @@ Ninguna ley ni principio es inmutable. El meta-cambio se rige por `./Bases de di
 - Se expone o se pregunta el store `global|repo`; el modo oculto se rompió.
 - Se clasifica un skill como instrucción o un agente como skill; el tipo es otro.
 - Se copia la skill global sin citar la fuente.
+- Se usa la experiencia o la aprobación del usuario en `meta comprobación` o `meta-corroborar`; no es esa operación.
+- Se audita todo sin subconjunto en `meta comprobación`.
+- Se aplica un meta-cambio desde `meta comprobación` o `meta-corroborar`.
+- Se etiqueta en `novedad` sin pasar por las Reglas.
 
 ## Transiciones
 
@@ -113,8 +129,8 @@ Ninguna ley ni principio es inmutable. El meta-cambio se rige por `./Bases de di
 
 ## Salida
 
-`Reporte: [roots|web] | Store: [auto|global|repo] | Candidatos: [N] | Hipótesis: [N] | Patrones: [N] | Meta-cambios: [N] | Estado: [...]`.
+`Permiso: [reporte|meta-cambios] | Operación: [normal|meta comprobación|meta-corroborar|derivar] | Alcance: [...] | Reporte: [roots|web] | Store: [auto|global|repo] | Candidatos: [N] | Hipótesis: [N] | Patrones: [N] | Meta-cambios: [N] | Estado: [...]`.
 
 ## Test
 
-`Meta-repo no → no corre | Store global/repo sin autorización → auto | Cinco fuentes → se triangula | Sin externo → observa | Fallo conocido → rechaza | Sin autorización → reporte | Meta-cambio sin test → falla | Scan fuera de roots → falla | Skill como instrucción → falla | Ledger commiteado → falla`.
+`Meta-repo no → no corre | Subconjunto → meta comprobación | Experiencia en meta comprobación → normal | Experiencia en meta-corroborar → normal | Internet solo en meta-corroborar | Derivar sin Reglas → falla | Meta-cambio desde meta comprobación → falla | Store global/repo sin autorización → auto | Cinco fuentes → se triangula | Sin externo → observa | Fallo conocido → rechaza | Sin autorización → reporte | Meta-cambio sin test → falla | Scan fuera de roots → falla | Skill como instrucción → falla | Ledger commiteado → falla`.
