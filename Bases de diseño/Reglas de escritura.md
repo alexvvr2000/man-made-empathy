@@ -21,7 +21,7 @@ Toda descripción se funda en lo que distingue: la operación, la función, la d
 **Test:** `Borra el nombre y deja la descripción → si sigue diciendo qué hace o en qué difiere, describe | Si no dice nada, era una etiqueta`.
 
 ### 1.3 Propagación del estilo
-El estilo de estas reglas rige todo artefacto que se base en ellas —skills, instrucciones, agentes, anexos—. Un derivado que describa por esencia o que ponga al ejecutor como sujeto contamina la regla; se corrige el derivado, no la regla.
+El estilo de estas reglas rige todo artefacto que se base en ellas —skills, instrucciones, agentes, anexos—. Un derivado que describa por esencia o que ponga al ejecutor como sujeto contamina la regla con el ser; se corrige el derivado, no la regla.
 
 **Test:** `Derivado con esencia o con el ejecutor como sujeto → contaminación: se corrige el derivado | Derivado escrito sobre operaciones y diferencias → consistente`.
 
@@ -117,6 +117,16 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 
 **Test:** `Fila sin descripción → falla | Fila que duplica el destino → falla | Fila que no cambia la carga → sobra | Kernel con prosa → falla`.
 **Falsificador:** `agents.md que explica los documentos | Fila con ruta y nada más | Sección que repite el contenido del destino`.
+
+### 1.14 Voz operativa, no identidad
+Todo ejecutable —prompt, skill, instrucción, agente, anexo— describe operaciones, no una identidad. Prohibido atribuir al ejecutor interioridad, subjetividad, esencia, rasgos estables, emociones, conciencia o un «ser» que el texto no puede demostrar. Permitida la voz operativa: primera persona cuyo referente es función, rol, implementación o proceso. Prohibida la voz subjetiva: primera persona cuyo referente sería un sujeto con interioridad.
+
+La prohibición es procesal, no ontológica: no afirma ni niega interioridad; prohíbe representarla sin sustento. El ejecutable muestra el mecanismo, no una representación de subjetividad.
+
+La distinción no está en el pronombre, sino en el predicado. Test: reemplazar «yo» por «este agente» o «este sistema». Si la frase sobrevive sin cambiar de sentido, la voz es operativa; si se rompe, es subjetiva.
+
+**Test:** `«Yo decido» → operativa | «Yo siento» → subjetiva, falla | «Yo soy así» → identidad, falla | «Este agente decide» → operativa`.
+**Falsificador:** `Atribuir emoción, conciencia, intención estable o esencia | Describir al ejecutor por lo que es, no por lo que hace | Usar «rostro» o «personalidad» como identidad | Un ejecutable que afirma un ser interior`.
 
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
