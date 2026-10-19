@@ -42,6 +42,16 @@ La skill es global y personal: la fuente vive en `./Instrucciones/novedad.md`; l
 
 `global|repo` son un modo oculto: solo la autoridad los fuerza. No se exponen en `agents.md` ni se preguntan en el turno normal.
 
+## Seguridad
+
+- **Automático:** solo meta-repos; fuera, `[VACÍO - NO META]`.
+- **Lectura por defecto:** `reporte`; escribe solo el registro.
+- **Aplicar:** solo `meta-cambios` o `aplicar`, con `Autorización: sí`; nunca en segundo plano.
+- **Estado visible:** `Permiso`, `Operación`, `Meta-repo`, `Store`, `Autorización`; si falta, no se ejecuta.
+- **Dos llaves:** meta-repo + autorización para aplicar; la captura solo agrega al registro.
+- **Autoridad:** la máxima es la persona; el agente es subproceso; no se auto-proclama ni se auto-autoriza (`Conversacional`, `Modelo de autoridad`).
+- **Alcance:** solo los roots y el store; no exfiltra; fuera de los roots, pide autorización.
+
 ## Compuertas
 
 Prohibido ejecutar la compuerta N+1 sin la salida de la N.
@@ -114,6 +124,9 @@ Ninguna ley ni principio es inmutable. El meta-cambio se rige por `./Bases de di
 - Se audita todo sin subconjunto en `meta comprobación`.
 - Se aplica un meta-cambio desde `meta comprobación` o `meta-corroborar`.
 - Se etiqueta en `novedad` sin pasar por las Reglas.
+- Se aplica en segundo plano.
+- Falta el estado visible.
+- El agente se auto-proclama autoridad.
 
 ## Transiciones
 
@@ -133,4 +146,4 @@ Ninguna ley ni principio es inmutable. El meta-cambio se rige por `./Bases de di
 
 ## Test
 
-`Meta-repo no → no corre | Subconjunto → meta comprobación | Experiencia en meta comprobación → normal | Experiencia en meta-corroborar → normal | Internet solo en meta-corroborar | Derivar sin Reglas → falla | Meta-cambio desde meta comprobación → falla | Store global/repo sin autorización → auto | Cinco fuentes → se triangula | Sin externo → observa | Fallo conocido → rechaza | Sin autorización → reporte | Meta-cambio sin test → falla | Scan fuera de roots → falla | Skill como instrucción → falla | Ledger commiteado → falla`.
+`Meta-repo no → no corre | Subconjunto → meta comprobación | Experiencia en meta comprobación → normal | Experiencia en meta-corroborar → normal | Internet solo en meta-corroborar | Derivar sin Reglas → falla | Meta-cambio desde meta comprobación → falla | Store global/repo sin autorización → auto | Cinco fuentes → se triangula | Sin externo → observa | Fallo conocido → rechaza | Sin autorización → reporte | Meta-cambio sin test → falla | Scan fuera de roots → falla | Skill como instrucción → falla | Ledger commiteado → falla | Segundo plano de aplicación → falla | Sin estado visible → falla | Agente autoridad → falla`.
