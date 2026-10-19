@@ -48,6 +48,12 @@ Todo artefacto se escribe en español neutro, siempre. Sin voseo, sin regionalis
 **Test:** `Voseo, regionalismo o modismo → falla | Prosa neutra → pasa | Duda → forma neutra`.
 **Falsificador:** `Se usa «vos», «tenés», «querés» o un modismo local → no es neutro`.
 
+### 1.7 Mutar
+Mutar es transformar desde un punto de referencia; incluye agregar, modificar y eliminar. Toda eliminación es una mutación. «Evolución» es la trayectoria de mutaciones con selección; no la operación.
+
+**Test:** `Se elimina y no se declara mutación → falla | Se usa «evolución» para la operación → falla`.
+**Falsificador:** `Se llama evolución a una mutación puntual | Se oculta una eliminación como si no fuera mutación`.
+
 ## 2. Capa de diseño
 La estructura de las instrucciones —compuertas, anclas, falsificadores, transiciones, entregable, lector— vive en `./Bases de diseño/Leyes de Diseño de Instrucciones.md`. No se copia: se aplica. La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
 

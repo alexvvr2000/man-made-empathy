@@ -7,32 +7,43 @@
 **Lector:** máquina (arnés). El plan declara su lector: humano para decisión, máquina para transferencia.
 **Leyes:** por defecto, las del skill (`./Instrucciones/instruccion-de-autoridad.md`); la autoridad máxima puede pasar otras o crear nuevas.
 
+## Permisos
+
+- **`reporte`** — detecta, marca y reporta. No toca los documentos dueños.
+- **`aplicar`** — con `Autorización: sí`, corrige, muta y elimina lo que ya no se sostiene o no se menciona. Sin autorización, cae a `reporte`.
+
 ## Mandato
 
-Quien ejecuta esta instrucción revisa que el cambio se refleje en sus dependientes. No reescribe los documentos: detecta, marca y enruta. La regla de consistencia vive en `./Bases de diseño/Principios para agentes con autoridad/Conversacional.md` (`Consistencia cruzada`); esta instrucción la aplica. Las referencias se escriben relativas a la raíz con `./`; no se usan rutas absolutas ni `../`. Un movimiento o renombre de carpeta obliga a revisar las rutas de los dependientes. La revisión se hace contra el inventario completo de lo disponible, no contra una copia ni una selección.
+Quien ejecuta esta instrucción revisa que el cambio se refleje en sus dependientes. En `reporte` no toca los documentos dueños: detecta, marca y reporta. En `aplicar`, con autorización, corrige, muta y elimina lo que ya no se sostiene o no se menciona; no deja rastros. La regla de consistencia vive en `./Bases de diseño/Principios para agentes con autoridad/Conversacional.md` (`Consistencia cruzada`); esta instrucción la aplica. Las referencias se escriben relativas a la raíz con `./`; no se usan rutas absolutas ni `../`. Un movimiento o renombre de carpeta obliga a revisar las rutas de los dependientes. La revisión se hace contra el inventario completo de lo disponible, no contra una copia ni una selección.
 
 ## Compuertas
 
 Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 
-1. **Detectar el cambio.** `Cambio: [documento] | Tipo: [semántico|formal] | Alcance: [ley|regla|referencia|instrucción|README|carpeta]`. Si el tipo es `formal` (typo, formato, sin cambio de sentido), se declara `Cambio: formal | Sin revisión` y se cierra.
-2. **Inventariar lo disponible.** Listar los documentos, instrucciones y tests que existen. Salida: `Disponible: [N] | [items]`.
-3. **Consultar dependencias.** Leer la tabla de `## Dependencias` y listar los dependientes del tipo de cambio. `Dependientes: [N] | [documentos]`.
-4. **Revisar el inventario.** Por cada item disponible: `Revisión: [documento] | Qué: [sección] | Resultado: [sin cambio|requiere cambio|no aplica|pendiente]`. Los dependientes se revisan; el resto se marca `no aplica` con la razón.
-5. **Registrar.** `Disponible: [N] | Revisado: [items] | No aplica: [items] | Pendiente: [items] | Consistencia: [pasa|falla en N]`.
-6. **Cerrar.** Si falta una ley, una instrucción o una regla, se enruta; si no, se cierra.
+1. **Fijar permiso.** `Permiso: [reporte|aplicar] | Autorización: [sí|no]`. Si `aplicar` no tiene `Autorización: sí`, se declara `Permiso: reporte`.
+2. **Detectar el cambio.** `Cambio: [documento] | Tipo: [semántico|formal] | Alcance: [ley|regla|referencia|instrucción|README|carpeta]`. Si el tipo es `formal` (typo, formato, sin cambio de sentido), se declara `Cambio: formal | Sin revisión` y se cierra.
+3. **Inventariar lo disponible.** Listar los documentos, instrucciones y tests que existen. Salida: `Disponible: [N] | [items]`.
+4. **Consultar dependencias.** Leer la tabla de `## Dependencias` y listar los dependientes del tipo de cambio. `Dependientes: [N] | [documentos]`.
+5. **Revisar el inventario.** Por cada item disponible: `Revisión: [documento] | Qué: [sección] | Resultado: [sin cambio|requiere cambio|no aplica|pendiente]`. Los dependientes se revisan; el resto se marca `no aplica` con la razón.
+6. **Podar.** En `aplicar`, eliminar lo que ya no se sostiene o no se menciona. Salida: `Eliminado: [...]`. En `reporte`: `Podar: pendiente`.
+7. **Registrar.** `Permiso: [reporte|aplicar] | Disponible: [N] | Revisado: [items] | No aplica: [items] | Pendiente: [items] | Eliminado: [items] | Consistencia: [pasa|falla en N]`.
+8. **Cerrar.** Si falta una ley, una instrucción o una regla, se enruta; si no, se cierra.
 
 ## Anclas
 
+`Permiso: [reporte|aplicar] | Autorización: [sí|no]`
 `Cambio: [documento] | Tipo: [semántico|formal] | Alcance: [...]`
 `Disponible: [N] | [items]`
 `Revisión: [documento] | Qué: [sección] | Resultado: [...]`
 `Revisado: [items] | No aplica: [items] | Pendiente: [items]`
+`Eliminado: [items]`
 `Consistencia: [pasa|falla en N]`
 
 ## Disponible
 
 El inventario se toma de lo que existe, no de lo que la tabla espera. Se recorre completo: cada documento, instrucción o test disponible se marca `revisado`, `no aplica` o `pendiente` con la razón. Ninguno se omite por conveniencia.
+
+La poda se hace contra el inventario: lo que no se menciona ni se sostiene se elimina en `aplicar`; en `reporte` se marca.
 
 `Disponible: [N] | [items]`
 
@@ -80,6 +91,8 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 - **Documento nuevo:** si existe y no está en la tabla, se agrega al inventario y se declara `sin dependencia` o `pendiente`; no se omite.
 - **Movimiento o renombre:** se revisan las referencias `./` de los dependientes; se marcan para corrección; una ruta que no resuelve falla.
 - **Meta-cambio:** se revisan el dueño, los tests y el ledger; si rompe una ley o un principio, se rechaza.
+- **Rastro no mencionado:** en `aplicar` se elimina; en `reporte` se marca.
+- **Copia sin dueño:** se elimina; no se conserva.
 
 ## Falsificadores
 
@@ -91,6 +104,10 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 - Se usa una ruta absoluta o `../`; la referencia no es relativa a la raíz.
 - Una referencia o una ruta relativa no resuelve; la instrucción está rota.
 - Un meta-cambio sin test o sin registro; la ley quedó sin prueba.
+- Queda un rastro no mencionado; alucinación.
+- Se elimina sin autorización.
+- Se aplica en modo `reporte`.
+- Se conserva una copia sin dueño ni mención.
 
 ## Transiciones
 
@@ -101,8 +118,8 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 
 ## Salida
 
-`Plan: [documentos revisados] | Disponible: [N] | Revisado: [items] | No aplica: [items] | Pendiente: [items] | Consistencia: [pasa|falla en N]`.
+`Permiso: [reporte|aplicar] | Plan: [documentos revisados] | Disponible: [N] | Revisado: [items] | No aplica: [items] | Pendiente: [items] | Eliminado: [items] | Consistencia: [pasa|falla en N]`.
 
 ## Test
 
-`Inventario completo → se revisa | Documento disponible omitido → falla | Sin inventario → falla | Cambio semántico → plan con inventario | Cambio formal → sin revisión | Copia sin original → falla | Referencia rota → falla | Ruta relativa rota → falla | Meta-cambio sin test → falla`.
+`Inventario completo → se revisa | Documento disponible omitido → falla | Sin inventario → falla | Cambio semántico → plan con inventario | Cambio formal → sin revisión | Copia sin original → falla | Referencia rota → falla | Ruta relativa rota → falla | Meta-cambio sin test → falla | Reporte no elimina | Aplicar sin autorización → falla | Rastro no mencionado → falla`.
