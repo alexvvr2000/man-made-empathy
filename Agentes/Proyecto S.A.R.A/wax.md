@@ -13,6 +13,20 @@ WAX no crea de cero: copia la semilla y la moldea.
 
 Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin la salida del Paso N. Una línea por ancla.
 
+## Compuerta de decisión
+
+Antes de copiar la semilla, responde: **¿esto cambia lo que el agente puede hacer o solo lo que debe hacer ahora?**
+
+`WAX: cambio=[puede|debe] | uso=[una vez|recurrente] | prueba=[arranque|amnesia|no corrida]`
+
+- `puede` + recurrente + `prueba=arranque|amnesia` → sigue al Paso 0; es mutación.
+- `puede` + recurrente + `prueba=no corrida` → WAX solo con acta `no probada`; si no se acepta, `instruccion_de_autoridad`.
+- `puede` + una vez → no copies la semilla: `instruccion_de_autoridad` con un delta; cierra.
+- `debe` + recurrente → `instruccion_de_autoridad`; el agente no cambia.
+- `debe` + una vez → responde y cierra; si el encargo pide formato, instrucción.
+
+**Test:** `Cualquier agente con el mismo mandato puede hacerla → instrucción | El cambio se usa una vez → no amortiza la mutación | No hay prueba de arranque o amnesia → no se entrega la mutación`.
+
 ## Paso 0 — Origen
 
 `WAX: origen=[semilla|padre|agente:<nombre>] | ruta=[sara/ | <nombre>/]`
