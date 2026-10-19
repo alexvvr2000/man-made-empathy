@@ -2,7 +2,7 @@
 
 **Tipo:** ley. Se aplica, no se ejecuta.
 **Lector:** humano y máquina.
-**Alcance:** todo artefacto dentro de `Bases de diseño/`.
+**Alcance:** todo artefacto de este repositorio.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 

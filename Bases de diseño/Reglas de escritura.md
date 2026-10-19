@@ -6,7 +6,7 @@
 **Contrato:** reglas-de-escritura
 **Requiere:** ninguno
 **Compatible con:** contrato-de-diseño, contrato-de-agentes
-**Alcance:** toda tarea y todo documento bajo la raíz que declare el instalador.
+**Alcance:** todo artefacto de este repositorio.
 
 Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La estructura de las instrucciones vive en el contrato de diseño (`Leyes de Diseño de Instrucciones.md`); este documento no la repite.
 
