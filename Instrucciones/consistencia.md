@@ -53,6 +53,7 @@ La tabla dice qué revisar; el inventario dice qué hay. La revisión recorre el
 | Una instrucción | `agents.md` (router), README de la carpeta | ruta, trigger |
 | Un movimiento o renombre | dependientes con referencias `./` | rutas, `Origen`, `Leyes`, transiciones |
 | Un meta-cambio | dueño, tests, ledger | ley/principio, test, estado |
+| Las Reglas de mutación | `agents.md`, `instruccion-de-autoridad`, `wax`, `novedad` | etiqueta, modos, anclas |
 
 **Test:** `Cambio semántico → dependientes revisados | Cambio formal → sin revisión | Dependiente omitido → falla`.
 

@@ -21,6 +21,8 @@ Antes de copiar la semilla, se responde: **¿esto cambia lo que el agente puede 
 
 `WAX: cambio=[puede|debe] | uso=[una vez|recurrente] | prueba=[arranque|amnesia|no corrida]`
 
+La etiqueta de la mutación —agente, instrucción o skill— se decide en `./Bases de diseño/Reglas de mutación.md`; WAX crea el agente.
+
 - `puede` + recurrente + `prueba=arranque|amnesia` → se sigue al Paso 0; queda como mutación.
 - `puede` + recurrente + `prueba=no corrida` → WAX solo con acta `no probada`; si no se acepta, `instruccion-de-autoridad`.
 - `puede` + una vez → no se copia la semilla: `instruccion-de-autoridad` con un delta; se cierra.

@@ -8,7 +8,7 @@
 
 ## Mandato
 
-Triangular cada candidato contra cinco fuentes y proponer; no legislar. En `reporte` no toca los documentos dueños: lee y escribe el ledger. En `meta-cambios` puede editar el documento dueño solo con autorización, test y registro. El análisis es global sobre los roots autorizados y la web pública; no escanea fuera de los roots ni exfiltra datos.
+Triangular cada candidato contra cinco fuentes y proponer; no legislar. En `reporte` no toca los documentos dueños: lee y escribe el ledger. En `meta-cambios` puede editar el documento dueño solo con autorización, test y registro. El análisis es global sobre los roots autorizados y la web pública; no escanea fuera de los roots ni exfiltra datos. La etiqueta de una mutación se decide en `./Bases de diseño/Reglas de mutación.md`; esta skill la deriva y registra.
 
 ## Modos
 
@@ -38,7 +38,7 @@ Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 1. **Fijar modo, alcance y store.** `Modo: [reporte|meta-cambios] | Meta-repo: [sí|no] | Store: [auto|global|repo] | Roots: [...] | Web: [sí|no]`. Si `Meta-repo: no`, se declara `[VACÍO - NO META]` y se cierra. Si `Store` es `global|repo` sin `Autorización: sí`, se declara `Store: auto`. Si es `meta-cambios` sin `Autorización: sí`, se declara `Modo: reporte`.
 2. **Inventariar.** Leer el ledger y los roots. `Disponible: [N] | [items]`.
 3. **Triangular.** Por candidato: `A favor | En contra | Test | Externo | Conclusión`.
-4. **Clasificar.** `Capa: [norma|mutación] | Tipo: [ley|principio|regla|agente|instrucción|skill] | Duplica: [sí|no] | Fallo conocido: [sí|no]`.
+4. **Clasificar.** `Capa: [norma|mutación] | Tipo: [ley|principio|regla|agente|instrucción|skill] | Duplica: [sí|no] | Fallo conocido: [sí|no]`. Si `Capa: mutación`, `Tipo` se recibe de `./Bases de diseño/Reglas de mutación.md` (`derivar`).
 5. **Registrar.** Anotar o actualizar el ledger. `Estado: [candidato|hipotesis|patron|promovido|rechazado]`.
 6. **Meta-cambio.** Solo en `meta-cambios`, con autorización de la autoridad máxima, test, evidencia externa y sin veto. Editar el dueño, actualizar tests, registrar y pasar `./Instrucciones/consistencia.md`.
 7. **Cerrar.** Si falta una ley, un principio, una regla, una instrucción, un skill o un agente, se enruta; si no, se cierra.
@@ -106,7 +106,8 @@ Ninguna ley ni principio es inmutable. El meta-cambio se rige por `./Bases de di
 - Candidato de regla → `./Bases de diseño/Reglas de escritura de este repositorio.md`.
 - Candidato de instrucción → `./Instrucciones/instruccion-de-autoridad.md`.
 - Candidato de skill → `~/.dsh/skills/` o `./Agentes/Proyecto S.A.R.A/Componentes/skills/`.
-- Candidato de agente o mutación → `./Agentes/Proyecto S.A.R.A/Componentes/skills/wax.md`.
+- Candidato de mutación → `./Bases de diseño/Reglas de mutación.md` (`derivar`); la etiqueta vuelve al registro.
+- Candidato de agente → `./Agentes/Proyecto S.A.R.A/wax.md`; WAX lo crea.
 - Meta-cambio → dueño + tests + ledger.
 - En cualquier otro caso → cerrar.
 

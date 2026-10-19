@@ -39,11 +39,12 @@ Elige una forma y declara por qué:
 - **Consulta:** no altera estado persistente. Cierra con la respuesta y su recibo.
 - **Operación:** altera estado persistente. Encadena `entrega-operacion`.
 - **Deliberación:** dos o más caminos con fricción. Encadena `deliberacion-estructurada`.
-- **Creación o mutación de agente:** encadena `wax`.
+- **Creación o mutación de agente:** la etiqueta `agente` se decide en `./Bases de diseño/Reglas de mutación.md`; WAX la crea.
+- **Skill:** capacidad recurrente; la etiqueta se decide en `./Bases de diseño/Reglas de mutación.md`; no se escribe aquí.
 
-`Forma: [consulta | operación | deliberación | agente] | Motivo: [una línea]`
+`Forma: [consulta | operación | deliberación | agente | skill] | Motivo: [una línea]`
 
-Si la forma no encaja en ninguna, se declara `[VACÍO - FORMA]` y se decide con la autoridad. No se inventa una quinta.
+Si la forma no encaja en ninguna, se declara `[VACÍO - FORMA]` y se decide con la autoridad. No se inventa otra.
 
 ## 4. Compuerta de escritura
 
@@ -56,6 +57,25 @@ La instrucción contiene, en este orden:
 5. **Transiciones.** Cerrar, `deliberacion-estructurada`, `entrega-operacion` o `wax`, con `En cualquier otro caso`.
 6. **Salida.** La forma exacta del resultado según el lector: bloque único y campos nombrados para máquina; contexto, razones y formato de lectura para humano.
 7. **Versión.** Si cambia un campo del mandato, se reemite la instrucción completa; no se parchea con la conversación.
+
+### Criterio de tipo
+
+La etiqueta de una mutación —instrucción, skill o agente— se decide en `./Bases de diseño/Reglas de mutación.md`; no se copia aquí. Esta fábrica escribe instrucciones; si el candidato es skill o agente, se deriva a las Reglas.
+
+Para una norma, la ruta es:
+
+| Señal | Decisión |
+|---|---|
+| Cambia un criterio de diseño | ley → `Leyes` |
+| Cambia un criterio de juicio | principio → `Conversacional` |
+| Cambia la forma de escribir | regla → maestro |
+| Sin test | observar; no crear |
+| Duplica una ley/principio | referenciar; no crear |
+| Reproduce un fallo conocido | rechazar o rediseñar |
+| Evidencia externa en contra | rechazar |
+| Sin evidencia externa | observar |
+
+Es la misma lógica de WAX: `puede`/`debe`, recurrencia, test y autoridad. La evidencia externa es un veto, no un voto.
 
 ## 5. Compuerta de validación
 
@@ -80,6 +100,7 @@ Criterios de validación. Copia operativa de las Leyes de Diseño de Instruccion
 | La copia se paga con contexto | ¿La copia se justifica por uso repetido, cita el original y declara su sincronización? |
 | Quien produce no certifica | ¿La verificación es de otro canal o runtime? |
 | El formato sigue al lector | ¿El artefacto declara si es para máquina o humano y usa el formato que ese lector exige? |
+| Revisabilidad | ¿La ley se puede falsar y revisar con la triangulación? |
 
 Si falla una, corrige o declara la falta; no emitas. La validación es un control de producción, no una certificación; la instrucción se certifica con la autoridad o con un runtime distinto.
 
