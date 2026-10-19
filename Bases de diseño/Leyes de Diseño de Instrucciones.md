@@ -153,3 +153,12 @@ La verificación no la firma el mismo que produjo. Un productor puede describir 
 
 - **Regla:** el artefacto se verifica con un criterio y un canal distintos de los que lo generaron. Si el mismo acto produce y comprueba, no hay comprobación.
 - **Test:** `Si el productor puede alterar el resultado y el veredicto a la vez → no hay verificación`.
+
+---
+
+## El Formato Sigue Al Lector
+Todo artefacto declara su lector: máquina o humano. El formato del entregable se deriva de ese lector, no del gusto de quien escribe.
+
+- **Regla:** si el lector es máquina, el entregable usa campos con nombre, anclas, compuertas y salida determinista; si es humano, usa contexto, razones, formato de lectura y una decisión posible. No se mezclan: un artefacto para máquina no se escribe como ensayo; uno para humano no se escribe como volcado de campos. Si el mismo contenido va a los dos, se entregan dos formatos, no uno ambiguo.
+- **Árbol cerrado:** `Máquina → campos, anclas, compuertas y salida determinista | Humano → contexto, razones, formato de lectura y decisión | Lector no declarado → no se emite`.
+- **Test:** `Lector no declarado → formato ambiguo: no se emite | Máquina sin los campos, anclas o compuertas que la tarea exige → no ejecutable | Humano sin contexto, razones o decisión → no decidible`.

@@ -77,6 +77,7 @@ Criterios de validación. Copia operativa de las Leyes de Diseño de Instruccion
 | La referencia no se explica | ¿La llamada repite lo que la instrucción referenciada ya dice? |
 | La copia se paga con contexto | ¿La copia se justifica por uso repetido, cita el original y declara su sincronización? |
 | Quien produce no certifica | ¿La verificación es de otro canal o runtime? |
+| El formato sigue al lector | ¿El artefacto declara si es para máquina o humano y usa el formato que ese lector exige? |
 
 Si falla una, corrige o declara la falta; no emitas. La validación es un control de producción, no una certificación; la instrucción se certifica con la autoridad o con un runtime distinto.
 
