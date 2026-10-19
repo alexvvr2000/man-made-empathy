@@ -140,6 +140,7 @@ La consistencia es una propiedad del mapa, no un documento aparte.
 - **Cambio formal:** typo, formato o comentario sin cambio de sentido. Se declara y no se revisa.
 - **Cambio semántico:** cambia el sentido, una referencia, una tarea o un test. Se revisan las filas que comparten tarea y las referencias que citan el documento.
 - **Dependientes:** si cambia el núcleo, la implementación se invalida; si cambia una implementación, el núcleo no se toca.
+- **Deriva:** al cambiar una idea, se aplica su `Test` a cada artefacto que declare esa tarea; si su `Falsificador` se cumple, hay deriva. El reporte nombra artefacto, ruta y línea, y no edita: la corrección la aplica la autoridad.
 - **Poda:** una fila sin tarea se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
 - **Reporte y aplicación:** la validación reporta; la mutación aplica con autoridad. El reporte no toca; la aplicación deja registro.
 

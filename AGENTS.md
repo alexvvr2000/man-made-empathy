@@ -13,6 +13,7 @@
 | Se piensa o diseña una tarea | `./Bases de diseño/README.md` y `./Bases de diseño/constitucion.md` | la tarea queda sin sistema |
 | Se ejecuta una tarea | `./Bases de diseño/README.md` y el documento de la tarea | la tarea no ocurre |
 | Se agrega, revisa o admite una norma | `./Bases de diseño/constitucion.md` | la norma no entra |
+| Se cambia una idea de la base | `./Bases de diseño/constitucion.md` §8 y el documento cambiado | la implementación deriva sin reporte |
 | Se transforma una tarea | `./Bases de diseño/Reglas de mutación.md` | el cambio queda sin origen |
 | Se escribe una tarea | `./Bases de diseño/Reglas de escritura.md` | la tarea no se lee |
 | Se evalúa una tarea | `./Bases de diseño/Pruebas/readme.md` | el veredicto no cuenta |
