@@ -23,14 +23,14 @@ Todo lo ejecutable es una mutación. La etiqueta es conveniencia, no esencia: SA
 | Etiqueta | Cuándo | Dónde | Prueba |
 |---|---|---|---|
 | `agente` | entidad persistente con roles, autonomía y memoria; coordina o sobrevive al turno | `wax` | Si no necesita persistencia, no es agente |
-| `skill` | capacidad recurrente con trigger, entradas y salidas; se invoca | `~/.dsh/skills/` o SARA skills | Si no se puede invocar como capacidad, no es skill |
+| `skill` | capacidad recurrente con disparador, entradas y salidas; se invoca | `~/.dsh/skills/` o skills de SARA | Si no se puede invocar como capacidad, no es skill |
 | `instrucción` | secuencia de una tarea; no necesita persistencia ni invocación | `./Instrucciones/` | Si no es una secuencia, no es instrucción |
 
 La memoria es una parte; no decide sola. Si la memoria es persistente y la entidad tiene roles y autonomía, la etiqueta útil es `agente`. Si es una capacidad invocable, `skill`. Si es una secuencia, `instrucción`. La etiqueta es una decisión de conveniencia; SARA puede mutar a otra después.
 
 ## Triangulación
 
-La triangulación es la de `./Instrucciones/novedad.md` (`Triangulación`): cinco fuentes, externo con veto, prior art, fallo conocido y prueba. Se aplica a la etiqueta. `meta-corroborar` es internet solo, sin usuario, una corrida.
+La triangulación es la de `./Instrucciones/novedad.md` (`Triangulación`): cinco fuentes, externo con veto, arte previo, fallo conocido y prueba. Se aplica a la etiqueta. `meta-corroborar` es internet solo, sin usuario, una corrida.
 
 La etiqueta se decide por uso, no por esencia. La prueba de la etiqueta es la de `## Criterio`.
 

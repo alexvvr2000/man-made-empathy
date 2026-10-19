@@ -1,9 +1,9 @@
-# agents.md — Índice on demand
+# agents.md — Índice bajo demanda
 
 **Tipo:** índice. No carga instrucciones por sí solo.
 **Alcance:** todo artefacto de este repositorio.
 **Uso:** se carga solo la fila que coincide; el resto no se carga.
-**Cada turno:** si hubo un cambio nuevo aprobado, se anota un candidato en el store que corresponda (`novedad.md`); no se crea ley.
+**Cada turno:** si hubo un cambio nuevo aprobado, se anota un candidato en el almacén que corresponda (`novedad.md`); no se crea ley.
 **Seguridad:** automático solo en meta-repos; lectura por defecto; aplicar solo con autorización; sin segundo plano de aplicación.
 
 | Quiero... | Cargo... |

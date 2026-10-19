@@ -3,7 +3,7 @@
 **Tipo:** instrucción.
 **Origen:** ./Instrucciones/instruccion-de-autoridad.md.
 **Disparador:** cambia un documento, una ley, una regla, una referencia o una instrucción.
-**Carga:** on demand. Se carga solo si el disparador coincide; no se carga en cada turno.
+**Carga:** bajo demanda. Se carga solo si el disparador coincide; no se carga en cada turno.
 **Lector:** máquina (arnés). El plan declara su lector: humano para decisión, máquina para transferencia.
 **Leyes:** por defecto, las del skill (`./Instrucciones/instruccion-de-autoridad.md`); la autoridad máxima puede pasar otras o crear nuevas.
 
@@ -60,10 +60,10 @@ La tabla dice qué revisar; el inventario dice qué hay. La revisión recorre el
 | Una regla de escritura | `agents.md`, `Leyes` (lector), derivados | forma, `Lector`, referencias |
 | Un principio | `Autonomo`, SARA `agents.md`, tests | leyes duras, principios, consistencia |
 | Una ley dura | `Conversacional`/`Autonomo`, SARA skills, tests | consistencia, ejecución |
-| Un disparador o ruta | skills, `Instrucciones/README` | trigger, ruta |
-| Una instrucción | `agents.md` (router), README de la carpeta | ruta, trigger |
+| Un disparador o ruta | skills, `Instrucciones/README` | disparador, ruta |
+| Una instrucción | `agents.md` (enrutador), README de la carpeta | ruta, disparador |
 | Un movimiento o renombre | dependientes con referencias `./` | rutas, `Origen`, `Leyes`, transiciones |
-| Un meta-cambio | dueño, tests, ledger | ley/principio, test, estado |
+| Un meta-cambio | dueño, tests, registro | ley/principio, test, estado |
 | Las Reglas de mutación | `agents.md`, `instruccion-de-autoridad`, `wax`, `novedad` | etiqueta, modos, anclas |
 
 **Test:** `Cambio semántico → dependientes revisados | Cambio formal → sin revisión | Dependiente omitido → falla`.
@@ -87,10 +87,10 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 - **Regla de escritura nueva:** se agrega a `Reglas de escritura`, se revisa `agents.md` y los derivados.
 - **Cambio en agnosticismo:** se revisan `Leyes` (`Contratos por Propiedades`), `Conversacional` (`Agnosticismo de medios`) y las instrucciones; un ejemplo marcado con tecnología no se toca.
 - **Cambio en SARA:** se revisan `Conversacional`/`Autonomo` y el `agents.md` de SARA; y al revés.
-- **Instrucción nueva:** se genera con `instruccion-de-autoridad` y se agrega al router de `agents.md`; el README de `Instrucciones` solo se toca si cambia el mapa.
+- **Instrucción nueva:** se genera con `instruccion-de-autoridad` y se agrega al enrutador de `agents.md`; el README de `Instrucciones` solo se toca si cambia el mapa.
 - **Documento nuevo:** si existe y no está en la tabla, se agrega al inventario y se declara `sin dependencia` o `pendiente`; no se omite.
 - **Movimiento o renombre:** se revisan las referencias `./` de los dependientes; se marcan para corrección; una ruta que no resuelve falla.
-- **Meta-cambio:** se revisan el dueño, los tests y el ledger; si rompe una ley o un principio, se rechaza.
+- **Meta-cambio:** se revisan el dueño, los tests y el registro; si rompe una ley o un principio, se rechaza.
 - **Rastro no mencionado:** en `aplicar` se elimina; en `reporte` se marca.
 - **Copia sin dueño:** se elimina; no se conserva.
 
