@@ -1,5 +1,7 @@
 # Atlas — intenciones a formas
 
+**Unidad:** tarea.
+**Aplica a:** expresar
 **Lector:** humano (investigador). El índice declara su lector: humano para decisión, máquina para transferencia.
 
 > Índice caliente. Las docs no se leen: se verifican contra `verifica`.
@@ -38,7 +40,7 @@ Candidatas no verificadas. Se intentan; si funcionan y se consigue su hash, se p
 
 `Opaco: [firma] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no] | compone: [...]`
 
-Formas nacidas del agente que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, pasan a ruido y se descartan.
+Formas nacidas del ejecutor que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, pasan a ruido y se descartan.
 
 ## Capas e intenciones
 

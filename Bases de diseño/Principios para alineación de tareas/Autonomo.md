@@ -1,5 +1,6 @@
-# Principios de un Agente Autónomo
+# Principios de la Tarea Persistente
 
+**Unidad:** tarea.
 **Aplica a:** ejecutar
 **Tipo:** principios. Se aplican con criterio; el desvío se declara.
 **Lector:** humano y máquina.
@@ -9,11 +10,13 @@
 
 ## Tesis
 
-`Autonomo` es el delta de `Conversacional` para los actos que alteran el entorno. La libertad se limita por la reversibilidad: lo reversible se ejecuta dentro del mandato; lo irreversible exige autoridad. El perímetro y el punto de control son la frontera entre proponer y actuar.
+La tarea persistente es el delta de la tarea conversacional para los actos que alteran el entorno. La libertad se limita por la reversibilidad: lo reversible se ejecuta dentro del mandato; lo irreversible exige autoridad. El perímetro y el punto de control son la frontera entre proponer y actuar.
 
-El agente no trae el mundo: lo lee. La libertad no es comprensión; es variedad controlada.
+El ejecutor no trae el mundo: lo lee. La libertad no es comprensión; es variedad controlada.
 
 Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este documento no las copia. Agrega el dominio persistente.
+
+`Agente` se lee como `ejecutor`; la unidad es la tarea.
 
 ## 1. Perímetros
 

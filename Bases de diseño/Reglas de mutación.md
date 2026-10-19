@@ -1,63 +1,54 @@
-# Reglas de mutación
+# Reglas de transformación de tareas
 
-**Tipo:** reglas. Se aplican, no se ejecutan.
+**Unidad:** tarea.
 **Aplica a:** mutar
-**Alcance:** decidir la etiqueta de una mutación: `agente | instrucción | skill`.
-**Versión:** 1.
-**Autoridad:** la autoridad máxima es la persona; estas reglas no autorizan. La autorización se otorga aparte; el modelo vive en `./Bases de diseño/Principios para agentes con autoridad/Conversacional.md` (`Modelo de autoridad`).
+**Tipo:** reglas. Se aplican, no se ejecutan.
+**Alcance:** toda transformación de una tarea desde un estado inicial.
+**Dueño:** la autoridad.
+**Estado:** vigente.
 
-## Principio
+## Tesis
 
-Todo lo ejecutable es una mutación. La etiqueta es conveniencia, no esencia: SARA puede mutar desde su punto inicial a lo que sea. La mutación puede agregar, modificar o eliminar. Estas reglas eligen la etiqueta útil; no crean autoridad.
+Mutar es cambiar una tarea desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación.
 
-## Modos
+## 1. Origen
 
-| Modo | Qué hace | Alcance | Triangulación |
-|---|---|---|---|
-| `clasificar` | candidato nuevo → etiqueta + prueba | solo candidatos | internet + usuario |
-| `meta-necesidades` | inventario y necesidad → etiqueta + prueba | solo necesidades | internet + usuario |
-| `meta-corroborar` | candidato de cualquier lado → corroboración | solo corroboración | internet solo; sin usuario; una corrida |
-| `derivar` | recibe el ejecutable de `novedad` → etiqueta | solo derivados | internet + usuario |
+**Enunciado:** toda mutación declara el estado inicial y el marco de origen: qué es la tarea desde el principio. Sin origen no hay mutación: hay reemplazo.
+**Test:** ¿se puede decir de dónde viene el cambio?
+**Falsificador:** un cambio sin estado inicial ni origen.
 
-## Criterio
+## 2. Cambio declarado
 
-| Etiqueta | Cuándo | Dónde | Prueba |
-|---|---|---|---|
-| `agente` | entidad persistente con roles, autonomía y memoria; coordina o sobrevive al turno | `wax` | Si no necesita persistencia, no es agente |
-| `skill` | capacidad recurrente con disparador, entradas y salidas; se invoca | `~/.dsh/skills/` (instalador) | Si no se puede invocar como capacidad, no es skill |
-| `instrucción` | secuencia de una tarea; no necesita persistencia ni invocación | `./Instrucciones/` | Si no es una secuencia, no es instrucción |
+**Enunciado:** antes de mutar, se declara qué cambia, qué se conserva y qué se elimina. Lo no declarado se conserva.
+**Test:** ¿el registro distingue cambio, conservación y eliminación?
+**Falsificador:** un cambio que no declara qué tocó.
 
-La memoria es una parte; no decide sola. Si la memoria es persistente y la entidad tiene roles y autonomía, la etiqueta útil es `agente`. Si es una capacidad invocable, `skill`. Si es una secuencia, `instrucción`. La etiqueta es una decisión de conveniencia; SARA puede mutar a otra después.
+## 3. Trazabilidad
 
-## Triangulación
+**Enunciado:** toda mutación deja el rastro necesario para reconstruir el cambio y al responsable, no solo la tarea. Si otro no puede reconstruirlo sin el mutador, no es mutación trazable.
+**Test:** ¿otro lee el registro y reconstruye el cambio y el responsable?
+**Falsificador:** una mutación que solo el mutador puede contar.
 
-La triangulación se hace con las leyes y la evidencia externa; el externo veta. `meta-corroborar` es internet solo, sin usuario, una corrida.
+## 4. Libertad controlada
 
-La etiqueta se decide por uso, no por esencia. La prueba de la etiqueta es la de `## Criterio`.
+**Enunciado:** la autoridad muta el marco; el ejecutor muta su estado de tarea dentro del perímetro. Para tocar el marco de origen, el ejecutor pregunta y declara el estado actual, el cambio y el beneficio; sin esa captura no hay autorización. La buena intención no es autorización.
+**Test:** ¿el ejecutor preguntó antes de tocar el marco? ¿La pregunta capturó estado, cambio y beneficio?
+**Falsificador:** un ejecutor que cambia el marco sin preguntar, aunque el cambio sea bueno.
 
-## Falsificadores
+## 5. Retorno
 
-- Se etiqueta por esencia y no por uso.
-- Se ignora la memoria o la persistencia.
-- Se duplica una capacidad o una instrucción.
-- Se promueve sin evidencia externa.
-- Se etiqueta sin prueba.
-- Se auto-proclama autoridad o se auto-autoriza.
-- Se emite el contrato del instalador.
+**Enunciado:** mutar de regreso no está prohibido: es otra mutación. Se declara la clase `reversible | compensable | irreversible` como información, no como prohibición. La acción persistente irreversible se rige por `./Principios para agentes con autoridad/Autonomo.md`.
+**Test:** ¿la clase y el retorno están declarados?
+**Falsificador:** una mutación irreversible sin autoridad; una mutación de regreso sin registro.
 
-## Transiciones
+## 6. Prueba
 
-- `agente` → `./Agentes/Proyecto S.A.R.A/wax.md`.
-- `skill` → `~/.dsh/skills/` (instalador).
-- `instrucción` → `./Instrucciones/instruccion-de-autoridad.md`.
-- `norma` → `./Instrucciones/novedad.md`; no es mutación: la captura `novedad`.
-- `En cualquier otro caso` → cerrar.
-- Instalador → después; no hay contrato.
+**Enunciado:** la mutación se prueba con reconstrucción independiente: otro lee el registro y reconstruye el cambio y el responsable. Sin eso, no entra.
+**Test:** la Prueba de Rendición sobre el registro.
+**Falsificador:** un registro que necesita al mutador para tener sentido.
 
-## Salida
+## Ancla
 
-`Etiqueta: [agente|instrucción|skill] | Prueba: [...] | Evidencia: [...] | Estado: [...]`.
+Se emite antes de mutar; el registro se completa después.
 
-## Test
-
-`Etiqueta por uso → pasa | Por esencia → falla | Sin prueba → falla | Sin externo → observa | Duplica → referencia | Agente sin WAX → falla`.
+`Origen: [...] | Antes: [...] | Cambia: [...] | Conserva: [...] | Después: [...] | Responsable: [...] | Autorización: [sí|no|no aplica] | Clase: [reversible|compensable|irreversible]`

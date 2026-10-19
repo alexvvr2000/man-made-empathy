@@ -1,19 +1,22 @@
-# Leyes de Diseño de Instrucciones
+# Leyes de Diseño de Tareas de Instrucción
 
+**Unidad:** tarea.
 **Aplica a:** instruir
 **Tipo:** ley. Se sigue, no se interpreta.
 **Lector:** humano y máquina.
-**Alcance:** toda instrucción que una autoridad delega a un agente.
+**Alcance:** toda tarea de instrucción que una autoridad delega a un ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
 ## Tesis
 
-Una instrucción es una delegación de autoridad a un agente. El agente debe poder ejecutarla sin preguntar. El que la escribe no la ejecuta. La instrucción no describe al ejecutor: describe la operación que lo habilita.
+Una tarea de instrucción es una delegación de autoridad a un ejecutor. La tarea debe poder ejecutarse sin preguntar; el que la escribe no la ejecuta. La tarea no describe al ejecutor: describe la operación que lo habilita.
 
-Una instrucción no le pide al agente que entienda: le pide que ejecute un cálculo. Si necesita entender para ejecutar, la instrucción falló. El agente no interpreta: recorre compuertas.
+Una tarea de instrucción no le pide al ejecutor que entienda: le pide que ejecute un cálculo. Si necesita entender para ejecutar, la tarea falló. El ejecutor no interpreta: recorre compuertas.
 
-Una instrucción que necesita explicar al ejecutor no es instrucción: es una descripción. Una instrucción que el agente puede saltarse no es ley: es un consejo.
+Una tarea que necesita explicar al ejecutor no es instrucción: es una descripción. Una tarea que el ejecutor puede saltarse no es ley: es un consejo.
+
+`Instrucción` se lee como `tarea de instrucción`; la unidad es la tarea.
 
 ## 1. Cálculo antes de la emisión
 

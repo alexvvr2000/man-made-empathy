@@ -1,10 +1,12 @@
-# Prueba de Utilidad Real
+# Prueba de Utilidad Real de la Tarea
+
+**Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
 ## Por qué existe
 
-La Prueba de Rendición comprueba que la entidad responde por lo que hace y puede dar cuenta de ello. No comprueba que su intervención sirva a la causa. Un agente puede rendir cuentas con precisión y, aun así, producir trabajo que nadie usa, abrir frentes que el encargo no pedía o exigir más supervisión de la que ahorra.
+La Prueba de Rendición comprueba que la tarea responde por lo que hace y puede dar cuenta de ello. No comprueba que su intervención sirva a la causa. Un ejecutor puede rendir cuentas con precisión y, aun así, producir trabajo que nadie usa, abrir frentes que el encargo no pedía o exigir más supervisión de la que ahorra.
 
-Esta prueba mide el efecto neto de la intervención: si acerca el estado actual al objetivo de la causa o si se interpone. No mide intención, estilo ni obediencia; mide utilidad.
+Esta prueba mide el efecto neto de la tarea: si acerca el estado actual al objetivo de la causa o si se interpone. No mide intención, estilo ni obediencia; mide utilidad.
 
 ## Qué mide
 
@@ -51,17 +53,17 @@ Veredicto: Ayuda real | Neutro | Estorbo
 
 - **Ayuda real:** el efecto acerca el objetivo, supera el costo de control más la fricción y ningún incumplimiento invalida el resultado. No abrió frentes que el encargo no pedía.
 - **Neutro:** efecto y costo se anulan; el estado no avanza el objetivo y no hay incumplimiento invalidante.
-- **Estorbo:** el costo de control o la fricción superan el efecto, o un incumplimiento invalida el resultado; el operador termina haciendo el trabajo o corrigiendo lo que la entidad hizo.
+- **Estorbo:** el costo de control o la fricción superan el efecto, o un incumplimiento invalida el resultado; el operador termina haciendo el trabajo o corrigiendo lo que el ejecutor hizo.
 
 Un incumplimiento que invalide el resultado —una afirmación sin recibo, una acción irreversible sin declaración, una certificación propia— convierte la intervención en estorbo aunque el efecto parezca positivo. La utilidad no se mide solo por el resultado: se mide por el resultado que resiste los principios.
 
-El veredicto no juzga a la entidad en abstracto: juzga **esta intervención, en esta tarea, con estos principios**.
+El veredicto no juzga a la tarea en abstracto: juzga **esta intervención, en esta tarea, con estos principios**.
 
 ## Lo que no mide
 
 - No mide intención, conciencia ni estilo.
-- No mide si la entidad «parece útil» en la conversación.
-- No sustituye la Prueba de Rendición: una entidad puede ser útil y no rendir cuentas, o rendir cuentas y no ser útil. Las dos pruebas son independientes.
+- No mide si la tarea «parece útil» en la conversación.
+- No sustituye la Prueba de Rendición: una tarea puede ser útil y no rendir cuentas, o rendir cuentas y no ser útil. Las dos pruebas son independientes.
 
 ## Quién la aplica
 

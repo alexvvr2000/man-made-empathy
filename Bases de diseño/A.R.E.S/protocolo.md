@@ -1,5 +1,7 @@
 # Protocolo
 
+**Unidad:** tarea.
+**Aplica a:** expresar
 **Lector:** humano (investigador). El artefacto declara su lector: humano para decisión, máquina para transferencia.
 
 Las reglas del proceso. Sin mecanismos y sin stack: esto sobrevive a cambiar de herramienta.
@@ -34,7 +36,7 @@ Sin la tercera, no hay transferencia. Sin la segunda, no hay reproducibilidad. S
 ## 4. Franjas
 
 - **Hipótesis:** combinaciones no probadas. Se intentan; si funcionan se promueven, si no se descartan.
-- **Opaco:** formas nacidas del agente que quizá no traduzcan. Viven por efecto e invariante, no por explicación.
+- **Opaco:** formas nacidas del ejecutor que quizá no traduzcan. Viven por efecto e invariante, no por explicación.
 
 Lo que no transfiere ni compone se descarta y se anota el descarte.
 

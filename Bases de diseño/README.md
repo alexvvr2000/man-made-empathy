@@ -1,31 +1,41 @@
 # Bases de diseño
 
+**Unidad:** tarea. El agente es el ejecutor; la autoridad es la dueña.
+
 **Qué es:** la base de ideas del proyecto. Se puede extraer del repo, imprimir o compilar. No depende de la implementación.
 
 ## Qué no es
 
 No es un manual de SARA, APRIL, DSH ni de una era. Si un documento necesita la implementación para entenderse, no es base: es implementación.
 
+## Qué es una tarea
+
+Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara:
+
+`Sistema: propósito | actores | frontera | flujo | feedback | consecuencia`
+
+más su ruta, su cálculo, su consecuencia, su test y su responsable. Sin eso, es ejecución a ciegas.
+
 ## Mapa
 
-| Artefacto | Funciones | Qué hace |
+| Documento | Tareas | Qué hace |
 |---|---|---|
-| `constitucion.md` | meta | Define ley, regla y principio; lectura de sistema; admisión; mapa; validación; gobierno. |
-| `Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una instrucción que no se puede saltar. |
-| `Principios para agentes con autoridad/Conversacional.md` | dialogar, decidir | Cómo evalúa y emite un agente con autoridad. |
-| `Principios para agentes con autoridad/Autonomo.md` | ejecutar | Cómo ejecuta cuando el acto altera el entorno. |
-| `Reglas de escritura.md` | escribir | Cómo se escribe la base y sus derivados. |
-| `Reglas de mutación.md` | mutar | Cómo se cambia un artefacto desde un marco de origen. |
-| `Pruebas/` | evaluar | Rendición y utilidad real. |
-| `A.R.E.S/` | expresar | Idea, protocolo y atlas de la expresión. |
+| `constitucion.md` | meta | Unidad, lectura, tipos, admisión, mapa y gobierno. |
+| `Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
+| `Principios para agentes con autoridad/Conversacional.md` | dialogar, decidir | Cómo se conduce una tarea de diálogo. |
+| `Principios para agentes con autoridad/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
+| `Reglas de escritura.md` | escribir | Cómo se escribe una tarea. |
+| `Reglas de mutación.md` | mutar | Cómo se transforma una tarea. |
+| `Pruebas/` | evaluar | Rendición y utilidad de una tarea. |
+| `A.R.E.S/` | expresar | Cómo se da forma a una tarea de expresión. |
 
-La función de cada artefacto es su interfaz: una norma se activa si su `Aplica a` coincide con una de estas funciones.
+La tarea de cada documento es su interfaz: una norma se activa si su `Aplica a` coincide con una de estas tareas.
 
 ## Orden de lectura
 
 1. Este mapa.
 2. `constitucion.md`.
-3. El documento de la función que se va a usar.
+3. El documento de la tarea que se va a usar.
 4. `Pruebas/` si hay que evaluar.
 
 ## Cómo se agrega

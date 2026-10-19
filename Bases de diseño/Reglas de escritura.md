@@ -1,18 +1,21 @@
-# Reglas de escritura
+# Reglas de escritura de tareas
 
+**Unidad:** tarea.
 **Tipo:** reglas de escritura. Se aplican, no se ejecutan.
 **Aplica a:** escribir
 **Contrato:** reglas-de-escritura
 **Requiere:** ninguno
 **Compatible con:** contrato-de-diseño, contrato-de-agentes
-**Alcance:** todo artefacto bajo la raíz que declare el instalador.
+**Alcance:** toda tarea y todo documento bajo la raíz que declare el instalador.
 
 Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La estructura de las instrucciones vive en el contrato de diseño (`Leyes de Diseño de Instrucciones.md`); este documento no la repite.
+
+La unidad es la tarea: qué entra, qué se calcula, qué sale, qué se conserva. El agente es el ejecutor.
 
 ## 1. Reglas de escritura
 
 ### 1.1 Estilo de proceso
-Toda regla se escribe sobre una operación: qué entra, qué se hace, qué señal sale, qué configuración cambia. El sujeto de la regla es la operación, no lo que la ejecuta.
+Toda regla se escribe sobre una operación: qué entra, qué se hace, qué señal sale, qué configuración cambia. El sujeto de la regla es la operación, no lo que la ejecuta. La tarea es esa operación: si no se puede decir qué entra, qué se calcula y qué sale, no es tarea.
 
 **Test:** `La regla se aplica sin describir al ejecutor → bien escrita | Necesita describir al ejecutor → mal escrita`.
 **Falsificador:** `[del Test] el caso que el Test marca como falla`.

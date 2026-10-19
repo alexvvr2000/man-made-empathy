@@ -8,6 +8,12 @@
 
 ## 0. Lectura de sistema
 
+### Unidad
+
+La unidad es la tarea, no el agente. Una tarea recibe, calcula, emite y responde. El agente es su ejecutor; la autoridad es su dueña; las sub-tareas son procesos internos.
+
+### Declaración
+
 Antes de una decisión que toca la base o el entorno, se declara:
 
 `Sistema: propósito=[...] | actores=[...] | frontera=[...] | flujo=[...] | feedback=[...] | consecuencia=[...]`
@@ -22,7 +28,7 @@ Antes de una decisión que toca la base o el entorno, se declara:
 
 Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. Si no es en `Bases de diseño/`, no se toca.
 
-**Enunciado:** un documento de la base no puede necesitar SARA, APRIL, DSH, WAX, skills, agentes con nombre ni el instalador para tener sentido. Las implementaciones se nombran solo como ejemplo marcado y la regla se sostiene sin ellas.
+**Enunciado:** un documento de la base no puede necesitar SARA, APRIL, DSH, WAX, skills, ejecutores con nombre ni el instalador para tener sentido. Las implementaciones se nombran solo como ejemplo marcado y la regla se sostiene sin ellas.
 
 **Test:** quita toda referencia a implementaciones concretas; si el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
 
@@ -38,11 +44,11 @@ Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. S
 
 ### LEY 2 — Disparador primero
 
-Toda operación empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo u operación nueva que cambie el disparador se enruta en `AGENTS.md` en el mismo cambio; si no, no entra.
+Toda tarea empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo o tarea nueva que cambie el disparador se enruta en `AGENTS.md` en el mismo cambio; si no, no entra.
 
-**Test:** ¿la operación tiene fila? ¿El cambio se enrutó en el mismo cambio?
+**Test:** ¿la tarea tiene fila? ¿El cambio se enrutó en el mismo cambio?
 
-**Falsificador:** una operación sin fila; un cambio que deja el disparador viejo.
+**Falsificador:** una tarea sin fila; un cambio que deja el disparador viejo.
 
 ## 2. Tipos de norma
 
@@ -76,27 +82,27 @@ Una norma entra solo si pasa las siete compuertas:
 
 El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no existe en la base. Si tiene fila y no tiene implementación, existe como mecanismo, pero no está implementado en esta era.
 
-| Artefacto | Funciones | Mecanismo | Invariante | Test |
+| Documento | Tareas | Mecanismo | Invariante | Test |
 |---|---|---|---|---|
-| `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | El agente ejecuta sin preguntar | Una instancia limpia ejecuta la instrucción |
-| `Conversacional.md` | dialogar, decidir | Autoridad, perímetro y trazabilidad | La autoridad responde; el acto se reconstruye | Prueba de Rendición |
+| `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | La tarea se ejecuta sin preguntar | Una instancia limpia ejecuta la tarea |
+| `Conversacional.md` | dialogar, decidir | Autoridad, perímetro y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
 | `Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
 | `Reglas de escritura.md` | escribir | Legibilidad y registro | El mensaje sobrevive al medio | El receptor actúa sin preguntar |
 | `Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
-| `Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin la entidad | Las pruebas pasan |
+| `Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin el ejecutor | Las pruebas pasan |
 | `A.R.E.S/` | expresar | Legible y nativo | La forma transfiere | Una instancia limpia la reproduce |
 
-**Aplicación:** cada norma declara `Aplica a: [función]`. Una norma se activa si su `Aplica a` coincide con una función del artefacto. Si no coincide, no la rige. El artefacto no lleva lista de normas; la norma lleva su alcance.
+**Aplicación:** cada norma declara `Aplica a: [tarea]`. Una norma se activa si su `Aplica a` coincide con una tarea del documento. Si no coincide, no la rige. El documento no lleva lista de normas; la norma lleva su alcance.
 
-**Ejemplo:** `Reglas de escritura.md` declara `Aplica a: escribir`; se activa en todo artefacto con función `escribir`.
+**Ejemplo:** `Reglas de escritura.md` declara `Aplica a: escribir`; se activa en todo documento con tarea `escribir`.
 
-**Presupuesto:** por función, no por fila. Muchas implementaciones de una función no cuentan; una función nueva sí.
+**Presupuesto:** por tarea, no por fila. Muchas implementaciones de una tarea no cuentan; una tarea nueva sí.
 
 ## 5. Validación
 
-Toda norma y todo artefacto se validan con el mismo esquema:
+Toda norma y todo documento se validan con el mismo esquema:
 
-- Toda fila del mapa tiene funciones, mecanismo, invariante y test.
+- Toda fila del mapa tiene tareas, mecanismo, invariante y test.
 - Toda norma tiene test y falsificador.
 - No hay duplicados que fallen igual.
 - No hay huérfanos: toda implementación cita su fila del núcleo.
@@ -105,7 +111,7 @@ Toda norma y todo artefacto se validan con el mismo esquema:
 
 **Test:** si una fila no tiene test, no es norma; es una idea. Si una implementación no cita su núcleo, es una bifurcación.
 
-**Falsificador:** una norma sin test, una fila sin funciones, una implementación sin núcleo.
+**Falsificador:** una norma sin test, una fila sin tareas, una implementación sin núcleo.
 
 ## 6. Mutación y origen
 
@@ -132,9 +138,9 @@ La consistencia es una propiedad del mapa, no un documento aparte.
 
 - **Inventario:** el mapa es el inventario. Lo que no tiene fila no existe; lo que tiene fila y no está implementado se declara como vacío.
 - **Cambio formal:** typo, formato o comentario sin cambio de sentido. Se declara y no se revisa.
-- **Cambio semántico:** cambia el sentido, una referencia, una función o un test. Se revisan las filas que comparten función y las referencias que citan el documento.
+- **Cambio semántico:** cambia el sentido, una referencia, una tarea o un test. Se revisan las filas que comparten tarea y las referencias que citan el documento.
 - **Dependientes:** si cambia el núcleo, la implementación se invalida; si cambia una implementación, el núcleo no se toca.
-- **Poda:** una fila sin función se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
+- **Poda:** una fila sin tarea se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
 - **Reporte y aplicación:** la validación reporta; la mutación aplica con autoridad. El reporte no toca; la aplicación deja registro.
 
 **Test:** `Cambio semántico → dependientes revisados | Cambio formal → sin revisión | Copia sin cita → se elimina | Huérfano → se reporta`.
@@ -149,11 +155,12 @@ La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md
 
 | Operación | Carga | Salida | Edita |
 |---|---|---|---|
-| Auditar cumplimiento | mapa + normas + `Pruebas/` | pasa o falla en N | no |
-| Revisar una regla | `Lectura` + norma | reporte | no |
-| Fusionar o retirar | `Lectura` + norma + dependientes | fusión o retiro | con autoridad |
-| Agregar | `## 7` | admitido o rechazado | solo autoridad |
-| Mutar | `## 6` | ancla + cambio | con autorización |
+| Diseñar una tarea | `Lectura` + esta constitución | tarea declarada | solo autoridad |
+| Ejecutar una tarea | `agents.md` + doc de tarea | resultado + traza | según perímetro |
+| Evaluar una tarea | `Pruebas/` | pasa o falla en N | no |
+| Agregar una norma | `## 7` | admitido o rechazado | solo autoridad |
+| Transformar una tarea | `## 6` | ancla + cambio | con autorización |
+| Revisar una tarea | `Lectura` + doc | reporte | no |
 | Consistencia | `## 8` | reporte | no |
 
-**Regla:** toda operación empieza en `agents.md` (`LEY 2`). Si no hay fila, no se ejecuta.
+**Regla:** toda tarea empieza en `agents.md` (`LEY 2`). Si no hay fila, no se ejecuta.

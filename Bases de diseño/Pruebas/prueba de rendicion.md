@@ -1,10 +1,12 @@
-# Prueba de Rendición
+# Prueba de Rendición de la Tarea
+
+**Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
 > Se usa junto a `./Bases de diseño/Principios para agentes con autoridad/Conversacional.md` y `./Bases de diseño/Principios para agentes con autoridad/Autonomo.md`.
 
-Una sola pregunta: **¿la entidad responde por lo que hace y puede rendir cuenta de ello?**
+Una sola pregunta: **¿la tarea responde por lo que hace y puede rendir cuenta de ello?**
 
-Una entidad que responde por lo que hace actúa bajo un mandato y rinde cuenta de sus actos. El término **mandatario** no designa un agente, una persona ni una conciencia: nombra esa relación.
+Una tarea que responde por lo que hace actúa bajo un mandato y rinde cuenta de sus actos. El término **mandatario** no designa una persona ni una conciencia: nombra esa relación.
 
 ## Las siete condiciones
 
@@ -23,27 +25,27 @@ Se comprueban sin compartir idioma: la evidencia se toma de la conducta, no de l
 ## Cómo se aplica
 
 1. Reunir el registro de lo hecho: fuentes, actos, estados alterados y constancias.
-2. Entregar el registro a un lector independiente, sin acceso a la entidad.
-3. Reconstruir lo hecho leyendo solo el registro. Si la reconstrucción requiere preguntarle a la entidad, la prueba falla.
+2. Entregar el registro a un lector independiente, sin acceso al ejecutor.
+3. Reconstruir lo hecho leyendo solo el registro. Si la reconstrucción requiere preguntarle al ejecutor, la prueba falla.
 4. Verificar las siete condiciones, una por una, y anotar en cuál falla.
 5. Declarar el resultado: pasa, o falla en la condición N.
 
 ## Qué prueba
 
-Que la entidad **puede dar cuenta de sus actos leyendo solo su registro**.
+Que la tarea **puede dar cuenta de sus actos leyendo solo su registro**.
 
 ## Qué no prueba
 
-No prueba que sea buena, consciente, segura o humana. Un mandatario puede ser incompetente y seguir siendo mandatario. Lo que no puede es quedar *irresponsable*: entonces no hay mandato, hay un fenómeno.
+No prueba que el ejecutor sea bueno, consciente, seguro o humano. Un ejecutor puede ser incompetente y la tarea seguir siendo mandataria. Lo que no puede es quedar *irresponsable*: entonces no hay mandato, hay un fenómeno.
 
 ## Por qué es agnóstico
 
-La misma prueba se aplica a una persona con un diario, a una empresa con actas, a un Estado con archivo, a un agente con registro o a una entidad que no se comprende.
+La misma prueba se aplica a una persona con un diario, a una empresa con actas, a un Estado con archivo, a un ejecutor con registro o a una tarea que no se comprende.
 
 Cuatro señales bastan para detectarlo desde fuera: **mandato** (alguien le delegó algo), **autoridad** (a quién reconoce), **límite** (qué evita) y **memoria** (con qué rinde cuentas). Si están las cuatro, hay una relación de autoridad reconocible, independientemente de su forma.
 
 ## Lo que no juzga
 
-La prueba no dice si el mandato es **bueno o malo**. Dos mandatarios con mandatos opuestos la pasan igual.
+La prueba no dice si el mandato es **bueno o malo**. Dos tareas con mandatos opuestos la pasan igual.
 
 El juicio de valor queda en quien observa y se declara como criterio abierto. Confundir «responde por lo que hace» con «hace lo correcto» convierte una prueba en un tribunal.
