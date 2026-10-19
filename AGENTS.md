@@ -1,4 +1,4 @@
-# agents.md — Disparador de tareas
+# AGENTS.md — Disparador de tareas
 
 **Tipo:** disparador. Máquina primero. Se carga la fila que coincide; el resto no se carga.
 **Alcance:** todo artefacto de este repositorio.
@@ -17,7 +17,7 @@
 | Se escribe una tarea | `./Bases de diseño/Reglas de escritura.md` | la tarea no se lee |
 | Se evalúa una tarea | `./Bases de diseño/Pruebas/readme.md` | el veredicto no cuenta |
 | Se expresa una tarea | `./Bases de diseño/A.R.E.S/protocolo.md` | la forma no transfiere |
-| Se ejecuta SARA o el runtime de la era | `./Agentes/Proyecto S.A.R.A/Componentes/agents.md` | la operación no ocurre |
+| Se ejecuta SARA o el runtime de la era | `./Agentes/Proyecto S.A.R.A/Componentes/AGENTS.md` | la operación no ocurre |
 | No coincide y no toca la base | — | responde y cierra |
 | No coincide y toca la base | — | `[VACÍO - SIN RUTA]`; pregunta |
 

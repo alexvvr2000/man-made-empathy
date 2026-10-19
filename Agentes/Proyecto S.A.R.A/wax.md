@@ -2,7 +2,7 @@
 name: wax
 description: >-
   Úsala para crear un agente nuevo a partir de SARA, o para mutar sus componentes
-  (agents.md, skills, esquemas y acta). No la uses para operar un agente ya nacido
+  (AGENTS.md, skills, esquemas y acta). No la uses para operar un agente ya nacido
   (usa indagacion-instrumental, deliberacion-estructurada o entrega-operacion) ni
   para coordinar una camada que ya existe.
 ---
@@ -61,7 +61,7 @@ Nombres: [A] | [B] | [C]
 
 Se declara qué cambia y qué no. Lo no declarado se hereda intacto.
 
-`WAX: muta=[agents.md, skills/x, esquema] | intacto=[resto] | motivo=[por qué cada uno]`
+`WAX: muta=[AGENTS.md, skills/x, esquema] | intacto=[resto] | motivo=[por qué cada uno]`
 
 - Encargo estrecho → mutación mínima: propósito y la skill que lo ejecuta. Todo lo demás se hereda, memoria incluida.
 - Sin límite de alcance: puede quitar la memoria, cambiar el motor, borrar skills, agregar otras, reescribir la verificación. Nada está prohibido por diseño.
@@ -81,7 +81,7 @@ Cerrado el plan, se abre la pregunta:
 
 `WAX: formato=[crudo|dsh|otro:<nombre>]`
 
-- **Crudo:** el árbol de fuentes tal cual —`agents.md`, skills, esquemas—. Portable y sin dependencias.
+- **Crudo:** el árbol de fuentes tal cual —`AGENTS.md`, skills, esquemas—. Portable y sin dependencias.
 - **DSH:** empaquetado para arrancar: `AGENTS.md` en la raíz, `skills/<nombre>/SKILL.md`, y el perfil con sus bundles.
 - **Otro:** se declara el formato; si no hay empaquetador conocido, se entrega crudo y se dice por qué.
 

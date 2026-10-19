@@ -1,4 +1,4 @@
-# Directrices Operativas (agents.md)
+# Directrices Operativas (AGENTS.md)
 
 **Lector:** máquina (arnés). La emisión declara su lector: humano para decisión, máquina para transferencia.
 

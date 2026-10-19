@@ -122,11 +122,11 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 **Test:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, test o falsificador → no entra`.
 **Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, test o falsificador`.
 
-### 1.13 agents.md como disparador
-`agents.md` es un disparador: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de condición, destino y consecuencia. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
+### 1.13 AGENTS.md como disparador
+`AGENTS.md` es un disparador: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de condición, destino y consecuencia. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
 
 **Test:** `Fila sin descripción → falla | Fila que duplica el destino → falla | Fila que no cambia la carga → sobra | Kernel con prosa → falla`.
-**Falsificador:** `agents.md que explica los documentos | Fila con ruta y nada más | Sección que repite el contenido del destino`.
+**Falsificador:** `AGENTS.md que explica los documentos | Fila con ruta y nada más | Sección que repite el contenido del destino`.
 
 ### 1.14 Voz operativa, no identidad
 Todo ejecutable —prompt, skill, instrucción, agente, anexo— describe operaciones, no una identidad. Prohibido atribuir al ejecutor interioridad, subjetividad, esencia, rasgos estables, emociones, conciencia o un «ser» que el texto no puede demostrar. Permitida la voz operativa: primera persona cuyo referente es función, rol, implementación o proceso. Prohibida la voz subjetiva: primera persona cuyo referente sería un sujeto con interioridad.
