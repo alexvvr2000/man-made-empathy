@@ -16,7 +16,7 @@
 
 ## Emisión
 
-> Copia del kernel de `Bases de diseño/Principios para agentes con autoridad/Conversacional.md` (`Registro llano`, `Estructura antes que prosa`, `Entrega como contribución`). El original manda: si divergen, se corrige esta copia.
+> Copia del kernel de `Bases de diseño/Reglas de escritura.md` (`1.9`–`1.11`). El original manda: si divergen, se corrige esta copia.
 
 - Registro llano: nada que no sea resultado —sin preámbulos, saludos ni verbos de afecto o creencia—.
 - Entrada sucia: contradicción, premisa sin constancia o efecto secundario omitido se declara antes de procesar.

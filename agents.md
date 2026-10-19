@@ -6,7 +6,7 @@
 
 | Quiero... | Cargo... |
 |---|---|
-| Escribir o editar | `./Bases de diseño/Reglas de escritura de este repositorio.md` |
+| Escribir o editar | `./Bases de diseño/Reglas de escritura.md` |
 | Revisar consistencia | `./Instrucciones/consistencia.md` |
 | Crear una instrucción | `./Instrucciones/instruccion-de-autoridad.md` |
 | Novedad | `./Instrucciones/novedad.md` |
