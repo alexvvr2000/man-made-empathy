@@ -44,11 +44,11 @@ Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. S
 
 ### LEY 2 — Disparador primero
 
-Toda tarea empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo o tarea nueva que cambie el disparador se enruta en `AGENTS.md` en el mismo cambio; si no, no entra.
+Toda tarea empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo o tarea nueva que cambie el disparador se enruta en `AGENTS.md` en el mismo cambio; si no, no entra. Hay un solo `AGENTS.md` vigente por repositorio: el de la raíz. Uno anidado no se inyecta ni compite con la raíz: rige solo si una fila de la raíz lo carga, y se neutraliza si aparece sin fila.
 
-**Test:** ¿la tarea tiene fila? ¿El cambio se enrutó en el mismo cambio?
+**Test:** ¿la tarea tiene fila? ¿El cambio se enrutó en el mismo cambio? ¿El anidado se cargó por fila y no por inyección?
 
-**Falsificador:** una tarea sin fila; un cambio que deja el disparador viejo.
+**Falsificador:** una tarea sin fila; un cambio que deja el disparador viejo; un `AGENTS.md` anidado que se inyecta o enruta sin fila.
 
 ## 2. Tipos de norma
 

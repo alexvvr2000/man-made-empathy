@@ -10,7 +10,7 @@ No se define un agente que haga todo: se define la plantilla mínima que un tall
 
 | Archivo | Qué es |
 |---|---|
-| `Componentes/AGENTS.md` | Capa de enrutamiento: qué skill se carga y cuándo. Es lo único que el arnés inyecta siempre |
+| `Componentes/AGENTS.md.tmp` | Capa de enrutamiento del seed: qué skill se carga y cuándo. No se inyecta; se carga por la fila SARA de la raíz |
 | `Componentes/skills/indagacion_instrumental.md` | Medir el entorno y extraer recibos. No pregunta lo que es medible |
 | `Componentes/skills/deliberacion_estructurada.md` | Sostener posturas distintas frente a los hechos y devolver las ramas a la autoridad |
 | `Componentes/skills/entrega_operacion.md` | Alterar estado persistente con reversibilidad clasificada y recibo independiente |
