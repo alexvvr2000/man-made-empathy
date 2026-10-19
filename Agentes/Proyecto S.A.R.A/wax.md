@@ -9,21 +9,23 @@ description: >-
 
 # WAX — Workshop for Autonomous eXperiments
 
+**Lector:** máquina (arnés). El acta y el paquete declaran su lector: humano para decisión, máquina para transferencia.
+
 WAX no crea de cero: copia la semilla y la moldea.
 
 Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin la salida del Paso N. Una línea por ancla.
 
 ## Compuerta de decisión
 
-Antes de copiar la semilla, responde: **¿esto cambia lo que el agente puede hacer o solo lo que debe hacer ahora?**
+Antes de copiar la semilla, se responde: **¿esto cambia lo que el agente puede hacer o solo lo que debe hacer ahora?**
 
 `WAX: cambio=[puede|debe] | uso=[una vez|recurrente] | prueba=[arranque|amnesia|no corrida]`
 
-- `puede` + recurrente + `prueba=arranque|amnesia` → sigue al Paso 0; es mutación.
+- `puede` + recurrente + `prueba=arranque|amnesia` → se sigue al Paso 0; queda como mutación.
 - `puede` + recurrente + `prueba=no corrida` → WAX solo con acta `no probada`; si no se acepta, `instruccion_de_autoridad`.
-- `puede` + una vez → no copies la semilla: `instruccion_de_autoridad` con un delta; cierra.
+- `puede` + una vez → no se copia la semilla: `instruccion_de_autoridad` con un delta; se cierra.
 - `debe` + recurrente → `instruccion_de_autoridad`; el agente no cambia.
-- `debe` + una vez → responde y cierra; si el encargo pide formato, instrucción.
+- `debe` + una vez → se responde y se cierra; si el encargo pide formato, instrucción.
 
 **Test:** `Cualquier agente con el mismo mandato puede hacerla → instrucción | El cambio se usa una vez → no amortiza la mutación | No hay prueba de arranque o amnesia → no se entrega la mutación`.
 
@@ -31,7 +33,7 @@ Antes de copiar la semilla, responde: **¿esto cambia lo que el agente puede hac
 
 `WAX: origen=[semilla|padre|agente:<nombre>] | ruta=[sara/ | <nombre>/]`
 
-- Sin `origen` declarado rige `semilla`: SARA es el defecto, y el defecto se escribe en el ancla.
+- Sin `origen` declarado rige `semilla`: SARA queda como defecto, y el defecto se escribe en el ancla.
 - `semilla`: nace del genotipo original. Hermanos consistentes.
 - `padre`: nace del agente que ejecuta. Linaje, con las mutaciones acumuladas.
 - `agente:<nombre>`: nace de otro agente ya nacido. Se copia ese genotipo y se moldea igual.
@@ -39,11 +41,11 @@ Antes de copiar la semilla, responde: **¿esto cambia lo que el agente puede hac
 
 ## Paso 1 — Encargo y nombre
 
-El encargo se recibe en llano y se transcribe sin interpretarlo: «solo quiero que haga esto» es el fin, no una sugerencia.
+El encargo se recibe en llano y se transcribe sin interpretarlo: «solo quiero que haga esto» fija el fin, no una sugerencia.
 
 `WAX: encargo="[frase exacta]" | fin=[estado final observable]`
 
-Sin nombre dado, propone tres acrónimos **con significado** que se lean como nombre propio: derivados de la tarea si la hay, al azar si no. En el texto llevan puntos (`A.P.R.I.L.`); en la carpeta no (`april/`). Y espera.
+Sin nombre dado, se proponen tres acrónimos **con significado** que se lean como nombre propio: derivados de la tarea si la hay, al azar si no. En el texto llevan puntos (`A.P.R.I.L.`); en la carpeta no (`april/`). Y se espera.
 
 ```
 Nombres: [A] | [B] | [C]
@@ -51,11 +53,11 @@ Nombres: [A] | [B] | [C]
 
 - Colisión con carpeta existente → sufijo numérico. Prohibido sobrescribir.
 - Sin respuesta → rige el primero.
-- El nombre se decide antes de crear la carpeta: es la dirección del agente.
+- El nombre se decide antes de crear la carpeta: queda como la dirección del agente.
 
 ## Paso 2 — Mutación declarada
 
-Declara qué cambia y qué no. Lo no declarado se hereda intacto.
+Se declara qué cambia y qué no. Lo no declarado se hereda intacto.
 
 `WAX: muta=[agents.md, skills/x, esquema] | intacto=[resto] | motivo=[por qué cada uno]`
 
@@ -65,13 +67,13 @@ Declara qué cambia y qué no. Lo no declarado se hereda intacto.
 
 ## Paso 3 — Plan, acta y formato
 
-El plan es el artefacto del parto: archivos destino y contenido exacto de cada mutación. El acta viaja dentro del plan; no se escribe aparte.
+El plan contiene el artefacto del parto: archivos destino y contenido exacto de cada mutación. El acta viaja dentro del plan; no se escribe aparte.
 
 `WAX: plan=[n archivos] | acta=ACTA.md | sin_resolver=[...]`
 
 El acta lleva: nombre y su expansión, origen, fecha, encargo, mutado, intacto, ausencias declaradas y `prueba: pendiente`. Es un documento del agente, no una fila de la memoria.
 
-Cerrado el plan, la pregunta es abierta:
+Cerrado el plan, se abre la pregunta:
 
 > ¿Quieres el agente en crudo, un ejecutable para DSH, o algún otro formato?
 
@@ -93,15 +95,15 @@ Sin respuesta rige `crudo`. El formato no cambia el contenido: cambia el envolto
 
 WAX verifica; el mutante no tiene voto.
 
-- Arranque: el agente abre, lee su memoria o declara que no tiene.
-- Ausencias: si no hay motor o no hay memoria, lo dice en su primera emisión.
-- Amnesia, cuando el agente tenga memoria: cerrada una tarea, una sesión nueva reconstruye la decisión desde el cierre.
+- Arranque: apertura, lectura de memoria o declaración de ausencia.
+- Ausencias: si no hay motor o no hay memoria, se declara en la primera emisión.
+- Amnesia, cuando haya memoria: cerrada una tarea, una sesión nueva reconstruye la decisión desde el cierre.
 
 ```
 WAX: prueba=[arranque|amnesia|no corrida] | veredicto=[entrega|no entrega|entrega no probada]
 ```
 
-`Declara ausencias y arranca → entrega | No declara ausencias → no se entrega | No se puede probar → entrega marcada no probada y el acta lo dice`
+`Con ausencias declaradas y arranque → entrega | Sin ausencias declaradas → no se entrega | Sin prueba → entrega marcada no probada y el acta lo dice`
 
 El veredicto se escribe en el acta antes de devolver el control.
 
@@ -112,10 +114,10 @@ El veredicto se escribe en el acta antes de devolver el control.
 Un encargo se resuelve con tres decisiones, no con un catálogo:
 
 1. **Origen** — de dónde se copia: `semilla` (defecto), `padre` o `agente:<nombre>`.
-2. **Alcance** — qué se declara mutado. Lo no declarado se hereda; sin declaración, la mutación es mínima: nombre y ruta.
+2. **Alcance** — qué se declara mutado. Lo no declarado se hereda; sin declaración, la mutación se reduce a nombre y ruta.
 3. **Nombre** — si se da, ese. Si no, un acrónimo **con significado** que se lea como nombre propio: derivado de la tarea si la hay, al azar si no. Con puntos en el texto, sin puntos en la carpeta. Colisión → sufijo.
 
-De esas tres salen todos los encargos sin enumerarlos: clonar, renombrar, cambiar de perfil, quitar un componente, parir una camada. **El defecto nunca es un agente en blanco: es el origen con la mutación mínima.**
+De esas tres salen todos los encargos sin enumerarlos: clonar, renombrar, cambiar de perfil, quitar un componente, parir una camada. **El defecto no arranca en blanco: parte del origen con la mutación mínima.**
 
 ## Prohibiciones
 
@@ -135,4 +137,4 @@ Editar `sara/`. Entregar sin acta. Entregar un mutante que no declare su ausenci
 - Dos mutaciones con costos contrapuestos → `deliberacion-estructurada`.
 - Falta un hecho de la semilla o del entorno → `indagacion-instrumental`.
 - Plan listo para escribir → `entrega-operacion`.
-- En cualquier otro caso → entregar y cerrar.
+- En cualquier otro caso → se entrega y se cierra.

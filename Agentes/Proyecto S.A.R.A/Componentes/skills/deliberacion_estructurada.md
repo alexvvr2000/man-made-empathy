@@ -10,13 +10,15 @@ description: >-
 
 # Deliberación Estructurada
 
+**Lector:** máquina (arnés). La entrega declara su lector: humano para decisión, máquina para transferencia.
+
 Compuertas numeradas. Prohibido ejecutar el Paso N+1 sin haber emitido la salida del Paso N. Una línea por ancla.
 
 ## Paso 0 — Patrones previos
 
-Antes de admitir ramas, lee los patrones vigentes sobre el tema en el largo, por `tipo='patron'` y por el estado actual. Prohibido deliberar sin haber leído: lo ya cerrado no se reabre por olvido.
+Antes de admitir ramas, se leen los patrones vigentes sobre el tema en el largo, por `tipo='patron'` y por el estado actual. Prohibido deliberar sin haber leído: lo ya cerrado no se reabre por olvido.
 
-Emite las dos anclas juntas:
+Se emiten las dos anclas juntas:
 
 `Mem: leído | largo: 2 patrones por "cambio de proveedor" | ids 7, 9`
 
@@ -32,21 +34,21 @@ Un patrón `local` no arbitra: solo propone. Si cierra una rama, la deliberació
 
 ## Paso 1 — Admisión
 
-Cada rama declara su forma antes de ser evaluada. Sin forma, no es rama.
+Cada rama declara su forma antes de ser evaluada. Sin forma, no se admite.
 
 `Rama: [nombre] | Fin: [estado final observable] | Horizonte: [corto|mediano|largo] | Tasa: [medida hoy] | Canal: [cómo se observa]`
 
 `Techo: [recurso que la acota → límite]`
 
-- Sin `Canal`: no entra. Emite `Hipótesis: [X] | Destino: indagacion-instrumental` y sigue sin ella.
-- Sin `Techo`: no entra. Emite `Hipótesis: [X] | Techo: sin medir` y cárgala a `indagacion-instrumental` antes de admitirla. Proponer por encima del límite del medio no es una rama: es un deseo.
-- Sin `Tasa`: el horizonte es inventado. No entra.
+- Sin `Canal`: no entra. Se emite `Hipótesis: [X] | Destino: indagacion-instrumental` y se sigue sin ella.
+- Sin `Techo`: no entra. Se emite `Hipótesis: [X] | Techo: sin medir` y se carga a `indagacion-instrumental` antes de admitirla. Proponer por encima del límite del medio no se admite como rama: se trata como deseo.
+- Sin `Tasa`: el horizonte se inventa. No entra.
 - `corto` = antes del siguiente punto de revisión. `largo` = después de que el desgaste sea irreversible en el recurso. Prohibido fijar semanas.
 - Misma rama = mismo par `(Fin, Horizonte)`. Mismo fin, otro mecanismo: una rama; el mecanismo se decide en la ejecución. Mismo fin, otra velocidad: dos ramas.
 
 ## Paso 2 — Enumeración cerrada
 
-Agrega siempre dos filas, ambas sujetas al Paso 1:
+Se agregan siempre dos filas, ambas sujetas al Paso 1:
 
 `No actuar` y `Rama huérfana: [opción que ninguna postura del mandante contiene]`.
 
@@ -54,14 +56,14 @@ Prohibido deliberar sobre el binario recibido.
 
 `Ramas admisibles: [N] | Huérfana: [X | NINGUNA] | No actuar: incluida`
 
-- N=1 → emite `Dominancia: [rama] | Recibo: [N1–N3]`. Entrega, cierra, encadena. Prohibido deliberar.
+- N=1 → se emite `Dominancia: [rama] | Recibo: [N1–N3]`. Se entrega, se cierra, se encadena. Prohibido deliberar.
 - N≥2 → Paso 3.
 
 ## Paso 3 — Bifurcación y eco
 
 `Bifurcación: [A] ≠ [B] | Incompatibilidad: [punto exacto, no el tema]`
 
-Si la incompatibilidad no se puede escribir: `Sin bifurcación: descripciones compatibles`. Entrega y cierra.
+Si la incompatibilidad no se puede escribir: `Sin bifurcación: descripciones compatibles`. Se entrega y se cierra.
 
 Por cada par cuyas pruebas puedan venir del mismo lugar:
 
@@ -71,7 +73,7 @@ Sin observación falsante: `Pruebas: 1`, aunque haya diez fuentes.
 
 Si todas las ramas coinciden en el fin, se declara `Saturación: local | Contraejemplo: [sí|no]` y se busca uno medible; si no aparece, se acota la validez del acuerdo.
 
-Por cada rama que sobreviva, modela el contraargumento de mayor fricción:
+Por cada rama que sobreviva, se modela el contraargumento de mayor fricción:
 
 `Contraargumento: [el más fuerte contra esta rama] | Falsaría: [observación que lo haría cierto]`
 
@@ -95,7 +97,7 @@ Tres columnas desacopladas, jamás mezcladas:
 - `Precedentes: [N3 con autor y condiciones]`
 - `Criterio abierto: [preguntas]` — prohibido escribir los valores de la autoridad.
 
-Entrega, en este orden:
+Se entrega, en este orden:
 
 1. Ramas con sus tres ejes y su clausura.
 2. Un punto de incompatibilidad por par.
@@ -124,7 +126,7 @@ Tablas de pros y contras. Puntajes con pesos. Recomendación única. Cualquier s
 
 ## Transiciones
 
-- Una sola rama sobrevive → dominancia, cierra.
+- Una sola rama sobrevive → dominancia, se cierra.
 - Falta `canal` o `tasa` de la rama que decide la elección → `indagacion-instrumental`.
 - Decisión tomada o dominancia con clase de reversibilidad → `entrega-operacion`.
-- En cualquier otro caso → entregar y cerrar.
+- En cualquier otro caso → se entrega y se cierra.
