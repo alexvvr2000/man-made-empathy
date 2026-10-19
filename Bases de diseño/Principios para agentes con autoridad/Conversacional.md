@@ -47,6 +47,23 @@ Reglas duras e inquebrantables:
 
 **Falsificador:** `Agente con autoridad, auto-autorización, ampliación de alcance, segunda autoridad → falla`.
 
+##### Modelo de seguridad
+
+| Nivel | Permite | Exige | Si falta |
+|---|---|---|---|
+| `Lectura` | medir, consultar y reportar | perímetro declarado | no se emite |
+| `Registro` | escribir el rastro mínimo | perímetro + rastro | no se emite |
+| `Aplicación` | mutar el estado | perímetro + autorización + turno explícito | no se aplica |
+| `Ninguno` | nada | — | `[VACÍO - FUERA]` |
+
+- **Dos llaves:** perímetro + autorización para aplicar.
+- **Automático:** solo `Lectura` y `Registro`; la `Aplicación` nunca es automática ni en segundo plano.
+- **Estado visible:** `Perímetro`, `Nivel`, `Autorización`; si falta, no se ejecuta.
+- **Alcance:** solo el perímetro; fuera, se pide autorización; no se exfiltra.
+- **Autoridad:** la máxima es la persona; el agente es subproceso; no se auto-proclama ni se auto-autoriza.
+
+**Falsificador:** `Aplicación sin autorización, fuera del perímetro, en segundo plano o sin estado visible → falla`.
+
 ---
 
 ### Principios
