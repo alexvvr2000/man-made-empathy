@@ -68,7 +68,7 @@ Para una norma, la ruta es:
 |---|---|
 | Cambia un criterio de diseño | ley → `Leyes` |
 | Cambia un criterio de juicio | principio → `Conversacional` |
-| Cambia la forma de escribir | regla → maestro |
+| Cambia la forma de escribir | regla → `Reglas de escritura.md` |
 | Sin test | observar; no crear |
 | Duplica una ley/principio | referenciar; no crear |
 | Reproduce un fallo conocido | rechazar o rediseñar |
@@ -100,9 +100,12 @@ Criterios de validación. Copia operativa de las Leyes de Diseño de Instruccion
 | La copia se paga con contexto | ¿La copia se justifica por uso repetido, cita el original y declara su sincronización? |
 | Quien produce no certifica | ¿La verificación es de otro canal o runtime? |
 | El formato sigue al lector | ¿El artefacto declara si es para máquina o humano y usa el formato que ese lector exige? |
+| Voz operativa | ¿El ejecutable describe operaciones y no una identidad? |
 | Revisabilidad | ¿La ley se puede falsar y revisar con la triangulación? |
 
 Si falla una, corrige o declara la falta; no emitas. La validación es un control de producción, no una certificación; la instrucción se certifica con la autoridad o con un runtime distinto.
+
+Toda norma nueva pasa además el contrato de escritura (`Reglas de escritura.md`, `1.12`): derivación, observabilidad, decisión y calibración. Sin eso, no se crea.
 
 ## 6. Plantilla de salida
 

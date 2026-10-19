@@ -1,6 +1,7 @@
 # Reglas de mutación
 
 **Tipo:** reglas. Se aplican, no se ejecutan.
+**Aplica a:** mutar
 **Alcance:** decidir la etiqueta de una mutación: `agente | instrucción | skill`.
 **Versión:** 1.
 **Autoridad:** la autoridad máxima es la persona; estas reglas no autorizan. La autorización se otorga aparte; el modelo vive en `./Bases de diseño/Principios para agentes con autoridad/Conversacional.md` (`Modelo de autoridad`).
