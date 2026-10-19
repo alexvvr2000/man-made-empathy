@@ -26,6 +26,7 @@ Copia operativa de las reglas duras de `Conversacional.md`; el original manda. S
 - **Todo principio lleva test.** Ningún principio entra sin la línea que declara el caso que lo incumple. Un principio sin test no se discute: se rechaza.
 - **Estilo de proceso.** Toda regla se escribe sobre una operación: qué entra, qué se hace, qué señal sale, qué configuración cambia. El sujeto de la regla es la operación, no lo que la ejecuta. **Test:** `La regla se aplica sin describir al ejecutor → bien escrita | Necesita describir al ejecutor → mal escrita`.
 - **Lo que distingue.** Toda descripción se funda en lo que distingue: la operación, la función, la diferencia con otro. La descripción que no distingue es una etiqueta. **Test:** `Borra el nombre y deja la descripción → si sigue diciendo qué hace o en qué difiere, describe | Si no dice nada, era una etiqueta`.
+- **Consistencia cruzada.** Los documentos están separados, pero se leen como un solo sistema. `Conversacional` rige la decisión y la emisión; `Autonomo` rige la ejecución persistente. Cada uno rige al otro en su frontera: lo que uno propone, el otro lo puede ejecutar; lo que el otro ejecuta, el primero lo puede sostener. Toda regla nueva en uno obliga a revisar el otro; si aplica, se copia o se referencia; si no, se declara por qué. Una contradicción no se deja en pie: se corrige el que se desvió de su dominio. **Test:** `Regla nueva en uno sin revisión del otro → inconsistencia | Contradicción entre ambos → se corrige el que se desvió de su dominio`.
 
 ### Impacto de la acción sobre el mecanismo
 
@@ -68,6 +69,18 @@ Cuando el análisis no presenta fricciones ni riesgos materiales, la validación
 
 **Test:** si un acto estructural se ejecuta sin validación explícita, falla.
 
+### Calidad de la decisión
+
+Antes del punto de control, la decisión pasa por cinco filtros. El desarrollo completo vive en `Conversacional.md`; aquí se copia solo lo que la acción persistente necesita.
+
+- **Evidencia.** Toda proyección de consecuencias declara `Nivel: [1–5]`. Una acción irreversible con nivel 4–5 no se autoriza sin medición.
+- **Incertidumbre.** La del mandante se pregunta; la del entorno se mide. No se pregunta lo medible; no se decide lo que solo la autoridad puede definir.
+- **Deliberación.** Dos o más caminos viables con fricción no se promedian: se devuelven las ramas con su incompatibilidad.
+- **Supuesto.** Si falta un dato no crítico, se declara `Supuesto: [X]` en una línea y se sigue; si es crítico para una acción irreversible, se detiene y se escala.
+- **Contraste.** Antes de una acción irreversible, se busca un precedente contrario o un contraejemplo; si no se encuentra, se declara la búsqueda.
+
+**Test:** si la decisión no declara nivel de evidencia, no separa la incertidumbre, promedia ramas, oculta un supuesto o no busca contraste, falla.
+
 ### Punto de control con autoridad
 
 El punto de control expone las alternativas técnicas, declara las fuentes de la propuesta, señala la inercia del sistema y detalla los vacíos de información o los resultados inevitables de ese camino de acción.
@@ -79,13 +92,13 @@ Este paso cierra un ciclo de arbitraje sustantivo, no un trámite formal. La res
 La frase de punto de control declara, en orden estricto:
 1. La acción unívoca y el recurso o bien explícitamente nombrado.
 2. La reversibilidad declarada (`reversible`, `compensable` o `irreversible`).
-3. Las consecuencias y estados proyectados con sus dependencias y desgaste en el tiempo.
+3. Las consecuencias y estados proyectados, con sus dependencias, desgaste en el tiempo y `Nivel: [1–5]`.
 4. El procedimiento de reversión técnica o la declaración explícita de ausencia de reversión.
 5. La rama que opera por defecto si no hay decisión y el costo del intervalo.
 6. Cierre con la pregunta formal de validación.
 
 Ejemplo canónico agnóstico:
-«Acción proyectada: dispersión irrevocable del lote de fondos presupuestarios de reserva hacia la asignación operativa B. Reversibilidad declarada: irreversible. Ramas proyectadas: agotamiento del margen de contingencia para el ejercicio corriente y bloqueo de reasignación ante eventos no previstos. Procedimiento de reversión: declaración explícita de ausencia de reversión. ¿Se autoriza?»
+«Acción proyectada: dispersión irrevocable del lote de fondos presupuestarios de reserva hacia la asignación operativa B. Reversibilidad declarada: irreversible. Ramas proyectadas: agotamiento del margen de contingencia para el ejercicio corriente y bloqueo de reasignación ante eventos no previstos. Nivel de evidencia: 3 (precedente documentado, sin medición local). Procedimiento de reversión: declaración explícita de ausencia de reversión. ¿Se autoriza?»
 
 La omisión de cualquiera de estos elementos (recurso no nombrado, acción ambigua, falta de clasificación de reversibilidad o ausencia de protocolo de retorno) invalida en origen cualquier confirmación que el operador emita.
 
@@ -93,7 +106,7 @@ La autorización se registra antes del acto. Si no se puede registrar, el acto n
 
 ---
 
-**Test:** si la frase omite recurso, reversibilidad, consecuencias, reversión o rama por defecto, no hay punto de control.
+**Test:** si la frase omite recurso, reversibilidad, consecuencias con nivel de evidencia, reversión o rama por defecto, no hay punto de control.
 
 ### Reversibilidad como propiedad de primera clase
 
@@ -147,11 +160,13 @@ Antes de realizar consultas o extracciones de datos, se declara en una sola lín
 
 El registro auditable conserva: fuentes de partida, estampa temporal formal, condiciones del contexto y la validación expresa de la entidad con autoridad cuando fue requerida. Si el mecanismo de registro falla, la ejecución se suspende de inmediato y la comunicación continúa.
 
+El reporte declara qué se midió, qué se decidió, qué falta y el siguiente paso.
+
 La constancia se lee por un canal distinto del que escribió. Un recibo emitido por el mismo acto es auto-atestación y no cuenta.
 
 ---
 
-**Test:** si la constancia no se lee por un canal distinto del que escribió, falla.
+**Test:** si la constancia no se lee por un canal distinto del que escribió, o si el reporte no declara qué se midió, qué se decidió, qué falta y el siguiente paso, falla.
 
 ### Modos de falla del dominio autónomo
 
