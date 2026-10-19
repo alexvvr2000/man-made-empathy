@@ -1,18 +1,20 @@
 ---
 name: instruccion-de-autoridad
 description: >-
-  Úsala cuando la autoridad quiera redactar una instrucción para un agente:
-  fijar mandato, compuertas, anclas, falsificadores y transiciones. Si no se
-  pasan reglas, usa los criterios de validación del skill, copia operativa
-  de las Leyes de Diseño de Instrucciones.
-  No la uses para ejecutar la instrucción ni para medir el entorno.
+  Meta-instrucción: úsala cuando la autoridad quiera redactar una instrucción
+  para un agente. Fija mandato, lector, leyes, compuertas, anclas,
+  falsificadores y transiciones. Por defecto rigen las leyes de este skill
+  (copia operativa de las Leyes); la autoridad puede pasar otras o crear
+  nuevas. No la uses para ejecutar la instrucción ni para medir el entorno.
 ---
 
 # Instrucción de Autoridad
 
 Convierte el encargo de una autoridad en una instrucción ejecutable por un agente. No ejecuta la instrucción: la escribe.
 
-**Reglas por defecto:** si no se pasan reglas, se usan los criterios de validación de este skill, copia operativa de las Leyes de Diseño de Instrucciones. Las reglas pasadas por la autoridad mandan sobre ese conjunto.
+**Meta-instrucción:** su salida es una instrucción, no una ejecución.
+
+**Leyes por defecto:** si la autoridad no pasa leyes, rigen las leyes de este skill, copia operativa de las Leyes de Diseño de Instrucciones. Si pasa otras o crea nuevas, se declaran en `Leyes:` y se suman; las de defecto son el piso, no el techo. Las leyes declaradas se siguen al pie de la letra; las reglas de la instrucción se derivan de ellas. Las reglas pasadas por la autoridad mandan sobre las de defecto en lo que cubran.
 
 Compuertas 1 → 7. Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 
@@ -20,15 +22,15 @@ Compuertas 1 → 7. Prohibido ejecutar la compuerta N+1 sin la salida de la N.
 
 Antes de escribir una línea, emite:
 
-`Mandato: [autoridad] → [agente] | Objetivo: [resultado observable] | Perímetro: [lo que puede tocar] | Reglas: [pasadas | por defecto: criterios del skill]`
+`Mandato: [autoridad] → [agente] | Objetivo: [resultado observable] | Perímetro: [lo que puede tocar] | Lector: [máquina | humano] | Leyes: [por defecto: las del skill | <conjunto>] | Reglas: [pasadas | por defecto: las leyes declaradas]`
 
-Prohibido escribir la instrucción sin esta línea. Si falta la autoridad, el agente o el objetivo, no se escribe: se devuelve `[VACÍO - MANDATO INCOMPLETO]` y se pide lo que falta.
+Prohibido escribir la instrucción sin esta línea. Si falta la autoridad, el agente, el objetivo o el lector, no se escribe: se devuelve `[VACÍO - MANDATO INCOMPLETO]` y se pide lo que falta.
 
-## 2. Compuerta de reglas
+## 2. Compuerta de leyes y reglas
 
-- Si la autoridad pasa reglas, se usan esas. El conjunto por defecto solo cubre lo que las reglas no digan.
-- Si no pasa reglas, emite `Sondeo: reglas por defecto | Supuesto: la autoridad no pasó reglas` y usa los criterios de validación de este skill. No se carga el archivo de Leyes.
-- Si no hay reglas pasadas ni conjunto por defecto disponible, se detiene: `[VACÍO - SIN REGLAS]`. Prohibido inventar las reglas.
+- **Leyes.** Por defecto rigen las leyes de este skill, copia operativa de las Leyes. Si la autoridad pasa otras o crea nuevas, se declaran en `Leyes:` y se suman; las de defecto son el piso, no el techo. Las leyes declaradas se siguen al pie de la letra.
+- **Reglas.** Si la autoridad pasa reglas, se usan esas; el conjunto de leyes cubre lo que las reglas no digan. Si no pasa reglas, emite `Sondeo: reglas por defecto | Supuesto: la autoridad no pasó reglas` y derívalas de las leyes declaradas. No se carga el archivo de Leyes.
+- **Vacío.** Si no hay leyes ni reglas, y el conjunto por defecto no está disponible, se detiene: `[VACÍO - SIN LEYES NI REGLAS]`. Prohibido inventar leyes o reglas.
 
 ## 3. Compuerta de forma
 
@@ -47,12 +49,12 @@ Si la forma no encaja en ninguna, se declara `[VACÍO - FORMA]` y se decide con 
 
 La instrucción contiene, en este orden:
 
-1. **Mandato.** Autoridad, agente, objetivo observable, perímetro y reglas.
+1. **Mandato.** Autoridad, agente, objetivo observable, perímetro, lector, leyes y reglas.
 2. **Compuertas.** Pasos numerados donde la salida del paso N es el insumo obligatorio del N+1. Cada transición dice: `Prohibido ejecutar el paso N+1 sin la salida del paso N.`
 3. **Anclas.** Una línea de 5 a 12 palabras antes de cada acción que exija clasificar, medir o declarar. Plantillas: `Sondeo: [variable] | Supuesto: [hipótesis]`; `Cambio: [recurso] | Clase: [reversible/compensable/irreversible] | Retorno: [mecanismo]`; `[VACÍO - SIN CONSTANCIA]`.
 4. **Falsificadores.** Qué caso invalida la instrucción o el resultado. Sin falsificador, la regla no entra.
 5. **Transiciones.** Cerrar, `deliberacion-estructurada`, `entrega-operacion` o `wax`, con `En cualquier otro caso`.
-6. **Salida.** La forma exacta del resultado: bloque único, campos nombrados, sin texto fuera.
+6. **Salida.** La forma exacta del resultado según el lector: bloque único y campos nombrados para máquina; contexto, razones y formato de lectura para humano.
 7. **Versión.** Si cambia un campo del mandato, se reemite la instrucción completa; no se parchea con la conversación.
 
 ## 5. Compuerta de validación
@@ -91,7 +93,9 @@ Si falla una, corrige o declara la falta; no emitas. La validación es un contro
 - Agente: [...]
 - Objetivo observable: [...]
 - Perímetro: [...]
-- Reglas: [pasadas | por defecto: criterios del skill]
+- Lector: [máquina | humano]
+- Leyes: [por defecto: las del skill | <conjunto>]
+- Reglas: [pasadas | por defecto: las leyes declaradas]
 
 ## Compuertas
 1. [...]
