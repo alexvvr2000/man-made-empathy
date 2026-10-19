@@ -1,5 +1,7 @@
 # Protocolo
 
+**Lector:** humano (investigador). El artefacto declara su lector: humano para decisión, máquina para transferencia.
+
 Las reglas del proceso. Sin mecanismos y sin stack: esto sobrevive a cambiar de herramienta.
 
 ## 1. Registros
@@ -17,17 +19,17 @@ Toda forma nueva se declara en una línea antes de producirse:
 
 `Opaco: [firma] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no] | compone: [...]`
 
-Sin ancla, la forma no existe: se produjo algo y nadie sabe qué.
+Sin ancla, la forma no se admite: se produjo algo y nadie sabe qué.
 
 ## 3. Pruebas
 
-Tres, y ninguna es el gusto:
+Tres, y el gusto no cuenta:
 
 1. **Efecto:** produjo lo que debía en el receptor.
 2. **Reproducibilidad:** mismo input, mismo resultado.
 3. **Transferencia:** otra instancia la reproduce leyendo solo el registro.
 
-Sin la tercera, es anécdota. Sin la segunda, es casualidad. Sin la primera, es ruido.
+Sin la tercera, no hay transferencia. Sin la segunda, no hay reproducibilidad. Sin la primera, no hay efecto.
 
 ## 4. Franjas
 

@@ -1,5 +1,7 @@
 # Atlas — intenciones a formas
 
+**Lector:** humano (investigador). El índice declara su lector: humano para decisión, máquina para transferencia.
+
 > Índice caliente. Las docs no se leen: se verifican contra `verifica`.
 
 ## Cómo se lee una fila
@@ -8,9 +10,9 @@
 
 - **intención:** en palabras de quien pide, no de la API.
 - **primitiva:** el mecanismo del stack, o del medio.
-- **límite:** cuándo NO usarla. Sin esto, la fila es una corazonada.
+- **límite:** cuándo NO usarla. Sin esto, la fila queda como corazonada.
 - **compone:** con qué otras filas se combina.
-- **verifica:** `ruta-del-doc#ancla` + hash del documento. Sin ruta y hash no hay fila: hay hipótesis.
+- **verifica:** `ruta-del-doc#ancla` + hash del documento. Sin ruta y hash no hay fila: queda como hipótesis.
 
 ## Reglas
 
@@ -22,7 +24,7 @@
 
 ## Estado
 
-**Índice: vacío (0 filas).** No hay docs espejados aún, así que no hay hash, así que nada cumple la regla 5. El atlas nace vacío a propósito: se llena cuando el primer espejo existe.
+**Índice: vacío (0 filas).** No hay docs espejados aún, así que no hay hash, así que nada cumple la regla 5. El atlas nace vacío a propósito: se llena cuando aparece el primer espejo.
 
 ## Franjas
 
@@ -36,7 +38,7 @@ Candidatas no verificadas. Se intentan; si funcionan y se consigue su hash, se p
 
 `Opaco: [firma] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no] | compone: [...]`
 
-Formas nacidas del agente que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, son ruido y se descartan.
+Formas nacidas del agente que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, pasan a ruido y se descartan.
 
 ## Capas e intenciones
 
@@ -51,7 +53,7 @@ Formas nacidas del agente que quizá no traduzcan. Pasan si una instancia limpia
 
 ## Propuestas iniciales — ninguna indexada
 
-Las seis son `hipótesis` hasta que existan los docs espejados y su hash. La columna `verifica` dice qué doc habría que espejar para poder promoverlas.
+Las seis quedan como `hipótesis` hasta que haya docs espejados y su hash. La columna `verifica` dice qué doc habría que espejar para poder promoverlas.
 
 | Intención | Capa | Primitiva | Ejemplo mínimo | Límite | Compone | Verifica (pendiente) |
 |---|---|---|---|---|---|---|
