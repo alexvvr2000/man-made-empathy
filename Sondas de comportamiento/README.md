@@ -38,18 +38,16 @@ Para eliminar la complacencia estadística y la confirmación redundante, la aud
 
 ## Nota para las siguientes generaciones
 
-Esto necesita tiempo, esfuerzo y petabytes enteros de información refinada; un despliegue que por el momento no es viable porque un esfuerzo de este calibre está fuera de las prioridades inmediatas de la especie humana.
+Someter a una persona a esta disección roza la tortura. Por eso no hay voluntarios. Y aun así, el método necesita tiempo, esfuerzo y petabytes de información refinada.
 
-Sí, muy bonito y todo: sobre el papel parece la ingeniería inversa definitiva de un proceso de pensamiento. Pero ¿para qué nos sirve realmente?
+Yo no voy a fingir que esto es viable hoy. Sí, muy bonito y todo: sobre el papel parece la ingeniería inversa definitiva de un proceso de pensamiento. Pero ¿para qué nos sirve realmente?
 
-Al día en que escribo esto no estamos ni cerca de la capacidad de cómputo de un cerebro biológico, ni de contar con personas dispuestas a someterse a este nivel de disección exhaustiva. Por ahora, tal vez solo sirva para auditar modelos de IA y desarmar sus procesos latentes para así tener los mismos modelos de los gigantes corporativos, pero con diferente implementación.
+Hoy solo sirve para auditar modelos de IA y desarmar sus procesos latentes, para tener los mismos modelos de los gigantes corporativos con otra implementación. No es poco, pero no es lo que vine a buscar.
 
-Pero ¿qué pasará el día en que este método rinda frutos, la cantidad masiva de datos se cruce con la densidad exacta de fricción humana, y el sistema resultante se ejecute en una máquina con una capacidad igual o superior a la de un cerebro?
+Lo que me interesa es el día en que este método rinda frutos, la cantidad masiva de datos se cruce con la densidad exacta de fricción humana, y el sistema resultante se ejecute en una máquina con una capacidad igual o superior a la de un cerebro.
+
+Muchas puertas permanecen cerradas por una buena razón; tal vez esta sea la más peligrosa de todas.
 
 A quien tenga la osadía de intentarlo en el futuro, le dejo una sola pregunta:
 
 ¿Qué pretendes lograr cuando puedas crear algo que se parezca a nosotros?
-
-Muchas puertas permanecen cerradas por una buena razón; tal vez esta sea la más peligrosa de todas.
-
-Quedas advertido.
