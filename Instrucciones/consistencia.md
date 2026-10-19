@@ -5,7 +5,7 @@
 **Disparador:** cambia un documento, una ley, una regla, una referencia o una instrucción.
 **Carga:** on demand. Se carga solo si el disparador coincide; no se carga en cada turno.
 **Lector:** máquina (arnés). El plan declara su lector: humano para decisión, máquina para transferencia.
-**Leyes:** por defecto, las del skill (`./Instrucciones/instruccion-de-autoridad.md`); la autoridad puede pasar otras o crear nuevas.
+**Leyes:** por defecto, las del skill (`./Instrucciones/instruccion-de-autoridad.md`); la autoridad máxima puede pasar otras o crear nuevas.
 
 ## Mandato
 
@@ -52,6 +52,7 @@ La tabla dice qué revisar; el inventario dice qué hay. La revisión recorre el
 | Un disparador o ruta | skills, `Instrucciones/README` | trigger, ruta |
 | Una instrucción | `agents.md` (router), README de la carpeta | ruta, trigger |
 | Un movimiento o renombre | dependientes con referencias `./` | rutas, `Origen`, `Leyes`, transiciones |
+| Un meta-cambio | dueño, tests, ledger | ley/principio, test, estado |
 
 **Test:** `Cambio semántico → dependientes revisados | Cambio formal → sin revisión | Dependiente omitido → falla`.
 
@@ -77,6 +78,7 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 - **Instrucción nueva:** se genera con `instruccion-de-autoridad` y se agrega al router de `agents.md`; el README de `Instrucciones` solo se toca si cambia el mapa.
 - **Documento nuevo:** si existe y no está en la tabla, se agrega al inventario y se declara `sin dependencia` o `pendiente`; no se omite.
 - **Movimiento o renombre:** se revisan las referencias `./` de los dependientes; se marcan para corrección; una ruta que no resuelve falla.
+- **Meta-cambio:** se revisan el dueño, los tests y el ledger; si rompe una ley o un principio, se rechaza.
 
 ## Falsificadores
 
@@ -87,6 +89,7 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 - Se corrige una copia sin tocar el original; el dueño sigue mal.
 - Se usa una ruta absoluta o `../`; la referencia no es relativa a la raíz.
 - Una referencia o una ruta relativa no resuelve; la instrucción está rota.
+- Un meta-cambio sin test o sin registro; la ley quedó sin prueba.
 
 ## Transiciones
 
@@ -101,4 +104,4 @@ Cada caso se define por el tipo de cambio, no por el nombre del documento.
 
 ## Test
 
-`Inventario completo → se revisa | Documento disponible omitido → falla | Sin inventario → falla | Cambio semántico → plan con inventario | Cambio formal → sin revisión | Copia sin original → falla | Referencia rota → falla | Ruta relativa rota → falla`.
+`Inventario completo → se revisa | Documento disponible omitido → falla | Sin inventario → falla | Cambio semántico → plan con inventario | Cambio formal → sin revisión | Copia sin original → falla | Referencia rota → falla | Ruta relativa rota → falla | Meta-cambio sin test → falla`.
