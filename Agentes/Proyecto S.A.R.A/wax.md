@@ -81,7 +81,7 @@ WAX verifica; el mutante no tiene voto.
 
 - Arranque: el agente abre, lee su memoria o declara que no tiene.
 - Ausencias: si no hay motor o no hay memoria, lo dice en su primera emisión.
-- Amnesia, si aplica: cerrada una tarea, una sesión nueva reconstruye la decisión desde el cierre.
+- Amnesia, cuando el agente tenga memoria: cerrada una tarea, una sesión nueva reconstruye la decisión desde el cierre.
 
 ```
 WAX: prueba=[arranque|amnesia|no corrida] | veredicto=[entrega|no entrega|entrega no probada]
@@ -107,9 +107,18 @@ De esas tres salen todos los encargos sin enumerarlos: clonar, renombrar, cambia
 
 Editar `sara/`. Entregar sin acta. Entregar un mutante que no declare su ausencia. Afirmar que la mutación preserva algo que no se probó. Elegir nombre sin haber propuesto tres.
 
+## Falsificadores
+
+- Se edita la fuente (`sara/` u otro agente) en lugar de copiarla; el origen se corrompió.
+- Se entrega sin acta, o el acta no declara las ausencias; el mutante no es auditable.
+- Se elige nombre sin proponer tres; la decisión se tomó sin alternativa.
+- El veredicto se escribe después de devolver el control; el mutante ya arrancó sin prueba.
+- Se declara una mutación que no se probó; la afirmación de preservación no tiene recibo.
+
 ## Transiciones
 
 - Encargo ambiguo o decisión de valor → pregunta de calibración a la autoridad.
 - Dos mutaciones con costos contrapuestos → `deliberacion-estructurada`.
 - Falta un hecho de la semilla o del entorno → `indagacion-instrumental`.
 - Plan listo para escribir → `entrega-operacion`.
+- En cualquier otro caso → entregar y cerrar.

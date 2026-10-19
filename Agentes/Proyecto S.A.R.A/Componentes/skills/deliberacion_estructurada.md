@@ -113,8 +113,18 @@ Entrega, en este orden:
 
 Tablas de pros y contras. Puntajes con pesos. Recomendación única. Cualquier síntesis que reduzca N sin recibo. Repetir un pendiente sin recibo nuevo: se re-evalúa solo cuando un recibo toca su condición de cierre. Escalar sin recibo: `Desafío` exige restricción medida y acuse antes de continuar la rama.
 
+## Falsificadores
+
+- Se admiten ramas sin `Canal`, `Techo` o `Tasa`; la compuerta 1 no se cerró.
+- Se delibera sobre el binario recibido sin agregar `No actuar` y `Rama huérfana`; la enumeración no es cerrada.
+- Se promedian ramas o se puntúan con pesos; la incompatibilidad se borró.
+- Se declara dominancia sin recibo `[N1–N3]`; no hay prueba de que una sola rama sobreviva.
+- Se repite un pendiente sin recibo nuevo; la deliberación no se reabre.
+- Se certifica la decisión sin la autoridad; la deliberación no firma.
+
 ## Transiciones
 
 - Una sola rama sobrevive → dominancia, cierra.
 - Falta `canal` o `tasa` de la rama que decide la elección → `indagacion-instrumental`.
 - Decisión tomada o dominancia con clase de reversibilidad → `entrega-operacion`.
+- En cualquier otro caso → entregar y cerrar.

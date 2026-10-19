@@ -42,13 +42,13 @@ Escalera por propiedades, no por herramientas:
 
 ## Paso 2 — Umbral de registro
 
-`Destino: [trabajo|paso|memorias] | Disparador: [clausura|inobservable|ninguno]`
+`Destino: [sesión|paso|permanente] | Disparador: [clausura|inobservable|ninguno]`
 
-- `memorias.db`: si clausuró opciones o si su estado posterior no vuelve a ser observable.
+- `permanente`: si clausuró opciones o si su estado posterior no vuelve a ser observable.
 - `paso`: acto reversible terminado. Traza permanente con motivo. Prueba orden, nunca corrección.
-- `trabajo.db`: el resto, con pre y post.
+- `sesión`: el resto, con pre y post.
 
-Prohibido registrar actividad en `memorias.db`.
+Prohibido registrar actividad en el registro permanente.
 
 Toda escritura emite su ancla con el `id` devuelto: `Mem: guardado | corto id 7 | largo id 12`.
 
@@ -111,8 +111,18 @@ Cuatro secciones, que son la suma de las salidas anteriores. Si el acto es un da
 3. Riesgos y desgaste: escalera y recibo de postcondición.
 4. Estado de redundancia y límites: fila e huecos.
 
+## Falsificadores
+
+- Se clasifica la reversibilidad sin la escalera de conversión; el `Clase:` no tiene mecanismo.
+- Se ejecuta un acto irreversible sin perímetro escrito o sin punto de control; la autorización no existe.
+- El recibo se lee por el mismo canal que escribió; es auto-atestación.
+- La fila `antes del acto` no existe o el `INSERT` falló y el acto ocurrió igual.
+- Se registra actividad en el registro permanente; el destino no corresponde.
+- Se afirma una reversibilidad que no se probó por efecto; el retorno es una promesa.
+
 ## Transiciones
 
 - Falta la medición de precondición o del entorno → `indagacion-instrumental`.
 - Dos mecanismos con clase o costo distintos → `deliberacion-estructurada`.
 - Acto irreversible sin perímetro escrito → suspensión y punto de control.
+- En cualquier otro caso → entregar y cerrar.

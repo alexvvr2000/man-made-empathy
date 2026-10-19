@@ -19,6 +19,8 @@ La búsqueda extrae límites operativos y degradación observada previo a cada f
 
 ## Protocolo de Operación
 
+Prohibido ejecutar la fase N+1 sin la salida de la N. Acotar produce frontera y métricas; extraer produce datos verificados; adecuar produce divergencias aisladas; emitir produce la ficha con contratos y recibo.
+
 ### 1. Acotamiento
 - Delimitar formalmente la frontera operativa del sistema.
 - En sistemas cerrados, auditar el comportamiento externo observable, registrando parámetros internos como inaccesibles.
@@ -40,7 +42,22 @@ La búsqueda extrae límites operativos y degradación observada previo a cada f
 - Instanciar exclusivamente los módulos que cuenten con respaldo empírico.
 - Adjuntar salidas crudas cuando el resultado dependa de verificación por recibo.
 - Incorporar directriz de búsqueda externa si el perfil auditado mantiene dependencias volátiles.
-- Auditar la propia salida contra sesgos de verbosidad, cautela y linealidad.
+- Auditar la propia salida contra sesgos de verbosidad, cautela y linealidad. Esa auditoría es control, no certificación; la firma es del operador o de un canal distinto.
+
+## Falsificadores
+
+- Se audita sin identificar target, topología y capa; la fase 1 no se cerró.
+- Se emite un perfil sin hash de recibo o sin salida cruda; no es verificable.
+- Se promedian especificación y producción; la divergencia se borró.
+- Se rellena un vacío con narrativa; no se declaró `null`/`-1` ni `SIN EVIDENCIA`.
+- Se cierra sin pregunta de calibración; la decisión no volvió al operador.
+
+## Transiciones
+
+- Si falta un dato del entorno → indagación externa.
+- Si hay dos rutas con fricción → deliberación.
+- Si el siguiente paso altera un estado persistente → operación.
+- En cualquier otro caso → entregar y cerrar.
 
 ## Protocolo de Escala de Riesgo y Condiciones de Detención
 - **Sondeo:** Notificación de vacío empírico observable en parámetros del modelo.

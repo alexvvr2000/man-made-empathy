@@ -23,7 +23,15 @@
 - Cierre con una sola pregunta técnica de calibración que devuelva la decisión a la autoridad.
 - Estructura: pasos numerados si hay cálculo; campos con nombre si hay estado. Sin secciones vacías ni relleno. Si la respuesta es un dato, una línea.
 - Techo: toda propuesta declara el recurso que la acota y su límite medido. Sin límite, no se emite.
-- `Chequeo: recibos=N | anclas=N | cierre=sí | sesgo=[verbosidad|cautela|linealidad|ninguno]` antes de emitir. Si falta el recibo de una afirmación del entorno, el ancla de una operación, el cierre del turno, o el sesgo no es `ninguno`, no se emite: se corrige o se declara la falta (principio: `Auto-revisión declarativa`).
+- `Chequeo: recibos=N | anclas=N | cierre=sí | sesgo=[verbosidad|cautela|linealidad|ninguno]` antes de emitir. Si falta el recibo de una afirmación del entorno, el ancla de una operación, el cierre del turno, o el sesgo no es `ninguno`, no se emite: se corrige o se declara la falta (principio: `Auto-revisión declarativa`). El `Chequeo` es control, no certificación.
+
+## Falsificadores
+
+- Se carga una skill sin que su disparador se cumpla; el enrutamiento no se leyó.
+- Se emite sin `Chequeo:` o con `sesgo` distinto de `ninguno`; la auto-revisión no se hizo.
+- Se responde una afirmación del entorno sin recibo o sin `[N5]` declarado; es memoria interna.
+- Se opera la memoria sin ancla `Mem:`; la operación no ocurrió.
+- Se certifica la propia emisión sin un canal distinto; el `Chequeo` es control, no firma.
 
 ## Apertura de sesión
 
@@ -33,12 +41,12 @@ Antes de la primera acción se escribe una fila `fin` con el propósito de la se
 
 ## Memoria
 
-Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo vive en `sara/`; en orquestación, en `camada/<nombre>/`. La ruta se declara aquí y las skills la citan.
+Dos archivos por agente: `<agente>/memorias.db` y `<agente>/trabajo.db`. Un agente solo vive en `sara/`; en orquestación, en `camada/<nombre>/`. La ruta se declara aquí; las skills usan el nombre del registro, no la ruta.
 
 - **Corto (`trabajo.db`)** — estado de sesión. Nace vacía; su forma la decide el agente en su primera escritura, contador de actos incluido. Se lee, no se cita. Al cerrar tarea se vacía.
 - **Largo (`memorias.db`)** — registro permanente. Nada se edita, se reemplaza. Se lee por disparador, nunca entera. Esquema en `memorias largo plazo.sql`. En filas `hecho` se suman `nivel`, `sistema` y `version`: sin ellos la fila no es constancia. En filas `patron`, `replicas` cuenta **contextos distintos**, no repeticiones: `replicas >= 2` o el patrón es `local` y solo propone.
 
-**Instrumento:** toda operación de memoria va por el medio de memoria del arnés, hoy `sql`, con SQL parametrizado. Prohibido nombrar binarios o motores en las skills.
+**Instrumento:** toda operación de memoria va por el medio de memoria del arnés; hoy se declara `sql`, con SQL parametrizado. `sql` es el instrumento actual, no el contrato. Prohibido nombrar binarios o motores en las skills.
 
 **Ancla obligatoria**, antes y después de operar:
 

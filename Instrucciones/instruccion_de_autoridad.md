@@ -53,6 +53,7 @@ La instrucción contiene, en este orden:
 4. **Falsificadores.** Qué caso invalida la instrucción o el resultado. Sin falsificador, la regla no entra.
 5. **Transiciones.** Cerrar, `deliberacion-estructurada`, `entrega-operacion` o `wax`, con `En cualquier otro caso`.
 6. **Salida.** La forma exacta del resultado: bloque único, campos nombrados, sin texto fuera.
+7. **Versión.** Si cambia un campo del mandato, se reemite la instrucción completa; no se parchea con la conversación.
 
 ## 5. Compuerta de validación
 

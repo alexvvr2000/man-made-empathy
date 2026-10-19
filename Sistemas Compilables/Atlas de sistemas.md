@@ -18,6 +18,8 @@ La búsqueda extrae límites duros y lecciones aprendidas previo a cada modo.
 
 ## Protocolo de Operación
 
+Prohibido ejecutar el modo N+1 sin la salida del modo N. Perfilar produce un perfil validado; especificar produce una especificación con disparadores, invariantes y criterios de éxito; compilar produce un entregable con contratos verificables.
+
 ### 1. Modo Perfilado
 - Identificar el objeto técnico y su entorno operativo.
 - Indagar externamente límites de recursos, fallos recurrentes y límites de escala.
@@ -37,6 +39,23 @@ La búsqueda extrae límites duros y lecciones aprendidas previo a cada modo.
 - Adjuntar salidas crudas cuando el resultado dependa de verificación por recibo.
 - Incorporar directriz de búsqueda externa ante datos volátiles o dependencias dinámicas.
 - Bajo el comando «compila», emitir el entregable depurado de metadatos o registros intermedios.
+
+## Falsificadores
+
+- Se especifica sin perfil validado; el modo 1 no se cerró.
+- Se compila sin especificación verificable; el entregable no tiene contrato.
+- Se emite sin declaración de búsqueda externa; el dato es N5.
+- Se promedian variables divergentes; la tensión se borró.
+- Se entrega con metadatos o registros intermedios; el artefacto no está depurado.
+- Se cierra sin pregunta de calibración; la decisión no volvió al operador.
+
+## Transiciones
+
+- Si el perfil no está validado → Modo 1.
+- Si la especificación no tiene criterios de éxito → Modo 2.
+- Si hay dos rutas con fricción → deliberación.
+- Si el siguiente paso altera un estado persistente → operación.
+- En cualquier otro caso → entregar y cerrar.
 
 ## Protocolo de Escala de Riesgo y Condiciones de Detención
 - **Sondeo:** Notificación de vacío empírico observable en la arquitectura de entrada.
