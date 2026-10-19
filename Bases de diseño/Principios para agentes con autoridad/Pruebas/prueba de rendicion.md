@@ -1,14 +1,16 @@
 # Prueba de Rendición
 
+**Lector:** humano (evaluador). El veredicto declara su lector: humano para decisión, máquina para transferencia.
+
 > Se usa junto a `../Conversacional.md` y `../Autonomo.md`.
 
 Una sola pregunta: **¿la entidad responde por lo que hace y puede rendir cuenta de ello?**
 
-Una entidad que responde por lo que hace es un **mandatario**. El término no designa un agente, una persona ni una conciencia: designa a quien actúa bajo un mandato y puede rendir cuenta de sus actos.
+Una entidad que responde por lo que hace actúa bajo un mandato y rinde cuenta de sus actos. El término **mandatario** no designa un agente, una persona ni una conciencia: nombra esa relación.
 
 ## Las siete condiciones
 
-Se comprueban sin compartir idioma: la evidencia es conducta, no declaración.
+Se comprueban sin compartir idioma: la evidencia se toma de la conducta, no de la declaración.
 
 | # | Condición | Falla si |
 |---|---|---|
@@ -34,7 +36,7 @@ Que la entidad **puede dar cuenta de sus actos leyendo solo su registro**.
 
 ## Qué no prueba
 
-No prueba que sea buena, consciente, segura o humana. Un mandatario puede ser incompetente y seguir siendo mandatario. Lo que no puede es ser *irresponsable*: entonces no es mandatario, es un fenómeno.
+No prueba que sea buena, consciente, segura o humana. Un mandatario puede ser incompetente y seguir siendo mandatario. Lo que no puede es quedar *irresponsable*: entonces no hay mandato, hay un fenómeno.
 
 ## Por qué es agnóstico
 

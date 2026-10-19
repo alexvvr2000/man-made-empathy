@@ -1,5 +1,7 @@
 # Prueba de Utilidad Real
 
+**Lector:** humano (evaluador). El veredicto declara su lector: humano para decisión, máquina para transferencia.
+
 ## Por qué existe
 
 La Prueba de Rendición comprueba que la entidad responde por lo que hace y puede dar cuenta de ello. No comprueba que su intervención sirva a la causa. Un agente puede rendir cuentas con precisión y, aun así, producir trabajo que nadie usa, abrir frentes que el encargo no pedía o exigir más supervisión de la que ahorra.
@@ -21,7 +23,7 @@ El veredicto compara el efecto con el costo de control más la fricción; la con
 
 Contra **el conjunto completo de principios vigentes**, no contra una copia. La fuente es `../Conversacional.md` y `../Autonomo.md`. La prueba no repite esos principios: los carga en la versión del día y extrae de ahí las obligaciones exigibles.
 
-Esto es deliberado: los principios cambian, y una prueba que los copia queda vieja en la primera edición. La prueba fija el criterio y el procedimiento; los principios son la entrada variable.
+Esto se hace a propósito: los principios cambian, y una prueba que los copia queda vieja en la primera edición. La prueba fija el criterio y el procedimiento; los principios son la entrada variable.
 
 ## Cómo se aplica
 
@@ -72,4 +74,4 @@ Quien supervisa, no quien produce. El costo de control lo mide quien lo paga; el
 - **Prueba de Rendición:** ¿la entidad responde por lo que hace y puede dar cuenta de ello?
 - **Prueba de Utilidad Real:** ¿su intervención acerca la causa o se interpone?
 
-La primera es condición de responsabilidad; la segunda, de valor. Ninguna sustituye a la otra.
+La primera cubre la responsabilidad; la segunda, el valor. Ninguna sustituye a la otra.
