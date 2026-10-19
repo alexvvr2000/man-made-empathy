@@ -14,16 +14,19 @@ Estas reglas no son una instrucción de ejecución: no tienen compuertas de turn
 Toda regla se escribe sobre una operación: qué entra, qué se hace, qué señal sale, qué configuración cambia. El sujeto de la regla es la operación, no lo que la ejecuta.
 
 **Test:** `La regla se aplica sin describir al ejecutor → bien escrita | Necesita describir al ejecutor → mal escrita`.
+**Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
 ### 1.2 Lo que distingue
 Toda descripción se funda en lo que distingue: la operación, la función, la diferencia con otro. La descripción que no distingue es una etiqueta.
 
 **Test:** `Borra el nombre y deja la descripción → si sigue diciendo qué hace o en qué difiere, describe | Si no dice nada, era una etiqueta`.
+**Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
 ### 1.3 Propagación del estilo
 El estilo de estas reglas rige todo artefacto que se base en ellas —skills, instrucciones, agentes, anexos—. Un derivado que describa por esencia o que ponga al ejecutor como sujeto contamina la regla con el ser; se corrige el derivado, no la regla.
 
 **Test:** `Derivado con esencia o con el ejecutor como sujeto → contaminación: se corrige el derivado | Derivado escrito sobre operaciones y diferencias → consistente`.
+**Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
 ### 1.4 Lo human-first no se completa
 Un documento cuya forma declara un lector humano —prosa, contexto y decisión, sin campos ni anclas de ejecución— se amplía solo cuando la ampliación evita una lectura equivocada o cierra un hueco que el lector ya necesita. Se agrega una pieza, no una sección; no se completa por simetría, estética o completitud. La línea que el formato ya declara —por ejemplo, `Lector:`— no se agrega.
@@ -33,6 +36,7 @@ Un documento cuya forma declara un lector humano —prosa, contexto y decisión,
 **Árbol cerrado:** `Evita una lectura equivocada → una pieza | Cierra un hueco que el lector ya tiene → una pieza | Completa por simetría o estética → no | Necesita una sección → se consulta`.
 
 **Test:** `La forma declara lector humano → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
+**Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
 ### 1.5 Agnosticismo de era y tecnología
 Las normas no nombran **coordenadas de tiempo o de instrumento** —eras, tecnologías, herramientas, modelos, plataformas o versiones—. Se escriben por propiedad y operación.
