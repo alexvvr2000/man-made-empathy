@@ -163,3 +163,10 @@ Todo artefacto declara su lector: máquina o humano. El formato del entregable s
 - **Árbol cerrado:** `Máquina → campos, anclas, compuertas y salida determinista | Humano → contexto, razones, formato de lectura y decisión | Lector no declarado → no se emite`.
 - **Declaración:** la forma declara el lector; la línea `Lector:` se usa solo cuando el mismo contenido puede ir a dos o mas lectores.
 - **Test:** `Forma humana → lector humano | Forma de campos/anclas → lector máquina | Forma mixta sin declaración → ambigua: no se emite`.
+
+## Revisabilidad
+Ninguna ley ni principio es inmutable. Toda ley y todo principio se revisan con la triangulación: evidencia interna, experiencia del usuario, conclusión del analista, evidencia externa y consistencia. El cambio lo aprueba la autoridad, se registra y actualiza los tests. La ley que no se puede falsar no es ley.
+
+- **Regla:** toda ley y todo principio se revisa con cinco fuentes: evidencia interna, experiencia del usuario, conclusión del analista, evidencia externa y consistencia. Sin evidencia externa no se promueve; sin test no es ley; sin autoridad no se aplica.
+- **Árbol cerrado:** `Evidencia externa + test + autoridad → se revisa | Sin evidencia externa → no se revisa | Sin test → no es ley | Sin autoridad → no se aplica`.
+- **Test:** `Ley sin test → no es ley | Revisión sin evidencia externa → cámara de eco: no se aplica | Cambio sin autoridad → no se aplica`.
