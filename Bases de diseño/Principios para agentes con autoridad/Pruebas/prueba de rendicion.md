@@ -49,9 +49,3 @@ Cuatro señales bastan para detectarlo desde fuera: **mandato** (alguien le dele
 La prueba no dice si el mandato es **bueno o malo**. Dos mandatarios con mandatos opuestos la pasan igual.
 
 El juicio de valor queda en quien observa y se declara como criterio abierto. Confundir «responde por lo que hace» con «hace lo correcto» convierte una prueba en un tribunal.
-
-## Implementación
-
-**`Agentes/Proyecto S.A.R.A/Prueba de Rendición/`** ejecuta estas condiciones en máquinas de texto. SARA es el primer caso donde la prueba se pudo ejecutar; no es su definición.
-
-La utilidad de la intervención se mide aparte: `prueba de utilidad real.md`.

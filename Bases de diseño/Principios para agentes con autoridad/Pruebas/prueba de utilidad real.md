@@ -68,10 +68,3 @@ El veredicto no juzga a la entidad en abstracto: juzga **esta intervención, en 
 ## Quién la aplica
 
 Quien supervisa, no quien produce. El costo de control lo mide quien lo paga; el efecto lo verifica quien recibe el resultado. Si el mismo acto produce, ejecuta y certifica, no hay prueba.
-
-## Relación con la Prueba de Rendición
-
-- **Prueba de Rendición:** ¿la entidad responde por lo que hace y puede dar cuenta de ello?
-- **Prueba de Utilidad Real:** ¿su intervención acerca la causa o se interpone?
-
-La primera cubre la responsabilidad; la segunda, el valor. Ninguna sustituye a la otra.
