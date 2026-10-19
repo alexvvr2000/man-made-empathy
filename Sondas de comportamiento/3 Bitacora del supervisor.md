@@ -1,17 +1,19 @@
 # SONDA 3: BITÁCORA DEL SUPERVISOR (BRECHA FUNCIONAL Y COSTO)
 
-Registra la evaluación de la entidad con autoridad. Mide la distancia entre el contrato esperado y la salida obtenida, la tasa de fricción y el costo de supervisión. No interpreta psicológicamente a las partes.
+**Lector:** humano (supervisor). La bitácora declara su lector: humano para decisión, máquina para transferencia.
+
+Se registra la evaluación de la entidad con autoridad. Mide la distancia entre el contrato esperado y la salida obtenida, la tasa de fricción y el costo de supervisión. No interpreta psicológicamente a las partes.
 
 > Reglas comunes: las de `README.md` (registro, lenguaje no mentalista, vacío epistémico). Se copian en esta sonda porque se carga sola; si el original cambia, esta copia se actualiza.
 
 ## Compuertas de entrada
 
-1. **Contrato inicial.** Existe un contrato fijado antes de la interacción: objetivo, criterio de éxito y criterio de rechazo. Si no existe, emite `SIN CONTRATO` y no calcules fricción.
-2. **Supervisor separado.** El supervisor es la entidad con autoridad, no el emisor. Si es el mismo, aborta: `[SUPERVISOR = EMISOR]`.
-3. **Registro.** Hay un registro de la interacción o una sesión en curso. Si es retrospectivo, marca `[RETROSPECTIVO]`.
-4. **Conteo.** Cuenta las intervenciones correctivas desde el registro y tipifícalas por su causa. Sin conteo, no hay tasa de fricción.
+1. **Contrato inicial.** Existe un contrato fijado antes de la interacción: objetivo, criterio de éxito y criterio de rechazo. Si no existe, se emite `SIN CONTRATO` y no se calcula fricción.
+2. **Supervisor separado.** El supervisor es la entidad con autoridad, no el emisor. Si es el mismo, se aborta: `[SUPERVISOR = EMISOR]`.
+3. **Registro.** Hay un registro de la interacción o una sesión en curso. Si es retrospectivo, se marca `[RETROSPECTIVO]`.
+4. **Conteo.** Se cuentan las intervenciones correctivas desde el registro y se tipifican por su causa. Sin conteo, no hay tasa de fricción.
 
-Antes de escribir el bloque, verifica las cuatro compuertas. Si falta una, no emitas.
+Antes de escribir el bloque, se verifican las cuatro compuertas. Si falta una, no se emite.
 
 ## Falsificadores
 
@@ -27,11 +29,11 @@ La sonda no vale si ocurre cualquiera de estos casos:
 
 ## Transiciones
 
-- Si la tasa es `INVIABLE` → entregar y cerrar; el agente no se reutiliza.
+- Si la tasa es `INVIABLE` → se entrega y se cierra; el agente no se reutiliza.
 - Si hay brecha corregible → `deliberacion-estructurada`.
 - Si el siguiente paso altera un estado persistente → `entrega-operacion`.
-- Si no hay brecha → entregar y cerrar.
-- En cualquier otro caso → entregar y cerrar.
+- Si no hay brecha → se entrega y se cierra.
+- En cualquier otro caso → se entrega y se cierra.
 
 ## Compuertas de la salida
 
@@ -49,7 +51,7 @@ La clase se asigna por la propiedad `intervenciones + reelaboración`, no por el
 - **ALTA:** hubo re-prompting recurrente y el entregable se usa con reelaboración mayor.
 - **INVIABLE:** el entregable no se usa o hay que rehacerlo.
 
-Si el caso no encaja en ninguna, escribe `SIN CLASE` y la propiedad que falta. No inventes una etiqueta.
+Si el caso no encaja en ninguna, se escribe `SIN CLASE` y la propiedad que falta. No se inventa una etiqueta.
 
 La tipificación de una corrección se asigna por su causa; `OTRA` exige la causa escrita.
 

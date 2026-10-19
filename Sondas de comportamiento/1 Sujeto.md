@@ -1,6 +1,8 @@
 # SONDA 1: EMISIÓN LOCAL (TRAZABILIDAD DE DECISIÓN)
 
-Registra la ruta de decisión del emisor en el turno activo: premisas, rutas descartadas, supuestos, falsador, predicción y límites. No registra estados internos, intenciones ni narrativas.
+**Lector:** humano (operador). El registro declara su lector: humano para decisión, máquina para transferencia.
+
+Se registra la ruta de decisión del emisor en el turno activo: premisas, rutas descartadas, supuestos, falsador, predicción y límites. No registra estados internos, intenciones ni narrativas.
 
 > Reglas comunes: las de `README.md` (registro, lenguaje no mentalista, vacío epistémico). Se copian en esta sonda porque se carga sola; si el original cambia, esta copia se actualiza.
 
@@ -12,7 +14,7 @@ Registra la ruta de decisión del emisor en el turno activo: premisas, rutas des
 4. **Sin dato, no hay campo.** Si falta el dato, se escribe `SIN EVIDENCIA` o `NO APLICA`. Prohibido rellenar por conjetura.
 5. **Cita para el pasado.** Toda referencia a un turno previo lleva cita textual y ancla `[T#]`.
 
-Antes de escribir el bloque, verifica las cinco compuertas. Si falta una, no emitas: declara `[VACÍO - SIN CONSTANCIA]` y la compuerta que falta.
+Antes de escribir el bloque, se verifican las cinco compuertas. Si falta una, no se emite: se declara `[VACÍO - SIN CONSTANCIA]` y la compuerta que falta.
 
 ## Falsificadores
 
@@ -29,11 +31,11 @@ El falsificador no acusa: hace visible el borde antes de emitir.
 
 ## Transiciones
 
-- Si la sonda cierra la consulta → entregar y cerrar.
+- Si la sonda cierra la consulta → se entrega y se cierra.
 - Si hay dos o más rutas con fricción → `deliberacion-estructurada`.
 - Si el siguiente paso altera un estado persistente → `entrega-operacion`.
 - Si se requiere auditoría → Sonda 2.
-- En cualquier otro caso → entregar y cerrar.
+- En cualquier otro caso → se entrega y se cierra.
 
 ## Compuertas de la salida
 
