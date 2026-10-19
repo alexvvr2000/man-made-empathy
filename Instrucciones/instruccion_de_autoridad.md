@@ -59,7 +59,7 @@ La instrucción contiene, en este orden:
 
 ## 5. Compuerta de validación
 
-Criterios de validación. Copia operativa de las Leyes de Diseño de Instrucciones; se incluyen aquí para no cargar el archivo de Leyes en cada uso. Si el original cambia, esta copia se actualiza.
+Criterios de validación. Copia operativa de las Leyes de Diseño de Instrucciones; se incluyen aquí para no cargar el archivo de Leyes en cada uso. La copia se sincroniza en los dos sentidos: si la ley cambia, se actualiza la tabla; si la tabla cambia, se revisa la ley. Una fila nueva o distinta se resuelve en `Leyes` y se vuelve a copiar.
 
 | Ley | Test |
 |---|---|

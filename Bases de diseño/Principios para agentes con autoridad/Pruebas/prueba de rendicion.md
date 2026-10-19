@@ -1,8 +1,6 @@
 # Prueba de Rendición
 
-**Lector:** humano (evaluador). El veredicto declara su lector: humano para decisión, máquina para transferencia.
-
-> Se usa junto a `../Conversacional.md` y `../Autonomo.md`.
+> Se usa junto a `./Bases de diseño/Principios para agentes con autoridad/Conversacional.md` y `./Bases de diseño/Principios para agentes con autoridad/Autonomo.md`.
 
 Una sola pregunta: **¿la entidad responde por lo que hace y puede rendir cuenta de ello?**
 

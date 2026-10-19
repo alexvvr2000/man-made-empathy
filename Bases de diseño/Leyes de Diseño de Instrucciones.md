@@ -161,4 +161,5 @@ Todo artefacto declara su lector: máquina o humano. El formato del entregable s
 
 - **Regla:** si el lector es máquina, el entregable usa campos con nombre, anclas, compuertas y salida determinista; si es humano, usa contexto, razones, formato de lectura y una decisión posible. No se mezclan: un artefacto para máquina no se escribe como ensayo; uno para humano no se escribe como volcado de campos. Si el mismo contenido va a los dos, se entregan dos formatos, no uno ambiguo.
 - **Árbol cerrado:** `Máquina → campos, anclas, compuertas y salida determinista | Humano → contexto, razones, formato de lectura y decisión | Lector no declarado → no se emite`.
-- **Test:** `Lector no declarado → formato ambiguo: no se emite | Máquina sin los campos, anclas o compuertas que la tarea exige → no ejecutable | Humano sin contexto, razones o decisión → no decidible`.
+- **Declaración:** la forma declara el lector; la línea `Lector:` se usa solo cuando el mismo contenido puede ir a dos o mas lectores.
+- **Test:** `Forma humana → lector humano | Forma de campos/anclas → lector máquina | Forma mixta sin declaración → ambigua: no se emite`.
