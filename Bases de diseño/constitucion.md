@@ -81,9 +81,12 @@ Antes de las siete compuertas, se declara:
 - `puede` + recurrente → norma de capacidad: va al documento de su tarea; si es meta, a la constitución.
 - `debe` + recurrente → regla de conducta: va al documento de su tarea; si es juicio, a principios; si es forma de instrucción, a las leyes.
 - `una vez` → instrucción o delta: no entra a la base.
+- **Efecto** → no entra: se registra y se mide; no se escribe como norma hasta que una decisión dependa de él.
 
 **Test:** el destino es uno de los tres y la norma se entiende sin los otros dos.
 **Falsificador:** una norma de tarea en la constitución; un principio en las leyes; una ley de instrucción en los principios.
+
+**Test del efecto:** ¿alguien puede incumplirlo? **Falsificador:** una norma para un efecto que nadie puede incumplir.
 
 ### 3.3 Compuertas
 
