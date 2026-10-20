@@ -10,11 +10,7 @@ No es un manual de SARA, APRIL, DSH ni de una era. Si un documento necesita la i
 
 ## Qué es una tarea
 
-Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara:
-
-`Sistema: propósito | actores | frontera | flujo | retorno | consecuencia`
-
-más su ruta, su cálculo, su consecuencia, su Prueba y su responsable. Sin eso, es ejecución a ciegas.
+Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara `Sistema:` con la forma de `Conversacional` 9, más su ruta, su cálculo, su consecuencia, su Prueba y su responsable. Sin eso, es ejecución a ciegas.
 
 ## Mapa
 
@@ -30,7 +26,7 @@ más su ruta, su cálculo, su consecuencia, su Prueba y su responsable. Sin eso,
 | `A.R.E.S/` | expresar | Cómo se da forma a una tarea de expresión. |
 | `Registro.md` | registrar | Cómo se conserva la tarea: memoria, fuentes y Testimonio. |
 
-La tarea de cada documento es su interfaz: una norma se activa si su `Aplica a` coincide con una de estas tareas.
+La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres (`constitucion.md` §4). Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
 
 ## Orden de lectura
 
