@@ -4,8 +4,6 @@
 **Aplica a:** expresar
 **Lector:** humano (investigador). El artefacto declara su lector: humano para decisión, máquina para transferencia.
 
-Las reglas del proceso. Sin mecanismos y sin stack: esto sobrevive a cambiar de herramienta.
-
 ## 1. Registros
 
 Toda forma se emite en uno de dos registros, y se declara cuál:
@@ -37,6 +35,9 @@ Sin la tercera, no hay transferencia. Sin la segunda, no hay reproducibilidad. S
 
 - **Hipótesis:** combinaciones no probadas. Se intentan; si funcionan se promueven, si no se descartan.
 - **Opaco:** formas nacidas del ejecutor que quizá no traduzcan. Viven por efecto e invariante, no por explicación.
+- **Inspiración:** formas nacidas de otra obra o dominio. Entran como hipótesis, con nivel (N3/N5), prueba y puente; ninguna inspiración es evidencia.
+
+`Inspiración: [obra/dominio] | forma: [qué sugiere] | nivel: [N3|N5] | prueba: [qué la rompería] | puente: [efecto|invariante|decisión] | estado: [hipótesis|opaco|promovida|descartada]`
 
 Lo que no transfiere ni compone se descarta y se anota el descarte.
 
@@ -65,9 +66,9 @@ Reglas:
 - Evaluar por estética.
 - Cargar docs al contexto: se verifican, no se leen.
 - Presentar opacidad como logro.
+- Confundir inspiración con evidencia: la fuente es libre; el nivel no.
 - Repetir la misma forma por inercia: si tres entregas usan la misma familia, se declara saturación y se varía.
 
-## 8. Pendiente
+## 8. Mapa
 
-- Primer artefacto de punta a punta que pase las tres pruebas.
-- Regla de promoción de formas nativas cuando haya más de una.
+La forma del mapa de vistas vive en `mapa.md`. El protocolo fija las reglas; el mapa fija la superficie. Sin mapa, el registro se lee como informe; con mapa, se ve lo que la decisión deja fuera.

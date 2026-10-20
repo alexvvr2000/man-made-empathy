@@ -50,6 +50,8 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Falsificador:** una lista de viñetas sin dependencia de orden.
 
+**Numeración.** La numeración de compuertas es continua; si se quita una, se renumera. Rige `Reglas de escritura.md` 1.17.
+
 ## 5. Anclas léxicas
 
 **Enunciado:** toda clasificación, medición o supuesto se declara en una línea de 5 a 12 palabras antes o junto a la acción.

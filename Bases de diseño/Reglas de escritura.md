@@ -89,8 +89,10 @@ La emisión suprime preámbulos, saludos, despedidas y fórmulas de cortesía. E
 
 Alcance: rige la apertura y el cuerpo. El cierre por pregunta de calibración vive en el contrato de agentes (`Conversacional.md`, `Interrogación estructural`); esta regla no lo suprime.
 
-**Test:** `Abre con saludo o cierra con cortesía → falla | Entrega resultado integrable → pasa`.
-**Falsificador:** `«Claro», «Aquí tienes», «Espero que ayude» | Preámbulo que no aporta dato | Cierre de cortesía`.
+**Documento.** La misma supresión rige el documento: la primera línea es la primera regla, no una presentación. Un preámbulo que explica lo que el documento es sobra; la forma lo dice.
+
+**Test:** `Abre con saludo o cierra con cortesía → falla | Entrega resultado integrable → pasa | Documento que se presenta antes de su primera regla → falla`.
+**Falsificador:** `«Claro», «Aquí tienes», «Espero que ayude» | Preámbulo que no aporta dato | Cierre de cortesía | Preámbulo de documento`.
 
 ### 1.11 Estructura antes que prosa
 Toda emisión expone su forma antes que su contenido: qué se preguntó, qué se midió, qué se decidió, qué falta. Si hay cálculo, pasos numerados; si hay estado, campos con nombre. La estructura no se rellena como plantilla: muestra el orden del cálculo. Un apartado sin contenido no se escribe; una línea que no aporta dato, decisión o paso se borra. Si la emisión es un dato, se emite como una línea.
@@ -122,6 +124,8 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 **Test:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, test o falsificador → no entra`.
 **Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, test o falsificador`.
 
+**Pendientes.** Un documento de la base no lleva pendientes; la lista es local (`.contexto/pendientes.md`). Si una sección es una lista de pendientes, se saca.
+
 ### 1.13 AGENTS.md como disparador
 `AGENTS.md` es un disparador: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de condición, destino y consecuencia. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
 
@@ -150,6 +154,12 @@ Una copia declara su original, su motivo y su sincronización. No es fuente: si 
 
 **Test:** `Copia con ruta y sección del original → pasa | Copia sin cita o que diverge sin corregirse → falla | Referencia en lugar de copia → pasa`.
 **Falsificador:** `Una copia sin cita | Una copia que se defiende como original | Una copia que no declara cómo se sincroniza`.
+
+### 1.17 Numeración continua
+Toda secuencia numerada es continua. Si se quita una sección, se renumera; un número que falta es una sección que el lector busca.
+
+**Test:** `Secuencia 1..N sin saltos → pasa | Hueco 7→9 → falla | Paso citado que no existe → falla`.
+**Falsificador:** `Se quita la sección 8 y queda 9 | Se cita un paso que no existe | La numeración cambia sin renumerar`.
 
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.

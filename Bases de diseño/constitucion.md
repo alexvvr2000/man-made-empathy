@@ -122,6 +122,7 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 | `Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin el ejecutor | Las pruebas pasan |
 | `A.R.E.S/` | expresar | Legible y nativo | La forma transfiere | Una instancia limpia la reproduce |
 | `Registro.md` | registrar | Memoria en dos plazos, fuentes y testimonio | La tarea se reconstruye sin la conversación | Una instancia nueva continúa desde el cierre |
+| `Tesis.md` | pensar | Humanidad y proceso no humano | La interfaz es humana; el mecanismo no | Un lector distingue interfaz, ética y residuo |
 
 **Generación, no acumulación.** El mapa se genera por ejes de tarea; un caso nuevo no agrega fila. Si un caso exige fila nueva, faltan ejes o sobra un duplicado.
 
