@@ -6,7 +6,7 @@
 **Consecuencia:** esto no es un token; cada fila carga una tarea que puede cambiar archivos, agentes o reglas. Sin ruta, la respuesta no se emite.
 **Disparador:** apunta, no contiene — ver `./Bases de diseño/constitucion.md` (LEY 1 y LEY 2).
 
-`Ruta: [fila] | Documento: [doc] | Sistema: [sí|no] | Consecuencia: [qué se rompe]`
+`Ruta: [fila] | Documento: [doc] | Sistema: [sí|no] | Consecuencia: [qué se rompe] | Notas=[]`
 
 | Si pasa... | Carga... | Si no... |
 |---|---|---|
@@ -20,8 +20,7 @@
 | Se expresa una tarea | `./Bases de diseño/A.R.E.S/protocolo.md` | la forma no transfiere |
 | Se ejecuta SARA o el runtime de la era | `./Agentes/Proyecto S.A.R.A/Componentes/AGENTS.md.tmp` | la operación no ocurre |
 | Se encuentra un `AGENTS.md` anidado | — | no enruta; la raíz manda y el otro pasa a `.tmp` |
-| Falta contexto de la autoridad o del estado del proyecto | `./.contexto/notas.md` | se repite lo ya dicho o lo ya descartado |
-| Aparece un dato durable de la autoridad o del proyecto | `./.contexto/notas.md` | se pierde cuando el contexto se recorta |
+| Se emite una respuesta | `./notas/README.md` | la nota no se escribe y la sesión no sobrevive |
 | No coincide y no toca la base | — | responde y cierra |
 | No coincide y toca la base | — | `[VACÍO - SIN RUTA]`; pregunta |
 

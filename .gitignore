@@ -1,3 +1,5 @@
 .vscode/*
 .contexto/*
 Novedad/
+notas/*
+!notas/README.md
