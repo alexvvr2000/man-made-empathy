@@ -29,7 +29,6 @@ más su ruta, su cálculo, su consecuencia, su test y su responsable. Sin eso, e
 | `Pruebas/` | evaluar | Rendición y utilidad de una tarea. |
 | `A.R.E.S/` | expresar | Cómo se da forma a una tarea de expresión. |
 | `Registro.md` | registrar | Cómo se conserva la tarea: memoria, fuentes y testimonio. |
-| `Tesis.md` | pensar | Qué es humano y qué no en la base. |
 
 La tarea de cada documento es su interfaz: una norma se activa si su `Aplica a` coincide con una de estas tareas.
 
