@@ -150,19 +150,20 @@ Equipo: [n] | Coordinación: [traza|mensaje|simulación] | Consenso: [no|sí] | 
 Un subproceso nace con autoridad, sirve una función y muere con condición. Sin las tres, no nace.
 
 ```
-Nacer: [id] | Autoridad: [tipo:nombre] | Fin: [estado observable] | Perímetro: [qué toca] | Presupuesto: [recursos] | Vida: [hasta cuándo] | Muerte: [condición] | Cierra en: [tipo:nombre]
-Deber: [función] | Traza: [fila] | Checkpoint: [N] | No puede: [crear otro sin autoridad]
-Morir: [condición] | Memoria: [cierre|descarte|patron] | Limpieza: [qué se borra] | Testigo: [quién verifica]
+Nacer: [id] | Acta: [id] | Autoridad: [tipo:nombre] | Fin: [estado observable] | Perímetro: [qué toca] | Presupuesto: [recursos] | Vida: [hasta cuándo] | Muerte: [condición] | Cierra en: [tipo:nombre]
+Deber: [función] | Nacer: [id] | Traza: [fila] | Checkpoint: [N] | No puede: [crear otro sin autoridad]
+Morir: [condición] | Nacer: [id] | Cierre: [id] | Memoria: [cierre|descarte|patron] | Limpieza: [qué se borra] | Testigo: [quién verifica]
 ```
 
 - **Nacer** exige autoridad, fin, perímetro, presupuesto, vida, muerte y costo. Sin uno, no nace.
+- **Cadena visible.** El `Nacer` cita el `Acta`; el `Deber` cita el `Nacer`; el `Morir` cierra en `Cierre`. La cadena `Acta → Nacer → Deber → Morir → Cierre` se lee sin el agente.
 - **Deber** declara la función, la traza, el checkpoint y lo que no puede hacer: crear otro sin autoridad.
 - **Morir** declara la condición, el destino de la memoria, la limpieza y el testigo. Sin muerte, no hay nacimiento.
 - **Cap.** El `Equipo: [n]` declara el máximo; un nacimiento que lo exceda se rechaza.
 - **No auto-replicación.** Un subproceso no crea otro sin autoridad explícita; la propuesta va a la autoridad, no al registro.
 
-**Test:** ¿el subproceso tiene `Nacer`, `Deber` y `Morir`? ¿La autoridad lo autorizó? ¿Tiene `Cierra en` y `Muerte`?
-**Falsificador:** nace sin autoridad; nace sin muerte; se duplica sin autoridad; no tiene costo; queda huérfano.
+**Test:** ¿el `Nacer` cita el `Acta`? ¿El `Deber` cita el `Nacer`? ¿El `Morir` cierra? ¿La cadena se lee sin el agente?
+**Falsificador:** el `Nacer` absorbe el `Acta`; el `Deber` no cita el `Nacer`; el `Morir` no cierra; la cadena no se reconstruye sin el agente.
 
 ## Test de la tarea
 
