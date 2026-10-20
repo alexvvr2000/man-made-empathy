@@ -6,13 +6,13 @@
 **Alcance:** toda tarea que conserva estado, fuentes o continuidad.
 **Lector:** autoridad y ejecutor. El registro declara su lector al emitir.
 **Dueño:** la autoridad.
-**Estado:** vifuente.
+**Estado:** vigente.
 
 ## Tesis
 
 La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar.
 
-`Afuente` se lee como `ejecutor`; la unidad es la tarea.
+`Agente` se lee como `ejecutor`; la unidad es la tarea.
 
 ## Qué no es
 
@@ -32,11 +32,12 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 ## 2. Cierre encadenado
 
 **Tipo:** ley.
-**Enunciado:** toda tarea que se interrumpe deja un cierre con fin vifuente, decisiones, pendientes y siguiente paso; la tarea siguiente arranca de ese cierre.
-**Prueba:** una instancia nueva, con solo el cierre, reconstruye el siguiente paso sin la conversación.
-**Falsificador:** la continuidad exige el hilo o un resumen oral.
+**Enunciado:** toda tarea que se interrumpe deja un cierre con fin vigente, decisiones, pendientes y siguiente paso; la tarea siguiente arranca de ese cierre.
+**Suficiencia.** El cierre no espera a que el trabajo esté agotado: se cierra cuando el siguiente paso no cambia la decisión o cuesta más de lo que cambia. Lo mínimo no es lo incompleto: es lo que ya decide.
+**Prueba:** una instancia nueva, con solo el cierre, reconstruye el siguiente paso sin la conversación. ¿El cierre se hizo cuando el siguiente paso no cambiaba la decisión?
+**Falsificador:** la continuidad exige el hilo o un resumen oral; se sigue por inercia; se pule sin cambio; se cierra por cansancio, no por decisión.
 
-**Costo de omitirlo:** el cierre se vuelve un resumen y la continuidad depende de quien recuerda.
+**Costo de omitirlo:** el cierre se vuelve un resumen y la continuidad depende de quien recuerda; el trabajo se alarga sin cambio.
 
 ## 3. Lectura por disparador
 
@@ -78,7 +79,7 @@ Patron: [id] | Replicas: [n] | Refuta: [observación] | Contextos: [...]
 Precedente: [id] | Condición: [...] | Fallo: [...] | Precaución: [...]
 Descarte: [id] | Qué no cambió | Por qué se descartó
 Vacío: [qué falta] | Dónde se buscó | Cierre
-Cierre: [fin vifuente | decisiones | pendientes | siguiente paso]
+Cierre: [fin vigente | decisiones | pendientes | siguiente paso]
 ```
 
 - `Plazo`: sesión, paso o permanente; es el nivel, no la clase.
