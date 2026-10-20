@@ -15,7 +15,11 @@
 - **efecto:** lo que produce.
 - **límite:** cuándo NO usarla. Sin esto, la fila queda como corazonada.
 - **compone:** con qué otras filas se combina.
-- **verifica:** `ruta` + sello del documento. Sin ruta y sello no hay fila: queda como hipótesis.
+- **verifica:** la prueba que la fila pasó, con su sello. Sin sello, la fila queda como hipótesis.
+  - **Legible:** `ruta` + sello del documento; la afirmación se sigue hasta su origen.
+  - **Del ejecutor:** `corrida: [id]` + `reproduce: [sí|no]`; una instancia limpia rehace la forma leyendo solo el registro.
+  - La prueba y sus tres casos viven en `protocolo.md` §3.
+  - Un sello de corrida no sube el nivel de la afirmación: sube la fila, no la verdad.
 
 ## Reglas
 
@@ -28,9 +32,9 @@
 
 ## Estado
 
-**Índice: vacío (0 filas).** No hay fuentes verificadas aún, así que no hay sello, así que nada cumple la regla 5. El atlas nace vacío a propósito: se llena cuando aparece la primera fuente verificada.
+El atlas no declara cuántas filas tiene: declara cuándo una fila entra. Entra cuando tiene `límite` y `verifica`; mientras no los tenga, vive en `Hipótesis`. El conteo es estado de la implementación, no de este documento.
 
-**Registro de formas: 0 filas.**
+Un índice vacío no es un fallo: es un índice sin formas que hayan pasado su prueba.
 
 Las propuestas concretas de herramientas no viven en la base; viven en la implementación. El atlas solo registra formas por intención.
 

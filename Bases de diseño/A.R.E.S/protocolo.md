@@ -43,7 +43,7 @@ Lo que no transfiere ni compone se descarta y se anota el descarte.
 
 ## 5. Atlas
 
-El índice se organiza por **intención**, nunca por nombre de método. Una fila es:
+El índice se organiza por **intención**, nunca por nombre de método. Una fila es (forma y sello de cada campo en `atlas.md`):
 
 `intención | forma | efecto | límite | compone | verifica`
 
