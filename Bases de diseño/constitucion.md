@@ -115,6 +115,7 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 
 | Documento | Tareas | Mecanismo | Invariante | Prueba |
 |---|---|---|---|---|
+| `Derrotero.md` | enrutar | Contrato, ciclo, capacidades y vacíos | La petición se convierte en tarea; la ausencia se declara | Una instancia limpia ejecuta la tarea |
 | `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | La tarea se ejecuta sin preguntar | Una instancia limpia ejecuta la tarea |
 | `Conversacional.md` | interactuar, decidir | Autoridad, posición, fuentes y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
 | `Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
@@ -127,6 +128,8 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 **Cuerpo de principios.** `Conversacional`, `Autonomo` y `Registro` son un solo documento partido en tres por dependencia de lectura: se puede conversar sin ejecutar; no se puede ejecutar sin conversar. `Conversacional` decide y emite; `Autonomo` agrega el acto que altera el entorno; `Registro` conserva lo que las otras dos producen. La partición es de lectura, no de vigencia: la norma de una parte rige en las tres y ninguna parte se cita sola.
 
 **Prueba:** una norma de `Conversacional` se aplica a una tarea de `Autonomo` sin copiarse. **Falsificador:** se cita una parte como el cuerpo; una norma del cuerpo se repite en otra parte.
+
+**Derrotero.** Es la forma del disparador: no es parte del cuerpo y no se cita como norma; se implementa en el disparador de la era.
 
 **Generación, no acumulación.** El mapa se genera por ejes de tarea; un caso nuevo no agrega fila. Si un caso exige fila nueva, faltan ejes o sobra un duplicado.
 
