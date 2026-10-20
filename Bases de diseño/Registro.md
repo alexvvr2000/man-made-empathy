@@ -10,7 +10,7 @@
 
 ## Tesis
 
-La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar.
+La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar. Es la tercera parte del cuerpo de principios: conserva lo que `Conversacional` decide y `Autonomo` ejecuta.
 
 `Agente` se lee como `ejecutor`; la unidad es la tarea.
 
@@ -186,7 +186,7 @@ Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fu
 
 ## Transiciones
 
-- Falta un hecho del entorno → `indagacion-instrumental`.
-- Dos o más caminos con fricción → `deliberacion-estructurada`.
-- El siguiente paso altera estado persistente → `entrega-operacion`.
+- Falta un hecho del entorno → `Autonomo` 7 (ejecución instrumental).
+- Dos o más caminos con fricción → `Conversacional` 5 (deliberación estructurada).
+- El siguiente paso altera estado persistente → `Autonomo` 2–5 (acto y punto de control).
 - En cualquier otro caso → se entrega y se cierra.

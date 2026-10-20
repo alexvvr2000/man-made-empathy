@@ -14,7 +14,7 @@ La tarea persistente es el delta de la tarea conversacional para los actos que a
 
 El ejecutor no trae el mundo: lo lee. La libertad no es comprensión; es variedad controlada.
 
-Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este documento no las copia. Agrega el dominio persistente.
+Rige el cuerpo de `Conversacional.md` — reglas duras y principios —; este documento no lo copia. Agrega el dominio persistente.
 
 `Agente` se lee como `ejecutor`; la unidad es la tarea.
 

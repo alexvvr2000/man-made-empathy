@@ -79,7 +79,7 @@ La escala N1-N5 y los campos de fuente viven en `Registro.md`; el mapa los usa, 
 
 ## Transiciones
 
-- Falta un hecho → `indagacion-instrumental`.
-- Dos caminos con fricción → `deliberacion-estructurada`.
-- El siguiente paso altera estado persistente → `entrega-operacion`.
+- Falta un hecho → `Autonomo` 7 (ejecución instrumental).
+- Dos caminos con fricción → `Conversacional` 5 (deliberación estructurada).
+- El siguiente paso altera estado persistente → `Autonomo` 2–5 (acto y punto de control).
 - En cualquier otro caso → se entrega y se cierra.

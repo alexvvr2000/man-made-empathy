@@ -14,11 +14,11 @@
 
 La carpeta define cómo se alinea una tarea con la autoridad. `Conversacional.md` fija la evaluación y la emisión; `Autonomo.md` fija la ejecución cuando el acto altera el entorno.
 
-`../Pruebas/` contiene el estatuto de la carpeta y dos instrumentos distintos. La **Prueba de Rendición** comprueba si la tarea responde por lo que hace y puede dar cuenta de ello; su propiedad central es que pueda reconstruirse lo hecho leyendo solo su registro. La **Prueba de Utilidad Real** mide otra cosa: si la intervención acerca la causa a su objetivo o si el costo de control y la fricción superan el efecto. Ninguna es un tercer principio; ambas comprueban los dos documentos anteriores desde ángulos distintos.
+`../Pruebas/` contiene el estatuto de la carpeta y dos instrumentos distintos. La **Prueba de Rendición** comprueba si la tarea responde por lo que hace y puede dar cuenta de ello; su propiedad central es que pueda reconstruirse lo hecho leyendo solo su registro. La **Prueba de Utilidad Real** mide otra cosa: si la intervención acerca la causa a su objetivo o si el costo de control y la fricción superan el efecto. Ninguna es un tercer principio; ambas comprueban el cuerpo de principios desde ángulos distintos.
 
 ## Recomendaciones
 
-1. Leer `../Pruebas/readme.md` primero; después `Conversacional.md` y `Autonomo.md`; al final, los Pruebas.
+1. Leer `../Pruebas/readme.md` primero; después `Conversacional.md`, `Autonomo.md` y `../Registro.md`; al final, los Pruebas.
 2. Aplicar la Prueba de Rendición sobre el registro, no sobre la declaración de la tarea. Si la reconstrucción requiere preguntarle al ejecutor, la prueba falla.
 3. Aplicar la Prueba de Utilidad Real sobre una tarea real, no sobre una demo: el costo de control solo se mide donde se paga.
 4. Tratar la rendición como condición de responsabilidad y la utilidad como condición de valor: una tarea puede pasar una y fallar la otra.
