@@ -60,7 +60,32 @@ Toda tarea empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el 
 
 Una norma se clasifica por su modo de cumplimiento, no por su importancia. Si no se puede clasificar, no entra.
 
-## 3. Admisión
+## 3. Admisión y destino
+
+### 3.1 Qué es cada documento
+
+| Documento | Qué es | Para qué sirve | Qué norma entra |
+|---|---|---|---|
+| `constitucion.md` | Meta-marco | Define qué es norma, cómo se admite, cómo se valida y cómo se muta | La que gobierna la norma misma: tipo, admisión, mapa, validación, mutación |
+| `Principios.../Conversacional.md` y `Autonomo.md` | Principios | Fija el juicio y la conducta de la tarea | La que gobierna cómo se decide y cómo se ejecuta: autoridad, perímetro, reversibilidad, trazabilidad |
+| `Leyes de Diseño de Instrucciones.md` | Leyes de instrucción | Fija cómo se escribe una instrucción | La que gobierna la forma de una instrucción: compuertas, anclas, falsificadores, transiciones |
+
+**Regla de destino:** una norma se escribe en el documento cuya tarea gobierna. Si gobierna la norma misma, va a la constitución. Si gobierna el juicio, va a principios. Si gobierna la forma de una instrucción, va a las leyes. Si no encaja en uno de los tres, no es norma meta: es mecanismo, documento de tarea o implementación.
+
+### 3.2 Clasificación y destino
+
+Antes de las siete compuertas, se declara:
+
+`Clasificación: cambio=[puede|debe] | uso=[una vez|recurrente] | destino=[constitución|principios|leyes de instrucción]`
+
+- `puede` + recurrente → norma de capacidad: va al documento de su tarea; si es meta, a la constitución.
+- `debe` + recurrente → regla de conducta: va al documento de su tarea; si es juicio, a principios; si es forma de instrucción, a las leyes.
+- `una vez` → instrucción o delta: no entra a la base.
+
+**Test:** el destino es uno de los tres y la norma se entiende sin los otros dos.
+**Falsificador:** una norma de tarea en la constitución; un principio en las leyes; una ley de instrucción en los principios.
+
+### 3.3 Compuertas
 
 Una norma entra solo si pasa las siete compuertas:
 
@@ -72,11 +97,13 @@ Una norma entra solo si pasa las siete compuertas:
 6. **Test y falsificador.** ¿Declara el caso que la incumple? Sin eso, no entra.
 7. **Evidencia y autoridad.** ¿Hay caso medido o fuente externa? Sin evidencia queda `en prueba`; sin autoridad no se aplica.
 
-**Alta:** `Tipo | Enunciado | Test | Falsificador | Evidencia | Estado`.
+**Alta:** `Clasificación | Destino | Tipo | Enunciado | Test | Falsificador | Evidencia | Estado`.
 
 **Estados:** `propuesta → en prueba → vigente → deprecada → retirada`.
 
 **Operaciones:** alta, calibrar, fusionar, escindir, retirar. Toda operación deja registro y, si cambia el nombre, redirección.
+
+**Presupuesto de la constitución:** no contiene normas de tarea. Si una norma necesita la constitución para entenderse, es meta; si no, va a su documento.
 
 ## 4. Mapa del núcleo
 
@@ -91,6 +118,10 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 | `Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
 | `Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin el ejecutor | Las pruebas pasan |
 | `A.R.E.S/` | expresar | Legible y nativo | La forma transfiere | Una instancia limpia la reproduce |
+
+**Generación, no acumulación.** El mapa se genera por ejes de tarea; un caso nuevo no agrega fila. Si un caso exige fila nueva, faltan ejes o sobra un duplicado.
+
+**Test:** agregar un caso no requiere fila nueva. **Falsificador:** el mapa crece por caso.
 
 **Aplicación:** cada norma declara `Aplica a: [tarea]`. Una norma se activa si su `Aplica a` coincide con una tarea del documento. Si no coincide, no la rige. El documento no lleva lista de normas; la norma lleva su alcance.
 
@@ -125,8 +156,8 @@ Toda mutación parte de un **marco de origen** y conserva ese marco. La forma pu
 
 1. La autoridad dice qué agregar.
 2. Se lee `README.md`, luego esta constitución, luego `Reglas de escritura.md` y `Reglas de mutación.md` si aplica.
-3. Se clasifica la norma y se pasan las siete compuertas.
-4. Se escribe con `Tipo | Enunciado | Test | Falsificador | Evidencia`.
+3. Se clasifica la norma, se declara su destino y se pasan las siete compuertas.
+4. Se escribe con `Clasificación | Destino | Tipo | Enunciado | Test | Falsificador | Evidencia`.
 5. Se actualiza el mapa, se valida y se registra.
 6. Si no pasa, no entra; se reporta.
 
