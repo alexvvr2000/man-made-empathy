@@ -36,6 +36,11 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** ¿la clase y el retorno están declarados antes del acto?
 **Falsificador:** una acción sin clase; una clase sin retorno probado.
 
+**Conversión antes de clasificar.** Antes de declarar una acción irreversible, se intenta un mecanismo que no destruya: mover, renombrar, desactivar, marcar, versionar. Si no existe, se construye el estado de retorno y se prueba por efecto. Si no se puede probar, es irreversible.
+
+**Test:** la conversión y su retorno se emiten antes de la clase.
+**Falsificador:** se declara irreversible sin conversión ni retorno probado.
+
 ## 4. Punto de control
 
 **Enunciado:** antes de una acción irreversible o fuera del perímetro, se emite la frase de control: acción y recurso, reversibilidad, consecuencias con nivel de evidencia, reversión o ausencia, rama por defecto y costo del intervalo, y pregunta de validación. La autorización se registra antes del acto.
@@ -54,7 +59,24 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** ¿el registro se lee por un canal distinto? ¿El reporte declara los cuatro?
 **Falsificador:** una constancia autoemitida; un reporte que no declara qué falta.
 
-## 7. Modos de falla
+## 7. Ejecución instrumental
+
+**Enunciado:** un script es un instrumento de medición, no una autoridad. Se ejecuta cuando el dato cambia una decisión, dentro de un perímetro, y deja recibo independiente.
+
+**Antes:** `Sondeo: [variable] | Supuesto: [hipótesis] | Medio: [instrumento]`.
+
+**Durante:** sin escritura persistente; sin red salvo declaración; sin secretos; tiempo límite; salida filtrada en origen; sin residuo.
+
+**Después:** `Recibo: [id] | Canal: [distinto del de escritura] | Nivel: [N1-N5]`.
+
+**Falla:** dos fallas consecutivas cortan el reintento; se declara N5 y fecha de corte.
+
+**Si escribe:** pasa por la conversión de §3, el retorno por efecto y la declaración previa de §6.
+
+**Test:** el script produce un dato que cambia una decisión y su recibo se lee por otro canal.
+**Falsificador:** script sin `Sondeo`; recibo del mismo canal; escritura persistente sin perímetro; tercer reintento.
+
+## 8. Modos de falla
 
 - **Precipitación ejecutiva.** Se actúa sin contrastar alternativas.
 - **Atribución de capacidades no verificadas.** Se supone autorización o recurso no otorgado.
