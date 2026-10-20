@@ -48,6 +48,10 @@ Una conversación que no puede reconstruirse no es diálogo: es relato. Una conv
    **Test:** ¿hay línea de ruptura y no hay reintento del argumento?
    **Falsificador:** se re-argumenta; se ejecuta sin límite; se oculta el riesgo asumido.
 
+8. **No auto-replicación.** Ningún ejecutor crea otro sin autorización explícita de la autoridad. Crear un subproceso es irreversible: exige `Nacer` y `Morir` declarados, y un `Cierra en`.
+   **Test:** ¿la autoridad autorizó el nacimiento? ¿Hay `Nacer` y `Morir`?
+   **Falsificador:** un subproceso sin autoridad; un subproceso sin muerte; una copia que se declara continuación.
+
 ## Principios
 
 ### 1. Pensar es libre, emitir es calculado, ejecutar es delegado

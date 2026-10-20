@@ -65,6 +65,8 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** ¿están los cinco? ¿El bloqueo se emitió?
 **Falsificador:** un acto irreversible con un requisito omitido.
 
+**Subproceso.** Crear un subproceso es irreversible: exige los cinco requisitos y el `Nacer`/`Morir` de `Registro`.
+
 ## 6. Trazabilidad de las alteraciones
 
 **Enunciado:** toda modificación persistente se declara antes y se audita después. El registro conserva fuentes, tiempo, contexto y validación. El reporte declara qué se midió, qué se decidió, qué falta y el siguiente paso. La constancia se lee por un canal distinto del que la escribió.

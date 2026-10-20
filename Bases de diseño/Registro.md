@@ -145,6 +145,25 @@ Equipo: [n] | Coordinación: [traza|mensaje|simulación] | Consenso: [no|sí] | 
 **Test:** ¿el equipo se coordinó por traza, sin reunión ni consenso? ¿Cada subproceso tiene autor y costo?
 **Falsificador:** reunión; consenso; rol sin función; costo sin dueño; el equipo cuesta más de lo que ahorra.
 
+## Ciclo
+
+Un subproceso nace con autoridad, sirve una función y muere con condición. Sin las tres, no nace.
+
+```
+Nacer: [id] | Autoridad: [tipo:nombre] | Fin: [estado observable] | Perímetro: [qué toca] | Presupuesto: [recursos] | Vida: [hasta cuándo] | Muerte: [condición] | Cierra en: [tipo:nombre]
+Deber: [función] | Traza: [fila] | Checkpoint: [N] | No puede: [crear otro sin autoridad]
+Morir: [condición] | Memoria: [cierre|descarte|patron] | Limpieza: [qué se borra] | Testigo: [quién verifica]
+```
+
+- **Nacer** exige autoridad, fin, perímetro, presupuesto, vida, muerte y costo. Sin uno, no nace.
+- **Deber** declara la función, la traza, el checkpoint y lo que no puede hacer: crear otro sin autoridad.
+- **Morir** declara la condición, el destino de la memoria, la limpieza y el testigo. Sin muerte, no hay nacimiento.
+- **Cap.** El `Equipo: [n]` declara el máximo; un nacimiento que lo exceda se rechaza.
+- **No auto-replicación.** Un subproceso no crea otro sin autoridad explícita; la propuesta va a la autoridad, no al registro.
+
+**Test:** ¿el subproceso tiene `Nacer`, `Deber` y `Morir`? ¿La autoridad lo autorizó? ¿Tiene `Cierra en` y `Muerte`?
+**Falsificador:** nace sin autoridad; nace sin muerte; se duplica sin autoridad; no tiene costo; queda huérfano.
+
 ## Test de la tarea
 
 Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta una persona. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
