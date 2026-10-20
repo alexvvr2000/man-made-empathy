@@ -145,6 +145,12 @@ Cada enunciado impone una sola obligación. Dos obligaciones unidas por «y», �
 **Falsificador:** `Ley con dos prohibiciones en un párrafo | Enunciado que cambia de alcance a mitad | Norma que solo se verifica leyendo el documento entero`.
 **Evidencia:** ISO/IEC/IEEE 29148:2018, característica «singular».
 
+### 1.16 Copia citada
+Una copia declara su original, su motivo y su sincronización. No es fuente: si diverge, se corrige contra el original. La copia se paga con contexto; si no se usa lo suficiente, se referencia.
+
+**Test:** `Copia con ruta y sección del original → pasa | Copia sin cita o que diverge sin corregirse → falla | Referencia en lugar de copia → pasa`.
+**Falsificador:** `Una copia sin cita | Una copia que se defiende como original | Una copia que no declara cómo se sincroniza`.
+
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
 
