@@ -9,7 +9,7 @@
 
 ## Tesis
 
-El mapa no es un informe: es una superficie para ver lo que la decisión deja fuera. No embellece el resultado; hace visible la posición, la que falta, la fuente, el testimonio y la ausencia. Si el lector necesita preguntar dónde está algo, el mapa falló.
+El mapa no es un informe: es una superficie para ver lo que la decisión deja fuera. No embellece el resultado; hace visible la posición, la que falta, la fuente, el Testimonio y la ausencia. Si el lector necesita preguntar dónde está algo, el mapa falló.
 
 «Vista» es la metáfora; la operación es `posición`.
 
@@ -45,13 +45,13 @@ La escala N1-N5 y los campos de fuente viven en `Registro.md`; el mapa no los re
 1. **Abre por la decisión.** El lector sabe qué está en juego antes de leer el mapa.
 2. **Una posición por fila.** No se mezclan posiciones; cada una declara su límite.
 3. **La fuente se puede seguir.** Sin origen, nivel e independencia, la fila no entra.
-4. **El testimonio tiene dueño.** Sin vínculo y consentimiento, no se habla por la fuente.
+4. **El Testimonio tiene dueño.** Sin vínculo y consentimiento, no se habla por la fuente.
 5. **La ausencia se ve.** Lo que no está se nombra; no se rellena.
 6. **El mapa no decide.** La decisión queda en la autoridad; el mapa muestra el costo y el beneficio.
 
 ## Pruebas
 
-- **Efecto:** el lector ve la posición, la que falta, la fuente, el testimonio y la ausencia sin preguntar.
+- **Efecto:** el lector ve la posición, la que falta, la fuente, el Testimonio y la ausencia sin preguntar.
 - **Reproducibilidad:** el mismo registro produce el mismo mapa.
 - **Transferencia:** otra instancia lo reproduce leyendo solo el registro.
 
@@ -60,7 +60,7 @@ La escala N1-N5 y los campos de fuente viven en `Registro.md`; el mapa no los re
 - El mapa es una pared de texto sin decisión.
 - La posición faltante es un hombre de paja.
 - La fuente no se puede seguir.
-- El testimonio no tiene vínculo ni consentimiento.
+- El Testimonio no tiene vínculo ni consentimiento.
 - La ausencia se rellena con narrativa.
 - El mapa decide por la autoridad.
 

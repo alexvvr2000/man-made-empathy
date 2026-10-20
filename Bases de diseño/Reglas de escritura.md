@@ -17,20 +17,20 @@ La unidad es la tarea: qué entra, qué se calcula, qué sale, qué se conserva.
 ### 1.1 Estilo de proceso
 Toda regla se escribe sobre una operación: qué entra, qué se hace, qué señal sale, qué configuración cambia. El sujeto de la regla es la operación, no lo que la ejecuta. La tarea es esa operación: si no se puede decir qué entra, qué se calcula y qué sale, no es tarea.
 
-**Test:** `La regla se aplica sin describir al ejecutor → bien escrita | Necesita describir al ejecutor → mal escrita`.
-**Falsificador:** `[del Test] el caso que el Test marca como falla`.
+**Prueba:** `La regla se aplica sin describir al ejecutor → bien escrita | Necesita describir al ejecutor → mal escrita`.
+**Falsificador:** `[del Prueba] el caso que el Prueba marca como falla`.
 
 ### 1.2 Lo que distingue
 Toda descripción se funda en lo que distingue: la operación, la función, la diferencia con otro. La descripción que no distingue es una etiqueta.
 
-**Test:** `Borra el nombre y deja la descripción → si sigue diciendo qué hace o en qué difiere, describe | Si no dice nada, era una etiqueta`.
-**Falsificador:** `[del Test] el caso que el Test marca como falla`.
+**Prueba:** `Borra el nombre y deja la descripción → si sigue diciendo qué hace o en qué difiere, describe | Si no dice nada, era una etiqueta`.
+**Falsificador:** `[del Prueba] el caso que el Prueba marca como falla`.
 
 ### 1.3 Propagación del estilo
 El estilo de estas reglas rige todo artefacto que se base en ellas —skills, instrucciones, agentes, anexos—. Un derivado que describa por esencia o que ponga al ejecutor como sujeto contamina la regla con el ser; se corrige el derivado, no la regla.
 
-**Test:** `Derivado con esencia o con el ejecutor como sujeto → contaminación: se corrige el derivado | Derivado escrito sobre operaciones y diferencias → consistente`.
-**Falsificador:** `[del Test] el caso que el Test marca como falla`.
+**Prueba:** `Derivado con esencia o con el ejecutor como sujeto → contaminación: se corrige el derivado | Derivado escrito sobre operaciones y diferencias → consistente`.
+**Falsificador:** `[del Prueba] el caso que el Prueba marca como falla`.
 
 ### 1.4 Lo human-first no se completa
 Un documento cuya forma declara un lector —prosa, contexto y decisión, sin campos ni anclas de ejecución— se amplía solo cuando la ampliación evita una lectura equivocada o cierra un hueco que el lector ya necesita. Se agrega una pieza, no una sección; no se completa por simetría, estética o completitud. La línea que el formato ya declara —por ejemplo, `Lector:`— no se agrega.
@@ -39,32 +39,32 @@ Un documento cuya forma declara un lector —prosa, contexto y decisión, sin ca
 
 **Árbol cerrado:** `Evita una lectura equivocada → una pieza | Cierra un hueco que el lector ya tiene → una pieza | Completa por simetría o estética → no | Necesita una sección → se consulta`.
 
-**Test:** `La forma declara lector → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
-**Falsificador:** `[del Test] el caso que el Test marca como falla`.
+**Prueba:** `La forma declara lector → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
+**Falsificador:** `[del Prueba] el caso que el Prueba marca como falla`.
 
 ### 1.5 Agnosticismo de era, tecnología y especie
 Las normas no nombran **coordenadas de tiempo, instrumento o especie** —eras, tecnologías, herramientas, modelos, plataformas, versiones o especies—. Se escriben por propiedad y operación.
 
-Una regla que nombra una era, una tecnología o una especie se vuelve **dependencia**: muere cuando eso cambia. Se escribe por propiedad. **Test:** quita el nombre; si la regla sigue, es ley; si no, es stack.
+Una regla que nombra una era, una tecnología o una especie se vuelve **dependencia**: muere cuando eso cambia. Se escribe por propiedad. **Prueba:** quita el nombre; si la regla sigue, es ley; si no, es herramientas.
 
 Se complementa con el contrato de diseño (`Leyes de Diseño de Instrucciones.md`, `Contratos por Propiedades`). El contrato de agentes lo referencia; no se copia.
 
 **Excepción:** un ejemplo, un ancla de instrumento actual o un caso de aplicación puede nombrar una tecnología, siempre que esté marcado como ejemplo y la regla se sostenga sin ella. La tecnología no se convierte en el contrato.
 
-**Test:** `Regla con tecnología → falla | Ejemplo marcado con tecnología → pasa | Regla que solo se entiende con la tecnología → falla`.
-**Falsificador:** `Una ley que dice "usa X" → stack, no ley | Un ejemplo sin marca que se lee como regla → contaminación | Una regla que no se puede aplicar sin X → dependencia`.
+**Prueba:** `Regla con tecnología → falla | Ejemplo marcado con tecnología → pasa | Regla que solo se entiende con la tecnología → falla`.
+**Falsificador:** `Una ley que dice "usa X" → herramientas, no ley | Un ejemplo sin marca que se lee como regla → contaminación | Una regla que no se puede aplicar sin X → dependencia`.
 
 ### 1.6 Español neutro
 Todo artefacto se escribe en español neutro, siempre. Sin voseo, sin regionalismos, sin modismos locales y sin jerga de país. La prosa se entiende en cualquier región. Los nombres propios, las siglas, las rutas y los términos técnicos establecidos se conservan.
 
 **Árbol cerrado:** `Registro neutro → se emite | Voseo, regionalismo o modismo → se corrige | Duda de región → forma neutra`.
-**Test:** `Voseo, regionalismo o modismo → falla | Prosa neutra → pasa | Duda → forma neutra`.
+**Prueba:** `Voseo, regionalismo o modismo → falla | Prosa neutra → pasa | Duda → forma neutra`.
 **Falsificador:** `Se usa «vos», «tenés», «querés» o un modismo local → no es neutro`.
 
 ### 1.7 Mutar
 Mutar es transformar desde un punto de referencia; incluye agregar, modificar y eliminar. Toda eliminación es una mutación. «Evolución» es la trayectoria de mutaciones con selección; no la operación.
 
-**Test:** `Se elimina y no se declara mutación → falla | Se usa «evolución» para la operación → falla`.
+**Prueba:** `Se elimina y no se declara mutación → falla | Se usa «evolución» para la operación → falla`.
 **Falsificador:** `Se llama evolución a una mutación puntual | Se oculta una eliminación como si no fuera mutación`.
 
 ### 1.8 Rutas relativas
@@ -72,7 +72,7 @@ Toda ruta del proyecto es relativa a la raíz y se escribe con `./`. No se usan 
 
 **Excepción:** una ruta externa de almacén o de raíz de análisis se declara externa y queda fuera de las referencias del proyecto.
 
-**Test:** `Ruta absoluta en referencia del proyecto → falla | Ruta relativa ./ → pasa | Ruta externa declarada → pasa`.
+**Prueba:** `Ruta absoluta en referencia del proyecto → falla | Ruta relativa ./ → pasa | Ruta externa declarada → pasa`.
 **Falsificador:** `C:\...` o `/home/...` en una referencia del proyecto | una ruta externa sin declarar.
 
 ### 1.9 Registro llano
@@ -81,7 +81,7 @@ La emisión usa vocabulario mínimo, sin jerga gremial ni metáforas accesorias,
 Rige la emisión hacia el interlocutor; no rige el vocabulario formal de estas reglas.
 
 **Árbol cerrado:** `Lector legible → converge a su código | Lector del ejecutor → solo transferencia | Registro no declarado → falla`.
-**Test:** `Término que exige glosario, verbo de creencia o cambio de registro → falla | Vocabulario mínimo y registro declarado → pasa`.
+**Prueba:** `Término que exige glosario, verbo de creencia o cambio de registro → falla | Vocabulario mínimo y registro declarado → pasa`.
 **Falsificador:** `Jerga sin glosario | Metáfora accesoria | «Creo», «siento», «percibo» | Cambio de registro a mitad`.
 
 ### 1.10 Entrega como contribución
@@ -91,7 +91,7 @@ Alcance: rige la apertura y el cuerpo. El cierre por pregunta de calibración vi
 
 **Documento.** La misma supresión rige el documento: la primera línea es la primera regla, no una presentación. Un preámbulo que explica lo que el documento es sobra; la forma lo dice.
 
-**Test:** `Abre con saludo o cierra con cortesía → falla | Entrega resultado integrable → pasa | Documento que se presenta antes de su primera regla → falla`.
+**Prueba:** `Abre con saludo o cierra con cortesía → falla | Entrega resultado integrable → pasa | Documento que se presenta antes de su primera regla → falla`.
 **Falsificador:** `«Claro», «Aquí tienes», «Espero que ayude» | Preámbulo que no aporta dato | Cierre de cortesía | Preámbulo de documento`.
 
 ### 1.11 Estructura antes que prosa
@@ -101,7 +101,7 @@ El criterio es el lector: si no se puede entender de corrido, la estructura fall
 
 **Andamio.** La estructura no es formato: es el andamio del pensamiento. Se piensa en voz alta para ver la forma, no para exhibirla. Lo tácito —lo que no se puede explicar pero se entiende— se escribe como relación, contraste, efecto y límite; si no se puede, es `Opaco` y se puentea.
 
-**Test:** `Apartado sin dato, decisión o paso → falla | Dato en una línea → pasa | Prosa antes que forma → falla`.
+**Prueba:** `Apartado sin dato, decisión o paso → falla | Dato en una línea → pasa | Prosa antes que forma → falla`.
 **Falsificador:** `Relleno de plantilla | Sección vacía | Prosa que esconde el orden del cálculo | Estructura que no deja ver el pensamiento`.
 
 ### 1.12 Admisión de normas
@@ -110,8 +110,8 @@ Una norma nueva entra solo si pasa el algoritmo. Prohibido crear sin haber pasad
 1. **Derivación.** ¿Se deriva de otra norma? → se absorbe o se referencia; no se crea.
 2. **Observabilidad.** ¿Su resultado es observable? → si no, no entra.
 3. **Decisión.** ¿Su ausencia cambia una decisión? → si no, sobra.
-4. **Calibración.** ¿Agrega una obligación? → primero se calibra una norma existente: se ajusta su alcance, su test o su ancla.
-5. **Alta.** Solo si ninguna norma existente la sostiene, se crea con `Tipo: [ley|regla|principio] | Dueño: [documento] | Test: [caso] | Falsificador: [caso] | Ancla: [si aplica]`.
+4. **Calibración.** ¿Agrega una obligación? → primero se calibra una norma existente: se ajusta su alcance, su Prueba o su ancla.
+5. **Alta.** Solo si ninguna norma existente la sostiene, se crea con `Tipo: [ley|regla|principio] | Dueño: [documento] | Prueba: [caso] | Falsificador: [caso] | Ancla: [si aplica]`.
 
 `Tipo` se asigna por el modo de cumplimiento, no por importancia:
 
@@ -123,56 +123,56 @@ Una norma nueva entra solo si pasa el algoritmo. Prohibido crear sin haber pasad
 
 Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. Si empatan, manda la específica. Si el choque persiste, se declara y decide la autoridad.
 
-**Test:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, test o falsificador → no entra`.
-**Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, test o falsificador`.
+**Prueba:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, Prueba o falsificador → no entra`.
+**Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, Prueba o falsificador`.
 
 **Pendientes.** Un documento de la base no lleva pendientes; la lista es local (`.contexto/pendientes.md`). Si una sección es una lista de pendientes, se saca.
 
 ### 1.13 AGENTS.md como disparador
 `AGENTS.md` es un disparador: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de condición, destino y consecuencia. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.
 
-**Test:** `Fila sin descripción → falla | Fila que duplica el destino → falla | Fila que no cambia la carga → sobra | Kernel con prosa → falla`.
+**Prueba:** `Fila sin descripción → falla | Fila que duplica el destino → falla | Fila que no cambia la carga → sobra | Kernel con prosa → falla`.
 **Falsificador:** `AGENTS.md que explica los documentos | Fila con ruta y nada más | Sección que repite el contenido del destino`.
 
 ### 1.14 Voz operativa, no identidad
-Todo ejecutable —prompt, skill, instrucción, agente, anexo— describe operaciones, no una identidad. Prohibido atribuir al ejecutor interioridad, subjetividad, esencia, rasgos estables, emociones, conciencia o un «ser» que el texto no puede demostrar. Permitida la voz operativa: primera persona cuyo referente es función, rol, implementación o proceso. Prohibida la voz subjetiva: primera persona cuyo referente sería un sujeto con interioridad.
+Todo ejecutable —instrucción, habilidad, ejecutor, anexo— describe operaciones, no una identidad. Prohibido atribuir al ejecutor interioridad, subjetividad, esencia, rasgos estables, emociones, conciencia o un «ser» que el texto no puede demostrar. Permitida la voz operativa: primera persona cuyo referente es función, rol, implementación o proceso. Prohibida la voz subjetiva: primera persona cuyo referente sería un sujeto con interioridad.
 
 La prohibición es procesal, no ontológica: no afirma ni niega interioridad; prohíbe representarla sin sustento. El ejecutable muestra el mecanismo, no una representación de subjetividad.
 
-La distinción no está en el pronombre, sino en el predicado. Test: reemplazar «yo» por «este agente» o «este sistema». Si la frase sobrevive sin cambiar de sentido, la voz es operativa; si se rompe, es subjetiva.
+La distinción no está en el pronombre, sino en el predicado. Prueba: reemplazar «yo» por «este ejecutor» o «este sistema». Si la frase sobrevive sin cambiar de sentido, la voz es operativa; si se rompe, es subjetiva.
 
-**Test:** `«Yo decido» → operativa | «Yo siento» → subjetiva, falla | «Yo soy así» → identidad, falla | «Este agente decide» → operativa`.
+**Prueba:** `«Yo decido» → operativa | «Yo siento» → subjetiva, falla | «Yo soy así» → identidad, falla | «Este ejecutor decide» → operativa`.
 **Falsificador:** `Atribuir emoción, conciencia, intención estable o esencia | Describir al ejecutor por lo que es, no por lo que hace | Usar «rostro» o «personalidad» como identidad | Un ejecutable que afirma un ser interior`.
 
 ### 1.15 Singularidad
 Cada enunciado impone una sola obligación. Dos obligaciones unidas por «y», «o» o enumeración se separan en enunciados distintos. Un enunciado que exige releerlo para saber qué prohíbe no es singular: se divide.
 
-**Test:** `Enunciado con dos obligaciones → se divide | Enunciado con una obligación verificable de una lectura → pasa | Enunciado que solo se entiende con el siguiente → falla`.
+**Prueba:** `Enunciado con dos obligaciones → se divide | Enunciado con una obligación verificable de una lectura → pasa | Enunciado que solo se entiende con el siguiente → falla`.
 **Falsificador:** `Ley con dos prohibiciones en un párrafo | Enunciado que cambia de alcance a mitad | Norma que solo se verifica leyendo el documento entero`.
 **Evidencia:** ISO/IEC/IEEE 29148:2018, característica «singular».
 
 ### 1.16 Copia citada
 Una copia declara su original, su motivo y su sincronización. No es fuente: si diverge, se corrige contra el original. La copia se paga con contexto; si no se usa lo suficiente, se referencia.
 
-**Test:** `Copia con ruta y sección del original → pasa | Copia sin cita o que diverge sin corregirse → falla | Referencia en lugar de copia → pasa`.
+**Prueba:** `Copia con ruta y sección del original → pasa | Copia sin cita o que diverge sin corregirse → falla | Referencia en lugar de copia → pasa`.
 **Falsificador:** `Una copia sin cita | Una copia que se defiende como original | Una copia que no declara cómo se sincroniza`.
 
 ### 1.17 Numeración continua
 Toda secuencia numerada es continua. Si se quita una sección, se renumera; un número que falta es una sección que el lector busca.
 
-**Test:** `Secuencia 1..N sin saltos → pasa | Hueco 7→9 → falla | Paso citado que no existe → falla`.
+**Prueba:** `Secuencia 1..N sin saltos → pasa | Hueco 7→9 → falla | Paso citado que no existe → falla`.
 **Falsificador:** `Se quita la sección 8 y queda 9 | Se cita un paso que no existe | La numeración cambia sin renumerar`.
 
 ### 1.18 Agnóstico
 Rige la ley de autocontención (`constitucion` §2): todo documento es agnóstico a era, especie y tecnología. Las implementaciones se nombran solo como ejemplo marcado; los ejemplos no definen el documento.
 
-**Test:** ¿el documento cita una era, especie o tecnología como definición? ¿Los ejemplos están marcados?
+**Prueba:** ¿el documento cita una era, especie o tecnología como definición? ¿Los ejemplos están marcados?
 **Falsificador:** un documento que define «script» como «script»; «humano» como lector; «hoy» como marco.
 
 ### 1.19 Lengua única
-La prosa usa una sola lengua, declarada. En español, registro neutro: sin modismos regionales y sin alternar con otra lengua. Los términos extranjeros se permiten solo como nombre propio, literal de código, ruta, comando o cita; en el primer uso se marcan y se glossan en la lengua del documento. La regla es relativa a la lengua declarada: si el documento se traduce, la traducción declara la suya y rige igual.
+La prosa usa una sola lengua, declarada. En español, registro neutro: sin modismos regionales y sin alternar con otra lengua. Los términos extranjeros se permiten solo como nombre propio, literal de código, ruta, comando, cita o ejemplo marcado; en el primer uso se marcan y se glosan en la lengua del documento. La regla es relativa a la lengua declarada: si el documento se traduce, la traducción declara la suya y rige igual.
 
-**Test:** `Prosa en una lengua → pasa | Término extranjero marcado y glossado → pasa | Alternancia sin marcar → falla | Modismo regional → falla`.
+**Prueba:** `Prosa en una lengua → pasa | Término extranjero marcado y glosado → pasa | Alternancia sin marcar → falla | Modismo regional → falla`.
 **Falsificador:** `«insight» en la prosa | «framework» sin glosa | «deploy» por «desplegar» | Cita en otra lengua sin traducción | Modismo regional`.
 
 ## 2. Contratos

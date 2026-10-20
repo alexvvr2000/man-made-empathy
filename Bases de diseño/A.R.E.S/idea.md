@@ -7,7 +7,7 @@ Dar forma a una tarea de expresión: lo que un proceso no humano produce y otro 
 
 ## Por qué
 
-Una tarea que produce puede dar una app, un reloj, una película en CSS, una notación que no reconocemos. Lo que no tiene es un medio para que eso llegue. A.R.E.S. es ese medio, y su techo no es el catálogo de herramientas: es **lo que se quiere expresar**.
+Una tarea que produce puede dar una aplicación, un reloj, una película en CSS, una notación que no reconocemos. Lo que no tiene es un medio para que eso llegue. A.R.E.S. es ese medio, y su techo no es el catálogo de herramientas: es **lo que se quiere expresar**.
 
 Si funciona para entendernos con un proceso, funciona como ensayo para entendernos con cualquier inteligencia que no comparta el código. Suena a ciencia ficción, y probablemente lo sea. El ejercicio es el mismo: un protocolo de expresión para lo que no habla como nosotros.
 

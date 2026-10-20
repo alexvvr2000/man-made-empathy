@@ -24,7 +24,7 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 
 **Tipo:** ley.
 **Enunciado:** toda tarea distingue un registro de sesión, que se vacía al cerrar, de un registro permanente, que no se edita: se reemplaza.
-**Test:** cerrada la tarea, una instancia nueva continúa solo con el permanente; el de sesión no se cita.
+**Prueba:** cerrada la tarea, una instancia nueva continúa solo con el permanente; el de sesión no se cita.
 **Falsificador:** se cita la sesión como fuente, o se edita una fila del permanente.
 
 **Costo de omitirlo:** la sesión se contamina con la conversación y el permanente deja de ser constancia; la tarea se repite entera en la sesión siguiente.
@@ -33,7 +33,7 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 
 **Tipo:** ley.
 **Enunciado:** toda tarea que se interrumpe deja un cierre con fin vifuente, decisiones, pendientes y siguiente paso; la tarea siguiente arranca de ese cierre.
-**Test:** una instancia nueva, con solo el cierre, reconstruye el siguiente paso sin la conversación.
+**Prueba:** una instancia nueva, con solo el cierre, reconstruye el siguiente paso sin la conversación.
 **Falsificador:** la continuidad exige el hilo o un resumen oral.
 
 **Costo de omitirlo:** el cierre se vuelve un resumen y la continuidad depende de quien recuerda.
@@ -42,7 +42,7 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 
 **Tipo:** regla.
 **Enunciado:** el registro permanente se lee por el disparador que habilita la lectura, con límite; nunca entero.
-**Test:** la consulta nombra el disparador y devuelve un conjunto acotado.
+**Prueba:** la consulta nombra el disparador y devuelve un conjunto acotado.
 **Falsificador:** se vuelca el registro al contexto o se lee sin disparador.
 
 **Costo de omitirlo:** el registro se come el contexto y la lectura cuesta más que la tarea.
@@ -51,7 +51,7 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 
 **Tipo:** regla.
 **Enunciado:** se registra en el nivel mínimo que permita reconstruir: sesión, paso o permanente. La actividad no entra al permanente.
-**Test:** la fila está en el nivel que corresponde a su clausura.
+**Prueba:** la fila está en el nivel que corresponde a su clausura.
 **Falsificador:** actividad en el permanente; una decisión que clausura opciones queda en sesión.
 
 **Costo de omitirlo:** el permanente se llena de ruido y la decisión que importa se pierde.
@@ -59,9 +59,9 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 ## 5. Testimonio
 
 **Tipo:** regla.
-**Enunciado:** toda afirmación sobre la experiencia de la fuente declara al menos un testimonio con vínculo, contexto y consentimiento, o declara la ausencia.
-**Test:** hay `Testimonio:` con fuente, vínculo y contexto; o `Vacío:` con la búsqueda y el cierre.
-**Falsificador:** se habla por la fuente sin citarla; solo documentos; testimonio sin vínculo.
+**Enunciado:** toda afirmación sobre la experiencia de la fuente declara al menos un Testimonio con vínculo, contexto y consentimiento, o declara la ausencia.
+**Prueba:** hay `Testimonio:` con fuente, vínculo y contexto; o `Vacío:` con la búsqueda y el cierre.
+**Falsificador:** se habla por la fuente sin citarla; solo documentos; Testimonio sin vínculo.
 
 **Costo de omitirlo:** el ejecutor simula a la fuente desde documentos y la experiencia se vuelve información.
 
@@ -100,7 +100,7 @@ Cierre: [fin vifuente | decisiones | pendientes | siguiente paso]
 
 La fuente no se guarda: se explota. La búsqueda se degrada por escala y se corta por presupuesto.
 
-1. **Escala.** Firma directa → huella relacional → arquetipo del medio → testimonio. No se adivina al primer fallo.
+1. **Escala.** Firma directa → huella relacional → arquetipo del medio → Testimonio. No se adivina al primer fallo.
 2. **Presupuesto.** Tres accesos por tarea; el cuarto se declara y se justifica.
 3. **Composición.** Las lecturas independientes se agrupan en una pasada; sin residuo.
 4. **Fuente directa.** Documento, API, repositorio o código antes que agregador o prensa.
@@ -108,7 +108,7 @@ La fuente no se guarda: se explota. La búsqueda se degrada por escala y se cort
 6. **Filtro en origen.** Se pide el campo, el fragmento o la métrica; nunca el volcado.
 7. **Falla.** Dos fallas consecutivas cortan el reintento; se declara N5 y fecha de corte.
 
-**Test:** ¿la búsqueda nombró la escala, respetó el presupuesto y dejó dos vectores independientes?
+**Prueba:** ¿la búsqueda nombró la escala, respetó el presupuesto y dejó dos vectores independientes?
 **Falsificador:** se adivina al primer fallo; se volcó el corpus; se sumaron fuentes del mismo origen.
 
 ## Operación
@@ -120,11 +120,11 @@ Mem: leído | [plazo]: [n] filas por "[disparador]" | ids [...]
 Mem: guardado | [plazo] id [n] | [tipo]
 ```
 
-**Checkpoint.** Se cierra en cada borde de decisión y cada N actos; N se declara al abrir. El cierre es una fila `cierre`, no una copia del estado.
+**Control.** Se cierra en cada borde de decisión y cada N actos; N se declara al abrir. El cierre es una fila `cierre`, no una copia del estado.
 
 **Recalibración.** Toda corrección de la autoridad es una fila nueva con `Reemplaza`; el cálculo siguiente parte de ella y el turno lo declara.
 
-**Test:** ¿hay ancla de lectura y de escritura? ¿el cierre tiene `Reemplaza`?
+**Prueba:** ¿hay ancla de lectura y de escritura? ¿el cierre tiene `Reemplaza`?
 **Falsificador:** operación sin ancla; cierre sin `Reemplaza`; corrección editada en vez de reemplazada.
 
 ## Equipo
@@ -142,7 +142,7 @@ Equipo: [n] | Coordinación: [traza|mensaje|simulación] | Consenso: [no|sí] | 
 - **Sin centro.** El `Registro` es el tablero; el `A.R.E.S.` mapa es la vista.
 - **Con costo.** Cada subproceso tiene `Cierra en`; el `A.R.E.S.` mapa declara `Costo`/`Beneficio`; la `Prueba de Utilidad Real` juzga el equipo.
 
-**Test:** ¿el equipo se coordinó por traza, sin reunión ni consenso? ¿Cada subproceso tiene autor y costo?
+**Prueba:** ¿el equipo se coordinó por traza, sin reunión ni consenso? ¿Cada subproceso tiene autor y costo?
 **Falsificador:** reunión; consenso; rol sin función; costo sin dueño; el equipo cuesta más de lo que ahorra.
 
 ## Ciclo
@@ -151,22 +151,22 @@ Un subproceso se crea con autoridad, sirve una función y termina con condición
 
 ```
 Crear: [id] | Acta: [id] | Autoridad: [tipo:nombre] | Fin: [estado observable] | Perímetro: [qué toca] | Presupuesto: [recursos] | Duración: [hasta cuándo] | Termina: [condición] | Cierra en: [tipo:nombre]
-Deber: [función] | Crear: [id] | Traza: [fila] | Checkpoint: [N] | No puede: [crear otro sin autoridad]
+Deber: [función] | Crear: [id] | Traza: [fila] | Control: [N] | No puede: [crear otro sin autoridad]
 Terminar: [condición] | Crear: [id] | Cierre: [id] | Memoria: [cierre|descarte|patron] | Limpieza: [qué se borra] | Testigo: [quién verifica]
 ```
 
 - **Crear** exige autoridad, fin, perímetro, presupuesto, duración, término y costo. Sin uno, no se crea.
 - **Cadena visible.** El `Crear` cita el `Acta`; el `Deber` cita el `Crear`; el `Terminar` cierra en `Cierre`. La cadena `Acta → Crear → Deber → Terminar → Cierre` se lee sin el ejecutor.
-- **Deber** declara la función, la traza, el checkpoint y lo que no puede hacer: crear otro sin autoridad.
-- **Terminar** declara la condición, el destino de la memoria, la limpieza y el testigo. Sin término, no hay creación.
-- **Cap.** El `Equipo: [n]` declara el máximo; una creación que lo exceda se rechaza.
+- **Deber** declara la función, la traza, el Control y lo que no puede hacer: crear otro sin autoridad.
+- **Terminar** declara la condición, el destino de la memoria, la limpieza y el Testigo. Sin término, no hay creación.
+- **Tope.** El `Equipo: [n]` declara el máximo; una creación que lo exceda se rechaza.
 - **No auto-replicación.** Un subproceso no crea otro sin autoridad explícita; la propuesta va a la autoridad, no al registro.
-- **Feedback.** El `Cierre` alimenta el siguiente `Crear`: la conducta se ajusta con el cierre, no con la memoria del yo.
+- **Retorno.** El `Cierre` alimenta el siguiente `Crear`: la conducta se ajusta con el cierre, no con la memoria del yo.
 
-**Test:** ¿el `Crear` cita el `Acta`? ¿El `Deber` cita el `Crear`? ¿El `Terminar` cierra? ¿La cadena se lee sin el ejecutor?
+**Prueba:** ¿el `Crear` cita el `Acta`? ¿El `Deber` cita el `Crear`? ¿El `Terminar` cierra? ¿La cadena se lee sin el ejecutor?
 **Falsificador:** el `Crear` absorbe el `Acta`; el `Deber` no cita el `Crear`; el `Terminar` no cierra; la cadena no se reconstruye sin el ejecutor.
 
-## Test de la tarea
+## Prueba de la tarea
 
 Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta su origen. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
 
@@ -176,7 +176,7 @@ Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fu
 - Se edita una fila del permanente.
 - Se lee el registro entero.
 - Se registra actividad en el permanente.
-- Se habla por la fuente sin testimonio.
+- Se habla por la fuente sin Testimonio.
 - La continuidad exige la conversación.
 - Un patrón sin refuta.
 - Un precedente sin condición.

@@ -9,11 +9,11 @@
 
 ## 1. Propósito
 
-Explicar cómo una tarea de expresión produce una decisión que ve lo que deja fuera: la vista, la que falta, la fuente, el testimonio, la ausencia y el costo. El artefacto es el protocolo `A.R.E.S.`; la teoría es la hipótesis de que ese acoplamiento mejora la decisión.
+Explicar cómo una tarea de expresión produce una decisión que ve lo que deja fuera: la vista, la que falta, la fuente, el Testimonio, la ausencia y el costo. El artefacto es el protocolo `A.R.E.S.`; la teoría es la hipótesis de que ese acoplamiento mejora la decisión.
 
 ## 2. Alcance
 
-Tareas con una decisión, una fuente, un testimonio, una ausencia y un costo. No aplica a tareas sin decisión (una nota, un dato) ni a tareas sin fuente (un cálculo interno). Fuera de ese alcance, el protocolo no se usa.
+Tareas con una decisión, una fuente, un Testimonio, una ausencia y un costo. No aplica a tareas sin decisión (una nota, un dato) ni a tareas sin fuente (un cálculo interno). Fuera de ese alcance, el protocolo no se usa.
 
 ## 3. Constructos
 
@@ -53,10 +53,10 @@ El protocolo `A.R.E.S.`:
 - **Design science research** (Hevner): artefacto + evaluación. [Fuente](https://ebooks.mpdl.mpg.de/ebooks/Record/EB000362000/Description#tabnav#1)
 - **Design theory** (Gregor & Jones): propósito, constructos, principios, proposiciones, evaluación. [Fuente](https://openresearch-repository.anu.edu.au/items/3efc614f-d8fb-4e21-8818-36fed26b9dd3#1)
 - **Critical systems / boundary critique** (Midgley): vista faltante, ausencia, costo. [Fuente](https://www.tandfonline.com/doi/abs/10.1057/palgrave.jors.2600531#1)
-- **Argumentation / assurance cases** (Toulmin, GSN): test, falsificador. [Fuente](https://dl.acm.org/doi/10.1109/ISSREW.2014.87#1)
+- **Argumentation / assurance cases** (Toulmin, GSN): Prueba, falsificador. [Fuente](https://dl.acm.org/doi/10.1109/ISSREW.2014.87#1)
 - **Pattern languages** (Alexander): intención, límite, composición.
 - **Evidence hierarchies** (GRADE): N1–N5.
-- **Social epistemology:** testimonio, independencia.
+- **Social epistemology:** Testimonio, independencia.
 - **Conversation theory** (Pask): diálogo, acuerdo. [Fuente](https://discovery.ucl.ac.uk/10181184/2/Manning_What%20is%20Conversation%20Theory%20Submission.pdf#3#1)
 - **Computational creativity** (Boden) y **design fiction** (Sterling): inspiración, opaco. [Fuente](https://www.sciencedirect.com/science/article/abs/pii/S0167865515001579#:~:text=The%20experimentation%20was%20conducted%20jointly%20with%20a%20Spanish%20chocolate%20chef.%20#1) y [Fuente](https://dl.acm.org/doi/pdf/10.1145/2648414?__cf_chl_tk=BqyMliT0QSAiYHSqekSgcyb7zMLkyxMkJ10bY882J6s-1779733837-1.0.1.1-bBO5zOuZBKbVj9pxvBNRLgaARInWKXf2.cWLC3dXgpG#1#1)
 - **Science of science** (Fortunato): el programa, no el artefacto. [Fuente](https://europepmc.org/backend/ptpmcrender.fcgi?accid=PMC5949209&blobtype=pdf#4#1)
@@ -88,7 +88,7 @@ Cada proposición se contrasta con un caso, una comparación con/sin, una transf
 
 ## 10. Novedad
 
-El acoplamiento: una superficie de decisión que exige **vista faltante**, **ausencia**, **testimonio con consentimiento**, **fuente con independencia**, **costo/beneficio** y **falsificador**, y un **atlas** que mide lo opaco por **efecto, invariante y transferencia**. Las piezas existen; el acoplamiento no tiene nombre.
+El acoplamiento: una superficie de decisión que exige **vista faltante**, **ausencia**, **Testimonio con consentimiento**, **fuente con independencia**, **costo/beneficio** y **falsificador**, y un **atlas** que mide lo opaco por **efecto, invariante y transferencia**. Las piezas existen; el acoplamiento no tiene nombre.
 
 ## 11. Programa
 

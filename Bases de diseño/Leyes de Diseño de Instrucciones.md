@@ -22,7 +22,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Enunciado:** la instrucción obliga a calcular el estado antes de emitir la señal siguiente. Se escribe como compuertas secuenciales, no como lista de consejos.
 
-**Test:** ¿el paso N+1 exige la salida del N? Si no, no hay cálculo.
+**Prueba:** ¿el paso N+1 exige la salida del N? Si no, no hay cálculo.
 
 **Falsificador:** una instrucción que se puede resolver leyendo solo el final.
 
@@ -30,7 +30,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Enunciado:** sin verbos de sugerencia. Toda bifurcación cierra con una rama por defecto.
 
-**Test:** ¿queda «procura», «idealmente» o «si es necesario»? ¿Hay una rama «en cualquier otro caso»?
+**Prueba:** ¿queda «procura», «idealmente» o «si es necesario»? ¿Hay una rama «en cualquier otro caso»?
 
 **Falsificador:** una instrucción que deja al ejecutor decidir si aplica.
 
@@ -38,7 +38,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Enunciado:** la instrucción define propiedades y forma del resultado; no nombres de herramientas, comandos, modelos ni plataformas.
 
-**Test:** ¿la instrucción se entiende sin nombrar una herramienta? ¿El resultado tiene forma exacta?
+**Prueba:** ¿la instrucción se entiende sin nombrar una herramienta? ¿El resultado tiene forma exacta?
 
 **Falsificador:** una instrucción que dice «usa X» o que no define la salida.
 
@@ -46,7 +46,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Enunciado:** el artefacto del paso N es el insumo obligatorio del paso N+1. Prohibido saltar.
 
-**Test:** ¿cada transición declara «prohibido ejecutar N+1 sin la salida de N»?
+**Prueba:** ¿cada transición declara «prohibido ejecutar N+1 sin la salida de N»?
 
 **Falsificador:** una lista de viñetas sin dependencia de orden.
 
@@ -56,7 +56,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Enunciado:** toda clasificación, medición o supuesto se declara en una línea de 5 a 12 palabras antes o junto a la acción.
 
-**Test:** ¿cada acción que exige juicio tiene su ancla?
+**Prueba:** ¿cada acción que exige juicio tiene su ancla?
 
 **Falsificador:** una acción sin ancla; un ancla que no clasifica nada.
 
@@ -74,7 +74,7 @@ La escala N1-N5 se define en `Registro.md`.
 
 **Enunciado:** la instrucción cierra con transiciones de estado y una rama por defecto.
 
-**Test:** ¿hay cierre, handoff y «en cualquier otro caso»?
+**Prueba:** ¿hay cierre, handoff y «en cualquier otro caso»?
 
 **Falsificador:** una instrucción que termina sin decir qué sigue.
 
@@ -82,7 +82,7 @@ La escala N1-N5 se define en `Registro.md`.
 
 **Enunciado:** el entregable es el estado final completo, no el relato del cambio ni la conversación que lo produjo.
 
-**Test:** tapa la conversación y lee solo el entregable; ¿el receptor puede usarlo?
+**Prueba:** tapa la conversación y lee solo el entregable; ¿el receptor puede usarlo?
 
 **Falsificador:** un entregable que necesita el hilo; una lista de cambios sobre la versión vieja.
 
@@ -90,7 +90,7 @@ La escala N1-N5 se define en `Registro.md`.
 
 **Enunciado:** toda ley declara el caso que la incumple. Sin falsificador no es ley: es una opinión.
 
-**Test:** ¿puedes enunciar el caso que la rompe? Si no, sobra.
+**Prueba:** ¿puedes enunciar el caso que la rompe? Si no, sobra.
 
 **Falsificador:** una ley que nadie ha visto aplicarse; una ley sin caso de fallo.
 
@@ -98,7 +98,7 @@ La escala N1-N5 se define en `Registro.md`.
 
 **Enunciado:** una instrucción no cita un marco; lo convierte en compuertas. Cada compuerta declara la norma del marco que descarga y la señal que la prueba.
 
-**Test:** ¿hay compuertas o el nombre de un marco? ¿cada compuerta nombra su norma?
+**Prueba:** ¿hay compuertas o el nombre de un marco? ¿cada compuerta nombra su norma?
 
 **Falsificador:** «implementa según [marco]» | un paso que no descarga norma | marco citado sin conversión.
 
@@ -106,6 +106,6 @@ La escala N1-N5 se define en `Registro.md`.
 
 **Enunciado:** una instrucción no descarta una idea sin declarar la prueba que la descarta. Rige `Conversacional` 22.
 
-**Test:** ¿hay prueba declarada antes del descarte?
+**Prueba:** ¿hay prueba declarada antes del descarte?
 
 **Falsificador:** descarte sin prueba; «no es valioso» sin recibo; idea relegada sin medirla.

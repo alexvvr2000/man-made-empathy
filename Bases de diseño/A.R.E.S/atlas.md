@@ -32,7 +32,7 @@
 
 **Registro de formas: 0 filas.**
 
-Las propuestas concretas de stack no viven en la base; viven en la implementación. El atlas solo registra formas por intención.
+Las propuestas concretas de herramientas no viven en la base; viven en la implementación. El atlas solo registra formas por intención.
 
 ## Franjas
 
@@ -59,5 +59,5 @@ Mide el rendimiento de lo opaco: cuántas formas pasaron el puente, cuántas pro
 
 **Regla de poda:** una forma que no transfiere ni produce una intención nueva se descarta, aunque suene increíble. El estado se escribe; la fila no se borra.
 
-**Test:** ¿cada forma opaca tiene efecto, invariante y decisión? ¿Su estado es uno de los cuatro?
+**Prueba:** ¿cada forma opaca tiene efecto, invariante y decisión? ¿Su estado es uno de los cuatro?
 **Falsificador:** una forma opaca sin efecto; una forma que se presenta como logro; una fila sin estado.

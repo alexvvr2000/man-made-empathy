@@ -2,11 +2,11 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-Estatuto de la carpeta, no catálogo de tests. No se prueba que la tarea sea buena ni que diga la verdad; se prueba que, junto con la autoridad, no termine dando más lata que soluciones.
+Estatuto de la carpeta, no catálogo de Pruebas. No se prueba que la tarea sea buena ni que diga la verdad; se prueba que, junto con la autoridad, no termine dando más lata que soluciones.
 
 ## Qué es esta carpeta
 
-Un lugar para las pruebas que hagan irrefutable lo que el proyecto afirma. No es una suite cerrada: es el registro de lo que se va necesitando probar. Los tests que hoy existen son instancias de este marco, no su definición.
+Un lugar para las pruebas que hagan irrefutable lo que el proyecto afirma. No es una suite cerrada: es el registro de lo que se va necesitando probar. Los Pruebas que hoy existen son instancias de este marco, no su definición.
 
 ## Qué se prueba aquí y qué no
 
@@ -40,6 +40,6 @@ No cuenta como útil:
 
 **Cambia**
 
-- Qué test se corre, cuántos y con qué métrica.
+- Qué Prueba se corre, cuántos y con qué métrica.
 - Hoy hay dos; mañana pueden ser otros.
-- Un test que se vuelve doctrina y deja de aceptar pruebas nuevas deja de servir.
+- Un Prueba que se vuelve doctrina y deja de aceptar pruebas nuevas deja de servir.

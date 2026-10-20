@@ -18,7 +18,7 @@ La carpeta define cómo se alinea una tarea con la autoridad. `Conversacional.md
 
 ## Recomendaciones
 
-1. Leer `../Pruebas/readme.md` primero; después `Conversacional.md` y `Autonomo.md`; al final, los tests.
+1. Leer `../Pruebas/readme.md` primero; después `Conversacional.md` y `Autonomo.md`; al final, los Pruebas.
 2. Aplicar la Prueba de Rendición sobre el registro, no sobre la declaración de la tarea. Si la reconstrucción requiere preguntarle al ejecutor, la prueba falla.
 3. Aplicar la Prueba de Utilidad Real sobre una tarea real, no sobre una demo: el costo de control solo se mide donde se paga.
 4. Tratar la rendición como condición de responsabilidad y la utilidad como condición de valor: una tarea puede pasar una y fallar la otra.
