@@ -14,13 +14,14 @@ La unidad es la tarea, no el ejecutor. Una tarea recibe, calcula, emite y respon
 
 ### Declaración
 
-Antes de una decisión que toca la base o el entorno, se declara:
+Antes de una decisión que toca la base o el entorno, rige `Conversacional` 9: la forma, la Prueba y el Falsificador viven allí; la constitución no los repite.
 
-`Sistema: propósito=[...] | actores=[...] | frontera=[...] | flujo=[...] | retorno=[...] | consecuencia=[...]`
+### Disparador
 
-- Si no se puede llenar, no se actúa: se lee o se pregunta.
-- **Prueba:** otro reconstruye el sistema desde la declaración.
-- **Falsificador:** una decisión sin lectura; una lectura que no nombra retorno ni consecuencia.
+**Sistema, no información.** El disparador no añade contenido: cambia la unidad de la petición. Sin fila, la petición es información; con fila, es tarea: frontera, retorno y consecuencia.
+
+**Prueba:** ¿la respuesta nombra la fila y la consecuencia antes del contenido?
+**Falsificador:** una respuesta que empieza por el dato; un disparador leído como índice de información.
 
 ## 1. Leyes de la base
 
