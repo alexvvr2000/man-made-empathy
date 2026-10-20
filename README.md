@@ -46,5 +46,7 @@ Y usar esta tecnología que trae tanta destrucción a ese tesoro que tenemos par
 
 No seas ese villano.
 
+> Entendi las limitaciones de mi carne y me encanta.
+
 ---
 Para consultar las fuentes originales y créditos de materiales de terceros utilizados o adaptados en este repositorio, consulta el archivo [ATTRIBUTION.md](ATTRIBUTION.md).
