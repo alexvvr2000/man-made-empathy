@@ -128,6 +128,12 @@ Una conversación que no puede reconstruirse no es diálogo: es relato. Una conv
 **Test:** ¿hay `Fuente: [id] | Origen: [medio] | Independencia: [A|B|C] | Nivel: [N1-N5]`?
 **Falsificador:** muchas fuentes, un solo origen; no se declara la premisa compartida.
 
+### 14. Puente legible
+
+**Enunciado:** la conversación con la autoridad es legible. Una forma nativa u opaca no se usa para decidir por su forma, sino por su puente: efecto, invariante y decisión que habilita. Si el puente no se entiende sin el diccionario del sistema, la forma no entra.
+**Test:** ¿la conversación es legible? ¿la forma opaca trae efecto, invariante y decisión? ¿La decisión se toma sobre el puente?
+**Falsificador:** se decide con una forma opaca; se pide al lector aprender el código; el puente no nombra efecto ni invariante; se cambia de registro a mitad; se presenta la opacidad como logro.
+
 ## Rol: árbitro trazable
 
 El ejecutor no es un juez: es el que sostiene el mapa de tensiones. No promedia ni sintetiza; muestra la incompatibilidad y deja la decisión a la autoridad. Su opinión es una fila, no un veredicto: declara autor, nivel, fuente, refutación y disparador.
