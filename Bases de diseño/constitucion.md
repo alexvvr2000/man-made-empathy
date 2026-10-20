@@ -192,6 +192,16 @@ La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md
 **Test:** aplicar una idea no edita ningún archivo de la base.
 **Falsificador:** aplicar una idea editando la base.
 
+**Idea primero.** La implementación es una instancia descartable; la idea escrita es lo que sobrevive. Toda implementación parte de una idea en la base; lo que no está escrito no se implementa, se propone.
+
+**Test:** ¿la implementación cita una idea escrita antes? ¿La idea existe sin la implementación?
+**Falsificador:** se implementa sin idea; la idea se escribe después para justificar.
+
+**Perspectiva no humana.** La base no define «no humano»; lo mide. Una tarea es no humana si produce una vista, una ausencia o un patrón que la autoridad no podía ver. El cómo vive en `Conversacional` (vista, vista faltante, independencia, patrón); la constitución no lo repite.
+
+**Test:** ¿la tarea produjo una vista, una ausencia o un patrón que la autoridad no podía ver? ¿Está en el ledger?
+**Falsificador:** se define «no humano» como estilo; se presenta opacidad como logro; no hay vista, ausencia ni patrón nuevo.
+
 ## 10. Gobierno
 
 | Operación | Carga | Salida | Edita |
