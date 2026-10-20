@@ -58,6 +58,16 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 
 **Falsificador:** una acción sin ancla; un ancla que no clasifica nada.
 
+**Anclas de lectura.** No son solo para la máquina: son para que el lector sepa qué está leyendo y qué quedó fuera. Cada una declara el límite de lo que afirma.
+
+- `Vista: [posición] | No ve: [límite]` — desde dónde se habla y qué no se ve desde ahí. Sirve para que el lector sepa qué parte del mundo quedó fuera.
+- `Vista faltante: [posición] | Esquiva: [limitación] | Ausencia: [qué falta] | Cambia: [decisión]` — la vista que la autoridad no ocupa, la limitación que esquiva, la ausencia que revela y la decisión que cambia. Sirve para mover la vista, no para imponerla.
+- `Fuente: [id] | Nivel: [N1-N5] | Origen: [medio] | Autor: [tipo:nombre] | Independencia: [A|B|C]` — de dónde sale el dato, qué nivel tiene, quién responde por él y si es independiente. Sirve para que el lector pueda volver a la fuente.
+- `Testimonio: [persona/grupo] | Vínculo: [afectado|mantenedor|crítico|beneficiario] | Contexto: [...] | Consentimiento: [...]` — quién vivió la experiencia, qué relación tiene, en qué contexto y con qué consentimiento. Sirve para no hablar por la gente.
+- `Confirma: [posición] | Evidencia: [N1-N5] | Objeta: [límite] | Beneficia: [tipo:nombre]` — qué posición se valida, con qué evidencia, con qué objeción y a quién beneficia. Sirve para no dar la razón por cortesía.
+
+La escala N1-N5 se define en `Registro.md`.
+
 ## 6. Transiciones explícitas
 
 **Enunciado:** la instrucción cierra con transiciones de estado y una rama por defecto.
