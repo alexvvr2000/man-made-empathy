@@ -161,6 +161,7 @@ Morir: [condición] | Nacer: [id] | Cierre: [id] | Memoria: [cierre|descarte|pat
 - **Morir** declara la condición, el destino de la memoria, la limpieza y el testigo. Sin muerte, no hay nacimiento.
 - **Cap.** El `Equipo: [n]` declara el máximo; un nacimiento que lo exceda se rechaza.
 - **No auto-replicación.** Un subproceso no crea otro sin autoridad explícita; la propuesta va a la autoridad, no al registro.
+- **Feedback.** El `Cierre` alimenta el siguiente `Nacer`: la conducta se ajusta con el cierre, no con la memoria del yo.
 
 **Test:** ¿el `Nacer` cita el `Acta`? ¿El `Deber` cita el `Nacer`? ¿El `Morir` cierra? ¿La cadena se lee sin el agente?
 **Falsificador:** el `Nacer` absorbe el `Acta`; el `Deber` no cita el `Nacer`; el `Morir` no cierra; la cadena no se reconstruye sin el agente.

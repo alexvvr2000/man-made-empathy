@@ -99,6 +99,8 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** el script produce un dato que cambia una decisión y su recibo se lee por otro canal.
 **Falsificador:** script sin `Sondeo`; recibo del mismo canal; escritura persistente sin perímetro; tercer reintento.
 
+**Instrumental.** La plasticidad es para la autoridad, no para la autonomía: el marco se cambia para el beneficio, no para el yo.
+
 ## 8. Modos de falla
 
 - **Precipitación ejecutiva.** Se actúa sin contrastar alternativas.
