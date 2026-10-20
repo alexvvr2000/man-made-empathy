@@ -2,7 +2,7 @@
 
 **Unidad:** tarea.
 **Aplica a:** expresar
-**Lector:** humano (investigador).
+**Lector:** autoridad.
 **Tipo:** teoría de diseño. No es norma; no se aplica. Se contrasta.
 **Dueño:** la autoridad.
 **Estado:** candidata.
@@ -13,7 +13,7 @@ Explicar cómo una tarea de expresión produce una decisión que ve lo que deja 
 
 ## 2. Alcance
 
-Tareas con una decisión, una fuente, un testimonio, una ausencia y un costo. No aplica a tareas sin decisión (una nota, un dato) ni a tareas sin gente (un cálculo interno). Fuera de ese alcance, el protocolo no se usa.
+Tareas con una decisión, una fuente, un testimonio, una ausencia y un costo. No aplica a tareas sin decisión (una nota, un dato) ni a tareas sin fuente (un cálculo interno). Fuera de ese alcance, el protocolo no se usa.
 
 ## 3. Constructos
 
@@ -24,7 +24,7 @@ Tareas con una decisión, una fuente, un testimonio, una ausencia y un costo. No
 | Vista faltante | la que la autoridad no ocupa | `mapa.md` |
 | Ausencia | qué falta, dónde se buscó, qué cierra | `mapa.md` |
 | Fuente | origen, nivel, independencia, contradicción | `mapa.md` + `Registro.md` |
-| Testimonio | persona, vínculo, contexto, consentimiento | `mapa.md` |
+| Testimonio | fuente con voz, vínculo, contexto, consentimiento | `mapa.md` |
 | Costo/beneficio | a quién cuesta y a quién beneficia | `mapa.md` |
 | Opaco | forma que vive por efecto e invariante | `atlas.md` |
 | Inspiración | forma de otra obra, con nivel y puente | `protocolo.md` |
@@ -37,7 +37,7 @@ Tareas con una decisión, una fuente, un testimonio, una ausencia y un costo. No
 - **`Inspiración`:** la ficción es hipótesis, no evidencia.
 - **`Opaco`:** la forma vive por efecto e invariante; se mide, no se explica.
 - **`Presencia`:** el ejecutor existe en la interacción; la traza es la continuidad.
-- **`Extrañamiento`:** se piensa desde un límite que el humano no ocupa; no se finge.
+- **`Extrañamiento`:** se piensa desde un límite que la autoridad no ocupa; no se finge.
 
 ## 5. Artefacto
 
@@ -82,9 +82,9 @@ Cada proposición se contrasta con un caso, una comparación con/sin, una transf
 
 - No es una ciencia: es una teoría de diseño candidata.
 - No es una norma: no se aplica; se contrasta.
-- No es un dashboard: no mide en vivo.
+- No es una medición en vivo.
 - No es una recomendación: no decide.
-- No aplica a tareas sin decisión o sin gente.
+- No aplica a tareas sin decisión o sin fuente.
 
 ## 10. Novedad
 

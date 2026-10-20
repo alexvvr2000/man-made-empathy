@@ -1,6 +1,6 @@
 # Bases de diseño
 
-**Unidad:** tarea. El agente es el ejecutor; la autoridad es la dueña.
+**Unidad:** tarea. El ejecutor es el que la realiza; la autoridad es la dueña.
 
 **Qué es:** la base de ideas del proyecto. Se puede extraer del repo, imprimir o compilar. No depende de la implementación.
 
@@ -22,7 +22,7 @@ más su ruta, su cálculo, su consecuencia, su test y su responsable. Sin eso, e
 |---|---|---|
 | `constitucion.md` | meta | Unidad, lectura, tipos, admisión, mapa y gobierno. |
 | `Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
-| `Principios para alineación de tareas/Conversacional.md` | dialogar, decidir | Cómo se conduce una tarea de diálogo. |
+| `Principios para alineación de tareas/Conversacional.md` | interactuar, decidir | Cómo se conduce una tarea de interacción. |
 | `Principios para alineación de tareas/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
 | `Reglas de escritura.md` | escribir | Cómo se escribe una tarea. |
 | `Reglas de mutación.md` | mutar | Cómo se transforma una tarea. |

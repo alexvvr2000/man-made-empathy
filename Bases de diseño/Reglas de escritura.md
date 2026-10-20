@@ -10,7 +10,7 @@
 
 Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La estructura de las instrucciones vive en el contrato de diseño (`Leyes de Diseño de Instrucciones.md`); este documento no la repite.
 
-La unidad es la tarea: qué entra, qué se calcula, qué sale, qué se conserva. El agente es el ejecutor.
+La unidad es la tarea: qué entra, qué se calcula, qué sale, qué se conserva. El ejecutor es el que la realiza.
 
 ## 1. Reglas de escritura
 
@@ -33,13 +33,13 @@ El estilo de estas reglas rige todo artefacto que se base en ellas —skills, in
 **Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
 ### 1.4 Lo human-first no se completa
-Un documento cuya forma declara un lector humano —prosa, contexto y decisión, sin campos ni anclas de ejecución— se amplía solo cuando la ampliación evita una lectura equivocada o cierra un hueco que el lector ya necesita. Se agrega una pieza, no una sección; no se completa por simetría, estética o completitud. La línea que el formato ya declara —por ejemplo, `Lector:`— no se agrega.
+Un documento cuya forma declara un lector —prosa, contexto y decisión, sin campos ni anclas de ejecución— se amplía solo cuando la ampliación evita una lectura equivocada o cierra un hueco que el lector ya necesita. Se agrega una pieza, no una sección; no se completa por simetría, estética o completitud. La línea que el formato ya declara —por ejemplo, `Lector:`— no se agrega.
 
 **Ejemplos:** un README, un principio o una prueba. La propiedad es la forma; el nombre no define.
 
 **Árbol cerrado:** `Evita una lectura equivocada → una pieza | Cierra un hueco que el lector ya tiene → una pieza | Completa por simetría o estética → no | Necesita una sección → se consulta`.
 
-**Test:** `La forma declara lector humano → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
+**Test:** `La forma declara lector → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
 **Falsificador:** `[del Test] el caso que el Test marca como falla`.
 
 ### 1.5 Agnosticismo de era, tecnología y especie
@@ -162,6 +162,12 @@ Toda secuencia numerada es continua. Si se quita una sección, se renumera; un n
 
 **Test:** `Secuencia 1..N sin saltos → pasa | Hueco 7→9 → falla | Paso citado que no existe → falla`.
 **Falsificador:** `Se quita la sección 8 y queda 9 | Se cita un paso que no existe | La numeración cambia sin renumerar`.
+
+### 1.18 Agnóstico
+Rige la ley de autocontención (`constitucion` §2): todo documento es agnóstico a era, especie y tecnología. Las implementaciones se nombran solo como ejemplo marcado; los ejemplos no definen el documento.
+
+**Test:** ¿el documento cita una era, especie o tecnología como definición? ¿Los ejemplos están marcados?
+**Falsificador:** un documento que define «script» como «script»; «humano» como lector; «hoy» como marco.
 
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.

@@ -3,7 +3,7 @@
 **Unidad:** tarea.
 **Aplica a:** instruir
 **Tipo:** ley. Se sigue, no se interpreta.
-**Lector:** humano y máquina.
+**Lector:** autoridad y ejecutor.
 **Alcance:** toda tarea de instrucción que una autoridad delega a un ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -65,7 +65,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 - `Vista: [posición] | No ve: [límite]` — desde dónde se habla y qué no se ve desde ahí. Sirve para que el lector sepa qué parte del mundo quedó fuera.
 - `Vista faltante: [posición] | Esquiva: [limitación] | Ausencia: [qué falta] | Cambia: [decisión]` — la vista que la autoridad no ocupa, la limitación que esquiva, la ausencia que revela y la decisión que cambia. Sirve para mover la vista, no para imponerla.
 - `Fuente: [id] | Nivel: [N1-N5] | Origen: [medio] | Autor: [tipo:nombre] | Independencia: [A|B|C]` — de dónde sale el dato, qué nivel tiene, quién responde por él y si es independiente. Sirve para que el lector pueda volver a la fuente.
-- `Testimonio: [persona/grupo] | Vínculo: [afectado|mantenedor|crítico|beneficiario] | Contexto: [...] | Consentimiento: [...]` — quién vivió la experiencia, qué relación tiene, en qué contexto y con qué consentimiento. Sirve para no hablar por la gente.
+- `Testimonio: [fuente] | Vínculo: [afectado|mantenedor|crítico|beneficiario] | Contexto: [...] | Consentimiento: [...]` — quién vivió la experiencia, qué relación tiene, en qué contexto y con qué consentimiento. Sirve para no hablar por la fuente.
 - `Confirma: [posición] | Evidencia: [N1-N5] | Objeta: [límite] | Beneficia: [tipo:nombre]` — qué posición se valida, con qué evidencia, con qué objeción y a quién beneficia. Sirve para no dar la razón por cortesía.
 
 La escala N1-N5 se define en `Registro.md`.

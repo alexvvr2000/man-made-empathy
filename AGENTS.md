@@ -18,7 +18,6 @@
 | Se escribe una tarea | `./Bases de diseño/Reglas de escritura.md` | la tarea no se lee |
 | Se evalúa una tarea | `./Bases de diseño/Pruebas/readme.md` | el veredicto no cuenta |
 | Se expresa una tarea | `./Bases de diseño/A.R.E.S/protocolo.md` | la forma no transfiere |
-| Se ejecuta SARA o el runtime de la era | `./Agentes/Proyecto S.A.R.A/Componentes/AGENTS.md.tmp` | la operación no ocurre |
 | Se encuentra un `AGENTS.md` anidado | — | no enruta; la raíz manda y el otro pasa a `.tmp` |
 | Se emite una respuesta | `./notas/README.md` | la nota no se escribe y la sesión no sobrevive |
 | No coincide y no toca la base | — | responde y cierra |

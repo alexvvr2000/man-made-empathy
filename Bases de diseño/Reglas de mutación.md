@@ -47,36 +47,36 @@ Mutar es cambiar una tarea desde un estado inicial sin borrar el origen ni al re
 **Test:** la Prueba de Rendición sobre el registro.
 **Falsificador:** un registro que necesita al mutador para tener sentido.
 
-## 7. Nacimiento
+## 7. Creación
 
 **Enunciado:** crear un artefacto es una mutación: declara origen, acta y prueba. Si el artefacto puede actuar por su cuenta, es un subproceso: además pasa por el `Ciclo` y por la hard rule 8.
 
 **Test:** ¿el artefacto tiene acta? ¿Si actúa, tiene `Ciclo` y autoridad?
-**Falsificador:** nace sin acta; actúa sin `Ciclo`; se duplica sin autoridad.
+**Falsificador:** se crea sin acta; actúa sin `Ciclo`; se duplica sin autoridad.
 
-## Acta de nacimiento
+## Acta de creación
 
 La forma del artefacto nuevo. No es implementación: es el registro que la implementación produce.
 
 ```
-Acta: [id] | Nombre: [nombre] | Expansión: [significado] | Origen: [semilla|padre|agente:<id>] | Fecha: [ISO]
+Acta: [id] | Nombre: [nombre] | Expansión: [significado] | Origen: [fuente|predecesor|ejecutor:<id>] | Fecha: [ISO]
 Encargo: [frase exacta] | Fin: [estado observable]
 Muta: [qué cambia] | Conserva: [qué no] | Ausencias: [qué no tiene] | Prueba: [corrida|no corrida|pendiente]
 Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [id o NINGUNA]
 ```
 
 - **Nombre y expansión.** El nombre se lee como nombre propio; la expansión dice qué significa.
-- **Origen.** Semilla, padre o agente; sin origen no hay nacimiento.
+- **Origen.** Fuente, predecesor o ejecutor; sin origen no hay creación.
 - **Encargo y fin.** La frase exacta y el estado observable; no se interpreta.
 - **Muta y conserva.** Lo no declarado se conserva.
 - **Ausencias.** Lo que no tiene se declara; no se simula.
 - **Prueba.** Corrida, no corrida o pendiente; la no corrida se declara.
 - **Autoridad y costo.** Quién autoriza y quién asume el costo.
 
-El subproceso la cita en su `Nacer`; no la absorbe.
+El subproceso la cita en su `Crear`; no la absorbe.
 
 **Test:** ¿el acta declara nombre, origen, encargo, mutado, conservado, ausencias y prueba?
-**Falsificador:** nace sin acta; el acta no declara ausencias; la prueba se declara corrida sin recibo.
+**Falsificador:** se crea sin acta; el acta no declara ausencias; la prueba se declara corrida sin recibo.
 
 ## Ancla
 

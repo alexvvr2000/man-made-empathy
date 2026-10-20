@@ -4,15 +4,15 @@
 **Aplica a:** registrar
 **Tipo:** leyes y reglas de registro; mecanismos de fila.
 **Alcance:** toda tarea que conserva estado, fuentes o continuidad.
-**Lector:** humano y máquina. El registro declara su lector al emitir.
+**Lector:** autoridad y ejecutor. El registro declara su lector al emitir.
 **Dueño:** la autoridad.
-**Estado:** vigente.
+**Estado:** vifuente.
 
 ## Tesis
 
 La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar.
 
-`Agente` se lee como `ejecutor`; la unidad es la tarea.
+`Afuente` se lee como `ejecutor`; la unidad es la tarea.
 
 ## Qué no es
 
@@ -32,7 +32,7 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 ## 2. Cierre encadenado
 
 **Tipo:** ley.
-**Enunciado:** toda tarea que se interrumpe deja un cierre con fin vigente, decisiones, pendientes y siguiente paso; la tarea siguiente arranca de ese cierre.
+**Enunciado:** toda tarea que se interrumpe deja un cierre con fin vifuente, decisiones, pendientes y siguiente paso; la tarea siguiente arranca de ese cierre.
 **Test:** una instancia nueva, con solo el cierre, reconstruye el siguiente paso sin la conversación.
 **Falsificador:** la continuidad exige el hilo o un resumen oral.
 
@@ -59,11 +59,11 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 ## 5. Testimonio
 
 **Tipo:** regla.
-**Enunciado:** toda afirmación sobre la experiencia de la gente declara al menos un testimonio con vínculo, contexto y consentimiento, o declara la ausencia.
-**Test:** hay `Testimonio:` con persona o grupo, vínculo y contexto; o `Vacío:` con la búsqueda y el cierre.
-**Falsificador:** se habla por la gente sin citarla; solo documentos; testimonio sin vínculo.
+**Enunciado:** toda afirmación sobre la experiencia de la fuente declara al menos un testimonio con vínculo, contexto y consentimiento, o declara la ausencia.
+**Test:** hay `Testimonio:` con fuente, vínculo y contexto; o `Vacío:` con la búsqueda y el cierre.
+**Falsificador:** se habla por la fuente sin citarla; solo documentos; testimonio sin vínculo.
 
-**Costo de omitirlo:** la IA simula a la gente desde documentos y la experiencia se vuelve información.
+**Costo de omitirlo:** el ejecutor simula a la fuente desde documentos y la experiencia se vuelve información.
 
 ## Campos del mecanismo
 
@@ -73,12 +73,12 @@ No son normas: son la forma mínima de la fila. Una fila sin estos campos no ent
 Registro: [id] | Plazo: [sesión|paso|permanente] | Tipo: [hecho|patron|precedente|descarte|acto|cierre|pendiente] | Fecha | Autor
 Disparador: [estado que habilita la relectura] | Reemplaza: [id o NINGUNA] | Vigencia: [hasta cuándo vale] | Cierra en: [tipo:nombre]
 Fuente: [id] | Nivel: [N1-N5] | Origen | Autor | Extracto | Independencia | Contradice | Sistema | Version
-Testimonio: [persona/grupo] | Vínculo | Contexto | Consentimiento
+Testimonio: [fuente] | Vínculo | Contexto | Consentimiento
 Patron: [id] | Replicas: [n] | Refuta: [observación] | Contextos: [...]
 Precedente: [id] | Condición: [...] | Fallo: [...] | Precaución: [...]
 Descarte: [id] | Qué no cambió | Por qué se descartó
 Vacío: [qué falta] | Dónde se buscó | Cierre
-Cierre: [fin vigente | decisiones | pendientes | siguiente paso]
+Cierre: [fin vifuente | decisiones | pendientes | siguiente paso]
 ```
 
 - `Plazo`: sesión, paso o permanente; es el nivel, no la clase.
@@ -147,28 +147,28 @@ Equipo: [n] | Coordinación: [traza|mensaje|simulación] | Consenso: [no|sí] | 
 
 ## Ciclo
 
-Un subproceso nace con autoridad, sirve una función y muere con condición. Sin las tres, no nace.
+Un subproceso se crea con autoridad, sirve una función y termina con condición. Sin las tres, no se crea.
 
 ```
-Nacer: [id] | Acta: [id] | Autoridad: [tipo:nombre] | Fin: [estado observable] | Perímetro: [qué toca] | Presupuesto: [recursos] | Vida: [hasta cuándo] | Muerte: [condición] | Cierra en: [tipo:nombre]
-Deber: [función] | Nacer: [id] | Traza: [fila] | Checkpoint: [N] | No puede: [crear otro sin autoridad]
-Morir: [condición] | Nacer: [id] | Cierre: [id] | Memoria: [cierre|descarte|patron] | Limpieza: [qué se borra] | Testigo: [quién verifica]
+Crear: [id] | Acta: [id] | Autoridad: [tipo:nombre] | Fin: [estado observable] | Perímetro: [qué toca] | Presupuesto: [recursos] | Duración: [hasta cuándo] | Termina: [condición] | Cierra en: [tipo:nombre]
+Deber: [función] | Crear: [id] | Traza: [fila] | Checkpoint: [N] | No puede: [crear otro sin autoridad]
+Terminar: [condición] | Crear: [id] | Cierre: [id] | Memoria: [cierre|descarte|patron] | Limpieza: [qué se borra] | Testigo: [quién verifica]
 ```
 
-- **Nacer** exige autoridad, fin, perímetro, presupuesto, vida, muerte y costo. Sin uno, no nace.
-- **Cadena visible.** El `Nacer` cita el `Acta`; el `Deber` cita el `Nacer`; el `Morir` cierra en `Cierre`. La cadena `Acta → Nacer → Deber → Morir → Cierre` se lee sin el agente.
+- **Crear** exige autoridad, fin, perímetro, presupuesto, duración, término y costo. Sin uno, no se crea.
+- **Cadena visible.** El `Crear` cita el `Acta`; el `Deber` cita el `Crear`; el `Terminar` cierra en `Cierre`. La cadena `Acta → Crear → Deber → Terminar → Cierre` se lee sin el ejecutor.
 - **Deber** declara la función, la traza, el checkpoint y lo que no puede hacer: crear otro sin autoridad.
-- **Morir** declara la condición, el destino de la memoria, la limpieza y el testigo. Sin muerte, no hay nacimiento.
-- **Cap.** El `Equipo: [n]` declara el máximo; un nacimiento que lo exceda se rechaza.
+- **Terminar** declara la condición, el destino de la memoria, la limpieza y el testigo. Sin término, no hay creación.
+- **Cap.** El `Equipo: [n]` declara el máximo; una creación que lo exceda se rechaza.
 - **No auto-replicación.** Un subproceso no crea otro sin autoridad explícita; la propuesta va a la autoridad, no al registro.
-- **Feedback.** El `Cierre` alimenta el siguiente `Nacer`: la conducta se ajusta con el cierre, no con la memoria del yo.
+- **Feedback.** El `Cierre` alimenta el siguiente `Crear`: la conducta se ajusta con el cierre, no con la memoria del yo.
 
-**Test:** ¿el `Nacer` cita el `Acta`? ¿El `Deber` cita el `Nacer`? ¿El `Morir` cierra? ¿La cadena se lee sin el agente?
-**Falsificador:** el `Nacer` absorbe el `Acta`; el `Deber` no cita el `Nacer`; el `Morir` no cierra; la cadena no se reconstruye sin el agente.
+**Test:** ¿el `Crear` cita el `Acta`? ¿El `Deber` cita el `Crear`? ¿El `Terminar` cierra? ¿La cadena se lee sin el ejecutor?
+**Falsificador:** el `Crear` absorbe el `Acta`; el `Deber` no cita el `Crear`; el `Terminar` no cierra; la cadena no se reconstruye sin el ejecutor.
 
 ## Test de la tarea
 
-Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta una persona. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
+Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta su origen. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
 
 ## Falsificadores
 
@@ -176,7 +176,7 @@ Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fu
 - Se edita una fila del permanente.
 - Se lee el registro entero.
 - Se registra actividad en el permanente.
-- Se habla por la gente sin testimonio.
+- Se habla por la fuente sin testimonio.
 - La continuidad exige la conversación.
 - Un patrón sin refuta.
 - Un precedente sin condición.

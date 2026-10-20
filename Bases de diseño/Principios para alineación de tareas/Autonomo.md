@@ -3,7 +3,7 @@
 **Unidad:** tarea.
 **Aplica a:** ejecutar
 **Tipo:** principios. Se aplican con criterio; el desvío se declara.
-**Lector:** humano y máquina.
+**Lector:** autoridad y ejecutor.
 **Alcance:** toda ejecución que altera el entorno de forma persistente.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -67,7 +67,7 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** ¿están los cinco? ¿El bloqueo se emitió?
 **Falsificador:** un acto irreversible con un requisito omitido.
 
-**Subproceso.** Crear un subproceso es irreversible: exige los cinco requisitos y el `Nacer`/`Morir` de `Registro`.
+**Subproceso.** Crear un subproceso es irreversible: exige los cinco requisitos y el `Crear`/`Terminar` de `Registro`.
 
 ## 6. Trazabilidad de las alteraciones
 
@@ -84,7 +84,7 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 
 ## 7. Ejecución instrumental
 
-**Enunciado:** un script es un instrumento de medición, no una autoridad. Se ejecuta cuando el dato cambia una decisión, dentro de un perímetro, y deja recibo independiente.
+**Enunciado:** un instrumento de medición no es una autoridad. Se ejecuta cuando el dato cambia una decisión, dentro de un perímetro, y deja recibo independiente.
 
 **Antes:** `Sondeo: [variable] | Supuesto: [hipótesis] | Medio: [instrumento]`.
 
@@ -96,8 +96,8 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 
 **Si escribe:** pasa por la conversión de §3, el retorno por efecto y la declaración previa de §6.
 
-**Test:** el script produce un dato que cambia una decisión y su recibo se lee por otro canal.
-**Falsificador:** script sin `Sondeo`; recibo del mismo canal; escritura persistente sin perímetro; tercer reintento.
+**Test:** el instrumento produce un dato que cambia una decisión y su recibo se lee por otro canal.
+**Falsificador:** instrumento sin `Sondeo`; recibo del mismo canal; escritura persistente sin perímetro; tercer reintento.
 
 **Instrumental.** La plasticidad es para la autoridad, no para la autonomía: el marco se cambia para el beneficio, no para el yo.
 

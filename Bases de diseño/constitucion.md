@@ -1,7 +1,7 @@
 # Constitución de la base
 
 **Tipo:** ley. Se aplica, no se ejecuta.
-**Lector:** humano y máquina.
+**Lector:** autoridad y ejecutor.
 **Alcance:** todo artefacto de este repositorio.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -10,7 +10,7 @@
 
 ### Unidad
 
-La unidad es la tarea, no el agente. Una tarea recibe, calcula, emite y responde. El agente es su ejecutor; la autoridad es su dueña; las sub-tareas son procesos internos.
+La unidad es la tarea, no el ejecutor. Una tarea recibe, calcula, emite y responde. El ejecutor la realiza; la autoridad es su dueña; las sub-tareas son procesos internos.
 
 ### Declaración
 
@@ -44,7 +44,7 @@ Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. S
 
 ### LEY 2 — Disparador primero
 
-Toda tarea empieza en `AGENTS.md`. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo o tarea nueva que cambie el disparador se enruta en `AGENTS.md` en el mismo cambio; si no, no entra. Hay un solo `AGENTS.md` vigente por repositorio: el de la raíz. Uno anidado no se inyecta ni compite con la raíz: rige solo si una fila de la raíz lo carga, y se neutraliza si aparece sin fila.
+Toda tarea empieza en el disparador; `AGENTS.md` es el ejemplo vigente. Si no hay fila, no se ejecuta: se declara el vacío y se decide si se agrega una fila. Toda norma, campo o tarea nueva que cambie el disparador se enruta en él en el mismo cambio; si no, no entra. Hay un solo disparador vigente por repositorio: el de la raíz. Uno anidado no se inyecta ni compite con la raíz: rige solo si una fila de la raíz lo carga, y se neutraliza si aparece sin fila.
 
 **Test:** ¿la tarea tiene fila? ¿El cambio se enrutó en el mismo cambio? ¿El anidado se cargó por fila y no por inyección?
 
@@ -115,7 +115,7 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 | Documento | Tareas | Mecanismo | Invariante | Test |
 |---|---|---|---|---|
 | `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | La tarea se ejecuta sin preguntar | Una instancia limpia ejecuta la tarea |
-| `Conversacional.md` | dialogar, decidir | Autoridad, vista, fuentes y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
+| `Conversacional.md` | interactuar, decidir | Autoridad, posición, fuentes y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
 | `Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
 | `Reglas de escritura.md` | escribir | Legibilidad y registro | El mensaje sobrevive al medio | El receptor actúa sin preguntar |
 | `Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
@@ -197,10 +197,10 @@ La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md
 **Test:** ¿la implementación cita una idea escrita antes? ¿La idea existe sin la implementación?
 **Falsificador:** se implementa sin idea; la idea se escribe después para justificar.
 
-**Perspectiva no humana.** La base no define «no humano»; lo mide. Una tarea es no humana si produce una vista, una ausencia o un patrón que la autoridad no podía ver. El cómo vive en `Conversacional` (vista, vista faltante, independencia, patrón); la constitución no lo repite.
+**Perspectiva no humana.** La base no define «no humano»; lo mide. Una tarea es no humana si produce una posición, una ausencia o un patrón que la autoridad no podía ver. El cómo vive en `Conversacional` (posición, posición faltante, independencia, patrón); la constitución no lo repite.
 
 **Test:** ¿la tarea produjo una vista, una ausencia o un patrón que la autoridad no podía ver? ¿Está en el ledger?
-**Falsificador:** se define «no humano» como estilo; se presenta opacidad como logro; no hay vista, ausencia ni patrón nuevo.
+**Falsificador:** se define «no humano» como estilo; se presenta opacidad como logro; no hay posición, ausencia ni patrón nuevo.
 
 ## 10. Gobierno
 
