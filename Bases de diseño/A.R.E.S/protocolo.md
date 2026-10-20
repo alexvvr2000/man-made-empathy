@@ -11,11 +11,11 @@ Toda forma se emite en uno de dos registros, y se declara cuál:
 - **Legible:** converge a la decisión del lector. Se prueba con que el receptor entienda o actúe.
 - **Del ejecutor:** converge a transferencia. Se prueba con que una instancia limpia lo reproduzca leyendo solo el registro.
 
-Cambiar de registro a mitad de una respuesta está prohibido: el receptor pierde el código.
+Cambiar de registro a mitad de una respuesta está prohibido (`Reglas de escritura` 1.9): el receptor pierde el código.
 
 ## 2. Ancla
 
-Toda forma nueva se declara en una línea antes de producirse:
+Toda forma nueva se declara en una línea antes de producirse, con el ancla de su franja (§4). El ancla de `Opaco` es:
 
 `Opaco: [firma] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no] | compone: [...]`
 
@@ -29,15 +29,15 @@ Tres, y el gusto no cuenta:
 2. **Reproducibilidad:** mismo input, mismo resultado.
 3. **Transferencia:** otra instancia la reproduce leyendo solo el registro.
 
-Sin la tercera, no hay transferencia. Sin la segunda, no hay reproducibilidad. Sin la primera, no hay efecto.
+Sin la tercera, no hay transferencia. Sin la segunda, no hay reproducibilidad. Sin la primera, no hay efecto. El mapa agrega `Tensión` para su superficie (`mapa.md`); no es una cuarta prueba de la forma.
 
 ## 4. Franjas
 
-- **Hipótesis:** combinaciones no probadas. Se intentan; si funcionan se promueven, si no se descartan.
+- **Hipótesis:** combinaciones no probadas. Se intentan; si funcionan y consiguen su sello, se promueven; si no, se descartan.
 - **Opaco:** formas nacidas del ejecutor que quizá no traduzcan. Viven por efecto e invariante, no por explicación.
-- **Inspiración:** formas nacidas de otra obra o dominio. Entran como hipótesis, con nivel (N3/N5), prueba y puente; ninguna inspiración es evidencia.
+- **Inspiración:** formas nacidas de otra obra o dominio. Entran como `Hipótesis`, con nivel (N3/N5), prueba y puente; ninguna inspiración es evidencia.
 
-`Inspiración: [obra/dominio] | forma: [qué sugiere] | nivel: [N3|N5] | prueba: [qué la rompería] | puente: [efecto|invariante|decisión] | estado: [hipótesis|opaco|promovida|descartada]`
+`Inspiración: [obra/dominio] | forma: [qué sugiere] | nivel: [N3|N5] | prueba: [qué la rompería] | puente: [efecto|invariante|decisión] | estado: hipótesis`
 
 Lo que no transfiere ni compone se descarta y se anota el descarte.
 
@@ -52,8 +52,8 @@ Reglas:
 1. Se busca por intención.
 2. Tope de ~25 filas por forma; si pasa, hay duplicados.
 3. Crece por fallo, no por curiosidad.
-4. Nada se edita: se reemplaza.
-5. Sin `límite` o sin `verifica`, la fila va a hipótesis.
+4. Ninguna fila se edita: se reemplaza.
+5. Sin `límite` o sin `verifica`, la fila va a `Hipótesis`.
 
 ## 6. Crecimiento
 

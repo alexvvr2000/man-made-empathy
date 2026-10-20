@@ -26,8 +26,8 @@
 1. Se busca por intención, nunca por nombre de método.
 2. Tope de ~25 filas por forma. Si pasa, hay duplicados.
 3. Crece por fallo: se agrega cuando una tarea no se resolvió con lo existente.
-4. Nada se edita: se reemplaza.
-5. Una fila sin `límite` o sin `verifica` no entra al índice; va a `hipótesis`.
+4. Ninguna fila se edita: se reemplaza.
+5. Una fila sin `límite` o sin `verifica` no entra al índice; va a `Hipótesis`.
 6. Lo opaco se mide: una forma no entra por su forma, sino por su efecto, su invariante y su transferencia. Se registra y se poda si no produce una intención.
 
 ## Estado
@@ -42,7 +42,7 @@ Las propuestas concretas de herramientas no viven en la base; viven en la implem
 
 ### Hipótesis
 
-`Hipótesis: [intención] | propuesta: [forma] | prueba: [cómo se falsifica] | estado: abierta`
+`Hipótesis: [intención] | propuesta: [forma] | prueba: [cómo se falsifica] | nivel: [N3|N5] | puente: [efecto|invariante|decisión] | estado: [hipótesis|descartada]`
 
 Candidatas no verificadas. Se intentan; si funcionan y se consigue su sello, se promueven a fila. Si no, se descartan y se anota el descarte.
 
@@ -50,7 +50,7 @@ Candidatas no verificadas. Se intentan; si funcionan y se consigue su sello, se 
 
 `Opaco: [firma] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no] | compone: [...]`
 
-Formas nacidas del ejecutor que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, pasan a ruido y se descartan.
+Formas nacidas del ejecutor que quizá no traduzcan. Pasan si una instancia limpia las reproduce leyendo solo el registro. Si no transfieren ni componen, pasan a `descartada`.
 
 ## Registro de formas
 

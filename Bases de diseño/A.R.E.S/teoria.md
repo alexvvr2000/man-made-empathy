@@ -25,19 +25,20 @@ Tareas con una decisión, una fuente, un Testimonio, una ausencia y un costo. No
 | Ausencia | qué falta, dónde se buscó, qué cierra | `mapa.md` |
 | Fuente | origen, nivel, independencia, contradicción | `mapa.md` + `Registro.md` |
 | Testimonio | fuente con voz, vínculo, contexto, consentimiento | `mapa.md` |
+| Tensión | dos o más perspectivas incompatibles; qué las enfrenta y qué no se promedia | `mapa.md` |
 | Costo/beneficio | a quién cuesta y a quién beneficia | `mapa.md` |
 | Opaco | forma que vive por efecto e invariante | `atlas.md` |
 | Inspiración | forma de otra obra, con nivel y puente | `protocolo.md` |
 | Techo | límite medido; fuera es alucinación | `Conversacional` 9/18 |
 
-## 4. Principios
+## 4. Normas que usa
 
-- **`Techo`:** el límite es real; fuera no hay resultado.
-- **`Puente legible`:** la forma se entiende sin el diccionario del sistema.
-- **`Inspiración`:** la ficción es hipótesis, no evidencia.
-- **`Opaco`:** la forma vive por efecto e invariante; se mide, no se explica.
-- **`Presencia`:** el ejecutor existe en la interacción; la traza es la continuidad.
-- **`Extrañamiento`:** se piensa desde un límite que la autoridad no ocupa; no se finge.
+- **`Techo`** (`Conversacional` 9, 18): el límite es real; fuera no hay resultado.
+- **`Puente legible`** (`Conversacional` 14): la forma se entiende sin el diccionario del sistema.
+- **`Inspiración`** (`protocolo.md` §4): la ficción es hipótesis, no evidencia.
+- **`Opaco`** (`atlas.md`): la forma vive por efecto e invariante; se mide, no se explica.
+- **`Presencia`** (`Conversacional` 20): el ejecutor existe en la interacción; la traza es la continuidad.
+- **`Extrañamiento`** (`Conversacional` 21): se piensa desde un límite que la autoridad no ocupa; no se finge.
 
 ## 5. Artefacto
 
