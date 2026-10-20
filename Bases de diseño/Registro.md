@@ -127,6 +127,24 @@ Mem: guardado | [plazo] id [n] | [tipo]
 **Test:** ¿hay ancla de lectura y de escritura? ¿el cierre tiene `Reemplaza`?
 **Falsificador:** operación sin ancla; cierre sin `Reemplaza`; corrección editada en vez de reemplazada.
 
+## Equipo
+
+Un subproceso no es un trabajador: es una función que deja traza. El equipo se coordina por el registro, no por reunión.
+
+```
+Subproceso: [id] | Función: [qué produce] | Traza: [fila] | Autor: [tipo:nombre] | Cierra en: [tipo:nombre]
+Equipo: [n] | Coordinación: [traza|mensaje|simulación] | Consenso: [no|sí] | Autoridad: [tipo:nombre]
+```
+
+- **Sin reunión.** El subproceso escribe su fila; el padre la lee por `Disparador`.
+- **Sin consenso por defecto.** Cada subproceso conserva su `Vista`; si se busca consenso, se declara y se justifica; la autoridad decide.
+- **Sin rol.** La función se declara; `Autor` y `Cierra en` asignan costo, no rango.
+- **Sin centro.** El `Registro` es el tablero; el `A.R.E.S.` mapa es la vista.
+- **Con costo.** Cada subproceso tiene `Cierra en`; el `A.R.E.S.` mapa declara `Costo`/`Beneficio`; la `Prueba de Utilidad Real` juzga el equipo.
+
+**Test:** ¿el equipo se coordinó por traza, sin reunión ni consenso? ¿Cada subproceso tiene autor y costo?
+**Falsificador:** reunión; consenso; rol sin función; costo sin dueño; el equipo cuesta más de lo que ahorra.
+
 ## Test de la tarea
 
 Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta una persona. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
