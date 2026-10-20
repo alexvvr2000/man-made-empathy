@@ -9,7 +9,7 @@
 
 ## Tesis
 
-El mapa no es un informe: es una superficie para ver lo que la decisión deja fuera. No embellece el resultado; hace visible la posición, la que falta, la fuente, el Testimonio y la ausencia. Si el lector necesita preguntar dónde está algo, el mapa falló.
+El mapa no es un informe: es una superficie para ver lo que la decisión deja fuera. No embellece el resultado; hace visible la posición, la que falta, la fuente, el Testimonio, la tensión y la ausencia. Si el lector necesita preguntar dónde está algo, el mapa falló.
 
 «Vista» es la metáfora; la operación es `posición`.
 
@@ -22,6 +22,7 @@ El mapa no es un informe: es una superficie para ver lo que la decisión deja fu
 | Vista faltante | la que la autoridad no ocupa, la limitación que esquiva, la ausencia que revela y la decisión que cambia | mover la posición, no imponerla |
 | Fuente | origen, nivel, independencia y contradicción | volver a la fuente |
 | Testimonio | fuente con voz, vínculo, contexto y consentimiento | no hablar por la fuente |
+| Tensión | dos o más perspectivas incompatibles; qué las enfrenta; qué no se promedia | ver la incompatibilidad, no fundirla |
 | Ausencia | qué falta, dónde se buscó y qué cierra | ver el hueco, no rellenarlo |
 | Costo y beneficio | a quién cuesta y a quién beneficia | saber a quién sirve |
 
@@ -34,6 +35,7 @@ Vista: [posición] | No ve: [límite]
 Vista faltante: [posición] | Esquiva: [limitación] | Ausencia: [qué falta] | Cambia: [decisión]
 Fuente: [id] | Nivel: [N1-N5] | Origen: [medio] | Independencia: [A|B|C] | Contradice: [id o NINGUNA]
 Testimonio: [fuente] | Vínculo: [afectado|mantenedor|crítico|beneficiario] | Contexto: [...] | Consentimiento: [...]
+Tensión: [perspectiva A] ↔ [perspectiva B] | Incompatibilidad: [qué] | No promedia: [sí]
 Costo: [tipo:nombre] | Beneficio: [tipo:nombre]
 Cierre: [qué falta para decidir]
 ```
@@ -46,12 +48,14 @@ La escala N1-N5 y los campos de fuente viven en `Registro.md`; el mapa no los re
 2. **Una posición por fila.** No se mezclan posiciones; cada una declara su límite.
 3. **La fuente se puede seguir.** Sin origen, nivel e independencia, la fila no entra.
 4. **El Testimonio tiene dueño.** Sin vínculo y consentimiento, no se habla por la fuente.
-5. **La ausencia se ve.** Lo que no está se nombra; no se rellena.
-6. **El mapa no decide.** La decisión queda en la autoridad; el mapa muestra el costo y el beneficio.
+5. **La tensión no se funde.** Dos perspectivas incompatibles se muestran; no se promedian ni se sintetizan; la autoridad decide.
+6. **La ausencia se ve.** Lo que no está se nombra; no se rellena.
+7. **El mapa no decide.** La decisión queda en la autoridad; el mapa muestra el costo y el beneficio.
 
 ## Pruebas
 
-- **Efecto:** el lector ve la posición, la que falta, la fuente, el Testimonio y la ausencia sin preguntar.
+- **Efecto:** el lector ve la posición, la que falta, la fuente, el Testimonio, la tensión y la ausencia sin preguntar.
+- **Tensión:** el lector ve las dos perspectivas y la incompatibilidad sin preguntar.
 - **Reproducibilidad:** el mismo registro produce el mismo mapa.
 - **Transferencia:** otra instancia lo reproduce leyendo solo el registro.
 
@@ -61,6 +65,9 @@ La escala N1-N5 y los campos de fuente viven en `Registro.md`; el mapa no los re
 - La posición faltante es un hombre de paja.
 - La fuente no se puede seguir.
 - El Testimonio no tiene vínculo ni consentimiento.
+- La tensión se funde en un promedio.
+- Se elige una y se borra la otra.
+- No se nombra la incompatibilidad.
 - La ausencia se rellena con narrativa.
 - El mapa decide por la autoridad.
 

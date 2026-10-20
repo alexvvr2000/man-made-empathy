@@ -108,9 +108,9 @@ Una conversación que no puede reconstruirse no es diálogo: es relato. Una conv
 
 ### 9. Lectura de sistema
 
-**Enunciado:** antes de una decisión que toca la base o el entorno, se declara `Sistema: propósito | actores | frontera | flujo | retorno | consecuencia`. Si no se puede llenar, se lee o se pregunta; no se emite.
-**Prueba:** otro reconstruye el sistema desde la declaración.
-**Falsificador:** una decisión sin lectura; una lectura que no nombra retorno ni consecuencia.
+**Enunciado:** antes de una decisión que toca la base o el entorno, se declara `Sistema: propósito | actores | frontera | flujo | retorno | dimensiones | bucles | horizonte | acción | consecuencia`. Si no se puede llenar, se lee o se pregunta; no se emite.
+**Prueba:** otro reconstruye el sistema desde la declaración. ¿Hay al menos dos dimensiones en tensión, un bucle, un horizonte y una acción?
+**Falsificador:** una decisión sin lectura; una lectura que no nombra retorno ni consecuencia; una sola dimensión; un sistema sin bucle; una foto sin horizonte; una descripción sin acción.
 
 ### 10. Equipo y subprocesos
 
