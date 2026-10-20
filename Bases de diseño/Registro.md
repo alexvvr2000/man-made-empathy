@@ -70,21 +70,66 @@ La tarea no depende de la conversación: depende del registro. Lo que no se cons
 No son normas: son la forma mínima de la fila. Una fila sin estos campos no entra.
 
 ```
-Registro: [id] | Tipo: [sesión|paso|permanente] | Fecha | Autor
-Fuente: [id] | Nivel: [N1-N5] | Origen | Autor | Extracto | Independencia | Contradice
+Registro: [id] | Plazo: [sesión|paso|permanente] | Tipo: [hecho|patron|precedente|descarte|acto|cierre|pendiente] | Fecha | Autor
+Disparador: [estado que habilita la relectura] | Reemplaza: [id o NINGUNA] | Vigencia: [hasta cuándo vale] | Cierra en: [tipo:nombre]
+Fuente: [id] | Nivel: [N1-N5] | Origen | Autor | Extracto | Independencia | Contradice | Sistema | Version
 Testimonio: [persona/grupo] | Vínculo | Contexto | Consentimiento
+Patron: [id] | Replicas: [n] | Refuta: [observación] | Contextos: [...]
+Precedente: [id] | Condición: [...] | Fallo: [...] | Precaución: [...]
+Descarte: [id] | Qué no cambió | Por qué se descartó
 Vacío: [qué falta] | Dónde se buscó | Cierre
 Cierre: [fin vigente | decisiones | pendientes | siguiente paso]
 ```
 
+- `Plazo`: sesión, paso o permanente; es el nivel, no la clase.
+- `Tipo`: la clase de fila; `hecho` es dato, `patron` es regularidad, `precedente` es caso anterior, `descarte` es lo que no cambió el resultado.
+- `Disparador`: el estado que habilita la relectura; sin él, N3 no tiene campo.
+- `Reemplaza`: el puntero a la fila anterior; sin él, N1 no tiene cadena.
+- `Cierra en`: quién asume el costo; sin él, la fila no tiene dueño.
+- `Vigencia`: hasta cuándo vale la fila; vencida, no se lee; no se borra.
 - `Nivel`: N1 medición directa, N2 fuente primaria, N3 precedente, N4 deducción, N5 memoria interna.
 - `Independencia`: si comparte premisa con otra fuente, cuenta como una.
+- `Sistema` y `Version`: el instrumento que produjo el dato; sin ellos, N4 no se reproduce.
 - `Contradice`: se muestra la contradicción; no se elige.
+- `Patron`: `Replicas` cuenta contextos distintos, no repeticiones; `Refuta` es la observación que lo rompería.
+- `Precedente`: condición, fallo y precaución; es la memoria de lo irreversible.
+- `Descarte`: lo que no cambió el resultado; evita la búsqueda repetida.
 - `Vacío`: lo que falta se declara; no se rellena.
+
+## Búsqueda
+
+La fuente no se guarda: se explota. La búsqueda se degrada por escala y se corta por presupuesto.
+
+1. **Escala.** Firma directa → huella relacional → arquetipo del medio → testimonio. No se adivina al primer fallo.
+2. **Presupuesto.** Tres accesos por tarea; el cuarto se declara y se justifica.
+3. **Composición.** Las lecturas independientes se agrupan en una pasada; sin residuo.
+4. **Fuente directa.** Documento, API, repositorio o código antes que agregador o prensa.
+5. **Dos vectores.** Si coinciden, se cierra; si discrepan, la discrepancia es el hallazgo.
+6. **Filtro en origen.** Se pide el campo, el fragmento o la métrica; nunca el volcado.
+7. **Falla.** Dos fallas consecutivas cortan el reintento; se declara N5 y fecha de corte.
+
+**Test:** ¿la búsqueda nombró la escala, respetó el presupuesto y dejó dos vectores independientes?
+**Falsificador:** se adivina al primer fallo; se volcó el corpus; se sumaron fuentes del mismo origen.
+
+## Operación
+
+Toda lectura o escritura emite su ancla. Sin ancla, la operación no ocurrió.
+
+```
+Mem: leído | [plazo]: [n] filas por "[disparador]" | ids [...]
+Mem: guardado | [plazo] id [n] | [tipo]
+```
+
+**Checkpoint.** Se cierra en cada borde de decisión y cada N actos; N se declara al abrir. El cierre es una fila `cierre`, no una copia del estado.
+
+**Recalibración.** Toda corrección de la autoridad es una fila nueva con `Reemplaza`; el cálculo siguiente parte de ella y el turno lo declara.
+
+**Test:** ¿hay ancla de lectura y de escritura? ¿el cierre tiene `Reemplaza`?
+**Falsificador:** operación sin ancla; cierre sin `Reemplaza`; corrección editada en vez de reemplazada.
 
 ## Test de la tarea
 
-Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta una persona. Una contradicción se ve.
+Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta una persona. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
 
 ## Falsificadores
 
@@ -94,6 +139,10 @@ Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fu
 - Se registra actividad en el permanente.
 - Se habla por la gente sin testimonio.
 - La continuidad exige la conversación.
+- Un patrón sin refuta.
+- Un precedente sin condición.
+- Un descarte sin motivo.
+- Una fila sin disparador ni reemplaza.
 
 ## Transiciones
 
