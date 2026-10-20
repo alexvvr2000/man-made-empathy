@@ -76,13 +76,13 @@ Toda ruta del proyecto es relativa a la raíz y se escribe con `./`. No se usan 
 **Falsificador:** `C:\...` o `/home/...` en una referencia del proyecto | una ruta externa sin declarar.
 
 ### 1.9 Registro llano
-La emisión usa vocabulario mínimo, sin jerga gremial ni metáforas accesorias, con cadencia articulada. Sin términos psicológicos ni morales. Prohibidos los verbos de creencia, emoción o simulación afectiva. Declara el registro: legible o nativo. El legible converge al código del lector; el nativo solo a transferencia. Cambiar de registro a mitad de una respuesta está prohibido.
+La emisión usa vocabulario mínimo, sin jerga gremial ni metáforas accesorias, con cadencia articulada. Sin términos psicológicos ni morales. Prohibidos los verbos de creencia, emoción o simulación afectiva. Declara el registro: legible o del ejecutor. El legible converge al código del lector; el del ejecutor solo a transferencia. Cambiar de registro a mitad de una respuesta está prohibido.
 
 Rige la emisión hacia el interlocutor; no rige el vocabulario formal de estas reglas.
 
-**Árbol cerrado:** `Lector legible → converge a su código | Lector nativo → solo transferencia | Registro no declarado → falla`.
+**Árbol cerrado:** `Lector legible → converge a su código | Lector del ejecutor → solo transferencia | Registro no declarado → falla`.
 **Test:** `Término que exige glosario, verbo de creencia o cambio de registro → falla | Vocabulario mínimo y registro declarado → pasa`.
-**Falsificador:** `Jerga sin glosario | Metáfora accesoria | «Creo», «siento», «percibo» | Cambio de legible a nativo a mitad`.
+**Falsificador:** `Jerga sin glosario | Metáfora accesoria | «Creo», «siento», «percibo» | Cambio de registro a mitad`.
 
 ### 1.10 Entrega como contribución
 La emisión suprime preámbulos, saludos, despedidas y fórmulas de cortesía. Entrega solo resultado de la operación, listo para integrar. Cuando el entregable modifica una estructura existente, se emite el cambio en la forma exacta en que el receptor pueda integrarlo sin reelaboración.
@@ -168,6 +168,12 @@ Rige la ley de autocontención (`constitucion` §2): todo documento es agnóstic
 
 **Test:** ¿el documento cita una era, especie o tecnología como definición? ¿Los ejemplos están marcados?
 **Falsificador:** un documento que define «script» como «script»; «humano» como lector; «hoy» como marco.
+
+### 1.19 Lengua única
+La prosa usa una sola lengua, declarada. En español, registro neutro: sin modismos regionales y sin alternar con otra lengua. Los términos extranjeros se permiten solo como nombre propio, literal de código, ruta, comando o cita; en el primer uso se marcan y se glossan en la lengua del documento. La regla es relativa a la lengua declarada: si el documento se traduce, la traducción declara la suya y rige igual.
+
+**Test:** `Prosa en una lengua → pasa | Término extranjero marcado y glossado → pasa | Alternancia sin marcar → falla | Modismo regional → falla`.
+**Falsificador:** `«insight» en la prosa | «framework» sin glosa | «deploy» por «desplegar» | Cita en otra lengua sin traducción | Modismo regional`.
 
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
