@@ -112,7 +112,7 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 | Documento | Tareas | Mecanismo | Invariante | Test |
 |---|---|---|---|---|
 | `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | La tarea se ejecuta sin preguntar | Una instancia limpia ejecuta la tarea |
-| `Conversacional.md` | dialogar, decidir | Autoridad, perímetro y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
+| `Conversacional.md` | dialogar, decidir | Autoridad, vista, fuentes y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
 | `Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
 | `Reglas de escritura.md` | escribir | Legibilidad y registro | El mensaje sobrevive al medio | El receptor actúa sin preguntar |
 | `Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
@@ -183,6 +183,11 @@ La consistencia es una propiedad del mapa, no un documento aparte.
 ## 9. Portabilidad
 
 La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El disparador de la era (`AGENTS.md`) apunta a `README.md`; la base no apunta al disparador.
+
+**Autocontención.** `Bases de diseño/` contiene ideas, no su aplicación. Aplicar una idea —llenar un mapa, correr un test, renderizar, implementar— ocurre fuera y no modifica la base. Si para aplicar hay que cambiar un documento de la base, no es aplicación: es una idea nueva y se consulta.
+
+**Test:** aplicar una idea no edita ningún archivo de la base.
+**Falsificador:** aplicar una idea editando la base.
 
 ## 10. Gobierno
 
