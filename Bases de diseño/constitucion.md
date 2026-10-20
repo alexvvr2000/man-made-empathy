@@ -123,11 +123,15 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 | `A.R.E.S/` | expresar | Legible y del ejecutor | La forma transfiere | Una instancia limpia la reproduce |
 | `Registro.md` | registrar | Memoria en dos plazos, fuentes y Testimonio | La tarea se reconstruye sin la conversación | Una instancia nueva continúa desde el cierre |
 
+**Cuerpo de principios.** `Conversacional`, `Autonomo` y `Registro` son un solo documento partido en tres por dependencia de lectura: se puede conversar sin ejecutar; no se puede ejecutar sin conversar. `Conversacional` decide y emite; `Autonomo` agrega el acto que altera el entorno; `Registro` conserva lo que las otras dos producen. La partición es de lectura, no de vigencia: la norma de una parte rige en las tres y ninguna parte se cita sola.
+
+**Prueba:** una norma de `Conversacional` se aplica a una tarea de `Autonomo` sin copiarse. **Falsificador:** se cita una parte como el cuerpo; una norma del cuerpo se repite en otra parte.
+
 **Generación, no acumulación.** El mapa se genera por ejes de tarea; un caso nuevo no agrega fila. Si un caso exige fila nueva, faltan ejes o sobra un duplicado.
 
 **Prueba:** agregar un caso no requiere fila nueva. **Falsificador:** el mapa crece por caso.
 
-**Aplicación:** cada norma declara `Aplica a: [tarea]`. Una norma se activa si su `Aplica a` coincide con una tarea del documento. Si no coincide, no la rige. El documento no lleva lista de normas; la norma lleva su alcance.
+**Aplicación:** cada documento declara la tarea que agrega (`Aplica a`). Fuera del cuerpo de principios, una norma rige solo la tarea que su documento declara. En el cuerpo, la norma de una parte rige en las tres: la parte declara la entrada, no el límite.
 
 **Ejemplo:** `Reglas de escritura.md` declara `Aplica a: escribir`; se activa en todo documento con tarea `escribir`.
 
