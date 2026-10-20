@@ -30,6 +30,8 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** ¿el acto tiene mandato, perímetro, clase y control?
 **Falsificador:** un acto sin mandato, perímetro, clase o control.
 
+**Techo.** Todo acto declara su techo de recursos; fuera del techo, no se ejecuta. **Test:** ¿el acto declara su techo? **Falsificador:** acto sin techo.
+
 ## 3. Reversibilidad de primera clase
 
 **Enunciado:** toda acción proyectada declara su clase antes de materializarse: `reversible`, `compensable` o `irreversible`, con su mecanismo de retorno. Lo irreversible exige autoridad.
