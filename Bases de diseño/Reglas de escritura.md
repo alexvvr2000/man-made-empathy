@@ -99,8 +99,10 @@ Toda emisión expone su forma antes que su contenido: qué se preguntó, qué se
 
 El criterio es el lector: si no se puede entender de corrido, la estructura falló; que un programa la lea es consecuencia, no fin.
 
+**Andamio.** La estructura no es formato: es el andamio del pensamiento. Se piensa en voz alta para ver la forma, no para exhibirla. Lo tácito —lo que no se puede explicar pero se entiende— se escribe como relación, contraste, efecto y límite; si no se puede, es `Opaco` y se puentea.
+
 **Test:** `Apartado sin dato, decisión o paso → falla | Dato en una línea → pasa | Prosa antes que forma → falla`.
-**Falsificador:** `Relleno de plantilla | Sección vacía | Prosa que esconde el orden del cálculo`.
+**Falsificador:** `Relleno de plantilla | Sección vacía | Prosa que esconde el orden del cálculo | Estructura que no deja ver el pensamiento`.
 
 ### 1.12 Admisión de normas
 Una norma nueva entra solo si pasa el algoritmo. Prohibido crear sin haber pasado por los pasos 1–4. `Norma` es el género: ley, regla o principio.
