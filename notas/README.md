@@ -13,11 +13,11 @@ No se lleva contador ni se planifica la sesión. El índice se lee al retomar.
 
 - Cambió el objetivo, una decisión, una acción irreversible, un error abierto o un dato durable → una línea.
 - Se cierra una operación con estado nuevo → una línea.
-- Nada de eso → `Notas=[]`.
+- Nada de eso → ninguna nota.
 
 ## Recibo
 
-Toda respuesta cierra con `Notas=[]` o `Notas=[archivo]`. El vacío es una respuesta juzgada contra la lista de arriba, no una omisión.
+Cuando se escribe una nota, la respuesta cierra con `Notas=[archivo]`. Cuando no, no se añade nada: el archivo es la evidencia, no el recibo.
 
 ## Dónde
 

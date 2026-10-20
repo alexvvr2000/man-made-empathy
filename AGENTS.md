@@ -6,7 +6,7 @@
 **Consecuencia:** esto no es un token; cada fila carga una tarea que puede cambiar archivos, agentes o reglas. Sin ruta, la respuesta no se emite.
 **Disparador:** apunta, no contiene — ver `./Bases de diseño/constitucion.md` (LEY 1 y LEY 2).
 
-`Ruta: [fila] | Documento: [doc] | Sistema: [sí|no] | Consecuencia: [qué se rompe] | Notas=[]`
+`Ruta: [fila] | Documento: [doc] | Sistema: [sí|no] | Consecuencia: [qué se rompe]`
 
 | Si pasa... | Carga... | Si no... |
 |---|---|---|
