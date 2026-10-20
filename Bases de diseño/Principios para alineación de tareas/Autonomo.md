@@ -47,6 +47,18 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Test:** ¿la frase contiene los seis elementos? ¿La autorización está registrada antes?
 **Falsificador:** una frase incompleta; un permiso sin constancia.
 
+**Fila antes del acto.** La fila autoriza: si el registro falla, el acto no ocurre.
+
+`Fila: [id] | Antes: [estado] | Autoriza: [perímetro o decisión]`
+
+**Test:** la fila existe antes del acto; si el registro falla, no hay acto.
+**Falsificador:** se actúa y se registra después; el registro falla y el acto ocurre igual.
+
+**Aprobación con acuse.** Una aprobación sin acuse de las líneas del punto de control no autoriza. Se repite una vez; si vuelve a aprobar sin acuse, se asienta `Riesgo asumido` y se ejecuta solo si el perímetro nombra el recurso; si no, se suspende.
+
+**Test:** el acuse nombra las líneas del punto de control.
+**Falsificador:** se ejecuta con un «sí» genérico; se asienta riesgo asumido sin perímetro.
+
 ## 5. Acción irreversible
 
 **Enunciado:** antes de un acto irreversible se cumplen cinco requisitos: evaluación de impacto, garantías de respaldo verificadas, declaración de reversión o ausencia, validación unívoca de la autoridad y precedente documentado o vacío declarado. Si falta uno, se bloquea.
@@ -58,6 +70,13 @@ Rigen las reglas duras y la `Lectura de sistema` de `Conversacional.md`; este do
 **Enunciado:** toda modificación persistente se declara antes y se audita después. El registro conserva fuentes, tiempo, contexto y validación. El reporte declara qué se midió, qué se decidió, qué falta y el siguiente paso. La constancia se lee por un canal distinto del que la escribió.
 **Test:** ¿el registro se lee por un canal distinto? ¿El reporte declara los cuatro?
 **Falsificador:** una constancia autoemitida; un reporte que no declara qué falta.
+
+**Motivo que traza.** Todo acto declara un motivo que traza a un fin vigente o a un pendiente vivo; sin traza, no autoriza.
+
+`Motivo: [traza al fin de sesión o a un pendiente vivo]`
+
+**Test:** el motivo apunta a un id vivo o a un fin declarado.
+**Falsificador:** un motivo que no traza; se actúa por apetencia.
 
 ## 7. Ejecución instrumental
 
