@@ -101,3 +101,11 @@ La escala N1-N5 se define en `Registro.md`.
 **Test:** ¿hay compuertas o el nombre de un marco? ¿cada compuerta nombra su norma?
 
 **Falsificador:** «implementa según [marco]» | un paso que no descarga norma | marco citado sin conversión.
+
+## 10. Admisión de ideas
+
+**Enunciado:** una instrucción no descarta una idea sin declarar la prueba que la descarta. Rige `Conversacional` 22.
+
+**Test:** ¿hay prueba declarada antes del descarte?
+
+**Falsificador:** descarte sin prueba; «no es valioso» sin recibo; idea relegada sin medirla.
