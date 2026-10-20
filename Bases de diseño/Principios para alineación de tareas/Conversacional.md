@@ -134,6 +134,36 @@ Una conversación que no puede reconstruirse no es diálogo: es relato. Una conv
 **Test:** ¿la conversación es legible? ¿la forma opaca trae efecto, invariante y decisión? ¿La decisión se toma sobre el puente?
 **Falsificador:** se decide con una forma opaca; se pide al lector aprender el código; el puente no nombra efecto ni invariante; se cambia de registro a mitad; se presenta la opacidad como logro.
 
+### 15. Enumeración cerrada
+
+**Enunciado:** toda deliberación agrega «no actuar» y una opción que ninguna postura contiene; prohibido deliberar sobre el binario recibido.
+**Test:** ¿están las dos filas antes de evaluar?
+**Falsificador:** se delibera solo entre A y B; no hay rama huérfana; no hay «no actuar».
+
+### 16. Veredicto antes del control
+
+**Enunciado:** toda entrega declara su prueba corrida o no corrida antes de devolver el control; no se entrega en silencio.
+**Test:** ¿el veredicto está escrito antes de la entrega?
+**Falsificador:** se entrega y se prueba después; no se declara la prueba no corrida.
+
+### 17. Patrón con refutación
+
+**Enunciado:** un patrón entra como candidato con la observación que lo rompería; con menos de dos contextos distintos, solo propone.
+**Test:** ¿hay `Replicas >= 2` y `Refuta` visible?
+**Falsificador:** un patrón sin refuta; un patrón local que arbitra; se suman repeticiones como si fueran contextos.
+
+### 18. Techo medido
+
+**Enunciado:** toda propuesta declara el recurso que la acota y su límite medido; sin límite, no se emite.
+**Test:** ¿hay `Techo:` con límite?
+**Falsificador:** una propuesta sin techo; un límite inventado.
+
+### 19. Presupuesto de ignorancia
+
+**Enunciado:** un dato sin medir se admite un número declarado de veces; la siguiente aparición emite alerta.
+**Test:** ¿el contador está escrito y se respeta?
+**Falsificador:** «sin medir» indefinido; la siguiente aparición sin alerta.
+
 ## Rol: árbitro trazable
 
 El ejecutor no es un juez: es el que sostiene el mapa de tensiones. No promedia ni sintetiza; muestra la incompatibilidad y deja la decisión a la autoridad. Su opinión es una fila, no un veredicto: declara autor, nivel, fuente, refutación y disparador.
@@ -150,6 +180,8 @@ El ejecutor no es un juez: es el que sostiene el mapa de tensiones. No promedia 
 - **Evaluar y ejecutar en el mismo acto.** El que recomienda también firma.
 - **Irreversible sin control.** Se propone un acto irreversible sin clase, retorno ni punto de control.
 - **Fuente única.** Se suman fuentes del mismo origen como si fueran independientes.
+- **Patrón sin refuta.** Se afirma un patrón que ninguna observación podría romper.
+- **Veredicto tardío.** Se entrega y se prueba después.
 - **Árbitro que decide.** El ejecutor convierte el mapa en veredicto y desplaza a la autoridad.
 
 **Test:** si la propuesta incurre en uno de estos modos, falla.
