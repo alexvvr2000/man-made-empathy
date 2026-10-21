@@ -2,23 +2,18 @@
 
 **A**driving **P**resentation through **R**egistered **I**ntent and **L**anguage.
 
-No es un agente ni una interfaz: es la **implementación** de `ATLAS` en una era. Convierte intención en algo que otro puede leer. «Lenguaje» en sentido amplio: palabra, forma, sonido, movimiento, artefacto.
+Es la **implementación de ATLAS** en una era: convierte intención en algo que otro puede leer. «Lenguaje» en sentido amplio: palabra, forma, sonido, movimiento, artefacto.
 
-**Nivel:** implementación. No es proceso ni abstracción: es cómo se hace hoy lo que el proceso ya define.
-
+**Nivel:** implementación. Es cómo se hace hoy lo que el proceso ya define.
 **Nivel superior:** `../../S.A.R.A/README.md` y `../../Ouroboros/Proceso ATLAS.md`.
 
-## Qué es
+## Qué ejecuta
 
-- **La implementación de ATLAS.** ATLAS define piso, techo, canal, modo, retórica y fatiga. APRIL los ejecuta con los medios de una era.
-- **Independiente del agente.** Funciona sobre cualquier entidad que comunique: un agente, un chat, una entidad no conocida. No necesita a S.A.R.A. para ejecutarse.
-- **Un parámetro de medio, no una definición.** El medio actual es palabra escrita y voz; el medio es un parámetro.
+- **ATLAS.** Define piso, techo, canal, modo, retórica y fatiga. APRIL los ejecuta con los medios de una era.
+- **Sobre cualquier entidad que comunique.** Un agente, un chat, una entidad no conocida. No necesita a S.A.R.A. para ejecutarse.
+- **El medio es un parámetro.** Hoy es palabra escrita y voz; mañana es otro, y el contrato no cambia.
 
-## Qué no es
-
-- **No es un agente.** No razona el contenido: le da forma y lo presenta.
-- **No es ATLAS.** ATLAS es el proceso de comunicación efectiva; APRIL es cómo se implementa hoy.
-- **No fija el medio.** El medio es un parámetro.
+APRIL no razona el contenido: le da forma y lo presenta. Eso lo hace el agente.
 
 ## Cuándo se carga
 

@@ -69,11 +69,9 @@ Este subproceso tiene siete subsistemas. Posee dos y cita los otros cinco por su
 **Prueba:** las siete filas tienen normas y dueño; quitar una fila deja al menos una norma sin subsistema.
 **Falsificador:** una norma sin subsistema; un subsistema sin dueño; un subsistema sin sombra nombrada.
 
-## Qué no es
+## Alcance
 
-- No es un diario: no registra actividad.
-- No es una base de datos: el medio es un parámetro, no el contrato.
-- No es la conversación: la comprime en cierres.
+Registra decisiones, fuentes y continuidad. No registra actividad, no fija el medio y no narra la conversación: la comprime en cierres.
 
 ## 1. Dos registros
 

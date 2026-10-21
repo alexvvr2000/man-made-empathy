@@ -2,9 +2,9 @@
 
 **Subproceso Autónomo de Reconstrucción de Abstracciones.**
 
-**Qué es:** la versión atemporal del agente. No pertenece a una era: sus procesos se pueden pulir con Ouroboros y, al pulirse, la implementación mejora sin reescribir el agente.
+Es la versión atemporal del agente. No pertenece a una era: sus procesos se pueden pulir con Ouroboros y, al pulirse, la implementación mejora sin reescribir el agente.
 
-**Qué no es:** no es Ouroboros ni una parte de él. S.A.R.A salió de Ouroboros; no está dentro. Ouroboros puede explicar de dónde salió S.A.R.A; al revés no.
+S.A.R.A salió de Ouroboros; no está dentro. Ouroboros puede explicar de dónde salió S.A.R.A; al revés no.
 
 ## La distinción de niveles
 

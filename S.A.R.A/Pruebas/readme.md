@@ -2,17 +2,15 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-Estatuto de la carpeta, no catálogo de Pruebas. No se prueba que la tarea sea buena ni que diga la verdad; se prueba que, junto con la autoridad, no termine dando más lata que soluciones.
+Estatuto de la carpeta, no catálogo de pruebas. No se prueba que la tarea sea buena ni que diga la verdad; se prueba que, junto con la autoridad, no termine dando más lata que soluciones.
 
-## Qué es esta carpeta
+## Qué se prueba
 
-Un lugar para las pruebas que hagan irrefutable lo que el proyecto afirma. No es una suite cerrada: es el registro de lo que se va necesitando probar. Los Pruebas que hoy existen son instancias de este marco, no su definición.
-
-## Qué se prueba aquí y qué no
+Lo que necesita una prueba irrefutable para sostener una afirmación del proyecto. No es una suite cerrada: es el registro de lo que se va necesitando probar. Las pruebas que hoy existen son instancias de este marco, no su definición.
 
 La meta del proyecto es describir tareas que pueden pensar bajo el concepto de una autoridad, con algo que no es humano. Es terreno inexplorado: las pruebas son hipótesis, no dogmas.
 
-Aquí se prueba lo que necesita una prueba irrefutable para sostener una afirmación del proyecto. No se prueba la verdad en abstracto, ni la bondad de la tarea, ni que la tarea sea como nosotros.
+No se prueba la verdad en abstracto, ni la bondad de la tarea, ni que la tarea sea como nosotros.
 
 ## Quién decide
 

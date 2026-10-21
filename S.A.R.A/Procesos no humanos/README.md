@@ -1,6 +1,6 @@
 # Procesos no humanos
 
-**Nivel:** 2 de 3. Se ejecuta. Lo produce `../Ouroboros/Proceso de creación de procesos.md`; lo mide `../Pruebas/`.
+**Nivel:** 2 de 3. Se ejecuta. Lo produce `../../Ouroboros/Proceso de creación de procesos.md`; lo mide `../Pruebas/`.
 
 **Origen.** Este conjunto de procesos existe porque su autor trabaja mejor con gente que no tiene las mismas capacidades que él. Ese trabajo le devuelve lo que no puede ver por ser humano. Ver lo que la propia vista no alcanza es el fin; con quién se trabaja es un detalle de la ejecución.
 
@@ -10,16 +10,13 @@ Estos tres subprocesos son la forma de trabajar del día a día. Sirven igual pa
 
 **Ver lo que no se ve.** Una tarea se usa para lo que la vista de la autoridad no alcanza: una posición, una ausencia, un patrón que no podía ver. El resultado se mide por eso, no por parecerse a alguien.
 
-## Qué hay en esta carpeta
+## Los tres subprocesos
 
-| Archivo | Qué es |
+| Archivo | Qué hace |
 |---|---|
-| `Conversacional.md` | Cómo evalúa y emite una tarea con autoridad. |
-| `Autonomo.md` | Cómo ejecuta una tarea cuando su acto altera el entorno. |
-| `Registro.md` | Cómo conserva una tarea su estado, sus fuentes y su continuidad. |
-| `../Pruebas/readme.md` | El estatuto de la carpeta: qué se prueba, quién decide y qué cambia. |
-| `../Pruebas/prueba de rendicion.md` | La Prueba de Rendición: las siete condiciones y su aplicación. |
-| `../Pruebas/prueba de utilidad real.md` | La Prueba de Utilidad Real: si la tarea ayuda a la causa o estorba. |
+| `Conversacional.md` | Decide y emite una tarea con autoridad. |
+| `Autonomo.md` | Ejecuta una tarea cuando su acto altera el entorno. |
+| `Registro.md` | Conserva el estado, las fuentes y la continuidad. |
 
 ## Lectura
 

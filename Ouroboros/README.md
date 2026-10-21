@@ -39,7 +39,9 @@ Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurr
 
 ## Qué hay en esta carpeta
 
-| Archivo | Qué es |
+Los seis procesos, cada uno con su forma y su función.
+
+| Archivo | Qué hace |
 |---|---|
 | `Proceso de creación de procesos.md` | Produce procesos: qué entra, qué produce, cómo se verifica. |
 | `Proceso de ingeniería inversa.md` | Deduce un proceso de lo observable, por tendencia y no por copia. |
@@ -55,10 +57,3 @@ Sobre estos seis se construyen otros procesos. Una abstracción no es un primiti
 
 `Procesos no humanos/` es una abstracción: sus tres subprocesos salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
 
-## Lo que absorbió
-
-`A.R.E.S` eran cuatro archivos revueltos: `idea`, `protocolo`, `mapa`, `atlas`. Ahora es el proceso `ATLAS` y su índice. `teoria.md` se retiró: era la tesis explicativa, y el `README` de la base la cubre.
-
-`Escritura` eran dos archivos: claridad y creación de procesos. Ahora están aquí.
-
-`Reglas de mutación` hablaba de tareas. Ahora es el primitivo de mutación, y mutar tareas es una abstracción.
