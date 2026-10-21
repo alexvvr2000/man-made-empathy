@@ -1,4 +1,4 @@
-# Bases de diseño
+# Alineación de tareas
 
 **Unidad:** tarea. El ejecutor es el que la realiza; la autoridad es la dueña.
 
@@ -16,28 +16,28 @@ Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara `
 
 | Documento | Tareas | Qué hace |
 |---|---|---|
-| `constitucion.md` | meta | Unidad, lectura, tipos, admisión, mapa y gobierno. |
-| `Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
-| `Principios para alineación de tareas/Conversacional.md` | interactuar, decidir | Cómo se conduce una tarea de interacción. |
-| `Principios para alineación de tareas/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
-| `Reglas de escritura.md` | escribir | Cómo se escribe una tarea. |
+| `../faber/constitucion.md` | meta | Unidad, lectura, tipos, admisión, mapa y gobierno. |
+| `Escritura/Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
+| `Procesos principales/Conversacional.md` | interactuar, decidir | Cómo se conduce una tarea de interacción. |
+| `Procesos principales/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
+| `Escritura/Reglas de escritura.md` | escribir | Cómo se escribe una tarea. |
 | `Reglas de mutación.md` | mutar | Cómo se transforma una tarea. |
 | `Pruebas/` | evaluar | Rendición y utilidad de una tarea. |
 | `A.R.E.S/` | expresar | Cómo se da forma a una tarea de expresión. |
-| `Registro.md` | registrar | Cómo se conserva la tarea: memoria, fuentes y Testimonio. |
+| `Procesos principales/Registro.md` | registrar | Cómo se conserva la tarea: memoria, fuentes y Testimonio. |
 
-La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres (`constitucion.md` §4). Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
+La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres (`../faber/constitucion.md` §4). Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
 
 ## Orden de lectura
 
 1. Este mapa.
-2. `constitucion.md`.
+2. `../faber/constitucion.md`.
 3. El documento de la tarea que se va a usar.
 4. `Pruebas/` si hay que evaluar.
 
 ## Cómo se agrega
 
-Ver `constitucion.md` (`## 7. Agregar`). La lista de pendientes es local (`.contexto/pendientes.md`); no forma parte de la base.
+Ver `../faber/constitucion.md` (`## 7. Agregar`). La lista de pendientes es local (`.contexto/pendientes.md`); no forma parte de la base.
 
 ## Portabilidad
 

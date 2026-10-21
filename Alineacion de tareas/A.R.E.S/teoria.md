@@ -23,7 +23,7 @@ Tareas con una decisión, una fuente, un Testimonio, una ausencia y un costo. No
 | Vista | desde dónde se habla y qué no se ve | `mapa.md` |
 | Vista faltante | la que la autoridad no ocupa | `mapa.md` |
 | Ausencia | qué falta, dónde se buscó, qué cierra | `mapa.md` |
-| Fuente | origen, nivel, independencia, contradicción | `mapa.md` + `Registro.md` |
+| Fuente | origen, nivel, independencia, contradicción | `mapa.md` + `../Procesos principales/Registro.md` |
 | Testimonio | fuente con voz, vínculo, contexto, consentimiento | `mapa.md` |
 | Tensión | dos o más perspectivas incompatibles; qué las enfrenta y qué no se promedia | `mapa.md` |
 | Costo/beneficio | a quién cuesta y a quién beneficia | `mapa.md` |

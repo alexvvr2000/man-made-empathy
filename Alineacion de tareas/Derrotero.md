@@ -59,24 +59,24 @@ El Derrotero nombra capacidades, no instrumentos. Cada capacidad tiene contrato 
 
 | Si pasa... | Carga... | Si no... |
 |---|---|---|
-| Se piensa o diseña una tarea | `README.md`, `constitucion.md` y el cuerpo | sin sistema |
+| Se piensa o diseña una tarea | `README.md`, `../faber/constitucion.md` y el cuerpo | sin sistema |
 | Se ejecuta una tarea | `README.md` y el cuerpo | no ocurre |
 | Se conserva una tarea | el cuerpo | no sobrevive |
-| Se escribe una tarea | `Reglas de escritura.md` | no se lee |
-| Se instruye una tarea | `Leyes de Diseño de Instrucciones.md` | no se ejecuta sin preguntar |
+| Se escribe una tarea | `Escritura/Reglas de escritura.md` | no se lee |
+| Se instruye una tarea | `Escritura/Leyes de Diseño de Instrucciones.md` | no se ejecuta sin preguntar |
 | Se transforma una tarea | `Reglas de mutación.md` | sin origen |
 | Se evalúa una tarea | `Pruebas/readme.md` | sin veredicto |
-| Se expresa una tarea | `A.R.E.S./protocolo.md` | no transfiere |
-| Se agrega o admite una norma | `constitucion.md` §7 | no entra |
-| Se cambia una idea de la base | `constitucion.md` §8 y el documento | deriva |
+| Se expresa una tarea | `A.R.E.S/protocolo.md` | no transfiere |
+| Se agrega o admite una norma | `../faber/constitucion.md` §7 | no entra |
+| Se cambia una idea de la base | `../faber/constitucion.md` §8 y el documento | deriva |
 | Se encuentra un disparador anidado | — | no enruta; la raíz manda |
-| Se emite una respuesta | `Registro.md` | la memoria no se escribe |
+| Se emite una respuesta | `Procesos principales/Registro.md` | la memoria no se escribe |
 | No coincide y no toca la base | — | responde y cierra |
 | No coincide y toca la base | — | `[VACÍO - SIN RUTA]`; pregunta |
 
 ## 5. Admisión
 
-Una ruta o capacidad nueva entra por las compuertas de `constitucion.md` §3.3 y se enruta en el mismo cambio. El Derrotero no crece por caso.
+Una ruta o capacidad nueva entra por las compuertas de `../faber/constitucion.md` §3.3 y se enruta en el mismo cambio. El Derrotero no crece por caso.
 
 ## Prueba
 

@@ -39,8 +39,8 @@ Elige una forma y declara por qué:
 - **Consulta:** no altera estado persistente. Cierra con la respuesta y su recibo.
 - **Operación:** altera estado persistente. Encadena `entrega-operacion`.
 - **Deliberación:** dos o más caminos con fricción. Encadena `deliberacion-estructurada`.
-- **Creación o mutación de agente:** la etiqueta `agente` se decide en `./Bases de diseño/Reglas de mutación.md`; WAX la crea.
-- **Skill:** capacidad recurrente; la etiqueta se decide en `./Bases de diseño/Reglas de mutación.md`; no se escribe aquí.
+- **Creación o mutación de agente:** la etiqueta `agente` se decide en `./Alineacion de tareas/Reglas de mutación.md`; WAX la crea.
+- **Skill:** capacidad recurrente; la etiqueta se decide en `./Alineacion de tareas/Reglas de mutación.md`; no se escribe aquí.
 
 `Forma: [consulta | operación | deliberación | agente | skill] | Motivo: [una línea]`
 
@@ -60,7 +60,7 @@ La instrucción contiene, en este orden:
 
 ### Criterio de tipo
 
-La etiqueta de una mutación —instrucción, skill o agente— se decide en `./Bases de diseño/Reglas de mutación.md`; no se copia aquí. Esta fábrica escribe instrucciones; si el candidato es skill o agente, se deriva a las Reglas.
+La etiqueta de una mutación —instrucción, skill o agente— se decide en `./Alineacion de tareas/Reglas de mutación.md`; no se copia aquí. Esta fábrica escribe instrucciones; si el candidato es skill o agente, se deriva a las Reglas.
 
 Para una norma, la ruta es:
 
@@ -68,7 +68,7 @@ Para una norma, la ruta es:
 |---|---|
 | Cambia un criterio de diseño | ley → `Leyes` |
 | Cambia un criterio de juicio | principio → `Conversacional` |
-| Cambia la forma de escribir | regla → `Reglas de escritura.md` |
+| Cambia la forma de escribir | regla → `./Alineacion de tareas/Escritura/Reglas de escritura.md` |
 | Sin test | observar; no crear |
 | Duplica una ley/principio | referenciar; no crear |
 | Reproduce un fallo conocido | rechazar o rediseñar |
@@ -106,7 +106,7 @@ Criterios de validación. Copia operativa de las Leyes de Diseño de Instruccion
 
 Si falla una, corrige o declara la falta; no emitas. La validación es un control de producción, no una certificación; la instrucción se certifica con la autoridad o con un runtime distinto.
 
-Toda norma nueva pasa además el contrato de escritura (`Reglas de escritura.md`, `1.12`): derivación, observabilidad, decisión y calibración. Sin eso, no se crea.
+Toda norma nueva pasa además el contrato de escritura (`./Alineacion de tareas/Escritura/Reglas de escritura.md`, `1.12`): derivación, observabilidad, decisión y calibración. Sin eso, no se crea.
 
 ## 6. Plantilla de salida
 

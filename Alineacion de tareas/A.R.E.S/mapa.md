@@ -40,7 +40,7 @@ Costo: [tipo:nombre] | Beneficio: [tipo:nombre]
 Cierre: [qué falta para decidir]
 ```
 
-La escala N1-N5 y los campos de fuente viven en `Registro.md`; el mapa los usa, no los define.
+La escala N1-N5 y los campos de fuente viven en `../Procesos principales/Registro.md`; el mapa los usa, no los define.
 
 ## Reglas
 

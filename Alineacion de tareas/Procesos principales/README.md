@@ -1,4 +1,4 @@
-# Principios para alineación de tareas
+# Procesos principales
 
 ## Qué hay en esta carpeta
 
@@ -18,8 +18,8 @@ La carpeta define cómo se alinea una tarea con la autoridad. `Conversacional.md
 
 ## Recomendaciones
 
-1. Leer `../Pruebas/readme.md` primero; después `Conversacional.md`, `Autonomo.md` y `../Registro.md`; al final, los Pruebas.
+1. Leer `../Pruebas/readme.md` primero; después `Conversacional.md`, `Autonomo.md` y `Registro.md`; al final, los Pruebas.
 2. Aplicar la Prueba de Rendición sobre el registro, no sobre la declaración de la tarea. Si la reconstrucción requiere preguntarle al ejecutor, la prueba falla.
 3. Aplicar la Prueba de Utilidad Real sobre una tarea real, no sobre una demo: el costo de control solo se mide donde se paga.
 4. Tratar la rendición como condición de responsabilidad y la utilidad como condición de valor: una tarea puede pasar una y fallar la otra.
-5. Mantener un solo dueño por criterio: las siete condiciones viven en `prueba de rendicion.md`; el criterio de utilidad, en `prueba de utilidad real.md`; este README no los repite.
+5. Mantener un solo dueño por criterio: las siete condiciones viven en `../Pruebas/prueba de rendicion.md`; el criterio de utilidad, en `../Pruebas/prueba de utilidad real.md`; este README no los repite.

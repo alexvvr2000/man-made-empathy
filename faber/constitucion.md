@@ -1,4 +1,4 @@
-# Constitución de la base
+# Constitución de Alineación de tareas
 
 **Tipo:** ley. Se aplica, no se ejecuta.
 **Lector:** autoridad y ejecutor.
@@ -27,13 +27,13 @@ Antes de una decisión que toca la base o el entorno, rige `Conversacional` 9: l
 
 ### LEY 0 — Idea vs implementación
 
-Todo lo que sea idea vive en `Bases de diseño/`. La implementación no entra. Si no es en `Bases de diseño/`, no se toca.
+Todo lo que sea idea vive en `Alineacion de tareas/`. La implementación no entra. Si no es en `Alineacion de tareas/`, no se toca.
 
 **Enunciado:** un documento de la base no puede necesitar SARA, APRIL, DSH, WAX, skills, ejecutores con nombre ni el instalador para tener sentido. Las implementaciones se nombran solo como ejemplo marcado y la regla se sostiene sin ellas.
 
 **Prueba:** quita toda referencia a implementaciones concretas; si el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
 
-**Falsificador:** un documento de `Bases de diseño/` que no se entiende sin nombrar la implementación.
+**Falsificador:** un documento de `Alineacion de tareas/` que no se entiende sin nombrar la implementación.
 
 ### LEY 1 — El disparador apunta, no contiene
 
@@ -68,8 +68,8 @@ Una norma se clasifica por su modo de cumplimiento, no por su importancia. Si no
 | Documento | Qué es | Para qué sirve | Qué norma entra |
 |---|---|---|---|
 | `constitucion.md` | Meta-marco | Define qué es norma, cómo se admite, cómo se valida y cómo se muta | La que gobierna la norma misma: tipo, admisión, mapa, validación, mutación |
-| `Principios.../Conversacional.md` y `Autonomo.md` | Principios | Fija el juicio y la conducta de la tarea | La que gobierna cómo se decide y cómo se ejecuta: autoridad, perímetro, reversibilidad, trazabilidad |
-| `Leyes de Diseño de Instrucciones.md` | Leyes de instrucción | Fija cómo se escribe una instrucción | La que gobierna la forma de una instrucción: compuertas, anclas, falsificadores, transiciones |
+| `../Alineacion de tareas/Procesos principales/Conversacional.md` y `../Alineacion de tareas/Procesos principales/Autonomo.md` | Principios | Fija el juicio y la conducta de la tarea | La que gobierna cómo se decide y cómo se ejecuta: autoridad, perímetro, reversibilidad, trazabilidad |
+| `../Alineacion de tareas/Escritura/Leyes de Diseño de Instrucciones.md` | Leyes de instrucción | Fija cómo se escribe una instrucción | La que gobierna la forma de una instrucción: compuertas, anclas, falsificadores, transiciones |
 
 **Regla de destino:** una norma se escribe en el documento cuya tarea gobierna. Si gobierna la norma misma, va a la constitución. Si gobierna el juicio, va a principios. Si gobierna la forma de una instrucción, va a las leyes. Si no encaja en uno de los tres, no es norma meta: es mecanismo, documento de tarea o implementación.
 
@@ -115,15 +115,15 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 
 | Documento | Tareas | Mecanismo | Invariante | Prueba |
 |---|---|---|---|---|
-| `Derrotero.md` | enrutar | Contrato, ciclo, capacidades y vacíos | La petición se convierte en tarea; la ausencia se declara | Una instancia limpia ejecuta la tarea |
-| `Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | La tarea se ejecuta sin preguntar | Una instancia limpia ejecuta la tarea |
-| `Conversacional.md` | interactuar, decidir | Autoridad, posición, fuentes y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
-| `Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
-| `Reglas de escritura.md` | escribir | Legibilidad y registro | El mensaje sobrevive al medio | El receptor actúa sin preguntar |
-| `Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
-| `Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin el ejecutor | Las pruebas pasan |
-| `A.R.E.S/` | expresar | Legible y del ejecutor | La forma transfiere | Una instancia limpia la reproduce |
-| `Registro.md` | registrar | Memoria en dos plazos, fuentes y Testimonio | La tarea se reconstruye sin la conversación | Una instancia nueva continúa desde el cierre |
+| `../Alineacion de tareas/Derrotero.md` | enrutar | Contrato, ciclo, capacidades y vacíos | La petición se convierte en tarea; la ausencia se declara | Una instancia limpia ejecuta la tarea |
+| `../Alineacion de tareas/Escritura/Leyes de Diseño de Instrucciones.md` | instruir | Compuertas, anclas y entregable | La tarea se ejecuta sin preguntar | Una instancia limpia ejecuta la tarea |
+| `../Alineacion de tareas/Procesos principales/Conversacional.md` | interactuar, decidir | Autoridad, posición, fuentes y trazabilidad | La autoridad responde; la tarea se reconstruye | Prueba de Rendición |
+| `../Alineacion de tareas/Procesos principales/Autonomo.md` | ejecutar | Reversibilidad, perímetro y punto de control | Lo irreversible no se ejecuta sin autoridad | Clasificación de reversibilidad |
+| `../Alineacion de tareas/Escritura/Reglas de escritura.md` | escribir | Legibilidad y registro | El mensaje sobrevive al medio | El receptor actúa sin preguntar |
+| `../Alineacion de tareas/Reglas de mutación.md` | mutar | Marco de origen | La fuente no se edita; el cambio se declara | Cambio trazable al origen |
+| `../Alineacion de tareas/Pruebas/` | evaluar | Rendición y utilidad | Se reconstruye sin el ejecutor | Las pruebas pasan |
+| `../Alineacion de tareas/A.R.E.S/` | expresar | Legible y del ejecutor | La forma transfiere | Una instancia limpia la reproduce |
+| `../Alineacion de tareas/Procesos principales/Registro.md` | registrar | Memoria en dos plazos, fuentes y Testimonio | La tarea se reconstruye sin la conversación | Una instancia nueva continúa desde el cierre |
 
 **Cuerpo de principios.** `Conversacional`, `Autonomo` y `Registro` son un solo documento partido en tres por dependencia de lectura: se puede conversar sin ejecutar; no se puede ejecutar sin conversar. `Conversacional` decide y emite; `Autonomo` agrega el acto que altera el entorno; `Registro` conserva lo que las otras dos producen. La partición es de lectura, no de vigencia: la norma de una parte rige en las tres y ninguna parte se cita sola.
 
@@ -137,7 +137,7 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 
 **Aplicación:** cada documento declara la tarea que agrega (`Aplica a`). Fuera del cuerpo de principios, una norma rige solo la tarea que su documento declara. En el cuerpo, la norma de una parte rige en las tres: la parte declara la entrada, no el límite.
 
-**Ejemplo:** `Reglas de escritura.md` declara `Aplica a: escribir`; se activa en todo documento con tarea `escribir`.
+**Ejemplo:** `../Alineacion de tareas/Escritura/Reglas de escritura.md` declara `Aplica a: escribir`; se activa en todo documento con tarea `escribir`.
 
 **Presupuesto:** por tarea, no por fila. Muchas implementaciones de una tarea no cuentan; una tarea nueva sí.
 
@@ -167,7 +167,7 @@ Toda mutación parte de un **marco de origen** y conserva ese marco. La forma pu
 ## 7. Agregar
 
 1. La autoridad dice qué agregar.
-2. Se lee `README.md`, luego esta constitución, luego `Reglas de escritura.md` y `Reglas de mutación.md` si aplica.
+2. Se lee `../Alineacion de tareas/README.md`, luego esta constitución, luego `../Alineacion de tareas/Escritura/Reglas de escritura.md` y `../Alineacion de tareas/Reglas de mutación.md` si aplica.
 3. Se clasifica la norma, se declara su destino y se pasan las siete compuertas.
 4. Se escribe con `Clasificación | Destino | Tipo | Enunciado | Prueba | Falsificador | Evidencia`.
 5. Se actualiza el mapa, se valida y se registra.
@@ -193,9 +193,9 @@ La consistencia es una propiedad del mapa, no un documento aparte.
 
 ## 9. Portabilidad
 
-La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El disparador de la era (`AGENTS.md`) apunta a `README.md`; la base no apunta al disparador.
+La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El disparador de la era (`AGENTS.md`) apunta a `../Alineacion de tareas/README.md`; la base no apunta al disparador.
 
-**Autocontención.** `Bases de diseño/` contiene ideas, no su aplicación. Aplicar una idea —llenar un mapa, correr un Prueba, renderizar, implementar— ocurre fuera y no modifica la base. Si para aplicar hay que cambiar un documento de la base, no es aplicación: es una idea nueva y se consulta.
+**Autocontención.** `Alineacion de tareas/` contiene ideas, no su aplicación. Aplicar una idea —llenar un mapa, correr un Prueba, renderizar, implementar— ocurre fuera y no modifica la base. Si para aplicar hay que cambiar un documento de la base, no es aplicación: es una idea nueva y se consulta.
 
 **Prueba:** aplicar una idea no edita ningún archivo de la base.
 **Falsificador:** aplicar una idea editando la base.
@@ -215,8 +215,8 @@ La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md
 | Operación | Carga | Salida | Edita |
 |---|---|---|---|
 | Diseñar una tarea | `Lectura` + esta constitución | tarea declarada | solo autoridad |
-| Ejecutar una tarea | `AGENTS.md` + doc de tarea | resultado + traza | según perímetro |
-| Evaluar una tarea | `Pruebas/` | pasa o falla en N | no |
+| Ejecutar una tarea | `../AGENTS.md` + doc de tarea | resultado + traza | según perímetro |
+| Evaluar una tarea | `../Alineacion de tareas/Pruebas/` | pasa o falla en N | no |
 | Agregar una norma | `## 7` | admitido o rechazado | solo autoridad |
 | Transformar una tarea | `## 6` | ancla + cambio | con autorización |
 | Revisar una tarea | `Lectura` + doc | reporte | no |

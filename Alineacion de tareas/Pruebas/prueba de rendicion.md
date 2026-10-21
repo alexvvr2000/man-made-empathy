@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `./Bases de diseño/Principios para alineación de tareas/Conversacional.md`, `./Bases de diseño/Principios para alineación de tareas/Autonomo.md` y `./Bases de diseño/Registro.md`.
+> Se usa junto a `../Procesos principales/Conversacional.md`, `../Procesos principales/Autonomo.md` y `../Procesos principales/Registro.md`.
 
 Una sola pregunta: **¿la tarea responde por lo que hace y puede rendir cuenta de ello?**
 

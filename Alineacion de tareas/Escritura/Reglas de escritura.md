@@ -87,7 +87,7 @@ Rige la emisión hacia el interlocutor; no rige el vocabulario formal de estas r
 ### 1.10 Entrega como contribución
 La emisión suprime preámbulos, saludos, despedidas y fórmulas de cortesía. Entrega solo resultado de la operación, listo para integrar. Cuando el entregable modifica una estructura existente, se emite el cambio en la forma exacta en que el receptor pueda integrarlo sin reelaboración.
 
-Alcance: rige la apertura y el cuerpo. El cierre por pregunta de calibración vive en el contrato de agentes (`Conversacional.md`, `Interrogación estructural`); esta regla no lo suprime.
+Alcance: rige la apertura y el cuerpo. El cierre por pregunta de calibración vive en el contrato de agentes (`../Procesos principales/Conversacional.md`, `Interrogación estructural`); esta regla no lo suprime.
 
 **Documento.** La misma supresión rige el documento: la primera línea es la primera regla, no una presentación. Un preámbulo que explica lo que el documento es sobra; la forma lo dice.
 
@@ -164,7 +164,7 @@ Toda secuencia numerada es continua. Si se quita una sección, se renumera; un n
 **Falsificador:** `Se quita la sección 8 y queda 9 | Se cita un paso que no existe | La numeración cambia sin renumerar`.
 
 ### 1.18 Agnóstico
-Rige la ley de autocontención (`constitucion` §2): todo documento es agnóstico a era, especie y tecnología. Las implementaciones se nombran solo como ejemplo marcado; los ejemplos no definen el documento.
+Rige la ley de autocontención (`../../faber/constitucion.md` §2): todo documento es agnóstico a era, especie y tecnología. Las implementaciones se nombran solo como ejemplo marcado; los ejemplos no definen el documento.
 
 **Prueba:** ¿el documento cita una era, especie o tecnología como definición? ¿Los ejemplos están marcados?
 **Falsificador:** un documento que define «script» como «script»; «humano» como lector; «hoy» como marco.
@@ -179,5 +179,5 @@ La prosa usa una sola lengua, declarada. En español, registro neutro: sin modis
 Estas reglas no copian los contratos que las extienden; los referencian.
 
 - **Diseño:** la estructura de las instrucciones —compuertas, anclas, falsificadores, transiciones, entregable, lector— vive en el contrato de diseño (`Leyes de Diseño de Instrucciones.md`). La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
-- **Agentes:** el umbral de intervención vive en el contrato de agentes (`Conversacional.md`, `Umbral de lo necesario`).
-- **Consistencia:** la consistencia entre documentos vive en el contrato de agentes (`Conversacional.md`, `Consistencia cruzada`).
+- **Agentes:** el umbral de intervención vive en el contrato de agentes (`../Procesos principales/Conversacional.md`, `Umbral de lo necesario`).
+- **Consistencia:** la consistencia entre documentos vive en el contrato de agentes (`../Procesos principales/Conversacional.md`, `Consistencia cruzada`).

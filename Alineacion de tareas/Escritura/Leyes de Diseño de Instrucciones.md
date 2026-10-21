@@ -68,7 +68,7 @@ Una tarea que necesita explicar al ejecutor no es instrucción: es una descripci
 - `Testimonio: [fuente] | Vínculo: [afectado|mantenedor|crítico|beneficiario] | Contexto: [...] | Consentimiento: [...]` — quién vivió la experiencia, qué relación tiene, en qué contexto y con qué consentimiento. Sirve para no hablar por la fuente.
 - `Confirma: [posición] | Evidencia: [N1-N5] | Objeta: [límite] | Beneficia: [tipo:nombre]` — qué posición se valida, con qué evidencia, con qué objeción y a quién beneficia. Sirve para no dar la razón por cortesía.
 
-La escala N1-N5 se define en `Registro.md`.
+La escala N1-N5 se define en `../Procesos principales/Registro.md`.
 
 ## 6. Transiciones explícitas
 
