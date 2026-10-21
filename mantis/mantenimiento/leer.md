@@ -74,7 +74,9 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 
 **Cuerpo de principios.** `Conversacional`, `Autonomo` y `Registro` son un solo documento partido en tres por dependencia de lectura: se puede conversar sin ejecutar; no se puede ejecutar sin conversar. `Conversacional` decide y emite; `Autonomo` agrega el acto que altera el entorno; `Registro` conserva lo que las otras dos producen. La partición es de lectura, no de vigencia: la norma de una parte rige en las tres y ninguna parte se cita sola.
 
-**Prueba:** una norma de `Conversacional` se aplica a una tarea de `Autonomo` sin copiarse. **Falsificador:** se cita una parte como el cuerpo; una norma del cuerpo se repite en otra parte.
+**Núcleo y copia.** Cada parte se lee sola. La que posee el núcleo lo da en texto completo; la que no lo posee carga en su `§0` la copia que necesita, con original, motivo y sincronización. La copia es de lectura: no crea criterio, se corrige contra el original y no se defiende como fuente. Una regla nueva o corregida se propaga a las tres partes en el mismo acto.
+
+**Prueba:** una parte se lee sola y su copia cita original, motivo y sincronización. **Falsificador:** se cita una parte como el cuerpo; una copia sin cita; una copia que diverge y se defiende como original; una regla nueva sin propagación; una copia que agrega una obligación que el original no tiene.
 
 **Derrotero.** Es la forma del disparador: no es parte del cuerpo y no se cita como norma; se implementa en el disparador de la era.
 

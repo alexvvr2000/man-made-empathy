@@ -2,17 +2,50 @@
 
 **Unidad:** tarea.
 **Aplica a:** registrar
-**Tipo:** leyes y reglas de registro; mecanismos de fila.
-**Alcance:** toda tarea que conserva estado, fuentes o continuidad.
+**Tipo:** leyes y reglas de registro; mecanismos de fila. La ley falla; la regla se corrige; ninguna entra sin Prueba.
 **Lector:** autoridad y ejecutor. El registro declara su lector al emitir.
+**Alcance:** toda tarea que conserva estado, fuentes o continuidad.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Parte:** 3 de 3 del cuerpo de principios. Conserva.
+**Cuerpo:** `Conversacional` decide y emite; `Autonomo` ejecuta. Esta parte se lee sola: carga en §0 la copia citada del núcleo que necesita.
+**Norma:** `Tipo | Enunciado | Prueba | Falsificador | Costo de omitir`. El `Tipo` va por fila porque esta parte mezcla ley y regla en una sola secuencia.
+**Estabilidad:** los números de ley y regla no se reutilizan; una norma retirada deja su número vacío.
+
 ## Tesis
 
-La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar. Es la tercera parte del cuerpo de principios: conserva lo que `Conversacional` decide y `Autonomo` ejecuta.
+La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar. Es la tercera parte del cuerpo de principios: conserva lo que `Conversacional` decide y `Autonomo` ejecuta, y carga ese núcleo como copia citada en §0.
 
 `Agente` se lee como `ejecutor`; la unidad es la tarea.
+
+## 0. Núcleo heredado
+
+Copia citada del núcleo que esta parte necesita para leerse sin las otras dos. Las filas están en forma operativa; el texto completo vive en el original.
+
+**Original.** `./Conversacional.md`, §§ `Reglas duras` y `Principios`.
+**Motivo.** Sin el núcleo, esta parte no puede decidir qué merece fila ni con qué nivel, y obligaría a abrir otro documento para cada registro.
+**Sincronización.** Manda el original. Si una fila diverge, se corrige contra aquí; esta tabla no crea criterio y no se defiende como original. Un cambio semántico en el original obliga a revisar estas filas.
+
+| Núcleo | Forma operativa | Falsificador |
+|---|---|---|
+| R1 Irreversibilidad | No se conserva un acto irreversible sin su confirmación. | Acto irreversible registrado sin confirmación. |
+| R2 Trazabilidad | Toda fila lleva procedencia; el instrumento que falla se declara en una línea. | Fila que solo el ejecutor puede contar. |
+| R3 Autoridad | La fila declara a quién responde; el ejecutor no se autoriza. | Fila sin autoridad o auto-autorizada. |
+| R4 Prueba | Ninguna norma entra sin Prueba y falsificador. | Norma sin Prueba. |
+| R5 Consistencia cruzada | Una regla nueva se propaga a las tres partes en el mismo acto. | Regla nueva sin propagación. |
+| R6 Validación con recibo | La confirmación declara evidencia y objeción. | Se confirma por cortesía. |
+| R7 Ruptura de ciclo | La corrección de la autoridad se asienta y no se re-argumenta. | Se re-argumenta tras la ruptura. |
+| R8 No auto-replicación | Crear un subproceso exige autoridad, `Crear`, `Terminar` y `Cierra en`. | Subproceso sin autoridad o sin término. |
+| R9 Techo | El registro declara su tope y no lo excede. | Se escribe fuera del techo. |
+| P3 Auditoría y recibo | Sin constancia verificable se declara `Vacío`; no se rellena. | Vacío rellenado con una historia. |
+| P4 Consulta declarada | Toda búsqueda externa se anuncia antes de ejecutarse. | Acceso externo sin ancla. |
+| P10 Equipo y subprocesos | Toda sub-tarea se declara y deja rastro; no hay «lo hizo el proceso». | Sub-tarea sin declarar. |
+| P13 Independencia de fuentes | Dos fuentes del mismo origen cuentan como una. | Fuentes sumadas de un solo origen. |
+| P16 Veredicto antes del control | La prueba se declara corrida o no corrida antes de devolver el control. | Se entrega y se prueba después. |
+| P17 Patrón con refutación | Un patrón entra con la observación que lo rompería. | Patrón sin refuta. |
+| P24 Nivel por defecto | Toda fila empieza en N5 y sube solo con recibo. | Fila en N1 sin recibo. |
+| P25 Piso de cómputo | Se declara el cómputo que la decisión justifica y se mide al cerrar. | Se cierra bajo el piso sin declararlo. |
 
 ## Qué no es
 
@@ -171,22 +204,33 @@ Terminar: [condición] | Crear: [id] | Cierre: [id] | Memoria: [cierre|descarte|
 
 Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fuente se rastrea hasta su origen. Una contradicción se ve. Un patrón se puede refutar; un precedente se puede citar; un descarte evita la búsqueda repetida.
 
-## Falsificadores
+## Modos de falla
 
-- Se cita la sesión como fuente.
-- Se edita una fila del permanente.
-- Se lee el registro entero.
-- Se registra actividad en el permanente.
-- Se habla por la fuente sin Testimonio.
-- La continuidad exige la conversación.
-- Un patrón sin refuta.
-- Un precedente sin condición.
-- Un descarte sin motivo.
-- Una fila sin disparador ni reemplaza.
+- **Sesión citada.** Se cita la sesión como fuente.
+- **Fila editada.** Se edita una fila del permanente en vez de reemplazarla.
+- **Lectura entera.** Se lee el registro completo.
+- **Actividad en el permanente.** El ruido desplaza la decisión.
+- **Fuente sin Testimonio.** Se habla por la fuente sin vínculo.
+- **Continuidad por el hilo.** El siguiente paso exige la conversación.
+- **Patrón sin refuta.** Se afirma una regularidad que nada podría romper.
+- **Precedente sin condición.** No se puede citar el caso anterior.
+- **Descarte sin motivo.** Se repite la búsqueda que ya falló.
+- **Fila sin disparador ni reemplaza.** La fila no se puede releer ni encadenar.
+- **Núcleo supuesto.** Se registra como si el núcleo estuviera cargado cuando la copia §0 falta o diverge.
+
+**Prueba:** si la tarea incurre en un modo, falla.
+**Falsificador:** el modo se repite y no se declara.
 
 ## Transiciones
 
 - Falta un hecho del entorno → `Autonomo` 7 (ejecución instrumental).
 - Dos o más caminos con fricción → `Conversacional` 5 (deliberación estructurada).
 - El siguiente paso altera estado persistente → `Autonomo` 2–5 (acto y punto de control).
+- Falta la decisión que la tarea conserva → `Conversacional` (§8, interrogación estructural).
 - En cualquier otro caso → se entrega y se cierra.
+
+## Cierre
+
+**Cierra en:** la tarea siguiente, que arranca del cierre (§2).
+**Entrega:** fin vigente, decisiones, pendientes y siguiente paso.
+**No cierra:** sin `Reemplaza`; sin cierre legible por otro; con una fila que solo el ejecutor puede contar.
