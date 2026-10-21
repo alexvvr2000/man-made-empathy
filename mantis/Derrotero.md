@@ -6,15 +6,15 @@
 **Alcance:** los archivos de `../Alineacion de tareas/` y de este derrotero.
 **Base:** `../Alineacion de tareas/`. Se cita, no se copia.
 **Forma:** `../Alineacion de tareas/Derrotero.md`.
-**Cuerpo:** `../Alineacion de tareas/Procesos principales/`. Se carga solo cuando el cambio toca un proceso del nivel 2.
-**Claridad:** `../Alineacion de tareas/Escritura/Proceso de claridad.md`.
-**Creación de procesos:** `../Alineacion de tareas/Escritura/Proceso de creación de procesos.md`. Se carga cuando el cambio produce o reemplaza un proceso.
+**Abstracciones:** `../Alineacion de tareas/Procesos no humanos/`. Se carga solo cuando el cambio toca una abstracción.
+**Claridad:** `../Alineacion de tareas/Ouroboros/Proceso de claridad.md`.
+**Creación de procesos:** `../Alineacion de tareas/Ouroboros/Proceso de creación de procesos.md`. Se carga cuando el cambio produce o reemplaza un proceso.
 **Ley:** `./mantenimiento/editar.md`.
 
 | Si pasa... | Carga... | Si no... |
 |---|---|---|
 | Se cambia un archivo | `./mantenimiento/editar.md` | no hay edición |
-| El cambio produce o reemplaza un proceso | `../Alineacion de tareas/Escritura/Proceso de creación de procesos.md` | se edita sobre el proceso existente |
+| El cambio produce o reemplaza un proceso | `../Alineacion de tareas/Ouroboros/Proceso de creación de procesos.md` | se edita sobre el proceso existente |
 
 **Vacío.** Lo que no entra en una fila se declara `[VACÍO - SIN PROCESO]` y se pregunta; no se improvisa.
 

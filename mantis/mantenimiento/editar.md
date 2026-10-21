@@ -1,10 +1,10 @@
 # Editar
 
-**Tipo:** subproceso del nivel 3. Ocho pasos, en orden. Vuelve sobre los procesos del nivel 1 y del 2.
+**Tipo:** proceso de mantenimiento. Ocho pasos, en orden. Vuelve sobre Ouroboros y sobre las abstracciones.
 **Alcance:** los archivos de `../../Alineacion de tareas/` y de `../`. Las implementaciones no entran.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
-**Claridad:** `../../Alineacion de tareas/Escritura/Proceso de claridad.md`.
-**Creación de procesos:** `../../Alineacion de tareas/Escritura/Proceso de creación de procesos.md`.
+**Claridad:** `../../Alineacion de tareas/Ouroboros/Proceso de claridad.md`.
+**Creación de procesos:** `../../Alineacion de tareas/Ouroboros/Proceso de creación de procesos.md`.
 
 ## Parámetros del repo
 
@@ -30,22 +30,25 @@ Tres valores. Si el proceso se muda a otro repositorio, cambian estos y los paso
 
 Rutas relativas a `../../Alineacion de tareas/`.
 
-| Documento | Nivel | Gobierna | Entra el proceso que... |
+| Documento | Parte | Gobierna | Entra el proceso que... |
 |---|---|---|---|
-| `Escritura/Proceso de creación de procesos.md` | 1 | produce procesos | produce o reemplaza un proceso |
-| `Procesos principales/Conversacional.md` | 2 | Aduana, Tribunal, Puente, Cómputo | decide y emite |
-| `Procesos principales/Autonomo.md` | 2 | Acto | altera el entorno |
-| `Procesos principales/Registro.md` | 2 | Memoria, Equipo | conserva, reconstruye o certifica |
-| `Reglas de mutación.md` | 3 | la transformación de un proceso | gobierna origen, cambio o retorno |
-| `Escritura/Proceso de claridad.md` | 3 | la claridad de un artefacto | gobierna la forma de lo que se lee o ejecuta |
-| `Derrotero.md` | 3 | el enrutamiento | declara condición, proceso y consecuencia |
-| `Pruebas/` | 3 | la evaluación | mide rendición, utilidad o cruce |
-| `A.R.E.S/` | 3 | la expresión | da forma a una vista |
-| `Procesos principales/README.md` | 2 | el índice del cuerpo | ninguna: solo apunta |
+| `Ouroboros/Proceso de creación de procesos.md` | Ouroboros | produce procesos | produce o reemplaza un proceso |
+| `Ouroboros/Proceso de ingeniería inversa.md` | Ouroboros | deduce procesos | saca un proceso de lo observable |
+| `Ouroboros/Proceso de aplicar.md` | Ouroboros | la aplicación | ejecuta un proceso o compone dos |
+| `Ouroboros/Proceso de mutación.md` | Ouroboros | la transformación de un proceso | gobierna origen, cambio o retorno |
+| `Ouroboros/Proceso de claridad.md` | Ouroboros | la claridad de un artefacto | gobierna la forma de lo que se lee o ejecuta |
+| `Ouroboros/Proceso ATLAS.md` | Ouroboros | la comunicación | gobierna piso, techo, sesgo o registro |
+| `Ouroboros/indice de formas.md` | Ouroboros | el índice de formas | registra una forma que pasó su prueba |
+| `Procesos no humanos/Conversacional.md` | abstracción | Aduana, Tribunal, Puente, Cómputo | decide y emite |
+| `Procesos no humanos/Autonomo.md` | abstracción | Acto | altera el entorno |
+| `Procesos no humanos/Registro.md` | abstracción | Memoria, Equipo | conserva, reconstruye o certifica |
+| `Procesos no humanos/README.md` | abstracción | el índice de abstracciones | ninguna: solo apunta |
+| `Derrotero.md` | abstracción | el enrutamiento | declara condición, proceso y consecuencia |
+| `Pruebas/` | abstracción | la evaluación | mide rendición, utilidad o cruce |
 
 **Destino.** El proceso va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es proceso de la base y se pregunta.
 
-**Nivel.** Antes de escribir, se declara en cuál de los tres niveles entra. Un cambio que produce procesos va al nivel 1; uno que se ejecuta, al 2; uno que se lee, al 3. Si el cambio es de nivel 1, se ejecuta antes `Escritura/Proceso de creación de procesos.md`.
+**Destino.** Antes de escribir, se declara si el cambio va a Ouroboros (un primitivo) o a una abstracción. Si toca un primitivo, se ejecuta antes `Ouroboros/Proceso de creación de procesos.md` y se mide su efecto en los que componen con él.
 
 **Tarea sin clase.** La tarea se describe por su entrada, su falla, su salida y su consumidor. Prohibido clasificarla por quién la ejecuta: esa ambigüedad se deja abierta a propósito.
 
@@ -82,9 +85,9 @@ Rutas relativas a `../../Alineacion de tareas/`.
 **Sale:** el archivo leído de arriba abajo, con sus dependientes revisados o declarados fuera de alcance.
 **Falla si:** se revisa el diff y no el archivo; queda una sección que ya no encaja con la de arriba.
 
-**Dependientes.** Si el cambio toca un proceso del nivel 2, se revisan las dos copias citadas en `§0` de las otras partes. Si mueve o renumera, se revisan las referencias y el mapa `## Subsistemas`. Si cambia una tarea, una fila o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio. Si retira un proceso, se pasa por `Procesos principales/Registro.md` §6.
+**Dependientes.** Si el cambio toca una abstracción, se revisan las dos copias citadas en `§0` de las otras partes. Si mueve o renumera, se revisan las referencias y el mapa `## Subsistemas`. Si cambia una tarea, una fila o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio. Si retira un proceso, se pasa por `Procesos no humanos/Registro.md` §6.
 
-**Cascada de nivel.** Si el cambio produce un proceso del nivel 1, se revisan el mapa de niveles de `README.md` y el `Aplica a` de los procesos del nivel 2 que lo carguen. Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `Escritura/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
+**Cascada.** Si el cambio produce o toca un primitivo de Ouroboros, se revisa el mapa de `README.md` y el `Aplica a` de las abstracciones que lo carguen. Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `Ouroboros/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
 
 ## 7. Verificar
 
