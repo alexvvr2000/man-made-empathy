@@ -16,7 +16,6 @@ Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara `
 
 | Documento | Tareas | Qué hace |
 |---|---|---|
-| `../faber/mantenimiento/` | meta | Unidad, lectura, tipos, admisión, mapa y gobierno. |
 | `Escritura/Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
 | `Procesos principales/Conversacional.md` | interactuar, decidir | Cómo se conduce una tarea de interacción. |
 | `Procesos principales/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |
@@ -26,21 +25,20 @@ Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara `
 | `A.R.E.S/` | expresar | Cómo se da forma a una tarea de expresión. |
 | `Procesos principales/Registro.md` | registrar | Cómo se conserva la tarea: memoria, fuentes y Testimonio. |
 
-La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres (`../faber/mantenimiento/leer.md` §4). Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
+La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres. Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
 
 ## Orden de lectura
 
 1. Este mapa.
-2. `../faber/mantenimiento/leer.md`.
-3. El documento de la tarea que se va a usar.
-4. `Pruebas/` si hay que evaluar.
+2. El documento de la tarea que se va a usar.
+3. `Pruebas/` si hay que evaluar.
 
 ## Cómo se agrega
 
-Ver `../faber/mantenimiento/editar.md` (`## 7. Agregar`). La lista de pendientes es local (`.contexto/pendientes.md`); no forma parte de la base.
+Ver `Escritura/Reglas de escritura.md` (`1.12`). La lista de pendientes es local (`.contexto/pendientes.md`); no forma parte de la base.
 
 ## Portabilidad
 
-La base no depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de la implementación. `AGENTS.md` apunta a este README; este README no apunta a `AGENTS.md`.
+La base no depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de la implementación. `AGENTS.md` no forma parte de la base; este README no apunta a él.
 
 Si la base se imprime y sigue teniendo sentido, está bien. Si necesita SARA, APRIL o DSH para entenderse, no es base.
