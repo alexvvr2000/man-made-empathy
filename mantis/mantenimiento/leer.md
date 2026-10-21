@@ -90,7 +90,7 @@ El mapa es el catálogo de lo que existe. Si un artefacto no tiene fila, no exis
 
 ## 9. Portabilidad
 
-La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El disparador de la era (`AGENTS.md`) apunta a `../../faber/Derrotero.md`; la base no apunta al disparador.
+La base se puede extraer del repo, imprimir o compilar. No depende de `AGENTS.md`, `Instrucciones/`, el instalador ni de ninguna implementación. El disparador de la era (`AGENTS.md`) apunta a `../Derrotero.md`; la base no apunta al disparador.
 
 **Autocontención.** `Alineacion de tareas/` contiene ideas, no su aplicación. Aplicar una idea —llenar un mapa, correr un Prueba, renderizar, implementar— ocurre fuera y no modifica la base. Si para aplicar hay que cambiar un documento de la base, no es aplicación: es una idea nueva y se consulta.
 

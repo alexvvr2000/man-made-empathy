@@ -1,7 +1,7 @@
 # AGENTS.md — Referencia
 
-Este repositorio lo mantiene FABEER.
+Este repositorio lo mantiene MANTIS.
 
-**Derrotero:** `./faber/Derrotero.md`.
+**Derrotero:** `./mantis/Derrotero.md`.
 
 Sin el Derrotero, la petición es información; con él, es tarea.
