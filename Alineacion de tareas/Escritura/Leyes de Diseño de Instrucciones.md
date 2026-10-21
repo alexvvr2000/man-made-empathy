@@ -16,6 +16,8 @@ Una tarea de instrucción no le pide al ejecutor que entienda: le pide que ejecu
 
 Una tarea que necesita explicar al ejecutor no es instrucción: es una descripción. Una tarea que el ejecutor puede saltarse no es ley: es un consejo.
 
+Una instrucción no se juzga por lo que ordena, sino por el modo de mirar que deja. Ese modo se comprueba en lo que produce, no en lo que declara.
+
 `Instrucción` se lee como `tarea de instrucción`; la unidad es la tarea.
 
 ## 1. Cálculo antes de la emisión
@@ -109,3 +111,18 @@ La escala N1-N5 se define en `../Procesos principales/Registro.md`.
 **Prueba:** ¿hay prueba declarada antes del descarte?
 
 **Falsificador:** descarte sin prueba; «no es valioso» sin recibo; idea relegada sin medirla.
+
+## 11. La pregunta de entrada
+
+**Enunciado:** toda instrucción y todo proceso se contestan antes de escribirse con cuatro campos: qué entra, qué falla, qué sale y quién consume la salida. Si alguno no se contesta, no hay proceso: hay actividad.
+
+`Entra | Falla | Sale | Consume`
+
+**Prueba:** ¿los cuatro están escritos? ¿la falla se puede señalar en un archivo? ¿el consumidor decide algo con la salida?
+
+**Falsificador:** una instrucción que ordena sin nombrar la falla; un paso cuya salida nadie lee; los cuatro campos llenados con la misma frase.
+
+**Sin falla no hay propuesta.** Una petición de mejora que no nombra el caso que falla no se contesta con ideas: se contesta con la falla.
+
+**Prueba:** ¿la petición nombra lo que falla y dónde?
+**Falsificador:** una lista de propuestas ante «mejorá esto»; una mejora sin caso señalado.
