@@ -17,6 +17,19 @@ Una tarea puede producir cualquier cosa y no tener medio para que llegue. ATLAS 
 
 Una idea que el otro lado no entiende vale cero. No se mide por elegancia del emisor, ni por opacidad, ni por gusto: se mide porque el receptor entiende o actúa, y porque puede reconstruir cómo se produjo lo que entiende.
 
+## El lenguaje también muta
+
+Todo lo de abajo de la tarea muta: las sub-tareas, los procesos y **su lenguaje**. Un término puede cambiar de significado, un registro puede desaparecer, un modo puede reemplazarse por uno que no existía. Eso no rompe ATLAS.
+
+ATLAS no fija palabras: fija **cómo se comunica**. Su piso, su techo, su canal, su modo y su sesgo son operaciones, no vocabulario. Por eso sobrevive al cambio de lengua del sistema, y por eso un proceso que mañana no se parezca en nada a los de hoy se comunica con el mismo contrato.
+
+Lo único que no muta es que **el otro lado tiene que entender, y que se tiene que poder reconstruir cómo se produjo**. Si eso cambia, no es que ATLAS mutó: es que dejó de existir.
+
+`Lengua: [la vigente] | Cambió: [qué término o registro] | Entiende igual: [sí|no]`
+
+**Prueba:** ¿el contrato se cumple sin depender de un término concreto?
+**Falsificador:** un proceso que solo se comunica si usa el vocabulario de una versión anterior; un cambio de lengua que rompe el entendimiento.
+
 ## Piso
 
 El piso es todo lo disponible para comunicarse: los canales, los formatos, los registros, lo que ya existe, incluso una notación que el otro lado no reconoce. El piso no se elige por gusto; se declara.
@@ -98,7 +111,7 @@ Un mensaje que se repite deja de leerse. La claridad tiene presupuesto, y gastar
 
 ## Sesgo declarado
 
-Toda emisión declara desde dónde se emite, qué prioriza y quién responde por lo que dice. No hay neutralidad; hay sesgo declarado. Rige `../Procesos no humanos/Conversacional.md` 7 y 11; aquí se usa, no se define.
+Toda emisión declara desde dónde se emite, qué prioriza y quién responde por lo que dice. No hay neutralidad; hay sesgo declarado. Rige `../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md` 7 y 11; aquí se usa, no se define.
 
 `Vista: [posición] | No ve: [límite]`
 

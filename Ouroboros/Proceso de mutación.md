@@ -10,12 +10,39 @@
 
 **Primitivo.** Vuelve sobre cualquiera de los otros cinco procesos: los puede rehacer, retirar o reemplazar. Es la arista de retorno del lenguaje.
 **Trazabilidad.** Es el proceso que registra todo cambio de los otros cinco: origen, cambio declarado y responsable. Sin él, un proceso cambia y nadie puede reconstruir por qué.
-**Prueba.** La salida de toda mutación se mide con `Pruebas/`; una mutación sin medida no se declara completa.
 **Forma.** `Entra | Falla | Sale | Consume`. Rige `./Proceso de creación de procesos.md`, `Pregunta de entrada`.
 
 ## Tesis
 
 Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `./Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
+
+Lo que cambia siempre no es el resultado del proceso: es **el conjunto de procesos que lo produce**. Golpear mutó: hoy neutralizar es más pesado y a veces no usa manos. Cambió el proceso, no el fin.
+
+## Mutar la serie
+
+Un proceso no muta solo. El conjunto que lo contiene también muta: se quitan unos, se ponen otros, y el conjunto sigue siendo válido sin heredar nada de la versión anterior.
+
+**Si tuviera un límite, la mutación ya se hubiera curado el cáncer hace mucho.**
+
+**Enunciado:** el conjunto de procesos de un nivel se reemplaza entero o por partes, sin heredar de la versión anterior. Un proceso nuevo no tiene que parecerse al que reemplaza; tiene que cubrir el mismo fin.
+
+**Sin herencia.** El reemplazo no hereda forma, nombre ni estructura del anterior. Si un proceso nuevo se parece al viejo, es coincidencia, no requisito.
+
+**Sin crecimiento obligatorio.** El conjunto puede encogerse. Quitar un proceso es mutación; no se compensa agregando otro.
+
+**Reordenar el nivel.** Si una tarea resulta ser sub-tarea de otra más grande, se reordena y se declara. El nivel no se hereda: se declara.
+
+`Serie: [conjunto] | Antes: [n procesos] | Después: [n procesos] | Quita: [...] | Pone: [...] | Reordena: [ninguno|qué]`
+
+**Prueba:** ¿el conjunto nuevo cubre el fin que el viejo cubría? ¿Se declaró qué se quitó y qué se puso?
+**Falsificador:** un conjunto que solo crece; un proceso nuevo que copia la forma del viejo para seguir la línea; un proceso retirado sin declarar su reemplazo; un conjunto que cubre menos fin que antes.
+
+## Lo que no cambia
+
+El fin no muta al mismo ritmo que el proceso. Un proceso puede reemplazarse entero y el fin seguir siendo el mismo. Si el fin cambia, eso no es mutación de la serie: es una mutación del fin, y se declara como tal.
+
+`Fin: [qué se persigue] | Cambia: [sí|no] | Si cambia: [por qué]`
+
 
 **Mutar tareas** es una abstracción sobre este proceso, no este proceso. Una tarea es la abstracción que se apoya en los seis primitivos; el primitivo muta procesos.
 
@@ -54,7 +81,7 @@ Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al r
 
 ## 5. Retorno
 
-**Enunciado:** mutar de regreso no está prohibido: es otra mutación. Se declara la clase `reversible | compensable | irreversible` como información, no como prohibición. La acción persistente irreversible se rige por `../Procesos no humanos/Autonomo.md`.
+**Enunciado:** mutar de regreso no está prohibido: es otra mutación. Se declara la clase `reversible | compensable | irreversible` como información, no como prohibición. La acción persistente irreversible se rige por `../S.A.R.A/punto-de-partida/seguridad/contener.md`.
 **Prueba:** ¿la clase y el retorno están declarados?
 **Falsificador:** una mutación irreversible sin autoridad; una mutación de regreso sin registro.
 

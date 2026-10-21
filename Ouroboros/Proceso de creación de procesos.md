@@ -92,7 +92,7 @@ La respuesta a una tarea se escribe como compuertas secuenciales. El artefacto d
 
 ## Anclas
 
-Toda clasificación, medición o supuesto se declara en una línea de 5 a 12 palabras antes o junto a la acción. Las anclas de lectura —`Vista`, `Vista faltante`, `Fuente`, `Testimonio`, `Confirma`— se leen en `../Procesos no humanos/Conversacional.md` 11 y 12; aquí se usan, no se definen.
+Toda clasificación, medición o supuesto se declara en una línea de 5 a 12 palabras antes o junto a la acción. Las anclas de lectura —`Vista`, `Vista faltante`, `Fuente`, `Testimonio`, `Confirma`— se leen en `../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md` 11 y 12; aquí se usan, no se definen.
 
 **Prueba:** ¿cada acción que exige juicio tiene su ancla?
 **Falsificador:** una acción sin ancla; un ancla que no clasifica nada.

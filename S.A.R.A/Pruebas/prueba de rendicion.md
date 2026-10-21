@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `../Procesos no humanos/Conversacional.md`, `../Procesos no humanos/Autonomo.md` y `../Procesos no humanos/Registro.md`.
+> Se usa junto a `../punto-de-partida/evaluacion/vigilar-tendencias.md`, `../punto-de-partida/seguridad/contener.md` y `../punto-de-partida/reproduccion/reproducir.md`.
 
 Una sola pregunta: **¿la tarea responde por lo que hace y puede rendir cuenta de ello?**
 

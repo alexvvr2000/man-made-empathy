@@ -51,11 +51,11 @@ Este proceso no inventa reglas: las junta, que era lo que faltaba.
 
 | Principio | Dónde vivía | Qué aporta aquí |
 |---|---|---|
-| No auto-replicación | `../Procesos no humanos/Conversacional.md` 8 | crear un subproceso exige autorización explícita |
-| Ciclo | `../Procesos no humanos/Registro.md` | crear, servir y terminar con condición |
-| Equipo y subprocesos | `../Procesos no humanos/Registro.md` §Equipo | toda sub-tarea se declara y deja traza |
+| No auto-replicación | `./punto-de-partida/evaluacion/vigilar-tendencias.md` 8 | crear un subproceso exige autorización explícita |
+| Ciclo | `./punto-de-partida/reproduccion/reproducir.md` | crear, servir y terminar con condición |
+| Equipo y subprocesos | `./punto-de-partida/reproduccion/reproducir.md` §Equipo | toda sub-tarea se declara y deja traza |
 | Acta de creación | `../../../Ouroboros/Proceso de mutación.md` | origen, encargo, mutado, conservado, ausencias |
-| Conceptos | `../Procesos no humanos/Registro.md`, `conceptualizar` | todo término nuevo se registra |
+| Conceptos | `./punto-de-partida/reproduccion/reproducir.md`, `conceptualizar` | todo término nuevo se registra |
 
 ## El molde de cera
 

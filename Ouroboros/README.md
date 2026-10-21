@@ -55,5 +55,5 @@ Los seis procesos, cada uno con su forma y su función.
 
 Sobre estos seis se construyen otros procesos. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
 
-`Procesos no humanos/` es una abstracción: sus tres subprocesos salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
+`punto-de-partida/` es una abstracción: sus tres subprocesos salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
 

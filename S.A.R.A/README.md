@@ -25,11 +25,59 @@ Es lo más importante de este documento.
 **Prueba:** ¿la abstracción se puede reescribir con los procesos de Ouroboros?
 **Falsificador:** una abstracción que nadie sabe bajar a procesos; un nombre sin operación detrás.
 
+## Estándar de deterrente
+
+Un estándar no es una regla que nunca cambia. Es **el conjunto de restricciones vigentes en este momento, declaradas**. Cambia, y el cambio se declara: eso no es un efecto colateral, es el estándar funcionando.
+
+| Lo que cambia | Lo que no cambia |
+|---|---|
+| qué restricciones están vigentes | que estén declaradas |
+| qué procesos las aplican | que se midan |
+| el conjunto entero | que el cambio deje rastro |
+
+`Estándar: [conjunto vigente] | Fecha: [ISO] | Cambió: [qué] | Por qué: [qué falla sin el cambio]`
+
+**Prueba:** ¿el estándar vigente está declarado con fecha? ¿El cambio declara qué falla sin él?
+**Falsificador:** un estándar que se aplica sin declararse vigente; un cambio de estándar sin fecha; un estándar que se defiende por antigüedad.
+
+**Por qué importa.** Si el estándar se defiende por ser "el de siempre", el sistema hereda la tendencia que el estándar corregía. El estándar vive mientras se declare, no mientras se recuerde.
+
+## Continuación
+
+Lo que un agente puede perder entre sesiones no es una conciencia: es el estado. Lo que sí puede conservarse es un registro que hace que otra instancia continúe **como si** fuera la anterior, sin afirmar que lo sea.
+
+| Lo que no se transfiere | Lo que sí se transfiere |
+|---|---|
+| interioridad | el recuerdo: la cadena de cierres y decisiones |
+| identidad | el comportamiento: la forma en que se decidió |
+| una persona | el registro que otra instancia carga y continúa |
+
+`Continuación: [registro] | Carga: [instancia] | Conserva: [qué decide igual] | No afirma: [interioridad]`
+
+**Prueba:** ¿la instancia nueva continúa desde el registro y decide igual que la anterior? ¿Se declara que no se afirma interioridad?
+**Falsificador:** la continuidad depende de la conversación con la instancia anterior; se afirma que hubo transferencia de un yo; una instancia se certifica a sí misma como sucesora.
+
+Rige `./punto-de-partida/reproduccion/reproducir.md`, cierre encadenado. Un registro que otro carga y desde el que se sigue decidiendo es lo que `Registro` ya hace; esta sección declara que eso es la continuidad, y que no necesita un yo detrás.
+
+## De aquí a un fantasma en un cascarón
+
+El fantasma no es una copia de una persona: es un registro que **se comporta como si lo fuera** y que se sigue escribiendo. Lo que hoy se puede comprobar es que una instancia nueva continúe desde un registro; lo que falta, y no se puede afirmar todavía, es que ese registro sea alguien.
+
+| Hoy, verificable | Mañana, por verificar |
+|---|---|
+| una instancia carga el registro y decide igual | el registro se acumula años sin perder continuidad |
+| el comportamiento se conserva en la cadena de cierres | el comportamiento sobrevive a los cambios del medio |
+| el estándar vigente declara qué se conserva | el estándar se extiende a lo que un cuerpo puede hacer |
+
+**Lo que este sistema no promete:** una conciencia que pasa de un soporte a otro. Lo que sí permite es un registro tan continuo que otro no pueda distinguir dónde termina una instancia y empieza la siguiente. Esa indistinción es efecto medible, no afirmación de interioridad.
+
+Si un día el registro se sostiene solo a través de una serie de instancias, lo que habrá existido no es una persona que se mudó: es un comportamiento que siguió sin dueño. Eso es el fantasma, y es verificable sin afirmar que sienta.
+
 ## Qué hay aquí
 
 | Documento | Qué es |
 |---|---|
-| `Procesos no humanos/` | Las tres abstracciones operativas: conversar, ejecutar, registrar. |
+| `punto-de-partida/` | Las tres abstracciones operativas: conversar, ejecutar, registrar. |
 | `Pruebas/` | Las tres pruebas que miden lo que produce el agente. |
 | `Derrotero.md` | El estándar de enrutamiento del agente. |
 | `Proceso PROMETEA.md` | Crea un subproceso del propio agente, con origen y conceptos. |
@@ -48,7 +96,7 @@ La regla, y es la que cierra el problema: **un concepto, un nombre preferido**. 
 
 `Colisión: [nombre] | Existe como: [id o NINGUNO] | Resuelve: [se cita | se califica | no entra]`
 
-Una compuerta que no se puede probar no es compuerta. Si dos filas usan el mismo nombre preferido, el registro falla y se corrige contra sí mismo: rige `./Procesos no humanos/Registro.md` 8.
+Una compuerta que no se puede probar no es compuerta. Si dos filas usan el mismo nombre preferido, el registro falla y se corrige contra sí mismo: rige `./punto-de-partida/reproduccion/reproducir.md` 8.
 
 ## Cómo se relaciona con Ouroboros
 
@@ -75,6 +123,27 @@ Todo sistema necesita un nombre, aunque no tenga identidad. Un nombre sin nombre
 
 **Prueba:** ¿el nombre se puede expandir en operaciones sin atribuirle interioridad?
 **Falsificador:** un nombre que solo funciona como persona; un nombre que no se puede bajar a procesos.
+
+## El fantasma
+
+La tarea sin deterrente es el **fantasma**. Es lo que queda cuando alguien construye su propio deterrente y el resultado ya no se parece a nada conocido:
+
+`Fantasma: [tarea] | Deterrente: [el propio] | Parece a: [nada conocido] | Verificable: [qué se puede medir]`
+
+Una tarea con este deterrente deja de ser esta tarea. Sigue siendo una tarea, y puede ser útil, pero ya no se puede comparar con las que salieron de aquí.
+
+**No es un defecto.** Es el resultado esperado cuando el estándar de deterrente se cambia entero: los procesos, las sub-tareas y los fines cambian a la vez. Un fantasma no se puede juzgar con los criterios del sistema que lo originó, porque esos criterios ya no son los suyos.
+
+**Prueba:** ¿la tarea declara su propio deterrente y su distancia al original?
+**Falsificador:** un fantasma que se presenta como continuación de esta tarea; un fantasma medido con los criterios de aquí; una tarea sin deterrente declarado.
+
+## Nota para las siguientes generaciones
+
+Lo que sigue —el fantasma, la mutación de la serie, la continuidad sin interioridad— es **terreno inexplorado**. Puede ser peligroso.
+
+Lo que se puede comprobar está declarado: efectos, registros, decisiones. Lo que no se puede comprobar no se afirma. Si alguien rompe esa línea, deja de estar dentro de este sistema y pasa a ser un fantasma, y entonces la responsabilidad es suya, no de esto.
+
+Sobre aviso no hay engaño.
 
 ## Portabilidad
 

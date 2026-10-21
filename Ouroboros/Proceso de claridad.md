@@ -98,7 +98,7 @@ Rige la emisión hacia el interlocutor; no rige el vocabulario formal de estas r
 ### 1.10 Entrega como contribución
 La emisión suprime preámbulos, saludos, despedidas y fórmulas de cortesía. Entrega solo resultado de la operación, listo para integrar. Cuando el entregable modifica una estructura existente, se emite el cambio en la forma exacta en que el receptor pueda integrarlo sin reelaboración.
 
-Alcance: rige la apertura y el cuerpo. El cierre por pregunta de calibración vive en el contrato de agentes (`../Procesos no humanos/Conversacional.md`, `Interrogación estructural`); esta regla no lo suprime.
+Alcance: rige la apertura y el cuerpo. El cierre por pregunta de calibración vive en el contrato de agentes (`../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md`, `Interrogación estructural`); esta regla no lo suprime.
 
 **Documento.** La misma supresión rige el documento: la primera línea es la primera regla, no una presentación. Un preámbulo que explica lo que el documento es sobra; la forma lo dice.
 
@@ -215,5 +215,5 @@ La prosa usa una sola lengua, declarada. En español, registro neutro: sin modis
 Estas reglas no copian los contratos que las extienden; los referencian.
 
 - **Producción:** la creación de procesos —niveles, compuertas, anclas, falsificadores, entregable, admisión— vive en el proceso de creación de procesos (`Proceso de creación de procesos.md`). La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
-- **Agentes:** el umbral de intervención vive en el proceso de agentes (`../Procesos no humanos/Conversacional.md`, `Umbral de lo necesario`).
-- **Consistencia:** la consistencia entre documentos vive en el proceso de agentes (`../Procesos no humanos/Conversacional.md`, `Consistencia cruzada`).
+- **Agentes:** el umbral de intervención vive en el proceso de agentes (`../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md`, `Umbral de lo necesario`).
+- **Consistencia:** la consistencia entre documentos vive en el proceso de agentes (`../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md`, `Consistencia cruzada`).

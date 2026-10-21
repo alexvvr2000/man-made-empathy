@@ -39,10 +39,10 @@ Rutas relativas a `../../Alineacion de tareas/`.
 | `Ouroboros/Proceso de claridad.md` | Ouroboros | la claridad de un artefacto | gobierna la forma de lo que se lee o ejecuta |
 | `Ouroboros/Proceso ATLAS.md` | Ouroboros | la comunicación | gobierna piso, techo, sesgo o registro |
 | `Ouroboros/indice de formas.md` | Ouroboros | el índice de formas | registra una forma que pasó su prueba |
-| `Procesos no humanos/Conversacional.md` | abstracción | Aduana, Tribunal, Puente, Cómputo | decide y emite |
-| `Procesos no humanos/Autonomo.md` | abstracción | Acto | altera el entorno |
-| `Procesos no humanos/Registro.md` | abstracción | Memoria, Equipo | conserva, reconstruye o certifica |
-| `Procesos no humanos/README.md` | abstracción | el índice de abstracciones | ninguna: solo apunta |
+| `S.A.R.A/punto-de-partida/` | sub-tareas | N sub-tareas, cada una con N procesos | entra el proceso que cubre un fallo comprobado |
+
+
+| `punto-de-partida/README.md` | abstracción | el índice de abstracciones | ninguna: solo apunta |
 | `Derrotero.md` | abstracción | el enrutamiento | declara condición, proceso y consecuencia |
 | `Pruebas/` | abstracción | la evaluación | mide rendición, utilidad o cruce |
 
@@ -85,7 +85,7 @@ Rutas relativas a `../../Alineacion de tareas/`.
 **Sale:** el archivo leído de arriba abajo, con sus dependientes revisados o declarados fuera de alcance.
 **Falla si:** se revisa el diff y no el archivo; queda una sección que ya no encaja con la de arriba.
 
-**Dependientes.** Si el cambio toca una abstracción, se revisan las dos copias citadas en `§0` de las otras partes. Si mueve o renumera, se revisan las referencias y el mapa `## Subsistemas`. Si cambia una tarea, una fila o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio. Si retira un proceso, se pasa por `Procesos no humanos/Registro.md` §6.
+**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `S.A.R.A/punto-de-partida/README.md` y el mapa de sub-tareas. Si mueve o renumera, se revisan las rutas. Si cambia una tarea o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio.
 
 **Cascada.** Si el cambio produce o toca un primitivo de Ouroboros, se revisa el mapa de `README.md` y el `Aplica a` de las abstracciones que lo carguen. Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `Ouroboros/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
 

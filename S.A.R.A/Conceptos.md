@@ -60,8 +60,8 @@ Tres problemas, y tienen nombre en bibliotecología:
 | proceso | Ouroboros | — | sí | — | — | — | abstracción | Ouroboros | vigente |
 | abstracción | Ouroboros | proceso | sí | nombre puesto | — | — | primitivo de convención | `README` de Ouroboros | vigente |
 | primitivo de convención | S.A.R.A | abstracción | sí | — | — | abstracción | agente | `README` de S.A.R.A | vigente |
-| subproceso | S.A.R.A | abstracción | sí | subproceso autónomo, conversacional, de registro | — | proceso | sub-tarea | `Procesos no humanos/` | vigente |
-| sub-tarea | `Procesos no humanos/` | subproceso | sí | — | — | subproceso | — | `Procesos no humanos/` | vigente |
+| subproceso | S.A.R.A | abstracción | sí | subproceso autónomo, conversacional, de registro | — | proceso | sub-tarea | `punto-de-partida/` | vigente |
+| sub-tarea | `punto-de-partida/` | subproceso | sí | — | — | subproceso | — | `punto-de-partida/` | vigente |
 | agente | S.A.R.A | abstracción | sí | ejecutor | — | primitivo de convención | subproceso | `README` de S.A.R.A | vigente |
 | piso | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/Proceso ATLAS.md` | vigente |
 | techo | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/Proceso ATLAS.md` | vigente |

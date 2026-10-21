@@ -40,7 +40,7 @@ Cada campo declara una relación; ninguno contiene el proceso. Sin los campos, l
 
 ## 4. Sistema
 
-Antes de resolver, el Derrotero exige la lectura de sistema: `Sistema: [propósito | frontera | retorno | consecuencia]`. Sin ella, la petición es información; no se ejecuta. La forma completa y sus dueños viven en `Procesos no humanos/Conversacional.md` 9; el Derrotero la exige, no la define.
+Antes de resolver, el Derrotero exige la lectura de sistema: `Sistema: [propósito | frontera | retorno | consecuencia]`. Sin ella, la petición es información; no se ejecuta. La forma completa y sus dueños viven en `punto-de-partida/evaluacion/vigilar-tendencias.md`; el Derrotero la exige, no la define.
 
 **Prueba:** ¿la resolución declara el sistema? **Falsificador:** una tarea resuelta sin sistema.
 

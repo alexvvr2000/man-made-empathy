@@ -53,7 +53,7 @@ Un proceso deducido puede no dar el mismo resultado al 100%. Sigue siendo útil 
 
 Este proceso no afirma un estado interno. Deduce un proceso que produce un efecto; no deduce que el original lo sienta. Lo que se puede mostrar es la conducta y el resultado.
 
-Un proceso deducido que produce un efecto que el otro lado no puede reconstruir es manipulación, y no entra. Rige `../Procesos no humanos/Conversacional.md` 7 y `../Pruebas/prueba de rendicion.md`, condición 6.
+Un proceso deducido que produce un efecto que el otro lado no puede reconstruir es manipulación, y no entra. Rige `../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md` 7 y `../Pruebas/prueba de rendicion.md`, condición 6.
 
 ## Admisión
 

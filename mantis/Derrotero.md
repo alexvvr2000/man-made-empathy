@@ -6,7 +6,7 @@
 **Alcance:** los archivos de `../Alineacion de tareas/` y de este derrotero.
 **Base:** `../Alineacion de tareas/`. Se cita, no se copia.
 **Forma:** `../Alineacion de tareas/Derrotero.md`.
-**Abstracciones:** `../Alineacion de tareas/Procesos no humanos/`. Se carga solo cuando el cambio toca una abstracción.
+**Abstracciones:** `../Alineacion de tareas/punto-de-partida/`. Se carga solo cuando el cambio toca una abstracción.
 **Claridad:** `../Alineacion de tareas/Ouroboros/Proceso de claridad.md`.
 **Creación de procesos:** `../Alineacion de tareas/Ouroboros/Proceso de creación de procesos.md`. Se carga cuando el cambio produce o reemplaza un proceso.
 **Ley:** `./mantenimiento/editar.md`.
