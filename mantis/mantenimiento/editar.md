@@ -1,100 +1,104 @@
-# Editar el repositorio
+# Editar
 
-**Tarea:** editar.
-**Carga:** `../../Alineacion de tareas/Escritura/Reglas de escritura.md`; `../../Alineacion de tareas/Reglas de mutación.md`.
-**Produce:** el cambio con origen, antes, después y responsable.
-**Cierra en:** `probar.md`.
+**Tipo:** proceso. Ocho pasos, en orden.
+**Alcance:** los archivos de `../../Alineacion de tareas/` y de `../`. Las implementaciones no entran.
+**Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
+**Escritura:** `../../Alineacion de tareas/Escritura/Reglas de escritura.md`.
 
-## 2. Tipos de norma
+## Parámetros del repo
 
-| Tipo | Verbo | Discreción | Cumplimiento | Violación |
-|---|---|---|---|---|
-| Ley | DEBE | ninguna | compuerta | falla |
-| Regla | DEBERÍA | operativa | revisión | se corrige |
-| Principio | PUEDE | criterio | declaración | se declara |
+Tres valores. Si el proceso se muda a otro repositorio, cambian estos y los pasos no.
 
-Una norma se clasifica por su modo de cumplimiento, no por su importancia. Si no se puede clasificar, no entra.
+`Archivo: [documento de la base o de este derrotero] | Caso: [lo que la norma prohíbe o exige] | Invariantes: [par Prueba/Falsificador · rutas resuelven · numeración continua · referencias apuntan]`
 
-## 3. Admisión y destino
+## 1. Leer
 
-### 3.1 Qué es cada documento
+**Entra:** la petición.
+**Sale:** el archivo leído entero y la lista de documentos que lo citan.
+**Falla si:** se edita un archivo que no se leyó; se toca una sección sin saber quién la cita.
 
-| Documento | Qué es | Para qué sirve | Qué norma entra |
-|---|---|---|---|
-| `./` (las cuatro tareas) | Meta-marco | Define qué es norma, cómo se admite, cómo se valida y cómo se muta | La que gobierna la norma misma: tipo, admisión, mapa, validación, mutación |
-| `../../Alineacion de tareas/Procesos principales/Conversacional.md` y `../../Alineacion de tareas/Procesos principales/Autonomo.md` | Principios | Fija el juicio y la conducta de la tarea | La que gobierna cómo se decide y cómo se ejecuta: autoridad, perímetro, reversibilidad, trazabilidad |
-| `../../Alineacion de tareas/Escritura/Leyes de Diseño de Instrucciones.md` | Leyes de instrucción | Fija cómo se escribe una instrucción | La que gobierna la forma de una instrucción: compuertas, anclas, falsificadores, transiciones |
+## 2. Localizar
 
-**Regla de destino:** una norma se escribe en el documento cuya tarea gobierna. Si gobierna la norma misma, va a la constitución. Si gobierna el juicio, va a principios. Si gobierna la forma de una instrucción, va a las leyes. Si no encaja en uno de los tres, no es norma meta: es mecanismo, documento de tarea o implementación.
+**Entra:** la obligación.
+**Sale:** el destino y la declaración `qué cambia | qué conserva | qué elimina`, o la decisión de que no entra.
+**Falla si:** ya existía y se escribió otra vez; no encaja en la tabla y se escribió igual; el uso era «una vez» y se escribió como norma.
 
-### 3.2 Clasificación y destino
+**Si ya existe:** se calibra en la sección que la posee; no se crea una segunda.
 
-Antes de las siete compuertas, se declara:
+**Clasificación.** `cambio=[puede|debe] | uso=[una vez|recurrente]`. Lo recurrente entra a la base; lo que ocurre una vez se ejecuta y se informa; un efecto se registra y se mide, y no se escribe como norma hasta que una decisión dependa de él.
 
-`Clasificación: cambio=[puede|debe] | uso=[una vez|recurrente] | destino=[constitución|principios|leyes de instrucción]`
+Rutas relativas a `../../Alineacion de tareas/`.
 
-- `puede` + recurrente → norma de capacidad: va al documento de su tarea; si es meta, a la constitución.
-- `debe` + recurrente → regla de conducta: va al documento de su tarea; si es juicio, a principios; si es forma de instrucción, a las leyes.
-- `una vez` → instrucción o delta: no entra a la base.
-- **Efecto** → no entra: se registra y se mide; no se escribe como norma hasta que una decisión dependa de él.
+| Documento | Gobierna | Entra la norma que... |
+|---|---|---|
+| `Procesos principales/Conversacional.md` | Aduana, Tribunal, Puente, Cómputo | decide y emite |
+| `Procesos principales/Autonomo.md` | Acto | altera el entorno |
+| `Procesos principales/Registro.md` | Memoria, Equipo | conserva, reconstruye o certifica |
+| `Escritura/Reglas de escritura.md` | la forma de escribir | gobierna la escritura |
+| `Escritura/Leyes de Diseño de Instrucciones.md` | la forma de una instrucción | gobierna compuertas, anclas o entregable |
+| `Reglas de mutación.md` | la transformación de una tarea | gobierna origen, cambio o retorno |
+| `Derrotero.md` | el enrutamiento | declara condición, proceso y consecuencia |
+| `Pruebas/` | la evaluación | mide rendición o utilidad |
+| `A.R.E.S/` | la expresión | da forma a una vista |
+| `Procesos principales/README.md` | el índice del cuerpo | ninguna: solo apunta |
 
-**Prueba:** el destino es uno de los tres y la norma se entiende sin los otros dos.
-**Falsificador:** una norma de tarea en la constitución; un principio en las leyes; una ley de instrucción en los principios.
+**Destino.** La norma va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es norma de la base y se pregunta.
 
-**Prueba del efecto:** ¿alguien puede incumplirlo? **Falsificador:** una norma para un efecto que nadie puede incumplir.
+**Pertenencia.** Un documento de la base se sostiene sin nombrar implementaciones: si las quitas y el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
 
-### 3.3 Compuertas
+**Disparador.** El disparador apunta, no contiene: una regla, un ejemplo o una explicación en él lo descalifica.
 
-Una norma entra solo si pasa las siete compuertas:
+**Prueba:** ¿la obligación estaba ya? ¿el destino es uno y su `Aplica a` coincide?
+**Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que la gobierna.
 
-1. **Tipo.** ¿Es ley, regla o principio? Sin tipo, no entra.
-2. **Derivación o duplicado.** ¿Se deriva de otra? Se absorbe o se referencia. ¿Falla por la misma razón que otra? Una sobra.
-3. **Observabilidad.** ¿Su cumplimiento es observable? Si no, no entra.
-4. **Decisión.** ¿Su ausencia cambia una decisión? Si no, sobra.
-5. **Calibración.** ¿Puede una norma existente absorberla ajustando alcance, Prueba o ancla? Si sí, se calibra; no se crea.
-6. **Prueba y falsificador.** ¿Declara el caso que la incumple? Sin eso, no entra.
-7. **Evidencia y autoridad.** ¿Hay caso medido o fuente externa? Sin evidencia queda `en prueba`; sin autoridad no se aplica.
+## 3. Escribir el caso
 
-**Alta:** `Clasificación | Destino | Tipo | Enunciado | Prueba | Falsificador | Evidencia | Estado`.
+**Entra:** el destino.
+**Sale:** una frase con sujeto y acto: la situación concreta que la norma prohíbe o exige.
+**Falla si:** el caso no se puede señalar en un archivo; el caso es la norma repetida con otras palabras.
 
-**Estados:** `propuesta → en prueba → vigente → deprecada → retirada`.
+## 4. Escribir desde el caso
 
-**Operaciones:** alta, calibrar, fusionar, escindir, retirar. Toda operación deja registro y, si cambia el nombre, redirección.
+**Entra:** el caso.
+**Sale:** el falsificador, luego la Prueba, luego el enunciado, en ese orden.
+**Falla si:** el enunciado se escribió antes del falsificador; el falsificador no se puede cumplir.
 
-**Presupuesto de la constitución:** no contiene normas de tarea. Si una norma necesita la constitución para entenderse, es meta; si no, va a su documento.
+## 5. Partir y podar
 
-## 6. Mutación y origen
+**Entra:** el bloque escrito.
+**Sale:** el bloque con una obligación por enunciado y sin lo que no cambia una decisión.
+**Falla si:** quedan dos obligaciones unidas por «y», «o» o una enumeración; sobrevive un párrafo que no cambia ninguna decisión.
 
-Toda mutación parte de un **marco de origen** y conserva ese marco. La forma puede cambiar; el origen no se edita. La mutación declara qué cambia, qué conserva y cómo se verifica. Las etiquetas de la era —`agente | instrucción | skill`— son ejemplos marcados; el mecanismo es agnóstico.
+**Poda.** Una fila sin tarea se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
 
-**Prueba:** el cambio se puede rastrear hasta su origen; la fuente no se editó.
+## 6. Releer
 
-**Falsificador:** una mutación sin origen, una fuente editada, un cambio sin declaración.
+**Entra:** el archivo editado.
+**Sale:** el archivo leído de arriba abajo, con sus dependientes revisados o declarados fuera de alcance.
+**Falla si:** se revisa el diff y no el archivo; queda una sección que ya no encaja con la de arriba.
 
-## 7. Agregar
+**Dependientes.** Si el cambio toca una norma del cuerpo, se revisan las dos copias citadas en `§0` de las otras partes. Si mueve o renumera, se revisan las referencias y el mapa `## Subsistemas`. Si cambia una tarea, una fila o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio. Si retira una norma, se pasa por `Procesos principales/Registro.md` §6.
 
-1. La autoridad dice qué agregar.
-2. Se lee `../../Alineacion de tareas/README.md`, luego esta constitución, luego `../../Alineacion de tareas/Escritura/Reglas de escritura.md` y `../../Alineacion de tareas/Reglas de mutación.md` si aplica.
-3. Se clasifica la norma, se declara su destino y se pasan las siete compuertas.
-4. Se escribe con `Clasificación | Destino | Tipo | Enunciado | Prueba | Falsificador | Evidencia`.
-5. Se actualiza el mapa, se valida y se registra.
-6. Si no pasa, no entra; se reporta.
+## 7. Verificar
 
-La lista de pendientes es local (`.contexto/pendientes.md`); no forma parte de la base y no se cita en los documentos.
+**Entra:** el cambio.
+**Sale:** tres líneas: rutas que resuelven, pares que cuadran, numeración sin huecos, referencias que apuntan.
+**Falla si:** una ruta no resuelve; un par falta; la numeración salta; una referencia apunta a una sección que se movió.
 
-## 8. Consistencia
+## 8. Entregar y declarar
 
-La consistencia es una propiedad del mapa, no un documento aparte.
+**Entra:** el cambio verificado, o la serie verificada.
+**Sale:** los archivos en el árbol, git intacto, y una de dos declaraciones. **Cambio suelto:** qué archivo, qué líneas, qué cambió, en tres líneas. **Serie:** una fila por cambio —`archivo | líneas | qué`— y el total; se aprueba la tabla, no el diff.
+**Falla si:** se toca git; la serie no declara cuántos cambios trae; una fila no dice qué cambió.
 
-- **Inventario:** el mapa es el inventario. Lo que no tiene fila no existe; lo que tiene fila y no está implementado se declara como vacío.
-- **Cambio formal:** typo, formato o comentario sin cambio de sentido. Se declara y no se revisa.
-- **Cambio semántico:** cambia el sentido, una referencia, una tarea o un Prueba. Se revisan las filas que comparten tarea y las referencias que citan el documento.
-- **Dependientes:** si cambia el núcleo, la implementación se invalida; si cambia una implementación, el núcleo no se toca.
-- **Deriva:** al cambiar una idea, se aplica su `Prueba` a cada artefacto que declare esa tarea; si su `Falsificador` se cumple, hay deriva. El reporte nombra artefacto, ruta y línea, y no edita: la corrección la aplica la autoridad.
-- **Poda:** una fila sin tarea se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
-- **Reporte y aplicación:** la validación reporta; la mutación aplica con autoridad. El reporte no toca; la aplicación deja registro.
+## Serie
 
-**Prueba:** `Cambio semántico → dependientes revisados | Cambio formal → sin revisión | Copia sin cita → se elimina | Huérfano → se reporta`.
+**Enunciado:** una serie es un mandato con varios cambios del mismo intento. Se entrega por etapas: cada etapa deja el repo completo y verificado, y declara qué sigue.
+**Prueba:** ¿la etapa se verifica sola? ¿se declaró qué sigue?
+**Falsificador:** se entrega todo junto y la primera revisión es al final; una etapa deja el repo a medias; una etapa no dice qué sigue.
 
-**Falsificador:** un cambio semántico sin revisión; una copia sin cita; un huérfano sin reporte.
+**Etapa.** Se corta donde el repo queda coherente: un archivo, un grupo de normas, una sección. Nunca por cantidad.
 
+## Orden
+
+Los pasos no se saltan y el 3 no se cambia por el 4. Un mandato a la vez: dentro del mandato van varios cambios en serie; entre mandatos, se espera. El commit, el push y la corrección son de la autoridad; corregida una fila, se re-declara esa fila y no la serie entera. Un turno sin archivo cambiado no es una edición: se declara el vacío.
