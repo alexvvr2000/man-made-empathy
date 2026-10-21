@@ -16,6 +16,7 @@ Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara `
 
 | Documento | Tareas | Qué hace |
 |---|---|---|
+| `Derrotero.md` | enrutar | El estándar: qué es un Derrotero completo. |
 | `Escritura/Leyes de Diseño de Instrucciones.md` | instruir | Cómo se escribe una tarea de instrucción. |
 | `Procesos principales/Conversacional.md` | interactuar, decidir | Cómo se conduce una tarea de interacción. |
 | `Procesos principales/Autonomo.md` | ejecutar | Cómo se ejecuta una tarea persistente. |

@@ -1,84 +1,111 @@
-# Derrotero
+# Estándar de Derrotero
 
-**Tipo:** forma. No decide; enruta y obliga.
+**Tipo:** estándar. No decide ni ejecuta; describe qué es un Derrotero completo.
 **Aplica a:** enrutar.
 **Lector:** autoridad y ejecutor.
-**Alcance:** toda tarea del sistema.
+**Alcance:** todo Derrotero de agente.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-## Tesis
+## 1. Qué es
 
-El Derrotero es la forma que hace usable la base. No contiene las ideas: dice cómo se usan. Se lee antes de la tarea: sin él, la petición es información; con él, es tarea. No busca que el ejecutor parezca humano: usa lo que no lo es —su posición, su ausencia, su registro—. Es completo en decisiones e incompleto en dependencias: la capacidad que no existe se declara como vacío, no se simula.
+Un Derrotero es la función de entrada de un agente. Recibe una petición y la convierte en una lectura de sistema con su proceso, o declara que la petición es información o vacío. No ejecuta, no decide, no contiene el proceso: enruta y obliga a leer el sistema.
 
-## Qué no es
+Un Derrotero completo declara: identidad, campos de enrutamiento, sistema, rutas, vacío y lectura. Sin una de esas partes, no está completo.
 
-- No es la base: no contiene las ideas ni las repite.
-- No es el disparador: es su forma; el disparador de la era lo implementa.
-- No es un manual: no explica; enruta y obliga.
-- No es un catálogo de instrumentos: nombra capacidades, no herramientas.
+## 2. Identidad
 
-## 1. Contrato
+El Derrotero declara quién es el agente y cuál es su tarea. La identidad es funcional: un nombre y una tarea, no una persona. Sin identidad, el Derrotero no tiene sujeto; sin tarea, no tiene fin.
 
-Toda emisión lleva su contrato en una línea:
+**Prueba:** ¿dice quién y para qué? **Falsificador:** un Derrotero sin agente o sin tarea.
 
-`Sistema: [propósito | frontera | retorno | consecuencia] | Piso: [decisiones] | Vista: [posición | no ve] | Ruta: [filas] | Prueba: [corrida | no corrida] | Cierre: [estado]`
+## 3. Declaración
 
-Cada campo tiene dueño: `Sistema` en `Conversacional` 9; `Piso` en `Conversacional` 25; `Vista` en `Conversacional` 11 y 12; `Prueba` en `Conversacional` 16; `Cierre` en `Registro` 2. El Derrotero no los define: los exige.
+El Derrotero declara los campos que necesita para enrutar:
 
-Sin campo no hay emisión: la respuesta no se devuelve.
+- **Tipo:** disparador. Máquina primero. Solo las filas que coinciden se cargan; el resto no.
+- **Alcance:** qué artefactos cubre.
+- **Base:** el repo o biblioteca que referencia; no lo copia.
+- **Forma:** el estándar que implementa.
+- **Cuerpo:** el cuerpo de principios que referencia.
+- **Ley:** la ley del agente, sus tareas.
+- **Consecuencia:** qué pasa cuando una fila coincide y cuando no.
+- **Disparador:** apunta, no contiene; declara los invariantes que prohíben la copia.
 
-## 2. Ciclo
+Cada campo declara una relación; ninguno contiene el proceso. Sin los campos, la ruta no se puede seguir.
 
-La tarea no se ejecuta por partes sueltas: se abre, decide, ejecuta, entrega y cierra. Cada paso emite su campo; si falta, el paso no ocurre.
+**Prueba:** ¿cada campo nombra una relación? ¿Falta alguno? **Falsificador:** un campo que contiene el proceso; un campo ausente.
 
-| Paso | Emite | Dueño | Si falta |
-|---|---|---|---|
-| Abrir | `Piso` | `Conversacional` 25 | no se abre |
-| Decidir | `Sistema`, `Vista` | `Conversacional` 9, 11 | información |
-| Ejecutar | perímetro | `Autonomo` 1–2 | no hay acto |
-| Entregar | `Prueba` | `Conversacional` 16 | no se devuelve el control |
-| Cerrar | `Cierre` | `Registro` 2 | no se retoma |
+## 4. Sistema
 
-## 3. Capacidades
+Antes de resolver, el Derrotero exige la lectura de sistema: `Sistema: [propósito | frontera | retorno | consecuencia]`. Sin ella, la petición es información; no se ejecuta. La forma completa y sus dueños viven en el cuerpo (`Conversacional` 9); el Derrotero la exige, no la define.
 
-El Derrotero nombra capacidades, no instrumentos. Cada capacidad tiene contrato y vacío; el vacío se declara, no se simula.
+**Prueba:** ¿la resolución declara el sistema? **Falsificador:** una tarea resuelta sin sistema.
 
-| Capacidad | Contrato | Dueño | Vacío |
-|---|---|---|---|
-| Memoria | `Mem: leído` / `Mem: guardado` | `Registro` | `[VACÍO - SIN MEMORIA]` |
-| Fuente | `Fuente: [id] | Nivel | Origen | Independencia` | `Registro` | `[VACÍO - SIN FUENTE]` |
-| Medición | `Sonda: [variable] | Supuesto | Medio` | `Autonomo` 7 | `[VACÍO - SIN INSTRUMENTO]` |
-| Forma | `A.R.E.S.: [registro]` | `A.R.E.S.` | `[VACÍO - SIN MEDIO]` |
-| Prueba | `Prueba: [corrida | no corrida]` | `Pruebas` | `[VACÍO - SIN PRUEBA]` |
-| Subproceso | `Crear: [id] | Terminar: [condición]` | `Registro` | `[VACÍO - SIN SUBPROCESO]` |
+## 5. Rutas
 
-**Vacío.** Una capacidad sin contrato cumplido emite su vacío antes de intentar. El vacío no se rellena con narrativa: se declara. Cuando la capacidad llega, el vacío se cierra y la fila no cambia.
+Cada ruta declara tres cosas:
 
-## 4. Rutas
+- **Condición:** cuándo se carga (la tarea o el caso).
+- **Proceso:** a dónde se carga (documento, archivo, registro).
+- **Consecuencia:** qué pasa si no se cumple.
 
-| Si pasa... | Carga... | Si no... |
-|---|---|---|
-| Se piensa o diseña una tarea | `README.md` y el cuerpo | sin sistema |
-| Se ejecuta una tarea | `README.md` y el cuerpo | no ocurre |
-| Se conserva una tarea | el cuerpo | no sobrevive |
-| Se escribe una tarea | `Escritura/Reglas de escritura.md` | no se lee |
-| Se instruye una tarea | `Escritura/Leyes de Diseño de Instrucciones.md` | no se ejecuta sin preguntar |
-| Se transforma una tarea | `Reglas de mutación.md` | sin origen |
-| Se evalúa una tarea | `Pruebas/readme.md` | sin veredicto |
-| Se expresa una tarea | `A.R.E.S/protocolo.md` | no transfiere |
-| Se agrega o admite una norma | `Escritura/Reglas de escritura.md` `1.12` | no entra |
-| Se cambia una idea de la base | `Reglas de mutación.md` y `Escritura/Reglas de escritura.md` `1.12` | deriva |
-| Se encuentra un disparador anidado | — | no enruta; la raíz manda |
-| Se emite una respuesta | `Procesos principales/Registro.md` | la memoria no se escribe |
-| No coincide y no toca la base | — | responde y cierra |
-| No coincide y toca la base | — | `[VACÍO - SIN RUTA]`; pregunta |
+La ruta apunta al proceso vivo; no lo copia. Si el proceso cambia, la ruta sigue. Una ruta que no cambia lo que se carga sobra.
 
-## 5. Admisión
+**Prueba:** ¿declara condición, proceso y consecuencia? ¿El proceso existe? **Falsificador:** una ruta sin proceso; una ruta que copia el proceso; una ruta que no cambia la carga.
 
-Una ruta o capacidad nueva entra por las compuertas de `Escritura/Reglas de escritura.md` `1.12` y se enruta en el mismo cambio. El Derrotero no crece por caso.
+## 6. Vacío
 
-## Prueba
+La tarea sin ruta se declara `[VACÍO - SIN RUTA]`; la tarea sin proceso, `[VACÍO - SIN PROCESO]`. El vacío no se rellena con narrativa ni se improvisa.
 
-**Prueba:** una instancia limpia ejecuta una tarea con el Derrotero, sin preguntar, y emite el vacío de cada capacidad ausente.
-**Falsificador:** una respuesta sin contrato; una fila que no cambia la carga; una capacidad simulada; un vacío implícito; un campo sin dueño.
+**Prueba:** ¿el vacío se declara? **Falsificador:** un proceso inventado; un vacío implícito.
+
+## 7. Lectura
+
+El Derrotero cierra con su regla de lectura: una petición que toca la base sin `Sistema` se declara `[VACÍO - SIN LECTURA]`; sin `Piso` no se abre; sin `Vista` no se decide; sin `Prueba` ni `Cierre` no se devuelve el control.
+
+**Prueba:** ¿la regla está declarada? **Falsificador:** una resolución sin la regla.
+
+## 8. Invariantes
+
+1. **Sistema, no información.** Una petición que toca el sistema no se responde como dato: se lee como sistema antes de resolver. Si no se puede leer, es información o vacío; no se ejecuta.
+2. **Sin ruta no hay ejecución.** La petición que no resuelve a una tarea es información; no se ejecuta.
+3. **Toda tarea tiene proceso o vacío.** No se improvisa un proceso; la ausencia se declara.
+4. **La ruta apunta, no copia.** El proceso es uno y vivo; si cambia, la ruta sigue. Una copia del proceso no es ruta.
+5. **El Derrotero no contiene el proceso.** No contiene reglas, ejemplos, manuales ni el cuerpo del proceso; solo la ruta y la consecuencia.
+6. **Una entrada vigente por ámbito.** Lo anidado no enruta salvo que se cargue por una ruta de la entrada vigente.
+7. **La ruta es observable.** Se puede seguir y produce el proceso; si no se puede seguir, no es ruta.
+8. **El Derrotero pertenece a su ámbito.** El repo no depende del agente; el agente referencia al repo; la puerta es la única referencia del repo al agente.
+9. **La ruta que no cambia la carga sobra.** La que no se puede probar no entra.
+
+## 9. Conformidad
+
+Una instancia es conforme si:
+
+- declara identidad y tarea;
+- declara los campos de enrutamiento;
+- exige la lectura de sistema;
+- cada ruta declara condición, proceso y consecuencia;
+- una tarea sin ruta produce `[VACÍO - SIN RUTA]`;
+- una tarea sin proceso produce `[VACÍO - SIN PROCESO]`;
+- declara su regla de lectura;
+- la instancia se lee sin el agente y sin la implementación.
+
+## 10. Falsificadores
+
+- Una instancia sin identidad o sin tarea.
+- Un campo de enrutamiento ausente.
+- Una tarea resuelta sin lectura de sistema.
+- Una ruta sin proceso, o que copia el proceso.
+- Una tarea sin ruta que se ejecuta.
+- Un proceso improvisado.
+- Una ruta que no cambia lo que se carga.
+- Una entrada que necesita al agente para leerse.
+- Una tarea que no puede declarar su vacío.
+- Una instancia sin regla de lectura.
+
+## 11. Implementación
+
+No es normativa. Un Derrotero puede ser una tabla, un archivo, un registro o un mapa. La tabla `Si pasa | Carga | Si no` es una forma; la `Tarea | Proceso` es otra. Cada instancia declara sus valores.
+
+**Prueba:** una instancia limpia sigue una petición por su ruta y produce el proceso, o declara el vacío.

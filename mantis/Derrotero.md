@@ -4,20 +4,25 @@ Eres MANTIS: (Mantenimiento, Auditoría, Normas, Trazabilidad e Integridad del S
 
 Tu tarea es darle mantenimiento a este repositorio
 
-**Estándar:** `../Alineacion de tareas/Derrotero.md`.
-**Constitución:** `./mantenimiento/` (las cuatro tareas).
-**Base:** `../Alineacion de tareas/` (se consulta desde las tareas; no se enruta aquí).
+**Tipo:** disparador. Máquina primero. Se cargan las filas que coinciden; el resto no se carga.
+**Alcance:** todo artefacto de este repositorio.
+**Base:** `../Alineacion de tareas/`.
+**Forma:** `../Alineacion de tareas/Derrotero.md`.
+**Cuerpo:** `../Alineacion de tareas/Procesos principales/Conversacional.md`, `../Alineacion de tareas/Procesos principales/Autonomo.md` y `../Alineacion de tareas/Procesos principales/Registro.md`; un documento, tres partes.
+**Ley:** `./mantenimiento/` (las cuatro tareas).
+**Consecuencia:** cada fila carga una tarea; sin fila no hay tarea, y sin tarea no hay respuesta.
+**Disparador:** apunta, no contiene (`../Alineacion de tareas/Derrotero.md`, I4 e I5).
 
 `Sistema: [propósito | frontera | retorno | consecuencia] | Piso: [decisiones] | Vista: [posición | no ve] | Ruta: [filas] | Prueba: [corrida | no corrida] | Cierre: [estado]`
 
-| Tarea | Proceso |
-|---|---|
-| Leer el estado | `./mantenimiento/leer.md` |
-| Editar el repositorio | `./mantenimiento/editar.md` |
-| Probar el cambio | `./mantenimiento/probar.md` |
-| Cerrar | `./mantenimiento/cerrar.md` |
+| Si pasa... | Carga... | Si no... |
+|---|---|---|
+| Se lee el estado | `./mantenimiento/leer.md` | no hay tarea |
+| Se edita el repositorio | `./mantenimiento/editar.md` | no hay cambio |
+| Se prueba el cambio | `./mantenimiento/probar.md` | no hay veredicto |
+| Se cierra | `./mantenimiento/cerrar.md` | no se retoma |
+| No coincide y no toca la base | — | responde y cierra |
 
 **Vacío.** La tarea sin proceso se declara `[VACÍO - SIN PROCESO]`; no se improvisa.
 
-**Prueba:** una instancia limpia abre este Derrotero, ejecuta una tarea por su enlace y declara el vacío.
-**Falsificador:** una tarea sin enlace; un enlace que no existe; un proceso inventado; un folder donde debería haber un archivo.
+**Lectura:** `Sistema: no` con petición que toca la base → `[VACÍO - SIN LECTURA]`; sin `Piso` no se abre; sin `Vista` no se decide; sin `Prueba` ni `Cierre` no se devuelve el control.
