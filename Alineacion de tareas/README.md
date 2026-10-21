@@ -26,7 +26,7 @@ Una tarea recibe, calcula, emite y responde. Una tarea puede pensar si declara `
 | `A.R.E.S/` | expresar | Cómo se da forma a una tarea de expresión. |
 | `Procesos principales/Registro.md` | registrar | Cómo se conserva la tarea: memoria, fuentes y Testimonio. |
 
-La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres. Cada parte se lee sola: la que no posee el núcleo carga en su `§0` la copia citada —original, motivo y sincronización— de lo que necesita, y esa copia no crea criterio. Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
+La tarea de cada documento es su entrada. `Conversacional`, `Autonomo` y `Registro` son un solo cuerpo: se puede conversar sin ejecutar; no se puede ejecutar sin conversar; la norma de una parte rige en las tres. Cada parte se lee sola: la que no posee el núcleo carga en su `§0` la copia citada —original, motivo y sincronización— de lo que necesita, y esa copia no crea criterio. El cuerpo se lee además como siete subsistemas —Aduana, Tribunal, Puente, Cómputo, Acto, Memoria y Equipo—, con el mismo mapa en las tres partes. Fuera del cuerpo, una norma se activa si su `Aplica a` coincide con una de estas tareas.
 
 ## Orden de lectura
 

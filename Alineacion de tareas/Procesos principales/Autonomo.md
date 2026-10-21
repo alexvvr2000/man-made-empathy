@@ -47,6 +47,26 @@ Copia citada del núcleo que esta parte necesita para leerse sin las otras dos. 
 | P16 Veredicto antes del control | La prueba se declara corrida o no corrida antes de devolver el control. | Se entrega y se prueba después. |
 | P24 Nivel por defecto | Toda afirmación empieza en N5 y sube solo con recibo. | Se afirma en N1 sin recibo. |
 | P25 Piso de cómputo | Se declara el cómputo que la decisión justifica y se mide al cerrar. | Se cierra bajo el piso sin declararlo. |
+| P30 Riesgo acumulado | El riesgo se acumula por serie y recalibra el perímetro al cruzar el techo. | La serie cruza el techo sin recalibrar. |
+
+## Subsistemas
+
+El cuerpo tiene siete subsistemas. Esta parte posee uno y cita los otros seis por su dueño: el mismo mapa en las tres partes, con distinta marca de propiedad.
+
+| Subsistema | Qué hace | Normas | Dueño |
+|---|---|---|---|
+| Aduana | qué entra | `Conversacional` 3, 4, 9, 13, 19, 24, 27 | `Conversacional` |
+| Tribunal | qué se puede | `Conversacional` 5, 15, 17, 22, 28 | `Conversacional` |
+| Puente | qué cruza | `Conversacional` 7, 8, 11, 12, 14, 16, 20, 21, 23, 26, 29 | `Conversacional` |
+| Cómputo | hasta dónde | `Conversacional` 6, 18, 25, 30 · `Registro` §2 | `Conversacional` |
+| Acto | qué se altera | §1–§7 · `Conversacional` 2 | esta parte |
+| Memoria | qué queda | `Registro` §1–§6 · Campos · Búsqueda · Operación | `Registro` |
+| Equipo | quién lo hace | `Registro` §7 · Equipo · Ciclo · `Conversacional` 10 | `Registro` |
+
+**Cierre.** Un subsistema está cerrado cuando sus seis caras tienen medida —entra, procesa, sale, consecuencia, piso, techo— y sus tres sombras tienen nombre: vacío, vista faltante, ruido. Está incompleto cuando una sombra es implícita: se puede señalar el hueco, no el borde.
+
+**Prueba:** las siete filas tienen normas y dueño; quitar una fila deja al menos una norma sin subsistema.
+**Falsificador:** una norma sin subsistema; un subsistema sin dueño; un subsistema sin sombra nombrada.
 
 ## Reglas duras
 
@@ -104,6 +124,14 @@ Cinco de los siete mecanismos son compuerta, no criterio: no admiten desvío y n
 **Prueba:** el acuse nombra las líneas del punto de control.
 **Falsificador:** se ejecuta con un «sí» genérico; se asienta riesgo asumido sin perímetro.
 
+**Modo de la acción.** La autorización declara tres cosas del acto, no una: cuándo se da, en qué orden y hasta cuándo. Faltando una, el acto cae en uno de cuatro modos inseguros: no se dio, se dio cuando no se debía, se dio en orden o tiempo incorrecto, o se cortó antes o se aplicó de más.
+
+`Modo: [cuándo] | [orden] | [término]`
+
+**Prueba:** ¿los tres están declarados antes del acto? ¿El término es observable sin preguntarle al ejecutor?
+**Falsificador:** acto sin término; acto cuya ventana no se declara; se aplica de más porque nadie escribió cuándo termina; se corta antes y se declara terminado.
+**Estado:** en prueba. Se retira si en tres tareas el modo no cambia una decisión.
+
 ## 5. Acción irreversible
 
 **Enunciado:** antes de un acto irreversible se cumplen cinco requisitos: evaluación de impacto, garantías de respaldo verificadas, declaración de reversión o ausencia, validación unívoca de la autoridad y precedente documentado o vacío declarado. Si falta uno, se bloquea.
@@ -155,6 +183,8 @@ Cinco de los siete mecanismos son compuerta, no criterio: no admiten desvío y n
 - **Bloqueo descalibrado.** Se suspende lo reversible sin evidencia de riesgo.
 - **Compuerta tardía.** Se ejecuta y se declara la compuerta después del acto.
 - **Núcleo supuesto.** Se actúa como si el núcleo estuviera cargado cuando la copia §0 falta o diverge.
+- **Modo omitido.** Se autoriza sin cuándo, sin orden y sin término.
+- **Serie sin acumulador.** Cada acto cabe en su techo y la serie lo cruza.
 
 **Prueba:** si la tarea incurre en un modo, falla.
 **Falsificador:** el modo se repite y no se declara.

@@ -17,6 +17,8 @@ La carpeta define cómo se alinea una tarea con la autoridad. `Conversacional.md
 
 **Un documento, tres partes.** Cada archivo se lee solo: la parte que no posee el núcleo del cuerpo carga en su §0 la copia citada —con original, motivo y sincronización— de las reglas que necesita. `Conversacional.md` posee el núcleo; una regla nueva en una parte se propaga a las otras dos en el mismo acto, y la copia se corrige contra el original. La copia no crea criterio.
 
+**Siete subsistemas.** El cuerpo se lee como siete subsistemas: Aduana, Tribunal, Puente, Cómputo, Acto, Memoria y Equipo. Cada archivo carga el mismo mapa en `## Subsistemas` y en él declara cuáles posee; los otros se citan por su dueño. Un subsistema está cerrado cuando sus seis caras tienen medida —entra, procesa, sale, consecuencia, piso, techo— y sus tres sombras tienen nombre: vacío, vista faltante y ruido.
+
 `../Pruebas/` contiene el estatuto de la carpeta y dos instrumentos distintos. La **Prueba de Rendición** comprueba si la tarea responde por lo que hace y puede dar cuenta de ello; su propiedad central es que pueda reconstruirse lo hecho leyendo solo su registro. La **Prueba de Utilidad Real** mide otra cosa: si la intervención acerca la causa a su objetivo o si el costo de control y la fricción superan el efecto. Ninguna es un tercer principio; ambas comprueban el cuerpo de principios desde ángulos distintos.
 
 ## Recomendaciones

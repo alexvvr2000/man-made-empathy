@@ -47,6 +47,25 @@ Copia citada del núcleo que esta parte necesita para leerse sin las otras dos. 
 | P24 Nivel por defecto | Toda fila empieza en N5 y sube solo con recibo. | Fila en N1 sin recibo. |
 | P25 Piso de cómputo | Se declara el cómputo que la decisión justifica y se mide al cerrar. | Se cierra bajo el piso sin declararlo. |
 
+## Subsistemas
+
+El cuerpo tiene siete subsistemas. Esta parte posee dos y cita los otros cinco por su dueño: el mismo mapa en las tres partes, con distinta marca de propiedad.
+
+| Subsistema | Qué hace | Normas | Dueño |
+|---|---|---|---|
+| Aduana | qué entra | `Conversacional` 3, 4, 9, 13, 19, 24, 27 | `Conversacional` |
+| Tribunal | qué se puede | `Conversacional` 5, 15, 17, 22, 28 | `Conversacional` |
+| Puente | qué cruza | `Conversacional` 7, 8, 11, 12, 14, 16, 20, 21, 23, 26, 29 | `Conversacional` |
+| Cómputo | hasta dónde | `Conversacional` 6, 18, 25, 30 · §2 | `Conversacional` |
+| Acto | qué se altera | `Autonomo` §1–§7 · `Conversacional` 2 | `Autonomo` |
+| Memoria | qué queda | §1–§6 · Campos · Búsqueda · Operación | esta parte |
+| Equipo | quién lo hace | §7 · Equipo · Ciclo · `Conversacional` 10 | esta parte |
+
+**Cierre.** Un subsistema está cerrado cuando sus seis caras tienen medida —entra, procesa, sale, consecuencia, piso, techo— y sus tres sombras tienen nombre: vacío, vista faltante, ruido. Está incompleto cuando una sombra es implícita: se puede señalar el hueco, no el borde.
+
+**Prueba:** las siete filas tienen normas y dueño; quitar una fila deja al menos una norma sin subsistema.
+**Falsificador:** una norma sin subsistema; un subsistema sin dueño; un subsistema sin sombra nombrada.
+
 ## Qué no es
 
 - No es un diario: no registra actividad.
@@ -98,6 +117,24 @@ Copia citada del núcleo que esta parte necesita para leerse sin las otras dos. 
 **Falsificador:** se habla por la fuente sin citarla; solo documentos; Testimonio sin vínculo.
 
 **Costo de omitirlo:** el ejecutor simula a la fuente desde documentos y la experiencia se vuelve información.
+
+## 6. Retiro con testigo
+
+**Tipo:** ley.
+**Enunciado:** toda norma que se retira declara la evidencia que la refuta, las tareas que la midieron y el testigo que lo verifica; su número no se reutiliza. Sin evidencia, la norma no se retira: se deprecia y se declara.
+**Prueba:** ¿hay `Retiro: [id] | Evidencia: [n tareas] | Testigo: [quién]`? ¿El número queda vacío?
+**Falsificador:** se borra una norma sin evidencia; se reutiliza su número; el mismo que la aplicó firma su retiro.
+
+**Costo de omitirlo:** el cuerpo solo crece; la norma que no sirve sigue rigiendo y no se puede distinguir de la que sirve.
+
+## 7. Quien produce no certifica
+
+**Tipo:** ley.
+**Enunciado:** la constancia de un acto se lee por un canal distinto del que lo escribió, y el acto que produce no certifica. Si el mismo acto produce y audita, no hay auditoría: hay una firma.
+**Prueba:** ¿hay `Auditor: [id] | Emisor: [id] | Separados: [sí|no]`? ¿El auditor leyó el registro y no el relato del emisor?
+**Falsificador:** el emisor firma su propio acto; el auditor lee el resumen del emisor; se declara `Separados: sí` con el mismo canal.
+
+**Costo de omitirlo:** la constancia se vuelve autoinforme y la tarea se queda sin testigo.
 
 ## Campos del mecanismo
 
@@ -217,6 +254,8 @@ Una instancia nueva, con solo el registro, reconstruye el siguiente paso. Una fu
 - **Descarte sin motivo.** Se repite la búsqueda que ya falló.
 - **Fila sin disparador ni reemplaza.** La fila no se puede releer ni encadenar.
 - **Núcleo supuesto.** Se registra como si el núcleo estuviera cargado cuando la copia §0 falta o diverge.
+- **Retiro sin evidencia.** Se borra la norma porque estorba, no porque falle.
+- **Autofirma.** El que produce certifica su propio acto.
 
 **Prueba:** si la tarea incurre en un modo, falla.
 **Falsificador:** el modo se repite y no se declara.
