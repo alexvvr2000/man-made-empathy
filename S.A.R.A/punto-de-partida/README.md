@@ -12,7 +12,7 @@ tarea
         └── proceso        × N
 ```
 
-**N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son quince sub-tareas y veintitrés procesos; mañana pueden ser otros, con otros nombres, u otro número.
+**N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son dieciséis sub-tareas y veinticinco procesos; mañana pueden ser otros, con otros nombres, u otro número.
 
 **Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../../Ouroboros/Proceso de mutación.md`, `Mutar la serie`.
 
@@ -62,11 +62,21 @@ Tres escalas de autoridad. Cada una declara un afectado distinto y no se funden 
 
 **La composición no es buena por su coste.** Es buena si su coste se paga con beneficio para las tres escalas y si el operador sigue pudiendo hacerlo sin ella. Rige `./concordia/README.md`.
 
-**Quince sub-tareas, veintitrés procesos.** Es lo que el estado del arte sostiene hoy. No es el mínimo ni el máximo.
+### Lo que no estaba previsto
+
+| Sub-tarea | Qué admite | Procesos |
+|---|---|---|
+| `jorrn/` | procesos que no cubren fallos: producen lo que no se busca | producir, declarar lo inesperado |
+
+**Un proceso nace de un fallo comprobado o de una capacidad sin fallo previo.** El primero se mide contra el fallo. El segundo se mide por lo que produce. Ninguno reemplaza al otro.
+
+J'ONN no es un safeguard: no impide producir algo destructivo. Impide **cerrar como si fuera seguro lo que no se declaró**. Rige `./autoridad-humanidad/dar-voz.md`.
+
+**Dieciséis sub-tareas, veinticinco procesos.** Es lo que el estado del arte sostiene hoy. No es el mínimo ni el máximo.
 
 ## Cómo se ejecuta
 
-Una tarea entra, se elige la sub-tarea que cubre su fallo, y se aplican sus procesos. Cada proceso tiene `Entra | Falla | Sale | Consume` y se aplica solo: ninguno necesita leer los otros veintidós para funcionar.
+Una tarea entra, se elige la sub-tarea que cubre su fallo, y se aplican sus procesos. Cada proceso tiene `Entra | Falla | Sale | Consume` y se aplica solo: ninguno necesita leer los otros veinticuatro para funcionar.
 
 `Fallo: [el que cubre la sub-tarea] | Sub-tarea: [cuál] | Procesos: [cuáles] | Niveles: 3 | Muta: [sí]`
 

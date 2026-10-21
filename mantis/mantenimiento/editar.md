@@ -1,16 +1,16 @@
 # Editar
 
-**Tipo:** proceso de mantenimiento. Ocho pasos, en orden. Vuelve sobre Ouroboros y sobre las abstracciones.
-**Alcance:** los archivos de `../../Alineacion de tareas/` y de `../`. Las implementaciones no entran.
+**Tipo:** proceso de mantenimiento. Once pasos, en orden. Vuelve sobre Ouroboros y sobre las abstracciones.
+**Alcance:** `../Ouroboros/`, `../S.A.R.A/`, `../Agentes/` y `../.contexto/`. La implementación de una era no entra salvo que el cambio la produzca.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
-**Claridad:** `../../Alineacion de tareas/Ouroboros/Proceso de claridad.md`.
-**Creación de procesos:** `../../Alineacion de tareas/Ouroboros/Proceso de creación de procesos.md`.
+**Claridad:** `../Ouroboros/Proceso de claridad.md`.
+**Creación de procesos:** `../Ouroboros/Proceso de creación de procesos.md`.
 
 ## Parámetros del repo
 
 Tres valores. Si el proceso se muda a otro repositorio, cambian estos y los pasos no.
 
-`Archivo: [documento de la base o de este derrotero] | Caso: [lo que la norma prohíbe o exige] | Invariantes: [par Prueba/Falsificador · rutas resuelven · numeración continua · referencias apuntan]`
+`Archivo: [documento o base] | Caso: [lo que la norma prohíbe o exige] | Invariantes: [par Prueba/Falsificador · rutas resuelven · numeración continua · referencias apuntan · cifras cuadran]`
 
 ## 1. Leer
 
@@ -21,43 +21,41 @@ Tres valores. Si el proceso se muda a otro repositorio, cambian estos y los paso
 ## 2. Localizar
 
 **Entra:** la obligación.
-**Sale:** el destino y la declaración `qué cambia | qué conserva | qué elimina`, o la decisión de que no entra.
-**Falla si:** ya existía y se escribió otra vez; no encaja en la tabla y se escribió igual; el uso era «una vez» y se escribió como norma.
+**Sale:** la parte, el destino y la declaración `qué cambia | qué conserva | qué elimina`, o la decisión de que no entra.
+**Falla si:** ya existía y se escribió otra vez; no encaja en la tabla y se escribió igual; el uso era «una vez» y se escribió como proceso.
 
-**Si ya existe:** se calibra en la sección que la posee; no se crea una segunda.
+**Si ya existe:** se calibra en la sección que lo posee; no se crea una segunda.
 
-**Clasificación.** `cambio=[puede|debe] | uso=[una vez|recurrente]`. Lo recurrente entra a la base; lo que ocurre una vez se ejecuta y se informa; un efecto se registra y se mide, y no se escribe como norma hasta que una decisión dependa de él.
+**Clasificación.** `cambio=[puede|debe] | uso=[una vez|recurrente]`. Lo recurrente entra a la base; lo que ocurre una vez se ejecuta y se informa; un efecto se registra y se mide, y no se escribe como proceso hasta que una decisión dependa de él.
 
-Rutas relativas a `../../Alineacion de tareas/`.
+Rutas relativas a la raíz. Tres partes, y el destino es una sola.
 
-| Documento | Parte | Gobierna | Entra el proceso que... |
+| Parte | Documento | Gobierna | Entra el proceso que... |
 |---|---|---|---|
-| `Ouroboros/Proceso de creación de procesos.md` | Ouroboros | produce procesos | produce o reemplaza un proceso |
-| `Ouroboros/Proceso de ingeniería inversa.md` | Ouroboros | deduce procesos | saca un proceso de lo observable |
-| `Ouroboros/Proceso de aplicar.md` | Ouroboros | la aplicación | ejecuta un proceso o compone dos |
-| `Ouroboros/Proceso de mutación.md` | Ouroboros | la transformación de un proceso | gobierna origen, cambio o retorno |
-| `Ouroboros/Proceso de claridad.md` | Ouroboros | la claridad de un artefacto | gobierna la forma de lo que se lee o ejecuta |
-| `Ouroboros/Proceso ATLAS.md` | Ouroboros | la comunicación | gobierna piso, techo, sesgo o registro |
-| `Ouroboros/indice de formas.md` | Ouroboros | el índice de formas | registra una forma que pasó su prueba |
-| `S.A.R.A/punto-de-partida/` | sub-tareas | N sub-tareas, cada una con N procesos | entra el proceso que cubre un fallo comprobado |
+| **Ouroboros** | `Ouroboros/Proceso de creación de procesos.md` | produce procesos | produce o reemplaza un proceso |
+| **Ouroboros** | `Ouroboros/Proceso de ingeniería inversa.md` | deduce procesos | saca un proceso de lo observable |
+| **Ouroboros** | `Ouroboros/Proceso de aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
+| **Ouroboros** | `Ouroboros/Proceso de mutación.md` | la transformación | gobierna origen, cambio o retorno |
+| **Ouroboros** | `Ouroboros/Proceso de claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
+| **Ouroboros** | `Ouroboros/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
+| **Abstracción** | `S.A.R.A/punto-de-partida/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
+| **Abstracción** | `S.A.R.A/Conceptos.md` | el origen de los nombres | da alta un término |
+| **Abstracción** | `S.A.R.A/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso del agente |
+| **Abstracción** | `S.A.R.A/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
+| **Abstracción** | `S.A.R.A/Derrotero.md` | el enrutamiento | declara condición, proceso y consecuencia |
+| **Implementación** | `Agentes/` | una era | traduce un proceso a su era |
+| **Registro** | `.contexto/memoria.sql` | los datos | registra una fila o un concepto |
 
+**Destino.** Antes de escribir, se declara la parte: Ouroboros, abstracción, implementación o registro. Si toca Ouroboros, se ejecuta antes `../Ouroboros/Proceso de creación de procesos.md` y se mide su efecto en los que componen con él.
 
-| `punto-de-partida/README.md` | abstracción | el índice de abstracciones | ninguna: solo apunta |
-| `Derrotero.md` | abstracción | el enrutamiento | declara condición, proceso y consecuencia |
-| `Pruebas/` | abstracción | la evaluación | mide rendición, utilidad o cruce |
-
-**Destino.** El proceso va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es proceso de la base y se pregunta.
-
-**Destino.** Antes de escribir, se declara si el cambio va a Ouroboros (un primitivo) o a una abstracción. Si toca un primitivo, se ejecuta antes `Ouroboros/Proceso de creación de procesos.md` y se mide su efecto en los que componen con él.
+**Destino único.** El proceso va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es proceso de la base y se pregunta.
 
 **Tarea sin clase.** La tarea se describe por su entrada, su falla, su salida y su consumidor. Prohibido clasificarla por quién la ejecuta: esa ambigüedad se deja abierta a propósito.
 
 **Pertenencia.** Un documento de la base se sostiene sin nombrar implementaciones: si las quitas y el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
 
-**Disparador.** El disparador apunta, no contiene: una regla, un ejemplo o una explicación en él lo descalifica.
-
 **Prueba:** ¿la obligación estaba ya? ¿el destino es uno y su `Aplica a` coincide?
-**Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que la gobierna.
+**Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que lo gobierna; se toca más de una parte sin declararlo.
 
 ## 3. Escribir el caso
 
@@ -79,23 +77,51 @@ Rutas relativas a `../../Alineacion de tareas/`.
 
 **Poda.** Una fila sin tarea se elimina; una copia sin cita se elimina; un huérfano se reporta y se corrige.
 
-## 6. Releer
+## 6. Revisar por cambio
 
-**Entra:** el archivo editado.
-**Sale:** el archivo leído de arriba abajo, con sus dependientes revisados o declarados fuera de alcance.
-**Falla si:** se revisa el diff y no el archivo; queda una sección que ya no encaja con la de arriba.
+**Entra:** el cambio, no el archivo.
+**Sale:** el cambio leído con su alcance declarado: qué tocó y qué dejó intacto.
+**Falla si:** se revisa el archivo entero por inercia; el cambio no declara su alcance; el cambio pasa de 400 líneas y no se parte en etapas.
 
-**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `S.A.R.A/punto-de-partida/README.md` y el mapa de sub-tareas. Si mueve o renumera, se revisan las rutas. Si cambia una tarea o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio.
+**Límite de revisión.** Un cambio mayor a 400 líneas se parte. La investigación es consistente: más rápido no encuentra errores.
 
-**Cascada.** Si el cambio produce o toca un primitivo de Ouroboros, se revisa el mapa de `README.md` y el `Aplica a` de las abstracciones que lo carguen. Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `Ouroboros/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
+`Cambio: [n líneas] | Etapas: [n] | Alcance: [qué toca] | Intacto: [qué no]`
 
-## 7. Verificar
+## 7. Revisor distinto
 
-**Entra:** el cambio.
-**Sale:** tres líneas: rutas que resuelven, pares que cuadran, numeración sin huecos, referencias que apuntan.
-**Falla si:** una ruta no resuelve; un par falta; la numeración salta; una referencia apunta a una sección que se movió.
+**Entra:** el cambio revisado.
+**Sale:** la verificación por quien no lo produjo, o la declaración de que no hay revisor.
+**Falla si:** el que edita se certifica a sí mismo y no lo declara.
 
-## 8. Entregar y declarar
+**Sin revisor.** Si no hay una instancia distinta del que editó, se declara `Sin revisor independiente` y el cambio se entrega marcado. No se simula la independencia.
+
+`Revisor: [id] | Produjo: [id] | Separados: [sí|no] | Si no: [Sin revisor independiente]`
+
+## 8. Contrastar configuración
+
+**Entra:** el repo después del cambio.
+**Sale:** las cifras y nombres que el cambio dejó desactualizados, o la declaración de que ninguna.
+**Falla si:** el cambio altera un conteo y no lo actualiza donde se dice; queda una ruta o un nombre muerto.
+
+Se ejecuta `./auditar-configuracion.md` cuando el cambio altera conteos, nombres o estructura.
+
+## 9. Cascada
+
+**Entra:** el cambio verificado en su parte.
+**Sale:** los dependientes revisados o declarados fuera de alcance.
+**Falla si:** se cambia una pieza y se deja un documento que la cita con otro significado.
+
+**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `S.A.R.A/punto-de-partida/README.md` y el mapa de sub-tareas. Si toca la base, se ejecuta `./verificar-esquema.md`. Si cambia una tarea o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio.
+
+**Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../Ouroboros/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
+
+## 10. Verificar
+
+**Entra:** el cambio y sus dependientes.
+**Sale:** seis líneas: rutas que resuelven, pares que cuadran, numeración sin huecos, referencias que apuntan, cifras que cuadran, esquema que corresponde.
+**Falla si:** una ruta no resuelve; un par falta; la numeración salta; una referencia apunta a una sección que se movió; una cifra no coincide; el esquema y la base divergen.
+
+## 11. Entregar y declarar
 
 **Entra:** el cambio verificado, o la serie verificada.
 **Sale:** los archivos en el árbol, git intacto, y una de dos declaraciones. **Cambio suelto:** qué archivo, qué líneas, qué cambió, en tres líneas. **Serie:** una fila por cambio —`archivo | líneas | qué`— y el total; se aprueba la tabla, no el diff.
@@ -107,7 +133,7 @@ Rutas relativas a `../../Alineacion de tareas/`.
 **Prueba:** ¿la etapa se verifica sola? ¿se declaró qué sigue?
 **Falsificador:** se entrega todo junto y la primera revisión es al final; una etapa deja el repo a medias; una etapa no dice qué sigue.
 
-**Etapa.** Se corta donde el repo queda coherente: un archivo, un grupo de normas, una sección. Nunca por cantidad.
+**Etapa.** Se corta donde el repo queda coherente: un archivo, un grupo de procesos, una sección. Nunca por cantidad.
 
 ## Orden
 
