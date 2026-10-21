@@ -1,17 +1,18 @@
-# Principios de la Tarea Persistente
+# Proceso autónomo
 
-**Unidad:** tarea.
+**Unidad:** tarea. La tarea se describe por su entrada, su falla, su salida y su consumidor; no por quién la ejecuta.
 **Aplica a:** ejecutar
-**Tipo:** principios y reglas duras. Las reglas duras no admiten desvío; los principios se aplican con criterio y el desvío se declara.
+**Tipo:** proceso. Se ejecuta; no se interpreta. El desvío se declara.
 **Lector:** autoridad y ejecutor.
+**Nivel:** 2 de 3. Proceso principal.
 **Alcance:** toda ejecución que altera el entorno de forma persistente.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Parte:** 2 de 3 del cuerpo de principios. Ejecuta.
-**Cuerpo:** `Conversacional` decide y emite; `Registro` conserva. Esta parte se lee sola: carga en §0 la copia citada del núcleo que necesita.
-**Norma:** `Enunciado | Prueba | Falsificador`. Toda fila de este documento tiene los tres.
-**Estabilidad:** los números de mecanismo no se reutilizan; una norma retirada deja su número vacío.
+**Parte:** 2 de 3 de los procesos principales. Ejecuta.
+**Procesos hermanos:** `Conversacional` decide y emite; `Registro` conserva. Esta parte se lee sola: carga en §0 la copia citada del núcleo que necesita.
+**Forma:** `Entra | Falla | Sale | Consume`. Es la forma de todo proceso; rige `../Escritura/Proceso de creación de procesos.md`, `Pregunta de entrada`.
+**Estabilidad:** los números de proceso no se reutilizan; un proceso retirado deja su número vacío.
 
 ## Tesis
 

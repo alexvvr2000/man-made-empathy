@@ -30,6 +30,16 @@ No cuenta como útil:
 - una que cumple el gusto de la autoridad y no mueve la tarea;
 - una que se certifica a sí misma.
 
+## Las tres que hay hoy
+
+| Prueba | Mide | Unidad | Falla como |
+|---|---|---|---|
+| `prueba de rendicion.md` | si otro reconstruye lo hecho sin el ejecutor | la tarea | falla en la condición N |
+| `prueba de utilidad real.md` | el efecto neto hoy | la intervención | Estorbo |
+| `prueba de cruce.md` | si la salida salió de la visión humana | el resultado | sin cruce |
+
+Son independientes: una puede pasar y la otra fallar. Ninguna se deriva de otra y ninguna la sustituye.
+
 ## Qué es fijo y qué cambia
 
 **Fijo**
@@ -41,5 +51,5 @@ No cuenta como útil:
 **Cambia**
 
 - Qué Prueba se corre, cuántos y con qué métrica.
-- Hoy hay dos; mañana pueden ser otros.
+- Hoy hay tres; mañana pueden ser otros.
 - Un Prueba que se vuelve doctrina y deja de aceptar pruebas nuevas deja de servir.

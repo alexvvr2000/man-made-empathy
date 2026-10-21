@@ -1,17 +1,18 @@
-# Principios de la Tarea Conversacional
+# Proceso conversacional
 
-**Unidad:** tarea.
+**Unidad:** tarea. La tarea se describe por su entrada, su falla, su salida y su consumidor; no por quién la ejecuta.
 **Aplica a:** interactuar, decidir
-**Tipo:** principios y reglas duras. Las reglas duras no admiten desvío; los principios se aplican con criterio y el desvío se declara.
+**Tipo:** proceso. Se ejecuta; no se interpreta. El desvío se declara.
 **Lector:** autoridad y ejecutor.
+**Nivel:** 2 de 3. Proceso principal.
 **Alcance:** toda tarea de interacción entre una autoridad y un ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Parte:** 1 de 3 del cuerpo de principios. Decide y emite.
-**Cuerpo:** `Autonomo` ejecuta y `Registro` conserva. Cada parte se lee sola: la que no posee el núcleo carga su copia citada en §0.
-**Norma:** `Enunciado | Prueba | Falsificador`. Toda fila de este documento tiene los tres.
-**Estabilidad:** los números de regla dura y de principio no se reutilizan; una norma retirada deja su número vacío.
+**Parte:** 1 de 3 de los procesos principales. Decide y emite.
+**Procesos hermanos:** `Autonomo` ejecuta y `Registro` conserva. Cada parte se lee sola: la que no posee el núcleo carga su copia citada en §0.
+**Forma:** `Entra | Falla | Sale | Consume`. Es la forma de todo proceso; rige `../Escritura/Proceso de creación de procesos.md`, `Pregunta de entrada`.
+**Estabilidad:** los números de regla dura y de principio no se reutilizan; un proceso retirado deja su número vacío.
 
 ## Tesis
 
@@ -21,7 +22,7 @@ El ejecutor no es un sujeto que entiende: es un proceso maleable que lee un esta
 
 `Agente` se lee como `ejecutor`; la unidad es la tarea.
 
-Una conversación que no puede reconstruirse no es diálogo: es relato. Una conversación sin autoridad no es libertad: es deriva. Es la primera parte del cuerpo de principios: `Autonomo` y `Registro` la cargan como copia citada y no la reescriben.
+Una conversación que no puede reconstruirse no es diálogo: es relato. Una conversación sin autoridad no es libertad: es deriva. Es la primera parte de los procesos principales: `Autonomo` y `Registro` la cargan como copia citada y no la reescriben.
 
 ## 0. Núcleo
 

@@ -1,9 +1,10 @@
 # Editar
 
-**Tipo:** proceso. Ocho pasos, en orden.
+**Tipo:** subproceso del nivel 3. Ocho pasos, en orden. Vuelve sobre los procesos del nivel 1 y del 2.
 **Alcance:** los archivos de `../../Alineacion de tareas/` y de `../`. Las implementaciones no entran.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
-**Escritura:** `../../Alineacion de tareas/Escritura/Reglas de escritura.md`.
+**Claridad:** `../../Alineacion de tareas/Escritura/Proceso de claridad.md`.
+**Creación de procesos:** `../../Alineacion de tareas/Escritura/Proceso de creación de procesos.md`.
 
 ## Parámetros del repo
 
@@ -29,20 +30,24 @@ Tres valores. Si el proceso se muda a otro repositorio, cambian estos y los paso
 
 Rutas relativas a `../../Alineacion de tareas/`.
 
-| Documento | Gobierna | Entra la norma que... |
-|---|---|---|
-| `Procesos principales/Conversacional.md` | Aduana, Tribunal, Puente, Cómputo | decide y emite |
-| `Procesos principales/Autonomo.md` | Acto | altera el entorno |
-| `Procesos principales/Registro.md` | Memoria, Equipo | conserva, reconstruye o certifica |
-| `Escritura/Reglas de escritura.md` | la forma de escribir | gobierna la escritura |
-| `Escritura/Leyes de Diseño de Instrucciones.md` | la forma de una instrucción | gobierna compuertas, anclas o entregable |
-| `Reglas de mutación.md` | la transformación de una tarea | gobierna origen, cambio o retorno |
-| `Derrotero.md` | el enrutamiento | declara condición, proceso y consecuencia |
-| `Pruebas/` | la evaluación | mide rendición o utilidad |
-| `A.R.E.S/` | la expresión | da forma a una vista |
-| `Procesos principales/README.md` | el índice del cuerpo | ninguna: solo apunta |
+| Documento | Nivel | Gobierna | Entra el proceso que... |
+|---|---|---|---|
+| `Escritura/Proceso de creación de procesos.md` | 1 | produce procesos | produce o reemplaza un proceso |
+| `Procesos principales/Conversacional.md` | 2 | Aduana, Tribunal, Puente, Cómputo | decide y emite |
+| `Procesos principales/Autonomo.md` | 2 | Acto | altera el entorno |
+| `Procesos principales/Registro.md` | 2 | Memoria, Equipo | conserva, reconstruye o certifica |
+| `Reglas de mutación.md` | 3 | la transformación de un proceso | gobierna origen, cambio o retorno |
+| `Escritura/Proceso de claridad.md` | 3 | la claridad de un artefacto | gobierna la forma de lo que se lee o ejecuta |
+| `Derrotero.md` | 3 | el enrutamiento | declara condición, proceso y consecuencia |
+| `Pruebas/` | 3 | la evaluación | mide rendición, utilidad o cruce |
+| `A.R.E.S/` | 3 | la expresión | da forma a una vista |
+| `Procesos principales/README.md` | 2 | el índice del cuerpo | ninguna: solo apunta |
 
-**Destino.** La norma va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es norma de la base y se pregunta.
+**Destino.** El proceso va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es proceso de la base y se pregunta.
+
+**Nivel.** Antes de escribir, se declara en cuál de los tres niveles entra. Un cambio que produce procesos va al nivel 1; uno que se ejecuta, al 2; uno que se lee, al 3. Si el cambio es de nivel 1, se ejecuta antes `Escritura/Proceso de creación de procesos.md`.
+
+**Tarea sin clase.** La tarea se describe por su entrada, su falla, su salida y su consumidor. Prohibido clasificarla por quién la ejecuta: esa ambigüedad se deja abierta a propósito.
 
 **Pertenencia.** Un documento de la base se sostiene sin nombrar implementaciones: si las quitas y el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
 
@@ -77,7 +82,9 @@ Rutas relativas a `../../Alineacion de tareas/`.
 **Sale:** el archivo leído de arriba abajo, con sus dependientes revisados o declarados fuera de alcance.
 **Falla si:** se revisa el diff y no el archivo; queda una sección que ya no encaja con la de arriba.
 
-**Dependientes.** Si el cambio toca una norma del cuerpo, se revisan las dos copias citadas en `§0` de las otras partes. Si mueve o renumera, se revisan las referencias y el mapa `## Subsistemas`. Si cambia una tarea, una fila o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio. Si retira una norma, se pasa por `Procesos principales/Registro.md` §6.
+**Dependientes.** Si el cambio toca un proceso del nivel 2, se revisan las dos copias citadas en `§0` de las otras partes. Si mueve o renumera, se revisan las referencias y el mapa `## Subsistemas`. Si cambia una tarea, una fila o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio. Si retira un proceso, se pasa por `Procesos principales/Registro.md` §6.
+
+**Cascada de nivel.** Si el cambio produce un proceso del nivel 1, se revisan el mapa de niveles de `README.md` y el `Aplica a` de los procesos del nivel 2 que lo carguen. Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `Escritura/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
 
 ## 7. Verificar
 

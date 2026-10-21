@@ -1,9 +1,10 @@
 # Estándar de Derrotero
 
 **Tipo:** estándar. No decide ni ejecuta; describe qué es un Derrotero completo.
-**Aplica a:** enrutar.
+**Aplica a:** enrutar cualquier tarea.
+**Nivel:** 3 de 3. Se lee; no se ejecuta.
 **Lector:** autoridad y ejecutor.
-**Alcance:** todo Derrotero de agente.
+**Alcance:** todo enrutamiento. La tarea se describe por su entrada, su falla, su salida y su consumidor; no por quién la ejecuta.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
@@ -27,7 +28,8 @@ El Derrotero declara los campos que necesita para enrutar:
 - **Alcance:** qué artefactos cubre.
 - **Base:** el repo o biblioteca que referencia; no lo copia.
 - **Forma:** el estándar que implementa.
-- **Cuerpo:** el cuerpo de principios que referencia.
+- **Cuerpo:** los procesos principales que referencia, en cualquier nivel.
+- **Nivel:** en cuál de los tres niveles enruta: produce, ejecuta o lee.
 - **Ley:** la ley del agente, sus tareas.
 - **Consecuencia:** qué pasa cuando una fila coincide y cuando no.
 - **Disparador:** apunta, no contiene; declara los invariantes que prohíben la copia.
@@ -38,21 +40,22 @@ Cada campo declara una relación; ninguno contiene el proceso. Sin los campos, l
 
 ## 4. Sistema
 
-Antes de resolver, el Derrotero exige la lectura de sistema: `Sistema: [propósito | frontera | retorno | consecuencia]`. Sin ella, la petición es información; no se ejecuta. La forma completa y sus dueños viven en el cuerpo (`Conversacional` 9); el Derrotero la exige, no la define.
+Antes de resolver, el Derrotero exige la lectura de sistema: `Sistema: [propósito | frontera | retorno | consecuencia]`. Sin ella, la petición es información; no se ejecuta. La forma completa y sus dueños viven en `Procesos principales/Conversacional.md` 9; el Derrotero la exige, no la define.
 
 **Prueba:** ¿la resolución declara el sistema? **Falsificador:** una tarea resuelta sin sistema.
 
 ## 5. Rutas
 
-Cada ruta declara tres cosas:
+Cada ruta declara cuatro cosas:
 
 - **Condición:** cuándo se carga (la tarea o el caso).
 - **Proceso:** a dónde se carga (documento, archivo, registro).
+- **Nivel:** en cuál de los tres niveles cae el proceso cargado: produce, ejecuta o lee.
 - **Consecuencia:** qué pasa si no se cumple.
 
 La ruta apunta al proceso vivo; no lo copia. Si el proceso cambia, la ruta sigue. Una ruta que no cambia lo que se carga sobra.
 
-**Prueba:** ¿declara condición, proceso y consecuencia? ¿El proceso existe? **Falsificador:** una ruta sin proceso; una ruta que copia el proceso; una ruta que no cambia la carga.
+**Prueba:** ¿declara condición, proceso, nivel y consecuencia? ¿El proceso existe? **Falsificador:** una ruta sin proceso; una ruta sin nivel; una ruta que copia el proceso; una ruta que no cambia la carga.
 
 ## 6. Vacío
 
@@ -85,7 +88,7 @@ Una instancia es conforme si:
 - declara identidad y tarea;
 - declara los campos de enrutamiento;
 - exige la lectura de sistema;
-- cada ruta declara condición, proceso y consecuencia;
+- cada ruta declara condición, proceso, nivel y consecuencia;
 - una tarea sin ruta produce `[VACÍO - SIN RUTA]`;
 - una tarea sin proceso produce `[VACÍO - SIN PROCESO]`;
 - declara su regla de lectura;
@@ -96,7 +99,7 @@ Una instancia es conforme si:
 - Una instancia sin identidad o sin tarea.
 - Un campo de enrutamiento ausente.
 - Una tarea resuelta sin lectura de sistema.
-- Una ruta sin proceso, o que copia el proceso.
+- Una ruta sin proceso, sin nivel, o que copia el proceso.
 - Una tarea sin ruta que se ejecuta.
 - Un proceso improvisado.
 - Una ruta que no cambia lo que se carga.

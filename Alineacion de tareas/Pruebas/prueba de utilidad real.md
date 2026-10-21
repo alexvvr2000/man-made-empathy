@@ -59,6 +59,8 @@ Un incumplimiento que invalide el resultado —una afirmación sin recibo, una a
 
 El veredicto no juzga a la tarea en abstracto: juzga **esta intervención, en esta tarea, con estos principios**.
 
+**Efecto reconstruible.** El efecto sobre el receptor se mide contra el registro. Si el receptor puede reconstruir cómo se produjo el efecto, es criterio; si no puede, es manipulación y el veredicto es `Estorbo`, cualquiera sea el efecto. Rige `./prueba de rendicion.md`, condición 6.
+
 ## Lo que no mide
 
 - No mide intención, conciencia ni estilo.

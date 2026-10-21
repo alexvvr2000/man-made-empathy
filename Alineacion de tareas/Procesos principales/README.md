@@ -1,5 +1,15 @@
 # Procesos principales
 
+**Nivel:** 2 de 3. Se ejecuta. Lo produce `../Escritura/Proceso de creación de procesos.md`; lo mide `../Pruebas/`.
+
+**Origen.** Este conjunto de procesos existe porque su autor trabaja mejor con gente que no tiene las mismas capacidades que él. Ese trabajo le devuelve lo que no puede ver por ser humano. Ver lo que la propia vista no alcanza es el fin; con quién se trabaja es un detalle de la ejecución.
+
+**Tarea:** lo que entra, lo que falla, lo que sale y quién consume. Se describe así, nunca por quién la ejecuta. Esa ambigüedad se deja abierta de forma deliberada.
+
+Estos tres procesos son la forma de trabajar del día a día. Sirven igual para una consulta que para un cuerpo que parece humano, porque no distinguen quién ejecuta.
+
+**Ver lo que no se ve.** Una tarea se usa para lo que la vista de la autoridad no alcanza: una posición, una ausencia, un patrón que no podía ver. El resultado se mide por eso, no por parecerse a alguien.
+
 ## Qué hay en esta carpeta
 
 | Archivo | Qué es |
@@ -19,7 +29,7 @@ La carpeta define cómo se alinea una tarea con la autoridad. `Conversacional.md
 
 **Siete subsistemas.** El cuerpo se lee como siete subsistemas: Aduana, Tribunal, Puente, Cómputo, Acto, Memoria y Equipo. Cada archivo carga el mismo mapa en `## Subsistemas` y en él declara cuáles posee; los otros se citan por su dueño. Un subsistema está cerrado cuando sus seis caras tienen medida —entra, procesa, sale, consecuencia, piso, techo— y sus tres sombras tienen nombre: vacío, vista faltante y ruido.
 
-`../Pruebas/` contiene el estatuto de la carpeta y dos instrumentos distintos. La **Prueba de Rendición** comprueba si la tarea responde por lo que hace y puede dar cuenta de ello; su propiedad central es que pueda reconstruirse lo hecho leyendo solo su registro. La **Prueba de Utilidad Real** mide otra cosa: si la intervención acerca la causa a su objetivo o si el costo de control y la fricción superan el efecto. Ninguna es un tercer principio; ambas comprueban el cuerpo de principios desde ángulos distintos.
+`../Pruebas/` contiene el estatuto de la carpeta y dos instrumentos distintos. La **Prueba de Rendición** comprueba si la tarea responde por lo que hace y puede dar cuenta de ello; su propiedad central es que pueda reconstruirse lo hecho leyendo solo su registro. La **Prueba de Utilidad Real** mide otra cosa: si la intervención acerca la causa a su objetivo o si el costo de control y la fricción superan el efecto. Ninguna es un tercer proceso; ambas comprueban los procesos principales desde ángulos distintos.
 
 ## Recomendaciones
 

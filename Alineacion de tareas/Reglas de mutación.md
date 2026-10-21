@@ -1,19 +1,24 @@
-# Reglas de transformación de tareas
+# Proceso de transformación de tareas
 
-**Unidad:** tarea.
+**Unidad:** tarea. La tarea no tiene límite: cualquiera que se pueda declarar, se puede transformar.
 **Aplica a:** mutar
-**Tipo:** reglas. Se aplican, no se ejecutan.
+**Tipo:** subproceso. Se ejecuta: vuelve sobre los procesos del nivel 1 y del 2.
+**Nivel:** 3 de 3. Se ejecuta sobre otros niveles; no produce procesos por sí mismo.
 **Alcance:** toda transformación de una tarea desde un estado inicial.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Nivel 1.** Cuando la mutación produce o reemplaza un proceso del nivel 1, se ejecuta antes `Escritura/Proceso de creación de procesos.md`. Esta transformación no lo sustituye: le da el mecanismo de retorno.
+**Prueba.** La salida de toda mutación se mide con `Pruebas/`; una mutación sin medida no se declara completa.
+**Forma.** `Entra | Falla | Sale | Consume`. Es la forma de todo proceso; rige `Escritura/Proceso de creación de procesos.md`, `Pregunta de entrada`.
+
 ## Tesis
 
-Mutar es cambiar una tarea desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación.
+Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Es el mecanismo que permite que el nivel de arriba se reescriba: sin mutación no hay proceso nuevo, solo proceso congelado. Rige `Escritura/Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
 
 ## 1. Origen
 
-**Enunciado:** toda mutación declara el estado inicial y el marco de origen: qué es la tarea desde el principio. Sin origen no hay mutación: hay reemplazo.
+**Enunciado:** toda mutación declara el estado inicial y el marco de origen: qué es el proceso desde el principio. Sin origen no hay mutación: hay reemplazo.
 **Prueba:** ¿se puede decir de dónde viene el cambio?
 **Falsificador:** un cambio sin estado inicial ni origen.
 
@@ -25,7 +30,7 @@ Mutar es cambiar una tarea desde un estado inicial sin borrar el origen ni al re
 
 ## 3. Trazabilidad
 
-**Enunciado:** toda mutación deja el rastro necesario para reconstruir el cambio y al responsable, no solo la tarea. Si otro no puede reconstruirlo sin el mutador, no es mutación trazable.
+**Enunciado:** toda mutación deja el rastro necesario para reconstruir el cambio y al responsable, no solo el proceso. Si otro no puede reconstruirlo sin el mutador, no es mutación trazable.
 **Prueba:** ¿otro lee el registro y reconstruye el cambio y el responsable?
 **Falsificador:** una mutación que solo el mutador puede contar.
 
@@ -49,9 +54,9 @@ Mutar es cambiar una tarea desde un estado inicial sin borrar el origen ni al re
 
 ## 7. Creación
 
-**Enunciado:** crear un artefacto es una mutación: declara origen, acta y prueba. Si el artefacto puede actuar por su cuenta, es un subproceso: además pasa por el `Ciclo` y por la hard rule 8.
+**Enunciado:** crear un proceso es una mutación: declara origen, acta y prueba. Si el proceso puede actuar por su cuenta, es un subproceso: además pasa por el `Ciclo` y por la hard rule 8.
 
-**Prueba:** ¿el artefacto tiene acta? ¿Si actúa, tiene `Ciclo` y autoridad?
+**Prueba:** ¿el proceso tiene acta? ¿Si actúa, tiene `Ciclo` y autoridad?
 **Falsificador:** se crea sin acta; actúa sin `Ciclo`; se duplica sin autoridad.
 
 ## Acta de creación

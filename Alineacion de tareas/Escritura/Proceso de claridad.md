@@ -1,18 +1,22 @@
-# Reglas de escritura de tareas
+# Proceso de claridad
 
-**Unidad:** tarea.
-**Tipo:** reglas de escritura. Se aplican, no se ejecutan.
-**Aplica a:** escribir
-**Contrato:** reglas-de-escritura
-**Requiere:** ninguno
-**Compatible con:** contrato-de-diseño, contrato-de-agentes
+**Unidad:** proceso.
+**Aplica a:** escribir.
+**Tipo:** proceso de claridad. Se aplica al escribir, al editar y al emitir.
+**Nivel:** proceso que se lee. No tiene compuertas de turno; gobierna la forma de lo que se produce.
+**Requiere:** ninguno.
+**Compatible con:** `Proceso de creación de procesos`, `Procesos principales`.
 **Alcance:** todo artefacto de este repositorio.
 
-Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La estructura de las instrucciones vive en el contrato de diseño (`Leyes de Diseño de Instrucciones.md`); este documento no la repite.
+Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La producción de procesos vive en `Proceso de creación de procesos.md`; este documento no la repite.
 
-La unidad es la tarea: qué entra, qué se calcula, qué sale, qué se conserva. El ejecutor es el que la realiza.
+La claridad no es información pura: es la forma en que el contexto llega al lector. Un texto claro transporta su posición, su límite y su ejemplo sin pedir glosario. Lo que se ejecuta paga además no ambigüedad: cada lectura tiene que ser la misma.
 
-## 1. Reglas de escritura
+`1.4` fija la clase de cada artefacto: `Se ejecuta` exige claridad y no ambigüedad; `Se lee` exige claridad y lleva ejemplo. La clase decide la exigencia, no la forma.
+
+La unidad es el artefacto: qué entra, qué se calcula, qué sale, qué se conserva.
+
+## 1. Reglas de claridad
 
 ### 1.1 Estilo de proceso
 Toda regla se escribe sobre una operación: qué entra, qué se hace, qué señal sale, qué configuración cambia. El sujeto de la regla es la operación, no lo que la ejecuta. La tarea es esa operación: si no se puede decir qué entra, qué se calcula y qué sale, no es tarea.
@@ -39,7 +43,14 @@ Un documento cuya forma declara un lector —prosa, contexto y decisión, sin ca
 
 **Árbol cerrado:** `Evita una lectura equivocada → una pieza | Cierra un hueco que el lector ya tiene → una pieza | Completa por simetría o estética → no | Necesita una sección → se consulta`.
 
-**Prueba:** `La forma declara lector → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`.
+**Clase.** Todo artefacto declara su clase: `Se ejecuta` o `Se lee`. La clase fija la exigencia, no la forma. Un artefacto que se ejecuta exige claridad y no ambigüedad; lo que se lee exige claridad. El lector es el que se ejecuta cuando la salida es entrada de otro cálculo, y el que lee cuando la salida se interpreta.
+
+**Prueba:** `Artefacto con clase declarada → pasa | Artefacto que se ejecuta sin clase → falla | Artefacto que se lee declarado human-first → pasa`.
+**Falsificador:** `Un artefacto ejecutable sin regla de no ambigüedad | Un artefacto de lectura cargado con compuertas de ejecución | Clase no declarada`.
+
+**Ejemplo.** El ejemplo es una pieza de claridad, no una tolerancia. En un documento que se lee, su ausencia es un fallo de esta regla. En un documento que se ejecuta, el ejemplo se marca y la regla se sostiene sin él.
+
+**Prueba:** `La forma declara lector → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`. `Documento que se lee sin ejemplo cuando la regla lo admite → incompleto | Ejemplo marcado en documento que se ejecuta → pasa`.
 **Falsificador:** `[del Prueba] el caso que el Prueba marca como falla`.
 
 ### 1.5 Agnosticismo de era, tecnología y especie
@@ -47,7 +58,7 @@ Las normas no nombran **coordenadas de tiempo, instrumento o especie** —eras, 
 
 Una regla que nombra una era, una tecnología o una especie se vuelve **dependencia**: muere cuando eso cambia. Se escribe por propiedad. **Prueba:** quita el nombre; si la regla sigue, es ley; si no, es herramientas.
 
-Se complementa con el contrato de diseño (`Leyes de Diseño de Instrucciones.md`, `Contratos por Propiedades`). El contrato de agentes lo referencia; no se copia.
+Se complementa con el proceso de creación de procesos (`Proceso de creación de procesos.md`, `Pregunta de entrada`). El proceso de agentes lo referencia; no se copia.
 
 **Excepción:** un ejemplo, un ancla de instrumento actual o un caso de aplicación puede nombrar una tecnología, siempre que esté marcado como ejemplo y la regla se sostenga sin ella. La tecnología no se convierte en el contrato.
 
@@ -109,7 +120,7 @@ Una norma nueva entra solo si pasa el algoritmo. Prohibido crear sin haber pasad
 
 1. **Derivación.** ¿Se deriva de otra norma? → se absorbe o se referencia; no se crea.
 2. **Observabilidad.** ¿Su resultado es observable? → si no, no entra.
-3. **Decisión.** ¿Su ausencia cambia una decisión? → si no, sobra.
+3. **Decisión.** ¿Su ausencia cambia una decisión? → si no, sobra. La decisión se declara en una de dos ramas: **uso vigente**, alguien decide hoy con la salida; o **medida en plazo**, la salida se medirá con un criterio declarado. La rama sin plazo ni criterio no entra.
 4. **Calibración.** ¿Agrega una obligación? → primero se calibra una norma existente: se ajusta su alcance, su Prueba o su ancla.
 5. **Alta.** Solo si ninguna norma existente la sostiene, se crea con `Tipo: [ley|regla|principio] | Dueño: [documento] | Prueba: [caso] | Falsificador: [caso] | Ancla: [si aplica]`.
 
@@ -125,6 +136,8 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 
 **Prueba:** `Derivada → se absorbe o referencia | No observable → no entra | No cambia decisión → sobra | Obligación nueva sin calibrar → no entra | Alta sin tipo, dueño, Prueba o falsificador → no entra`.
 **Falsificador:** `Norma nueva que repite otra | Principio sin resultado observable | Norma que no cambia ninguna decisión | Alta sin calibrar | Norma sin dueño, Prueba o falsificador`.
+
+**Plazo.** Una norma admitida por la rama `medida en plazo` declara `Plazo: [cuándo se mide] | Criterio: [qué resultado la sostiene]`. Si el plazo vence sin criterio dos veces, la norma pasa a académica y se retira: no se renueva por tercera vez.
 
 **Pendientes.** Un documento de la base no lleva pendientes; la lista es local (`.contexto/pendientes.md`). Si una sección es una lista de pendientes, se saca.
 
@@ -178,6 +191,6 @@ La prosa usa una sola lengua, declarada. En español, registro neutro: sin modis
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
 
-- **Diseño:** la estructura de las instrucciones —compuertas, anclas, falsificadores, transiciones, entregable, lector— vive en el contrato de diseño (`Leyes de Diseño de Instrucciones.md`). La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
-- **Agentes:** el umbral de intervención vive en el contrato de agentes (`../Procesos principales/Conversacional.md`, `Umbral de lo necesario`).
-- **Consistencia:** la consistencia entre documentos vive en el contrato de agentes (`../Procesos principales/Conversacional.md`, `Consistencia cruzada`).
+- **Producción:** la creación de procesos —niveles, compuertas, anclas, falsificadores, entregable, admisión— vive en el proceso de creación de procesos (`Proceso de creación de procesos.md`). La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
+- **Agentes:** el umbral de intervención vive en el proceso de agentes (`../Procesos principales/Conversacional.md`, `Umbral de lo necesario`).
+- **Consistencia:** la consistencia entre documentos vive en el proceso de agentes (`../Procesos principales/Conversacional.md`, `Consistencia cruzada`).

@@ -1,21 +1,23 @@
-# Registro de la tarea
+# Proceso de registro
 
-**Unidad:** tarea.
+**Unidad:** tarea. La tarea se describe por su entrada, su falla, su salida y su consumidor; no por quién la ejecuta.
 **Aplica a:** registrar
-**Tipo:** leyes y reglas de registro; mecanismos de fila. La ley falla; la regla se corrige; ninguna entra sin Prueba.
+**Tipo:** proceso de registro con mecanismos de fila. La ley falla; la regla se corrige; ninguna entra sin Prueba.
 **Lector:** autoridad y ejecutor. El registro declara su lector al emitir.
+**Nivel:** 2 de 3. Proceso principal.
 **Alcance:** toda tarea que conserva estado, fuentes o continuidad.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Parte:** 3 de 3 del cuerpo de principios. Conserva.
-**Cuerpo:** `Conversacional` decide y emite; `Autonomo` ejecuta. Esta parte se lee sola: carga en §0 la copia citada del núcleo que necesita.
+**Parte:** 3 de 3 de los procesos principales. Conserva.
+**Procesos hermanos:** `Conversacional` decide y emite; `Autonomo` ejecuta. Esta parte se lee sola: carga en §0 la copia citada del núcleo que necesita.
+**Forma:** `Entra | Falla | Sale | Consume`. Es la forma de todo proceso; rige `../Escritura/Proceso de creación de procesos.md`, `Pregunta de entrada`.
 **Norma:** `Tipo | Enunciado | Prueba | Falsificador | Costo de omitir`. El `Tipo` va por fila porque esta parte mezcla ley y regla en una sola secuencia.
 **Estabilidad:** los números de ley y regla no se reutilizan; una norma retirada deja su número vacío.
 
 ## Tesis
 
-La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar. Es la tercera parte del cuerpo de principios: conserva lo que `Conversacional` decide y `Autonomo` ejecuta, y carga ese núcleo como copia citada en §0.
+La tarea no depende de la conversación: depende del registro. Lo que no se conserva no existe; lo que se lee entero se paga dos veces. El registro no es un diario ni una base de datos: es la forma mínima que permite a otra instancia reconstruir la tarea sin preguntar. Es la tercera parte de los procesos principales: conserva lo que `Conversacional` decide y `Autonomo` ejecuta, y carga ese núcleo como copia citada en §0.
 
 `Agente` se lee como `ejecutor`; la unidad es la tarea.
 
