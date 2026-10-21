@@ -164,7 +164,7 @@ Toda secuencia numerada es continua. Si se quita una sección, se renumera; un n
 **Falsificador:** `Se quita la sección 8 y queda 9 | Se cita un paso que no existe | La numeración cambia sin renumerar`.
 
 ### 1.18 Agnóstico
-Rige la ley de autocontención (`../../faber/constitucion.md` §2): todo documento es agnóstico a era, especie y tecnología. Las implementaciones se nombran solo como ejemplo marcado; los ejemplos no definen el documento.
+Rige la ley de autocontención (`../../faber/mantenimiento/leer.md` §9): todo documento es agnóstico a era, especie y tecnología. Las implementaciones se nombran solo como ejemplo marcado; los ejemplos no definen el documento.
 
 **Prueba:** ¿el documento cita una era, especie o tecnología como definición? ¿Los ejemplos están marcados?
 **Falsificador:** un documento que define «script» como «script»; «humano» como lector; «hoy» como marco.
