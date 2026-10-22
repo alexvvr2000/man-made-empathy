@@ -34,20 +34,20 @@ Práctica de industria: gestión de configuración. La documentación debe refle
 
 ## El nivel
 
-Un archivo está en el nivel correcto si dice **cómo tiene que ser** (estándar, va en `corpus/`), **qué se hace hoy** (instancia, va en su parte), **con qué** (implementación, va en `Agentes/`), o **qué pasó una vez** (caso, no va en `corpus/`).
+Un archivo está en el nivel correcto si dice **cómo tiene que ser** (estándar, va en `1 Tesis/`), **qué se hace hoy** (instancia, va en su parte), **con qué** (implementación, va en `Era/`), o **qué pasó una vez** (caso, no va en `1 Tesis/`).
 
 | Señal | Nivel | Si está mal ubicado |
 |---|---|---|
-| se aplica a más de una instancia | estándar | le falta `corpus/` |
-| cambia cuando cambia el interior | instancia | no puede vivir en `corpus/` |
-| depende de una tecnología, lenguaje o modelo | implementación | no puede vivir fuera de `Agentes/` |
-| describe un caso, una obra o un hecho con fecha | caso | no entra en `corpus/` |
+| se aplica a más de una instancia | estándar | le falta `1 Tesis/` |
+| cambia cuando cambia el interior | instancia | no puede vivir en `1 Tesis/` |
+| depende de una tecnología, lenguaje o modelo | implementación | no puede vivir fuera de `Era/` |
+| describe un caso, una obra o un hecho con fecha | caso | no entra en `1 Tesis/` |
 
-**Un estándar en el nivel equivocado es invisible como estándar:** se lee como un hermano de lo que estandariza, y nadie sabe cuál manda. Rige `../../corpus/README.md`.
+**Un estándar en el nivel equivocado es invisible como estándar:** se lee como un hermano de lo que estandariza, y nadie sabe cuál manda. Rige `../../1 Tesis/README.md`.
 
 **Prueba del nivel:** ¿el documento se aplica a más de una instancia? ¿puede sobrevivir a que cambie el interior?
 
-**Falsificador del nivel:** un estándar dentro de una instancia; un caso dentro de `corpus/`; un documento sin nivel declarado; una implementación fuera de `Agentes/`.
+**Falsificador del nivel:** un estándar dentro de una instancia; un caso dentro de `1 Tesis/`; un documento sin nivel declarado; una implementación fuera de `Era/`.
 
 ## La jerga
 

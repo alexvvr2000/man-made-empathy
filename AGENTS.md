@@ -12,11 +12,23 @@ Un lenguaje de procesos para agentes. Los procesos son agnósticos a la era; lo 
 
 | Parte | Qué contiene | Se carga cuando |
 |---|---|---|
-| `Ouroboros/` | los procesos que producen, aplican, mutan y dan forma | el cambio toca un proceso |
-| `S.A.R.A/` | las abstracciones: qué construir y por qué | el cambio toca una sub-tarea o una prueba |
-| `Agentes/` | una implementación concreta | el cambio es de una era, no de la base |
+| `1 Tesis/` | la tesis en obra: la forma todavía sin aplanar | el cambio toca un estándar |
+| `2 Ouroboros/` | la tarea de tres pasos: `1 Guantelete/`, `2 S.A.R.A/`, `ATLAS/` | el cambio toca un paso |
+| `Era/` | una implementación concreta | el cambio es de una era, no de la base |
 | `mantis/` | cómo se edita, audita y verifica | **siempre** |
 | `.contexto/` | el registro de lo que el sistema decidió | cuando una decisión se conserva |
+
+## La tesis
+
+**El proyecto está en cambio.** `./1 Tesis/notas.md` **es la memoria de la conversación: lo que sobrevive cuando el contexto se llena.**
+
+**Mutar `./1 Tesis/notas.md` es la máxima prioridad.** Lo que se dice acá que valga para la tesis entra ahí en el mismo turno, **tal cual, sin clasificar de antemano**: analogías, referencias, citas, decisiones, lo que se descartó y por qué. **Si no está en notas, se pierde con el contexto.**
+
+**Cuando la tesis acabe, se crea desde 0 con notas:** lo mejor que ya había, lo nuevo, y viendo cómo explicar lo que falta. **Nada sale de notas hacia afuera sin que la autoridad lo decida.**
+
+**La tesis es una afirmación que se defiende, y es del autor.** La analogía y la ficción son parte de cómo se defiende: se usan, no se piden permiso. Lo que se aplana son **N archivos entendibles por todos.**
+
+**El deterrente muta; la carta lo lee.** `./mantis/deterrente.md`, `Muta:` es donde se declara qué cambia y qué conserva MANTIS. **Un deterrente que no muta ya no es IA: es un archivo.**
 
 ## Derrotero
 

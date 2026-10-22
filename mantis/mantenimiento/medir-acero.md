@@ -11,7 +11,7 @@ Un sistema parece funcionar y no es ACERO. Se mantenía, pero no se puede reempl
 
 ACERO es el criterio de cualquier agente, no de uno. MANTIS es una instancia y se mide con el mismo proceso con que mediría a otro.
 
-**Piso.** ACERO se mide con `../../corpus/piso.md`, no a mano. Dos medidores distintos midiendo el mismo sistema tienen que llegar al mismo veredicto; si no, lo que se midió no era ACERO: era el criterio del medidor. Un ACERO que solo se puede medir a ojo no es ACERO, es una opinión compartida.
+**Piso.** ACERO se mide con `../../1 Tesis/piso.md`, no a mano. Dos medidores distintos midiendo el mismo sistema tienen que llegar al mismo veredicto; si no, lo que se midió no era ACERO: era el criterio del medidor. Un ACERO que solo se puede medir a ojo no es ACERO, es una opinión compartida.
 
 ## Pregunta de entrada
 

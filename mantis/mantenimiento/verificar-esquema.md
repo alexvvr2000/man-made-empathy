@@ -20,7 +20,7 @@ El esquema de fila define los campos del registro y nadie los comprueba. Una bas
 
 ## Cómo se aplica
 
-1. **Leer el esquema documentado.** Los campos de `../../corpus/esquema-de-fila.md`.
+1. **Leer el esquema documentado.** Los campos de `../../1 Tesis/esquema-de-fila.md`.
 2. **Leer la tabla real.** `select name from pragma_table_info('fila')` sobre `.contexto/memoria.db`.
 3. **Comparar.** Campo documentado sin columna = falta. Columna sin campo documentado = sobra.
 4. **Correr las vistas de error.** `v_fila_sin_origen`, `v_fila_sin_descarte`, `v_criterio_tardio`. Toda fila que aparezca es una violación.
@@ -36,7 +36,7 @@ El esquema de fila define los campos del registro y nadie los comprueba. Una bas
 
 ## Estado
 
-El esquema se define en `../../corpus/esquema-de-fila.md`. La base vive en `../../.contexto/`. Si la base se corrompe, se reconstruye: el `.md` es la fuente.
+El esquema se define en `../../1 Tesis/esquema-de-fila.md`. La base vive en `../../.contexto/`. Si la base se corrompe, se reconstruye: el `.md` es la fuente.
 
 ## Transiciones
 
