@@ -3,7 +3,7 @@
 **Unidad:** proceso. Lo que se transforma es el proceso, no la tarea.
 **Aplica a:** mutar.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los cinco de `Ouroboros`.
+**Nivel:** primitivo. Uno de los primitivos del guantelete.
 **Alcance:** toda transformación de un proceso desde un estado inicial.
 **Dueño:** la autoridad.
 **Estado:** vigente.

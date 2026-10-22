@@ -5,7 +5,7 @@
 **Reemplaza:** `Proceso de creación de procesos`. El nombre viejo ya no era exacto: el proceso no solo crea, también reemplaza, calibra y retira. Manipular incluye las cuatro.
 **Tipo:** proceso. Se ejecuta, no se interpreta.
 **Lector:** quien produce procesos y quien los ejecuta.
-**Alcance:** todo proceso de este repositorio.
+**Alcance:** todo proceso de la situación actual.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 

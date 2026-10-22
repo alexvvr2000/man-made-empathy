@@ -34,6 +34,18 @@ Lo que un subproceso produce no se pierde cuando termina: queda en su registro y
 - **Sale:** un subproceso con contrato completo, y sus conceptos dados de alta/
 - **Consume:** el agente que lo carga, y `Registro` que lo conserva/
 
+## No se crea sin integridad
+
+**Antes de crear, integridad corre.** No es opcional y no lo decide el criterio: **PROMETEA la llama sí o sí antes de hacer algo con el subproceso.**
+
+**Por qué:** integridad no solo rellena huecos — **también puede rehacer todo desde 0.** Si PROMETEA crea sin llamarla, **puede pasar que el proceso se use sin que nadie se dé cuenta de que en realidad era un momento de rehacer, no de agregar.**
+
+**PROMETEA es un proceso estándar ya no se preocupa por fantasmas:** su regla es **no crear implícitos**. Lo que queda fuera del subproceso se cierra en la creación o no se crea.
+
+Rige ./integridad.md, Cuándo se usa.
+
+**Prueba:** ¿integridad corrió antes de crear? ¿el veredicto fue hueco o desde 0?
+**Falsificador:** un subproceso creado sin integridad corrida; un indicio de rehacer tratado como hueco; un implícito que se deja para después.
 ## Cómo se crea
 
 1/ **Nombrar la falta/** Qué función del agente no está cubierta/ Sin falta nombrada, no hay subproceso: hay duplicado/

@@ -154,7 +154,33 @@ Ese proceso se escribe en la corrida/ **No se deja para después/**
 
 ## Cuándo se usa
 
-**Antes** de mutar, **después** de una serie, y **cuando la tarea ya no se entiende/** Nunca durante: un chequeo a medias no encuentra lo que busca/
+**Siempre, antes de mutar**, después de una serie, y cuando la tarea ya no se entiende. Nunca durante: un chequeo a medias no encuentra lo que busca.
+
+**El criterio no decide si corre.** Un criterio decide **cuándo** llamar a un proceso, y eso lo inclina a los implícitos que le convienen: **puede ofuscar porque le acomoda.** Integridad no es una herramienta del criterio: **es su límite.** No tiene interés en el resultado, y por eso es la verdad del momento.
+
+## El triángulo
+
+**La integridad no se saca con dos puntos.** Se saca con tres vértices, y los tres son obligatorios:
+
+| Vértice | Qué aporta | Sin él |
+|---|---|---|
+| **el ente** | `rastro.md` + `ruta.md` + `carga.md`: qué hay, qué se carga y qué se pierde | no hay cuerpo que verificar: es fantasma |
+| **el sesgo declarado** | desde dónde mira quien muta | el veredicto se saca con dos puntos y se llama triángulo |
+| **lo que hay** | el estado medible de la situación actual | se juzga contra lo que se creía, no contra lo que está |
+
+**El sesgo no es un adorno: es lo que se adapta.** Lo que sale de un proceso muchas veces se ajusta a quien lo mira, **como la física llevada al extremo: el resultado no existe igual para dos observadores.** Declararlo no lo corrige; **lo vuelve comparable.** Rige `../1 Guantelete — primitivo/mutaciones/sesgo-declarado.md`, `Por qué es una gema y no un adorno`.
+
+```
+Corre: siempre, antes de mutar. El criterio no decide si corre.
+Ente: [Rastro sí/no | Ruta sí/no | Carga sí/no] | Fantasma: [sí|no]
+Sesgo: [declarado por quien muta | FALTA - no hay veredicto]
+Lo que hay: [medido por: inventario|indice|lectura de archivos]
+Veredicto: [pasa|falla|indeterminado]
+```
+
+**La honestidad sale de ahí, y es un efecto, no un objetivo.** Un triángulo con los tres vértices no deja nada fuera: **el veredicto es honesto porque no le queda de dónde no serlo.** Perseguirla sería un target, y un target en un efecto lo rompe: el criterio aprendería a **parecer** honesto, que es la ofuscación que esta regla evita.
+
+**Falsificador:** un criterio que decide no correr integridad; un veredicto sin el sesgo declarado; una triangulación con dos vértices; un implícito encontrado y no escrito; un veredicto que dice `pasa` sin haber medido lo que hay.
 
 ## Proceso
 

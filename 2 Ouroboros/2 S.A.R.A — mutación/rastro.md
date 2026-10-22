@@ -88,7 +88,7 @@
 
 1. **Cada sub-tarea declara deterrente, fallo que cubre, piso y procesos.** Rige `../formato de proceso.md`, `La sub-tarea`.
 2. **Cada proceso declara `Falsificador`.** Sin él es una opinión, y no entra.
-3. **`integridad.md` corre antes de mutar.** Un chequeo a mano no cuenta: corre sobre el repo o no corrió.
+3. **`integridad.md` corre antes de mutar.** Un chequeo a mano no cuenta: corre sobre lo que hay o no corrió.
 4. **La reconstrucción no necesita al autor.** Otra instancia lee el rastro y rehace el cambio.
 
 ## Prueba

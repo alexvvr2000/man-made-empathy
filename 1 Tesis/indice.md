@@ -40,10 +40,10 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 |---|---|---|---|
 | `1 Tesis` | `Conceptos.md` | estandar | 108 |
 | `1 Tesis` | `Derrotero y Carta.md` | estandar | 125 |
-| `1 Tesis` | `desechos del estandar.md` | estandar | 1 |
+| `1 Tesis` | `desechos del estandar.md` | estandar | 715 |
 | `1 Tesis` | `esquema-de-fila.md` | estandar | 67 |
 | `1 Tesis` | `formato.md` | formato | 183 |
-| `1 Tesis` | `indice.md` | indice | 167 |
+| `1 Tesis` | `indice.md` | indice | 168 |
 | `1 Tesis` | `Inicial.md` | estandar | 104 |
 | `1 Tesis` | `notas.md` | estandar | 100 |
 | `1 Tesis` | `piso.md` | estandar | 88 |
@@ -69,13 +69,13 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros` | `formato de ente.md` | formato | 72 |
 | `2 Ouroboros` | `formato de proceso.md` | formato | 153 |
 | `2 Ouroboros` | `mutacion.md` | proceso | 83 |
-| `2 Ouroboros` | `piso.md` | proceso | 78 |
+| `2 Ouroboros` | `piso.md` | proceso | 82 |
 | `2 Ouroboros/1 Guantelete — primitivo` | `carga.md` | proceso | 97 |
 | `2 Ouroboros/1 Guantelete — primitivo` | `rastro.md` | proceso | 105 |
 | `2 Ouroboros/1 Guantelete — primitivo` | `ruta.md` | proceso | 67 |
 | `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `friccion.md` | proceso | 141 |
 | `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `README.md` | puerta | 41 |
-| `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `sesgo-declarado.md` | proceso | 142 |
+| `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `sesgo-declarado.md` | proceso | 146 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `aplicar.md` | proceso | 93 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `claridad.md` | proceso | 230 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `ingenieria-inversa.md` | proceso | 81 |
@@ -84,9 +84,9 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `README.md` | puerta | 36 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `retiro.md` | proceso | 112 |
 | `2 Ouroboros/2 S.A.R.A — mutación` | `carga.md` | proceso | 73 |
-| `2 Ouroboros/2 S.A.R.A — mutación` | `decisión.md` | proceso | 101 |
-| `2 Ouroboros/2 S.A.R.A — mutación` | `integridad.md` | proceso | 349 |
-| `2 Ouroboros/2 S.A.R.A — mutación` | `Proceso PROMETEA.md` | proceso | 94 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `decisión.md` | proceso | 111 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `integridad.md` | proceso | 375 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `Proceso PROMETEA.md` | proceso | 106 |
 | `2 Ouroboros/2 S.A.R.A — mutación` | `rastro.md` | proceso | 104 |
 | `2 Ouroboros/2 S.A.R.A — mutación` | `ruta.md` | proceso | 77 |
 | `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `entender-salida.md` | proceso | 46 |

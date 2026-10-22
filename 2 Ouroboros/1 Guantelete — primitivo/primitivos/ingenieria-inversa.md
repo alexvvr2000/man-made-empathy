@@ -3,7 +3,7 @@
 **Unidad:** tarea.
 **Aplica a:** deducir.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los cinco de `Ouroboros`. Produce procesos a partir de lo observable.
+**Nivel:** primitivo. Uno de los primitivos del guantelete. Produce procesos a partir de lo observable.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.

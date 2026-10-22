@@ -5,6 +5,10 @@
 **Tipo:** proceso de discernimiento. No corrige el sesgo: lo vuelve visible.
 **Lector:** quien va a mirar algo nuevo, y quien va a evaluar lo que otro produjo.
 **Nivel:** mutación de `claridad`. No es primitivo: nace de ella y declara qué conserva.
+
+**Por qué es una gema y no un adorno.** **Lo que sale de un proceso muchas veces se adapta a quien lo mira**, como la física llevada al extremo: **el resultado no existe igual para dos observadores.** Un sesgo declarado no corrige eso —lo vuelve visible—, y eso es lo único que permite comparar dos salidas sin fingir que son la misma.
+
+**Sin `sesgo-declarado` en la cadena, integridad no puede triangular:** su tercer vértice es el sesgo, y sin él el veredicto se saca con dos puntos y se llama triángulo. Rige `../../2 S.A.R.A — mutación/integridad.md`, `El triángulo`.
 **Alcance:** toda idea, propuesta o evaluación que no cabe en lo que ya se sabe.
 **Dueño:** la autoridad.
 **Estado:** vigente.

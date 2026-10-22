@@ -3,7 +3,7 @@
 **Unidad:** proceso.
 **Aplica a:** aplicar.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los cinco de `Ouroboros`.
+**Nivel:** primitivo. Uno de los primitivos del guantelete.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.

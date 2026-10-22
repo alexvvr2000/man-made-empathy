@@ -7,10 +7,10 @@
 **Unidad:** proceso.
 **Aplica a:** escribir.
 **Tipo:** proceso de claridad. Se aplica al escribir, al editar y al emitir.
-**Nivel:** primitivo. Uno de los cinco de `Ouroboros`. Es la fuente de la que se muta: `fricción` y `sesgo declarado` nacen de él.
+**Nivel:** primitivo. Uno de los primitivos del guantelete. Es la fuente de la que se muta: `fricción` y `sesgo declarado` nacen de él.
 **Requiere:** ninguno.
 **Compatible con:** `Proceso de manipulacion de procesos`, `Procesos principales`.
-**Alcance:** todo artefacto de este repositorio.
+**Alcance:** todo artefacto de la situación actual.
 
 ## Entra | Falla | Sale | Consume
 

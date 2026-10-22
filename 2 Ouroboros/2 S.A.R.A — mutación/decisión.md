@@ -21,6 +21,16 @@
 
 **Ouroboros da la fricción/ S/A/R/A da el criterio/** Por eso esta pieza vive aquí y no en el lenguaje/
 
+## El criterio no decide si integridad corre
+
+**Un criterio decide cuándo llamar a un proceso, y eso lo inclina a los implícitos que le convienen: puede ofuscar porque le acomoda.**
+
+**Integridad no es una herramienta del criterio: es su límite.** Corre siempre antes de mutar, y el criterio solo decide **qué se hace con su veredicto**. Sin integridad corrida, el criterio no puede decidir.
+
+Rige ./integridad.md, Cuándo se usa, El triángulo.
+
+**Prueba:** ¿se corrió integridad antes de decidir? ¿el criterio declaró que corrió, o la saltó?
+**Falsificador:** una decisión que se toma sin integraridad corrida; un criterio que se salta el triángulo porque le conviene; un veredicto presentado como criterio cuando era una ofuscación.
 ## Proceso
 
 ### 1/ Nombrar la decisión que se va a repetir
