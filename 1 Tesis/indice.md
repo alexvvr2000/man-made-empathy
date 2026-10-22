@@ -150,16 +150,15 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
-| `mantis` | `Derrotero.md` | proceso | 49 |
+| `mantis` | `Derrotero.md` | proceso | 54 |
 | `mantis` | `deterrente.md` | deterrente | 80 |
 | `mantis/mantenimiento` | `auditar-configuracion.md` | proceso | 75 |
-| `mantis/mantenimiento` | `editar.md` | proceso | 150 |
+| `mantis/mantenimiento` | `editar.md` | proceso | 157 |
 | `mantis/mantenimiento` | `medir-acero.md` | proceso | 51 |
-| `mantis/mantenimiento` | `verificar-esquema.md` | proceso | 41 |
 
 ## Totales
 
-`Archivos: 108 | procesos: 63 | estandares: 18`
+`Archivos: 107 | procesos: 62 | estandares: 18`
 
 ## Prueba
 

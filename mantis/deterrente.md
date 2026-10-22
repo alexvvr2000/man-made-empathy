@@ -62,7 +62,7 @@ mantis/                          ← la tarea. Este archivo.
 
 **No es una persona.** Es el nombre del derrotero, y lo implementa cualquier agente que lo cargue.
 
-**No es un estándar.** Aplica la forma de `../1 Tesis/`; no la define. Si la contradice, gana el estándar y MANTIS se corrige.
+**No es un estándar.** Aplica la forma de `../2 Ouroboros/`; no la define. Si la contradice, gana el estándar y MANTIS se corrige.
 
 **No es una era.** No caduca cuando cambia la herramienta: caduca si deja de decir qué se pierde sin él.
 

@@ -1,9 +1,11 @@
 # Editar
 
-**Tipo:** proceso de mantenimiento. Once pasos, en orden. Vuelve sobre Ouroboros y sobre las abstracciones.
-**Alcance:** `../../2 Ouroboros/1 Guantelete — primitivo/`, `../../2 Ouroboros/2 S.A.R.A — mutación/`, `../../Era/` y `../../.contexto/`. La implementación de una era no entra salvo que el cambio la produzca.
+**Tipo:** proceso de mantenimiento. Once pasos, en orden. Vuelve sobre el estándar y sobre la tesis.
+**Alcance:** `../../2 Ouroboros/`, `../../1 Tesis/`, `../../Era/` y `../../.contexto/`. La implementación de una era no entra salvo que el cambio la produzca.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
 **Claridad:** `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md`.
+**Integridad:** `../../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`. **Corre siempre antes de mutar.**
+**Notas:** `../../AGENTS.md`, `Escribir notas`. Un turno con decisión y sin fila no está entregado.
 **Manipulación de procesos:** `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`.
 
 ## Parámetros del repo
@@ -32,25 +34,30 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 
 | Nivel | Parte | Documento | Gobierna | Entra el proceso que... |
 |---|---|---|---|---|
-| **Estándar** | Corpus | `1 Tesis/README.md` | la forma de todas las demás | dice cómo tiene que ser algo, para más de una instancia |
-| **Estándar** | Corpus | `1 Tesis/formato de ente.md` | el enrutamiento | declara condición, proceso, nivel y consecuencia |
-| **Estándar** | Corpus | `1 Tesis/Conceptos.md` | el origen de los nombres | da alta un término |
-| **Estándar** | Corpus | `1 Tesis/esquema-de-fila.md` | la forma del rastro | cambia lo que todo proceso escribe al actuar |
-| **Estándar** | Corpus | `2 Ouroboros/3 ATLAS — mutación/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
+| **Estándar** | Ouroboros | `2 Ouroboros/formato de proceso.md` | la forma del proceso | dice cómo tiene que ser un proceso |
+| **Estándar** | Ouroboros | `2 Ouroboros/formato de ente.md` | la forma del ente | dice cómo se lee un ente |
+| **Estándar** | Ouroboros | `2 Ouroboros/CRITERIO.md` | la puerta | impide que el criterio se vuelva absoluto |
+| **Estándar** | Ouroboros | `2 Ouroboros/piso.md` | la ejecución | dice qué corre igual en cualquier ejecutor |
+| **Estándar** | Ouroboros | `2 Ouroboros/mutacion.md` | la transformación | dice qué nombre y lugar tiene un cambio |
+| **Estándar** | Tesis | `1 Tesis/README.md` | el porqué de los niveles | explica; no rige |
+| **Tesis** | Tesis | `1 Tesis/Conceptos.md` | el origen de los nombres | da alta un término; lo cita la mutación |
+| **Tesis** | Tesis | `1 Tesis/esquema-de-fila.md` | la forma del rastro | cambia lo que todo proceso escribe al actuar |
+| **Instancia** | Ouroboros | `2 Ouroboros/3 ATLAS — mutación/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md` | produce procesos | produce o reemplaza un proceso |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/ingenieria-inversa.md` | deduce procesos | saca un proceso de lo observable |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/mutacion.md` | la transformación | gobierna origen, cambio o retorno |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
-| **Instancia** | Abstracción | `2 Ouroboros/2 S.A.R.A — mutación/punto-de-partida/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
-| **Instancia** | Abstracción | `2 Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso del agente |
-| **Instancia** | Abstracción | `1 Tesis/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
+| **Instancia** | Ouroboros | `2 Ouroboros/2 S.A.R.A — mutación/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
+| **Instancia** | Ouroboros | `2 Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso, con integridad antes |
+| **Tesis** | Tesis | `1 Tesis/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
+| **Tesis** | Tesis | `1 Tesis/notas.md` | la memoria | guarda lo que se dijo y el porqué |
 | **Implementación** | Era | `Era/` | una era | traduce un proceso a su era |
-| **Registro** | Datos | `.contexto/memoria.sql` | los datos | registra una fila o un concepto |
+| **Registro** | Memoria | `1 Tesis/notas.md` | la memoria de la conversación | anota la decisión, la frase o el descarte en el mismo turno |
 
 **Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **con qué** es implementación. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `1 Tesis/`.
 
-**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca Ouroboros, se ejecuta antes `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md` y se mide su efecto en los que componen con él.
+**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca el estándar de `2 Ouroboros/`, se ejecuta antes `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md` y se mide su efecto en los que componen con él.
 
 **Gana el estándar.** Una instancia no puede contradecir su estándar. Si lo contradice, la instancia se corrige, y si la instancia tenía razón, primero se corrige el estándar y después se propaga.
 
@@ -62,7 +69,7 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 
 **Jerga.** Un nombre interno se usa en el documento que lo gobierna. Fuera de ahí entra con glosa, o no entra. Un nombre interno no sostiene un argumento: si la frase pierde sentido al quitárselo, el argumento era el nombre. Rige `./auditar-configuracion.md`, `La jerga`.
 
-`Origen: [raíz|corpus|Ouroboros|S.A.R.A|Agentes|mantis] | Nivel: [estándar|instancia|implementación|caso] | Ruta: [la del archivo] | El lector sabe: [sí|con glosa|no]`
+`Origen: [raíz|Tesis|Ouroboros|Era|mantis] | Nivel: [estándar|instancia|implementación|caso] | Ruta: [la del archivo] | El lector sabe: [sí|con glosa|no]`
 
 **Prueba:** ¿la obligación estaba ya? ¿el destino es uno y su `Aplica a` coincide? ¿el nivel se declaró? ¿la frase se entiende sin conocer el repo?
 **Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que lo gobierna; se toca más de una parte sin declararlo; una frase que pierde sentido al quitarle un nombre interno o una ruta; un estándar sin sus instancias revisadas; un caso presentado como estándar.
@@ -121,7 +128,7 @@ Se ejecuta `./auditar-configuracion.md` cuando el cambio altera conteos, nombres
 **Sale:** los dependientes revisados o declarados fuera de alcance.
 **Falla si:** se cambia una pieza y se deja un documento que la cita con otro significado.
 
-**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `2 Ouroboros/2 S.A.R.A — mutación/decisión.md` y el mapa de sub-tareas. Si toca la base, se ejecuta `./verificar-esquema.md`. Si cambia una tarea o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio.
+**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `2 Ouroboros/2 S.A.R.A — mutación/decisión.md` y el mapa de sub-tareas. Si produce una decisión, se anota en `1 Tesis/notas.md`. Si cambia una tarea o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio.
 
 **Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`, `Lo que funciona ya está viejo`.
 

@@ -28,20 +28,20 @@
 
 ## El nivel
 
-Un archivo está en el nivel correcto si dice **cómo tiene que ser** (estándar, va en `1 Tesis/`), **qué se hace hoy** (instancia, va en su parte), **con qué** (implementación, va en `Era/`), o **qué pasó una vez** (caso, no va en `1 Tesis/`).
+Un archivo está en el nivel correcto si dice **cómo tiene que ser** (estándar, va en `2 Ouroboros/`), **qué se hace hoy** (instancia, va en su parte), **con qué** (implementación, va en `Era/`), o **qué pasó una vez** (caso, no va en `1 Tesis/`).
 
 | Señal | Nivel | Si está mal ubicado |
 |---|---|---|
-| se aplica a más de una instancia | estándar | le falta `1 Tesis/` |
-| cambia cuando cambia el interior | instancia | no puede vivir en `1 Tesis/` |
+| se aplica a más de una instancia | estándar | le falta `2 Ouroboros/` |
+| cambia cuando cambia el interior | instancia | no puede vivir en `2 Ouroboros/` |
 | depende de una tecnología, lenguaje o modelo | implementación | no puede vivir fuera de `Era/` |
-| describe un caso, una obra o un hecho con fecha | caso | no entra en `1 Tesis/` |
+| describe un caso, una obra o un hecho con fecha | caso | no entra en `2 Ouroboros/` |
 
-**Un estándar en el nivel equivocado es invisible como estándar:** se lee como un hermano de lo que estandariza, y nadie sabe cuál manda. Rige `../../1 Tesis/README.md`.
+**Un estándar en el nivel equivocado es invisible como estándar:** se lee como un hermano de lo que estandariza, y nadie sabe cuál manda. Rige `../../2 Ouroboros/formato de proceso.md`.
 
 **Prueba del nivel:** ¿el documento se aplica a más de una instancia? ¿puede sobrevivir a que cambie el interior?
 
-**Falsificador del nivel:** un estándar dentro de una instancia; un caso dentro de `1 Tesis/`; un documento sin nivel declarado; una implementación fuera de `Era/`.
+**Falsificador del nivel:** un estándar dentro de una instancia; un caso dentro de `2 Ouroboros/`; un documento sin nivel declarado; una implementación fuera de `Era/`.
 
 ## La jerga
 
@@ -49,7 +49,7 @@ Un nombre interno es válido en el documento que lo gobierna. En cualquier otro 
 
 | Nombre interno | Dónde es legítimo | Qué se escribe fuera de ahí |
 |---|---|---|
-| `memoria.db`, `.contexto/` | `README` de MANTIS, `verificar-esquema.md`, `declarar-inesperado.md` | «lo que el sistema registró», sin nombrar el archivo |
+| `notas.md` | `README` de MANTIS, `AGENTS.md` | «lo que se anotó», sin nombrar el archivo |
 | `Ouroboros`, `S.A.R.A`, `MANTIS`, `ARDOR`, `ACERO` | su `README` y su `Derrotero` | se nombra y se glosa la primera vez en el documento |
 | una ruta (`./x/y.md`) | como enlace o como cita de fuente | el lector es una persona: se nombra la pieza, no el archivo |
 | un campo del esquema (`Vacío:`, `Retiene`) | el proceso que lo define | se explica en palabras antes de usarlo como argumento |
