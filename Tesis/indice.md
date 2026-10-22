@@ -54,18 +54,18 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
 | `Ouroboros` | `CRITERIO.md` | proceso | 107 |
-| `Ouroboros` | `formato de ente.md` | formato | 95 |
+| `Ouroboros` | `formato de ente.md` | formato | 97 |
 | `Ouroboros` | `formato de proceso.md` | formato | 220 |
 | `Ouroboros` | `mutacion.md` | proceso | 83 |
 | `Ouroboros` | `piso.md` | proceso | 90 |
 | `Ouroboros/1 Guantelete — primitivo` | `carga.md` | proceso | 64 |
 | `Ouroboros/1 Guantelete — primitivo` | `rastro.md` | proceso | 77 |
-| `Ouroboros/1 Guantelete — primitivo` | `ruta.md` | proceso | 80 |
+| `Ouroboros/1 Guantelete — primitivo` | `ruta.md` | proceso | 81 |
 | `Ouroboros/1 Guantelete — primitivo/extensiones` | `sesgo-declarado.md` | proceso | 147 |
 | `Ouroboros/1 Guantelete — primitivo/herramientas` | `aplicar.md` | proceso | 93 |
-| `Ouroboros/1 Guantelete — primitivo/herramientas` | `claridad.md` | proceso | 238 |
+| `Ouroboros/1 Guantelete — primitivo/herramientas` | `claridad.md` | proceso | 239 |
 | `Ouroboros/1 Guantelete — primitivo/herramientas` | `ingenieria-inversa.md` | proceso | 81 |
-| `Ouroboros/1 Guantelete — primitivo/herramientas` | `manipulacion.md` | proceso | 197 |
+| `Ouroboros/1 Guantelete — primitivo/herramientas` | `manipulacion.md` | proceso | 201 |
 | `Ouroboros/1 Guantelete — primitivo/herramientas` | `mutar.md` | proceso | 162 |
 | `Ouroboros/1 Guantelete — primitivo/herramientas` | `README.md` | puerta | 36 |
 | `Ouroboros/1 Guantelete — primitivo/herramientas` | `retiro.md` | proceso | 116 |

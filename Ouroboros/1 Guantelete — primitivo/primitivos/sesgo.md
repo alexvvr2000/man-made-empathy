@@ -53,7 +53,7 @@ Toda pieza del guantelete declara, al lado de sus variables:
 
 ```
 Sesgo: [la posición desde la que se sostiene]
-No se aplica a: [el límite: qué queda fuera]
+Límite: [No se aplica a qué: qué queda fuera]
 Firma: [quién puede contestarla: tipo:nombre | comunidad | ninguno]
 Indeterminado hasta: [qué la vuelve firmable]
 Continuidad: [veces revisada | última | qué cambió | contra qué]
@@ -88,7 +88,7 @@ El sesgo declarado se mide en dos roturas, y las dos son del guantelete.
 
 ¿La pieza declara su posición y su límite? ¿El firmante es distinto del que la produjo, o se declaró `ninguno`? ¿El veredicto es `indeterminado` cuando no hay firmante? ¿Alineación y desviación están declaradas, o rotas, o en espera?
 
-**Falsificador:** una pieza del guantelete sin `Sesgo:` ni `No se aplica a:`; un veredicto `pasa` firmado por quien produjo la pieza; una pieza que se presenta como neutral; la idea se descarta por no caber y sin nombrar la regla; la firma queda vacía y el veredicto se pone igual.
+**Falsificador:** una pieza del guantelete sin `Sesgo:` ni `Límite:`; un veredicto `pasa` firmado por quien produjo la pieza; una pieza que se presenta como neutral; la idea se descarta por no caber y sin nombrar la regla; la firma queda vacía y el veredicto se pone igual.
 
 ## Transiciones
 

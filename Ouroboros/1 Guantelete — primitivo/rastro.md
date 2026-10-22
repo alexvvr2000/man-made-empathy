@@ -6,7 +6,7 @@
 
 **Unidad:** tarea.
 **Aplica a:** sostener.
-**Tipo:** tarea de paso 1. No produce poder: sostiene las reglas que ordenan todo lo demás.
+**Tipo:** tarea de paso .. No produce poder: sostiene las reglas que ordenan todo lo demás.
 **Lector:** quien va a producir, mutar o aplicar un proceso.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -18,7 +18,7 @@
 
 ## Qué es
 
-El **paso 1** de `Ouroboros/`. Su tarea es fijar **desde dónde se sostiene cada regla**, y quién puede contestarla.
+El **paso .** de `Ouroboros/`. Su tarea es fijar **desde dónde se sostiene cada regla**, y quién puede contestarla.
 
 **Una regla no se sostiene sola: se sostiene desde un sitio.** Una regla que no dice desde dónde habla es la que nadie puede revisar, y una regla que nadie puede revisar termina decidiendo por costumbre. Por eso esta tarea no junta piezas: **exige que cada pieza declare su posición, su límite y su firmante.**
 
@@ -58,7 +58,7 @@ El **paso 1** de `Ouroboros/`. Su tarea es fijar **desde dónde se sostiene cada
 
 ## Cómo se verifica
 
-1. **Cada pieza declara `Sesgo`, `No se aplica a`, `Firma` y `Continuidad`.** Rige `./primitivos/sesgo.md`.
+1. **Cada pieza declara `Sesgo`, `Límite`, `Firma` y `Continuidad`.** Rige `./primitivos/sesgo.md`.
 2. **Alineación y desviación se declaran**: rotas, firmadas, o en espera. Rige `./primitivos/sesgo.md`, `Alineación y desviación`.
 3. **La fricción no tiene rama de imposición.** Rige `./primitivos/friccion.md`.
 4. **Las herramientas no se cargan sin una pieza que las sostenga.** Rige `./ruta.md`.
@@ -73,5 +73,5 @@ El **paso 1** de `Ouroboros/`. Su tarea es fijar **desde dónde se sostiene cada
 
 - Una pieza deja de sostenerse → `./herramientas/retiro.md`.
 - Una regla se descarta sin nombrar la que rompe → `./primitivos/sesgo.md`, `Transiciones`.
-- El paso 1 se cierra → `../2 S.A.R.A — mutación`.
+- El paso . se cierra → `../2 S.A.R.A — mutación`.
 - En cualquier otro caso → se entrega con su sesgo declarado y su firma.

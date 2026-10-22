@@ -23,6 +23,8 @@
 
 **Rastro dice qué hubo; Ruta dice por dónde ir hoy; Carga es lo que se lleva y no se puede soltar sin perder algo.**
 
+**Las tres piezas son procesos, no textos.** Se escriben con el formato de `./formato de proceso.md`: nueve campos, cuatro condicionales y cuerpo en forma. Un ente cuyas piezas son prosa tiene el cuerpo de un ente y los órganos de un archivo.
+
 ## La forma
 
 ```

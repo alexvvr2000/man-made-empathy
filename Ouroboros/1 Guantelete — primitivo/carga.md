@@ -24,7 +24,7 @@
 
 - **Entra:** el guantelete en uso.
 - **Falla si:** no dice qué se pierde cuando una pieza se sostiene sin posición declarada.
-- **Sale:** la tabla .Si pasa esto | Se pierde | Y el síntoma es., y el límite del guantelete.
+- **Sale:** la tabla `Si pasa esto | Se pierde | Y el síntoma es`, y el límite del guantelete.
 - **Consume:** quien decide si el paso 1 se sostiene.
 
 **Prueba:** ¿la pérdida se puede señalar? ¿el síntoma se ve cuando pasa?
@@ -49,7 +49,7 @@
 
 **No es poder.** No promete AGI, ni ideas, ni humanos. **Da exactamente lo que permite que otro lo revise.**
 
-**No es una jerarquía de importancia por número.** .sesgo. es el fundamento y .fricción. es su uso; las herramientas no mandan sobre la base, y la base no decide entre herramientas.
+**No es una jerarquía de importancia por número.** `sesgo` es el fundamento y `fricción` es su uso; las herramientas no mandan sobre la base, y la base no decide entre herramientas.
 
 ## Prueba
 
@@ -59,6 +59,6 @@
 
 ## Transiciones
 
-- No hay fila para lo que se va a hacer → se declara .[VACÍO - SIN PIEZA]. y se pregunta; no se improvisa.
-- Una pieza no puede declarar su firma → su veredicto es .indeterminado..
+- No hay fila para lo que se va a hacer → se declara `[VACÍO - SIN PIEZA]` y se pregunta; no se improvisa.
+- Una pieza no puede declarar su firma → su veredicto es `indeterminado`.
 - En cualquier otro caso → se enruta, se ejecuta y se cierra.

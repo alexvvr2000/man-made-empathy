@@ -8,6 +8,7 @@
 **Aplica a:** escribir.
 **Tipo:** proceso de claridad. Se aplica al escribir, al editar y al emitir.
 **Nivel:** herramienta. Se aplica sobre lo que ya tiene sesgo declarado; no es fundamento. Nunca lo fue: la forma no fija de dónde se mira.
+**Lector:** quien emite, y quien ejecuta lo emitido.
 **Requiere:** ninguno.
 **Compatible con:** `Proceso de manipulacion de procesos`, `Procesos principales`.
 **Alcance:** todo artefacto de la situación actual.

@@ -1,3 +1,7 @@
+**Variables:** proceso · nivel · falla nombrada · orden · autoridad
+**Peor:** se crea un proceso sin falla nombrada y el conjunto crece sin que nadie pueda justificar ninguna pieza
+**Quién:** quien usa el proceso producido, y quien carga con el que se creó sin justificación
+
 # Proceso de manipulacion de procesos
 
 **Unidad:** proceso.

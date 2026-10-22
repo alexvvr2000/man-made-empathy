@@ -61,6 +61,7 @@
 | **retirar** | si no se declara el fin que queda descubierto | quien retira |
 | **deducir** | si el deducido no reproduce nada observable | quien deduce |
 | **decir** | si la forma no llega al lector | quien emite |
+| **decidir** | si el criterio no declara qué se puede repetir sin volver a preguntar | quien decide |
 
 **Cerrar una puerta no es bloquear: es no dejar pasar algo que iba a fallar después, más lejos y más caro.**
 
