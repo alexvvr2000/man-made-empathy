@@ -85,7 +85,7 @@ Resuelve: [unidad|tiro] | Límite: [No se aplica a qué] | Deja: [veredicto|resu
 2. **Abrir su derrotero.** Qué se carga y cuándo, desde dónde se carga.
 3. **Abrir su deterrente.** Qué se pierde, desde dónde se pierde.
 4. **Declarar el criterio y su límite.** Lo que se repite sin volver a preguntar.
-5. **Si falta la Ruta, la Carga o el Rastro, es fantasma:** se declara y se pregunta. Rige `./2 S.A.R.A — mutación/integridad.md`, `El fantasma`.
+5. **Si falta la Ruta, la Carga o el Rastro, es fantasma:** se declara y se pregunta. Rige `./procesos/integridad.md`, `El fantasma`.
 
 ## Lo que CRITERIO no hace
 
@@ -101,7 +101,7 @@ Resuelve: [unidad|tiro] | Límite: [No se aplica a qué] | Deja: [veredicto|resu
 
 ## Transiciones
 
-- Falta un archivo del paso → `./2 S.A.R.A — mutación/integridad.md`, `El fantasma`.
+- Falta un archivo del paso → `./procesos/integridad.md`, `El fantasma`.
 - El criterio se aplica a todo → le falta `No se aplica a`, y se corrige antes de usarlo.
 - El cuerpo necesita cambiar → no se muta: se declara otro cuerpo, con `Reemplaza:`.
 - En cualquier otro caso → se entrega y se cierra.

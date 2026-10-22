@@ -11,7 +11,7 @@
 
 Todo se escribe **siempre igual**. Si cada archivo inventa su forma, **el ejecutor tiene que adivinar**, y adivinar no es ejecutar.
 
-**Rige el formato, no el contenido.** Un proceso con los campos escritos puede no decir qué decide; eso lo dice `./2 S.A.R.A — mutación/integridad.md`, `La verbalización`.
+**Rige el formato, no el contenido.** Un proceso con los campos escritos puede no decir qué decide; eso lo dice `./procesos/integridad.md`, `La verbalización`.
 
 ## Todo es un proceso
 
@@ -192,7 +192,7 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 **El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. **Sin `Reemplaza:` no hay cadena.**
 
-**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `./1 Guantelete — primitivo/herramientas/mutar.md` y `./2 S.A.R.A — mutación/integridad.md` la citan y solo añaden cuándo.
+**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `./1 Guantelete — primitivo/herramientas/mutar.md` y `./procesos/integridad.md` la citan y solo añaden cuándo.
 
 **Prueba:** ¿la pieza acuñada tiene nombre, expansión, `Muta`, `Conserva`, `Ausencias` y `Reemplaza`? ¿El nombre se lee como nombre propio?
 **Falsificador:** un nombre que sirve para dos versiones; una acuñación sin `Reemplaza:`; una expansión que deletrea el acrónimo; un `Muta:` que dice «varios» sin nombrar ninguno; un proceso que redefine esta forma en vez de citarla.
@@ -209,7 +209,7 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 ## Lo que este formato no hace
 
-No juzga si la pieza sirve. **Un proceso puede tener todos los campos y ser inútil.** Eso lo dice `./2 S.A.R.A — mutación/integridad.md`.
+No juzga si la pieza sirve. **Un proceso puede tener todos los campos y ser inútil.** Eso lo dice `./procesos/integridad.md`.
 
 No dice cuántas sub-tareas ni cuántos procesos hay. **Eso lo dice cada instancia, y muta.**
 

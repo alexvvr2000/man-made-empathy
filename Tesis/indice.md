@@ -73,7 +73,6 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `Ouroboros/1 Guantelete — primitivo/primitivos` | `sesgo.md` | proceso | 98 |
 | `Ouroboros/2 S.A.R.A — mutación` | `carga.md` | proceso | 67 |
 | `Ouroboros/2 S.A.R.A — mutación` | `decisión.md` | proceso | 116 |
-| `Ouroboros/2 S.A.R.A — mutación` | `integridad.md` | proceso | 380 |
 | `Ouroboros/2 S.A.R.A — mutación` | `Proceso PROMETEA.md` | proceso | 111 |
 | `Ouroboros/2 S.A.R.A — mutación` | `rastro.md` | proceso | 110 |
 | `Ouroboros/2 S.A.R.A — mutación` | `ruta.md` | proceso | 83 |
@@ -133,6 +132,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `Ouroboros/3 ATLAS — mutación` | `Proceso ATLAS.md` | proceso | 354 |
 | `Ouroboros/3 ATLAS — mutación` | `rastro.md` | proceso | 92 |
 | `Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 57 |
+| `Ouroboros/procesos` | `integridad.md` | proceso | 384 |
 | `Ouroboros/procesos` | `medir-acero.md` | proceso | 51 |
 
 ### mantis/

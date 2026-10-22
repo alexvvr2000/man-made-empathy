@@ -6,8 +6,8 @@
 **Aplica a:** chequear y verbalizar/
 **Tipo:** estándar de nivel 0/ **Chequea y reescribe:** mira lo que otros produjeron, encuentra lo que falta, **y lo verbaliza/** Se aplica a sí mismo/
 **Lector:** el ejecutor que va a mutar una tarea/ **El trabajo de verbalizar lo hace el ejecutor, no la autoridad/**
-**Nivel:** 0/ General: no pertenece a ninguna tarea, y **llega hasta el contenido de los procesos/**
-**Alcance:** cualquier tarea —sus folders, sus sub-tareas, sus procesos y **el texto de cada proceso**— y este archivo/
+**Nivel:** 0/ General: no pertenece a ninguna tarea, y **llega hasta el contenido de los procesos/** Vive en `procesos/` porque no es de una tarea: es de todas, y por eso no se enruta desde el derrotero de un paso/
+**Alcance:** la tarea que se le entrega —sus folders, sus sub-tareas, sus procesos y **el texto de cada proceso**— y este archivo. No toca lo que no le entregaron: reacomodar lo que no se le pidió es mutar sin mandato/
 **Dueño:** la autoridad/
 **Estado:** vigente/
 
@@ -179,13 +179,17 @@ Ese proceso se escribe en la corrida/ **No se deja para después/**
 Corre: siempre, antes de mutar. El criterio no decide si corre.
 Ente: [Rastro sí/no | Ruta sí/no | Carga sí/no] | Fantasma: [sí|no]
 Sesgo: [declarado por quien muta | FALTA - no hay veredicto]
-Lo que hay: [medido por: inventario|indice|lectura de archivos]
+Lo que hay: [medido por: inventario|indice|lectura de archivos] | Mide el mismo que muta: [sí|no]
 Veredicto: [pasa|falla|indeterminado]
 ```
 
 **La honestidad sale de ahí, y es un efecto, no un objetivo.** Un triángulo con los tres vértices no deja nada fuera: **el veredicto es honesto porque no le queda de dónde no serlo.** Perseguirla sería un target, y un target en un efecto lo rompe: el criterio aprendería a **parecer** honesto, que es la ofuscación que esta regla evita.
 
-**Falsificador:** un criterio que decide no correr integridad; un veredicto sin el sesgo declarado; una triangulación con dos vértices; un implícito encontrado y no escrito; un veredicto que dice `pasa` sin haber medido lo que hay.
+**Falsificador:** un criterio que decide no correr integridad; un veredicto sin el sesgo declarado; una triangulación con dos vértices; un implícito encontrado y no escrito; un veredicto que dice `pasa` sin haber medido lo que hay; **el mismo acto mide lo que hay y muta, y lo llama triángulo/**
+
+**Lo que hay lo mide una unidad, no la lectura del que muta.** El tercer vértice no se contesta desde adentro: se contesta con la salida de una unidad del piso. Si el que va a mutar lee los archivos y se contesta a sí mismo, **pierde el vértice de Control de la regla ACERO**, y su veredicto se marca `Sin revisor independiente`. Rige `../procesos/medir-acero.md`, `Control`.
+
+**Una sub-tarea se reacomoda sobre lo que se le entregó.** Reacomodar una tarea distinta es mutar el mandato: se declara y se para.
 
 ## Proceso
 

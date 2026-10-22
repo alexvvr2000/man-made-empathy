@@ -31,7 +31,7 @@ La forma dice **dónde va** cada cosa. No dice **cuándo está.** Sin esa segund
 **Prueba:** ¿el proceso sirve sin nada que no esté escrito adentro? ¿la sub-tarea funciona sin que otra le preste una condición?
 **Falsificador:** un proceso que sirve solo porque alguien recuerda una condición; una sub-tarea que no funciona sin otra; una pieza nueva que no cierra ningún implícito.
 
-Eso se chequea con `../Ouroboros/2 S.A.R.A — mutación/integridad.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
+Eso se chequea con `../Ouroboros/procesos/integridad.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
 
 ## La fila
 

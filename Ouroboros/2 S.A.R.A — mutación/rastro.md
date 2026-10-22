@@ -82,7 +82,7 @@
 | **Ruta** | `ruta.md` | qué proceso se carga y cuándo | **sí** |
 | **Carga** | `carga.md` | qué se pierde si S.A.R.A deja de ser instancia | **sí** |
 
-**Si falta una de las tres, no hay ente: es fantasma.** Rige `./integridad.md`, `El fantasma`. Forma: `../formato de ente.md`.
+**Si falta una de las tres, no hay ente: es fantasma.** Rige `../procesos/integridad.md`, `El fantasma`. Forma: `../formato de ente.md`.
 
 ## Qué no se toca
 

@@ -22,7 +22,7 @@
 
 **El conocimiento muta.** Hoy hay una vista y mañana hay otra, y **la tesis tiene que poder reflejar eso sin romperse.** Por eso **cada fila declara desde qué vista se escribió.**
 
-**Una nota no es una verdad: es una vista con fecha.** Lo que hoy se cree se anota como se cree; **si mañana cambia, la fila vieja no se edita: se agrega la nueva con su `Vista` y la vieja queda con `Estado: cubierto` o `descartado`.** Rige `../../../Ouroboros/2 S.A.R.A — mutación/integridad.md`, `El triángulo`: el sesgo se declara, no se corrige.
+**Una nota no es una verdad: es una vista con fecha.** Lo que hoy se cree se anota como se cree; **si mañana cambia, la fila vieja no se edita: se agrega la nueva con su `Vista` y la vieja queda con `Estado: cubierto` o `descartado`.** Rige `../../../Ouroboros/procesos/integridad.md`, `El triángulo`: el sesgo se declara, no se corrige.
 
 **La ficción y la analogía son material, no ruido.** Se usan para hacer la tesis digerible, y la nota guarda **de dónde sale la idea y hacia dónde se cruza.** Rige `../../../AGENTS.md`, `La tesis`.
 

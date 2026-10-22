@@ -19,7 +19,7 @@
 | **Ruta** | `ruta.md` | la mente: qué se carga y cuándo | **siempre**: si el hoy cambia y la ruta no, enruta lo de ayer |
 | **Carga** | `carga.md` | el pensamiento: qué se pierde si el ente deja de servir | **cuando el fin cambia**; si el fin deja de existir, no se muta: se retira |
 
-**Si falta una de las tres, no hay ente: es fantasma.** Rige `./2 S.A.R.A — mutación/integridad.md`, `El fantasma`.
+**Si falta una de las tres, no hay ente: es fantasma.** Rige `./procesos/integridad.md`, `El fantasma`.
 
 **Rastro dice qué hubo; Ruta dice por dónde ir hoy; Carga es lo que se lleva y no se puede soltar sin perder algo.**
 

@@ -63,7 +63,7 @@ Su piso es todo lo disponible; su techo, el entendimiento del otro lado con su s
 | **Ruta** | `ruta.md` | qué se carga y cuándo | **sí** |
 | **Carga** | `carga.md` | qué se pierde si ATLAS deja de ser el puente | **sí** |
 
-**Si falta una de las tres, no hay ente: es fantasma.** Rige `../2 S.A.R.A — mutación/integridad.md`, `El fantasma`. Forma: `../formato de ente.md`.
+**Si falta una de las tres, no hay ente: es fantasma.** Rige `../procesos/integridad.md`, `El fantasma`. Forma: `../formato de ente.md`.
 
 ## Qué no se toca
 

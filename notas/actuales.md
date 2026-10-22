@@ -19,6 +19,12 @@ Decidido: notas acopladas a sqlite; export publicado; un tiro no se cita
 Rige: claridad
 ```
 
+## La vista
+
+| Dicho | De | Tipo | Usa | Sostenido | Estado | Vista |
+|---|---|---|---|---|---|---|
+| Integridad queda en procesos/ y no depende de nadie: se sostiene con ACERO, y su alcance se limita a la tarea entregada. | procesos/integridad.md | decisión | S.A.R.A — mutación | prueba | vivo | vista 2026-10-22 |
+
 ## La purga
 
 | Dicho | De | Tipo | Usa | Sostenido | Estado | Vista |
@@ -39,6 +45,8 @@ Rige: claridad
 | Se recuperan las Leyes de Diseño de Instrucciones de git y entran al formato de proceso como cuerpo ejecutable y campos condicionales; la continuidad real de aprender es Sostuve/Contra/Sostengo. | Ouroboros/formato de proceso.md, 2 S.A.R.A — mutación/aprendizaje/aprender.md | decisión | Ouroboros | frontera | vivo | vista 2026-10-22 |
 | El formato de procesos se enruta desde mantis: editar/enrutar-formato.md se carga al escribir o corregir un proceso, y cita el estándar en vez de copiarlo. | mantis/mantenimiento/editar/enrutar-formato.md, mantis/Derrotero.md | decisión | mantis | frontera | vivo | vista 2026-10-22 |
 | Las dos rutas rotas se arreglaron sin preguntar: las rutas se corrigen solas. El guantelete y los entes llevan sus condicionales, y el formato de ente declara que sus tres piezas son procesos. | Ouroboros/formato de ente.md, piso/rutas.ps1 | decisión | Ouroboros, mantis | frontera | vivo | vista 2026-10-22 |
+| Integridad corrida sobre el guantelete: la forma está sana y la encontro muda en el cuerpo del ente; lo que renombro mal quedo corregido contra el original. | Ouroboros/formato de ente.md, 2 S.A.R.A — mutación/integridad.md | decisión | Ouroboros/1 Guantelete | frontera | vivo | vista 2026-10-22 |
+| Integridad no depende de nadie: se cierra con la regla ACERO. El Control ya niega el triángulo dime y me contesto; el alcance se limita a la tarea entregada. | misión integridad 08, procesos/medir-acero.md | decisión | S.A.R.A — mutación/integridad.md | prueba | vivo | vista 2026-10-22 |
 
 ## Las notas
 

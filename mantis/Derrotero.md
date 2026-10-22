@@ -11,7 +11,7 @@
 **Forma:** `../Ouroboros/formato de ente.md`, `formato de proceso.md`, `mutacion.md`.
 **Puerta:** `../Ouroboros/CRITERIO.md`.
 **Abstracción:** `../Ouroboros/2 S.A.R.A — mutación/`. Se carga cuando el cambio toca una sub-tarea o un proceso.
-**Integridad:** `../Ouroboros/2 S.A.R.A — mutación/integridad.md`. **Corre siempre antes de mutar:** el criterio no decide si corre, solo qué se hace con su veredicto.
+**Integridad:** `../Ouroboros/procesos/integridad.md`. **Corre siempre antes de mutar:** el criterio no decide si corre, solo qué se hace con su veredicto.
 **Claridad:** `../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`.
 **Manipulación de procesos:** `../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`. Se carga cuando el cambio produce o reemplaza un proceso.
 **Registro:** `../notas/actuales.md`. **Es la memoria: lo que no se anota se pierde con el contexto.**
@@ -44,7 +44,7 @@ Una petición puede tocar tres cosas distintas, y cada una se trata distinto.
 | **Se emite cualquier archivo** | `../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`, `Entrega como contribución` | no se emite |
 | **Se escribe o corrige un proceso** | **`./mantenimiento/editar/enrutar-formato.md`** | el proceso se escribe por costumbre |
 | **Se escribe un archivo final** | **`claridad`**: el entregable habla del mensaje, no del mensajero | declara su estado y deja de ser entregable |
-| Se va a mutar cualquier cosa | `../Ouroboros/2 S.A.R.A — mutación/integridad.md`, **siempre** | no se muta |
+| Se va a mutar cualquier cosa | `../Ouroboros/procesos/integridad.md`, **siempre** | no se muta |
 | Se saca algo del estándar | `../notas/actuales.md`, entero y con su archivo | se pierde el porqué |
 | El cambio toca el **estándar** | `../Ouroboros/CRITERIO.md` y `./mantenimiento/editar/editar.md`, paso 9 | el estándar se cambia sin revisar sus instancias |
 | El cambio produce o reemplaza un proceso | `../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md` | se edita sobre el proceso existente |

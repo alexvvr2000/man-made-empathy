@@ -5,7 +5,7 @@
 **Deterrente:** [`./carga.md`](./carga.md). Sin él, no se sabe qué se pierde si S.A.R.A deja de ser instancia.
 **Piso:** `../../Ouroboros/piso.md`.
 **Abstracción:** `../` — S.A.R.A es el paso 2 de `Ouroboros/`.
-**Integridad:** `./integridad.md`. Se carga cuando el chequeo encuentra que hay que reacomodar el nivel o que la tarea es fantasma.
+**Integridad:** `../procesos/integridad.md`. Se carga cuando el chequeo encuentra que hay que reacomodar el nivel o que la tarea es fantasma.
 **Criterio:** `./decisión.md`. Se carga cuando una decisión se va a repetir sin fricción.
 
 **Sesgo:** la ruta se lee desde el fallo comprobado que llega.
@@ -32,7 +32,7 @@
 
 | Si se va a... | Se carga | Si no... |
 |---|---|---|
-| chequear y reescribir una tarea, o reacomodar su nivel | `./integridad.md` | no hay veredicto |
+| chequear y reescribir una tarea, o reacomodar su nivel | `../procesos/integridad.md` | no hay veredicto |
 | dejar que una decisión se repita sin volver a preguntar | `./decisión.md` | se pregunta lo mismo cada vez |
 | aprender de lo ejecutado y corregir la tarea intuida | `./aprendizaje/aprender.md` | el sistema repite el mismo error |
 | proponer lo que nadie pidió, sin ejecutarlo | `./aprendizaje/iniciar.md` | el sistema solo reacciona |

@@ -4,7 +4,7 @@
 **Alcance:** `../../../Ouroboros/`, `../../../Tesis/`, `../../Era/` y `../../../mantis/`. La implementación de una era no entra salvo que el cambio la produzca.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
 **Claridad:** `../../../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`.
-**Integridad:** `../../../Ouroboros/2 S.A.R.A — mutación/integridad.md`. **Corre siempre antes de mutar.**
+**Integridad:** `../../../Ouroboros/procesos/integridad.md`. **Corre siempre antes de mutar.**
 **Notas:** `../../../AGENTS.md`, `Escribir notas`. Un turno con decisión y sin fila no está entregado.
 **Manipulación de procesos:** `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`.
 
