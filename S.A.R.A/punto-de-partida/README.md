@@ -18,6 +18,21 @@ tarea
 
 **Ninguna jerarquía.** Las sub-carpetas son hermanas. Los procesos dentro de una también. Ninguno manda sobre otro, y ninguno posee un núcleo que los demás citen.
 
+## Cuándo una pieza está completa
+
+La forma dice **dónde va** cada cosa. No dice **cuándo está.** Sin esa segunda regla, la caja no tiene fondo y agregar se vuelve crecer por crecer.
+
+> **Un proceso está completo** cuando todo lo que tiene que cumplirse para que sirva **está escrito dentro.** Lo que hace falta y vive fuera es un implícito, y un implícito no declarado es el proceso sirviendo por casualidad.
+>
+> **Una sub-tarea está completa** cuando sus procesos **no dependen de un implícito que viva en otra.** Si dos sub-tareas se necesitan para funcionar, no son dos: son una, o falta el proceso que las une.
+
+**La regla que sigue:** no se agrega una pieza porque falte algo. Se agrega cuando la pieza nueva **cierra un implícito** y la anterior no podía cerrarlo. Agregar sin cerrar un implícito es crecimiento, y el crecimiento no es valor.
+
+**Prueba:** ¿el proceso sirve sin nada que no esté escrito adentro? ¿la sub-tarea funciona sin que otra le preste una condición?
+**Falsificador:** un proceso que sirve solo porque alguien recuerda una condición; una sub-tarea que no funciona sin otra; una pieza nueva que no cierra ningún implícito.
+
+Eso se chequea con `../../Ouroboros/Proceso de integridad de procesos.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
+
 ## La fila
 
 Todo proceso deja rastro con la misma forma: `../../corpus/esquema-de-fila.md`. Sin esquema común no hay conjunto, hay registros que no se agregan.
