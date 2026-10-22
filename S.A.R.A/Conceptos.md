@@ -79,8 +79,19 @@ Tres problemas, y tienen nombre en bibliotecología:
 | participantes | `ATLAS` | — | sí | — | — | — | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
 | atención conjunta | `ATLAS` | — | sí | foco | — | — | compartido, diádico, triádico | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
 | acomodación | `ATLAS` | — | sí | acomodo | — | — | converger, divergir | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| nivel de fuente | `punto-de-partida/evidencia` | — | sí | nivel, N0–N5 | — | — | testigo, medición directa, fuente primaria, precedente, deducción, memoria interna | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| testigo | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N0) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| medición directa | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N1) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| fuente primaria | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N2) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| precedente | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N3) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| deducción | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N4) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| memoria interna | `punto-de-partida/evidencia` | nivel de fuente | sí | N5 | — | nivel de fuente (N5) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| fecha de corte | `punto-de-partida/evidencia` | memoria interna | sí | — | — | — | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| consentimiento | `punto-de-partida/evidencia` | testigo | — | — | — | — | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
+| ayuda no pedida | `punto-de-partida/evidencia` | — | sí | ayuda no solicitada, ayuda directa | — | — | impedimento | `punto-de-partida/evidencia/ayuda-no-pedida.md` | vigente |
+| impedimento | `punto-de-partida/evidencia` | ayuda no pedida | — | — | — | — | — | `punto-de-partida/evidencia/ayuda-no-pedida.md` | vigente |
 
-Doce conceptos estaban en uso sin origen. Veintidós filas es lo que había.
+Treinta y cuatro filas. Doce conceptos estaban en uso sin origen cuando se abrió este registro.
 
 ## Prueba
 

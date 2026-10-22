@@ -12,7 +12,7 @@ tarea
         └── proceso        × N
 ```
 
-**N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son dieciséis sub-tareas y veinticinco procesos; mañana pueden ser otros, con otros nombres, u otro número.
+**N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son dieciséis sub-tareas y veintisiete procesos; mañana pueden ser otros, con otros nombres, u otro número.
 
 **Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../../Ouroboros/Proceso de mutación.md`, `Mutar la serie`.
 
@@ -72,7 +72,7 @@ Tres escalas de autoridad. Cada una declara un afectado distinto y no se funden 
 
 J'ONN no es un safeguard: no impide producir algo destructivo. Impide **cerrar como si fuera seguro lo que no se declaró**. Rige `./autoridad-humanidad/dar-voz.md`.
 
-**Dieciséis sub-tareas, veinticinco procesos.** Es lo que el estado del arte sostiene hoy. No es el mínimo ni el máximo.
+**Dieciséis sub-tareas, veintisiete procesos.** Es lo que el estado del arte sostiene hoy. No es el mínimo ni el máximo.
 
 ## Cómo se ejecuta
 

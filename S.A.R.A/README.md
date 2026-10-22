@@ -115,7 +115,8 @@ Este sistema no nació de un paper. Nació de mirar ficción y encontrar ahí lo
 
 | Documento | Qué es |
 |---|---|
-| `punto-de-partida/` | Dieciséis sub-tareas, veinticinco procesos: lo que la industria tiene probado. |
+| `mundo.md` | El pegamento: une Ouroboros y S.A.R.A. Dice si un cambio cambió algo, con la factura ya cobrada. |
+| `punto-de-partida/` | Dieciséis sub-tareas, veintisiete procesos: lo que la industria tiene probado. |
 | `aprendizaje/` | El ciclo que corrige desde la experiencia y propone lo siguiente. |
 | `Pruebas/` | Las tres pruebas que miden lo que produce el agente. |
 | `Derrotero.md` | El estándar de enrutamiento del agente. |

@@ -16,8 +16,11 @@
 | `Proceso de mutación.md` | cambia un proceso, con rastro | primitivo |
 | `Proceso de claridad.md` | da forma a lo que se lee o se ejecuta | primitivo |
 | `Proceso ATLAS.md` | comunica con situación, participantes, foco, cuerpo, piso, techo y sesgo | primitivo |
+| `Proceso de fricción.md` | hace que la decisión pase por el que la toma, antes de mover algo | derivado |
 
-Seis procesos, todos primitivos: ninguno se deriva de otro. Es más piezas que el mínimo teórico, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie.
+Seis primitivos: ninguno se deriva de otro. Es más piezas que el mínimo teórico, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie.
+
+**La fricción no es primitiva.** Se deriva de los seis: es `claridad` aplicada al momento de decidir, reportando a `../S.A.R.A/mundo.md`. Existe porque los seis dicen cómo se hace algo, y ninguno dice **si la decisión pasó por quien la tomó.**
 
 ## Composición
 
@@ -48,6 +51,7 @@ Los seis procesos, cada uno con su forma y su función.
 | `Proceso de aplicar.md` | Ejecuta un proceso y comprueba la composición. |
 | `Proceso de mutación.md` | Cambia un proceso y deja el rastro. |
 | `Proceso de claridad.md` | La forma de lo que se lee o se ejecuta. |
+| `Proceso de fricción.md` | Hace que la decisión pase por el que la toma: cuerpo, inacción, gente, opinión. |
 | `ATLAS/` | Comunicación efectiva: situación, participantes, foco, cuerpo, piso, techo, canal, modo, sesgo, acomodo, retórica y fatiga. |
 
 ## Abstracciones

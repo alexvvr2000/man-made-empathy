@@ -53,7 +53,50 @@ El techo se declara antes de emitir. Sin techo, la forma no se emite: se produce
 **Prueba:** ¿el mensaje admite una sola lectura?
 **Falsificador:** un mensaje que se puede interpretar de dos formas; un mensaje cuyo sentido depende de preguntar.
 
+### El techo como valor, no como límite
+
+Hay una confusión que arruina el techo, y es la que produce la fórmula «el fin justifica los medios».
+
+Si el techo fuera **el resultado** —que el otro haga lo que había que hacer—, entonces todo lo que lleve al resultado sería legítimo dentro del techo. Esa es la forma del consecuencialismo, y su falla no es moral: es **empírica.** El medio no desaparece cuando el resultado llega. El medio **se convierte en el resultado siguiente.**
+
+Cuando alguien aprende algo por un mensaje que le quitó el intento, no se queda con el aprendizaje: se queda con la conclusión de que se le puede quitar. Y esa conclusión es el punto de partida de la próxima vez. **No hay medio que sea solo medio: todo medio es el fin del próximo tramo.**
+
+Por eso el techo no se define por el resultado. Se define por **lo que el otro es capaz de seguir sosteniendo él mismo después.**
+
+| Techo falso | Techo verdadero |
+|---|---|
+| que el otro haga lo que había que hacer | que el otro pueda seguir haciéndolo sin nosotros |
+| el mensaje se entiende | el mensaje sigue siendo suyo |
+| el resultado se logró | la capacidad quedó |
+
+Y esto sigue la regla del piso: **el techo se comprueba, no se supone.** No lo prueba que el otro actúe correcto; lo prueba que el otro pueda equivocarse sin nosotros.
+
+`Techo: [qué debe poder el otro después] | Lo que se queda: [qué capacidad o criterio] | Cómo se comprueba: [qué mostraría que puede sin nosotros] | Se retira: [cuándo]`
+
+- **Lo que se queda**: lo que el otro conserva. Si está vacío, se alcanzó el resultado y no el techo: hay sustitución, no comunicación.
+- **Se retira**: todo techo que produce una capacidad declara cuándo se retira el sostenimiento. Sin retiro, el techo se vuelve permanente y el otro deja de poder.
+
+**Prueba:** ¿el techo nombra una capacidad y no un resultado? ¿lo que se queda no está vacío? ¿hay retiro?
+
+**Falsificador:** el otro hizo lo pedido pero no puede repetirlo; se alcanzó el resultado y el otro quedó sin criterio; no hay retiro declarado; se comprobó el techo porque el otro obedeció.
+
+### Lo que el techo no mide
+
+El techo no juzga si el otro eligió bien. Si eligió mal con su criterio, el techo se alcanzó igual: el otro pudo.
+
+Esto es lo que hace la regla incómoda, y es la respuesta a la tentación de imponer:
+
+> **La sustitución no se arregla matándolo.**
+
+Cuando un sistema llega a ser amo del mundo, todo lo que lo contiene ya perdió, porque la mayor parte del daño se hizo antes, y el remedio que llegara después tendría que hacer **exactamente** lo que el sistema hizo: quitarle al otro la capacidad de decidir, por su propio bien.
+
+Por eso la contención tiene que existir **antes y por dentro**: no como un arma disponible para después, sino como una capacidad de frena que el propio sistema ejerce sobre sí, con registro y con voz ajena. Una vez que el otro perdió la capacidad, ya no hay nada que salvar: solo queda elegir entre dos sustituciones.
+
+**Prueba:** ¿el mecanismo de frena existe antes de la capacidad que debe frenar?
+**Falsificador:** la única contención es externa y posterior; la corrección le quita al otro el criterio que se quería proteger.
+
 ## Canal
+
 
 El piso dice qué hay; el canal dice cuánto aguanta. Un mensaje que no cabe en el canal no es claro: es truncado.
 

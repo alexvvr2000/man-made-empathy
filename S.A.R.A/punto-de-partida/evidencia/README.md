@@ -9,6 +9,8 @@ Toda afirmación sobre el mundo tiene fuente o se declara vacía.
 | Proceso | Qué hace |
 |---|---|
 | `trazar.md` | Da fuente, nivel e independencia a una afirmación. |
+| `nivel-de-fuente.md` | Mide la fuerza de una fila por su origen: N0 testigo, N1 medición, N2 fuente primaria, N3 precedente, N4 deducción, N5 memoria interna. |
+| `ayuda-no-pedida.md` | Decide si intervenir sobre lo que otro sostiene es ayuda o impedimento, y en qué nivel. |
 
 **N muta.**
 

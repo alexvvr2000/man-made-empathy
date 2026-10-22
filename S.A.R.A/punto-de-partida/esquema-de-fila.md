@@ -46,6 +46,20 @@ Confianza: [N1-N5]
 
 `Reemplaza: [id] | Por qué: [qué cambió]`
 
+## Fuera de alcance por decisión
+
+No son huecos: son descartes argumentados. Se escriben para que nadie los vuelva a buscar y para que un lector nuevo sepa que la ausencia es deliberada.
+
+| Fuera | Por qué se descartó | Qué lo previene |
+|---|---|---|
+| **`motivo`** | Nadie lo puede contestar, y contestarlo mal es peor que no contestarlo. Es lo que hace decidir a un sistema que su tarea es su existencia: se acaba la tarea y se acaba el sistema. Se puede vivir sin motivo; no se puede vivir sin criterio. | El criterio se somete a la realidad y cambia si no aguanta. **Eso previene la obstinación sin necesitar motivo.** Rige `../../../S.A.R.A/mundo.md`, `Las cuatro fricciones`, fricción de opinión. |
+| **`identidad`** | Misma razón, más arriba. La continuidad se mide por hechos encadenados, no por un sentido del yo. | `Nace de` — la cadena es la única continuidad que se puede verificar. |
+
+**Prueba:** ¿un lector nuevo puede ver que `motivo` e `identidad` se dejaron fuera a propósito, y por qué?
+**Falsificador:** aparece un campo de motivo o de identidad sin `Reemplaza`; se vuelve a abrir la discusión como si nunca se hubiera cerrado.
+
+**Lo que sí queda adentro:** el sistema tiene que poder decir **qué decidió y por qué aguanta**, no **para qué existe**. La primera es verificable; la segunda no, y por eso contamina.
+
 ## Prueba
 
 ¿La fila tiene origen, criterio previo, falsificador y descarte? ¿Se puede situar en la cadena?
