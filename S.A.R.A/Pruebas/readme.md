@@ -28,15 +28,18 @@ No cuenta como útil:
 - una que cumple el gusto de la autoridad y no mueve la tarea;
 - una que se certifica a sí misma.
 
-## Las tres que hay hoy
+## Las que hay hoy
 
 | Prueba | Mide | Unidad | Falla como |
 |---|---|---|---|
 | `prueba de rendicion.md` | si otro reconstruye lo hecho sin el ejecutor | la tarea | falla en la condición N |
 | `prueba de utilidad real.md` | el efecto neto hoy | la intervención | Estorbo |
 | `prueba de cruce.md` | si la salida salió de la visión humana | el resultado | sin cruce |
+| `prueba de talento utilizable.md` | si el proceso se sostiene igual en ejecutores distintos | la tarea | sin rama |
 
 Son independientes: una puede pasar y la otra fallar. Ninguna se deriva de otra y ninguna la sustituye.
+
+**`talento utilizable` no mide si el proceso sirve**, y eso se declara adentro: mide si **se sostiene igual** cuando el ejecutor cambia. Un proceso puede ser consistente y perfectamente inútil. El juicio de utilidad es de `utilidad real` o del uso.
 
 ## Qué es fijo y qué cambia
 
