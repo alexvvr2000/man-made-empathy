@@ -21,29 +21,28 @@ A diferencia de un derrotero —que enruta tareas a un agente— **este enruta g
 ## La estructura
 
 ```
-1 Guantelete/                ← la tarea. Este archivo.
-├── README.md                  el Acta: qué es y qué no es
-├── deterrente.md              este archivo: enruta gemas
+1 Guantelete/                ← el paso 1. Este archivo enruta.
+├── carta.md                   la carta, opcional: qué hay y cómo se verifica
+├── deterrente.md              este archivo: qué se pierde si el guantelete se vuelve catálogo
+├── Derrotero.md               el derrotero: qué se carga y cuándo
 ├── primitivos/                sub-tarea · 6 gemas
 └── mutaciones/                sub-tarea · 2 gemas
 ```
 
-**Un nivel, un deterrente.** La tarea enruta; cada sub-tarea declara el suyo en su `README`; cada gema declara su `Falsificador`. **No se hereda hacia abajo ni se suma hacia arriba.**
+**Un nivel, un deterrente.** El paso enruta; cada sub-tarea declara el suyo en su carta; cada gema declara su `Falsificador`. **No se hereda hacia abajo ni se suma hacia arriba.**
 
-## La tabla: si se va a...
+**Sin `deterrente.md` o sin `Derrotero.md` no hay paso: es fantasma.** Rige `../2 S.A.R.A/integridad.md`, `El fantasma`.
 
-| Si se va a... | Se carga | Si no... |
+## Qué se pierde si se viola
+
+| Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
-| crear, calibrar, reemplazar o retirar un proceso | `./primitivos/manipulacion.md` | no se toca un proceso |
-| ejecutar un proceso sobre una entrada | `./primitivos/aplicar.md` | no se ejecuta |
-| cambiar un proceso y dejar rastro | `./primitivos/mutacion.md` | no se muta |
-| retirar un proceso cuyo fin dejó de existir | `./primitivos/retiro.md` | se queda ocupando el lugar |
-| deducir un proceso de lo observable | `./primitivos/ingenieria-inversa.md` | no se deduce |
-| escribir o emitir cualquier archivo | `./primitivos/claridad.md` | no se emite |
-| decidir algo que afecta a otro | `./mutaciones/friccion.md` | no se decide: se ejecuta |
-| mirar algo que no cabe en lo sabido | `./mutaciones/sesgo-declarado.md` | no se ve desde dónde se mira |
-
-**Una fila, una gema.** Si una tarea carga dos, se declara por qué: **dos puertas abiertas a la vez es la forma en que se pierde el rastro de por qué se hizo algo.**
+| una gema se usa sola y funciona | el punto donde se para | el sistema cree que tiene un primitivo cuando tiene un juguete |
+| entra una pieza que se deriva de otra | la irreducibilidad | el sinfín vuelve disfrazado de pieza nueva |
+| una pieza entra sin cerrar un implícito | la justificación | el guantelete se vuelve un catálogo: crece y no compone |
+| una gema llega al paso 2 sin pasar por `mutar` | la puerta | la abstracción se construye sobre algo que no se declaró |
+| el guantelete se mide por cuántas gemas tiene | el criterio | se defiende por tamaño lo que debía defenderse por composición |
+| se retira una gema sin declarar el fin que cubría | el rastro | el hueco existe y nadie sabe que estaba |
 
 **Chequear que el nivel se sostiene no es una gema de esta etapa.** Rige `../2 S.A.R.A/integridad.md`.
 

@@ -6,7 +6,7 @@
 
 **Por qué no es primitivo.** Un primitivo no se deriva de nada. ATLAS sí: es una abstracción del proceso de pasar información de un lado a otro, que cualquier ser vivo hace. Ponerlo en `../../1 Guantelete/` obligaría a afirmar que el universo primordial comunica, y eso no se puede probar. **No se afirma lo que no se puede probar:** se declara como abstracción, y las abstracciones viven en `corpus/`.
 
-**Opcional en el camino mínimo.** Se puede empezar sin ATLAS. Llega cuando algo no llega al otro lado. Rige `../1 Guantelete/README.md`, `El camino mínimo`.
+**Opcional en el camino mínimo.** Se puede empezar sin ATLAS. Llega cuando algo no llega al otro lado. Rige `../1 Guantelete/carta.md`, `El camino mínimo`.
 
 ## Qué hay aquí
 

@@ -20,6 +20,41 @@
 
 **Manipulación/** Todo cambio a un proceso pasa por la manipulación de su tarea: ahí se nombran las variables antes de que el proceso exista/ Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo/
 
+## El fantasma
+
+**Un fantasma es una tarea sin deterrente ni derrotero.** No puede existir uno sin otro: **el derrotero sin deterrente enruta hacia nada, y el deterrente sin derrotero pierde qué se pierde cuando se vaya.** Si falta uno de los dos, **es fantasma**, y se advierte.
+
+**Los tres archivos, y solo dos son obligatorios:**
+
+| Archivo | Qué da | Obligatorio |
+|---|---|---|
+| `deterrente.md` | qué se pierde si la tarea deja de servir | **sí** |
+| `Derrotero.md` | qué se carga y cuándo | **sí** |
+| la carta | qué hay, qué no se toca y cómo se verifica | **no** |
+
+**La carta no tiene nombre de archivo fijo.** Es la pieza que dice qué hay, qué no se toca y cómo se verifica; hoy se llama `AGENTS.md`. Si en otra era se llama de otra forma, sigue siendo la carta. Rige `../../1 Tesis/Derrotero y Carta.md`, `La carta y el derrotero son dos piezas`.
+
+**Con los dos obligatorios, la integridad se saca triangulando:** deterrente + derrotero + lo que hay. **La carta ayuda a leer; si no está, no impide.** Esa es la **verdad del momento**, y vale más que una forma repetible: aquí se mide lo que trabaja hoy, no lo que se puede citar mañana.
+
+### Las tres intuiciones
+
+**Sin los dos archivos no hay a quién preguntar.** Se arma una tarea desde 0 **sin idea de dónde vino**, como un cuerpo sin pasado: **cada uno se imagina lo que era, y la idea que sale no es la verdad al 100%.** Por eso sirve: **algo puede ser útil desde el segundo 0 para lo que se quiere, o se descarta de plano.**
+
+**Lo que se entrega son tres intuiciones de lo que la tarea era**, cada una con lo que la sostiene y lo que la refutaría:
+
+```
+Fantasma: [tarea] | Falta: [deterrente|derrotero|los dos] | Se buscó en: [rutas]
+Idea 1: [qué se cree que era] | Sostiene: [qué del contenido la respalda] | Refuta: [qué la tumba]
+Idea 2: [qué se cree que era] | Sostiene: [...] | Refuta: [...]
+Idea 3: [qué se cree que era] | Sostiene: [...] | Refuta: [...]
+Decide: [la autoridad: cuál entra, cuál se descarta]
+```
+
+**Las tres no se ordenan por probabilidad y ninguna se elige por parecer mejor.** Se entregan para que la autoridad decida, y la que se descarte **se queda con su porqué**, porque un descarte sin rastro se vuelve a proponer.
+
+**Prueba:** ¿se advirtió el fantasma? ¿Las tres ideas salen del contenido y no de la nada? ¿Cada una declara lo que la refuta? ¿Se dice qué se descartó y por qué?
+**Falsificador:** una tarea sin deterrente que se corre igual; un fantasma que se presenta como tarea viva; una intuición inventada sin contenido detrás; la carta exigida cuando no está; una sola idea presentada como la verdad de lo que la tarea era.
+
 ## Deterrente
 
 | Si pasa esto | Se pierde | Y el síntoma es |
@@ -131,7 +166,7 @@ Ese proceso se escribe en la corrida/ **No se deja para después/**
 Tarea: [cuál] | Folders: [n] | Sub-tareas: [n] | Procesos: [n]
 ```
 
-1/ **La tarea/** ¿Tiene `README`, deterrente y piso? ¿El deterrente enruta?
+1/ **La tarea/** ¿Tiene `deterrente.md` y `Derrotero.md`? **Los dos o ninguno: sin uno de los dos es fantasma, y se corta aquí.** ¿Tiene carta? Si está, se lee; si no, no impide.
 2/ **Los folders/** ¿Cada uno cubre un fin distinto? ¿Hay dos que se solapan?
 3/ **Las sub-tareas/** ¿Cada una declara deterrente, fallo, piso y sus procesos?
 4/ **Los procesos/** ¿Forma completa? ¿Variables? ¿`Falsificador`?
@@ -219,6 +254,13 @@ Pieza: [cuál] | Estaba en: [padre] | Pertenece a: [padre] | Por qué
 Desde cero: [pieza] | Conserva: [qué] | No conserva: [qué] | Por qué se rehace
 ```
 
+**También se rehace una sub-tarea entera.** Cuando el chequeo encuentra que **la tarea no tiene sus dos archivos** —deterrente y derrotero—, o que sus sub-tareas no trabajan juntas, **no se llenan huecos: se reacomoda el nivel desde 0** en procesos y carpetas que trabajan, **porque tienen los dos archivos.** Sin ellos se advierte `El fantasma` y se entregan tres intuiciones; no se rehace sobre nada.
+
+```
+Nivel rearmado: [tarea] | Traía: [n sub-tareas, n procesos] | Queda: [n sub-tareas, n procesos]
+Conserva: [qué servía] | No conserva: [qué se retira y por qué] | Archivos: [deterrente sí/no | derrotero sí/no | carta sí/no]
+```
+
 ### 8/ El chequeo sobre sí mismo
 
 **Este archivo se pasa por las seis preguntas, y su resultado se declara en la corrida/**
@@ -271,8 +313,9 @@ Sobre sí mismo: [qué encontró|nada]
 
 ```
 Chequeo: [id] | Tarea: [cuál] | Folders: [n] | Sub-tareas: [n] | Procesos: [n] | Versión: [fecha]
+Archivos: [deterrente sí/no | derrotero sí/no | carta sí/no] | Fantasma: [sí|no]
 Hallazgos: [n] | Contradicciones: [n] | Disfrazadas: [n] | Huérfanos: [n] | Implícitos: [n] | Mudos: [n]
-Reasignados: [n] | Desde cero: [n]
+Reasignados: [n] | Desde cero: [n] | Nivel rearmado: [n]
 Sobre sí mismo: [qué encontró|nada]
 ```
 

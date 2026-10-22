@@ -55,14 +55,22 @@
 | «El derrotero apunta; el deterrente muta; la carta lee.» | `mantis/Derrotero.md`, `mantis/deterrente.md`, `AGENTS.md` | decisión | `mantis` | prueba | vivo |
 | «Algo que no cambia ya no es IA: es un archivo.» | `mutacion.md`, `Sin herencia` | frase | `mantis/deterrente.md`, `AGENTS.md` | prueba | vivo |
 | «Se acepta `Muta:` en el derrotero por ahora; después se pule.» | `mantis/Derrotero.md` | decisión | `mantis` | frontera | vivo |
-| «ATLAS es el paso 3, no una gema: la comunicación no se sostiene, se entrega.» | `3 ATLAS/README.md`, `1 Guantelete/README.md` | decisión | `2 Ouroboros` | prueba | vivo |
+| «ATLAS es el paso 3, no una gema: la comunicación no se sostiene, se entrega.» | `3 ATLAS/carta.md`, `1 Guantelete/carta.md` | decisión | `2 Ouroboros` | prueba | vivo |
 | «`integridad` es paso 2: chequear y reescribir es abstraer procesos, no sostener una gema.» | `integridad.md:55`, `2 S.A.R.A/deterrente.md` | decisión | `2 S.A.R.A` | prueba | vivo |
 | «S.A.R.A es una instancia que cruzó la puerta de `mutación`; no es la mutación.» | `SARA 1.md:23`, `2 S.A.R.A/deterrente.md` | decisión | `2 S.A.R.A` | prueba | vivo |
-| «Guantelete: las gemas no existen por separado; existen porque el guantelete las junta.» | `1 Guantelete/README.md` | decisión | `1 Guantelete` | prueba | vivo |
-| «Una gema es un verbo que no se puede dividir en otro verbo.» | `1 Guantelete/README.md`, `Las gemas` | decisión | `1 Guantelete` | prueba | vivo |
+| «Guantelete: las gemas no existen por separado; existen porque el guantelete las junta.» | `1 Guantelete/carta.md` | decisión | `1 Guantelete` | prueba | vivo |
+| «Una gema es un verbo que no se puede dividir en otro verbo.» | `1 Guantelete/carta.md`, `Las gemas` | decisión | `1 Guantelete` | prueba | vivo |
 | «No invento nada, solo unifico: Newton tampoco inventó la gravitación.» | `1 Guantelete/`, `mutacion.md`, `Reemplaza:` | frase | `1 Tesis` | frontera | vivo |
 | «Unificar sin `Reemplaza:` entierra lo que unificó: la fusión parece nueva y no lo es.» | `mutacion.md`, `La acuñación` | descarte | `1 Tesis` | frontera | vivo |
 | «El `Reemplaza:` de cada paso —oferta retirada por la autoridad.» | `1 Tesis/notas.md` | descarte | — | nada | descartado |
+| **«Un fantasma es una tarea sin deterrente ni derrotero: no puede existir uno sin otro.»** | `Integridad`, `El fantasma` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
+| **«Los tres archivos que importan: `deterrente.md`, `Derrotero.md` y, opcional, la carta (`README.md`).»** | `formato.md`, `Derrotero y Carta.md` | decisión | `2 S.A.R.A/integridad.md`, `formato.md` | prueba | vivo |
+| «Con deterrente y derrotero se puede sacar integridad triangulando los dos archivos con lo que hay.» | `Integridad`, `El triángulo` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
+| «La carta es opcional para la integridad: si está, ayuda a leer; si no, no impide.» | `Derrotero y Carta.md` `1.1` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
+| «Integridad no llena huecos: reacomoda sub-tareas desde 0 en nuevos procesos y carpetas que trabajan, porque tienen esos dos archivos.» | `integridad.md:55`, `Recorrer por nivel` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
+| «Sin los dos archivos: se advierte fantasma y se dan 3 ideas de tarea desde 0, como armar desde 0 sin idea de dónde vino — Ghost in the Shell.» | `Integridad`, `El fantasma` | decisión | `2 S.A.R.A/integridad.md` | frontera | vivo |
+| «Una "verdad del momento" es más útil que una "academicamente repetible".» | `piso.md`, `integridad.md` | frase | `2 S.A.R.A/integridad.md`, `1 Tesis` | frontera | vivo |
+| «La academia se preocupa por ideas; esto es implementación.» | `piso.md`, `No-objetivo` | frase | `1 Tesis` | frontera | vivo |
 
 ## Lo que este registro no hace
 

@@ -58,8 +58,8 @@ Tres problemas, y tienen nombre en bibliotecología:
 | Concepto | Nace en | Bajó de | Nuevo | Sinónimos | Calificador | Más amplio | Más estrecho | Se usa en | Estado |
 |---|---|---|---|---|---|---|---|---|---|
 | proceso | Ouroboros | — | sí | — | — | — | abstracción | Ouroboros | vigente |
-| guantelete | Guantelete | proceso | sí | Placeholder | — | — | gema | `2 Ouroboros/1 Guantelete/README.md` | vigente |
-| gema | Guantelete | guantelete | sí | — | — | guantelete | — | `2 Ouroboros/1 Guantelete/README.md` | vigente |
+| guantelete | Guantelete | proceso | sí | Placeholder | — | — | gema | `2 Ouroboros/1 Guantelete/carta.md` | vigente |
+| gema | Guantelete | guantelete | sí | — | — | guantelete | — | `2 Ouroboros/1 Guantelete/carta.md` | vigente |
 | abstracción | Ouroboros | proceso | sí | nombre puesto | — | — | primitivo de convención | `README` de Ouroboros | vigente |
 | primitivo de convención | S.A.R.A | abstracción | sí | — | — | abstracción | agente | `README` de S.A.R.A | vigente |
 | subproceso | S.A.R.A | abstracción | sí | subproceso autónomo, conversacional, de registro | — | proceso | sub-tarea | `punto-de-partida/` | vigente |

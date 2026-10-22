@@ -42,9 +42,9 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `1 Tesis` | `Derrotero y Carta.md` | estandar | 125 |
 | `1 Tesis` | `esquema-de-fila.md` | estandar | 67 |
 | `1 Tesis` | `formato.md` | formato | 183 |
-| `1 Tesis` | `indice.md` | indice | 165 |
+| `1 Tesis` | `indice.md` | indice | 166 |
 | `1 Tesis` | `Inicial.md` | estandar | 104 |
-| `1 Tesis` | `notas.md` | estandar | 76 |
+| `1 Tesis` | `notas.md` | estandar | 84 |
 | `1 Tesis` | `piso.md` | estandar | 88 |
 | `1 Tesis` | `problemas-abiertos.md` | estandar | 95 |
 | `1 Tesis` | `README.md` | puerta | 74 |
@@ -64,8 +64,9 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
-| `2 Ouroboros/1 Guantelete` | `deterrente.md` | deterrente | 84 |
-| `2 Ouroboros/1 Guantelete` | `README.md` | puerta | 84 |
+| `2 Ouroboros/1 Guantelete` | `carta.md` | proceso | 93 |
+| `2 Ouroboros/1 Guantelete` | `Derrotero.md` | proceso | 53 |
+| `2 Ouroboros/1 Guantelete` | `deterrente.md` | deterrente | 83 |
 | `2 Ouroboros/1 Guantelete/mutaciones` | `friccion.md` | proceso | 136 |
 | `2 Ouroboros/1 Guantelete/mutaciones` | `README.md` | puerta | 27 |
 | `2 Ouroboros/1 Guantelete/mutaciones` | `sesgo-declarado.md` | proceso | 137 |
@@ -76,9 +77,11 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros/1 Guantelete/primitivos` | `mutacion.md` | proceso | 157 |
 | `2 Ouroboros/1 Guantelete/primitivos` | `README.md` | puerta | 22 |
 | `2 Ouroboros/1 Guantelete/primitivos` | `retiro.md` | proceso | 112 |
+| `2 Ouroboros/2 S.A.R.A` | `carta.md` | proceso | 88 |
 | `2 Ouroboros/2 S.A.R.A` | `criterio.md` | proceso | 109 |
+| `2 Ouroboros/2 S.A.R.A` | `Derrotero.md` | proceso | 63 |
 | `2 Ouroboros/2 S.A.R.A` | `deterrente.md` | deterrente | 59 |
-| `2 Ouroboros/2 S.A.R.A` | `integridad.md` | proceso | 306 |
+| `2 Ouroboros/2 S.A.R.A` | `integridad.md` | proceso | 349 |
 | `2 Ouroboros/2 S.A.R.A` | `Proceso PROMETEA.md` | proceso | 84 |
 | `2 Ouroboros/2 S.A.R.A/alineacion` | `entender-salida.md` | proceso | 46 |
 | `2 Ouroboros/2 S.A.R.A/alineacion` | `pluralizar-autoridad.md` | proceso | 47 |
@@ -131,6 +134,9 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros/2 S.A.R.A/versionado` | `versionar.md` | proceso | 45 |
 | `2 Ouroboros/2 S.A.R.A/vocabulario` | `conceptualizar.md` | proceso | 44 |
 | `2 Ouroboros/2 S.A.R.A/vocabulario` | `README.md` | puerta | 19 |
+| `2 Ouroboros/3 ATLAS` | `carta.md` | proceso | 70 |
+| `2 Ouroboros/3 ATLAS` | `Derrotero.md` | proceso | 37 |
+| `2 Ouroboros/3 ATLAS` | `deterrente.md` | deterrente | 68 |
 | `2 Ouroboros/3 ATLAS` | `indice de formas.md` | indice | 65 |
 | `2 Ouroboros/3 ATLAS` | `Proceso ATLAS.md` | proceso | 344 |
 | `2 Ouroboros/3 ATLAS` | `README.md` | puerta | 50 |
@@ -156,7 +162,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 
 ## Totales
 
-`Archivos: 100 | procesos: 51 | estandares: 17`
+`Archivos: 106 | procesos: 57 | estandares: 17`
 
 ## Prueba
 

@@ -26,17 +26,26 @@ El **paso 1** de `../`. Su tarea es **cortar el sinfín**: fijar las piezas que 
 ## La estructura
 
 ```
-1 Guantelete/                      ← la tarea. Esta puerta.
-├── README.md                        este archivo
+1 Guantelete/                      ← el paso 1. Tres archivos: la carta, el deterrente, el derrotero.
+├── carta.md                         qué hay, qué no se toca y cómo se verifica
 ├── deterrente.md                    qué se pierde si el guantelete se vuelve catálogo
+├── Derrotero.md                     qué gema se carga y cuándo
 ├── primitivos/                      sub-tarea · 6 gemas
 └── mutaciones/                      sub-tarea · 2 gemas
-
-2 S.A.R.A/                         ← el paso 2: la primera instancia que cruza la puerta
-3 ATLAS/                           ← el paso 3: la salida hacia interpretación, no verdad
 ```
 
-**`ATLAS` no vive aquí.** Es el paso 3, no una gema: la comunicación no se sostiene, se entrega. Rige `../3 ATLAS/README.md`.
+**Los dos archivos que importan son `deterrente.md` y `Derrotero.md`.** Sin uno de los dos, el guantelete es fantasma y se advierte. Rige `../2 S.A.R.A/integridad.md`, `El fantasma`.
+
+**La carta es el tercero, y es opcional.** Rige `../../1 Tesis/Derrotero y Carta.md`, `La carta y el derrotero son dos piezas`.
+
+```
+2 Ouroboros/                       ← la abstracción que contiene los pasos
+├── 1 Guantelete/                    el paso 1
+├── 2 S.A.R.A/                       el paso 2: la primera instancia que cruza la puerta
+└── 3 ATLAS/                         el paso 3: la salida hacia interpretación, no verdad
+```
+
+**`ATLAS` no vive aquí.** Es el paso 3, no una gema: la comunicación no se sostiene, se entrega. Rige `../3 ATLAS/carta.md`.
 
 **`integridad` no vive aquí.** Chequear y reescribir no es sostener una gema: es abstraer procesos, y eso es el paso 2. Rige `../2 S.A.R.A/integridad.md`.
 
