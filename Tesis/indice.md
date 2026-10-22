@@ -65,7 +65,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `Ouroboros/1 Guantelete — primitivo/mutaciones` | `README.md` | puerta | 41 |
 | `Ouroboros/1 Guantelete — primitivo/mutaciones` | `sesgo-declarado.md` | proceso | 146 |
 | `Ouroboros/1 Guantelete — primitivo/primitivos` | `aplicar.md` | proceso | 93 |
-| `Ouroboros/1 Guantelete — primitivo/primitivos` | `claridad.md` | proceso | 230 |
+| `Ouroboros/1 Guantelete — primitivo/primitivos` | `claridad.md` | proceso | 238 |
 | `Ouroboros/1 Guantelete — primitivo/primitivos` | `ingenieria-inversa.md` | proceso | 81 |
 | `Ouroboros/1 Guantelete — primitivo/primitivos` | `manipulacion.md` | proceso | 196 |
 | `Ouroboros/1 Guantelete — primitivo/primitivos` | `mutar.md` | proceso | 162 |
@@ -133,6 +133,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `Ouroboros/3 ATLAS — mutación` | `Proceso ATLAS.md` | proceso | 349 |
 | `Ouroboros/3 ATLAS — mutación` | `rastro.md` | proceso | 87 |
 | `Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 52 |
+| `Ouroboros/procesos` | `medir-acero.md` | proceso | 51 |
 
 ### mantis/
 
@@ -141,7 +142,6 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `mantis` | `Derrotero.md` | proceso | 59 |
 | `mantis` | `deterrente.md` | deterrente | 80 |
 | `mantis/mantenimiento/chequear` | `auditar-configuracion.md` | proceso | 75 |
-| `mantis/mantenimiento/chequear` | `medir-acero.md` | proceso | 51 |
 | `mantis/mantenimiento/chequear` | `README.md` | puerta | 27 |
 | `mantis/mantenimiento/editar` | `editar.md` | proceso | 157 |
 | `mantis/mantenimiento/editar` | `README.md` | puerta | 26 |

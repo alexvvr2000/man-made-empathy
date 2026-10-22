@@ -30,6 +30,12 @@ Rige: claridad
 | «La tesis muta con mi entendimiento: hoy tengo una vista y mañana otra.» | mantis/mantenimiento/escribir-notas.md, La vista muta | decisión | 1 Tesis | prueba | vivo | vista 2026-10-22 |
 | «Lo que se tomaba como verdad en .contexto/ era una vista vieja, no un hecho.» | escribir-notas.md, Purga | decisión | mantis | prueba | vivo | vista 2026-10-22 |
 
+## Las tesis del estándar
+
+| Dicho | De | Tipo | Usa | Sostenido | Estado | Vista |
+|---|---|---|---|---|---|---|
+| La distinción entre entregable de humano y de máquina ya está en claridad 1.4: la marca la forma, no el destinatario. | claridad 1.20 | decisión | Ouroboros/1 Guantelete/claridad.md | frontera | vivo | vista 2026-10-22 |
+
 ## Las notas
 
 | Dicho | De | Tipo | Usa | Sostenido | Estado | Vista |

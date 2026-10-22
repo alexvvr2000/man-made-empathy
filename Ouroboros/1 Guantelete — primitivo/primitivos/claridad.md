@@ -64,6 +64,14 @@ Un documento cuya forma declara un lector —prosa, contexto y decisión, sin ca
 **Prueba:** `La forma declara lector → human-first | La forma declara campos/anclas → máquina | La forma mezcla sin declarar → ambigua`. `Documento que se lee sin ejemplo cuando la regla lo admite → incompleto | Ejemplo marcado en documento que se ejecuta → pasa`.
 **Falsificador:** `[del Prueba] el caso que el Prueba marca como falla`.
 
+### 1.20 La distinción no es quién recibe
+La distinción entre entregable de humano y de máquina ya está: la fija `1.4`, y la marca la forma, no el destinatario. Un artefacto cuyo lector declarado es humano se escribe human-first; uno cuyo lector es el ejecutor se escribe con campos y anclas. El mismo archivo se lee de ambas formas y sigue la de su lector.
+
+Un artefacto no separa dos entregables por especie de destinatario: separa uno por clase. La clase `Se ejecuta` se lee igual por un humano y por el ejecutor que la corre; la clase `Se lee` exige ejemplo para ambos. Dos archivos que dicen lo mismo, uno para cada especie, son una copia, y la copia paga contexto. Rige `1.16`.
+
+**Prueba:** `Artefacto con una clase y un lector declarados → pasa | Dos archivos que dicen lo mismo, uno por especie → falla | La forma cambia según quién lo pida → falla`.
+**Falsificador:** `Una versión "para humanos" de un proceso | Una versión "para máquinas" de un texto de lectura | Un archivo que declara lector humano y exige campos sin declararlo`.
+
 ### 1.5 Agnosticismo de era, tecnología y especie
 Las normas no nombran **coordenadas de tiempo, instrumento o especie** —eras, tecnologías, herramientas, modelos, plataformas, versiones o especies—. Se escriben por propiedad y operación.
 
