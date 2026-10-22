@@ -144,6 +144,37 @@ Pasada 1: [enunciado] | Pasada 2: [salida] | Coinciden: [sí|no]
 
 **Prohibido resolver una contradicción borrando el chequeo.** Si el chequeo molesta, el que sobra es el proceso.
 
+### 7. Acuñar el nombre de la corrida
+
+**Todo muta: tarea, sub-tarea, subproceso y nombre.** Por eso una corrida no termina en veredicto: **termina en un nombre nuevo.**
+
+Nombrar no es un adorno del reporte. **Es lo que obliga a verbalizar qué cambió**, y sin verbalizarlo la corrida no dejó criterio: dejó un resultado.
+
+**Se acuña siempre, para lo que se chequeó**, sea tarea, sub-tarea o subproceso.
+
+**La forma es la de** `./Proceso de mutación.md`, `Acta`. Se reusa, no se redefine:
+
+```
+Acta: [id] | Nombre: [nombre] | Expansión: [significado] | Origen: [hallazgo de esta corrida] | Fecha: [ISO]
+Encargo: [qué se chequeó] | Fin: [estado observable del veredicto]
+Muta: [qué cambió en la corrida] | Conserva: [qué no] | Ausencias: [qué no se pudo ver] | Prueba: [corrida|no corrida|pendiente]
+Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre o NINGUNA]
+```
+
+**El nombre se lee como nombre propio; la expansión dice qué significa.** Un acrónimo que solo se puede leer deletreando no es un nombre: es una etiqueta.
+
+**La regla que lo vuelve criterio:**
+
+> **Un nombre que sirve para dos corridas distintas no nombra nada.** Si el mismo nombre sobrevive a un cambio, el cambio no se verbalizó.
+
+**Sin hallazgo no hay acuñación.** Una corrida que no encontró nada acuña igual, pero su `Muta:` declara el estado: *«sin cambio: el piso aguantó»*. Lo que no se permite es acuñar como si hubiera habido un cambio.
+
+**El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. Rige `./Proceso de mutación.md`, `Sin herencia`.
+
+**Prueba:** ¿la corrida acuñó nombre? ¿El nombre se lee como nombre propio? ¿`Muta:` declara el cambio real, o el estado si no hubo? ¿`Reemplaza:` apunta al anterior?
+
+**Falsificador:** una corrida sin nombre; un nombre reusado de otra corrida; una expansión que deletrea el acrónimo; una acuñación sin `Reemplaza:`; un `Muta:` que dice «varios» sin nombrar ninguno.
+
 ## ATLAS al 100%
 
 El chequeo no es una tabla: es una emisión. Y rige `../../corpus/ATLAS/Proceso ATLAS.md`:

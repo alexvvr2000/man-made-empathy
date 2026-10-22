@@ -14,6 +14,7 @@
 **Creación de procesos:** `../Ouroboros/Proceso de creación de procesos.md`. Se carga cuando el cambio produce o reemplaza un proceso.
 **Registro:** `../.contexto/memoria.sql`. El `.md` es la fuente; la base es el acelerador.
 **Ley:** `./mantenimiento/editar.md`.
+**Piso:** `./piso/`. Corre aquí y ahora; la forma que sigue está en `../corpus/piso/`.
 
 ## Los tres niveles
 
@@ -37,6 +38,7 @@ Una petición puede tocar tres cosas distintas, y cada una se trata distinto.
 | Se audita el estado del repo | `./mantenimiento/auditar-configuracion.md` | no hay auditoría |
 | Se comprueba la base contra el esquema | `./mantenimiento/verificar-esquema.md` | la base no se toca |
 | Se mide si un agente es ACERO | `./mantenimiento/medir-acero.md` | no se declara ACERO |
+| Se chequea integridad o formato | `./piso/inventario.ps1` y `../corpus/piso/formato-de-proceso.md` | no hay veredicto |
 
 **Vacío.** Lo que no entra en una fila se declara `[VACÍO - SIN PROCESO]` y se pregunta; no se improvisa.
 

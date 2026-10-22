@@ -4,6 +4,8 @@
 
 **J'ONN:** la vía de los procesos que no cubren fallos. Produce lo que no estaba previsto y lo deja con nombre.
 
+**Piso.** J'ONN produce lo inesperado; para comprobarlo usa `../../../corpus/piso/`. El piso no decide qué es inesperado —eso es criterio— pero hace que **dos ejecutores distintos coincidan en qué se consideró inesperado.** Sin eso, «lo inesperado» depende de quién mira, y deja de ser un dato.
+
 **Nombre.** J'onn J'onzz, el Detective Marciano: el último de su especie, varado en un planeta que no es el suyo, sin forma fija. Su poder no es la fuerza: es dejar de tener una forma. No puede volver, y aun así ayuda.
 
 **Lo que distingue esta vía.**

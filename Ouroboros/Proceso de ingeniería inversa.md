@@ -23,6 +23,10 @@ Es el proceso que produce procesos por prueba y error, en vez de por diseño. Si
 - **Sale:** un proceso nuevo, con su Prueba y su Falsificador, o la declaración de que no se pudo deducir.
 - **Consume:** quien va a repetir el proceso, y la autoridad que decide aceptarlo.
 
+**Prueba:** ¿el proceso deducido reproduce el resultado observable, y su desvío está declarado?
+
+**Falsificador:** un proceso deducido que no reproduce nada observable; uno que se protege por parecerse al original en vez de por tender al mismo resultado; un desvío que se calla.
+
 ## Piso y techo
 
 **Piso:** todo lo observable en el borde del sistema: qué entra, qué sale, qué cambia, qué se repite. No se toca el interior.
@@ -66,5 +70,5 @@ Sin Falsificador no entra: un proceso sin el caso que lo incumple es una opinió
 - Si el proceso reproduce el resultado observable → se entrega con su `Tendencia` y su `Desvío`.
 - Si tiende pero se desvía → se entrega igual, y el desvío queda declarado.
 - Si no tiende a nada → `[VACÍO - SIN PROCESO DEDUCIDO]`.
-- Si la tarea necesita comunicar el proceso deducido → `./ATLAS/Proceso ATLAS.md`.
+- Si la tarea necesita comunicar el proceso deducido → `../corpus/ATLAS/Proceso ATLAS.md`.
 - En cualquier otro caso → se entrega y se cierra.

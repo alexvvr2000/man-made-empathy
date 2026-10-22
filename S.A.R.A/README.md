@@ -33,6 +33,21 @@ El sistema completo se llama **ARDOR**: **A**lineación, **R**egistro, **D**isce
 
 **S.A.R.A es la implementación. ARDOR es lo que S.A.R.A cumple.** Y ACERO es la propiedad que demuestra que lo cumple: un sistema es ACERO cuando puede reemplazarse sin perder lo que servía. ARDOR no se mide; ACERO sí.
 
+### ARDOR usa el piso
+
+ARDOR tiene dos partes, y confundirlas es lo que hace que un sistema parezca funcionar sin funcionar.
+
+| Parte | Qué es | Dónde |
+|---|---|---|
+| **Piso** | lo que hace que **distintos ejecutores hagan lo mismo** | `../corpus/piso/` |
+| **Criterio** | lo que decide **qué hacer con eso** | aquí, y en cada proceso |
+
+> **El piso es lo que hace que distintos ejecutores hagan lo mismo. El criterio es lo que decide qué hacer con eso. Un piso sin criterio es un pendrive; un criterio sin piso es una opinión.**
+
+**Y el piso es desechable.** Se tira cuando deja de servir, sin tocar lo que chequeaba. No es infraestructura que se mantiene: es una herramienta que se reescribe y sigue siendo la misma pieza, porque **se nombra por lo que decide, no por cómo está hecha.**
+
+Sin piso, dos agentes con el mismo ARDOR producen resultados que no se pueden comparar. Rige `../corpus/piso/README.md`.
+
 > El ardor es lo que queda cuando algo se sostiene sin enfriarse.
 
 ## La distinción de niveles

@@ -18,14 +18,26 @@ Este nivel no existía, y su ausencia costaba caro: el estándar del derrotero v
 | Nivel | Responde | Qué contiene | Cambia cuando | Si desaparece |
 |---|---|---|---|---|
 | **Estándar** | ¿cómo tiene que ser? | este nivel: `corpus/` | casi nunca | no se sabe cuándo algo está bien hecho |
-| **Instancia** | ¿qué se hace hoy? | `Ouroboros/`, `S.A.R.A/`, `mantis/` | siempre | el estándar queda sin efecto |
-| **Implementación** | ¿con qué se hace? | `Agentes/` | cuando cambia la era | el estándar sigue intacto |
+| **Instancia** | ¿qué se hace hoy? | `Ouroboros/`, `S.A.R.A/`, `mantis/` — **instancias de este corpus** | siempre | el estándar queda sin efecto |
+| **Era** | ¿con qué se hace? | `Agentes/` | cuando cambia la era | el estándar sigue intacto |
+
+**Las tres carpetas de instancia no son hermanas de `corpus/`: son instancias suyas.** Aplican la forma; no la definen.
+
+| Instancia | Qué aplica |
+|---|---|
+| `Ouroboros/` | la forma de proceso y la fricción |
+| `S.A.R.A/` | las abstracciones, y el formato de proceso en `piso/` |
+| `mantis/` | la operación: edita, audita y **hace cumplir el formato**. Su piso corre en `piso/` |
+
+**`Agentes/` es la era, no una instancia.** Una instancia se corrige; una era se reemplaza. Un estándar que caduca con la era deja de ser estándar, y por eso la era no puede vivir dentro de `corpus/`.
+
+**El piso vive en la instancia, no en el estándar.** `corpus/piso/` dice **qué** tiene que decidir una unidad y **qué forma** tiene un proceso. El archivo que corre —un `.ps1`, un `.py`, lo que sea— vive en `mantis/piso/`, porque el lenguaje es de la era. **Si ese lenguaje cambia, el estándar no se toca.**
 
 **La prueba entre estándar e instancia:** un estándar sin instancia **no hace nada**. Una instancia sin estándar **está a la deriva**: no hay forma de saber si está completa.
 
-**La prueba entre instancia e implementación:** si la era muere y la instancia sigue teniendo sentido, no era implementación.
+**La prueba entre instancia y era:** si la era muere y la instancia sigue teniendo sentido, no era era.
 
-**No hay jerarquía de mando entre niveles.** El estándar no obedece a la instancia ni la instancia al estándar: cada uno se rompe de una manera distinta. Y el estándar **no manda sobre la implementación**: la implementación existe para probar el estándar, no al revés.
+**No hay jerarquía de mando entre niveles.** El estándar no obedece a la instancia ni la instancia al estándar: cada uno se rompe de una manera distinta. La era existe para probar el estándar, no al revés.
 
 ## Qué hay aquí
 
@@ -34,7 +46,10 @@ Este nivel no existía, y su ausencia costaba caro: el estándar del derrotero v
 | `Derrotero.md` | la forma de enrutar: qué necesita un derrotero para estar completo | **obligatorio** |
 | `Conceptos.md` | la forma de nombrar: un concepto, un nombre preferido, con origen | **obligatorio** |
 | `esquema-de-fila.md` | la forma de dejar rastro: qué escribe todo proceso al actuar | **obligatorio** |
+| `piso/` | la forma de ejecutar: qué decide una unidad y qué forma tiene un proceso | **opcional** |
 | `ATLAS/` | la forma de comunicar: piso, techo, canal, sesgo, cuerpo | **opcional** |
+
+**`piso/` es lo primero que ve alguien que abre este repo desde afuera.** No porque sea lo más importante, sino porque es **lo que la industria no tiene**: herramientas que corren igual en cualquier ejecutor. Levanta más cejas que veintiocho procesos, y por eso va aquí y no enterrado en una carpeta de abstracciones.
 
 **Obligatorio** quiere decir que sin eso **no hay sistema**: se puede tener un derrotero sin ATLAS, y se puede funcionar; no se puede funcionar sin saber qué se nombra ni qué se deja escrito.
 

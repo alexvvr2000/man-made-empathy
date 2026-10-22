@@ -8,6 +8,13 @@
 **Compatible con:** `Proceso de creación de procesos`, `Procesos principales`.
 **Alcance:** todo artefacto de este repositorio.
 
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un artefacto escrito, y el lector que tiene que leerlo o ejecutarlo.
+- **Falla:** el artefacto dice dos cosas a la vez, no declara desde dónde habla, o exige un glosario para entenderse; la forma no corresponde a la clase declarada.
+- **Sale:** la forma del artefacto —clase, lector, campos, ejemplos—, o la lista de sus ambigüedades con la norma que las marca.
+- **Consume:** quien va a emitir o ejecutar el artefacto. Si la forma no cierra, no se emite.
+
 Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La producción de procesos vive en `Proceso de creación de procesos.md`; este documento no la repite.
 
 La claridad no es información pura: es la forma en que el contexto llega al lector. Un texto claro transporta su posición, su límite y su ejemplo sin pedir glosario. Lo que se ejecuta paga además no ambigüedad: cada lectura tiene que ser la misma.
