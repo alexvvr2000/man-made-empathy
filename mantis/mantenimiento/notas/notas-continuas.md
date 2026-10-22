@@ -15,7 +15,7 @@
 
 - **Entra:** el trabajo hecho en la sesión y el veredicto del piso.
 - **Falla si:** la sesión cierra sin bloque; el `Estado:` se escribe de memoria y no se midió; lo abierto se omite.
-- **Sale:** un bloque nuevo al principio de `../../../notas/continuas.md`, y los bloques ya cumplidos purgados.
+- **Sale:** un bloque nuevo al principio de `../../../.sesion-continua/continuas.db`, y los bloques ya cumplidos purgados.
 - **Consume:** quien abre la sesión siguiente. **Lee el primer bloque y sabe dónde quedamos.**
 
 ## No espera aviso
@@ -29,6 +29,21 @@
 **Prueba:** ¿el bloque es más nuevo que el último archivo cambiado? ¿un turno que entregó dejó el bloque movido?
 
 **Falsificador:** un bloque que espera aviso; un turno con archivos cambiados y el bloque quieto; un bloque escrito como recuerdo y no como estado medido.
+
+## Vive fuera del piso
+
+**La sesión es lo más mutable de todo, y por eso no tiene la forma de la tesis.** Su base, su esquema y su export viven **juntos, en .sesion-continua/**, y **no los comparte nadie.**
+
+| Dónde | Qué | Se publica |
+|---|---|---|
+| .sesion-continua/continuas.db | la base de la sesión | **no** |
+| .sesion-continua/esquema.sql | su esquema, que **cambia cuando cambia la sesión** | **no** |
+| .sesion-continua/continuas.md | su export | **no** |
+
+**Y el piso no la valida.** Un piso le exige forma a lo que tiene que dar el mismo veredicto en cualquier ejecutor; **la sesión existe justamente porque no tiene forma fija.** Pedirle CHECK y NOT NULL es pedirle que sea otra cosa. Rige ../../../Ouroboros/CRITERIO.md, Unidad y tiro.
+
+**El esquema de la tesis vive en 
+otas/esquema.sql; este no se mezcla con él.** Si se mezclaran, **cada cambio de la sesión arrastraría al esquema que no tiene por qué moverse.**
 
 ## La forma muta, no crece
 

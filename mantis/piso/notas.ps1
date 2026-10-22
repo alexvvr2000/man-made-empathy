@@ -1,71 +1,59 @@
 # notas.ps1 — unidad del piso de esta instancia
-# Decide: si la memoria de la conversacion se esta escribiendo como manda la carta.
+# Decide: si la memoria de la tesis se escribe como manda la carta.
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
-# NOTAS: notas/actuales.md es la memoria. Un turno con decision y sin fila no esta entregado.
-# Columna: Dicho | De | Tipo | Usa | Sostenido | Estado
-# Rige ../../AGENTS.md, "Escribir notas".
+# La base es el acelerador; el export es la fuente.
+# Base: .sesion-continua/tesis.db (oculta). Esquema: notas/esquema.sql. Publicado: notas/actuales.md
+# Rige ../mantis/mantenimiento/notas/notas-tesis.md. Las continuas NO se validan aqui: son mutables.
 #
-# Uso: pwsh -File mantis/piso/notas.ps1 [-Root <ruta>]
+# No se aplica a: lo que no va a la tesis (eso es .sesion-continua/), ni a las generaciones.
 
 param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
 
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
-$Notas = Join-Path $Root 'notas\actuales.md'
+$Base = Join-Path $Root '.sesion-continua\tesis.db'
 
-if (-not (Test-Path $Notas)) {
+
+if (-not (Test-Path $Base)) {
   Write-Output "NOTAS"
   Write-Output "VEREDICTO: indeterminado"
-  Write-Output "MOTIVO: no existe notas/actuales.md"
+  Write-Output "MOTIVO: no existe .sesion-continua/tesis.db"
   exit 0
 }
 
-$tipos = @('analogía', 'referencia', 'cita', 'frase', 'decisión', 'descarte')
-$sinPieza = @(); $sinTipo = @(); $estados = @{}
-$filas = 0
+function Q($sql) { & sqlite3 $Base $sql }
 
-foreach ($l in (Select-String -Path $Notas -Pattern '^\|\s+[«A-Za-zÁÉÍÓÚ]' | Where-Object { $_.Line -notmatch '^\|\s*Dicho\s*\|' }).Line) {
-  $cols = ($l.Trim() -replace '^\||\|$', '') -split '\|'
-  foreach ($i in 0..($cols.Count - 1)) { $cols[$i] = ($cols[$i] -replace '`', '').Trim() }
-  if ($cols.Count -lt 7) { continue }
-  $filas++
-  if ([string]::IsNullOrWhiteSpace($cols[1]) -or $cols[1] -eq '—') { $sinPieza += $l }
-  if ($tipos -notcontains $cols[2]) { $sinTipo += $l }
-  $estados[$cols[5]] = 1 + [int]$estados[$cols[5]]
-}
+$filas = [int](Q "SELECT COUNT(*) FROM fila;")
+$vivas = [int](Q "SELECT COUNT(*) FROM fila WHERE estado = 'vivo';")
+$sinPieza = [int](Q "SELECT COUNT(*) FROM fila WHERE pieza IS NULL OR TRIM(pieza) = '';")
+$sinVista = [int](Q "SELECT COUNT(*) FROM fila WHERE vista IS NULL OR TRIM(vista) = '';")
+$sinCompilar = [int](Q "SELECT COUNT(*) FROM fila WHERE estado = 'cubierto' AND (compilado IS NULL OR TRIM(compilado) = '');")
+$gens = [int](Q "SELECT COUNT(*) FROM generacion;")
+$gensSinVista = [int](Q "SELECT COUNT(*) FROM generacion WHERE vista IS NULL OR TRIM(vista) = '';")
+$sesion = Q "SELECT COUNT(*) FROM sesion WHERE id = 1;"
+$orfanas = [int](Q "SELECT COUNT(*) FROM fila WHERE seccion NOT IN (SELECT nombre FROM seccion);")
 
-$mod = (Get-Item $Notas).LastWriteTime.ToString('yyyy-MM-dd HH:mm')
-$genDir = Join-Path $Root 'notas\generaciones'
-$gens = @(Get-ChildItem $genDir -Directory -ErrorAction SilentlyContinue | Where-Object { $_.Name -notmatch '^\.' })
-$gensSinRegistro = @($gens | Where-Object { -not (Test-Path (Join-Path $_.FullName 'registro.md')) })
-
-# El bloque de continuas no puede ser mas viejo que el ultimo archivo cambiado.
-$cont = Join-Path $Root 'notas\continuas.md'
-$contViejo = $false
-if (Test-Path $cont) {
-  $bloque = (Get-Item $cont).LastWriteTime
-  $ultimo = Get-ChildItem $Root -Recurse -File -Include *.md,*.ps1 -ErrorAction SilentlyContinue | Where-Object { $_.FullName -notmatch '\\\.git\\' -and $_.FullName -notmatch '\\notas\\' -and $_.Name -ne 'continuas.md' } | Sort-Object LastWriteTime -Descending | Select-Object -First 1
-  if ($ultimo -and $bloque -lt $ultimo.LastWriteTime) { $contViejo = $true }
-}
-$resumen = ($estados.Keys | Sort-Object | ForEach-Object { "$_ : $($estados[$_])" }) -join ' | '
-$pasa = ($sinPieza.Count -eq 0 -and $sinTipo.Count -eq 0 -and $filas -gt 0 -and -not $contViejo)
+$errores = @()
+if ($filas -eq 0) { $errores += 'la base no tiene filas' }
+if ($sinPieza -gt 0) { $errores += "filas sin pieza: $sinPieza" }
+if ($sinVista -gt 0) { $errores += "filas sin vista: $sinVista" }
+if ($sinCompilar -gt 0) { $errores += "filas cubiertas sin Compilado en: $sinCompilar" }
+if ($gensSinVista -gt 0) { $errores += "generaciones sin vista: $gensSinVista" }
+if ($orfanas -gt 0) { $errores += "filas en secciones que el esquema no declara: $orfanas" }
+if (-not $sesion) { $errores += 'no hay bloque de sesion en la base' }
 
 Write-Output "NOTAS"
-Write-Output "Archivo: notas/actuales.md"
-Write-Output "Filas: $filas | Ultima escritura: $mod"
-Write-Output "Estados: $resumen"
-Write-Output "Sin pieza: $($sinPieza.Count) | Con tipo fuera de la lista: $($sinTipo.Count)"
-Write-Output "Generaciones: $($gens.Count) | sin registro: $($gensSinRegistro.Count)"
-Write-Output "Continuas: $(if ($contViejo) { 'VIEJO: hay archivos cambiados despues del bloque' } else { 'al dia' })"
+Write-Output "Base: .sesion-continua/tesis.db"
+Write-Output "Filas: $filas | vivas: $vivas | generaciones: $gens"
+Write-Output "Sin pieza: $sinPieza | sin vista: $sinVista | cubiertas sin compilar: $sinCompilar"
 Write-Output ""
-Write-Output "VEREDICTO: $(if ($pasa -and $gensSinRegistro.Count -eq 0) { 'pasa' } else { 'falla' })"
+Write-Output "VEREDICTO: $(if ($errores.Count -eq 0) { 'pasa' } else { 'falla' })"
 Write-Output ""
 
-if (-not $pasa) {
-  Write-Output "PROBLEMA | FILA"
-  foreach ($f in $sinPieza) { Write-Output "sin pieza | $f" }
-  foreach ($f in $sinTipo) { Write-Output "tipo invalido | $f" }
+if ($errores.Count -gt 0) {
+  Write-Output "PROBLEMA"
+  foreach ($e in $errores) { Write-Output "$e" }
   Write-Output ""
 }
 

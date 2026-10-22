@@ -19,6 +19,7 @@ $unidades = @(
   'duplicados.ps1',
   'fantasmas.ps1',
   'notas.ps1',
+  'exportar.ps1',
   'indice.ps1'
 )
 

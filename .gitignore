@@ -1,5 +1,6 @@
 .vscode/*
 Novedad/
-# La memoria de la sesion no se publica: las notas de tesis si.
-notas/continuas.md
+# La sesion no se publica: vive en .sesion-continua/ con su base y su esquema.
+# Las notas de tesis si se publican; las generaciones no.
 notas/generaciones/
+.sesion-continua/

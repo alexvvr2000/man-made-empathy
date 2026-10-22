@@ -26,6 +26,37 @@
 
 **La ficción y la analogía son material, no ruido.** Se usan para hacer la tesis digerible, y la nota guarda **de dónde sale la idea y hacia dónde se cruza.** Rige `../../../AGENTS.md`, `La tesis`.
 
+## La base
+
+**La memoria vive en una base SQLite, y el .md es su export.** La base es el acelerador; lo publicado es la fuente.
+
+`
+.db/notas.db          la base, oculta y en gitignore
+notas/esquema.sql     el esquema compartido: fila, sesion, generacion, prueba, seccion
+notas/actuales.md     el export, publicado
+`
+
+**Las cuatro tablas, y qué guarda cada una:**
+
+| Tabla | Qué guarda |
+|---|---|
+| ila | lo que se dijo: sección, dicho, pieza, tipo, sostenido, estado, vista, compilado |
+| sesion | un solo bloque vivo; se sustituye en el sitio |
+| generacion | cada compilación, con su vista y qué dejó vivo |
+| prueba | las cuatro pruebas y su corrida |
+| seccion | el orden en que se leen las secciones |
+
+**No se escribe con INSERT a mano: se anota con notar.ps1, que valida contra el esquema.**
+
+`
+pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo frase -Sostenido frontera
+pwsh -File mantis/piso/anotar.ps1 -Sesion -Estado "piso.ps1 pasa"
+pwsh -File mantis/piso/exportar.ps1
+`
+
+**Y 
+otas.ps1 verifica que la base y el export digan lo mismo.** Sin la base, el export es una copia a mano; sin el export, la base es un binario que nadie lee.
+
 ## La fila
 
 ```
