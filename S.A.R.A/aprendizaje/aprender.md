@@ -50,7 +50,7 @@ Un absoluto requiere no volver a mirar. Un sistema que mide cada vez no puede te
 
 ## Cómo se aplica
 
-1. **Mirar el registro.** Qué se hizo, con qué criterio, qué se descartó y a quién sirvió. Rige `../punto-de-partida/esquema-de-fila.md`.
+1. **Mirar el registro.** Qué se hizo, con qué criterio, qué se descartó y a quién sirvió. Rige `../../corpus/esquema-de-fila.md`.
 2. **Declarar las tres dimensiones.** Ninguna se omite; la que falta se declara como falta.
 3. **Declarar la continuidad.** Cuántas veces se midió y qué cambió.
 4. **Corregir la tarea intuida.** La tarea no se descubre: se infiere de lo que las subtareas muestran, y cambia con lo que se mide.

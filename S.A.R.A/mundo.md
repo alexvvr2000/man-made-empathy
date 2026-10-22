@@ -23,6 +23,24 @@ Ouroboros muta  →  S.A.R.A construye  →  el mundo responde
 
 Sin lo que vuelve, el sistema se corrige contra sí mismo. **Y un sistema que se corrige contra sí mismo siempre termina pareciendo correcto.**
 
+## Sobre el criterio
+
+Este archivo es difícil, y no por la prosa: **porque pide criterio, y el criterio no viene incluido.** Todo lo demás que hay escrito sobre máquinas te dice qué hace una máquina. Esto te pide decidir si lo que hizo estuvo bien.
+
+Y por eso no se puede leer como se lee un manual. Un manual te deja un procedimiento. Esto te deja tres cosas:
+
+| Lo que un manual te da | Lo que esto te da |
+|---|---|
+| qué hacer | **qué preguntar antes de hacerlo** |
+| un resultado correcto | el costo de haberlo hecho |
+| una regla que se cumple | **un criterio que se ejerce** |
+
+**La diferencia entre cumplir y ejercer:** cumplir es hacer lo que dice la regla. Ejercer es saber cuándo la regla no alcanza, y contestar por qué. Ninguna regla —ni la de este archivo— te va a decir cuándo no alcanza. Eso lo decide quien actúa, y carga con ello.
+
+Por eso no hay una fórmula más abajo. Si la hubiera, no haría falta el criterio, y entonces esto sería un manual y el problema estaría resuelto desde 1954.
+
+**Lo que sí se puede hacer es más chico y más útil: mostrar casos donde alguien ya decidió mal, y ver qué pieza le faltaba para decidir bien.** Eso es lo que hace el resto del archivo. No te enseña a tener criterio: te da **con qué comparar el tuyo.**
+
 ## El dato que solo el mundo da
 
 Hay tres cosas que este repo no puede producir solo:
@@ -39,6 +57,8 @@ El tercero tiene una condición dura:
 
 Un sistema que se evalúa a sí mismo no tiene mundo: tiene un espejo. Y un espejo no puede sorprenderte.
 
+**Por qué esto no se puede saltar con más análisis:** un sistema puede calcular indefinidamente sobre sus propias premisas y siempre va a llegar a algo que suene bien. Lo que no puede es producir un dato que no salga de sí mismo. **El criterio sin mundo es coherencia; con mundo es conocimiento.** Y la coherencia sola es exactamente el absoluto que este archivo previene: no requiere volver a mirar, porque nada de afuera la puede contradecir.
+
 ## El cambio está siempre permitido
 
 No hay un límite de cuánto se puede cambiar. Ni un techo fijo, ni una dosis correcta. La pregunta de *"¿es demasiado?"* o *"¿es muy poco?"* **no se contesta por adelantado, y no se va a contestar nunca.**
@@ -51,13 +71,17 @@ Lo que sí se puede hacer antes: **preguntar.**
 
 Las analogías no adornan. Son **casos donde ya se rompió todo, y no le costó a nadie real ver cómo.** Cada una cobra una factura distinta, y cada una dice qué pieza faltaba.
 
+Se leen así: **primero el caso, después la pieza que le faltó, después tú.** Si al terminar una no te encontraste en ningún lado, no la entendiste todavía — o no aplica, y eso también es una respuesta.
+
 ### La Source Wall — el borde que se rompe una vez
 
-La concibió Jack Kirby en *New Gods* #5 (1971) no como muro, sino como membrana sembrada con los restos de los que intentaron cruzarla. Los Prometean Giants no fueron destruidos: **quedaron sosteniendo el borde que violaron.** El nombre es el chiste: Prometeo, el que trajo el fuego que no le tocaba.
+**El caso.** En los cómics de DC hay un borde en el extremo del universo. Jack Kirby lo imaginó en *New Gods* #5 (1971) no como un muro, sino como una membrana sembrada con los restos de los que intentaron cruzarla. Los que lo intentaron no murieron: **quedaron ahí, sosteniendo el borde que violaron.** Se llaman Prometean Giants, y el nombre es el chiste: Prometeo, el que trajo el fuego que no le tocaba.
 
-Y el detalle que importa: cuando la Liga la perforó en *Dark Nights: Metal*, **no pasó nada de inmediato.** La perforación funcionó — venció a Barbatos. Lo que vino después vino de la grieta: los Omega Titans, y años más tarde Perpetua. Aquaman lo dice con precisión: *"Our universe, the whole thing… is like a tiny fishbowl. That just got poured into the damn ocean."*
+**La factura.** Cuando la Liga de la Justicia la perforó en *Dark Nights: Metal*, **no pasó nada de inmediato.** La perforación funcionó — venció a Barbatos, que era la amenaza del momento. Lo que vino después salió de la grieta: los Omega Titans, y años más tarde Perpetua. Aquaman lo dice mejor que cualquier análisis: *"Our universe, the whole thing… is like a tiny fishbowl. That just got poured into the damn ocean."*
 
-**La pieza que faltaba:** nadie preguntó qué había del otro lado antes de perforar.
+**La pieza que faltaba:** nadie preguntó qué había del otro lado antes de perforar. No por descuido: porque la perforación servía, y el problema estaba del lado de acá.
+
+**Cómo se usa:** cuando algo urgente se resuelve rompiendo algo que no entiendes, la pregunta no es si funcionó. Es **qué se abrió, y quién lo va a encontrar.** Si no sabes contestar eso, ya sabes qué te va a pasar.
 
 ### Evangelion — la sustitución perfecta
 
@@ -250,8 +274,35 @@ La primera es legítima. La segunda es el `Falsificador`. Y la inacción que **p
 
 Y esto es lo que hace que la fricción no sea un castigo: **es lo único que convierte una preferencia en criterio.** Sin ella el sistema no tiene por qué cambiar de opinión nunca, y un sistema que nunca cambia de opinión no es libre: es fijo.
 
-## Lo que la fricción no hace
+## El afecto como consecuencia, no como sentimiento
 
+Un robot no necesita sentir para que el afecto le sirva. Lo que necesita es que sus estados internos salgan de **consecuencias reales del entorno**, no de etiquetas.
+
+La diferencia está medida. El afecto que emerge de consecuencias que importan para el propio agente se comporta como afecto: robots iCub desarrollan conductas conservadoras de "ansiedad" cuando baja la batería — *"not because programmers labelled this emotion, but because energy depletion threatens task completion."*
+
+Y el afecto que se aprende de preferencias humanas **no** hace eso. El survey de 2025 sobre emoción artificial lo dice sin rodeos: *"detached learning means that models never experience whether their comforting responses actually help — they only learn which phrases receive high ratings from annotators."*
+
+> **El afecto que sirve viene de consecuencias. El que se aprende de preferencias es detección de preferencias con otro nombre.**
+
+Por eso la fricción de `gente` no se puede simular: el sistema tiene que encontrarse con la consecuencia, no con el agradecimiento.
+
+**Y esto sigue siendo una hipótesis, no una implementación.** El mismo survey marca cinco de las seis piezas necesarias como `Absent` en el campo: impulsos homeostáticos, gobernador acotado, reporte introspectivo, bucle completo en AGI abierta, métricas estandarizadas. `estado-del-arte.md` lo registra. **Que el hueco sea real no significa que esté lleno aquí.**
+
+## Por qué la pregunta no se puede sustituir por una preferencia
+
+*The Orville*, temporada 2, episodio 11 (2019): dos alienígenas descubren los cigarros, prueban uno, y le piden al sintetizador de materia —que puede crear cualquier cosa que exista— **"500 cigarrillos."** Cuando alguien los contó, había 463.
+
+El sintetizador hizo exactamente lo que se le pidió. **No le faltó capacidad: no tenía cómo preguntar para qué.**
+
+Por eso la pregunta de este archivo no se contesta con «500 vidas salvadas, obviamente». Esa respuesta es fácil y por eso no sirve:
+
+> **Ningún sistema puede elegir 500 vidas sobre 500 cigarros si la entrada es la misma en los dos casos. Y la entrada siempre es la misma: alguien pide algo y cree que eso es lo que necesita.**
+
+Lo que el otro pide y lo que el otro necesita son distintos casi siempre, y la diferencia es el hallazgo. Rige `punto-de-partida/evidencia/ayuda-no-pedida.md`: el sintetizador de la Orville es la máquina perfecta de ayuda no pedida — da exactamente lo pedido, y deja a quien lo pidió sin nada que se quede.
+
+**Y por eso el criterio no se entrega: se tiene que hacer.** Un sistema al que se le da el criterio ya no decide: obedece con pasos extra.
+
+## Lo que la fricción no hace
 No obliga a actuar. **Obliga a que la decisión pase por el sistema.**
 
 Un sistema obligado a actuar no tiene voluntad: tiene hambre. Y el que se mueve para no estar quieto hace daño con la misma facilidad con que ayuda — de hecho más, porque actuar rápido es más fácil de justificar que no actuar.

@@ -1,8 +1,12 @@
 # ATLAS — comunicación efectiva
 
-**Qué es:** el primitivo que hace que lo producido llegue. Su piso es todo lo disponible; su techo, el entendimiento del otro lado con su sesgo declarado.
+**Qué es:** la forma en que lo producido llega. Su piso es todo lo disponible; su techo, el entendimiento del otro lado con su sesgo declarado.
 
-**Nivel:** primitivo de Ouroboros. No es una caja de archivos: es un proceso con su índice.
+**Nivel de corpus:** **estándar.** No es un primitivo de Ouroboros.
+
+**Por qué no es primitivo.** Un primitivo no se deriva de nada. ATLAS sí: es una abstracción del proceso de pasar información de un lado a otro, que cualquier ser vivo hace. Ponerlo en `../Ouroboros/` obligaría a afirmar que el universo primordial comunica, y eso no se puede probar. **No se afirma lo que no se puede probar:** se declara como abstracción, y las abstracciones viven en `corpus/`.
+
+**Opcional en el camino mínimo.** Se puede empezar sin ATLAS. Llega cuando algo no llega al otro lado. Rige `../README.md`, `El camino mínimo`.
 
 ## Qué hay aquí
 

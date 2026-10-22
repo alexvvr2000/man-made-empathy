@@ -5,7 +5,7 @@
 Es la **implementación de ATLAS** en una era: convierte intención en algo que otro puede leer. «Lenguaje» en sentido amplio: palabra, forma, sonido, movimiento, artefacto.
 
 **Nivel:** implementación. Es cómo se hace hoy lo que el proceso ya define.
-**Nivel superior:** `../../S.A.R.A/README.md` y `../../Ouroboros/ATLAS/Proceso ATLAS.md`.
+**Nivel superior:** `../../S.A.R.A/README.md` y `../../corpus/ATLAS/Proceso ATLAS.md`.
 
 ## Qué ejecuta
 
@@ -48,7 +48,7 @@ Dos, y se declara cuál. No se cambia a mitad de una emisión.
 
 ## Conceptos
 
-`Conceptos: rige ../../S.A.R.A/Conceptos.md. Todo término nuevo que APRIL origine se declara allí.`
+`Conceptos: rige ../../corpus/Conceptos.md. Todo término nuevo que APRIL origine se declara allí.`
 
 Los términos de APRIL —patrón, registro, legibilidad— se dan de alta antes de usarse. Un sinónimo sin declarar ensucia la lengua del sistema.
 

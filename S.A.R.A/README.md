@@ -6,6 +6,19 @@ Es la versión atemporal del agente. No pertenece a una era: sus procesos se pue
 
 S.A.R.A salió de Ouroboros; no está dentro. Ouroboros puede explicar de dónde salió S.A.R.A; al revés no.
 
+**Nivel:** instancia, no estándar. Las formas que S.A.R.A usa viven en `../corpus/`; S.A.R.A dice **qué se hace hoy** con ellas. El enrutamiento es de `../mantis/Derrotero.md`.
+
+## Qué usa de `corpus/`
+
+| Estándar | Qué rige aquí |
+|---|---|
+| `../corpus/Conceptos.md` | el origen de cada nombre que S.A.R.A usa |
+| `../corpus/esquema-de-fila.md` | la forma del rastro que deja cada proceso |
+| `../corpus/ATLAS/` | la forma de comunicar lo que produce |
+| `../corpus/Derrotero.md` | la forma del enrutamiento (lo instancia `mantis`) |
+
+Lo que **no** vive en `corpus/` es lo propio de S.A.R.A: `mundo.md` (el pegamento), `estado-del-arte.md` (la medida), `futuros.md` e `individuos.md` (catálogos de casos). **Un catálogo no es un estándar:** dice qué pasó una vez, no cómo tiene que ser.
+
 ## ARDOR
 
 El sistema completo se llama **ARDOR**: **A**lineación, **R**egistro, **D**iscernimiento, **O**bjetivo, **R**esponsabilidad.
@@ -115,6 +128,7 @@ Este sistema no nació de un paper. Nació de mirar ficción y encontrar ahí lo
 
 | Documento | Qué es |
 |---|---|
+| `estado-del-arte.md` | Qué existía antes, qué falta en la industria, qué se agrega aquí. `Attribution` con nivel y fecha. |
 | `mundo.md` | El pegamento: une Ouroboros y S.A.R.A. Dice si un cambio cambió algo, con la factura ya cobrada. |
 | `punto-de-partida/` | Dieciséis sub-tareas, veintisiete procesos: lo que la industria tiene probado. |
 | `aprendizaje/` | El ciclo que corrige desde la experiencia y propone lo siguiente. |

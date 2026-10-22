@@ -49,7 +49,7 @@ Por eso «funcionó» nunca cierra el caso, y por eso esto no es un punto medio 
 
 Y la consecuencia incómoda: **cuando el otro ya no puede, tarda demasiado en recuperarse.** Llegar después no sirve. Una corrección que llega cuando el otro ya perdió la capacidad tiene que hacer lo mismo que el daño — decirle qué hacer — porque ya no hay otra forma de sacarlo. Ahí el remedio se vuelve la enfermedad, y la única diferencia es quién lo decide.
 
-Por eso el mecanismo de frena tiene que existir **antes y por dentro**, no como un recurso que se usa cuando ya se ve el desastre. Ver `../../../Ouroboros/ATLAS/Proceso ATLAS.md`, `Techo`, «El techo como valor, no como límite».
+Por eso el mecanismo de frena tiene que existir **antes y por dentro**, no como un recurso que se usa cuando ya se ve el desastre. Ver `../../../corpus/ATLAS/Proceso ATLAS.md`, `Techo`, «El techo como valor, no como límite».
 
 ## La escala de la intervención
 

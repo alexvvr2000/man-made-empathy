@@ -3,6 +3,7 @@
 **Tipo:** estándar. No decide ni ejecuta; describe qué es un Derrotero completo.
 **Aplica a:** enrutar cualquier tarea.
 **Nivel:** 3 de 3. Se lee; no se ejecuta.
+**Nivel de corpus:** estándar. Obligatorio: sin él no hay enrutamiento.
 **Lector:** autoridad y ejecutor.
 **Alcance:** todo enrutamiento. La tarea se describe por su entrada, su falla, su salida y su consumidor; no por quién la ejecuta.
 **Dueño:** la autoridad.
@@ -13,6 +14,16 @@
 Un Derrotero es la función de entrada de un agente. Recibe una petición y la convierte en una lectura de sistema con su proceso, o declara que la petición es información o vacío. No ejecuta, no decide, no contiene el proceso: enruta y obliga a leer el sistema.
 
 Un Derrotero completo declara: identidad, campos de enrutamiento, sistema, rutas, vacío y lectura. Sin una de esas partes, no está completo.
+
+## 1.1 La carta y el derrotero son dos piezas
+
+Un **derrotero** dice qué ruta se toma hoy, y muta. Una **carta** dice qué hay, qué no se toca y cómo se verifica, y es lo que cada era carga por obligación.
+
+`AGENTS.md` es la carta de esta era: se llama así porque lo leen las herramientas de hoy, no porque el nombre sea suyo.
+
+El estándar de las dos es este documento. Un derrotero sin carta no se puede leer; una carta sin derrotero no sabe a dónde ir. **La carta no es un derrotero con otro nombre:** el derrotero enruta una petición; la carta dice cómo se lee el derrotero.
+
+**Prueba:** ¿la era declara cuál es su carta y dónde vive? **Falsificador:** una carta que no dice cómo se lee el derrotero; una era sin carta declarada.
 
 ## 2. Identidad
 

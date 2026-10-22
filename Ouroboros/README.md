@@ -1,12 +1,12 @@
 # Ouroboros
 
-**Qué es:** el lenguaje de procesos de esta base. Seis procesos con la misma forma, que se componen entre sí.
+**Qué es:** el lenguaje de procesos de esta base. Cinco procesos primitivos y dos derivados, con la misma forma, que se componen entre sí.
 
 **Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `./Proceso de creación de procesos.md`.
 
 **Por qué es un lenguaje y no un catálogo:** porque los procesos se aplican uno sobre otro, y aplicar es un proceso, no una tabla.
 
-## Los seis
+## Los procesos
 
 | Proceso | Qué hace | Nivel |
 |---|---|---|
@@ -15,12 +15,11 @@
 | `Proceso de aplicar.md` | ejecuta un proceso sobre una entrada | primitivo |
 | `Proceso de mutación.md` | cambia un proceso, con rastro | primitivo |
 | `Proceso de claridad.md` | da forma a lo que se lee o se ejecuta | primitivo |
-| `Proceso ATLAS.md` | comunica con situación, participantes, foco, cuerpo, piso, techo y sesgo | primitivo |
 | `Proceso de fricción.md` | hace que la decisión pase por el que la toma, antes de mover algo | derivado |
 
-Seis primitivos: ninguno se deriva de otro. Es más piezas que el mínimo teórico, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie.
+**Cinco primitivos:** creación, ingeniería inversa, aplicar, mutación y claridad. Ninguno se deriva de otro, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie; uno de veinte no se recuerda.
 
-**La fricción no es primitiva.** Se deriva de los seis: es `claridad` aplicada al momento de decidir, reportando a `../S.A.R.A/mundo.md`. Existe porque los seis dicen cómo se hace algo, y ninguno dice **si la decisión pasó por quien la tomó.**
+**La fricción no es primitiva.** Se deriva de los cinco: es `claridad` aplicada al momento de decidir, reportando a `../S.A.R.A/mundo.md`. Existe porque los cinco dicen cómo se hace algo, y ninguno dice **si la decisión pasó por quien la tomó.**
 
 ## Composición
 
@@ -30,19 +29,19 @@ Un proceso compone con otro cuando su salida es la entrada del otro sin traducci
 |---|---|---|
 | ingeniería inversa | aplicar | el proceso deducido se ejecuta sobre un caso |
 | aplicar | claridad | lo que produce se escribe con su forma |
-| claridad | ATLAS | lo que se lee se comunica |
-| ATLAS | ingeniería inversa | lo que se entendió se vuelve observable |
-| mutación | cualquiera | vuelve sobre los otros cinco y deja rastro |
+| claridad | ATLAS | lo que se lee se comunica (`../corpus/ATLAS/`, estándar, no primitivo) |
+| ATLAS | ingeniería inversa | lo que se entendió se vuelve observable (`../corpus/ATLAS/`) |
+| mutación | cualquiera | vuelve sobre los demás y deja rastro |
 
 **La mutación es la arista de retorno.** Es lo que hace que el nombre tenga sentido: el proceso que vuelve sobre los procesos.
 
 ## Trazabilidad
 
-Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurrió. El rastro vive en `./ATLAS/indice de formas.md`, no en un relato.
+Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurrió. El rastro vive en `../corpus/ATLAS/indice de formas.md`, no en un relato.
 
 ## Qué hay en esta carpeta
 
-Los seis procesos, cada uno con su forma y su función.
+Cada proceso con su forma y su función.
 
 | Archivo | Qué hace |
 |---|---|
@@ -52,11 +51,10 @@ Los seis procesos, cada uno con su forma y su función.
 | `Proceso de mutación.md` | Cambia un proceso y deja el rastro. |
 | `Proceso de claridad.md` | La forma de lo que se lee o se ejecuta. |
 | `Proceso de fricción.md` | Hace que la decisión pase por el que la toma: cuerpo, inacción, gente, opinión. |
-| `ATLAS/` | Comunicación efectiva: situación, participantes, foco, cuerpo, piso, techo, canal, modo, sesgo, acomodo, retórica y fatiga. |
 
 ## Abstracciones
 
-Sobre estos seis se construyen otros procesos. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
+Sobre estos procesos se construyen otros. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
 
 `../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
 

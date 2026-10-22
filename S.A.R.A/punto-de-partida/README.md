@@ -20,7 +20,7 @@ tarea
 
 ## La fila
 
-Todo proceso deja rastro con la misma forma: `./esquema-de-fila.md`. Sin esquema común no hay conjunto, hay registros que no se agregan.
+Todo proceso deja rastro con la misma forma: `../../corpus/esquema-de-fila.md`. Sin esquema común no hay conjunto, hay registros que no se agregan.
 
 La fila guarda lo que casi nadie guarda: **el criterio previo, el falsificador, lo descartado y el contrafactual**. Eso es lo que la vuelve distinta de un registro de actividad, y lo que la haría única si alguien la llena en volumen.
 

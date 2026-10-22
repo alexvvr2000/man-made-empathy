@@ -28,25 +28,31 @@ Tres valores. Si el proceso se muda a otro repositorio, cambian estos y los paso
 
 **Clasificación.** `cambio=[puede|debe] | uso=[una vez|recurrente]`. Lo recurrente entra a la base; lo que ocurre una vez se ejecuta y se informa; un efecto se registra y se mide, y no se escribe como proceso hasta que una decisión dependa de él.
 
-Rutas relativas a la raíz. Tres partes, y el destino es una sola.
+Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 
-| Parte | Documento | Gobierna | Entra el proceso que... |
-|---|---|---|---|
-| **Ouroboros** | `Ouroboros/Proceso de creación de procesos.md` | produce procesos | produce o reemplaza un proceso |
-| **Ouroboros** | `Ouroboros/Proceso de ingeniería inversa.md` | deduce procesos | saca un proceso de lo observable |
-| **Ouroboros** | `Ouroboros/Proceso de aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
-| **Ouroboros** | `Ouroboros/Proceso de mutación.md` | la transformación | gobierna origen, cambio o retorno |
-| **Ouroboros** | `Ouroboros/Proceso de claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
-| **Ouroboros** | `Ouroboros/ATLAS/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
-| **Abstracción** | `S.A.R.A/punto-de-partida/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
-| **Abstracción** | `S.A.R.A/Conceptos.md` | el origen de los nombres | da alta un término |
-| **Abstracción** | `S.A.R.A/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso del agente |
-| **Abstracción** | `S.A.R.A/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
-| **Abstracción** | `S.A.R.A/Derrotero.md` | el enrutamiento | declara condición, proceso y consecuencia |
-| **Implementación** | `Agentes/` | una era | traduce un proceso a su era |
-| **Registro** | `.contexto/memoria.sql` | los datos | registra una fila o un concepto |
+| Nivel | Parte | Documento | Gobierna | Entra el proceso que... |
+|---|---|---|---|---|
+| **Estándar** | Corpus | `corpus/README.md` | la forma de todas las demás | dice cómo tiene que ser algo, para más de una instancia |
+| **Estándar** | Corpus | `corpus/Derrotero.md` | el enrutamiento | declara condición, proceso, nivel y consecuencia |
+| **Estándar** | Corpus | `corpus/Conceptos.md` | el origen de los nombres | da alta un término |
+| **Estándar** | Corpus | `corpus/esquema-de-fila.md` | la forma del rastro | cambia lo que todo proceso escribe al actuar |
+| **Estándar** | Corpus | `corpus/ATLAS/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
+| **Instancia** | Ouroboros | `Ouroboros/Proceso de creación de procesos.md` | produce procesos | produce o reemplaza un proceso |
+| **Instancia** | Ouroboros | `Ouroboros/Proceso de ingeniería inversa.md` | deduce procesos | saca un proceso de lo observable |
+| **Instancia** | Ouroboros | `Ouroboros/Proceso de aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
+| **Instancia** | Ouroboros | `Ouroboros/Proceso de mutación.md` | la transformación | gobierna origen, cambio o retorno |
+| **Instancia** | Ouroboros | `Ouroboros/Proceso de claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
+| **Instancia** | Abstracción | `S.A.R.A/punto-de-partida/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
+| **Instancia** | Abstracción | `S.A.R.A/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso del agente |
+| **Instancia** | Abstracción | `S.A.R.A/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
+| **Implementación** | Era | `Agentes/` | una era | traduce un proceso a su era |
+| **Registro** | Datos | `.contexto/memoria.sql` | los datos | registra una fila o un concepto |
 
-**Destino.** Antes de escribir, se declara la parte: Ouroboros, abstracción, implementación o registro. Si toca Ouroboros, se ejecuta antes `../Ouroboros/Proceso de creación de procesos.md` y se mide su efecto en los que componen con él.
+**Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **con qué** es implementación. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `corpus/`.
+
+**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca Ouroboros, se ejecuta antes `../Ouroboros/Proceso de creación de procesos.md` y se mide su efecto en los que componen con él.
+
+**Gana el estándar.** Una instancia no puede contradecir su estándar. Si lo contradice, la instancia se corrige, y si la instancia tenía razón, primero se corrige el estándar y después se propaga.
 
 **Destino único.** El proceso va al documento cuyo `Aplica a` coincide con su tarea; si no coincide con ninguno, no es proceso de la base y se pregunta.
 
@@ -54,8 +60,12 @@ Rutas relativas a la raíz. Tres partes, y el destino es una sola.
 
 **Pertenencia.** Un documento de la base se sostiene sin nombrar implementaciones: si las quitas y el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
 
-**Prueba:** ¿la obligación estaba ya? ¿el destino es uno y su `Aplica a` coincide?
-**Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que lo gobierna; se toca más de una parte sin declararlo.
+**Jerga.** Un nombre interno se usa en el documento que lo gobierna. Fuera de ahí entra con glosa, o no entra. Un nombre interno no sostiene un argumento: si la frase pierde sentido al quitárselo, el argumento era el nombre. Rige `./auditar-configuracion.md`, `La jerga`.
+
+`Origen: [raíz|corpus|Ouroboros|S.A.R.A|Agentes|mantis] | Nivel: [estándar|instancia|implementación|caso] | Ruta: [la del archivo] | El lector sabe: [sí|con glosa|no]`
+
+**Prueba:** ¿la obligación estaba ya? ¿el destino es uno y su `Aplica a` coincide? ¿el nivel se declaró? ¿la frase se entiende sin conocer el repo?
+**Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que lo gobierna; se toca más de una parte sin declararlo; una frase que pierde sentido al quitarle un nombre interno o una ruta; un estándar sin sus instancias revisadas; un caso presentado como estándar.
 
 ## 3. Escribir el caso
 
@@ -118,8 +128,8 @@ Se ejecuta `./auditar-configuracion.md` cuando el cambio altera conteos, nombres
 ## 10. Verificar
 
 **Entra:** el cambio y sus dependientes.
-**Sale:** seis líneas: rutas que resuelven, pares que cuadran, numeración sin huecos, referencias que apuntan, cifras que cuadran, esquema que corresponde.
-**Falla si:** una ruta no resuelve; un par falta; la numeración salta; una referencia apunta a una sección que se movió; una cifra no coincide; el esquema y la base divergen.
+**Sale:** siete líneas: rutas que resuelven, pares que cuadran, numeración sin huecos, referencias que apuntan, cifras que cuadran, esquema que corresponde, jerga con glosa.
+**Falla si:** una ruta no resuelve; un par falta; la numeración salta; una referencia apunta a una sección que se movió; una cifra no coincide; el esquema y la base divergen; un nombre interno aparece fuera de su documento sin glosa.
 
 ## 11. Entregar y declarar
 

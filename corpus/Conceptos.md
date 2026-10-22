@@ -63,8 +63,8 @@ Tres problemas, y tienen nombre en bibliotecología:
 | subproceso | S.A.R.A | abstracción | sí | subproceso autónomo, conversacional, de registro | — | proceso | sub-tarea | `punto-de-partida/` | vigente |
 | sub-tarea | `punto-de-partida/` | subproceso | sí | — | — | subproceso | — | `punto-de-partida/` | vigente |
 | agente | S.A.R.A | abstracción | sí | ejecutor | — | primitivo de convención | subproceso | `README` de S.A.R.A | vigente |
-| piso | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
-| techo | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| piso | ATLAS | — | sí | — | — | proceso | — | `corpus/ATLAS/Proceso ATLAS.md` | vigente |
+| techo | ATLAS | — | sí | — | — | proceso | — | `corpus/ATLAS/Proceso ATLAS.md` | vigente |
 | cruce | `Pruebas/` | — | sí | — | — | prueba | cruce físico, cruce de visión | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce físico | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce de visión | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
@@ -75,10 +75,10 @@ Tres problemas, y tienen nombre en bibliotecología:
 | ARDOR | S.A.R.A | alineación, registro, discernimiento, objetivo, responsabilidad | sí | — | — | sistema | S.A.R.A | `README` de S.A.R.A | vigente |
 | semilla | `aprendizaje/aprender` | — | sí | condiciones de partida | — | — | — | `aprendizaje/aprender.md` | vigente |
 | continuidad | `aprendizaje/aprender` | — | sí | — | — | — | — | `aprendizaje/aprender.md` | vigente |
-| situación | `ATLAS` | — | sí | — | — | — | percepción, comprensión, proyección | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
-| participantes | `ATLAS` | — | sí | — | — | — | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
-| atención conjunta | `ATLAS` | — | sí | foco | — | — | compartido, diádico, triádico | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
-| acomodación | `ATLAS` | — | sí | acomodo | — | — | converger, divergir | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| situación | `ATLAS` | — | sí | — | — | — | percepción, comprensión, proyección | `corpus/ATLAS/Proceso ATLAS.md` | vigente |
+| participantes | `ATLAS` | — | sí | — | — | — | — | `corpus/ATLAS/Proceso ATLAS.md` | vigente |
+| atención conjunta | `ATLAS` | — | sí | foco | — | — | compartido, diádico, triádico | `corpus/ATLAS/Proceso ATLAS.md` | vigente |
+| acomodación | `ATLAS` | — | sí | acomodo | — | — | converger, divergir | `corpus/ATLAS/Proceso ATLAS.md` | vigente |
 | nivel de fuente | `punto-de-partida/evidencia` | — | sí | nivel, N0–N5 | — | — | testigo, medición directa, fuente primaria, precedente, deducción, memoria interna | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
 | testigo | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N0) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
 | medición directa | `punto-de-partida/evidencia` | nivel de fuente | sí | — | — | nivel de fuente (N1) | — | `punto-de-partida/evidencia/nivel-de-fuente.md` | vigente |
