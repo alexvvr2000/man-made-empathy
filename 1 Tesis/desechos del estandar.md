@@ -97,7 +97,7 @@ De ahí salen las joyitas: **una regla que se descartó por una razón puede val
 
 ### 2 Ouroboros/1 Guantelete — primitivo/carga.md — Lo que el guantelete no es
 
-**No es un estándar.** Es una tarea. El estándar es `../../1 Tesis/`, y el guantelete lo cumple.
+**No es un estándar.** Es una tarea. El estándar es `../1 Tesis/`, y el guantelete lo cumple.
 
 **No es un catálogo.** Las gemas no se listan: **se componen.** La salida de una es la entrada de otra sin traducción.
 
@@ -107,7 +107,7 @@ De ahí salen las joyitas: **una regla que se descartó por una razón puede val
 
 **No es un catálogo.** Un catálogo no compone: lista. **Si una pieza entra porque falta, y no porque cierra un implícito, el sinfín vuelve disfrazado de pieza nueva.**
 
-**No es poder.** No promete ideas, ni humanos, ni AGI. **El guantelete no da poder: junta piezas que solas no hacen nada.** Producir procesos no es producir valor; rige `./primitivos/manipulacion.md`, `No-objetivo`.
+**No es poder.** No promete ideas, ni humanos, ni AGI. **El guantelete no da poder: junta piezas que solas no hacen nada.** Producir procesos no es producir valor; rige `2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`, `No-objetivo`.
 
 ### 2 Ouroboros/1 Guantelete — primitivo/mutaciones/friccion.md — Tesis
 
@@ -127,7 +127,7 @@ Por eso la fricción no dice qué contestar. Tiene una sola exigencia: **contest
 
 ### 2 Ouroboros/1 Guantelete — primitivo/mutaciones/README.md — De dónde nacen
 
-Las dos nacieron de la misma pregunta —*¿el otro puede reconstruir esto?*— y nacen de `../primitivos/claridad.md`.
+Las dos nacieron de la misma pregunta —*¿el otro puede reconstruir esto?*— y nacen de `../2 Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md`.
 
 | Mutación | Qué conserva de `claridad` |
 |---|---|
@@ -159,7 +159,7 @@ Un sistema que converge a sí mismo no necesita perspectivas: ya tiene la respue
 
 > **Las perspectivas no hacen más listo al sistema. Hacen que su error tenga dónde ser visto.**
 
-Y por eso la pregunta de `../../../1 Tesis/Teoria/mundo.md` no es retórica: *"¿alguien puede decirme que salió mal?"* — **esa persona es una perspectiva, y sin ella no hay mundo, solo espejo.**
+Y por eso la pregunta de `Teoria/mundo.md` no es retórica: *"¿alguien puede decirme que salió mal?"* — **esa persona es una perspectiva, y sin ella no hay mundo, solo espejo.**
 
 ### 2 Ouroboros/1 Guantelete — primitivo/mutaciones/sesgo-declarado.md — Lo que esto no hace
 
@@ -167,7 +167,7 @@ No obliga a aceptar la otra mirada. No da la verdad: da **el lugar donde la mira
 
 No convierte una idea mala en buena. **Una idea transformacional sigue pudiendo ser un error.** Lo que cambia es que ya no puede ser descartada **sin nombrar la regla que rompe** — y eso es lo único que separa lo nuevo de lo equivocado.
 
-Rige `.../mutaciones/friccion.md`, `La fricción obliga a contestar. La coerción obliga a contestar lo correcto.`
+Rige `.../2 Ouroboros/1 Guantelete — primitivo/mutaciones/friccion.md`, `La fricción obliga a contestar. La coerción obliga a contestar lo correcto.`
 
 ### 2 Ouroboros/1 Guantelete — primitivo/primitivos/aplicar.md — Tesis
 
@@ -177,10 +177,10 @@ La composición no se declara en una tabla: se ejecuta. Un proceso compone con o
 
 ### 2 Ouroboros/1 Guantelete — primitivo/primitivos/aplicar.md — Lo que no hace
 
-- No crea procesos: los crea `./manipulacion.md`.
-- No los deduce: los deduce `./ingenieria-inversa.md`.
-- No los cambia: los cambia `./mutacion.md`.
-- No los comunica: los comunica `../../3 ATLAS — mutación/Proceso ATLAS.md`.
+- No crea procesos: los crea `2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`.
+- No los deduce: los deduce `2 Ouroboros/1 Guantelete — primitivo/primitivos/ingenieria-inversa.md`.
+- No los cambia: los cambia `2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`.
+- No los comunica: los comunica `../2 Ouroboros/3 ATLAS — mutación/Proceso ATLAS.md`.
 
 Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.
 
@@ -210,7 +210,7 @@ Un proceso deducido puede no dar el mismo resultado al 100%. Sigue siendo útil 
 
 Este proceso no afirma un estado interno. Deduce un proceso que produce un efecto; no deduce que el original lo sienta. Lo que se puede mostrar es la conducta y el resultado.
 
-Un proceso deducido que produce un efecto que el otro lado no puede reconstruir es manipulación, y no entra. Rige `../../2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md` 7 y `../../../1 Tesis/Pruebas/prueba de rendicion.md`, condición 6.
+Un proceso deducido que produce un efecto que el otro lado no puede reconstruir es manipulación, y no entra. Rige `../2 Ouroboros/2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md` 7 y `Pruebas/prueba de rendicion.md`, condición 6.
 
 ### 2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md — Tesis
 
@@ -224,13 +224,13 @@ Un proceso que ya funciona está desactualizado. Este proceso existe para lo que
 
 Este proceso no juzga interioridad, identidad ni especie. No las niega: las deja fuera de alcance. Lo que mide es la salida y su efecto.
 
-Un proceso que produce un efecto que el receptor no puede reconstruir es manipulación; la salida se rechaza aunque funcione. Rige `../../../1 Tesis/Pruebas/prueba de rendicion.md`, condición 6.
+Un proceso que produce un efecto que el receptor no puede reconstruir es manipulación; la salida se rechaza aunque funcione. Rige `Pruebas/prueba de rendicion.md`, condición 6.
 
 Lo que se puede mostrar es el efecto, no el estado interno. Un proceso que produce el efecto que se atribuye a un humano entra por su efecto; un proceso que afirma un estado interno no entra por afirmación.
 
-### 2 Ouroboros/1 Guantelete — primitivo/primitivos/mutacion.md — Tesis
+### 2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md — Tesis
 
-Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `./manipulacion.md`, `Lo que funciona ya está viejo`.
+Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`, `Lo que funciona ya está viejo`.
 
 Lo que cambia siempre no es el resultado del proceso: es **el conjunto de procesos que lo produce**. Golpear mutó: hoy neutralizar es más pesado y a veces no usa manos. Cambió el proceso, no el fin.
 
@@ -240,13 +240,13 @@ Lo que cambia siempre no es el resultado del proceso: es **el conjunto de proces
 
 > **Un proceso no se retira porque estorba. Se retira porque el fin que cubría dejó de existir.**
 
-Si el fin existe y el proceso no lo cubre, **no se retira: se muta.** Rige `./mutacion.md`.
+Si el fin existe y el proceso no lo cubre, **no se retira: se muta.** Rige `2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`.
 
 ### 2 Ouroboros/1 Guantelete — primitivo/primitivos/retiro.md — Lo que el retiro no hace
 
 **No juzga si el proceso servía.** Un proceso puede ser inútil y su fin seguir existiendo: **entonces no se retira, se muta.**
 
-**No reescribe.** Retirar es sacar; lo que entra después es de `./mutacion.md` o de `./manipulacion.md`.
+**No reescribe.** Retirar es sacar; lo que entra después es de `2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md` o de `2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`.
 
 **No permite el borrado limpio.** Siempre queda el registro y el `Vacío:`.
 
@@ -713,3 +713,74 @@ Pensar y comunicar son dos cosas. La lectura de situación, el mapa de participa
 
 **Lo que no gana:** aprender a moverse mejor por entender la situación. Un cuerpo no se adapta por leer; necesita el lazo entre lo que percibe y lo que hace.
 
+
+
+## La estructura repetida
+
+**Los cuatro ## La estructura que quedaban repetian el arbol de ormato de ente.md.** Se guardan enteros por si un ente necesita mas de lo que dice el formato.
+
+### 2 Ouroboros/1 Guantelete — primitivo/rastro.md — La estructura
+
+```
+1 Guantelete — primitivo/                      ← el paso 1. Un ente: tres piezas.
+├── rastro.md                         el cuerpo: qué hay, qué no se toca y cómo se verifica
+├── ruta.md                           la mente: qué gema se carga y cuándo
+├── carga.md                          el pensamiento: qué se pierde si el guantelete se vuelve catálogo
+├── primitivos/                       sub-tarea · 6 gemas
+└── mutaciones/                       sub-tarea · 2 gemas
+```
+
+**Las tres piezas son obligatorias.** Si falta una, el guantelete es fantasma y se advierte. Rige `carga.md`, `El fantasma`, y `../2 Ouroboros/formato de ente.md`.
+
+```
+2 Ouroboros/                       ← la abstracción que contiene los pasos
+├── 1 Guantelete — primitivo/                    el paso 1
+├── 2 S.A.R.A — mutación/                       el paso 2: la primera instancia que cruza la puerta
+└── 3 ATLAS — mutación/                         el paso 3: la salida hacia interpretación, no verdad
+```
+
+**`ATLAS` no vive aquí.** Es el paso 3, no una gema: la comunicación no se sostiene, se entrega. Rige `../2 Ouroboros/3 ATLAS — mutación/rastro.md`.
+
+**`integridad` no vive aquí.** Chequear y reescribir no es sostener una gema: es abstraer procesos, y eso es el paso 2. Rige `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`.
+
+### 2 Ouroboros/1 Guantelete — primitivo/carga.md — La estructura
+
+```
+1 Guantelete — primitivo/                ← el paso 1. Este archivo enruta.
+├── rastro.md                   la carta, opcional: qué hay y cómo se verifica
+├── carga.md              este archivo: qué se pierde si el guantelete se vuelve catálogo
+├── ruta.md               el derrotero: qué se carga y cuándo
+├── primitivos/                sub-tarea · 6 gemas
+└── mutaciones/                sub-tarea · 2 gemas
+```
+
+**Un nivel, un deterrente.** El paso enruta; cada sub-tarea declara el suyo en su carta; cada gema declara su `Falsificador`. **No se hereda hacia abajo ni se suma hacia arriba.**
+
+**sin `rastro.md`, `ruta.md` o `carga.md` no hay paso: es fantasma.** Rige `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`, `El fantasma`.
+
+### 2 Ouroboros/2 S.A.R.A — mutación/carga.md — La estructura
+
+```
+S/A/R/A              ← la tarea/ Este deterrente/
+  └── punto-de-partida     el cuerpo: 16 sub-tareas, 27 procesos
+        ├── sub-tarea      declara su deterrente en su README
+        │     └── proceso  declara su Falsificador
+        └── ///
+```
+
+**Un nivel, un deterrente/** La tarea tiene el suyo; cada sub-tarea el suyo, dentro de su `README` como campo; cada proceso su `Falsificador`/ **No se hereda hacia abajo ni se suma hacia arriba:** cada nivel responde por sí mismo/
+
+### 2 Ouroboros/3 ATLAS — mutación/carga.md — La estructura
+
+```
+3 ATLAS — mutación/                     ← el paso 3. Este archivo.
+├── rastro.md                   qué hay, qué no se toca y cómo se verifica
+├── carga.md              este archivo: qué se pierde si ATLAS promete verdad
+├── ruta.md               qué se carga y cuándo
+├── Proceso ATLAS.md           lo que se aplica sobre un cuerpo
+└── indice de formas.md        las formas que pasaron su prueba
+```
+
+**Un nivel, un deterrente.** El paso tiene el suyo; cada archivo de aquí declara su `Falsificador`. **No se hereda hacia abajo ni se suma hacia arriba.**
+
+**sin `rastro.md`, `ruta.md` o `carga.md` no hay paso: es fantasma.** Rige `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`, `El fantasma`.

@@ -20,6 +20,7 @@
 **Prueba:** ¿cada fila tiene su forma y su consecuencia? ¿el vacío se declara?
 
 **Falsificador:** una emisión sin fila; una búsqueda por nombre de método.
+
 ## La tabla: si se va a...
 
 | Si se va a... | Se carga | Si no... |

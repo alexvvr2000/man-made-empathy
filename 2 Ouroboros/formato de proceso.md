@@ -125,7 +125,7 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 **El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. **Sin `Reemplaza:` no hay cadena.**
 
-**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `./1 Guantelete — primitivo/primitivos/mutacion.md` y `./2 S.A.R.A — mutación/integridad.md` la citan y solo añaden cuándo.
+**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `./1 Guantelete — primitivo/primitivos/mutar.md` y `./2 S.A.R.A — mutación/integridad.md` la citan y solo añaden cuándo.
 
 **Prueba:** ¿la pieza acuñada tiene nombre, expansión, `Muta`, `Conserva`, `Ausencias` y `Reemplaza`? ¿El nombre se lee como nombre propio?
 **Falsificador:** un nombre que sirve para dos versiones; una acuñación sin `Reemplaza:`; una expansión que deletrea el acrónimo; un `Muta:` que dice «varios» sin nombrar ninguno; un proceso que redefine esta forma en vez de citarla.

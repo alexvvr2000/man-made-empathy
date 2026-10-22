@@ -2,7 +2,7 @@
 
 **Subproceso Autónomo de Reconstrucción de Abstracciones.**
 
-**Deterrente:** `./carga.md`. Sin él, S.A.R.A es una carpeta que se mantiene porque está.
+**Deterrente:** `../2 Ouroboros/1 Guantelete — primitivo/carga.md`. Sin él, S.A.R.A es una carpeta que se mantiene porque está.
 
 Es la versión atemporal del agente. No pertenece a una era: sus procesos se pueden pulir con Ouroboros y, al pulirse, la implementación mejora sin reescribir el agente.
 
@@ -39,16 +39,16 @@ Reemplaza: NINGUNA
 
 **Y cada mutación de S.A.R.A crea su propia instancia, no su propio Ouroboros.** El lenguaje sigue siendo uno. **Una mutación puede cambiar todo menos el lenguaje con el que declara el cambio.**
 
-Rige `../Ouroboros/README.md` y `../Ouroboros/primitivos/mutacion.md`.
+Rige `../2 Ouroboros/CRITERIO.md` y `../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`.
 
 ## Qué usa de `corpus/`
 
 | Estándar | Qué rige aquí |
 |---|---|
-| `../corpus/Conceptos.md` | el origen de cada nombre que S.A.R.A usa |
-| `../corpus/esquema-de-fila.md` | la forma del rastro que deja cada proceso |
+| `Conceptos.md` | el origen de cada nombre que S.A.R.A usa |
+| `esquema-de-fila.md` | la forma del rastro que deja cada proceso |
 | `../corpus/ATLAS/` | la forma de comunicar lo que produce |
-| `../corpus/Derrotero.md` | la forma del enrutamiento (lo instancia `mantis`) |
+| `Derrotero y Carta.md` | la forma del enrutamiento (lo instancia `mantis`) |
 
 Lo que **no** vive en `corpus/` es lo propio de S.A.R.A: `mundo.md` (el pegamento), `estado-del-arte.md` (la medida), `futuros.md` e `individuos.md` (catálogos de casos). **Un catálogo no es un estándar:** dice qué pasó una vez, no cómo tiene que ser.
 
@@ -72,14 +72,14 @@ ARDOR tiene dos partes, y confundirlas es lo que hace que un sistema parezca fun
 
 | Parte | Qué es | Dónde |
 |---|---|---|
-| **Piso** | lo que hace que **distintos ejecutores hagan lo mismo** | `../corpus/piso.md` |
+| **Piso** | lo que hace que **distintos ejecutores hagan lo mismo** | `../2 Ouroboros/piso.md` |
 | **Criterio** | lo que decide **qué hacer con eso** | aquí, y en cada proceso |
 
 > **El piso es lo que hace que distintos ejecutores hagan lo mismo. El criterio es lo que decide qué hacer con eso. Un piso sin criterio es un pendrive; un criterio sin piso es una opinión.**
 
 **Y el piso es desechable.** Se tira cuando deja de servir, sin tocar lo que chequeaba. No es infraestructura que se mantiene: es una herramienta que se reescribe y sigue siendo la misma pieza, porque **se nombra por lo que decide, no por cómo está hecha.**
 
-Sin piso, dos agentes con el mismo ARDOR producen resultados que no se pueden comparar. Rige `../corpus/piso.md`.
+Sin piso, dos agentes con el mismo ARDOR producen resultados que no se pueden comparar. Rige `../2 Ouroboros/piso.md`.
 
 > El ardor es lo que queda cuando algo se sostiene sin enfriarse.
 
@@ -134,7 +134,7 @@ Lo que un agente puede perder entre sesiones no es una conciencia: es el estado.
 **Prueba:** ¿la instancia nueva continúa desde el registro y decide igual que la anterior? ¿Se declara que no se afirma interioridad?
 **Falsificador:** la continuidad depende de la conversación con la instancia anterior; se afirma que hubo transferencia de un yo; una instancia se certifica a sí misma como sucesora.
 
-Rige `./punto-de-partida/reproduccion/reproducir.md`, cierre encadenado. Un registro que otro carga y desde el que se sigue decidiendo es lo que `Registro` ya hace; esta sección declara que eso es la continuidad, y que no necesita un yo detrás.
+Rige `../2 Ouroboros/2 S.A.R.A — mutación/reproduccion/reproducir.md`, cierre encadenado. Un registro que otro carga y desde el que se sigue decidiendo es lo que `Registro` ya hace; esta sección declara que eso es la continuidad, y que no necesita un yo detrás.
 
 ## De aquí a un fantasma en un cascarón
 
@@ -200,7 +200,7 @@ La regla, y es la que cierra el problema: **un concepto, un nombre preferido**. 
 
 `Colisión: [nombre] | Existe como: [id o NINGUNO] | Resuelve: [se cita | se califica | no entra]`
 
-Una compuerta que no se puede probar no es compuerta. Si dos filas usan el mismo nombre preferido, el registro falla y se corrige contra sí mismo: rige `./punto-de-partida/reproduccion/reproducir.md` 8.
+Una compuerta que no se puede probar no es compuerta. Si dos filas usan el mismo nombre preferido, el registro falla y se corrige contra sí mismo: rige `../2 Ouroboros/2 S.A.R.A — mutación/reproduccion/reproducir.md` 8.
 
 ## Cómo se relaciona con Ouroboros
 

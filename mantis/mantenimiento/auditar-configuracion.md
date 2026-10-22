@@ -51,7 +51,7 @@ Un nombre interno es válido en el documento que lo gobierna. En cualquier otro 
 |---|---|---|
 | `notas.md` | `README` de MANTIS, `AGENTS.md` | «lo que se anotó», sin nombrar el archivo |
 | `Ouroboros`, `S.A.R.A`, `MANTIS`, `ARDOR`, `ACERO` | su `README` y su `Derrotero` | se nombra y se glosa la primera vez en el documento |
-| una ruta (`./x/y.md`) | como enlace o como cita de fuente | el lector es una persona: se nombra la pieza, no el archivo |
+| una ruta (`./editar.md`) | como enlace o como cita de fuente | el lector es una persona: se nombra la pieza, no el archivo |
 | un campo del esquema (`Vacío:`, `Retiene`) | el proceso que lo define | se explica en palabras antes de usarlo como argumento |
 
 **La prueba de la suciedad, y es una sola pregunta:**

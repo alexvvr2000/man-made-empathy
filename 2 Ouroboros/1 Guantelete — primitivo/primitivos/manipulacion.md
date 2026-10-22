@@ -89,14 +89,14 @@ Ningún cambio a un proceso entra sin cuatro pasos, y **cada uno deja algo que e
 4. ACUÑAR       →  el nombre nuevo de la rama
 ```
 
-**No es un nivel nuevo: es el orden que ya existía sin declararse.** Los cuatro pasos viven repartidos en `./mutacion.md` y `../mutaciones/friccion.md`; aquí se declara que **no se pueden invertir ni omitir.**
+**No es un nivel nuevo: es el orden que ya existía sin declararse.** Los cuatro pasos viven repartidos en `./mutar.md` y `../mutaciones/friccion.md`; aquí se declara que **no se pueden invertir ni omitir.**
 
 | Paso | De dónde viene | Qué deja para el siguiente |
 |---|---|---|
-| **Nombrar** | `./mutacion.md`, `Nombre y expansión` | qué mueve el cambio y quién lo puede refutar |
+| **Nombrar** | `./mutar.md`, `Nombre y expansión` | qué mueve el cambio y quién lo puede refutar |
 | **Escribir** | `./`, `Escribir desde el caso` | el texto que se va a friccionar |
 | **Friccionar** | `../mutaciones/friccion.md` | la decisión contestada, con `Quién` o `ninguno` |
-| **Acuñar** | `./mutacion.md`, `Acta` | el nombre de la rama, con `Reemplaza:` |
+| **Acuñar** | `./mutar.md`, `Acta` | el nombre de la rama, con `Reemplaza:` |
 
 **Sin fricción no hay cambio, y sin acuñación el cambio no existe en la conversación.** Lo que haya pasado entre ambos es movimiento, no manipulación.
 
@@ -122,7 +122,7 @@ Quién: [tipo:nombre | ninguno]
 
 **Sin las tres respuestas, el proceso no se crea.** No se marca incompleto: **no entra.** Un proceso incompleto se puede arreglar después; uno que nació sin variables no tiene contra qué arreglarse.
 
-**El criterio no se hereda.** Cada proceso nombra sus propias variables en el momento en que nace. No las arrastra de su predecesor, porque rige `./mutacion.md`, `Sin herencia`: un reemplazo que hereda variables hereda lo que ya no aplica.
+**El criterio no se hereda.** Cada proceso nombra sus propias variables en el momento en que nace. No las arrastra de su predecesor, porque rige `./mutar.md`, `Sin herencia`: un reemplazo que hereda variables hereda lo que ya no aplica.
 
 ## La forma de un proceso
 

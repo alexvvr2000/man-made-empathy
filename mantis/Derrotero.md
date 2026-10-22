@@ -45,7 +45,7 @@ Una petición puede tocar tres cosas distintas, y cada una se trata distinto.
 | Se crea un subproceso | `../2 Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md`: **integridad antes, sí o sí** | se crea lo que debía rehacerse |
 | Se audita el estado del repo | `./mantenimiento/auditar-configuracion.md` | no hay auditoría |
 | Se mide si un agente es ACERO | `./mantenimiento/medir-acero.md` | no se declara ACERO |
-| Se chequea forma o conteo | `./piso/inventario.ps1`, `./piso/indice.ps1` y `../2 Ouroboros/formato de proceso.md` | no hay veredicto |
+| **Se chequea el estado del piso** | **`./piso/piso.ps1`** (las seis unidades) y `../2 Ouroboros/piso.md` | no hay veredicto |
 
 **Vacío.** Lo que no entra en una fila se declara `[VACÍO - SIN PROCESO]` y se pregunta; no se improvisa.
 

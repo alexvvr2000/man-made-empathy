@@ -21,6 +21,7 @@
 **Prueba:** ¿la pérdida se puede señalar? ¿se declara qué conserva del paso 1?
 
 **Falsificador:** un deterrente sin tabla; una mutación que no declara qué conserva de su original.
+
 ## Qué es
 
 S/A/R/A es una **instancia que cruzó la puerta de `mutación`** para tareas estándar/ **No es la mutación: es lo primero que la cruza/** Este archivo dice **qué se pierde si deja de ser eso/**
@@ -36,18 +37,6 @@ Sin deterrente, S/A/R/A es un fantasma: una carpeta que se mantiene porque está
 | dos sub-tareas se contradicen | el cuerpo no puede decidir | cada mitad parece correcta y juntas no caben |
 | una sub-tarea no tiene deterrente | no puede justificarse | es una carpeta con procesos adentro |
 | la mutación no declara qué conserva | no se reconstruye el cambio | S/A/R/A parece nueva cada generación y no lo es |
-
-## La estructura
-
-```
-S/A/R/A              ← la tarea/ Este deterrente/
-  └── punto-de-partida     el cuerpo: 16 sub-tareas, 27 procesos
-        ├── sub-tarea      declara su deterrente en su README
-        │     └── proceso  declara su Falsificador
-        └── ///
-```
-
-**Un nivel, un deterrente/** La tarea tiene el suyo; cada sub-tarea el suyo, dentro de su `README` como campo; cada proceso su `Falsificador`/ **No se hereda hacia abajo ni se suma hacia arriba:** cada nivel responde por sí mismo/
 
 ## Lo que S/A/R/A no es
 

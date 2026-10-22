@@ -17,7 +17,7 @@
 
 > **Un proceso no se retira porque estorba. Se retira porque el fin que cubría dejó de existir.**
 
-Si el fin existe y el proceso no lo cubre, **no se retira: se muta.** Rige `./mutacion.md`.
+Si el fin existe y el proceso no lo cubre, **no se retira: se muta.** Rige `./mutar.md`.
 
 ## Las tres clases de retiro
 
@@ -85,7 +85,7 @@ Registro: [proceso] | Retirado: [fecha] | Clase | Fin | Vacío | Reemplaza a: [N
 
 **No juzga si el proceso servía.** Un proceso puede ser inútil y su fin seguir existiendo: **entonces no se retira, se muta.**
 
-**No reescribe.** Retirar es sacar; lo que entra después es de `./mutacion.md` o de `./manipulacion.md`.
+**No reescribe.** Retirar es sacar; lo que entra después es de `./mutar.md` o de `./manipulacion.md`.
 
 **No permite el borrado limpio.** Siempre queda el registro y el `Vacío:`.
 
@@ -105,7 +105,7 @@ Registro: [proceso] | Retirado: [fecha] | Clase | Fin | Vacío | Reemplaza a: [N
 
 ## Transiciones
 
-- El fin sigue existiendo y el proceso no lo cubre → `./mutacion.md`, no se retira.
+- El fin sigue existiendo y el proceso no lo cubre → `./mutar.md`, no se retira.
 - Entra un proceso nuevo → `./manipulacion.md`.
 - El vacío hay que cubrirlo → se declara y se abre la tarea que lo cubra.
 - El proceso estaba en una sub-tarea → se retira con su registro, y la sub-tarea se declara.

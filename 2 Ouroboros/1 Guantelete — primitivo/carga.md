@@ -24,6 +24,7 @@
 **Prueba:** ¿la pérdida se puede señalar? ¿el síntoma se ve cuando pasa?
 
 **Falsificador:** un deterrente sin tabla; una pérdida que nadie puede señalar.
+
 ## Qué es
 
 **El guantelete es una tarea.** Tiene gemas, y cada gema resuelve una cosa. Este archivo no explica qué son: **decide cuál se carga en cada momento.**
@@ -31,21 +32,6 @@
 A diferencia de un derrotero —que enruta tareas a un agente— **este enruta gemas dentro de una sola tarea.** Es la puerta de la etapa 1, y ninguna se abre sola.
 
 **El flujo es el mismo que el del paso 2 y el del paso 3:** lo que no está en una fila de abajo se declara `[VACÍO - SIN GEMA]` y se pregunta; no se improvisa.
-
-## La estructura
-
-```
-1 Guantelete — primitivo/                ← el paso 1. Este archivo enruta.
-├── rastro.md                   la carta, opcional: qué hay y cómo se verifica
-├── carga.md              este archivo: qué se pierde si el guantelete se vuelve catálogo
-├── ruta.md               el derrotero: qué se carga y cuándo
-├── primitivos/                sub-tarea · 6 gemas
-└── mutaciones/                sub-tarea · 2 gemas
-```
-
-**Un nivel, un deterrente.** El paso enruta; cada sub-tarea declara el suyo en su carta; cada gema declara su `Falsificador`. **No se hereda hacia abajo ni se suma hacia arriba.**
-
-**sin `rastro.md`, `ruta.md` o `carga.md` no hay paso: es fantasma.** Rige `../2 S.A.R.A — mutación/integridad.md`, `El fantasma`.
 
 ## Qué se pierde si se viola
 

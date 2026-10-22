@@ -73,7 +73,7 @@ La columna de la derecha es el diseño que corresponde a cada problema. **No es 
 
 **La alineación de valores.** El sistema puede garantizar que **no actúe sin contestar**. No puede garantizar que conteste bien. **La fricción garantiza la pregunta, no la respuesta.**
 
-**El harness.** Si el proceso decide todo, un modelo barato empata **por la razón equivocada**. Rige `../S.A.R.A/Pruebas/prueba de talento utilizable.md`: la prueba mide consistencia entre ejecutores, no identidad.
+**El harness.** Si el proceso decide todo, un modelo barato empata **por la razón equivocada**. Rige `Pruebas/prueba de talento utilizable.md`: la prueba mide consistencia entre ejecutores, no identidad.
 
 ## Lo que pone a este repo frente al campo
 
@@ -89,7 +89,7 @@ El campo publica listas de problemas; los repos publican capacidades. **Nadie pu
 
 ## Transiciones
 
-- La falta es de corrida → `../mantis/piso/` y `../S.A.R.A/Pruebas/`.
+- La falta es de corrida → `../mantis/piso/` y `Pruebas/`.
 - La falta es de diseño → `./piso/` o `../Ouroboros/`, con su `Acta`.
 - El problema no corresponde a este repo → se declara y no se toca: `Agentes/` es la era.
 - En cualquier otro caso → se entrega y se cierra.

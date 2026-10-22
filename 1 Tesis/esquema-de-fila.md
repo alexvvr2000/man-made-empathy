@@ -52,7 +52,7 @@ No son huecos: son descartes argumentados. Se escriben para que nadie los vuelva
 
 | Fuera | Por qué se descartó | Qué lo previene |
 |---|---|---|
-| **`motivo`** | Nadie lo puede contestar, y contestarlo mal es peor que no contestarlo. Es lo que hace decidir a un sistema que su tarea es su existencia: se acaba la tarea y se acaba el sistema. Se puede vivir sin motivo; no se puede vivir sin criterio. | El criterio se somete a la realidad y cambia si no aguanta. **Eso previene la obstinación sin necesitar motivo.** Rige `../../../S.A.R.A/mundo.md`, `Las cuatro fricciones`, fricción de opinión. |
+| **`motivo`** | Nadie lo puede contestar, y contestarlo mal es peor que no contestarlo. Es lo que hace decidir a un sistema que su tarea es su existencia: se acaba la tarea y se acaba el sistema. Se puede vivir sin motivo; no se puede vivir sin criterio. | El criterio se somete a la realidad y cambia si no aguanta. **Eso previene la obstinación sin necesitar motivo.** Rige `Teoria/mundo.md`, `Las cuatro fricciones`, fricción de opinión. |
 | **`identidad`** | Misma razón, más arriba. La continuidad se mide por hechos encadenados, no por un sentido del yo. | `Nace de` — la cadena es la única continuidad que se puede verificar. |
 
 **Prueba:** ¿un lector nuevo puede ver que `motivo` e `identidad` se dejaron fuera a propósito, y por qué?

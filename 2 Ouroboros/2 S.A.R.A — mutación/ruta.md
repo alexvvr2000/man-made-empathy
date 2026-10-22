@@ -22,6 +22,7 @@
 **Prueba:** ¿cada fila tiene su proceso y su consecuencia? ¿el vacío se declara?
 
 **Falsificador:** una petición sin fila que se ejecuta igual; dos procesos cargados sin declararlo.
+
 ## La tabla: si se va a...
 
 | Si se va a... | Se carga | Si no... |

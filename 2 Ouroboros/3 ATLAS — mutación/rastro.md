@@ -25,6 +25,7 @@
 **Prueba:** ¿el techo nombra una capacidad y no un resultado? ¿la emisión declara sesgo y nivel de fuente? ¿el otro puede equivocarse sin nosotros?
 
 **Falsificador:** una emisión que promete verdad; un techo medido por el resultado; un mensaje sin sesgo declarado.
+
 ## Qué es
 
 **ATLAS es el paso 3 de `2 Ouroboros/`:** la salida hacia interpretación, no hacia verdad. **La comunicación no se sostiene como una gema: se entrega.**

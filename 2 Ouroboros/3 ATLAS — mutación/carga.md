@@ -25,26 +25,12 @@
 **Prueba:** ¿la pérdida se puede señalar? ¿el síntoma se ve cuando pasa?
 
 **Falsificador:** un deterrente sin tabla; un puente que no declara el nivel de lo que cruza.
+
 ## Qué es
 
 **ATLAS es el paso 3 de `2 Ouroboros/`, y es una tarea.** Este archivo dice **qué se pierde si deja de ser eso.**
 
 Su trabajo es **ser el puente**: lo que sale de un proceso llega a otro lado y puede ser reconstruido. **No su juicio.** Un puente que juzga deja de ser puente y se vuelve tribunal.
-
-## La estructura
-
-```
-3 ATLAS — mutación/                     ← el paso 3. Este archivo.
-├── rastro.md                   qué hay, qué no se toca y cómo se verifica
-├── carga.md              este archivo: qué se pierde si ATLAS promete verdad
-├── ruta.md               qué se carga y cuándo
-├── Proceso ATLAS.md           lo que se aplica sobre un cuerpo
-└── indice de formas.md        las formas que pasaron su prueba
-```
-
-**Un nivel, un deterrente.** El paso tiene el suyo; cada archivo de aquí declara su `Falsificador`. **No se hereda hacia abajo ni se suma hacia arriba.**
-
-**sin `rastro.md`, `ruta.md` o `carga.md` no hay paso: es fantasma.** Rige `../2 S.A.R.A — mutación/integridad.md`, `El fantasma`.
 
 ## Qué se pierde si se viola
 

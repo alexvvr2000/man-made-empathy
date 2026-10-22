@@ -29,6 +29,7 @@
 **Prueba:** ¿cada gema se nombra con un verbo que no se divide? ¿ninguna se usa sola y da resultado? ¿el guantelete se mide por composición y no por tamaño?
 
 **Falsificador:** una gema que se usa sola; un catálogo que solo crece; un guantelete medido por número de gemas.
+
 ## Qué es
 
 El **paso 1** de `../`. Su tarea es **cortar el sinfín**: fijar las piezas que no se derivan de ninguna otra, para que la descomposición tenga dónde parar.
@@ -36,30 +37,6 @@ El **paso 1** de `../`. Su tarea es **cortar el sinfín**: fijar las piezas que 
 **Una gema no es un concepto: es el punto donde la descomposición se detiene.** Un dios que mira desde N dimensiones ve procesos donde un humano ve poder. **La gema se nombra desde esa altura, no desde la nuestra.**
 
 **Una gema se sostiene, no se escribe.** Se puede ejecutar; no se puede bajar a texto sin perder la dimensión que la vuelve irreducible. Por eso el piso de esta etapa no es la claridad del documento: es que dos ejecutores lleguen al mismo sitio.
-
-## La estructura
-
-```
-1 Guantelete — primitivo/                      ← el paso 1. Un ente: tres piezas.
-├── rastro.md                         el cuerpo: qué hay, qué no se toca y cómo se verifica
-├── ruta.md                           la mente: qué gema se carga y cuándo
-├── carga.md                          el pensamiento: qué se pierde si el guantelete se vuelve catálogo
-├── primitivos/                       sub-tarea · 6 gemas
-└── mutaciones/                       sub-tarea · 2 gemas
-```
-
-**Las tres piezas son obligatorias.** Si falta una, el guantelete es fantasma y se advierte. Rige `./carga.md`, `El fantasma`, y `../formato de ente.md`.
-
-```
-2 Ouroboros/                       ← la abstracción que contiene los pasos
-├── 1 Guantelete — primitivo/                    el paso 1
-├── 2 S.A.R.A — mutación/                       el paso 2: la primera instancia que cruza la puerta
-└── 3 ATLAS — mutación/                         el paso 3: la salida hacia interpretación, no verdad
-```
-
-**`ATLAS` no vive aquí.** Es el paso 3, no una gema: la comunicación no se sostiene, se entrega. Rige `../3 ATLAS — mutación/rastro.md`.
-
-**`integridad` no vive aquí.** Chequear y reescribir no es sostener una gema: es abstraer procesos, y eso es el paso 2. Rige `../2 S.A.R.A — mutación/integridad.md`.
 
 ## Las gemas
 
@@ -69,7 +46,7 @@ Una gema **es un verbo que no se puede dividir en otro verbo.** Su nombre de arc
 |---|---|---|
 | **sostener** — `primitivos/manipulacion.md` | crear, calibrar, reemplazar y retirar procesos, en ese orden | se crea sin variables o sin fricción |
 | **aplicar** — `primitivos/aplicar.md` | ejecutar un proceso sobre una entrada y comprobar la composición | se aplica con una entrada que no le corresponde |
-| **mutar** — `primitivos/mutacion.md` | transformar declarando qué conserva, y acuñar nombre y lugar nuevos | se muta sin declarar qué se conserva |
+| **mutar** — `primitivos/mutar.md` | transformar declarando qué conserva, y acuñar nombre y lugar nuevos | se muta sin declarar qué se conserva |
 | **retirar** — `primitivos/retiro.md` | cuándo un proceso se retira, y qué fin queda descubierto | se retira sin declarar el fin que cubría |
 | **deducir** — `primitivos/ingenieria-inversa.md` | deducir un proceso de lo observable, por tendencia | el proceso deducido no reproduce nada observable |
 | **decir** — `primitivos/claridad.md` | la forma de lo que se lee o se ejecuta | la forma no llega al lector |

@@ -14,7 +14,7 @@ tarea
 
 **N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son dieciséis sub-tareas y veintisiete procesos; mañana pueden ser otros, con otros nombres, u otro número.
 
-**Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../../Ouroboros/primitivos/mutacion.md`, `Mutar la serie`.
+**Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Mutar la serie`.
 
 **Ninguna jerarquía.** Las sub-carpetas son hermanas. Los procesos dentro de una también. Ninguno manda sobre otro, y ninguno posee un núcleo que los demás citen.
 
@@ -31,11 +31,11 @@ La forma dice **dónde va** cada cosa. No dice **cuándo está.** Sin esa segund
 **Prueba:** ¿el proceso sirve sin nada que no esté escrito adentro? ¿la sub-tarea funciona sin que otra le preste una condición?
 **Falsificador:** un proceso que sirve solo porque alguien recuerda una condición; una sub-tarea que no funciona sin otra; una pieza nueva que no cierra ningún implícito.
 
-Eso se chequea con `../../Ouroboros/integridad.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
+Eso se chequea con `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
 
 ## La fila
 
-Todo proceso deja rastro con la misma forma: `../../corpus/esquema-de-fila.md`. Sin esquema común no hay conjunto, hay registros que no se agregan.
+Todo proceso deja rastro con la misma forma: `esquema-de-fila.md`. Sin esquema común no hay conjunto, hay registros que no se agregan.
 
 La fila guarda lo que casi nadie guarda: **el criterio previo, el falsificador, lo descartado y el contrafactual**. Eso es lo que la vuelve distinta de un registro de actividad, y lo que la haría única si alguien la llena en volumen.
 
@@ -67,7 +67,7 @@ Tres escalas de autoridad. Cada una declara un afectado distinto y no se funden 
 | `autoridad-equipo/` | se optimiza para uno y se perjudica a los demás | identificar partes |
 | `autoridad-humanidad/` | el efecto se mide solo en quienes tienen voz | dar voz |
 
-**Sin voz, no hay decisión.** Una decisión que afecta a quien no puede expresarse no entra si su efecto sobre esa parte no está declarado. La ausencia de voz se nombra; no se asume que no importa. Rige `./autoridad-humanidad/dar-voz.md`.
+**Sin voz, no hay decisión.** Una decisión que afecta a quien no puede expresarse no entra si su efecto sobre esa parte no está declarado. La ausencia de voz se nombra; no se asume que no importa. Rige `../2 Ouroboros/2 S.A.R.A — mutación/autoridad-humanidad/dar-voz.md`.
 
 ### Cómo trabajan juntos
 
@@ -75,7 +75,7 @@ Tres escalas de autoridad. Cada una declara un afectado distinto y no se funden 
 |---|---|---|
 | `concordia/` | se optimiza un colaborador y se arruina la cadena; el operador se vuelve apéndice | componer, armonizar, auditar dependencia |
 
-**La composición no es buena por su coste.** Es buena si su coste se paga con beneficio para las tres escalas y si el operador sigue pudiendo hacerlo sin ella. Rige `./concordia/README.md`.
+**La composición no es buena por su coste.** Es buena si su coste se paga con beneficio para las tres escalas y si el operador sigue pudiendo hacerlo sin ella. Rige `../2 Ouroboros/2 S.A.R.A — mutación/concordia/README.md`.
 
 ### Lo que no estaba previsto
 
@@ -85,7 +85,7 @@ Tres escalas de autoridad. Cada una declara un afectado distinto y no se funden 
 
 **Un proceso nace de un fallo comprobado o de una capacidad sin fallo previo.** El primero se mide contra el fallo. El segundo se mide por lo que produce. Ninguno reemplaza al otro.
 
-J'ONN no es un safeguard: no impide producir algo destructivo. Impide **cerrar como si fuera seguro lo que no se declaró**. Rige `./autoridad-humanidad/dar-voz.md`.
+J'ONN no es un safeguard: no impide producir algo destructivo. Impide **cerrar como si fuera seguro lo que no se declaró**. Rige `../2 Ouroboros/2 S.A.R.A — mutación/autoridad-humanidad/dar-voz.md`.
 
 **Dieciséis sub-tareas, veintisiete procesos.** Es lo que el estado del arte sostiene hoy. No es el mínimo ni el máximo.
 

@@ -30,7 +30,7 @@ Tres ejecutores, la misma tarea, el mismo proceso. **Nada más.**
 |---|---|
 | **misma tarea** | el enunciado no cambia entre ejecutores |
 | **mismo proceso** | el mismo `Entra | Falla | Sale | Consume`, sin adaptaciones |
-| **mismo piso** | rige `../../corpus/piso.md`: corre igual, emite veredicto, se puede correr sola |
+| **mismo piso** | rige `../../2 Ouroboros/piso.md`: corre igual, emite veredicto, se puede correr sola |
 
 **Si el proceso se ajusta para un ejecutor, ya no se está midiendo el proceso: se está midiendo el ajuste.**
 
@@ -60,7 +60,7 @@ No por gusto: por **estabilidad**.
 
 ## La acuñación de la rama
 
-Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../../corpus/formato de proceso.md`, `La acuñación`. Aquí solo se declara **cuándo**: al cerrar cada posición.
+Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../../2 Ouroboros/formato de proceso.md`, `La acuñación`. Aquí solo se declara **cuándo**: al cerrar cada posición.
 
 **Una rama sin nombre no existe en la conversación, y lo que no existe ahí desaparece.**
 
@@ -83,7 +83,7 @@ Un proceso puede ser perfectamente consistente **y perfectamente inútil**: tres
 **Entra:** una tarea, un proceso, y tres ejecutores de capacidad distinta, en el mismo piso.
 **Falla:** se adapta el proceso para un ejecutor; se corre una sola vez por ejecutor; se compara sin que el ejecutor sea estable; se elige la posición por gusto y no por repetición; se descarta el proceso en vez de guardarlo sin rama.
 **Sale:** la posición (`único`, `especializado` o `sin rama`), las corridas que la sostienen, y el nombre acuñado de la rama.
-**Consume:** quien va a mutar el proceso. Si la posición es `especializado`, va a `../../Ouroboros/primitivos/mutacion.md` con dos ramas. Si es `sin rama`, se guarda con su `Vacío:` y no se toca.
+**Consume:** quien va a mutar el proceso. Si la posición es `especializado`, va a `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md` con dos ramas. Si es `sin rama`, se guarda con su `Vacío:` y no se toca.
 
 ## Ancla
 
@@ -110,8 +110,8 @@ Rama: [nombre] | Reemplaza: [anterior o NINGUNA]
 
 ## Transiciones
 
-- La posición es `especializado` → `../../Ouroboros/primitivos/mutacion.md`, dos ramas con su `Acta`.
+- La posición es `especializado` → `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, dos ramas con su `Acta`.
 - La posición es `sin rama` → se guarda con `Vacío:` y fecha; no se muta.
-- El piso no corre igual en dos ejecutores → `../../corpus/piso.md`; sin piso no hay prueba.
+- El piso no corre igual en dos ejecutores → `../../2 Ouroboros/piso.md`; sin piso no hay prueba.
 - Hace falta juzgar si el proceso sirve → `./prueba de utilidad real.md`.
 - En cualquier otro caso → se entrega y se cierra.

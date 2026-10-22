@@ -20,13 +20,14 @@
 **Prueba:** ¿cada fila tiene su gema y su consecuencia? ¿el vacío se declara?
 
 **Falsificador:** una petición sin fila que se ejecuta igual; dos gemas cargadas sin declararlo; un vacío implícito.
+
 ## La tabla: si se va a...
 
 | Si se va a... | Se carga | Si no... |
 |---|---|---|
 | crear, calibrar, reemplazar o retirar un proceso | `./primitivos/manipulacion.md` | no se toca un proceso |
 | ejecutar un proceso sobre una entrada | `./primitivos/aplicar.md` | no se ejecuta |
-| cambiar un proceso y dejar rastro | `./primitivos/mutacion.md` | no se muta |
+| cambiar un proceso y dejar rastro | `./primitivos/mutar.md` | no se muta |
 | retirar un proceso cuyo fin dejó de existir | `./primitivos/retiro.md` | se queda ocupando el lugar |
 | deducir un proceso de lo observable | `./primitivos/ingenieria-inversa.md` | no se deduce |
 | escribir o emitir cualquier archivo | `./primitivos/claridad.md` | no se emite |

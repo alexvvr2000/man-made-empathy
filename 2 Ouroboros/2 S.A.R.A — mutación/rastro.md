@@ -23,6 +23,7 @@
 **Prueba:** ¿cada sub-tarea cubre un fallo comprobado? ¿cada proceso tiene Falsificador? ¿S.A.R.A sigue sin gemas propias?
 
 **Falsificador:** S.A.R.A con gemas propias; una sub-tarea sin rastro; un proceso sin quién lo refute.
+
 ## Qué es
 
 **S.A.R.A es el paso 2 de `2 Ouroboros/`:** la primera instancia que cruzó la puerta de `mutación`. Toma las gemas del paso 1 y las abstrae en ejecutores vivos.
@@ -81,7 +82,7 @@
 ## Qué no se toca
 
 - **Las gemas no se crean aquí.** S.A.R.A usa las del paso 1; si necesitara una gema propia, sería otro sistema.
-- **El fin de un proceso no se cambia desde aquí.** Se declara la mutación y se rige por `../1 Guantelete — primitivo/primitivos/mutacion.md`.
+- **El fin de un proceso no se cambia desde aquí.** Se declara la mutación y se rige por `../1 Guantelete — primitivo/primitivos/mutar.md`.
 - **Lo que está aplanado no se reescribe de memoria.** Se cita la ruta.
 
 ## Cómo se verifica

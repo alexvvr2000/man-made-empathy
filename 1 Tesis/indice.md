@@ -40,7 +40,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 |---|---|---|---|
 | `1 Tesis` | `Conceptos.md` | estandar | 108 |
 | `1 Tesis` | `Derrotero y Carta.md` | estandar | 125 |
-| `1 Tesis` | `desechos del estandar.md` | estandar | 715 |
+| `1 Tesis` | `desechos del estandar.md` | estandar | 786 |
 | `1 Tesis` | `esquema-de-fila.md` | estandar | 67 |
 | `1 Tesis` | `formato.md` | formato | 183 |
 | `1 Tesis` | `indice.md` | indice | 168 |
@@ -70,9 +70,9 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros` | `formato de proceso.md` | formato | 153 |
 | `2 Ouroboros` | `mutacion.md` | proceso | 83 |
 | `2 Ouroboros` | `piso.md` | proceso | 82 |
-| `2 Ouroboros/1 Guantelete — primitivo` | `carga.md` | proceso | 97 |
-| `2 Ouroboros/1 Guantelete — primitivo` | `rastro.md` | proceso | 105 |
-| `2 Ouroboros/1 Guantelete — primitivo` | `ruta.md` | proceso | 67 |
+| `2 Ouroboros/1 Guantelete — primitivo` | `carga.md` | proceso | 83 |
+| `2 Ouroboros/1 Guantelete — primitivo` | `rastro.md` | proceso | 82 |
+| `2 Ouroboros/1 Guantelete — primitivo` | `ruta.md` | proceso | 68 |
 | `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `friccion.md` | proceso | 141 |
 | `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `README.md` | puerta | 41 |
 | `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `sesgo-declarado.md` | proceso | 146 |
@@ -80,15 +80,15 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `claridad.md` | proceso | 230 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `ingenieria-inversa.md` | proceso | 81 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `manipulacion.md` | proceso | 196 |
-| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `mutacion.md` | proceso | 162 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `mutar.md` | proceso | 162 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `README.md` | puerta | 36 |
 | `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `retiro.md` | proceso | 112 |
-| `2 Ouroboros/2 S.A.R.A — mutación` | `carga.md` | proceso | 73 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `carga.md` | proceso | 62 |
 | `2 Ouroboros/2 S.A.R.A — mutación` | `decisión.md` | proceso | 111 |
 | `2 Ouroboros/2 S.A.R.A — mutación` | `integridad.md` | proceso | 375 |
 | `2 Ouroboros/2 S.A.R.A — mutación` | `Proceso PROMETEA.md` | proceso | 106 |
-| `2 Ouroboros/2 S.A.R.A — mutación` | `rastro.md` | proceso | 104 |
-| `2 Ouroboros/2 S.A.R.A — mutación` | `ruta.md` | proceso | 77 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `rastro.md` | proceso | 105 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `ruta.md` | proceso | 78 |
 | `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `entender-salida.md` | proceso | 46 |
 | `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `pluralizar-autoridad.md` | proceso | 47 |
 | `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `README.md` | puerta | 33 |
@@ -140,11 +140,11 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `2 Ouroboros/2 S.A.R.A — mutación/versionado` | `versionar.md` | proceso | 45 |
 | `2 Ouroboros/2 S.A.R.A — mutación/vocabulario` | `conceptualizar.md` | proceso | 44 |
 | `2 Ouroboros/2 S.A.R.A — mutación/vocabulario` | `README.md` | puerta | 33 |
-| `2 Ouroboros/3 ATLAS — mutación` | `carga.md` | proceso | 82 |
+| `2 Ouroboros/3 ATLAS — mutación` | `carga.md` | proceso | 68 |
 | `2 Ouroboros/3 ATLAS — mutación` | `indice de formas.md` | indice | 65 |
 | `2 Ouroboros/3 ATLAS — mutación` | `Proceso ATLAS.md` | proceso | 349 |
-| `2 Ouroboros/3 ATLAS — mutación` | `rastro.md` | proceso | 86 |
-| `2 Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 51 |
+| `2 Ouroboros/3 ATLAS — mutación` | `rastro.md` | proceso | 87 |
+| `2 Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 52 |
 
 ### mantis/
 
@@ -155,10 +155,11 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `mantis/mantenimiento` | `auditar-configuracion.md` | proceso | 75 |
 | `mantis/mantenimiento` | `editar.md` | proceso | 157 |
 | `mantis/mantenimiento` | `medir-acero.md` | proceso | 51 |
+| `mantis/piso` | `README.md` | puerta | 46 |
 
 ## Totales
 
-`Archivos: 107 | procesos: 62 | estandares: 18`
+`Archivos: 108 | procesos: 62 | estandares: 18`
 
 ## Prueba
 

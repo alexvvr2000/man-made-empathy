@@ -78,7 +78,7 @@ Si un eslabón falla, la cadena se detiene en ese eslabón: la salida parcial se
 
 - No crea procesos: los crea `./manipulacion.md`.
 - No los deduce: los deduce `./ingenieria-inversa.md`.
-- No los cambia: los cambia `./mutacion.md`.
+- No los cambia: los cambia `./mutar.md`.
 - No los comunica: los comunica `../../3 ATLAS — mutación/Proceso ATLAS.md`.
 
 Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.

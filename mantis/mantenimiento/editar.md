@@ -46,7 +46,7 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md` | produce procesos | produce o reemplaza un proceso |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/ingenieria-inversa.md` | deduce procesos | saca un proceso de lo observable |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
-| **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/mutacion.md` | la transformación | gobierna origen, cambio o retorno |
+| **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md` | la transformación | gobierna origen, cambio o retorno |
 | **Instancia** | Ouroboros | `2 Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
 | **Instancia** | Ouroboros | `2 Ouroboros/2 S.A.R.A — mutación/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
 | **Instancia** | Ouroboros | `2 Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso, con integridad antes |
