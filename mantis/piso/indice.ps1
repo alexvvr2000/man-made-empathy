@@ -1,26 +1,26 @@
 # indice.ps1 — unidad del piso de esta instancia
 # Decide: que hay en el repo, donde esta, y que forma tiene.
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
-# Genera 1 Tesis/indice.md: un indice a mano se desactualiza en la siguiente mutacion.
+# Genera Tesis/indice.md: un indice a mano se desactualiza en la siguiente mutacion.
 # Uso: pwsh -File mantis/piso/indice.ps1 [-Root <ruta>] [-Salida <ruta>]
 
 param(
   [string]$Root   = (Join-Path $PSScriptRoot "..\.."),
-  [string]$Salida = (Join-Path $PSScriptRoot "..\..\1 Tesis\indice.md")
+  [string]$Salida = (Join-Path $PSScriptRoot "..\..\Tesis\indice.md")
 )
 
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
 $zonas = [ordered]@{
-  '1 Tesis' = 'la tesis: la forma, aun por aplanar en archivos'
-  '2 Ouroboros' = 'la tarea: paso 1, paso 2 y paso 3'
+  'Tesis' = 'la tesis: la forma, aun por aplanar en archivos'
+  'Ouroboros' = 'la tarea: paso 1, paso 2 y paso 3'
   'Era' = 'la era'
   'mantis' = 'instancia: la operacion'
 }
 
 function Get-Rol($rel) {
-  if ($rel -match '^1 Tesis') { return 'estandar' }
+  if ($rel -match '^Tesis') { return 'estandar' }
   if ($rel -match '^Era') { return 'era' }
   return 'instancia'
 }
@@ -30,7 +30,7 @@ function Get-Clase($nombre, $rel) {
   if ($nombre -match '(?i)indice') { return 'indice' }
   if ($nombre -match '(?i)deterrente') { return 'deterrente' }
   if ($nombre -match '(?i)formato') { return 'formato' }
-  if ($rel -match '^1 Tesis') { return 'estandar' }
+  if ($rel -match '^Tesis') { return 'estandar' }
   return 'proceso'
 }
 
@@ -74,7 +74,7 @@ $sb = [System.Text.StringBuilder]::new()
 [void]$sb.AppendLine('| Zona | Rol | Que es |')
 [void]$sb.AppendLine('|---|---|---|')
 foreach ($z in $zonas.Keys) {
-  $rol = if ($z -eq '1 Tesis') { 'estandar' } elseif ($z -eq 'Era') { 'era' } else { 'instancia' }
+  $rol = if ($z -eq 'Tesis') { 'estandar' } elseif ($z -eq 'Era') { 'era' } else { 'instancia' }
   [void]$sb.AppendLine("| ``$z/`` | $rol | $($zonas[$z]) |")
 }
 [void]$sb.AppendLine()

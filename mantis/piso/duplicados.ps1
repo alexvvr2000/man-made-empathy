@@ -3,7 +3,7 @@
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
 # DUPLICADO: el mismo nombre de archivo en dos entes, o el mismo titulo H1 en dos archivos.
-# Un nombre que sirve para dos cosas no nombra nada. Rige ../../2 Ouroboros/mutacion.md.
+# Un nombre que sirve para dos cosas no nombra nada. Rige ../../Ouroboros/mutacion.md.
 #
 # Uso: pwsh -File mantis/piso/duplicados.ps1 [-Root <ruta>]
 
@@ -12,7 +12,7 @@ param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
-$zonas = @('1 Tesis', '2 Ouroboros', 'mantis')
+$zonas = @('Tesis', 'Ouroboros', 'mantis')
 $archivos = @()
 foreach ($z in $zonas) {
   $base = Join-Path $Root $z
@@ -30,8 +30,8 @@ foreach ($g in $porNombre) {
   # El README de sub-tarea tambien: es la puerta de cada una.
   if ($g.Name -in @('README.md','rastro.md','ruta.md','carga.md')) { continue }
   # Un nombre en la tesis y en el estandar es explicacion contra forma: se declara, no se corrige.
-  $enTesis = $g.Group | Where-Object { $_.FullName -match '\\1 Tesis\\' }
-  $enEstandar = $g.Group | Where-Object { $_.FullName -match '\\2 Ouroboros\\' }
+  $enTesis = $g.Group | Where-Object { $_.FullName -match '\\Tesis\\' }
+  $enEstandar = $g.Group | Where-Object { $_.FullName -match '\\Ouroboros\\' }
   if ($enTesis -and $enEstandar) { continue }
   $nombres += [pscustomobject]@{ Tipo = 'nombre'; Nombre = $g.Name; Veces = $g.Count; Donde = (($g.Group | ForEach-Object { $_.FullName.Replace($Root + '\', '').Replace('\', '/') }) -join ' · ') }
 }
@@ -45,9 +45,9 @@ foreach ($f in $archivos) {
   $titulos += [pscustomobject]@{ Titulo = $m.Groups[1].Value.Trim(); Ruta = $f.FullName.Replace($Root + '\', '').Replace('\', '/') }
 }
 $porTitulo = $titulos | Group-Object Titulo | Where-Object { $_.Count -gt 1 }
-  $porTitulo = @($porTitulo | Where-Object { $g2 = $_; -not (($g2.Group | Where-Object { $_.Ruta -match '^1 Tesis/' }) -and ($g2.Group | Where-Object { $_.Ruta -match '^2 Ouroboros/' })) })
+  $porTitulo = @($porTitulo | Where-Object { $g2 = $_; -not (($g2.Group | Where-Object { $_.Ruta -match '^1 Tesis/' }) -and ($g2.Group | Where-Object { $_.Ruta -match '^Ouroboros/' })) })
   # Un titulo repetido entre la tesis y el estandar camina el mismo puente: el estandar ejecuta, la tesis explica.
-  $porTitulo = @($porTitulo | Where-Object { -not (($_.Group.FullName -match '\\1 Tesis\\') -and ($_.Group.FullName -match '\\2 Ouroboros\\')) })
+  $porTitulo = @($porTitulo | Where-Object { -not (($_.Group.FullName -match '\\Tesis\\') -and ($_.Group.FullName -match '\\Ouroboros\\')) })
 foreach ($g in $porTitulo) {
   $nombres += [pscustomobject]@{ Tipo = 'titulo'; Nombre = $g.Name; Veces = $g.Count; Donde = (($g.Group | ForEach-Object { $_.Ruta }) -join ' · ') }
 }

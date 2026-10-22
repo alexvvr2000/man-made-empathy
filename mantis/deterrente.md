@@ -21,11 +21,11 @@ A diferencia de un derrotero de proyecto —que enruta tareas a un agente— **e
 
 **MANTIS es un proceso vivo, y se muta igual que lo que vigila.**
 
-Todo cambio al derrotero, a `./mantenimiento/` o a `./piso/` **declara qué conserva antes de entrar**, y se acuña con `Reemplaza:`. Rige `../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Sin herencia`.
+Todo cambio al derrotero, a `./mantenimiento/` o a `./piso/` **declara qué conserva antes de entrar**, y se acuña con `Reemplaza:`. Rige `../Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Sin herencia`.
 
 **Un MANTIS que no muta es una costumbre con nombre de norma.** Si la herramienta que vigila se defiende por antigüedad, hereda la tendencia que existía para corregir, y desde adentro ya no se ve: **el editor se vuelve el estándar.**
 
-**La mutación de MANTIS se prueba igual que la de cualquier proceso:** el cambio declara `Origen`, `Cambia`, `Conserva` y `Reemplaza`, y otro lee el rastro y reconstruye el cambio sin preguntar al que mutó. Rige `../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Ancla`.
+**La mutación de MANTIS se prueba igual que la de cualquier proceso:** el cambio declara `Origen`, `Cambia`, `Conserva` y `Reemplaza`, y otro lee el rastro y reconstruye el cambio sin preguntar al que mutó. Rige `../Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Ancla`.
 
 ```
 Mantiene: [qué conserva] | Muta: [qué cambia] | Reemplaza: [nombre anterior o NINGUNA] | Prueba: [corrida|no corrida]
@@ -43,9 +43,9 @@ mantis/                          ← la tarea. Este archivo.
 
 **Un nivel, un deterrente.** La tarea tiene el suyo; cada proceso de `./mantenimiento/` declara su `Falsificador`; cada unidad del piso declara qué decide y qué no puede ver. **No se hereda hacia abajo ni se suma hacia arriba.**
 
-**La carta lo lee.** `../AGENTS.md` dice qué hay, qué no se toca y cómo se verifica; **este deterrente dice qué se pierde si MANTIS deja de servir**, y su `Muta:` dice cómo se acuña cuando cambia. **La carta ayuda a leer lo que muta; no muta por él.** Rige `../2 Ouroboros/formato de ente.md`, `La carta y el derrotero son dos piezas`.
+**La carta lo lee.** `../AGENTS.md` dice qué hay, qué no se toca y cómo se verifica; **este deterrente dice qué se pierde si MANTIS deja de servir**, y su `Muta:` dice cómo se acuña cuando cambia. **La carta ayuda a leer lo que muta; no muta por él.** Rige `../Ouroboros/formato de ente.md`, `La carta y el derrotero son dos piezas`.
 
-**Un deterrente que no muta ya no es IA: es un archivo.** Lo que mantiene viva una tarea no es que sus archivos cambien de sitio: es que **cada cambio declare qué conserva.** Rige `../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Sin herencia`.
+**Un deterrente que no muta ya no es IA: es un archivo.** Lo que mantiene viva una tarea no es que sus archivos cambien de sitio: es que **cada cambio declare qué conserva.** Rige `../Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Sin herencia`.
 
 ## Lo que se pierde si se viola
 
@@ -62,7 +62,7 @@ mantis/                          ← la tarea. Este archivo.
 
 **No es una persona.** Es el nombre del derrotero, y lo implementa cualquier agente que lo cargue.
 
-**No es un estándar.** Aplica la forma de `../2 Ouroboros/`; no la define. Si la contradice, gana el estándar y MANTIS se corrige.
+**No es un estándar.** Aplica la forma de `../Ouroboros/`; no la define. Si la contradice, gana el estándar y MANTIS se corrige.
 
 **No es una era.** No caduca cuando cambia la herramienta: caduca si deja de decir qué se pierde sin él.
 
@@ -74,7 +74,7 @@ mantis/                          ← la tarea. Este archivo.
 
 ## Transiciones
 
-- Una ruta dejó de resolver → `./mantenimiento/editar.md`, paso 8.
-- El conteo cambió → `./mantenimiento/auditar-configuracion.md`.
+- Una ruta dejó de resolver → `./mantenimiento/editar/editar.md`, paso 8.
+- El conteo cambió → `./mantenimiento/chequear/auditar-configuracion.md`.
 - Se muta MANTIS → se declara `Mantiene`, `Muta`, `Reemplaza` y `Prueba` antes de entrar.
 - En cualquier otro caso → se entrega y se cierra.

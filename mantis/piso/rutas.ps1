@@ -2,7 +2,7 @@
 # Decide: que ruta relativa del repo no resuelve a un archivo real.
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
-# FORMA: no se inventa aqui. Se lee de ../../2 Ouroboros/piso.md, "Se nombra por lo que decide".
+# FORMA: no se inventa aqui. Se lee de ../../Ouroboros/piso.md, "Se nombra por lo que decide".
 # Uso: pwsh -File mantis/piso/rutas.ps1 [-Root <ruta>]
 
 param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
@@ -11,7 +11,7 @@ $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
 # Zonas que se revisan. La raiz no: sus enlaces son de era.
-$zonas = @('1 Tesis', '2 Ouroboros', 'mantis')
+$zonas = @('Tesis', 'Ouroboros', 'mantis')
 
 # |archivo md| enlace (ruta|texto)  ·  ``ruta.md``  ·  [texto](ruta)
 $patrones = @(
@@ -24,7 +24,7 @@ foreach ($z in $zonas) {
   $base = Join-Path $Root $z
   if (-not (Test-Path $base)) { continue }
   foreach ($f in (Get-ChildItem $base -Recurse -Filter *.md)) {
-    $rel = $f.FullName.Replace($Root + '\', '').Replace('\', '/')
+    $rel = $f.FullName.Replace($Root + '\', '/').Replace('\', '/')
     $dir = Split-Path $f.FullName
     $txt = Get-Content $f.FullName -Raw -Encoding utf8
     $visto = @{}

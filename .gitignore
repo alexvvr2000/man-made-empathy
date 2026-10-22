@@ -1,5 +1,5 @@
 .vscode/*
-.contexto/*
 Novedad/
-notas/*
-!notas/README.md
+# La memoria de la sesion no se publica: las notas de tesis si.
+notas/continuas.md
+notas/generaciones/

@@ -3,7 +3,7 @@
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
 # Un tren no es una tuberia: cada unidad se puede correr suelta y su salida se lee sola.
-# Rige ../../2 Ouroboros/piso.md, "El tren".
+# Rige ../../Ouroboros/piso.md, "El tren".
 #
 # Uso: pwsh -File mantis/piso/piso.ps1 [-Root <ruta>]
 

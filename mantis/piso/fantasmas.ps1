@@ -3,7 +3,7 @@
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
 # FANTASMA: ente sin rastro.md, sin ruta.md o sin carga.md.
-# Rige ../../2 Ouroboros/2 S.A.R.A — mutación/integridad.md, "El fantasma".
+# Rige ../../Ouroboros/2 S.A.R.A — mutación/integridad.md, "El fantasma".
 #
 # Uso: pwsh -File mantis/piso/fantasmas.ps1 [-Root <ruta>]
 
