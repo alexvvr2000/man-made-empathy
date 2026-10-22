@@ -15,14 +15,18 @@ Un modelo cambia entre corridas, entre versiones y entre proveedores. **El piso 
 
 ## Qué vuelve piso a una herramienta
 
-Cuatro condiciones. Sin las cuatro, es un script: sirve, pero no es piso.
+Cuatro condiciones. Sin las cuatro, es un script: sirve, pero no es piso. **Las cuatro son reutilizables: se vuelven a correr cuando el criterio cambió.**
 
 | Condición | Qué significa | Si falta |
 |---|---|---|
 | **corre igual en cualquier ejecutor** | no depende de un modelo, una versión ni un proveedor | es una herramienta de una era |
 | **su salida ya es un veredicto** | no emite materia prima: emite `pasa / falla / indeterminado` y por qué | el que lee interpreta, y ahí se pierde la comparación |
 | **se puede correr sola** | no necesita las otras para dar un resultado | es parte de una tubería, no una unidad |
-| **es desechable** | se tira cuando deja de servir, sin tocar lo que chequeaba | se vuelve un sistema que hay que mantener |
+| **se rige por el criterio del ente** | declara `No se aplica a`, y su veredicto lo escribe quien lo va a usar | se vuelve un sistema que hay que mantener, y decide por costumbre |
+
+**La cuarta reemplaza a «es desechable».** Una herramienta que se tira no se puede recuperar; **una que se rige por el criterio se puede volver a correr cuando el criterio cambió.** Lo que la mantiene viva no es que sobreviva: **es que su `No se aplica a` le diga cuándo dejar de usarla.**
+
+**Y lo que se descarta no se tira: se guarda con su porqué.** De ahí salen las joyitas: **una regla que se descartó por una razón puede valer para otra.** Rige `../1 Tesis/desechos del estandar.md`, `El historial`.
 
 ## Se nombra por lo que decide
 
