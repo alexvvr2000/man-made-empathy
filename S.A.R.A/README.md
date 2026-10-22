@@ -2,11 +2,44 @@
 
 **Subproceso Autónomo de Reconstrucción de Abstracciones.**
 
+**Deterrente:** `./deterrente.md`. Sin él, S.A.R.A es una carpeta que se mantiene porque está.
+
 Es la versión atemporal del agente. No pertenece a una era: sus procesos se pueden pulir con Ouroboros y, al pulirse, la implementación mejora sin reescribir el agente.
 
 S.A.R.A salió de Ouroboros; no está dentro. Ouroboros puede explicar de dónde salió S.A.R.A; al revés no.
 
 **Nivel:** instancia, no estándar. Las formas que S.A.R.A usa viven en `../corpus/`; S.A.R.A dice **qué se hace hoy** con ellas. El enrutamiento es de `../mantis/Derrotero.md`.
+
+## S.A.R.A nace de Ouroboros, y no es una pieza suya
+
+**La distinción, que es la que importa:**
+
+| Palabra | Qué es | Dónde |
+|---|---|---|
+| **Primitivo** | una de las cinco piezas del lenguaje. No se deriva de nada | `../Ouroboros/primitivos/` |
+| **Mutación** | un proceso **nuevo** que nace de primitivos y declara qué conserva | `../Ouroboros/mutaciones/` |
+| **Instancia** | **un cuerpo construido con el lenguaje** | **aquí** |
+
+**S.A.R.A no es un primitivo ni una mutación de primitivo: es una instancia.** Aplica el lenguaje a un dominio, y por eso contiene sub-tareas y procesos en vez de ser una pieza.
+
+```
+Acta: S.A.R.A
+Nombre: S.A.R.A — Subproceso Autónomo de Reconstrucción de Abstracciones
+Expansión: aplica los cinco primitivos a tareas estándar; cada sub-tarea nace de un fallo comprobado
+Origen: los cinco primitivos de ../Ouroboros/primitivos/
+Clase: instancia. No es pieza del lenguaje: se construye con él
+Muta: de primitivos sueltos nace un cuerpo de abstracciones que se ejecuta
+Conserva: la forma de proceso, la Composición y la Trazabilidad de Ouroboros
+Ausencias: no crea primitivos propios; usa el lenguaje de Ouroboros
+Autoridad: la autoridad. Cierra en: quien use el cuerpo
+Reemplaza: NINGUNA
+```
+
+**Lo que S.A.R.A no hace:** no crea primitivos propios. **Si necesitara otros, no sería una instancia: sería otro sistema.**
+
+**Y cada mutación de S.A.R.A crea su propia instancia, no su propio Ouroboros.** El lenguaje sigue siendo uno. **Una mutación puede cambiar todo menos el lenguaje con el que declara el cambio.**
+
+Rige `../Ouroboros/README.md` y `../Ouroboros/primitivos/mutacion.md`.
 
 ## Qué usa de `corpus/`
 
@@ -39,14 +72,14 @@ ARDOR tiene dos partes, y confundirlas es lo que hace que un sistema parezca fun
 
 | Parte | Qué es | Dónde |
 |---|---|---|
-| **Piso** | lo que hace que **distintos ejecutores hagan lo mismo** | `../corpus/piso/` |
+| **Piso** | lo que hace que **distintos ejecutores hagan lo mismo** | `../corpus/piso.md` |
 | **Criterio** | lo que decide **qué hacer con eso** | aquí, y en cada proceso |
 
 > **El piso es lo que hace que distintos ejecutores hagan lo mismo. El criterio es lo que decide qué hacer con eso. Un piso sin criterio es un pendrive; un criterio sin piso es una opinión.**
 
 **Y el piso es desechable.** Se tira cuando deja de servir, sin tocar lo que chequeaba. No es infraestructura que se mantiene: es una herramienta que se reescribe y sigue siendo la misma pieza, porque **se nombra por lo que decide, no por cómo está hecha.**
 
-Sin piso, dos agentes con el mismo ARDOR producen resultados que no se pueden comparar. Rige `../corpus/piso/README.md`.
+Sin piso, dos agentes con el mismo ARDOR producen resultados que no se pueden comparar. Rige `../corpus/piso.md`.
 
 > El ardor es lo que queda cuando algo se sostiene sin enfriarse.
 

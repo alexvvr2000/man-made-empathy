@@ -67,13 +67,7 @@ Y una que ya existía en pedazos pero no junta:
 
 ## El veredicto
 
-> **No hay un sistema que funcione. Hay la especificación más completa que existe de un sistema que no puede no funcionar.**
-
-La diferencia se resuelve de una sola forma: **que decida algo una vez, y que ese algo quede escrito con la fecha, el motivo y quién se hizo cargo.**
-
-Eso es lo que une todo lo demás. Un sistema que nunca ha decidido nada no se puede evaluar: solo se puede creer. Y en este repo las cosas se creen o se muestran.
-
-Hoy hay veintisiete procesos escritos y **cero decisiones registradas**. Ese es el estado real, y se declara con la misma dureza con que se declara lo demás.
+Lo heredado se cita. Lo agregado se declara. **Lo que no está en ninguna de las dos tablas no se afirma.**
 
 ## La pregunta que ordena todo
 

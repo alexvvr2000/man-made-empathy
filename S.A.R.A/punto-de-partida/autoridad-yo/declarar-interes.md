@@ -1,5 +1,9 @@
 # Proceso de declarar interés
 
+**Variables:** decisión · beneficiario · interés · momento
+**Peor:** el interés aparece después de la decisión y se disfraza de criterio
+**Quién:** el perjudicado, que no estaba en el reparto
+
 **Unidad:** proceso.
 **Aplica a:** declarar interés.
 **Vigencia:** 2026-10-21.

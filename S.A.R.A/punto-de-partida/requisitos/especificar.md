@@ -1,5 +1,9 @@
 # Proceso de especificar
 
+**Variables:** intención · requisito · criterio · observabilidad
+**Peor:** el requisito no distingue cumplido de incumplido
+**Quién:** quien tiene que demostrar que se cumplió
+
 **Unidad:** proceso.
 **Aplica a:** especificar.
 **Vigencia:** 2026-10-21.

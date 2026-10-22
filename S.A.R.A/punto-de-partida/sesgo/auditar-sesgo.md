@@ -1,5 +1,9 @@
 # Proceso de auditar sesgo
 
+**Variables:** datos · etiqueta · uso · bucle
+**Peor:** se califica por quién produjo y no por lo que produjo
+**Quién:** el grupo sobrerrepresentado o ausente
+
 **Unidad:** proceso.
 **Aplica a:** auditar.
 **Vigencia:** 2026-10-21.

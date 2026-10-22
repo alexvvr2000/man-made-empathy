@@ -1,5 +1,9 @@
 # Proceso de reproducir
 
+**Variables:** resultado · registro · pasos · repetición
+**Peor:** se repite sin saber qué se hizo, y el resultado no se puede reconstruir
+**Quién:** quien intenta repetirlo y no puede
+
 **Unidad:** proceso.
 **Aplica a:** reproducir.
 **Vigencia:** 2026-10-21.

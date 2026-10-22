@@ -1,20 +1,19 @@
-# Sub-tarea: concordia
+# concordia
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si un colaborador puede volverse apéndice del sistema, esta sub-tarea deja de justificarse. **Un sistema que sirve para quien lo opera trabaja para uno solo.**
 
-La armonía entre colaboradores, no el talento de uno. Funciona para quien la opera sin perjudicar a quien está alrededor.
+**Fallo que cubre:** la armonía se confunde con el talento de uno, y quien opera no puede explicar la solución sin el sistema.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Dos ejecutores que aplican esto tienen que coincidir en el resultado; si no, no se midió.
 
-| Proceso | Qué hace |
-|---|---|
-| `componer.md` | Asigna colaboradores por coste de la cadena, no por precio aislado. |
-| `armonizar.md` | Declara el efecto en las tres escalas de autoridad. |
-| `auditar-dependencia.md` | Comprueba que el operador no se volvió apéndice. |
+## Procesos
 
-**N muta.**
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `componer.md` | colaboradores por coste de la cadena, no por precio aislado | se optimiza la pieza y se rompe la cadena |
+| `armonizar.md` | el efecto en las tres escalas de autoridad | el efecto sobre una escala se omite |
+| `auditar-dependencia.md` | si el operador se volvió apéndice | no puede explicar la solución sin leer la del sistema |
 
-La armonía no aparece por usar la máquina: se construye. La interacción humano-robot documenta que tratar con un sistema puede reducir el prejuicio o reforzarlo, según la experiencia. Declarar el efecto es lo que inclina la balanza.
+**X muta.** 3 hoy; mañana pueden ser otros.
 
-> La armonía real no es la que evita el conflicto: es la que no deja que el conflicto destruya.
-
+> La armonía no aparece por usar la máquina: se construye.

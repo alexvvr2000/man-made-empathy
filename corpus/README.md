@@ -25,13 +25,13 @@ Este nivel no existía, y su ausencia costaba caro: el estándar del derrotero v
 
 | Instancia | Qué aplica |
 |---|---|
-| `Ouroboros/` | la forma de proceso y la fricción |
-| `S.A.R.A/` | las abstracciones, y el formato de proceso en `piso/` |
+| `Ouroboros/` | el lenguaje: primitivos, mutaciones e integridad |
+| `S.A.R.A/` | las abstracciones: la tarea, sus sub-tareas y sus procesos |
 | `mantis/` | la operación: edita, audita y **hace cumplir el formato**. Su piso corre en `piso/` |
 
 **`Agentes/` es la era, no una instancia.** Una instancia se corrige; una era se reemplaza. Un estándar que caduca con la era deja de ser estándar, y por eso la era no puede vivir dentro de `corpus/`.
 
-**El piso vive en la instancia, no en el estándar.** `corpus/piso/` dice **qué** tiene que decidir una unidad y **qué forma** tiene un proceso. El archivo que corre —un `.ps1`, un `.py`, lo que sea— vive en `mantis/piso/`, porque el lenguaje es de la era. **Si ese lenguaje cambia, el estándar no se toca.**
+**El piso vive en la instancia, no en el estándar.** `corpus/piso.md` dice **qué** tiene que decidir una unidad y **qué forma** tiene un proceso. El archivo que corre —un `.ps1`, un `.py`, lo que sea— vive en `mantis/piso/`, porque el lenguaje es de la era. **Si ese lenguaje cambia, el estándar no se toca.**
 
 **La prueba entre estándar e instancia:** un estándar sin instancia **no hace nada**. Una instancia sin estándar **está a la deriva**: no hay forma de saber si está completa.
 
@@ -46,7 +46,10 @@ Este nivel no existía, y su ausencia costaba caro: el estándar del derrotero v
 | `Derrotero.md` | la forma de enrutar: qué necesita un derrotero para estar completo | **obligatorio** |
 | `Conceptos.md` | la forma de nombrar: un concepto, un nombre preferido, con origen | **obligatorio** |
 | `esquema-de-fila.md` | la forma de dejar rastro: qué escribe todo proceso al actuar | **obligatorio** |
-| `piso/` | la forma de ejecutar: qué decide una unidad y qué forma tiene un proceso | **opcional** |
+| `formato.md` | la forma de los tres niveles: tarea, sub-tarea y proceso | **obligatorio** |
+| `indice.md` | qué hay en el repo y dónde: se regenera cuando algo muta | **obligatorio** |
+| `piso/` | qué hace un ejecutor para que dos lleguen al mismo sitio | **opcional** |
+| `problemas-abiertos.md` | el mapa: qué problema del campo toca qué pieza, y qué le falta | **opcional** |
 | `ATLAS/` | la forma de comunicar: piso, techo, canal, sesgo, cuerpo | **opcional** |
 
 **`piso/` es lo primero que ve alguien que abre este repo desde afuera.** No porque sea lo más importante, sino porque es **lo que la industria no tiene**: herramientas que corren igual en cualquier ejecutor. Levanta más cejas que veintiocho procesos, y por eso va aquí y no enterrado en una carpeta de abstracciones.
@@ -83,7 +86,7 @@ Un **derrotero** enruta. Una **carta** dice cómo se lee el derrotero, y es lo q
 | `S.A.R.A/individuos.md` | catálogo de robots: es un caso, no una forma |
 | `S.A.R.A/mundo.md` | es el pegamento de este repo, y depende de sus tres piezas |
 | `S.A.R.A/estado-del-arte.md` | es una medida con fecha, no una forma |
-| `Ouroboros/*.md` | son instancias de la forma de proceso |
+| `Ouroboros/primitivos/` y `Ouroboros/mutaciones/` | son procesos del lenguaje, no formas |
 
 **La regla:** si el archivo dice **cómo tiene que ser**, es estándar. Si dice **qué pasó una vez**, es caso. Un estándar que se llena de casos deja de servir para juzgar: solo sirve para recordar.
 

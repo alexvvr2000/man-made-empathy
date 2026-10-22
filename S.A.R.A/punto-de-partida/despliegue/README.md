@@ -1,13 +1,19 @@
-# Sub-tarea: despliegue
+# despliegue
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si algo entra sin condición de parada ni retorno, esta sub-tarea deja de justificarse. **Lo que no se puede retirar no se desplegó: se instaló.**
 
-Se entrega con condición de parada y con retorno.
+**Fallo que cubre:** se entrega sin saber cuándo se detiene ni cómo se vuelve atrás.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Dos ejecutores que aplican esto tienen que coincidir en el resultado; si no, no se midió.
 
-| Proceso | Qué hace |
-|---|---|
-| `desplegar.md` | Despliega gradual con condición y retorno. |
+## Procesos
 
-**N muta.** Los que hay son de hoy.
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `d` | e | s |
+| `e` | l |   |
+| `n` | o |   |
+
+**X muta.** 3 hoy; mañana pueden ser otros.
+
+> Se entrega con condición de parada y con retorno.

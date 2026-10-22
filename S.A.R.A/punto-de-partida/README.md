@@ -14,7 +14,7 @@ tarea
 
 **N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son dieciséis sub-tareas y veintisiete procesos; mañana pueden ser otros, con otros nombres, u otro número.
 
-**Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../../Ouroboros/Proceso de mutación.md`, `Mutar la serie`.
+**Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../../Ouroboros/primitivos/mutacion.md`, `Mutar la serie`.
 
 **Ninguna jerarquía.** Las sub-carpetas son hermanas. Los procesos dentro de una también. Ninguno manda sobre otro, y ninguno posee un núcleo que los demás citen.
 
@@ -31,7 +31,7 @@ La forma dice **dónde va** cada cosa. No dice **cuándo está.** Sin esa segund
 **Prueba:** ¿el proceso sirve sin nada que no esté escrito adentro? ¿la sub-tarea funciona sin que otra le preste una condición?
 **Falsificador:** un proceso que sirve solo porque alguien recuerda una condición; una sub-tarea que no funciona sin otra; una pieza nueva que no cierra ningún implícito.
 
-Eso se chequea con `../../Ouroboros/Proceso de integridad de procesos.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
+Eso se chequea con `../../Ouroboros/integridad.md`, 4ª pregunta. **Un chequeo a mano no cuenta:** corre sobre el repo o no corrió.
 
 ## La fila
 

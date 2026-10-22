@@ -1,5 +1,9 @@
 # Proceso de evaluar
 
+**Variables:** resultado · criterio · momento · veredicto
+**Peor:** el criterio se fija después de ver el resultado
+**Quién:** quien confía en el veredicto, que no vio cuándo se fijó
+
 **Unidad:** proceso.
 **Aplica a:** evaluar.
 **Vigencia:** 2026-10-21.

@@ -1,18 +1,21 @@
-# Sub-tarea: evidencia
+# evidencia
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si una afirmación puede circular sin fuente, sin nivel y sin quién la revise, esta sub-tarea deja de justificarse. **Un sistema que se cree sus propias afirmaciones no tiene evidencia: tiene ecos.**
 
-Toda afirmación sobre el mundo tiene fuente o se declara vacía.
+**Fallo que cubre:** el modelo afirma algo sin constancia. Es la causa raíz de la alucinación **por incentivo**: adivinar es dominante cuando nadie pregunta de dónde viene. `../corpus/problemas-abiertos.md`, problema 3.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Toda unidad que verifique esto corre igual en dos ejecutores.
 
-| Proceso | Qué hace |
-|---|---|
-| `trazar.md` | Da fuente, nivel e independencia a una afirmación. |
-| `nivel-de-fuente.md` | Mide la fuerza de una fila por su origen: N0 testigo, N1 medición, N2 fuente primaria, N3 precedente, N4 deducción, N5 memoria interna. |
-| `ayuda-no-pedida.md` | Decide si intervenir sobre lo que otro sostiene es ayuda o impedimento, y en qué nivel. |
+## Procesos
 
-**N muta.**
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `trazar.md` | si una afirmación tiene recibo: fuente, nivel, independencia | una afirmación que se sostiene sin recibo |
+| `nivel-de-fuente.md` | qué tan en serio tomarse una fila según su origen | un N1 sin medición, o un N5 sin fecha de corte |
+| `ayuda-no-pedida.md` | si intervenir sobre lo que otro sostiene es ayuda o impedimento | el otro queda sin capacidad ni criterio |
+| `costo-del-error.md` | cuánto cuesta equivocarse, y qué umbral exige eso | se responde sin costo declarado, o adivinando en lo irreversible |
+| `peor-caso.md` | el peor resultado, no el promedio | la media esconde el desastre |
 
-> Lo que no se puede mostrar no se afirma.
+**X muta.** Cinco hoy; mañana pueden ser otros.
 
+> **Lo que no se puede mostrar no se afirma** — y lo que no se sabe se declara con fecha, no se rellena.

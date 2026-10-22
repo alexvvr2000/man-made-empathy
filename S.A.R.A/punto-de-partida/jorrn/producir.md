@@ -1,5 +1,9 @@
 # Proceso de producir
 
+**Variables:** subproceso · origen · perímetro · término
+**Peor:** se produce sin nombre, sin perímetro y sin término, y después nadie lo puede retirar
+**Quién:** quien tiene que sostener lo producido
+
 **Unidad:** proceso.
 **Aplica a:** producir.
 **Vigencia:** 2026-10-21.

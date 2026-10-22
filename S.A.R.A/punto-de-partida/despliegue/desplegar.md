@@ -1,5 +1,9 @@
 # Proceso de desplegar
 
+**Variables:** entrega · condición de parada · retorno · alcance
+**Peor:** se entrega sin condición de parada ni retorno y no hay vuelta
+**Quién:** quien hereda lo desplegado sin haberlo pedido
+
 **Unidad:** proceso.
 **Aplica a:** desplegar.
 **Vigencia:** 2026-10-21.

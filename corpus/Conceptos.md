@@ -68,7 +68,7 @@ Tres problemas, y tienen nombre en bibliotecología:
 | cruce | `Pruebas/` | — | sí | — | — | prueba | cruce físico, cruce de visión | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce físico | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce de visión | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
-| tendencia | ingeniería inversa | — | sí | — | — | — | — | `Ouroboros/Proceso de ingeniería inversa.md` | vigente |
+| tendencia | ingeniería inversa | — | sí | — | — | — | — | `Ouroboros/primitivos/ingenieria-inversa.md` | vigente |
 | fantasma | S.A.R.A | — | sí | — | — | tarea | — | `README` de S.A.R.A | vigente |
 | ACERO | S.A.R.A | — | sí | — | — | propiedad | — | `mantis/mantenimiento/medir-acero.md` | vigente |
 | J'ONN | `punto-de-partida/jorrn/` | — | sí | — | — | sub-tarea | producir, declarar lo inesperado | `README` de S.A.R.A | vigente |

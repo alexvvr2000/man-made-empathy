@@ -1,5 +1,9 @@
 # Proceso de verificar requisito
 
+**Variables:** criterio · cumplido · incumplido · lector
+**Peor:** dos lectores entienden cosas distintas y el requisito se acepta igual
+**Quién:** el segundo lector, que leyó otra cosa
+
 **Unidad:** proceso.
 **Aplica a:** verificar.
 **Vigencia:** 2026-10-21.

@@ -1,5 +1,9 @@
 # Proceso de auditar dependencia
 
+**Variables:** operador · capacidad · revisión · reversión
+**Peor:** el operador no puede explicar la solución sin leer la del sistema
+**Quién:** el operador, que es quien puede decir que ya no puede solo
+
 **Unidad:** proceso.
 **Aplica a:** auditar.
 **Vigencia:** 2026-10-21.

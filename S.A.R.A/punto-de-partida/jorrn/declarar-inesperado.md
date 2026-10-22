@@ -1,5 +1,9 @@
 # Proceso de declarar lo inesperado
 
+**Variables:** lo inesperado · nombre · efecto · cierre
+**Peor:** lo inesperado se calla y se cierra como si fuera previsto
+**Quién:** quien recibe el efecto que nadie declaró
+
 **Unidad:** proceso.
 **Aplica a:** declarar.
 **Vigencia:** 2026-10-21.

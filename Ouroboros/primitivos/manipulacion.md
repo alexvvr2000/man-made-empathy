@@ -70,6 +70,30 @@ Todo proceso se contesta antes de escribirse.
 
 **Prohibido** ejecutar el paso N+1 sin la salida del N.
 
+## La secuencia mínima
+
+Ningún cambio a un proceso entra sin cuatro pasos, y **cada uno deja algo que el siguiente lee.** Si falta uno, no entra: no se marca incompleto.
+
+```
+1. NOMBRAR      →  variables, y quién puede decir que se movió mal
+2. ESCRIBIR     →  el caso, el falsificador, la prueba
+3. FRICCIONAR   →  la decisión pasa por quien la toma
+4. ACUÑAR       →  el nombre nuevo de la rama
+```
+
+**No es un nivel nuevo: es el orden que ya existía sin declararse.** Los cuatro pasos viven repartidos en `./primitivos/mutacion.md` y `./mutaciones/friccion.md`; aquí se declara que **no se pueden invertir ni omitir.**
+
+| Paso | De dónde viene | Qué deja para el siguiente |
+|---|---|---|
+| **Nombrar** | `./primitivos/mutacion.md`, `Nombre y expansión` | qué mueve el cambio y quién lo puede refutar |
+| **Escribir** | `./Proceso de creación de procesos.md`, `Escribir desde el caso` | el texto que se va a friccionar |
+| **Friccionar** | `./mutaciones/friccion.md` | la decisión contestada, con `Quién` o `ninguno` |
+| **Acuñar** | `./primitivos/mutacion.md`, `Acta` | el nombre de la rama, con `Reemplaza:` |
+
+**Sin fricción no hay cambio, y sin acuñación el cambio no existe en la conversación.** Lo que haya pasado entre ambos es movimiento, no manipulación.
+
+**Falsificador:** se acuña sin haber friccionado; se fricciona un texto que todavía no se escribió; se escriben variables después de acuñar; el paso siguiente no lee la salida del anterior.
+
 ## Las variables
 
 Un proceso que no dice qué mueve **no se puede chequear después**: no hay contra qué compararlo si sale mal. Por eso se nombran **antes de escribir**, no después.
@@ -90,7 +114,7 @@ Quién: [tipo:nombre | ninguno]
 
 **Sin las tres respuestas, el proceso no se crea.** No se marca incompleto: **no entra.** Un proceso incompleto se puede arreglar después; uno que nació sin variables no tiene contra qué arreglarse.
 
-**El criterio no se hereda.** Cada proceso nombra sus propias variables en el momento en que nace. No las arrastra de su predecesor, porque rige `./Proceso de mutación.md`, `Sin herencia`: un reemplazo que hereda variables hereda lo que ya no aplica.
+**El criterio no se hereda.** Cada proceso nombra sus propias variables en el momento en que nace. No las arrastra de su predecesor, porque rige `./primitivos/mutacion.md`, `Sin herencia`: un reemplazo que hereda variables hereda lo que ya no aplica.
 
 ## La forma de un proceso
 
@@ -125,7 +149,7 @@ Toda clasificación, medición o supuesto se declara en una línea de 5 a 12 pal
 
 Sin verbos de sugerencia. Toda bifurcación cierra con una rama por defecto: `En cualquier otro caso`.
 
-Lo que se lee lleva ejemplo; lo que se ejecuta se sostiene sin él. Rige `./Proceso de claridad.md` `1.4`.
+Lo que se lee lleva ejemplo; lo que se ejecuta se sostiene sin él. Rige `./primitivos/claridad.md` `1.4`.
 
 **Prueba:** ¿queda «procura», «idealmente» o «si es necesario»? ¿hay una rama «en cualquier otro caso»?
 **Falsificador:** un proceso que deja a quien ejecuta decidir si aplica.
@@ -139,7 +163,7 @@ El entregable es el estado final completo: qué entra, qué falla, qué sale y q
 
 ## Admisión
 
-Un proceso entra si su salida cambia una decisión en el uso vigente, o si declara `Plazo` y `Criterio` y se mide a término. Rige `./Proceso de claridad.md` `1.12`.
+Un proceso entra si su salida cambia una decisión en el uso vigente, o si declara `Plazo` y `Criterio` y se mide a término. Rige `./primitivos/claridad.md` `1.12`.
 
 Sin falsificador no entra: un proceso sin el caso que lo incumple es una opinión.
 

@@ -1,5 +1,9 @@
 # Proceso de nivel de fuente
 
+**Variables:** fuente · nivel · independencia · fecha de corte
+**Peor:** un N5 se presenta como N1 y la decisión se apoya en un recuerdo
+**Quién:** quien decide con la fila, que no ve el recibo
+
 **Unidad:** tarea.
 **Aplica a:** medir la fuerza de una fila por su origen.
 **Tipo:** proceso de medición. No produce conocimiento: produce el número que dice cuánto vale lo que ya está escrito.

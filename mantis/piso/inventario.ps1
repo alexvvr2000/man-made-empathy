@@ -9,7 +9,7 @@
 
 param(
   [string]$Root   = (Join-Path $PSScriptRoot "..\.."),
-  [string]$Formato = (Join-Path $PSScriptRoot "..\..\corpus\piso\formato-de-proceso.md")
+  [string]$Formato = (Join-Path $PSScriptRoot "..\..\corpus\formato.md")
 )
 
 $ErrorActionPreference = 'Stop'

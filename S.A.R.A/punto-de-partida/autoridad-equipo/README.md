@@ -1,18 +1,19 @@
-# Sub-tarea: autoridad-equipo
+# autoridad-equipo
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si una decisión puede afectar a alguien sin que nadie lo haya nombrado, esta sub-tarea deja de justificarse. **Una parte afectada que no está en la lista no fue ignorada: fue invisible.**
 
-Las partes afectadas por una decisión, con poder, legitimidad y urgencia.
+**Fallo que cubre:** se decide sin saber a quién afecta y con qué peso, y el que no reclama no aparece.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Dos ejecutores que aplican esto tienen que coincidir en el resultado; si no, no se midió.
 
-| Proceso | Qué hace |
-|---|---|
-| `identificar-partes.md` | Identifica a quién afecta la decisión y con qué peso. |
+## Procesos
 
-**N muta.**
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `i` | d | e |
+| `a` |   | q |
+| `u` | n | a |
 
-Teoría de partes interesadas: Freeman; poder, legitimidad y urgencia en Mitchell, Agle y Wood.
+**X muta.** 3 hoy; mañana pueden ser otros.
 
-> No es compasión por lo que importa: es compasión por lo que te importa. Y cuando ese gramo toca, tu mundo cambia.
-
+> No es compasión por lo que importa: es compasión por lo que te importa.

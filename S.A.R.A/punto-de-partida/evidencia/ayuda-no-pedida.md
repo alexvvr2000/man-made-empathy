@@ -1,5 +1,9 @@
 # Proceso de ayuda no pedida
 
+**Variables:** intervención · nivel · lo que queda al otro · retiro
+**Peor:** el otro se queda sin capacidad ni criterio, y el resultado salió bien
+**Quién:** el otro, que puede decir que ya no puede solo
+
 **Unidad:** tarea.
 **Aplica a:** decidir si se interviene sobre algo que el otro está sosteniendo.
 **Tipo:** proceso de discernimiento. No decide si la ayuda es buena: decide si es ayuda.

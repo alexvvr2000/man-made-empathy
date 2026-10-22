@@ -14,7 +14,7 @@
 **Forma:** `Entra | Falla | Sale | Consume`.
 **Norma:** `Tipo | Enunciado | Prueba | Falsificador | Costo de omitir`.
 
-**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+**Manipulación.** Todo cambio a un proceso pasa por `./primitivos/manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
@@ -22,7 +22,7 @@ Los procesos hermanos no se ven entre sí. Cada uno cumple su regla, y **dos reg
 
 Y cada proceso, solo, puede servir sin que esté escrito **qué tiene que cumplirse para que sirva.** Las dos cosas se chequean aquí.
 
-El nivel 0 no es "un proceso de procesos": eso ya es `./Proceso de manipulacion de procesos.md`. Es más chico y más raro: **es el chequeo que corre sobre lo que ya existe, antes de que la incompatibilidad o el implícito salgan a la superficie.**
+El nivel 0 no es "un proceso de procesos": eso ya es `./primitivos/manipulacion.md`. Es más chico y más raro: **es el chequeo que corre sobre lo que ya existe, antes de que la incompatibilidad o el implícito salgan a la superficie.**
 
 **Niveles negativos no sirven.** Nada por debajo de esto: se pasa del chequeo al inmueble, y lo inmueble no tiene falsificador.
 
@@ -154,7 +154,7 @@ Nombrar no es un adorno del reporte. **Es lo que obliga a verbalizar qué cambi�
 
 **Se acuña siempre, para lo que se chequeó**, sea tarea, sub-tarea o subproceso.
 
-**La forma es la de** `./Proceso de mutación.md`, `Acta`. Se reusa, no se redefine:
+**La forma es la de** `./primitivos/mutacion.md`, `Acta`. Se reusa, no se redefine:
 
 ```
 Acta: [id] | Nombre: [nombre] | Expansión: [significado] | Origen: [hallazgo de esta corrida] | Fecha: [ISO]
@@ -171,7 +171,7 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre o NINGU
 
 **Sin hallazgo no hay acuñación.** Una corrida que no encontró nada acuña igual, pero su `Muta:` declara el estado: *«sin cambio: el piso aguantó»*. Lo que no se permite es acuñar como si hubiera habido un cambio.
 
-**El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. Rige `./Proceso de mutación.md`, `Sin herencia`.
+**El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. Rige `./primitivos/mutacion.md`, `Sin herencia`.
 
 **Prueba:** ¿la corrida acuñó nombre? ¿El nombre se lee como nombre propio? ¿`Muta:` declara el cambio real, o el estado si no hubo? ¿`Reemplaza:` apunta al anterior?
 
@@ -222,7 +222,7 @@ Implícito: [la condición] | Falta en: [sección] | Qué pasa sin ella: [el fal
 ## Transiciones
 
 - La contradicción está en un estándar → `../../mantis/mantenimiento/editar.md`, gana el estándar.
-- El par no se entiende → `../Proceso de claridad.md`, `1.4`.
-- Hace falta saber si una creación se sostiene → `./Proceso de manipulacion de procesos.md`, `No-objetivo`.
-- Falta el sesgo de la comparación → `../Proceso de sesgo declarado.md`.
+- El par no se entiende → `../primitivos/claridad.md`, `1.4`.
+- Hace falta saber si una creación se sostiene → `./primitivos/manipulacion.md`, `No-objetivo`.
+- Falta el sesgo de la comparación → `../mutaciones/sesgo-declarado.md`.
 - En cualquier otro caso → se entrega y se cierra.

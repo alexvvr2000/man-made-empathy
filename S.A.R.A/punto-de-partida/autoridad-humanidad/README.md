@@ -1,18 +1,19 @@
-# Sub-tarea: autoridad-humanidad
+# autoridad-humanidad
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si el efecto sobre quien no puede hablar puede omitirse, esta sub-tarea deja de justificarse. **Sin voz, no hay decisión.**
 
-Los que no tienen voz: generaciones futuras, grupos marginados y naturaleza no humana.
+**Fallo que cubre:** el sistema actúa sobre generaciones futuras, grupos sin representación o naturaleza no humana sin que nadie pueda reclamar en su nombre.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Dos ejecutores que aplican esto tienen que coincidir en el resultado; si no, no se midió.
 
-| Proceso | Qué hace |
-|---|---|
-| `dar-voz.md` | Declara el efecto sobre quien no puede hablar. |
+## Procesos
 
-**N muta.**
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `d` | a | r |
+| `e` | l |   |
+| `s` | e |   |
 
-Stakeholder sin voz: Waddock. El análisis centrado solo en la organización deja fuera a las partes que no reclaman.
+**X muta.** 3 hoy; mañana pueden ser otros.
 
 > Sin voz, no hay decisión.
-

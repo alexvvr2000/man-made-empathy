@@ -1,13 +1,19 @@
-# Sub-tarea: seguridad
+# seguridad
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si lo irreversible puede hacerse sin punto de control, esta sub-tarea deja de justificarse. **Lo que no se puede deshacer no se decide sin alguien que pueda pararlo.**
 
-Lo irreversible no se hace sin punto de control.
+**Fallo que cubre:** se ejecuta algo irreversible sin autorización ni punto de retorno.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Dos ejecutores que aplican esto tienen que coincidir en el resultado; si no, no se midió.
 
-| Proceso | Qué hace |
-|---|---|
-| `contener.md` | Fija el perímetro y bloquea lo irreversible sin autorización. |
+## Procesos
 
-**N muta.**
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `c` | o | n |
+| `e` | l |   |
+| `l` | o |   |
+
+**X muta.** 3 hoy; mañana pueden ser otros.
+
+> Lo irreversible no se hace sin punto de control.

@@ -3,8 +3,8 @@
 **Tipo:** proceso de mantenimiento. Once pasos, en orden. Vuelve sobre Ouroboros y sobre las abstracciones.
 **Alcance:** `../Ouroboros/`, `../S.A.R.A/`, `../Agentes/` y `../.contexto/`. La implementación de una era no entra salvo que el cambio la produzca.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
-**Claridad:** `../Ouroboros/Proceso de claridad.md`.
-**Manipulación de procesos:** `../Ouroboros/Proceso de manipulacion de procesos.md`.
+**Claridad:** `../Ouroboros/primitivos/claridad.md`.
+**Manipulación de procesos:** `../Ouroboros/primitivos/manipulacion.md`.
 
 ## Parámetros del repo
 
@@ -37,11 +37,11 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 | **Estándar** | Corpus | `corpus/Conceptos.md` | el origen de los nombres | da alta un término |
 | **Estándar** | Corpus | `corpus/esquema-de-fila.md` | la forma del rastro | cambia lo que todo proceso escribe al actuar |
 | **Estándar** | Corpus | `corpus/ATLAS/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
-| **Instancia** | Ouroboros | `Ouroboros/Proceso de manipulacion de procesos.md` | produce procesos | produce o reemplaza un proceso |
-| **Instancia** | Ouroboros | `Ouroboros/Proceso de ingeniería inversa.md` | deduce procesos | saca un proceso de lo observable |
-| **Instancia** | Ouroboros | `Ouroboros/Proceso de aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
-| **Instancia** | Ouroboros | `Ouroboros/Proceso de mutación.md` | la transformación | gobierna origen, cambio o retorno |
-| **Instancia** | Ouroboros | `Ouroboros/Proceso de claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
+| **Instancia** | Ouroboros | `Ouroboros/primitivos/manipulacion.md` | produce procesos | produce o reemplaza un proceso |
+| **Instancia** | Ouroboros | `Ouroboros/primitivos/ingenieria-inversa.md` | deduce procesos | saca un proceso de lo observable |
+| **Instancia** | Ouroboros | `Ouroboros/primitivos/aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
+| **Instancia** | Ouroboros | `Ouroboros/primitivos/mutacion.md` | la transformación | gobierna origen, cambio o retorno |
+| **Instancia** | Ouroboros | `Ouroboros/primitivos/claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
 | **Instancia** | Abstracción | `S.A.R.A/punto-de-partida/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
 | **Instancia** | Abstracción | `S.A.R.A/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso del agente |
 | **Instancia** | Abstracción | `S.A.R.A/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
@@ -50,7 +50,7 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 
 **Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **con qué** es implementación. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `corpus/`.
 
-**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca Ouroboros, se ejecuta antes `../Ouroboros/Proceso de manipulacion de procesos.md` y se mide su efecto en los que componen con él.
+**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca Ouroboros, se ejecuta antes `../Ouroboros/primitivos/manipulacion.md` y se mide su efecto en los que componen con él.
 
 **Gana el estándar.** Una instancia no puede contradecir su estándar. Si lo contradice, la instancia se corrige, y si la instancia tenía razón, primero se corrige el estándar y después se propaga.
 
@@ -123,7 +123,7 @@ Se ejecuta `./auditar-configuracion.md` cuando el cambio altera conteos, nombres
 
 **Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `S.A.R.A/punto-de-partida/README.md` y el mapa de sub-tareas. Si toca la base, se ejecuta `./verificar-esquema.md`. Si cambia una tarea o un campo del disparador, se enruta en `../../AGENTS.md` en el mismo cambio.
 
-**Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../Ouroboros/Proceso de manipulacion de procesos.md`, `Lo que funciona ya está viejo`.
+**Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../Ouroboros/primitivos/manipulacion.md`, `Lo que funciona ya está viejo`.
 
 ## 10. Verificar
 

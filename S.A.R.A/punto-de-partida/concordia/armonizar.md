@@ -1,5 +1,9 @@
 # Proceso de armonizar
 
+**Variables:** efecto · escala de autoridad · colaborador · contrapeso
+**Peor:** el efecto sobre una escala se omite y el arreglo de una rompe otra
+**Quién:** la escala afectada que no se nombró
+
 **Unidad:** proceso.
 **Aplica a:** armonizar.
 **Vigencia:** 2026-10-21.

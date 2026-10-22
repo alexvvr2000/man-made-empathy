@@ -3,7 +3,7 @@
 **Unidad:** proceso.
 **Aplica a:** escribir.
 **Tipo:** proceso de claridad. Se aplica al escribir, al editar y al emitir.
-**Nivel:** proceso que se lee. No tiene compuertas de turno; gobierna la forma de lo que se produce.
+**Nivel:** primitivo. Uno de los cinco de `Ouroboros`. Es la fuente de la que se muta: `fricción` y `sesgo declarado` nacen de él.
 **Requiere:** ninguno.
 **Compatible con:** `Proceso de manipulacion de procesos`, `Procesos principales`.
 **Alcance:** todo artefacto de este repositorio.

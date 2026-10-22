@@ -1,5 +1,9 @@
 # Proceso de contener
 
+**Variables:** perímetro · irreversibilidad · autorización · retorno
+**Peor:** lo irreversible se hace sin autorización ni punto de retorno
+**Quién:** quien sufre lo irreversible, que no autorizó
+
 **Unidad:** proceso.
 **Aplica a:** contener.
 **Vigencia:** 2026-10-21.

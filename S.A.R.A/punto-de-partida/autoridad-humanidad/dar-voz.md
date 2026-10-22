@@ -1,5 +1,9 @@
 # Proceso de dar voz
 
+**Variables:** efecto · quien no habla · representación · costo
+**Peor:** se actúa sobre quien no puede reclamar y el efecto se omite
+**Quién:** quien habla por el que no puede, o `ninguno` declarado
+
 **Unidad:** proceso.
 **Aplica a:** dar voz.
 **Vigencia:** 2026-10-21.

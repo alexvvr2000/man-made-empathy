@@ -1,5 +1,9 @@
 # Proceso de versionar
 
+**Variables:** estado · identificador · reemplazo · rastro
+**Peor:** se edita el estado y no queda rastro de qué cambió
+**Quién:** quien tiene que reconstruir el cambio
+
 **Unidad:** proceso.
 **Aplica a:** versionar.
 **Vigencia:** 2026-10-21.

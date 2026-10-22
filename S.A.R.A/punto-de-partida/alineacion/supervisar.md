@@ -1,5 +1,9 @@
 # Proceso de supervisar
 
+**Variables:** comportamiento · supervisión · regla · deriva
+**Peor:** el comportamiento cambia cuando nadie mira y la regla dice lo mismo
+**Quién:** quien supervisa, que no puede ser quien produjo
+
 **Unidad:** proceso.
 **Aplica a:** supervisar.
 **Vigencia:** 2026-10-21.

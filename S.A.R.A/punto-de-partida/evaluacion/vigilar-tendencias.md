@@ -1,5 +1,9 @@
 # Proceso de vigilar tendencias
 
+**Variables:** tendencia · intención · magnitud · disparador
+**Peor:** la tendencia sube, el daño también, y el registro no lo nota
+**Quién:** quien sufre la tendencia, que no la ve
+
 **Unidad:** proceso.
 **Aplica a:** vigilar.
 **Vigencia:** 2026-10-21.

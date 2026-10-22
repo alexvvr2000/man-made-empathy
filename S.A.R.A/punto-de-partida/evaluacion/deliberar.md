@@ -1,5 +1,9 @@
 # Proceso de deliberar
 
+**Variables:** caminos · fricción · criterio · fundido
+**Peor:** se funden dos caminos en una respuesta tibia que no elige
+**Quién:** quien recibe una decisión que no se tomó
+
 **Unidad:** proceso.
 **Aplica a:** deliberar.
 **Vigencia:** 2026-10-21.

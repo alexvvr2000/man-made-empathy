@@ -12,7 +12,7 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Manipulación.** Todo cambio a un subproceso pasa por `../Ouroboros/Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un subproceso creado sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+**Manipulación.** Todo cambio a un subproceso pasa por `../Ouroboros/primitivos/manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un subproceso creado sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
@@ -56,7 +56,7 @@ Este proceso no inventa reglas: las junta, que era lo que faltaba.
 | No auto-replicación | `./punto-de-partida/evaluacion/vigilar-tendencias.md` 8 | crear un subproceso exige autorización explícita |
 | Ciclo | `./punto-de-partida/reproduccion/reproducir.md` | crear, servir y terminar con condición |
 | Equipo y subprocesos | `./punto-de-partida/reproduccion/reproducir.md` §Equipo | toda sub-tarea se declara y deja traza |
-| Acta de creación | `../../../Ouroboros/Proceso de mutación.md` | origen, encargo, mutado, conservado, ausencias |
+| Acta de creación | `../../../Ouroboros/primitivos/mutacion.md` | origen, encargo, mutado, conservado, ausencias |
 | Conceptos | `./punto-de-partida/reproduccion/reproducir.md`, `conceptualizar` | todo término nuevo se registra |
 
 ## El molde de cera

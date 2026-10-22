@@ -3,14 +3,14 @@
 **Unidad:** proceso.
 **Aplica a:** aplicar.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los seis de `Ouroboros`.
+**Nivel:** primitivo. Uno de los cinco de `Ouroboros`.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
 **Primitivo.** Es el que hace que los otros cinco sean un lenguaje: toma un proceso y su entrada, y ejecuta. Sin aplicar, Ouroboros es un catálogo.
 
-**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+**Manipulación.** Todo cambio a un proceso pasa por `./primitivos/manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
@@ -71,9 +71,9 @@ Si un eslabón falla, la cadena se detiene en ese eslabón: la salida parcial se
 
 ## Lo que no hace
 
-- No crea procesos: los crea `./Proceso de manipulacion de procesos.md`.
-- No los deduce: los deduce `./Proceso de ingeniería inversa.md`.
-- No los cambia: los cambia `./Proceso de mutación.md`.
+- No crea procesos: los crea `./primitivos/manipulacion.md`.
+- No los deduce: los deduce `./primitivos/ingenieria-inversa.md`.
+- No los cambia: los cambia `./primitivos/mutacion.md`.
 - No los comunica: los comunica `./ATLAS/Proceso ATLAS.md`.
 
 Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.

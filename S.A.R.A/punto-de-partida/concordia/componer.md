@@ -1,5 +1,9 @@
 # Proceso de componer
 
+**Variables:** cadena · colaboradores · coste · tramo
+**Peor:** se optimiza la pieza y se rompe la cadena
+**Quién:** el tramo de la cadena que carga el coste
+
 **Unidad:** proceso.
 **Aplica a:** componer.
 **Vigencia:** 2026-10-21.

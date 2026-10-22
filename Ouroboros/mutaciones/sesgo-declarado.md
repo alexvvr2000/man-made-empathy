@@ -4,7 +4,7 @@
 **Aplica a:** ver desde dónde se mira.
 **Tipo:** proceso de discernimiento. No corrige el sesgo: lo vuelve visible.
 **Lector:** quien va a mirar algo nuevo, y quien va a evaluar lo que otro produjo.
-**Nivel:** 2 de 3. Subproceso.
+**Nivel:** mutación de `claridad`. No es primitivo: nace de ella y declara qué conserva.
 **Alcance:** toda idea, propuesta o evaluación que no cabe en lo que ya se sabe.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -104,7 +104,7 @@ No obliga a aceptar la otra mirada. No da la verdad: da **el lugar donde la mira
 
 No convierte una idea mala en buena. **Una idea transformacional sigue pudiendo ser un error.** Lo que cambia es que ya no puede ser descartada **sin nombrar la regla que rompe** — y eso es lo único que separa lo nuevo de lo equivocado.
 
-Rige `../Proceso de fricción.md`, `La fricción obliga a contestar. La coerción obliga a contestar lo correcto.`
+Rige `../mutaciones/friccion.md`, `La fricción obliga a contestar. La coerción obliga a contestar lo correcto.`
 
 ## Ancla
 
@@ -132,6 +132,6 @@ Decisión: [retener|revisar|descartar] | Falta mirar desde: [quién|nadie]
 
 - La idea no se puede expresar → `../../corpus/ATLAS/Proceso ATLAS.md`, `Techo`.
 - Alguien puede decir que está mal → `../../../S.A.R.A/mundo.md`, `La pregunta`.
-- Hay que decidir si se retiene o se descarta → `../Proceso de fricción.md`, fricción de opinión.
+- Hay que decidir si se retiene o se descarta → `../mutaciones/friccion.md`, fricción de opinión.
 - Falta saber de dónde viene la afirmación → `../../S.A.R.A/punto-de-partida/evidencia/nivel-de-fuente.md`.
 - En cualquier otro caso → se entrega y se cierra.

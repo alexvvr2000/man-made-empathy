@@ -3,12 +3,12 @@
 **Unidad:** tarea.
 **Aplica a:** deducir.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** 1 de 3. Produce procesos a partir de lo observable.
+**Nivel:** primitivo. Uno de los cinco de `Ouroboros`. Produce procesos a partir de lo observable.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+**Manipulación.** Todo cambio a un proceso pasa por `./primitivos/manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
@@ -63,7 +63,7 @@ Un proceso deducido que produce un efecto que el otro lado no puede reconstruir 
 
 ## Admisión
 
-El proceso deducido entra si su salida cambia una decisión en el uso vigente, o si declara `Plazo` y `Criterio`. Rige `./Proceso de claridad.md` `1.12`.
+El proceso deducido entra si su salida cambia una decisión en el uso vigente, o si declara `Plazo` y `Criterio`. Rige `./primitivos/claridad.md` `1.12`.
 
 Sin Falsificador no entra: un proceso sin el caso que lo incumple es una opinión.
 

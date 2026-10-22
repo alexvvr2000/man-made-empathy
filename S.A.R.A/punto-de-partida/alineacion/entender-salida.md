@@ -1,5 +1,9 @@
 # Proceso de entender salida
 
+**Variables:** salida · comprensión · compuerta · autoridad
+**Peor:** se aprueba algo que la autoridad no comprende y nadie puede notarlo hasta que se ejecutó
+**Quién:** la autoridad, o `ninguno` si nadie va a aprobar
+
 **Unidad:** proceso.
 **Aplica a:** entender.
 **Vigencia:** 2026-10-21.

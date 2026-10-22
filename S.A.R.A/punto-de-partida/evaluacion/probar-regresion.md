@@ -1,5 +1,9 @@
 # Proceso de probar regresión
 
+**Variables:** lo que servía · prueba · cobertura · rotura
+**Peor:** algo que servía se rompe y nadie lo nota porque nadie lo probó
+**Quién:** quien dependía de lo que se rompió
+
 **Unidad:** proceso.
 **Aplica a:** probar.
 **Vigencia:** 2026-10-21.

@@ -1,5 +1,9 @@
 # Proceso de identificar partes
 
+**Variables:** decisión · partes afectadas · poder · legitimidad · urgencia
+**Peor:** una parte afectada no queda en la lista y decide sola la que la afecta
+**Quién:** la parte que no reclama, y quien habla por ella
+
 **Unidad:** proceso.
 **Aplica a:** identificar.
 **Vigencia:** 2026-10-21.

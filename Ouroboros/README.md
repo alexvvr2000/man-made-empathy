@@ -1,38 +1,62 @@
 # Ouroboros
 
-**Qué es:** el lenguaje de procesos de esta base. Cinco procesos primitivos y dos derivados, con la misma forma, que se componen entre sí.
+**Qué es:** el lenguaje de procesos de esta base. Cinco primitivos y dos mutaciones, con la misma forma, que se componen entre sí.
 
-**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `./Proceso de manipulacion de procesos.md`.
+**Deterrente:** `./deterrente.md`. Sin él, un archivo del nivel no puede justificarse: es un fantasma.
+
+**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `./primitivos/manipulacion.md`.
 
 **Por qué es un lenguaje y no un catálogo:** porque los procesos se aplican uno sobre otro, y aplicar es un proceso, no una tabla.
 
-## Los procesos
+## El árbol
 
-| Proceso | Qué hace | Nivel |
+El nombre lo da la carpeta. **Lo que está dentro ya se sabe que es un proceso: no se repite en cada archivo.**
+
+```
+Ouroboros/
+├── deterrente.md              el de este nivel
+├── integridad.md              el único que no produce: chequea
+├── primitivos/
+│   ├── manipulacion.md        produce, calibra, reemplaza, retira
+│   ├── aplicar.md             ejecuta un proceso sobre una entrada
+│   ├── mutacion.md            transforma y deja rastro
+│   ├── claridad.md            la fuente de la que se muta
+│   └── ingenieria-inversa.md  deduce de lo observable
+├── mutaciones/
+│   ├── friccion.md            nace de claridad
+│   └── sesgo-declarado.md     nace de claridad
+└── README.md
+```
+
+**Cuatro carpetas y ninguna es una clasificación.** `primitivos/` y `mutaciones/` dicen **de dónde vino** cada proceso; `integridad.md` está suelto porque es el único que chequea. **Si mañana hay otro que chequee, va al lado: sin abrir carpeta nueva.**
+
+## Los cinco primitivos
+
+| Primitivo | Qué hace | Se rompe así |
 |---|---|---|
-| `Proceso de manipulacion de procesos.md` | produce y reemplaza procesos | primitivo |
-| `Proceso de ingeniería inversa.md` | deduce un proceso de lo observable | primitivo |
-| `Proceso de aplicar.md` | ejecuta un proceso sobre una entrada | primitivo |
-| `Proceso de mutación.md` | cambia un proceso, con rastro | primitivo |
-| `Proceso de claridad.md` | da forma a lo que se lee o se ejecuta | primitivo |
-| `Proceso de fricción.md` | hace que la decisión pase por el que la toma, antes de mover algo | derivado |
-| `Proceso de sesgo declarado.md` | declara desde dónde se mira, para que lo nuevo no muera clasificado como error | derivado |
-| `Proceso de integridad de procesos.md` | **nivel 0**: chequea contradicción, disfrazada, huérfano e implícito | chequeo |
+| `manipulacion` | produce, calibra, reemplaza y retira | se crea sin variables |
+| `aplicar` | ejecuta un proceso sobre una entrada | se aplica sin que la entrada corresponda |
+| `mutacion` | transforma y declara qué conserva | se muta sin declarar qué se conserva |
+| `claridad` | la fuente de la que se muta | la forma no llega al lector |
+| `ingenieria-inversa` | deduce de lo observable | no reproduce el resultado |
 
-**Cinco primitivos:** creación, ingeniería inversa, aplicar, mutación y claridad. Ninguno se deriva de otro, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie; uno de veinte no se recuerda.
+**Cinco primitivos:** ninguno se deriva de otro, y es a propósito. Se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie; uno de veinte no se recuerda.
 
-**La fricción y el sesgo no son primitivos.** Se derivan de los cinco. La fricción es `claridad` aplicada al momento de decidir: existe porque los cinco dicen cómo se hace algo, y ninguno dice **si la decisión pasó por quien la tomó**. El sesgo es `claridad` aplicada a la mirada: existe porque los cinco producen, y ninguno dice **desde dónde se está produciendo.**
+## Las dos mutaciones
+
+**`friccion` y `sesgo-declarado` no son primitivos: son mutaciones de `claridad`.** Las dos nacieron de la misma pregunta —*¿el otro puede reconstruir esto?*— y declaran qué conservan de él.
+
+Una mutación nueva puede nacer de **n primitivos**, no de uno. **Las piezas se combinan, no se escalan.**
 
 ## Composición
 
-Un proceso compone con otro cuando su salida es la entrada del otro sin traducción. La composición la comprueba `./Proceso de aplicar.md`; no se declara en una tabla sin ejecutarse.
+Un proceso compone con otro cuando su salida es la entrada del otro sin traducción. La composición la comprueba `./primitivos/aplicar.md`; no se declara en una tabla sin ejecutarse.
 
 | De | A | Qué pasa |
 |---|---|---|
 | ingeniería inversa | aplicar | el proceso deducido se ejecuta sobre un caso |
 | aplicar | claridad | lo que produce se escribe con su forma |
-| claridad | ATLAS | lo que se lee se comunica (`../corpus/ATLAS/`, estándar, no primitivo) |
-| ATLAS | ingeniería inversa | lo que se entendió se vuelve observable (`../corpus/ATLAS/`) |
+| claridad | ATLAS | lo que se lee se comunica (`../corpus/ATLAS/`, estándar) |
 | mutación | cualquiera | vuelve sobre los demás y deja rastro |
 
 **La mutación es la arista de retorno.** Es lo que hace que el nombre tenga sentido: el proceso que vuelve sobre los procesos.
@@ -41,29 +65,8 @@ Un proceso compone con otro cuando su salida es la entrada del otro sin traducci
 
 Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurrió. El rastro vive en `../corpus/ATLAS/indice de formas.md`, no en un relato.
 
-## Qué hay en esta carpeta
-
-Cada proceso con su forma y su función.
-
-| Archivo | Qué hace |
-|---|---|
-| `Proceso de manipulacion de procesos.md` | Produce procesos: qué entra, qué produce, cómo se verifica. |
-| `Proceso de ingeniería inversa.md` | Deduce un proceso de lo observable, por tendencia y no por copia. |
-| `Proceso de aplicar.md` | Ejecuta un proceso y comprueba la composición. |
-| `Proceso de mutación.md` | Cambia un proceso y deja el rastro. |
-| `Proceso de claridad.md` | La forma de lo que se lee o se ejecuta. |
-| `Proceso de fricción.md` | Hace que la decisión pase por el que la toma: cuerpo, inacción, gente, opinión. |
-| `Proceso de sesgo declarado.md` | Declara el sesgo como mapa, no como pared: lo que no se ve, y quién puede verlo. |
-| `Proceso de integridad de procesos.md` | Nivel 0. Doble barrida: contradicción, sub-tarea disfrazada, huérfano e implícito. |
-
 ## Abstracciones
 
 Sobre estos procesos se construyen otros. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
 
-`../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
-
-`../S.A.R.A/aprendizaje/` es otra: el ciclo que corrige desde la experiencia y propone lo siguiente. No cubre fallos; mira lo que ya se hizo.
-
-
-> Si tuviera un límite, la mutación ya se hubiera curado el cáncer hace mucho.
-
+`../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./primitivos/ingenieria-inversa.md`.

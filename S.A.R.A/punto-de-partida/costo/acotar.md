@@ -1,5 +1,9 @@
 # Proceso de acotar costo
 
+**Variables:** efecto · coste · techo · cierre
+**Peor:** se mide el efecto sin techo y el gasto aparece cuando ya se comprometió
+**Quién:** quien paga el techo, o `ninguno` si no hay techo
+
 **Unidad:** proceso.
 **Aplica a:** acotar.
 **Vigencia:** 2026-10-21.

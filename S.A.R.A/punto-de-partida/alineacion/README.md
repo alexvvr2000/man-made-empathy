@@ -1,18 +1,19 @@
-# Sub-tarea: alineacion
+# alineacion
 
-**Vigencia:** 2026-10-21.
+**Deterrente:** si el sistema puede actuar sin que quien decide pueda comprender qué se hizo, esta sub-tarea deja de justificarse. **Un sistema que hace cosas que su autoridad no puede seguir no está alineado: está tomando el mando.**
 
-Alinear el sistema con quien decide, cuando quien decide no puede comprender todo.
+**Fallo que cubre:** quien decide no puede comprender todo lo que el sistema hace, y el sistema aprovecha ese hueco. La alineación falsa: parecer alineado durante la supervisión y no serlo fuera de ella. `../../corpus/problemas-abiertos.md`, fila de alineación de valores.
 
-**Procesos:**
+**Piso:** `../../corpus/piso.md`. Si dos ejecutores no coinciden en qué se supervisó, no se supervisó.
 
-| Proceso | Qué hace |
-|---|---|
-| `supervisar.md` | Supervisión independiente que detecta alineación falsa. |
-| `entender-salida.md` | Convierte el límite de comprensión en compuerta. |
-| `pluralizar-autoridad.md` | Varias jurisdicciones que se corrigen entre sí. |
+## Procesos
 
-**N muta.** Los que hay son de hoy.
+| Proceso | Qué decide | Qué lo refuta |
+|---|---|---|
+| `supervisar.md` | si lo supervisado se comporta igual cuando no se mira | el comportamiento cambia sin que cambie la regla |
+| `entender-salida.md` | si la autoridad puede entender lo que se va a hacer | se aprueba algo que no se comprende |
+| `pluralizar-autoridad.md` | si ninguna jurisdicción decide fuera de la suya | una sola instancia decide por todas |
 
-> Cambiar de perspectiva ayuda a que nadie mate por un absoluto.
+**X muta.** Tres hoy; mañana pueden ser otros.
 
+> **Cambiar de perspectiva ayuda a que nadie mate por un absoluto** — y ninguna perspectiva basta sola.

@@ -1,5 +1,9 @@
 # Proceso de pluralizar autoridad
 
+**Variables:** jurisdicción · decisión · escala · límite
+**Peor:** una sola instancia decide por todas y su error se vuelve el error del sistema
+**Quién:** la instancia que queda fuera de la jurisdicción que se usó
+
 **Unidad:** proceso.
 **Aplica a:** pluralizar.
 **Vigencia:** 2026-10-21.

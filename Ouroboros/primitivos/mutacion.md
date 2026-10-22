@@ -3,19 +3,19 @@
 **Unidad:** proceso. Lo que se transforma es el proceso, no la tarea.
 **Aplica a:** mutar.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los seis de `Ouroboros`.
+**Nivel:** primitivo. Uno de los cinco de `Ouroboros`.
 **Alcance:** toda transformación de un proceso desde un estado inicial.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Primitivo.** Vuelve sobre cualquiera de los otros cinco procesos: los puede rehacer, retirar o reemplazar. Es la arista de retorno del lenguaje.
+**Primitivo.** Vuelve sobre cualquiera de los otros primitivos: los puede rehacer, retirar o reemplazar. Es la arista de retorno del lenguaje.
 **Trazabilidad.** Es el proceso que registra todo cambio de los otros cinco: origen, cambio declarado y responsable. Sin él, un proceso cambia y nadie puede reconstruir por qué.
-**Forma.** `Entra | Falla | Sale | Consume`. Rige `./Proceso de manipulacion de procesos.md`, `Pregunta de entrada`.
-**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+**Forma.** `Entra | Falla | Sale | Consume`. Rige `./primitivos/manipulacion.md`, `Pregunta de entrada`.
+**Manipulación.** Todo cambio a un proceso pasa por `./primitivos/manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
-Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `./Proceso de manipulacion de procesos.md`, `Lo que funciona ya está viejo`.
+Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `./primitivos/manipulacion.md`, `Lo que funciona ya está viejo`.
 
 Lo que cambia siempre no es el resultado del proceso: es **el conjunto de procesos que lo produce**. Golpear mutó: hoy neutralizar es más pesado y a veces no usa manos. Cambió el proceso, no el fin.
 
@@ -45,7 +45,7 @@ El fin no muta al mismo ritmo que el proceso. Un proceso puede reemplazarse ente
 `Fin: [qué se persigue] | Cambia: [sí|no] | Si cambia: [por qué]`
 
 
-**Mutar tareas** es una abstracción sobre este proceso, no este proceso. Una tarea es la abstracción que se apoya en los seis primitivos; el primitivo muta procesos.
+**Mutar tareas** es una abstracción sobre este proceso, no este proceso. Una tarea es la abstracción que se apoya en los cinco primitivos; el primitivo muta procesos.
 
 ## Pregunta de entrada
 

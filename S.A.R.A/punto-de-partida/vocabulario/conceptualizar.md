@@ -1,5 +1,9 @@
 # Proceso de conceptualizar
 
+**Variables:** término · origen · sinónimo · colisión
+**Peor:** el término se usa sin fila y después no se sabe de dónde vino
+**Quién:** quien lee el término y no encuentra su origen
+
 **Unidad:** proceso.
 **Aplica a:** conceptualizar.
 **Vigencia:** 2026-10-21.

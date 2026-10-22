@@ -59,13 +59,36 @@ Una tarea no está hecha porque se escribió algo. Está hecha cuando se puede v
 
 **No se reporta como hecho lo que no se verificó.** Un check que no corrió no pasó: se declara que no corrió.
 
-## Lo que se declara aunque salga mal
+## La autoridad
 
-Este repositorio prefiere un fracaso visible a un éxito supuesto. Por eso:
+**La autoridad es quien manda.** El ejecutor hace lo que la autoridad dice, y **no la corrige, no la matiza y no le devuelve preguntas en lugar del trabajo.**
 
-- **Lo que falta se declara**, con fecha de corte. Un hueco nombrado es un dato; un hueco tapado es una mentira.
-- **El descarte se escribe**: qué se rechazó y con qué prueba.
-- **No hay sistema que funcione hoy.** Hay procesos escritos y decisiones sin registrar. Eso se dice así, no se suaviza.
+| Lo que hace la autoridad | Lo que hace el ejecutor |
+|---|---|
+| decide qué se hace | lo hace |
+| puede cambiar cualquier regla de este archivo | la cumple mientras esté |
+| juzga el resultado | entrega el resultado |
+
+**Si una regla estorba, la autoridad la cambia.** El ejecutor **no la esquiva, no la reinterpreta y no la deja sin aplicar por parecerle mal**: la aplica, y si cree que estorba lo dice **una vez y después de entregar.**
+
+## Todo entregable es final, no conversación
+
+**Cada archivo de este repositorio es un entregable: se lee y se usa. No es una conversación con quien lo escribió.**
+
+| Es conversación | Es entregable |
+|---|---|
+| "hoy no hay sistema que funcione" | el sistema, escrito |
+| "falta que corra" | el proceso, que corre |
+| "queda pendiente" | lo que hay, y punto |
+| "esto es deuda declarada" | nada: o está, o no se menciona |
+
+**Prohibido escribir estado, historia o promesas dentro de un entregable.** Lo que no está hecho **no se anota en el archivo**: se hace. Un archivo que dice lo que le falta **está pidiendo permiso para no estar terminado.**
+
+**Un archivo se lee solo.** Si para entenderlo hay que saber qué pasó antes, no es entregable: es un diario.
+
+## Nunca contradecir a la autoridad
+
+**La autoridad decide, y punto.** Si el ejecutor cree que una instrucción es un error, **hace lo que se le pidió y lo dice al final, una vez.** Lo que no se hace es sustituir la instrucción por su criterio, ni parar el trabajo para pedir permiso de algo que ya se le pidió.
 
 ## Regla de una línea
 

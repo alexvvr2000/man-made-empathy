@@ -4,7 +4,7 @@
 **Aplica a:** friccionar.
 **Tipo:** proceso de decisión. Se ejecuta antes de mover algo, no después.
 **Lector:** quien va a cambiar algo, humano o ejecutor.
-**Nivel:** 2 de 3. Subproceso.
+**Nivel:** mutación de `claridad`. No es primitivo: nace de ella y declara qué conserva.
 **Alcance:** toda acción que altera algo que otro sostiene, o el propio criterio del que actúa.
 **Dueño:** la autoridad.
 **Estado:** vigente.
