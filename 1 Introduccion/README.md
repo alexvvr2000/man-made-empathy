@@ -2,7 +2,9 @@
 
 **Qué es:** el lenguaje de procesos de esta base. Cinco primitivos y dos mutaciones, con la misma forma, que se componen entre sí.
 
-**Deterrente:** `./deterrente.md`. Sin él, un archivo del nivel no puede justificarse: es un fantasma.
+**Deterrente:** `./deterrente.md`. Enruta subprocesos: sin él, un subproceso no sabe cuándo se carga, y una puerta abierta pierde el rastro de por qué se hizo algo.
+
+**Piso:** `./piso.md`. Rige `../corpus/piso.md`.
 
 **Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `./primitivos/manipulacion.md`.
 
@@ -14,16 +16,16 @@ El nombre lo da la carpeta. **Lo que está dentro ya se sabe que es un proceso: 
 
 ```
 Ouroboros/
-├── deterrente.md              el de este nivel
-├── integridad.md              el único que no produce: chequea
-├── primitivos/
-│   ├── manipulacion.md        produce, calibra, reemplaza, retira
-│   ├── aplicar.md             ejecuta un proceso sobre una entrada
-│   ├── mutacion.md            transforma y deja rastro
-│   ├── claridad.md            la fuente de la que se muta
+─── deterrente.md              el de este nivel
+─── integridad.md              el único que no produce: chequea
+─── primitivos/
+│   ─── manipulacion.md        produce, calibra, reemplaza, retira
+│   ─── aplicar.md             ejecuta un proceso sobre una entrada
+│   ─── mutacion.md            transforma y deja rastro
+│   ─── claridad.md            la fuente de la que se muta
 │   └── ingenieria-inversa.md  deduce de lo observable
-├── mutaciones/
-│   ├── friccion.md            nace de claridad
+─── mutaciones/
+│   ─── friccion.md            nace de claridad
 │   └── sesgo-declarado.md     nace de claridad
 └── README.md
 ```

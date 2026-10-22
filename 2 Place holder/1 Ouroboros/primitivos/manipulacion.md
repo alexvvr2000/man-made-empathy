@@ -1,7 +1,7 @@
 # Proceso de manipulacion de procesos
 
 **Unidad:** proceso.
-**Aplica a:** manipular procesos.
+**Aplica a:** manipular procesos: crear, calibrar, reemplazar y retirar.
 **Reemplaza:** `Proceso de creación de procesos`. El nombre viejo ya no era exacto: el proceso no solo crea, también reemplaza, calibra y retira. Manipular incluye las cuatro.
 **Tipo:** proceso. Se ejecuta, no se interpreta.
 **Lector:** quien produce procesos y quien los ejecuta.
@@ -49,6 +49,13 @@ Un proceso no se defiende por antigüedad. Si funciona, es candidato a reemplazo
 **Prueba:** ¿el reemplazo conserva el servicio y mejora el cómputo?
 **Falsificador:** un proceso que se protege por haber nacido primero; un reemplazo que pierde lo que servía.
 
+## Entra | Falla | Sale | Consume
+
+- **Entra:** qué se quiere producir o cambiar, y qué falla hoy.
+- **Falla:** se crea sin falla nombrada; se crea sin variables; se salta la fricción; se acuña sin Reemplaza:; se retira sin declarar el fin que cubría.
+- **Sale:** el proceso creado, calibrado, reemplazado o retirado, con su nombre acuñado y su rastro.
+- **Consume:** quien va a usar el proceso. **Recibe el proceso, no la intención.**
+
 ## Pregunta de entrada
 
 Todo proceso se contesta antes de escribirse.
@@ -67,6 +74,7 @@ Todo proceso se contesta antes de escribirse.
 5. **Escribir desde el caso.** Primero el falsificador, después la Prueba, después el enunciado.
 6. **Verificar con la pregunta de entrada.** Si no cabe en `Entra | Falla | Sale | Consume`, no se produce.
 7. **Medir la salida.** El proceso nuevo se juzga por lo que su salida cambió en el uso, no por existir.
+8. **Retirar cuando el fin desaparece.** Si el fin que el proceso cubría dejó de existir, el cierre es un retiro: rige `./retiro.md`.
 
 **Prohibido** ejecutar el paso N+1 sin la salida del N.
 

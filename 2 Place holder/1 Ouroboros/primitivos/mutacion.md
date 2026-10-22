@@ -38,6 +38,38 @@ Un proceso no muta solo. El conjunto que lo contiene también muta: se quitan un
 **Prueba:** ¿el conjunto nuevo cubre el fin que el viejo cubría? ¿Se declaró qué se quitó y qué se puso?
 **Falsificador:** un conjunto que solo crece; un proceso nuevo que copia la forma del viejo para seguir la línea; un proceso retirado sin declarar su reemplazo; un conjunto que cubre menos fin que antes.
 
+## El nombre muta con la cosa
+
+**Una mutación no cambia solo el contenido: cambia el nombre y el lugar.**
+
+Si el nombre sobrevive a la mutación, **no hubo mutación: hubo edición.** Un nombre viejo sobre un cuerpo nuevo es una etiqueta que miente — y la etiqueta es lo único que el lector tiene para orientarse.
+
+**Enunciado:** toda mutación acuña un nombre nuevo para lo que cambia, y declara su lugar nuevo si lo tiene.
+
+| Qué muta | Qué cambia con ella |
+|---|---|
+| **un proceso** | su nombre, en su `Acta` |
+| **una sub-tarea** | su nombre de carpeta, y el `Deterrente` que lo justificaba |
+| **una tarea** | su `Acta` y su `deterrente.md` |
+| **una rama** | el nombre de la rama, no el del tronco |
+
+**El nombre se lee como nombre propio y la expansión dice qué significa.** Un acrónimo que solo se puede leer deletreando no es un nombre: es una etiqueta.
+
+**`Reemplaza:` apunta al nombre anterior.** El anterior no se borra: se sustituye, y la razón se declara. **Sin `Reemplaza:` no hay cadena, y sin cadena el nombre nuevo no se distingue de un invento.**
+
+**Sin cambio, no hay acuñación.** Una mutación que no cambió nada acuña igual, pero su `Muta:` declara el estado: *"sin cambio"*. Lo que no se permite es acuñar como si hubiera habido un cambio.
+
+**La forma del nombre se cita, no se redefine:** rige `../../../corpus/formato.md`, `La acuñación`. Aquí solo se declara **qué muta además del nombre** —el lugar.
+
+```
+Lugar: [carpeta nueva o NINGUNO] | Reemplaza: [nombre anterior o NINGUNA]
+```
+
+**Prueba:** ¿la mutación acuñó nombre? ¿`Reemplaza:` apunta al anterior? ¿Si cambió de nivel, cambió de carpeta?
+**Falsificador:** un nombre que sirve para dos versiones distintas; una acuñación sin `Reemplaza:`; una sub-tarea que muta y conserva el nombre de carpeta; un proceso que cambia y no cambia de nombre; un proceso que copia la forma de la acuñación en vez de citarla.
+
+**Sin reemplazo, no hay mutación: hay retiro.** Cuando el fin dejó de existir y no entra nada en su lugar, el proceso no se muta: se retira. Rige `./retiro.md`.
+
 ## Lo que no cambia
 
 El fin no muta al mismo ritmo que el proceso. Un proceso puede reemplazarse entero y el fin seguir siendo el mismo. Si el fin cambia, eso no es mutación de la serie: es una mutación del fin, y se declara como tal.
@@ -101,27 +133,22 @@ El fin no muta al mismo ritmo que el proceso. Un proceso puede reemplazarse ente
 
 ## Acta de creación
 
-La forma del artefacto nuevo. No es implementación: es el registro que la implementación produce.
+**La forma se cita, no se redefine:** rige `../../../corpus/formato.md`, `La acuñación`. Aquí solo se declara **lo que la creación agrega**.
 
 ```
-Acta: [id] | Nombre: [nombre] | Expansión: [significado] | Origen: [fuente|predecesor|ejecutor:<id>] | Fecha: [ISO]
-Encargo: [frase exacta] | Fin: [estado observable]
-Muta: [qué cambia] | Conserva: [qué no] | Ausencias: [qué no tiene] | Prueba: [corrida|no corrida|pendiente]
-Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [id o NINGUNA]
+Origen: [fuente|predecesor|ejecutor:<id>] | Reemplaza: [id o NINGUNA]
 ```
 
-- **Nombre y expansión.** El nombre se lee como nombre propio; la expansión dice qué significa.
-- **Origen.** Fuente, predecesor o ejecutor; sin origen no hay creación.
+- **Origen.** Fuente, predecesor o ejecutor; **sin origen no hay creación**.
 - **Encargo y fin.** La frase exacta y el estado observable; no se interpreta.
-- **Muta y conserva.** Lo no declarado se conserva.
-- **Ausencias.** Lo que no tiene se declara; no se simula.
+- **Muta y conserva.** Lo no declarado se conserva: rige `Sin herencia`, arriba.
 - **Prueba.** Corrida, no corrida o pendiente; la no corrida se declara.
 - **Autoridad y costo.** Quién autoriza y quién asume el costo.
 
-El subproceso la cita en su `Crear`; no la absorbe.
+**El subproceso la cita en su `Crear`; no la absorbe.**
 
-**Prueba:** ¿el acta declara nombre, origen, encargo, mutado, conservado, ausencias y prueba?
-**Falsificador:** se crea sin acta; el acta no declara ausencias; la prueba se declara corrida sin recibo.
+**Prueba:** ¿el acta cita la forma y declara origen, encargo, mutado, conservado, ausencias y prueba?
+**Falsificador:** se crea sin acta; el acta no declara ausencias; la prueba se declara corrida sin recibo; el acta copia la forma en vez de citarla.
 
 ## Ancla
 

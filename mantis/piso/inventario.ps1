@@ -31,11 +31,11 @@ $estandar = Get-Content $Formato -Raw -Encoding utf8
 
 # La tabla de campos del estandar: | `Campo` | ... | `forma` |
 # Se extraen los nombres de campo de la primera columna de la seccion "Los campos".
-$seccion = ($estandar -split '(?m)^## ' | Where-Object { $_ -match '^Los campos' })
+$seccion = ($estandar -split '(?m)^## ' | Where-Object { $_ -match '^La forma del proceso' -or $_ -match '^Los campos' })
 if (-not $seccion) {
   Write-Output "INVENTARIO"
   Write-Output "VEREDICTO: indeterminado"
-  Write-Output "MOTIVO: el formato no tiene la seccion 'Los campos'"
+  Write-Output "MOTIVO: el formato no tiene la seccion de campos"
   exit 0
 }
 

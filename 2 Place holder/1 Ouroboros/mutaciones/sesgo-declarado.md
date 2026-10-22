@@ -116,7 +116,7 @@ Decisión: [retener|revisar|descartar] | Falta mirar desde: [quién|nadie]
 
 ## Prueba
 
-¿La idea llega a alguien con forma? ¿El sesgo está declarado, con lo que da por sabido? ¿La perspectiva puede contradecir? ¿La regla que rompe está nombrada?
+**Prueba:** ¿La idea llega a alguien con forma? ¿El sesgo está declarado, con lo que da por sabido? ¿La perspectiva puede contradecir? ¿La regla que rompe está nombrada?
 
 **Falsificador:** la idea se descarta por no caber y sin nombrar la regla; el sesgo se oculta o se presenta como neutralidad; la perspectiva confirma y se cuenta como mirada; se decide como si no faltara nadie.
 

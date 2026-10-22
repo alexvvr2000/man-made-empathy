@@ -82,6 +82,7 @@ Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.
 
 - Si el proceso produce su salida → se entrega, o se encadena al siguiente.
 - Si la entrada no corresponde → `[VACÍO - SIN ENTRADA]`.
+- Si la acción es irreversible y la decisión no pasó por quien la toma → `../mutaciones/friccion.md`, y no se aplica.
 - Si la salida no tiene la forma declarada → la aplicación falló y se registra en `./ATLAS/indice de formas.md`.
 - Si la cadena se detiene en un eslabón → se declara la salida parcial.
 - En cualquier otro caso → se entrega y se cierra.

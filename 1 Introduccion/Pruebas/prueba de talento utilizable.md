@@ -60,16 +60,9 @@ No por gusto: por **estabilidad**.
 
 ## La acuñación de la rama
 
-Cada corrida acuña el nombre de su rama. Reusa la forma de `../../Ouroboros/primitivos/mutacion.md`, `Acta`:
+Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../../corpus/formato.md`, `La acuñación`. Aquí solo se declara **cuándo**: al cerrar cada posición.
 
-```
-Acta: [id] | Nombre: [rama] | Expansión: [significado] | Origen: [corrida] | Fecha: [ISO]
-Encargo: [qué tarea] | Fin: [posición observable]
-Muta: [qué cambió] | Conserva: [qué aguantó] | Ausencias: [qué no se pudo ver] | Prueba: [corrida|no corrida|pendiente]
-Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [rama anterior o NINGUNA]
-```
-
-**El nombre se lee como nombre propio.** Una rama sin nombre no existe en la conversación, y lo que no existe ahí desaparece.
+**Una rama sin nombre no existe en la conversación, y lo que no existe ahí desaparece.**
 
 ## La nota: la prueba bifurca
 
