@@ -15,7 +15,7 @@ Este archivo dice **la forma de los tres niveles y qué formas son legítimas.**
 
 **Las tres formas están abajo, en el orden en que se leen:** la tarea, la sub-tarea y el proceso.
 
-**Rige el formato, no el contenido.** Un proceso con los campos escritos puede no decir qué decide; eso lo dice `../2 Ouroboros/2 S.A.R.A/integridad.md`, `La verbalización`.
+**Rige el formato, no el contenido.** Un proceso con los campos escritos puede no decir qué decide; eso lo dice `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`, `La verbalización`.
 
 ## La tarea
 
@@ -91,7 +91,7 @@ Un proceso lleva **variables arriba** y **el bloque de entrada**. Los dos se lee
 | `Prueba` | cómo se comprueba que cumplió | `**Prueba:** ...` o `## Prueba` |
 | `Falsificador` | qué lo refuta | `**Falsificador:** ...` o `## Falsificador` |
 
-**Las tres variables van arriba del primer campo**, como línea propia. Sin ellas no hay contra qué chequearlo cuando falla: rige `../2 Ouroboros/1 Guantelete/primitivos/manipulacion.md`, `Las variables`.
+**Las tres variables van arriba del primer campo**, como línea propia. Sin ellas no hay contra qué chequearlo cuando falla: rige `../2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`, `Las variables`.
 
 ```
 **Variables:** variable1 · variable2 · variable3
@@ -114,7 +114,7 @@ Un proceso lleva **variables arriba** y **el bloque de entrada**. Los dos se lee
 
 **Las dos formas de `Prueba` y `Falsificador` son legítimas.** Una unidad puede escribir varias normas y cada una con su prueba en línea; otra puede escribir la prueba una vez, como sección. **Ninguna es mejor y ninguna se convierte a la otra.**
 
-**Lo que no es opcional:** sin `Falsificador` el proceso es una opinión, y no entra. Rige `../2 Ouroboros/1 Guantelete/primitivos/manipulacion.md`, `Admisión`.
+**Lo que no es opcional:** sin `Falsificador` el proceso es una opinión, y no entra. Rige `../2 Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`, `Admisión`.
 
 ## Unidad y proceso
 
@@ -156,14 +156,14 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 **El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. **Sin `Reemplaza:` no hay cadena**, y un nombre nuevo sin cadena no se distingue de un invento.
 
-**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `../2 Ouroboros/1 Guantelete/primitivos/mutacion.md` y `../2 Ouroboros/2 S.A.R.A/integridad.md` la citan y solo añaden cuándo.
+**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutacion.md` y `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md` la citan y solo añaden cuándo.
 
 **Prueba:** ¿la pieza acuñada tiene nombre, expansión, `Muta`, `Conserva`, `Ausencias` y `Reemplaza`? ¿El nombre se lee como nombre propio?
 **Falsificador:** un nombre que sirve para dos versiones; una acuñación sin `Reemplaza:`; una expansión que deletrea el acrónimo; un `Muta:` que dice «varios» sin nombrar ninguno; un proceso que redefine esta forma en vez de citarla.
 
 ## Cómo lee el ejecutor
 
-1. **¿Es una tarea?** Tiene `deterrente.md` y sub-tareas. Se lee como tarea.
+1. **¿Es una tarea?** Tiene `carga.md` y sub-tareas. Se lee como tarea.
 2. **¿Es una sub-tarea?** Es una carpeta con `README.md` y procesos dentro. Se lee como sub-tarea, y su `README.md` tiene los cuatro campos.
 3. **¿Es un proceso?** No es `README.md`, ni índice, ni deterrente, ni formato. Se lee como proceso, y lleva `Variables`, `Peor`, `Quién`, el bloque de entrada y su `Acta`.
 4. **Si falta algo, se nombra qué.** No se adivina.
@@ -172,7 +172,7 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 ## Lo que este formato no hace
 
-No juzga si la pieza sirve. **Un proceso puede tener todos los campos y ser inútil; una sub-tarea puede tener deterrente y no cubrir nada.** Eso lo dice `../2 Ouroboros/2 S.A.R.A/integridad.md`.
+No juzga si la pieza sirve. **Un proceso puede tener todos los campos y ser inútil; una sub-tarea puede tener deterrente y no cubrir nada.** Eso lo dice `../2 Ouroboros/2 S.A.R.A — mutación/integridad.md`.
 
 No dice cuántas sub-tareas ni cuántos procesos hay. **Eso lo dice cada instancia, y muta.**
 

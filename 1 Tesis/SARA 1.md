@@ -2,7 +2,7 @@
 
 **Subproceso Autónomo de Reconstrucción de Abstracciones.**
 
-**Deterrente:** `./deterrente.md`. Sin él, S.A.R.A es una carpeta que se mantiene porque está.
+**Deterrente:** `./carga.md`. Sin él, S.A.R.A es una carpeta que se mantiene porque está.
 
 Es la versión atemporal del agente. No pertenece a una era: sus procesos se pueden pulir con Ouroboros y, al pulirse, la implementación mejora sin reescribir el agente.
 

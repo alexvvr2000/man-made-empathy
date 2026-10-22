@@ -5,10 +5,6 @@
 **Vigencia:** 2026-10-21.
 **Estado:** vigente.
 
-## Qué resuelve
-
-El esquema de fila define los campos del registro y nadie los comprueba. Una base sin verificación es un formulario, no un registro.
-
 ## Pregunta de entrada
 
 `Entra | Falla | Sale | Consume`

@@ -60,7 +60,7 @@ No por gusto: por **estabilidad**.
 
 ## La acuñación de la rama
 
-Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../../corpus/formato.md`, `La acuñación`. Aquí solo se declara **cuándo**: al cerrar cada posición.
+Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../../corpus/formato de proceso.md`, `La acuñación`. Aquí solo se declara **cuándo**: al cerrar cada posición.
 
 **Una rama sin nombre no existe en la conversación, y lo que no existe ahí desaparece.**
 

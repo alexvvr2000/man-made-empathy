@@ -40,11 +40,12 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 |---|---|---|---|
 | `1 Tesis` | `Conceptos.md` | estandar | 108 |
 | `1 Tesis` | `Derrotero y Carta.md` | estandar | 125 |
+| `1 Tesis` | `desechos del estandar.md` | estandar | 1 |
 | `1 Tesis` | `esquema-de-fila.md` | estandar | 67 |
 | `1 Tesis` | `formato.md` | formato | 183 |
-| `1 Tesis` | `indice.md` | indice | 166 |
+| `1 Tesis` | `indice.md` | indice | 167 |
 | `1 Tesis` | `Inicial.md` | estandar | 104 |
-| `1 Tesis` | `notas.md` | estandar | 84 |
+| `1 Tesis` | `notas.md` | estandar | 100 |
 | `1 Tesis` | `piso.md` | estandar | 88 |
 | `1 Tesis` | `problemas-abiertos.md` | estandar | 95 |
 | `1 Tesis` | `README.md` | puerta | 74 |
@@ -64,90 +65,86 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
-| `2 Ouroboros/1 Guantelete` | `carta.md` | proceso | 93 |
-| `2 Ouroboros/1 Guantelete` | `Derrotero.md` | proceso | 53 |
-| `2 Ouroboros/1 Guantelete` | `deterrente.md` | deterrente | 83 |
-| `2 Ouroboros/1 Guantelete/mutaciones` | `friccion.md` | proceso | 136 |
-| `2 Ouroboros/1 Guantelete/mutaciones` | `README.md` | puerta | 27 |
-| `2 Ouroboros/1 Guantelete/mutaciones` | `sesgo-declarado.md` | proceso | 137 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `aplicar.md` | proceso | 88 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `claridad.md` | proceso | 226 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `ingenieria-inversa.md` | proceso | 76 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `manipulacion.md` | proceso | 196 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `mutacion.md` | proceso | 157 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `README.md` | puerta | 22 |
-| `2 Ouroboros/1 Guantelete/primitivos` | `retiro.md` | proceso | 112 |
-| `2 Ouroboros/2 S.A.R.A` | `carta.md` | proceso | 88 |
-| `2 Ouroboros/2 S.A.R.A` | `criterio.md` | proceso | 109 |
-| `2 Ouroboros/2 S.A.R.A` | `Derrotero.md` | proceso | 63 |
-| `2 Ouroboros/2 S.A.R.A` | `deterrente.md` | deterrente | 59 |
-| `2 Ouroboros/2 S.A.R.A` | `integridad.md` | proceso | 349 |
-| `2 Ouroboros/2 S.A.R.A` | `Proceso PROMETEA.md` | proceso | 84 |
-| `2 Ouroboros/2 S.A.R.A/alineacion` | `entender-salida.md` | proceso | 46 |
-| `2 Ouroboros/2 S.A.R.A/alineacion` | `pluralizar-autoridad.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/alineacion` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/alineacion` | `supervisar.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/aprendizaje` | `aprender.md` | proceso | 85 |
-| `2 Ouroboros/2 S.A.R.A/aprendizaje` | `iniciar.md` | proceso | 77 |
-| `2 Ouroboros/2 S.A.R.A/aprendizaje` | `README.md` | puerta | 23 |
-| `2 Ouroboros/2 S.A.R.A/autoridad-equipo` | `identificar-partes.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/autoridad-equipo` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/autoridad-humanidad` | `dar-voz.md` | proceso | 67 |
-| `2 Ouroboros/2 S.A.R.A/autoridad-humanidad` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/autoridad-yo` | `declarar-interes.md` | proceso | 44 |
-| `2 Ouroboros/2 S.A.R.A/autoridad-yo` | `README.md` | puerta | 17 |
-| `2 Ouroboros/2 S.A.R.A/concordia` | `armonizar.md` | proceso | 45 |
-| `2 Ouroboros/2 S.A.R.A/concordia` | `auditar-dependencia.md` | proceso | 50 |
-| `2 Ouroboros/2 S.A.R.A/concordia` | `componer.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/concordia` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/costo` | `acotar.md` | proceso | 45 |
-| `2 Ouroboros/2 S.A.R.A/costo` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/despliegue` | `desplegar.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/despliegue` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/evaluacion` | `deliberar.md` | proceso | 44 |
-| `2 Ouroboros/2 S.A.R.A/evaluacion` | `evaluar.md` | proceso | 48 |
-| `2 Ouroboros/2 S.A.R.A/evaluacion` | `friccion-en-agente.md` | proceso | 81 |
-| `2 Ouroboros/2 S.A.R.A/evaluacion` | `probar-regresion.md` | proceso | 46 |
-| `2 Ouroboros/2 S.A.R.A/evaluacion` | `README.md` | puerta | 21 |
-| `2 Ouroboros/2 S.A.R.A/evaluacion` | `vigilar-tendencias.md` | proceso | 50 |
-| `2 Ouroboros/2 S.A.R.A/evidencia` | `ayuda-no-pedida.md` | proceso | 130 |
-| `2 Ouroboros/2 S.A.R.A/evidencia` | `costo-del-error.md` | proceso | 87 |
-| `2 Ouroboros/2 S.A.R.A/evidencia` | `nivel-de-fuente.md` | proceso | 86 |
-| `2 Ouroboros/2 S.A.R.A/evidencia` | `peor-caso.md` | proceso | 73 |
-| `2 Ouroboros/2 S.A.R.A/evidencia` | `README.md` | puerta | 21 |
-| `2 Ouroboros/2 S.A.R.A/evidencia` | `trazar.md` | proceso | 39 |
-| `2 Ouroboros/2 S.A.R.A/jorrn` | `declarar-inesperado.md` | proceso | 54 |
-| `2 Ouroboros/2 S.A.R.A/jorrn` | `producir.md` | proceso | 54 |
-| `2 Ouroboros/2 S.A.R.A/jorrn` | `README.md` | puerta | 33 |
-| `2 Ouroboros/2 S.A.R.A/reproduccion` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/reproduccion` | `reproducir.md` | proceso | 46 |
-| `2 Ouroboros/2 S.A.R.A/requisitos` | `especificar.md` | proceso | 51 |
-| `2 Ouroboros/2 S.A.R.A/requisitos` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/requisitos` | `verificar-paso.md` | proceso | 79 |
-| `2 Ouroboros/2 S.A.R.A/requisitos` | `verificar-requisito.md` | proceso | 46 |
-| `2 Ouroboros/2 S.A.R.A/seguridad` | `contener.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/seguridad` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/sesgo` | `auditar-sesgo.md` | proceso | 47 |
-| `2 Ouroboros/2 S.A.R.A/sesgo` | `contradecir.md` | proceso | 90 |
-| `2 Ouroboros/2 S.A.R.A/sesgo` | `README.md` | puerta | 18 |
-| `2 Ouroboros/2 S.A.R.A/versionado` | `README.md` | puerta | 19 |
-| `2 Ouroboros/2 S.A.R.A/versionado` | `versionar.md` | proceso | 45 |
-| `2 Ouroboros/2 S.A.R.A/vocabulario` | `conceptualizar.md` | proceso | 44 |
-| `2 Ouroboros/2 S.A.R.A/vocabulario` | `README.md` | puerta | 19 |
-| `2 Ouroboros/3 ATLAS` | `carta.md` | proceso | 70 |
-| `2 Ouroboros/3 ATLAS` | `Derrotero.md` | proceso | 37 |
-| `2 Ouroboros/3 ATLAS` | `deterrente.md` | deterrente | 68 |
-| `2 Ouroboros/3 ATLAS` | `indice de formas.md` | indice | 65 |
-| `2 Ouroboros/3 ATLAS` | `Proceso ATLAS.md` | proceso | 344 |
-| `2 Ouroboros/3 ATLAS` | `README.md` | puerta | 50 |
-
-### Era/
-
-| Carpeta | Archivo | Clase | Lineas |
-|---|---|---|---|
-| `Era` | `README.md` | puerta | 68 |
-| `Era/A.P.R.I.L` | `README.md` | puerta | 73 |
-| `Era/Expedicion` | `README.md` | puerta | 46 |
+| `2 Ouroboros` | `CRITERIO.md` | proceso | 79 |
+| `2 Ouroboros` | `formato de ente.md` | formato | 72 |
+| `2 Ouroboros` | `formato de proceso.md` | formato | 153 |
+| `2 Ouroboros` | `mutacion.md` | proceso | 83 |
+| `2 Ouroboros` | `piso.md` | proceso | 78 |
+| `2 Ouroboros/1 Guantelete — primitivo` | `carga.md` | proceso | 97 |
+| `2 Ouroboros/1 Guantelete — primitivo` | `rastro.md` | proceso | 105 |
+| `2 Ouroboros/1 Guantelete — primitivo` | `ruta.md` | proceso | 67 |
+| `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `friccion.md` | proceso | 141 |
+| `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `README.md` | puerta | 41 |
+| `2 Ouroboros/1 Guantelete — primitivo/mutaciones` | `sesgo-declarado.md` | proceso | 142 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `aplicar.md` | proceso | 93 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `claridad.md` | proceso | 230 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `ingenieria-inversa.md` | proceso | 81 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `manipulacion.md` | proceso | 196 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `mutacion.md` | proceso | 162 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `README.md` | puerta | 36 |
+| `2 Ouroboros/1 Guantelete — primitivo/primitivos` | `retiro.md` | proceso | 112 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `carga.md` | proceso | 73 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `decisión.md` | proceso | 101 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `integridad.md` | proceso | 349 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `Proceso PROMETEA.md` | proceso | 94 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `rastro.md` | proceso | 104 |
+| `2 Ouroboros/2 S.A.R.A — mutación` | `ruta.md` | proceso | 77 |
+| `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `entender-salida.md` | proceso | 46 |
+| `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `pluralizar-autoridad.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/alineacion` | `supervisar.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/aprendizaje` | `aprender.md` | proceso | 90 |
+| `2 Ouroboros/2 S.A.R.A — mutación/aprendizaje` | `iniciar.md` | proceso | 82 |
+| `2 Ouroboros/2 S.A.R.A — mutación/aprendizaje` | `README.md` | puerta | 36 |
+| `2 Ouroboros/2 S.A.R.A — mutación/autoridad-equipo` | `identificar-partes.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/autoridad-equipo` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/autoridad-humanidad` | `dar-voz.md` | proceso | 67 |
+| `2 Ouroboros/2 S.A.R.A — mutación/autoridad-humanidad` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/autoridad-yo` | `declarar-interes.md` | proceso | 44 |
+| `2 Ouroboros/2 S.A.R.A — mutación/autoridad-yo` | `README.md` | puerta | 31 |
+| `2 Ouroboros/2 S.A.R.A — mutación/concordia` | `armonizar.md` | proceso | 45 |
+| `2 Ouroboros/2 S.A.R.A — mutación/concordia` | `auditar-dependencia.md` | proceso | 50 |
+| `2 Ouroboros/2 S.A.R.A — mutación/concordia` | `componer.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/concordia` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/costo` | `acotar.md` | proceso | 45 |
+| `2 Ouroboros/2 S.A.R.A — mutación/costo` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/despliegue` | `desplegar.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/despliegue` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evaluacion` | `deliberar.md` | proceso | 44 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evaluacion` | `evaluar.md` | proceso | 48 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evaluacion` | `friccion-en-agente.md` | proceso | 81 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evaluacion` | `probar-regresion.md` | proceso | 46 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evaluacion` | `README.md` | puerta | 35 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evaluacion` | `vigilar-tendencias.md` | proceso | 50 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evidencia` | `ayuda-no-pedida.md` | proceso | 130 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evidencia` | `costo-del-error.md` | proceso | 87 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evidencia` | `nivel-de-fuente.md` | proceso | 86 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evidencia` | `peor-caso.md` | proceso | 73 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evidencia` | `README.md` | puerta | 35 |
+| `2 Ouroboros/2 S.A.R.A — mutación/evidencia` | `trazar.md` | proceso | 39 |
+| `2 Ouroboros/2 S.A.R.A — mutación/jorrn` | `declarar-inesperado.md` | proceso | 54 |
+| `2 Ouroboros/2 S.A.R.A — mutación/jorrn` | `producir.md` | proceso | 54 |
+| `2 Ouroboros/2 S.A.R.A — mutación/jorrn` | `README.md` | puerta | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/reproduccion` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/reproduccion` | `reproducir.md` | proceso | 46 |
+| `2 Ouroboros/2 S.A.R.A — mutación/requisitos` | `especificar.md` | proceso | 51 |
+| `2 Ouroboros/2 S.A.R.A — mutación/requisitos` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/requisitos` | `verificar-paso.md` | proceso | 79 |
+| `2 Ouroboros/2 S.A.R.A — mutación/requisitos` | `verificar-requisito.md` | proceso | 46 |
+| `2 Ouroboros/2 S.A.R.A — mutación/seguridad` | `contener.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/seguridad` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/sesgo` | `auditar-sesgo.md` | proceso | 47 |
+| `2 Ouroboros/2 S.A.R.A — mutación/sesgo` | `contradecir.md` | proceso | 90 |
+| `2 Ouroboros/2 S.A.R.A — mutación/sesgo` | `README.md` | puerta | 32 |
+| `2 Ouroboros/2 S.A.R.A — mutación/versionado` | `README.md` | puerta | 33 |
+| `2 Ouroboros/2 S.A.R.A — mutación/versionado` | `versionar.md` | proceso | 45 |
+| `2 Ouroboros/2 S.A.R.A — mutación/vocabulario` | `conceptualizar.md` | proceso | 44 |
+| `2 Ouroboros/2 S.A.R.A — mutación/vocabulario` | `README.md` | puerta | 33 |
+| `2 Ouroboros/3 ATLAS — mutación` | `carga.md` | proceso | 82 |
+| `2 Ouroboros/3 ATLAS — mutación` | `indice de formas.md` | indice | 65 |
+| `2 Ouroboros/3 ATLAS — mutación` | `Proceso ATLAS.md` | proceso | 349 |
+| `2 Ouroboros/3 ATLAS — mutación` | `rastro.md` | proceso | 86 |
+| `2 Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 51 |
 
 ### mantis/
 
@@ -155,14 +152,14 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 |---|---|---|---|
 | `mantis` | `Derrotero.md` | proceso | 49 |
 | `mantis` | `deterrente.md` | deterrente | 80 |
-| `mantis/mantenimiento` | `auditar-configuracion.md` | proceso | 81 |
+| `mantis/mantenimiento` | `auditar-configuracion.md` | proceso | 75 |
 | `mantis/mantenimiento` | `editar.md` | proceso | 150 |
-| `mantis/mantenimiento` | `medir-acero.md` | proceso | 59 |
-| `mantis/mantenimiento` | `verificar-esquema.md` | proceso | 45 |
+| `mantis/mantenimiento` | `medir-acero.md` | proceso | 51 |
+| `mantis/mantenimiento` | `verificar-esquema.md` | proceso | 41 |
 
 ## Totales
 
-`Archivos: 106 | procesos: 57 | estandares: 17`
+`Archivos: 108 | procesos: 63 | estandares: 18`
 
 ## Prueba
 

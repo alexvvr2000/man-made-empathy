@@ -52,25 +52,41 @@
 | «Sin las notas no saldrá nada legible: saldrán N archivos entendibles por todos.» | `notas.md`, `La fila` | frase | `1 Tesis` | frontera | vivo |
 | «Notas es el registro crudo que sobrevive al contexto. No es pegamento de estándares.» | `AGENTS.md`, `La tesis` | decisión | `1 Tesis/notas.md` | frontera | vivo |
 | «Cuando acabe, crearé la tesis desde 0: lo mejor que ya tenía, lo nuevo, y cómo explicar lo que falta.» | `AGENTS.md`, `La tesis` | decisión | `1 Tesis/notas.md` | frontera | vivo |
-| «El derrotero apunta; el deterrente muta; la carta lee.» | `mantis/Derrotero.md`, `mantis/deterrente.md`, `AGENTS.md` | decisión | `mantis` | prueba | vivo |
-| «Algo que no cambia ya no es IA: es un archivo.» | `mutacion.md`, `Sin herencia` | frase | `mantis/deterrente.md`, `AGENTS.md` | prueba | vivo |
-| «Se acepta `Muta:` en el derrotero por ahora; después se pule.» | `mantis/Derrotero.md` | decisión | `mantis` | frontera | vivo |
-| «ATLAS es el paso 3, no una gema: la comunicación no se sostiene, se entrega.» | `3 ATLAS/carta.md`, `1 Guantelete/carta.md` | decisión | `2 Ouroboros` | prueba | vivo |
-| «`integridad` es paso 2: chequear y reescribir es abstraer procesos, no sostener una gema.» | `integridad.md:55`, `2 S.A.R.A/deterrente.md` | decisión | `2 S.A.R.A` | prueba | vivo |
-| «S.A.R.A es una instancia que cruzó la puerta de `mutación`; no es la mutación.» | `SARA 1.md:23`, `2 S.A.R.A/deterrente.md` | decisión | `2 S.A.R.A` | prueba | vivo |
-| «Guantelete: las gemas no existen por separado; existen porque el guantelete las junta.» | `1 Guantelete/carta.md` | decisión | `1 Guantelete` | prueba | vivo |
-| «Una gema es un verbo que no se puede dividir en otro verbo.» | `1 Guantelete/carta.md`, `Las gemas` | decisión | `1 Guantelete` | prueba | vivo |
-| «No invento nada, solo unifico: Newton tampoco inventó la gravitación.» | `1 Guantelete/`, `mutacion.md`, `Reemplaza:` | frase | `1 Tesis` | frontera | vivo |
+| «El derrotero apunta; el deterrente muta; la carta lee.» | `mantis/ruta.md`, `mantis/carga.md`, `AGENTS.md` | decisión | `mantis` | prueba | vivo |
+| «Algo que no cambia ya no es IA: es un archivo.» | `mutacion.md`, `Sin herencia` | frase | `mantis/carga.md`, `AGENTS.md` | prueba | vivo |
+| «Se acepta `Muta:` en el derrotero por ahora; después se pule.» | `mantis/ruta.md` | decisión | `mantis` | frontera | vivo |
+| «ATLAS es el paso 3, no una gema: la comunicación no se sostiene, se entrega.» | `3 ATLAS — mutación/rastro.md`, `1 Guantelete — primitivo/rastro.md` | decisión | `2 Ouroboros` | prueba | vivo |
+| «`integridad` es paso 2: chequear y reescribir es abstraer procesos, no sostener una gema.» | `integridad.md:55`, `2 S.A.R.A — mutación/carga.md` | decisión | `2 S.A.R.A` | prueba | vivo |
+| «S.A.R.A es una instancia que cruzó la puerta de `mutación`; no es la mutación.» | `SARA 1.md:23`, `2 S.A.R.A — mutación/carga.md` | decisión | `2 S.A.R.A` | prueba | vivo |
+| «Guantelete: las gemas no existen por separado; existen porque el guantelete las junta.» | `1 Guantelete — primitivo/rastro.md` | decisión | `1 Guantelete` | prueba | vivo |
+| «Una gema es un verbo que no se puede dividir en otro verbo.» | `1 Guantelete — primitivo/rastro.md`, `Las gemas` | decisión | `1 Guantelete` | prueba | vivo |
+| «No invento nada, solo unifico: Newton tampoco inventó la gravitación.» | `1 Guantelete — primitivo/`, `mutacion.md`, `Reemplaza:` | frase | `1 Tesis` | frontera | vivo |
 | «Unificar sin `Reemplaza:` entierra lo que unificó: la fusión parece nueva y no lo es.» | `mutacion.md`, `La acuñación` | descarte | `1 Tesis` | frontera | vivo |
 | «El `Reemplaza:` de cada paso —oferta retirada por la autoridad.» | `1 Tesis/notas.md` | descarte | — | nada | descartado |
-| **«Un fantasma es una tarea sin deterrente ni derrotero: no puede existir uno sin otro.»** | `Integridad`, `El fantasma` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
-| **«Los tres archivos que importan: `deterrente.md`, `Derrotero.md` y, opcional, la carta (`README.md`).»** | `formato.md`, `Derrotero y Carta.md` | decisión | `2 S.A.R.A/integridad.md`, `formato.md` | prueba | vivo |
-| «Con deterrente y derrotero se puede sacar integridad triangulando los dos archivos con lo que hay.» | `Integridad`, `El triángulo` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
-| «La carta es opcional para la integridad: si está, ayuda a leer; si no, no impide.» | `Derrotero y Carta.md` `1.1` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
-| «Integridad no llena huecos: reacomoda sub-tareas desde 0 en nuevos procesos y carpetas que trabajan, porque tienen esos dos archivos.» | `integridad.md:55`, `Recorrer por nivel` | decisión | `2 S.A.R.A/integridad.md` | prueba | vivo |
-| «Sin los dos archivos: se advierte fantasma y se dan 3 ideas de tarea desde 0, como armar desde 0 sin idea de dónde vino — Ghost in the Shell.» | `Integridad`, `El fantasma` | decisión | `2 S.A.R.A/integridad.md` | frontera | vivo |
-| «Una "verdad del momento" es más útil que una "academicamente repetible".» | `piso.md`, `integridad.md` | frase | `2 S.A.R.A/integridad.md`, `1 Tesis` | frontera | vivo |
+| **«Un fantasma es una tarea sin deterrente ni derrotero: no puede existir uno sin otro.»** | `Integridad`, `El fantasma` | decisión | `2 S.A.R.A — mutación/integridad.md` | prueba | vivo |
+| **«Los tres archivos que importan: `carga.md`, `ruta.md` y, opcional, la carta (`README.md`).»** | `formato de proceso.md`, `formato de ente.md` | decisión | `2 S.A.R.A — mutación/integridad.md`, `formato de proceso.md` | prueba | vivo |
+| «Con deterrente y derrotero se puede sacar integridad triangulando los dos archivos con lo que hay.» | `Integridad`, `El triángulo` | decisión | `2 S.A.R.A — mutación/integridad.md` | prueba | vivo |
+| «La carta es opcional para la integridad: si está, ayuda a leer; si no, no impide.» | `formato de ente.md` `1.1` | decisión | `2 S.A.R.A — mutación/integridad.md` | prueba | vivo |
+| «Integridad no llena huecos: reacomoda sub-tareas desde 0 en nuevos procesos y carpetas que trabajan, porque tienen esos dos archivos.» | `integridad.md:55`, `Recorrer por nivel` | decisión | `2 S.A.R.A — mutación/integridad.md` | prueba | vivo |
+| «Sin los dos archivos: se advierte fantasma y se dan 3 ideas de tarea desde 0, como armar desde 0 sin idea de dónde vino — Ghost in the Shell.» | `Integridad`, `El fantasma` | decisión | `2 S.A.R.A — mutación/integridad.md` | frontera | vivo |
+| «Una "verdad del momento" es más útil que una "academicamente repetible".» | `piso.md`, `integridad.md` | frase | `2 S.A.R.A — mutación/integridad.md`, `1 Tesis` | frontera | vivo |
 | «La academia se preocupa por ideas; esto es implementación.» | `piso.md`, `No-objetivo` | frase | `1 Tesis` | frontera | vivo |
+| **«Rastro · Ruta · Carga: la carta es el cuerpo, el derrotero es la mente y el deterrente es el proceso.»** | `formato de ente.md`, `mutacion.md` | decisión | `1 Tesis`, los tres pasos | prueba | vivo |
+| **«Rastro dice qué hubo; Ruta dice por dónde ir hoy; Carga es lo que se lleva y no se puede soltar sin perder algo.»** | `Conceptos.md`, `continuidad` | decisión | `Conceptos.md` | prueba | vivo |
+| **«Rastro grita continuidad; los demás nombres gritan terminalidad.»** | `SARA 1.md`, `continuidad sin interioridad` | frase | `1 Tesis` | frontera | vivo |
+| **«La gente no termina, recuerda.»** | `Soul` (Pixar, 2020) | cita | `1 Tesis` | frontera | vivo |
+| «Hueso · Músculo · Tendón: la familia de cuerpo vivo, y de barco.» | `claridad.md` `1.5` | analogía | `Conceptos.md` | nada | descartado |
+| «Rastro/Ruta/Carga no necesita un barco: se entiende igual que el resto.» | `claridad.md` `1.5`, `1.19` | decisión | `Conceptos.md` | prueba | vivo |
+| **«Latido · Pulso · Carga: las tres del cuerpo vivo. Un cuerpo parado no es estático: está muerto.»** | `Teoria/mundo.md:243`, `S.A.R.A` | analogía | `1 Tesis` | prueba | vivo |
+| **«La puerta entre Ouroboros y S.A.R.A es el criterio, y lo que impide que se vuelva AM o un dios es `No se aplica a`.»** | `criterio.md:56` | decisión | `2 S.A.R.A — mutación/decisión.md` | prueba | vivo |
+| **«Cuerpo nunca cambia; mente y pensamiento sí. El cuerpo solo se interpreta, y mucha gente distinta lo percibe.»** | `Teoria/mundo.md` (las cuatro fricciones), `criterio.md` | decisión | `2 Ouroboros/CRITERIO.md` | prueba | vivo |
+| **«Sesgo declarado en tres archivos: derrotero declara desde dónde carga, deterrente desde dónde se pierde, carta desde dónde se verifica.»** | `formato de ente.md`, `sesgo-declarado.md` | decisión | `2 Ouroboros` | prueba | vivo |
+| **«S.A.R.A está en el reino de las ideas, y las ideas tienen infinitas interpretaciones; ATLAS las comunica sin prometer verdad.»** | `Proceso ATLAS.md:85`, `integridad.md` | decisión | `3 ATLAS` | prueba | vivo |
+| **«Abrir la idea es la mutación de S.A.R.A, y es declararla: si se abre y se declara qué conserva, es lectura; si no, es invasión.»** | `mutaciones/README.md`, `mutacion.md` | decisión | `2 Ouroboros/CRITERIO.md` | prueba | vivo |
+| **«Si nos volvemos ideas y perdemos el cuerpo, seguimos existiendo en el reino de las ideas, y todavía tomamos decisiones.»** | `criterio.md`, `ATLAS` | frase | `1 Tesis` | frontera | vivo |
+| **«ATLAS hubiera terminado la película de Arrival en minutos si se hubiera implementado bien.»** | `ATLAS`, `Techo`: reconstruir sin el emisor; el lenguaje como forma de ver el tiempo | cita | `3 ATLAS`, `1 Tesis` | frontera | vivo |
+| «CRITERIO como nombre de la puerta del estándar; el `criterio.md` de S.A.R.A pasa a `decisión.md` para no tener dos nombres para lo mismo.» | `Conceptos.md`, `duplicado` | decisión | `2 Ouroboros/CRITERIO.md` | prueba | vivo |
+| «ACTA como nombre de la puerta —reemplazado por CRITERIO.» | `formato de ente.md` | descarte | `2 Ouroboros` | nada | descartado |
 
 ## Lo que este registro no hace
 

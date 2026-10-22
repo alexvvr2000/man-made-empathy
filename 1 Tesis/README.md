@@ -2,7 +2,7 @@
 
 **Qué es:** el lenguaje de procesos de esta base. Cinco primitivos y dos mutaciones, con la misma forma, que se componen entre sí.
 
-**Deterrente:** `./deterrente.md`. Enruta subprocesos: sin él, un subproceso no sabe cuándo se carga, y una puerta abierta pierde el rastro de por qué se hizo algo.
+**Deterrente:** `./carga.md`. Enruta subprocesos: sin él, un subproceso no sabe cuándo se carga, y una puerta abierta pierde el rastro de por qué se hizo algo.
 
 **Piso:** `./piso.md`. Rige `../corpus/piso.md`.
 

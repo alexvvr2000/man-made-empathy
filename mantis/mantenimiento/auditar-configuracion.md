@@ -5,12 +5,6 @@
 **Vigencia:** 2026-10-21.
 **Estado:** vigente.
 
-## Qué resuelve
-
-El repo dice algo y el repo hace otra cosa. No hay ruta rota ni error: hay una frase que sobrevivió a cinco reestructuraciones.
-
-Práctica de industria: gestión de configuración. La documentación debe reflejar la configuración real, no la que se creía.
-
 ## Pregunta de entrada
 
 `Entra | Falla | Sale | Consume`

@@ -43,10 +43,10 @@ Este nivel no existía, y su ausencia costaba caro: el estándar del derrotero v
 
 | Archivo | Qué estandariza | Estado |
 |---|---|---|
-| `Derrotero.md` | la forma de enrutar: qué necesita un derrotero para estar completo | **obligatorio** |
+| `ruta.md` | la forma de enrutar: qué necesita un derrotero para estar completo | **obligatorio** |
 | `Conceptos.md` | la forma de nombrar: un concepto, un nombre preferido, con origen | **obligatorio** |
 | `esquema-de-fila.md` | la forma de dejar rastro: qué escribe todo proceso al actuar | **obligatorio** |
-| `formato.md` | la forma de los tres niveles: tarea, sub-tarea y proceso | **obligatorio** |
+| `formato de proceso.md` | la forma de los tres niveles: tarea, sub-tarea y proceso | **obligatorio** |
 | `indice.md` | qué hay en el repo y dónde: se regenera cuando algo muta | **obligatorio** |
 | `piso/` | qué hace un ejecutor para que dos lleguen al mismo sitio | **opcional** |
 | `problemas-abiertos.md` | el mapa: qué problema del campo toca qué pieza, y qué le falta | **opcional** |
@@ -62,7 +62,7 @@ Este nivel no existía, y su ausencia costaba caro: el estándar del derrotero v
 
 Un lector que quiera construir esto y no quiera leerlo todo necesita **tres archivos**:
 
-1. `Derrotero.md` — para saber qué cargar y cuándo.
+1. `ruta.md` — para saber qué cargar y cuándo.
 2. `Conceptos.md` — para no inventar nombres.
 3. `esquema-de-fila.md` — para dejar rastro.
 
@@ -72,7 +72,7 @@ Con esos tres hay un sistema que corre. **ATLAS llega cuando algo no llega al ot
 
 Un **derrotero** enruta. Una **carta** dice cómo se lee el derrotero, y es lo que cada era carga por obligación.
 
-- **Estándar de la carta:** el derrotero dice *qué ruta se toma*; la carta dice *qué hay, qué no se toca y cómo se verifica*. Las dos reglas viven aquí: `Derrotero.md`, `La carta y el derrotero son dos piezas`.
+- **Estándar de la carta:** el derrotero dice *qué ruta se toma*; la carta dice *qué hay, qué no se toca y cómo se verifica*. Las dos reglas viven aquí: `ruta.md`, `La carta y el derrotero son dos piezas`.
 - **Carta de esta era:** `../AGENTS.md`, en la raíz, porque así lo leen las herramientas de hoy.
 - **Su nombre no es suyo:** la carta es de cada era y cambia con ella. Su contenido, no.
 
@@ -99,6 +99,6 @@ Un **derrotero** enruta. Una **carta** dice cómo se lee el derrotero, y es lo q
 ## Transiciones
 
 - El estándar no tiene instancia → se declara como hipótesis, no como obligatorio.
-- Un archivo nuevo no se sabe si es forma o caso → `Derrotero.md`, `Conformidad`.
+- Un archivo nuevo no se sabe si es forma o caso → `ruta.md`, `Conformidad`.
 - Una instancia contradice su estándar → `../mantis/mantenimiento/editar.md`, y gana el estándar.
 - En cualquier otro caso → se entrega y se cierra.

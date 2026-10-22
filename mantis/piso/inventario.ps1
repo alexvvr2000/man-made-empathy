@@ -2,14 +2,14 @@
 # Decide: que procesos hay, donde cuelgan, y que campo les falta.
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
-# FORMATO: no se inventa aqui. Se lee de ../../1 Tesis/formato.md
+# FORMATO: no se inventa aqui. Se lee de ../../2 Ouroboros/formato de proceso.md
 # Si el estandar cambia, esta unidad no se toca: se vuelve a correr.
 #
 # Uso: pwsh -File mantis/piso/inventario.ps1 [-Root <ruta>] [-Formato <ruta>]
 
 param(
   [string]$Root   = (Join-Path $PSScriptRoot "..\.."),
-  [string]$Formato = (Join-Path $PSScriptRoot "..\..\1 Tesis\formato.md")
+  [string]$Formato = (Join-Path $PSScriptRoot "..\..\2 Ouroboros\formato de proceso.md")
 )
 
 $ErrorActionPreference = 'Stop'
@@ -77,18 +77,19 @@ foreach ($n in $nombres) { $campos[$n] = Get-Patron $n }
 # ---------------------------------------------------------------
 # 3. Lo que NO es proceso, segun el estandar.
 # ---------------------------------------------------------------
+# Todo es proceso. Solo se excluye el indice, que es una vista generada y no una unidad.
+# La carta, el derrotero, el deterrente y el formato TAMBIEN son procesos: se miden
+# contra el bloque de entrada como cualquier otro. Para cumplirlo, todo archivo del
+# estandar declara su bloque de entrada.
 function Test-EsProceso($nombre) {
-  if ($nombre -ieq 'README.md') { return $false }
-  if ($nombre -match '(?i)indice') { return $false }
-  if ($nombre -match '(?i)formato') { return $false }
-  if ($nombre -match '(?i)deterrente') { return $false }
+  if ($nombre -match '(?i)^indice') { return $false }
   return $true
 }
 
 # ---------------------------------------------------------------
 # 4. Donde se busca. 1 Tesis/ NO se inventaria: contiene estandares.
 # ---------------------------------------------------------------
-$carpetas = @('2 Ouroboros\2 S.A.R.A','2 Ouroboros\1 Guantelete','2 Ouroboros\3 ATLAS')
+$carpetas = @('2 Ouroboros\1 Guantelete — primitivo','2 Ouroboros\2 S.A.R.A — mutación','2 Ouroboros\3 ATLAS — mutación')
 
 $filas = @()
 $nCompleto = 0; $nIncompleto = 0; $nIndeterminado = 0; $nExcluido = 0
