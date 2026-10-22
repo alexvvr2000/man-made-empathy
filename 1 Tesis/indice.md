@@ -45,7 +45,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `1 Tesis` | `formato.md` | formato | 183 |
 | `1 Tesis` | `indice.md` | indice | 168 |
 | `1 Tesis` | `Inicial.md` | estandar | 104 |
-| `1 Tesis` | `notas.md` | estandar | 100 |
+| `1 Tesis` | `notas.md` | estandar | 108 |
 | `1 Tesis` | `piso.md` | estandar | 88 |
 | `1 Tesis` | `problemas-abiertos.md` | estandar | 95 |
 | `1 Tesis` | `README.md` | puerta | 74 |

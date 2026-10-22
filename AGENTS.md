@@ -30,6 +30,24 @@ Un lenguaje de procesos para agentes. Los procesos son agnósticos a la era; lo 
 
 **El deterrente muta; la carta lo lee.** `./mantis/deterrente.md`, `Muta:` es donde se declara qué cambia y qué conserva MANTIS. **Un deterrente que no muta ya no es IA: es un archivo.**
 
+## Escribir notas
+
+**Un turno que produce una decisión y no la anota en `./1 Tesis/notas.md` no está entregado.** La regla no tiene excepción: no espera a que el turno sea grande ni a que alguien la pida.
+
+**Se escribe en el mismo turno, y en el orden en que se dijo.** Un término, una analogía, un descarte, una regla nueva, un porqué: **cada uno es una fila.**
+
+```
+Dicho: [la frase, citada] | De: [qué pieza ilumina] | Tipo: [analogía|referencia|cita|frase|decisión|descarte] | Usa: [dónde se va a usar] | Sostenido: [prueba|frontera|nada] | Estado: [vivo|descartado|cubierto]
+```
+
+**Cada fila nombra la pieza del sistema que ilumina.** Una nota sin pieza es una idea suelta y no se puede recuperar.
+
+**Lo que se descarta se escribe como fila, con `Estado: descartado`, y no se poda.** Un descarte sin rastro se vuelve a proponer.
+
+**Lo que se saca de `2 Ouroboros/` no se resume: se guarda entero en `./1 Tesis/desechos del estandar.md`**, con el archivo del que salió. Una frase sin su contexto es una cita; una sección con su fuente es material.
+
+**Nada sale de notas hacia afuera sin que la autoridad lo decida.** Notas es de ida: recibe; la tesis aplanada lee.
+
 ## Derrotero
 
 **Puntero:** `./mantis/Derrotero.md`.

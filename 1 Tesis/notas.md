@@ -88,6 +88,14 @@
 | «CRITERIO como nombre de la puerta del estándar; el `criterio.md` de S.A.R.A pasa a `decisión.md` para no tener dos nombres para lo mismo.» | `Conceptos.md`, `duplicado` | decisión | `2 Ouroboros/CRITERIO.md` | prueba | vivo |
 | «ACTA como nombre de la puerta —reemplazado por CRITERIO.» | `formato de ente.md` | descarte | `2 Ouroboros` | nada | descartado |
 
+| **«Lo que sale de los procesos se adapta a quien lo mira, como la física al extremo: el resultado no existe igual para dos observadores.»** | `sesgo-declarado.md`, `integridad.md` | decisión | `2 Ouroboros` | prueba | vivo |
+| **«El criterio tiende a los implícitos y puede ofuscar porque le conviene; integridad no es su herramienta, es su límite.»** | `integridad.md`, `decisión.md` | decisión | `2 S.A.R.A — mutación` | prueba | vivo |
+| **«Integridad corre siempre antes de mutar; el criterio solo decide qué se hace con su veredicto.»** | `integridad.md`, `Cuándo se usa` | decisión | `2 S.A.R.A — mutación` | prueba | vivo |
+| **«PROMETEA llama a integridad sí o sí: puede ser momento de rehacer y no de crear, y sin llamarla nadie lo nota.»** | `Proceso PROMETEA.md` | decisión | `2 S.A.R.A — mutación` | prueba | vivo |
+| **«La honestidad es un efecto del triángulo, no un objetivo: perseguirla la vuelve ofuscación.»** | `integridad.md`, `El triángulo` | decisión | `2 S.A.R.A — mutación` | prueba | vivo |
+| **«El estándar dice "la situación actual", no "el repo": el repo es de esta era.»** | `claridad.md` `1.5`, `integridad.md` | decisión | `2 Ouroboros` | prueba | vivo |
+| **«Un robot es una situación medible: cambia el sustrato, no la forma. Rastro, Ruta y Carga sirven igual.»** | `formato de ente.md` | frase | `1 Tesis`, `2 Ouroboros` | frontera | vivo |
+| **«PROMETEA es un proceso estandarizado: no se preocupa por fantasmas, su regla es no crear implícitos.»** | `Proceso PROMETEA.md` | decisión | `2 S.A.R.A — mutación` | prueba | vivo |
 ## Lo que este registro no hace
 
 No decide qué es estándar. No sustituye a `./Conceptos.md`: **este archivo guarda el porqué, `Conceptos` guarda el nombre.**

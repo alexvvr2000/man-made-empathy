@@ -280,11 +280,11 @@ Pieza: [cuál] | Estaba en: [padre] | Pertenece a: [padre] | Por qué
 Desde cero: [pieza] | Conserva: [qué] | No conserva: [qué] | Por qué se rehace
 ```
 
-**También se rehace una sub-tarea entera.** Cuando el chequeo encuentra que **la tarea no tiene sus dos archivos** —deterrente y derrotero—, o que sus sub-tareas no trabajan juntas, **no se llenan huecos: se reacomoda el nivel desde 0** en procesos y carpetas que trabajan, **porque tienen los dos archivos.** Sin ellos se advierte `El fantasma` y se entregan tres intuiciones; no se rehace sobre nada.
+**También se rehace una sub-tarea entera.** Cuando el chequeo encuentra que **la tarea no tiene sus tres piezas** —Rastro, Ruta y Carga—, o que sus sub-tareas no trabajan juntas, **no se llenan huecos: se reacomoda el nivel desde 0** en procesos y carpetas que trabajan, **porque tienen los dos archivos.** Sin ellos se advierte `El fantasma` y se entregan tres intuiciones; no se rehace sobre nada.
 
 ```
 Nivel rearmado: [tarea] | Traía: [n sub-tareas, n procesos] | Queda: [n sub-tareas, n procesos]
-Conserva: [qué servía] | No conserva: [qué se retira y por qué] | Archivos: [deterrente sí/no | derrotero sí/no | carta sí/no]
+Conserva: [qué servía] | No conserva: [qué se retira y por qué] | Piezas: [Rastro sí/no | Ruta sí/no | Carga sí/no]
 ```
 
 ### 8/ El chequeo sobre sí mismo
@@ -339,7 +339,7 @@ Sobre sí mismo: [qué encontró|nada]
 
 ```
 Chequeo: [id] | Tarea: [cuál] | Folders: [n] | Sub-tareas: [n] | Procesos: [n] | Versión: [fecha]
-Archivos: [deterrente sí/no | derrotero sí/no | carta sí/no] | Fantasma: [sí|no]
+Piezas: [Rastro sí/no | Ruta sí/no | Carga sí/no] | Fantasma: [sí|no]
 Hallazgos: [n] | Contradicciones: [n] | Disfrazadas: [n] | Huérfanos: [n] | Implícitos: [n] | Mudos: [n]
 Reasignados: [n] | Desde cero: [n] | Nivel rearmado: [n]
 Sobre sí mismo: [qué encontró|nada]
