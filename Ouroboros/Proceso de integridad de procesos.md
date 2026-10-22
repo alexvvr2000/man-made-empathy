@@ -14,13 +14,15 @@
 **Forma:** `Entra | Falla | Sale | Consume`.
 **Norma:** `Tipo | Enunciado | Prueba | Falsificador | Costo de omitir`.
 
+**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+
 ## Tesis
 
 Los procesos hermanos no se ven entre sí. Cada uno cumple su regla, y **dos reglas que se cumplen por separado pueden ser incompatibles juntas.**
 
 Y cada proceso, solo, puede servir sin que esté escrito **qué tiene que cumplirse para que sirva.** Las dos cosas se chequean aquí.
 
-El nivel 0 no es "un proceso de procesos": eso ya es `./Proceso de creación de procesos.md`. Es más chico y más raro: **es el chequeo que corre sobre lo que ya existe, antes de que la incompatibilidad o el implícito salgan a la superficie.**
+El nivel 0 no es "un proceso de procesos": eso ya es `./Proceso de manipulacion de procesos.md`. Es más chico y más raro: **es el chequeo que corre sobre lo que ya existe, antes de que la incompatibilidad o el implícito salgan a la superficie.**
 
 **Niveles negativos no sirven.** Nada por debajo de esto: se pasa del chequeo al inmueble, y lo inmueble no tiene falsificador.
 
@@ -221,6 +223,6 @@ Implícito: [la condición] | Falta en: [sección] | Qué pasa sin ella: [el fal
 
 - La contradicción está en un estándar → `../../mantis/mantenimiento/editar.md`, gana el estándar.
 - El par no se entiende → `../Proceso de claridad.md`, `1.4`.
-- Hace falta saber si una creación se sostiene → `./Proceso de creación de procesos.md`, `No-objetivo`.
+- Hace falta saber si una creación se sostiene → `./Proceso de manipulacion de procesos.md`, `No-objetivo`.
 - Falta el sesgo de la comparación → `../Proceso de sesgo declarado.md`.
 - En cualquier otro caso → se entrega y se cierra.

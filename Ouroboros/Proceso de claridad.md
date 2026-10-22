@@ -5,7 +5,7 @@
 **Tipo:** proceso de claridad. Se aplica al escribir, al editar y al emitir.
 **Nivel:** proceso que se lee. No tiene compuertas de turno; gobierna la forma de lo que se produce.
 **Requiere:** ninguno.
-**Compatible con:** `Proceso de creación de procesos`, `Procesos principales`.
+**Compatible con:** `Proceso de manipulacion de procesos`, `Procesos principales`.
 **Alcance:** todo artefacto de este repositorio.
 
 ## Entra | Falla | Sale | Consume
@@ -15,7 +15,7 @@
 - **Sale:** la forma del artefacto —clase, lector, campos, ejemplos—, o la lista de sus ambigüedades con la norma que las marca.
 - **Consume:** quien va a emitir o ejecutar el artefacto. Si la forma no cierra, no se emite.
 
-Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La producción de procesos vive en `Proceso de creación de procesos.md`; este documento no la repite.
+Estas reglas no son una instrucción de ejecución: no tienen compuertas de turno. Se aplican al escribir, al editar y al emitir; `1.12` es un algoritmo de admisión, no una compuerta. La producción de procesos vive en `Proceso de manipulacion de procesos.md`; este documento no la repite.
 
 La claridad no es información pura: es la forma en que el contexto llega al lector. Un texto claro transporta su posición, su límite y su ejemplo sin pedir glosario. Lo que se ejecuta paga además no ambigüedad: cada lectura tiene que ser la misma.
 
@@ -65,7 +65,7 @@ Las normas no nombran **coordenadas de tiempo, instrumento o especie** —eras, 
 
 Una regla que nombra una era, una tecnología o una especie se vuelve **dependencia**: muere cuando eso cambia. Se escribe por propiedad. **Prueba:** quita el nombre; si la regla sigue, es ley; si no, es herramientas.
 
-Se complementa con el proceso de creación de procesos (`Proceso de creación de procesos.md`, `Pregunta de entrada`). El proceso de agentes lo referencia; no se copia.
+Se complementa con el proceso de manipulación de procesos (`Proceso de manipulacion de procesos.md`, `Pregunta de entrada`). El proceso de agentes lo referencia; no se copia.
 
 **Excepción:** un ejemplo, un ancla de instrumento actual o un caso de aplicación puede nombrar una tecnología, siempre que esté marcado como ejemplo y la regla se sostenga sin ella. La tecnología no se convierte en el contrato.
 
@@ -221,6 +221,6 @@ La prosa usa una sola lengua, declarada. En español, registro neutro: sin modis
 ## 2. Contratos
 Estas reglas no copian los contratos que las extienden; los referencian.
 
-- **Producción:** la creación de procesos —niveles, compuertas, anclas, falsificadores, entregable, admisión— vive en el proceso de creación de procesos (`Proceso de creación de procesos.md`). La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
+- **Producción:** la manipulación de procesos —niveles, compuertas, anclas, falsificadores, entregable, admisión— vive en el proceso de manipulación de procesos (`Proceso de manipulacion de procesos.md`). La ley del lector (`El Formato Sigue Al Lector`) se lee allí.
 - **Agentes:** el umbral de intervención vive en el proceso de agentes (`../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md`, `Umbral de lo necesario`).
 - **Consistencia:** la consistencia entre documentos vive en el proceso de agentes (`../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md`, `Consistencia cruzada`).

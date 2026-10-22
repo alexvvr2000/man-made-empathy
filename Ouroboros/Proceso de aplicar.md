@@ -10,6 +10,8 @@
 
 **Primitivo.** Es el que hace que los otros cinco sean un lenguaje: toma un proceso y su entrada, y ejecuta. Sin aplicar, Ouroboros es un catálogo.
 
+**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+
 ## Tesis
 
 Un proceso que no se aplica no produce nada. Aplicar toma un proceso y una entrada, verifica que la entrada le corresponde, ejecuta y entrega la salida a quien consume.
@@ -69,7 +71,7 @@ Si un eslabón falla, la cadena se detiene en ese eslabón: la salida parcial se
 
 ## Lo que no hace
 
-- No crea procesos: los crea `./Proceso de creación de procesos.md`.
+- No crea procesos: los crea `./Proceso de manipulacion de procesos.md`.
 - No los deduce: los deduce `./Proceso de ingeniería inversa.md`.
 - No los cambia: los cambia `./Proceso de mutación.md`.
 - No los comunica: los comunica `./ATLAS/Proceso ATLAS.md`.

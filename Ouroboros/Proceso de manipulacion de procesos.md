@@ -1,7 +1,8 @@
-# Proceso de creación de procesos
+# Proceso de manipulacion de procesos
 
 **Unidad:** proceso.
-**Aplica a:** crear procesos.
+**Aplica a:** manipular procesos.
+**Reemplaza:** `Proceso de creación de procesos`. El nombre viejo ya no era exacto: el proceso no solo crea, también reemplaza, calibra y retira. Manipular incluye las cuatro.
 **Tipo:** proceso. Se ejecuta, no se interpreta.
 **Lector:** quien produce procesos y quien los ejecuta.
 **Alcance:** todo proceso de este repositorio.
@@ -62,11 +63,34 @@ Todo proceso se contesta antes de escribirse.
 1. **Recibir la tarea.** Qué se quiere producir y qué falla hoy. Sin falla nombrada, no hay proceso: hay actividad.
 2. **Localizar el nivel.** ¿La falla la puede resolver un proceso que ya existe? Si sí, se calibra ese; no se crea uno nuevo.
 3. **Escribir el caso.** La situación concreta que el proceso prohíbe o exige, señalable en un archivo.
-4. **Escribir desde el caso.** Primero el falsificador, después la Prueba, después el enunciado.
-5. **Verificar con la pregunta de entrada.** Si no cabe en `Entra | Falla | Sale | Consume`, no se produce.
-6. **Medir la salida.** El proceso nuevo se juzga por lo que su salida cambió en el uso, no por existir.
+4. **Nombrar las variables.** Qué mueve este proceso, qué pasa si cada una se mueve, y quién puede decir que se movió mal.
+5. **Escribir desde el caso.** Primero el falsificador, después la Prueba, después el enunciado.
+6. **Verificar con la pregunta de entrada.** Si no cabe en `Entra | Falla | Sale | Consume`, no se produce.
+7. **Medir la salida.** El proceso nuevo se juzga por lo que su salida cambió en el uso, no por existir.
 
 **Prohibido** ejecutar el paso N+1 sin la salida del N.
+
+## Las variables
+
+Un proceso que no dice qué mueve **no se puede chequear después**: no hay contra qué compararlo si sale mal. Por eso se nombran **antes de escribir**, no después.
+
+| Pregunta | Qué se escribe | Sin esto |
+|---|---|---|
+| **¿Qué variables mueve?** | los nombres, no las categorías | no se sabe qué mirar cuando falla |
+| **¿Qué pasa si se mueve cada una?** | al menos la peor consecuencia | el fallo aparece sin nombre, y se llama «inesperado» |
+| **¿Quién puede decir que se movió mal?** | un nombre, o `ninguno` | no hay quien avise, y el error espera a ser visible solo |
+
+```
+Variables: [nombre1, nombre2, ...]
+Peor: [qué pasa si se mueve la que más pesa]
+Quién: [tipo:nombre | ninguno]
+```
+
+**`ninguno` es una respuesta válida**, y se declara igual que se declara en `../S.A.R.A/mundo.md`: significa que nadie va a moverte la vista, y que lo que rompas lo rompes con los ojos abiertos. **Lo que no se permite es no contestar.**
+
+**Sin las tres respuestas, el proceso no se crea.** No se marca incompleto: **no entra.** Un proceso incompleto se puede arreglar después; uno que nació sin variables no tiene contra qué arreglarse.
+
+**El criterio no se hereda.** Cada proceso nombra sus propias variables en el momento en que nace. No las arrastra de su predecesor, porque rige `./Proceso de mutación.md`, `Sin herencia`: un reemplazo que hereda variables hereda lo que ya no aplica.
 
 ## La forma de un proceso
 
@@ -118,6 +142,10 @@ El entregable es el estado final completo: qué entra, qué falla, qué sale y q
 Un proceso entra si su salida cambia una decisión en el uso vigente, o si declara `Plazo` y `Criterio` y se mide a término. Rige `./Proceso de claridad.md` `1.12`.
 
 Sin falsificador no entra: un proceso sin el caso que lo incumple es una opinión.
+
+Sin variables no entra: un proceso que no dice qué mueve no se puede chequear después. Rige `Las variables`, arriba.
+
+Las dos condiciones son de entrada, no de calidad. **Un proceso sin falsificador o sin variables no se marca incompleto: no se crea.**
 
 ## Cerca del nivel de arriba
 

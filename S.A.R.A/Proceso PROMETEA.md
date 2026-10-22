@@ -7,10 +7,12 @@
 **Unidad:** subproceso.
 **Aplica a:** crear.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** abstracción operativa. Baja a `creación de procesos` y `mutación` de Ouroboros.
+**Nivel:** abstracción operativa. Baja a `manipulación de procesos` y `mutación` de Ouroboros.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+
+**Manipulación.** Todo cambio a un subproceso pasa por `../Ouroboros/Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un subproceso creado sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 

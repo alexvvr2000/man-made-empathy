@@ -10,11 +10,12 @@
 
 **Primitivo.** Vuelve sobre cualquiera de los otros cinco procesos: los puede rehacer, retirar o reemplazar. Es la arista de retorno del lenguaje.
 **Trazabilidad.** Es el proceso que registra todo cambio de los otros cinco: origen, cambio declarado y responsable. Sin él, un proceso cambia y nadie puede reconstruir por qué.
-**Forma.** `Entra | Falla | Sale | Consume`. Rige `./Proceso de creación de procesos.md`, `Pregunta de entrada`.
+**Forma.** `Entra | Falla | Sale | Consume`. Rige `./Proceso de manipulacion de procesos.md`, `Pregunta de entrada`.
+**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
-Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `./Proceso de creación de procesos.md`, `Lo que funciona ya está viejo`.
+Mutar es cambiar un proceso desde un estado inicial sin borrar el origen ni al responsable. La forma se arma y se desarma; volver es otra mutación. Sin mutación no hay proceso nuevo, solo proceso congelado. Rige `./Proceso de manipulacion de procesos.md`, `Lo que funciona ya está viejo`.
 
 Lo que cambia siempre no es el resultado del proceso: es **el conjunto de procesos que lo produce**. Golpear mutó: hoy neutralizar es más pesado y a veces no usa manos. Cambió el proceso, no el fin.
 

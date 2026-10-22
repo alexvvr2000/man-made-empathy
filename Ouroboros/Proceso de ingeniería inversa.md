@@ -8,6 +8,8 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Manipulación.** Todo cambio a un proceso pasa por `./Proceso de manipulacion de procesos.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+
 ## Tesis
 
 Un proceso se puede sacar de lo que se observa, sin conocer cómo se produjo. No hace falta que el resultado sea idéntico al original: hace falta que sirva, y que seguir el proceso tienda a algo real.

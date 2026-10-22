@@ -175,7 +175,7 @@ S.A.R.A **aplica** los procesos de Ouroboros; no los contiene y no los redefine.
 
 | Ouroboros | Qué da a S.A.R.A |
 |---|---|
-| creación de procesos | de dónde supieron las sub-tareas |
+| manipulación de procesos | de dónde supieron las sub-tareas |
 | ingeniería inversa | cómo se dedujeron de lo que ya funcionaba |
 | aplicar | cómo se ejecutan y componen |
 | mutación | cómo cambia S.A.R.A sin perderse |

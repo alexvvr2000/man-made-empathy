@@ -2,7 +2,7 @@
 
 **Qué es:** el lenguaje de procesos de esta base. Cinco procesos primitivos y dos derivados, con la misma forma, que se componen entre sí.
 
-**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `./Proceso de creación de procesos.md`.
+**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `./Proceso de manipulacion de procesos.md`.
 
 **Por qué es un lenguaje y no un catálogo:** porque los procesos se aplican uno sobre otro, y aplicar es un proceso, no una tabla.
 
@@ -10,7 +10,7 @@
 
 | Proceso | Qué hace | Nivel |
 |---|---|---|
-| `Proceso de creación de procesos.md` | produce y reemplaza procesos | primitivo |
+| `Proceso de manipulacion de procesos.md` | produce y reemplaza procesos | primitivo |
 | `Proceso de ingeniería inversa.md` | deduce un proceso de lo observable | primitivo |
 | `Proceso de aplicar.md` | ejecuta un proceso sobre una entrada | primitivo |
 | `Proceso de mutación.md` | cambia un proceso, con rastro | primitivo |
@@ -47,7 +47,7 @@ Cada proceso con su forma y su función.
 
 | Archivo | Qué hace |
 |---|---|
-| `Proceso de creación de procesos.md` | Produce procesos: qué entra, qué produce, cómo se verifica. |
+| `Proceso de manipulacion de procesos.md` | Produce procesos: qué entra, qué produce, cómo se verifica. |
 | `Proceso de ingeniería inversa.md` | Deduce un proceso de lo observable, por tendencia y no por copia. |
 | `Proceso de aplicar.md` | Ejecuta un proceso y comprueba la composición. |
 | `Proceso de mutación.md` | Cambia un proceso y deja el rastro. |
