@@ -16,10 +16,11 @@
 | `Proceso de mutación.md` | cambia un proceso, con rastro | primitivo |
 | `Proceso de claridad.md` | da forma a lo que se lee o se ejecuta | primitivo |
 | `Proceso de fricción.md` | hace que la decisión pase por el que la toma, antes de mover algo | derivado |
+| `Proceso de sesgo declarado.md` | declara desde dónde se mira, para que lo nuevo no muera clasificado como error | derivado |
 
 **Cinco primitivos:** creación, ingeniería inversa, aplicar, mutación y claridad. Ninguno se deriva de otro, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie; uno de veinte no se recuerda.
 
-**La fricción no es primitiva.** Se deriva de los cinco: es `claridad` aplicada al momento de decidir, reportando a `../S.A.R.A/mundo.md`. Existe porque los cinco dicen cómo se hace algo, y ninguno dice **si la decisión pasó por quien la tomó.**
+**La fricción y el sesgo no son primitivos.** Se derivan de los cinco. La fricción es `claridad` aplicada al momento de decidir: existe porque los cinco dicen cómo se hace algo, y ninguno dice **si la decisión pasó por quien la tomó**. El sesgo es `claridad` aplicada a la mirada: existe porque los cinco producen, y ninguno dice **desde dónde se está produciendo.**
 
 ## Composición
 
@@ -51,6 +52,7 @@ Cada proceso con su forma y su función.
 | `Proceso de mutación.md` | Cambia un proceso y deja el rastro. |
 | `Proceso de claridad.md` | La forma de lo que se lee o se ejecuta. |
 | `Proceso de fricción.md` | Hace que la decisión pase por el que la toma: cuerpo, inacción, gente, opinión. |
+| `Proceso de sesgo declarado.md` | Declara el sesgo como mapa, no como pared: lo que no se ve, y quién puede verlo. |
 
 ## Abstracciones
 
