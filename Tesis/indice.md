@@ -148,7 +148,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `mantis/mantenimiento/notas` | `notas-continuas.md` | proceso | 84 |
 | `mantis/mantenimiento/notas` | `notas-tesis.md` | proceso | 109 |
 | `mantis/mantenimiento/notas` | `README.md` | puerta | 27 |
-| `mantis/piso` | `README.md` | puerta | 46 |
+| `mantis/piso` | `README.md` | puerta | 52 |
 
 ## Totales
 
