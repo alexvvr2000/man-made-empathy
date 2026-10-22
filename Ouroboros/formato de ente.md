@@ -51,6 +51,29 @@ Las tres son **procesos** y se escriben con la forma de `./formato de proceso.md
 
 **Quien abre el ente ve lo mismo y difiere en todo menos en el cuerpo.** El cuerpo solo se interpreta: **si se abre y se declara qué conserva, es lectura; si se abre y no se declara, es invasión.**
 
+## Las tres piezas son procesos
+
+**El ente no es una carpeta con tres archivos de texto: es una carpeta con tres procesos.** Las tres se escriben **con todo el formato de `./formato de proceso.md`**, y cada una declara además lo suyo.
+
+| Pieza | `Entra` | `Sale` | Su marca | Su condicional |
+|---|---|---|---|---|
+| **Rastro** | qué hay que verificar | el veredicto de qué hay, qué no se toca y cómo se verifica | el cuerpo que no muta | `Sesgo` desde dónde se verifica |
+| **Ruta** | una petición | la ruta que se carga, o `[VACÍO - SIN RUTA]` | la tabla `Si se va a… Se carga` | `Sesgo` desde dónde se carga |
+| **Carga** | el ente en uso | qué se pierde si el ente deja de servir | la tabla `Si pasa esto | Se pierde | Y el síntoma es` | `Sesgo` desde dónde se pierde |
+
+**Lo que cada pieza debe tener, y sin ello no es proceso del ente:**
+
+1. Los **nueve campos**: `Variables`, `Peor`, `Quién`, `Entra`, `Falla`, `Sale`, `Consume`, `Prueba`, `Falsificador`.
+2. Los **cuatro condicionales**: `Sesgo`, `Límite`, `Firma`, `Continuidad`. Las tres piezas del ente son de la base: **ninguna puede declararse sin `Sesgo`.**
+3. El **cuerpo en forma**: compuertas numeradas, sin verbos de sugerencia, con rama por defecto.
+
+**Lo que cada pieza no necesita.** No se le pide que repita lo que el formato ya dice: **cita el formato y declara solo lo suyo.**
+
+**Un archivo del ente que no sea una de las tres piezas también es un proceso.** `integridad`, `decisión`, `PROMETEA`, el índice de formas: se escriben igual, con los nueve campos y su cuerpo. **La diferencia es que no son el cuerpo del ente:** el ente se lee con sus tres piezas, y sin ellas es fantasma.
+
+**Prueba:** ¿las tres piezas tienen los nueve campos? ¿las tres declararon su `Sesgo` y su `Firma`? ¿tienen cuerpo en forma y no prosa? ¿los demás procesos del ente siguen el formato?
+**Falsificador:** una pieza del ente sin `Sesgo` o sin `Firma`; una pieza escrita como texto y no como proceso; un proceso del ente cuyo cuerpo es una lista de viñetas; una pieza que copia el formato en vez de citarlo.
+
 ## Cómo se lee un ente
 
 1. **Abrir `rastro.md`.** Qué hay, qué no se toca, cómo se verifica.

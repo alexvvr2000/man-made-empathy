@@ -58,8 +58,11 @@ Tres problemas, y tienen nombre en bibliotecología:
 | Concepto | Nace en | Bajó de | Nuevo | Sinónimos | Calificador | Más amplio | Más estrecho | Se usa en | Estado |
 |---|---|---|---|---|---|---|---|---|---|
 | proceso | Ouroboros | — | sí | — | — | — | abstracción | Ouroboros | vigente |
-| guantelete | Guantelete | proceso | sí | Placeholder | — | — | gema | `Ouroboros/1 Guantelete — primitivo/rastro.md` | vigente |
-| gema | Guantelete | guantelete | sí | — | — | guantelete | — | `Ouroboros/1 Guantelete — primitivo/rastro.md` | vigente |
+| guantelete | Guantelete | proceso | sí | Placeholder | — | — | sesgo | `Ouroboros/1 Guantelete — primitivo/rastro.md` | vigente |
+| gema | Guantelete | guantelete | sí | — | — | guantelete | — | `Ouroboros/1 Guantelete — primitivo/rastro.md` | retirado |
+| pieza | Guantelete | guantelete | sí | gema | — | guantelete | sesgo, fricción | `Ouroboros/1 Guantelete — primitivo/rastro.md` | vigente |
+| sesgo | Guantelete | pieza | sí | sesgo declarado | — | — | fricción | `Ouroboros/1 Guantelete — primitivo/primitivos/sesgo.md` | vigente |
+| herramienta | Guantelete | pieza | sí | — | — | — | sesgo, fricción | `Ouroboros/1 Guantelete — primitivo/herramientas/README.md` | vigente |
 | abstracción | Ouroboros | proceso | sí | nombre puesto | — | — | primitivo de convención | `README` de Ouroboros | vigente |
 | primitivo de convención | S.A.R.A | abstracción | sí | — | — | abstracción | agente | `README` de S.A.R.A | vigente |
 | subproceso | S.A.R.A | abstracción | sí | subproceso autónomo, conversacional, de registro | — | proceso | sub-tarea | `punto-de-partida/` | vigente |
@@ -70,9 +73,9 @@ Tres problemas, y tienen nombre en bibliotecología:
 | cruce | `Pruebas/` | — | sí | — | — | prueba | cruce físico, cruce de visión | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce físico | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce de visión | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
-| tendencia | ingeniería inversa | — | sí | — | — | — | — | `Ouroboros/primitivos/ingenieria-inversa.md` | vigente |
+| tendencia | ingeniería inversa | — | sí | — | — | — | — | `Ouroboros/herramientas/ingenieria-inversa.md` | vigente |
 | fantasma | S.A.R.A | — | sí | — | — | tarea | — | `README` de S.A.R.A | vigente |
-| ACERO | S.A.R.A | — | sí | — | — | propiedad | — | `mantis/mantenimiento/medir-acero.md` | vigente |
+| ACERO | S.A.R.A | — | sí | — | — | propiedad | — | `Ouroboros/procesos/medir-acero.md` | vigente |
 | J'ONN | `punto-de-partida/jorrn/` | — | sí | — | — | sub-tarea | producir, declarar lo inesperado | `README` de S.A.R.A | vigente |
 | ARDOR | S.A.R.A | alineación, registro, discernimiento, objetivo, responsabilidad | sí | — | — | sistema | S.A.R.A | `README` de S.A.R.A | vigente |
 | semilla | `aprendizaje/aprender` | — | sí | condiciones de partida | — | — | — | `aprendizaje/aprender.md` | vigente |

@@ -7,6 +7,11 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Sesgo:** el cuerpo se lee desde lo que el paso 2 puede verificar sin las gemas.
+**Límite:** no crea gemas propias: eso lo decide el paso 1.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 ## Entra | Falla | Sale | Consume
 
 **Variables:** procesos sueltos · cuerpo · sub-tarea · fin · quién decide
@@ -82,7 +87,7 @@
 ## Qué no se toca
 
 - **Las gemas no se crean aquí.** S.A.R.A usa las del paso 1; si necesitara una gema propia, sería otro sistema.
-- **El fin de un proceso no se cambia desde aquí.** Se declara la mutación y se rige por `../1 Guantelete — primitivo/primitivos/mutar.md`.
+- **El fin de un proceso no se cambia desde aquí.** Se declara la mutación y se rige por `../1 Guantelete — primitivo/herramientas/mutar.md`.
 - **Lo que está aplanado no se reescribe de memoria.** Se cita la ruta.
 
 ## Cómo se verifica

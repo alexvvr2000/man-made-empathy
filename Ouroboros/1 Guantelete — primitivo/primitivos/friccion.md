@@ -1,13 +1,19 @@
-# Proceso de fricción
+# Fricción
 
 **Unidad:** tarea.
 **Aplica a:** friccionar.
-**Tipo:** proceso de decisión. Se ejecuta antes de mover algo, no después.
+**Tipo:** primitivo. Se ejecuta antes de mover algo, no después.
 **Lector:** quien va a cambiar algo, humano o ejecutor.
-**Nivel:** mutación de `claridad`. No es primitivo: nace de ella y declara qué conserva.
+**Nivel:** primitivo. Es el uso de `sesgo.md`: no decide desde dónde se mira, decide desde dónde se actúa.
+**Reemplaza:** `primitivos/friccion.md`. Conserva lo que decía, y deja de ser mutación de `claridad`: nace de `sesgo.md`, porque sin posición declarada la fricción no tiene a quién preguntar.
 **Alcance:** toda acción que altera algo que otro sostiene, o el propio criterio del que actúa.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+
+**Sesgo:** la decisión se lee desde quien la toma, no desde quien la propone.
+**Límite:** no obliga a contestar lo correcto, solo a contestar.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
 
 **Variables:** fricción · decisión · quién la toma · momento · rastro
 **Peor:** la decisión se ejecuta sin pasar por quien la toma, y nadie puede decir cuándo se decidió
@@ -16,6 +22,18 @@
 
 **Forma:** `Entra | Falla | Sale | Consume`.
 **Norma:** `Tipo | Enunciado | Prueba | Falsificador | Costo de omitir`.
+
+**Sesgo declarado.** Rige `./sesgo.md`, `Su forma`.
+
+```
+Sesgo: [la posición desde la que se decide]
+No se aplica a: [el límite: qué decisión no pasa por aquí]
+Firma: [quién puede contestarla: tipo:nombre | comunidad | ninguno]
+Indeterminado hasta: [qué la vuelve firmable]
+Continuidad: [veces revisada | última | qué cambió | contra qué]
+```
+
+**Sin posición declarada no hay fricción: hay un trámite.** Preguntar desde un sitio que no se declara es preguntar por lo que a esa mirada le conviene.
 
 ## Tesis
 
@@ -86,7 +104,7 @@ La regla es la de `ayuda-no-pedida`: **el nivel más bajo que todavía sirve.** 
 Fricción: solo pregunta  →  pregunta y espera  →  no deja avanzar  →  [no existe nivel de imposición]
 ```
 
-**La fricción no tiene rama de imposición.** Si la necesita, no es fricción: es coerción, y va a `../../punto-de-partida/autoridad-yo/`.
+**La fricción no tiene rama de imposición.** Si la necesita, no es fricción: es coerción, y va a `../../2 S.A.R.A — mutación/autoridad-yo/`.
 
 ### 5. Dejar el criterio
 
@@ -135,7 +153,7 @@ Lo que se dejó: [capacidad o criterio] | Se retira: [cuándo]
 ## Transiciones
 
 - Falta saber quién puede contestar → `../../2 S.A.R.A — mutación/evidencia/nivel-de-fuente.md`, N0 exige consentimiento.
-- La fricción necesita imponerse → `../../punto-de-partida/autoridad-yo/`, y la levanta otro.
+- La fricción necesita imponerse → `../../2 S.A.R.A — mutación/autoridad-yo/`, y la levanta otro.
 - El que lo sostuvo quedó sin capacidad → `../../2 S.A.R.A — mutación/evidencia/ayuda-no-pedida.md`.
 - El cambio ya rompió algo → `../../../Tesis/Teoria/futuros.md`, síntoma temprano.
 - En cualquier otro caso → se contesta, se anota quién, y se cierra.

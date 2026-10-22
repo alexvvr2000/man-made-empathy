@@ -3,6 +3,13 @@
 **Unidad:** tarea.
 **Aplica a:** expresar.
 **Lector:** autoridad.
+**Tipo:** proceso del ente `3 ATLAS — mutación`. Se ejecuta sobre las formas que se van a emitir, y no es su cuerpo: no lleva las tres piezas.
+**Estado:** vigente.
+
+**Sesgo:** la forma se lee desde la intención que la pide, nunca desde el nombre del método.
+**Límite:** no promueve una forma sin sello; no juzga el gusto.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `./Proceso ATLAS.md`
 
 > Índice de `ATLAS`. Las fuentes no se leen: se verifican contra `verifica`.
 

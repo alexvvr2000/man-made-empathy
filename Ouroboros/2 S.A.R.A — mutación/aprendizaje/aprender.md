@@ -2,12 +2,20 @@
 
 **Unidad:** proceso/
 **Aplica a:** aprender/
+**Tipo:** proceso de la sub-tarea `aprendizaje`. Se ejecuta; no se interpreta/
+**Lector:** quien opera el sistema, y quien lo va a corregir después/
+**Nivel:** sub-tarea. Vive dentro del paso 2, y no es su cuerpo: no lleva las tres piezas del ente/
 **Vigencia:** 2026-10-21/
 **Estado:** vigente/
 
 **Variables:** ejecución · registro · costo · continuidad · tarea intuida
 **Peor:** se mide una sola vez y no se vuelve a mirar: el sistema se vuelve absoluto sin darse cuenta
 **Quién:** quien opera el sistema, y quien carga con el costo
+
+**Sesgo:** la continuidad se mide desde el registro, no desde la intención del que produjo.
+**Límite:** no decide si la tarea sirvió; mide si cambió de posición.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra el registro de `aprender`
 
 
 ## Qué resuelve
@@ -53,25 +61,48 @@ Un absoluto requiere no volver a mirar/ Un sistema que mide cada vez no puede te
 
 **Sin continuidad, hay absoluto/** Una decisión tomada con una sola medición y nunca revisada es dicotómica, aunque se haya llamado aprendizaje/
 
+### La continuidad real
+
+**Medir otra vez no basta: hay que decir qué se sostenía antes y qué se sostiene ahora.** Un sistema puede medir cien veces y conservar la misma posición; eso no es continuidad, es la misma decisión contada más veces.
+
+La continuidad es **que la posición anterior quede enumerada y sustituida**, y que el cambio se pueda reconstruir sin el que lo hizo.
+
+```
+Sostuve: [la posición anterior, escrita tal como se sostenía]
+Contra: [el sesgo de quién, o qué dato, la contradijo]
+Sostengo: [la posición nueva]
+Se corrigió porque: [la razón que se puede repetir sin el autor]
+Firma: [quién puede confirmar el cambio: tipo:nombre | comunidad | ninguno]
+```
+
+**Si `Sostengo` es igual a `Sostuve`, se declara `Muta: sin cambio` y no se finge aprendizaje.** Lo que no se permite es presentar como corrección lo que fue la misma posición con más palabras.
+
+**El otro es el que mueve.** La corrección no la dispara mirarse; la dispara un sesgo que no era el propio. Por eso `Contra` es obligatorio: una corrección que solo la firma el que se corrigió no se distingue de una preferencia que se mantuvo.
+
+Rige `///////1 Guantelete — primitivo/primitivos/sesgo.md`, `Su forma`.
+
+**Prueba:** ¿`Sostuve` y `Sostengo` se pueden comparar? ¿`Contra` nombra un sesgo o un dato ajeno a la posición? ¿el cambio se puede reconstruir sin el autor? ¿si no cambió, se declaró `sin cambio`?
+**Falsificador:** una continuidad que solo cuenta veces medidas; `Contra` vacío o firmado por el mismo; `Sostengo` escrito igual que `Sostuve` y presentado como corrección; una corrección que necesita al autor para entenderse.
+
 ## Cómo se aplica
 
 1/ **Mirar el registro/** Qué se hizo, con qué criterio, qué se descartó y a quién sirvió/ Rige `/////////1 Tesis/esquema-de-fila/md`/
 2/ **Declarar las tres dimensiones/** Ninguna se omite; la que falta se declara como falta/
-3/ **Declarar la continuidad/** Cuántas veces se midió y qué cambió/
-4/ **Corregir la tarea intuida/** La tarea no se descubre: se infiere de lo que las subtareas muestran, y cambia con lo que se mide/
+3/ **Declarar la continuidad real/** Qué se sostenía, contra qué, qué se sostiene, y por qué/
+4/ **Sustituir la posición/** `Sostengo` reemplaza a `Sostuve`; la anterior no se borra: queda como el estado que se corrigió/
 5/ **Dejar la corrección disponible/** No se impone: queda registrada para quien venga después/
 
 **Prohibido** ejecutar el paso N+1 sin la salida del N/
 
 ## Ancla
 
-`Aprendo: [qué] | Semilla: [de dónde partió] | Propósito: [///] | Comunidad: [///] | Propio: [///] | Medido: [n veces] | Cambia la tarea a: [cuál]`
+`Aprendo: [qué] | Semilla: [de dónde partió] | Propósito: [///] | Comunidad: [///] | Propio: [///] | Medido: [n veces] | Sostuve: [///] | Contra: [///] | Sostengo: [///] | Cambia la tarea a: [cuál] | Firma: [quién]`
 
 ## Prueba
 
-¿Están las tres dimensiones? ¿Se declara cuántas veces se midió? ¿La corrección queda registrada aunque nadie la acepte todavía?
+¿Están las tres dimensiones? ¿Se declara cuántas veces se midió? ¿`Sostuve` y `Sostengo` son comparables y distintos, o se declaró `sin cambio`? ¿La corrección queda registrada aunque nadie la acepte todavía?
 
-**Falsificador:** una decisión que se tomó con una sola medición y nunca se revisó; aprendizaje medido solo por propósito; una tarea que se volvió más eficiente y más dañina a la vez y el registro no lo nota; una corrección que se impone sin dejar la anterior/
+**Falsificador:** una decisión que se tomó con una sola medición y nunca se revisó; aprendizaje medido solo por propósito; una tarea que se volvió más eficiente y más dañina a la vez y el registro no lo nota; una corrección que se impone sin dejar la anterior; `Sostengo` igual a `Sostuve` presentado como aprendizaje.
 
 ## Sin propósito
 

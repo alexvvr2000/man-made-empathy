@@ -6,7 +6,7 @@
 
 **Piso:** `../Ouroboros/piso.md`. Rige `../Ouroboros/piso.md`.
 
-**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `../Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`.
+**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`.
 
 **Por qué es un lenguaje y no un catálogo:** porque los procesos se aplican uno sobre otro, y aplicar es un proceso, no una tabla.
 
@@ -52,7 +52,7 @@ Una mutación nueva puede nacer de **n primitivos**, no de uno. **Las piezas se 
 
 ## Composición
 
-Un proceso compone con otro cuando su salida es la entrada del otro sin traducción. La composición la comprueba `../Ouroboros/1 Guantelete — primitivo/primitivos/aplicar.md`; no se declara en una tabla sin ejecutarse.
+Un proceso compone con otro cuando su salida es la entrada del otro sin traducción. La composición la comprueba `../Ouroboros/1 Guantelete — primitivo/herramientas/aplicar.md`; no se declara en una tabla sin ejecutarse.
 
 | De | A | Qué pasa |
 |---|---|---|
@@ -71,4 +71,4 @@ Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurr
 
 Sobre estos procesos se construyen otros. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
 
-`../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `../Ouroboros/1 Guantelete — primitivo/primitivos/ingenieria-inversa.md`.
+`../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `../Ouroboros/1 Guantelete — primitivo/herramientas/ingenieria-inversa.md`.

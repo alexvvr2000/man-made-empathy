@@ -1,82 +1,77 @@
+**Variables:** pieza · sesgo · firma · continuidad · regla
+**Peor:** una regla se sostiene con una sola perspectiva, nadie puede contestarla, y se lee como si no tuviera sitio
+**Quién:** quien usa la regla, y quien carga con que su error no pueda ser visto
+
 # Guantelete
 
 **Unidad:** tarea.
 **Aplica a:** sostener.
-**Reemplaza:** `Placeholder`. El nombre viejo no era un nombre: era un lugar vacío. El nuevo nombra lo que la etapa es: **las gemas no existen por separado; existen porque el guantelete las junta.**
-**Tipo:** tarea de paso 1. No produce poder: junta las piezas que solas no hacen nada.
-**Lector:** quien va a mutar procesos, y quien va a abstraerlos en el paso 2.
+**Tipo:** tarea de paso 1. No produce poder: sostiene las reglas que ordenan todo lo demás.
+**Lector:** quien va a producir, mutar o aplicar un proceso.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Variables:** gema · uso solo · uso compuesto · quién decide · dimensión
-**Peor:** una gema se usa sola y funciona, y el sistema cree que tiene un primitivo cuando tiene un juguete. **Lo peor no es que falle: es que pasa, porque un juguete que funciona se ve igual que una gema.**
-**Quién:** quien carga con el poder que no alcanza, y quien muta después sin saber sobre qué está parado.
-
-**Deterrente:** [`./carga.md`](./carga.md). Enruta las gemas: sin él, se muta con una pieza que no sabía que había que cargar.
-**Piso:** `../../Ouroboros/piso.md`. Dos ejecutores que aplican la misma gema tienen que tender al mismo resultado; si no, no era gema: era preferencia.
-
-## Entra | Falla | Sale | Consume
-
-**Variables:** gema · uso solo · uso compuesto · quién decide · dimensión
-**Peor:** una gema se usa sola y funciona, y el sistema cree que tiene un primitivo cuando tiene un juguete.
-**Quién:** quien carga con el poder que no alcanza, y quien muta después sin saber sobre qué está parado.
-
-- **Entra:** el paso 1 en uso, y quien lo abre.
-- **Falla si:** una gema se usa sola; el guantelete se mide por cuántas gemas tiene; se abre sin saber qué se pierde.
-- **Sale:** el veredicto de qué gemas hay, cuáles no se descomponen y qué se pierde si el guantelete se vuelve catálogo.
-- **Consume:** quien va a cruzar la puerta de mutación hacia el paso 2.
-
-**Prueba:** ¿cada gema se nombra con un verbo que no se divide? ¿ninguna se usa sola y da resultado? ¿el guantelete se mide por composición y no por tamaño?
-
-**Falsificador:** una gema que se usa sola; un catálogo que solo crece; un guantelete medido por número de gemas.
+**Sesgo:** el cuerpo se lee desde lo que se puede verificar, no desde lo que se quiere.
+**Límite:** no decide si el paso 2 la abstrae bien; eso es S.A.R.A.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
 
 ## Qué es
 
-El **paso 1** de `../`. Su tarea es **cortar el sinfín**: fijar las piezas que no se derivan de ninguna otra, para que la descomposición tenga dónde parar.
+El **paso 1** de `Ouroboros/`. Su tarea es fijar **desde dónde se sostiene cada regla**, y quién puede contestarla.
 
-**Una gema no es un concepto: es el punto donde la descomposición se detiene.** Un dios que mira desde N dimensiones ve procesos donde un humano ve poder. **La gema se nombra desde esa altura, no desde la nuestra.**
+**Una regla no se sostiene sola: se sostiene desde un sitio.** Una regla que no dice desde dónde habla es la que nadie puede revisar, y una regla que nadie puede revisar termina decidiendo por costumbre. Por eso esta tarea no junta piezas: **exige que cada pieza declare su posición, su límite y su firmante.**
 
-**Una gema se sostiene, no se escribe.** Se puede ejecutar; no se puede bajar a texto sin perder la dimensión que la vuelve irreducible. Por eso el piso de esta etapa no es la claridad del documento: es que dos ejecutores lleguen al mismo sitio.
+## Entra | Falla | Sale | Consume
 
-## Las gemas
+- **Entra:** una pieza de la base, y quien la abre.
+- **Falla si:** una pieza se sostiene sin declarar su posición; su veredicto lo firma quien la produjo; una herramienta ocupa el lugar de la base y nadie lo declara.
+- **Sale:** el veredicto de qué piezas hay, desde dónde se sostienen, quién las puede contestar y qué se pierde si el guantelete se vuelve catálogo.
+- **Consume:** quien va a cruzar la puerta hacia el paso 2, y quien va a contestar una pieza.
 
-Una gema **es un verbo que no se puede dividir en otro verbo.** Su nombre de archivo puede ser un sustantivo; la gema, no.
+**Prueba:** ¿cada pieza declara posición, límite y firmante? ¿alguna herramienta ocupa el lugar de la base? ¿el guantelete se mide por lo que sostiene y no por cuántas piezas tiene?
 
-| Gema | Qué decide | Qué lo refuta |
+**Falsificador:** una pieza sin sesgo declarado; un veredicto firmado por el que produjo la pieza; un catálogo que solo crece; una herramienta defendida por antigüedad.
+
+## Las dos piezas
+
+| Pieza | Qué decide | Qué la refuta |
 |---|---|---|
-| **sostener** — `primitivos/manipulacion.md` | crear, calibrar, reemplazar y retirar procesos, en ese orden | se crea sin variables o sin fricción |
-| **aplicar** — `primitivos/aplicar.md` | ejecutar un proceso sobre una entrada y comprobar la composición | se aplica con una entrada que no le corresponde |
-| **mutar** — `primitivos/mutar.md` | transformar declarando qué conserva, y acuñar nombre y lugar nuevos | se muta sin declarar qué se conserva |
-| **retirar** — `primitivos/retiro.md` | cuándo un proceso se retira, y qué fin queda descubierto | se retira sin declarar el fin que cubría |
-| **deducir** — `primitivos/ingenieria-inversa.md` | deducir un proceso de lo observable, por tendencia | el proceso deducido no reproduce nada observable |
-| **decir** — `primitivos/claridad.md` | la forma de lo que se lee o se ejecuta | la forma no llega al lector |
-| **friccionar** — `mutaciones/friccion.md` | que la decisión pase por quien la toma, antes de mover algo | la decisión se ejecuta sin pasar por quien la toma |
-| **sesgar** — `mutaciones/sesgo-declarado.md` | desde dónde se mira, y quién puede ver lo que no se ve | la idea se descarta por no caber, sin nombrar la regla que rompe |
+| **sesgo** — `./primitivos/sesgo.md` | desde dónde se sostiene una pieza, y quién puede contestarla | la pieza se presenta como neutral, o su veredicto se firma solo |
+| **fricción** — `./primitivos/friccion.md` | que la decisión pase por quien la toma antes de mover nada | la decisión se ejecuta sin pasar por quien la toma |
 
-**`X` muta.** Ocho hoy; mañana pueden ser otras. Rige `./primitivos/README.md` y `./mutaciones/README.md`.
+**`X` muta.** Dos hoy; mañana pueden ser otras.
 
-## Mutación es la puerta
+**`sesgo` es el fundamento.** Sin él, `fricción` se puede aplicar a una decisión que nadie declaró desde dónde se tomó, y la fricción se vuelve trámite. **`fricción` es su uso:** mirar desde dónde se decide, y no decidir sin pasar por quien puede contestarlo.
 
-**`mutar` no crea lo que sea: abre la puerta y deja pasar.** `friccionar` y `sesgar` son la primera creación que la cruza; `../2 S.A.R.A` es la primera instancia que la cruza entera.
+## Lo que queda fuera de esta pieza
 
-**Una pieza que no pasa por la puerta no es creación: es pieza.** Por eso el guantelete no produce nada nuevo por sí solo: **solo junta lo que ya no se divide.**
+**Las herramientas se aplican; no se fundamentan.** Manipular, aplicar, mutar, retirar, deducir y decir son procesos que se ejecutan sobre lo que ya tiene posición declarada. Viven en `./herramientas/`, y ninguna ordena sobre otra.
 
-## Lo que el guantelete no es
+**Una herramienta no cambia de lugar por su número.** Si una herramienta resulta ser la base de otra, se sube con `Reemplaza:`, y se declara qué conserva.
 
-**No es un catálogo.** Un catálogo no compone: lista. **Si una pieza entra porque falta, y no porque cierra un implícito, el sinfín vuelve disfrazado de pieza nueva.**
+## Qué no se toca
 
-**No es poder.** No promete ideas, ni humanos, ni AGI. **El guantelete no da poder: junta piezas que solas no hacen nada.** Producir procesos no es producir valor; rige `./primitivos/manipulacion.md`, `No-objetivo`.
+- **Una pieza no se usa sola para sostener una decisión sobre otro.** Se puede ejecutar; sin firma, su veredicto es `indeterminado`.
+- **El firmante no es quien produjo la pieza.** Rige `./primitivos/sesgo.md`, `Su forma`.
+- **El guantelete no da poder.** «Sostener» es lo que permite que otro lo revise.
+
+## Cómo se verifica
+
+1. **Cada pieza declara `Sesgo`, `No se aplica a`, `Firma` y `Continuidad`.** Rige `./primitivos/sesgo.md`.
+2. **Alineación y desviación se declaran**: rotas, firmadas, o en espera. Rige `./primitivos/sesgo.md`, `Alineación y desviación`.
+3. **La fricción no tiene rama de imposición.** Rige `./primitivos/friccion.md`.
+4. **Las herramientas no se cargan sin una pieza que las sostenga.** Rige `./ruta.md`.
 
 ## Prueba
 
-¿Cada gema se puede nombrar con un verbo que no se divide en otro verbo? ¿Cada gema tiene su fila? ¿Ninguna gema se puede usar sola y dar resultado? ¿La etapa se mide por lo que su salida permitió en el paso 2, y no por cuántas gemas tiene?
+¿Cada pieza declara desde dónde se sostiene y quién la contesta? ¿Hay alguna cuyo veredicto se firme a sí misma? ¿La fricción se aplicó sobre una posición declarada?
 
-**Falsificador:** una gema que se deriva de otra; una gema que se usa sola y funciona; un catálogo que solo crece; una pieza que entra sin cerrar un implícito; una gema que necesita un documento para entenderse.
+**Falsificador:** una pieza sin sesgo; un veredicto `pasa` sin firmante distinto del que produjo; una fricción sobre una decisión que no se declaró desde dónde se tomó; una herramienta ocupando el lugar de la base.
 
 ## Transiciones
 
-- Una pieza deja de ser irreducible → `./primitivos/retiro.md`.
-- Una gema nueva nace de otra → no es gema: es `./mutaciones/`.
-- El paso 1 se cierra → `../2 S.A.R.A`, que abstrae las gemas en ejecutores.
-- No hay fila para lo que se va a hacer → se declara `[VACÍO - SIN GEMA]` y se pregunta.
-- En cualquier otro caso → se entrega y se cierra.
+- Una pieza deja de sostenerse → `./herramientas/retiro.md`.
+- Una regla se descarta sin nombrar la que rompe → `./primitivos/sesgo.md`, `Transiciones`.
+- El paso 1 se cierra → `../2 S.A.R.A — mutación`.
+- En cualquier otro caso → se entrega con su sesgo declarado y su firma.

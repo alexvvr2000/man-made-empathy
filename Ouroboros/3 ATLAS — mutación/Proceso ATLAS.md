@@ -8,6 +8,11 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Sesgo:** el mensaje se mide desde el techo del otro, no desde la elegancia del emisor.
+**Límite:** no juzga si el otro eligió bien.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 **Variables:** emisión · techo · sesgo · canal · cuerpo que recibe
 **Peor:** se emite sin techo y el otro entiende otra cosa, sin forma de saberlo
 **Quién:** quien recibe, y quien emite

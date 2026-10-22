@@ -75,7 +75,7 @@ Explicación: [n frases] | Revisó: [sí|no] | Aceptó el razonamiento: [sí|no]
 
 ## Transiciones
 
-- La fricción no cambió ninguna decisión → `////////////1 Guantelete — primitivo/mutaciones/friccion/md`, y se revisa el diseño/
+- La fricción no cambió ninguna decisión → `////////////1 Guantelete — primitivo/primitivos/friccion/md`, y se revisa el diseño/
 - El que contesta es el que produjo → se separa, o se declara `Sin control`/
 - La explicación adormece → se acorta y se exige revisión de la salida/
 - En cualquier otro caso → se entrega y se cierra/

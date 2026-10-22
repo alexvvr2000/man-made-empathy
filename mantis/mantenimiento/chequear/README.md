@@ -23,5 +23,5 @@
 ## Procesos
 
 | Proceso | Qué decide | Qué lo refuta |
-|---|---|---|| `auditar-configuracion.md` | si las cifras, las rutas, la jerga y el nivel coinciden con lo que hay | una cifra que no cuadra y no se declara |
-| `medir-acero.md` | si un sistema se puede reemplazar sin perder lo que servía | se certifica sin las cuatro propiedades |
+|---|---|---|
+| `auditar-configuracion.md` | si las cifras, las rutas, la jerga y el nivel coinciden con lo que hay | una cifra que no cuadra y no se declara |

@@ -3,7 +3,7 @@
 **Unidad:** tarea.
 **Aplica a:** deducir.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los primitivos del guantelete. Produce procesos a partir de lo observable.
+**Nivel:** herramienta. Se aplica sobre lo observable, y no es fundamento. Produce procesos a partir de lo observable.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -13,7 +13,7 @@
 **Quién:** quien deduce, y quien aplica lo deducido
 
 
-**Manipulación.** Todo cambio a un proceso pasa por `./manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
+**Manipulación.** Todo cambio a un proceso pasa por ../manipulacion.md.: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
 ## Tesis
 
@@ -23,7 +23,7 @@ Es el proceso que produce procesos por prueba y error, en vez de por diseño. Si
 
 ## Pregunta de entrada
 
-`Entra | Falla | Sale | Consume`
+.Entra | Falla | Sale | Consume.
 
 - **Entra:** lo observable: conducta, resultado, efecto, registro, o el borde de un sistema.
 - **Falla:** el proceso deducido no reproduce nada observable, o no sirve para nada.
@@ -40,7 +40,7 @@ Es el proceso que produce procesos por prueba y error, en vez de por diseño. Si
 
 **Techo:** un proceso que, al seguirlo, tiende al mismo resultado observable. No es copia; es tendencia.
 
-`Piso: [lo observable] | Techo: [qué resultado debe tender a repetir] | Idéntico: [no]`
+.Piso: [lo observable] | Techo: [qué resultado debe tender a repetir] | Idéntico: [no].
 
 Un proceso deducido que no tiende a nada no es ingeniería inversa: es una descripción del borde.
 
@@ -50,7 +50,7 @@ Un proceso deducido que no tiende a nada no es ingeniería inversa: es una descr
 2. **Modelar.** Escribir un proceso que produzca esa salida desde esa entrada. Se escribe como proceso completo, no como explicación.
 3. **Revisar.** Correr el proceso sobre un caso que no se usó para extraerlo. Si tiende al mismo resultado observable, el proceso sirve; si no, se ajusta el modelo, no la observación.
 4. **Medir la tendencia.** Cuánto se acerca y dónde se desvía. El desvío se declara; no se esconde.
-5. **Entregar.** El proceso con su `Entra | Falla | Sale | Consume`, su `Piso` y su `Techo`, y el registro de dónde se desvía.
+5. **Entregar.** El proceso con su .Entra | Falla | Sale | Consume., su .Piso. y su .Techo., y el registro de dónde se desvía.
 
 **Prohibido** ejecutar el paso N+1 sin la salida del N. Prohibido modelar antes de extraer.
 
@@ -58,24 +58,24 @@ Un proceso deducido que no tiende a nada no es ingeniería inversa: es una descr
 
 Un proceso deducido puede no dar el mismo resultado al 100%. Sigue siendo útil si su desvío está declarado y si seguir el proceso tiende al resultado. Lo académico no decide: decide el uso.
 
-`Tendencia: [qué tan cerca queda] | Desvío: [dónde se aparta] | Sirve: [sí|no]`
+.Tendencia: [qué tan cerca queda] | Desvío: [dónde se aparta] | Sirve: [sí|no].
 
 ## Cerca
 
 Este proceso no afirma un estado interno. Deduce un proceso que produce un efecto; no deduce que el original lo sienta. Lo que se puede mostrar es la conducta y el resultado.
 
-Un proceso deducido que produce un efecto que el otro lado no puede reconstruir es manipulación, y no entra. Rige `../../2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md` 7 y `../../../Pruebas/prueba de rendicion.md`, condición 6.
+Un proceso deducido que produce un efecto que el otro lado no puede reconstruir es manipulación, y no entra. Rige .../../2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md. 7 y .../../../../Pruebas/prueba de rendicion.md., condición 6.
 
 ## Admisión
 
-El proceso deducido entra si su salida cambia una decisión en el uso vigente, o si declara `Plazo` y `Criterio`. Rige `./claridad.md` `1.12`.
+El proceso deducido entra si su salida cambia una decisión en el uso vigente, o si declara .Plazo. y .Criterio.. Rige ../claridad.md. .1.12..
 
 Sin Falsificador no entra: un proceso sin el caso que lo incumple es una opinión.
 
 ## Transiciones
 
-- Si el proceso reproduce el resultado observable → se entrega con su `Tendencia` y su `Desvío`.
+- Si el proceso reproduce el resultado observable → se entrega con su .Tendencia. y su .Desvío..
 - Si tiende pero se desvía → se entrega igual, y el desvío queda declarado.
-- Si no tiende a nada → `[VACÍO - SIN PROCESO DEDUCIDO]`.
-- Si la tarea necesita comunicar el proceso deducido → `.../3 ATLAS — mutación/Proceso ATLAS.md`.
+- Si no tiende a nada → .[VACÍO - SIN PROCESO DEDUCIDO]..
+- Si la tarea necesita comunicar el proceso deducido → ..../3 ATLAS — mutación/Proceso ATLAS.md..
 - En cualquier otro caso → se entrega y se cierra.

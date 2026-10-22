@@ -83,7 +83,7 @@ Un proceso puede ser perfectamente consistente **y perfectamente inútil**: tres
 **Entra:** una tarea, un proceso, y tres ejecutores de capacidad distinta, en el mismo piso.
 **Falla:** se adapta el proceso para un ejecutor; se corre una sola vez por ejecutor; se compara sin que el ejecutor sea estable; se elige la posición por gusto y no por repetición; se descarta el proceso en vez de guardarlo sin rama.
 **Sale:** la posición (`único`, `especializado` o `sin rama`), las corridas que la sostienen, y el nombre acuñado de la rama.
-**Consume:** quien va a mutar el proceso. Si la posición es `especializado`, va a `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md` con dos ramas. Si es `sin rama`, se guarda con su `Vacío:` y no se toca.
+**Consume:** quien va a mutar el proceso. Si la posición es `especializado`, va a `../../2 Ouroboros/1 Guantelete — primitivo/herramientas/mutar.md` con dos ramas. Si es `sin rama`, se guarda con su `Vacío:` y no se toca.
 
 ## Ancla
 
@@ -110,7 +110,7 @@ Rama: [nombre] | Reemplaza: [anterior o NINGUNA]
 
 ## Transiciones
 
-- La posición es `especializado` → `../../2 Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, dos ramas con su `Acta`.
+- La posición es `especializado` → `../../2 Ouroboros/1 Guantelete — primitivo/herramientas/mutar.md`, dos ramas con su `Acta`.
 - La posición es `sin rama` → se guarda con `Vacío:` y fecha; no se muta.
 - El piso no corre igual en dos ejecutores → `../../2 Ouroboros/piso.md`; sin piso no hay prueba.
 - Hace falta juzgar si el proceso sirve → `./prueba de utilidad real.md`.

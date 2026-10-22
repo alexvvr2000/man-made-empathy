@@ -6,6 +6,11 @@
 **Piso:** `../../Ouroboros/piso.md`.
 **Abstracción:** `../` — ATLAS es el paso 3 de `Ouroboros/`.
 
+**Sesgo:** la ruta se lee desde la forma que se quiere emitir, no desde el gusto.
+**Límite:** no elige la forma por el autor.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 ## Entra | Falla | Sale | Consume
 
 **Variables:** mensaje · techo · sesgo · canal · quién recibe
@@ -44,7 +49,7 @@
 
 - No hay fila para lo que se va a expresar → `[VACÍO - SIN FORMA]`.
 - El techo no se alcanzó → se registra el fallo en `./indice de formas.md`.
-- La idea no se puede expresar → `../1 Guantelete — primitivo/primitivos/claridad.md`.
+- La idea no se puede expresar → `../1 Guantelete — primitivo/herramientas/claridad.md`.
 - En cualquier otro caso → se enruta, se emite y se cierra.
 
 ## Lectura

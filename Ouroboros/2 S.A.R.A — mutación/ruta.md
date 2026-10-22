@@ -8,6 +8,11 @@
 **Integridad:** `./integridad.md`. Se carga cuando el chequeo encuentra que hay que reacomodar el nivel o que la tarea es fantasma.
 **Criterio:** `./decisión.md`. Se carga cuando una decisión se va a repetir sin fricción.
 
+**Sesgo:** la ruta se lee desde el fallo comprobado que llega.
+**Límite:** no decide si la sub-tarea cubre el fallo; eso es integridad.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 ## Entra | Falla | Sale | Consume
 
 **Variables:** petición · proceso · sub-tarea · condición · quién la levanta

@@ -1,5 +1,9 @@
 # retiro
 
+**Unidad:** proceso.
+**Aplica a:** retirar.
+**Nivel:** herramienta. Se aplica sobre lo que ya tiene sesgo declarado; no es fundamento.
+
 **Variables:** proceso · fin que cubría · lo que deja · quién lo retira · qué queda en su lugar
 **Peor:** un proceso que ya no cubre nada se queda porque nadie decidió sacarlo. Ocupa su lugar, se mantiene, se lee, y **su fin quedó descubierto por otro lado sin que nadie lo note.**
 **Quién:** quien depende de lo que el proceso producía. **Si nadie lo nota, nadie lo usa.**

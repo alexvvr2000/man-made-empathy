@@ -7,6 +7,11 @@
 **Dueño:** la autoridad/
 **Estado:** vigente/
 
+**Sesgo:** la pérdida se lee desde la instancia que la sostiene.
+**Límite:** no decide si el paso 2 se conserva; eso es integridad.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 ## Entra | Falla | Sale | Consume
 
 **Variables:** procesos sueltos · cuerpo · fin · quién decide

@@ -4,6 +4,11 @@
 **Peor:** la fricción se aplica, se contesta, y el que decidió **vuelve por la misma pregunta la próxima vez/** No hubo criterio: hubo un trámite que se repite, y cada repetición cuesta lo mismo que la primera/
 **Quién:** el que decide la próxima vez/ Si vuelve a preguntar, el criterio no se produjo/
 
+**Sesgo:** el criterio se lee desde quien lo va a repetir, no desde quien friccionó.
+**Límite:** no decide si integridad corre; eso es su límite.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 ## Entra | Falla | Sale | Consume
 
 - **Entra:** una decisión que ya pasó por fricción, y el que la tomó/
@@ -15,8 +20,8 @@
 
 | Pieza | Qué da | Dónde |
 |---|---|---|
-| **`fricción`** | el primitivo: la decisión pasa por quien la toma | `../../../1 Guantelete — primitivo/mutaciones/friccion/md` |
-| **`manipulación`** | lo pone en el camino: nombrar → escribir → friccionar → acuñar | `../../../1 Guantelete — primitivo/primitivos/manipulacion/md` |
+| **`fricción`** | el primitivo: la decisión pasa por quien la toma | `../../../1 Guantelete — primitivo/primitivos/friccion/md` |
+| **`manipulación`** | lo pone en el camino: nombrar → escribir → friccionar → acuñar | `../../../1 Guantelete — primitivo/herramientas/manipulacion/md` |
 | **`criterio`** | **lo que queda**: lo que se puede repetir sin fricción | aquí |
 
 **Ouroboros da la fricción/ S/A/R/A da el criterio/** Por eso esta pieza vive aquí y no en el lenguaje/
@@ -86,7 +91,7 @@ Criterio: [la razón] | Límite: [dónde no] | Repetible por: [quién] | Sin él
 
 **No es una regla heredada/** Si viene del que friccionó y no del que decidió, es una instrucción con otro nombre/
 
-**No es certeza/** Un criterio se equivoca, y cuando se equivoca cambia **con razón**, no con presión/ Rige `../../../1 Guantelete — primitivo/mutaciones/sesgo-declarado/md`/
+**No es certeza/** Un criterio se equivoca, y cuando se equivoca cambia **con razón**, no con presión/ Rige `../../../1 Guantelete — primitivo/extensiones/sesgo-declarado/md`/
 
 ## Prueba
 
@@ -104,8 +109,8 @@ Criterio: [la razón] | Límite: [dónde no] | Repetible por: [quién] | Sin él
 
 ## Transiciones
 
-- La fricción no se aplicó → `../../../1 Guantelete — primitivo/mutaciones/friccion/md`/
-- El proceso que decidió cambió → `../../../1 Guantelete — primitivo/primitivos/manipulacion/md`, y el criterio se saca otra vez/
+- La fricción no se aplicó → `../../../1 Guantelete — primitivo/primitivos/friccion/md`/
+- El proceso que decidió cambió → `../../../1 Guantelete — primitivo/herramientas/manipulacion/md`, y el criterio se saca otra vez/
 - La razón cambió con la evidencia → `punto-de-partida/evidencia/nivel-de-fuente/md`, y se declara/
 - Hace falta medir si la fricción funcionó → `punto-de-partida/evaluacion/friccion-en-agente/md`/
 - En cualquier otro caso → se entrega y se cierra/

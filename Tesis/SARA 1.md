@@ -39,7 +39,7 @@ Reemplaza: NINGUNA
 
 **Y cada mutación de S.A.R.A crea su propia instancia, no su propio Ouroboros.** El lenguaje sigue siendo uno. **Una mutación puede cambiar todo menos el lenguaje con el que declara el cambio.**
 
-Rige `../Ouroboros/CRITERIO.md` y `../Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`.
+Rige `../Ouroboros/CRITERIO.md` y `../Ouroboros/1 Guantelete — primitivo/herramientas/mutar.md`.
 
 ## Qué usa de `corpus/`
 

@@ -11,6 +11,11 @@
 **Dueño:** la autoridad/
 **Estado:** vigente/
 
+**Sesgo:** el veredicto se lee desde el triángulo, no desde la confianza del que muta.
+**Límite:** no decide entre dos caminos; eso lo decide la autoridad.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 **Variables:** tarea · folder · hermanos · enunciado · salida · implícito · contenido · nombre
 **Peor:** el chequeo pasa por alto lo que falta **porque nadie lo verbalizó**, y el proceso entra con buena forma y contenido mudo/ La forma está correcta y el archivo no dice nada/
 **Quién:** el ejecutor que muta/ Si no verbaliza, el trabajo queda a medias y la autoridad lo tiene que hacer a mano/
@@ -168,7 +173,7 @@ Ese proceso se escribe en la corrida/ **No se deja para después/**
 | **el sesgo declarado** | desde dónde mira quien muta | el veredicto se saca con dos puntos y se llama triángulo |
 | **lo que hay** | el estado medible de la situación actual | se juzga contra lo que se creía, no contra lo que está |
 
-**El sesgo no es un adorno: es lo que se adapta.** Lo que sale de un proceso muchas veces se ajusta a quien lo mira, **como la física llevada al extremo: el resultado no existe igual para dos observadores.** Declararlo no lo corrige; **lo vuelve comparable.** Rige `../1 Guantelete — primitivo/mutaciones/sesgo-declarado.md`, `Por qué es una gema y no un adorno`.
+**El sesgo no es un adorno: es lo que se adapta.** Lo que sale de un proceso muchas veces se ajusta a quien lo mira, **como la física llevada al extremo: el resultado no existe igual para dos observadores.** Declararlo no lo corrige; **lo vuelve comparable.** Rige `../1 Guantelete — primitivo/extensiones/sesgo-declarado.md`, `Por qué es una gema y no un adorno`.
 
 ```
 Corre: siempre, antes de mutar. El criterio no decide si corre.
@@ -368,8 +373,8 @@ Sobre sí mismo: [qué encontró|nada]
 ## Transiciones
 
 - La contradicción está en un estándar → `///mantis/mantenimiento/editar/md`, gana el estándar/
-- El par no se entiende → `//primitivos/claridad/md`, `1/4`/
-- Hace falta saber si una creación se sostiene → `//primitivos/manipulacion/md`, `No-objetivo`/
-- Falta el sesgo de la comparación → `//mutaciones/sesgo-declarado/md`/
+- El par no se entiende → `//herramientas/claridad/md`, `1/4`/
+- Hace falta saber si una creación se sostiene → `//herramientas/manipulacion/md`, `No-objetivo`/
+- Falta el sesgo de la comparación → `//extensiones/sesgo-declarado/md`/
 - Hay que rehacer una pieza desde cero → la mutación de su tarea, `Mutar la serie`/
 - En cualquier otro caso → se entrega la tarea reescrita y se cierra/

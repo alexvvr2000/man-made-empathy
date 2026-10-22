@@ -7,6 +7,11 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Sesgo:** la pérdida se lee desde el otro lado, no desde el emisor.
+**Límite:** no decide si el techo se alcanzó; eso lo decide el uso.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 **Variables:** mensaje · techo · sesgo · nivel de fuente · quién recibe · qué sostiene después
 **Peor:** ATLAS promete verdad, el otro la cree, y la reconstrucción es impecable. **Lo peor no es que el mensaje falle: es que funciona, y por eso nadie lo vuelve a mirar.**
 **Quién:** quien recibe la salida y decide con ella, y quien carga después con lo que se creyó.
@@ -63,6 +68,6 @@ Su trabajo es **ser el puente**: lo que sale de un proceso llega a otro lado y p
 ## Transiciones
 
 - El techo no se alcanzó → se registra en `./indice de formas.md`.
-- La idea no se puede expresar → `../1 Guantelete — primitivo/primitivos/claridad.md`, `1.14`.
-- Falta el sesgo de la comparación → `../1 Guantelete — primitivo/mutaciones/sesgo-declarado.md`.
+- La idea no se puede expresar → `../1 Guantelete — primitivo/herramientas/claridad.md`, `1.14`.
+- Falta el sesgo de la comparación → `../1 Guantelete — primitivo/extensiones/sesgo-declarado.md`.
 - En cualquier otro caso → se entrega y se cierra.

@@ -85,6 +85,6 @@ Desacuerdo: [dónde debería oponerse el otro] | Si no se opone: [qué acepta si
 ## Transiciones
 
 - La mirada que contradice no existe → se declara `Sin contradictor` y se entrega marcado/
-- La posición no se puede declarar → `////////////1 Guantelete — primitivo/mutaciones/sesgo-declarado/md`/
+- La posición no se puede declarar → `////////////1 Guantelete — primitivo/extensiones/sesgo-declarado/md`/
 - El error ya se propagó → `//auditar-sesgo/md`/
 - En cualquier otro caso → se entrega y se cierra/

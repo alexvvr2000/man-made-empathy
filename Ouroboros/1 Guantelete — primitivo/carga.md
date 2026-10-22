@@ -2,82 +2,63 @@
 
 **Unidad:** tarea.
 **Aplica a:** enrutar.
-**Tipo:** deterrente de la tarea. No produce, no ejecuta, no chequea: **enruta las gemas y cierra la puerta de cada una.**
+**Tipo:** deterrente de la tarea. No produce, no ejecuta, no chequea: **enruta las piezas y cierra la puerta de cada una.**
 **Lector:** quien va a usar el guantelete, y quien lo va a mutar.
+**Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Variables:** gema · uso solo · uso compuesto · quién decide · dimensión
-**Peor:** una gema se usa sola y funciona, y el sistema cree que tiene un primitivo cuando tiene un juguete. Nadie lo nota porque el juguete produce una salida, y una salida que funciona no se pregunta de dónde viene.
-**Quién:** quien carga con el poder que no alcanza, y quien muta después sin saber sobre qué está parado.
+**Sesgo:** la pérdida se lee desde el paso que la declara.
+**Límite:** no decide si la pieza sirve; eso es integridad.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
+**Variables:** pieza · posición · firma · herramienta · pérdida
+**Peor:** una pieza se sostiene sin posición declarada y su error no tiene dónde ser visto, y nadie nota que perdió la prueba
+**Quién:** quien usa la pieza, y quien carga con lo que se pierde cuando su firma se la pone quien la produjo
+
+## Qué es
+
+**El guantelete es una tarea.** Tiene dos piezas y una sola cosa que las sostiene: **que digan desde dónde hablan.** Este archivo no explica qué son: **decide cuál se carga en cada momento y qué se pierde si no se carga.**
 
 ## Entra | Falla | Sale | Consume
 
-**Variables:** gema · uso solo · uso compuesto · quién decide · dimensión
-**Peor:** una gema se usa sola y funciona: el sistema cree que tiene un primitivo cuando tiene un juguete.
-**Quién:** quien carga con el poder que no alcanza.
-
 - **Entra:** el guantelete en uso.
-- **Falla si:** no dice qué se pierde cuando el guantelete se vuelve catálogo.
-- **Sale:** la tabla Si pasa esto | Se pierde | Y el síntoma es, y el límite del guantelete.
+- **Falla si:** no dice qué se pierde cuando una pieza se sostiene sin posición declarada.
+- **Sale:** la tabla .Si pasa esto | Se pierde | Y el síntoma es., y el límite del guantelete.
 - **Consume:** quien decide si el paso 1 se sostiene.
 
 **Prueba:** ¿la pérdida se puede señalar? ¿el síntoma se ve cuando pasa?
 
 **Falsificador:** un deterrente sin tabla; una pérdida que nadie puede señalar.
 
-## Qué es
-
-**El guantelete es una tarea.** Tiene gemas, y cada gema resuelve una cosa. Este archivo no explica qué son: **decide cuál se carga en cada momento.**
-
-A diferencia de un derrotero —que enruta tareas a un agente— **este enruta gemas dentro de una sola tarea.** Es la puerta de la etapa 1, y ninguna se abre sola.
-
-**El flujo es el mismo que el del paso 2 y el del paso 3:** lo que no está en una fila de abajo se declara `[VACÍO - SIN GEMA]` y se pregunta; no se improvisa.
-
 ## Qué se pierde si se viola
 
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
-| una gema se usa sola y funciona | el punto donde se para | el sistema cree que tiene un primitivo cuando tiene un juguete |
-| entra una pieza que se deriva de otra | la irreducibilidad | el sinfín vuelve disfrazado de pieza nueva |
-| una pieza entra sin cerrar un implícito | la justificación | el guantelete se vuelve un catálogo: crece y no compone |
-| una gema llega al paso 2 sin pasar por `mutar` | la puerta | la abstracción se construye sobre algo que no se declaró |
-| el guantelete se mide por cuántas gemas tiene | el criterio | se defiende por tamaño lo que debía defenderse por composición |
-| se retira una gema sin declarar el fin que cubría | el rastro | el hueco existe y nadie sabe que estaba |
-
-**Chequear que el nivel se sostiene no es una gema de esta etapa.** Rige `../2 S.A.R.A — mutación/integridad.md`.
-
-## Las puertas que no se abren solas
-
-| Puerta | Cuándo se cierra | Quién la levanta |
-|---|---|---|
-| **sostener** | si no se nombran las variables antes de crear | la autoridad |
-| **aplicar** | si la entrada no le corresponde al proceso | quien aplica |
-| **mutar** | si no se declara qué conserva y qué reemplaza | quien muta |
-| **retirar** | si no se declara el fin que queda descubierto | quien retira |
-| **deducir** | si el deducido no reproduce nada observable | quien deduce |
-| **decir** | si la forma no llega al lector | quien emite |
-| **friccionar** | si la decisión se ejecuta sin pasar por quien la toma | quien decide |
-| **sesgar** | si se descarta sin nombrar la regla que rompe | quien mira |
-
-**Cerrar una puerta no es bloquear: es no dejar pasar algo que iba a fallar después, más lejos y más caro.**
+| una pieza se sostiene sin posición declarada | la comparabilidad | se lee como si no tuviera sitio, y su error no tiene dónde ser visto |
+| el veredicto lo firma quien produjo la pieza | la prueba | hay una firma, y todo pasa siempre |
+| la fricción se aplica a una decisión que no se declaró desde dónde se tomó | el sentido de la fricción | se pregunta sin saber a quién se le pregunta |
+| una pieza se usa sola y funciona | el punto donde se para | el sistema cree que tiene un primitivo cuando tiene un juguete |
+| una herramienta ocupa el lugar de la base | la jerarquía | el fundamento se decide por costumbre, y el número de herramientas crece |
+| se descarta una idea sin nombrar la regla que rompe | la reconstrucción del descarte | lo nuevo se pierde y lo equivocado se queda |
+| una pieza se presenta como neutral | el lugar donde la mirada propia termina | converge a sí misma y ya no requiere mirar |
 
 ## Lo que el guantelete no es
 
-**No es un estándar.** Es una tarea. El estándar es `../../Tesis/`, y el guantelete lo cumple.
+**No es un catálogo.** Dos piezas no se listan: **se sostienen la una a la otra.**
 
-**No es un catálogo.** Las gemas no se listan: **se componen.** La salida de una es la entrada de otra sin traducción.
+**No es poder.** No promete AGI, ni ideas, ni humanos. **Da exactamente lo que permite que otro lo revise.**
 
-**No es una jerarquía.** Las gemas no mandan unas sobre otras; cada una se rompe de una manera distinta.
+**No es una jerarquía de importancia por número.** .sesgo. es el fundamento y .fricción. es su uso; las herramientas no mandan sobre la base, y la base no decide entre herramientas.
 
 ## Prueba
 
-¿Cada sub-tarea tiene su deterrente? ¿Cada gema tiene su fila en la tabla? ¿Cada puerta declara cuándo se cierra y quién la levanta? ¿Una mutación puede llegar al paso 2 sin haber pasado por `mutar`?
+¿Cada pieza tiene su fila? ¿Cada puerta declara cuándo se cierra y quién la levanta? ¿Una herramienta se puede cargar sin la pieza de base? ¿Hay alguna pérdida que no se pueda señalar?
 
-**Falsificador:** una sub-tarea sin deterrente; una gema sin fila; una puerta que se abre sola; dos gemas cargadas en la misma tarea sin declararlo; una mutación que llega a `integridad` después de haber mutado.
+**Falsificador:** una pieza sin fila; una puerta que se abre sola; dos piezas cargadas en la misma tarea sin declararlo; una herramienta cargada sin sesgo declarado; una pérdida que nadie puede señalar.
 
 ## Transiciones
 
-- No hay fila para lo que se va a hacer → se declara `[VACÍO - SIN GEMA]` y se pregunta; no se improvisa.
-- Una sub-tarea no puede declarar su deterrente → se declara fantasma y se retira.
-- Una gema no tiene puerta → rige `./mutaciones/sesgo-declarado.md`, y se nombra la regla que rompe.
+- No hay fila para lo que se va a hacer → se declara .[VACÍO - SIN PIEZA]. y se pregunta; no se improvisa.
+- Una pieza no puede declarar su firma → su veredicto es .indeterminado..
 - En cualquier otro caso → se enruta, se ejecuta y se cierra.

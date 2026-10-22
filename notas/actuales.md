@@ -35,6 +35,10 @@ Rige: claridad
 | Dicho | De | Tipo | Usa | Sostenido | Estado | Vista |
 |---|---|---|---|---|---|---|
 | La distinción entre entregable de humano y de máquina ya está en claridad 1.4: la marca la forma, no el destinatario. | claridad 1.20 | decisión | Ouroboros/1 Guantelete/claridad.md | frontera | vivo | vista 2026-10-22 |
+| El guantelete se reescribe: dos piezas de base, sesgo como fundamento y fricción como su uso; las otras seis pasan a herramientas. Sesgo declarado queda como extensión que aplica la pieza sesgo. | 1 Guantelete — primitivo/rastro.md, primitivos/sesgo.md | decisión | Ouroboros/1 Guantelete | frontera | vivo | vista 2026-10-22 |
+| Se recuperan las Leyes de Diseño de Instrucciones de git y entran al formato de proceso como cuerpo ejecutable y campos condicionales; la continuidad real de aprender es Sostuve/Contra/Sostengo. | Ouroboros/formato de proceso.md, 2 S.A.R.A — mutación/aprendizaje/aprender.md | decisión | Ouroboros | frontera | vivo | vista 2026-10-22 |
+| El formato de procesos se enruta desde mantis: editar/enrutar-formato.md se carga al escribir o corregir un proceso, y cita el estándar en vez de copiarlo. | mantis/mantenimiento/editar/enrutar-formato.md, mantis/Derrotero.md | decisión | mantis | frontera | vivo | vista 2026-10-22 |
+| Las dos rutas rotas se arreglaron sin preguntar: las rutas se corrigen solas. El guantelete y los entes llevan sus condicionales, y el formato de ente declara que sus tres piezas son procesos. | Ouroboros/formato de ente.md, piso/rutas.ps1 | decisión | Ouroboros, mantis | frontera | vivo | vista 2026-10-22 |
 
 ## Las notas
 

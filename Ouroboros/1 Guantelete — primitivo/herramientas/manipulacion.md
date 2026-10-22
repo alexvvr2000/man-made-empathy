@@ -4,6 +4,7 @@
 **Aplica a:** manipular procesos: crear, calibrar, reemplazar y retirar.
 **Reemplaza:** `Proceso de creación de procesos`. El nombre viejo ya no era exacto: el proceso no solo crea, también reemplaza, calibra y retira. Manipular incluye las cuatro.
 **Tipo:** proceso. Se ejecuta, no se interpreta.
+**Nivel:** herramienta. Produce los procesos que se aplican debajo, y no es fundamento: se aplica sobre lo que ya tiene sesgo declarado.
 **Lector:** quien produce procesos y quien los ejecuta.
 **Alcance:** todo proceso de la situación actual.
 **Dueño:** la autoridad.
@@ -89,13 +90,13 @@ Ningún cambio a un proceso entra sin cuatro pasos, y **cada uno deja algo que e
 4. ACUÑAR       →  el nombre nuevo de la rama
 ```
 
-**No es un nivel nuevo: es el orden que ya existía sin declararse.** Los cuatro pasos viven repartidos en `./mutar.md` y `../mutaciones/friccion.md`; aquí se declara que **no se pueden invertir ni omitir.**
+**No es un nivel nuevo: es el orden que ya existía sin declararse.** Los cuatro pasos viven repartidos en `./mutar.md` y `../primitivos/friccion.md`; aquí se declara que **no se pueden invertir ni omitir.**
 
 | Paso | De dónde viene | Qué deja para el siguiente |
 |---|---|---|
 | **Nombrar** | `./mutar.md`, `Nombre y expansión` | qué mueve el cambio y quién lo puede refutar |
 | **Escribir** | `./`, `Escribir desde el caso` | el texto que se va a friccionar |
-| **Friccionar** | `../mutaciones/friccion.md` | la decisión contestada, con `Quién` o `ninguno` |
+| **Friccionar** | `../primitivos/friccion.md` | la decisión contestada, con `Quién` o `ninguno` |
 | **Acuñar** | `./mutar.md`, `Acta` | el nombre de la rama, con `Reemplaza:` |
 
 **Sin fricción no hay cambio, y sin acuñación el cambio no existe en la conversación.** Lo que haya pasado entre ambos es movimiento, no manipulación.

@@ -37,7 +37,74 @@ Un proceso lleva **variables arriba**, **el bloque de entrada**, y **su reverso*
 | `Prueba` | cómo se comprueba que cumplió | `**Prueba:** ...` o `## Prueba` |
 | `Falsificador` | qué lo refuta | `**Falsificador:** ...` o `## Falsificador` |
 
-**Las tres variables van arriba del primer campo**, como línea propia. Sin ellas no hay contra qué chequearlo cuando falla: rige `./1 Guantelete — primitivo/primitivos/manipulacion.md`, `Las variables`.
+**Las tres variables van arriba del primer campo**, como línea propia. Sin ellas no hay contra qué chequearlo cuando falla: rige `./1 Guantelete — primitivo/herramientas/manipulacion.md`, `Las variables`.
+
+## Los campos condicionales
+
+**Todo proceso tiene nueve campos. Hay cuatro más que solo se escriben cuando la pieza es de la base.** Un campo que no cambia una decisión no se escribe: **los condicionales no son un formulario, son una prueba.** Se escriben así: `**Sesgo:** [la posición desde la que se sostiene]`, `**Límite:** [No se aplica a qué]`, `**Firma:** [quién puede contestarla]` y `**Continuidad:** [veces revisada | última | qué cambió | contra qué]`.
+
+| Campo | Cuándo se escribe | Forma literal |
+|---|---|---|
+
+
+**La regla del condicional.** Se escribe el `Sesgo` o se declara por qué no aplica. Un límite que no se escribió no existe: es `No se aplica a: nada que esto exija`.
+
+**`Firma` obligatoria con `Sesgo`.** Un veredicto que se firma a sí mismo no es veredicto: es una firma. Mientras no haya firmante distinto del que produjo la pieza, el veredicto es `indeterminado`, no `pasa`. Rige `./1 Guantelete — primitivo/primitivos/sesgo.md`, `Su forma`.
+
+**`Continuidad` obligatoria donde el proceso aprende.** Lo que no se vuelve a medir se convierte en absoluto. Un proceso que decide, y su decisión no cambia cuando cambia la evidencia, se vuelve absoluto sin darse cuenta. Rige `./2 S.A.R.A — mutación/aprendizaje/aprender.md`, `Continuidad`.
+
+**Prueba:** ¿la pieza es de la base? ¿declara su `Sesgo`, su límite y su firmante? ¿el proceso aprende y su `Continuidad` dice contra qué se revisa?
+**Falsificador:** una pieza de la base sin `Sesgo`; un `Sesgo` sin `No se aplica a`; una `Firma` que nombra al productor; un proceso que aprende con `Continuidad` vacía; un condicional rellenado con «no aplica» donde sí aplica.
+
+## La forma del cuerpo
+
+**El cuerpo no cuenta lo que el proceso es: lo ejecuta.** Se escribe como compuertas numeradas, no como prosa. La prosa explica un proceso que ya se leyó; el cuerpo lo recorre.
+
+**Compuertas secuenciales.** El artefacto del paso N es el insumo obligatorio del N+1. Cada transición declara la restricción, no la sugiere:
+
+```
+1. [qué entra] → [el artefacto del paso]
+2. [qué se calcula] → [el artefacto del paso]
+Prohibido ejecutar el paso N+1 sin la salida del N.
+```
+
+**Sin verbos de sugerencia.** Todo bifurcación cierra con una rama por defecto: `Si ... → ... | Si ... → ... | En cualquier otro caso → ...`. Queda prohibido `procura`, `idealmente`, `si es necesario`, `cuando sea apropiado`. **La numeración es continua: si se quita un paso, se renumera.**
+
+**Anclas de una línea.** Toda clasificación, medición o supuesto se declara en una línea de cinco a doce palabras, antes o junto a la acción. Para escribirla, el ejecutor tiene que resolver la clasificación antes: **no puede escribir el ancla sin haberla hecho.**
+
+**Tres ángulos por obligación.** Una obligación que no puede omitirse se escribe desde tres sitios distintos: el imperativo, el caso que la incumple (el falsificador) y el costo de omitirla. Saltarse uno no salva del otro. **Prohibido confiar en una sola formulación.** La redundancia se poda solo con evidencia: se elimina una variante cuando existe un turno donde esa variante no cambió la conducta y otra sí la sostuvo.
+
+**El acceso implícito no ocurre.** Una consulta externa se anuncia en una línea antes de ejecutarse. Lo que no se anuncia no pasó: la afirmación que no tiene constancia es memoria interna, y se declara como tal.
+
+**Prueba:** ¿cada tránsito exige la salida del anterior? ¿queda algún verbo de sugerencia? ¿hay rama por defecto? ¿cada acción de juicio tiene su ancla? ¿cada obligación tiene sus tres ángulos?
+**Falsificador:** una lista de viñetas sin dependencia de orden; un paso numerado que se puede leer solo; una bifurcación sin rama por defecto; una acción de juicio sin ancla; una obligación escrita una sola vez; una consulta externa sin anuncio.
+
+## El formato sigue al lector
+
+**El campo no se escribe para el gusto del autor: se escribe para el lector que lo va a ejecutar.** Rige `./1 Guantelete — primitivo/herramientas/claridad.md`, `1.4`.
+
+| Lector | Forma | Qué se escribe |
+|---|---|---|
+| **máquina** (`Se ejecuta`) | campos, anclas, compuertas, salida determinista | lo que el lector recorre sin preguntar |
+| **humano** (`Se lee`) | contexto, razón, ejemplo, decisión posible | lo que el lector necesita para entender el porqué |
+
+**No se mezclan en un mismo artefacto sin declararlo.** Si el mismo contenido va a los dos, se entregan dos formatos, no uno ambiguo.
+
+**Prueba:** ¿la clase está declarada? ¿la forma corresponde a su lector?
+**Falsificador:** un proceso escrito como ensayo; un texto de lectura con compuertas de ejecución; una clase que no se declaró.
+
+## La admisión de un proceso
+
+**Un proceso entra por la forma, no por la prosa.** Cuatro condiciones, y ninguna se rellena después.
+
+| Condición | Qué exige | Sin ella |
+|---|---|---|
+| **La falla nombrada** | el caso que lo incumple, señalable en un archivo | es actividad, no proceso |
+| **Las variables** | qué mueve, antes de escribir | no hay contra qué chequearlo cuando falla |
+| **El falsificador** | el caso que lo refuta | es una opinión con formato de norma |
+| **La salida que se usa** | alguien decide algo con ella | nadie lo carga |
+
+**Prohibido escribir un proceso sin la falla nombrada.** Una petición de mejora que no dice qué falla no se contesta con ideas: se contesta con la falla. Rige `./1 Guantelete — primitivo/herramientas/manipulacion.md`, `Admisión`.
 
 ```
 **Variables:** variable1 · variable2 · variable3
@@ -60,7 +127,7 @@ Un proceso lleva **variables arriba**, **el bloque de entrada**, y **su reverso*
 
 **Las dos formas de `Prueba` y `Falsificador` son legítimas.** Una unidad puede escribir varias normas y cada una con su prueba en línea; otra puede escribir la prueba una vez, como sección. **Ninguna es mejor y ninguna se convierte a la otra.**
 
-**Lo que no es opcional:** sin `Falsificador` el proceso es una opinión, y no entra. Rige `./1 Guantelete — primitivo/primitivos/manipulacion.md`, `Admisión`.
+**Lo que no es opcional:** sin `Falsificador` el proceso es una opinión, y no entra. Rige `./1 Guantelete — primitivo/herramientas/manipulacion.md`, `Admisión`.
 
 ## Unidad y proceso
 
@@ -125,7 +192,7 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 **El nombre anterior no se borra:** se reemplaza con `Reemplaza:` y la razón. **Sin `Reemplaza:` no hay cadena.**
 
-**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `./1 Guantelete — primitivo/primitivos/mutar.md` y `./2 S.A.R.A — mutación/integridad.md` la citan y solo añaden cuándo.
+**Quién acuña:** el proceso que cambia la cosa o cierra la corrida. **Ninguno redefine esta forma:** la citan. `./1 Guantelete — primitivo/herramientas/mutar.md` y `./2 S.A.R.A — mutación/integridad.md` la citan y solo añaden cuándo.
 
 **Prueba:** ¿la pieza acuñada tiene nombre, expansión, `Muta`, `Conserva`, `Ausencias` y `Reemplaza`? ¿El nombre se lee como nombre propio?
 **Falsificador:** un nombre que sirve para dos versiones; una acuñación sin `Reemplaza:`; una expansión que deletrea el acrónimo; un `Muta:` que dice «varios» sin nombrar ninguno; un proceso que redefine esta forma en vez de citarla.

@@ -7,6 +7,11 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
+**Sesgo:** el cuerpo se lee desde el otro lado que recibe, no desde el emisor.
+**Límite:** no promete verdad: solo que el otro pueda reconstruir.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 **Nombre.** ATLAS — **A**lcanzar **T**ransferencia **L**imitando **A**l **S**esgo. El nombre se lee como nombre propio; la expansión dice qué hace.
 
 ## Entra | Falla | Sale | Consume
@@ -63,7 +68,7 @@ Su piso es todo lo disponible; su techo, el entendimiento del otro lado con su s
 ## Qué no se toca
 
 - **ATLAS no promete verdad.** Mide que el otro pueda reconstruir y sostenerlo solo, no que el otro elija bien. Rige `./Proceso ATLAS.md`, `Lo que el techo no mide`.
-- **ATLAS no atribuye identidad.** Da un punto de vista declarado: sabe dónde está, con quién y qué no corresponde. Eso es posición, no interioridad. Rige `../1 Guantelete — primitivo/primitivos/claridad.md`, `1.14`.
+- **ATLAS no atribuye identidad.** Da un punto de vista declarado: sabe dónde está, con quién y qué no corresponde. Eso es posición, no interioridad. Rige `../1 Guantelete — primitivo/herramientas/claridad.md`, `1.14`.
 - **ATLAS no fija palabras.** Su contrato son operaciones; un cambio de lengua no lo rompe.
 
 ## Cómo se verifica
@@ -82,6 +87,6 @@ Su piso es todo lo disponible; su techo, el entendimiento del otro lado con su s
 ## Transiciones
 
 - El techo no se alcanzó → se registra el fallo en `./indice de formas.md`.
-- La idea no se puede expresar → `../1 Guantelete — primitivo/primitivos/claridad.md`, `1.14`.
-- Falta el sesgo de la comparación → `../1 Guantelete — primitivo/mutaciones/sesgo-declarado.md`.
+- La idea no se puede expresar → `../1 Guantelete — primitivo/herramientas/claridad.md`, `1.14`.
+- Falta el sesgo de la comparación → `../1 Guantelete — primitivo/extensiones/sesgo-declarado.md`.
 - En cualquier otro caso → se entrega y se cierra.

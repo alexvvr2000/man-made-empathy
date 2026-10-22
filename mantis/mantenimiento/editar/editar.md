@@ -3,10 +3,10 @@
 **Tipo:** proceso de mantenimiento. Once pasos, en orden. Vuelve sobre el estándar y sobre la tesis.
 **Alcance:** `../../../Ouroboros/`, `../../../Tesis/`, `../../Era/` y `../../../mantis/`. La implementación de una era no entra salvo que el cambio la produzca.
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
-**Claridad:** `../../../Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md`.
+**Claridad:** `../../../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`.
 **Integridad:** `../../../Ouroboros/2 S.A.R.A — mutación/integridad.md`. **Corre siempre antes de mutar.**
 **Notas:** `../../../AGENTS.md`, `Escribir notas`. Un turno con decisión y sin fila no está entregado.
-**Manipulación de procesos:** `../../../Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`.
+**Manipulación de procesos:** `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`.
 
 ## Parámetros del repo
 
@@ -43,11 +43,11 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 | **Tesis** | Tesis | `Tesis/Conceptos.md` | el origen de los nombres | da alta un término; lo cita la mutación |
 | **Tesis** | Tesis | `Tesis/esquema-de-fila.md` | la forma del rastro | cambia lo que todo proceso escribe al actuar |
 | **Instancia** | Ouroboros | `Ouroboros/3 ATLAS — mutación/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
-| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md` | produce procesos | produce o reemplaza un proceso |
-| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/primitivos/ingenieria-inversa.md` | deduce procesos | saca un proceso de lo observable |
-| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/primitivos/aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
-| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md` | la transformación | gobierna origen, cambio o retorno |
-| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
+| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md` | produce procesos | produce o reemplaza un proceso |
+| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/herramientas/ingenieria-inversa.md` | deduce procesos | saca un proceso de lo observable |
+| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/herramientas/aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
+| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/herramientas/mutar.md` | la transformación | gobierna origen, cambio o retorno |
+| **Instancia** | Ouroboros | `Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
 | **Instancia** | Ouroboros | `Ouroboros/2 S.A.R.A — mutación/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
 | **Instancia** | Ouroboros | `Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso, con integridad antes |
 | **Tesis** | Tesis | `Tesis/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
@@ -57,7 +57,7 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 
 **Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **con qué** es implementación. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `Tesis/`.
 
-**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca el estándar de `Ouroboros/`, se ejecuta antes `../../../Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md` y se mide su efecto en los que componen con él.
+**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca el estándar de `Ouroboros/`, se ejecuta antes `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md` y se mide su efecto en los que componen con él.
 
 **Gana el estándar.** Una instancia no puede contradecir su estándar. Si lo contradice, la instancia se corrige, y si la instancia tenía razón, primero se corrige el estándar y después se propaga.
 
@@ -130,7 +130,7 @@ Se ejecuta `../chequear/auditar-configuracion.md` cuando el cambio altera conteo
 
 **Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `Ouroboros/2 S.A.R.A — mutación/decisión.md` y el mapa de sub-tareas. Si produce una decisión, se anota en `notas/actuales.md`. Si cambia una tarea o un campo del disparador, se enruta en `../../../AGENTS.md` en el mismo cambio.
 
-**Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../../../Ouroboros/1 Guantelete — primitivo/primitivos/manipulacion.md`, `Lo que funciona ya está viejo`.
+**Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`, `Lo que funciona ya está viejo`.
 
 ## 10. Verificar
 

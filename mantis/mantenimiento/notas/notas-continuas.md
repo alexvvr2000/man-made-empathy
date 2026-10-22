@@ -78,8 +78,8 @@ Rige: claridad | sesgo declarado
 
 **No se copian: se citan.**
 
-- **`claridad`** — `../../../Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md`. **El bloque se lee igual en cualquier IA:** sin ambigüedad, sin glosario, sin vocabulario de esta conversación.
-- **`sesgo declarado`** — `../../../Ouroboros/1 Guantelete — primitivo/mutaciones/sesgo-declarado.md`. **Cada bloque declara su `Vista`.** Lo que hoy se cree no se presenta como lo que siempre fue; **un cambio de vista se escribe, no se esconde.**
+- **`claridad`** — `../../../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`. **El bloque se lee igual en cualquier IA:** sin ambigüedad, sin glosario, sin vocabulario de esta conversación.
+- **`sesgo declarado`** — `../../../Ouroboros/1 Guantelete — primitivo/extensiones/sesgo-declarado.md`. **Cada bloque declara su `Vista`.** Lo que hoy se cree no se presenta como lo que siempre fue; **un cambio de vista se escribe, no se esconde.**
 
 ## Vacío
 

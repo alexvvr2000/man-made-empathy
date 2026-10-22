@@ -12,12 +12,17 @@
 **Dueño:** la autoridad/
 **Estado:** vigente/
 
+**Sesgo:** el subproceso se lee desde la falta que cubre, no desde la idea que lo motivó.
+**Límite:** no decide si el subproceso sirve en el uso; eso es integridad.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
+
 **Variables:** subproceso · función · término · conceptos · autoridad
 **Peor:** se crea un subproceso sin término ni autoridad, y se queda para siempre sin que nadie pueda retirarlo
 **Quién:** quien carga el subproceso, y quien debe retirarlo
 
 
-**Manipulación/** Todo cambio a un subproceso pasa por `//////1 Guantelete — primitivo/primitivos/manipulacion/md`: ahí se nombran las variables antes de que el proceso exista/ Un subproceso creado sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo/
+**Manipulación/** Todo cambio a un subproceso pasa por `//////1 Guantelete — primitivo/herramientas/manipulacion/md`: ahí se nombran las variables antes de que el proceso exista/ Un subproceso creado sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo/
 
 ## Tesis
 
@@ -73,7 +78,7 @@ Este proceso no inventa reglas: las junta, que era lo que faltaba/
 | No auto-replicación | `//punto-de-partida/evaluacion/vigilar-tendencias/md` 8 | crear un subproceso exige autorización explícita |
 | Ciclo | `//punto-de-partida/reproduccion/reproducir/md` | crear, servir y terminar con condición |
 | Equipo y subprocesos | `//punto-de-partida/reproduccion/reproducir/md` §Equipo | toda sub-tarea se declara y deja traza |
-| Acta de creación | `////////////1 Guantelete — primitivo/primitivos/mutacion/md` | origen, encargo, mutado, conservado, ausencias |
+| Acta de creación | `////////////1 Guantelete — primitivo/herramientas/mutar/md` | origen, encargo, mutado, conservado, ausencias |
 | Conceptos | `//punto-de-partida/reproduccion/reproducir/md`, `conceptualizar` | todo término nuevo se registra |
 
 ## El molde de cera

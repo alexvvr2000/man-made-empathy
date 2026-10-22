@@ -7,7 +7,7 @@
 **Unidad:** proceso.
 **Aplica a:** escribir.
 **Tipo:** proceso de claridad. Se aplica al escribir, al editar y al emitir.
-**Nivel:** primitivo. Uno de los primitivos del guantelete. Es la fuente de la que se muta: `fricción` y `sesgo declarado` nacen de él.
+**Nivel:** herramienta. Se aplica sobre lo que ya tiene sesgo declarado; no es fundamento. Nunca lo fue: la forma no fija de dónde se mira.
 **Requiere:** ninguno.
 **Compatible con:** `Proceso de manipulacion de procesos`, `Procesos principales`.
 **Alcance:** todo artefacto de la situación actual.

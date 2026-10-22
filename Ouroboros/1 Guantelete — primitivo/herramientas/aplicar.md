@@ -3,7 +3,7 @@
 **Unidad:** proceso.
 **Aplica a:** aplicar.
 **Tipo:** proceso. Se ejecuta; no se interpreta.
-**Nivel:** primitivo. Uno de los primitivos del guantelete.
+**Nivel:** herramienta. Se aplica sobre lo que ya tiene sesgo declarado; no es fundamento.
 **Lector:** autoridad y ejecutor.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -13,7 +13,7 @@
 **Quién:** quien aplica, y quien consume la salida
 
 
-**Primitivo.** Es el que hace que los otros cinco sean un lenguaje: toma un proceso y su entrada, y ejecuta. Sin aplicar, Ouroboros es un catálogo.
+**Herramienta.** Es la que hace que las piezas sean un lenguaje: toma un proceso y su entrada, y ejecuta. Sin aplicar, Ouroboros es un catálogo.
 
 **Manipulación.** Todo cambio a un proceso pasa por `./manipulacion.md`: ahí se nombran las variables antes de que el proceso exista. Un proceso que se modifica sin pasar por ahí queda sin variables, y sin variables no hay contra qué chequearlo.
 
@@ -87,7 +87,7 @@ Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.
 
 - Si el proceso produce su salida → se entrega, o se encadena al siguiente.
 - Si la entrada no corresponde → `[VACÍO - SIN ENTRADA]`.
-- Si la acción es irreversible y la decisión no pasó por quien la toma → `.../mutaciones/friccion.md`, y no se aplica.
+- Si la acción es irreversible y la decisión no pasó por quien la toma → `.../primitivos/friccion.md`, y no se aplica.
 - Si la salida no tiene la forma declarada → la aplicación falló y se registra en `../../3 ATLAS — mutación/indice de formas.md`.
 - Si la cadena se detiene en un eslabón → se declara la salida parcial.
 - En cualquier otro caso → se entrega y se cierra.

@@ -46,6 +46,6 @@ MANTIS se mide con este mismo proceso. Si MANTIS no puede medirse a sí mismo, n
 ## Transiciones
 
 - Si falla el control → se declara `Sin revisor independiente` y el resultado se marca.
-- Si falla la evidencia → `../../../notas/actuales.md`: la fila que falta se escribe ahí.
-- Si falla el registro → `auditar-configuracion.md`.
+- Si falla la evidencia → `../../notas/actuales.md`: la fila que falta se escribe ahí.
+- Si falla el registro → `../../mantis/mantenimiento/chequear/auditar-configuracion.md`.
 - En cualquier otro caso → se entrega y se cierra.

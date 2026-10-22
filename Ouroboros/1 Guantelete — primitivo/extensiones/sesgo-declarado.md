@@ -1,10 +1,11 @@
-# Proceso de sesgo declarado
+# Sesgo declarado — extensión
 
 **Unidad:** tarea.
 **Aplica a:** ver desde dónde se mira.
 **Tipo:** proceso de discernimiento. No corrige el sesgo: lo vuelve visible.
 **Lector:** quien va a mirar algo nuevo, y quien va a evaluar lo que otro produjo.
-**Nivel:** mutación de `claridad`. No es primitivo: nace de ella y declara qué conserva.
+**Nivel:** extensión del primitivo `sesgo`. No es primitivo: aplica `../primitivos/sesgo.md` al caso de una idea que no cabe en lo que ya se sabe.
+**Copia citada.** La declaración de la posición, su límite y su firma viven en `../primitivos/sesgo.md`, `Su forma`. Este archivo dice qué hacer con ellas cuando una idea no cabe. Si divergen, se corrige contra el original.
 
 **Por qué es una gema y no un adorno.** **Lo que sale de un proceso muchas veces se adapta a quien lo mira**, como la física llevada al extremo: **el resultado no existe igual para dos observadores.** Un sesgo declarado no corrige eso —lo vuelve visible—, y eso es lo único que permite comparar dos salidas sin fingir que son la misma.
 
@@ -113,7 +114,7 @@ No obliga a aceptar la otra mirada. No da la verdad: da **el lugar donde la mira
 
 No convierte una idea mala en buena. **Una idea transformacional sigue pudiendo ser un error.** Lo que cambia es que ya no puede ser descartada **sin nombrar la regla que rompe** — y eso es lo único que separa lo nuevo de lo equivocado.
 
-Rige `.../mutaciones/friccion.md`, `La fricción obliga a contestar. La coerción obliga a contestar lo correcto.`
+Rige `.../primitivos/friccion.md`, `La fricción obliga a contestar. La coerción obliga a contestar lo correcto.`
 
 ## Ancla
 
@@ -141,6 +142,6 @@ Decisión: [retener|revisar|descartar] | Falta mirar desde: [quién|nadie]
 
 - La idea no se puede expresar → `../../3 ATLAS — mutación/Proceso ATLAS.md`, `Techo`.
 - Alguien puede decir que está mal → `../../../Tesis/Teoria/mundo.md`, `La pregunta`.
-- Hay que decidir si se retiene o se descarta → `.../mutaciones/friccion.md`, fricción de opinión.
+- Hay que decidir si se retiene o se descarta → `.../primitivos/friccion.md`, fricción de opinión.
 - Falta saber de dónde viene la afirmación → `../../2 S.A.R.A — mutación/evidencia/nivel-de-fuente.md`.
 - En cualquier otro caso → se entrega y se cierra.

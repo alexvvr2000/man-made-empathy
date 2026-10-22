@@ -14,7 +14,7 @@ tarea
 
 **N no tiene número fijo.** Ni las sub-tareas ni los procesos. Hoy son dieciséis sub-tareas y veintisiete procesos; mañana pueden ser otros, con otros nombres, u otro número.
 
-**Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../Ouroboros/1 Guantelete — primitivo/primitivos/mutar.md`, `Mutar la serie`.
+**Todo muta sin límite.** Una sub-tarea puede desaparecer entera, un proceso puede reemplazarse por uno que no se parezca en nada, y puede entrar uno que cubra un fallo que hoy no existe. Rige `../Ouroboros/1 Guantelete — primitivo/herramientas/mutar.md`, `Mutar la serie`.
 
 **Ninguna jerarquía.** Las sub-carpetas son hermanas. Los procesos dentro de una también. Ninguno manda sobre otro, y ninguno posee un núcleo que los demás citen.
 
