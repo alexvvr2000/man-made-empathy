@@ -37,7 +37,7 @@ Rutas relativas a la raíz. Tres partes, y el destino es una sola.
 | **Ouroboros** | `Ouroboros/Proceso de aplicar.md` | la aplicación | ejecuta un proceso o compone dos |
 | **Ouroboros** | `Ouroboros/Proceso de mutación.md` | la transformación | gobierna origen, cambio o retorno |
 | **Ouroboros** | `Ouroboros/Proceso de claridad.md` | la forma | gobierna la forma de lo que se lee o ejecuta |
-| **Ouroboros** | `Ouroboros/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
+| **Ouroboros** | `Ouroboros/ATLAS/Proceso ATLAS.md` | la comunicación | gobierna piso, techo, sesgo o registro |
 | **Abstracción** | `S.A.R.A/punto-de-partida/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
 | **Abstracción** | `S.A.R.A/Conceptos.md` | el origen de los nombres | da alta un término |
 | **Abstracción** | `S.A.R.A/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso del agente |

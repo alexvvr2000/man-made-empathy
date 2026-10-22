@@ -72,7 +72,7 @@ Si un eslabón falla, la cadena se detiene en ese eslabón: la salida parcial se
 - No crea procesos: los crea `./Proceso de creación de procesos.md`.
 - No los deduce: los deduce `./Proceso de ingeniería inversa.md`.
 - No los cambia: los cambia `./Proceso de mutación.md`.
-- No los comunica: los comunica `./Proceso ATLAS.md`.
+- No los comunica: los comunica `./ATLAS/Proceso ATLAS.md`.
 
 Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.
 
@@ -80,6 +80,6 @@ Aplicar solo ejecuta lo que ya existe, con la forma que ya tiene.
 
 - Si el proceso produce su salida → se entrega, o se encadena al siguiente.
 - Si la entrada no corresponde → `[VACÍO - SIN ENTRADA]`.
-- Si la salida no tiene la forma declarada → la aplicación falló y se registra en `./indice de formas.md`.
+- Si la salida no tiene la forma declarada → la aplicación falló y se registra en `./ATLAS/indice de formas.md`.
 - Si la cadena se detiene en un eslabón → se declara la salida parcial.
 - En cualquier otro caso → se entrega y se cierra.

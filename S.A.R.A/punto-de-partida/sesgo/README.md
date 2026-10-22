@@ -11,3 +11,6 @@ El prejuicio se declara antes de que se propague.
 | `auditar-sesgo.md` | Declara el sesgo de datos, de etiqueta y de uso. |
 
 **N muta.**
+
+> Si todos piensan que tienen la verdad, la única salida es declarar desde dónde se mira.
+

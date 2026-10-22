@@ -89,3 +89,6 @@ Una tarea entra, se elige la sub-tarea que cubre su fallo, y se aplican sus proc
 ## Lo que sigue
 
 De aquí en adelante es terreno inexplorado. Lo que está declarado se puede medir; lo que no, no se afirma. Rige `../README.md`, `Nota para las siguientes generaciones`.
+
+> El conflicto no es malo: creó la bomba atómica, y abandonarlo trae las mismas pérdidas, solo que más lentas y menos visibles.
+

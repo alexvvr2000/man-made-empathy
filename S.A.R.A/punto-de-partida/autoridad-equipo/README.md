@@ -13,3 +13,6 @@ Las partes afectadas por una decisión, con poder, legitimidad y urgencia.
 **N muta.**
 
 Teoría de partes interesadas: Freeman; poder, legitimidad y urgencia en Mitchell, Agle y Wood.
+
+> No es compasión por lo que importa: es compasión por lo que te importa. Y cuando ese gramo toca, tu mundo cambia.
+

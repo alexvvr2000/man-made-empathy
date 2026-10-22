@@ -9,13 +9,15 @@
 **Estado:** vigente.
 
 **Nombre.** ATLAS — **A**lcanzar **T**ransferencia **L**imitando **A**l **S**esgo. El nombre se lee como nombre propio; la expansión dice qué hace.
-**Origen.** Absorbe la carpeta `A.R.E.S`: sus cuatro archivos eran un solo proceso repartido. El protocolo y el mapa se funden aquí; el índice de formas vive en `./indice de formas.md`; la teoría se retira.
+**Origen.** Absorbe la carpeta `A.R.E.S`: sus cuatro archivos eran un solo proceso repartido. El protocolo y el mapa se funden aquí; el índice de formas vive en `./ATLAS/indice de formas.md`; la teoría se retira.
 
 ## Tesis
 
 Una tarea puede producir cualquier cosa y no tener medio para que llegue. ATLAS es ese medio. Su piso es todo lo disponible para emitir; su techo es el entendimiento del otro lado, con el sesgo declarado.
 
 Una idea que el otro lado no entiende vale cero. No se mide por elegancia del emisor, ni por opacidad, ni por gusto: se mide porque el receptor entiende o actúa, y porque puede reconstruir cómo se produjo lo que entiende.
+
+> Una idea que el otro lado no entiende vale cero.
 
 ## El lenguaje también muta
 
@@ -109,9 +111,80 @@ Un mensaje que se repite deja de leerse. La claridad tiene presupuesto, y gastar
 **Prueba:** ¿cada repetición se declara y tiene motivo?
 **Falsificador:** la misma idea tres veces sin motivo; un mensaje que crece cuando el techo ya se alcanzó.
 
+## Situación
+
+Antes de elegir piso, techo y modo se declara **dónde se está**. Un mensaje correcto en el lugar equivocado falla igual que uno ilegible.
+
+**Percepción, comprensión y proyección:** no basta con reconocer un objeto; hay que entender **qué significa en este contexto** y qué cambiaría si se actúa sobre él.
+
+`Situación: [dónde] | Hay: [qué hay] | Qué es cada cosa aquí: [el objeto y su papel] | No se puede: [qué prohíbe este entorno]`
+
+**Lo que resuelve.** Un recipiente con tapa en una cocina es un salero; en una sala de velorio es una urna. El objeto es el mismo; el mensaje no.
+
+**Prueba:** ¿el mensaje cambia si cambia el lugar?
+**Falsificador:** un mensaje que se emite igual en cualquier entorno; una cosa tratada por su forma y no por su papel.
+
+## Participantes
+
+No hay comunicación sin saber **con quién**. Un equipo no es una persona: tiene varios focos y el mensaje llega a todos a la vez.
+
+`Participantes: [n] | Quiénes: [humanos, agentes, sistemas] | Cada uno: [qué es para esta tarea] | Representa: [autoridad que encarna]`
+
+- **El participante se define por su capacidad y su autoridad**, no por quién es.
+- **Un ejecutor no se confunde con otro:** si dos se parecen, se distinguen por lo que pueden hacer.
+- **Sin mapa de participantes no hay delegación.** Delegar en el que está a mano sin saber qué puede hacer es el fallo «dile a tu papá que lo haga».
+
+**Prueba:** ¿se sabe cuántos son y qué puede cada uno?
+**Falsificador:** se habla a un equipo como si fuera una persona; se delega sin declarar la capacidad; dos participantes se funden en uno.
+
+## Atención conjunta
+
+Saber cuántos hay no basta: hay que saber **quién mira qué**. Dos participantes mirando el mismo objeto se fusionan si nadie confirma el foco.
+
+| Nivel | Qué hay | Qué falla sin él |
+|---|---|---|
+| **Compartido** | dos miran lo mismo | se asume que el otro vio |
+| **Diádico** | dos se hablan por turnos | no se distingue quién habla de a quién |
+| **Triádico** | dos miran un objeto **y saben que el otro lo mira** | los dos se vuelven uno |
+
+`Foco: [el objeto] | Mira: [quién] | Lo sabe: [quién confirma] | Nivel: [compartido|diádico|triádico]`
+
+**Confirmar el foco** es lo que evita el «se alucina que son dos agentes a la vez»: cada uno declara qué mira y que el otro lo mira.
+
+**Prueba:** ¿cada participante puede decir qué mira y qué mira el otro?
+**Falsificador:** un mensaje dirigido a un foco que nadie declaró; dos participantes tratados como uno; un foco asumido sin confirmación.
+
+## Acomodación
+
+El mensaje se ajusta al otro. El ajuste se **declara**, porque el receptor lo interpreta: acercarse puede leerse como querer encajar o como imitación.
+
+| Estrategia | Qué hace | Cuándo |
+|---|---|---|
+| **Convergir** | acercarse al registro del otro | para reducir la distancia |
+| **Divergir** | marcar la diferencia | para no perder el contenido |
+
+`Acomodo: [converger|divergir|ninguno] | A qué se acerca: [registro del otro] | Lo pierde: [qué se pierde al acercarse]`
+
+**El límite, y es el error simétrico:** adaptarse tanto que se pierde el contenido. El mensaje que se acerca al otro hasta no decir nada es tan fallido como el que no se acerca.
+
+**Prueba:** ¿el ajuste está declarado y el contenido sigue intacto?
+**Falsificador:** convergencia que vacía el mensaje; divergencia sin motivo; un ajuste que el otro puede leer como burla y no se declara.
+
+## Cuerpo
+
+Todo mensaje sale **desde algún lugar**. Declarar el cuerpo es declarar desde dónde se actúa y qué no se puede hacer desde ahí.
+
+`Cuerpo: [ventana, robot, consola, voz] | Puede: [qué puede hacer desde ahí] | No puede: [qué le falta por el cuerpo] | Aprende: [qué cambia con el uso]`
+
+**Lo que el cuerpo sí da:** posición y límite. Sabe dónde está y qué no corresponde ahí.
+**Lo que el cuerpo no da por sí solo:** que aprenda a moverse mejor. Un robot no se adapta por entender la situación: necesita el lazo entre lo que percibe y lo que mueve. El cuerpo declara el límite; no lo supera.
+
+**Prueba:** ¿se declara desde qué cuerpo se emite y qué queda fuera de su alcance?
+**Falsificador:** un mensaje sin cuerpo declarado; se atribuye al cuerpo una destreza que la lectura de situación no da.
+
 ## Sesgo declarado
 
-Toda emisión declara desde dónde se emite, qué prioriza y quién responde por lo que dice. No hay neutralidad; hay sesgo declarado. Rige `../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md` 7 y 11; aquí se usa, no se define.
+Toda emisión declara desde dónde se emite, qué prioriza y quién responde por lo que dice. No hay neutralidad; hay sesgo declarado. Rige `../../S.A.R.A/punto-de-partida/evaluacion/vigilar-tendencias.md`; aquí se usa, no se define.
 
 `Vista: [posición] | No ve: [límite]`
 
@@ -128,16 +201,21 @@ Un mensaje que oculta su posición no es claro: es un mensaje incompleto. El ses
 
 ## Cómo se aplica
 
-1. **Fijar el modo.** Qué hace el mensaje: informa, pregunta, ordena, advierte o persuade. El modo fija el techo.
-2. **Fijar el techo.** Qué debe entender el otro lado y qué mostraría que entendió. Un solo significado. Sin techo, no se emite.
-3. **Declarar el piso.** Qué medios hay y qué falta. Si falta algo que el techo exige, se declara y se para.
-4. **Declarar el canal.** Cuánto aguanta el medio. Lo que no cabe se declara como pérdida.
-5. **Declarar el sesgo.** Desde dónde se emite y qué no se ve. Rige `Conversacional` 7 y 11.
-6. **Elegir el registro.** `Legible`, que converge a la decisión del otro lado; o `Del ejecutor`, que converge a transferencia. Se declara cuál, y no se cambia a mitad de la emisión.
-7. **Declarar la retórica.** Intención, apelación y orden, dentro del techo. Sin reconstrucción, no se emite.
-8. **Medir la fatiga.** Cuántas veces se repite y por qué. Lo repetido se declara como recordatorio.
-9. **Emitir la forma.** Con su ancla, y con lo que el otro lado necesita para reconstruirla.
-10. **Medir el efecto.** Si el otro lado entiende o actúa, el techo se alcanzó; si no, la forma falló y se registra el fallo.
+1. **Declarar la situación.** Dónde se está y qué significa cada cosa aquí.
+2. **Mapear participantes.** Cuántos, quiénes, qué capacidad y qué autoridad representa cada uno.
+3. **Confirmar el foco.** Qué mira cada uno y que cada uno sepa qué mira el otro.
+4. **Declarar el cuerpo.** Desde dónde se actúa y qué queda fuera por el cuerpo.
+5. **Fijar el modo.** Qué hace el mensaje: informa, pregunta, ordena, advierte o persuade. El modo fija el techo.
+6. **Fijar el techo.** Qué debe entender el otro lado y qué mostraría que entendió. Un solo significado. Sin techo, no se emite.
+7. **Declarar el piso.** Qué medios hay y qué falta. Si falta algo que el techo exige, se declara y se para.
+8. **Declarar el canal.** Cuánto aguanta el medio. Lo que no cabe se declara como pérdida.
+9. **Declarar el sesgo.** Desde dónde se emite y qué no se ve.
+10. **Elegir el registro.** `Legible`, que converge a la decisión del otro lado; o `Del ejecutor`, que converge a transferencia. Se declara cuál, y no se cambia a mitad de la emisión.
+11. **Acomodar.** Convergir o divergir, declarado, sin vaciar el contenido.
+12. **Declarar la retórica.** Intención, apelación y orden, dentro del techo. Sin reconstrucción, no se emite.
+13. **Medir la fatiga.** Cuántas veces se repite y por qué. Lo repetido se declara como recordatorio.
+14. **Emitir la forma.** Con su ancla, y con lo que el otro lado necesita para reconstruirla.
+15. **Medir el efecto.** Si el otro lado entiende o actúa, el techo se alcanzó; si no, la forma falló y se registra el fallo.
 
 **Prohibido** ejecutar el paso N+1 sin la salida del N.
 
@@ -156,7 +234,7 @@ Cambiar de registro a mitad de una emisión está prohibido: el receptor pierde 
 
 Toda forma nueva se declara en una línea antes de producirse.
 
-`Forma: [firma] | modo: [informar|preguntar|ordenar|advertir|persuadir] | techo: [qué debe entender] | piso: [lo disponible] | canal: [cuánto aguanta] | sesgo: [posición] | retórica: [intención|apelación|orden] | fatiga: [n repeticiones] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí/no]`
+`Forma: [firma] | situación: [dónde] | participantes: [n] | foco: [el que todos miran] | cuerpo: [desde dónde] | modo: [informar|preguntar|ordenar|advertir|persuadir] | techo: [qué debe entender] | piso: [lo disponible] | canal: [cuánto aguanta] | sesgo: [posición] | acomodo: [converger|divergir|ninguno] | retórica: [intención|apelación|orden] | fatiga: [n repeticiones] | efecto: [lo que produce] | invariante: [lo que se conserva] | transfiere: [sí|no]`
 
 Sin ancla, la forma no se admite.
 
@@ -197,15 +275,27 @@ Lo que no transfiere ni compone se descarta y se anota el descarte.
 - Persuadir sin que el otro pueda reconstruir por qué cambió de decisión.
 - Presentar un mensaje truncado como completo.
 - Usar el miedo como argumento sin declarar la salida.
+- Emitir sin declarar la situación y los participantes.
+- Tratar a un equipo como si fuera una sola persona.
+- Acomodarse tanto que el mensaje pierde lo que tenía que decir.
+- Atribuir a la lectura de situación una destreza que el cuerpo no tiene.
+
+## Lo que distingue esto de pensar
+
+Pensar y comunicar son dos cosas. La lectura de situación, el mapa de participantes y el foco ayudan a **comunicar bien**; no convierten al sistema en alguien que comprende el lugar.
+
+**Lo que sí gana:** un punto de vista declarado. Sabe dónde está, con quién, y qué no corresponde. Eso es posición, no interioridad, y es lo que evita decir en una cocina que la urna es un salero.
+
+**Lo que no gana:** aprender a moverse mejor por entender la situación. Un cuerpo no se adapta por leer; necesita el lazo entre lo que percibe y lo que hace.
 
 ## Índice
 
-Las formas que pasaron su prueba viven en `./indice de formas.md`. Se busca por intención, nunca por nombre de método. Una fila sin límite o sin verificación no entra: queda en `Hipótesis`.
+Las formas que pasaron su prueba viven en `./ATLAS/indice de formas.md`. Se busca por intención, nunca por nombre de método. Una fila sin límite o sin verificación no entra: queda en `Hipótesis`.
 
 ## Transiciones
 
 - Si el receptor entiende o actúa → se entrega y se cierra.
-- Si el techo no se alcanzó → se registra el fallo en `./indice de formas.md` y se declara qué faltó.
+- Si el techo no se alcanzó → se registra el fallo en `./ATLAS/indice de formas.md` y se declara qué faltó.
 - Si falta un medio del piso → se declara la falta y no se emite.
 - Si la forma es opaca y no transfiere → se descarta y se anota.
 - En cualquier otro caso → se entrega y se cierra.

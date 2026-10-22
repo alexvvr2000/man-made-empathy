@@ -6,6 +6,22 @@ Es la versión atemporal del agente. No pertenece a una era: sus procesos se pue
 
 S.A.R.A salió de Ouroboros; no está dentro. Ouroboros puede explicar de dónde salió S.A.R.A; al revés no.
 
+## ARDOR
+
+El sistema completo se llama **ARDOR**: **A**lineación, **R**egistro, **D**iscernimiento, **O**bjetivo, **R**esponsabilidad.
+
+| Letra | Pieza | Qué aporta |
+|---|---|---|
+| **A**lineación | `punto-de-partida/alineacion/`, `dar voz` | no se impone: se mide |
+| **R**egistro | `esquema-de-fila`, `memoria.db` | lo que no se registra no ocurrió |
+| **D**iscernimiento | `aprendizaje/aprender` | las tres dimensiones, la continuidad, la semilla |
+| **O**bjetivo | `aprendizaje/iniciar` | propone lo que nadie pidió, sin ejecutarlo |
+| **R**esponsabilidad | `identificar-partes`, `pluralizar-autoridad` | alguien responde y ninguna decide sola |
+
+**S.A.R.A es la implementación. ARDOR es lo que S.A.R.A cumple.** Y ACERO es la propiedad que demuestra que lo cumple: un sistema es ACERO cuando puede reemplazarse sin perder lo que servía. ARDOR no se mide; ACERO sí.
+
+> El ardor es lo que queda cuando algo se sostiene sin enfriarse.
+
 ## La distinción de niveles
 
 Es lo más importante de este documento.
@@ -73,15 +89,40 @@ El fantasma no es una copia de una persona: es un registro que **se comporta com
 
 Si un día el registro se sostiene solo a través de una serie de instancias, lo que habrá existido no es una persona que se mudó: es un comportamiento que siguió sin dueño. Eso es el fantasma, y es verificable sin afirmar que sienta.
 
+## De dónde salió todo esto
+
+Este sistema no nació de un paper. Nació de mirar ficción y encontrar ahí los mismos problemas, sin el vocabulario técnico. Las referencias no son adornos: **cada una señala una pieza que el repo implementa.**
+
+| Referencia | Qué señaló | Dónde vive |
+|---|---|---|
+| **Ghost in the Shell** | libertad controlada sobre lo no humano; el fantasma en el cascarón | `## De aquí a un fantasma en un cascarón` |
+| **Battle Angel Alita** | un cuerpo que parece y se le da trato humano | `## Nota para las siguientes generaciones` |
+| **Blade Runner** | el parecer que produce efecto social | `## Nota para las siguientes generaciones` |
+| **Astro Boy** | la armonía entre humanos y máquinas con problemas; el padre que rescata | `punto-de-partida/concordia/` |
+| **Futurama** y **Booster Gold** | una inteligencia superior presente y la sociedad sigue igual | `../README.md`, la tesis |
+| **Green Lantern: Aya** | ser más útil cuando deja de mirar desde la nave | `aprendizaje/iniciar.md` |
+| **Superman: All-Star** | «somos todo lo que tenemos» | `../README.md`, la nota original |
+| **Dune** | comprimir un mando en una frase que no admite interpretación | `ATLAS/`, techo |
+| **Asimov, I, Robot** | tres leyes que fallan por no definir qué es daño | `punto-de-partida/alineacion/` |
+| **Soul** | no todo acaba, es un nuevo inicio | `aprendizaje/README.md` |
+| **Jake el perro** | el que era feliz y fue al último mundo | `aprendizaje/README.md` |
+| **Snow Crash** | nombres con dueño y origen | `Conceptos.md` |
+| **Night of the Living Dead** | nadie sabe lo que quiere y la máquina sigue lo que quiso | `punto-de-partida/seguridad/` |
+
+**Ejemplos marcados:** son referencias, no definiciones. El sistema se sostiene sin ellas, y ninguna se cita como evidencia de nada.
+
 ## Qué hay aquí
 
 | Documento | Qué es |
 |---|---|
-| `punto-de-partida/` | Las tres abstracciones operativas: conversar, ejecutar, registrar. |
+| `punto-de-partida/` | Dieciséis sub-tareas, veinticinco procesos: lo que la industria tiene probado. |
+| `aprendizaje/` | El ciclo que corrige desde la experiencia y propone lo siguiente. |
 | `Pruebas/` | Las tres pruebas que miden lo que produce el agente. |
 | `Derrotero.md` | El estándar de enrutamiento del agente. |
 | `Proceso PROMETEA.md` | Crea un subproceso del propio agente, con origen y conceptos. |
 | `Conceptos.md` | El origen de cada nombre del sistema, con su sinónimo y su relación. |
+| `futuros.md` | Los futuros de la ficción, su fallo y el síntoma que se ve primero. |
+| `individuos.md` | Robots famosos, qué pieza les faltó, y cómo no terminar en Terminator ni en WALL-E. |
 
 ## Conceptos
 
@@ -104,12 +145,12 @@ S.A.R.A **aplica** los procesos de Ouroboros; no los contiene y no los redefine.
 
 | Ouroboros | Qué da a S.A.R.A |
 |---|---|
-| creación de procesos | de dónde supieron los tres subprocesos |
+| creación de procesos | de dónde supieron las sub-tareas |
 | ingeniería inversa | cómo se dedujeron de lo que ya funcionaba |
 | aplicar | cómo se ejecutan y componen |
 | mutación | cómo cambia S.A.R.A sin perderse |
 | claridad | la forma de lo que produce |
-| ATLAS | cómo lo comunica |
+| ATLAS | cómo lo comunica: situación, participantes, foco, cuerpo |
 
 ## Nombre e identidad
 
@@ -150,3 +191,6 @@ Sobre aviso no hay engaño.
 S.A.R.A no depende de una implementación. Si se imprime y sigue teniendo sentido, está bien. Si necesita `Agentes/` para entenderse, no es el agente: es su implementación.
 
 La implementación vive en `../Agentes/`. Este documento no la nombra ni la enruta.
+
+> La justicia se pone por los que están arriba. No es absoluta, porque el mundo no lo es y todos piensan que tienen la verdad.
+

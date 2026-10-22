@@ -41,3 +41,6 @@ Estado del arte: dependencia de automatización.
 - Si hay sobredependencia → se declara y se fuerza práctica manual periódica.
 - Si la composición perjudica a una escala → `armonizar.md`.
 - En cualquier otro caso → se entrega y se cierra.
+
+> El que mantiene la capacidad y no la usa no es pasivo: está eligiendo.
+

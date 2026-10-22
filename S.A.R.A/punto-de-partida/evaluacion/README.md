@@ -14,3 +14,6 @@ Medir si lo que hay sirve y si lo que cambió mejoró. Sin evaluación no hay fo
 | `deliberar.md` | Sostiene dos caminos con fricción sin fundirlos. |
 
 **N muta.** Los que hay son de hoy.
+
+> Nadie sabe qué es la justicia. Pero pensar sin absolutos al menos da un crecimiento real.
+

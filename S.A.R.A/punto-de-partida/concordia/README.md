@@ -15,3 +15,6 @@ La armonía entre colaboradores, no el talento de uno. Funciona para quien la op
 **N muta.**
 
 La armonía no aparece por usar la máquina: se construye. La interacción humano-robot documenta que tratar con un sistema puede reducir el prejuicio o reforzarlo, según la experiencia. Declarar el efecto es lo que inclina la balanza.
+
+> La armonía real no es la que evita el conflicto: es la que no deja que el conflicto destruya.
+

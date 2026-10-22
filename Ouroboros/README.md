@@ -15,7 +15,7 @@
 | `Proceso de aplicar.md` | ejecuta un proceso sobre una entrada | primitivo |
 | `Proceso de mutación.md` | cambia un proceso, con rastro | primitivo |
 | `Proceso de claridad.md` | da forma a lo que se lee o se ejecuta | primitivo |
-| `Proceso ATLAS.md` | comunica con piso, techo y sesgo | primitivo |
+| `Proceso ATLAS.md` | comunica con situación, participantes, foco, cuerpo, piso, techo y sesgo | primitivo |
 
 Seis procesos, todos primitivos: ninguno se deriva de otro. Es más piezas que el mínimo teórico, y es a propósito: se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie.
 
@@ -35,7 +35,7 @@ Un proceso compone con otro cuando su salida es la entrada del otro sin traducci
 
 ## Trazabilidad
 
-Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurrió. El rastro vive en `./indice de formas.md`, no en un relato.
+Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurrió. El rastro vive en `./ATLAS/indice de formas.md`, no en un relato.
 
 ## Qué hay en esta carpeta
 
@@ -48,12 +48,16 @@ Los seis procesos, cada uno con su forma y su función.
 | `Proceso de aplicar.md` | Ejecuta un proceso y comprueba la composición. |
 | `Proceso de mutación.md` | Cambia un proceso y deja el rastro. |
 | `Proceso de claridad.md` | La forma de lo que se lee o se ejecuta. |
-| `Proceso ATLAS.md` | Comunicación efectiva: piso, techo y sesgo declarado. |
-| `indice de formas.md` | Las formas que pasaron su prueba, por intención. |
+| `ATLAS/` | Comunicación efectiva: situación, participantes, foco, cuerpo, piso, techo, canal, modo, sesgo, acomodo, retórica y fatiga. |
 
 ## Abstracciones
 
 Sobre estos seis se construyen otros procesos. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
 
-`punto-de-partida/` es una abstracción: sus tres subprocesos salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
+`../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `./Proceso de ingeniería inversa.md`.
+
+`../S.A.R.A/aprendizaje/` es otra: el ciclo que corrige desde la experiencia y propone lo siguiente. No cubre fallos; mira lo que ya se hizo.
+
+
+> Si tuviera un límite, la mutación ya se hubiera curado el cáncer hace mucho.
 

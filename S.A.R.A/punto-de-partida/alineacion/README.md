@@ -13,3 +13,6 @@ Alinear el sistema con quien decide, cuando quien decide no puede comprender tod
 | `pluralizar-autoridad.md` | Varias jurisdicciones que se corrigen entre sí. |
 
 **N muta.** Los que hay son de hoy.
+
+> Cambiar de perspectiva ayuda a que nadie mate por un absoluto.
+

@@ -18,7 +18,7 @@
 - **verifica:** la prueba que la fila pasó, con su sello. Sin sello, la fila queda como hipótesis.
   - **Legible:** `ruta` + sello del documento; la afirmación se sigue hasta su origen.
   - **Del ejecutor:** `corrida: [id]` + `reproduce: [sí|no]`; una instancia limpia rehace la forma leyendo solo el registro.
-  - La prueba y sus tres casos viven en `./Proceso ATLAS.md`, `Pruebas`.
+  - La prueba y sus tres casos viven en `./ATLAS/Proceso ATLAS.md`, `Pruebas`.
   - Un sello de corrida no sube el nivel de la afirmación: sube la fila, no la verdad.
 
 ## Reglas

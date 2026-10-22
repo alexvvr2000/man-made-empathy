@@ -5,7 +5,7 @@
 Es la **implementación de ATLAS** en una era: convierte intención en algo que otro puede leer. «Lenguaje» en sentido amplio: palabra, forma, sonido, movimiento, artefacto.
 
 **Nivel:** implementación. Es cómo se hace hoy lo que el proceso ya define.
-**Nivel superior:** `../../S.A.R.A/README.md` y `../../Ouroboros/Proceso ATLAS.md`.
+**Nivel superior:** `../../S.A.R.A/README.md` y `../../Ouroboros/ATLAS/Proceso ATLAS.md`.
 
 ## Qué ejecuta
 

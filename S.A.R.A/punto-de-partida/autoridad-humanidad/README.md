@@ -13,3 +13,6 @@ Los que no tienen voz: generaciones futuras, grupos marginados y naturaleza no h
 **N muta.**
 
 Stakeholder sin voz: Waddock. El análisis centrado solo en la organización deja fuera a las partes que no reclaman.
+
+> Sin voz, no hay decisión.
+

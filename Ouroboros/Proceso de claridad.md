@@ -108,7 +108,7 @@ Lo que queda fuera del entregable: la firma, la cabecera de estado, el autor, la
 
 Un proceso lleva cabecera porque su cabecera es su contrato: qué ejecuta y quién autoriza. Un entregable no la lleva, porque su cabecera sería hablar del artista.
 
-**La forma elige la comunicación, no el autor.** Lo que el entregable declara es a quién habla y cómo: el lector, el modo —informar, preguntar, ordenar, advertir, persuadir—, el registro —legible o del ejecutor— y el canal. Esa elección es la de `../../Ouroboros/Proceso ATLAS.md`. Si está bien hecha, el autor no hace falta: quien lee tiene lo que necesita sin saber de dónde vino.
+**La forma elige la comunicación, no el autor.** Lo que el entregable declara es a quién habla y cómo: el lector, el modo —informar, preguntar, ordenar, advertir, persuadir—, el registro —legible o del ejecutor— y el canal. Esa elección es la de `../../Ouroboros/ATLAS/Proceso ATLAS.md`. Si está bien hecha, el autor no hace falta: quien lee tiene lo que necesita sin saber de dónde vino.
 
 `Lector: [ejecuta|lee] | Modo: [...] | Registro: [legible|del ejecutor] | Canal: [...]`
 

@@ -25,3 +25,6 @@
 **N muta.** Los que hay son de hoy.
 
 **El límite.** Esta vía no impide producir algo destructivo. No es un safeguard: es una vía con registro. Lo que sí impide es **cerrar como si fuera seguro lo que no se declaró**. Rige `../autoridad-humanidad/dar-voz.md`.
+
+> Lo que sale sin haberlo previsto puede matar a mucha gente y traer cosas mejores que no hacer nada por miedo a lastimar.
+

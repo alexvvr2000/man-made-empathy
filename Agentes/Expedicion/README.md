@@ -42,5 +42,5 @@ Expedición es una **mutación de la implementación de S.A.R.A**: la misma base
 |---|---|
 | `../../S.A.R.A/` | la forma atemporal del agente |
 | `../../Ouroboros/` | los procesos con los que se produce, se muta y se comunica |
-| `../../Ouroboros/Proceso ATLAS.md` | cómo se comunica el mapa |
+| `../../Ouroboros/ATLAS/Proceso ATLAS.md` | cómo se comunica el mapa |
 | `../../S.A.R.A/Conceptos.md` | el origen de cada nombre |

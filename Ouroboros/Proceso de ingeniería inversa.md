@@ -66,5 +66,5 @@ Sin Falsificador no entra: un proceso sin el caso que lo incumple es una opinió
 - Si el proceso reproduce el resultado observable → se entrega con su `Tendencia` y su `Desvío`.
 - Si tiende pero se desvía → se entrega igual, y el desvío queda declarado.
 - Si no tiende a nada → `[VACÍO - SIN PROCESO DEDUCIDO]`.
-- Si la tarea necesita comunicar el proceso deducido → `./Proceso ATLAS.md`.
+- Si la tarea necesita comunicar el proceso deducido → `./ATLAS/Proceso ATLAS.md`.
 - En cualquier otro caso → se entrega y se cierra.

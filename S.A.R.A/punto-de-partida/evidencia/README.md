@@ -11,3 +11,6 @@ Toda afirmación sobre el mundo tiene fuente o se declara vacía.
 | `trazar.md` | Da fuente, nivel e independencia a una afirmación. |
 
 **N muta.**
+
+> Lo que no se puede mostrar no se afirma.
+

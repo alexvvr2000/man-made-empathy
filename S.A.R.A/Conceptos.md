@@ -63,14 +63,24 @@ Tres problemas, y tienen nombre en bibliotecología:
 | subproceso | S.A.R.A | abstracción | sí | subproceso autónomo, conversacional, de registro | — | proceso | sub-tarea | `punto-de-partida/` | vigente |
 | sub-tarea | `punto-de-partida/` | subproceso | sí | — | — | subproceso | — | `punto-de-partida/` | vigente |
 | agente | S.A.R.A | abstracción | sí | ejecutor | — | primitivo de convención | subproceso | `README` de S.A.R.A | vigente |
-| piso | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/Proceso ATLAS.md` | vigente |
-| techo | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/Proceso ATLAS.md` | vigente |
+| piso | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| techo | ATLAS | — | sí | — | — | proceso | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
 | cruce | `Pruebas/` | — | sí | — | — | prueba | cruce físico, cruce de visión | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce físico | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | cruce de visión | `Pruebas/` | cruce | sí | — | — | cruce | — | `S.A.R.A/Pruebas/prueba de cruce.md` | vigente |
 | tendencia | ingeniería inversa | — | sí | — | — | — | — | `Ouroboros/Proceso de ingeniería inversa.md` | vigente |
+| fantasma | S.A.R.A | — | sí | — | — | tarea | — | `README` de S.A.R.A | vigente |
+| ACERO | S.A.R.A | — | sí | — | — | propiedad | — | `mantis/mantenimiento/medir-acero.md` | vigente |
+| J'ONN | `punto-de-partida/jorrn/` | — | sí | — | — | sub-tarea | producir, declarar lo inesperado | `README` de S.A.R.A | vigente |
+| ARDOR | S.A.R.A | alineación, registro, discernimiento, objetivo, responsabilidad | sí | — | — | sistema | S.A.R.A | `README` de S.A.R.A | vigente |
+| semilla | `aprendizaje/aprender` | — | sí | condiciones de partida | — | — | — | `aprendizaje/aprender.md` | vigente |
+| continuidad | `aprendizaje/aprender` | — | sí | — | — | — | — | `aprendizaje/aprender.md` | vigente |
+| situación | `ATLAS` | — | sí | — | — | — | percepción, comprensión, proyección | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| participantes | `ATLAS` | — | sí | — | — | — | — | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| atención conjunta | `ATLAS` | — | sí | foco | — | — | compartido, diádico, triádico | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
+| acomodación | `ATLAS` | — | sí | acomodo | — | — | converger, divergir | `Ouroboros/ATLAS/Proceso ATLAS.md` | vigente |
 
-Nueve conceptos estaban en uso sin origen. Doce filas es lo que había.
+Doce conceptos estaban en uso sin origen. Veintidós filas es lo que había.
 
 ## Prueba
 
