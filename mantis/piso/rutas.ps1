@@ -13,11 +13,18 @@ $Root = (Resolve-Path $Root).Path
 # Zonas que se revisan. La raiz no: sus enlaces son de era.
 $zonas = @('Tesis', 'Ouroboros', 'mantis')
 
-# |archivo md| enlace (ruta|texto)  ·  ``ruta.md``  ·  [texto](ruta)
+# |archivo md| enlace (ruta|texto)  ·  `ruta.md`  ·  [texto](ruta)  ·  [texto]: ruta
 $patrones = @(
   [regex]'`(\.\.?/[^`\n]+)`',
-  [regex]'\]\(([^)\s]+)\)'
+  [regex]'\]\(([^)\s]+)\)',
+  [regex]'(?m)^\s*\[[^\]]+\]:\s*(\S+)'
 )
+
+# Una ruta con espacios se escribe entre <>. El destino sin <> no se adivina:
+# la unidad lo declara en vez de resolverlo con una heuristica.
+# Y se cuentan las rutas que se miran: cero rutas no es un repo sano.
+$sinDelimitar = @()
+$miradas = 0
 
 $filas = @()
 foreach ($z in $zonas) {
@@ -33,12 +40,19 @@ foreach ($z in $zonas) {
         $p = $m.Groups[1].Value
         if ($p -match '^(https?:|mailto:|#)') { continue }
         if ($p -notmatch '\.(md|ps1)$') { continue }
+        $miradas++
         if ($visto[$p]) { continue }
         $visto[$p] = $true
         $limpia = ($p -split '#')[0].TrimEnd('/')
+        $delimitado = $false
+        if ($limpia -match '^<(.*)>$') { $limpia = $Matches[1]; $delimitado = $true }
         $destino = Join-Path $dir $limpia
         if (-not (Test-Path -LiteralPath $destino)) {
-          $filas += [pscustomobject]@{ Archivo = $rel; Ruta = $p }
+          if ($limpia -match '\s' -and -not $delimitado) {
+            $sinDelimitar += [pscustomobject]@{ Archivo = $rel; Ruta = $p }
+          } else {
+            $filas += [pscustomobject]@{ Archivo = $rel; Ruta = $p }
+          }
         }
       }
     }
@@ -47,14 +61,26 @@ foreach ($z in $zonas) {
 
 Write-Output "RUTAS"
 Write-Output "Root: $Root"
-Write-Output "Archivos con ruta: $(($filas | Select-Object -ExpandProperty Archivo -Unique | Measure-Object).Count) | rutas rotas: $($filas.Count)"
+Write-Output "Rutas revisadas: $miradas | rutas rotas: $($filas.Count) | rutas con espacios sin <>: $($sinDelimitar.Count)"
 Write-Output ""
-Write-Output "VEREDICTO: $(if ($filas.Count -eq 0) { 'pasa' } else { 'falla' })"
+if ($miradas -eq 0) {
+  Write-Output "VEREDICTO: indeterminado"
+  Write-Output ""
+  Write-Output "MOTIVO: la unidad no encontro ninguna ruta que revisar"
+  exit 0
+}
+Write-Output "VEREDICTO: $(if ($filas.Count -eq 0 -and $sinDelimitar.Count -eq 0) { 'pasa' } else { 'falla' })"
 Write-Output ""
 
 if ($filas.Count -gt 0) {
   Write-Output "ARCHIVO | RUTA"
   foreach ($f in ($filas | Sort-Object Archivo, Ruta)) { Write-Output "$($f.Archivo) | $($f.Ruta)" }
+  Write-Output ""
+}
+
+if ($sinDelimitar.Count -gt 0) {
+  Write-Output "ARCHIVO | RUTA SIN <>"
+  foreach ($f in ($sinDelimitar | Sort-Object Archivo, Ruta)) { Write-Output "$($f.Archivo) | $($f.Ruta)" }
   Write-Output ""
 }
 

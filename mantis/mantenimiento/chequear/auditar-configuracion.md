@@ -21,27 +21,27 @@
 3. **Verificar las rutas.** Que cada ruta relativa resuelva a un archivo real.
 4. **Verificar los nombres.** Que ningún documento cite una pieza que ya no existe con ese nombre.
 5. **Verificar la jerga.** Que ningún documento use un nombre interno como si el lector supiera qué es.
-6. **Verificar el nivel.** Que cada documento declare si es estándar, instancia, implementación o caso, y que esté donde le toca.
+6. **Verificar el nivel.** Que cada documento declare si es estándar, instancia o caso, y que esté donde le toca.
 7. **Declarar la desviación.** Dónde está, qué dice y qué hay. Sin corregir todavía.
 
 `Sub-tareas: [n real | n dicho] | Procesos: [n real | n dicho] | Rutas rotas: [n] | Nombres muertos: [n] | Jerga sin glosa: [n] | Nivel sin declarar: [n]`
 
 ## El nivel
 
-Un archivo está en el nivel correcto si dice **cómo tiene que ser** (estándar, va en `Ouroboros/`), **qué se hace hoy** (instancia, va en su parte), **con qué** (implementación, va en `Era/`), o **qué pasó una vez** (caso, no va en `Tesis/`).
+Un archivo está en el nivel correcto si dice **cómo tiene que ser** (estándar, va en `Ouroboros/`), **qué se hace hoy** (instancia, va en su parte), o **qué pasó una vez** (caso, no va en `Tesis/`). **Lo que dice "con qué" no vive en este repo: sale ya con formato de ente.**
 
 | Señal | Nivel | Si está mal ubicado |
 |---|---|---|
 | se aplica a más de una instancia | estándar | le falta `Ouroboros/` |
 | cambia cuando cambia el interior | instancia | no puede vivir en `Ouroboros/` |
-| depende de una tecnología, lenguaje o modelo | implementación | no puede vivir fuera de `Era/` |
+| depende de una tecnología, lenguaje o modelo | ejecución | no vive aquí: sale ya con formato de ente |
 | describe un caso, una obra o un hecho con fecha | caso | no entra en `Ouroboros/` |
 
 **Un estándar en el nivel equivocado es invisible como estándar:** se lee como un hermano de lo que estandariza, y nadie sabe cuál manda. Rige `../../../Ouroboros/formato de proceso.md`.
 
 **Prueba del nivel:** ¿el documento se aplica a más de una instancia? ¿puede sobrevivir a que cambie el interior?
 
-**Falsificador del nivel:** un estándar dentro de una instancia; un caso dentro de `Ouroboros/`; un documento sin nivel declarado; una implementación fuera de `Era/`.
+**Falsificador del nivel:** un estándar dentro de una instancia; un caso dentro de `Ouroboros/`; un documento sin nivel declarado; una ejecución disfrazada de idea.
 
 ## La jerga
 

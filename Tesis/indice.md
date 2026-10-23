@@ -18,7 +18,6 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 |---|---|---|
 | `Tesis/` | estandar | la tesis: la forma, aun por aplanar en archivos |
 | `Ouroboros/` | instancia | la tarea: paso 1, paso 2 y paso 3 |
-| `Era/` | era | la era |
 | `mantis/` | instancia | instancia: la operacion |
 
 ## Las clases
@@ -39,11 +38,56 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
 | `Tesis` | `Conceptos.md` | estandar | 111 |
-| `Tesis` | `indice.md` | indice | 161 |
+| `Tesis` | `indice.md` | indice | 208 |
 | `Tesis` | `problemas-abiertos.md` | estandar | 95 |
-| `Tesis` | `README.md` | puerta | 74 |
+| `Tesis` | `README.md` | puerta | 70 |
 | `Tesis` | `SARA 1.md` | estandar | 259 |
 | `Tesis` | `SARA 2.md` | estandar | 109 |
+| `Tesis/aplicacion` | `piso-del-repo.md` | estandar | 81 |
+| `Tesis/aplicacion` | `README.md` | puerta | 45 |
+| `Tesis/idea` | `fuentes.md` | estandar | 120 |
+| `Tesis/idea` | `paper.md` | estandar | 230 |
+| `Tesis/idea` | `README.md` | puerta | 69 |
+| `Tesis/publicable` | `aplicacion.md` | estandar | 80 |
+| `Tesis/publicable` | `campo.md` | estandar | 99 |
+| `Tesis/publicable` | `casos.md` | estandar | 256 |
+| `Tesis/publicable` | `friccion.md` | estandar | 144 |
+| `Tesis/publicable` | `fuentes.md` | estandar | 115 |
+| `Tesis/publicable` | `LEEME-publicacion.md` | estandar | 88 |
+| `Tesis/publicable` | `paper.md` | estandar | 224 |
+| `Tesis/publicable` | `README.md` | puerta | 69 |
+| `Tesis/segunda corrida` | `april-con-memoria.md` | estandar | 48 |
+| `Tesis/segunda corrida` | `april-sin-memoria.md` | estandar | 17 |
+| `Tesis/segunda corrida` | `ares-idea.md` | estandar | 30 |
+| `Tesis/segunda corrida` | `ares-impl-00-indice.md` | indice | 31 |
+| `Tesis/segunda corrida` | `ares-impl-01-guia.md` | estandar | 124 |
+| `Tesis/segunda corrida` | `ares-impl-02-stack.md` | estandar | 53 |
+| `Tesis/segunda corrida` | `ares-impl-03-memoria-con.md` | estandar | 51 |
+| `Tesis/segunda corrida` | `ares-impl-04-memoria-sin.md` | estandar | 17 |
+| `Tesis/segunda corrida` | `ares-impl-05-verificacion.md` | estandar | 12 |
+| `Tesis/segunda corrida` | `ares-impl-06-ahorro.md` | estandar | 44 |
+| `Tesis/segunda corrida` | `ares-protocolo-base.md` | estandar | 74 |
+| `Tesis/segunda corrida` | `ares-protocolo.md` | estandar | 71 |
+| `Tesis/segunda corrida` | `ares-tarea-de-expresion.md` | estandar | 33 |
+| `Tesis/segunda corrida` | `autonomo.md` | estandar | 207 |
+| `Tesis/segunda corrida` | `constitucion-mapa.md` | estandar | 225 |
+| `Tesis/segunda corrida` | `conversacional.md` | estandar | 105 |
+| `Tesis/segunda corrida` | `instruccion-consistencia.md` | estandar | 125 |
+| `Tesis/segunda corrida` | `instruccion-novedad.md` | estandar | 78 |
+| `Tesis/segunda corrida` | `principios-1-a-30.md` | estandar | 348 |
+| `Tesis/segunda corrida` | `prueba-de-rendicion-mapa-de-autoridad.md` | estandar | 50 |
+| `Tesis/segunda corrida` | `prueba-de-rendicion-resultados.md` | estandar | 44 |
+| `Tesis/segunda corrida` | `README.md` | puerta | 89 |
+| `Tesis/segunda corrida` | `registro.md` | estandar | 287 |
+| `Tesis/segunda corrida` | `reglas-de-escritura.md` | estandar | 71 |
+| `Tesis/segunda corrida` | `reglas-de-mutacion.md` | estandar | 85 |
+| `Tesis/segunda corrida` | `sistemas-compilables-atlas.md` | estandar | 79 |
+| `Tesis/segunda corrida` | `sistemas-compilables-perfilador.md` | estandar | 81 |
+| `Tesis/segunda corrida` | `sonda-1-emision-local.md` | estandar | 88 |
+| `Tesis/segunda corrida` | `sonda-2-arbitraje-de-par.md` | estandar | 105 |
+| `Tesis/segunda corrida` | `sonda-3-bitacora-del-supervisor.md` | estandar | 107 |
+| `Tesis/segunda corrida` | `talento-real.md` | estandar | 596 |
+| `Tesis/segunda corrida` | `tesis-humanidad-y-proceso.md` | estandar | 52 |
 | `Tesis/Teoria` | `estado-del-arte.md` | estandar | 122 |
 | `Tesis/Teoria` | `futuros.md` | estandar | 106 |
 | `Tesis/Teoria` | `individuos.md` | estandar | 133 |
@@ -140,20 +184,22 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
-| `mantis` | `Derrotero.md` | proceso | 61 |
+| `mantis` | `acta.md` | proceso | 111 |
+| `mantis` | `Derrotero.md` | proceso | 67 |
 | `mantis` | `deterrente.md` | deterrente | 80 |
 | `mantis/mantenimiento/chequear` | `auditar-configuracion.md` | proceso | 75 |
-| `mantis/mantenimiento/chequear` | `README.md` | puerta | 27 |
-| `mantis/mantenimiento/editar` | `editar.md` | proceso | 157 |
+| `mantis/mantenimiento/chequear` | `derivar.md` | proceso | 75 |
+| `mantis/mantenimiento/chequear` | `README.md` | puerta | 28 |
+| `mantis/mantenimiento/editar` | `editar.md` | proceso | 156 |
 | `mantis/mantenimiento/editar` | `enrutar-formato.md` | formato | 70 |
 | `mantis/mantenimiento/editar` | `README.md` | puerta | 26 |
-| `mantis/mantenimiento/notas` | `notas-tesis.md` | proceso | 143 |
+| `mantis/mantenimiento/notas` | `notas-tesis.md` | proceso | 144 |
 | `mantis/mantenimiento/notas` | `README.md` | puerta | 27 |
 | `mantis/piso` | `README.md` | puerta | 53 |
 
 ## Totales
 
-`Archivos: 102 | procesos: 65 | estandares: 8`
+`Archivos: 149 | procesos: 67 | estandares: 48`
 
 ## Prueba
 

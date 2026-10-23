@@ -15,14 +15,12 @@ $Root = (Resolve-Path $Root).Path
 $zonas = [ordered]@{
   'Tesis' = 'la tesis: la forma, aun por aplanar en archivos'
   'Ouroboros' = 'la tarea: paso 1, paso 2 y paso 3'
-  'Era' = 'la era'
   'mantis' = 'instancia: la operacion'
 }
 
 function Get-Rol($rel) {
   if ($rel -match '^Tesis') { return 'estandar' }
-  if ($rel -match '^Era') { return 'era' }
-  return 'instancia'
+    return 'instancia'
 }
 
 function Get-Clase($nombre, $rel) {
@@ -74,7 +72,7 @@ $sb = [System.Text.StringBuilder]::new()
 [void]$sb.AppendLine('| Zona | Rol | Que es |')
 [void]$sb.AppendLine('|---|---|---|')
 foreach ($z in $zonas.Keys) {
-  $rol = if ($z -eq 'Tesis') { 'estandar' } elseif ($z -eq 'Era') { 'era' } else { 'instancia' }
+  $rol = if ($z -eq 'Tesis') { 'estandar' } else { 'instancia' }
   [void]$sb.AppendLine("| ``$z/`` | $rol | $($zonas[$z]) |")
 }
 [void]$sb.AppendLine()

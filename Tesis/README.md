@@ -1,74 +1,70 @@
-# Ouroboros
+# Tesis
 
-**Qué es:** el lenguaje de procesos de esta base. Cinco primitivos y dos mutaciones, con la misma forma, que se componen entre sí.
+**Unidad:** nivel.
+**Aplica a:** sostener.
+**Tipo:** puerta de la tesis. No decide ni ejecuta: dice qué hay en sus partes y cómo se leen.
+**Lector:** quien va a publicar, y quien va a decidir si la idea se sostiene.
+**Dueño:** la autoridad.
+**Estado:** vigente.
 
-**Deterrente:** `../Ouroboros/1 Guantelete — primitivo/carga.md`. Enruta subprocesos: sin él, un subproceso no sabe cuándo se carga, y una puerta abierta pierde el rastro de por qué se hizo algo.
+## La tesis y su corte
 
-**Piso:** `../Ouroboros/piso.md`. Rige `../Ouroboros/piso.md`.
+**La tesis tiene dos partes, y la diferencia entre ellas es una sola: la corrida.**
 
-**Forma común:** `Entra | Falla | Sale | Consume`, con `Cuándo se usa` y `Proceso`. La fija `../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`.
-
-**Por qué es un lenguaje y no un catálogo:** porque los procesos se aplican uno sobre otro, y aplicar es un proceso, no una tabla.
-
-## El árbol
-
-El nombre lo da la carpeta. **Lo que está dentro ya se sabe que es un proceso: no se repite en cada archivo.**
-
-```
-Ouroboros/
-─── deterrente.md              el de este nivel
-─── integridad.md              el único que no produce: chequea
-─── primitivos/
-│   ─── manipulacion.md        produce, calibra, reemplaza, retira
-│   ─── aplicar.md             ejecuta un proceso sobre una entrada
-│   ─── mutacion.md            transforma y deja rastro
-│   ─── claridad.md            la fuente de la que se muta
-│   └── ingenieria-inversa.md  deduce de lo observable
-─── mutaciones/
-│   ─── friccion.md            nace de claridad
-│   └── sesgo-declarado.md     nace de claridad
-└── README.md
-```
-
-**Cuatro carpetas y ninguna es una clasificación.** `primitivos/` y `mutaciones/` dicen **de dónde vino** cada proceso; `integridad.md` está suelto porque es el único que chequea. **Si mañana hay otro que chequee, va al lado: sin abrir carpeta nueva.**
-
-## Los cinco primitivos
-
-| Primitivo | Qué hace | Se rompe así |
+| Parte | Qué contiene | Qué la vuelve publicable |
 |---|---|---|
-| `manipulacion` | produce, calibra, reemplaza y retira | se crea sin variables |
-| `aplicar` | ejecuta un proceso sobre una entrada | se aplica sin que la entrada corresponda |
-| `mutacion` | transforma y declara qué conserva | se muta sin declarar qué se conserva |
-| `claridad` | la fuente de la que se muta | la forma no llega al lector |
-| `ingenieria-inversa` | deduce de lo observable | no reproduce el resultado |
+| **`idea/`** | el protocolo formalizado y el mapa de sus fuentes | que cada afirmación traiga el caso que la tumba |
+| **`aplicacion/`** | los casos donde el protocolo se corrió, con su medición | que cada caso traiga su corrida, su falla y su vacío |
 
-**Cinco primitivos:** ninguno se deriva de otro, y es a propósito. Se recuerdan y se usan. Un lenguaje de tres piezas elegante no lo usa nadie; uno de veinte no se recuerda.
+**La idea se publica sola.** La aplicación se publica con su corrida: sin ella es una ilustración, y una ilustración se lee como evidencia sin serlo.
 
-## Las dos mutaciones
+## La carpeta publicable
 
-**`friccion` y `sesgo-declarado` no son primitivos: son mutaciones de `claridad`.** Las dos nacieron de la misma pregunta —*¿el otro puede reconstruir esto?*— y declaran qué conservan de él.
+**`publicable/` es el corte que se publica: los documentos que se leen solos, sin el repositorio.** No es una tercera parte de la tesis: es la forma en que las dos se emiten para un lector que no va a abrir otra carpeta.
 
-Una mutación nueva puede nacer de **n primitivos**, no de uno. **Las piezas se combinan, no se escalan.**
+| Qué tiene | Cómo se usa |
+|---|---|
+| siete documentos, cada uno con su versión, su fecha y su licencia | se depositan como están, o se emiten a PDF con el manifiesto |
+| `README.md` | la puerta: qué hay, cómo se lee y qué la vuelve publicable |
+| `LEEME-publicacion.md` | las condiciones de depósito: qué falta, quién lo completa |
+| `manifiesto.txt` | qué documentos se emiten y con qué título; **no se publica** |
 
-## Composición
+**Un corte no es una copia.** `idea/` es la fuente de la tesis; `publicable/` es su lectura para afuera. Lo que el corte reescribe se declara allí, y lo que la fuente todavía cita con un nombre histórico queda en la fuente, no en el corte.
 
-Un proceso compone con otro cuando su salida es la entrada del otro sin traducción. La composición la comprueba `../Ouroboros/1 Guantelete — primitivo/herramientas/aplicar.md`; no se declara en una tabla sin ejecutarse.
+**Los dos dicen lo mismo, y lo dicen distinto porque el lector no es el mismo.** Quien lee `idea/` conoce el repositorio; quien lee `publicable/` no lo va a abrir.
 
-| De | A | Qué pasa |
-|---|---|---|
-| ingeniería inversa | aplicar | el proceso deducido se ejecuta sobre un caso |
-| aplicar | claridad | lo que produce se escribe con su forma |
-| claridad | ATLAS | lo que se lee se comunica (`../corpus/ATLAS/`, estándar) |
-| mutación | cualquiera | vuelve sobre los demás y deja rastro |
+## Cómo se lee
 
-**La mutación es la arista de retorno.** Es lo que hace que el nombre tenga sentido: el proceso que vuelve sobre los procesos.
+1. **`publicable/paper.md`**, secciones 1 a 3: qué falla, qué ya existía, qué hueco queda.
+2. **`publicable/paper.md`**, sección 4: las siete condiciones, cada una con su `Falsificador`.
+3. **`publicable/paper.md`**, sección 6: los límites. **Es la sección que hace creíble el resto.**
+4. **`publicable/fuentes.md`**: cada afirmación atada a su fuente, con año y nivel.
+5. **`publicable/aplicacion.md`**: la corrida, con su comando y su resultado.
+6. **`publicable/LEEME-publicacion.md`**: qué falta para depositar.
 
-## Trazabilidad
+## El material
 
-Toda aplicación y toda mutación dejan ancla. Sin ancla, la operación no ocurrió. El rastro vive en `../Ouroboros/3 ATLAS — mutación/indice de formas.md`, no en un relato.
+**Los casos no se copian en la fuente: viven en `Teoria/`, y el paper los cita.** El corte sí los reescribe, porque quien lee `publicable/` no abre otra carpeta.
 
-## Abstracciones
+| Archivo | Qué aporta |
+|---|---|
+| `Teoria/mundo.md` | la pregunta, los casos con factura ya cobrada, las cuatro fricciones |
+| `Teoria/futuros.md` | los futuros de la ficción, cada uno con su síntoma temprano |
+| `Teoria/individuos.md` | los robots de la ficción, y la pieza que a cada uno le faltó |
+| `Teoria/estado-del-arte.md` | lo heredado con nivel, lo que falta en el campo, lo que se agrega |
+| `Conceptos.md` | el registro de nombres del sistema |
+| `SARA 1.md`, `SARA 2.md` | la instancia que aplica el lenguaje, y su forma |
 
-Sobre estos procesos se construyen otros. Una abstracción no es un primitivo: se deduce de lo que ya funcionaba, y no tiene que estar aquí.
+## Qué no es esta carpeta
 
-`../S.A.R.A/punto-de-partida/` es una abstracción: sus dieciséis sub-tareas salieron de aplicar los primitivos a lo que se venía usando, y se dedujeron con `../Ouroboros/1 Guantelete — primitivo/herramientas/ingenieria-inversa.md`.
+**No es ejecución.** Este repo es el reino de las ideas: lo que se ejecuta sale de aquí ya con formato de ente y vive fuera. Aquí está lo que no caduca.
+
+**No es un catálogo de ficción.** Los casos están marcados como casos: **una factura ya cobrada no es una medición.**
+
+**No es una promesa de AGI.** La idea no la necesita, y el paper no la hace.
+
+## Prueba
+
+¿Cada parte declara qué la vuelve publicable? ¿El corte se lee sin el repositorio? ¿Todo documento del corte está en el manifiesto? ¿Lo que falta para depositar está escrito?
+
+**Falsificador:** una idea presentada como conclusión y no como hipótesis con falsificador; una aplicación sin corrida; un caso de ficción presentado como evidencia; una parte que promete lo que la otra no puede sostener; un corte que necesita al repositorio para entenderse.

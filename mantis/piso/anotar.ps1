@@ -3,7 +3,7 @@
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
 # Una sola base, sin export. Rige ../mantenimiento/notas/notas-tesis.md.
-# Esquema: notas/esquema.sql. Base: .sesion-continua/mantis.db (oculta).
+# Esquema: notas/corrida-<uuid>/esquema.sql (la base declara con cual se escribio). Base: .sesion-continua/mantis.db (oculta).
 #
 # No se aplica a: el corte de una generacion (eso va a notas/generaciones/), ni a la validacion de la fila.
 #
@@ -92,7 +92,7 @@ if ($Sesion) {
   if ($tiposOk -notcontains $Tipo) { $errores += "tipo invalido: $Tipo (uno de: $($tiposOk -join ', '))" }
   if ($sostOk -notcontains $Sostenido) { $errores += "sostenido invalido: $Sostenido" }
   $existe = & sqlite3 $Base "SELECT 1 FROM seccion WHERE nombre = $(Esc $Seccion);"
-  if (-not $existe) { $errores += "seccion desconocida: $Seccion (ver notas/esquema.sql, tabla seccion)" }
+  if (-not $existe) { $errores += "seccion desconocida: $Seccion (ver la corrida vigente, tabla seccion)" }
 }
 
 if ($errores.Count -gt 0 -or $Chequear) {

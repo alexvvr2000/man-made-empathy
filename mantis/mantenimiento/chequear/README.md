@@ -25,3 +25,4 @@
 | Proceso | Qué decide | Qué lo refuta |
 |---|---|---|
 | `auditar-configuracion.md` | si las cifras, las rutas, la jerga y el nivel coinciden con lo que hay | una cifra que no cuadra y no se declara |
+| `derivar.md` | si un artefacto quedó apuntando a una idea que ya cambió | una idea que cambió y nada se derivó |

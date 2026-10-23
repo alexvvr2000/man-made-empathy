@@ -1,7 +1,7 @@
 # Editar — el proceso
 
 **Tipo:** proceso de mantenimiento. Once pasos, en orden. Vuelve sobre el estándar y sobre la tesis.
-**Alcance:** `../../../Ouroboros/`, `../../../Tesis/`, `../../Era/` y `../../../mantis/`. La implementación de una era no entra salvo que el cambio la produzca.
+**Alcance:** `../../../Ouroboros/`, `../../../Tesis/` y `../../../mantis/`. **Este repo es el reino de las ideas: lo que se ejecuta sale de aquí con formato de ente y no vuelve.**
 **Dueño:** la autoridad. El cambio se propone; la autoridad lo autoriza.
 **Claridad:** `../../../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`.
 **Integridad:** `../../../Ouroboros/procesos/integridad.md`. **Corre siempre antes de mutar.**
@@ -52,12 +52,11 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 | **Instancia** | Ouroboros | `Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso, con integridad antes |
 | **Tesis** | Tesis | `Tesis/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
 | **Tesis** | Tesis | `.sesion-continua/mantis.db` | la memoria | guarda lo que se dijo y el porqué |
-| **Implementación** | Era | `Era/` | una era | traduce un proceso a su era |
 | **Registro** | Memoria | `.sesion-continua/mantis.db` | la memoria de la conversación | anota la decisión, la frase o el descarte en el mismo turno |
 
-**Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **con qué** es implementación. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `Tesis/`.
+**Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `Tesis/`. **Uno que dice "con qué" no vive aquí: sale ya con formato de ente.**
 
-**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, implementación o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca el estándar de `Ouroboros/`, se ejecuta antes `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md` y se mide su efecto en los que componen con él.
+**Destino.** Antes de escribir, se declara el nivel y la parte: estándar, instancia, tesis o registro. Si es estándar, se ejecuta el paso 9 completo: **un estándar sin sus instancias revisadas no entra.** Si toca el estándar de `Ouroboros/`, se ejecuta antes `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md` y se mide su efecto en los que componen con él.
 
 **Gana el estándar.** Una instancia no puede contradecir su estándar. Si lo contradice, la instancia se corrige, y si la instancia tenía razón, primero se corrige el estándar y después se propaga.
 
@@ -65,11 +64,11 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 
 **Tarea sin clase.** La tarea se describe por su entrada, su falla, su salida y su consumidor. Prohibido clasificarla por quién la ejecuta: esa ambigüedad se deja abierta a propósito.
 
-**Pertenencia.** Un documento de la base se sostiene sin nombrar implementaciones: si las quitas y el documento sigue teniendo sentido, es idea; si se queda vacío, es implementación.
+**Pertenencia.** Un documento de la base se sostiene sin nombrar tecnología: si la quitas y el documento sigue teniendo sentido, es idea; si se queda vacío, es ejecución, y no vive aquí.
 
 **Jerga.** Un nombre interno se usa en el documento que lo gobierna. Fuera de ahí entra con glosa, o no entra. Un nombre interno no sostiene un argumento: si la frase pierde sentido al quitárselo, el argumento era el nombre. Rige `../chequear/auditar-configuracion.md`, `La jerga`.
 
-`Origen: [raíz|Tesis|Ouroboros|Era|mantis] | Nivel: [estándar|instancia|implementación|caso] | Ruta: [la del archivo] | El lector sabe: [sí|con glosa|no]`
+`Origen: [raíz|Tesis|Ouroboros|mantis] | Nivel: [estándar|instancia|tesis|caso] | Ruta: [la del archivo] | El lector sabe: [sí|con glosa|no]`
 
 **Prueba:** ¿la obligación estaba ya? ¿el destino es uno y su `Aplica a` coincide? ¿el nivel se declaró? ¿la frase se entiende sin conocer el repo?
 **Falsificador:** se crea una segunda norma para la misma obligación; entra en el documento que la menciona y no en el que lo gobierna; se toca más de una parte sin declararlo; una frase que pierde sentido al quitarle un nombre interno o una ruta; un estándar sin sus instancias revisadas; un caso presentado como estándar.

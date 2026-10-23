@@ -29,10 +29,13 @@ foreach ($g in $porNombre) {
   # Las tres piezas del ente se repiten a proposito: rastro, ruta y carga son el mismo nombre en cada ente.
   # El README de sub-tarea tambien: es la puerta de cada una.
   if ($g.Name -in @('README.md','rastro.md','ruta.md','carga.md')) { continue }
+  # Dos carpetas hermanas de la misma parte son dos lectores del mismo texto:
+  # la fuente de la tesis y su corte publicable comparten nombre a proposito.
+  $padre = @($g.Group | ForEach-Object { Split-Path (Split-Path $_.FullName -Parent) -Leaf } | Sort-Object -Unique)
+  if ($padre.Count -le 1) { continue }
   # Un nombre en la tesis y en el estandar es explicacion contra forma: se declara, no se corrige.
-  $enTesis = $g.Group | Where-Object { $_.FullName -match '\\Tesis\\' }
-  $enEstandar = $g.Group | Where-Object { $_.FullName -match '\\Ouroboros\\' }
-  if ($enTesis -and $enEstandar) { continue }
+  $zonas = @($g.Group | ForEach-Object { ($_.FullName.Replace($Root + '\', '') -split '\\')[0] } | Sort-Object -Unique)
+  if ($zonas -contains 'Tesis' -and $zonas -contains 'Ouroboros') { continue }
   $nombres += [pscustomobject]@{ Tipo = 'nombre'; Nombre = $g.Name; Veces = $g.Count; Donde = (($g.Group | ForEach-Object { $_.FullName.Replace($Root + '\', '').Replace('\', '/') }) -join ' · ') }
 }
 
@@ -46,6 +49,8 @@ foreach ($f in $archivos) {
 }
 $porTitulo = $titulos | Group-Object Titulo | Where-Object { $_.Count -gt 1 }
   $porTitulo = @($porTitulo | Where-Object { $g2 = $_; -not (($g2.Group | Where-Object { $_.Ruta -match '^1 Tesis/' }) -and ($g2.Group | Where-Object { $_.Ruta -match '^Ouroboros/' })) })
+  # Dos carpetas hermanas de la misma parte: la fuente y su corte declaran el mismo titulo.
+  $porTitulo = @($porTitulo | Where-Object { $g3 = $_; $dirs = @($g3.Group | ForEach-Object { $_.Ruta.Substring(0, $_.Ruta.LastIndexOf('/')) } | Sort-Object -Unique); $dirs.Count -gt 1 })
   # Un titulo repetido entre la tesis y el estandar camina el mismo puente: el estandar ejecuta, la tesis explica.
   $porTitulo = @($porTitulo | Where-Object { -not (($_.Group.FullName -match '\\Tesis\\') -and ($_.Group.FullName -match '\\Ouroboros\\')) })
 foreach ($g in $porTitulo) {

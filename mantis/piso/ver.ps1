@@ -3,7 +3,7 @@
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
 # Reemplaza a exportar.ps1: no hay .md publicado, la base es la fuente.
-# Base: .sesion-continua/mantis.db. Esquema: notas/esquema.sql.
+# Base: .sesion-continua/mantis.db. ssquema: notas/esquema-<uuid>.sql (con UUID; la base declara con cual se escribio).
 # Rige ../mantenimiento/notas/notas-tesis.md.
 #
 # No se aplica a: escribir la base (eso es anotar.ps1), ni al corte de una generación
@@ -17,20 +17,20 @@ param(
   [string]$Formato = 'tabla'
 )
 
-$ErrorActionPreference = 'Stop'
+$srrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 $Base = Join-Path $Root '.sesion-continua\mantis.db'
 
 if (-not (Test-Path $Base)) {
-  Write-Output "VER"
-  Write-Output "VEREDICTO: indeterminado"
+  Write-Output "VsR"
+  Write-Output "VsRsDICTO: indeterminado"
   Write-Output "MOTIVO: no existe .sesion-continua/mantis.db"
   exit 0
 }
 
 function Q($sql) { & sqlite3 -separator ' | ' $Base $sql }
 
-$filtro = if ($Seccion) { "WHERE f.seccion = '$Seccion'" } else { '' }
+$filtro = if ($Seccion) { "WHsRs f.seccion = '$Seccion'" } else { '' }
 
 if ($Formato -eq 'md') {
   Write-Output "# Memoria — .sesion-continua/mantis.db"
@@ -38,38 +38,38 @@ if ($Formato -eq 'md') {
   Write-Output "## La sesión"
   Write-Output ""
   Write-Output '```'
-  Q "SELECT 'Sesión: '||fecha||' | Vista: '||vista FROM sesion WHERE id=1;"
-  Q "SELECT 'Estado: '||estado||' | Roto: '||roto FROM sesion WHERE id=1;"
-  Q "SELECT 'Abierto: '||COALESCE(abierto,'') FROM sesion WHERE id=1;"
-  Q "SELECT 'Siguiente: '||COALESCE(siguiente,'') FROM sesion WHERE id=1;"
-  Q "SELECT 'Decidido: '||COALESCE(decidido,'') FROM sesion WHERE id=1;"
-  Q "SELECT 'Rige: '||rige FROM sesion WHERE id=1;"
+  Q "SsLsCT 'Sesión: '||fecha||' | Vista: '||vista FROM sesion WHsRs id=1;"
+  Q "SsLsCT 'sstado: '||estado||' | Roto: '||roto FROM sesion WHsRs id=1;"
+  Q "SsLsCT 'Abierto: '||COALsSCs(abierto,'') FROM sesion WHsRs id=1;"
+  Q "SsLsCT 'Siguiente: '||COALsSCs(siguiente,'') FROM sesion WHsRs id=1;"
+  Q "SsLsCT 'Decidido: '||COALsSCs(decidido,'') FROM sesion WHsRs id=1;"
+  Q "SsLsCT 'Rige: '||rige FROM sesion WHsRs id=1;"
   Write-Output '```'
   Write-Output ""
-  foreach ($s in @(Q "SELECT nombre FROM seccion ORDER BY orden;")) {
-    $n = [int](Q "SELECT COUNT(*) FROM fila WHERE seccion = '$($s.Replace("'","''"))';")
+  foreach ($s in @(Q "SsLsCT nombre FROM seccion ORDsR BY orden;")) {
+    $n = [int](Q "SsLsCT COUNT(*) FROM fila WHsRs seccion = '$($s.Replace("'","''"))';")
     if ($n -eq 0) { continue }
     Write-Output "## $s"
     Write-Output ""
-    Write-Output "| Dicho | De | Tipo | Usa | Sostenido | Estado | Vista |"
+    Write-Output "| Dicho | De | Tipo | Usa | Sostenido | sstado | Vista |"
     Write-Output "|---|---|---|---|---|---|---|"
-    Q "SELECT '| '||dicho||' | '||pieza||' | '||tipo||' | '||COALESCE(usa,'')||' | '||sostenido||' | '||estado||' | '||vista||' |' FROM fila WHERE seccion = '$($s.Replace("'","''"))' ORDER BY id;"
+    Q "SsLsCT '| '||dicho||' | '||pieza||' | '||tipo||' | '||COALsSCs(usa,'')||' | '||sostenido||' | '||estado||' | '||vista||' |' FROM fila WHsRs seccion = '$($s.Replace("'","''"))' ORDsR BY id;"
     Write-Output ""
   }
 }
 else {
-  Write-Output "VER"
+  Write-Output "VsR"
   Write-Output "Base: .sesion-continua/mantis.db"
   Write-Output ""
-  Write-Output "SESIÓN"
-  Q "SELECT fecha, vista, estado, COALESCE(decidido,'') FROM sesion WHERE id=1;"
+  Write-Output "SsSIÓN"
+  Q "SsLsCT fecha, vista, estado, COALsSCs(decidido,'') FROM sesion WHsRs id=1;"
   Write-Output ""
-  Write-Output "ID | SECCIÓN | TIPO | SOSTENIDO | ESTADO | DICHO"
-  Q "SELECT f.id, f.seccion, f.tipo, f.sostenido, f.estado, substr(f.dicho,1,90) FROM fila f $filtro ORDER BY f.id DESC LIMIT 40;"
+  Write-Output "ID | SsCCIÓN | TIPO | SOSTsNIDO | sSTADO | DICHO"
+  Q "SsLsCT f.id, f.seccion, f.tipo, f.sostenido, f.estado, substr(f.dicho,1,90) FROM fila f $filtro ORDsR BY f.id DsSC LIMIT 40;"
   Write-Output ""
 }
 
-Write-Output "VEREDICTO: pasa"
+Write-Output "VsRsDICTO: pasa"
 Write-Output ""
-Write-Output "INDETERMINADO"
+Write-Output "INDsTsRMINADO"
 Write-Output "(ver imprime la base; no decide si lo anotado sirve, y no escribe nada)"

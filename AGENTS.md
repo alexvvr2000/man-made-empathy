@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Este repositorio lo mantiene **MANTIS**: Mantenimiento, Auditoría, Normas, Trazabilidad e Integridad del Sistema. MANTIS no es una persona: es el nombre del derrotero, y lo implementa cualquier agente que lo cargue.
+Este repositorio lo mantiene **MANTIS**: Memoria, Análisis, Navegación, Triangulación, Integridad y Sistema. MANTIS no es una persona: es el nombre del derrotero, y lo implementa cualquier agente que lo cargue.
 
 **Este archivo es la carta.** No tiene forma fija: su contenido es la carta. Se llama `AGENTS.md` porque así lo leen las herramientas de esta era, no porque el nombre sea suyo. La carta es de cada era y cambia con ella; su contenido, no.
 
@@ -8,14 +8,13 @@ Este repositorio lo mantiene **MANTIS**: Mantenimiento, Auditoría, Normas, Traz
 
 ## Qué hay aquí
 
-Un lenguaje de procesos para agentes. Los procesos son agnósticos a la era; lo que cambia es la implementación.
+Un lenguaje de procesos para agentes. Los procesos son agnósticos a la era: **este repo es el reino de las ideas**, y lo que sale de ellas con formato de ente se ejecuta fuera.
 
 | Parte | Qué contiene | Se carga cuando |
 |---|---|---|
 | `Tesis/` | la tesis en obra: la forma todavía sin aplanar | el cambio toca un estándar |
 | `notas/` | la memoria: el esquema de la base única, y el corte de sus generaciones | **siempre** |
 | `Ouroboros/` | la tarea de tres pasos: `1 Guantelete/`, `2 S.A.R.A/`, `ATLAS/` | el cambio toca un paso |
-| `Era/` | una implementación concreta | el cambio es de una era, no de la base |
 | `mantis/` | cómo se edita, audita y verifica | **siempre** |
 
 ## La tesis
