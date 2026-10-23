@@ -35,6 +35,20 @@ Qué la contestaría: [el caso o la lectura que la tumba]
 
 **`Qué la contestaría` es obligatorio.** Una referencia que no puede ser contestada no es una referencia: es un ídolo. La misma regla que la de un proceso sin falsificador: **no entra.**
 
+## Las subcarpetas
+
+**Esta carpeta es mutable: crece por subcarpeta, no por archivo suelto.** Rige `../../AGENTS.md`, `Las dos carpetas de la tesis son mutables`.
+
+```
+Se crea una subcarpeta cuando hay tres archivos que comparten algo claro.
+Antes de tres, van a la raíz.
+Lo que entra en una subcarpeta no vuelve a la raíz.
+El nombre de la subcarpeta dice lo que comparten, no el tema.
+La raíz solo admite: README, index y _PLANTILLA.
+```
+
+**Hoy, con cinco referencias, corresponde partir.** **Las subcarpetas las nombra quien escribe, y se declaran en un renglón: qué comparten.**
+
 ## Lo que no entra
 
 **Una referencia por parecer culta.** Si no sostiene una pieza, no entra.

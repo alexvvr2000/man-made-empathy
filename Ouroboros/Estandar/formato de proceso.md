@@ -2,39 +2,18 @@
 
 **Unidad:** nivel.
 **Aplica a:** dar forma.
-**Tipo:** estándar de formato. No decide, no ejecuta: dice qué forma tiene lo que un ejecutor puede leer.
+**Tipo:** estándar. No se ejecuta: se cumple. Dice **cómo tiene que ser** lo que un ejecutor puede leer.
 **Lector:** todo ejecutor —humano, modelo o programa— que tenga que leer o producir un proceso.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** la forma se lee desde el ejecutor que la recorre, no desde el gusto del autor.
-**Límite:** no juzga contenido. Un proceso con todos los campos puede no decir qué decide; eso lo dice `./union.md` y `./ACERO.md`.
-**Cuelga de:** `./ESTANDAR.md`. Es la forma de todo lo demás: no hay proceso sin este formato.
-**Deja de valer:** cuando el ejecutor deja de necesitar la forma porque ya sabe qué hacer. Ahí la forma sobra.
-**Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra él mismo.
+## Qué forma fija
 
-**Variables:** proceso · campo · compuerta · ancla · acuñación
-**Peor:** cada archivo inventa su forma, el ejecutor tiene que adivinar, y adivinar no es ejecutar.
-**Quién:** quien hereda el proceso y no sabe qué campo le incumbe.
+**Que todo se escriba siempre igual. Si cada archivo inventa su forma, el ejecutor tiene que adivinar, y adivinar no es ejecutar.**
 
-## Qué es
+**Rige el formato, no el contenido.** **Un proceso con todos los campos puede no decir qué decide; eso lo dice `./criterio.md`.**
 
-**Todo se escribe siempre igual. Si cada archivo inventa su forma, el ejecutor tiene que adivinar, y adivinar no es ejecutar.**
-
-**Rige el formato, no el contenido.** Un proceso con los campos escritos puede no decir qué decide; eso no lo salva el formato.
-
-## Todo es un proceso
-
-**No hay piezas que no sean proceso.** El `Rastro`, la `Ruta`, la `Carga` y el propio formato **también se ejecutan**: verifican, enrutan, declaran pérdida o dicen la forma.
-
-**Describir el conjunto no es un oficio distinto: es un proceso que decide sobre el conjunto.**
-
-**Un archivo no se excluye del estándar por su nombre. Se excluye si al quitarlo nadie sabría qué hacer — y eso lo decide su propia `Prueba`.**
-
-**El nivel no cambia el oficio: cambia la carpeta.** Un paso de `Ouroboros/` es un ente y se lee con `./ente.md`; lo que ese ente contiene son procesos y se leen aquí.
-
-## La forma del proceso
+## El rastro: la forma del proceso
 
 **Un proceso lleva variables arriba, el bloque de entrada, y su reverso.**
 
@@ -50,7 +29,19 @@
 | `Prueba` | cómo se comprueba que cumplió | `**Prueba:** ...` o `## Prueba` |
 | `Falsificador` | qué lo refuta | `**Falsificador:** ...` o `## Falsificador` |
 
-**Las tres variables van arriba del primer campo, como línea propia.** Sin ellas no hay contra qué chequearlo cuando falla.
+**Las tres variables van arriba del primer campo, como línea propia.** **Sin ellas no hay contra qué chequearlo cuando falla.**
+
+
+## Todo es un proceso
+
+**No hay piezas que no sean proceso.** El `Rastro`, la `Ruta`, la `Carga` y el propio formato **también se ejecutan**: verifican, enrutan, declaran pérdida o dicen la forma.
+
+**Describir el conjunto no es un oficio distinto: es un proceso que decide sobre el conjunto.**
+
+**Un archivo no se excluye del estándar por su nombre. Se excluye si al quitarlo nadie sabría qué hacer — y eso lo decide su propia `Prueba`.**
+
+**El nivel no cambia el oficio: cambia la carpeta.** Un paso de `Ouroboros/` es un ente y se lee con `./AGENTS.md`; lo que ese ente contiene son procesos y se leen aquí.
+
 
 ## Los campos condicionales
 
@@ -165,21 +156,33 @@ Autoridad: [tipo:nombre] | Cierra en: [tipo:nombre] | Reemplaza: [nombre anterio
 
 ## Lo que este formato no hace
 
-**No juzga si la pieza sirve.** Un proceso puede tener todos los campos y ser inútil. Eso lo dice `./ACERO.md`.
+**No juzga si la pieza sirve.** Un proceso puede tener todos los campos y ser inútil. Eso lo dice `./VIDAL.md`.
 
 **No dice cuántos procesos hay.** Eso lo dice cada instancia, y muta.
+
+## La ruta: qué se carga para escribir un proceso
+
+| Se va a… | Se carga… | Sin la autoridad… |
+|---|---|---|
+| **escribir un proceso nuevo** | `./criterio.md`, la admisión de normas | **no entra** |
+| **decidir la clase del proceso** | `./claridad.md`, `Se ejecuta` o `Se lee` | **se escribe como ensayo** |
+| **escribir su cabecera** | `./AGENTS.md`, las tres piezas | **no es ente** |
+| **ponerlo a prueba** | `./piso.md`, las cuatro condiciones | **no hay veredicto** |
+| **cambiarlo** | el estándar entero, y se espera | **no se cambia** |
+
+## La carga: qué se pierde
+
+| Si pasa esto | Se pierde | Y el síntoma es |
+|---|---|---|
+| **el proceso no nombra la falla** | la admisión | es actividad, no proceso |
+| **el proceso no tiene `Falsificador`** | el reverso | es una opinión con formato de norma |
+| **el proceso se escribe como ensayo** | la ejecución | el ejecutor adivina |
+| **el proceso nombra una era o una tecnología** | la vigencia | muere cuando la era cambia |
+| **el proceso se copia en vez de citarse** | el estándar | dos formas que dicen lo mismo |
+| **el proceso se completa por simetría** | el criterio | crece sin cambiar ninguna conducta |
 
 ## Prueba
 
 ¿Cada proceso declara variables, bloque de entrada y reverso? ¿Los niveles cambian la carpeta y no el oficio? ¿Faltar algo se nombra en vez de adivinarse?
 
 **Falsificador:** un proceso sin variables; un proceso sin `Falsificador`; un archivo excluido del estándar por su nombre; una sola forma aceptada y la otra marcada como error; un ejecutor que completa lo que falta por su cuenta.
-
-## Acuñación
-
-```
-Acta: EST-00 | Nombre: Formato de proceso | Expansión: nueve campos, cuatro condicionales, cuerpo en compuertas
-Origen: futuro/Estandar/Ente/formato de proceso.md | Fecha: 2026-10-23
-Muta: de forma suelta a forma que cuelga del estándar | Conserva: los nueve campos y los cuatro condicionales
-Ausencias: no juzga contenido ni cuenta procesos | Prueba: no corrida | Reemplaza: futuro/Estandar/Ente/formato de proceso.md
-```

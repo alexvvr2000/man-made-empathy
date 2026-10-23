@@ -1,115 +1,74 @@
-# Piso — la forma de una unidad
+# Piso — el estándar de la unidad que mide
 
-**Unidad:** proceso.
-**Aplica a:** converger.
-**Tipo:** estándar de ejecución. No decide, no enruta: hace que lo mismo se ejecute igual.
-**Lector:** quien corre algo y necesita que otro llegue al mismo sitio.
+**Unidad:** nivel.
+**Aplica a:** medir.
+**Tipo:** estándar. No se ejecuta: se cumple. Dice **cómo tiene que ser** una unidad del piso, y cuándo deja de serlo.
+**Lector:** quien va a medir algo de forma repetible, y quien va a leer la medición sin el que la corrió.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** la unidad se lee desde lo que resiste, no desde la cantidad de campos que declara.
-**Límite:** no decide qué medir; decide si lo que existe se puede correr igual en cualquier ejecutor.
-**Cuelga de:** `./friccion.md`. El piso es el tren que corre las cuatro pruebas de existencia sobre las unidades.
-**Deja de valer:** cuando el ejecutor deja de ser agnóstico. Un piso que depende de una era es una herramienta de una era.
-**Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `./proceso.md`
+## Qué forma fija
 
-**Variables:** unidad · ejecutor · veredicto · existencia · límite
-**Peor:** el piso corre y todo pasa. Un check que siempre pasa no mide: confirma.
-**Quién:** quien va a comparar dos corridas y no puede distinguir si cambió algo.
+**Que una unidad sirva para comparar. Un modelo cambia entre corridas, entre versiones y entre proveedores. La unidad no.**
 
-## Qué resuelve
+**Lo mismo tiene que medirse igual, en cualquier ejecutor, hoy y mañana.**
 
-**El piso es la herramienta que hace que distintos ejecutores hagan lo mismo de maneras distintas y lleguen al mismo sitio.**
+## El rastro: las cuatro condiciones
 
-**Un modelo cambia entre corridas, entre versiones y entre proveedores. El piso no.** Por eso no es una ayuda para el que ejecuta: **es lo que hace comparable lo que produce.**
-
-## Qué hace piso a una unidad
-
-**Cuatro condiciones. Sin las cuatro, es un script: sirve, pero no es piso.**
+**Sin las cuatro, es un script: sirve, pero no es unidad.**
 
 | Condición | Qué significa | Sin ella |
 |---|---|---|
-| **corre igual en cualquier ejecutor** | no depende de un modelo ni de un proveedor | es una herramienta de una era |
-| **su salida ya es veredicto** | `pasa / falla / indeterminado`, y el porqué | el que lee interpreta y se pierde la comparación |
-| **se puede correr sola** | no necesita las otras | es una tubería, no una unidad |
-| **se rige por el criterio** | declara `No se aplica a`, y el veredicto lo escribe quien lo usa | decide por costumbre |
+| **corre igual en cualquier ejecutor** | no depende de un modelo, un proveedor ni una versión | es una herramienta de una era |
+| **su salida ya es veredicto** | `pasa`, `falla` o `indeterminado`, con el porqué | el que lee interpreta, y ahí se pierde la comparación |
+| **se puede correr sola** | no necesita a las otras para dar un resultado | es parte de una tubería, no una unidad |
+| **se rige por el criterio** | declara a qué no se aplica, y el veredicto lo escribe quien lo va a usar | decide por costumbre |
 
-**Y la cuarta reemplaza a «es desechable».** Una herramienta que se tira no se recupera; **una que se rige por el criterio se puede volver a correr cuando el criterio cambió.**
+**Y la cuarta reemplaza a «es desechable».** **Una unidad que se tira no se recupera; una que se rige por el criterio se puede volver a correr cuando el criterio cambió.**
 
-## El tren
+## La ruta: qué se carga para medir
 
-```
-inventario → rutas → fantasmas → notas → turno → privacidad → trazabilidad → quien
-```
-
-**Un tren no es una tubería:** cada unidad se corre sola, y la salida de cada una se lee sola.
-
-**Si una unidad no puede decidir, escribe `indeterminado` y por qué.** No adivina, y no se calla lo que no pudo ver.
-
-## Cómo entra una unidad
-
-1. **Nombrarla por lo que decide** → `Unidad: [el verbo que decide]`
-2. **Pasar las cuatro pruebas de existencia** → `Se le resiste / Contesta / Si deja de correr / Deja de valer`
-3. **Emitir veredicto, no datos** → `Veredicto: [pasa|falla|indeterminado]`
-4. **Declarar su reverso** → `Falsificador: [el caso que la rompe]`
-5. **Registrar la entrada** → `Entra en el piso: [fecha] | Reemplaza: [unidad anterior o NINGUNA]`
-
-**Prohibido agregar una unidad que no nombre una resistencia que ninguna otra atiende. Prohibido ejecutar el paso N+1 sin la salida del N.**
-
-```
-Unidad: [la que decide] | Se le resiste: [qué] | Contesta: [quién]
-Si deja de correr: [qué se pierde] | Deja de valer: [No se aplica a qué] | Existe: [sí|aparece]
-```
-
-## El piso no decide. El criterio decide.
-
-> **El piso es lo que hace que distintos ejecutores hagan lo mismo. El criterio es lo que decide qué hacer con eso. Un piso sin criterio es un pendrive; un criterio sin piso es una opinión.**
-
-**Y por eso el piso no lleva modelo.** Si un `if` resuelve, un modelo introduce ruido y no se puede re-correr igual mañana.
-
-**Regla:** si el veredicto de una unidad cambia entre dos corridas del mismo estado, no es piso: es criterio.
-
-## Unidad y tiro
-
-**El criterio no clasifica herramientas: clasifica trabajo.**
-
-| | **Vuelve** | **No vuelve** |
+| Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| Criterio | `No se aplica a: nada que se repita` | `No se aplica a: esto no vuelve` |
-| Se resuelve con | una unidad del piso | un tiro |
-| Deja | veredicto, citable | resultado, no citable |
+| **dar un veredicto sobre algo** | `./criterio.md`, con su límite | **no hay veredicto** |
+| **decidir qué se pone a prueba** | `./VIDAL.md`, las siete características | **no se sabe qué se está midiendo** |
+| **escribir el resultado** | `./claridad.md`, de una sola lectura | **no se puede contestar** |
+| **anotar la corrida** | `./memoria continua.md`, con su posición | **el resultado se pierde con el contexto** |
+| **cambiar una unidad del piso** | el estándar entero, y se espera | **no se cambia** |
 
-> **Si la tarea vuelve, es unidad. Si no vuelve, es tiro y su límite lo declara.**
+## La unidad no decide
 
-**Un tiro no deja veredicto: no se cita como prueba.** Si el resultado empieza a importar seguido, el `No se aplica a` cambia y el tiro se vuelve unidad.
+> **La unidad es lo que hace que distintos ejecutores midan lo mismo. El criterio decide qué hacer con eso.**
+>
+> **Una unidad sin criterio es un pendrive; un criterio sin unidad es una opinión.**
 
-## Lo que no hace
+**Y por eso la unidad no lleva modelo.** **Si una condición resuelve, un modelo introduce ruido y no se puede repetir igual mañana.**
 
-**No decide si lo medido sirve.** Eso es criterio, y lo da la fricción.
+**Regla:** **si el veredicto cambia entre dos corridas del mismo estado, no es unidad: es criterio.**
 
-**No suma unidades como mérito.** Una unidad sin resistencia nombrada no entra: aparece.
+## La carga: qué se pierde
 
-**No promete que el repo esté sano.** Dice qué existe y qué no, con su porqué.
+| Si pasa esto | Se pierde | Y el síntoma es |
+|---|---|---|
+| **el veredicto cambia entre dos corridas del mismo estado** | la unidad | es criterio disfrazado de herramienta |
+| **la salida son datos y no un veredicto** | la comparación | cada uno lee lo que quiere |
+| **la unidad necesita a otra para correr** | la independencia | es una tubería: si una se rompe, todas |
+| **no declara a qué no se aplica** | el límite | se usa para todo y mide lo que ya no existe |
+| **una unidad se agrega sin nombrar qué la contradice** | la existencia | el piso crece sin que nada lo justifique |
+| **el piso se lee como mérito por cantidad** | el criterio | el número de unidades se vuelve el valor |
+
+## Lo que el estándar no hace
+
+**No fija cuántas unidades hay, ni cómo se llaman, ni en qué archivos viven.** **Fija cuándo algo es unidad.**
+
+**No decide si lo medido sirve.** **Mide si existe y si aguanta; si sirve, lo dice el uso.**
+
+**No hereda la unidad.** **Una unidad que fue válida con un criterio no lo es con otro: se vuelve a correr.**
+
+**No nombra un modelo ni una era.** **Si la unidad solo funciona con una tecnología, no es unidad: es herramienta de esa tecnología.**
 
 ## Prueba
 
-¿Cada unidad nombra qué se le resiste? ¿Lo contesta alguien distinto del que la produjo? ¿Se puede decir qué se pierde si deja de correr? ¿Tiene `Deja de valer`? ¿El tren da un solo veredicto?
+**¿La unidad corre igual en dos ejecutores distintos?** **¿Su salida es un veredicto con porqué?** **¿Se puede correr sola?** **¿Declara a qué no se aplica?** **¿Nombra qué la contradice?**
 
-**Falsificador:** una unidad sin resistencia; una unidad que se firma sola; una unidad que necesita otra para correr; una que emite datos sin veredicto; un piso que solo crece.
-
-## Transiciones
-
-- Una unidad pierde su resistencia → se retira, con su porqué anotado.
-- Una tarea que no vuelve se resuelve con un tiro → no se guarda.
-- El veredicto cambia entre corridas del mismo estado → deja de ser piso.
-- En cualquier otro caso → se corre el tren y se entrega el veredicto.
-
-## Acuñación
-
-```
-Acta: EST-11 | Nombre: Piso | Expansión: el tren que corre las cuatro pruebas de existencia sobre cada unidad
-Origen: futuro/Estandar/Ente/piso.md | Fecha: 2026-10-23
-Muta: de medir forma a medir existencia | Conserva: que corre igual en cualquier ejecutor
-Ausencias: no decide si lo medido sirve | Prueba: no corrida | Reemplaza: futuro/Estandar/Ente/piso.md
-```
+**Falsificador:** una unidad que cambia de resultado sin que cambie el estado; una que emite datos sin veredicto; una que necesita otra para correr; una sin límite declarado; una agregada sin nombrar su contradicción; un piso que solo crece.

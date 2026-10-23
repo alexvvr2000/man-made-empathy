@@ -81,6 +81,20 @@ Qué decisión cambió: [la decisión concreta, y qué se hizo distinto]
 
 **Si al terminar un momento no reconoces una vez que te pasó lo mismo, no lo entendiste todavía** — o no aplica a ti, y eso también es una respuesta.
 
+## Las subcarpetas
+
+**Esta carpeta es mutable: crece por subcarpeta, no por archivo suelto.** Rige `../../AGENTS.md`, `Las dos carpetas de la tesis son mutables`.
+
+```
+Se crea una subcarpeta cuando hay tres archivos que comparten algo claro.
+Antes de tres, van a la raíz.
+Lo que entra en una subcarpeta no vuelve a la raíz.
+El nombre de la subcarpeta dice lo que comparten, no el tema.
+La raíz solo admite: README, index y _PLANTILLA.
+```
+
+**Hoy, con tres momentos, corresponde partir.** **Las subcarpetas las nombra quien escribe, y se declaran en un renglón: qué comparten.**
+
 ## Qué no entra
 
 **Una reflexión sin error.** Si no había una creencia que se rompió, no es un momento: es una idea, y va a `../` como tesis.

@@ -1,9 +1,5 @@
 # Pruebas de tareas
 
-**Unidad:** tarea. `Agente` se lee como `ejecutor`.
-
-Estatuto de la carpeta, no catálogo de pruebas. No se prueba que la tarea sea buena ni que diga la verdad; se prueba que, junto con la autoridad, no termine dando más lata que soluciones.
-
 ## Qué se prueba
 
 Lo que necesita una prueba irrefutable para sostener una afirmación del proyecto. No es una suite cerrada: es el registro de lo que se va necesitando probar. Las pruebas que hoy existen son instancias de este marco, no su definición.

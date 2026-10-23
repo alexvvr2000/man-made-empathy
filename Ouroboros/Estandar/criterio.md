@@ -1,94 +1,95 @@
-# Criterio — la puerta entre los tres pasos
+# Criterio — rastro, ruta y carga de una decisión
 
-**Unidad:** proceso.
-**Aplica a:** decidir.
-**Tipo:** estándar de decisión. No decide ni ejecuta: dice qué tiene cada paso, y qué lo vuelve absoluto.
-**Lector:** la autoridad, y quien vaya a mutar un paso.
-**Dueño:** la autoridad.
-**Estado:** vigente.
+## El rastro: qué forma tiene una decisión
 
-**Sesgo:** el criterio se lee desde quien lo va a repetir, no desde quien lo aplicó.
-**Límite:** no decide entre dos caminos. Eso es de la autoridad.
-**Cuelga de:** `./sesgo.md`. Un criterio sin posición declarada es una costumbre con nombre de norma.
-**Deja de valer:** cuando el criterio se aplica a todo. Un criterio sin límite es un absoluto.
-**Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `./proceso.md`
+**Una decisión tiene tres piezas, y las tres son obligatorias.**
 
-**Variables:** razón · límite · repetible · ausencia
-**Peor:** el criterio se aplica a todo y nadie lo vuelve a mirar. Una norma que no vuelve a mirar decidió una vez con pocos datos.
-**Quién:** quien decide la próxima vez y no puede repetir la razón.
+| Pieza | Qué declara | Sin ella |
+|---|---|---|
+| **Rastro** | qué hay, qué no se toca y cómo se verifica | la decisión existe y no se puede contestar |
+| **Ruta** | qué se carga y cuándo | se decide con lo que había a mano |
+| **Carga** | qué se pierde si la decisión deja de servir | se conserva por costumbre |
 
-## Qué resuelve
+**Una decisión sin una de las tres no es criterio: es una preferencia con fecha.**
 
-**El criterio es lo que hace que la próxima vez no haya que preguntar.** Sin él, la fricción se repite como ceremonia: se pregunta, se contesta, y en la decisión siguiente se pregunta lo mismo.
+## El rastro de la decisión
 
-**Y el criterio sin límite es el peligro: no es criterio, es una creencia con nombre de norma.**
+**Toda decisión declara, antes de decidir:**
+
+```
+Criterio: [la razón]
+Límite: [No se aplica a qué]
+Repetible por: [quién]
+Sin él: [qué vuelve a preguntarse]
+```
+
+**`Límite` es obligatorio, y no lo es por prudencia: es lo que impide el absoluto.** **Un criterio que se aplica a todo no es criterio: decidió una vez con pocos datos y no se corrige.** **Y un absoluto se define por no requerir volver a mirar.**
+
+**Lo que no se toca del rastro:** **la tesis.** **Un criterio que contradice lo que se sostiene no es un criterio nuevo: es un descarte que no se anotó.**
+
+## La ruta de la decisión
+
+**Qué se carga para decidir, y cuándo. Una fila, una carga.**
+
+| Si se va a decidir… | Se carga… | Sin la autoridad… |
+|---|---|---|
+| **algo que afecta a otro** | la pregunta de mundo: **¿quién me lo va a decir si sale mal?** | **no se decide** |
+| **algo que se va a repetir** | el límite: **¿a qué no se aplica?** | **no hay criterio: hay trámite** |
+| **algo que toca un paso de Ouroboros** | `./AGENTS.md`, y se espera | **no se toca** |
+| **algo que cambia la tesis** | la tesis, y la autoridad | **no se cambia** |
+| **lo que no cambia nada** | nada. Es un tiro, y no se guarda | — |
+
+**La primera fila es la que hace que la decisión no sea absoluta:** **una decisión que no puede ser contestada por nadie no es una decisión: es un acto.**
+
+**Y no se decide sin saber a quién le toca contestar.** **`ninguno` es una respuesta legítima: significa que nadie va a mover la vista, y que lo que se rompa se rompe con los ojos abiertos.**
+
+## La carga de la decisión
+
+**Qué se pierde si la decisión deja de servir.**
+
+| Si pasa esto | Se pierde | Y el síntoma es |
+|---|---|---|
+| **el criterio no declara su límite** | el criterio | se aplica a todo, y nadie vuelve a mirar |
+| **el que decidió vuelve por la misma pregunta** | la razón | el criterio quedó en el que friccionó, no en el que decidió |
+| **la razón cambió y la decisión no** | la evidencia | se sigue decidiendo con lo que ya no se sostiene |
+| **la decisión no fue contestada** | la prueba | hay una firma, no un veredicto |
+| **se decide sin saber a quién afecta** | la voz | el costo cae sobre quien no lo puede reclamar |
+
+**Y la carga se paga siempre:** **una decisión sin límite se conserva por costumbre hasta que algo se rompe, y entonces ya no se sabe qué decisión lo rompió.**
 
 ## La regla que impide el absoluto
 
-```
-Criterio: [la razón] | Límite: [No se aplica a qué] | Repetible por: [quién] | Sin él: [qué vuelve a preguntarse]
-```
+> **Un criterio que se puede repetir sin la fricción, y explicar por qué, es criterio.**
+> **Uno que se repite porque siempre se hizo así, es costumbre.**
 
-**`No se aplica a` es obligatorio.** Sin él, el criterio deja de ser criterio y se vuelve absoluto: decidió una vez con pocos datos, y no se corrige.
+**Y el criterio no se hereda.** **Si la razón viene del que friccionó y no del que decidió, es una instrucción con otro nombre.**
 
-## Las tres piezas de cada paso
+## Unidad y tiro
 
-| Pieza | Qué sostiene | Qué muta | Quién lo percibe |
-|---|---|---|---|
-| **cuerpo** (carta) | qué hay, qué no se toca, cómo se verifica | **nunca** | muchos, y distintos |
-| **mente** (derrotero) | qué se carga y cuándo | **siempre** | cada uno lo lee desde su sitio |
-| **pensamiento** (deterrente) | qué se pierde si deja de servir | **cuando el fin cambia** | cada uno lo enuncia desde su sesgo |
+**El criterio no clasifica herramientas: clasifica trabajo.**
 
-**El cuerpo solo se interpreta; no se muta.** Si se abre y se declara qué conserva, es lectura. **Si se abre y no se declara, es invasión.**
+| | **Vuelve** | **No vuelve** |
+|---|---|---|
+| Criterio | `No se aplica a: nada que se repita` | `No se aplica a: esto no vuelve` |
+| Se resuelve con | **una unidad** | **un tiro** |
+| Deja | veredicto, citable | resultado, no citable |
 
-## Cómo se aplica
+> **Si la tarea vuelve, es unidad. Si no vuelve, es tiro y su límite lo declara.**
 
-1. **Abrir la carta del paso** → `Que hay: [...]`
-2. **Abrir su derrotero** → `Se carga: [...]`
-3. **Abrir su deterrente** → `Se pierde: [...]`
-4. **Declarar el criterio** → `Criterio: [razón] | Límite: [No se aplica a qué]`
-5. **Declarar quién lo repite** → `Repetible por: [quién]`
-6. **Emitir** → `Registrado: [sí | falta pieza]`
+**Un tiro no se cita como prueba.** Si el resultado empieza a importar seguido, el `No se aplica a` cambia y el tiro se vuelve unidad.
 
-**Prohibido aplicar un criterio sin `Límite`. Prohibido ejecutar el paso N+1 sin la salida del N.**
+## Lo que este estándar no hace
 
-```
-Criterio: [la razón] | Límite: [No se aplica a qué] | Repetible por: [quién] | Sin él: [qué vuelve a preguntarse]
-```
+**No decide entre dos caminos.** Eso es de la autoridad: este estándar dice **cómo tiene que ser** la decisión, no cuál.
 
-## Unidad y tiro, desde el criterio
+**No sustituye a las tres piezas.** Las exige.
 
-**El criterio no clasifica herramientas: clasifica trabajo.** Y su límite es el que dice si la tarea vuelve o no.
+**No se aplica a todo.** Si se aplica a todo, le falta el límite, y se corrige antes de usarlo.
 
-**Si la tarea vuelve, es unidad y su límite la excluye de las chicas. Si no vuelve, es tiro y su límite lo declara.** Rige `./piso.md`, `Unidad y tiro`.
-
-## Lo que no hace
-
-**No decide entre dos caminos.** Eso es de la autoridad.
-
-**No sustituye a las tres piezas.** Los lee; no los reemplaza.
-
-**No se aplica a todo.** Si se aplica a todo, le falta `No se aplica a`, y se corrige antes de usarlo.
+**No garantiza que se elija bien.** Garantiza que **va a haber que elegir, y que se va a poder contestar.**
 
 ## Prueba
 
-¿El paso declara su criterio y su límite? ¿El que decide puede repetir la decisión sin la fricción, y explicar por qué? ¿El cuerpo se conservó?
+¿La decisión declara su criterio y su límite? ¿Dice a quién le toca contestarla? ¿El que decidió puede repetirla sin la fricción, y explicar por qué? ¿La decisión tiene rastro, ruta y carga?
 
-**Falsificador:** un criterio sin `No se aplica a`; una decisión que se repite sin poder explicarse; el cuerpo mutado sin declararlo; abrir la idea sin declarar qué se conserva; un paso que se vuelve absoluto y no se nota.
-
-## Transiciones
-
-- Falta un archivo del paso → `[VACÍO - FANTASMA]`, y se pregunta.
-- El criterio se aplica a todo → le falta `No se aplica a`, y se corrige antes de usarlo.
-- El cuerpo necesita cambiar → no se muta: se declara otro cuerpo, con `Reemplaza:`.
-- En cualquier otro caso → se entrega y se cierra.
-
-## Acuñación
-
-```
-Acta: EST-12 | Nombre: Criterio | Expansión: la razón que se puede repetir sin volver a preguntar, y su límite
-Origen: futuro/Estandar/Ente/CRITERIO.md | Fecha: 2026-10-23
-Muta: de decisión aplicada a razón transferible | Conserva: que el límite es obligatorio
-Ausencias: no decide entre caminos | Prueba: no corrida | Reemplaza: futuro/Estandar/Ente/CRITERIO.md
-```
+**Falsificador:** un criterio sin `No se aplica a`; una decisión que se repite sin poder explicarse; una decisión sin pregunta de mundo; una decisión que se conserva por costumbre; una decisión heredada del que friccionó; un tiro citado como veredicto.
