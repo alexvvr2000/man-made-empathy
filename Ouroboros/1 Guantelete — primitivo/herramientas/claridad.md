@@ -171,7 +171,7 @@ Si dos normas chocan, manda la de mayor cumplimiento: ley > regla > principio. S
 
 **Plazo.** Una norma admitida por la rama `medida en plazo` declara `Plazo: [cuándo se mide] | Criterio: [qué resultado la sostiene]`. Si el plazo vence sin criterio dos veces, la norma pasa a académica y se retira: no se renueva por tercera vez.
 
-**Pendientes.** Un documento de la base no lleva pendientes; la lista es local (`notas/actuales.md`, con `Estado: vivo`). Si una sección es una lista de pendientes, se saca.
+**Pendientes.** Un documento de la base no lleva pendientes; la lista es local (`.sesion-continua/mantis.db`, con `Estado: vivo`). Si una sección es una lista de pendientes, se saca.
 
 ### 1.13 AGENTS.md como disparador
 `AGENTS.md` es un disparador: el mínimo para enrutar, no un manual. Se escribe machine-first, con una tabla de condición, destino y consecuencia. Sin preámbulo, sin duplicar el destino y sin descripción que no cambie la decisión de carga. Si una fila no cambia qué se carga, sobra.

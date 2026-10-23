@@ -26,7 +26,7 @@ Cuatro condiciones. Sin las cuatro, es un script: sirve, pero no es piso. **Las 
 
 **La cuarta reemplaza a «es desechable».** Una herramienta que se tira no se puede recuperar; **una que se rige por el criterio se puede volver a correr cuando el criterio cambió.** Lo que la mantiene viva no es que sobreviva: **es que su `No se aplica a` le diga cuándo dejar de usarla.**
 
-**Y lo que se descarta no se tira: se guarda con su porqué.** De ahí salen las joyitas: **una regla que se descartó por una razón puede valer para otra.** Rige `../notas/actuales.md`, `El historial` y `La purga`.
+**Y lo que se descarta no se tira: se guarda con su porqué.** De ahí salen las joyitas: **una regla que se descartó por una razón puede valer para otra.** Rige `../mantis/piso/ver.ps1`, `La purga` y `El historial`.
 
 ## Qué es del piso, y qué es de un tiro
 

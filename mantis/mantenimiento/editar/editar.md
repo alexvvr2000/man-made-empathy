@@ -51,9 +51,9 @@ Rutas relativas a la raíz. Cuatro niveles, y el destino es una sola.
 | **Instancia** | Ouroboros | `Ouroboros/2 S.A.R.A — mutación/` | N sub-tareas, N procesos | entra el proceso que cubre un fallo comprobado |
 | **Instancia** | Ouroboros | `Ouroboros/2 S.A.R.A — mutación/Proceso PROMETEA.md` | crea subprocesos | crea un subproceso, con integridad antes |
 | **Tesis** | Tesis | `Tesis/Pruebas/` | la evaluación | mide rendición, utilidad o cruce |
-| **Tesis** | Tesis | `notas/actuales.md` | la memoria | guarda lo que se dijo y el porqué |
+| **Tesis** | Tesis | `.sesion-continua/mantis.db` | la memoria | guarda lo que se dijo y el porqué |
 | **Implementación** | Era | `Era/` | una era | traduce un proceso a su era |
-| **Registro** | Memoria | `notas/actuales.md` | la memoria de la conversación | anota la decisión, la frase o el descarte en el mismo turno |
+| **Registro** | Memoria | `.sesion-continua/mantis.db` | la memoria de la conversación | anota la decisión, la frase o el descarte en el mismo turno |
 
 **Cómo se clasifica.** Un archivo que dice **cómo tiene que ser** algo es estándar. Uno que dice **qué se hace hoy** es instancia. Uno que dice **con qué** es implementación. Uno que dice **qué pasó una vez** es caso, y un caso no entra en `Tesis/`.
 
@@ -128,7 +128,7 @@ Se ejecuta `../chequear/auditar-configuracion.md` cuando el cambio altera conteo
 **Sale:** los dependientes revisados o declarados fuera de alcance.
 **Falla si:** se cambia una pieza y se deja un documento que la cita con otro significado.
 
-**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `Ouroboros/2 S.A.R.A — mutación/decisión.md` y el mapa de sub-tareas. Si produce una decisión, se anota en `notas/actuales.md`. Si cambia una tarea o un campo del disparador, se enruta en `../../../AGENTS.md` en el mismo cambio.
+**Dependientes.** Si el cambio toca una sub-tarea o un proceso, se revisan las referencias de `Ouroboros/2 S.A.R.A — mutación/decisión.md` y el mapa de sub-tareas. Si produce una decisión, se anota en `.sesion-continua/mantis.db`. Si cambia una tarea o un campo del disparador, se enruta en `../../../AGENTS.md` en el mismo cambio.
 
 **Reemplazo.** Si el cambio reemplaza un proceso, se declara qué conserva del anterior: un reemplazo que pierde el servicio no entra, rige `../../../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md`, `Lo que funciona ya está viejo`.
 

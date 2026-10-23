@@ -1,8 +1,9 @@
-# Notas de tesis — el proceso
+# Notas — el proceso
 
 **Unidad:** proceso.
 **Aplica a:** recordar.
 **Tipo:** proceso de mantenimiento. Lo que se dice vale para la tesis: se anota en el mismo turno o el turno no está entregado.
+**Reemplaza:** `notas-tesis.md` y `notas-continuas.md` como dos procesos. Conserva ambos oficios, y deja de tenerlos repartidos: **una sola base, una sola forma de anotar.**
 **Lector:** quien escribe notas, y quien va a reconstruir la tesis desde ellas.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -15,7 +16,7 @@
 
 - **Entra:** lo que se dijo —una analogía, una cita, una decisión, un descarte— y la pieza del sistema que ilumina.
 - **Falla si:** la decisión se tomó y no se anotó; la fila no nombra su pieza; la nota se toma como verdad sin declarar desde qué vista se escribió.
-- **Sale:** la fila en `notas/actuales.md`, con su pieza, su tipo y su vista, más lo que se purgó de `.contexto/`.
+- **Sale:** la fila en `.sesion-continua/mantis.db`, con su pieza, su tipo y su vista, más lo que se purgó de `.contexto/`.
 - **Consume:** quien va a reconstruir la tesis, y quien va a defenderla.
 
 ## La vista muta
@@ -28,15 +29,15 @@
 
 ## La base
 
-**La memoria vive en una base SQLite, y el .md es su export.** La base es el acelerador; lo publicado es la fuente.
+**La memoria vive en una sola base SQLite, y no se publica.** Una fuente, sin export: un .md publicado que se edita a mano es una segunda fuente, y dos fuentes es el trabajo que sobra.
 
 `
-.db/notas.db          la base, oculta y en gitignore
+.sesion-continua/mantis.db  la base única, oculta y en gitignore
 notas/esquema.sql     el esquema compartido: fila, sesion, generacion, prueba, seccion
-notas/actuales.md     el export, publicado
+.sesion-continua/mantis.db  la base única, oculta y en gitignore
 `
 
-**Las cuatro tablas, y qué guarda cada una:**
+**Las seis tablas, y qué guarda cada una:**
 
 | Tabla | Qué guarda |
 |---|---|
@@ -45,17 +46,19 @@ notas/actuales.md     el export, publicado
 | generacion | cada compilación, con su vista y qué dejó vivo |
 | prueba | las cuatro pruebas y su corrida |
 | seccion | el orden en que se leen las secciones |
+| trabajo | lo que no es la sesión ni la tesis, y se sigue entre turnos |
 
-**No se escribe con INSERT a mano: se anota con notar.ps1, que valida contra el esquema.**
+**No se escribe con INSERT a mano: se anota con `anotar.ps1`, que valida contra el esquema.**
 
-`
-pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo frase -Sostenido frontera
-pwsh -File mantis/piso/anotar.ps1 -Sesion -Estado "piso.ps1 pasa"
-pwsh -File mantis/piso/exportar.ps1
-`
+```
+pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo decisión -Sostenido prueba
+pwsh -File mantis/piso/anotar.ps1 -SesionAuto -Desde <volcado de ver.ps1>
+pwsh -File mantis/piso/ver.ps1 [-Formato md] [-Seccion <nombre>]
+```
 
-**Y 
-otas.ps1 verifica que la base y el export digan lo mismo.** Sin la base, el export es una copia a mano; sin el export, la base es un binario que nadie lee.
+**La sesión no se escribe de memoria: se lee del volcado del piso.** `-SesionAuto -Desde` toma `Estado`, `Roto`, `Abierto`, `Siguiente`, `Decidido` y `Rige` del volcado de `ver.ps1`, y sin volcado no deja escribir.
+
+**Y `notas.ps1` mide si cada archivo cambiado tiene nota.** Compara el diff contra el último commit: un archivo cambiado sin fila es una decisión sin rastro, y el veredicto es `falla` con la lista de los que faltan. **Un turno que se anota al final se olvida; un turno que no pasa el piso no se entrega.**
 
 ## La fila
 
@@ -69,15 +72,15 @@ Dicho: [la frase, citada] | De: [qué pieza ilumina] | Tipo: [analogía|referenc
 
 ## Purga
 
-**`.contexto/` no es la memoria.** Lo que está ahí **no se toma como verdad:** es lo que se creía con otra vista. Se lee, se anota lo que sirve en `notas/actuales.md` con su vista, y **se purga del repo.**
+**`.contexto/` no es la memoria.** Lo que está ahí **no se toma como verdad:** es lo que se creía con otra vista. Se lee, se anota lo que sirve en la base con su vista, y **se purga del repo.**
 
 `Purgado: [qué] | De: [ruta] | Por qué: [qué vista lo hacía verdad] | Se anotó en: [fila de notas|nada]`
 
-**Un bloque que se purga y no se anota, se pierde.** Rige `../../../notas/actuales.md`, `Las tesis del estándar` y `Lo que se purgó de .contexto/`.
+**Un bloque que se purga y no se anota, se pierde.** Rige `.sesion-continua/mantis.db`, sección `La purga`.
 
 ## Compilar
 
-**Compilar es graduar, no vaciar.** Lo que entra en la tesis **sale de notas/actuales.md y queda en notas/generaciones/ como corte**; lo que no entra **se queda vivo**; **lo que se descartó se queda siempre.**
+**Compilar es graduar, no vaciar.** Lo que entra en la tesis **sale de la base y queda en notas/generaciones/ como corte**; lo que no entra **se queda vivo**; **lo que se descartó se queda siempre.**
 
 **Y compilar usa claridad:** lo que se compila se escribe con la forma de ../../Ouroboros/1 Guantelete — primitivo/primitivos/claridad.md, y **lo que no se puede escribir con ella no se compila.** Es el filtro, no el formato.
 

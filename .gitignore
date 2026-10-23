@@ -1,6 +1,6 @@
 .vscode/*
 Novedad/
-# La sesion no se publica: vive en .sesion-continua/ con su base y su esquema.
-# Las notas de tesis si se publican; las generaciones no.
+# La memoria no se publica: vive en .sesion-continua/ con su base unica y su esquema.
+# Sin export: no hay .md publicado de notas. El corte de una generacion si se lee, y si se guarda.
 notas/generaciones/
 .sesion-continua/

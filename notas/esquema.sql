@@ -1,9 +1,9 @@
 -- esquema.sql — la forma de la memoria
 -- No se inventa aquí: se lee de ../mantis/mantenimiento/notas/notas-tesis.md, "La fila".
--- La base es el acelerador; el export es la fuente. Rige ../notas/README.md.
+-- Una sola base, y ningún export: la base es la fuente.
 --
--- Base: .db/notas.db (oculta, en gitignore). Publicado: notas/actuales.md (export).
--- Uso: sqlite3 .db/notas.db < notas/esquema.sql
+-- Base: .sesion-continua/mantis.db (oculta, en gitignore). Sin .md publicado.
+-- Uso: sqlite3 .sesion-continua/mantis.db < notas/esquema.sql
 
 PRAGMA foreign_keys = ON;
 
@@ -25,7 +25,7 @@ CREATE INDEX IF NOT EXISTS idx_fila_seccion ON fila(seccion, id);
 CREATE INDEX IF NOT EXISTS idx_fila_estado  ON fila(estado);
 CREATE INDEX IF NOT EXISTS idx_fila_pieza   ON fila(pieza);
 
--- 2. El bloque de la sesión: uno solo, y se sustituye.
+-- 2. El bloque de la sesión: uno solo, y se sustituye. Lo que vive continuas también vive aquí.
 CREATE TABLE IF NOT EXISTS sesion (
   id        INTEGER PRIMARY KEY CHECK (id = 1),
   fecha     TEXT NOT NULL,
@@ -35,10 +35,12 @@ CREATE TABLE IF NOT EXISTS sesion (
   abierto   TEXT,
   siguiente TEXT,
   decidido  TEXT,
-  rige      TEXT NOT NULL DEFAULT 'claridad | sesgo declarado'
+  rige      TEXT NOT NULL DEFAULT 'claridad | sesgo declarado',
+  viendo    TEXT,
+  compilado_en TEXT
 );
 
--- 3. Las generaciones: cada compilación, con su vista.
+-- 3. Las generaciones: cada compilación, con su vista. Quedan en la base; su corte va a notas/generaciones/.
 CREATE TABLE IF NOT EXISTS generacion (
   id        INTEGER PRIMARY KEY,
   nombre    TEXT NOT NULL UNIQUE,
@@ -64,6 +66,15 @@ CREATE TABLE IF NOT EXISTS seccion (
   nombre  TEXT PRIMARY KEY,
   orden   INTEGER NOT NULL,
   proposito TEXT
+);
+
+-- 6. El trabajo en curso: lo que no es la sesión ni la tesis, y que se sigue entre turnos.
+CREATE TABLE IF NOT EXISTS trabajo (
+  id       INTEGER PRIMARY KEY,
+  que      TEXT NOT NULL,
+  donde    TEXT,
+  estado   TEXT,
+  nota     TEXT
 );
 
 INSERT OR IGNORE INTO seccion (nombre, orden, proposito) VALUES

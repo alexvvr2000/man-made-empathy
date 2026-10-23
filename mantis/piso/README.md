@@ -13,7 +13,7 @@
 
 **La forma de cada unidad la dice `../../Ouroboros/piso.md`.** Aquí solo se declara cuáles hay, qué decide cada una, **y dónde deja de valer.**
 
-**Estas seis no son las únicas posibles: son las que ganaron su lugar.** Una tarea que no vuelve es un tiro, y no se guarda. Rige `../../Ouroboros/CRITERIO.md`, `Unidad y tiro`.
+**Estas siete no son las únicas posibles: son las que ganaron su lugar.** Una tarea que no vuelve es un tiro, y no se guarda. Rige `../../Ouroboros/CRITERIO.md`, `Unidad y tiro`.
 
 ## Las unidades
 
@@ -25,7 +25,8 @@
 | `rutas.ps1` | qué ruta relativa no resuelve a un archivo real | si el destino dice lo que debe | rutas externas, plantillas con `[corchete]` y enlaces de era |
 | `duplicados.ps1` | dónde hay dos piezas para el mismo nombre o el mismo título | si el nombre repetido es legítimo | lo que se repite a propósito: las tres piezas del ente, un `README` por sub-tarea |
 | `fantasmas.ps1` | qué ente no tiene `rastro.md`, `ruta.md` o `carga.md` | si el fallo que cubre sigue existiendo | carpetas sin ninguna de las tres: no son entes |
-| `notas.ps1` | si la memoria se escribe con sus seis columnas | si lo anotado es válido | bloques largos y tablas de material: no son filas |
+| `notas.ps1` | si la memoria se escribe como manda la carta, y si cada archivo cambiado tiene nota | si lo anotado es válido; qué archivo cambió por trabajo y qué por otra persona | el contenido de la fila: eso lo decide el aplanado |
+| `ver.ps1` | si la memoria se puede leer sin un archivo publicado | si lo anotado sirve | escribir la base: eso es `anotar.ps1` |
 | `indice.ps1` | qué hay en `Tesis/` y qué forma tiene | si un archivo está en el nivel correcto | `Ouroboros/` y `mantis/`: no los indexa |
 
 ## El tren
@@ -34,16 +35,16 @@
 pwsh -File mantis/piso/piso.ps1
 ```
 
-Corre las seis y emite **un solo veredicto**. **Cada una también se corre sola**: un tren no es una tubería.
+Corre las siete y emite **un solo veredicto**. **Cada una también se corre sola**: un tren no es una tubería.
 
 ## Reglas del piso
 
 1. **No usa modelo.** Si un `if` resuelve, un modelo introduce ruido.
 2. **Su salida ya es veredicto.** Nunca materia prima.
-3. **Se puede correr sola.** No necesita las otras cinco.
+3. **Se puede correr sola.** No necesita las otras seis.
 4. **Se rige por el criterio, y lo declara.** Cada unidad dice su `No se aplica a`, y **el veredicto lo escribe quien lo va a usar.**
 
-**Y lo que descarta no se tira: se anota.** Rige `../../notas/actuales.md`.
+**Y lo que descarta no se tira: se anota.** Rige `../mantenimiento/notas/notas-tesis.md`, y se lee con `./ver.ps1`.
 
 ## Prueba
 

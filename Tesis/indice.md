@@ -39,7 +39,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
 | `Tesis` | `Conceptos.md` | estandar | 111 |
-| `Tesis` | `indice.md` | indice | 162 |
+| `Tesis` | `indice.md` | indice | 161 |
 | `Tesis` | `problemas-abiertos.md` | estandar | 95 |
 | `Tesis` | `README.md` | puerta | 74 |
 | `Tesis` | `SARA 1.md` | estandar | 259 |
@@ -134,6 +134,7 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 57 |
 | `Ouroboros/procesos` | `integridad.md` | proceso | 384 |
 | `Ouroboros/procesos` | `medir-acero.md` | proceso | 51 |
+| `Ouroboros/procesos` | `memoria continua.md` | proceso | 100 |
 
 ### mantis/
 
@@ -146,10 +147,9 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `mantis/mantenimiento/editar` | `editar.md` | proceso | 157 |
 | `mantis/mantenimiento/editar` | `enrutar-formato.md` | formato | 70 |
 | `mantis/mantenimiento/editar` | `README.md` | puerta | 26 |
-| `mantis/mantenimiento/notas` | `notas-continuas.md` | proceso | 99 |
-| `mantis/mantenimiento/notas` | `notas-tesis.md` | proceso | 140 |
+| `mantis/mantenimiento/notas` | `notas-tesis.md` | proceso | 143 |
 | `mantis/mantenimiento/notas` | `README.md` | puerta | 27 |
-| `mantis/piso` | `README.md` | puerta | 52 |
+| `mantis/piso` | `README.md` | puerta | 53 |
 
 ## Totales
 

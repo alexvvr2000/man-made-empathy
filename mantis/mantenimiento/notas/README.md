@@ -23,5 +23,5 @@
 ## Procesos
 
 | Proceso | Qué decide | Qué lo refuta |
-|---|---|---|| `notas-tesis.md` | qué se guarda de lo que se dijo, y cómo se compila en la tesis | una decisión que se pierde con el contexto |
-| `notas-continuas.md` | dónde quedó el trabajo, para que la próxima sesión no pregunte | un bloque que espera aviso, o que crece sin purgarse |
+|---|---|---|
+| `notas-tesis.md` | qué se guarda de lo que se dijo, dónde quedó el trabajo, y cómo se compila en la tesis | una decisión que se pierde con el contexto; un bloque que espera aviso |

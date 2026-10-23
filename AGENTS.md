@@ -13,16 +13,16 @@ Un lenguaje de procesos para agentes. Los procesos son agnósticos a la era; lo 
 | Parte | Qué contiene | Se carga cuando |
 |---|---|---|
 | `Tesis/` | la tesis en obra: la forma todavía sin aplanar | el cambio toca un estándar |
-| `notas/` | la memoria: `actuales.md` y sus generaciones | **siempre** |
+| `notas/` | la memoria: el esquema de la base única, y el corte de sus generaciones | **siempre** |
 | `Ouroboros/` | la tarea de tres pasos: `1 Guantelete/`, `2 S.A.R.A/`, `ATLAS/` | el cambio toca un paso |
 | `Era/` | una implementación concreta | el cambio es de una era, no de la base |
 | `mantis/` | cómo se edita, audita y verifica | **siempre** |
 
 ## La tesis
 
-**El proyecto está en cambio.** `./notas/actuales.md` **es la memoria de la conversación: lo que sobrevive cuando el contexto se llena.**
+**El proyecto está en cambio.** `.sesion-continua/mantis.db` **es la memoria de la conversación: lo que sobrevive cuando el contexto se llena.**
 
-**Mutar `./notas/actuales.md` es la máxima prioridad.** Lo que se dice acá que valga para la tesis entra ahí en el mismo turno, **tal cual, sin clasificar de antemano**: analogías, referencias, citas, decisiones, lo que se descartó y por qué. **Si no está en notas, se pierde con el contexto.**
+**Mutar `.sesion-continua/mantis.db` es la máxima prioridad.** Lo que se dice acá que valga para la tesis entra ahí en el mismo turno, **tal cual, sin clasificar de antemano**: analogías, referencias, citas, decisiones, lo que se descartó y por qué. **Si no está en notas, se pierde con el contexto.**
 
 **Cuando la tesis acabe, se crea desde 0 con notas:** lo mejor que ya había, lo nuevo, y viendo cómo explicar lo que falta. **Nada sale de notas hacia afuera sin que la autoridad lo decida.**
 
@@ -32,7 +32,7 @@ Un lenguaje de procesos para agentes. Los procesos son agnósticos a la era; lo 
 
 ## Escribir notas
 
-**Un turno que produce una decisión y no la anota en `./notas/actuales.md` no está entregado.** La regla no tiene excepción: no espera a que el turno sea grande ni a que alguien la pida.
+**Un turno que produce una decisión y no la anota en `.sesion-continua/mantis.db` no está entregado.** La regla no tiene excepción: no espera a que el turno sea grande ni a que alguien la pida.
 
 **Se escribe en el mismo turno, y en el orden en que se dijo.** Un término, una analogía, un descarte, una regla nueva, un porqué: **cada uno es una fila.**
 
@@ -44,7 +44,7 @@ Dicho: [la frase, citada] | De: [qué pieza ilumina] | Tipo: [analogía|referenc
 
 **Lo que se descarta se escribe como fila, con `Estado: descartado`, y no se poda.** Un descarte sin rastro se vuelve a proponer.
 
-**Lo que se saca de `Ouroboros/` no se resume: se guarda entero en `./notas/actuales.md`**, con el archivo del que salió. Una frase sin su contexto es una cita; una sección con su fuente es material.
+**Lo que se saca de `Ouroboros/` no se resume: se guarda entero en `.sesion-continua/mantis.db`**, con el archivo del que salió. Una frase sin su contexto es una cita; una sección con su fuente es material.
 
 **Nada sale de notas hacia afuera sin que la autoridad lo decida.** Notas es de ida: recibe; la tesis aplanada lee.
 
