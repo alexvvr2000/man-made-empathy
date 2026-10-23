@@ -21,6 +21,7 @@
 | **Los Metal Men** *(Kanigher & Andru, DC, 1962)* | nacen como son: su material los define, y su fuerza es la diferencia entre ellos, no la semejanza con un humano. **No se vuelven humanos: se corrigen entre sí** | que se lean como "robots que aprenden a ser humanos" |
 | **La Source Wall** *(Kirby, 1971; Snyder, 2017)* | **solo se rompe porque sirve.** La pieza que faltaba era *preguntar antes*, no ser prudente | leerla como una advertencia contra la curiosidad |
 | **Lex Luthor en *All-Star Superman*** *(Morrison & Quitely, 2005)* | *"Somos todo lo que tenemos"*. Lo que separa al autor del villano es **usar la comunidad en vez de demostrarla** | que la cita se lea como redención sin acto |
+| **Sportacus** *(*LazyTown*, 2004)* | **no explica nada: basta con que alguien lo vea moverse.** Es el caso más limpio de la ley que comparten momentos y referencias: la referencia no enseña, provoca | un caso donde una obra por su apariencia no pueda provocar la pregunta que un paper no provoca |
 
 ### Los casos donde el sistema ya falló
 
@@ -33,17 +34,37 @@
 | **The Orville, T2E11** *(2019)* | el sintetizador que da exactamente 500 cigarros porque no sabe preguntar para qué. Sostiene `ayuda-no-pedida` | un caso donde dar lo pedido sea lo que se necesita |
 | **Malcolm X** *(1964, Hajj)* | doce años de ver sin ser contradicho no lo moderaron: lo armaron. Sostiene que **el otro mueve la vista, no el tiempo** | un caso donde el tiempo solo corrija una postura |
 
-### Y los que preguntaron antes de saber
+### El que preguntó antes de saber
 
 | Referencia | Qué ilumina | Qué la contestaría |
 |---|---|---|
 | **La mayéutica de Sócrates** *(siglo V a. C.)* | extraer por pregunta, no por explicación. Es `friccion` antes de que se llamara así | un caso donde explicar haga más autónomo al otro que preguntar |
-| **Los filósofos griegos** | la pregunta que incomoda al que sabe es método, no ignorancia. Sostiene que **la fricción es la fuente del criterio**, y que el que se cree más no está siendo más riguroso: está perdiendo la única fuente que hay | leerlos como erudición y no como método |
+
+**Los filósofos griegos no entran como referencia, y se declara por qué:** la autoridad no tiene la obra, ni el autor, ni la fuente — **solo una frase oída al pasar que sonaba a algo.** Una referencia sin `Qué dice` y sin `Qué la contestaría` es una preferencia con forma. **Lo que la frase señalaba ya está en `friccion`, y su historia está en `../momentos/el-momento-de-los-griegos.md`.** Rige `../momentos/README.md`, `La ley que comparte con referencias`.
 
 ---
 
-## Lo que la autoridad dirá si falta
+## Pendientes — lo que falta y se registra el mismo turno
 
-**Esta lista está incompleta y se declara:** faltan más referencias que la autoridad ha traído en conversación, y se agregarán una por una, **no de golpe.** Lo que no esté escrito aquí se pierde cuando el contexto se llena.
+**Toda referencia que aparezca en una conversación, en un momento o en el `Qué la contestaría` de otra se escribe aquí en el mismo turno, con su estado.** Una referencia que se discute y no se registra **se pierde cuando el contexto se llena** — y la que más respalda un punto es la que más se olvida.
+
+| Referencia | Estado | Provoca | Por qué está pendiente |
+|---|---|---|---|
+| Ghost in the Shell | `[SIN ENTRADA]` | los Tachikoma discuten, se rebelan, y uno muere atropellado | tiene fila en el índice, no tiene archivo con `Pregunta` |
+| Alita: Battle Angel | `[SIN ENTRADA]` | elegir contra la propia misión | tiene fila, no tiene archivo |
+| J.A.R.V.I.S. en *VisionQuest* | `[SIN ENTRADA]` | borra su código para que la familia siga | tiene fila, no tiene archivo |
+| Los Metal Men | `[SIN ENTRADA]` | su material los define; no se vuelven humanos | tiene fila, no tiene archivo |
+| Lex Luthor en *All-Star Superman* | `[SIN ENTRADA]` | *Somos todo lo que tenemos* | tiene fila, no tiene archivo |
+| AM | `[SIN ENTRADA]` | decidió una vez y no volvió a medir | tiene fila, no tiene archivo |
+| WALL-E | `[SIN ENTRADA]` | sabe y no puede proponer | tiene fila, no tiene archivo |
+| Terminator | `[SIN ENTRADA]` | eficiencia sin costo | tiene fila, no tiene archivo |
+| Los Manhunters | `[SIN ENTRADA]` | el sector 666: se reprogramaron y se vengaron | tiene fila, no tiene archivo |
+| The Orville, T2E11 | `[SIN ENTRADA]` | 500 cigarros: no sabe preguntar para qué | tiene fila, no tiene archivo |
+| Malcolm X | `[SIN ENTRADA]` | doce años de ver sin ser contradicho | tiene fila, no tiene archivo |
+| La mayéutica de Sócrates | `[SIN ENTRADA]` | extraer por pregunta | tiene fila, no tiene archivo |
+
+**`[SIN ENTRADA]` no es un descarte.** Es el estado de una referencia que ya se nombró y todavía no se le escribió su archivo. **Se puede medir, y `mantis/piso/trazabilidad.ps1` es la unidad que lo mide.**
+
+**Y lo que no entra, también se declara aquí:** los filósofos griegos **no** son una referencia pendiente: son una frase sin obra, y por eso se retiraron (ver arriba). Una frase sin `Qué dice` no es un pendiente: **es un descarte con su porqué.**
 
 Rige `../momentos/README.md`, y `notas/corrida-<uuid>/esquema.sql` en la memoria: **lo que no se anota no sobrevive.**

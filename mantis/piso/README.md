@@ -28,6 +28,10 @@
 | `turno.ps1` | si el turno cerró con su entrada en la memoria | si lo anotado sirve | abrir el turno: eso lo decide quien lo empieza |
 | `privacidad.ps1` | si un archivo **versionado** expone la máquina de una persona | si un ejemplo publicado expone a alguien: eso lo decide quien lo publica | archivos ignorados por git, y la firma de autor de `CITATION.cff`, que la autoridad declaró pública |
 
+| `trazabilidad.ps1` | si lo que `Tesis/referencias` nombra tiene su archivo, y si cada archivo tiene sus cuatro campos | si una referencia vale, o si provoca algo: eso lo decide quien lee | los momentos, que son prosa sin forma fija; y los archivos que empiezan con `_`, que son plantilla |
+
+**`trazabilidad.ps1` mide lo que se pierde sin que nadie lo note:** una referencia discutida en conversación y no guardada **desaparece cuando el contexto se llena.** Un nombre sin archivo y sin `[SIN ENTRADA]` en el índice es alla; **ese es el error que no detectaba ninguna unidad.**
+
 **`privacidad.ps1` corre sobre lo versionado, no sobre el disco:** una ruta personal en un archivo ignorado no sale del repo y no se declara. **Y no mira commits anteriores:** lo que ya se subió al historial no lo detecta. Ese caso se resuelve sobre git, y git es de la autoridad.
 
 ## El tren
@@ -36,13 +40,13 @@
 pwsh -File mantis/piso/piso.ps1
 ```
 
-Corre las seis y emite **un solo veredicto**. **Cada una también se corre sola**: un tren no es una tubería.
+Corre las siete y emite **un solo veredicto**. **Cada una también se corre sola**: un tren no es una tubería.
 
 ## Reglas del piso
 
 1. **No usa modelo.** Si un `if` resuelve, un modelo introduce ruido.
 2. **Su salida ya es veredicto.** Nunca materia prima.
-3. **Se puede correr sola.** No necesita las otras cinco.
+3. **Se puede correr sola.** No necesita las otras seis.
 4. **Se rige por el criterio, y lo declara.** Cada unidad dice su `No se aplica a`, y **el veredicto lo escribe quien lo va a usar.**
 
 **Y lo que descarta no se tira: se anota.** Rige `../../Ouroboros/procesos/memoria continua.md`, `Purga`.

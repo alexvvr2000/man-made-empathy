@@ -41,6 +41,23 @@ Admitir un error no da carrera. **Y un sistema que no admite el error no puede a
 
 Rige `<../Ouroboros/2 S.A.R.A — mutación/aprendizaje/aprender.md>`, `La continuidad real`: *una corrección que solo la firma el que se corrigió no se distingue de una preferencia que se mantuvo.*
 
+## La ley que comparte con referencias
+
+**Un momento y una referencia son el mismo acto en dos tiempos.**
+
+> **La referencia no enseña: provoca. El momento es la pregunta que provocó.**
+
+Una obra, un caso, una frase oída al pasar **no educa.** Hace que alguien se haga una pregunta que no sabía que tenía. **Y sin el momento, la referencia no le hizo nada a nadie.**
+
+**Ejemplo, y es del propio repo:** el cuento de piratas de *Watchmen* no explica nada. Y por eso importa — el que lo leyó y se hizo la pregunta correcta no fue un académico: fue alguien con su vida.
+
+**Por eso una no puede ir sin la otra.** Una referencia sin Preguntó es un título. Un momento sin Provoca es una anécdota sin origen.
+
+```
+Provoca: [la obra, el caso, la frase, el momento] | Pregunta: [la que hizo nacer]
+Preguntó: [quién, con nombre o «la autoridad»] | Cambió: [qué se hizo distinto]
+```
+
 ## La forma de un momento
 
 Cuatro campos. Ni uno más.
@@ -51,6 +68,8 @@ Lo que pensaba: [qué querías decir con eso]
 Qué pasó después: [la corrección, con quien la hizo]
 Qué decisión cambió: [la decisión concreta, y qué se hizo distinto]
 ```
+
+**Y dos más en la cabecera del archivo:** `Provoca` y `Preguntó`. Rige `La ley que comparte con referencias`.
 
 **`Qué decisión cambió` es obligatorio y es el que decide si el momento entra.** Sin él, el momento es una anécdota, y una anécdota no cambia nada.
 
