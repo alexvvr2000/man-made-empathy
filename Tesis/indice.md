@@ -4,7 +4,7 @@
 **Aplica a:** ubicar.
 **Tipo:** registro generado. No se edita a mano: se regenera.
 **Generado por:** `../mantis/piso/indice.ps1`.
-**Fecha:** 2026-10-22.
+**Fecha:** 2026-10-23.
 
 ## Que es
 
@@ -178,14 +178,14 @@ Este archivo existe porque **todo muta y nadie se acuerda donde quedo cada cosa.
 | `Ouroboros/3 ATLAS — mutación` | `ruta.md` | proceso | 57 |
 | `Ouroboros/procesos` | `integridad.md` | proceso | 384 |
 | `Ouroboros/procesos` | `medir-acero.md` | proceso | 51 |
-| `Ouroboros/procesos` | `memoria continua.md` | proceso | 100 |
+| `Ouroboros/procesos` | `memoria continua.md` | proceso | 101 |
 
 ### mantis/
 
 | Carpeta | Archivo | Clase | Lineas |
 |---|---|---|---|
 | `mantis` | `acta.md` | proceso | 111 |
-| `mantis` | `Derrotero.md` | proceso | 67 |
+| `mantis` | `Derrotero.md` | proceso | 68 |
 | `mantis` | `deterrente.md` | deterrente | 80 |
 | `mantis/mantenimiento/chequear` | `auditar-configuracion.md` | proceso | 75 |
 | `mantis/mantenimiento/chequear` | `derivar.md` | proceso | 75 |

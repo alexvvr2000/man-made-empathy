@@ -20,6 +20,7 @@ $unidades = @(
   'fantasmas.ps1',
   'notas.ps1',
   'ver.ps1',
+  'turno.ps1',
   'indice.ps1'
 )
 

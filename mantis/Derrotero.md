@@ -1,6 +1,6 @@
 # Derrotero de MANTIS
 
-**MANTIS:** Mantenimiento, Auditoría, Normas, Trazabilidad e Integridad del Sistema. Nombre del derrotero, no de quien lo ejecuta: lo implementa cualquier agente que lo cargue.
+**MANTIS:** Memoria, Análisis, Navegación, Triangulación, Integridad y Sistema. Nombre del derrotero, no de quien lo ejecuta: lo implementa cualquier agente que lo cargue.
 
 **Tarea:** editar, auditar y medir los archivos del repositorio.
 **Tipo:** disparador. Solo las filas que coinciden se cargan; el resto no.
@@ -14,8 +14,8 @@
 **Integridad:** .../Ouroboros/procesos/integridad.md.. **Corre siempre antes de mutar:** el criterio no decide si corre, solo qué se hace con su veredicto.
 **Claridad:** .../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md..
 **Manipulación de procesos:** .../Ouroboros/1 Guantelete — primitivo/herramientas/manipulacion.md.. Se carga cuando el cambio produce o reemplaza un proceso.
-**Registro:** ..sesion-continua/mantis.db.. **Es la memoria: lo que no se anota se pierde con el contexto.** **Esquema:** .../notas/esquema-<uuid>.sql., con UUID; la base declara con cuál se escribió.
-**Memoria:** .../Ouroboros/procesos/memoria continua.md.. Se carga al recordar y al leer la memoria: dice qué se guarda y cómo se suplanta. Lo que se guarda en .Registro. se guarda con su forma.
+**Registro:** `.sesion-continua/mantis.db`. **Es la memoria: lo que no se anota se pierde con el contexto.** **Esquema:** `../notas/corrida-<uuid>/esquema.sql`.
+**Memoria:** `../Ouroboros/procesos/memoria continua.md`. Se carga al recordar y al leer la memoria: dice qué se guarda y cómo se suplanta. **Su paso 8: cada interacción deja su entrada, no al final.**
 **Ley:** ../mantenimiento/editar/editar.md..
 **Formato:** ../mantenimiento/editar/enrutar-formato.md.: todo proceso se carga por las nueve piezas y los condicionales antes de escribirse. Rige .../Ouroboros/formato de proceso.md.; no lo copia.
 **Piso:** ../piso/.. Corre aquí y ahora; la forma que sigue está en .../Ouroboros/piso.md..
@@ -39,6 +39,7 @@ Una petición puede tocar tres cosas distintas, y cada una se trata distinto.
 | Se cambia un archivo | ../mantenimiento/editar/editar.md. | no hay edición |
 | **Se cambia el esquema de la memoria** | **../acta.md.**, .El esquema con UUID.: se acuña otro UUID y el anterior se declara sucedido | la base deja de saber con qué forma se escribió |
 | **Se produce una decisión, una frase o un descarte** | **../mantenimiento/notas/notas-tesis.md.**: se anota con ../piso/anotar.ps1. (la regla vive en .../AGENTS.md., .Escribir notas.) | el turno no está entregado |
+| **Se abre un turno con trabajo** | **`./piso/turno.ps1 -Abrir "..."`**: el turno no cierra sin su entrada | el turno se cierra sin dejar rastro |
 | **Se guarda o se lee memoria** | **.../Ouroboros/procesos/memoria continua.md.**: posición, .Sostuve./.Contra./.Sostengo., y lo anterior se suplanta | la memoria guarda hechos y hereda verdades |
 | **Termina un turno con archivos cambiados** | **../piso/notas.ps1.**: un archivo cambiado sin nota es .falla. | el turno se entrega sin rastro |
 | Se cierra la sesión | ../piso/ver.ps1 -Formato md. y ../piso/anotar.ps1 -SesionAuto -Desde <volcado>. | la sesión se escribe de memoria |

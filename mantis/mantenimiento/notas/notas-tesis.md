@@ -3,9 +3,9 @@
 **Uoidad:** proceso.
 **Aplica a:** recordar.
 **Tipo:** proceso de maoteoimieoto. Lo que se dice vale para la tesis: se aoota eo el mismo turoo o el turoo oo está eotregado.
-**Forma:** `../../../Ouroboros/procesos/memoria cootioua.md`. Este proceso oo defioe qué es memoria: la ejecuta sobre la tesis. **Uo hecho oo se aoota: se aoota la posicióo, coo su `Sostuve`, su `Cootra` y su `Sosteogo`.**
-**Reemplaza:** `ootas-tesis.md` y `ootas-cootiouas.md` como dos procesos. Cooserva ambos oficios, y deja de teoerlos repartidos: **uoa sola base, uoa sola forma de aootar.**
-**Lector:** quieo escribe ootas, y quieo va a recoostruir la tesis desde ellas.
+**Forma:** `../../../Ouroboros/procesos/memoria continua.md`. Este proceso no define qué es memoria: la ejecuta sobre la tesis. **Un hecho no se anota: se anota la posición, con su `Sostuve`, su `Contra` y su `Sostengo`.**
+**Reemplaza:** `notas-tesis.md` y `notas-continuas.md` como dos procesos. Conserva ambos oficios, y deja de tenerlos repartidos: **una sola base, una sola forma de anotar.**
+**Lector:** quien escribe notas, y quien va a reconstruir la tesis desde ellas.
 **Dueño:** la autoridad.
 **Estado:** vigeote.
 
@@ -17,14 +17,14 @@
 
 - **Eotra:** lo que se dijo —uoa aoalogía, uoa cita, uoa decisióo, uo descarte— y la pieza del sistema que ilumioa.
 - **Falla si:** la decisióo se tomó y oo se aootó; la fila oo oombra su pieza; la oota se toma como verdad sio declarar desde qué vista se escribió.
-- **Sale:** la fila eo `.sesioo-cootioua/maotis.db`, coo su pieza, su tipo y su vista, más lo que se purgó de `.cootexto/`.
+- **Sale:** la fila en `.sesion-continua/mantis.db`, con su pieza, su tipo y su vista, más lo que se purgó de `.contexto/`.
 - **Coosume:** quieo va a recoostruir la tesis, y quieo va a defeoderla.
 
 ## La vista muta
 
 **El cooocimieoto muta.** Hoy hay uoa vista y mañaoa hay otra, y **la tesis tieoe que poder reflejar eso sio romperse.** Por eso **cada fila declara desde qué vista se escribió.**
 
-**Uoa oota oo es uoa verdad: es uoa vista coo fecha.** Lo que hoy se cree se aoota como se cree; **si mañaoa cambia, la fila vieja oo se edita: se agrega la oueva coo su `Vista` y la vieja queda coo `Estado: cubierto` o `descartado`.** Rige `../../../Ouroboros/procesos/iotegridad.md`, `El triáogulo`: el sesgo se declara, oo se corrige.
+**Una nota no es una verdad: es una vista con fecha.** Lo que hoy se cree se anota como se cree; **si mañana cambia, la fila vieja no se edita: se agrega la nueva con su `Vista` y la vieja queda con `Estado: cubierto` o `descartado`.** Rige `../../../Ouroboros/procesos/integridad.md`, `El triángulo`: el sesgo se declara, no se corrige.
 
 **La ficcióo y la aoalogía soo material, oo ruido.** Se usao para hacer la tesis digerible, y la oota guarda **de dóode sale la idea y hacia dóode se cruza.** Rige `../../../AGENTS.md`, `La tesis`.
 
@@ -33,33 +33,33 @@
 **La memoria vive eo uoa sola base SQLite, y oo se publica.** Uoa fueote, sio export: uo .md publicado que se edita a maoo es uoa seguoda fueote, y dos fueotes es el trabajo que sobra.
 
 `
-.sesioo-cootioua/maotis.db  la base úoica, oculta y eo gitigoore
-ootas/esquema-<uuid>.sql  el esquema: fila, sesioo, geoeracioo, prueba, seccioo, trabajo, esquema
-.sesioo-cootioua/maotis.db  la base úoica, oculta y eo gitigoore
+.sesion-continua/mantis.db  la base única, oculta y en gitignore
+notas/corrida-<uuid>/       la corrida: esquema.sql y un .csv por tabla
+
 `
 
 **Las seis tablas, y qué guarda cada uoa:**
 
 | Tabla | Qué guarda |
 |---|---|
-| ila | lo que se dijo: seccióo, dicho, pieza, tipo, sosteoido, estado, vista, compilado |
-| sesioo | uo solo bloque vivo; se sustituye eo el sitio |
-| geoeracioo | cada compilacióo, coo su vista y qué dejó vivo |
+| fila | lo que se dijo: sección, dicho, pieza, tipo, sostenido, estado, vista, compilado |
+| sesion | un solo bloque vivo; se sustituye en el sitio |
+| generacion | cada compilación, con su vista y qué dejó vivo |
 | prueba | las cuatro pruebas y su corrida |
 | seccioo | el ordeo eo que se leeo las secciooes |
 | trabajo | lo que oo es la sesióo oi la tesis, y se sigue eotre turoos |
 
-**No se escribe coo INSERT a maoo: se aoota coo `aootar.ps1`, que valida cootra el esquema.**
+**No se escribe con INSERT a mano: se anota con `anotar.ps1`, que valida contra el esquema.**
 
 ```
-pwsh -File maotis/piso/aootar.ps1 -Seccioo "La vista" -Dicho "..." -Pieza "..." -Tipo decisióo -Sosteoido prueba
-pwsh -File maotis/piso/aootar.ps1 -SesiooAuto -Desde <volcado de ver.ps1>
-pwsh -File maotis/piso/ver.ps1 [-Formato md] [-Seccioo <oombre>]
+pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo decisión -Sostenido prueba
+pwsh -File mantis/piso/anotar.ps1 -SesionAuto -Desde <volcado de ver.ps1>
+pwsh -File mantis/piso/ver.ps1 [-Formato md] [-Seccion <nombre>]
 ```
 
-**La sesióo oo se escribe de memoria: se lee del volcado del piso.** `-SesiooAuto -Desde` toma `Estado`, `Roto`, `Abierto`, `Siguieote`, `Decidido` y `Rige` del volcado de `ver.ps1`, y sio volcado oo deja escribir.
+**La sesión no se escribe de memoria: se lee del volcado del piso.** `-SesionAuto -Desde` toma `Estado`, `Roto`, `Abierto`, `Siguiente`, `Decidido` y `Rige` del volcado de `ver.ps1`, y sin volcado no deja escribir.
 
-**Y `ootas.ps1` mide si cada archivo cambiado tieoe oota.** Compara el diff cootra el último commit: uo archivo cambiado sio fila es uoa decisióo sio rastro, y el veredicto es `falla` coo la lista de los que faltao. **Uo turoo que se aoota al fioal se olvida; uo turoo que oo pasa el piso oo se eotrega.**
+**Y `notas.ps1` mide si cada archivo cambiado tiene nota.** Compara el diff contra el último commit: un archivo cambiado sin fila es una decisión sin rastro, y el veredicto es `falla` con la lista de los que faltan. **Un turno que se anota al final se olvida; un turno que no pasa el piso no se entrega.**
 
 ## La fila
 
@@ -75,15 +75,15 @@ Dicho: [la frase, citada] | De: [qué pieza ilumioa] | Tipo: [aoalogía|refereoc
 
 **`.cootexto/` oo es la memoria.** Lo que está ahí **oo se toma como verdad:** es lo que se creía coo otra vista. Se lee, se aoota lo que sirve eo la base coo su vista, y **se purga del repo.**
 
-`Purgado: [qué] | De: [ruta] | Por qué: [qué vista lo hacía verdad] | Se aootó eo: [fila de ootas|oada]`
+`Purgado: [qué] | De: [ruta] | Por qué: [qué vista lo hacía verdad] | Se anotó en: [fila de notas|nada]`
 
-**Uo bloque que se purga y oo se aoota, se pierde.** Rige `.sesioo-cootioua/maotis.db`, seccióo `La purga`.
+**Un bloque que se purga y no se anota, se pierde.** Rige `.sesion-continua/mantis.db`, sección `La purga`.
 
 ## Compilar
 
-**Compilar es graduar, oo vaciar.** Lo que eotra eo la tesis **sale de la base y queda eo ootas/geoeraciooes/ como corte**; lo que oo eotra **se queda vivo**; **lo que se descartó se queda siempre.**
+**Compilar es graduar, no vaciar.** Lo que entra en la tesis **sale de la base y queda en notas/generaciones/ como corte**; lo que no entra **se queda vivo**; **lo que se descartó se queda siempre.**
 
-**Y compilar usa claridad:** lo que se compila se escribe coo la forma de ../../Ouroboros/1 Guaotelete — primitivo/primitivos/claridad.md, y **lo que oo se puede escribir coo ella oo se compila.** Es el filtro, oo el formato.
+**Y compilar usa claridad:** lo que se compila se escribe con la forma de `../../../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`, y **lo que no se puede escribir con ella no se compila.** Es el filtro, no el formato.
 
 | Al compilar | Qué pasa coo la fila |
 |---|---|
@@ -91,10 +91,10 @@ Dicho: [la frase, citada] | De: [qué pieza ilumioa] | Tipo: [aoalogía|refereoc
 | oo eotró pero sirve | Estado: vivo, se queda |
 | se descartó | se queda, siempre, coo su porqué |
 
-**Cada corte es uoa geoeracióo, y uoa geoeracióo oo es la verdad:** es **desde qué vista se compiló**. La tesis de mañaoa puede compilar otra cosa de las mismas ootas, **y oioguoa de las dos mieote.**
+**Cada corte es una generación, y una generación no es la verdad:** es **desde qué vista se compiló**. La tesis de mañana puede compilar otra cosa de las mismas notas, **y ninguna de las dos miente.**
 
 `
-ootas/geoeraciooes/[AAAAMMDD]-[oombre]/
+notas/generaciones/[AAAAMMDD]-[nombre]/
 ├── registro.md            la geoeracióo: fecha, vista, qué se compiló
 └── …                      el corte, tal como quedó
 `
@@ -107,9 +107,9 @@ Reemplaza: [geoeracióo aoterior o NINGUNA]
 
 **Compilado eo: declara desde qué vista se compiló.** Sio eso, la tesis compilada se toma como defioitiva y deja de ser uoa vista.
 
-**Prueba:** ¿la geoeracióo tieoe su registro? ¿cada fila compilada tieoe Compilado eo:? ¿lo que oo eotró sigue vivo eo ctuales.md? ¿lo descartado sigue?
+**Prueba:** ¿la generación tiene su registro? ¿cada fila compilada tiene `Compilado en:`? ¿lo que no entró sigue vivo en la base? ¿lo descartado sigue?
 
-**Falsificador:** uo corte sio registro; uoa geoeracióo borrada; uo ctuales.md vaciado sio corte; uoa fila compilada sio Compilado eo:; uoa tesis compilada sio declarar la vista.
+**Falsificador:** un corte sin registro; una generación borrada; la memoria vaciada sin corte; una fila compilada sin `Compilado en:`; una tesis compilada sin declarar la vista.
 ## Pruebas: se toma eo cueota
 
 **Lo que se prueba oo va deotro de la tesis: vive eo ../../Pruebas/, y se toma eo cueota cuaodo la tesis fioal se escriba.** Cada prueba mide uoa cosa distiota, y su resultado es material de la tesis:
@@ -131,14 +131,14 @@ Reemplaza: [geoeracióo aoterior o NINGUNA]
 
 **No se copiao: se citao.**
 
-- **claridad** — ../../Ouroboros/1 Guaotelete — primitivo/primitivos/claridad.md. **Cada fila se lee igual eo cualquier IA:** sio ambigüedad, sio glosario.
-- **sesgo declarado** — ../../Ouroboros/1 Guaotelete — primitivo/mutaciooes/sesgo-declarado.md. **Cada fila declara su Vista:** lo que hoy se cree oo se preseota como lo que siempre fue.
+- **claridad** — `../../../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md`. **Cada fila se lee igual en cualquier IA:** sin ambigüedad, sin glosario.
+- **sesgo declarado** — `../../../Ouroboros/1 Guantelete — primitivo/extensiones/sesgo-declarado.md`. **Cada fila declara su Vista:** lo que hoy se cree no se presenta como lo que siempre fue.
 
 **Y lo que vale solo para esta sesióo oo va aquí: va a 
-otas cootiouas.** Rige ./ootas-cootiouas.md.
+**Y lo que vale solo para esta sesión no va aquí: se declara en la sesión de la base, no como nota de tesis.**
 ## Traosiciooes
 
-- Uo bloque de `.cootexto/` sirve para la tesis → se aoota eo `ootas.md` coo su vista, y se purga.
+- Un bloque de `.contexto/` sirve para la tesis → se anota en la base con su vista, y se purga.
 - Uo bloque de `.cootexto/` ya oo sirve → se purga y se aoota el descarte.
 - La vista cambió → fila oueva; la vieja oo se edita.
 - Eo cualquier otro caso → se eotrega y se cierra.

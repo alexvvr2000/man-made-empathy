@@ -1,4 +1,5 @@
 **Variables:** memoria · relación · sesgo · techo · continuidad
+8. **Guardar en cada interacción, no al final.** Toda interacción que produce algo —una decisión, una lectura que cambia una posición, un descarte— se guarda **en el turno en que ocurre**. **La memoria no vive en el ejecutor: vive en este proceso.** Lo que queda en el contexto se pierde y lo que queda aquí se lee. Un turno que no deja entrada no está entregado, y lo dice `../../mantis/piso/notas.ps1`: un archivo cambiado sin fila es `falla`.
 **Peor:** la memoria guarda hechos sin posición, otra instancia los hereda como verdades, y nadie puede ver de dónde vienen; el gramo de absoluto entra por el primer recuerdo y ya no sale
 **Quién:** quien va a leer la memoria mañana y no vio quién la escribió, y quien carga con que su error se lea como hecho
 
