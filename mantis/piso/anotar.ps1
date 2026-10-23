@@ -1,17 +1,19 @@
-# anotar.ps1 — unidad del piso de esta instancia
-# Decide: si una fila o un bloque de sesion se puede escribir sin romper el esquema.
+# anotar.ps1 — la unidad que escribe la memoria
+# Decide: si una fila o un bloque de sesion se escribe sin romper el esquema.
 # No juzga contenido. No usa modelo. Corre igual en cualquier ejecutor.
 #
-# Una sola base, sin export. Rige ../mantenimiento/notas/notas-tesis.md.
-# Esquema: notas/corrida-<uuid>/esquema.sql (la base declara con cual se escribio). Base: .sesion-continua/mantis.db (oculta).
+# Rige ../../Ouroboros/procesos/memoria continua.md, paso 8:
+#   "Guardar en cada interacción, no al final. La memoria no vive en el ejecutor:
+#    vive en este proceso."
+# Base: .sesion-continua/mantis.db. Esquema: notas/corrida-<uuid>/esquema.sql.
 #
-# No se aplica a: el corte de una generacion (eso va a notas/generaciones/), ni a la validacion de la fila.
+# No se aplica a: la cobertura del repo (eso es notas.ps1), ni al turno (eso es turno.ps1).
 #
 # Uso:
-#   pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo frase -Sostenido frontera
-#   pwsh -File mantis/piso/anotar.ps1 -Sesion -Estado "piso.ps1 pasa" -Abierto "..." -Siguiente "..."
-#   pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo decisión -Desde <volcado de ver.ps1 -Formato md>
-#   pwsh -File mantis/piso/anotar.ps1 -SesionAuto -Desde <volcado>   (sesion medida por el piso)
+#   pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo decisión
+#   pwsh -File mantis/piso/anotar.ps1 -Sesion -Estado "piso.ps1 pasa (7 de 7)"
+#   pwsh -File mantis/piso/anotar.ps1 -Sesion -Estado "(lo que mide el piso)"
+#   pwsh -File mantis/piso/anotar.ps1 -Chequear
 
 param(
   [string]$Root = (Join-Path $PSScriptRoot "..\.."),
@@ -34,8 +36,6 @@ param(
   [switch]$Chequear
 )
 
-
-
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 $Base = Join-Path $Root '.sesion-continua\mantis.db'
@@ -51,22 +51,26 @@ $tiposOk = @('analogía', 'referencia', 'cita', 'frase', 'decisión', 'descarte'
 $sostOk = @('prueba', 'frontera', 'nada')
 if ([string]::IsNullOrWhiteSpace($Vista)) { $Vista = 'vista ' + (Get-Date -Format 'yyyy-MM-dd') }
 
+function Q($sql) { & sqlite3 $Base $sql }
 function Esc($v) { if ([string]::IsNullOrWhiteSpace($v)) { 'NULL' } else { "'" + ($v -replace "'", "''") + "'" } }
 
 $errores = @()
 
-# La sesion se mide desde el volcado del piso, no se escribe de memoria.
 if ($SesionAuto) {
-  if ([string]::IsNullOrWhiteSpace($Desde)) { $errores += 'SesionAuto exige -Desde: la sesion se lee del volcado del piso, no se escribe de memoria' }
-  elseif (-not (Test-Path $Desde)) { $errores += "no existe el volcado: $Desde" }
-  else {
-    $lineas = @(Get-Content -LiteralPath $Desde -Encoding utf8)
+  if ([string]::IsNullOrWhiteSpace($Desde)) {
+    $errores += 'SesionAuto exige -Desde: la sesion se lee del volcado del piso, no se escribe de memoria'
+  } elseif (-not (Test-Path $Desde)) {
+    $errores += "no existe el volcado: $Desde"
+  } else {
     $m = @{}
-    foreach ($l in $lineas) {
-      if ($l -match '^(Estado|Roto|Abierto|Siguiente|Decidido|Rige):\s*(.*?)\s*(\|\s*Roto:.*)?$') { $m[$Matches[1]] = $Matches[2].Trim() }
+    foreach ($linea in (Get-Content -LiteralPath $Desde -Encoding utf8)) {
+      if ($linea -match '^(Estado|Roto|Abierto|Siguiente|Decidido|Rige):\s*(.*?)\s*(\|\s*Roto:.*)?$') {
+        $m[$Matches[1]] = $Matches[2].Trim()
+      }
     }
-    if (-not $m['Estado']) { $errores += 'el volcado no trae Estado medido' }
-    else {
+    if (-not $m['Estado']) {
+      $errores += 'el volcado no trae Estado medido'
+    } else {
       $Sesion = $true
       $Estado = $m['Estado']
       if ($m['Roto']) { $Roto = $m['Roto'] }
@@ -85,14 +89,14 @@ if (-not [string]::IsNullOrWhiteSpace($Desde) -and (Test-Path $Desde) -and -not 
 
 if ($Sesion) {
   if ([string]::IsNullOrWhiteSpace($Estado)) { $errores += 'la sesion no trae Estado medido' }
-} else {
+} elseif (-not $SesionAuto) {
   if ([string]::IsNullOrWhiteSpace($Seccion)) { $errores += 'falta Seccion' }
   if ([string]::IsNullOrWhiteSpace($Dicho)) { $errores += 'falta Dicho' }
   if ([string]::IsNullOrWhiteSpace($Pieza)) { $errores += 'falta Pieza: una nota sin pieza es una idea suelta' }
-  if ($tiposOk -notcontains $Tipo) { $errores += "tipo invalido: $Tipo (uno de: $($tiposOk -join ', '))" }
+  if ($tiposOk -notcontains $Tipo) { $errores += "tipo invalido: $Tipo" }
   if ($sostOk -notcontains $Sostenido) { $errores += "sostenido invalido: $Sostenido" }
-  $existe = & sqlite3 $Base "SELECT 1 FROM seccion WHERE nombre = $(Esc $Seccion);"
-  if (-not $existe) { $errores += "seccion desconocida: $Seccion (ver la corrida vigente, tabla seccion)" }
+  $existe = Q "SELECT 1 FROM seccion WHERE nombre = $(Esc $Seccion);"
+  if (-not $existe) { $errores += "seccion desconocida: $Seccion" }
 }
 
 if ($errores.Count -gt 0 -or $Chequear) {
@@ -105,17 +109,17 @@ if ($errores.Count -gt 0 -or $Chequear) {
 }
 
 if ($Sesion) {
-  $hoy = (Get-Date -Format 'yyyy-MM-dd HH:mm')
-  & sqlite3 $Base "INSERT INTO sesion (id,fecha,vista,estado,roto,abierto,siguiente,decidido,rige,compilado_en) VALUES (1,$(Esc $hoy),$(Esc $Vista),$(Esc $Estado),$(Esc $Roto),$(Esc $Abierto),$(Esc $Siguiente),$(Esc $Decidido),$(Esc $Rige),$(Esc $Desde)) ON CONFLICT(id) DO UPDATE SET fecha=excluded.fecha, vista=excluded.vista, estado=excluded.estado, roto=excluded.roto, abierto=excluded.abierto, siguiente=excluded.siguiente, decidido=excluded.decidido, rige=excluded.rige, compilado_en=excluded.compilado_en;"
+  $hoy = Get-Date -Format 'yyyy-MM-dd HH:mm'
+  Q "INSERT INTO sesion (id,fecha,vista,estado,roto,abierto,siguiente,decidido,rige,compilado_en) VALUES (1,$(Esc $hoy),$(Esc $Vista),$(Esc $Estado),$(Esc $Roto),$(Esc $Abierto),$(Esc $Siguiente),$(Esc $Decidido),$(Esc $Rige),$(Esc $Desde)) ON CONFLICT(id) DO UPDATE SET fecha=excluded.fecha, vista=excluded.vista, estado=excluded.estado, roto=excluded.roto, abierto=excluded.abierto, siguiente=excluded.siguiente, decidido=excluded.decidido, rige=excluded.rige, compilado_en=excluded.compilado_en;" | Out-Null
   Write-Output "ANOTAR"
-  Write-Output "Sesion: medida desde $(if ($Desde) { $Desde } else { 'la entrada' }) | Estado: $Estado"
+  Write-Output "Sesion: actualizada | Estado: $Estado"
   Write-Output ""
   Write-Output "VEREDICTO: pasa"
   exit 0
 }
 
-& sqlite3 $Base "INSERT INTO fila (seccion,dicho,pieza,tipo,usa,sostenido,estado,vista) VALUES ($(Esc $Seccion),$(Esc $Dicho),$(Esc $Pieza),$(Esc $Tipo),$(Esc $Usa),$(Esc $Sostenido),'vivo',$(Esc $Vista));"
-$id = & sqlite3 $Base "SELECT last_insert_rowid();"
+Q "INSERT INTO fila (seccion,dicho,pieza,tipo,usa,sostenido,estado,vista) VALUES ($(Esc $Seccion),$(Esc $Dicho),$(Esc $Pieza),$(Esc $Tipo),$(Esc $Usa),$(Esc $Sostenido),'vivo',$(Esc $Vista));" | Out-Null
+$id = Q "SELECT MAX(id) FROM fila;"
 
 Write-Output "ANOTAR"
 Write-Output "Fila: $id | Seccion: $Seccion | Tipo: $Tipo | Sostenido: $Sostenido"

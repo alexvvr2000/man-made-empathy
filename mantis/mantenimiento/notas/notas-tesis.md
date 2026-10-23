@@ -53,11 +53,11 @@ notas/corrida-<uuid>/       la corrida: esquema.sql y un .csv por tabla
 
 ```
 pwsh -File mantis/piso/anotar.ps1 -Seccion "La vista" -Dicho "..." -Pieza "..." -Tipo decisión -Sostenido prueba
-pwsh -File mantis/piso/anotar.ps1 -SesionAuto -Desde <volcado de ver.ps1>
-pwsh -File mantis/piso/ver.ps1 [-Formato md] [-Seccion <nombre>]
+pwsh -File mantis/piso/anotar.ps1 -Sesion -Estado "(lo que mide el piso)"
+pwsh -File mantis/piso/anotar.ps1 -Chequear
 ```
 
-**La sesión no se escribe de memoria: se lee del volcado del piso.** `-SesionAuto -Desde` toma `Estado`, `Roto`, `Abierto`, `Siguiente`, `Decidido` y `Rige` del volcado de `ver.ps1`, y sin volcado no deja escribir.
+**La sesión no se escribe de memoria: se escribe con lo que el piso midió.** `-Sesion` exige el `Estado` medido, y sin él no deja escribir.
 
 **Y `notas.ps1` mide si cada archivo cambiado tiene nota.** Compara el diff contra el último commit: un archivo cambiado sin fila es una decisión sin rastro, y el veredicto es `falla` con la lista de los que faltan. **Un turno que se anota al final se olvida; un turno que no pasa el piso no se entrega.**
 

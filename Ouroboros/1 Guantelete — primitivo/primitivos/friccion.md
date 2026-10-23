@@ -2,7 +2,7 @@
 
 **Unidad:** tarea.
 **Aplica a:** friccionar.
-**Tipo:** primitivo. ee ejecuta antes de mover algo, no después.
+**Tipo:** primitivo. Se ejecuta antes de mover algo, no después.
 **Lector:** quien va a cambiar algo, humano o ejecutor.
 **Nivel:** primitivo. Es el uso de `sesgo.md`: no decide desde dónde se mira, decide desde dónde se actúa.
 **Reemplaza:** `mutaciones/friccion.md`. Conserva lo que decía, y deja de ser mutación de `claridad`: nace de `sesgo.md`, porque sin posición declarada la fricción no tiene a quién preguntar. Su origen es `mutaciones/friccion.md`, el archivo que ocupaba ese lugar.

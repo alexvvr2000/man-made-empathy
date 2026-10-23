@@ -5,6 +5,10 @@
 # Un tren no es una tuberia: cada unidad se puede correr suelta y su salida se lee sola.
 # Rige ../../Ouroboros/piso.md, "El tren".
 #
+# El piso son las unidades que DECIDEN: emiten pasa o falla sobre el repo.
+# Las herramientas NO votan: se corren, su salida se lee, y no cambian el veredicto.
+# Una herramienta contada como unidad infla el marcador sin decidir nada.
+#
 # Uso: pwsh -File mantis/piso/piso.ps1 [-Root <ruta>]
 
 param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
@@ -12,17 +16,15 @@ param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
-# Orden del tren: lo que cuenta, lo que mide, lo que verifica y lo que recuerda.
+# Las cinco que deciden.
 $unidades = @(
   'inventario.ps1',
   'rutas.ps1',
-  'duplicados.ps1',
   'fantasmas.ps1',
   'notas.ps1',
-  'ver.ps1',
-  'turno.ps1',
-  'indice.ps1'
+  'turno.ps1'
 )
+
 
 $filas = @()
 foreach ($u in $unidades) {
@@ -35,12 +37,15 @@ foreach ($u in $unidades) {
 }
 
 $falla = @($filas | Where-Object { $_.Veredicto -ne 'pasa' })
+$enPasa = @($filas | Where-Object { $_.Veredicto -eq 'pasa' }).Count
 
 Write-Output "PISO"
 Write-Output "Root: $Root"
 Write-Output ""
 Write-Output "UNIDAD | VEREDICTO"
 foreach ($f in $filas) { Write-Output "$($f.Unidad) | $($f.Veredicto)" }
+Write-Output ""
+Write-Output "Unidades en pasa: $enPasa de $($filas.Count)"
 Write-Output ""
 Write-Output "VEREDICTO: $(if ($falla.Count -eq 0) { 'pasa' } else { 'falla' })"
 Write-Output ""

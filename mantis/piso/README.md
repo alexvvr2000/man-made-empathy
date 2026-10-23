@@ -23,11 +23,9 @@
 |---|---|---|---|
 | `inventario.ps1` | qué procesos hay y qué campo les falta | si lo que tienen sirve | lo que no es proceso: un índice, un borrador, una nota |
 | `rutas.ps1` | qué ruta relativa no resuelve a un archivo real | si el destino dice lo que debe | rutas externas, plantillas con `[corchete]` y enlaces de era |
-| `duplicados.ps1` | dónde hay dos piezas para el mismo nombre o el mismo título | si el nombre repetido es legítimo | lo que se repite a propósito: las tres piezas del ente, un `README` por sub-tarea |
 | `fantasmas.ps1` | qué ente no tiene `rastro.md`, `ruta.md` o `carga.md` | si el fallo que cubre sigue existiendo | carpetas sin ninguna de las tres: no son entes |
 | `notas.ps1` | si la memoria se escribe como manda la carta, y si cada archivo cambiado tiene nota | si lo anotado es válido; qué archivo cambió por trabajo y qué por otra persona | el contenido de la fila: eso lo decide el aplanado |
-| `ver.ps1` | si la memoria se puede leer sin un archivo publicado | si lo anotado sirve | escribir la base: eso es `anotar.ps1` |
-| `indice.ps1` | qué hay en `Tesis/` y qué forma tiene | si un archivo está en el nivel correcto | `Ouroboros/` y `mantis/`: no los indexa |
+| `turno.ps1` | si el turno cerró con su entrada en la memoria | si lo anotado sirve | abrir el turno: eso lo decide quien lo empieza |
 
 ## El tren
 
@@ -44,7 +42,7 @@ Corre las siete y emite **un solo veredicto**. **Cada una también se corre sola
 3. **Se puede correr sola.** No necesita las otras seis.
 4. **Se rige por el criterio, y lo declara.** Cada unidad dice su `No se aplica a`, y **el veredicto lo escribe quien lo va a usar.**
 
-**Y lo que descarta no se tira: se anota.** Rige `../mantenimiento/notas/notas-tesis.md`, y se lee con `./ver.ps1`.
+**Y lo que descarta no se tira: se anota.** Rige `../mantenimiento/notas/notas-tesis.md`, y se lee con `../piso/notas.ps1`.
 
 ## Prueba
 

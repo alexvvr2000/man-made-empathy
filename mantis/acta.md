@@ -53,7 +53,7 @@ Reemplaza: NINGUNA — primera instancia operativa
 
 | Letra | Oficio | Dónde vive | Lo que conserva de S.A.R.A |
 |---|---|---|---|
-| **M**emoria | la base única y sus instrumentos | `piso/anotar.ps1`, `piso/ver.ps1`, `piso/notas.ps1` | `reproduccion`, `versionado` |
+| **M**emoria | la base única y sus instrumentos | `piso/anotar.ps1`, `piso/notas.ps1`, `piso/turno.ps1` | `reproduccion`, `versionado` |
 | **A**nálisis | las unidades que miden, sin modelo | `piso/` | `evaluacion`, `evidencia` |
 | **N**avegación | qué se carga y cuándo | `Derrotero.md` | `ruta.md` del ente |
 | **T**riangulación | los tres vértices del veredicto | `chequear/` | `sesgo`, `integridad` |
