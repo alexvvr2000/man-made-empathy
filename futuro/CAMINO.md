@@ -6,6 +6,12 @@
 **Lector:** quien retoma la conversación después de un corte de contexto.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+**Sesgo:** el camino se lee desde el tramo que se pisa, no desde la meta que se persigue.
+**Límite:** no decide si la meta es buena; dice dónde estamos.
+**Cuelga de:** `../Tesis/LA-TESIS.md` y `./UNION.md`. La meta del camino es la del punto medio; la tesis fija el criterio.
+**Deja de valer:** cuando el tramo cierra y otro empieza. Un camino terminado no se recorre: se declara.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../Ouroboros/formato de proceso.md>`
 
 ## La meta
 

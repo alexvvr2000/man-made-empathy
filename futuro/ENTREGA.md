@@ -6,6 +6,10 @@
 **Lector:** quien va a usarlo mañana — en un asistente, en un agente, o en un robot.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+**Cuelga de:** `./UNION.md` — la entrega es la primera pieza que se puede repetir sin su autor, y sin pegamento visible no sale del repo.
+**Deja de valer:** cuando la pieza que entrega la puede reconstruir una máquina sin humano. Ahí el puente no hace falta: el mensaje viaja.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../Ouroboros/formato de proceso.md>`
 **Nivel de lo que contiene:** N2 (cada pieza es un archivo real de `Ouroboros/`, citado) salvo lo que se declare N5.
 
 ## Qué es esto

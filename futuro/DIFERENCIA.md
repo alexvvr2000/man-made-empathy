@@ -9,6 +9,8 @@
 
 **Sesgo:** la diferencia se lee desde lo que el otro espera, no desde lo que el ente puede.
 **Límite:** no obliga a nada. **Declara qué esperaba el otro y qué hizo el ente.** Lo que se hace con eso lo decide quien lo lee.
+**Cuelga de:** `TIEMPO.md`, `El tercer tiempo: el prestado`. **La holgazanería es el caso extremo de la diferencia implícita.**
+**Deja de valer:** cuando el que responde es el mismo que pidió. Ahí no hay dos partes que comparar, y la diferencia no se puede declarar.
 **Firma:** comunidad
 **Continuidad:** 0 corridas | sin fecha | sin cambio | contra `./TIEMPO.md`
 

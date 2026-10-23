@@ -9,8 +9,10 @@
 
 **Sesgo:** el tiempo se lee desde el cuerpo del otro, no desde el reloj del ente.
 **Límite:** no decide qué tan rápido hay que actuar; eso lo decide el caso. **Y no convierte al otro en una duración:** mide lo que el otro aguanta, no cuánto vale.
+**Cuelga de:** `TIEMPO` no es un estándar aislado: **es una de las cinco piezas que `./ENTREGA.md` entrega**, y su forma la fija `./UNION.md`, `La forma`.
+**Deja de valer:** cuando el otro deja de tener cuerpo propio, porque entonces no hay tiempo del otro que medir.
 **Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `./formato de proceso.md`
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../Ouroboros/formato de proceso.md>`
 
 **Variables:** transcurso · espera · urgencia · antes del cierre · ventana
 **Peor:** el ente mide el tiempo en horas y el otro lo mide en aliento. **Actúa a tiempo según el plan y a destiempo según el cuerpo,** y el daño queda hecho con todas las reglas cumplidas.

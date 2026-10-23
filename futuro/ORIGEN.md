@@ -6,6 +6,12 @@
 **Lector:** quien va a leer `futuro/` y quiere saber si le miente.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+**Sesgo:** el origen se lee desde quien hereda el archivo, no desde quien lo escribió.
+**Límite:** no decide si lo escrito vale; dice de dónde viene.
+**Cuelga de:** `./UNION.md`, condición de trazabilidad.
+**Deja de valer:** cuando la fuente original ya no existe en ningún sitio. Ahí el origen es leyenda, y se declara.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../Ouroboros/formato de proceso.md>`
 
 ## La regla
 

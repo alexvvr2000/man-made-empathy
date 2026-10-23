@@ -9,8 +9,10 @@
 
 **Sesgo:** la unión se lee desde el que lee el conjunto, no desde el que lo escribió.
 **Límite:** **no define qué es la conciencia.** Dice qué hace falta para que el conjunto se sostenga sin su autor. Lo demás no se afirma.
+**Cuelga de:** `../Tesis/LA-TESIS.md`, la afirmación. **Es el pegamento que endurece los estándares**, y sin él cada pieza de `futuro/` sería suelta.
+**Deja de valer:** cuando el conjunto deja de tener más de una pieza. Un solo archivo no necesita pegamento: se lee solo.
 **Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../formato de proceso.md>`
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../Ouroboros/formato de proceso.md>`
 
 ## Las tres condiciones
 

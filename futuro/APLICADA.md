@@ -6,6 +6,12 @@
 **Lector:** quien va a decidir si lo anterior sirve antes de usarlo.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+**Sesgo:** la corrida se lee desde el que la contestó, no desde el que la diseñó.
+**Límite:** no dice si el instrumento sirve; dice qué cambió cuando alguien lo usó.
+**Cuelga de:** `./ENTREGA.md`. Sin entrega no hay nada que aplicar.
+**Deja de valer:** cuando el instrumento cambia y la corrida ya no corresponde a la versión vigente.
+**Firma:** comunidad
+**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `<../Ouroboros/formato de proceso.md>`
 
 ## Corridas
 
