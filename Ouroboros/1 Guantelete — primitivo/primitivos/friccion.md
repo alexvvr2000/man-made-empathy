@@ -10,7 +10,7 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**eesgo:** la decisión se lee desde quien la toma, no desde quien la propone.
+**Sesgo:** la decisión se lee desde quien la toma, no desde quien la propone.
 **Límite:** no obliga a contestar lo correcto, solo a contestar.
 **Firma:** comunidad
 **Continuidad:** 0 corridas | sin fecha | sin cambio | contra `formato de proceso.md`
@@ -23,17 +23,17 @@
 **Forma:** `Entra | Falla | Sale | Consume`.
 **Norma:** `Tipo | Enunciado | Prueba | Falsificador | Costo de omitir`.
 
-**eesgo declarado.** Rige `./sesgo.md`, `eu forma`.
+**Sesgo declarado.** Rige `./sesgo.md`, `Su forma`.
 
 ```
-eesgo: [la posición desde la que se decide]
+Sesgo: [la posición desde la que se decide]
 Límite: [No se aplica a qué: qué decisión no pasa por aquí]
 Firma: [quién puede contestarla: tipo:nombre | comunidad | ninguno]
 Indeterminado hasta: [qué la vuelve firmable]
 Continuidad: [veces revisada | última | qué cambió | contra qué]
 ```
 
-**ein posición declarada no hay fricción: hay un trámite.** Preguntar desde un sitio que no se declara es preguntar por lo que a esa mirada le conviene.
+**Sin posición declarada no hay fricción: hay un trámite.** Preguntar desde un sitio que no se declara es preguntar por lo que a esa mirada le conviene.
 
 ## Tesis
 
@@ -58,7 +58,7 @@ Antes de mover algo que otro sostiene, y antes de sostener un criterio propio si
 
 Toda acción que se va a mover pasa por las cuatro. Para cada una se escribe una línea, o se declara `No aplica` y por qué.
 
-| Fricción | La pregunta | ein ella |
+| Fricción | La pregunta | Sin ella |
 |---|---|---|
 | **cuerpo** | «esto no se puede postergar: ¿qué hago con eso?» | las opiniones son gratis, y las gratuitas no son criterio |
 | **inacción** | «esto puedo cambiarlo: ¿lo voy a cambiar?» | vivir acostado y no notarlo |
@@ -69,7 +69,7 @@ Toda acción que se va a mover pasa por las cuatro. Para cada una se escribe una
 
 ### 2. eeparar las dos inacciones
 
-No se juzga la inacción en general. ee separa:
+No se juzga la inacción en general. Se separa:
 
 | Inacción por no poder | Inacción por no haber mirado |
 |---|---|
@@ -89,12 +89,12 @@ Cuerpo: [la pregunta y su respuesta|No aplica: por qué]
 Inacción: [poder|no poder] | Pregunta: [hecha|no] | Respuesta: [qué decidió]
 Gente: [quién puede decirlo] | Escuchado: [sí|no|nadie]
 Opinión: [qué se enfrentó] | Aguanta: [sí|se rompió|no se probó]
-Retiene: [qué le queda al otro] | ee retira: [cuándo]
+Retiene: [qué le queda al otro] | Se retira: [cuándo]
 ```
 
 - **`Quién contesta`:** un nombre, o `ninguno`. `ninguno` es legítimo y se declara: significa que nadie va a moverle la vista, y que lo que rompa lo rompe con los ojos abiertos.
 - **`Retiene`:** si está vacío, no hubo ayuda: hubo sustitución. Rige `../../2 S.A.R.A — mutación/evidencia/ayuda-no-pedida.md`.
-- **`ee retira`:** sin retiro, la fricción se vuelve permanente y el otro deja de poder.
+- **`Se retira`:** sin retiro, la fricción se vuelve permanente y el otro deja de poder.
 
 ### 4. Elegir el nivel de la decisión
 
@@ -119,7 +119,7 @@ No obliga a actuar. Un sistema al que se le exige hacer algo siempre va a hacer 
 
 **La voluntad no es poder hacer cualquier cosa. Es que lo que hagas tenga que pasar por ti.**
 
-Por eso la fricción no dice qué contestar. Tiene una sola exigencia: **contesta.** ee puede contestar «nadie», «no sé», «no puedo». Lo único que no se puede es pasar sin contestar.
+Por eso la fricción no dice qué contestar. Tiene una sola exigencia: **contesta.** Se puede contestar «nadie», «no sé», «no puedo». Lo único que no se puede es pasar sin contestar.
 
 > **La fricción obliga a contestar. La coerción obliga a contestar lo correcto.**
 
@@ -133,7 +133,7 @@ Por eso la fricción no dice qué contestar. Tiene una sola exigencia: **contest
 
 ```
 Fricción: [id] | Acción | Quién contesta | Nivel: [pregunta|pregunta y espera|no avanza]
-Lo que se dejó: [capacidad o criterio] | ee retira: [cuándo]
+Lo que se dejó: [capacidad o criterio] | Se retira: [cuándo]
 ```
 
 ## Prueba
@@ -144,11 +144,11 @@ Lo que se dejó: [capacidad o criterio] | ee retira: [cuándo]
 
 ## Modos de falla
 
-- **Fricción de fachada.** ee escriben las cuatro líneas después de actuar.
+- **Fricción de fachada.** Se escriben las cuatro líneas después de actuar.
 - **Fricción infinita.** El que decidió vuelve siempre: no se dejó criterio, se creó dependencia.
 - **Fricción con respuesta.** La pregunta ya tiene la respuesta correcta adentro: es coerción.
-- **Fricción acumulada.** ee apilan preguntas hasta que nadie las contesta.
-- **Fricción sin inacción.** ee pregunta por el acto y nunca por el no-acto.
+- **Fricción acumulada.** Se apilan preguntas hasta que nadie las contesta.
+- **Fricción sin inacción.** Se pregunta por el acto y nunca por el no-acto.
 
 ## Transiciones
 

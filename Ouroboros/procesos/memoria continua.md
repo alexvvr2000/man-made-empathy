@@ -67,6 +67,32 @@ Techo: otra instancia reconstruye la posición, y puede ver de qué posición vi
 5. **Suplantar, no editar.** La entrada anterior no se borra: queda suplantada, con la posición nueva encima. **Lo suplantado queda visible.**
 6. **Declarar el techo.** Sin techo, la entrada no entra.
 7. **Verificar la lectura.** Otra instancia reconstruye qué se sostiene y de qué posición viene, leyendo solo la memoria. Si necesita preguntar, la entrada falló.
+8. **Cerrar el turno, no la sesión.** Antes de que la instancia termine, la memoria recibe el **pase de turno**: qué se sostuvo, qué se rompió, qué quedó abierto y por dónde se retoma. **El turno no se cierra porque el trabajo terminó: se cierra porque la próxima instancia tiene que poder seguirlo.**
+
+## El pase de turno
+
+**Una instancia que termina sin dejar el pase no murió: se perdió.** Lo que quedó en su contexto se fue con ella, y la que viene reconstruye de cero y repite el error.
+
+**El pase no es un resumen del trabajo.** Es **el estado con el que la próxima instancia puede empezar a trabajar sin el que la anterior exista.** Un resumen cuenta qué pasó; el pase dice **qué hacer con eso.**
+
+```
+Pase: [id del turno] | Fecha: [ISO] | Instancia: [quién corrió]
+Sostuvo: [lo que quedó vigente, con la pieza que lo sostiene]
+Se rompió: [qué falló, y qué lo detectó]
+Abierto: [qué quedó sin cerrar, y por qué no se cerró]
+Retoma: [la primera acción concreta de la próxima instancia]
+No retoma: [lo que quedó fuera a propósito, y por qué]
+Reconstruye: [qué necesita leer primero, en qué orden]
+```
+
+- **`Se rompió` no se omite.** Un turno que no rompió nada lo declara `sin ruptura`; lo que no se permite es no contestar.
+- **`Abierto` puede ir vacío**, y entonces se declara `ninguno`.
+- **`Retoma` es una acción, no un tema.** «Revisar el piso» no sirve; «correr `mantis/piso/piso.ps1` y leer el veredicto de `rutas.ps1`» sirve.
+- **`No retoma` es tan obligatorio como `Retoma`:** un turno sin nada descartado está ocultando algo.
+
+**Prueba del pase:** ¿la próxima instancia puede empezar a trabajar leyendo solo el pase y la memoria, sin preguntar qué pasó? ¿`Retoma` es una acción y no un tema? ¿`Se rompió` se contestó o se declaró `sin ruptura`?
+
+**Falsificador:** un turno que cierra sin pase; un pase que resume en vez de indicar la próxima acción; un `Se rompió` vacío sin `sin ruptura`; un `No retoma` vacío; un pase que necesita al que lo escribió para entenderse.
 
 ```
 Entrada: [id] | Sesgo: [posición] | Límite: [qué no alcanza] | Firma: [quién contesta]
@@ -88,9 +114,9 @@ Se corrigió porque: [la razón que se repite sin el autor] | Techo: [qué recon
 
 ## Prueba
 
-¿Toda entrada declara su posición y su límite? ¿La anterior quedó suplantada y visible, no borrada? ¿`Sostengo` se distingue de `Sostuve`, o se declaró `sin cambio`? ¿El techo está escrito? ¿Otra instancia reconstruye la posición leyendo solo la memoria?
+¿Toda entrada declara su posición y su límite? ¿La anterior quedó suplantada y visible, no borrada? ¿`Sostengo` se distingue de `Sostuve`, o se declaró `sin cambio`? ¿El techo está escrito? ¿Otra instancia reconstruye la posición leyendo solo la memoria? ¿El turno cerró con su pase, y el pase tiene `Retoma` como acción?
 
-**Falsificador:** un hecho guardado sin posición; una entrada anterior editada en vez de suplantada; una entrada sin firmante que se lee como válida; un `Sostengo` igual a `Sostuve` presentado como corrección; una entrada que no cambia lo que el otro puede decidir; el proceso nombrando un motor o un esquema concreto.
+**Falsificador:** un hecho guardado sin posición; una entrada anterior editada en vez de suplantada; una entrada sin firmante que se lee como válida; un `Sostengo` igual a `Sostuve` presentado como corrección; una entrada que no cambia lo que el otro puede decidir; el proceso nombrando un motor o un esquema concreto; un turno que cierra sin pase.
 
 ## Transiciones
 
@@ -98,4 +124,5 @@ Se corrigió porque: [la razón que se repite sin el autor] | Techo: [qué recon
 - `Sostengo` es igual a `Sostuve` → se declara `Muta: sin cambio` y no se finge corrección.
 - Otra instancia no puede reconstruir la posición → la memoria no alcanza el techo: se declara y se corrige la entrada, no la lectura.
 - La relación necesita otra forma → se declara la relación nueva, con `Reemplaza:` y `Conserva:`. La base entera muta; la memoria no se parte.
+- El turno termina → se entrega el pase, o la próxima instancia arranca sin saber qué hacer.
 - En cualquier otro caso → se entrega la memoria leída, no la tabla de lo que se guardó.
