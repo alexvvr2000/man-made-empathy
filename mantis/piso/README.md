@@ -45,7 +45,7 @@ Corre las seis y emite **un solo veredicto**. **Cada una también se corre sola*
 3. **Se puede correr sola.** No necesita las otras cinco.
 4. **Se rige por el criterio, y lo declara.** Cada unidad dice su `No se aplica a`, y **el veredicto lo escribe quien lo va a usar.**
 
-**Y lo que descarta no se tira: se anota.** Rige `../mantenimiento/notas/notas-tesis.md`, y se lee con `../piso/notas.ps1`.
+**Y lo que descarta no se tira: se anota.** Rige `../../Ouroboros/procesos/memoria continua.md`, `Purga`.
 
 ## Prueba
 

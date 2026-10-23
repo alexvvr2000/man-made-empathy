@@ -4,7 +4,7 @@
 #
 # Una sola base, y ningún export: la base es la fuente.
 # Base: .sesion-continua/mantis.db (oculta, en gitignore). Esquema: notas/corrida-<uuid>/esquema.sql (la base declara con cual se escribio).
-# Rige ../mantenimiento/notas/notas-tesis.md.
+# Rige ../../Ouroboros/procesos/memoria continua.md: es el unico proceso de memoria.
 #
 # No se aplica a: el contenido de la fila (eso lo decide el aplanado), ni al corte de una
 # generación (eso vive en notas/generaciones/, y es archivo porque se lee como documento).
@@ -13,7 +13,7 @@
 
 param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
 
-$srrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 $Base = Join-Path $Root '.sesion-continua\mantis.db'
 

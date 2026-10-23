@@ -38,14 +38,14 @@ Una petición puede tocar tres cosas distintas, y cada una se trata distinto.
 |---|---|---|
 | Se cambia un archivo | ../mantenimiento/editar/editar.md. | no hay edición |
 | **Se cambia el esquema de la memoria** | **../acta.md.**, .El esquema con UUID.: se acuña otro UUID y el anterior se declara sucedido | la base deja de saber con qué forma se escribió |
-| **Se produce una decisión, una frase o un descarte** | **../mantenimiento/notas/notas-tesis.md.**: se anota con ../piso/anotar.ps1. (la regla vive en .../AGENTS.md., .Escribir notas.) | el turno no está entregado |
+| **Se produce una decisión, una frase o un descarte** | **.../Ouroboros/procesos/memoria continua.md.**, `La fila`: se anota con ../piso/anotar.ps1. (la regla vive en .../AGENTS.md., .Escribir notas.) | el turno no está entregado |
 | **Se abre un turno con trabajo** | **`./piso/turno.ps1 -Abrir "..."`**: el turno no cierra sin su entrada | el turno se cierra sin dejar rastro |
 | **Se guarda o se lee memoria** | **.../Ouroboros/procesos/memoria continua.md.**: posición, .Sostuve./.Contra./.Sostengo., y lo anterior se suplanta | la memoria guarda hechos y hereda verdades |
 | **Termina un turno con archivos cambiados** | **../piso/notas.ps1.**: un archivo cambiado sin nota es .falla. | el turno se entrega sin rastro |
 | Se cierra la sesión | `../piso/anotar.ps1 -Sesion -Estado <lo que midió el piso>` | la sesión se escribe de memoria |
-| La vista cambió | ../mantenimiento/notas/notas-tesis.md., .La vista muta.: fila nueva, la vieja no se edita | se toma lo viejo como verdad |
-| **Se compila la tesis** | ../mantenimiento/notas/notas-tesis.md., .Compilar.: lo compilado va a .../notas/generaciones/. con su vista | la tesis se toma como definitiva |
-| Se purga algo de lo viejo | ../mantenimiento/notas/notas-tesis.md., .Purga.: se anota su vista y se purga | se pierde lo que se creía |
+| La vista cambió | .../Ouroboros/procesos/memoria continua.md., .La vista muta.: fila nueva, la vieja no se edita | se toma lo viejo como verdad |
+| **Se compila la tesis** | .../Ouroboros/procesos/memoria continua.md., .Compilar.: lo compilado va a .../notas/generaciones/. con su vista | la tesis se toma como definitiva |
+| Se purga algo de lo viejo | .../Ouroboros/procesos/memoria continua.md., .Purga.: se anota su vista y se purga | se pierde lo que se creía |
 | **Se emite cualquier archivo** | .../Ouroboros/1 Guantelete — primitivo/herramientas/claridad.md., .Entrega como contribución. | no se emite |
 | **Se escribe o corrige un proceso** | **../mantenimiento/editar/enrutar-formato.md.** | el proceso se escribe por costumbre |
 | **Se escribe un archivo final** | **.claridad.**: el entregable habla del mensaje, no del mensajero | declara su estado y deja de ser entregable |
