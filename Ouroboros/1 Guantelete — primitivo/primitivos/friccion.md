@@ -81,7 +81,7 @@ No se juzga la inacción en general. Se separa:
 
 ### 3. Contestar la pregunta de mundo
 
-`../../../Tesis/Teoria/mundo.md`, `La pregunta`. No se contesta con «sí» ni con «no»: se contesta con **quién**.
+`MEGA/mme/Teoria/mundo.md`, `La pregunta`. No se contesta con «sí» ni con «no»: se contesta con **quién**.
 
 ```
 Fricción: [id] | Acción: [qué se mueve] | Quién contesta: [nombre|ninguno]
@@ -155,5 +155,5 @@ Lo que se dejó: [capacidad o criterio] | Se retira: [cuándo]
 - Falta saber quién puede contestar → `../../2 S.A.R.A — mutación/evidencia/nivel-de-fuente.md`, N0 exige consentimiento.
 - La fricción necesita imponerse → `../../2 S.A.R.A — mutación/autoridad-yo/`, y la levanta otro.
 - El que lo sostuvo quedó sin capacidad → `../../2 S.A.R.A — mutación/evidencia/ayuda-no-pedida.md`.
-- El cambio ya rompió algo → `../../../Tesis/Teoria/futuros.md`, síntoma temprano.
+- El cambio ya rompió algo → `MEGA/mme/Teoria/futuros.md`, síntoma temprano.
 - En cualquier otro caso → se contesta, se anota quién, y se cierra.

@@ -26,6 +26,9 @@
 | `fantasmas.ps1` | qué ente no tiene `rastro.md`, `ruta.md` o `carga.md` | si el fallo que cubre sigue existiendo | carpetas sin ninguna de las tres: no son entes |
 | `notas.ps1` | si la memoria se escribe como manda la carta, y si cada archivo cambiado tiene nota | si lo anotado es válido; qué archivo cambió por trabajo y qué por otra persona | el contenido de la fila: eso lo decide el aplanado |
 | `turno.ps1` | si el turno cerró con su entrada en la memoria | si lo anotado sirve | abrir el turno: eso lo decide quien lo empieza |
+| `privacidad.ps1` | si un archivo **versionado** expone la máquina de una persona | si un ejemplo publicado expone a alguien: eso lo decide quien lo publica | archivos ignorados por git, y la firma de autor de `CITATION.cff`, que la autoridad declaró pública |
+
+**`privacidad.ps1` corre sobre lo versionado, no sobre el disco:** una ruta personal en un archivo ignorado no sale del repo y no se declara. **Y no mira commits anteriores:** lo que ya se subió al historial no lo detecta. Ese caso se resuelve sobre git, y git es de la autoridad.
 
 ## El tren
 
@@ -33,13 +36,13 @@
 pwsh -File mantis/piso/piso.ps1
 ```
 
-Corre las siete y emite **un solo veredicto**. **Cada una también se corre sola**: un tren no es una tubería.
+Corre las seis y emite **un solo veredicto**. **Cada una también se corre sola**: un tren no es una tubería.
 
 ## Reglas del piso
 
 1. **No usa modelo.** Si un `if` resuelve, un modelo introduce ruido.
 2. **Su salida ya es veredicto.** Nunca materia prima.
-3. **Se puede correr sola.** No necesita las otras seis.
+3. **Se puede correr sola.** No necesita las otras cinco.
 4. **Se rige por el criterio, y lo declara.** Cada unidad dice su `No se aplica a`, y **el veredicto lo escribe quien lo va a usar.**
 
 **Y lo que descarta no se tira: se anota.** Rige `../mantenimiento/notas/notas-tesis.md`, y se lee con `../piso/notas.ps1`.

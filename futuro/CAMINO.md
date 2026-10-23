@@ -51,20 +51,25 @@ El camino tiene cuatro tramos, y **cada uno deja algo que el siguiente lee.** No
 
 | Medida | Valor | Fecha |
 |---|---|---|
-| piso del tren | **4 de 5** — falla `rutas.ps1` | 2026-10-23 |
-| rutas rotas | 4, todas hacia `Tesis/Teoria/` (borrado en `cd3218f`) | 2026-10-23 |
-| archivos con la letra comida | 1: `Ouroboros/1 Guantelete — primitivo/primitivos/friccion.md` | 2026-10-23 |
-| el pase de turno | **no existe** | 2026-10-23 |
+| piso del tren | **6 de 6** — `pasa` | 2026-10-23 |
+| rutas relativas rotas | 0 de 209 revisadas | 2026-10-23 |
+| archivos con la letra comida | 0 — `friccion.md` reparado | 2026-10-23 |
+| el pase de turno | **existe**: `memoria continua`, `El pase de turno` | 2026-10-23 |
+| unidades del piso | 6 (entra `privacidad.ps1`) | 2026-10-23 |
 | corridas de una persona ajena al autor | 0 | 2026-10-23 |
+
+**Lo que el 6 de 6 dice y lo que no dice.** Dice que no hay rutas relativas rotas, que los 73 procesos tienen el formato completo, que cada archivo cambiado tiene su fila, que cada ente tiene sus tres piezas y que ningún archivo versionado expone la máquina de una persona. **No dice que el sistema sirva:** eso lo decide el uso, y no hay ninguna corrida. Rige `./APLICADA.md`.
+
+**Las cinco rutas a `Tesis/` no se repararon: se repuntaron a `MEGA/mme` como fuente externa**, porque la tesis vive fuera del repo y una fuente externa se nombra, no se resuelve. Salieron del alcance de `rutas.ps1` con razón, y no se verifica que existan: eso queda declarado.
 
 **Lo que falta para estar en el medio, y es todo lo que falta:**
 
 | Falta | Dónde se cierra |
 |---|---|
-| el pase de turno | `Ouroboros/procesos/memoria continua.md`, `Cierre` |
-| el estado sin tarea | `Ouroboros/2 S.A.R.A — mutación/aprendizaje/aprender.md`, `Sin propósito`, enrutado |
-| la fricción que se puede aplicar | `friccion.md`, reparado |
-| el piso en verde | las 5 rutas |
+| el estado sin tarea: `Sin propósito` | `Ouroboros/2 S.A.R.A — mutación/aprendizaje/aprender.md`, **escrito y no enrutado en `ruta.md`** |
+| `concordia` en la ruta de S.A.R.A | `Ouroboros/2 S.A.R.A — mutación/ruta.md` |
+| `nivel de fuente` en la ruta de S.A.R.A | `Ouroboros/2 S.A.R.A — mutación/ruta.md` |
+| una corrida real | `./APLICADA.md`, y **no la puede escribir el autor de la entrega** |
 
 ## Lo que el camino no promete
 

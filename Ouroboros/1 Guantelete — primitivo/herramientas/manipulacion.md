@@ -123,7 +123,7 @@ Peor: [qué pasa si se mueve la que más pesa]
 Quién: [tipo:nombre | ninguno]
 ```
 
-**`ninguno` es una respuesta válida**, y se declara igual que se declara en `../../../Tesis/Teoria/mundo.md`: significa que nadie va a moverte la vista, y que lo que rompas lo rompes con los ojos abiertos. **Lo que no se permite es no contestar.**
+**`ninguno` es una respuesta válida**, y se declara igual que se declara en `MEGA/mme/Teoria/mundo.md`: significa que nadie va a moverte la vista, y que lo que rompas lo rompes con los ojos abiertos. **Lo que no se permite es no contestar.**
 
 **Sin las tres respuestas, el proceso no se crea.** No se marca incompleto: **no entra.** Un proceso incompleto se puede arreglar después; uno que nació sin variables no tiene contra qué arreglarse.
 

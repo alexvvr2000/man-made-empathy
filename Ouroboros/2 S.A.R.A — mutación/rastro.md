@@ -33,7 +33,7 @@
 
 **S.A.R.A es el paso 2 de `Ouroboros/`:** la primera instancia que cruzó la puerta de `mutación`. Toma las gemas del paso 1 y las abstrae en ejecutores vivos.
 
-**No es la mutación: es lo que la cruza.** Una mutación nace de una gema y declara qué conserva; S.A.R.A nace de **todas**, y por eso es instancia. Rige `../../Tesis/SARA 1.md`, `S.A.R.A nace de Ouroboros, y no es una pieza suya`.
+**No es la mutación: es lo que la cruza.** Una mutación nace de una gema y declara qué conserva; S.A.R.A nace de **todas**, y por eso es instancia. Rige `MEGA/mme/SARA 1.md`, `S.A.R.A nace de Ouroboros, y no es una pieza suya`.
 
 **No es una era.** No caduca cuando cambia la tecnología: caduca si deja de tener un fallo que la justifique.
 

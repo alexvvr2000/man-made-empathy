@@ -106,7 +106,7 @@ Un sistema que converge a sí mismo no necesita perspectivas: ya tiene la respue
 
 > **Las perspectivas no hacen más listo al sistema. Hacen que su error tenga dónde ser visto.**
 
-Y por eso la pregunta de `../../../Tesis/Teoria/mundo.md` no es retórica: *"¿alguien puede decirme que salió mal?"* — **esa persona es una perspectiva, y sin ella no hay mundo, solo espejo.**
+Y por eso la pregunta de `MEGA/mme/Teoria/mundo.md` no es retórica: *"¿alguien puede decirme que salió mal?"* — **esa persona es una perspectiva, y sin ella no hay mundo, solo espejo.**
 
 ## Lo que esto no hace
 
@@ -141,7 +141,7 @@ Decisión: [retener|revisar|descartar] | Falta mirar desde: [quién|nadie]
 ## Transiciones
 
 - La idea no se puede expresar → `../../3 ATLAS — mutación/Proceso ATLAS.md`, `Techo`.
-- Alguien puede decir que está mal → `../../../Tesis/Teoria/mundo.md`, `La pregunta`.
+- Alguien puede decir que está mal → `MEGA/mme/Teoria/mundo.md`, `La pregunta`.
 - Hay que decidir si se retiene o se descarta → `.../primitivos/friccion.md`, fricción de opinión.
 - Falta saber de dónde viene la afirmación → `../../2 S.A.R.A — mutación/evidencia/nivel-de-fuente.md`.
 - En cualquier otro caso → se entrega y se cierra.
