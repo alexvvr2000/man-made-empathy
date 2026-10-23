@@ -16,7 +16,7 @@ param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
-# Las siete que deciden.
+# Las ocho que deciden.
 $unidades = @(
   'inventario.ps1',
   'rutas.ps1',
@@ -24,7 +24,8 @@ $unidades = @(
   'notas.ps1',
   'turno.ps1',
   'privacidad.ps1',
-  'trazabilidad.ps1'
+  'trazabilidad.ps1',
+  'quien.ps1'
 )
 
 

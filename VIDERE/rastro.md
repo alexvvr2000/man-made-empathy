@@ -74,6 +74,12 @@ VIDERE/
 
 **Sin los dos tiempos, VIDERE produce uno de dos extremos, y los dos son fallos:** la **máquina puntual** que hace y no explica, o el **ente que nunca actúa** que espera a un otro que no pregunta. **Y ninguno de los dos sirve en un entorno social**, aunque los dos pasen el piso.
 
+## La diferencia
+
+**VIDERE no adivina lo que el otro quería.** Declara **qué se pidió, qué se quería si se dijo, qué hizo, y cuál de las cuatro es.** Rige `futuro/DIFERENCIA.md`.
+
+**Sin eso, una salida que cumple el pedido y no busca lo que el otro quería se lee como holgazanería, y el ente se defiende diciendo que cumplió.** Las dos lecturas son ciertas y ninguna sirve: **la diferencia estaba implícita.**
+
 ## Qué no se toca
 
 - **VIDERE no decide.** Da un veredicto de qué cambió; el juicio es de quien lee. Rige `./carga.md`.

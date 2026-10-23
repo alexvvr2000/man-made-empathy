@@ -9,6 +9,14 @@
 
 ## Qué es
 
+**El piso no es MANTIS. El piso es el instrumento, y MANTIS es su tarea.**
+
+**La diferencia, y es la que hay que ver:** MANTIS **decide** qué se carga, cuándo se edita y qué se pierde. El piso **mira y emite veredicto.** **Una herramienta no decide: mide.**
+
+**Y por eso el piso no cambia de nombre cuando VIDERE se separa:** lo que se separa es **el ente que llega desde el Guantelete**, no la herramienta que lo mide. **Una regla que se muda de carpeta no se lleva el metro que la mide.** Rige `../../futuro/DIFERENCIA.md`.
+
+**El flujo, y es el mismo desde el principio:** ente (Guantelete → VIDERE) → **la realidad** → y si se quiere comunicar, **ATLAS**. **El piso mide en cada tramo, y no es ninguno de los tres.**
+
 **El piso corre aquí y ahora.** Cada unidad decide una cosa, emite un veredicto y se lee sola: `pasa`, `falla` o `indeterminado`, con el porqué.
 
 **La forma de cada unidad la dice `../../Ouroboros/piso.md`.** Aquí solo se declara cuáles hay, qué decide cada una, **y dónde deja de valer.**
