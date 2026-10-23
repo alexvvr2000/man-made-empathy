@@ -95,7 +95,7 @@ pwsh -File mantis/piso/anotar.ps1 -Chequear
 
 **La sesión no se escribe de memoria: se escribe con lo que el piso midió.** `-Sesion` exige el `Estado` medido, y sin él no deja escribir.
 
-**Y `notas.ps1` mide si cada archivo cambiado tiene nota.** Compara el diff contra el último commit: un archivo cambiado sin fila es una decisión sin rastro, y el veredicto es `falla` con la lista de los que faltan. **Un turno que se anota al final se olvida; un turno que no pasa el piso no se entrega.**
+**Y `notas.ps1` mide si cada archivo cambiado tiene nota.** Compara el diff contra el último commit y Git status con los archivos nuevos no ignorados: un archivo cambiado o nuevo sin fila es una decisión sin rastro, y el veredicto es `falla` con la lista de los que faltan. **Un archivo ignorado no sale del repo y no entra en esta medida.** **Un turno que se anota al final se olvida; un turno que no pasa el piso no se entrega.**
 
 ## La vista muta
 

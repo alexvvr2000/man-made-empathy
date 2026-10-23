@@ -16,13 +16,14 @@ $Root = (Resolve-Path $Root).Path
 
 # Las zonas, y a quien pertenece cada una. Es la diferencia que la autoridad pidio ver.
 $zonas = [ordered]@{
-  'futuro'     = 'repo — el instrumento que se comparte'
-  'mantis'     = 'MANTIS — la tarea que decide y edita'
-  'VIDERE'     = 'VIDERE — el ente que testifica'
-  'Tesis'      = 'autoridad — lo que la autoridad trae y firma'
-  'Ouroboros'  = 'estandar — fuera del repo, vive en MEGA/mme'
-  'Pruebas'    = 'prueba — lo que mide si sirve'
-  'notas'      = 'memoria — la corrida de la base'
+  'futuro'          = 'repo — instrumentos compartidos'
+  'mantis'          = 'MANTIS — herramientas de memoria, edición, auditoría y medida'
+  'VIDERE'          = 'VIDERE — el ente que testifica'
+  'Tesis'           = 'autoridad — ideas, momentos y referencias que trae y firma'
+  'Ouroboros'       = 'estándar — reglas de ente y proceso'
+  'Pruebas'         = 'prueba — lo que mide si sirve'
+  'notas'           = 'memoria — cortes versionados de la base'
+  '.sesion-continua'= 'memoria viva — registro privado de interacción'
 }
 
 # Un cambio es de una zona si su ruta empieza por ella.
@@ -65,7 +66,7 @@ foreach ($c in $cambiados) {
 Write-Output "QUIEN"
 Write-Output "Root: $Root"
 Write-Output ""
-Write-Output "ZONA | DE QUIEN ES | ARCHIVOS | TOCADOS EN ESTE TURNO"
+Write-Output "ZONA | DE QUIEN ES | ARCHIVOS VERSIONADOS | TOCADOS EN ESTE TURNO"
 foreach ($z in $zonas.Keys) {
   $n = $porZona[$z]
   $t = if ($tocados[$z]) { $tocados[$z].Count } else { 0 }

@@ -24,10 +24,10 @@ Nombre: MANTIS — Memoria, Análisis, Navegación, Triangulación, Integridad y
 Expansión: opera sobre un repositorio real la fábrica de abstracciones del paso 2
 Origen: las diecisiete sub-tareas de ../Ouroboros/2 S.A.R.A — mutación/
 Fecha: 2026-10-22
-Muta: de una fábrica de abstracciones nace el sistema que las ejecuta sobre un repo
-Conserva: la forma de proceso, Rastro/Ruta/Carga, integridad antes de mutar, y el piso como veredicto
+Muta: el piso deja de medir forma y pasa a medir existencia: cada unidad declara qué se le resiste antes de contar
+Conserva: la forma de proceso, Rastro/Ruta/Carga, integridad antes de mutar y el piso como veredicto
 Ausencias: no crea sub-tareas propias; no produce procesos, los ejecuta; no sustituye a la autoridad
-Prueba: corrida — el piso emite veredicto sobre este repo
+Prueba: corrida — el piso emite veredicto de existencia sobre este repo
 Autoridad: la autoridad | Cierra en: quien publica
 Reemplaza: NINGUNA — primera instancia operativa
 ```

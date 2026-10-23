@@ -34,7 +34,7 @@ Mantiene: [qué conserva] | Muta: [qué cambia] | Reemplaza: [nombre anterior o 
 ## La estructura
 
 ```
-mantis/                          ← la tarea. Este archivo.
+mantis/                          ← el conjunto de herramientas.
 ├── Derrotero.md                   la puerta: qué se carga y cuándo
 ├── deterrente.md                  este archivo: qué se pierde si MANTIS deja de servir
 ├── mantenimiento/                 editar, auditar, medir, verificar

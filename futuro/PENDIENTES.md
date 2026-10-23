@@ -14,7 +14,7 @@
 
 ## Por qué existe
 
-**El pase de turno lo escribe el que puede olvidar.** Hoy el olvido es del autor de este archivo: **Mantis quedó sin nombre durante turnos y no se volvió a leer.**
+**El pase de turno puede olvidar, por eso este registro existe.** Se lee al empezar cada turno: dice qué está abierto, qué bloquea hoy y qué lo levanta.
 
 **Un pendiente que vive solo en la memoria del que trabaja se pierde en el turno siguiente.** Aquí, **uno por línea, con lo que lo levanta.**
 
@@ -22,19 +22,19 @@
 
 ## Lo que está abierto
 
-### 1. El nombre de Mantis
+### 1. Activación continua del repositorio
 
-**Qué se abrió:** la autoridad propuso que el mecanismo de S.A.R.A se pase a un Mantis nuevo, **que ocupa otro nombre.**
-**Por qué no se cerró:** **se olvidó.** El piso estaba en verde y siguió adelante.
-**Lo que bloquea hoy:** nada. El piso corre, el repo se usa.
-**Qué lo levanta:** que alguien pregunte si Mantis sigue siendo el nombre del piso, o si el piso se parte en dos.
+**Qué se abrió:** el piso mide existencia y declara qué se le resiste a cada unidad, pero no corre solo. El clonado del repo no inicia procesos automáticamente.
+**Por qué no se cerró:** no se instala una tarea de inicio del sistema sin autorización explícita; Git no ejecuta procesos al clonar.
+**Lo que bloquea hoy:** la observación después de cerrar la consola o reiniciar la máquina.
+**Qué lo levanta:** decidir si el piso corre al iniciar sesión o por tarea, y con qué ritmo de atención; hoy se corre a mano.
 
-### 2. `copias/`
+### 2. Política de `copias/`
 
-**Qué se abrió:** la carpeta `MEGA/mme/copias` existe y **está vacía.** Se ofrecieron tres usos: **A** respaldo completo, **B** papelera de lo que se borra, **C** las dos.
-**Por qué no se cerró:** se preguntó y no se contestó; después se dejó de preguntar.
-**Lo que bloquea hoy:** nada, pero **no hay respaldo** de lo que se haga desde ahora.
-**Qué lo levanta:** una letra: A, B o C.
+**Qué se abrió:** se creó y verificó un respaldo completo pre-cambio en `MEGA/mme/copias/`. La carpeta ya no está vacía.
+**Por qué no se cerró:** falta decidir el ritmo de respaldos futuros para no llenar MEGA con copias sin límite.
+**Lo que bloquea hoy:** nada; la copia de retorno de este cambio ya existe.
+**Qué lo levanta:** fijar una política de retención (cuándo hacer copia completa y cuándo conservar solo archivos reemplazados).
 
 ### 3. Dónde vive `TIEMPO.md`
 
@@ -43,23 +43,23 @@
 **Lo que bloquea hoy:** nada. Se puede leer donde está.
 **Qué lo levanta:** decidir si se queda en `futuro/`, se manda a MEGA, o los dos — **y si son los dos, aceptar que hay que mantener dos.**
 
-### 4. Las doce referencias sin entrada
+### 4. Las diez referencias sin entrada
 
-**Qué se abrió:** doce referencias tienen fila en `Tesis/referencias/index.md` y `[SIN ENTRADA]`: Ghost in the Shell, Alita, Jarvis, Metal Men, Lex Luthor, AM, WALL-E, Terminator, Manhunters, The Orville, Malcolm X, la mayéutica.
+**Qué se abrió:** diez referencias tienen fila en `Tesis/referencias/index.md` y `[SIN ENTRADA]`: Alita, Metal Men, Lex Luthor, AM, WALL-E, Terminator, Manhunters, The Orville, Malcolm X, la mayéutica. Ghost in the Shell y Jarvis ya tienen entrada.
 **Por qué no se cerró:** se decidió escribir una por una, y no de golpe.
 **Lo que bloquea hoy:** `trazabilidad.ps1` las cuenta como declaradas, no como faltantes.
 **Qué lo levanta:** una entrada por vez, con sus cuatro campos.
 
 ### 5. Los momentos de esta conversación
 
-**Qué se abrió:** hay material para seis u ocho momentos y hay **dos escritos** (el de hoy y el de los griegos).
+**Qué se abrió:** hay material para más momentos y hay **tres escritos** (el de hoy, el de los griegos y el de la holgazanería).
 **Por qué no se cerró:** se eligió no hacerlo de golpe.
 **Lo que bloquea hoy:** nada.
 **Qué lo levanta:** que la autoridad diga una frase que quiera guardar, y se escribe.
 
 ### 6. `Tesis/README.md`
 
-**Qué se abrió:** `Tesis/` tiene `momentos/`, `referencias/` y `unidades/`, y **no tiene puerta.**
+**Qué se abrió:** `Tesis/` tiene `momentos/` y `referencias/`, y **no tiene puerta.** VIDERE vive en su propia carpeta raíz.
 **Por qué no se cerró:** se preguntó si se copiaba la de MEGA o se reescribía.
 **Lo que bloquea hoy:** nada; pero quien entre a `Tesis/` no sabe qué hay.
 **Qué lo levanta:** reescribirla declarando las tres partes.

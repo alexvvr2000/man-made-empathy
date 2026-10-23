@@ -30,7 +30,7 @@ function Q($sql) { & sqlite3 $Base $sql }
 # --nota.ps1, --fuentes.md-- la fila de un archivo sirve para todos los homonimos:
 # no hay rastro de cual se dijo.
 function Get-ConNota($rel) {
-  $relssc = $rel.Replace([string][char]39, [string][char]39 + [string][char]39)
+  $relsec = $rel.Replace([string][char]39, [string][char]39 + [string][char]39)
   $hit = Q ("SELECT COUNT(*) FROM fila WHERE pieza LIKE '%' || '$relsec' || '%' OR usa LIKE '%' || '$relsec' || '%';")
   return ([int]$hit -gt 0)
 }
@@ -62,14 +62,14 @@ $trabajo = [int](Q "SELECT COUNT(*) FROM trabajo;")
 $esquema = @(Q "SELECT uuid FROM esquema WHERE id = 1;" | Where-Object { $_ })
 if ($esquema.Count -eq 0) { $errores += 'la base no declara con que esquema se escribio' }
 
-# sl diff de hoy: cuántos archivos cambiaron desde el último commit, y cuántos tienen nota.
-# ss la medida de cuánto se dijo sin anotar. Un archivo cambiado sin fila es una decisión sin rastro.
+# El diff de hoy y Git status: archivos modificados, nuevos y no ignorados, y cuántos tienen nota.
+# Es la medida de cuánto se dijo sin anotar. Un archivo cambiado sin fila es una decisión sin rastro.
 $ultimo = @(& git -C $Root log -1 --format='%H' 2>$null)
 $cambios = @()
 if ($ultimo) {
   $cambios += @(& git -C $Root diff --name-only $ultimo[0] 2>$null | Where-Object { $_ })
 }
-$cambios += @(& git -C $Root status --porcelain 2>$null | Where-Object { $_ } | ForEach-Object { $_.Substring(3).Trim() })
+$cambios += @(& git -C $Root status --porcelain --untracked-files=all 2>$null | Where-Object { $_ } | ForEach-Object { $_.Substring(3).Trim().Trim('"') })
 $cambios = @($cambios | Where-Object { $_ -and (Test-Path (Join-Path $Root $_)) } | Sort-Object -Unique)
 $conNota = 0
 foreach ($c in $cambios) {

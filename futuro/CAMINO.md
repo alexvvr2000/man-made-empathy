@@ -23,27 +23,27 @@ Un sistema puede equivocarse todos los días. Lo que no puede es equivocarse **s
 
 ## El camino
 
-El camino tiene cuatro tramos, y **cada uno deja algo que el siguiente lee.** No se salta ninguno: un tramo sin salida no es un tramo, es una parada.
+El camino tiene cuatro tramos, y **cada uno deja algo que el siguiente lee.** El piso no es un quinto tramo: **mide si lo que hay en cada tramo existe.**
 
 ```
 1. LA IDEA      →  2. EL ESTÁNDAR   →  3. LA MEDICIÓN   →  4. EL TURNO
    (por qué)         (cómo se hace)      (cómo se sabe)      (el trabajo)
-   MEGA / mme        Ouroboros/          mantis/             el turno
-      │                  │                   │                  │
-      └── qué es ────────┘                   │                  │
-                         └── qué forma tiene ┘                  │
-                                             └── si se hizo ────┘
-                                                                └── mañana
+   MEGA / mme        Ouroboros/          MANTIS             memoria
+      │                  │                   │                 │
+      └── qué es ────────┘                   │                 │
+                         └── qué forma tiene ┘                 │
+                                             └── si se hizo ───┘
+                                                               └── mañana
 ```
 
 | Tramo | Qué produce | Qué deja al siguiente | Dónde vive |
 |---|---|---|---|
-| **1. La idea** | por qué, para qué y con qué límites | el fin y las fuentes | MEGA (`mme/`), 57 archivos |
-| **2. El estándar** | la forma de un proceso que se puede refutar | los procesos, con su falsificador | `Ouroboros/` |
-| **3. La medición** | un veredicto: `pasa`, `falla`, `indeterminado` | qué está roto y desde cuándo | `mantis/` |
-| **4. El turno** | el trabajo hecho y su rastro | **qué queda para el turno de mañana** | `mantis.db` |
+| **1. La idea** | por qué, para qué y con qué límites | el fin y las fuentes | MEGA (`mme/`) y `Tesis/` |
+| **2. El estándar** | la forma de un proceso que se puede refutar | procesos con falsificador | `Ouroboros/` |
+| **3. La medición** | veredicto de existencia y de `pasa`, `falla`, `indeterminado` | qué existe, qué se le resiste y qué está roto | herramientas `mantis/piso/` |
+| **4. El turno** | trabajo, decisión y rastro | qué queda para el turno siguiente | `.sesion-continua/mantis.db` |
 
-**El tramo 4 es el que se pierde hoy.** Los tres primeros existen. El cuarto es el que hace que el camino se pueda retomar sin el que lo recorrió. **Sin el tramo 4, el camino no se pierde en la idea: se pierde al volver.**
+**MANTIS es la tarea; el piso es el instrumento.** El piso no decide: **mide existen­cia.** Una unidad sin qué se le resiste **no corre: aparece.**
 
 ## Dónde estamos
 
@@ -51,25 +51,20 @@ El camino tiene cuatro tramos, y **cada uno deja algo que el siguiente lee.** No
 
 | Medida | Valor | Fecha |
 |---|---|---|
-| piso del tren | **6 de 6** — `pasa` | 2026-10-23 |
-| rutas relativas rotas | 0 de 209 revisadas | 2026-10-23 |
-| archivos con la letra comida | 0 — `friccion.md` reparado | 2026-10-23 |
-| el pase de turno | **existe**: `memoria continua`, `El pase de turno` | 2026-10-23 |
-| unidades del piso | 6 (entra `privacidad.ps1`) | 2026-10-23 |
-| corridas de una persona ajena al autor | 0 | 2026-10-23 |
+| piso del tren | **8 de 8 existen y pasan** — `pasa` | 2026-10-23 |
+| rutas relativas en zonas medidas | 245 revisadas, 0 rotas, 0 sin delimitar | 2026-10-23 |
+| procesos del estándar con formato completo | 73 de 73, según el último inventario verificado | 2026-10-23 |
+| VIDERE | tres piezas propias en `VIDERE/` | 2026-10-23 |
+| entes activos que observan solos | **0** — ninguno; la medición vive en el piso | 2026-10-23 |
+| aplicaciones ajenas a la autoridad | 0 corridas | 2026-10-23 |
 
-**Lo que el 6 de 6 dice y lo que no dice.** Dice que no hay rutas relativas rotas, que los 73 procesos tienen el formato completo, que cada archivo cambiado tiene su fila, que cada ente tiene sus tres piezas y que ningún archivo versionado expone la máquina de una persona. **No dice que el sistema sirva:** eso lo decide el uso, y no hay ninguna corrida. Rige `./APLICADA.md`.
+**Lo que el 8 de 8 dice y lo que no dice:** las ocho unidades del piso **existen** —cada una declaró qué se le resiste, quién la contesta, qué se pierde si deja de correr y cuándo deja de valer— **y pasan su medición.** **No dice que el instrumento haya servido a otra persona.** La corrida ajena sigue en cero; rige `./APLICADA.md`.
 
-**Las cinco rutas a `Tesis/` no se repararon: se repuntaron a `MEGA/mme` como fuente externa**, porque la tesis vive fuera del repo y una fuente externa se nombra, no se resuelve. Salieron del alcance de `rutas.ps1` con razón, y no se verifica que existan: eso queda declarado.
+**La medición es explícita:** `pwsh -NoProfile -File mantis/piso/piso.ps1`. **No hay proceso que corra solo:** el piso se corre cuando alguien lo corre, y lo declara.
 
-**Lo que falta para estar en el medio, y es todo lo que falta:**
+**Lo abierto no se guarda de memoria:** se lee en `./PENDIENTES.md`. Ahí está la decisión de autoinicio, la retención de copias, las referencias sin entrada, la puerta de Tesis y la corrida externa.
 
-| Falta | Dónde se cierra |
-|---|---|
-| el estado sin tarea: `Sin propósito` | `Ouroboros/2 S.A.R.A — mutación/aprendizaje/aprender.md`, **escrito y no enrutado en `ruta.md`** |
-| `concordia` en la ruta de S.A.R.A | `Ouroboros/2 S.A.R.A — mutación/ruta.md` |
-| `nivel de fuente` en la ruta de S.A.R.A | `Ouroboros/2 S.A.R.A — mutación/ruta.md` |
-| una corrida real | `./APLICADA.md`, y **no la puede escribir el autor de la entrega** |
+**El límite que impide abrir toda la caja de Pandora de una vez:** el piso **mide y no actúa.** No existe hoy ninguna pieza que edite por su cuenta. Una unidad que quiera entrar tiene que **nombrar una resistencia que ninguna otra atiende**, o no entra: **es acumulación.**
 
 ## Lo que el camino no promete
 

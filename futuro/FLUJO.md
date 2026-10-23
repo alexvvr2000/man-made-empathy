@@ -31,9 +31,17 @@
 | **La realidad** | lo que el ente hace al mundo | no tiene archivo: **tiene la corrida** | **0 corridas** |
 | **ATLAS** | lo que el ente emite para que otro lo reconstruya | `MEGA/mme/Ouroboros/3 ATLAS — mutación/` | escrito, fuera del repo |
 
+## La existencia no es un tramo
+
+**Ningún ente mira al repo por su cuenta: el piso mide existencia.**
+
+**Antes de correr una unidad, el piso pregunta qué se le resiste, quién puede contestarla, qué se pierde si deja de correr y cuándo deja de valer.** Sin las cuatro, la unidad **no corre: aparece.**
+
+**El piso no observa cambios ni propone pasos.** Mide si lo que está **existe**, y lo declara. Rige `../Ouroboros/procesos/friccion como fundamento del piso.md`.
+
 ## Por qué es poético, y no es adorno
 
-**La idea entra por el Guantelete, se vuelve ente en VIDERE, llega a la realidad, y si quiere hablar, pasa por ATLAS.**
+**La idea entra por el Guantelete, se vuelve ente en VIDERE, llega a la realidad, y si quiere hablar, pasa por ATLAS.** El piso no agrega un tramo: **mide si lo que hay en cada tramo existe.** MANTIS aporta la instrumentación; la autoridad decide qué hacer.
 
 **Eso es el mismo movimiento que el sistema ya tenía escrito**, y ahora tiene nombre propio en cada tramo:
 

@@ -1,5 +1,5 @@
 # privacidad.ps1 — unidad del piso de esta instancia
-# Decide: si un archivo versionado del repositorio expone la maquina de una persona.
+# Decide: si un archivo versionado o nuevo/no ignorado del repositorio expone la maquina de una persona.
 #
 # Que no es: no decide si un ejemplo didactico es peligroso. Eso lo decide quien lee.
 # No se aplica a: archivos ignorados por git (viven solo en la maquina del autor), y a
@@ -14,16 +14,16 @@ param([string]$Root = (Join-Path $PSScriptRoot "..\.."))
 $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
-# Solo lo versionado. Una ruta personal en un archivo ignorado no sale del repo.
-$versionados = @()
+# Escanea lo versionado y lo nuevo que Git no ignora. Los archivos ignorados quedan fuera.
+$archivos = @()
 try {
   $null = & git -C $Root rev-parse --is-inside-work-tree 2>$null
   if ($LASTEXITCODE -eq 0) {
-    $versionados = & git -C $Root ls-files 2>$null
+    $archivos = & git -C $Root ls-files --cached --others --exclude-standard 2>$null
   }
 } catch { }
 
-if (-not $versionados -or $versionados.Count -eq 0) {
+if (-not $archivos -or $archivos.Count -eq 0) {
   Write-Output "PRIVACIDAD"
   Write-Output "Root: $Root"
   Write-Output ""
@@ -59,7 +59,7 @@ $autoriaPublica = @('CITATION.cff')
 $hallazgos = @()
 $mirados = 0
 
-foreach ($rel in $versionados) {
+foreach ($rel in $archivos) {
   $rel = $rel.Trim()
   if (-not $rel) { continue }
   # Solo texto: un binario no se escanea con regex.
@@ -99,7 +99,7 @@ foreach ($rel in $versionados) {
 
 Write-Output "PRIVACIDAD"
 Write-Output "Root: $Root"
-Write-Output "Archivos versionados leidos: $mirados | hallazgos: $($hallazgos.Count)"
+Write-Output "Archivos del repo leidos (versionados + nuevos no ignorados): $mirados | hallazgos: $($hallazgos.Count)"
 Write-Output ""
 
 $unico = @($hallazgos | Sort-Object Archivo, Linea, Que -Unique)

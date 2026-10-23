@@ -11,7 +11,7 @@ $ErrorActionPreference = 'Stop'
 $Root = (Resolve-Path $Root).Path
 
 # Zonas que se revisan. La raiz no: sus enlaces son de era.
-$zonas = @('Tesis', 'Ouroboros', 'mantis')
+$zonas = @('Tesis', 'Ouroboros', 'mantis', 'VIDERE')
 
 # |archivo md| enlace (ruta|texto)  ·  `ruta.md`  ·  [texto](ruta)  ·  [texto]: ruta
 $patrones = @(

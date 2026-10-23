@@ -4,7 +4,12 @@
 
 **Tarea:** editar, auditar y medir los archivos del repositorio.
 **Tipo:** disparador. Solo las filas que coinciden se cargan; el resto no.
-**Nivel:** **instancia.** Aplica la forma de .../Ouroboros/formato de ente.md.. No es estándar. **Nace de S.A.R.A:** rige ../acta.md., y sin esa acta MANTIS es indistinguible de un invento.
+**Nivel:** **instancia.** Aplica la forma de `../Ouroboros/formato de ente.md`. VIDERE testifica; MANTIS opera y mide; la autoridad decide.
+**Muta:** de un ejecutor que solo medía forma a uno que mide existencia: cada unidad del piso declara qué se le resiste antes de contar.
+**Conserva:** memoria continua, fricción, piso, autoridad humana y herramientas actuales.
+**Ausencias:** no observa de forma continua; no propone sin señal; no modifica archivos sin autorización.
+**Prueba:** el piso emite veredicto y declara qué se le resiste a cada unidad que existe.
+**Revisor:** sin revisor independiente.
 **Carta:** .../AGENTS.md.. Sin carta no se lee.
 **Alcance:** .../Tesis/. y .../Ouroboros/.. **Este repo es el reino de las ideas:** lo que se ejecuta sale de aquí ya con formato de ente y vive fuera.
 **Estándar:** .../Ouroboros/.. Se cita, no se copia.
@@ -57,7 +62,7 @@ Una petición puede tocar tres cosas distintas, y cada una se trata distinto.
 | Se audita el estado del repo | ../mantenimiento/chequear/auditar-configuracion.md. | no hay auditoría |
 | **Cambió una idea de la base** | **../mantenimiento/chequear/derivar.md.**: se reporta la deriva, no se corrige | el repo queda con artefactos apuntando a lo viejo |
 | Se mide si un agente es ACERO | .../Ouroboros/procesos/medir-acero.md. | no se declara ACERO |
-| **Se chequea el estado del piso** | **../piso/piso.ps1.** (las siete unidades) y .../Ouroboros/piso.md. | no hay veredicto |
+| **Se chequea el estado del piso** | **../piso/piso.ps1.** (las ocho unidades) y .../Ouroboros/piso.md. | no hay veredicto |
 | **Se entregó un cambio** | ../mantenimiento/chequear/.: **editar cambia, chequear verifica** | el cambio no está entregado |
 | **Se emite el paper como documento** | **../compilar.ps1.**: LaTeX siempre, PDF si hay motor | el paper se queda en Markdown |
 
