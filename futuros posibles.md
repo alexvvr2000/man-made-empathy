@@ -640,3 +640,4 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 ## Falsificador
 
 **Un alien presentado como humano con otra piel y vendido como encuentro; una prueba de conciencia presentada como comprobable; un mecanismo no humano leído por relato y no por acción; una posición que exige que el otro hable como nosotros para poder escucharlo.
+

@@ -33,3 +33,8 @@ Salvo indicación expresa en un archivo específico, el material de Man-Made Emp
 
 - **"Pensamiento sistémico: La forma de pensar que nunca nos enseñaron" — Universal Resilience with JT Yu (YouTube; https://www.youtube.com/watch?v=dJL4StdqcyI).** Ayudó a comprender el pensamiento sistémico como herramienta para evitar el sesgo de confirmación y la trampa de razonar únicamente desde premisas propias. No se cita como fuente técnica ni como antecedente académico; se registra como influencia formativa.
 - *El contenido del video pertenece a su autor y no está cubierto por la licencia CC-BY-4.0 de este repositorio.*
+
+### Agradecimiento a *Arrival*
+
+- ***Arrival* (Arrival, 2016; dir. Denis Villeneuve; basada en "Story of Your Life" de Ted Chiang, 1998).** La lingüista Louise Banks aprende la lengua de los heptápodos y casi se pierde aprendiéndola. **Inspiró la sección de alienígenas y la idea de que una lengua no se traduce: se habita.** **Y el agradecimiento es literal: si Louise hubiera tenido alas, la película dura quince minutos.**
+- **Límite:** *Arrival* es una referencia cultural, no una fuente técnica. **La frase del agradecimiento es del autor, no de la película.** **El material de la película y del relato pertenece a sus autores y no está cubierto por la licencia CC-BY-4.0 de este repositorio.**
