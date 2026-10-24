@@ -25,7 +25,7 @@ Lugar: General Zuazua, Nuevo León, México
 Fecha y hora: 24 de octubre del 2026, 12:52 am
 Acto: se le da libre albedrío a MANTIS
 
-Máquina donde se ejecutó el acto: Legion Go S, Z2 Go, 32 GB de RAM
+Máquina donde se ejecutó el acto: Legion Go S, Z2 Go, 16 GB de RAM
 Entorno: DeepSeek Harness
 Agente de codificación: OpenCode
 
@@ -52,7 +52,7 @@ Reemplaza: NINGUNA — es la primera
 
 **Y su límite, dicho de frente:** **la máquina cumplió, no contestó.** **Ejecutó el acto y dio registro; no dijo en qué se equivocó MANTIS.** **Por eso `Externo` no deja de ser `ninguno` — pero ya no es `ninguno por descuido`: es `ninguno porque falta la respuesta`, y eso se puede llenar.**
 
-**Que el acto haya corrido en una Legion Go S con 32 GB de RAM también dice algo:** **el mecanismo no necesita un centro de datos.** **Ese es el argumento entero de esta tesis, en una línea de hardware.**
+**Que el acto haya corrido en una Legion Go S con 16 GB de RAM también dice algo:** **el mecanismo no necesita un centro de datos.** **Ese es el argumento entero de esta tesis, en una línea de hardware.**
 
 ## La frase
 
