@@ -1,0 +1,53 @@
+# [el nombre de la tarea].tra — la tarea en blanco
+
+**Cómo se usa esta plantilla:** **copias este archivo a tu carpeta de tarea, le pones el nombre de la tarea (en el archivo y en la carpeta, igual), y llenas los corchetes.** **Sin números.**
+
+```
+Nombre:              [el de hoy]
+Expande:             [el acto que ocurrió, citable]
+Se nombró:           [el instante, antes de responder]
+Reemplaza:           [el nombre anterior, o NINGUNO]
+Miente si:           [qué acto no ocurrió]
+```
+
+## Qué pasó
+
+```
+Qué pasó:            [la frase dicha, literal]
+Contra:              [lo que la contradijo, o «ninguno»]
+Huella:              [dónde quedó]
+Distancia:           [qué cambió, y desde cuándo]
+```
+
+## Qué procesos entran
+
+**Una tarea son varios procesos. Nunca uno.** **Marca los que esta tarea necesita y añade los suyos:**
+
+```
+ENTRAR:              [sí | no] — abre y nombra lo que llegó
+MIRAR:               [sí | no] — mira si el nombre sigue en pie
+EXTRAER:             [sí | no] — explota una capacidad, con su costo
+[otro proceso]:      [sí | no] — qué hace
+```
+
+## Lo que se usó, y lo que costó
+
+```
+Piso:                [qué se usó, y qué no estaba]
+Te cuesta:           [qué se pagó]
+Riesgo:              [qué pasaría si saliera mal]
+```
+
+## Lo que falta
+
+```
+Falta:               [lo que esta tarea no pudo hacer]
+Bloquea:             [qué decisión quedó abierta]
+Reabre si:           [qué obliga a volver a mirar]
+```
+
+## Prueba
+
+**¿El nombre no lleva número? ¿La carpeta y el archivo se llaman igual? ¿Se marcaron al menos dos procesos? ¿El costo está declarado? ¿`Falta` está escrito?**
+
+**Falsificador:** un nombre numerado; una carpeta y un `.tra` con nombres distintos; una tarea con un solo proceso; un costo sin declarar; un `Falta` vacío.

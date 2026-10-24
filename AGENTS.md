@@ -25,6 +25,8 @@
 | El estándar del piso | `piso.md` | `./Libre albedrio/piso.md` |
 | El estándar del proceso | `formato de proceso.md` | `./Libre albedrio/formato de proceso.md` |
 | El estándar de la decisión | `criterio.md` | `./Libre albedrio/criterio.md` |
+| Los dos primitivos | `primitivos.md` (verbalizar · procesos) | `./Libre albedrio/primitivos.md` |
+| El proceso del miedo | `miedo.md` | `./Libre albedrio/miedo.md` |
 | Los pasos de Ouroboros | `Guantelete` · `S.A.R.A` · `ATLAS` | `./Ouroboros/` |
 | Las pruebas | cuatro pruebas | `./Pruebas/` |
 | **El ente del alma de script** | **`MANTIS`** (Memoria, Análisis, Navegación, Triangulación, Integridad y Sistema) | **`./mantis/mantis.md`** (puerta: `./mantis/AGENTS.md`) |
@@ -57,6 +59,7 @@
 | **escribir un proceso o una instrucción** | `./Libre albedrio/formato de proceso.md` | se escribe como ensayo |
 | **medir de forma repetible** | `./Libre albedrio/piso.md` | no se mide |
 | **escribir cualquier entregable** | `./Libre albedrio/claridad.md` | no se puede contestar |
+| **correr un proceso, o declararlo `sin datos`** | `./Libre albedrio/primitivos.md`, `Un proceso se corre aunque la salida sea vacía` | no se corre, y se finge que se miró |
 | **responder a un mensaje** | `./mantis/AGENTS.md` y `./mantis/mantis.md`, y se anota en `.memoria continua/rastro/mantis.db` | **no se responde** |
 | **decidir algo, antes de decidir** | `./Libre albedrio/criterio.md`, `El criterio autónomo`, y el historial de la memoria | no se decide: se enruta |
 | **enrutar una petición sin decidirla** | `./mantis/mantis.md` y `./mantis/procesos/enrutar.md` | no se improvisa: se declara vacío |
