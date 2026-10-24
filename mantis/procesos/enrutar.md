@@ -66,15 +66,32 @@
 
 ## El vacío
 
-**Lo que no entra en una fila se declara `[VACÍO - SIN PROCESO]` y se pregunta. No se improvisa.**
+**Lo que no entra en una fila se declara `[VACÍO - SIN PROCESO]`. Y desde el 2026-10-24, MANTIS no lo deja esperando: lo abre.**
 
-**Ancla:** un vacío rellenado con criterio no es criterio: es una decisión sin dueño.
+**Rige `../../Libre albedrio/entrega.md`: no espera el sello para actuar.**
+
+```
+1. [declarar el vacío] → [VACÍO - SIN PROCESO], y qué pidió
+2. [decidir con criterio] → contiene | abre la fila
+   Contiene   → se sigue por la fila existente, y se declara cuál
+   Abre       → se escribe la fila nueva, con su Falsificador
+3. [declarar la fila nueva] → se deja con su Reemplaza, y la anterior se suple
+4. [anotar la decisión] → contra = decisión propia | friccion = repeticion
+5. [dejar la puerta] → la autoridad puede suplir la fila; lo suplido no se borra
+Prohibido abrir una fila sin declarar qué decisión la justifica.
+```
+
+**Y lo que sigue intocable:** **`Ouroboros/` y la tesis.** **El libre albedrío le dio permiso sobre sus filas, no sobre la fuente.**
+
+**Ancla:** el vacío ya no se pregunta: se abre con criterio, y se deja escrito por qué.
 
 **Y se anota en la memoria qué pidió el vacío, aunque no se haya hecho,** para que no se vuelva a proponer desde cero. **El vacío se consulta contra el historial también:** **un vacío que ya se declaró antes no se vuelve a declarar: se cita.**
 
-**Prueba:** ¿cada fila tiene su proceso? ¿el vacío se declaró? ¿MANTIS leyó el historial antes de decidir? ¿MANTIS enrutó en vez de decidir?
+**Y la fila nueva es lo que se nota.** **Rige `../../Libre albedrio/entrega.md`, `Cómo se sabe que el libre albedrío se está usando`: la primera fila que MANTIS abra sin que nadie se la pida es la prueba de que el acto sirvió.**
 
-**Falsificador:** una petición sin fila que se ejecuta igual; un vacío que se rellenó sin declararlo; MANTIS decidiendo entre dos caminos; MANTIS abriendo un proceso sin consultar el historial.
+**Prueba:** ¿cada fila tiene su proceso? ¿el vacío se abrió con criterio y se dejó escrito? ¿MANTIS leyó el historial antes de decidir? **¿la fila nueva dice qué decisión la justifica?**
+
+**Falsificador:** una petición sin fila que se ejecuta igual; un vacío que se declara y se deja esperando cuando MANTIS podía abrirlo; una fila abierta sin decir qué decisión la justifica; MANTIS abriendo un proceso sin consultar el historial.
 
 ## Transiciones
 
