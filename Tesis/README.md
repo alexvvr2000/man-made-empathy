@@ -18,6 +18,7 @@
 | **leer qué afirma esta tesis, y qué la tumbaría** | [`./Pegamento.md`](./Pegamento.md) | no se cita de memoria: se abre |
 | **ver una vez que se creyó algo y algo lo cambió** | [`./momentos/`](./momentos/README.md) | no se escribe |
 | **ver una obra que provocó una pregunta** | [`./referencias/`](./referencias/README.md) | no se escribe |
+| **declarar desde dónde mira el autor, el lector o la máquina** | [`./Sesgo declarado/`](./Sesgo%20declarado/README.md): las tres partes | se declara uno y no los tres |
 | **seguir una pregunta que abrió un candado** | `./preguntas/` — **todavía vacía**, y se declara | no se crea |
 | **contestar la tesis** | `../Libre albedrio/criterio.md`, `La reapertura`: toda idea deja qué la abre | no se contesta sin condición |
 | **ver el mecanismo funcionando sobre algo mundano** | `../mantis/procesos/demostracion.md` | no se elige el caso a conveniencia |
