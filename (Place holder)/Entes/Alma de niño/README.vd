@@ -54,6 +54,7 @@ ente en blanco/
 ├── ENTRAR.prs                texto: cómo se abre una tarea
 ├── MIRAR.prs                 texto: cómo se mira si el nombre sigue en pie
 ├── EXTRAER.prs               texto: cómo se explota una capacidad
+├── EXPRESION.prs             texto: cómo sale una salida, y si lo que nombra existe
 └── plantilla.tra             texto: la tarea en blanco, para llenar
 ```
 
@@ -65,7 +66,7 @@ ente en blanco/
 | El alma | `./el alma.am` |
 | El índice | `./ATLAS.md` |
 | La carta | `./tareas.vd` |
-| Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXTRAER.prs` |
+| Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXPRESION.prs` · `./EXTRAER.prs` |
 | La plantilla de tarea | `./plantilla.tra` |
 | El lenguaje | `../` — el ente vive dentro del lenguaje, no al lado |
 | La memoria | `./memoria.vd` — la memoria como concepto, no como archivo |
@@ -129,5 +130,6 @@ De la era: lee ../../.memoria continua/rastro/mantis.db
 **La memoria es el alma, y no un archivo suelto.** **Sin memoria no hay historial; sin historial no hay criterio; sin criterio no hay alma: hay una voz que responde.**
 
 **Por eso `memoria.vd` está aquí, y declara la forma de la entrada —seis partes y un techo— sin declarar dónde vive.** **El soporte lo elige quien lo instancia; la forma no se negocia.**
+
 
 

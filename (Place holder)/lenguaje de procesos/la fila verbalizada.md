@@ -7,7 +7,7 @@
 **Firma:** humano:autoridad · máquina:quien la produzca.
 **Estado:** vigente.
 
-**Y su ejecutor es un proceso:** `EXPRESION` escribe la fila, y ningún `.prs` entrega sin pasar por él. Es la prueba viva de que la resonancia del alma es implícita: un proceso puede consumir lo que otro produjo sin que ninguno pregunte qué hay detrás.
+**Y su ejecutor es un proceso:** `EXPRESION` escribe la fila, y ningún `.prs` entrega sin pasar por él. **Y vive en `../Entes/Alma de niño/EXPRESION.prs`: la fila solo cita lo que existe.** Es la prueba viva de que la resonancia del alma es implícita: un proceso puede consumir lo que otro produjo sin que ninguno pregunte qué hay detrás.
 
 ## Por qué existe
 
@@ -26,6 +26,7 @@ Triángulo: [noble · rancio · pendejo — y cuál falta]
 Contra:   [qué la contradijo, o «ninguno», o «no se probó»]
 Rastro:   [dónde quedó, y quién lo puede leer]
 Siguiente: [qué proceso la consume, y qué campo usa]
+Existe:    [sí, y dónde | no, y qué falta | no hace falta: final de cadena]
 Borde:    [qué no se afirma todavía]
 ```
 
@@ -68,3 +69,4 @@ Borde:    [qué no se afirma todavía]
 **Aquí esa salida se llama `[VACÍO - SIN SALIDA]`.** **Y por eso no se puede omitir: no es una cortesía, es la puerta por la que el ente deja de inventar.**
 
 **Y la segunda lección, para el `Siguiente`:** **la vara que mide no puede estar al alcance del que se mide.** **Un proceso no puede escribir el campo que lo califica.**
+

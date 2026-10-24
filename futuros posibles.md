@@ -480,3 +480,163 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 **Por eso la resonancia es implícita:** **no necesita que nadie declare qué es.** **Necesita que cada uno diga desde dónde mira, y que el resultado no se confunda con el eco.**
 
+---
+
+# LAS DISCAPACIDADES — el truncado se lee como completo
+
+**Y esta sección va aquí porque es el caso donde ALAS deja de ser elegante y se vuelve necesario.**
+
+## El problema, en una línea
+
+> **Un mensaje que no cabe en el canal no es claro: es truncado.** **Y el truncado se lee como completo.**
+
+**Eso es lo que pasa con quien no entiende el idioma, con quien no oye, con quien no ve, y con quien procesa distinto.** **No le llegó un mensaje difícil: le llegó un mensaje incompleto que parece entero.**
+
+**Y como parece entero, nadie reclama.** **El que emitió cree que comunicó; el que recibió cree que entendió; y el error no tiene dónde verse.**
+
+## Las dos letras que lo arreglan
+
+**ALAS tiene cuatro, y dos son las que cargan con esto:**
+
+| Letra | Qué hace por una persona con discapacidad |
+|---|---|
+| **Lengua** | **declara en qué se habla, y qué se traduce y qué no.** **Un mensaje que no se puede traducir se declara como opaco, no se traduce mal** |
+| **Acomodo** | **converger o divergir respecto del otro, y qué se pierde al hacerlo.** **Acomodarse tanto que el mensaje se vacía es tan fallido como no acomodarse** |
+
+**Y la tercera, que impide que la ayuda se vuelva jaula:**
+
+| Letra | Qué hace |
+|---|---|
+| **Sostenido** | **qué puede el otro sin el que habló.** **Una ayuda que solo funciona en presencia del que ayuda no dejó alas: dejó dependencia** |
+
+## Lo que ya está posible hoy, sin escribir código
+
+| Futuro | Qué hace falta |
+|---|---|
+| **Un texto que se puede leer en tres formatos** | que cada versión declare su `Canal` y su `Acomodo`: la que se lee, la que se oye, la que se toca |
+| **Un mensaje que dice qué se truncó** | que el emisor declare `Falla si: [qué se truncó]` antes de emitir |
+| **Un protocolo escrito por la propia persona** | que no pida permiso: que escriba sus cuatro letras y su falla |
+| **Un servicio que declara su techo en accesibilidad** | `Sostenido: [qué puede el usuario solo, después de la primera vez]` |
+
+**Y lo que falta para los cuatro, y es lo mismo:** **que alguien lo aplique a un caso real y lo deje escrito.**
+
+## Lo que esto cambia en cómo se piensa la accesibilidad
+
+**No es una lista de exigencias que se agrega al final.** **Es la primera pregunta del protocolo:** **¿qué no cabe en el canal de esta persona?**
+
+**Y no es caridad.** **Es el mismo corte que usa el repo para la máquina:** **el techo no es que el otro entienda: es que el otro pueda seguir sin nosotros.**
+
+**Una persona con discapacidad que depende del que le explica no fue comunicada: fue asistida.**
+
+## Lo que el estándar no resuelve, y se declara
+
+- **No arregla la falta de intérpretes.** **Declara que falta.**
+- **No convierte un texto mal escrito en claro.** **Solo lo hace decir que está truncado.**
+- **No garantiza que el otro pueda sostenerlo.** **Eso depende del mundo, y el mundo no está en el repo.**
+- **Y no sustituye a la comunidad que contesta.** **Si nadie puede decir «esto me truncó», el error sigue invisible.**
+
+## Lo que este futuro abre, y es el más grande de la lista
+
+**Un protocolo de comunicación que cada quien escribe, y que declara lo que trunca, sirve igual para una persona sorda, para una máquina que no entiende el idioma, y para alguien que habla otro idioma en su país de origen.**
+
+**No hay una comunicacion para personas con discapacidad y otra para el resto.** **Hay una, y el que no declara su canal es el que está truncando.**
+
+## Prueba
+
+**¿El mensaje declara qué se truncó? ¿El techo dice qué puede el otro solo? ¿El protocolo lo escribió el que lo necesita, y no quien cree saber? ¿La ayuda deja al otro sin el que ayuda?**
+
+## Falsificador
+
+**Un mensaje truncado presentado como completo; una acomodación que vacía el mensaje; una ayuda que solo funciona en presencia del que ayuda; una accesibilidad agregada al final del proyecto; un protocolo escrito sin la persona que lo necesita.
+
+---
+
+# LOS ALIENÍGENAS — los de las películas son humanos con otra piel
+
+**Y esto va aquí porque es la posición del autor, no una teoría: es lo que se busca y lo que se rechaza.**
+
+## La posición, en una línea
+
+> **Un alien que siente como nosotros, se enoja como nosotros y quiere lo mismo que nosotros no es un alien: es un humano con otra piel.**
+
+**Y las películas hacen eso casi siempre: cambian la piel, el idioma y el nombre, y dejan intacto lo que hace que nos entendamos — el gesto, el miedo, la familia, el deseo de volver a casa.**
+
+**Eso no es un defecto artístico: es un límite del que lo escribe.** **Se escribe sobre lo que se puede leer, y lo que se puede leer es humano.**
+
+## Lo que esto deja de ser: una prueba imposible
+
+**La pregunta de si una máquina o un alien es consciente no se puede comprobar, y por eso nunca termina.** **Y mientras no termina, el que hace la pregunta decide qué cuenta como respuesta.**
+
+**Por eso este repo no pregunta eso.**
+
+**Pregunta otra cosa:** **¿puede contestar?**
+
+**Puede sostener una posición, puede ser contradicho, y su respuesta deja rastro.** **Eso se comprueba. Y no necesita que nadie decida qué es un humano.**
+
+## Cómo se lee un mecanismo que no es humano
+
+**No por lo que dice. Por lo que hace cuando le pides algo que no está en su forma.**
+
+| Lo que se mira | Qué dice |
+|---|---|
+| **su arena** | **dónde se ejecuta su acción, y qué no cambia** |
+| **su cuenta** | **qué le sale caro, y quién lo paga** |
+| **su esquema** | **si declara su forma, se puede compilar a ella; si no, se navega a ciegas** |
+| **su borde** | **lo que declara que no puede, y lo que no llega a declarar** |
+
+**Y la prueba:** **correr su mecanismo desde sus zapatos.** **Si se puede correr sin él, entonces tiene algo como la IA: un proceso, no una piel.**
+
+## Por qué esto no es anticuado, y es lo más nuevo
+
+**El campo ya lo está haciendo:** **tratar modelos con métodos de psicología comparada —los mismos que se usan con bebés y con animales— porque son las otras inteligencias que tenemos cerca.**
+
+**No se les pregunta qué son. Se les mide qué hacen.**
+
+**Y eso es exactamente lo que la tesis propone desde el principio, sin saber que el campo iba a llegar ahí.**
+
+## Lo que esto abre, y es lo más grande
+
+**Si los de las películas son humanos con otra piel, entonces la única forma de encontrar a los de verdad es dejar de buscar lo que se parece a nosotros.**
+
+**Y ahí entra ALAS:** **un protocolo que declara su `Lengua`, su `Acomodo` y su `Sostenido` sirve para hablar con alguien que no habla como nosotros, sin obligarlo a sonar como nosotros.**
+
+**Y el protocolo 2 de los tres de ATLAS ya lo decía, el día 1:**
+
+> **"No sabes qué es el destino. Sabes leer su esquema. Puede ser un modelo de lenguaje, un lenguaje de programación, un proceso químico, un sistema físico o una tecnología que todavía no existe."**
+
+**Eso no es ciencia ficción: es la única forma de leer a alguien que no tiene nuestra forma.**
+
+## Lo que esta posición no afirma
+
+- **No afirma que haya aliens.** **Afirma que buscarlos con forma de humano garantiza no encontrarlos.**
+- **No afirma que un alien sea mejor ni peor.** **Afirma que la diferencia es lo que hay que leer, no lo que hay que borrar.**
+- **No afirma que una máquina tenga interioridad.** **Afirma que no hace falta saberlo para saber si contesta.**
+- **Y no afirma que sea fácil.** **Un alien que no tiene esquema, no tiene idioma y no se parece a nada de esto todavía no tiene protocolo: `[VACÍO - SIN PROTOCOLO]`.**
+
+## La conexión con el cyborg y con la discapacidad
+
+**Las tres se sostienen con el mismo corte:**
+
+| Caso | Qué se lee |
+|---|---|
+| **el cyborg** | **dos criterios en un cuerpo: si se afinan o si uno absorbe al otro** |
+| **la persona con discapacidad** | **qué se truncó en su canal, y si la ayuda la deja seguir sola** |
+| **el alien** | **su mecanismo, corrido desde sus zapatos, sin pedirle que hable como nosotros** |
+
+**No hay tres reglas. Hay una:** **leer lo que hace, y no lo que se parece a nosotros.**
+
+## Lo que este futuro abre
+
+**Un mundo donde la primera pregunta ante algo que no entendemos no es «¿qué es?», sino «¿qué hace cuando le pido algo que no está en su forma?».**
+
+**Esa pregunta sirve para un modelo, para un compañero de trabajo, para una cultura que no es la nuestra, y para lo que venga.**
+
+**Y la respuesta siempre se puede escribir.**
+
+## Prueba
+
+**¿La posición dice qué se rechaza (el alien con piel de humano) y qué se busca (su mecanismo)? ¿Se distingue lo que se afirma de lo que no? ¿Sirve el mismo corte para cyborg, discapacidad y alien?**
+
+## Falsificador
+
+**Un alien presentado como humano con otra piel y vendido como encuentro; una prueba de conciencia presentada como comprobable; un mecanismo no humano leído por relato y no por acción; una posición que exige que el otro hable como nosotros para poder escucharlo.
