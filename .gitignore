@@ -1,8 +1,2 @@
 .vscode/*
-Novedad/
-# La memoria no se publica: vive en .sesion-continua/ con su base unica y su esquema.
-# Sin export: no hay .md publicado de notas. El corte de una generacion si se lee, y si se guarda.
-notas/generaciones/
-.sesion-continua/
-# Lo compilado no se versiona: se regenera con pwsh -File mantis/compilar.ps1.
-dist/
+.memoria continua/*

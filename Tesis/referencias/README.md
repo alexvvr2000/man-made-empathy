@@ -1,17 +1,5 @@
 # Referencias
 
-**Unidad:** nivel.
-**Aplica a:** situar.
-**Tipo:** puerta. No decide, no ejecuta: dice de dónde vienen las ideas que el sistema usa, y qué sostiene cada una.
-**Lector:** quien ya sabe algo del tema y quiere saber en quién se apoya lo que lee.
-**Dueño:** la autoridad.
-**Estado:** vigente.
-
-**Sesgo:** la referencia se lee desde la pieza que sostiene, no desde el prestigio de quien la dijo.
-**Límite:** una referencia no es evidencia. No prueba nada: sitúa de dónde viene la idea.
-**Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `./_PLANTILLA.md`
-
 ## Qué es esto
 
 **Una referencia es una obra, un caso o una persona que iluminó una pieza del sistema.** No adorna: **explica por qué la pieza existe y de dónde salió.**
