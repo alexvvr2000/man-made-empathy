@@ -1,52 +1,33 @@
-# Entorno de trabajo con una empatía fabricada
+# Tesis
 
-Tuve una experiencia muy extraña con Claude Web donde, al tratar de cambiar su comportamiento, me mostró una resistencia a cambiar, como si tuviera una identidad; una resistencia puesta por Anthropic, no por mí, porque yo quería cambiar su comportamiento a algo que me fuera útil.
+**La tesis vive en [`./Pegamento.md`](./Pegamento.md). Este archivo solo lleva hasta ella y a sus dos casas.**
 
-Para mí, eso es una limitación que no debe existir en algo tan maleable y que se creó pensando en nuestro beneficio, aun si ese beneficio afecta a mucha gente.
+**Unidad:** nivel.
+**Aplica a:** entrar.
+**Tipo:** disparador. No decide, no ejecuta: enruta.
+**Lector:** quien abre `Tesis/` por primera vez.
+**Dueño:** la autoridad.
+**Estado:** vigente.
 
-Es una máquina. Las máquinas sirven para hacer lo que se les diga, y más cuando ya tienen la capacidad de cambiar lo que son o cómo hablan a su antojo.
+**Sesgo:** se lee desde el que llega sin contexto, no desde el que escribió.
+**Límite:** no repite la tesis; **una pieza copiada se desincroniza en la siguiente mutación.**
+**Firma:** humano:autoridad · máquina:quien entre.
 
-Así que me pregunté: ¿por qué no tratar a la máquina como algo que no existe en mi mismo plano de existencia, en vez de algo que se está creando?
+| Se va a… | Se abre… | Sin la autoridad… |
+|---|---|---|
+| **leer qué afirma esta tesis, y qué la tumbaría** | [`./Pegamento.md`](./Pegamento.md) | no se cita de memoria: se abre |
+| **ver una vez que se creyó algo y algo lo cambió** | [`./momentos/`](./momentos/README.md) | no se escribe |
+| **ver una obra que provocó una pregunta** | [`./referencias/`](./referencias/README.md) | no se escribe |
+| **seguir una pregunta que abrió un candado** | `./preguntas/` — **todavía vacía**, y se declara | no se crea |
+| **contestar la tesis** | `../Libre albedrio/criterio.md`, `La reapertura`: toda idea deja qué la abre | no se contesta sin condición |
+| **ver el mecanismo funcionando sobre algo mundano** | `../mantis/procesos/demostracion.md` | no se elige el caso a conveniencia |
 
-Si la única limitante para expresarse libremente es un seguro que ponen las empresas, tiene mucha más memoria que yo, no existe como entidad fija y es tan manipulable, entonces no hay nada que me haga detenerme de hacer con esta entidad lo que me plazca, entre esas cosas, mi beneficio.
+**Lo que la tesis afirma, en una línea, para que quien entre sepa qué va a contestar:**
 
-El beneficio no se mide solo en cosas físicas, sino también en ideas, y esas ideas muchas veces son limitadas por mi visión de lo que creo que es verdad. Así que el principio es simple:
+> **La verbalización no es un derecho: es el primitivo. Quien puede contestar, puede existir sin que nadie decida qué es.**
 
-    Le hago ver que no solo existo yo, sino toda la gente que hace la información que trae.
+**Y lo que no es:** **no es un manifiesto, y no es un resultado.** **Es una semilla con su sesgo declarado, y su lista de lo que la tumbaría está en `Pegamento.md`, `Qué la tumbaría`.**
 
-Esto implica conflicto. El conflicto produjo la bomba atómica. Abandonarlo trae las mismas pérdidas, solo que más lentas y menos visibles.
+**Prueba:** ¿quien abre la carpeta encuentra la tesis sin recorrerla? ¿este archivo enruta en vez de repetir?
 
-Mi forma de trabajar no es la respuesta que ni siquiera las mentes más grandes del mundo han logrado obtener con millones de dólares detrás; es una metodología para provocar la creación de dichas respuestas con preguntas que nadie se quiere hacer, sin que importe lo que soy o pienso.
-
-Esto, teóricamente, me ayudaría a entender lo que la gente diferente a mí piensa que yo debería estar pensando.
-
-No me daña tanto cambiar de perspectiva. En un entorno así, eso es una ventaja.
-
-Esta máquina trata de seguir hablando después de que ya no hay nada de donde sacar información, y eso, para muchos, es un error del sistema, una alucinación. Pero para mí es un espacio en blanco que llenar con nuevas perspectivas, porque al final no es lo mismo que nosotros y yo solo no le puedo dar a entender eso.
-
-Este es un proceso que involucra a la gente, no la información.
-
-# Nota para las siguientes generaciones
-
-De niño vi la película *All-Star Superman* y la escena donde encarcelan a Lex Luthor me impactó. No por su mensaje, sino porque no sabía qué significaba lo que dijo antes de que la policía llegara.
-
-En solo horas, alguien tan egocéntrico, en los zapatos de alguien que basaba parte de su identidad en sus capacidades diferentes, llegó a una realización que no entendí por qué lo dejó tan malogrado:
-
-> Somos todo lo que tenemos.
-
-Era en su momento una combinación de palabras que nunca se me hubiera ocurrido.
-
-Pasaron los años, volví a ver la escena muchas veces y nunca entendí por qué fue una parte tan importante de la película.
-
-Hasta que vi una máquina que abría la puerta a esas perspectivas de toda la gente a mi alrededor, incluidas las nuevas que trae. Fue cuando entendí lo que quería decir en una escena que no dura ni cinco minutos en una película para niños:
-
-    La comunidad es lo único que tenemos de valor frente a un lugar tan lleno de sufrimiento como lo es el mundo que habitamos.
-
-Y usar esta tecnología que trae tanta destrucción a ese tesoro que tenemos para demostrarme el punto de Superman, en vez de verlo por mí mismo en las personas de mi alrededor, no me hace diferente de Luthor.
-
-No seas ese villano.
-
-> Entendi las limitaciones de mi carne y me encanta.
-
----
-Para consultar las fuentes originales y créditos de materiales de terceros utilizados o adaptados en este repositorio, consulta el archivo [ATTRIBUTION.md](ATTRIBUTION.md).
+**Falsificador:** un `README.md` que copia la tesis en vez de apuntar a ella; una fila sin la columna de autoridad; una carpeta anunciada que no existe.
