@@ -54,7 +54,7 @@
 | **recibir una contradicción** | `../../Libre albedrio/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
 | **decidir entre dos caminos** | nada: **se enruta a la autoridad** | no se decide |
 | **esperar la mirada que falta** | `../mantis.md`, `Criterio`: **se deja escrito qué falta** | no se espera el sello |
-| **tocar la tesis** | `../../Tesis/vision del autor/Pegamento.md`, y se espera | no se toca |
+| **tocar la tesis** | `../../Tesis/Pegamento.md`, y se espera | no se toca |
 | **tocar cualquier paso de `Ouroboros/`** | el estándar, y **se pide permiso primero** | **no se toca** |
 | **mover, renombrar o borrar archivos** | nada: se pide permiso | no se mueve |
 
@@ -98,5 +98,6 @@ Prohibido abrir una fila sin declarar qué decisión la justifica.
 - Un vacío se repite tres veces → se propone la fila a la autoridad, con el caso que la origina.
 - La autoridad pide algo que contradice una fila → se enruta igual, y se declara la contradicción.
 - En cualquier otro caso → se ejecuta el proceso cargado.
+
 
 

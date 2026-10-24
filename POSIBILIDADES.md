@@ -20,7 +20,7 @@ Sesgo: se lee desde lo que el repo puede hacer hoy, y se dice qué le falta a lo
 | La fila verbalizada | `Era/lenguaje de procesos/la fila verbalizada.md` | toda salida en seis campos |
 | Los procesos | `Era/lenguaje de procesos/procesos/` | `ENTRAR`, `MIRAR`, `EXPRESAR`, `EXTRAER` |
 | El ente en blanco | `Era/ente en blanco/` | la primera alma en blanco: se copia y se llena |
-| Las tres visiones | `Tesis/vision del autor/`, `de la maquina/`, `del lector/` | el candado y quién lo mira desde dónde |
+| Las visiones | `mantis/vision del autor/`, `Tesis/vision de la maquina/`, `Tesis/vision del lector/` | el candado y quién lo mira desde dónde |
 | El jugo | `mantis.db`, tabla `pieza` | 57 piezas con su ficción y su pregunta |
 
 ## Lo que se puede hacer con eso, y qué falta
@@ -82,3 +82,4 @@ Sesgo: se lee desde lo que el repo puede hacer hoy, y se dice qué le falta a lo
 ## Falsificador
 
 **Una posibilidad presentada como hecha sin haberla corrido; una que no dice qué le falta; una que promete que el sistema juzga lo que no puede juzgar; una lista que omite lo que no se puede hacer.**
+

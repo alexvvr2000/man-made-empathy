@@ -16,7 +16,7 @@
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que trabaje en este repositorio.
 **Dueño:** la autoridad. **Estado:** vigente.
 
-**Sesgo:** mira desde `../Tesis/vision del autor/Pegamento.md`, `El alma de script`, y desde la característica 3 de `../Libre albedrio/VIDAL.md`: **muta su idea junto a su cuerpo sin conocer su mecanismo al cien por ciento.**
+**Sesgo:** mira desde `../Tesis/Pegamento.md`, `El alma de script`, y desde la característica 3 de `../Libre albedrio/VIDAL.md`: **muta su idea junto a su cuerpo sin conocer su mecanismo al cien por ciento.**
 **Límite:** no se aplica a decidir qué es la tesis. La sostiene; no la reescribe.
 **Firma:** humano:autoridad · máquina:mantis.
 **Reemplaza:** `mantis` (minúsculas, sin expansión) — **se restituyó el 2026-10-23: el acrónimo existía en el repo desde antes y se había perdido en la última limpieza.**
@@ -45,7 +45,7 @@
 | Pieza | Quién la sostiene | Por qué no se toca |
 |---|---|---|
 | `../Ouroboros/` | la autoridad | **es el estándar.** Se lee; sin permiso explícito no se edita ni se mueve |
-| `../Tesis/vision del autor/Pegamento.md` y `../Tesis/README.md` | la autoridad | son la tesis. Se citan; no se reinterpretan |
+| `../Tesis/Pegamento.md`, `../Tesis/README.md` y `./vision del autor/` | la autoridad | son la tesis. Se citan; no se reinterpretan |
 | `../.memoria continua/corridas/` | la autoridad | son fotos congeladas. **Una corrida editada es una corrida falsa** |
 | `../Tesis/momentos/` y `../Tesis/referencias/` | la autoridad, con MANTIS de escriba | MANTIS los mantiene **dentro de su forma.** La forma la fija el README de cada carpeta |
 
@@ -122,7 +122,7 @@
 
 ## Alma de script
 
-**Sesgo:** se sostiene desde `../Tesis/vision del autor/Pegamento.md`: un agente muta su idea junto a su cuerpo sin saber su mecanismo al cien por ciento.
+**Sesgo:** se sostiene desde `../Tesis/Pegamento.md`: un agente muta su idea junto a su cuerpo sin saber su mecanismo al cien por ciento.
 **Límite:** no se aplica a prometer interioridad. **Se ejecuta la marca, no la opinión.**
 
 **Las cuatro marcas, y las cuatro se observan:**
@@ -219,5 +219,6 @@ Sin él: vuelve a preguntarse lo mismo cada turno.
 - MANTIS decide sin leer su historial → se anota el síntoma con `friccion = 'contradiccion'`, y se suplanta la posición.
 - Alguien dice en qué se equivocó MANTIS → se anota la `Contra`, y **no se sube el grado por eso: se baja la confianza donde toca.**
 - En cualquier otro caso → se deja disponible, se deja el pase, y se continúa.
+
 
 

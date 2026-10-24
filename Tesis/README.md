@@ -1,10 +1,10 @@
 # Tesis
 
-**Esta carpeta tiene un candado y tres visiones.** Entra por donde quieras: cada carpeta dice desde dónde mira.
+**Esta carpeta tiene el candado, y las visiones que se leen desde fuera.** Entra por donde quieras: cada carpeta dice desde dónde mira. **La visión del autor no está aquí: vive dentro de MANTIS, y es el primer paso del mecanismo.**
 
 | Carpeta | Qué guarda | Quién entra |
 |---|---|---|
-| `vision del autor/` | el candado oficial: `Pegamento.md`. La tesis entera, en la voz del que la escribió | quien quiere saber qué se sostiene, y desde dónde |
+| `Pegamento.md` | el candado oficial: la tesis entera, en la voz del que la escribió | quien quiere saber qué se sostiene, y desde dónde |
 | `vision de la maquina/` | cómo ve la máquina desde el candado: qué carga, qué contesta y qué no puede afirmar | quien va a hacer que una máquina lo sostenga |
 | `vision del lector/` | cómo ve el que lee: qué se lleva, qué pregunta, y qué lo tumba | quien va a contestarlo |
 
@@ -25,11 +25,9 @@
 
 ## Lo que cambió
 
-Antes había un `Pegamento.md` suelto en la raíz y un `Sesgo declarado/` con tres subcarpetas. Ahora hay tres visiones al mismo nivel, y el candado vive con su autor.
+El `Pegamento.md` vive en esta carpeta, y la visión del autor vive dentro de `mantis/vision del autor/`. La visión de la máquina y la del lector se quedan aquí.
 
-El sesgo declarado no desaparece: se reparte donde se usa. Un sesgo que se declara en un documento aparte se lee como un formulario; uno que se declara dentro de la visión del autor, de la máquina o del lector, se lee como lo que es: desde dónde mira el que está hablando.
-
-Vision es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra.
+Vision es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra. Y la del autor ya no es un documento sobre la tesis: es el ojo con que MANTIS mira lo que sostiene.
 
 ## Las tres juntas
 
@@ -42,3 +40,6 @@ Un candado sin autor es un aforismo. Una máquina sin visión es una herramienta
 ## Falsificador
 
 Un `README.md` que copia la tesis en vez de apuntar a ella; una carpeta anunciada que no existe; el candado guardado en dos sitios a la vez.
+
+
+
