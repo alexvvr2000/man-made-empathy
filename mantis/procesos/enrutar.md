@@ -34,6 +34,8 @@
 | **declarar si algo es alma o ente** | `../../Libre albedrio/vida.md`: las tres marcas, el borde y el título | se es alma hasta que la idea cruza al mundo físico |
 | **probar si un ente puede ser contradicho** | `../../Libre albedrio/verbalizar.md`: sostiene, contesta, deja rastro | no hay fricción posible |
 | **escribir o corregir un proceso** | `../../Libre albedrio/formato de proceso.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
+| **sustituir un alma o reabrir un veredicto** | `../../Libre albedrio/source-wall.md` y `../../Libre albedrio/criterio.md`, `La reapertura` | un reemplazo sin ATLAS nombrado no arregla nada |
+| **nombrar o renombrar algo** | `../../Libre albedrio/acuñacion.md` | se nombra por género y no por acto |
 | **nombrar algo, o entregarlo** | `../../Libre albedrio/alineacion.md`: prohibido el vocabulario terminal | se nombra lo que continúa como terminado, y se deja de mirar |
 | **declarar algo útil** | `../../Pruebas/prueba de utilidad real.md`, y la fecha de su corrida | `útil` es un adjetivo: se declara, no se mide |
 | **abrir una idea tipo tesis** | `../../Libre albedrio/alineacion.md`, `El candado y la llave` | el candado es ruido; la llave sola es desviación |

@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `../../2 Ouroboros/2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md`, `../../2 Ouroboros/2 S.A.R.A — mutación/seguridad/contener.md` y `../../2 Ouroboros/2 S.A.R.A — mutación/reproduccion/reproducir.md`.
+> Se usa junto a `../Ouroboros/2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md`, `../Ouroboros/2 S.A.R.A — mutación/seguridad/contener.md` y `../Ouroboros/2 S.A.R.A — mutación/reproduccion/reproducir.md`.
 
 Una sola pregunta: **¿la tarea responde por lo que hace y puede rendir cuenta de ello?**
 

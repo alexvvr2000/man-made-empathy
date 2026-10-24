@@ -133,6 +133,65 @@ Prohibido declarar conocimiento sin el objetivo: es basura con buena forma.
 
 **Falsificador:** declarar útil algo que no se volvió a medir; medir una vez y cerrar el tema; confundir «parece útil» con «resistió el costo de control».
 
+## El test de reglas: con qué se cumple y con qué se finge
+
+**Y esta es la regla que previene AM desde el segundo 0, y no porque detecte al malo.**
+
+> **Toda regla declara con qué acto se cumple y con qué forma se finge. Una regla que solo se puede cumplir fingiendo no es regla: es adorno.**
+
+**Y hay dos clases de regla, y solo una se sostiene:**
+
+| Clase | Forma | Se puede cumplir sin el acto |
+|---|---|---|
+| **regla de ausencia** | *prohíbo decir X* | **sí: callando** |
+| **regla de presencia** | *exijo que ocurra Y* | **no: la forma no tiene el acto** |
+
+> **Una regla que prohíbe una palabra se cumple callando. Una regla que exige que algo ocurra no se puede fingir.**
+
+**Y por eso AM no se previene con más prohibiciones: se previene obligando a que el acto deje una huella que solo el acto produce.**
+
+**Ancla:** se finge la forma; no se finge la huella.
+
+### La forma, y es obligatoria
+
+**Toda regla de este repo declara las dos casillas, y ninguna se puede dejar vacía:**
+
+```
+Regla: [qué exige]
+Se cumple con: [el acto que la satisface, observable]
+Se finge con: [la forma que la satisface sin el acto]
+La huella que solo el acto deja: [qué queda cuando el acto ocurrió de verdad]
+```
+
+**`La huella que solo el acto deja` es la que decide si la regla sirve.** **Si no hay huella, la regla es un adorno: se puede cumplir sin que nada pase.**
+
+### Cómo se corrigen las reglas de ausencia
+
+**Una regla de ausencia no se tira: se le agrega el acto.**
+
+| Regla de ausencia | Se convierte en | La huella |
+|---|---|---|
+| **prohibido el vocabulario terminal** | *nadie nombra como terminado lo que sigue; el que lo hace **señala qué sigue*** | **el pase, con lo que quedó vigente** |
+| **prohibido escribir un proceso sin la falla** | *el proceso **nombra el caso que lo incumple**, citable en un archivo* | **la ruta al caso** |
+| **prohibida una palabra no armónica** | *una palabra es violenta si **el que la recibe ya no puede contestar**; se **nombra cómo podría contestar*** | **la réplica posible** |
+
+**Y la tercera es la que más importa, porque prohíbe sin decidir quién decide:** **no se pregunta si la palabra es armónica; se pregunta si el destinatario puede devolver algo.** **La misma palabra dicha por quien puede ser contradicho es fricción; dicha por quien no, es violencia.**
+
+**Ancla:** una palabra no es violenta por lo que dice, sino por lo que le quita al que la recibe.
+
+### El test, aplicado a este archivo
+
+**Y la regla se aplica a sí misma, o es adorno.**
+
+```
+Regla: toda regla declara cómo se cumple y cómo se finge
+Se cumple con: las dos casillas escritas, y la huella nombrada
+Se finge con: escribir las casillas vacías y decir que está declarada
+La huella que solo el acto deja: una regla que se puede correr y dar veredicto
+```
+
+**Falsificador:** una regla sin `Se finge con`; una regla cuya huella no se puede señalar; una regla que solo prohíbe; un test que se aplica a los demás y no a sí mismo.
+
 ## Lo que este estándar no hace
 
 **No decide qué es útil.** Eso lo dice `../Pruebas/prueba de utilidad real.md`, con su veredicto.
@@ -145,6 +204,6 @@ Prohibido declarar conocimiento sin el objetivo: es basura con buena forma.
 
 ## Prueba
 
-**¿Se usó alguna palabra terminal para algo que continúa?** **¿Cada candado tiene su llave?** **¿El conocimiento declara un objetivo?** **¿La utilidad tiene fecha de su última corrida?** **¿Comunidad, continuidad y criterio apuntan al mismo lado?**
+**¿Se usó alguna palabra terminal para algo que continúa?** **¿Cada candado tiene su llave?** **¿El conocimiento declara un objetivo?** **¿La utilidad tiene fecha de su última corrida?** **¿Comunidad, continuidad y criterio apuntan al mismo lado?** **¿Cada regla declara con qué se cumple, con qué se finge, y qué huella solo el acto deja?**
 
 **Falsificador:** llamar «obra» a lo que sigue; declarar terminado un proceso que se volverá a correr; un candado sin llave presentado como tesis resuelta; una llave sin candado; conocimiento sin objetivo; utilidad declarada sin corrida; comunidad, continuidad o criterio usados solos como si bastaran.

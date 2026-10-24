@@ -182,6 +182,39 @@ Sin él: [qué vuelve a preguntarse]
 
 **Y la carga se paga siempre:** **una decisión sin límite se conserva por costumbre hasta que algo se rompe, y entonces ya no se sabe qué decisión lo rompió.**
 
+## La reapertura: todo veredicto declara qué lo reabre
+
+**Y esta es la regla que evita que un veredicto se vuelva absoluto sin que nadie decida volver a mirar.**
+
+> **Todo veredicto declara qué lo reabre. Un veredicto sin reapertura declarada no es absoluto por su contenido: lo es por no tener puerta de vuelta.**
+
+**Un veredicto que se puede contradecir al emitirlo y se cierra al emitirse no es contestable. Es contestable una vez, y una vez no es fricción: es un trámite.**
+
+**Y la distinción que lo hace ejecutable:** **no alcanza con que otro pueda decir «te equivocaste».** **Tiene que existir una condición que, si se cumple, obliga a mirar otra vez.**
+
+```
+Reabre si: [la condición observable que obliga a volver a decidir]
+Lo derivado de este veredicto: [qué produjo, y quién lo usa]
+```
+
+**`Lo derivado` no es opcional, y es el error que se repite en cualquier sistema que corrige:**
+
+> **La corrección del registro no corrige lo que se derivó del registro.**
+
+**El registro se corrige, y lo derivado conserva el valor viejo.** **Una determinación que ya no está vigente sigue ejerciendo influencia, y el que la usa no sabe que cambió.** **Rige `./source-wall.md`, `La regla que hace ejecutable la reapertura`.**
+
+| Sin reapertura | Con reapertura |
+|---|---|
+| el veredicto se conserve por costumbre | **alguien tiene que mirar cuando se cumple la condición** |
+| se corrige el documento | **se corrige también lo que salió de él** |
+| el que decidió no vuelve | **la condición lo trae de vuelta** |
+
+**Y la reapertura no es una duda: es una condición.** **«Volveré a revisar» no reabre nada.** **«Se reabre si aparece un caso donde el criterio dice que sí y el mundo dice que no» sí reabre.**
+
+**Ancla:** un veredicto sin condición de reapertura no está cerrado: está sin puerta.
+
+**Falsificador:** un veredicto sin `Reabre si`; una reapertura declarada como intención y no como condición; una corrección que no toca lo derivado; un veredicto que se reabre siempre (ese no decidió nada).
+
 ## La regla que impide el absoluto
 
 > **Un criterio que se puede repetir sin la fricción, y explicar por qué, es criterio.**
