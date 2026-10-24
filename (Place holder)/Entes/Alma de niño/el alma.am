@@ -1,4 +1,4 @@
-# el alma.vd — la primera alma en blanco
+# el alma.am — la primera alma en blanco
 
 **Nombre.** El alma. La expansión dice el acto: pasar por N folders y X procesos, y dejar el intercambio.
 
@@ -8,6 +8,8 @@
 **Lector:** el agente que la carga, y el ATLAS que la enruta.
 **Dueño:** la autoridad.
 **Estado:** vigente.
+
+**Por qué `.am` y no `.vd`.** **El `.vd` es lo que se verbaliza: lo que pasó y quedó escrito. El alma no nace verbalizada: nace en blanco, y se verbaliza al pasar por los folders. `.am` es lo que todavía no dijo nada, y la ironía es que el alma es el único archivo del repo que no se puede leer sin que alguien lo llene.**
 
 **Sesgo:** se sostiene desde lo que el alma hizo, no desde lo que el alma es.
 **Límite:** el alma no es intercambiable. El ATLAS sí. El alma no sabe qué procesos va a encontrar; el ATLAS los enruta.

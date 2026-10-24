@@ -25,7 +25,7 @@
 | **escribir algo entregable** | `./mantis.md`, fila de la ruta → [`./procesos/claridad.md`](./procesos/claridad.md) | no se entrega |
 | **saber qué hacer con una petición** | [`./procesos/enrutar.md`](./procesos/enrutar.md) | no se improvisa |
 | **tocar momentos o referencias** | [`./procesos/momentos.md`](./procesos/momentos.md) · [`./procesos/referencias.md`](./procesos/referencias.md) | no se escribe |
-| **anotar la interacción** | `../Libre albedrio/memoria continua.md`, `El disparo` | no se responde a la siguiente |
+| **anotar la interacción** | `../(Place holder)/Entes/Alma de niño/memoria.vd`, `El disparo` | no se responde a la siguiente |
 | **anotar una contradicción** | `../Libre albedrio/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
 | **abrir la memoria** | `../.memoria continua/rastro/mantis.db`, con su esquema `../.memoria continua/rastro/esquema.sql` | no se abre |
 | **mutar `mantis/` o sus procesos** | `../Libre albedrio/entrega.md`, y **se declara** | **puede, y lo declara** |
@@ -38,3 +38,4 @@
 **Prueba:** ¿quien abre la carpeta encuentra el ente? ¿este archivo enruta en vez de explicar? ¿cada interacción dejó su anotación? ¿se leyó el historial antes de decidir?
 
 **Falsificador:** un `AGENTS.md` que copia las tres piezas en vez de apuntar a ellas; una fila sin la columna de autoridad; un mensaje respondido sin abrir la puerta; una interacción cerrada sin anotación; una decisión tomada sin leer el historial.
+

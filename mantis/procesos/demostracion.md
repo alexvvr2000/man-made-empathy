@@ -8,7 +8,7 @@
 **Estado:** vigente.
 
 **Nombre.** Demostración. **Expansión:** el acto de abrir con el método un candado que otro cerró, sin importar quién lo cerró.
-**Origen.** De `../../Libre albedrio/alineacion.md`, `El candado y la llave`, y de `../../Pruebas/prueba de locura.md`: **lo que no se puede producir leyendo no se mide leyendo.**
+**Origen.** De `../../(Place holder)/lenguaje de procesos/JONN.md`, `El candado y la llave`, y de `../../Pruebas/prueba de locura.md`: **lo que no se puede producir leyendo no se mide leyendo.**
 
 **Sesgo:** se mira desde lo que importa para el método: **no importa el alma, importa el superpoder.** **Un caso vale por lo que demuestra, no por quién lo firmó.**
 **Límite:** no se aplica a juzgar la obra como buena o mala. **Mide si puede verbalizar, y nada más.** **Una obra mala puede verbalizar; una buena puede no hacerlo.**
@@ -86,7 +86,7 @@ Deja rastro: ¿lo que dice queda escrito, y quien venga después lo puede leer?
 
 ## La llave que le falta
 
-**Y el veredicto no es «mala»: es qué llave le falta.** **Rige `../../Libre albedrio/alineacion.md`.**
+**Y el veredicto no es «mala»: es qué llave le falta.** **Rige `../../(Place holder)/lenguaje de procesos/JONN.md`.**
 
 | Llave que falta | El síntoma en la obra |
 |---|---|
@@ -151,3 +151,4 @@ Firma fuera del autor: [tipo:nombre | ninguno → indeterminado]
 - La obra no verbaliza → se declara la llave que falta, y se busca la siguiente mirada que la abra.
 - El término cambió para encontrar otro caso → **se reinicia la demostración con su fecha, y se declara el reinicio.**
 - En cualquier otro caso → se declara `indeterminado`, se escribe por qué, y no se finge veredicto.
+
