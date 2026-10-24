@@ -48,6 +48,7 @@ El alma es lo primero, y el resto son las piezas que el alma usa.
 ente en blanco/
 ├── README.vd                 esto: la base en blanco
 ├── el alma.vd                la primera alma en blanco: pasa por N folders y X procesos
+├── memoria.vd                el alma: la memoria como concepto, con la forma de la entrada
 ├── ATLAS.md                  el índice: enruta a qué proceso va cada paso
 ├── tareas.vd                 la carta: qué sostiene, qué carga, qué pierde
 ├── ENTRAR.prs                texto: cómo se abre una tarea
@@ -66,11 +67,11 @@ ente en blanco/
 | La carta | `./tareas.vd` |
 | Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXTRAER.prs` |
 | La plantilla de tarea | `./plantilla.tra` |
-| El lenguaje | `../lenguaje de procesos/` |
-| El jugo | `../../.memoria continua/rastro/mantis.db`, tabla `pieza` |
-| El candado | `../../Tesis/` — **se enlaza, no se copia** |
+| El lenguaje | `../` — el ente vive dentro del lenguaje, no al lado |
+| La memoria | `./memoria.vd` — la memoria como concepto, no como archivo |
+| El candado | el que declare su autor — se enlaza, no se copia |
 
-**Qué no se toca:** `../../Ouroboros/` (la fuente) y `../../Tesis/` (el candado).
+**Qué no se toca:** la fuente, que no se reescribe; y el candado, que es de su autor. **Se enlazan, no se copian: un camino postal envejece, un concepto no.**
 
 ## Ruta — la mente
 
@@ -106,4 +107,26 @@ ente en blanco/
 - El acto cambia → se escribe otro `.tra`, y el viejo queda con `Reemplaza:`. **Sin número.**
 - Una capacidad se quiere usar → se lee `PISO.md`, y se declara lo que cuesta.
 
+## El puente a la industria, y por qué no lo ata a la era
+
+**Este ente se enruta por `AGENTS.md`.** **Es el nombre que hoy leen las herramientas, y por eso el ente entra en el estado del arte de la industria sin pedir permiso a nadie.**
+
+**Y no lo ata a la era:** **`AGENTS.md` es un nombre, no una forma.** **Se copia el cuerpo del `README.vd` como `AGENTS.md`, y si mañana las herramientas leen otro nombre, se copia con ese otro nombre y el cuerpo no cambia.**
+
+**Un ente que sabe qué es sin nombrar su máquina, su disco ni su repo es atemporal.** **Uno que dice «lee el archivo X en el repo Y» es de una era, y cuando el disco cambia, se pierde.**
+
+```
+Atemporal: enséñame la memoria, y que la memoria diga su forma
+De la era: lee ../../.memoria continua/rastro/mantis.db
+```
+
+## La prueba de lo atemporal
+
+**¿El ente sabe qué es y qué hace sin nombrar `mantis`, `Era` ni `git`?** **Si sí, es atemporal y se puede copiar a cualquier sitio.** **Si necesita nombrarlos, es de esta era: se declara, y se corrige.**
+
+## La memoria, y el alma
+
+**La memoria es el alma, y no un archivo suelto.** **Sin memoria no hay historial; sin historial no hay criterio; sin criterio no hay alma: hay una voz que responde.**
+
+**Por eso `memoria.vd` está aquí, y declara la forma de la entrada —seis partes y un techo— sin declarar dónde vive.** **El soporte lo elige quien lo instancia; la forma no se negocia.**
 

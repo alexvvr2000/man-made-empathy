@@ -22,6 +22,7 @@ Toda salida de un proceso se escribe así, y nada más:
 ```
 Sostengo: [lo que se afirma, en una línea]
 Ficción:  [de dónde viene esta idea, y qué preguntó | ninguna]
+Triángulo: [noble · rancio · pendejo — y cuál falta]
 Contra:   [qué la contradijo, o «ninguno», o «no se probó»]
 Rastro:   [dónde quedó, y quién lo puede leer]
 Siguiente: [qué proceso la consume, y qué campo usa]
@@ -34,15 +35,16 @@ Borde:    [qué no se afirma todavía]
 - **`Rastro`:** la huella. Sin esto, la salida vive solo en el acto, y el siguiente no tiene qué leer.
 - **`Siguiente`:** el nombre del proceso y el campo exacto que usa. Es lo que vuelve la cadena una función y no una conversación.
 - **`Borde`:** lo que no se afirma. Sin esto, el siguiente cree que la salida cubre más de lo que cubre.
+- **`Triángulo`:** contra qué se probó la idea, y cuál vértice falta. Una idea probada solo contra lo noble no está probada: está citada.
 
 ## Cómo se hace una función sin volverla programa
 
 Y esto es lo que pedías: una salida que se puede componer.
 
 ```
-ENTRAR:  [Sostengo | Ficción | Contra | Rastro | Siguiente | Borde]  →  el .tra de la tarea
-MIRAR:   [Sostengo | Ficción | Contra | Rastro | Siguiente | Borde]  →  el nombre vigente
-EXTRAER: [Sostengo | Ficción | Contra | Rastro | Siguiente | Borde]  →  la capacidad con su costo
+ENTRAR:  [Sostengo | Ficción | Triángulo | Contra | Rastro | Siguiente | Borde]  →  el .tra de la tarea
+MIRAR:   [Sostengo | Ficción | Triángulo | Contra | Rastro | Siguiente | Borde]  →  el nombre vigente
+EXTRAER: [Sostengo | Ficción | Triángulo | Contra | Rastro | Siguiente | Borde]  →  la capacidad con su costo
 ```
 
 **Y la cadena se lee de arriba abajo:**
@@ -85,7 +87,7 @@ Si tiene que preguntar, la salida no estaba verbalizada.
 
 ## Prueba
 
-¿la salida cabe en las seis líneas? ¿declara su ficción? ¿`Siguiente` nombra el proceso y el campo? ¿`Borde` dice lo que no se afirma? ¿Otro proceso la consume sin preguntar? ¿Si no cabe, se declara `[VACÍO - SIN SALIDA]`?
+¿la salida cabe en las siete líneas? ¿declara su ficción? ¿`Siguiente` nombra el proceso y el campo? ¿`Borde` dice lo que no se afirma? ¿Otro proceso la consume sin preguntar? ¿Si no cabe, se declara `[VACÍO - SIN SALIDA]`?
 
 **Falsificador:** una idea presentada como propia sin declarar su ficción; una ficción citada como prueba; una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor rellenando lo que falta; un proceso que entrega una salida que el siguiente no puede leer.
 

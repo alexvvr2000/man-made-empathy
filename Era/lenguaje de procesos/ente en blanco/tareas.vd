@@ -39,12 +39,12 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | La carta | `tareas.vd` | `./tareas.vd` |
-| El lenguaje | `LENGUAJE.md` · `PISO.md` | `../lenguaje de procesos/` — **se enlaza: el lenguaje no se copia** |
+| El lenguaje | `LENGUAJE.md` · `PISO.md` · `FORMATO.md` · `JONN.md` | `../` — el ente vive dentro del lenguaje |
 | Los procesos base | `ENTRAR.prs` · `MIRAR.prs` · `EXTRAER.prs` | `./` — **aquí mismo, en texto** |
-| El jugo | `pieza` (39 filas vivas) | `../../.memoria continua/rastro/mantis.db` |
-| El candado | `README.md` + `Pegamento.md` | `../../Tesis/` — **se enlaza, no se copia** |
+| La memoria | concepto, no archivo: vive donde el criterio diga | `./memoria.vd` |
+| El candado | el candado oficial, con su autor | donde su autor diga — se enlaza, no se copia |
 
-**Qué no se toca: `../../Ouroboros/` (la fuente) y `../../Tesis/` (el candado). Se leen; no se editan.**
+**Qué no se toca:** la fuente y el candado. **Se leen; no se editan: un concepto envejece con quien lo usa, un camino envejece con el disco.**
 
 **Cómo se verifica:**
 
@@ -99,5 +99,6 @@ Reabre si: alguien que no es la autoridad copia el folder y lo corre
 ¿La carpeta tiene carta, lenguaje y procesos? ¿Se copia y corre sin escribir nada? ¿La tarea se abre en varios `.prs`? ¿El nombre no lleva número? ¿El piso declara lo que falta? ¿El ente declara sus limitaciones?
 
 **Falsificador:** un folder que necesita procesos escritos a mano; una tarea de un solo proceso; un nombre numerado; un piso sin costo; un ente sin `Falta`; un ente que no declara lo que no sabe.
+
 
 
