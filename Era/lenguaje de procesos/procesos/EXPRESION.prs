@@ -14,19 +14,19 @@
 **Límite:** no decide si la salida es buena. **Decide si existe: qué sostiene, qué la contradijo, dónde quedó, y qué sigue.**
 **Firma:** humano:autoridad · máquina:quien la produzca.
 
-**Variables:** salida · sostengo · contra · huella · siguiente · borde
-**Peor:** la salida suena y no sostiene nada, **y el siguiente la completa: lo que falta lo inventa el consumidor, y la cadena se rompe sin que nadie lo note.**
+**Variables:** salida · sostengo · contra · huella · siguiente · borde · ficcion
+**Peor:** la salida suena y no sostiene nada, y encima **no dice de qué ficción viene la idea: la idea se presenta como propia y se vuelve una regla sin autor**, **y el siguiente la completa: lo que falta lo inventa el consumidor, y la cadena se rompe sin que nadie lo note.**
 **Quién:** el que lee la salida después y no sabe de dónde viene ni qué se afirmó.
 
 ## Entra | Falla | Sale | Consume
 
 - **Entra:** la salida cruda de un proceso, y el proceso que la produce.
 - **Falla si:** la salida es un relato; falta `Siguiente`; falta `Borde`; el consumidor rellena lo que no hay; la firma es de quien consumió.
-- **Sale:** la fila de cinco campos, **o `[VACÍO - SIN SALIDA]`**.
+- **Sale:** la fila de seis campos, **o `[VACÍO - SIN SALIDA]`**.
 - **Consume:** el siguiente proceso, y el que cuenta candados.
 
-**Prueba:** ¿la salida cabe en las cinco líneas? ¿`Siguiente` nombra el proceso y el campo? ¿`Borde` dice lo que no se afirma? ¿otro proceso la consume sin preguntar?
-**Falsificador:** una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor completando; una salida firmada por quien la consumió.
+**Prueba:** ¿la salida cabe en las seis líneas? ¿declara de qué ficción viene? ¿`Siguiente` nombra el proceso y el campo? ¿`Borde` dice lo que no se afirma? ¿otro proceso la consume sin preguntar?
+**Falsificador:** una idea presentada como propia sin declarar su ficción; una ficción citada como prueba; una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor completando; una salida firmada por quien la consumió.
 
 ## El proceso
 
@@ -37,8 +37,9 @@
 4. registrar   → Rastro: dónde quedó, y quién lo puede leer.
 5. señalar     → Siguiente: el proceso que la consume, y el campo que usa.
 6. emitir      → Borde: qué no se afirma todavía.
-7. nombrar     → si no cabe en las seis, se declara [VACÍO - SIN SALIDA] y no se entrega.
-Prohibido el paso 7 sin la salida de los pasos 2 a 6.
+6b. situar      → Ficción: de dónde viene esta idea (obra, caso, vecino, o «ninguna»), y qué preguntó.
+7. nombrar     → si no cabe en las siete, se declara [VACÍO - SIN SALIDA] y no se entrega.
+Prohibido el paso 7 sin la salida de los pasos 2 a 6b.
 ```
 
 ## La fila que emite
@@ -49,6 +50,7 @@ Contra:    [qué la contradijo]
 Rastro:    [dónde quedó]
 Siguiente: [proceso, campo]
 Borde:     [qué no se afirma]
+Ficción:   [de dónde viene esta idea, y qué preguntó | ninguna]
 ```
 
 ## Las dos preguntas que responde
@@ -76,3 +78,4 @@ Borde:     [qué no se afirma]
 - La salida no cabe → `[VACÍO - SIN SALIDA]`, y se declara qué falta.
 - Dos salidas se reducen a un solo `Sostengo` → **es un pegamento: se declara.**
 - Dos salidas no se reducen → **son varios: se declaran, y cada uno con su autor.**
+

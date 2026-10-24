@@ -21,6 +21,7 @@
 
 ```
 Sostengo: [lo que se afirma, en una línea]
+Ficción:  [de dónde viene esta idea, y qué preguntó | ninguna]
 Contra:   [qué la contradijo, o «ninguno», o «no se probó»]
 Rastro:   [dónde quedó, y quién lo puede leer]
 Siguiente: [qué proceso la consume, y qué campo usa]
@@ -28,6 +29,7 @@ Borde:    [qué no se afirma todavía]
 ```
 
 - **`Sostengo`:** la posición, no el relato. **Si no se puede citar, no es salida.**
+- **`Ficción`:** **de dónde viene la idea.** **Una obra, un caso, un vecino, o `ninguna`.** **No es la fuente: es lo que la hizo pensable.** **Un jugo sin ficción es una regla sin autor.**
 - **`Contra`:** lo que la movió. **`ninguno` es legítimo y se lee como «no se probó», no como «es cierta».**
 - **`Rastro`:** la huella. **Sin esto, la salida vive solo en el acto, y el siguiente no tiene qué leer.**
 - **`Siguiente`:** **el nombre del proceso y el campo exacto que usa.** **Es lo que vuelve la cadena una función y no una conversación.**
@@ -38,9 +40,9 @@ Borde:    [qué no se afirma todavía]
 **Y esto es lo que pedías: una salida que se puede componer.**
 
 ```
-ENTRAR:  [Sostengo | Contra | Rastro | Siguiente | Borde]  →  el .tra de la tarea
-MIRAR:   [Sostengo | Contra | Rastro | Siguiente | Borde]  →  el nombre vigente
-EXTRAER: [Sostengo | Contra | Rastro | Siguiente | Borde]  →  la capacidad con su costo
+ENTRAR:  [Sostengo | Ficción | Contra | Rastro | Siguiente | Borde]  →  el .tra de la tarea
+MIRAR:   [Sostengo | Ficción | Contra | Rastro | Siguiente | Borde]  →  el nombre vigente
+EXTRAER: [Sostengo | Ficción | Contra | Rastro | Siguiente | Borde]  →  la capacidad con su costo
 ```
 
 **Y la cadena se lee de arriba abajo:**
@@ -83,9 +85,11 @@ salida de MIRAR   ──(Siguiente: EXTRAER, campo Sostengo)──→  EXTRAER l
 
 ## Prueba
 
-**¿La salida cabe en las cinco líneas? ¿`Siguiente` nombra el proceso y el campo? ¿`Borde` dice lo que no se afirma? ¿Otro proceso la consume sin preguntar? ¿Si no cabe, se declara `[VACÍO - SIN SALIDA]`?**
+**¿la salida cabe en las seis líneas? ¿declara su ficción? ¿`Siguiente` nombra el proceso y el campo? ¿`Borde` dice lo que no se afirma? ¿Otro proceso la consume sin preguntar? ¿Si no cabe, se declara `[VACÍO - SIN SALIDA]`?**
 
-**Falsificador:** una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor rellenando lo que falta; un proceso que entrega una salida que el siguiente no puede leer.
+**Falsificador:** una idea presentada como propia sin declarar su ficción; una ficción citada como prueba; una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor rellenando lo que falta; un proceso que entrega una salida que el siguiente no puede leer.
+
+
 
 
 
