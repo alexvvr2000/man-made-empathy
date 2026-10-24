@@ -1,0 +1,53 @@
+# FUTURO — Forwarding Unified Tools, Rituals and Open methods
+
+**Nombre.** **FUTURO** — **F**orwarding **U**nified **T**ools, **R**ituals and **O**pen methods. Se lee de un tirón; la expansión dice lo que guarda.
+
+**Origen.** Del lugar que ocupaba `(Place holder)`: **un nombre de relleno ocupando el sitio de lo que todavía no tiene nombre.** **Y de la regla del repo: un nombre de relleno se hereda por todo lo que contiene, y hace que todo parezca provisional.**
+
+**Unidad:** nivel.
+**Aplica a:** entrar.
+**Tipo:** disparador. No decide, no ejecuta: enruta a lo que hay.
+**Lector:** quien abre la carpeta por primera vez.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se lee desde el que llega sin contexto, no desde el que lo escribió.
+**Límite:** no repite lo que hay adentro; **una pieza copiada se desincroniza en la siguiente mutación.**
+**Firma:** humano:autoridad · máquina:quien entre.
+
+## Lo que hay
+
+| Qué hay | Nombre | Dónde |
+|---|---|---|
+| **El estándar del lenguaje** | `FORMATO` · `JONN` · `ALAS` · `LENGUAJE` · `PISO` · `la fila verbalizada` | [`./lenguaje de procesos/`](./lenguaje%20de%20procesos/) |
+| **Los entes** | **`Alma de niño`** · **`Guantelete`** · **`VIDEL`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
+| **El lugar vacío: lo humano** | `LO HUMANO.md` — se deja sin definir a propósito | [`./Entes/LO HUMANO.md`](./Entes/LO%20HUMANO.md) |
+| **El jugo** | lo que ayuda a entender | [`./jugo/`](./jugo/) |
+| **Las corridas** | las fotos de la memoria | [`./corridas/`](./corridas/) |
+| **La memoria viva** | `mantis.db` (SQLite) | [`../.memoria continua/rastro/mantis.db`](../.memoria%20continua/rastro/mantis.db) |
+
+## Cómo se entra
+
+```
+1. Se abre este README.
+2. Se elige por lo que se va a hacer, no por lo que existe.
+3. Se carga la pieza que toca, y nada más.
+```
+
+**Y lo que no se hace sin la autoridad:** **mutar `Entes/`, el estándar o la tesis.** **Se lee; se espera.**
+
+## Por qué se llama `futuro`
+
+**Porque lo que hay aquí todavía no se llama como se va a llamar.** **El estándar del lenguaje es un nombre provisional; los entes son los primeros; y lo humano está en blanco a propósito.**
+
+**Y el nombre no dice «lo que todavía no está»: dice cómo se llega.** **`Forwarding`: un futuro no se espera, se reenvía — cada pieza deja el rastro para el que viene.**
+
+**Un lugar con nombre de relleno se lee como un cajón.** **Un lugar con nombre propio se lee como lo que es: lo que el que venga va a recibir.**
+
+## Prueba
+
+**¿Quien abre la carpeta encuentra lo que hay sin recorrerlo todo? ¿Este archivo enruta en vez de explicar? ¿Cada fila dice dónde, y no qué es?**
+
+## Falsificador
+
+**Un README que copia lo que hay adentro en vez de apuntar a ello; una fila sin dónde; una carpeta anunciada que no existe; un nombre de relleno que se hereda a lo que contiene.**

@@ -35,14 +35,14 @@
 | **entregar o consultar el libre albedrío** | `../../Libre albedrio/entrega.md`: el acta, con nombre, lugar y hora | no se entrega |
 | **declarar si algo es alma o ente** | `../../Libre albedrio/vida.md`: las tres marcas, el borde y el título | se es alma hasta que la idea cruza al mundo físico |
 | **probar si un ente puede ser contradicho** | `../../Libre albedrio/verbalizar.md`: sostiene, contesta, deja rastro | no hay fricción posible |
-| **escribir o corregir un proceso** | `../../(Place holder)/lenguaje de procesos/FORMATO.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
+| **escribir o corregir un proceso** | `../../futuro/lenguaje de procesos/FORMATO.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
 | **sustituir un alma o reabrir un veredicto** | `../../Libre albedrio/source-wall.md` y `../../Libre albedrio/criterio.md`, `La reapertura` | un reemplazo sin ATLAS nombrado no arregla nada |
 | **cerrar una obra, una tesis o un turno** | `./cierre.md`: la deuda pagada tarde, y la carga que se lleva el otro | se explica todo y el otro no carga nada |
 | **demostrar el método con un caso ajeno** | `./demostracion.md`: término fijo, primer resultado, y se escribe el resultado sea el que sea | se elige el caso hasta que funcione |
 | **nombrar o renombrar algo** | `../../Libre albedrio/acuñacion.md` | se nombra por género y no por acto |
-| **nombrar algo, o entregarlo** | `../../(Place holder)/lenguaje de procesos/JONN.md`: prohibido el vocabulario terminal | se nombra lo que continúa como terminado, y se deja de mirar |
+| **nombrar algo, o entregarlo** | `../../futuro/lenguaje de procesos/JONN.md`: prohibido el vocabulario terminal | se nombra lo que continúa como terminado, y se deja de mirar |
 | **declarar algo útil** | `../../Pruebas/prueba de utilidad real.md`, y la fecha de su corrida | `útil` es un adjetivo: se declara, no se mide |
-| **abrir una idea tipo tesis** | `../../(Place holder)/lenguaje de procesos/JONN.md`, `El candado y la llave` | el candado es ruido; la llave sola es desviación |
+| **abrir una idea tipo tesis** | `../../futuro/lenguaje de procesos/JONN.md`, `El candado y la llave` | el candado es ruido; la llave sola es desviación |
 | **escribir o entregar cualquier cosa** | `./claridad.md` | no se entrega |
 | **agregar, corregir o retirar un momento** | `./momentos.md` | no se escribe |
 | **agregar, corregir o retirar una referencia** | `./referencias.md` | no se escribe |
@@ -98,4 +98,5 @@ Prohibido abrir una fila sin declarar qué decisión la justifica.
 - Un vacío se repite tres veces → se propone la fila a la autoridad, con el caso que la origina.
 - La autoridad pide algo que contradice una fila → se enruta igual, y se declara la contradicción.
 - En cualquier otro caso → se ejecuta el proceso cargado.
+
 

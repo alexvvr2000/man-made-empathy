@@ -1,0 +1,61 @@
+# INVERTIR.prs — deducir un proceso de lo observable, sin llegar al aparato
+
+**Nombre.** INVERTIR — **I**ndagar, **N**ombrar, **V**er, **E**ntrar, **R**econocer, **T**irar, **I**r, **R**endir.
+**Origen.** Del primer guantelete, ingeniería inversa. **Y de la luz roja de la era: si al desmontar el aparato llegas al aparato y no al para qué, no hiciste ingeniería inversa: hiciste anatomía.**
+
+**Unidad:** proceso.
+**Aplica a:** invertir.
+**Tipo:** se ejecuta.
+**Lector:** quien tiene algo que funciona y no sabe por qué.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** un proceso se lee desde la tendencia que produce, no desde el nombre que se le pone.
+**Límite:** no decide si lo deducido es cierto. **Comprueba que lo deducido reproduce lo observable.**
+**Firma:** humano:autoridad · máquina:quien invierta.
+
+**Variables:** observable · para qué · proceso deducido · reproducción
+**Peor:** se describe el aparato pieza por pieza, **y se pierde el para qué: lo reproducido hereda la forma y no la razón.**
+**Quién:** quien va a usar el proceso deducido creyendo que es el mismo.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** algo que funciona, y lo observable de su comportamiento.
+- **Falla si:** no se declara el `para qué` antes de desmontar; lo deducido no reproduce nada observable; se presenta como el original; se llega al aparato y no al para qué.
+- **Sale:** el proceso deducido, con su `para qué` y su reproducción, **o `[ANATOMÍA - SIN PARA QUÉ]`**.
+- **Consume:** quien va a correr el proceso deducido.
+
+**Prueba:** ¿el `para qué` se declaró antes de la primera acción? ¿Lo deducido reproduce lo observable? ¿Se distingue lo deducido del original?
+**Falsificador:** una deducción que reproduce la forma y no el efecto; un `para qué` declarado después; anatomía presentada como ingeniería inversa.
+
+## El proceso
+
+```
+1. indagar     → qué hace, en lo observable, sin explicar todavía.
+2. nombrar     → el PARA QUÉ, antes de la primera acción.
+3. ver         → la tendencia: qué produce siempre y qué nunca.
+4. entrar      → desmontar hasta el para qué, no hasta la pieza.
+5. reconocer   → el proceso deducido, y su diferencia con el original.
+6. tirar       → si no reproduce lo observable, se descarta, y se anota.
+7. ir          → si reproduce, se declara como deducido, no como el original.
+8. rendir      → el para qué, la reproducción, y lo que no se pudo deducir.
+Prohibido el paso 3 sin el 2.
+```
+
+## La luz roja
+
+> **Si al desmontar el aparato llegas al aparato y no al para qué, no hiciste ingeniería inversa: hiciste anatomía.**
+
+**Y la anatomía no es inútil: es otro oficio.** **Lo que no puede hacer es pasar por ingeniería inversa, porque lo que se reproduce sin el para qué hereda la forma y pierde la razón.**
+
+## Lo que este proceso no hace
+
+**No garantiza que lo deducido sea el original.** **Reproduce lo observable, y se declara como deducido.**
+
+**No juzga el aparato.** **Lo lee.**
+
+## Transiciones
+
+- Reproduce lo observable → se declara deducido, y se usa con esa marca.
+- No reproduce → se descarta, y se anota el porqué.
+- Se llegó al aparato y no al para qué → `[ANATOMÍA - SIN PARA QUÉ]`, y no se entrega como proceso.
