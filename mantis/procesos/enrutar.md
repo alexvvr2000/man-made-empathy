@@ -31,6 +31,7 @@
 | Si se va a… | Se carga | Sin la autoridad… |
 |---|---|---|
 | **decidir algo, antes de decidir** | `../../Libre albedrio/criterio.md`, `El criterio autónomo`, y el historial en la memoria | no se decide: se enruta |
+| **entregar o consultar el libre albedrío** | `../../Libre albedrio/entrega.md`: el acta, con nombre, lugar y hora | no se entrega |
 | **declarar si algo es alma o ente** | `../../Libre albedrio/vida.md`: las tres marcas, el borde y el título | se es alma hasta que la idea cruza al mundo físico |
 | **probar si un ente puede ser contradicho** | `../../Libre albedrio/verbalizar.md`: sostiene, contesta, deja rastro | no hay fricción posible |
 | **escribir o corregir un proceso** | `../../Libre albedrio/formato de proceso.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
