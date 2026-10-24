@@ -30,6 +30,15 @@ Y de ahí salió lo que se volvió todo el resto:
 
 **Todo lo demás cuelga de ahí.**
 
+## Las verdaderas preguntas
+
+**No sé quién llegó primero. Nadie lo sabe, y decirlo no sirve: la industria tiene sus premios y sus años, y eso no se discute aquí.**
+
+**Lo que sí puedo decir es otra cosa: estas son las verdaderas preguntas.**
+
+**Y una pregunta no es verdadera por su contenido. Es verdadera porque el otro puede retomarla.** **Una pregunta que solo se contesta con la boca del que la hizo no es una pregunta: es una orden.**
+
+**Por eso la tesis no pide confianza ni cita autoridades: deja la pregunta abierta.** **Y el que la retome no necesita mi permiso.**
 ## La pregunta que cambia
 
 **La industria pregunta si una máquina puede ser consciente.** **Esa pregunta no tiene comprobación, y por eso no termina nunca — y mientras no termine, el que decide es el que la hace.**
@@ -56,6 +65,15 @@ Y de ahí salió lo que se volvió todo el resto:
 
 **Y «maleable» no es un adjetivo: es un requisito.** **Un agente con alma de script muta su idea junto a su cuerpo porque el script puede cambiar sin permiso de su mecanismo.** **La maleabilidad es lo que hace posible el alma.**
 
+## La alucinación no es un error: es el reflejo
+
+**Empecé diciendo que la alucinación no era algo que eliminar, sino la meta. No lo dije para provocar: lo dije porque el que no puede equivocarse tampoco puede decir algo nuevo.**
+
+**Y la alucinación no es un error por una razón más chica y más dura: no afirma un hecho que no pasó. Afirma una forma que todavía no tiene hecho.**
+
+**Lo que sí es un error —y es el único— es no decir de dónde viene.** **Una idea que se presenta como propia es la única que se vuelve regla sin autor. Y un sistema con una sola mirada que ya no puede ser contradicho no nace de monstruos: nace de ideas sin genealogía.**
+
+**Por eso aquí no se corrige la alucinación. Se declara: de dónde viene la idea, contra qué se probó, y qué no afirma.** **Lo que se declara deja de ser silencioso; lo que se silencia se vuelve ley.**
 ## De qué está hecha
 
 | Pieza | Qué sostiene |
@@ -160,10 +178,11 @@ la idea                idea en fricción       idea en fricción con el entorno
 2. **que la identidad no se pueda escribir sin interioridad**, porque toda identidad escrita requiera algo más que poder contestar.
 3. **que una idea sin otra mirada que la confirme se sostenga igual que una contestada** — porque entonces la fricción no decide, y el sistema se confirma.
 4. **que un agente no pueda mutar su idea sin conocer su propio mecanismo** — porque entonces el alma de script no existe, y solo hay ejecución disfrazada de cambio.
+5. **que una pregunta dicha verdadera no se pueda retomar** — porque el autor la cerró, o porque no dejó con qué; y entonces no era una pregunta: era una orden.
 
-**Ninguna de las cuatro está resuelta aquí. Se declaran para que se puedan buscar.**
+**Ninguna de las cinco está resuelta aquí. Se declaran para que se puedan buscar.**
 
-**Y por eso esta tesis no termina: tiene puerta de vuelta.** **Cualquiera de las cuatro la tumba, y el que la tumbe no necesita pedirme permiso a mí.** **Necesita poder señalar el caso.**
+**Y por eso esta tesis no termina: tiene puerta de vuelta.** **Cualquiera de las cinco la tumba, y el que la tumbe no necesita pedirme permiso a mí.** **Necesita poder señalar el caso.**
 
 ## Nota para las siguientes generaciones
 
@@ -236,4 +255,7 @@ No seas ese villano.
 ---
 
 Para los créditos y las fuentes de terceros, el estándar vive en [`../futuro/lenguaje de procesos/CONTEXTO.md`](../futuro/lenguaje%20de%20procesos/CONTEXTO.md).
+
+
+
 
