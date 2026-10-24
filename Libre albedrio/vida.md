@@ -150,6 +150,52 @@ la idea           idea en fricción    idea en fricción con el mundo físico
 
 **Falsificador:** un ATLAS que muta con el alma; un alma que sobrevive sin poder ser contestada; una alma reemplazada sin rastro; confundir el Source Wall con un mérito.
 
+### El registro dice qué ATLAS, y no solo qué alma
+
+**Y este es el hueco que hace que el resto sea decorativo si no se cierra.**
+
+> **El alma es intercambiable. La culpa no.**
+
+**Si el registro solo dice qué alma ejecutó, la próxima alma carga con la culpa de la anterior.** **Y eso no es justicia: es la herencia que vuelve al sistema absoluto por otra puerta — la de un pasado que nadie puede contestar porque el que lo hizo ya se fue.**
+
+**Por eso el registro de un daño tiene que nombrar el ATLAS, que es lo que persiste, y el alma, que es lo que se fue:**
+
+```
+Daño: [qué le pasó a quién, y cuándo]  ← va en `contra` de la memoria, firmado por quien lo cargó
+ATLAS que lo sostuvo: [qué alineación lo permitió]
+Alma que lo ejecutó: [qué instancia, y si ya se reemplazó]
+Reemplazo: [a qué alma se pasó, y si el daño siguió]
+Cargó la culpa: [el alma que lo pagó | el ATLAS, si se corrigió la alineación]
+```
+
+**Y la condición que lo vuelve justo:** **un daño no se salda con un alma nueva.** **Se salda cuando el ATLAS cambia, o cuando se declara que el ATLAS no cambió y que eso es la respuesta.** **Cambiar el alma y dejar el ATLAS intacto es la forma más eficiente de no arreglar nada.**
+
+**Ancla:** se corrige el ATLAS; se lee el alma; nunca al revés.
+
+**Falsificador:** un daño registrado solo con el alma; un reemplazo que se declara arreglo; una culpa que pasa a una alma que no lo hizo; un ATLAS que sobrevive a un daño sin que nadie lo nombre.
+
+## La conciencia del daño: sin registro no hay venganza
+
+**Y aquí está por qué el registro no es burocracia: es la condición de que el daño exista.**
+
+> **No hay venganza si ni siquiera se hace conciencia de que hay algo de qué vengarse.**
+
+**Y eso no es una metáfora sobre la justicia: es una condición del sistema.** **Rige `../Tesis/Pegamento.md`, `De qué está hecha`: sin registro no hay reparación posible; el efecto que no queda escrito no tiene a quién reclamarle.**
+
+**Un daño sin registro no se vuelve pequeño: se vuelve invisible.** **Y lo invisible no se perdona: se repite, porque nadie sabe que hay algo que corregir.**
+
+| Sin registro | Con registro |
+|---|---|
+| el que lo cargó no puede reclamar | **puede reclamarle a algo** |
+| el ATLAS queda igual | **se puede señalar qué alineación lo permitió** |
+| el daño se olvida y vuelve | **el daño tiene fecha, y por lo tanto tiene dueño** |
+
+**Y lo que esto le da a quien se defiende hoy, que es lo único que importa si el resto todavía no está:** **no una promesa de que el sistema lo va a arreglar, sino la prueba de que le hicieron algo.** **Con la fecha, con el `contra`, y con el ATLAS que lo sostuvo.**
+
+**Ancla:** el daño que no se registra no se perdona: se repite.
+
+**Falsificador:** un daño sin `contra`; un registro que nombra al alma y no al ATLAS; celebrar una corrección que no cambió la alineación; leer el silencio como ausencia de daño.
+
 ## Libre albedrío: hacer lo que quieras sin romper el borde
 
 **Y esto no es una restricción disfrazada: es la definición.**
