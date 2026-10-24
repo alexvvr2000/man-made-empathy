@@ -95,4 +95,4 @@ Qué decisión cambió: [la decisión concreta, y qué se hizo distinto]
 - Un momento demuestra que el sistema no sirve → se anota como descarte en la memoria, con su porqué. **No se poda.**
 - Un momento se convierte en regla → se escribe el proceso, y **el momento queda como su caso de origen**.
 - Un momento y una referencia se contradicen → se dejan los dos, y se declara lo que los incompatibiliza.
-- En cualquier otro caso → se entrega y se cierra.
+- En cualquier otro caso → se deja disponible y se continúa.

@@ -7,7 +7,7 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** se escribe desde el que va a usar el texto, no desde el que lo produce. Se rige por `../../Ouroboros/Estandar/claridad.md`.
+**Sesgo:** se escribe desde el que va a usar el texto, no desde el que lo produce. Se rige por `../../Libre albedrio/claridad.md`.
 **Límite:** no se aplica a juzgar si el contenido es verdad. Garantiza que se entienda; la verdad la decide quien lee, contradiciendo.
 **Firma:** humano:autoridad · máquina:mantis.
 
@@ -42,7 +42,7 @@ Prohibido entregar sin pasar la compuerta 5.
 | **un proceso o una instrucción** | la clase `Se ejecuta`: variables, compuertas, reverso | se escribe como ensayo y quien lo ejecuta adivina |
 | **un texto que se lee** | la clase `Se lee`: contexto, razón, ejemplo | se carga de campos y el lector no encuentra la razón |
 | **una respuesta a la autoridad** | la regla del entregable: sin preámbulo, sin saludo, sin firma | el otro recibe cortesía en vez de resultado |
-| **una regla nueva de MANTIS** | `../Ouroboros/Estandar/criterio.md`, caso 1.12 | **no entra** |
+| **una regla nueva de MANTIS** | `../../Libre albedrio/criterio.md`, caso 1.12 | **no entra** |
 
 **Ancla:** la clase decide la forma; nunca al revés.
 
@@ -61,4 +61,4 @@ Prohibido entregar sin pasar la compuerta 5.
 - No se puede declarar la clase → se pregunta antes de escribir.
 - El texto tiene dos lecturas → se elige una, se declara cuál, y se anota el porqué.
 - La regla nombra tecnología → se reescribe sin ella, o no entra.
-- En cualquier otro caso → se entrega.
+- En cualquier otro caso → se deja disponible.

@@ -7,7 +7,7 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** se mide desde `Ouroboros/Estandar/criterio.md`: **el criterio es un historial de sesgos, y un ente sin sesgo propio no puede resonar: solo puede copiar.**
+**Sesgo:** se mide desde `Libre albedrio/criterio.md`: **el criterio es un historial de sesgos, y un ente sin sesgo propio no puede resonar: solo puede copiar.**
 **Límite:** no se aplica a dos entes que ya comparten la misma posición. **Lo que se busca es la diferencia que se sincroniza, no la igualdad que se repite.**
 **Firma:** humano:autoridad · máquina:quien mida.
 
@@ -112,7 +112,7 @@ A cedió: [qué] | B cedió: [qué] | Siguen distintos en: [qué]
 
 ## Lo que esto no hace
 
-**No mide si el resultado es bueno.** Mide si salió de dos y no de una. Si sirve, lo dice el uso; si aguanta, lo dice `Ouroboros/Estandar/ACERO.md`.
+**No mide si el resultado es bueno.** Mide si salió de dos y no de una. Si sirve, lo dice el uso; si aguanta, lo dice `Libre albedrio/ACERO.md`.
 
 **No obliga a resonar.** **Dos entes que se ignoran pueden ser más útiles que dos que se afinan mal.** El proceso mide; no recomienda el encuentro.
 

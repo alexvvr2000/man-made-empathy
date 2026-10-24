@@ -25,8 +25,8 @@
 | **escribir algo entregable** | `./mantis.md`, fila de la ruta → [`./procesos/claridad.md`](./procesos/claridad.md) | no se entrega |
 | **saber qué hacer con una petición** | [`./procesos/enrutar.md`](./procesos/enrutar.md) | no se improvisa |
 | **tocar momentos o referencias** | [`./procesos/momentos.md`](./procesos/momentos.md) · [`./procesos/referencias.md`](./procesos/referencias.md) | no se escribe |
-| **anotar la interacción** | `../Ouroboros/Estandar/memoria continua.md`, `El disparo` | no se responde a la siguiente |
-| **anotar una contradicción** | `../Ouroboros/Estandar/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
+| **anotar la interacción** | `../Libre albedrio/memoria continua.md`, `El disparo` | no se responde a la siguiente |
+| **anotar una contradicción** | `../Libre albedrio/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
 | **abrir la memoria** | `../.memoria continua/rastro/mantis.db`, con su esquema `../.memoria continua/rastro/esquema.sql` | no se abre |
 | **mutar `mantis/`, la tesis u `Ouroboros/`** | el estándar entero, y se espera | **no se toca** |
 

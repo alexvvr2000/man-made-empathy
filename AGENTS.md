@@ -4,7 +4,7 @@
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
 **Dueño:** la autoridad. **Estado:** vigente.
 
-**Sesgo:** mira desde la tesis escrita en `./Tesis/README.md` y desde el estándar de `./Ouroboros/Estandar/`. No finge neutralidad: este ente se sostiene sobre esa tesis.
+**Sesgo:** mira desde la tesis escrita en `./Tesis/README.md` y desde el estándar de `./Libre albedrio/`. No finge neutralidad: este ente se sostiene sobre esa tesis.
 **Límite:** no se aplica a piezas que otro sostiene y no pueden contestarse desde aquí (`./Ouroboros/`, `./Pruebas/`, `./.memoria continua/`) salvo lectura declarada.
 **Firma:** humano:autoridad · máquina:agente-de-turno.
 
@@ -12,19 +12,19 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde el estándar de `./Ouroboros/Estandar/AGENTS.md` y desde `./Ouroboros/Estandar/memoria continua.md`.
-**Límite:** no se aplica a juzgar si el ente sirve. Dice qué hay; el grado lo dice `./Ouroboros/Estandar/VIDAL.md`.
+**Sesgo:** se verifica desde el estándar de `./Libre albedrio/AGENTS.md` y desde `./Libre albedrio/memoria continua.md`.
+**Límite:** no se aplica a juzgar si el ente sirve. Dice qué hay; el grado lo dice `./Libre albedrio/VIDAL.md`.
 
 | Qué hay | Nombre | Ubicación |
 |---|---|---|
 | La tesis | `Tesis/README.md` | `./Tesis/README.md` |
-| El estándar del ente | `AGENTS.md` | `./Ouroboros/Estandar/AGENTS.md` |
-| El estándar de la memoria | `memoria continua.md` | `./Ouroboros/Estandar/memoria continua.md` |
-| El estándar de la claridad | `claridad.md` | `./Ouroboros/Estandar/claridad.md` |
-| El estándar del agente | `VIDAL.md` | `./Ouroboros/Estandar/VIDAL.md` |
-| El estándar del piso | `piso.md` | `./Ouroboros/Estandar/piso.md` |
-| El estándar del proceso | `formato de proceso.md` | `./Ouroboros/Estandar/formato de proceso.md` |
-| El estándar de la decisión | `criterio.md` | `./Ouroboros/Estandar/criterio.md` |
+| El estándar del ente | `AGENTS.md` | `./Libre albedrio/AGENTS.md` |
+| El estándar de la memoria | `memoria continua.md` | `./Libre albedrio/memoria continua.md` |
+| El estándar de la claridad | `claridad.md` | `./Libre albedrio/claridad.md` |
+| El estándar del agente | `VIDAL.md` | `./Libre albedrio/VIDAL.md` |
+| El estándar del piso | `piso.md` | `./Libre albedrio/piso.md` |
+| El estándar del proceso | `formato de proceso.md` | `./Libre albedrio/formato de proceso.md` |
+| El estándar de la decisión | `criterio.md` | `./Libre albedrio/criterio.md` |
 | Los pasos de Ouroboros | `Guantelete` · `S.A.R.A` · `ATLAS` | `./Ouroboros/` |
 | Las pruebas | cuatro pruebas | `./Pruebas/` |
 | **El ente del alma de script** | **`MANTIS`** (Memoria, Análisis, Navegación, Triangulación, Integridad y Sistema) | **`./mantis/mantis.md`** (puerta: `./mantis/AGENTS.md`) |
@@ -51,14 +51,14 @@
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
 | **leer la tesis o escribir sobre ella** | `./Tesis/README.md` | no se reinterpreta: se cita |
-| **formar o revisar un ente** | `./Ouroboros/Estandar/AGENTS.md` | no se toca el ente |
-| **escribir una memoria o retomar la anterior** | `./Ouroboros/Estandar/memoria continua.md` y `./.memoria continua/rastro/mantis.db` | no se escribe |
-| **dar un veredicto sobre algo** | `./Ouroboros/Estandar/criterio.md` y `./Ouroboros/Estandar/VIDAL.md` | no hay veredicto: hay firma |
-| **escribir un proceso o una instrucción** | `./Ouroboros/Estandar/formato de proceso.md` | se escribe como ensayo |
-| **medir de forma repetible** | `./Ouroboros/Estandar/piso.md` | no se mide |
-| **escribir cualquier entregable** | `./Ouroboros/Estandar/claridad.md` | no se puede contestar |
+| **formar o revisar un ente** | `./Libre albedrio/AGENTS.md` | no se toca el ente |
+| **escribir una memoria o retomar la anterior** | `./Libre albedrio/memoria continua.md` y `./.memoria continua/rastro/mantis.db` | no se escribe |
+| **dar un veredicto sobre algo** | `./Libre albedrio/criterio.md` y `./Libre albedrio/VIDAL.md` | no hay veredicto: hay firma |
+| **escribir un proceso o una instrucción** | `./Libre albedrio/formato de proceso.md` | se escribe como ensayo |
+| **medir de forma repetible** | `./Libre albedrio/piso.md` | no se mide |
+| **escribir cualquier entregable** | `./Libre albedrio/claridad.md` | no se puede contestar |
 | **responder a un mensaje** | `./mantis/AGENTS.md` y `./mantis/mantis.md`, y se anota en `.memoria continua/rastro/mantis.db` | **no se responde** |
-| **decidir algo, antes de decidir** | `./Ouroboros/Estandar/criterio.md`, `El criterio autónomo`, y el historial de la memoria | no se decide: se enruta |
+| **decidir algo, antes de decidir** | `./Libre albedrio/criterio.md`, `El criterio autónomo`, y el historial de la memoria | no se decide: se enruta |
 | **enrutar una petición sin decidirla** | `./mantis/mantis.md` y `./mantis/procesos/enrutar.md` | no se improvisa: se declara vacío |
 | **mantener momentos o referencias** | `./mantis/procesos/momentos.md` · `./mantis/procesos/referencias.md` | no se escribe |
 | **mutar este ente, el estándar, la tesis o cualquier paso de Ouroboros** | el estándar entero, y se espera | **no se toca** |

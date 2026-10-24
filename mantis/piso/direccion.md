@@ -7,7 +7,7 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** se mide desde `../../Ouroboros/Estandar/piso.md`, `La dirección`: **`Ouroboros/` es la fuente; el estándar muta a MANTIS; nadie muta hacia arriba.**
+**Sesgo:** se mide desde `../../Libre albedrio/piso.md`, `La dirección`: **`Ouroboros/` es la fuente; el estándar muta a MANTIS; nadie muta hacia arriba.**
 **Límite:** no se aplica a juzgar si MANTIS decide bien. Mide si está enrutado contra el estándar vigente, y nada más.
 **Firma:** humano:autoridad · máquina:quien corra la unidad.
 
@@ -17,7 +17,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** `Ouroboros/Estandar/` y `mantis/`, tal como están ahora.
+- **Entra:** `Libre albedrio/` y `mantis/`, tal como están ahora.
 - **Falla si:** hay archivos de `Ouroboros/` modificados después de la última corrida, o MANTIS cita un estándar que ya cambió.
 - **Sale:** `pasa | falla | indeterminado`, con el porqué por archivo.
 - **Consume:** quien decide si MANTIS se despliega.
@@ -75,4 +75,4 @@ pwsh -NoProfile -File mantis/piso/direccion.ps1
 - Da `falla` por citas rotas → se realinea MANTIS, y se vuelve a correr.
 - Da `falla` por mutación hacia arriba → se revierte en `Ouroboros/`, y se anota con su `contra`.
 - Da `indeterminado` → se declara así, y no se finge que pasó.
-- En cualquier otro caso → se anota la corrida y se cierra.
+- En cualquier otro caso → se anota la corrida y se continúa.

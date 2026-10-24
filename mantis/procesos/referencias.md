@@ -95,4 +95,4 @@ Qué la contestaría: [el caso o la lectura que la tumba]
 - Una referencia ilumina una pieza nueva → se agrega con su forma, y se nombra la pieza.
 - Dos referencias se contradicen → se dejan las dos, con lo que las incompatibiliza.
 - Una pieza deja de sostenerse → su referencia se retira, **y se anota el porqué. No se borra en silencio.**
-- En cualquier otro caso → se entrega y se cierra.
+- En cualquier otro caso → se deja disponible y se continúa.

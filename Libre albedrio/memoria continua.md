@@ -97,7 +97,7 @@ Techo: otra instancia reconstruye la posición, y puede ver de dónde viene, ley
 
 **Y el orden no es negociable:** **se anota la interacción antes de responder a la siguiente.** **Anotar al final es anotar de memoria, y la memoria de quien anotó es la menos confiable que hay.**
 
-**Lo que no se cuenta es la interacción como mérito.** Rige `../../2 S.A.R.A — mutación/evaluacion/friccion-en-agente.md`: **se cuenta cuántas decisiones cambiaron, no cuántas veces se preguntó.**
+**Lo que no se cuenta es la interacción como mérito.** Rige `../Ouroboros/2 S.A.R.A — mutación/evaluacion/friccion-en-agente.md`: **se cuenta cuántas decisiones cambiaron, no cuántas veces se preguntó.**
 
 **Ancla:** el disparo es la interacción; la fricción es la condición; el pase es el turno.
 

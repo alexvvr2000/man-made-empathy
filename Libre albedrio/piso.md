@@ -42,6 +42,28 @@
 
 **Falsificador:** **un archivo de `Ouroboros/` mutado por MANTIS o por una unidad**; una unidad que edita el ente que mide; un ente que se declara enrutado sin que ninguna unidad lo compruebe después de una mutación del estándar; un atraso que se descubre por la pregunta de alguien y no por una corrida.
 
+## El estándar no nombra su propia carpeta
+
+**Y esta es la regla que hace que el estándar sobreviva a su mudanza.**
+
+> **El estándar declara su relación con el ente, no su dirección postal.**
+
+**Una carpeta muda.** **Y cuando muda, lo que cita rutas rotas no queda mal: queda atrasado, y su atraso se confunde con un error de contenido.**
+
+**Y eso ya ocurrió dos veces:** **los estándares nacieron dentro de `Ouroboros/`, mudaron a la raíz, y después a `Libre albedrio/`.** **Cada mudanza rompió las citas de MANTIS, y la unidad las encontró todas — pero solo porque la unidad estaba corriendo.** **Una mudanza sin unidad que la mida es una mudanza que se descubre en el tercer error.**
+
+| Dónde se nombra la ruta | Quién la declara |
+|---|---|
+| **en el estándar** | nadie: **el estándar no sabe dónde vive** |
+| **en el ente** | el ente, en su rastro: **ahí sí, y en un solo lugar** |
+| **en la unidad** | la unidad, en su entrada, y se cambia cuando muda |
+
+**Y la razón de fondo, que es la misma de `La dirección`:** **una ruta es una comodidad de una era, no una condición de la forma.** **El estándar dice *qué tiene que pasar*; el ente dice *dónde se lee hoy*.**
+
+**Ancla:** el estándar dice qué; el ente dice dónde.
+
+**Falsificador:** un estándar que cita la carpeta donde vive; un ente que guarda la ruta del estándar en más de un lugar; una unidad con la ruta del estándar escrita a mano sin declararlo.
+
 ## El rastro: las cuatro condiciones
 
 **Sin las cuatro, es un script: sirve, pero no es unidad.**

@@ -1,5 +1,5 @@
 # direccion.ps1 — mide si MANTIS esta enrutado contra el estandar vigente
-# Forma: Ouroboros/Estandar/piso.md, La direccion y El rastro.
+# Forma: Libre albedrio/piso.md, La direccion y El rastro.
 # Sale: 0 = pasa | 1 = falla | 2 = indeterminado. Siempre imprime el porque.
 #
 # Limite declarado: mide citas y fechas, no el sentido de las secciones.
@@ -7,7 +7,7 @@
 
 $ErrorActionPreference = 'Stop'
 $raiz = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
-$estandar = Join-Path $raiz 'Ouroboros/Estandar'
+$estandar = Join-Path $raiz 'Libre albedrio'
 $mantis   = Join-Path $raiz 'mantis'
 
 $fallas = @()
@@ -43,7 +43,7 @@ if ($gitSeguro) { Diag 'ok' 'Ouroboros/ limpio y sin archivos mas nuevos que la 
 $cartas = @(Get-ChildItem $mantis -Recurse -File -Filter *.md)
 $citas = @{}
 foreach ($c in $cartas) {
-    foreach ($m in [regex]::Matches((Get-Content $c.FullName -Raw), 'Estandar/([^`"\)\s]+\.md)')) {
+    foreach ($m in [regex]::Matches((Get-Content $c.FullName -Raw), 'Libre albedrio/([^`"\)\s]+\.md)')) {
         $citas[$m.Groups[1].Value] = $true
     }
 }
@@ -51,8 +51,8 @@ if ($citas.Count -eq 0) { $fallas += 'MANTIS no cita ningun estandar: no hay enr
 $rotas = 0
 foreach ($cit in ($citas.Keys | Sort-Object)) {
     $p = Join-Path $estandar $cit
-    if (Test-Path $p) { Diag 'ok' "cita resuelve: Estandar/$cit" }
-    else { $fallas += "cita rota: Estandar/$cit no existe"; Diag 'falla' "cita rota: Estandar/$cit" }
+    if (Test-Path $p) { Diag 'ok' "cita resuelve: Libre albedrio/$cit" }
+    else { $fallas += "cita rota: Libre albedrio/$cit no existe"; Diag 'falla' "cita rota: Libre albedrio/$cit" }
     if (-not (Test-Path $p)) { $rotas++ }
 }
 
@@ -70,9 +70,60 @@ if ($fallas.Count -eq 0) { Diag 'ok' "carta cubre los $($todos.Count) estandares
 # --- 4. Nadie de abajo muto hacia arriba ----------------------------------
 foreach ($e in (Get-ChildItem $estandar -File -Filter *.md)) {
     $firma = Select-String -Path $e.FullName -Pattern 'mantuvo MANTIS|MANTIS muta' -SimpleMatch
-    if ($firma) { $fallas += "Ouroboros/Estandar/$($e.Name) declara que MANTIS muta hacia arriba"; Diag 'falla' "mutacion hacia arriba: $($e.Name)" }
+    if ($firma) { $fallas += "Libre albedrio/$($e.Name) declara que MANTIS muta hacia arriba"; Diag 'falla' "mutacion hacia arriba: $($e.Name)" }
 }
 Diag 'ok' 'nadie de abajo declara mutar hacia arriba'
+
+# --- 5. El estandar no nombra su propia carpeta ---------------------------
+# Rige Libre albedrio/piso.md, `El estandar no nombra su propia carpeta`.
+# Un estandar que cita su propia ubicacion se rompe en la siguiente mudanza.
+# Se excluye la forma historica: `Libre albedrio/` y `Libre albedrio/` sueltos en
+# prosa narran una mudanza; lo prohibido es la ruta que se resuelve al leer.
+$sueltos = 0
+foreach ($e in (Get-ChildItem $estandar -File -Filter *.md)) {
+    $txt = Get-Content $e.FullName -Raw
+    $porCarpeta = [regex]::Matches($txt, '\.\./Libre albedrio/|`\./Libre albedrio/').Count
+    if ($porCarpeta -gt 0) {
+        $sueltos += $porCarpeta
+        Diag 'aviso' "nombra su carpeta: $($e.Name) ($porCarpeta citas)"
+    }
+}
+if ($sueltos -eq 0) { Diag 'ok' 'ningun estandar resuelve una ruta a su propia carpeta' }
+else { $indet += "$sueltos cita(s) de carpeta en los estandares: se rompen en la proxima mudanza" }
+
+# --- 6. Los estandares no citan archivos que ya no existen -----------------
+# Una cita a la tesis o a un estandar que no resuelve es una mentira por ruta:
+# el nombre se dice, y el acto que promete no esta. Rige Libre albedrio/verbalizar.md.
+$rotasEstandar = 0
+foreach ($e in (Get-ChildItem $estandar -File -Filter *.md)) {
+    foreach ($m in [regex]::Matches((Get-Content $e.FullName -Raw), '`(\.\./[^`]+\.md)`')) {
+        $rel = $m.Groups[1].Value
+        $p = [System.IO.Path]::GetFullPath((Join-Path $e.DirectoryName $rel))
+        if (-not (Test-Path $p)) {
+            $rotasEstandar++
+            $fallas += "cita muerta en Libre albedrio/$($e.Name): $rel"
+            Diag 'falla' "cita muerta: $($e.Name) -> $rel"
+        }
+    }
+}
+if ($rotasEstandar -eq 0) { Diag 'ok' 'ningun estandar cita un archivo que no existe' }
+
+# --- 7. Todo el repo: ninguna cita relativa muerta -------------------------
+# El fallo de la mudanza no estaba solo en los estandares: MANTIS citaba rutas
+# con un nivel de menos y nadie lo veia. Se mide lo mismo sobre el ente.
+$rotasEnte = 0
+foreach ($c in (Get-ChildItem $raiz -Recurse -File -Filter *.md | Where-Object {
+        $_.FullName -notmatch '\\\.memoria continua\\|\\\.git\\' })) {
+    foreach ($m in [regex]::Matches((Get-Content $c.FullName -Raw), '`(\.\.?/[^`]+\.md)`')) {
+        $p = [System.IO.Path]::GetFullPath((Join-Path $c.DirectoryName $m.Groups[1].Value))
+        if (-not (Test-Path $p)) {
+            $rotasEnte++
+            $fallas += "cita muerta en $($c.Name): $($m.Groups[1].Value)"
+            Diag 'falla' "cita muerta: $($c.Name) -> $($m.Groups[1].Value)"
+        }
+    }
+}
+if ($rotasEnte -eq 0) { Diag 'ok' 'ningun documento del repo cita un archivo relativo que no existe' }
 
 # --- Veredicto -------------------------------------------------------------
 # Lo roto manda sobre lo indeterminado: una cita muerta es una falla cierta,

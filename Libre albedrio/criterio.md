@@ -73,7 +73,7 @@
 
 **Lo que esto no hace, y hay que declararlo:** **el historial no da verdad.** **Nadie sabe qué es verdad: solo se puede sesgar hacia la utilidad, y ver qué pasa cuando otro desde otra posición contradice.** **Un criterio que se presenta como verdad dejó de ser historial: se volvió absoluto.**
 
-**Y el sesgo se declara antes de decidir, no después.** **Un sesgo declarado después de decidir es ornamental, y el ornamental se ve en que nunca cambia una decisión.** Rige `../../1 Guantelete — primitivo/extensiones/sesgo-declarado.md`, `Sesgo ornamental`.
+**Y el sesgo se declara antes de decidir, no después.** **Un sesgo declarado después de decidir es ornamental, y el ornamental se ve en que nunca cambia una decisión.** Rige `../Ouroboros/1 Guantelete — primitivo/extensiones/sesgo-declarado.md`, `Sesgo ornamental`.
 
 **Falsificador de la autonomía:** un criterio que decide siempre igual sin leer su historial; un sesgo declarado después de decidir; un historial sin un solo `Contra`; una decisión que no se puede repetir sin el que la tomó.
 
@@ -146,7 +146,7 @@ Sin él: [qué vuelve a preguntarse]
 
 **Cuando no hay fricción, el criterio no se carga, y se declara:** **no hay criterio que aplicar, y actuar sin él es seguir la costumbre con permiso del silencio.**
 
-**Y esto es lo que separa el criterio de la interacción.** Rige `../../2 S.A.R.A — mutación/evaluacion/friccion-en-agente.md`: **la fricción se prueba con un cambio de decisión, no con una interacción.** **Se cuenta cuántas decisiones cambiaron, no cuántas veces se preguntó.**
+**Y esto es lo que separa el criterio de la interacción.** Rige `../Ouroboros/2 S.A.R.A — mutación/evaluacion/friccion-en-agente.md`: **la fricción se prueba con un cambio de decisión, no con una interacción.** **Se cuenta cuántas decisiones cambiaron, no cuántas veces se preguntó.**
 
 **Ancla:** el disparo es la fricción; la prueba es el cambio de decisión.
 

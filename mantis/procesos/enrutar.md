@@ -30,17 +30,22 @@
 
 | Si se va a… | Se carga | Sin la autoridad… |
 |---|---|---|
-| **decidir algo, antes de decidir** | `../../Ouroboros/Estandar/criterio.md`, `El criterio autónomo`, y el historial en la memoria | no se decide: se enruta |
-| **escribir o corregir un proceso** | `../../Ouroboros/Estandar/formato de proceso.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
+| **decidir algo, antes de decidir** | `../../Libre albedrio/criterio.md`, `El criterio autónomo`, y el historial en la memoria | no se decide: se enruta |
+| **declarar si algo es alma o ente** | `../../Libre albedrio/vida.md`: las tres marcas, el borde y el título | se es alma hasta que la idea cruza al mundo físico |
+| **probar si un ente puede ser contradicho** | `../../Libre albedrio/verbalizar.md`: sostiene, contesta, deja rastro | no hay fricción posible |
+| **escribir o corregir un proceso** | `../../Libre albedrio/formato de proceso.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
+| **nombrar algo, o entregarlo** | `../../Libre albedrio/alineacion.md`: prohibido el vocabulario terminal | se nombra lo que continúa como terminado, y se deja de mirar |
+| **declarar algo útil** | `../../Pruebas/prueba de utilidad real.md`, y la fecha de su corrida | `útil` es un adjetivo: se declara, no se mide |
+| **abrir una idea tipo tesis** | `../../Libre albedrio/alineacion.md`, `El candado y la llave` | el candado es ruido; la llave sola es desviación |
 | **escribir o entregar cualquier cosa** | `./claridad.md` | no se entrega |
 | **agregar, corregir o retirar un momento** | `./momentos.md` | no se escribe |
 | **agregar, corregir o retirar una referencia** | `./referencias.md` | no se escribe |
 | **guardar una posición, corregirla o cerrar turno** | `../mantis.md`, `Memoria continua` | no se escribe en la memoria |
-| **saber si MANTIS sigue vivo** | `../../Ouroboros/Estandar/VIDAL.md` | no hay veredicto |
-| **saber si lo que se hizo resistió** | `../../Ouroboros/Estandar/ACERO.md`: la función, la fricción y las cuatro propiedades | no se declara ACERO |
-| **decidir si algo es costumbre o criterio** | `../../Ouroboros/Estandar/criterio.md`, `La costumbre tiene dueño` | se sigue repitiendo sin poder decir por qué |
+| **saber si MANTIS sigue vivo** | `../../Libre albedrio/VIDAL.md` | no hay veredicto |
+| **saber si lo que se hizo resistió** | `../../Libre albedrio/ACERO.md`: la función, la fricción y las cuatro propiedades | no se declara ACERO |
+| **decidir si algo es costumbre o criterio** | `../../Libre albedrio/criterio.md`, `La costumbre tiene dueño` | se sigue repitiendo sin poder decir por qué |
 | **poner dos entes a trabajar juntos** | `../../Ouroboros/2 S.A.R.A — mutación/evaluacion/resonancia-de-alma.md` | no se juntan: se duplica el costo de dos que hacen de uno |
-| **recibir una contradicción** | `../../Ouroboros/Estandar/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
+| **recibir una contradicción** | `../../Libre albedrio/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
 | **decidir entre dos caminos** | nada: **se enruta a la autoridad** | no se decide |
 | **esperar la mirada que falta** | `../mantis.md`, `Criterio`: **se deja escrito qué falta** | no se espera el sello |
 | **tocar la tesis** | `../../Tesis/Pegamento.md`, y se espera | no se toca |
