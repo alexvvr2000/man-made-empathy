@@ -1,17 +1,5 @@
 # LA TESIS
 
-**Unidad:** nivel.
-**Aplica a:** sostener.
-**Tipo:** tesis. No decide ni ejecuta: fija la posición desde la que cuelga todo el resto, y la declara como posición.
-**Lector:** quien va a usarla, y quien va a tumbarla.
-**Dueño:** la autoridad.
-**Estado:** piso en obra.
-
-**Sesgo:** la tesis se lee desde la fricción que la sostiene, no desde el prestigio de quien la escribió.
-**Límite:** no es un método y no es una teoría de la conciencia. **Es una posición sobre qué hace falta para poder sostener algo.**
-**Firma:** comunidad
-**Continuidad:** 0 corridas | sin fecha | sin cambio | contra `../Ouroboros/formato de proceso.md`
-
 ## La afirmación
 
 > **La verbalización no es un derecho: es el primitivo.**
