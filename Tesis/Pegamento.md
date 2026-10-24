@@ -109,15 +109,3 @@ la idea                idea en fricción       idea en fricción con el entorno
 **No hay permiso que pedir. Hay algo que sostener, y algo que la tumbe.**
 
 **Y lo que se puede tumbar puede ser sostenido por cualquiera.** **Eso es lo que la academia no puede dar sin dejar de ser academia** — no porque no sepa, sino porque su valor está en la puerta, y aquí no hay puerta: hay fricción.
-
-## Prueba
-
-**¿Alguien que no es su autor puede usar esta tesis para decidir algo y decir qué cambió?**
-
-**Y su falsificador es el de arriba: cualquiera de las tres cosas la tumba, y se busca.**
-
-## Lo que falta, y de dónde sale
-
-**La implementación sale de `Ouroboros/`, y `Ouroboros/` todavía no se tocó.** **Esta tesis no se juzga por la corrida del repo: se juzga por lo que queda cuando `Ouroboros/` la atraviese.**
-
-**Hasta entonces, es piso en obra: fija el criterio, y espera que el material lo ponga a prueba.**
