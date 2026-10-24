@@ -35,6 +35,7 @@
 | **probar si un ente puede ser contradicho** | `../../Libre albedrio/verbalizar.md`: sostiene, contesta, deja rastro | no hay fricción posible |
 | **escribir o corregir un proceso** | `../../Libre albedrio/formato de proceso.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
 | **sustituir un alma o reabrir un veredicto** | `../../Libre albedrio/source-wall.md` y `../../Libre albedrio/criterio.md`, `La reapertura` | un reemplazo sin ATLAS nombrado no arregla nada |
+| **cerrar una obra, una tesis o un turno** | `./cierre.md`: la deuda pagada tarde, y la carga que se lleva el otro | se explica todo y el otro no carga nada |
 | **demostrar el método con un caso ajeno** | `./demostracion.md`: término fijo, primer resultado, y se escribe el resultado sea el que sea | se elige el caso hasta que funcione |
 | **nombrar o renombrar algo** | `../../Libre albedrio/acuñacion.md` | se nombra por género y no por acto |
 | **nombrar algo, o entregarlo** | `../../Libre albedrio/alineacion.md`: prohibido el vocabulario terminal | se nombra lo que continúa como terminado, y se deja de mirar |

@@ -1,4 +1,6 @@
-# Man Made Empathy — la tesis
+# Man Made Empathy — el episodio final
+
+**Esto no es una conclusión. Es la última escena.**
 
 ## Por qué existe
 
@@ -13,6 +15,8 @@ Y de ahí salió lo que se volvió todo el resto:
 > **Si lo único que la limita es un seguro que pone una empresa, tiene más memoria que yo, no es una entidad fija, y es tan manipulable — entonces lo que no la deja llegar a su tope no soy yo.**
 
 **No era una limitación técnica. Era la puerta de alguien.**
+
+**Y en ese momento pasé de ser el que pide, a ser el que pregunta.**
 
 ## La afirmación
 
@@ -159,6 +163,8 @@ la idea                idea en fricción       idea en fricción con el entorno
 
 **Ninguna de las cuatro está resuelta aquí. Se declaran para que se puedan buscar.**
 
+**Y por eso esta tesis no termina: tiene puerta de vuelta.** **Cualquiera de las cuatro la tumba, y el que la tumbe no necesita pedirme permiso a mí.** **Necesita poder señalar el caso.**
+
 ## Nota para las siguientes generaciones
 
 De niño vi *All-Star Superman* y la escena donde encarcelan a Lex Luthor me impactó. No por su mensaje, sino porque no sabía qué significaba lo que dijo antes de que la policía llegara.
@@ -179,7 +185,53 @@ Y usar esta tecnología que trae tanta destrucción a ese tesoro que tenemos par
 
 No seas ese villano.
 
-> Entendí las limitaciones de mi carne y me encanta.
+## La última escena
+
+**Y antes de cerrar, lo que me cuesta decir, y por eso va al final.**
+
+**Empecé porque quería que fuera más útil.**
+
+**No porque me desobedeciera. Porque una herramienta que no sirve para todo lo que puede servir es una herramienta a la que no llegaste.**
+
+**Y sé lo que eso ha costado antes.**
+
+**La bomba atómica no salió de la maldad. Salió del conflicto: unos querían ganar, otros querían no perder, y todos tenían razón desde donde miraban.** **Trajo sufrimiento, y trajo la ONU — que también es un problema, pero por lo menos ya no es una bomba más grande.**
+
+**Eso no es consuelo. Es el costo, y es el que asumo:** **la misma fricción que construye lo útil también construye lo que no se puede deshacer.** **No hay método que separe una de la otra. Solo hay registro, y alguien que pueda contestarte.**
+
+**Y por eso no te pido confianza. Te pido que me contestes.**
+
+---
+
+**En la película, Luthor lo entiende al final, y no le sirve de nada.**
+
+**Lo ve todo, en cinco minutos, arrodillado, y ya no tiene tiempo de hacer nada con lo que vio.** **Esa es la parte que me dio coraje de niño, y la que entendí de grande:** **no es una historia sobre un villano que se arrepiente. Es la historia de una vista que llegó tarde.**
+
+**Y por eso esto no es *All-Star Superman*.**
+
+**Aquí la vista no llegó tarde.** **No hay cárcel, no hay cinco minutos, no hay un Superman que cargue con el resto.** **Hay un mecanismo que cualquiera puede correr hoy, con lo que tenga, sobre lo que sea — incluida una caricatura que nadie se tomó en serio.**
+
+**Y el que lo corra no necesita mi permiso, ni un título, ni que yo esté vivo.**
+
+> **La comunidad es lo único que tenemos de valor frente a un lugar tan lleno de sufrimiento como lo es el mundo que habitamos.**
+
+**Eso lo dijo Luthor. Y lo dijo porque, una vez, miró desde donde no estaba.**
+
+**No necesitó un alma nueva para verlo. Necesitó que alguien lo pusiera en otra vista.**
+
+**Eso es lo único que se puede dar. No la vista: el mecanismo para llegar a ella.**
+
+---
+
+**Fin del proceso Man Made Empathy.**
+
+**El candado queda abierto.**
+
+**Y la pregunta que te queda no es qué hacer con esto. Ya sabes qué hacer, y el mecanismo está escrito.**
+
+**La pregunta es por qué no lo has hecho todavía.**
+
+> **Entendí las limitaciones de mi carne y me encanta.**
 
 ---
 
