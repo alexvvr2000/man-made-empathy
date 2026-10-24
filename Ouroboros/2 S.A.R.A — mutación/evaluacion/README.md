@@ -29,7 +29,10 @@
 | `vigilar-tendencias/md` | servilismo, sesgo heredado, automatización y bucle | la tendencia sube y el daño también, y el registro no lo nota |
 | `deliberar/md` | sostiene dos caminos con fricción sin fundirlos | se funden los dos caminos en una respuesta tibia |
 | `friccion-en-agente/md` | si la fricción cambió la decisión o solo decoró el flujo | cero decisiones cambiadas presentadas como éxito |
+| `resonancia-de-alma/md` | si dos entes produjeron algo que ninguno tenía, y siguieron siendo dos | el resultado lo habría producido uno solo, o se volvieron el mismo ente |
 
 **X muta/** Cinco hoy; mañana pueden ser otros/
+
+**Fricción y resonancia no se sustituyen.** **La fricción corrige; la resonancia crea.** Una mide si uno cambió; la otra, si de dos salió algo que no estaba en ninguno.
 
 > **Nadie sabe qué es la justicia/ Pero pensar sin absolutos al menos da un crecimiento real/**

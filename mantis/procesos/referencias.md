@@ -1,0 +1,98 @@
+# Referencias — cómo MANTIS las mantiene
+
+**Unidad:** proceso.
+**Aplica a:** mantener.
+**Tipo:** se ejecuta. Mantiene `../../Tesis/referencias/` **dentro de su forma**: no la cambia, la aplica.
+**Lector:** MANTIS, y la autoridad que revisa lo que MANTIS escribió.
+**Dueño:** la autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se escribe desde el que va a buscar de dónde salió una pieza, no desde el que quiere lucir la fuente.
+**Límite:** no se aplica a decidir si una obra ilumina algo. **`Qué pieza sostiene` lo decide; MANTIS solo verifica que exista.**
+**Firma:** humano:autoridad · máquina:mantis.
+
+**Variables:** referencia · pieza · contestación · atribución.
+**Peor:** una referencia entra sin `Qué la contestaría`, **se vuelve doctrina**, y todo lo que cuelga de ella pierde la forma de ser tumbado sin que nadie lo note, porque una cita bien puesta parece rigurosidad.
+**Quién:** la autoridad, y quien intente contradecir una pieza que se apoya en ella.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** una obra, un caso o una persona, y qué pieza del sistema ilumina.
+- **Falla si:** no dice qué pieza sostiene; no dice qué la contestaría; se presenta una cita de segunda mano como fuente primaria.
+- **Sale:** el archivo de la referencia con sus cuatro campos, o `[NO ENTRA — qué falta]`.
+- **Consume:** quien busca de dónde salió una pieza, y la autoridad.
+
+**Prueba:** ¿cada referencia dice de quién es? ¿nombra la pieza que sostiene? ¿declara qué la contestaría? ¿ninguna se presenta como medición?
+
+**Falsificador:** una referencia sin pieza; una sin qué la contesta; una cita de segunda mano presentada como primaria; un caso de ficción usado como evidencia; una heredada presentada como propia.
+
+## Las compuertas
+
+```
+1. [de quién es] → el campo `De quién`: autoridad | autor | heredada: quién
+2. [lo que dice, sin interpretarla] → el campo `Qué dice`
+3. [qué pieza sostiene] → el campo `Qué pieza sostiene`
+4. [el caso o la lectura que la tumba] → el campo `Qué la contestaría`
+5. [el lugar: raíz o subcarpeta] → el archivo
+6. [el índice] → la fila en `index.md`
+Prohibido escribir la compuerta 6 sin la 4.
+```
+
+**Ancla:** sin `Qué la contestaría` no hay referencia; hay un ídolo.
+
+## Los cuatro campos, y no uno más
+
+```
+De quién: [autoridad | autor | heredada: quién]
+Qué dice: [la referencia, sin interpretarla]
+Qué pieza sostiene: [qué proceso o tesis se apoya en ella]
+Qué la contestaría: [el caso o la lectura que la tumba]
+```
+
+**`De quién` es atribución, no cortesía.** Lo que trajo la autoridad es su lectura del mundo; lo que trae MANTIS es una fuente que se cita y **no se presenta como propia**.
+
+**`N5`, cuando aplica.** Una cita de segunda mano se declara `N5` con su fecha de corte, y no se presenta como fuente primaria. Rige `../../Ouroboros/2 S.A.R.A — mutación/evidencia/nivel-de-fuente.md`.
+
+| Regla de la carpeta | Cómo la aplica MANTIS |
+|---|---|
+| **una referencia no es una medición: es una factura ya cobrada** | se cita; **nunca se presenta como prueba** |
+| **la ficción dice qué falló en un mundo que no existe** | se lee entera sin costo; **no pasa por evidencia** |
+| **la subcarpeta nace con tres archivos** | antes de tres, a la raíz |
+| **el nombre dice qué comparten** | se declara en un renglón al crear la subcarpeta |
+| **la raíz solo admite README, index y _PLANTILLA** | MANTIS no crea otro archivo suelto en la raíz |
+| **las entradas se escriben de una en una** | no se llenan diez de golpe por completitud |
+
+**Ancla:** el título, solo, no es una referencia.
+
+## El índice y la plantilla
+
+**La carpeta deja leer sin recorrerla.** Si no hay `index.md`, se crea con una fila por referencia y la pieza que sostiene; si no hay `_PLANTILLA`, se crea con los cuatro campos y nada más.
+
+**Una referencia declarada sin archivo se marca `[SIN ENTRADA]`.** No se cuenta como escrita: **contarla como escrita es cómo diez referencias quedan sin entrada para siempre.**
+
+**Ancla:** una fila sin archivo detrás se declara falta, no presencia.
+
+| Se va a… | Se carga… | Sin la autoridad… |
+|---|---|---|
+| **agregar una referencia** | este archivo, compuertas 1 a 6 | no se escribe |
+| **corregir una referencia** | la entrada anterior en `../.memoria continua/rastro/mantis.db`, y se suplanta | no se edita el archivo en silencio |
+| **retirar una referencia** | la transición de abajo, y su porqué | no se borra: se anota por qué |
+| **crear una subcarpeta** | la regla de los tres, y se declara qué comparten | no se crea |
+| **cambiar la forma del folder** | `../../Tesis/referencias/README.md` y la autoridad | **no se toca** |
+
+## Lo que MANTIS no hace
+
+**No inventa referencias.** Una obra que no existe no sostiene nada.
+**No interpreta en `Qué dice`.** La interpretación va en `Qué pieza sostiene`, y se declara.
+**No presenta la ficción como evidencia.** Es el falsificador de la carpeta, y no tiene excepción.
+
+**Prueba:** ¿el archivo tiene los cuatro campos? ¿está en el índice con su pieza? ¿alguna fila `[SIN ENTRADA]` se contó como escrita?
+
+**Falsificador:** una referencia con un campo de más; una heredada presentada como propia; un índice que cuenta lo declarado como escrito.
+
+## Transiciones
+
+- Una referencia ilumina una pieza nueva → se agrega con su forma, y se nombra la pieza.
+- Dos referencias se contradicen → se dejan las dos, con lo que las incompatibiliza.
+- Una pieza deja de sostenerse → su referencia se retira, **y se anota el porqué. No se borra en silencio.**
+- En cualquier otro caso → se entrega y se cierra.

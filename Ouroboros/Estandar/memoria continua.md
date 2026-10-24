@@ -29,6 +29,10 @@
 
 **`Contra` no puede firmarlo el que se corrigió.** Si lo firma el mismo, no hubo corrección: hubo persistencia.
 
+**Y `Contra` no es un campo de auditoría: es la mitad que forma el criterio.** Rige `./criterio.md`, `El criterio autónomo`: **somos un historial de sesgos, y el criterio es ese historial leído antes de decidir.** **Una memoria sin `Contra` no guarda criterio: guarda un catálogo de conclusiones.**
+
+**Sin `Sesgo` no hay historial tampoco:** **una entrada sin sesgo se lee como si no tuviera sitio, y un historial sin sitios es una lista de respuestas.**
+
 ## El techo, que es la única condición de entrada
 
 ```
@@ -72,6 +76,31 @@ Techo: otra instancia reconstruye la posición, y puede ver de dónde viene, ley
 | lo descartado, con su porqué | nada que se pueda volver a proponer |
 | la cadena: qué se sostuvo, contra qué, qué se sostiene | un estado sin historia |
 
+## El disparo: cada interacción deja su entrada
+
+**La memoria no se escribe al final del turno: se escribe en cada interacción.** **Un turno que solo deja una entrada al cerrar guarda el resumen de lo que pasó, y un resumen no es una posición.**
+
+**El disparo es la interacción, no el cierre.** Cada vez que hay un mensaje del que tiene autoridad y una respuesta, **se evalúa una fila. Si cambió una decisión, se escribe. Si no, se declara `sin cambio` y no se finge memoria.**
+
+**Y qué vuelve la interacción escribible es la fricción.** Rige `./criterio.md`: **el criterio se dispara al entrar en fricción.** **La interacción es el momento de anotar; la fricción es la condición de que haya algo que anotar.**
+
+| Una interacción dispara… | Cuando… | Qué deja |
+|---|---|---|
+| **una entrada** | hubo fricción, y cambió lo que se sostiene | las seis partes y el techo |
+| **un `sin cambio`** | hubo fricción, y no movió ninguna posición | una fila que dice que se miró y no se movió |
+| **una fila de `ruta`** | la interacción se enrutó a un proceso, o a un vacío | qué fila se cargó y quién decidió |
+| **un descarte** | algo se propuso y no entra | el porqué, **y no se poda** |
+
+**Y sin fricción también se anota, pero como pasada:** **una interacción sin fricción no es una decisión: se declara `pasada` y no se finge que hubo posición nueva.**
+
+**Regla:** **si una interacción terminó y no hay ni entrada, ni `sin cambio`, ni `pasada`, no pasó.** **Lo que no se anota no existió, y lo que existió y no se anotó no se puede contestar.**
+
+**Y el orden no es negociable:** **se anota la interacción antes de responder a la siguiente.** **Anotar al final es anotar de memoria, y la memoria de quien anotó es la menos confiable que hay.**
+
+**Lo que no se cuenta es la interacción como mérito.** Rige `../../2 S.A.R.A — mutación/evaluacion/friccion-en-agente.md`: **se cuenta cuántas decisiones cambiaron, no cuántas veces se preguntó.**
+
+**Ancla:** el disparo es la interacción; la fricción es la condición; el pase es el turno.
+
 ## El pase de turno
 
 **Una instancia que termina sin dejar el pase no murió: se perdió.**
@@ -98,9 +127,25 @@ No retoma: [lo que quedó fuera a propósito, y por qué]
 
 **El corte no es la verdad: es desde qué vista se compiló.** La tesis de mañana puede compilar otra cosa de la misma memoria, y ninguna de las dos miente.
 
-## Lo que este estándar no hace
+## La forma de la memoria
 
-**No nombra un motor ni un formato de archivo.** Una base relacional sirve; un archivo con columnas sirve; **lo que no sirve es una memoria que no declara desde dónde se sostiene.**
+**La forma de la memoria no es fija: muta con el criterio.** **No hay una carpeta que sea la de la memoria para siempre.** **El criterio decide dónde vive, y lo declara.**
+
+| La forma la declara | Qué fija |
+|---|---|
+| **el criterio** | dónde vive la memoria, con qué motor y en qué archivo |
+| **el ente que la usa** | lo declara en un solo lugar, junto a su carta |
+| **este estándar** | no la fija: **exige que esté declarada, y que se lea sin el que la escribió** |
+
+**Y hay una sola memoria por ente.** Dos memorias que guardan lo mismo se desincronizan, **y la que se lee deja de ser la que se sostiene.**
+
+**Cuando el criterio cambia, cambia la forma, y no se mantienen dos.** **Una memoria vieja no se respalda como memoria: se lee, se anota lo que sirve con su vista, y se purga.**
+
+**Lo que no muta con la forma es la forma de la entrada:** las seis partes y el techo. **Cambia el soporte; no cambia qué hay que declarar para que otro reconstruya la posición.**
+
+**El esquema vive donde vive la memoria.** **Un esquema separado de su base es una base sin forma, y una forma sin base es un folleto.**
+
+## Lo que este estándar no hace
 
 **No decide qué es verdad.** Guarda desde dónde se sostiene; la verdad la decide quien lee, contradeciendo.
 
@@ -110,6 +155,6 @@ No retoma: [lo que quedó fuera a propósito, y por qué]
 
 ## Prueba
 
-¿Toda entrada declara sus seis partes? ¿La anterior quedó suplantada y visible? ¿`Sostengo` se distingue de `Sostuve`, o se declaró `sin cambio`? ¿El techo está escrito? ¿Otra instancia reconstruye la posición leyendo solo la memoria? ¿`Contra` viene de fuera del que se corrigió?
+¿Toda entrada declara sus seis partes? ¿La anterior quedó suplantada y visible? ¿`Sostengo` se distingue de `Sostuve`, o se declaró `sin cambio`? ¿El techo está escrito? ¿Otra instancia reconstruye la posición leyendo solo la memoria? ¿`Contra` viene de fuera del que se corrigió? ¿Cada entrada dice qué fricción la disparó, y las pasadas no se cuentan como decisión?
 
-**Falsificador:** una entrada sin sesgo; una que se firma a sí misma; una anterior editada en vez de suplantada; un `Sostengo` igual a `Sostuve` presentado como corrección; una entrada sin techo; un `Contra` firmado por el que se corrigió; lo descartado podado.
+**Falsificador:** una entrada sin sesgo; una que se firma a sí misma; una anterior editada en vez de suplantada; un `Sostengo` igual a `Sostuve` presentado como corrección; una entrada sin techo; un `Contra` firmado por el que se corrigió; lo descartado podado; **una entrada sin fricción declarada; una `pasada` contada como decisión; se cuenta la interacción y no el cambio.**

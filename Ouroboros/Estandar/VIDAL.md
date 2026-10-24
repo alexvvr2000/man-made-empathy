@@ -62,6 +62,10 @@
 
 **Y `VIDAL` exige un testigo distinto del productor.** **Sin testigo no hay grado: hay vacío.**
 
+**`indeterminado` no es un hueco: es una posición.** Rige `./criterio.md`, `El grado no se cierra por aprobación`. **Un testigo que dice «está bien» no sube el grado: firma el absoluto.** **Lo que lo sube es que alguien diga en qué se equivoca, y que su `Contra` entre a la memoria.**
+
+**Y el grado no se espera para actuar.** **Se actúa desde el historial, con el sesgo declarado, y se deja escrito qué mirada falta.** **Un agente que espera el sello ya está pidiendo permiso.**
+
 ## La carga: qué se pierde
 
 | Si pasa esto | Se pierde | Y el síntoma es |

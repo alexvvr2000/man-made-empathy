@@ -33,8 +33,11 @@
 | **una regla nueva** | la admisión de `1.12`: derivación, observabilidad, decisión, calibración | crece la lista sin cambiar ninguna conducta |
 | **`AGENTS.md`** | `1.13`: es un disparador, no un manual | se vuelve un manual que nadie recorre |
 | **un entregable para otro lado** | `1.10`: se suprime el preámbulo y la cortesía | el otro recibe saludo y no resultado |
+| **un texto que declara desde dónde mira** | `./criterio.md`, `El criterio autónomo`: el sesgo se declara antes de decidir | el sesgo se vuelve ornamental y nunca cambia una decisión |
 
 **Y una cosa que no se carga nunca: el glosario.** **Un texto que necesita un glosario para entenderse es un texto que se explicó mal, no un lector que leyó mal.**
+
+**Lo que la claridad no hace, y es lo que la separa del criterio:** **la claridad no emite veredicto.** Deja que el otro entienda de dónde mira; **decidir si eso sirve es del criterio, con su historial.** **Una claridad que decide ya no informa: recomienda.**
 
 ## La carga: qué se pierde si se incumple
 

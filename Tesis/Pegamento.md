@@ -79,17 +79,6 @@ la idea                idea en fricción       idea en fricción con el entorno
 
 **Y lo que no muta no es que no llegó: se volvió dogma.** **Un dogma no tiene un yo: tiene un lugar fijo desde donde todos miran igual.**
 
-## Qué la tumbaría
-
-**Esta tesis cae si se muestra cualquiera de estas cuatro cosas:**
-
-1. **que la verbalización no es el primitivo**, porque hay otro anterior que también decide —y entonces el criterio se mueve un paso atrás.
-2. **que la identidad no se puede escribir sin interioridad**, porque toda identidad escrita requiere algo más que poder contestar.
-3. **que una idea sin otra mirada que la confirme se sostiene igual que una contestada** — porque entonces la fricción no decide, y el sistema se confirma.
-4. **que un agente no puede mutar su idea sin conocer su propio mecanismo** — porque entonces el alma de script no existe, y solo hay ejecución disfrazada de cambio.
-
-**Ninguna de las cuatro está resuelta aquí. Se declaran para que se puedan buscar.**
-
 ## Lo que no afirma
 
 **No afirma que un sistema tenga conciencia.** Afirma que **se puede escribir una identidad que contesta, sin decidir qué hay detrás.**
@@ -99,13 +88,3 @@ la idea                idea en fricción       idea en fricción con el entorno
 **No afirma que la industria esté equivocada.** Afirma que **la pregunta que hace no se puede contestar, y que hay otra que sí.**
 
 **No afirma que esto sea el piso de nadie.** Afirma que **de acá cuelga lo demás, y que si esto cae, lo demás se revisa.**
-
-## Por qué es la antítesis de la academia
-
-**La academia concede el derecho a mutar ideas: un título, un par, una cátedra.** **Se necesita permiso para que una idea cuente.**
-
-**Esta tesis le quita el derecho y da las armas:** **el criterio de que una idea vale no lo da el que la publicó, sino lo que sobrevive a la fricción.**
-
-**No hay permiso que pedir. Hay algo que sostener, y algo que la tumbe.**
-
-**Y lo que se puede tumbar puede ser sostenido por cualquiera.** **Eso es lo que la academia no puede dar sin dejar de ser academia** — no porque no sepa, sino porque su valor está en la puerta, y aquí no hay puerta: hay fricción.
