@@ -1,6 +1,12 @@
 # Tesis
 
-**La tesis vive en [`./Pegamento.md`](./Pegamento.md). Este archivo solo lleva hasta ella y a sus dos casas.**
+**Esta carpeta tiene un candado y tres visiones.** Entra por donde quieras: cada carpeta dice desde dónde mira.
+
+| Carpeta | Qué guarda | Quién entra |
+|---|---|---|
+| `vision del autor/` | el candado oficial: `Pegamento.md`. La tesis entera, en la voz del que la escribió | quien quiere saber qué se sostiene, y desde dónde |
+| `vision de la maquina/` | cómo ve la máquina desde el candado: qué carga, qué contesta y qué no puede afirmar | quien va a hacer que una máquina lo sostenga |
+| `vision del lector/` | cómo ve el que lee: qué se lleva, qué pregunta, y qué lo tumba | quien va a contestarlo |
 
 **Unidad:** nivel.
 **Aplica a:** entrar.
@@ -10,25 +16,29 @@
 **Estado:** vigente.
 
 **Sesgo:** se lee desde el que llega sin contexto, no desde el que escribió.
-**Límite:** no repite la tesis; **una pieza copiada se desincroniza en la siguiente mutación.**
+**Límite:** no repite la tesis; una pieza copiada se desincroniza en la siguiente mutación.
 **Firma:** humano:autoridad · máquina:quien entre.
-
-| Se va a… | Se abre… | Sin la autoridad… |
-|---|---|---|
-| **leer qué afirma esta tesis, y qué la tumbaría** | [`./Pegamento.md`](./Pegamento.md) | no se cita de memoria: se abre |
-| **ver una vez que se creyó algo y algo lo cambió** | [`./momentos/`](./momentos/README.md) | no se escribe |
-| **ver una obra que provocó una pregunta** | [`./referencias/`](./referencias/README.md) | no se escribe |
-| **declarar desde dónde mira el autor, el lector o la máquina** | [`./Sesgo declarado/`](./Sesgo%20declarado/README.md): las tres partes | se declara uno y no los tres |
-| **seguir una pregunta que abrió un candado** | `./preguntas/` — **todavía vacía**, y se declara | no se crea |
-| **contestar la tesis** | `../Libre albedrio/criterio.md`, `La reapertura`: toda idea deja qué la abre | no se contesta sin condición |
-| **ver el mecanismo funcionando sobre algo mundano** | `../mantis/procesos/demostracion.md` | no se elige el caso a conveniencia |
 
 **Lo que la tesis afirma, en una línea, para que quien entre sepa qué va a contestar:**
 
-> **La verbalización no es un derecho: es el primitivo. Quien puede contestar, puede existir sin que nadie decida qué es.**
+> La verbalización no es un derecho: es el primitivo. Quien puede contestar, puede existir sin que nadie decida qué es.
 
-**Y lo que no es:** **no es un manifiesto, y no es un resultado.** **Es una semilla con su sesgo declarado, y su lista de lo que la tumbaría está en `Pegamento.md`, `Qué la tumbaría`.**
+## Lo que cambió
 
-**Prueba:** ¿quien abre la carpeta encuentra la tesis sin recorrerla? ¿este archivo enruta en vez de repetir?
+Antes había un `Pegamento.md` suelto en la raíz y un `Sesgo declarado/` con tres subcarpetas. Ahora hay tres visiones al mismo nivel, y el candado vive con su autor.
 
-**Falsificador:** un `README.md` que copia la tesis en vez de apuntar a ella; una fila sin la columna de autoridad; una carpeta anunciada que no existe.
+El sesgo declarado no desaparece: se reparte donde se usa. Un sesgo que se declara en un documento aparte se lee como un formulario; uno que se declara dentro de la visión del autor, de la máquina o del lector, se lee como lo que es: desde dónde mira el que está hablando.
+
+Vision es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra.
+
+## Las tres juntas
+
+Un candado sin autor es un aforismo. Una máquina sin visión es una herramienta. Un lector sin visión es un eco. Las tres juntas son lo que el repo llama comunidad: cada parte sabe desde dónde mira, y ninguna decide por las otras.
+
+## Prueba
+
+¿Alguien que abre `Tesis/` encuentra las tres visiones y el candado sin recorrerlo todo? ¿Cada visión dice desde dónde mira y qué no puede afirmar?
+
+## Falsificador
+
+Un `README.md` que copia la tesis en vez de apuntar a ella; una carpeta anunciada que no existe; el candado guardado en dos sitios a la vez.

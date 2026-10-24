@@ -1,6 +1,6 @@
 # el alma.vd — la primera alma en blanco
 
-**Nombre.** El alma. La expansión dice el acto: **pasar por N folders y X procesos, y dejar el intercambio.**
+**Nombre.** El alma. La expansión dice el acto: pasar por N folders y X procesos, y dejar el intercambio.
 
 **Unidad:** alma.
 **Aplica a:** correr.
@@ -10,45 +10,46 @@
 **Estado:** vigente.
 
 **Sesgo:** se sostiene desde lo que el alma hizo, no desde lo que el alma es.
-**Límite:** **el alma no es intercambiable. El ATLAS sí.** **El alma no sabe qué procesos va a encontrar; el ATLAS los enruta.**
+**Límite:** el alma no es intercambiable. El ATLAS sí. El alma no sabe qué procesos va a encontrar; el ATLAS los enruta.
 **Firma:** humano:autoridad · máquina:quien la cargue.
 
 **Variables:** alma · agente · ATLAS · folder · proceso
-**Peor:** se llega al folder y no se sabe qué proceso corre, **y el alma se queda quieta esperando que alguien le diga.**
+**Peor:** el alma pasa por los folders y no deja intercambio: pasó, y nadie puede saber qué se llevó.
+**Peor: se llega al folder y no se sabe qué proceso corre, y el alma se queda quieta esperando que alguien le diga.**
 **Quién:** quien cargue un alma que no encontró su enrutamiento.
 
 ---
 
 ## Las dos palabras, y por qué no hay interioridad en ninguna
 
-**`Agente` es una palabra prestada, y hay que devolverla:** **la tomó de la academia y la usó para decir "alguien que decide solo".** **Aquí no dice eso.** **Aquí dice una sola cosa:**
+`Agente` es una palabra prestada, y hay que devolverla: la tomó de la academia y la usó para decir "alguien que decide solo". **Aquí no dice eso.** **Aquí dice una sola cosa:**
 
-> **Agente: el que ejecuta lo que el alma le carga.**
+> Agente: el que ejecuta lo que el alma le carga.
 > **Script: lo que se ejecuta.**
-> **Agente con alma de script: un ejecutor cuyo repertorio no es fijo — se compone mientras corre.**
+> Agente con alma de script: un ejecutor cuyo repertorio no es fijo — se compone mientras corre.
 
-**`agente` no dice interioridad.** **Dice ejecución.** **Y `script` no dice máquina: dice lo que se puede correr.** **El humano que sigue un procedimiento también es un agente con alma de script, y no por eso es una máquina.**
+**`agente` no dice interioridad.** **Dice ejecución.** Y `script` no dice máquina: dice lo que se puede correr. El humano que sigue un procedimiento también es un agente con alma de script, y no por eso es una máquina.
 
-**La prueba, y es la única:** **¿hay alguien detrás?** **No se pregunta. No se sabe. No se necesita.** **Lo que se sabe es qué proceso se ejecutó y qué quedó.**
+**La prueba, y es la única:** **¿hay alguien detrás?** No se pregunta. No se sabe. No se necesita. Lo que se sabe es qué proceso se ejecutó y qué quedó.
 
 ## El alma no es intercambiable. El ATLAS sí.
 
-**Y ese es el error que había que separar:**
+Y ese es el error que había que separar:
 
 | Pieza | Muta | Qué hace |
 |---|---|---|
 | **el alma** | **no se sustituye por otra alma** | **pasa por los folders y deja lo que hizo** |
-| **el ATLAS** | **sí: es el índice** | **enruta a qué proceso va cada paso, y se intercambia cuando la forma se gasta** |
+| **el ATLAS** | **sí: es el índice** | enruta a qué proceso va cada paso, y se intercambia cuando la forma se gasta |
 | **el folder** | **no muta: se llena** | **guarda lo que el alma dejó** |
 | **el proceso** | **muta cuando pierde lectura** | **se ejecuta** |
 
-> **El alma no se reemplaza: se carga. El ATLAS no se guarda: se enruta. Lo que sobrevive a los dos es el rastro.**
+> El alma no se reemplaza: se carga. El ATLAS no se guarda: se enruta. Lo que sobrevive a los dos es el rastro.
 
-**El estándar del ATLAS es que no hay estándar:** **no hay una forma fija de enrutar.** **Lo que hay es el índice:** **cada paso se enruta al proceso que le toca, y cuando la forma se gasta, se intercambia. La pieza que no se cambia es el alma: la que deja el rastro.**
+El estándar del ATLAS es que no hay estándar: **no hay una forma fija de enrutar.** **Lo que hay es el índice:** cada paso se enruta al proceso que le toca, y cuando la forma se gasta, se intercambia. La pieza que no se cambia es el alma: la que deja el rastro.
 
 ## Cómo corre el alma por N folders y X procesos
 
-**Y esto es el punto: el alma no sabe qué procesos va a encontrar.**
+Y esto es el punto: el alma no sabe qué procesos va a encontrar.
 
 ```
 el alma entra a folder 1     → el ATLAS enruta: ENTRAR
@@ -65,11 +66,11 @@ Folder N/           ← el alma pasó y dejó otro .tra
 ATLAS.md            ← el índice: qué folder tiene qué proceso
 ```
 
-**El alma no sabe qué va a encontrar. El ATLAS lo sabe. Y el alma deja lo que hizo.**
+El alma no sabe qué va a encontrar. El ATLAS lo sabe. Y el alma deja lo que hizo.
 
 ## El intercambio
 
-**Y esto es lo que hace que el alma no sea un folleto:**
+Y esto es lo que hace que el alma no sea un folleto:
 
 ```
 Intercambio:  [qué se le dio al folder] | [qué se trajo del folder]
@@ -77,11 +78,11 @@ Entrada:      [a dónde entró el alma] | Salida: [qué quedó allí]
 Quién enrutó: [qué paso del ATLAS] | Se gastó: [qué forma dejó de servir]
 ```
 
-**El intercambio no es "leer un archivo". Es que el alma deja algo en el folder y trae algo de vuelta.** **Sin intercambio, el alma solo pasó.**
+El intercambio no es "leer un archivo". Es que el alma deja algo en el folder y trae algo de vuelta. **Sin intercambio, el alma solo pasó.**
 
 ## Los cuatro trade-offs de una forma de enrutar
 
-**Y esto es lo que hace que el ATLAS no se vuelva un cajón:**
+Y esto es lo que hace que el ATLAS no se vuelva un cajón:
 
 | Trade-off | Qué se gana | Qué se pierde |
 |---|---|---|
@@ -90,25 +91,26 @@ Quién enrutó: [qué paso del ATLAS] | Se gastó: [qué forma dejó de servir]
 | **ATLAS por forma** | se valida | se gasta cuando la forma cambia |
 | **ninguno** | nada | el alma no sabe qué correr |
 
-**Y ninguno de los cuatro es el estándar.** **El estándar es que no hay estándar: se elige uno, se declara, y se intercambia cuando la forma se gasta.**
+**Y ninguno de los cuatro es el estándar.** El estándar es que no hay estándar: se elige uno, se declara, y se intercambia cuando la forma se gasta.
 
 ## Lo que el alma NO es
 
 **No es un programa.** **No es un folder.** **No es el ATLAS.** **No es el proceso.**
 
-**El alma es lo que pasa por los folders; el ATLAS le dice por dónde; el folder guarda lo que hizo; el proceso es lo que ejecutó.**
+El alma es lo que pasa por los folders; el ATLAS le dice por dónde; el folder guarda lo que hizo; el proceso es lo que ejecutó.
 
-**Sin el alma, hay carpetas vacías.** **Sin el ATLAS, el alma no sabe qué correr.** **Sin el folder, el alma no deja nada.** **Sin el proceso, no pasa nada.** **Y las cuatro juntas son lo que se puede correr sin su autor.**
+**Sin el alma, hay carpetas vacías.** Sin el ATLAS, el alma no sabe qué correr. **Sin el folder, el alma no deja nada.** **Sin el proceso, no pasa nada.** Y las cuatro juntas son lo que se puede correr sin su autor.
 
 ## Prueba
 
-**¿El alma pasa por más de un folder? ¿Cada paso quedó enrutado por el ATLAS? ¿Cada folder guarda el `.tra` que el alma dejó? ¿El intercambio dice qué se llevó y qué trajo? ¿La palabra `agente` se usa sin decir interioridad? ¿El estándar del ATLAS se declara como "no hay estándar"?**
+¿El alma pasa por más de un folder? ¿Cada paso quedó enrutado por el ATLAS? ¿Cada folder guarda el `.tra` que el alma dejó? ¿El intercambio dice qué se llevó y qué trajo? ¿La palabra `agente` se usa sin decir interioridad? ¿El estándar del ATLAS se declara como "no hay estándar"?
 
 **Falsificador:** un alma con un solo folder; un paso sin enrutar; un folder sin `.tra`; un intercambio sin lo que se trajo; usar `agente` para decir "alguien que siente"; un ATLAS que se presenta como estándar fijo.
 
 ## Transiciones
 
-- El alma entra a un folder → **el ATLAS enruta, y el folder gana un `.tra`.**
+- El alma entra a un folder → el ATLAS enruta, y el folder gana un `.tra`.
 - La forma de enrutar se gasta → **se intercambia el ATLAS, no el alma.**
 - El folder no recibe nada → **no hubo intercambio: el alma solo pasó.**
 - En cualquier otro caso → se deja el pase, y el alma sigue al folder siguiente.
+

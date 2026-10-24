@@ -1,8 +1,8 @@
 # README.vd — el ente en blanco, la base
 
-**Esto no es un programa.** **No hay nada que ejecutar.** **El ente en blanco es puro texto: archivos y procesos.** **Quien lo abre, lo lee y lo llena a mano. Esa es la base en blanco.**
+**Esto no es un programa.** **No hay nada que ejecutar.** El ente en blanco es puro texto: archivos y procesos. Quien lo abre, lo lee y lo llena a mano. Esa es la base en blanco.
 
-**Nombre.** Ente en blanco. La expansión dice el acto: **una carpeta de texto que, al llenarla, ya es un ente que decide y deja rastro.**
+**Nombre. Ente en blanco. La expansión dice el acto: una carpeta de texto que, al llenarla, ya es un ente que decide y deja rastro.**
 
 **Unidad:** ente.
 **Aplica a:** llenar.
@@ -12,12 +12,11 @@
 **Estado:** vigente.
 
 **Sesgo:** se sostiene desde lo que se puede leer y llenar sin su autor.
-**Límite:** no hace nada por sí solo. **Un ente de texto no actúa: espera que alguien lo lea y lo cargue.**
-**Firma:** humano:autoridad · máquina:quien lo llene.
+**Límite:** no hace nada por sí solo. Un ente de texto no actúa: espera que alguien lo lea y lo cargue.
 
 **Variables:** ente · tarea · proceso · texto
-**Peor:** se espera que el folder ejecute algo, **y no ejecuta: se lee.** **El que lo abre con la idea de un programa se queda esperando.**
-**Quién:** quien copie el folder creyendo que es un motor.
+**Peor:** se abre esperando un programa, y el folder no ejecuta nada.
+**Quién:** quien lo abra creyendo que es un motor.
 
 ## Cómo se usa, en texto y a mano
 
@@ -28,13 +27,22 @@
 4. REPITE      cuando el acto cambie, escribes otro .tra sobre el viejo con Reemplaza:
 ```
 
-**La prueba de que sirve:** **otra persona lo abre, llena los corchetes y sabe qué hacer sin preguntarte.**
+Y lo que hay que saber antes de empezar: si lo abres esperando que ejecute algo, no va a ejecutar. Se lee, se llena, y lo corre quien lo lee.
 
-**Falsificador:** un ente que necesita un programa; un campo `[pendiente]` que se deja vacío; una tarea que no se puede leer en voz alta.
+## Las dos palabras
 
-## Lo que este folder contiene, y es todo texto
+`agente` y `script` son las dos palabras, y ninguna dice interioridad:
 
-**El alma es lo primero, y el resto son las piezas que el alma usa.**
+| Palabra | Qué dice | Qué NO dice |
+|---|---|---|
+| **agente** | **el que ejecuta lo que el alma le carga** | que sienta, que decida solo, que sea una persona |
+| **script** | **lo que se puede correr** | que sea una máquina: un humano que sigue un procedimiento también es un agente con alma de script |
+
+**La prueba, y es la única:** **¿hay alguien detrás?** No se pregunta. No se sabe. No se necesita. Lo que se sabe es qué proceso se ejecutó y qué quedó.
+
+## Lo que este folder contiene
+
+El alma es lo primero, y el resto son las piezas que el alma usa.
 
 ```
 ente en blanco/
@@ -48,19 +56,19 @@ ente en blanco/
 └── plantilla.tra             texto: la tarea en blanco, para llenar
 ```
 
-**`agente` y `script` son las dos palabras, y ninguna dice interioridad:** **el agente ejecuta; el script es lo que se ejecuta.**
-
 ## Rastro — el cuerpo
 
-| Qué hay | Nombre | Dónde |
-|---|---|---|
-| La base | `README.vd` | `./README.vd` |
-| La carta | `tareas.vd` | `./tareas.vd` |
-| Los procesos | `ENTRAR.prs` · `MIRAR.prs` · `EXTRAER.prs` | `./` |
-| La plantilla de tarea | `plantilla.tra` | `./plantilla.tra` |
-| El lenguaje | `LENGUAJE.md` · `PISO.md` | `../lenguaje de procesos/` |
-| El jugo | `pieza` (39 vivas) | `../../.memoria continua/rastro/mantis.db` |
-| El candado | `README.md` + `Pegamento.md` | `../../Tesis/` — **se enlaza, no se copia** |
+| Qué hay | Dónde |
+|---|---|
+| La base | `./README.vd` |
+| El alma | `./el alma.vd` |
+| El índice | `./ATLAS.md` |
+| La carta | `./tareas.vd` |
+| Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXTRAER.prs` |
+| La plantilla de tarea | `./plantilla.tra` |
+| El lenguaje | `../lenguaje de procesos/` |
+| El jugo | `../../.memoria continua/rastro/mantis.db`, tabla `pieza` |
+| El candado | `../../Tesis/` — **se enlaza, no se copia** |
 
 **Qué no se toca:** `../../Ouroboros/` (la fuente) y `../../Tesis/` (el candado).
 
@@ -70,7 +78,7 @@ ente en blanco/
 |---|---|---|
 | **abrir una tarea** | `ENTRAR.prs` | **no se responde** |
 | **mirar si el nombre sigue en pie** | `MIRAR.prs` | **no se renombra** |
-| **explotar una capacidad** | `EXTRAER.prs` y `PISO.md` | **no entra sin costo** |
+| **explotar una capacidad | `EXTRAER.prs` y `../lenguaje de procesos/PISO.md` | no entra sin costo** |
 | **escribir la tarea de hoy** | `plantilla.tra` | **no se inventa el formato** |
 | **mutar el candado o la fuente** | todo, y **se espera** | **no se toca** |
 
@@ -80,27 +88,22 @@ ente en blanco/
 |---|---|---|
 | **se espera un programa** | el ente | se abre el folder y no pasa nada |
 | **un `[pendiente]` se deja vacío** | el acto | el ente tiene forma y no tiene nada que decir |
-| **se agrega una extensión nueva sin declararla** | el lenguaje | el folder se vuelve una carpeta de pruebas |
+| se agrega una extensión nueva sin declararla | el lenguaje | el folder se vuelve una carpeta de pruebas |
 | **el nombre lleva número** | el nombre | hay una versión, no un acto |
 | **el ente no declara sus limitaciones** | la memoria | contamina guardando lo que no cambia una decisión |
 
 ## Falta
 
-```
-Falta: los nombres que el ente se ponga al llenarse
-Bloquea: nada — el texto ya se puede llenar
-Reabre si: alguien llena el folder y no sabe qué hacer
-```
+**Falta que alguien lo llene y lo corra.** El folder está listo; el acto es de quien lo use. Reabre si alguien lo llena y no sabe qué hacer: entonces falta una pieza, y se nombra.
 
 ## Prueba
 
-**¿El folder es solo texto? ¿Alguien lo lee y lo llena sin preguntarte? ¿Cada proceso declara `Entra | Falla | Sale | Consume`? ¿La plantilla de tarea se puede copiar? ¿Los nombres no llevan número?**
-
-**Falsificador:** un folder que necesita un programa; un campo vacío dejado como si fuera contenido; una extensión no declarada; un nombre numerado.
+¿El folder es solo texto? ¿Alguien lo lee y lo llena sin preguntarte? ¿Cada proceso declara `Entra | Falla | Sale | Consume`? ¿La plantilla de tarea se puede copiar? ¿Los nombres no llevan número?
 
 ## Transiciones
 
-- Se llena una tarea → **se copia `plantilla.tra` con el nombre de la tarea.**
-- El acto cambia → **se escribe otro `.tra`, y el viejo queda con `Reemplaza:`.** **Sin número.**
-- Una capacidad se quiere usar → **se lee `PISO.md`, y se declara lo que cuesta.**
+- Se llena una tarea → se copia `plantilla.tra` con el nombre de la tarea.
+- El acto cambia → se escribe otro `.tra`, y el viejo queda con `Reemplaza:`. **Sin número.**
+- Una capacidad se quiere usar → se lee `PISO.md`, y se declara lo que cuesta.
+
 

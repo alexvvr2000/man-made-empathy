@@ -1,21 +1,21 @@
 # EXPRESION.prs — escribir la fila de una salida
 
 **Nombre.** EXPRESION — **E**mpalmar, **X**‑plicar, **P**reguntar, **R**egistrar, **S**eñalar, **E**mitir, **N**ombrar. Se lee de un tirón; la expansión dice qué hace.
-**Origen.** De `la fila verbalizada.md`: una salida sin expresión no se entrega. **Y de la pregunta de la autoridad: ¿esto ayuda a ver si era un pegamento o varios, y cuántos candados existen de verdad?**
+**Origen. De `la fila verbalizada.md`: una salida sin expresión no se entrega. Y de la pregunta de la autoridad: ¿esto ayuda a ver si era un pegamento o varios, y cuántos candados existen de verdad?**
 
 **Unidad:** proceso.
 **Aplica a:** expresar.
-**Tipo:** se ejecuta. **Es el proceso de toda salida del lenguaje: ningún `.prs` entrega sin pasar por aquí.**
+**Tipo:** se ejecuta. Es el proceso de toda salida del lenguaje: ningún `.prs` entrega sin pasar por aquí.
 **Lector:** el proceso que va a entregar, y el que va a consumir la entrega.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
 **Sesgo:** una salida se lee desde el que la va a consumir, no desde el que la produjo.
-**Límite:** no decide si la salida es buena. **Decide si existe: qué sostiene, qué la contradijo, dónde quedó, y qué sigue.**
+**Límite:** no decide si la salida es buena. Decide si existe: qué sostiene, qué la contradijo, dónde quedó, y qué sigue.
 **Firma:** humano:autoridad · máquina:quien la produzca.
 
 **Variables:** salida · sostengo · contra · huella · siguiente · borde · ficcion
-**Peor:** la salida suena y no sostiene nada, y encima **no dice de qué ficción viene la idea: la idea se presenta como propia y se vuelve una regla sin autor**, **y el siguiente la completa: lo que falta lo inventa el consumidor, y la cadena se rompe sin que nadie lo note.**
+**Peor: la salida suena y no sostiene nada, y encima no dice de qué ficción viene la idea: la idea se presenta como propia y se vuelve una regla sin autor**, y el siguiente la completa: lo que falta lo inventa el consumidor, y la cadena se rompe sin que nadie lo note.
 **Quién:** el que lee la salida después y no sabe de dónde viene ni qué se afirmó.
 
 ## Entra | Falla | Sale | Consume
@@ -55,14 +55,14 @@ Ficción:   [de dónde viene esta idea, y qué preguntó | ninguna]
 
 ## Las dos preguntas que responde
 
-**Y esto es lo que la vuelve útil para leer un repo ajeno:**
+Y esto es lo que la vuelve útil para leer un repo ajeno:
 
 | Pregunta | Lo que se lee en la fila |
 |---|---|
-| **¿era un pegamento o varios?** | **si dos `Sostengo` se pueden decir con el mismo, eran uno. Si al unirlos una pierde lo que decía, eran varios.** |
-| **¿cuántos candados existen de verdad?** | **candado real = autor + `Sostengo`; cita = `Sostengo` sin autor; ruido = sin ninguno de los dos** |
+| **¿era un pegamento o varios?** | si dos `Sostengo` se pueden decir con el mismo, eran uno. Si al unirlos una pierde lo que decía, eran varios. |
+| **¿cuántos candados existen de verdad?** | candado real = autor + `Sostengo`; cita = `Sostengo` sin autor; ruido = sin ninguno de los dos |
 
-**`EXPRESION` no adorna: mide.** **Si la salida no dice qué sostiene y quién responde, no es que no esté expresada: es que no hay candado.**
+**`EXPRESION` no adorna: mide.** Si la salida no dice qué sostiene y quién responde, no es que no esté expresada: es que no hay candado.
 
 ## Lo que este proceso no hace
 
@@ -70,12 +70,13 @@ Ficción:   [de dónde viene esta idea, y qué preguntó | ninguna]
 
 **No completa una salida vacía.** **La declara vacía.**
 
-**No reemplaza al `.tra`.** **El `.tra` es la tarea; esto es la salida con la que la cadena sigue.**
+**No reemplaza al `.tra`.** El `.tra` es la tarea; esto es la salida con la que la cadena sigue.
 
 ## Transiciones
 
 - La salida cabe en las cinco líneas → se entrega, y la cadena sigue.
 - La salida no cabe → `[VACÍO - SIN SALIDA]`, y se declara qué falta.
 - Dos salidas se reducen a un solo `Sostengo` → **es un pegamento: se declara.**
-- Dos salidas no se reducen → **son varios: se declaran, y cada uno con su autor.**
+- Dos salidas no se reducen → son varios: se declaran, y cada uno con su autor.
+
 

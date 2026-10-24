@@ -1,10 +1,10 @@
 # ATLAS.md — el índice: qué folder tiene qué proceso
 
-**Nombre.** ATLAS. La expansión dice el acto: **enrutar al alma a qué proceso va cada paso, y marcarse gastado cuando la forma deja de servir.**
+**Nombre.** ATLAS. La expansión dice el acto: enrutar al alma a qué proceso va cada paso, y marcarse gastado cuando la forma deja de servir.
 
 **Unidad:** índice.
 **Aplica a:** enrutar.
-**Tipo:** se intercambia. **No es estándar: es el índice que se gasta.**
+**Tipo:** se intercambia. No es estándar: es el índice que se gasta.
 **Lector:** el alma que va a pasar por los folders.
 **Dueño:** la autoridad.
 **Estado:** vigente.
@@ -14,14 +14,14 @@
 **Firma:** humano:autoridad · máquina:quien enrute.
 
 **Variables:** folder · intención · proceso · forma · gastadura
-**Peor:** se enruta al proceso que ya no sirve, **el alma lo ejecuta, y nadie nota que la forma se gastó.**
+**Peor:** se enruta al proceso que ya no sirve, el alma lo ejecuta, y nadie nota que la forma se gastó.
 **Quién:** quien cargue el resultado de un proceso gastado.
 
 ## El estándar del ATLAS es que no hay estándar
 
-> **No hay una forma fija de enrutar. Hay un índice: cada paso se enruta al proceso que le toca, y cuando la forma se gasta, se intercambia.**
+> No hay una forma fija de enrutar. Hay un índice: cada paso se enruta al proceso que le toca, y cuando la forma se gasta, se intercambia.
 
-**Y lo que NO se intercambia es el alma.** **El alma deja el rastro; el ATLAS se cambia de forma.**
+**Y lo que NO se intercambia es el alma.** El alma deja el rastro; el ATLAS se cambia de forma.
 
 ## Las filas, y cada una se lee antes de enrutar
 
@@ -33,7 +33,7 @@
 | **un folder que no tiene proceso** | el ATLAS se declara vacío | **se improvisa no** |
 | **una forma que ya no sirve** | se intercambia el ATLAS | **no se toca el alma** |
 
-**La columna `Se enruta a` es la que hace visible el paso:** **sin ella, el alma entra y no sabe qué correr.**
+La columna `Se enruta a` es la que hace visible el paso: sin ella, el alma entra y no sabe qué correr.
 
 ## Los cuatro trade-offs de una forma
 
@@ -44,7 +44,7 @@
 | **ATLAS por forma** | se valida | se gasta con la forma | cuando la forma cambia |
 | **ninguno** | nada | el alma no sabe qué correr | de entrada |
 
-**Y ninguno es el estándar.** **El estándar es que se elige uno, se declara, y se intercambia cuando se gasta.**
+**Y ninguno es el estándar.** El estándar es que se elige uno, se declara, y se intercambia cuando se gasta.
 
 ## La gastadura, y es lo que lo vuelve índice
 
@@ -55,7 +55,7 @@ Se intercambia: [por qué forma]
 El alma no cambia: [en qué folder entra y qué deja]
 ```
 
-**Un ATLAS que nunca se gasta es un estándar disfrazado.** **Y un estándar del ATLAS es justamente lo que no hay.**
+Un ATLAS que nunca se gasta es un estándar disfrazado. Y un estándar del ATLAS es justamente lo que no hay.
 
 ## Lo que este índice no hace
 
@@ -65,6 +65,7 @@ El alma no cambia: [en qué folder entra y qué deja]
 
 ## Prueba
 
-**¿Cada folder tiene su fila? ¿La forma de enrutar está declarada? ¿Se declara cuándo la forma se gasta? ¿El alma queda fuera de lo que se intercambia?**
+¿Cada folder tiene su fila? ¿La forma de enrutar está declarada? ¿Se declara cuándo la forma se gasta? ¿El alma queda fuera de lo que se intercambia?
 
 **Falsificador:** un folder sin fila; un ATLAS presentado como estándar; una forma que se gasta y no se intercambia; un alma que se reemplaza en vez de dejarse cargar.
+

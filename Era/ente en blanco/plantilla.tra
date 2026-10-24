@@ -1,6 +1,6 @@
 # [el nombre de la tarea].tra — la tarea en blanco
 
-**Cómo se usa esta plantilla:** **copias este archivo a tu carpeta de tarea, le pones el nombre de la tarea (en el archivo y en la carpeta, igual), y llenas los corchetes.** **Sin números.**
+**Cómo se usa esta plantilla:** copias este archivo a tu carpeta de tarea, le pones el nombre de la tarea (en el archivo y en la carpeta, igual), y llenas los corchetes. **Sin números.**
 
 ```
 Nombre:              [el de hoy]
@@ -21,7 +21,7 @@ Distancia:           [qué cambió, y desde cuándo]
 
 ## Qué procesos entran
 
-**Una tarea son varios procesos. Nunca uno.** **Marca los que esta tarea necesita y añade los suyos:**
+Una tarea son varios procesos. Nunca uno. Marca los que esta tarea necesita y añade los suyos:
 
 ```
 ENTRAR:              [sí | no] — abre y nombra lo que llegó
@@ -48,6 +48,7 @@ Reabre si:           [qué obliga a volver a mirar]
 
 ## Prueba
 
-**¿El nombre no lleva número? ¿La carpeta y el archivo se llaman igual? ¿Se marcaron al menos dos procesos? ¿El costo está declarado? ¿`Falta` está escrito?**
+¿El nombre no lleva número? ¿La carpeta y el archivo se llaman igual? ¿Se marcaron al menos dos procesos? ¿El costo está declarado? ¿`Falta` está escrito?
 
 **Falsificador:** un nombre numerado; una carpeta y un `.tra` con nombres distintos; una tarea con un solo proceso; un costo sin declarar; un `Falta` vacío.
+

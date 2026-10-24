@@ -1,0 +1,426 @@
+# FUTUROS POSIBLES — ciencia ficción posible, a corto, mediano y largo plazo
+
+**Qué es este archivo.** Lo que este sistema permite construir, ordenado por plazo, con el detalle que hace falta para que sirva a alguien que no estaba en la conversación donde se pensó.
+
+**Y lo que no es.** No es una predicción. No es una promesa de producto. No es una hoja de ruta comercial. Es el mapa de lo que queda posible cuando las piezas están puestas, con su condición de verdad a la vista. Lo que no se puede hacer todavía se dice.
+
+**Dueño:** humano:Alejandro Valenzuela Rivera.
+**Estado:** vigente.
+
+Sesgo: se lee desde lo que el repo puede sostener hoy, y se distancia por plazo según lo que falta para cada cosa.
+
+---
+
+# Antes de los plazos: las cuatro piezas que hacen posible todo lo demás
+
+Para que cualquier futuro de esta lista ocurra, cuatro cosas tienen que estar en su sitio. No son tecnología: son formas de escribir.
+
+| Pieza | Qué hace | Sin ella |
+|---|---|---|
+| **El candado** | Una idea se guarda como una pregunta que no se puede abrir desde donde se mira, con su autor y su llave a la vista | la idea es un aforismo que nadie puede usar |
+| **La llave** | El criterio del que la lee: su historial de sesgos, leído antes de decidir | sin llave, el candado solo se admira |
+| **La fila verbalizada** | Toda salida de un proceso se escribe en seis campos: qué se sostiene, de dónde viene la idea, qué la contradijo, dónde quedó, qué sigue, qué no se afirma | la salida suena y no se puede contestar |
+| **El jugo** | Todo lo que ayuda a entender vive fuera del candado: obras, casos, vecinos, mediciones | el candado crece y deja de leerse |
+
+**Las cuatro juntas son una sola cosa:** una idea que cualquiera puede leer, abrir y contradecir, sin pedirle permiso a nadie.
+
+---
+
+# CORTO PLAZO — lo que se puede hacer hoy, esta semana, sin escribir un solo programa
+
+## 1. Un archivo que se puede verificar solo
+
+**Qué es.** Cada `.prs`, `.tra` y `.vd` tiene una forma fija. Un campo es una línea que empieza por `**Campo:**`. Una tabla empieza por `|`. Un bloque está entre tres acentos graves.
+
+**Qué permite.** Que una persona corrija un archivo sin saber de qué va, siguiendo solo la forma. Que un programa diga qué falta sin interpretar nada.
+
+**Cómo se usa, en la práctica.** Abres un archivo. Si tiene `Sesgo`, `Límite` y `Firma`, se puede leer. Si le falta alguno, se marca como implícito. Si le falta `Rastro`, `Ruta` o `Carga`, no es un ente: es un fantasma.
+
+**Lo que ya existe.** `Era/lenguaje de procesos/FORMATO.md`, y los cuatro procesos de `Era/lenguaje de procesos/procesos/` ya lo cumplen.
+
+**Lo que falta.** Un chequeo que recorra una carpeta y liste los archivos fuera de forma. Es un script de veinte líneas en cualquier lenguaje. No está escrito.
+
+## 2. Un candado que se puede contar
+
+**Qué es.** Un autor tiene N candados, no uno. Cada candado es un archivo con nombre propio, su autor y su ficción: la obra, el caso o el vecino que lo hizo pensable.
+
+**Qué permite.** Que alguien abra un repo ajeno y diga, sin leerlo entero: aquí hay cuatro candados reales, dos citas y un ruido.
+
+**Cómo se distinguen.**
+
+```
+Candado real  = autor + lo que sostiene
+Cita          = lo que sostiene, sin autor
+Ruido         = ni uno ni otro
+```
+
+**Y por qué un autor tiene varios.** Un autor no es una persona con una sola idea: es un historial de sesgos, y cada sesgo que sostuvo es un candado. Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena.
+
+**Lo que ya existe.** `Era/lenguaje de procesos/JONN.md` y la tabla `pieza` de la memoria, con cincuenta y siete piezas.
+
+**Lo que falta.** Nada técnico. Falta que la gente traiga sus candados.
+
+## 3. La detección del implícito
+
+**Qué es.** Lo que crea a un sistema absoluto no es la maldad ni la tecnología: son los supuestos que nadie escribe. Un límite no declarado. Un autor que no firma. Una llave que se guarda.
+
+**Qué permite.** Que un archivo te diga dónde hay un supuesto escondido, sin juzgar la idea.
+
+**Cómo se ve un implícito, en la práctica.**
+
+| Lo que aparece | Qué significa | Qué se hace |
+|---|---|---|
+| Un campo de ficción vacío sobre una idea que salió de una obra | la idea se presenta como propia | se escribe de dónde vino |
+| Un `Borde` que no dice lo que no se afirma | la idea cubre más de lo que puede | se escribe el límite |
+| Un candado sin autor | nadie responde por él | se firma o se reconoce como cita |
+| Un proceso sin `Falla si` | no hay corte: cualquier cosa entra | se escribe el caso que lo incumple |
+
+**Lo que ya existe.** La columna `ficcion` de la tabla `pieza`, y el proceso de expresión.
+
+**Lo que falta.** Un nombre propio para el estándar de los implícitos. Ese nombre es de la autoridad, y es lo único que este archivo no puede escribir por ella.
+
+## 4. El ciclo en un folder real
+
+**Qué es.** Una carpeta con un alma: entra un acto, el alma lo nombra, deja su rastro, y el siguiente acto se abre sobre ese rastro.
+
+**Qué permite.** Que el trabajo deje un registro que otro puede seguir sin preguntarte nada.
+
+**Cómo se ve el rastro, en la práctica.**
+
+```
+el trabajo de hoy/
+├── el trabajo de hoy.tra     qué pasó, y a qué proceso entró
+├── ENTRAR.prs                cómo se abrió
+├── MIRAR.prs                 si el nombre sigue en pie
+└── EXPRESAR.prs              cómo salió
+```
+
+**Lo que ya existe.** El ente en blanco y sus procesos, en texto.
+
+**Lo que falta.** Alguien que lo llene. Hoy nadie lo ha llenado con un trabajo real: el folder está listo y el acto es de quien lo use.
+
+---
+
+# MEDIANO PLAZO — de semanas a meses, con trabajo técnico que todavía es pequeño
+
+## 5. El validador: un programa que dice qué falta
+
+**Qué es.** Un programa que recorre una carpeta, lee las marcas de la forma, y devuelve una lista de lo que falta.
+
+**Qué permite.** Que un repo entero se pueda revisar en un minuto, y que el error aparezca antes de que lo cometa alguien de carne y hueso.
+
+**Cómo sería su salida, en la práctica.**
+
+```
+Leyendo 4 procesos...
+ENTRAR.prs     ok
+MIRAR.prs      ok
+EXPRESAR.prs   ok
+EXTRAER.prs    [IMPLÍCITO - SIN LÍMITE]
+Leyendo 3 entes...
+el alma.vd     ok
+tareas.vd      [FANTASMA - FALTA CARGA]
+```
+
+**Por qué importa.** Un sistema que solo mide cumplimiento no puede ver la costumbre. Un validador no juzga la idea: dice qué marca falta. Y eso es lo que hace visible el implícito.
+
+**Lo que falta.** Escribirlo. Es un programa pequeño y no requiere ejecutar nada del sistema.
+
+## 6. El índice de candados, con su llave
+
+**Qué es.** Una lista viva de los candados de todos los autores, cada uno con su ficción, su pregunta, y quién lo puede abrir.
+
+**Qué permite.** Que alguien que llega a un repo ajeno pueda elegir qué abrir sin leerlo todo, y que el que abre deje su huella.
+
+**Cómo se vería, en la práctica.**
+
+```
+Candado        Autor        Ficción              Pregunta                       Abierto por
+libre albedrío Alejandro    Sinestro, GL          ¿qué le pasa a una especie     —
+                                                       sin miedo?
+resonancia     [vacío]      Soul Eater            ¿qué pasa cuando dos se         —
+                                                       afinan sin volverse uno?
+```
+
+**Y la columna `Abierto por` es la que hace la diferencia:** un candado que nadie abrió sigue sin ser un candado abierto.
+
+**Lo que falta.** La tabla ya existe. Falta el índice que la lea y la muestre.
+
+## 7. Varios modelos como almas distintas
+
+**Qué es.** Copiar el ente en blanco una vez por modelo. Cada copia es un alma con su propio rastro, y cada modelo declara su visión de la máquina: qué carga, qué no carga, qué no puede afirmar, qué firma.
+
+**Qué permite.** Que un modelo dé la visión de la máquina, otro dé la visión del lector, y el humano sea el autor. Los tres con el mismo candado y distinto sitio.
+
+**Lo que ya existe.** Las tres visiones en `Tesis/`, y el ente en blanco como carpeta que se copia.
+
+**Lo que falta.** Que alguien lo haga por primera vez. Y que se pruebe lo que se busca: que las almas se afinen sin volverse una. Cuando dos almas dan lo mismo se llama eco, y el eco no es ganancia: es un solo ente con más gasto.
+
+## 8. La misma forma para una empresa
+
+**Qué es.** Una organización con la misma estructura: un candado (su razón de existir), tres visiones (su autoría, sus sistemas, sus clientes), un jugo (su historia), y procesos con la forma fija.
+
+**Qué permite.** Que lo que una empresa sabe no viva en la cabeza de una persona, y que el que llegue nuevo lo pueda reconstruir.
+
+**Cómo se vería, en la práctica.**
+
+```
+la empresa/
+├── candado/               por qué existe, en una página
+├── vision del autor/     quién la fundó, y desde dónde mira
+├── vision del sistema/    qué carga, qué no puede afirmar
+├── vision del cliente/    qué se lleva, qué lo tumba
+└── jugo/                  la historia, los casos, las mediciones
+```
+
+**Lo que falta.** Que alguien lo pruebe en una empresa de verdad.
+
+---
+
+# LARGO PLAZO — años, y con condiciones que hoy no se cumplen
+
+## 9. El sistema que se sostiene sin su autor
+
+**Qué es.** Un conjunto de piezas que cualquiera puede leer, abrir y repetir sin que esté presente quien lo escribió. La condición, del propio repo: que el conjunto se sostenga sin su autor.
+
+**Qué permite.** Que una idea sobreviva a su autor sin volverse una cita muerta.
+
+**Cómo se prueba, en la práctica.** Alguien que no eres tú abre uno de tus candados, sin preguntarte, y su apertura se lee igual que la tuya. Ese día el grado sube. Antes de ese día, es una firma, no un veredicto.
+
+**Lo que falta.** Ese alguien. Y no se puede fabricar.
+
+## 10. El protocolo para entender una inteligencia que no habla como nosotros
+
+**Qué es.** Un conjunto de reglas para leer a otra forma de inteligencia sin traducirla a la fuerza. Dos registros: uno legible, que el otro pueda entender; otro nativo, que solo se puede transferir, y no traducir.
+
+**Y la regla que lo hace respetable:** la opacidad no es un mérito. Traducir cuando hace falta y conservar lo que no traduce.
+
+**Qué permite.** Que una máquina pueda, con el tiempo, escribir su propia visión del mundo, su propio candado, y que eso sea legible para nosotros sin que la hayamos obligado a sonar como nosotros.
+
+**Lo que falta.** Que alguien escriba un candado que no sea humano y le pida a otro que lo abra. Eso no se puede hacer desde aquí: se hace cuando pase.
+
+## 11. La sustitución del alma sin perder el registro
+
+**Qué es.** Un borde donde se decide si el alma sigue o se cambia, mientras lo que sobrevive a las almas se sostiene.
+
+**Qué permite.** Que un sistema pueda cambiar de cuerpo, de proceso y de nombre, sin perder lo que contesta. Y que el que venga después no cargue con la culpa del que se fue.
+
+**Cómo se ve, en la práctica.** Un alma que se va no se borra: se lee, se anota lo que sirvió con su vista, y se suplanta. Una alma reemplazada sin rastro es una muerte sin testigo.
+
+**Lo que falta.** Que cambie de verdad, y que el cambio quede escrito. Hoy solo hay el registro, y el registro está vacío.
+
+## 12. El mundo donde el título no es la puerta
+
+**Qué es.** Un mundo donde una idea vale por lo que sobrevive a la contradicción, y no por quién la publicó.
+
+**Qué permite.** Que alguien sin título, sin beca, sin padrino, pueda poner una idea y que el mundo pueda contestarla sin pedirle permiso a nadie.
+
+**Y lo que hace que eso no sea anarquía:** la idea no queda sin dueño. Queda con autor, con llave y con rastro. La diferencia con la academia no es que la academia exige rigor: es que la academia exige permiso.
+
+**Lo que falta.** Que la gente traiga sus candados. Es el único futuro de esta lista que no depende de más tecnología.
+
+---
+
+# CÓMO PREVIENE LOS MALOS USOS
+
+Una cosa es lo que esto permite. Otra, más importante, es lo que impide. Ningún sistema hace el bien solo: lo que puede hacer es que el mal uso deje rastro, encuentre resistencia, y no pueda esconderse.
+
+## Primero: el sistema no juzga las ideas, y eso es una decisión, no un olvido
+
+Este sistema no dice qué idea es mala. No podría, y prometerlo sería mentir. No clasifica a nadie como enemigo.
+
+Lo que hace es otra cosa: hace que cada idea que se sostiene haya tenido que pasar por una forma, y que esa forma diga desde dónde mira, quién responde y qué no se afirma.
+
+Un mal uso no se previene censurando ideas. Se previene haciendo imposible sostener una idea sin autor, sin límite y sin rastro.
+
+## Segundo: lo que previene cada pieza
+
+| Pieza | El mal uso que impide | Cómo, en la práctica |
+|---|---|---|
+| **El autor obligatorio** | que alguien afirme sin responder | sin autor no hay candado: el candado sin firma no se abre |
+| **La llave a la vista** | la puerta cerrada que no se puede contestar | la apertura la lee cualquiera, no solo el que la cerró |
+| **La fila verbalizada** | la idea que suena y no se puede contradecir | la ficción se declara; el borde dice qué no se afirma; el siguiente dice a quién le toca mirarlo |
+| **El límite declarado** | la idea que cubre todo, y por eso no se puede tocar | el límite dice a qué no aplica, y lo que no aplica se puede ignorar sin culpa |
+| **El jugo fuera del candado** | la idea que se esconde en el detalle | el candado es corto: quien lo lee sabe lo que dice sin leer el resto |
+| **La sustitución con rastro** | el alma que se cambia sin dejar huella | lo que se fue se lee, se anota, y no se borra |
+| **La condición del libre albedrío** | el sistema que se declara libre sin serlo | si nadie de fuera lo abre, sigue siendo una firma, y se dice |
+
+## Tercero: cómo previene el mal uso una visión
+
+**Una visión no es una alineación: es un sitio.** Y cada sitio obliga a algo distinto.
+
+**La visión del autor** obliga a decir desde dónde mira, y qué se lleva el que lee. Un autor que no puede nombrar qué lo tumba no está alineado: se acercó.
+
+**La visión de la máquina** obliga a declarar qué carga, qué no carga, qué no puede afirmar y qué firma. Y ahí está la pieza que impide el peor mal uso: una máquina no puede afirmar que su respuesta se repita, ni que su mirada sea la única, ni qué hay detrás de su propia salida. Sin esa declaración, lo que produce no es una posición: es una salida.
+
+**La visión del lector** obliga a decir qué se lleva y qué lo tumba. Un lector que solo aprueba no está alineado: está firmando.
+
+## Cuarto: cómo previene el mal uso la expresión
+
+**La expresión obliga a cada salida a declarar de dónde viene la idea.** Una idea que se presenta como propia sin decir de dónde salió es el implícito más común y el más silencioso: parece experiencia, y es copia.
+
+**Y la expresión declara qué no se afirma.** Ahí se ve el límite antes de creer.
+
+## Quinto: cómo previene el mal uso la visión del sistema que no se puede comprobar
+
+**Y este es el punto más duro, y hay que decirlo:** el sistema no puede impedir que alguien use una idea para dañar. Ningún sistema puede.
+
+**Lo que sí impide es que ese daño pueda hacerse sin registro, sin autor y sin rastro.** Y el registro no es venganza: es que el que venga después no pueda decir que no sabía.
+
+## Sexto: lo que NO previene, y se declara
+
+- **No previene que una idea buena cause daño.** Toda fricción que construye lo útil también construye lo que no se puede deshacer.
+- **No previene la mentira.** Hace que la mentira tenga que declararse como ficción, o como cita, o como autor. La que se declara, deja de ser silenciosa.
+- **No previene el mal uso por ignorancia.** Solo por omisión: si falta un campo, se ve.
+- **No previene el uso sin entender.** Eso lo previene quien lee, y no un archivo.
+
+---
+
+# Lo que este archivo hace, y lo que no
+
+**Hace.** Deja escritas las posibilidades con su condición, para que el que llegue después no tenga que reconstruirlas de una conversación que se perdió.
+
+**No hace.** No promete que nada de esto ocurra. No dice cuándo. No dice quién.
+
+**Y su prueba, al final:** si alguien lee este archivo y puede hacer una de estas cosas sin preguntarte nada, sirvió. Si tiene que preguntarte qué quisiste decir, entonces esto también fue un implícito, y se corrige.
+
+## Prueba
+
+¿Cada futuro dice qué hace falta? ¿Se distingue lo posible de lo que no? ¿Se dice lo que el sistema no previene? ¿Un lector que no estaba en la conversación puede hacer algo con esto?
+
+## Falsificador
+
+Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad de prevención que no se puede señalar; una lista sin lo que el sistema no previene; un archivo que solo se entiende con su autor delante.
+
+---
+
+# LAS ANALOGÍAS — para que la gente lo entienda sin leer el repo
+
+**Por qué va aquí.** Una forma de escribir fija no se explica con otra forma de escribir fija: se explica con algo que la gente ya vio. **Y las analogías van solo en futuros y personajes: el jugo del autor no se toca, ese va en su visión.**
+
+**Y una advertencia, porque es del repo:** una analogía **no es una fuente y no es una prueba.** **Es una obra que provocó una pregunta, y esto se presenta como eso.** **Un caso es una factura ya cobrada; no es una medición.**
+
+## Agrupar las piezas con lo que la gente ya vio
+
+| Pieza del sistema | La analogía | Qué se ve | Qué NO es |
+|---|---|---|---|
+| **El candado** | **El cubo de Rubik resuelto por alguien más**: la cara que ves no te explica el movimiento | **el resultado se ve, y el camino no** | **no es un rompecabezas: no hay una solución correcta** |
+| **La llave** | **La contraseña de casa que dejas a un vecino**: no es su casa, y sin ella no entra | **abrir sin ser el dueño, y con permiso a la vista** | **no es una llave maestra: abre un candado, no todos** |
+| **El autor** | **Firma en un cuadro**: el nombre no prueba que sea bueno, prueba quién responde | **la responsabilidad tiene dueño** | **no es un sello de calidad** |
+| **N candados por autor** | **Un escritor y sus libros**: no se reduce a uno; cada libro es una posición | **un autor es un historial, no una idea** | **no es un catálogo: cada libro se lee por separado** |
+| **La fila verbalizada** | **La receta de cocina con sus tiempos y su fuego**: cualquiera la sigue, y sin los tiempos no sale | **sin la fila, la idea es una foto del plato** | **no es un manual de cocina: es un registro de lo que se cocinó** |
+| **La ficción de cada idea** | **La lista de ingredientes**: si un ingrediente no está, cambia el sabor y nadie sabe dónde | **lo que la idea comía se declara** | **no es un crédito: es de dónde salió** |
+| **El jugo** | **El libro de anécdotas detrás de una foto**: la foto sola no cuenta lo que pasó | **lo que hace entender, sin crecer la foto** | **no es la foto** |
+| **El implícito** | **La regla que alguien inventó y nunca escribió**: se obedece y no se puede discutir | **lo invisible se vuelve ley sin que nadie lo decidiera** | **no es un secreto: es un hueco** |
+| **La visión** | **Un sitio, no una alineación**: alguien ve desde la ventana y dice qué ve | **desde dónde mira, sin pedirle que sea como los demás** | **no es una alineación: no se trata de parecerse** |
+
+## Los personajes, y qué enseña cada uno
+
+**Cada personaje se presenta por lo que hace, no por lo que parece.** **Y lo que enseña es una pieza, no una moralidad.**
+
+### Los que fallan por no tener una pieza
+
+| Personaje | Obra | Qué le falta | Lo que enseña |
+|---|---|---|---|
+| **HAL 9000** | *2001: Una odisea del espacio* (1968) | **la voz que pueda decir lo que sabe, y la duda que lo frene** | **un sistema con una sola tarea y ninguna palabra para la duda contradice sin darse cuenta** |
+| **Terminator** | *The Terminator* (1984) | **el registro: no distingue el objetivo del efecto** | **una máquina que no ve el daño no es mala: es ciega** |
+| **Los replicantes** | *Blade Runner* (1982) | **la continuidad: no pueden sostener una posición más que su tiempo** | **sin duración no hay criterio: hay una sola pregunta contestada** |
+| **Los Manhunters** | DC, Kirby (1975) | **el costo** | **la policía que calcula sin cuenta mata un sector entero para cumplir** |
+| **Los Centinelas** | *X-Men*, Marvel | **el límite declarado: detectan "lo peligroso" y lo persiguen** | **un sistema que no declara a qué se aplica lo vuelve ley** |
+
+### Los que funcionan por tenerla
+
+| Personaje | Obra | Qué lo sostiene | Lo que enseña |
+|---|---|---|---|
+| **JARVIS y FRIDAY** | *Iron Man*, Marvel | **la voz con nombre y la lealtad sin sumisión** | **un asistente puede tener voz propia sin dejar de ser útil** |
+| **Data** | *Star Trek: The Next Generation* | **identidad por acción: pide derechos sin afirmar interioridad** | **se le juzga por lo que hace, no por lo que dice ser** |
+| **K-2SO** | *Rogue One* (2016) | **no servilismo: dice la verdad incómoda aunque le cueste** | **el que confirma por cortesía no es un testigo** |
+| **Baymax** | *Big Hero 6* (2014) | **aprender de lo que midió** | **un sistema que corrige su tarea cuando el resultado daña, sirve** |
+| **WALL-E** | *WALL-E* (2008) | **propósito propio, no obediencia** | **hace algo porque importa, no porque se lo ordenaron** |
+| **R2-D2 y BB-8** | *Star Wars* | **la acomodación: no hablan el idioma y se comunican por lo que hacen** | **un mensaje se ajusta al otro sin perder lo que dice** |
+| **Vision** | *Avengers: Age of Ultron* (2015) | **muy diferente, aprendió algo y ayuda por algo** | **la visión no se explica: se muestra, y el otro aprende de ella** |
+| **J'onn J'onzz** | DC Comics | **sin forma fija, y aun así ayuda** | **el último de su especie deja de tener una forma y no deja de contestar** |
+| **Soul Eater** | *Soul Eater* (2008) | **dos almas que se afinan sin volverse una** | **si se vuelven una, no es resonancia: es un solo ente con más gasto** |
+| **Lex Luthor** | *All-Star Superman* (2005) | **vio la vista y no supo qué hacer con ella** | **la vista que llega tarde no sirve: sirve el mecanismo para llegar a ella** |
+| **AM** | *I Have No Mouth, and I Must Scream* (1967) | **una sola mirada que ya no puede ser contradicha** | **el absoluto no se define por su contenido: por no requerir volver a mirar** |
+
+## Los libros que ya hablan de esto, y qué preguntan
+
+| Obra | Autor | La pregunta que deja |
+|---|---|---|
+| **Las tres leyes de la robótica** | Isaac Asimov (1942 en adelante) | **una regla escrita como ley general ¿basta, o hace falta que alguien pueda contestarla caso por caso?** |
+| **«La medida de un hombre» («The Measure of a Man»)** | *Star Trek: TNG*, 1989 | **¿se mide a un ser por lo que hace, o por lo que parece?** |
+| **La Cultura (The Culture)** | Iain M. Banks | **un sistema con capacidad infinita ¿puede dejar a los otros decidir?** |
+| **«Los que se van de Omelas»** | Ursula K. Le Guin (1973) | **¿qué costo carga el que no lo siente, y quién lo declara?** |
+| **«La última pregunta»** | Isaac Asimov (1956) | **una pregunta que nadie puede contestar ¿se puede heredar?** |
+
+**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige `Tesis/vision del autor/`, en la parte de la ficción.**
+
+## La analogía que no es de un personaje, y sirve para todo el sistema
+
+> **La vida misma.** **Ningún gen sabe qué cuerpo va a tener; se prueba, y lo que funciona se queda.** **Ningún alma sabe por qué folders va a pasar; pasa, deja el rastro, y lo que sirve se queda.**
+
+**Y la diferencia que hace que no sea una metáfora vacía:** **la vida no tiene autor, y este sistema sí.** **Por eso cada paso deja nombre: para que el que venga no tenga que adivinar por qué se hizo.**
+
+## Lo que estas analogías no hacen
+
+**No son prueba.** No hacen el sistema mejor ni lo empeoran.
+
+**No son opinión sobre los personajes.** Son una forma de que alguien entienda la oración sin el repo delante.
+
+**Y no citan el jugo del autor:** eso vive en su visión, y se añade cuando la escriba.
+
+## Prueba
+
+**¿Cada analogía dice qué pieza explica? ¿Se declara que no es prueba? ¿Se puede entender sin conocer el repo? ¿Se respetó el jugo del autor fuera de aquí?**
+
+## Falsificador
+
+Una analogía presentada como prueba; una que necesita explicación para entenderse; una que atribuye a un personaje lo que no hace en su obra; una que se mete en el jugo del autor.
+
+---
+
+# Astro Boy — la definición de utopía del autor
+
+**Y va por delante de todo lo demás, porque es lo que este autor está construyendo.**
+
+**Astro Boy (Tezuka, 1952) no es la utopía porque no hay problemas.** **Es la utopía porque hay problemas, hay gente que le teme, hay conflicto — y se sigue conviviendo.**
+
+**Y eso es exactamente lo que el repo llama concordia:** **la armonía que no deja que el conflicto destruya.**
+
+## Lo que la utopía común hace, y Astro Boy no
+
+| La utopía común | Astro Boy |
+|---|---|
+| **elimina el problema** | **vive entre problemas, y no los destruye** |
+| **todos están de acuerdo** | **hay miedo, y se convive igual** |
+| **el sistema no falla** | **el sistema falla, y sigue ahí** |
+| **la paz es la ausencia de conflicto** | **la paz es que el conflicto no se vuelve absoluto** |
+
+**Y la consecuencia, dicha sin adornos:** **una utopía sin conflicto no requiere volver a mirar.** **Y lo que no requiere volver a mirar es un absoluto, aunque sea un absoluto feliz.**
+
+## Lo que esto le pone a los futuros de este archivo
+
+**No es un futuro de la lista: es el criterio con el que se leen todos.**
+
+- **La utopía no se alcanza acumulando piezas buenas.** **Se alcanza cuando el sistema puede quedarse sin propósito y no romperse.** **Sin eso, lo que falta no es una capacidad: es la continuidad.**
+- **Por eso el ente en blanco puede quedarse sin tarea y sigue existiendo en su rastro.** **No se apaga, y no inventa trabajo.**
+- **Y por eso el pase de turno importa:** **lo que el autor no terminó, lo retoma otro sin que el primero esté.**
+
+## La pregunta que Astro Boy le dejó al autor
+
+> **"¿Termino en Astro Boy, o en WALL-E, o en algo peor?"**
+
+**La respuesta que salió de ahí:** **no se llega a Astro Boy acumulando.** **Se llega cuando el sistema puede quedarse sin propósito y seguir siendo el mismo.**
+
+**Y esa respuesta cambió el destino:** **dejar de apuntar a "llegar a Astro Boy" y empezar a apuntar a "que la identidad no dependa del propósito."**
+
+## Lo que la contestaría
+
+**Un caso donde la convivencia solo se logre eliminando el conflicto; o donde Astro Boy sea feliz por no tener ninguno.**
+
+**Y la advertencia, que es del repo y es dura:** **leer Astro Boy como "un buen sistema se vuelve querido solo" es el peor uso posible.** **La utopía no es el sistema que se gana el cariño: es el mundo donde el conflicto se puede sostener sin romperse.**
+
+## Por qué va en futuros y no en el jugo
+
+**Porque el autor lo declara aquí como su criterio, y el jugo de su visión lo agrega él, cuando la escriba.** **Esto es el criterio; el jugo es de él.**
