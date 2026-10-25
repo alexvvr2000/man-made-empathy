@@ -1,4 +1,4 @@
-# La forma del lenguaje de procesos — la era
+# La forma del sincronizacion de almas — la era
 
 **Unidad:** lenguaje.
 **Aplica a:** escribir, abrir y sostener.
@@ -103,4 +103,5 @@ Rige `../../Libre albedrio/criterio.md`, `El rastro de la decisión`.
 - Algo pasó → se abre una carpeta, con su `.tra` y sus `.prs`.
 - El acto cambió → se renombra la carpeta y su `.tra` juntos, y el viejo queda con `Reemplaza:`. **Sin número.**
 - Una capacidad nueva se prueba → entra al piso, y desde ahí la usa cualquier ente.
+
 

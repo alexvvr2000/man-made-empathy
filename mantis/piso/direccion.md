@@ -7,7 +7,7 @@
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** se mide desde `../../futuro/lenguaje de procesos/PISO.md`, `La dirección`: **`Ouroboros/` es la fuente; el estándar muta a MANTIS; nadie muta hacia arriba.**
+**Sesgo:** se mide desde `../../faro/sincronizacion de almas/friccion/PISO.md`, `La dirección`: **`Ouroboros/` es la fuente; el estándar muta a MANTIS; nadie muta hacia arriba.**
 **Límite:** no se aplica a juzgar si MANTIS decide bien. Mide si está enrutado contra el estándar vigente, y nada más.
 **Firma:** humano:autoridad · máquina:quien corra la unidad.
 
@@ -76,5 +76,6 @@ pwsh -NoProfile -File mantis/piso/direccion.ps1
 - Da `falla` por mutación hacia arriba → se revierte en `Ouroboros/`, y se anota con su `contra`.
 - Da `indeterminado` → se declara así, y no se finge que pasó.
 - En cualquier otro caso → se anota la corrida y se continúa.
+
 
 

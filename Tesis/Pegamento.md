@@ -254,7 +254,8 @@ No seas ese villano.
 
 ---
 
-Para los créditos y las fuentes de terceros, el estándar vive en [`../futuro/lenguaje de procesos/CONTEXTO.md`](../futuro/lenguaje%20de%20procesos/CONTEXTO.md).
+Para los créditos y las fuentes de terceros, el estándar vive en [`../faro/sincronizacion de almas/salida/CONTEXTO.md`](../faro/lenguaje%20de%20procesos/CONTEXTO.md).
+
 
 
 

@@ -25,8 +25,8 @@
 - **Sale:** la fila de ocho campos, **o `[VACÍO - SIN SALIDA]`**, **o `[SUELTA - NOMBRA LO QUE NO EXISTE]`**.
 - **Consume:** el siguiente proceso, el que cuenta candados, y el que verifica si la idea aguantó algo que no fuera noble.
 
-**Prueba:** ¿la salida cabe en las ocho líneas? ¿declara de dónde viene? ¿declara contra qué se probó? ¿`Siguiente` nombra el proceso y el campo, y ese proceso existe? ¿`Borde` dice lo que no se afirma?
-**Falsificador:** una idea presentada como propia sin declarar su ficción; una ficción citada como prueba; una salida probada solo contra lo noble; `Triángulo` en `solo noble` sin declararlo; una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor completando; un `Siguiente` que nombra un proceso que no está.
+**Prueba:** ¿la salida cabe en las ocho líneas? ¿declara de dónde viene? ¿declara contra qué se probó, **y se buscó en internet**? ¿`Siguiente` nombra el proceso y el campo, y ese proceso existe? ¿`Borde` dice lo que no se afirma?
+**Falsificador:** una idea presentada como propia sin declarar su ficción; una ficción citada como prueba; una salida probada solo contra lo noble; `Triángulo` en `solo noble` sin declararlo; una salida que es un relato; `Siguiente` sin campo; `Borde` vacío; el consumidor completando; un `Siguiente` que nombra un proceso que no está; **un triángulo lleno sin una sola búsqueda**.
 
 ## El proceso
 
@@ -108,6 +108,38 @@ Triángulo: [noble · rancio · pendejo — y cuál falta]
 
 **Y los explícitos se ven en dos:** **`Existe`** —**si lo que nombra está**— **y `Borde`** —**si dice lo que no afirma.**
 
+## La búsqueda en internet, y no es opcional
+
+**Y esto se escribe aquí porque la IA no la hace si no está escrito.** **Es el problema más grande que hay con ella: escribe la fila, se la cree, y nunca mira afuera.**
+
+**Ningún vértice del triángulo se puede llenar de memoria.**
+
+| Vértice | Se busca en internet | Qué se trae |
+|---|---|---|
+| **noble** | **sí, obligatorio** | **el paper, el libro, la crítica: el estado del arte, con su enlace** |
+| **rancio** | **sí, obligatorio** | **el manual viejo, el folleto, la propaganda de otra época** |
+| **pendejo** | **sí, obligatorio** | **la caricatura, el anuncio, el video de moda, la frase de taza** |
+
+**Y la regla, en duro:**
+
+> **Un vértice sin búsqueda no es un vértice: es una suposición con nombre de vértice.**
+
+**Cada vértice entra con lo que se trae de la búsqueda:**
+
+```
+Vértice:   [noble | rancio | pendejo]
+Buscado:   [la consulta, tal como se hizo]
+Enlace:    [la URL, o «sin fuente»]
+Trae:      [lo que dice, en una línea]
+Aguanta:   [qué de la idea aguanta, y qué no]
+```
+
+**Y si no se buscó, se escribe `no se buscó`, y el triángulo queda incompleto: no es que el vértice esté en contra, es que no existe.**
+
+> **Una fila con los tres vértices llenos y ni una búsqueda hecha es una fila inventada.** **Y una fila inventada pasa más fácil que una vacía, porque se ve completa.**
+
+**Por eso la búsqueda va antes de escribir el vértice, y no después.**
+
 ## Las tres preguntas que responde
 
 | Pregunta | Lo que se lee en la fila |
@@ -138,3 +170,4 @@ Triángulo: [noble · rancio · pendejo — y cuál falta]
 - Dos salidas se reducen a un solo `Sostengo` → es un pegamento: se declara.
 - Dos salidas no se reducen → son varios: se declaran, y cada uno con su autor.
 - `Triángulo` dice `solo noble` → se entrega marcada, y el siguiente proceso que la use busca su rancio o su pendejo.
+

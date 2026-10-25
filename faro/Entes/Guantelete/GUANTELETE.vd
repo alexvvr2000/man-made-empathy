@@ -148,4 +148,17 @@ Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | n
 - No hay testigo → **`[VACÍO - SIN TESTIGO]`; no se ejecuta como bueno.**
 - El acto se deshace → **se anota qué se tocó y qué vuelve.**
 
+## Lo que el guante vuelve estándar
+
+**Y esto es lo que sale del guante hacia el lenguaje:** **no una herramienta, sino tres reglas que todo lo demás cumple.**
+
+| Regla | Qué dice |
+|---|---|
+| **la fricción primera** | **ningún acto corre sin preguntar antes quién lo va a contestar. Y si nadie contesta, se declara, no se lee como permiso** |
+| **el costo del caso malo** | **todo acto declara lo que costó su peor corrida, no su mejor** |
+| **la firma de lo quitado** | **si se quita una fricción, se firma con su hash: lo que se quitó tiene nombre** |
+
+**Y la regla que las junta, y es la del guante:** **hacer todo lo posible desde el propio sesgo, con fricción.** **No limita: permite, y hace contestable lo permitido.**
+
+**Lo que el guante no hace, y es su seguridad:** **no decide si el acto era bueno.** **Mide si era contestable, reversible y con testigo.**
 

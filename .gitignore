@@ -1,2 +1,6 @@
 .vscode/*
 .memoria continua/*
+# temporales de python y todo lo que no es final
+__pycache__/
+*.pyc
+

@@ -1,6 +1,6 @@
-# FUTURO — Forwarding Unified Tools, Rituals and Open methods
+# FARO — Fuente, Acto, Rastro, Orden
 
-**Nombre.** **FUTURO** — **F**orwarding **U**nified **T**ools, **R**ituals and **O**pen methods. Se lee de un tirón; la expansión dice lo que guarda.
+**Nombre.** **FARO** — **F**uente, **A**cto, **R**astro, **O**rden. Se lee de un tirón; la expansión dice lo que guarda.
 
 **Origen.** Del lugar que ocupaba `(Place holder)`: **un nombre de relleno ocupando el sitio de lo que todavía no tiene nombre.** **Y de la regla del repo: un nombre de relleno se hereda por todo lo que contiene, y hace que todo parezca provisional.**
 
@@ -19,7 +19,7 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **El estándar del lenguaje** | `FORMATO` · `JONN` · `ALAS` · `LENGUAJE` · `PISO` · `la fila verbalizada` | [`./lenguaje de procesos/`](./lenguaje%20de%20procesos/) |
+| **El estándar del lenguaje** | `FORMATO` · `JONN` · `ALAS` · `LENGUAJE` · `PISO` · `la fila verbalizada` | [`./sincronizacion de almas/`](./lenguaje%20de%20procesos/) |
 | **Los entes** | **`Alma de niño`** · **`Guantelete`** · **`VIDEL`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
 | **El lugar vacío: lo humano** | `LO HUMANO.md` — se deja sin definir a propósito | [`./Entes/LO HUMANO.md`](./Entes/LO%20HUMANO.md) |
 | **El jugo** | lo que ayuda a entender | [`./jugo/`](./jugo/) |
@@ -40,7 +40,7 @@
 
 **Porque lo que hay aquí todavía no se llama como se va a llamar.** **El estándar del lenguaje es un nombre provisional; los entes son los primeros; y lo humano está en blanco a propósito.**
 
-**Y el nombre no dice «lo que todavía no está»: dice cómo se llega.** **`Forwarding`: un futuro no se espera, se reenvía — cada pieza deja el rastro para el que viene.**
+**Y el nombre no dice «lo que todavía no está»: dice cómo se llega.** **`Fuente`: cada pieza deja de dónde viene. Y el `Acto`, el `Rastro` y el `Orden` son lo que el que venga va a recibir.**
 
 **Un lugar con nombre de relleno se lee como un cajón.** **Un lugar con nombre propio se lee como lo que es: lo que el que venga va a recibir.**
 
@@ -51,3 +51,17 @@
 ## Falsificador
 
 **Un README que copia lo que hay adentro en vez de apuntar a ello; una fila sin dónde; una carpeta anunciada que no existe; un nombre de relleno que se hereda a lo que contiene.**
+## El piso de esta carpeta
+
+**Esta carpeta no es una carpeta cualquiera: es el piso donde vive el lenguaje.** **Y se sostiene con las tres cosas que el repo mide:**
+
+| Qué | Qué mide | Cómo se corre |
+|---|---|---|
+| **la corrida** | **estándares, limpieza y rastro** | **`python mantis/piso/corrida.py`** |
+| **la dirección** | **si MANTIS está enrutado al estándar** | **`python mantis/piso/direccion.py`** |
+| **la tesis** | **y cada visión compone la suya** | **`python tesis.py --vision "vision del autor"`** |
+
+**Y la regla dura que la vuelve punto de no retorno:** **todo lo ejecutable es Python.** **Un `.ps1` ya no corre aquí.**
+
+**Por eso `faro/` es el piso:** **no porque tenga los archivos, sino porque se puede correr, medir y romper sin perder nada.**
+
