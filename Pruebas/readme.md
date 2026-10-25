@@ -76,7 +76,7 @@
 | **sin la propiedad** | se declara que la cosa no está, y **se sigue mirando**: es el registro correcto, no un fracaso |
 | **indeterminado** | falta la firma externa, o nadie miró: **se declara así y no se finge** |
 
-**Y ninguna prueba cierra nada por aprobación.** Rige `../Tesis/candados/autor/080 el libre albedrio no se termina- se ponen cerrojos.md`, `El grado no se cierra por aprobación`: **un testigo que dice «está bien» no sube el grado; firma el absoluto.**
+**Y ninguna prueba cierra nada por aprobación.** Rige `../Tesis/candados/autor/02 el alma y el libre albedrio/080 el libre albedrio no se termina- se ponen cerrojos.md`, `El grado no se cierra por aprobación`: **un testigo que dice «está bien» no sube el grado; firma el absoluto.**
 
 **Ancla:** una prueba da el registro; la decisión de qué hacer con él no es de la prueba.
 

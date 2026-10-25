@@ -264,4 +264,4 @@ la idea                idea en fricción       idea en fricción con el entorno
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
 
-Para los créditos y las fuentes de terceros, el estándar vive en `../../../faro/sincronizacion de almas/salida/CONTEXTO.md`.
+Para los créditos y las fuentes de terceros, el estándar vive en `../../../../faro/sincronizacion de almas/salida/CONTEXTO.md`.

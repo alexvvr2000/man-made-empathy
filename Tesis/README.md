@@ -4,7 +4,8 @@
 
 | Carpeta | Qué guarda | Quién entra |
 |---|---|---|
-| `candados/autor/` | un candado por posición: la tesis entera y sus cortes, en la voz del que los escribió | quien quiere saber qué se sostiene, y desde dónde |
+| `candados/autor/000 el cero/` | la tesis entera, en la voz del que la escribió | quien quiere saber qué se sostiene |
+| `candados/autor/01` a `06` | sus cortes, en seis carpetas: el ente, el alma, el nombre, el lenguaje, la máquina y el caso | quien quiere abrir uno sin abrirlos todos |
 | `vision de la maquina/` | cómo ve la máquina desde el candado: qué carga, qué contesta y qué no puede afirmar | quien va a hacer que una máquina lo sostenga |
 | `vision del lector/` | cómo ve el que lee: qué se lleva, qué pregunta, y qué lo tumba | quien va a contestarlo |
 

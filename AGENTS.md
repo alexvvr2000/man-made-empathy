@@ -4,7 +4,7 @@
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
 **Dueño:** humano:autoridad. **Estado:** vigente.
 
-**Sesgo:** mira desde la tesis escrita en `./Tesis/candados/autor/` y desde el estándar de `./faro/sincronizacion de almas/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
+**Sesgo:** mira desde la tesis escrita en `./Tesis/candados/autor/` —el cero y sus seis carpetas— y desde el estándar de `./faro/sincronizacion de almas/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
 **Límite:** no se aplica a juzgar si la tesis es cierta. **Dice qué hay, dónde, y qué no se toca.**
 **Firma:** humano:autoridad · máquina:agente-de-turno.
 
@@ -19,7 +19,7 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **La tesis** | **el candado cero y sus cortes** | **`./Tesis/candados/autor/`** |
+| **La tesis** | **el candado cero, y sus cortes en seis carpetas** | **`./Tesis/candados/autor/`** |
 | **El blanco de las tesis** | **las visiones** | **`./Tesis/vision de la maquina/` · `./Tesis/vision del lector/`** |
 | **El estándar** | **`FARO`** — trece piezas en cuatro grupos | **`./faro/sincronizacion de almas/`** |
 | **Los entes del estándar** | **`ALAS` · `VIGA` · `CONVIVIR` · `CERCO`** | **`./faro/Entes/`** |
@@ -54,7 +54,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **leer la tesis o escribir sobre ella** | `./Tesis/candados/autor/` | **no se reescribe: se cita** |
+| **leer la tesis o escribir sobre ella** | `./Tesis/candados/autor/000 el cero/` y la carpeta que toque | **no se reescribe: se cita** |
 | **escribir algo entregable** | `./faro/sincronizacion de almas/formacion/CLARIDAD.md` | **no se entrega** |
 | **escribir un proceso** | `./faro/sincronizacion de almas/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
 | **escribir un ente** | `./faro/sincronizacion de almas/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
