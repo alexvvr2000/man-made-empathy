@@ -1,7 +1,7 @@
-# GUANTELETE.prs — el procedimiento, paso a paso
+# CERCO.prs — el procedimiento, paso a paso
 
-**Nombre.** GUANTELETE.
-**Origen.** De la carta del ente: **el guante no limita, deja hacer todo lo posible desde el sesgo declarado, y su única condición es que haya fricción.** **Y de la pregunta de la autoridad: ¿está explícito qué hace y cómo se usa?**
+**Nombre.** CERCO.
+**Origen.** De la carta del ente: **el cerco no limita, deja hacer todo lo posible desde el sesgo declarado, y su única condición es que haya fricción.** **Y de la pregunta de la autoridad: ¿está explícito qué hace y cómo se usa?**
 
 **Unidad:** proceso.
 **Aplica a:** tocar.
@@ -82,3 +82,4 @@ Deshecho:    [sí | no | no aplica]
 - Hay testigo y es irreversible → se toca, con espera declarada.
 - No hay testigo → `[VACÍO - SIN TESTIGO]`, y se sigue con esa marca.
 - Se puede deshacer → se deshace, y se anota qué volvió.
+

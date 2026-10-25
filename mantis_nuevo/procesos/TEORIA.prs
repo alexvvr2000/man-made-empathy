@@ -1,0 +1,79 @@
+# TEORIA.prs — la tesis teórica: argumento, no datos
+
+**Nombre.** TEORIA.
+**Origen.** De la autoridad: **"la que es pura teoría es la que se pone más moños"**. **Y de lo investigado:** **una tesis teórica no es una tesis empírica sin datos; es otro tipo de evidencia.**
+
+**Unidad:** proceso.
+**Aplica a:** argumentar.
+**Tipo:** se ejecuta.
+**Lector:** quien va a defender una posición sin medir nada, y quien la va a revisar.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la tesis se lee desde el que puede contestarla, no desde el que la escribió.
+**Límite:** **no produce datos, y no finge tenerlos.** **Su prueba es el argumento, y su fuerza es que otro pueda citarla y atacarla.**
+**Firma:** humano:autoridad · máquina:quien la escriba.
+
+**Variables:** problema · aunque · sostiene · porque · contraargumento
+**Peor:** se escribe una pila de resúmenes con tono académico, **y el lector termina sin saber qué se sostiene ni contra qué.**
+**Quién:** el que va a citar una tesis que no defiende nada.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un problema conceptual, y las fuentes que lo rodean.
+- **Falla si:** no cabe en `aunque X, sostiene Y, porque Z`; los autores se listan uno tras otro; la tesis se esconde en "este trabajo examina"; hay lenguaje empírico sin medición; no hay contraargumento.
+- **Sale:** la tesis con su argumento, sus límites y sus implicaciones, **o `[SIN TESIS - ES UN TEMA]`**.
+- **Consume:** quien va a defenderla, y quien va a revisarla.
+
+**Prueba:** ¿cabe en la fórmula? ¿los autores están agrupados por función y no en fila? ¿la tesis está dicha o escondida? ¿hay un contraargumento nombrado?
+**Falsificador:** un desfile de definiciones; autores en fila; una tesis escondida; lenguaje empírico sin medición; cero contraargumentos.
+
+## El procedimiento
+
+```
+1. problema     → la tensión: qué se define mal, o qué dos cosas no cuadran.
+2. aunque       → lo que ya se dice, y de quién.
+3. sostiene     → la posición, en una frase que alguien pueda negar.
+4. porque       → la razón, con las fuentes que la sostienen.
+5. metodos      → cómo se eligieron las fuentes: bases, criterios, límites.
+6. argumento    → el desarrollo, en el lugar que ocuparían los resultados.
+7. contra       → al menos un contraargumento, nombrado.
+8. implicaciones → qué cambia para la teoría, la práctica o lo que sigue.
+Prohibido el paso 6 sin el 2, el 3 y el 4.
+```
+
+## Si no cabe en la fórmula, todavía es un tema
+
+```
+Tema:       "sincronizacion de almas"
+Tesis:      "aunque la industria pregunta si la maquina es consciente,
+             este trabajo sostiene que la verbalizacion es el primitivo,
+             porque sin poder contestar no hay posicion que otro pueda reconstruir."
+```
+
+**Y si no se puede escribir así, se declara `[SIN TESIS - ES UN TEMA]`, y se sigue buscando el problema conceptual.**
+
+## Los cinco errores que la ponen de moños
+
+| Error | Su corrección |
+|---|---|
+| **el desfile de definiciones** | **se elige la que importa, y se dice qué cambia al elegirla** |
+| **los autores en fila** | **se agrupan por lo que hacen en el argumento** |
+| **la tesis escondida** | **se dice "sostiene que", no "examina"** |
+| **la teoría demasiado grande** | **un marco, no cinco** |
+| **lenguaje empírico sin medición** | **"ofrece una explicación", no "demuestra"** |
+
+## Lo que este proceso no hace
+
+**No produce resultados, ni los finge.** **Donde otros ponen tablas, aquí va el argumento.**
+
+**No revisa la literatura como catálogo.** **La usa como evidencia de una línea de razonamiento.**
+
+**No sustituye a `RESULTADOS.prs`.** **Si hay algo que se midió, entonces no es esta tesis: es `CORO` o `MESA`.**
+
+## Transiciones
+
+- Cabe en la fórmula → se escribe, y se declara su límite.
+- No cabe → `[SIN TESIS - ES UN TEMA]`, y se vuelve al problema conceptual.
+- Aparecen datos → la tesis deja de ser teórica, y pasa a `CORO` o `MESA`.
+- Un contraargumento no se puede contestar → se declara, y es parte de la tesis.

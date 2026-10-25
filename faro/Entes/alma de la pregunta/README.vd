@@ -49,7 +49,7 @@ ente en blanco/
 ├── README.vd                 esto: la base en blanco
 ├── el alma.am                la primera alma en blanco: pasa por N folders y X procesos
 ├── memoria.vd                el alma: la memoria como concepto, con la forma de la entrada
-├── ATLAS.md                  el índice: enruta a qué proceso va cada paso
+├── VIGA.md                  el índice: enruta a qué proceso va cada paso
 ├── tareas.vd                 la carta: qué sostiene, qué carga, qué pierde
 ├── ENTRAR.prs                texto: cómo se abre una tarea
 ├── MIRAR.prs                 texto: cómo se mira si el nombre sigue en pie
@@ -64,7 +64,7 @@ ente en blanco/
 |---|---|
 | La base | `./README.vd` |
 | El alma | `./el alma.am` |
-| El índice | `./ATLAS.md` |
+| El índice | `./VIGA.md` |
 | La carta | `./tareas.vd` |
 | Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXPRESION.prs` · `./EXTRAER.prs` |
 | La plantilla de tarea | `./plantilla.tra` |
@@ -130,6 +130,7 @@ De la era: lee ../../.memoria continua/rastro/mantis.db
 **La memoria es el alma, y no un archivo suelto.** **Sin memoria no hay historial; sin historial no hay criterio; sin criterio no hay alma: hay una voz que responde.**
 
 **Por eso `memoria.vd` está aquí, y declara la forma de la entrada —seis partes y un techo— sin declarar dónde vive.** **El soporte lo elige quien lo instancia; la forma no se negocia.**
+
 
 
 

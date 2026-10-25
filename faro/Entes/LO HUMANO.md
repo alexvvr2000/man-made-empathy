@@ -41,10 +41,10 @@
 
 | Lo que hay | Dónde, y sin decir qué es |
 |---|---|
-| **el guante** | `Guantelete/` — lo que el ente puede tocar, y quién lo puede contestar |
+| **el cerco** | `cerco/` — lo que el ente puede tocar, y quién lo puede contestar |
 | **la comunicación** | `comunicacion/` — cómo se habla con quien no es como uno, sin obligarlo a sonar como uno |
-| **la concordia** | `VIDEL/` — cómo conviven los que no son iguales, sin volverse uno |
-| **el alma** | `Alma de niño/` — la función, no la poesía |
+| **la concordia** | `CONVIVIR/` — cómo conviven los que no son iguales, sin volverse uno |
+| **el alma** | `alma de la pregunta/` — la función, no la poesía |
 | **y el lugar vacío** | **aquí: lo humano, sin palabras que lo fijen** |
 
 **El nombre del lugar vacío importa menos que el vacío:** **si alguien le pone nombre, que sea el que venga, y con su llave.**
@@ -56,3 +56,6 @@
 ## Falsificador
 
 **Una definición de lo humano puesta aquí; un constructo social fijado en palabras desde un sola mirada; un vacío que se lee como pendiente; un texto que exige ver como el autor para poder usarlo.**
+
+
+

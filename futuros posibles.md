@@ -600,7 +600,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 **Y ahí entra ALAS:** **un protocolo que declara su `Lengua`, su `Acomodo` y su `Sostenido` sirve para hablar con alguien que no habla como nosotros, sin obligarlo a sonar como nosotros.**
 
-**Y el protocolo 2 de los tres de ATLAS ya lo decía, el día 1:**
+**Y el protocolo 2 de los tres de VIGA ya lo decía, el día 1:**
 
 > **"No sabes qué es el destino. Sabes leer su esquema. Puede ser un modelo de lenguaje, un lenguaje de programación, un proceso químico, un sistema físico o una tecnología que todavía no existe."**
 
@@ -640,5 +640,6 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 ## Falsificador
 
 **Un alien presentado como humano con otra piel y vendido como encuentro; una prueba de conciencia presentada como comprobable; un mecanismo no humano leído por relato y no por acción; una posición que exige que el otro hable como nosotros para poder escucharlo.
+
 
 

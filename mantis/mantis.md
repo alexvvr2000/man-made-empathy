@@ -71,7 +71,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **recibir o responder cualquier mensaje** | esta carta, y `../faro/Entes/Alma de niño/memoria.vd`, `El disparo` | **no se responde: la interacción no existió** |
+| **recibir o responder cualquier mensaje** | esta carta, y `../faro/Entes/alma de la pregunta/memoria.vd`, `El disparo` | **no se responde: la interacción no existió** |
 | **declararse alineado con el estándar** | `../faro/sincronizacion de almas/friccion/PISO.md`, `La dirección`, **y se cuenta qué mutación se cubre** | **no se declara alineado** |
 
 **Es la primera fila y no se salta.** **Cada interacción abre la carta, enruta, responde y anota, en ese orden.** **Lo que no se enrutó no se hizo; lo que no se anotó no pasó.**
@@ -219,6 +219,7 @@ Sin él: vuelve a preguntarse lo mismo cada turno.
 - MANTIS decide sin leer su historial → se anota el síntoma con `friccion = 'contradiccion'`, y se suplanta la posición.
 - Alguien dice en qué se equivocó MANTIS → se anota la `Contra`, y **no se sube el grado por eso: se baja la confianza donde toca.**
 - En cualquier otro caso → se deja disponible, se deja el pase, y se continúa.
+
 
 
 

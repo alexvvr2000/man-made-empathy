@@ -121,6 +121,22 @@ autor/
 
 > **La academia no se mata con cantidad de candados: se mata con candados que cualquiera puede abrir sin pedir permiso. Y eso se prueba cuando otro los abre.**
 
+## La diferencia de J'onn, y por qué importa aquí
+
+**Superman casi no conoció a su gente: llegó de un planeta que ya no estaba, y creció entre otros.** **Su diferencia la lleva solo, y por eso la explica en vez de vivirla.**
+
+**J'onn no.** **J'onn conoció a los suyos, los perdió, y aun así se quedó a vivir con los que no eran como él.**
+
+**Y esa es la diferencia que este estándar necesita:**
+
+> **El que no conoció a su gente no puede convivir con otra: solo puede ser tolerado. El que la conoció, y la perdió, sí puede.**
+
+**Porque convivir no es parecerse a los demás ni olvidar lo que fuiste.** **Es saber lo que perdiste y quedarte.**
+
+**Y eso toca el candado de frente:** **un candado escrito por el que nunca tuvo otra comunidad solo puede defender una.** **Un candado escrito por el que perdió la suya sabe que hay más de una, y deja llave.**
+
+**Y la prueba de un JONN:** **¿el candado se escribió desde la diferencia que se vive, o desde la diferencia que solo se explica?**
+
 ## Prueba
 
 **¿El candado tiene autor? ¿Su nombre es propio y no numerado? ¿La llave está en el repo? ¿El jugo vive fuera del candado? ¿Se declara qué se reemplazó? ¿Los tres pilares están nombrados? ¿Hay algún implícito que no se escribió?**

@@ -1,7 +1,7 @@
 # RETIRAR.prs — quitar una pieza sin borrar lo que servía
 
 **Nombre.** RETIRAR — **R**econocer, **E**scuchar, **T**razar, **I**rse, **R**egistrar, **A**rchivar, **R**endir.
-**Origen.** Del primer guantelete: **retirar sin declarar el fin que cubría deja un hueco que nadie ve.** **Y del repo: lo descartado no se poda: queda con su porqué.**
+**Origen.** Del primer cerco, cuando se llamaba de otra forma: **retirar sin declarar el fin que cubría deja un hueco que nadie ve.** **Y del repo: lo descartado no se poda: queda con su porqué.**
 
 **Unidad:** proceso.
 **Aplica a:** retirar.
@@ -52,3 +52,4 @@ Prohibido el paso 7 sin el 5.
 - Hay quien cubra el fin → retirada, y la cubierta queda declarada.
 - No hay quien lo cubra → `descubierto`, con quién lo carga.
 - Lo derivado circula → se corrige lo derivado, no solo el registro.
+

@@ -1,0 +1,67 @@
+# CORO.prs — la tesis de academia, con su piel
+
+**Nombre.** CORO.
+**Origen.** De la autoridad: **la que sí va a la academia, y sí importa que no la revienten.**
+
+**Unidad:** proceso.
+**Aplica a:** entregar.
+**Tipo:** se ejecuta.
+**Lector:** quien va a mandar un texto a revisión, y quien lo va a revisar.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** un texto se lee desde el revisor, que busca en qué falla.
+**Límite:** **no hace la tesis buena.** **Hace que cumpla la forma y la conducta, para que la discutan por su idea y no por su descuido.**
+**Firma:** humano:autoridad · máquina:quien la escriba.
+
+**Variables:** estructura · estilo · conducta · declaración
+**Peor:** la idea es buena y la rechazan por un estilo de cita inconsistente o por no declarar el uso de IA.
+**Quién:** todo lo que se sostenga en ese texto.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** una tesis ya argumentada, y sus fuentes con enlace.
+- **Falla si:** no declara su estilo de cita en la portada; mezcla estilos; no declara el uso de IA; no declara financiamiento o conflicto; la estructura no es IMRaD y no lo explica.
+- **Sale:** el texto con su portada, su estilo declarado, su método, sus resultados y sus referencias.
+- **Consume:** quien lo revisa, y quien va a citarlo.
+
+**Prueba:** ¿el estilo está declarado y se cumple igual de principio a fin? ¿la conducta está declarada? ¿cada afirmación tiene su referencia o se declara sin ella?
+**Falsificador:** dos estilos en un mismo texto; una IA usada y no declarada; una referencia que no se puede abrir; un resultado sin archivo.
+
+## El procedimiento
+
+```
+1. declarar estilo → APA, MLA o Chicago. Uno, y en la portada.
+2. armar la piel   → IMRaD: introducción, métodos, resultados, discusión, referencias.
+3. llenar metodos  → cómo se eligió, qué se corrió, y con qué se hizo.
+4. llenar resultados → lo de RESULTADOS.prs: sin archivo no hay resultado.
+5. rodear          → discusión: qué dice, qué no, y contra qué se probó.
+6. declarar conducta → uso de IA con su herramienta y su versión, financiamiento y conflicto.
+7. revisar citas   → una por una: ¿se abre? ¿dice lo que se le atribuye?
+8. contar          → palabras, tablas y figuras, si el destino lo pide.
+Prohibido el paso 4 sin archivo.
+```
+
+## Lo que la academia exige aunque el formato esté bien
+
+| Qué | Por qué muerde más que el formato |
+|---|---|
+| **el estilo declarado y constante** | **un revisor lo nota en la primera página** |
+| **el uso de IA declarado** | **no declararlo es falta de conducta, no de estilo** |
+| **el financiamiento y el conflicto** | **es lo que revisan antes de leer** |
+| **las referencias que se abren** | **una cita que no existe es la retracción esperando** |
+
+## Lo que este proceso no hace
+
+**No argumenta.** **Eso es `TEORIA`, y aquí se da por hecho.**
+
+**No inventa resultados.** **Se declaran con su archivo, o `sin datos`.**
+
+**No elige el estilo.** **Lo declara el autor: elegir es decir con quién se quiere hablar.**
+
+## Transiciones
+
+- El estilo no está decidido → no se entrega: se declara primero.
+- No hay archivo de resultados → `sin datos`, y se dice qué faltó.
+- Hay IA sin declarar → se declara, con su herramienta y su versión.
+- Una cita no se abre → se quita, o se declara que no se pudo revisar.

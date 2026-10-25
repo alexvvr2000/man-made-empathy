@@ -1,7 +1,7 @@
 # INVERTIR.prs — deducir un proceso de lo observable, sin llegar al aparato
 
 **Nombre.** INVERTIR — **I**ndagar, **N**ombrar, **V**er, **E**ntrar, **R**econocer, **T**irar, **I**r, **R**endir.
-**Origen.** Del primer guantelete, ingeniería inversa. **Y de la luz roja de la era: si al desmontar el aparato llegas al aparato y no al para qué, no hiciste ingeniería inversa: hiciste anatomía.**
+**Origen.** Del primer cerco, cuando se llamaba de otra forma, ingeniería inversa. **Y de la luz roja de la era: si al desmontar el aparato llegas al aparato y no al para qué, no hiciste ingeniería inversa: hiciste anatomía.**
 
 **Unidad:** proceso.
 **Aplica a:** invertir.
@@ -59,3 +59,4 @@ Prohibido el paso 3 sin el 2.
 - Reproduce lo observable → se declara deducido, y se usa con esa marca.
 - No reproduce → se descarta, y se anota el porqué.
 - Se llegó al aparato y no al para qué → `[ANATOMÍA - SIN PARA QUÉ]`, y no se entrega como proceso.
+

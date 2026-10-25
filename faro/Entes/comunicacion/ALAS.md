@@ -2,7 +2,7 @@
 
 **Nombre.** **ALAS** — **A**pertura, **L**engua, **A**comodo, **S**ostenido. Se lee de un tirón; la expansión dice las cuatro cosas que todo protocolo declara.
 
-**Origen.** Del ATLAS que fue y ya no es. **El acrónimo viejo decía cómo se comunica uno.** **Este dice que cada persona o entidad define su propio protocolo, y que hay cuatro cosas que siempre se declaran.**
+**Origen.** Del VIGA que fue y ya no es. **El acrónimo viejo decía cómo se comunica uno.** **Este dice que cada persona o entidad define su propio protocolo, y que hay cuatro cosas que siempre se declaran.**
 
 **Y el nombre no es casual:** **una comunicación que funciona es la que deja al otro con alas, no con el mensaje.** **La prueba no es que entienda: es que pueda seguir sin el que le habló.**
 
@@ -95,3 +95,4 @@ Falla si:   [el caso que lo incumple, y qué se truncó]
 - El otro no cabe en el canal → **se declara el truncado, y no se entrega como completo.**
 - La mesa cambia → **se cambia el protocolo, no el estándar.**
 - La mesa no tiene esquema ni idioma → **`[VACÍO - SIN PROTOCOLO]`, y se hace cuando llegue.**
+

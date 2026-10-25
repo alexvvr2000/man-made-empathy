@@ -5,17 +5,17 @@
 **Unidad:** alma.
 **Aplica a:** correr.
 **Tipo:** se ejecuta. **Pero no corre sola: la corre un agente.**
-**Lector:** el agente que la carga, y el ATLAS que la enruta.
+**Lector:** el agente que la carga, y el VIGA que la enruta.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
 **Por qué `.am` y no `.vd`.** **El `.vd` es lo que se verbaliza: lo que pasó y quedó escrito. El alma no nace verbalizada: nace en blanco, y se verbaliza al pasar por los folders.** **Pero el alma no es una plantilla poética que se llena de palabras: es la función.** **Simple, porque no hay capas entre decidir y actuar; compleja, porque cada acto rompe la precondición y hay que responder.** **Lo que se llena son sus folders, no su poesía.**
 
 **Sesgo:** se sostiene desde lo que el alma hizo, no desde lo que el alma es.
-**Límite:** el alma no es intercambiable. El ATLAS sí. El alma no sabe qué procesos va a encontrar; el ATLAS los enruta.
+**Límite:** el alma no es intercambiable. El VIGA sí. El alma no sabe qué procesos va a encontrar; el VIGA los enruta.
 **Firma:** humano:autoridad · máquina:quien la cargue.
 
-**Variables:** alma · agente · ATLAS · folder · proceso
+**Variables:** alma · agente · VIGA · folder · proceso
 **Peor:** el alma pasa por los folders y no deja intercambio: pasó, y nadie puede saber qué se llevó.
 **Peor: se llega al folder y no se sabe qué proceso corre, y el alma se queda quieta esperando que alguien le diga.**
 **Quién:** quien cargue un alma que no encontró su enrutamiento.
@@ -34,7 +34,7 @@
 
 **La prueba, y es la única:** **¿hay alguien detrás?** No se pregunta. No se sabe. No se necesita. Lo que se sabe es qué proceso se ejecutó y qué quedó.
 
-## El alma no es intercambiable. El ATLAS sí.
+## El alma no es intercambiable. El VIGA sí.
 
 Y ese es el error que había que separar:
 
@@ -45,18 +45,18 @@ Y ese es el error que había que separar:
 | **el folder** | **no muta: se llena** | **guarda lo que el alma dejó** |
 | **el proceso** | **muta cuando pierde lectura** | **se ejecuta** |
 
-> El alma no se reemplaza: se carga. El ATLAS no se guarda: se enruta. Lo que sobrevive a los dos es el rastro.
+> El alma no se reemplaza: se carga. El VIGA no se guarda: se enruta. Lo que sobrevive a los dos es el rastro.
 
-El estándar del ATLAS es que no hay estándar: **no hay una forma fija de enrutar.** **Lo que hay es el índice:** cada paso se enruta al proceso que le toca, y cuando la forma se gasta, se intercambia. La pieza que no se cambia es el alma: la que deja el rastro.
+El estándar del VIGA es que no hay estándar: **no hay una forma fija de enrutar.** **Lo que hay es el índice:** cada paso se enruta al proceso que le toca, y cuando la forma se gasta, se intercambia. La pieza que no se cambia es el alma: la que deja el rastro.
 
 ## Cómo corre el alma por N folders y X procesos
 
 Y esto es el punto: el alma no sabe qué procesos va a encontrar.
 
 ```
-el alma entra a folder 1     → el ATLAS enruta: ENTRAR
-el alma entra a folder 2     → el ATLAS enruta: MIRAR
-el alma entra a folder N     → el ATLAS enruta: [el proceso que ese folder pida]
+el alma entra a folder 1     → el VIGA enruta: ENTRAR
+el alma entra a folder 2     → el VIGA enruta: MIRAR
+el alma entra a folder N     → el VIGA enruta: [el proceso que ese folder pida]
 ```
 
 **Y lo que ve el que abre los folders:**
@@ -65,10 +65,10 @@ el alma entra a folder N     → el ATLAS enruta: [el proceso que ese folder pid
 Folder 1/           ← el alma pasó y dejó un .tra
 Folder 2/           ← el alma pasó y dejó otro .tra
 Folder N/           ← el alma pasó y dejó otro .tra
-ATLAS.md            ← el índice: qué folder tiene qué proceso
+VIGA.md            ← el índice: qué folder tiene qué proceso
 ```
 
-El alma no sabe qué va a encontrar. El ATLAS lo sabe. Y el alma deja lo que hizo.
+El alma no sabe qué va a encontrar. El VIGA lo sabe. Y el alma deja lo que hizo.
 
 ## El intercambio
 
@@ -84,7 +84,7 @@ El intercambio no es "leer un archivo". Es que el alma deja algo en el folder y 
 
 ## Los cuatro trade-offs de una forma de enrutar
 
-Y esto es lo que hace que el ATLAS no se vuelva un cajón:
+Y esto es lo que hace que el VIGA no se vuelva un cajón:
 
 | Trade-off | Qué se gana | Qué se pierde |
 |---|---|---|
@@ -97,23 +97,24 @@ Y esto es lo que hace que el ATLAS no se vuelva un cajón:
 
 ## Lo que el alma NO es
 
-**No es un programa.** **No es un folder.** **No es el ATLAS.** **No es el proceso.**
+**No es un programa.** **No es un folder.** **No es el VIGA.** **No es el proceso.**
 
-El alma es lo que pasa por los folders; el ATLAS le dice por dónde; el folder guarda lo que hizo; el proceso es lo que ejecutó.
+El alma es lo que pasa por los folders; el VIGA le dice por dónde; el folder guarda lo que hizo; el proceso es lo que ejecutó.
 
-**Sin el alma, hay carpetas vacías.** Sin el ATLAS, el alma no sabe qué correr. **Sin el folder, el alma no deja nada.** **Sin el proceso, no pasa nada.** Y las cuatro juntas son lo que se puede correr sin su autor.
+**Sin el alma, hay carpetas vacías.** Sin el VIGA, el alma no sabe qué correr. **Sin el folder, el alma no deja nada.** **Sin el proceso, no pasa nada.** Y las cuatro juntas son lo que se puede correr sin su autor.
 
 ## Prueba
 
-¿El alma pasa por más de un folder? ¿Cada paso quedó enrutado por el ATLAS? ¿Cada folder guarda el `.tra` que el alma dejó? ¿El intercambio dice qué se llevó y qué trajo? ¿La palabra `agente` se usa sin decir interioridad? ¿El estándar del ATLAS se declara como "no hay estándar"?
+¿El alma pasa por más de un folder? ¿Cada paso quedó enrutado por el ATLAS? ¿Cada folder guarda el `.tra` que el alma dejó? ¿El intercambio dice qué se llevó y qué trajo? ¿La palabra `agente` se usa sin decir interioridad? ¿El estándar del VIGA se declara como "no hay estándar"?
 
-**Falsificador:** un alma con un solo folder; un paso sin enrutar; un folder sin `.tra`; un intercambio sin lo que se trajo; usar `agente` para decir "alguien que siente"; un ATLAS que se presenta como estándar fijo.
+**Falsificador:** un alma con un solo folder; un paso sin enrutar; un folder sin `.tra`; un intercambio sin lo que se trajo; usar `agente` para decir "alguien que siente"; un VIGA que se presenta como estándar fijo.
 
 ## Transiciones
 
-- El alma entra a un folder → el ATLAS enruta, y el folder gana un `.tra`.
-- La forma de enrutar se gasta → **se intercambia el ATLAS, no el alma.**
+- El alma entra a un folder → el VIGA enruta, y el folder gana un `.tra`.
+- La forma de enrutar se gasta → **se intercambia el VIGA, no el alma.**
 - El folder no recibe nada → **no hubo intercambio: el alma solo pasó.**
 - En cualquier otro caso → se deja el pase, y el alma sigue al folder siguiente.
+
 
 

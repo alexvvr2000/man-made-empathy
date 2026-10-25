@@ -27,7 +27,7 @@
 | El estándar de la decisión | `criterio.md` | `./Libre albedrio/criterio.md` |
 | Los dos primitivos | `primitivos.md` (verbalizar · procesos) | `./Libre albedrio/primitivos.md` |
 | El proceso del miedo | `miedo.md` | `./Libre albedrio/miedo.md` |
-| Los pasos de Ouroboros | `Guantelete` · `S.A.R.A` · `ATLAS` | `./Ouroboros/` |
+| Los pasos de Ouroboros | `Guantelete` · `S.A.R.A` · `Atlas` | `./Ouroboros/` |
 | Las pruebas | cuatro pruebas | `./Pruebas/` |
 | **El ente del alma de script** | **`MANTIS`** (Memoria, Análisis, Navegación, Triangulación, Integridad y Sistema) | **`./mantis/mantis.md`** (puerta: `./mantis/AGENTS.md`) |
 | La memoria viva | `mantis.db` (SQLite) | `./.memoria continua/rastro/mantis.db` |
@@ -142,3 +142,5 @@
 ¿Alguien que abre este archivo encuentra Rastro, Ruta y Carga? ¿La ruta tiene la columna `Sin la autoridad…`? ¿La carga dice el síntoma? ¿La memoria declara sus seis partes y su motor? ¿El ente deja pase de turno?
 
 **Falsificador:** una de las tres piezas ausente; una ruta sin la columna de autoridad; una carga sin síntoma; una pieza escrita como ensayo; una memoria que edita; un ente que se cita a sí mismo como estándar.
+
+

@@ -1,7 +1,7 @@
 # FRICCIÓN.prs — preguntar antes de mover
 
 **Nombre.** FRICCION — **F**renar, **R**econocer, **I**dentificar, **C**ontestar, **C**onfirmar, **I**r, **O**mitir, **N**ombrar.
-**Origen.** Del primer guantelete: **la fricción se ejecuta antes de mover algo, no después.** Y de la pregunta de mundo del repo: **¿quién me lo va a decir si sale mal?**
+**Origen.** Del primer cerco, cuando se llamaba de otra forma: **la fricción se ejecuta antes de mover algo, no después.** Y de la pregunta de mundo del repo: **¿quién me lo va a decir si sale mal?**
 
 **Unidad:** proceso.
 **Aplica a:** friccionar.
@@ -65,3 +65,4 @@ Respuesta:   [aceptada | rechazada con motivo | sin motivo | sin respuesta]
 - Hay quien conteste y rechaza → se anota su motivo, y no se repite sin evidencia nueva.
 - Nadie contesta → se declara `sin testigo`, y se sigue con esa marca.
 - El acto es irreversible y no hay testigo → `[VACÍO - SIN TESTIGO]`, y se espera.
+

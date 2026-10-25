@@ -1,0 +1,83 @@
+# STATS.prs — los números, con su fuente
+
+**Nombre.** STATS.
+**Origen.** De la autoridad: **"quiero dejar la prueba de todo lo que ahorré"**, y de la regla: **sin archivo no hay resultado.**
+
+**Unidad:** proceso.
+**Aplica a:** medir.
+**Tipo:** se ejecuta.
+**Lector:** quien va a publicar números, y quien los va a verificar.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** un número se lee desde el archivo que lo produjo, no desde la tabla que lo resume.
+**Límite:** **no juzga si ahorrar fue bueno.** **Dice qué se midió, de dónde salió, y qué no se puede afirmar.**
+**Firma:** humano:autoridad · máquina:quien mida.
+
+**Variables:** fuente · archivo · número · límite
+**Peor:** se publica un número sin su archivo, **y el que lo lea no puede verificarlo ni desmentirlo.**
+**Quién:** el que va a citar una cifra que nadie midió.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** una fuente con eventos, y el archivo del que se leyeron.
+- **Falla si:** el número no cita su archivo; se redondea sin decirlo; se suman cosas distintas; se da un costo que la fuente no registra.
+- **Sale:** la tabla de números, con su fuente y su límite, **o `sin datos`**.
+- **Consume:** `MESA.prs`, que los usa como prueba, y quien los lea.
+
+**Prueba:** ¿cada número cita su archivo? ¿los totales se distinguen de los parciales? ¿se dice qué no se puede afirmar?
+**Falsificador:** un número sin archivo; un total que suma cosas distintas; un costo inventado; un porcentaje sin sus absolutos.
+
+## El procedimiento
+
+```
+1. leer      → la fuente, sin limpiarla.
+2. contar    → los eventos por tipo, y los pasos con uso.
+3. sumar     → entrada, salida y caché, por separado.
+4. acotar    → el tiempo real de la sesión, y qué no incluye.
+5. declarar  → lo que la fuente no registra: eso se dice, no se rellena.
+6. citar     → el archivo, su ruta y su hash.
+Prohibido el paso 6 sin el archivo.
+```
+
+## La tabla
+
+```
+Fuente:      [el archivo, con su ruta y su hash]
+Pasos:       [cuántos, y qué se cuenta como paso]
+Entrada:     [total, y se distingue lo nuevo de lo que vino de caché]
+Salida:      [total]
+Caché:       [total, y qué porcentaje representa]
+Tiempo:      [desde el primer evento hasta el último]
+No registra: [lo que la fuente no trae, y no se rellena]
+```
+
+## Y lo que hoy se puede decir, medido
+
+**De una sesión del harness, leída de su propio archivo:**
+
+| Qué | Cuánto |
+|---|---|
+| **pasos con uso** | **1 183** |
+| **tokens de entrada** | **2 912 894** |
+| **tokens de salida** | **690 768** |
+| **tokens de caché** | **534 692 864** |
+| **horas de sesión** | **23.6** |
+| **costo** | **no registrado: la fuente no lo trae, y no se inventa** |
+
+**Y la lectura honesta del caché:** **es el 91 % del total, y eso es la prueba del ahorro, no un adorno.**
+
+## Lo que este proceso no hace
+
+**No inventa el costo.** **Si la fuente no lo trae, se declara `no registrado`.**
+
+**No junta sesiones distintas como si fueran una.** **Cada una con su archivo.**
+
+**No redondea en silencio.** **Un redondeo sin aviso es un número inventado.**
+
+## Transiciones
+
+- Hay archivo → la tabla se publica, con su límite.
+- No hay archivo → `sin datos`.
+- Falta un campo que la fuente no trae → se declara `no registrado`.
+- Hay dos sesiones → dos tablas, y el total solo si se dice que es un total.

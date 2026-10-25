@@ -1,7 +1,7 @@
 # MUTAR.prs — transformar un proceso declarando qué conserva
 
 **Nombre.** MUTAR — **M**irar, **U**bicar, **T**ransformar, **A**notar, **R**eemplazar.
-**Origen.** Del primer guantelete: **una pieza que se muta y conserva el nombre anterior miente al lector.** **Y del repo: se muta desde un punto de referencia, y se declara qué se conserva.**
+**Origen.** Del primer cerco, cuando se llamaba de otra forma: **una pieza que se muta y conserva el nombre anterior miente al lector.** **Y del repo: se muta desde un punto de referencia, y se declara qué se conserva.**
 
 **Unidad:** proceso.
 **Aplica a:** mutar.
@@ -62,3 +62,4 @@ Sin cambio:  [si es igual, se declara; no se finge mutación]
 - El acto cambió → nombre y lugar nuevos, y lo anterior con `Reemplaza:`.
 - El acto no cambió → se queda el nombre, y se declara `sin cambio`.
 - `Conserva` está vacío → no entra: se conserva algo o no es mutación.
+

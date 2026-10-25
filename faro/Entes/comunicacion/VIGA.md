@@ -1,10 +1,10 @@
-# ATLAS — los tres primeros protocolos
+# VIGA — los tres primeros protocolos
 
-**ATLAS ya no es el estándar: es el nombre de los primeros protocolos.** **El estándar se llama ALAS y vive en [`./ALAS.md`](./ALAS.md).**
+**VIGA ya no es el estándar: es el nombre de los primeros protocolos.** **El estándar se llama ALAS y vive en [`./ALAS.md`](./ALAS.md).**
 
 **Estos tres no son los buenos: son los ejemplos.** **Para que alguien vea para qué sirve un protocolo antes de escribir el suyo.**
 
-**ATLAS sigue siendo el nombre.** El acrónimo ya no le queda, y este archivo lo dice de frente: **cada evolución de ATLAS fue un protocolo distinto, y no una versión mejor de la anterior.**
+**VIGA sigue siendo el nombre.** El acrónimo ya no le queda, y este archivo lo dice de frente: **cada evolución de VIGA fue un protocolo distinto, y no una versión mejor de la anterior.**
 
 **Y por eso viven todos, no solo el último:** **son varios protocolos, y cada uno sirve cuando la mesa es distinta.**
 
@@ -23,7 +23,7 @@
 
 ---
 
-## Protocolo 1 — ATLAS, intenciones a formas
+## Protocolo 1 — el índice de intenciones a formas
 
 **De dónde viene:** `A.R.E.S/atlas.md`, la primera versión. **Qué es:** **un índice, no un proceso.** **Se busca por intención, nunca por nombre de método.**
 
@@ -47,9 +47,9 @@ Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | veri
 
 ---
 
-## Protocolo 2 — ATLAS de sistemas, especificación a perfil
+## Protocolo 2 — especificación a perfil
 
-**De dónde viene:** `Entornos de desarrollo/Atlas de sistemas.md`, del primer commit. **Qué es:** **un compilador de especificaciones a perfiles.** **Y no sabe qué es el destino: sabe leer su esquema.**
+**De dónde viene:** `Entornos de desarrollo/VIGA de sistemas.md`, del primer commit. **Qué es:** **un compilador de especificaciones a perfiles.** **Y no sabe qué es el destino: sabe leer su esquema.**
 
 > **"La especificación es libre. No tiene una forma canónica impuesta por ti. La forma la dicta el perfil de destino. Lees el esquema que el perfil declara antes que los datos de la especificación."**
 >
@@ -67,9 +67,9 @@ Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | veri
 
 ---
 
-## Protocolo 3 — ATLAS, comunicación efectiva
+## Protocolo 3 — comunicación efectiva
 
-**De dónde viene:** `Ouroboros/3 ATLAS — mutación/Proceso ATLAS.md`, la última. **Qué es:** **un proceso que se ejecuta sobre una salida.** **Y absorbió a los otros dos: sus cuatro archivos eran un solo proceso repartido.**
+**De dónde viene:** `Ouroboros/3 VIGA — mutación/Proceso VIGA.md`, la última. **Qué es:** **un proceso que se ejecuta sobre una salida.** **Y absorbió a los otros dos: sus cuatro archivos eran un solo proceso repartido.**
 
 > **"Una idea que el otro lado no entiende vale cero."**
 >
@@ -95,7 +95,7 @@ Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | veri
 
 **Y la regla que los une:** **ninguno de los tres decide por el otro.** **El primero no edita la forma; el segundo no impone el destino; el tercero no juzga si el otro eligió bien.**
 
-> **No hay un ATLAS que sirva para todo. Hay tres, y se elige por la mesa.**
+> **No hay un VIGA que sirva para todo. Hay tres, y se elige por la mesa.**
 
 ## Lo que falta
 
@@ -107,7 +107,7 @@ Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | veri
 
 ## Falsificador
 
-**Aplicar el protocolo 1 a lo que nadie probó; el 2 a un destino sin esquema; el 3 sin techo declarado. Presentar uno de los tres como "el ATLAS bueno" cuando los otros dos siguen sirviendo. Un protocolo sin techo.**
+**Aplicar el protocolo 1 a lo que nadie probó; el 2 a un destino sin esquema; el 3 sin techo declarado. Presentar uno de los tres como "el VIGA bueno" cuando los otros dos siguen sirviendo. Un protocolo sin techo.**
 
 ## Transiciones
 
@@ -115,4 +115,7 @@ Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | veri
 - La mesa es un destino que no conoces → **protocolo 2.**
 - La mesa es alguien con quien hablas → **protocolo 3.**
 - La mesa no tiene esquema ni idioma → **no hay protocolo: se declara `[VACÍO - SIN PROTOCOLO]`, y se hace cuando llegue.**
+
+
+
 

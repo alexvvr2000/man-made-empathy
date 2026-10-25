@@ -1,7 +1,7 @@
 # SOSTENER.prs — declarar desde dónde se mira una pieza
 
 **Nombre.** SOSTENER — **S**ituar, **O**bservar, **S**eñalar, **T**raer, **E**mitir, **N**ombrar, **E**rrar, **R**egistrar.
-**Origen.** Del primer guantelete, el primitivo `sesgo`: **el único que no se deriva de otro.** **Toda pieza se sostiene desde algún sitio, y hay que poder leer desde cuál.**
+**Origen.** Del primer cerco, cuando se llamaba de otra forma, el primitivo `sesgo`: **el único que no se deriva de otro.** **Toda pieza se sostiene desde algún sitio, y hay que poder leer desde cuál.**
 
 **Unidad:** proceso.
 **Aplica a:** sostener.
@@ -66,3 +66,4 @@ Reabre si:  [la condición observable, no la intención]
 - Falta el límite → no entra: se aplicaría a todo.
 - Se firma a sí misma → hay opinión, no pieza.
 - La condición de reapertura se cumple → se vuelve a mirar.
+

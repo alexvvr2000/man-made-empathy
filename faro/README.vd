@@ -20,7 +20,7 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **El estándar del lenguaje** | `FORMATO` · `JONN` · `ALAS` · `LENGUAJE` · `PISO` · `la fila verbalizada` | [`./sincronizacion de almas/`](./lenguaje%20de%20procesos/) |
-| **Los entes** | **`Alma de niño`** · **`Guantelete`** · **`VIDEL`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
+| **Los entes** | **`alma de la pregunta`** · **`cerco`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
 | **El lugar vacío: lo humano** | `LO HUMANO.md` — se deja sin definir a propósito | [`./Entes/LO HUMANO.md`](./Entes/LO%20HUMANO.md) |
 | **El jugo** | lo que ayuda a entender | [`./jugo/`](./jugo/) |
 | **Las corridas** | las fotos de la memoria | [`./corridas/`](./corridas/) |
@@ -64,4 +64,7 @@
 **Y la regla dura que la vuelve punto de no retorno:** **todo lo ejecutable es Python.** **Un `.ps1` ya no corre aquí.**
 
 **Por eso `faro/` es el piso:** **no porque tenga los archivos, sino porque se puede correr, medir y romper sin perder nada.**
+
+
+
 

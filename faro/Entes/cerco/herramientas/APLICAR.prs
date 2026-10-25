@@ -1,7 +1,7 @@
 # APLICAR.prs — ejecutar un proceso sobre una entrada
 
 **Nombre.** APLICAR — **A**brir, **P**reparar, **L**eer, **I**nvocar, **C**omprobar, **A**notar, **R**endir.
-**Origen.** Del primer guantelete: **"sin aplicar, el catálogo es un catálogo."** **Es la que hace que las piezas sean un lenguaje.**
+**Origen.** Del primer cerco, cuando se llamaba de otra forma: **"sin aplicar, el catálogo es un catálogo."** **Es la que hace que las piezas sean un lenguaje.**
 
 **Unidad:** proceso.
 **Aplica a:** aplicar.
@@ -52,3 +52,4 @@ Prohibido el paso 6 sin el 5.
 - La entrada cabe → se aplica, se comprueba y se anota.
 - La entrada no cabe → `[NO CABE]`, con qué no cabía.
 - El proceso no tiene su bloque → no se aplica: no es un proceso.
+
