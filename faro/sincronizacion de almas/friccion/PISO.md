@@ -42,7 +42,7 @@
 Falta: [lo que no hay] | Bloquea: [qué proceso no se puede escribir] | Se reabre si: [qué lo trae]
 ```
 
-**Un piso sin `Falta` está mintiendo.** **Rige `../../Libre albedrio/piso.md`.**
+**Un piso sin `Falta` está mintiendo.** **Rige `./PISO.md`.**
 
 ## Prueba
 
@@ -111,6 +111,7 @@ Falta: [lo que no hay] | Bloquea: [qué proceso no se puede escribir] | Se reabr
 **¿El estándar existía antes que el esquema? ¿La implementación cita el estándar que la manda? ¿Cuando el estándar cambió, la implementación se declaró desfasada?**
 
 **Falsificador:** un esquema escrito antes que su estándar; un estándar ajustado para que quepa lo ya escrito; una implementación que dice cumplir un estándar que ya cambió.
+
 
 
 

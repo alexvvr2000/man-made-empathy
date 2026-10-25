@@ -33,7 +33,7 @@
 | **una regla nueva** | la admisión de `1.12`: derivación, observabilidad, decisión, calibración | crece la lista sin cambiar ninguna conducta |
 | **el archivo de entrada** | `1.13`: es un disparador, no un manual | se vuelve un manual que nadie recorre |
 | **un entregable para otro lado** | `1.10`: se suprime el preámbulo y la cortesía | el otro recibe saludo y no resultado |
-| **un texto que declara desde dónde mira** | `./criterio.md`, `El criterio autónomo`: el sesgo se declara antes de decidir | el sesgo se vuelve ornamental y nunca cambia una decisión |
+| **un texto que declara desde dónde mira** | `./CLARIDAD.md`, `Lo que se decide`, `El criterio autónomo`: el sesgo se declara antes de decidir | el sesgo se vuelve ornamental y nunca cambia una decisión |
 
 **Y una cosa que no se carga nunca: el glosario.** **Un texto que necesita un glosario para entenderse es un texto que se explicó mal, no un lector que leyó mal.**
 
@@ -93,4 +93,5 @@
 ¿El artefacto declara su clase? ¿La forma corresponde a la clase? ¿Se entiende de una lectura sin glosario? ¿Cada obligación tiene su `Falsificador`? ¿Nombra alguna era o tecnología fuera de un ejemplo marcado?
 
 **Falsificador:** un proceso escrito como ensayo; un texto de lectura con compuertas de ejecución; una clase sin declarar; una norma sin `Prueba` ni `Falsificador`; un glosario que sustituye a la explicación; un preámbulo que explica lo que el documento es.
+
 

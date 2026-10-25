@@ -89,7 +89,7 @@ Y esto es la lección de la era, escrita como regla:
 - una sola versión viva: se reemplaza, no se copia.
 - el jugo no se guarda con permiso: se guarda porque es el respaldo de lo que se destruye.
 
-Rige `../../Libre albedrio/criterio.md`, `El rastro de la decisión`.
+Rige `./CLARIDAD.md`, `El rastro de la decisión`.
 
 ## Prueba
 
@@ -103,5 +103,7 @@ Rige `../../Libre albedrio/criterio.md`, `El rastro de la decisión`.
 - Algo pasó → se abre una carpeta, con su `.tra` y sus `.prs`.
 - El acto cambió → se renombra la carpeta y su `.tra` juntos, y el viejo queda con `Reemplaza:`. **Sin número.**
 - Una capacidad nueva se prueba → entra al piso, y desde ahí la usa cualquier ente.
+
+
 
 

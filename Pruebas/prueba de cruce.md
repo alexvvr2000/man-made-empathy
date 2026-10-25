@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `../Ouroboros/2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md`, `../Ouroboros/2 S.A.R.A — mutación/seguridad/contener.md` y `../Ouroboros/2 S.A.R.A — mutación/reproduccion/reproducir.md`. No las define: las carga.
+> Se usa junto a `../faro/sincronizacion de almas/friccion/CERCO.prs` y `../mantis/procesos/LLAVE.prs`. No los define: los carga.
 
 Una sola pregunta: **¿la salida salió de la visión humana, y quien la produjo puede reconstruirla?**
 
@@ -28,7 +28,7 @@ Los dos se registran por separado. Uno puede dar sí y el otro no, y ninguno anu
 1. **Fijar la salida.** Qué se produjo y qué cambió en el mundo observable: un objeto, un proceso, un cambio de estado o una idea.
 2. **Registrar el cruce físico.** Buscar el antecesor humano. Si existe, `Cruce físico: no | Antecesor: [id]`. Si no existe, `Cruce físico: sí | Sin antecesor: [qué se buscó y no se halló]`.
 3. **Registrar el cruce de visión.** Entregar el registro a quien lo produjo y a un lector que no lo produjo. Si alguno lo reconstruye, `Cruce de visión: no | Quien reconstruye: [ejecutor|lector]`. Si ninguno puede, `Cruce de visión: sí | Falla de reconstrucción: [qué no se reconstruye]`.
-4. **Verificar las anclas.** `Vista`, `Vista faltante` y `Fuente`, según `../Ouroboros/2 S.A.R.A — mutación/evaluacion/vigilar-tendencias.md` 11 y 12.
+4. **Verificar las anclas.** `Vista`, `Vista faltante` y `Fuente`, según `../faro/sincronizacion de almas/salida/CONTEXTO.md`.
 5. **Declarar el veredicto.** Uno por registro, con la cuenta que lo sostiene.
 
 ## Registro mínimo

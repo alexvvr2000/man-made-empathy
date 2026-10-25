@@ -19,12 +19,13 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **El estándar del lenguaje** | `FORMATO` · `JONN` · `ALAS` · `LENGUAJE` · `PISO` · `la fila verbalizada` | [`./sincronizacion de almas/`](./lenguaje%20de%20procesos/) |
+| **El estándar del lenguaje** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `CERCO` · `JONN` (recordatorio) · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `la fila verbalizada` | [`./sincronizacion de almas/`](./sincronizacion%20de%20almas/) |
 | **Los entes** | **`alma de la pregunta`** · **`cerco`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
 | **El lugar vacío: lo humano** | `LO HUMANO.md` — se deja sin definir a propósito | [`./Entes/LO HUMANO.md`](./Entes/LO%20HUMANO.md) |
-| **El jugo** | lo que ayuda a entender | [`./jugo/`](./jugo/) |
-| **Las corridas** | las fotos de la memoria | [`./corridas/`](./corridas/) |
-| **La memoria viva** | `mantis.db` (SQLite) | [`../.memoria continua/rastro/mantis.db`](../.memoria%20continua/rastro/mantis.db) |
+| **La memoria viva** | `mantis.db` (SQLite), y su texto portable | [`../.memoria continua/rastro/`](../.memoria%20continua/rastro/) |
+| **Lo que corre** | la entrada única, y los procesos | [`../mantis/`](../mantis/) |
+
+**Y una fila que se fue:** **el jugo ya no tiene carpeta ni camino.** **Lo que ayuda a entender no se guarda aparte: si se sostiene de pie, es un candado; y si no se sostiene, no es el camino de nada.**
 
 ## Cómo se entra
 
@@ -36,9 +37,9 @@
 
 **Y lo que no se hace sin la autoridad:** **mutar `Entes/`, el estándar o la tesis.** **Se lee; se espera.**
 
-## Por qué se llama `futuro`
+## Por qué se llama `faro`
 
-**Porque lo que hay aquí todavía no se llama como se va a llamar.** **El estándar del lenguaje es un nombre provisional; los entes son los primeros; y lo humano está en blanco a propósito.**
+**Porque lo que hay aquí es lo que el que venga va a recibir, y tiene que verse desde lejos.** **El estándar del lenguaje es un nombre provisional; los entes son los primeros; y lo humano está en blanco a propósito.**
 
 **Y el nombre no dice «lo que todavía no está»: dice cómo se llega.** **`Fuente`: cada pieza deja de dónde viene. Y el `Acto`, el `Rastro` y el `Orden` son lo que el que venga va a recibir.**
 
@@ -46,25 +47,22 @@
 
 ## Prueba
 
-**¿Quien abre la carpeta encuentra lo que hay sin recorrerlo todo? ¿Este archivo enruta en vez de explicar? ¿Cada fila dice dónde, y no qué es?**
+**¿Quien abre la carpeta encuentra lo que hay sin recorrerlo todo? ¿Este archivo enruta en vez de explicar? ¿Cada fila dice dónde, y no qué es? ¿Cada fila apunta a algo que existe?**
 
 ## Falsificador
 
 **Un README que copia lo que hay adentro en vez de apuntar a ello; una fila sin dónde; una carpeta anunciada que no existe; un nombre de relleno que se hereda a lo que contiene.**
+
 ## El piso de esta carpeta
 
-**Esta carpeta no es una carpeta cualquiera: es el piso donde vive el lenguaje.** **Y se sostiene con las tres cosas que el repo mide:**
+**Esta carpeta no es una carpeta cualquiera: es el piso donde vive el lenguaje.** **Y se sostiene con lo que el repo mide en un solo pedido:**
 
 | Qué | Qué mide | Cómo se corre |
 |---|---|---|
-| **la corrida** | **estándares, limpieza y rastro** | **`python mantis/piso/corrida.py`** |
-| **la dirección** | **si MANTIS está enrutado al estándar** | **`python mantis/piso/direccion.py`** |
-| **la tesis** | **y cada visión compone la suya** | **`python tesis.py --vision "vision del autor"`** |
+| **la corrida** | **estándares, limpieza y rastro** | **`python mantis/bin/pedir.py piso`** |
+| **la dirección** | **si cada cita resuelve, y si nadie promete lo que no está** | **`python mantis/bin/pedir.py piso`** |
+| **la tesis** | **y cada visión compone la suya** | **`python mantis/bin/componer.py --tipo teoria --fuente <archivo> --salida <carpeta>`** |
 
 **Y la regla dura que la vuelve punto de no retorno:** **todo lo ejecutable es Python.** **Un `.ps1` ya no corre aquí.**
 
 **Por eso `faro/` es el piso:** **no porque tenga los archivos, sino porque se puede correr, medir y romper sin perder nada.**
-
-
-
-

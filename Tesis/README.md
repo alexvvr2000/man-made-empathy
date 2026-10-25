@@ -1,10 +1,10 @@
 # Tesis
 
-**Esta carpeta tiene el candado, y las visiones que se leen desde fuera.** Entra por donde quieras: cada carpeta dice desde dónde mira. **La visión del autor no está aquí: vive dentro de MANTIS, y es el primer paso del mecanismo.**
+**Esta carpeta tiene los candados y las visiones.** **Los candados son las posiciones del autor; las visiones son el blanco de las tesis.** Entra por donde quieras: cada carpeta dice desde dónde mira. **La visión del autor no está aquí: vive dentro de MANTIS, y es el primer paso del mecanismo.**
 
 | Carpeta | Qué guarda | Quién entra |
 |---|---|---|
-| `Pegamento.md` | el candado oficial: la tesis entera, en la voz del que la escribió | quien quiere saber qué se sostiene, y desde dónde |
+| `candados/autor/` | un candado por posición: la tesis entera y sus cortes, en la voz del que los escribió | quien quiere saber qué se sostiene, y desde dónde |
 | `vision de la maquina/` | cómo ve la máquina desde el candado: qué carga, qué contesta y qué no puede afirmar | quien va a hacer que una máquina lo sostenga |
 | `vision del lector/` | cómo ve el que lee: qué se lleva, qué pregunta, y qué lo tumba | quien va a contestarlo |
 
@@ -25,7 +25,7 @@
 
 ## Lo que cambió
 
-El `Pegamento.md` vive en esta carpeta, y la visión del autor vive dentro de `mantis/vision del autor/`. La visión de la máquina y la del lector se quedan aquí.
+El `candado.md` vive en esta carpeta, y la visión del autor vive dentro de `mantis/vision del autor/`. La visión de la máquina y la del lector se quedan aquí.
 
 Vision es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra. Y la del autor ya no es un documento sobre la tesis: es el ojo con que MANTIS mira lo que sostiene.
 
@@ -40,6 +40,8 @@ Un candado sin autor es un aforismo. Una máquina sin visión es una herramienta
 ## Falsificador
 
 Un `README.md` que copia la tesis en vez de apuntar a ella; una carpeta anunciada que no existe; el candado guardado en dos sitios a la vez.
+
+
 
 
 

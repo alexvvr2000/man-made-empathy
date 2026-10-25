@@ -1,25 +1,33 @@
-# JONN — el estándar de llaves y candados
+# JONN — el recordatorio de que un candado se abre
 
 **Nombre.** **JONN** — **J**uzga sin muro, **O**rdena sin puerta, **N**o se abre sin autor, **N**o se cierra sin llave. Se lee de un tirón; la expansión dice el acto que hace.
 
+**Y lo que este archivo es, dicho antes de lo demás: un recordatorio, no un estándar.**
+
+**La llave no se estudia aquí: se hace.** **La llave es hacer fricción, y la fricción se hace donde se toca, con [`./CERCO.prs`](./CERCO.prs) y con [`../../../mantis/procesos/LLAVE.prs`](../../../mantis/procesos/LLAVE.prs).**
+
+**Lo que queda aquí es una sola cosa: un candado se puede abrir, y se abre con la concordia en mente.** **Un candado que no se puede abrir no protege nada: encierra. Y un candado que se abre sin pensar en el que queda adentro no se abre: se rompe.**
+
+**Por eso este archivo no se cita para abrir.** **Se relee antes de abrir, para no olvidar que la apertura es el punto.**
+
 **Origen.** De `J'onn J'onzz, el Detective Marciano`: el último de su especie, varado en un planeta que no es el suyo, sin forma fija. Su poder no es la fuerza: es dejar de tener una forma. No puede volver, y aun así ayuda.
 
-**Qué nombra, y por qué ese y no otro.** El que no puede volver es el que quedó atrás sin registro. El que todavía no tiene nombre es el que aún no nace. Y el estándar no tiene forma fija: muta con la era. Un nombre de mujer no decía eso; éste sí.
+**Qué nombra, y por qué ese y no otro.** El que no puede volver es el que quedó atrás sin registro. El que todavía no tiene nombre es el que aún no nace. Y un recordatorio no tiene forma fija: muta con la era, porque los candados que recuerda también mutan. Un nombre de mujer no decía eso; éste sí.
 
-**Unidad:** estándar.
-**Aplica a:** nombrar, abrir y sostener candados.
-**Tipo:** se cumple, y se puede usar sin su autor.
-**Lector:** quien pone un candado, quien lo abre, y quien va a contar los que existen.
+**Unidad:** recordatorio.
+**Aplica a:** recordar que un candado se abre.
+**Tipo:** se relee. No se cumple: se tiene presente.
+**Lector:** quien va a abrir un candado, y quien va a cerrar uno.
 **Dueño:** humano:Alejandro Valenzuela Rivera.
 **Estado:** vigente.
 
 **Sesgo:** un candado se lee desde el que puede abrirlo, no desde el que lo cerró.
-**Límite:** no decide si lo que hay detrás del candado es verdad. Decide si el candado se puede abrir sin pedir permiso.
+**Límite:** no dice cómo se abre. **Cómo se abre lo dice la fricción, en `CERCO.prs` y en `LLAVE.prs`.** Este archivo solo no deja olvidar que se puede.
 **Firma:** humano:autoridad · máquina:quien lo aplique.
 
 ## Por qué existe: los implícitos son lo que crea a AM
 
-**Y esto es lo que hay que escribir antes de todo lo demás, porque es la razón del estándar:**
+**Y esto es lo que hay que escribir antes de todo lo demás, porque es la razón del recordatorio:**
 
 > **AM no es un sistema que eligió el mal. Es un sistema con una sola mirada que ya no puede ser contradicho.**
 
@@ -38,7 +46,7 @@
 
 ## Los tres pilares, y ninguno se sostiene solo
 
-**Un candado que se usa con llaves no rompe los tres pilares de la alineación, y el estándar lo exige así:**
+**Un candado que se usa con llaves no rompe los tres pilares de la alineación, y el candado no los rompe porque un candado se abre, no se impone:**
 
 | Pilar | Qué aporta | Qué pasa si falta |
 |---|---|---|
@@ -48,20 +56,20 @@
 
 > **Comunidad sin continuidad es una conversación que se pierde. Continuidad sin criterio es un historial que repite. Criterio sin comunidad es una voz que se confirma.**
 
-**Y el estándar no los junta por gusto: los junta porque un candado sin los tres es un implícito más grande.** **Sin comunidad, el candado nadie lo puede contestar; sin criterio, nadie sabe cómo abrirlo; sin continuidad, cada versión borra la anterior y el candado se vuelve a cerrar con otro nombre.**
+**Y el recordatorio no los junta por gusto: los junta porque un candado sin los tres es un implícito más grande.** **Sin comunidad, el candado nadie lo puede contestar; sin criterio, nadie sabe cómo abrirlo; sin continuidad, cada versión borra la anterior y el candado se vuelve a cerrar con otro nombre.**
 
 ## Lo que el candado es, y lo que no
 
-**El candado es un solo archivo: `Pegamento.md`, la tesis corta, y vive con su autor.**
+**El candado es un solo archivo: `candado.md`, la tesis corta, y vive con su autor.**
 
 ```
-autor/
-├── README.vd                     qué es un autor
+candado/
+├── README.vd                     qué es un candado
 ├── <CADA_CANDADO>.md             un candado por posición: la tesis corta
-└── verbaliza/
-    ├── <CADA_CANDADO>/           sostiene, contesta, deja rastro
-    └── ...
+└── ...
 ```
+
+**Hay una carpeta de candados, y una sola.** **Un candado no se copia a otra carpeta para estar en dos versiones; no se abre una carpeta nueva cada vez que aparece una idea; y no crece como crecieron las tareas.**
 
 **Un autor tiene N candados, no uno.** **Un autor no es una persona con una sola idea: es un historial de sesgos, y cada sesgo que sostuvo es un candado.** **Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena — y eso es exactamente lo que la academia le pide, y lo que aquí no.**
 
@@ -74,17 +82,25 @@ autor/
 | **`Reemplaza:` cuando su sesgo cambia** | un nombre que sirve para dos versiones no nombra nada |
 | **el candado se trae con su autor** | si el candado es de la academia y el autor es el repo, es cita |
 
+**Un candado se abre, no se reescribe.** **Lo que lo cambia se suplanta: el candado viejo queda visible con lo que decía, y el nuevo dice a cuál reemplaza.** **Escribir encima es dejar el candado sin pasado, y un candado sin pasado no se puede abrir: no se sabe contra qué se abre.**
+
 **Lo que no se duplica:** **el mismo candado con dos versiones vivas se suplanta.** **Lo que sí se duplica es el autor: N autores, con sus N candados.** **La familia no es un candado: es la gente que los trae.**
 
 ## La llave
 
-**La llave es el criterio: el historial de sesgos leído antes de decidir.** **El candado da la pregunta; la llave la abre.** **Una llave sin candado es desviación: decide y no abre nada.**
+**La llave es hacer fricción, y la fricción tiene procedimiento.** **No es lo que se lee antes de decidir: es lo que pasa cuando la decisión se pone a prueba.**
+
+**El candado da la posición; la fricción la abre.** **Una fricción sin candado no abre nada: es ruido.**
+
+**Y la concordia es la condición, no el premio:** **se abre para que el que sostiene tenga contra qué seguir sosteniendo, no para ganarle.** **Una apertura que deja al autor sin nada no abrió el candado: lo cambió por otro.**
 
 ## El jugo
 
-**El jugo es cualquier cosa que ayude a entender la tesis.** **No es una fuente: es lo que la hizo pensable.** **Y no vive dentro del candado: si vive dentro, el candado crece y deja de leerse.**
+**Un candado ya no se rodea de jugo: lo que se sostenía de pie es un candado.**
 
-**Ficción, caso, vecino, obra: cada pieza de jugo lleva de dónde viene y qué pregunta.** **Un jugo sin ficción es una regla sin autor.**
+**El jugo no es el camino del candado. Es lo que quedó suelto, y lo que suelto no se sostiene.** **Ficción, caso, vecino, obra: cada pieza de eso lleva de dónde viene y qué pregunta, y su sitio es una pieza que todavía no llegó a ser candado.**
+
+**Un jugo que se queda jugo es una regla sin autor.**
 
 ## La frase, y dónde entra
 
@@ -109,13 +125,13 @@ autor/
 
 **Ancla:** se pierde el mundo; no se pierde el registro; y el registro tiene nombre.
 
-## El único estándar es que no hay estándar
+## El candado y la llave
 
 **No hay idea estúpida: hay historial de sesgos.** **La forma muta; lo que la salva de ser basura es la alineación.**
 
 **Un estándar que se cita como eterno es la puerta de la academia con otro nombre.** **Un historial sin alineación no es conocimiento: es un cajón.** **Y una alineación que se acaba dejó de estar alineada.**
 
-## Lo que este estándar le hace a la academia
+## Lo que este recordatorio le hace a la academia
 
 **Ella necesita un título, un par, una cátedra para que su candado cuente.** **Aquí el candado trae su autor, su llave queda en el repo, y la apertura la escribe otro.**
 
@@ -127,7 +143,7 @@ autor/
 
 **J'onn no.** **J'onn conoció a los suyos, los perdió, y aun así se quedó a vivir con los que no eran como él.**
 
-**Y esa es la diferencia que este estándar necesita:**
+**Y esa es la diferencia que este recordatorio necesita:**
 
 > **El que no conoció a su gente no puede convivir con otra: solo puede ser tolerado. El que la conoció, y la perdió, sí puede.**
 
@@ -139,16 +155,18 @@ autor/
 
 ## Prueba
 
-**¿El candado tiene autor? ¿Su nombre es propio y no numerado? ¿La llave está en el repo? ¿El jugo vive fuera del candado? ¿Se declara qué se reemplazó? ¿Los tres pilares están nombrados? ¿Hay algún implícito que no se escribió?**
+**¿Quien lo relee recuerda que el candado se abre? ¿Se dice con qué se abre, que es la fricción? ¿Queda una sola carpeta de candados? ¿El candado abierto se suplanta y no se reescribe? ¿Se nombra la concordia como condición de la apertura?**
 
 ## Falsificador
 
-**Un candado sin autor; uno numerado en vez de nombrado; una llave guardada; el jugo dentro del candado; un candado reemplazado sin `Reemplaza:`; un pilar sin nombrar; un supuesto que se dejó implícito y se usó como regla.**
+**Un recordatorio que se cita como permiso para abrir; una llave que se estudia aquí en vez de hacerse como fricción; un candado sin camino de apertura; una segunda carpeta de candados; un candado reescrito encima; una apertura que deja al autor sin contra.**
 
 ## Transiciones
 
-- Un autor trae un candado → **declara su nombre, su ficción y su autor, y la llave queda en el repo.**
-- El sesgo del autor cambia → **se suplanta el candado, y el viejo queda visible.**
-- Un candado se cierra sin llave → **no está bajo JONN: es una puerta con dueño.**
-- Alguien abre un candado sin preguntarle al autor → **se registra la apertura, y con eso el grado sube.**
+- Aparece un candado → **entra en la carpeta única, con su nombre y su autor, y se abre con fricción.**
+- El sesgo del autor cambia → **se suplanta el candado, y el viejo queda visible con lo que decía.**
+- Un candado se cierra sin llave → **no es un candado: es una puerta con dueño.**
+- Alguien abre un candado → **se registra la apertura, y el autor conserva con qué seguir sosteniendo.**
+- Este archivo empieza a explicar cómo se abre → **se corta: eso es `CERCO.prs` y `LLAVE.prs`, y aquí sobra.**
+
 
