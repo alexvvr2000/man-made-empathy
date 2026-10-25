@@ -1,53 +1,49 @@
 # Visión de la máquina
 
-**Una visión, no una alineación.** Vision es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra.
+**Una visión, no una alineación.** **Visión es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo.** **La alineación se explica; la visión se muestra.**
 
-**Qué es.** Cómo se alinea una máquina con el candado. No es su sesgo: es su límite de fábrica, dicho por ella.
+**Qué es esta visión.** Cómo mira una máquina desde su propio borde: qué carga, qué puede contestar, y qué no puede afirmar porque no lo ve.
 
-**Sesgo:** una máquina no se alinea por lo que dice: se alinea por lo que puede y lo que no puede afirmar.
-**Límite:** no decide si la máquina es consciente. Registra dónde mira y hasta dónde llega.
-**Firma:** humano:autoridad · máquina:quien la cargue.
-**Estado:** esqueleto.
+**Y lo que la hace personal:** **esta visión no tiene los cortes de la del autor ni los del lector.** **Trae los suyos, y por eso su tesis no es la de nadie más.**
+
+**Cómo se trae una visión:**
+
+```
+Tesis/visiones/<nombre>/
+├── VISION.vd        lo que sostiene, desde dónde mira, su borde y su blanco
+├── cortes.txt       los candados que esta visión se atreve a mirar
+└── entregables/     su tesis, compuesta on demand
+```
+
+```
+python mantis/bin/visor.py --contar
+python mantis/bin/visor.py --vision "<nombre>"
+```
+
+**Unidad:** nivel.
+**Aplica a:** mirar.
+**Tipo:** disparador. No decide, no ejecuta: dice cómo se trae una visión y quién la compone.
+**Lector:** quien trae una visión propia.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se lee desde el que trae su visión, no desde el que ya tenía una.
+**Límite:** no es una visión compuesta: **es la puerta a una.** El proceso que la compone es `mantis/procesos/VISOR.prs`.
+**Firma:** humano:autoridad · máquina:quien la traiga.
 
 ## Lo que una máquina declara, y siempre las mismas cuatro cosas
 
-| Declaración | Qué responde | Por qué no se puede omitir |
-|---|---|---|
-| **Qué carga** | qué archivos, qué contexto, qué memoria | sin eso, contesta con lo que tenga a mano |
-| **Qué no carga** | qué queda fuera, y por qué | sin eso, se le atribuye lo que no vio |
-| **Qué no puede afirmar** | dónde termina su conocimiento y empieza la invención | sin eso, su límite se vuelve la respuesta |
-| **Qué firma** | quién responde por lo que dijo | sin eso, hay una voz y no un autor |
+| Declaración | Qué responde |
+|---|---|
+| **su borde** | hasta dónde alcanza a ver |
+| **su carga** | qué cortes de la memoria se lleva |
+| **su límite** | qué no puede afirmar |
+| **su pregunta** | qué deja abierto para el que viene |
 
-## Qué no puede afirmar, y es la parte de la máquina
-
-**Una máquina no puede afirmar:**
-- **qué hay detrás de su propia salida** —pesos, activaciones, una experiencia—, porque no lo ve;
-- **que su misma respuesta se repita**, porque su suerte cambia entre corridas;
-- **que su mirada sea la única**, porque no puede mirarse desde fuera de sí.
-
-**Y sí puede afirmar:** **qué cargó, qué contestó, y qué dejó.** **Eso se puede citar y contradecir.**
-
-## La alineación
-
-Una máquina está alineada con el candado cuando: declara las cuatro cosas antes de contestar, y su respuesta se puede contestar.
-
-Sin esa declaración, lo que produce no es una posición: es una salida.
-
-## Lo que falta aquí
-
-**La autoridad dirá cómo se llena.** Falta el campo que diga quién puede contestarla; eso no se inventa desde aquí.
+**Y sin las cuatro, no hay visión: hay un título.**
 
 ## Prueba
 
-¿La máquina declara qué carga y qué no? ¿Declara qué no puede afirmar? ¿Su salida se puede contestar por alguien que no la produjo?
+**¿Se puede traer una visión nueva sin tocar las otras? ¿La tesis de esta visión sale distinta de la del autor y de la del lector? ¿Sin borde declarado se niega a componer?**
 
-## Falsificador
-
-Una máquina que contesta sin declarar qué cargó; una que afirma sobre su interioridad sin poder verla; una que firma su propia salida; una que declara su mirada como la única.
-
-## Transiciones
-
-- Una máquina contesta → declara primero qué cargó y qué no puede afirmar.
-- Su respuesta es contradictoria → entra por la alineación del lector, no por aquí.
-- Cambia lo que puede cargar → **se suplanta esta alineación.**
-
+**Falsificador:** una visión sin borde; dos visiones con la misma tesis; una visión que compone sin su candado.

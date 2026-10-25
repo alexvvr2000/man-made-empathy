@@ -1,50 +1,49 @@
 # Visión del lector
 
-**Una visión, no una alineación.** Vision es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra.
+**Una visión, no una alineación.** **Visión es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra.**
 
-**Qué es.** Cómo se alinea el que lee: qué se lleva, qué pregunta, y qué lo tumba.
+**Qué es esta visión.** Cómo mira el que lee: qué se lleva, qué pregunta, y qué lo tumba.
+
+**Y lo que la hace personal:** **esta visión no tiene los cortes de la del autor ni los de la máquina.** **Trae los suyos, y su tesis sale de ellos.** **El que llega sin contexto solo tiene el documento, y eso es su borde.**
+
+**Cómo se trae una visión:**
+
+```
+Tesis/visiones/<nombre>/
+├── VISION.vd        lo que sostiene, desde dónde mira, su borde y su blanco
+├── cortes.txt       los candados que esta visión se atreve a mirar
+└── entregables/     su tesis, compuesta on demand
+```
+
+```
+python mantis/bin/visor.py --contar
+python mantis/bin/visor.py --vision "<nombre>"
+```
+
+**Unidad:** nivel.
+**Aplica a:** mirar.
+**Tipo:** disparador. No decide, no ejecuta: dice cómo se trae una visión y quién la compone.
+**Lector:** quien va a contestar, y quien trae la visión del que contesta.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
 
 **Sesgo:** se lee desde el que va a contestar, no desde el que escribió.
 **Límite:** no decide si la tesis es buena. Registra qué le pasa al que la lee, y qué puede contestar.
 **Firma:** humano:autoridad · quien lea.
-**Estado:** esqueleto.
 
 ## Lo que el lector declara
 
-| Declaración | Qué responde | Por qué no se puede omitir |
-|---|---|---|
-| **Qué se lleva** | qué entendió, en sus palabras | si no lo puede decir, no lo entendió: lo copió |
-| **Qué pregunta** | la pregunta que le dejó el candado | un candado que no deja pregunta no se abrió |
-| **Qué lo tumba** | la condición que haría que dejara de sostenerlo | sin eso, su acuerdo es una firma y no un criterio |
-| **Quién responde por él** | a quién le puede reclamar | sin eso, el error no tiene dónde verse |
+| Declaración | Qué responde |
+|---|---|
+| **qué se lleva** | qué entendió, en sus palabras |
+| **qué pregunta** | qué le quedó abierto |
+| **qué lo tumba** | qué caso lo haría cambiar |
+| **qué no alcanza** | qué no ve desde donde lee |
 
-## Lo que el lector NO declara
-
-**No declara que la tesis es buena.** Eso no es una alineación: es una aprobación, y no sube nada.
-
-No declara que entendió si no puede decirlo en sus palabras. **La cita sin reconstrucción es copia.**
-
-## La alineación
-
-**Un lector está alineado cuando:** lo que se lleva puede decirlo sin el texto delante, y puede nombrar qué lo tumbaría.
-
-Si no puede nombrar qué lo tumba, no se alineó: **se acercó.**
-
-## Lo que falta aquí
-
-**La autoridad dirá cómo se llena.** Falta la condición de reapertura, y eso no se inventa desde aquí.
+**Y sin las cuatro, no hay contestación: hay aprobación.** **Una aprobación no sube nada.**
 
 ## Prueba
 
-¿El lector dice qué se lleva en sus palabras? ¿Nombra la pregunta? ¿Nombra lo que lo tumba? ¿Sabe a quién reclamarle?
+**¿Se puede traer una visión del lector sin tocar las otras? ¿Su tesis sale distinta de la del autor y de la de la máquina? ¿Sin borde declarado se niega a componer?**
 
-## Falsificador
-
-Un lector que aprueba sin poder repetir; uno que cita sin reconstruir; uno que no puede nombrar qué lo tumbaría; una alineación que se presenta como aprobación.
-
-## Transiciones
-
-- El lector puede repetirlo sin el texto → **está alineado.**
-- El lector solo repite el texto → **no se alineó: copió.**
-- El lector nombra qué lo tumba → su contestación entra, y el candado se mueve.
-
+**Falsificador:** una visión del lector que copia la del autor; una contestación que no dice qué la tumba; un lector que aprueba sin leer.
