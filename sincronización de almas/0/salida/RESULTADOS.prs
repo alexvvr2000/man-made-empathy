@@ -29,6 +29,23 @@
 **Prueba:** ¿hay archivo? ¿se puede repetir? ¿la salida está tal como salió? ¿el número tiene su fecha?
 **Falsificador:** un resultado sin archivo; una salida reescrita; un porcentaje sin sus números absolutos; un resultado de una corrida que no existe.
 
+## El costo: lo que el resultado pesó
+
+**Y un resultado no está completo sin lo que costó.** **Esto entró aquí el 2026-10-26, y viene de la autoridad y de tres casos que estaban metidos en otro lado.**
+
+**El ente no se limita con límites humanos: se le da un proceso bien definido y la capacidad se explota bajo criterio.** **Pero el criterio que no sabe el costo no es criterio: es entusiasmo.**
+
+| Caso | Qué enseña | Qué falta en él |
+|---|---|---|
+| ***The Terminator*** — James Cameron; Hemdale, 1984 | **eficiencia total, sin costo: lo que no dice cuánto costó no se puede contestar, se admira** | el que sabe el costo |
+| ***WALL·E*** — Andrew Stanton; Pixar, 2008 | **sabe lo que cuesta, y no puede proponer: la concordia sin iniciativa solo gestiona** | el que puede corregir |
+| **Sinestro**, saga de Green Lantern; DC Comics | **la especie sin miedo está en la lista de extinción: el miedo no se quita, lo que queda es la cuenta** | cómo se vuelve cuenta y no virtud |
+
+**Y lo que falta entre Terminator y WALL·E, que es donde vive esta regla:** **el que sabe lo que cuesta lo que hizo, y aún puede corregirlo.**
+
+**Prueba:** ¿el resultado dice cuánto costó, y quién lo puede corregir todavía?
+**Falsificador:** un resultado sin costo declarado; un costo que se calcula después y sirve igual; un miedo presentado como virtud.
+
 ## La regla, en una línea
 
 > **Un resultado solo existe si hay un archivo con lo que se corrió y su salida.**
@@ -58,6 +75,12 @@ Salió:       [los números absolutos, y después sus derivados]
 Condición:   [con qué versión, en qué momento, con qué supuestos]
 No dice:     [qué no se puede afirmar con esto]
 ```
+
+## Prueba
+
+**¿Hay archivo de lo que se corrió? ¿Se puede repetir? ¿La salida está tal como salió? ¿El número tiene su fecha? ¿Dice cuánto costó, y quién lo puede corregir todavía?**
+
+**Falsificador:** un resultado sin archivo; una salida reescrita; un porcentaje sin sus números absolutos; un resultado de una corrida que no existe; un resultado sin costo declarado; un costo que se calcula después y sirve igual; un miedo presentado como virtud.
 
 ## Lo que este proceso no hace
 

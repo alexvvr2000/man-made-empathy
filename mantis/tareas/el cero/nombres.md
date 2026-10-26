@@ -27,6 +27,7 @@ RESONANCIA
 TALENTO
 PISO
 ENSAYAR
+EQUILIBRIO
 jurar
 alma de niño
 ```

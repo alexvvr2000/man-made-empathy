@@ -48,6 +48,8 @@
 
 ---
 
+**Y las seis gemas y su peso no viven aquí: viven en [`./EQUILIBRIO.md`](./EQUILIBRIO.md).** **La colmena dice quién sostiene el conjunto; el equilibrio dice qué pesa el acto del conjunto.**
+
 ## El guantelete, y por qué está en cada una
 
 **Cada alma tiene su guantelete.** **No solo el 1.** **Y sin eso, la pieza que crece no se puede contestar, y la COLMENA se vuelve lo que su nombre parece.**

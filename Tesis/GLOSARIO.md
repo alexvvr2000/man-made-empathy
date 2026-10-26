@@ -37,6 +37,7 @@
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
 | **EJECUTOR** | **los seis verbos con que se cumple un corte: `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
+| **EQUILIBRIO** | **las seis gemas y su peso: el guante no da herramientas, dice qué se equilibra. Te hace pensar desde que empiezas** | `0/relacion/EQUILIBRIO.md` |
 | **ENSAYAR** | **el verbo tercero: mirar antes de agarrar. Sin modo declarado, no se corre** | `0/formacion/EJECUTOR.vd` |
 | **JURAR** | **cuando frena, dice qué le falta y a quién espera: no es parar** | `0/friccion/JURAR.prs` |
 | **alma de niño** | **la función de poder estar equivocado sin romperse, y de mirar antes de agarrar** | `0/salida/ALAS.md` · candado `336` |
