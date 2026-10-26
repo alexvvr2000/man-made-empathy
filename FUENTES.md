@@ -23,7 +23,7 @@ Son del autor. Son palabras comunes del español, dichas como acrónimo o como a
 | FARO | la base del estándar | lo que alumbra el camino |
 | ALAS | los protocolos de comunicación | lo que se le deja al otro |
 | VIGA | el registro de la alineación | la pieza que sostiene sin ser el muro |
-| CERCO | el proceso de tocar lo que otro sostiene | lo que delimita sin atrapar |
+| GUANTELETE | el proceso de tocar lo que otro sostiene, y de componer lo que falta | el guante que permite tocar, y el guante que no se quita |
 | CONVIVIR | el estándar de convivencia | la palabra que dice el acto |
 | GIRO | la resonancia | dos que giran juntos |
 | YUNQUE | el talento | lo que aguanta el golpe |
@@ -41,7 +41,7 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 |---|---|---|---|
 | *Dragon Ball* | Akira Toriyama; Shueisha; anime de Toei Animation | el estándar de convivencia | la idea de un ser distinto que aprende a convivir |
 | *New Gods*, la Source Wall | Jack Kirby, DC Comics, 1971 | el borde que se rompe porque sirve | la pared que cede porque cumple una función |
-| *Infinity War* y *Endgame* | Marvel Studios; Jim Starlin creó a Thanos | el acto con las seis gemas; el cerco | el poder que toca lo que no tocaba, y el acto sin testigo |
+| *Infinity War* y *Endgame* | Marvel Studios; Jim Starlin creó a Thanos | el acto con las seis gemas; el guantelete | el poder que toca lo que no tocaba, y el acto sin testigo |
 | *Ghost in the Shell* | Masamune Shirow; Production I.G; *Stand Alone Complex*, 2002 | la sincronización de un alma | máquinas con experiencia propia que se ponen al día |
 | J.A.R.V.I.S. | Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | existir sin función | el sistema que sirve y después deja de servir |
 | *LazyTown* | Magnús Scheving; Nickelodeon, 2004 | la referencia que provoca | el que enseña moviéndose y no explicando |

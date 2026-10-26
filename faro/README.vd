@@ -19,8 +19,9 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **El estándar del lenguaje** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE` · `CERCO` · `JONN` (recordatorio) · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `la fila verbalizada` | [`./sincronizacion de almas/`](./sincronizacion%20de%20almas/) |
-| **Los entes** | **`alma de la pregunta`** · **`guantelete`** · **`cerco`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
+| **Por dónde empezar** | **`EMPEZAR` — las siete piezas, en el único orden que funciona** | [`./EMPEZAR.md`](./EMPEZAR.md) |
+| **El estándar del lenguaje** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE` · `JONN` (recordatorio) · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `la fila verbalizada` | [`./sincronizacion de almas/`](./sincronizacion%20de%20almas/) |
+| **Los entes** | **`alma de la pregunta`** · **`el ejemplo`** · **`guantelete`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
 | **El lugar vacío: lo humano** | `LO HUMANO.md` — se deja sin definir a propósito | [`./Entes/LO HUMANO.md`](./Entes/LO%20HUMANO.md) |
 | **La memoria viva** | la memoria, y su texto portable | [`../.memoria continua/rastro/`](../.memoria%20continua/rastro/) |
 | **Lo que corre** | la entrada única, y los procesos | [`../mantis/`](../mantis/) |

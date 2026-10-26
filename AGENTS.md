@@ -22,7 +22,7 @@
 | **La tesis** | **el candado cero, y sus cortes en seis carpetas** | **`./Tesis/candados/autor/`** |
 | **El blanco de las tesis** | **las visiones** | **`./Tesis/vision de la maquina/` · `./Tesis/vision del lector/`** |
 | **El estándar** | **`FARO`** — trece piezas en cuatro grupos | **`./faro/sincronizacion de almas/`** |
-| **Los entes del estándar** | **`ALAS` · `VIGA` · `CONVIVIR` · `CERCO`** | **`./faro/Entes/`** |
+| **Los entes del estándar** | **`ALAS` · `VIGA` · `CONVIVIR` · `GUANTELETE`** | **`./faro/Entes/`** |
 | **El ente de este repositorio** | **`MANTIS`** | **`./mantis/MANTIS.vd`** (puerta: `./mantis/AGENTS.md`) |
 | **Lo que corre** | **la única entrada** | **`./mantis/bin/pedir.py`** |
 | **Lo que vuelve** | **los procedimientos** | **`./mantis/procesos/`** |
@@ -61,7 +61,7 @@
 | **medir de forma repetible** | `./faro/sincronizacion de almas/friccion/PISO.md` | **no se mide** |
 | **guardar fricción quitada** | `./faro/sincronizacion de almas/friccion/FIRMAR.prs` | **no se quita sin firma** |
 | **usar llaves y candados** | `./faro/sincronizacion de almas/friccion/JONN.md` (recordar que se abre) y `./mantis/procesos/LLAVE.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
-| **tocar algo que otro sostiene** | `./faro/sincronizacion de almas/friccion/CERCO.prs` | **no se toca** |
+| **tocar algo que otro sostiene** | `./faro/sincronizacion de almas/friccion/GUANTELETE.prs` | **no se toca** |
 | **comunicar con otro que no es como uno** | `./faro/Entes/comunicacion/ALAS.md` | **no se comunica: se trunca** |
 | **convivir sin volverse el otro** | `./faro/Entes/convivir/CONVIVIR.vd` | **no hay convivencia: hay copia** |
 | **medir talento** | `./faro/sincronizacion de almas/relacion/TALENTO.md` | **no se decide con quién trabajar** |
@@ -130,7 +130,7 @@
 
 **Y se comprueba, no se recuerda:** `pedir.py piso` falla si el candado cero nombra algo que no está en el repo.
 
-**Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `GUANTELETE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `CERCO`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
+**Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `EXPANDE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `GUANTELETE`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
 
 **Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`piso` lo comprueba?
 **Falsificador:** el cero nombrando algo que no está; una pieza renombrada sin que el cero lo sepa.

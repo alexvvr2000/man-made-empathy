@@ -1,0 +1,52 @@
+# el nombre.tra — la tarea en blanco, y lo que pasó
+
+**Nombre:** el nombre
+**Expande:** mirar lo que llegó y decir si el nombre que se le puso sigue en pie
+**Se nombró:** después del folder `lo que llega`
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que el nombre sigue en pie y no se miró contra el acto
+
+## Qué pasó
+
+**Qué pasó:** «lo que llegó se llamó así; ¿sigue siendo eso?»
+**Contra:** el nombre puesto por parecido, que no dice el acto
+**Huella:** esta `.tra`
+**Distancia:** de un nombre puesto a un nombre que se sostiene
+
+## Qué pasó, en el paso
+
+```
+Entró:      el nombre que dejó el folder anterior
+Salió:      el mismo nombre, o el nombre nuevo con su Reemplaza:
+Proceso:    MIRAR.prs
+```
+
+## Qué procesos entran
+
+```
+ENTRAR:              no — ya entró
+MIRAR:               sí — el nombre se mira contra el acto
+EXTRAER:             no — todavía no
+```
+
+## Lo que se usó, y lo que costó
+
+```
+Piso:                leer el nombre, y el acto que dice
+Te cuesta:           una comparación, y la vergüenza de renombrar
+Riesgo:              dejar el nombre viejo porque ya se usó una vez
+```
+
+## Lo que falta
+
+```
+Falta:               la regla que dice cuándo un nombre se gasta
+Bloquea:             renombrar dos veces por el mismo motivo
+Reabre si:           un nombre que sirve para dos versiones distintas
+```
+
+## Prueba
+
+¿El nombre no lleva número? ¿Si cambió, quedó el anterior con `Reemplaza:`? ¿La carpeta y el archivo se llaman igual? ¿El costo está declarado?
+
+**Falsificador:** un nombre numerado; un nombre viejo borrado sin `Reemplaza:`; una carpeta y un `.tra` con nombres distintos; un costo sin declarar; un `Falta` vacío.

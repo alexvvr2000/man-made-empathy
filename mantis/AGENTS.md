@@ -46,7 +46,7 @@
 
 **Y se comprueba, no se recuerda:** `pedir.py piso` falla si el candado cero nombra algo que no está en el repo.
 
-**Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `GUANTELETE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `CERCO`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
+**Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `EXPANDE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `GUANTELETE`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
 
 **Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`piso` lo comprueba?
 **Falsificador:** el cero nombrando algo que no está; una pieza renombrada sin que el cero lo sepa.

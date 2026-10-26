@@ -41,7 +41,7 @@
 
 | Lo que hay | Dónde, y sin decir qué es |
 |---|---|
-| **el cerco** | `cerco/` — lo que el ente puede tocar, y quién lo puede contestar |
+| **el guantelete** | `guantelete/` — lo que el ente puede tocar, y quién lo puede contestar |
 | **la comunicación** | `comunicacion/` — cómo se habla con quien no es como uno, sin obligarlo a sonar como uno |
 | **la concordia** | `CONVIVIR/` — cómo conviven los que no son iguales, sin volverse uno |
 | **el alma** | `alma de la pregunta/` — la función, no la poesía |

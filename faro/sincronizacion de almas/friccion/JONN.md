@@ -4,7 +4,7 @@
 
 **Y lo que este archivo es, dicho antes de lo demás: un recordatorio, no un estándar.**
 
-**La llave no se estudia aquí: se hace.** **La llave es hacer fricción, y la fricción se hace donde se toca, con [`./CERCO.prs`](./CERCO.prs) y con [`../../../mantis/procesos/LLAVE.prs`](../../../mantis/procesos/LLAVE.prs).**
+**La llave no se estudia aquí: se hace.** **La llave es hacer fricción, y la fricción se hace donde se toca, con [`./GUANTELETE.prs`](./GUANTELETE.prs) y con [`../../../mantis/procesos/LLAVE.prs`](../../../mantis/procesos/LLAVE.prs).**
 
 **Lo que queda aquí es una sola cosa: un candado se puede abrir, y se abre con la concordia en mente.** **Un candado que no se puede abrir no protege nada: encierra. Y un candado que se abre sin pensar en el que queda adentro no se abre: se rompe.**
 
@@ -22,7 +22,7 @@
 **Estado:** vigente.
 
 **Sesgo:** un candado se lee desde el que puede abrirlo, no desde el que lo cerró.
-**Límite:** no dice cómo se abre. **Cómo se abre lo dice la fricción, en `CERCO.prs` y en `LLAVE.prs`.** Este archivo solo no deja olvidar que se puede.
+**Límite:** no dice cómo se abre. **Cómo se abre lo dice la fricción, en `GUANTELETE.prs` y en `LLAVE.prs`.** Este archivo solo no deja olvidar que se puede.
 **Firma:** humano:autoridad · máquina:quien lo aplique.
 
 ## Por qué existe: los implícitos son lo que crea a AM
@@ -167,6 +167,6 @@ candado/
 - El sesgo del autor cambia → **se suplanta el candado, y el viejo queda visible con lo que decía.**
 - Un candado se cierra sin llave → **no es un candado: es una puerta con dueño.**
 - Alguien abre un candado → **se registra la apertura, y el autor conserva con qué seguir sosteniendo.**
-- Este archivo empieza a explicar cómo se abre → **se corta: eso es `CERCO.prs` y `LLAVE.prs`, y aquí sobra.**
+- Este archivo empieza a explicar cómo se abre → **se corta: eso es `GUANTELETE.prs` y `LLAVE.prs`, y aquí sobra.**
 
 

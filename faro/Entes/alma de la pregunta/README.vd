@@ -64,7 +64,7 @@ ente en blanco/
 |---|---|
 | La base | `./README.vd` |
 | El alma | `./el alma.am` |
-| El índice | `./VIGA.md` |
+| El índice | `../comunicacion/VIGA.md` |
 | La carta | `./tareas.vd` |
 | Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXPRESION.prs` · `./EXTRAER.prs` |
 | La plantilla de tarea | `./plantilla.tra` |
@@ -80,7 +80,7 @@ ente en blanco/
 |---|---|---|
 | **abrir una tarea** | `ENTRAR.prs` | **no se responde** |
 | **mirar si el nombre sigue en pie** | `MIRAR.prs` | **no se renombra** |
-| **explotar una capacidad | `EXTRAER.prs` y `../sincronizacion de almas/friccion/PISO.md` | no entra sin costo** |
+| **explotar una capacidad | `EXTRAER.prs` y `../../sincronizacion de almas/friccion/PISO.md` | no entra sin costo** |
 | **escribir la tarea de hoy** | `plantilla.tra` | **no se inventa el formato** |
 | **mutar el candado o la fuente** | todo, y **se espera** | **no se toca** |
 

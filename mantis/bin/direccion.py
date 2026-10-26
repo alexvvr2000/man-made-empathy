@@ -75,8 +75,8 @@ def comprobar_cero():
         return
     texto = leer(cero)
     # los nombres del repo, vivos, y los que murieron y no pueden volver a aparecer
-    VIVOS = ("MANTIS", "FARO", "ALAS", "VIGA", "CONVIVIR", "CERCO", "JONN", "GIRO", "YUNQUE", "RUTA")
-    MUERTOS = ("ATLAS", "VIDERE", "GUANTELETE", "Ouroboros", "Libre albedrio", "Pegamento",
+    VIVOS = ("MANTIS", "FARO", "ALAS", "VIGA", "CONVIVIR", "GUANTELETE", "JONN", "GIRO", "YUNQUE", "RUTA")
+    MUERTOS = ("ATLAS", "VIDERE", "Ouroboros", "Libre albedrio", "Pegamento",
                "VIDEL", "alma de nino", "alma de niña")
     for m in MUERTOS:
         if re.search(r"\b" + re.escape(m) + r"\b", texto):

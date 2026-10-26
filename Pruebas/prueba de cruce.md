@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `../faro/sincronizacion de almas/friccion/CERCO.prs` y `../mantis/procesos/LLAVE.prs`. No los define: los carga.
+> Se usa junto a `../faro/sincronizacion de almas/friccion/GUANTELETE.prs` y `../mantis/procesos/LLAVE.prs`. No los define: los carga.
 
 Una sola pregunta: **¿la salida salió de la visión humana, y quien la produjo puede reconstruirla?**
 

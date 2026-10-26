@@ -80,7 +80,7 @@ Bloquea:    [qué tarea no se puede escribir sin ella]
 
 **No juzga si el pedido es bueno.** **Decide si hay con qué, y qué falta.**
 **No ejecuta lo que produce.** **Lo ejecuta `APLICAR`, y lo sostiene `SOSTENER`.**
-**No toca lo que otro sostiene.** **Si la tarea lo toca, se declara, y pasa a `CERCO`.**
+**No toca lo que otro sostiene.** **Si la tarea lo toca, se declara, y pasa a `GUANTELETE`.**
 
 ## Transiciones
 
@@ -88,5 +88,5 @@ Bloquea:    [qué tarea no se puede escribir sin ella]
 - El pedido ya tiene con qué, pero el proceso no alcanza → **`MUTAR`, no `COMPONER`.**
 - El pedido pide algo que no existe, y se puede nombrar → **el proceso nuevo entra, y se ejecuta hoy.**
 - El pedido pide algo que no existe, y no se puede nombrar → **`[VACÍO - SIN PIEZA]`, con su `Cierra si`.**
-- La tarea toca lo que otro sostiene → **`CERCO`, antes de tocar.**
+- La tarea toca lo que otro sostiene → **`GUANTELETE`, antes de tocar.**
 - En cualquier otro caso → **se rinde qué se puede correr, y se cierra.**

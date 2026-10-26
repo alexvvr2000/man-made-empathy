@@ -101,12 +101,12 @@ Y de ahí salió lo que se volvió todo el resto:
 
 ```
 la idea        →      la idea en fricción      →      la idea en su entorno
-CERCO                 CONVIVIR                        RUTA
+GUANTELETE            CONVIVIR                        RUTA
 ```
 
 **El entorno no es el oponente: es la víctima.** Recibe el efecto, y no participa de la pelea. **La pelea es entre ideas.**
 
-**Lo que une a los tres es la misma fricción, y cambia de objeto: se le resiste a la idea, a la idea que quiere cruzar, y a lo que el entorno va a cargar.** **Hoy esos tres tramos tienen nombre: `CERCO` para el acto que toca lo que otro sostiene, `CONVIVIR` para no volverse el otro, y `RUTA` para enrutar sin gastar la forma.**
+**Lo que une a los tres es la misma fricción, y cambia de objeto: se le resiste a la idea, a la idea que quiere cruzar, y a lo que el entorno va a cargar.** **Hoy esos tres tramos tienen nombre: `GUANTELETE` para el acto que toca lo que otro sostiene, `CONVIVIR` para no volverse el otro, y `RUTA` para enrutar sin gastar la forma.**
 
 ## La idea aplicada a la mundanidad
 

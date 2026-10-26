@@ -34,7 +34,7 @@
 | **cambiar un proceso sin perder lo que servía** | `herramientas/MUTAR.prs` | **no se muta** |
 | **quitar un proceso cuyo fin dejó de existir** | `herramientas/RETIRAR.prs` | **se queda ocupando el lugar** |
 | **deducir un proceso de lo observable** | `herramientas/INVERTIR.prs` | **no se deduce** |
-| **tocar algo que otro sostiene** | **nada de aquí: `../cerco/CERCO.vd`** | **no se toca** |
+| **tocar algo que otro sostiene** | **`../guantelete/GUANTELETE.vd`, y `herramientas/FRICCION.prs` antes** | **no se toca** |
 | **escribir y emitir lo que sale** | `../../sincronizacion de almas/formacion/CLARIDAD.md` | **no se emite** |
 | **decir qué se usó, y qué no había** | `../../sincronizacion de almas/friccion/PISO.md` | **se inventa la capacidad** |
 
