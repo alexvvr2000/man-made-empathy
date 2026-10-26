@@ -1,0 +1,75 @@
+# RESULTADOS.prs — sin archivo no hay resultado
+
+**Nombre.** RESULTADOS.
+**Origen.** De la autoridad: **"grabate eso de resultados, porque no los quiero alucinar."**
+**Y de la regla que ya está en el repo:** **"la alucinación no es un error: es reflejo; lo que sí es error es no decir de dónde viene."**
+
+**Unidad:** proceso.
+**Aplica a:** reportar.
+**Tipo:** se ejecuta.
+**Lector:** quien va a escribir una sección de resultados, y quien la va a leer.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** un resultado se lee desde el archivo que lo produjo, no desde la frase que lo cuenta.
+**Límite:** **no juzga si el resultado importa.** **Juzga si existe.**
+**Firma:** humano:autoridad · máquina:quien lo escriba.
+
+**Variables:** resultado · archivo · salida · fecha
+**Peor:** se escribe un resultado que nadie midió, **y el que lo lea va a citarlo como si fuera una medición.**
+**Quién:** quien va a citar un resultado que no tiene archivo.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** lo que se corrió, y lo que salió.
+- **Falla si:** no hay archivo de lo que se corrió; la salida no se conserva; se redondea sin decir que se redondeó; se reporta un resultado de una corrida que no está.
+- **Sale:** el resultado con su archivo, **o `sin datos`**.
+- **Consume:** quien va a citarlo, y quien va a repetirlo.
+
+**Prueba:** ¿hay archivo? ¿se puede repetir? ¿la salida está tal como salió? ¿el número tiene su fecha?
+**Falsificador:** un resultado sin archivo; una salida reescrita; un porcentaje sin sus números absolutos; un resultado de una corrida que no existe.
+
+## La regla, en una línea
+
+> **Un resultado solo existe si hay un archivo con lo que se corrió y su salida.**
+
+**Y si no hay archivo, la sección dice `sin datos`, y no se escribe nada más.**
+
+**`sin datos` es un resultado.** **Y es el único resultado que se puede escribir sin medir nada.**
+
+## El procedimiento
+
+```
+1. correr       → lo que se corrió, tal como se corrió.
+2. guardar      → el archivo con la entrada y la salida, sin limpiarla.
+3. leer         → qué salió, en números absolutos antes que en porcentajes.
+4. acotar       → qué no dice este resultado, y en qué condiciones se obtuvo.
+5. citar        → el archivo, con su ruta y su fecha.
+6. o declarar   → si no hay archivo: sin datos.
+Prohibido el paso 5 sin el 2.
+```
+
+## La ficha del resultado
+
+```
+Corrida:     [qué se corrió, con qué entrada]
+Archivo:     [dónde está la salida, tal como salió]
+Salió:       [los números absolutos, y después sus derivados]
+Condición:   [con qué versión, en qué momento, con qué supuestos]
+No dice:     [qué no se puede afirmar con esto]
+```
+
+## Lo que este proceso no hace
+
+**No juzga si el resultado es bueno.** **Juzga si existe.**
+
+**No completa un resultado vacío.** **Lo declara `sin datos`.**
+
+**No permite redondear sin decirlo.** **Un número redondeado sin aviso es un número inventado.**
+
+## Transiciones
+
+- Hay archivo → el resultado se reporta, con su ruta.
+- No hay archivo → `sin datos`, y se dice qué faltó.
+- Hay archivo pero no se puede repetir → se declara `no reproducible`, y se reporta igual.
+- La salida se limpió → se declara que se limpió: la limpieza es un cambio.

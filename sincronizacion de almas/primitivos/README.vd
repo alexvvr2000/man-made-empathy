@@ -1,0 +1,43 @@
+# primitivos — la base del área
+
+**Esto no es un estándar. Es la base sobre la que se escriben todos los estándares de esta área.**
+
+**Donde las ciencias computacionales tienen la máquina que computa y el cálculo que sustituye, esta área tiene dos cosas, y no hay una tercera:**
+
+| Primitivo | Qué es | Qué sostiene | Dónde |
+|---|---|---|---|
+| **`alma en blanco`** | **lo que corre.** Pasa por folders, y deja lo que hizo | el acto: alguien hace algo | [`./alma en blanco/`](./alma%20en%20blanco/) |
+| **`guantelete`** | **lo que permite, y hace contestable lo permitido** | el permiso: lo que se puede tocar, y quién lo contesta | [`./guantelete/GUANTELETE.vd`](./guantelete/GUANTELETE.vd) |
+
+**No hay un tercero.** **Todo lo demás —`RUTA`, `CONVIVIR`, `ALAS`, `PISO`, `FORMATO`, `LENGUAJE`, `JONN`, `TALENTO`, `RESONANCIA`— no es base: son lenguajes.** **Viven en [`../faro 1.0/lenguajes/`](../faro%201.0/lenguajes/), y ninguno cambia la base.**
+
+---
+
+## Las dos pruebas, y no se mezclan
+
+**Un primitivo se refuta mostrando que algo se puede hacer sin él.** **Si el alma en blanco desaparece y algo se puede correr igual, no era primitivo.**
+
+**Un lenguaje se refuta mostrando que otro lenguaje ya lo expresa mejor, o que dice algo que el primitivo no puede sostener.** **Un lenguaje no refuta a un primitivo: lo usa.**
+
+---
+
+## Qué no se toca
+
+- **Un primitivo no se cambia para que quepa un lenguaje.** Si un lenguaje necesita otra base, no es un lenguaje: es otra área.
+- **La base no tiene versión.** **Los lenguajes sí.** **Un primitivo que se versiona deja a de ser primitivo y pasa a ser una pieza.**
+- **Lo humano no se define aquí.** Se deja en blanco, declarado: [`../faro 1.0/lenguajes/LO HUMANO.md`](../faro%201.0/lenguajes/LO%20HUMANO.md).
+
+---
+
+## Prueba
+
+**¿Se puede señalar qué se pierde si falta el alma en blanco? ¿Y si falta el guantelete? ¿Hay un tercer archivo en esta carpeta que diga cómo se enruta, cómo se comunica o cómo se convive? ¿Todo lo demás del área cabe encima de estos dos sin que ninguno cambie?**
+
+**Falsificador:** un tercer primitivo; un lenguaje metido en la base; una base con versión; un primitivo que necesita a otro para explicarse; lo humano definido aquí.
+
+## Transiciones
+
+- Se quiere escribir un lenguaje → **se escribe en `../faro 1.0/lenguajes/`, y no se toca la base.**
+- Un lenguaje necesita algo que la base no da → **el lenguaje se replantea; no se amplía la base.**
+- Un lenguaje gana y otro pierde → **se retira el que pierde, con su `Vacío:`, y la base no cambia.**
+- En cualquier otro caso → **se copia el alma en blanco, y se trabaja.**

@@ -54,7 +54,7 @@ def md_recursivo(base, excluir=(".git", ".memoria continua")):
 
 
 def docs_con_estandares():
-    base = os.path.join(RAIZ, "faro", "sincronizacion de almas")
+    base = os.path.join(RAIZ, "sincronizacion de almas", "faro 1.0", "lenguajes")
     grupos = ("formacion", "relacion", "friccion", "salida")
     lenguaje = next((os.path.join(base, g) for g in grupos if os.path.isdir(os.path.join(base, g))), base)
     if not os.path.isdir(lenguaje):
@@ -115,7 +115,7 @@ def main():
     # --- 2 y 3. los estandares existen y la carta los cubre -----------------
     estandares, rutas = docs_con_estandares()
     if not estandares:
-        fallas.append("no hay estandares en faro/sincronizacion de almas/")
+        fallas.append("no hay estandares en sincronizacion de almas/")
     docs_repo = [p for p in md_recursivo(RAIZ)]
     contenido = {p: leer(p) for p in docs_repo}
     for nombre in estandares:

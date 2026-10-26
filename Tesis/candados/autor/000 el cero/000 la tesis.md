@@ -266,4 +266,4 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
 
-Para los créditos y las fuentes de terceros, el estándar vive en `../../../../faro/sincronizacion de almas/salida/CONTEXTO.md`.
+Para los créditos y las fuentes de terceros, el estándar vive en `../../../../sincronizacion de almas/faro 1.0/lenguajes/CONTEXTO.md`.

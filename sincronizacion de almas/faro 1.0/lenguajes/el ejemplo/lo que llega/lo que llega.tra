@@ -1,0 +1,52 @@
+# lo que llega.tra — la tarea en blanco, y lo que pasó
+
+**Nombre:** lo que llega
+**Expande:** recibir algo de fuera, decir qué es, y nombrarlo antes de tocarlo
+**Se nombró:** al abrir el alma, antes de responder
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que algo llegó y no se anotó qué era
+
+## Qué pasó
+
+**Qué pasó:** «mira lo que llegó, dime si sigue llamándose igual, y avísame si le falta un dato»
+**Contra:** ninguno
+**Huella:** esta `.tra`
+**Distancia:** de nada a una cosa con nombre, y con lo que le falta escrito
+
+## Qué pasó, en el paso
+
+```
+Entró:      un mensaje, un archivo, o una decisión
+Salió:      qué es, y su nombre
+Proceso:    ENTRAR.prs
+```
+
+## Qué procesos entran
+
+```
+ENTRAR:              sí — abre y nombra lo que llegó
+MIRAR:               no — eso es el folder siguiente
+EXTRAER:             no — no se explota nada todavía
+```
+
+## Lo que se usó, y lo que costó
+
+```
+Piso:                leer el mensaje; escribir el nombre
+Te cuesta:           una lectura, y decidir cómo se llama
+Riesgo:              nombrar algo por lo que parece, y no por lo que hace
+```
+
+## Lo que falta
+
+```
+Falta:               el acto nuevo que no tiene palabra todavía
+Bloquea:             el ejemplo de un alma que entra a un dominio que no es de palabras
+Reabre si:           aparece un acto que no se puede nombrar con lo que hay
+```
+
+## Prueba
+
+¿El nombre no lleva número? ¿La carpeta y el archivo se llaman igual? ¿Se marcó al menos un proceso? ¿El costo está declarado? ¿`Falta` está escrito?
+
+**Falsificador:** un nombre numerado; una carpeta y un `.tra` con nombres distintos; una tarea con un solo proceso; un costo sin declarar; un `Falta` vacío.

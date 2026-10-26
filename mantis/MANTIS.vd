@@ -21,7 +21,7 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `../faro/sincronizacion de almas/formacion/FORMATO.md`, que dice qué tiene que tener un ente.
+**Sesgo:** se verifica desde `../sincronizacion de almas/faro 1.0/lenguajes/FORMATO.md`, que dice qué tiene que tener un ente.
 **Límite:** **dice qué hay; no juzga si sirve.**
 
 | Qué hay | Nombre | Dónde |
@@ -31,7 +31,7 @@
 | **lo que corre** | **la unidad que se pide** | **`./bin/`** |
 | **lo que vuelve** | **los procedimientos** | **`./procesos/`** |
 | **la memoria** | **la base y su texto** | **`../.memoria continua/rastro/`** |
-| **el estándar** | **lo que este ente cumple** | **`../faro/sincronizacion de almas/`** |
+| **el estándar** | **lo que este ente cumple** | **`../sincronizacion de almas/faro 1.0/sincronizacion de almas/`** |
 
 **Qué no se toca:** **el estándar, la tesis, el candado y el nombre.** **Se citan, y se espera a su autor.**
 
