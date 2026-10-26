@@ -14,7 +14,7 @@ MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
 ESTANDAR = os.path.join(REPO, "sincronizacion de almas", "faro 1.0", "lenguajes")
 BASE = os.path.join(REPO, "sincronizacion de almas", "primitivos")
-HUELLA = os.path.join(AQUI, "estandar.huella")
+HUELLA = os.path.join(MANTIS, "tareas", "el estándar", "estandar.huella")
 
 
 def huella(raices):

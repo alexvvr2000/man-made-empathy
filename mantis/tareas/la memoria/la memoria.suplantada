@@ -175,3 +175,25 @@ pasa: el pase quedo escrito, y lo anterior sigue visible
 falta: 6 campo(s) por escribir, y los ve el turno siguiente
 **Huella:** esta .tra
 **Distancia:** codigo 0
+
+
+--- suplantada ---
+
+# la memoria.tra — lo que pasó
+
+**Nombre:** la memoria
+**Expande:** recordar.prs
+**Se nombró:** 2026-10-26T07:33:34+00:00
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que corrió y no hay recibo
+
+## Qué pasó
+
+**Qué pasó:** lo que pasó en el turno: qué se decidió, qué se rompió, qué quedó sin cerrar.
+**Contra:** [ok] la entrada anterior quedo suplantada, y visible
+[ok] el pase tiene sus 6 partes
+
+pasa: el pase quedo escrito, y lo anterior sigue visible
+falta: 6 campo(s) por escribir, y los ve el turno siguiente
+**Huella:** esta .tra
+**Distancia:** codigo 0

@@ -12,8 +12,8 @@ from datetime import datetime, timezone
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 
-TRA = os.path.join(AQUI, "la memoria.tra")
-VIEJA = os.path.join(AQUI, "la memoria.suplantada")
+TRA = os.path.join(MANTIS, "tareas", "la memoria", "la memoria.tra")
+VIEJA = os.path.join(MANTIS, "tareas", "la memoria", "la memoria.suplantada")
 
 
 def leer(p):
