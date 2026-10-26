@@ -40,7 +40,7 @@
 | **por dónde se empieza** | `ENTRAR` — las cinco primeras cosas | [`./ENTRAR.md`](./ENTRAR.md) |
 | **el camino completo** | `EMPEZAR` — las piezas en el único orden que funciona | [`./EMPEZAR.md`](./EMPEZAR.md) |
 | **el piso del mundo** | `RUTA` — qué hay, qué corre y qué falta; uno por mundo | [`./RUTA.md`](./RUTA.md) |
-| **los lenguajes** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE.prs` · `JONN` · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `VIGA` · `CONVIVIR` · `la fila verbalizada` · `LO HUMANO` · `el ejemplo` | [`./lenguajes/`](./lenguajes/) |
+| **los lenguajes** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE.prs` · `JONN` · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `VIGA` · `CONVIVIR` · `la fila verbalizada` · `LO HUMANO` · `el ejemplo` | [`../0/`](../0/) |
 | **la base de la que cuelga todo** | `alma en blanco` · `GUANTELETE` | [`../primitivos/`](../primitivos/) |
 
 **Y una fila que se fue:** **el jugo ya no tiene carpeta ni camino.** **Lo que ayuda a entender no se guarda aparte: si se sostiene de pie, es un candado; y si no se sostiene, no es el camino de nada.**
@@ -63,7 +63,7 @@
 
 ## Transiciones
 
-- Se escribe un lenguaje nuevo → **entra en `./lenguajes/`, con su prueba, y la versión sigue siendo 1.0.**
+- Se escribe un lenguaje nuevo → **entra en `../0/`, con su prueba, y la versión sigue siendo 1.0.**
 - Un lenguaje se retira → **se declara su `Vacío:`, la versión sigue, y se dice qué fin queda descubierto.**
 - Cambia la forma de algo que ya estaba → **es `faro 2.0`, o es otro nombre.**
 - Se quiere cambiar la base → **no se toca desde aquí.**

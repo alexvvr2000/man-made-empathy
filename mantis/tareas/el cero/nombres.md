@@ -30,6 +30,7 @@ TALENTO
 ## Muertos
 
 ```
+el cero viejo de autor/ (hoy es 0/man made empathy/)
 ATLAS
 VIDERE
 EXPANDE

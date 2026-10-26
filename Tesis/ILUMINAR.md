@@ -31,7 +31,7 @@
 
 ## Las que se ven hoy, y son diez
 
-**Sacado de los 94 del repositorio, y cada una con lo que ya la sostiene:**
+**Sacado de los 94 del repositorio, y hoy sembrado en `sincronización de almas/0/man made empathy/`, y cada una con lo que ya la sostiene:**
 
 | # | La pregunta que contesta | Lo que ya la sostiene | ¿Lista? |
 |---|---|---|---|

@@ -48,7 +48,7 @@ el alma de alguien/
 
 ### El alma crece por muda, no por copia
 
-**Un alma no se llena de carpetas: muda de piel.** **Rige `../../../primitivos/alma en blanco/MUDAR.vd`.**
+**Un alma no se llena de carpetas: muda de piel.** **Rige `../../primitivos/alma en blanco/MUDAR.vd`.**
 
 **Y la línea que no se cruza:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **Si el criterio cambia, no es la misma alma, y no hereda el nombre.**
 
@@ -64,7 +64,7 @@ el alma de alguien/
 
 ### El alma se lee por lo que hizo
 
-**Si su carta dice una cosa y sus `.tra` dicen otra, gana el `.tra`.** **Lo que un alma sostiene no se lee en lo que dice de sí misma: se lee en lo que ejecutó.** **Rige `./INTEGRIDAD.md`, `Acciones sobre palabras`, y `../../../primitivos/alma en blanco/EXPRESION.prs`, `Leer un alma`.**
+**Si su carta dice una cosa y sus `.tra` dicen otra, gana el `.tra`.** **Lo que un alma sostiene no se lee en lo que dice de sí misma: se lee en lo que ejecutó.** **Rige `./INTEGRIDAD.md`, `Acciones sobre palabras`, y `../../primitivos/alma en blanco/EXPRESION.prs`, `Leer un alma`.**
 
 ### El piso del mundo vive en la raíz del alma
 
@@ -141,7 +141,7 @@ Consume:  quién decide con la salida
 
 ## El piso
 
-**Hay dos, y no se confunden.** **El del mundo es `RUTA`: qué existe, qué corre y qué falta, y hay uno por mundo.** **El del alma lo pone cada alma encima: qué usó, qué costó, qué dejó.** **El alma no trae el índice del mundo; lo lee al llegar.** Rige `../../RUTA.md`.
+**Hay dos, y no se confunden.** **El del mundo es `RUTA`: qué existe, qué corre y qué falta, y hay uno por mundo.** **El del alma lo pone cada alma encima: qué usó, qué costó, qué dejó.** **El alma no trae el índice del mundo; lo lee al llegar.** Rige `../../faro 1.0/RUTA.md`.
 
 El piso es lo disponible para ejecutar: canales, formatos, herramientas, acceso a la web. **No se elige por gusto: se declara.**
 

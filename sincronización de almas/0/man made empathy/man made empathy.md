@@ -276,4 +276,4 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
-Para los créditos y las fuentes de terceros, el estándar vive en `../../../../sincronización de almas/faro 1.0/lenguajes/salida/CONTEXTO.md`.
+Para los créditos y las fuentes de terceros, el estándar vive en `../salida/CONTEXTO.md`.

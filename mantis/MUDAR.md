@@ -32,7 +32,7 @@
 
 | Tarea | Falta que cubre | Termina cuando | Cierra en | Criterio |
 |---|---|---|---|---|
-| **`el cero/`** | **nada comprueba que el candado cero diga lo mismo que el repo, y ya citó fantasmas durante meses** | **el repo puede comprobar su propio cero sin un ente que lo mire: cuando el estándar lo traiga adentro** | `el cero/el cero.tra` | **igual** |
+| **`el cero/`** | **nada comprueba que el candado cero diga lo mismo que el repo, y ya citó fantasmas durante meses** | **cuando `sincronización de almas/0/` traiga su propia comprobación** | `el cero/el cero.tra` | **igual** |
 | **`los candados/`** | **nada dice cuántos candados están incompletos, y hoy son 52 de 94** | **cuando la cifra llegue a cero, o cuando la autoridad decida que los que quedan no se completan** | `los candados/los candados.tra` | **igual** |
 | **`la tesis/`** | **las tres clases de tesis existen en el estándar y nadie las compone cuando se piden** | **nunca: se compone on demand, y su término es por pedido** | `la tesis/la tesis.tra` | **igual** |
 | **`la memoria/`** | **el turno cierra sin pase, y el siguiente empieza a ciegas** | **nunca: es el pase de cada turno; su término es el turno** | `la memoria/la memoria.tra` | **igual** |

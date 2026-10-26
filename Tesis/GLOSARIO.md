@@ -36,11 +36,11 @@
 | **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/faro 1.0/RUTA.rt` |
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
-| **EJECUTOR** | **lo que corre un `.prs`: lo declara el mundo** | `faro 1.0/lenguajes/formacion/EJECUTOR.md` |
-| **FORMATO · LENGUAJE · CLARIDAD · INTEGRIDAD** | **cómo se escribe** | `faro 1.0/lenguajes/formacion/` |
-| **PISO · FIRMAR · JONN · GUANTELETE.prs** | **qué impide cagarla** | `faro 1.0/lenguajes/friccion/` |
-| **RESONANCIA · COLMENA · TALENTO** | **cómo se afinan dos, muchos, y quién sirve** | `faro 1.0/lenguajes/relacion/` |
-| **ALAS · VIGA · CONVIVIR · CONTEXTO · RESULTADOS · la fila verbalizada** | **qué se deja en el otro** | `faro 1.0/lenguajes/salida/` |
+| **EJECUTOR** | **lo que corre un `.prs`: lo declara el mundo** | `0/formacion/EJECUTOR.md` |
+| **FORMATO · LENGUAJE · CLARIDAD · INTEGRIDAD** | **cómo se escribe** | `0/formacion/` |
+| **PISO · FIRMAR · JONN · GUANTELETE.prs** | **qué impide cagarla** | `0/friccion/` |
+| **RESONANCIA · COLMENA · TALENTO** | **cómo se afinan dos, muchos, y quién sirve** | `0/relacion/` |
+| **ALAS · VIGA · CONVIVIR · CONTEXTO · RESULTADOS · la fila verbalizada** | **qué se deja en el otro** | `0/salida/` |
 | **LO HUMANO** | **el lugar que se deja en blanco a propósito** | `faro 1.0/LO HUMANO.md` |
 | **MANTIS** | **el ente de este repositorio: el 1 con el guantelete puesto** | `mantis/el alma.vd` |
 

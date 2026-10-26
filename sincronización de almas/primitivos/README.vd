@@ -9,7 +9,7 @@
 | **`alma en blanco`** | **lo que corre.** Pasa por folders, y deja lo que hizo | el acto: alguien hace algo | [`./alma en blanco/`](./alma%20en%20blanco/) |
 | **`GUANTELETE`** | **lo que permite, y hace contestable lo permitido** | el permiso: lo que se puede tocar, y quién lo contesta | [`./guantelete/GUANTELETE.vd`](./guantelete/GUANTELETE.vd) |
 
-**No hay un tercero.** **Todo lo demás —`RUTA`, `CONVIVIR`, `ALAS`, `PISO`, `FORMATO`, `LENGUAJE`, `JONN`, `TALENTO`, `RESONANCIA`— no es base: son lenguajes.** **Viven en [`../faro 1.0/lenguajes/`](../faro%201.0/lenguajes/), y ninguno cambia la base.**
+**No hay un tercero.** **Todo lo demás —`RUTA`, `CONVIVIR`, `ALAS`, `PISO`, `FORMATO`, `LENGUAJE`, `JONN`, `TALENTO`, `RESONANCIA`— no es base: son lenguajes.** **Viven en [`../0/`](../0/), y ninguno cambia la base.**
 
 ---
 
@@ -37,7 +37,7 @@
 
 ## Transiciones
 
-- Se quiere escribir un lenguaje → **se escribe en `../faro 1.0/lenguajes/`, y no se toca la base.**
+- Se quiere escribir un lenguaje → **se escribe en `../0/`, y no se toca la base.**
 - Un lenguaje necesita algo que la base no da → **el lenguaje se replantea; no se amplía la base.**
 - Un lenguaje gana y otro pierde → **se retira el que pierde, con su `Vacío:`, y la base no cambia.**
 - En cualquier otro caso → **se copia el alma en blanco, y se trabaja.**

@@ -2,15 +2,14 @@
 
 **Nombre:** los candados
 **Expande:** abrir.prs
-**Se nombró:** 2026-10-26T08:00:48+00:00
+**Se nombró:** 2026-10-26T08:13:52+00:00
 **Reemplaza:** NINGUNO
 **Miente si:** se dice que corrió y no hay recibo
 
 ## Qué pasó
 
 **Qué pasó:** un candado vigente, y la búsqueda: el caso, la obra o el contra que lo pone contra algo que no es él.
-**Contra:** [ok] 94 candados en 7 carpetas
-  000 el cero                      1
+**Contra:** [ok] 93 candados en 6 carpetas
   01 el ente y el metodo           12
   02 el alma y el libre albedrio   10
   03 el nombre y la obra           5
@@ -18,8 +17,9 @@
   05 la maquina y su memoria       1
   06 del caso                      48
 
-[aviso] 89 candado(s) no nombran su llave:
-  - 000 el cero/000 la tesis.md
-  - 01 el ente y el metodo/001
+[aviso] 88 candado(s) no nombran su llave:
+  - 01 el ente y el metodo/001 primeros principios.md
+  - 01 el ente y el metodo/001 verbalizar.md
+
 **Huella:** esta .tra
 **Distancia:** codigo 0

@@ -12,7 +12,7 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
-ESTANDAR = os.path.join(REPO, "sincronización de almas", "faro 1.0", "lenguajes")
+ESTANDAR = os.path.join(REPO, "sincronización de almas", "0")
 BASE = os.path.join(REPO, "sincronización de almas", "primitivos")
 HUELLA = os.path.join(MANTIS, "tareas", "el estándar", "estandar.huella")
 
