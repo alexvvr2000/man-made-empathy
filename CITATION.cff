@@ -1,17 +1,26 @@
 cff-version: 1.2.0
 message: "Si utilizas este trabajo, por favor cítalo de la siguiente manera."
-title: "Man-Made Empathy"
+title: "Man-Made Empathy: el sesgo declarado, medido en acciones"
 abstract: >-
-  Man-Made Empathy es una propuesta metodológica compuesta por principios, directrices y componentes reutilizables concebidos para diseñar agentes conversacionales autónomos basados en dinámicas de colaboración humana. Como marco de diseño, articula autoridad humana, evidencia trazable, conflicto controlado, confianza calibrada, contraste adversarial, auditabilidad y límites de ejecución. No se presenta como un modelo validado empíricamente.
+  Man-Made Empathy es un método y un registro. Sostiene que la verbalización es
+  el primitivo: quien puede declarar lo que hace, y dejar rastro de lo que no
+  hizo, se puede contestar sin decidir qué hay detrás de él. El repositorio
+  contiene el estándar con que se escribe un ente ejecutable, sus 93 reglas con
+  su prueba, y un registro de 26 días de trabajo entre un autor y una máquina:
+  279 entradas de memoria, 263 de ellas nacidas de una corrección, y 197 dichas
+  con la palabra del autor. No se presenta como un modelo validado con terceros
+  independientes. Se presenta como un caso, medido y publicado, con sus errores
+  a la vista.
 type: software
 authors:
   - family-names: "Valenzuela Rivera"
     given-names: "Alejandro"
     email: "alejandrovalenzuela051@gmail.com"
     affiliation: "Universidad Autónoma de Nuevo León, Facultad de Ciencias Físico Matemáticas (egresado de la Licenciatura en Ciencias Computacionales)"
+version: "2"
+date-released: "2026-10-26"
 repository-code: "https://github.com/alexvvr2000/man-made-empathy"
 license: "CC-BY-4.0"
-date-released: "2026-10-01"
 identifiers:
   - description: "DOI conceptual de Zenodo para el historial de versiones; cada versión archivada tiene además su propio DOI."
     type: doi
@@ -19,21 +28,38 @@ identifiers:
 keywords:
   - "inteligencia artificial"
   - "agentes de IA"
-  - "agentes conversacionales"
-  - "agentes proactivos"
-  - "iniciativa mixta"
   - "colaboración humano-IA"
-  - "agentes como compañeros de equipo"
-  - "agentes autónomos"
-  - "modelos de lenguaje"
-  - "LLM"
-  - "prompts"
-  - "ingeniería de prompts"
-  - "instrucciones"
-  - "órdenes"
-  - "sistemas multiagente"
-  - "supervisión humana"
-  - "seguridad de agentes"
+  - "sesgo declarado"
   - "trazabilidad"
-  - "razonamiento adversarial"
-  - "interacción humano-computadora"
+  - "verificación"
+  - "seguridad de agentes"
+  - "supervisión humana"
+  - "estándares de software"
+  - "lenguaje de procesos"
+  - "certificación de agentes"
+  - "registro de errores"
+  - "human-computer interaction"
+  - "auditability"
+references:
+  - type: article
+    title: "El sesgo declarado, medido en acciones: un registro de 26 días de correcciones entre un autor y una máquina"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-26"
+    file: "Tesis/EL SESGO DECLARADO.md"
+    notes: "El paper práctico. Es el documento que este repositorio sostiene como entrada."
+  - type: generic
+    title: "Man-Made Empathy: las ocho tesis, y el cero"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-26"
+    file: "sincronización de almas/0/man made empathy/"
+  - type: generic
+    title: "Las 93 reglas del autor, con su prueba"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-26"
+    file: "Tesis/candados/autor/"
