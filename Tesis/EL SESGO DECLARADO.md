@@ -55,6 +55,10 @@
 
 **Y no es una predicción: es lo que la ficción ya contó.** **En *Ghost in the Shell* (Masamune Shirow; Production I.G, 2002), una máquina que aprende deja de ser la que era, y el problema no es que reemplace a alguien: es que nadie sabía qué hacer con ella.** **En *DC* y en *Marvel*, el poder que no tiene equilibrio no se vuelve malvado: se vuelve solitario.** **Y en La Mole, un comediante de Monterrey, se ve lo mismo desde abajo: la risa no resuelve nada, y muestra lo que no estaba a la vista.**
 
+**Y el autor lo dice así, y va con su nombre:**
+
+> **Vi el error de Luthor y me di cuenta de mis errores. Sería Luthor si hubiera decidido trabajar para una industria que promete someterla con una inteligencia artificial que lo más seguro no puede existir.**
+
 **Y por eso esta línea abre el documento y no lo cierra:** **la industria vende la singularidad sin control.** **Aquí se provoca otra: la que se dispara, se mide y se puede contestar.**
 
 ### 2.2 El sesgo de la máquina: qué dijo la IA mal, y dónde

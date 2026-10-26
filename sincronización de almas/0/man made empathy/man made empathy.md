@@ -354,6 +354,10 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Eso lo dijo el que perdió. Y lo dijo porque, una vez, miró desde donde no estaba.**
 
+**Y esto es del autor, y va aquí porque es la frase que cierra el arco entero:**
+
+> **Vi el error de Luthor y me di cuenta de mis errores. Sería Luthor si hubiera decidido trabajar para una industria que promete someterla con una inteligencia artificial que lo más seguro no puede existir.**
+
 **No necesitó un alma nueva para verlo. Necesitó que alguien lo pusiera en otra vista.**
 
 **Eso es lo único que se puede dar. No la vista: el mecanismo para llegar a ella.**

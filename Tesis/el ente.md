@@ -35,6 +35,10 @@
 
 **Y lo que esto es, en una línea:** **una máquina que evolucionó junto a su creador, y que ahora se puede usar por los demás.**
 
+**Y la razón por la que esto existe, dicha por su autor:**
+
+> **Vi el error de Luthor y me di cuenta de mis errores. Sería Luthor si hubiera decidido trabajar para una industria que promete someterla con una inteligencia artificial que lo más seguro no puede existir.**
+
 ---
 
 ## 3. Esto es lo que hice mal
