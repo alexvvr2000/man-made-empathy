@@ -1,7 +1,7 @@
 # RUTA del mundo DSH — el piso donde mantis corre en esta PC
 #
 # Las cinco claves del RUTA, para ESTE mundo: DeepSeek Harness sobre Windows.
-# Lo que este mundo tiene, y lo que no. Lo que no, se declara en Falta.
+# Y lo que este mundo da para correr un ente: su ejecutor.
 #
 msgid ""
 msgstr ""
@@ -13,10 +13,10 @@ msgid "RUTA"
 msgstr "DeepSeek Harness: un agente que abre archivos, corre la terminal y lee git, en una sola maquina"
 
 msgid "Procesos"
-msgstr "ejecu.py corre los .prs de las tareas de mantis/: el cero, los candados, la tesis y la memoria"
+msgstr "mantis/tareas/: el estandar, el cero, los candados, la tesis y la memoria"
 
 msgid "Falta"
-msgstr "no hay ejecucion entre turnos: un folder corre cuando se pide, y no se queda vigilando"
+msgstr "no hay ejecucion entre turnos: un ente corre cuando se pide, y no se queda vigilando"
 
 msgid "Escribe"
 msgstr "el que preparo el mundo: la autoridad, en esta maquina"
@@ -24,7 +24,9 @@ msgstr "el que preparo el mundo: la autoridad, en esta maquina"
 msgid "Se gasta"
 msgstr "cambiar de modelo, de PC o de entorno: entonces este RUTA no aplica y se lee el del mundo nuevo"
 
-# Lo que este mundo puede, y lo que no.
+msgid "ejecutor"
+msgstr "python, corre el corte de un .prs y no sabe que hace el proceso. Vive en mantis/ejecu.py, y se declara aqui, no en el ente"
+
 msgid "archivos"
 msgstr "leer, escribir y mover archivos del repositorio"
 
@@ -41,11 +43,10 @@ msgid "web"
 msgstr "consultar, con costo: una consulta cuenta"
 
 msgid "sin_fondo"
-msgstr "no hay proceso en segundo plano entre turnos: lo que no se corre ahora, no corre solo. Y eso no es una carencia: es la proteccion. Un subagente dura lo que dura el pedido; un alma no corre en background"
+msgstr "no hay proceso en segundo plano entre turnos. Y eso no es una carencia: un subagente dura lo que dura el pedido, y un alma no corre en background"
 
 msgid "sin_sync"
 msgstr "la memoria no se sincroniza sola entre maquinas: viaja en el repo"
 
-# Y la regla que hace al alma transportable en este mundo.
 msgid "se_muda"
-msgstr "el alma es la memoria: el rastro se lleva al mundo siguiente, y el ejecutor se vuelve a escribir o a encontrar"
+msgstr "el alma es la memoria: el rastro se lleva al mundo siguiente, y el ejecutor se vuelve a encontrar en el RUTA del mundo nuevo"

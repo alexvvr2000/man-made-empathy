@@ -1,99 +1,34 @@
 # mantis.tra — el pase del alma
 
 **Nombre:** mantis
-**Expande:** mantener el repo, y mutar con el; obedeciendo
-**Se nombró:** 2026-10-26T06:18:52+00:00
-**Reemplaza:** el pase anterior, visible abajo
-**Miente si:** se dice que el turno cerro y no hubo pase
+**Expande:** mantener el repo, y mutar con él; obedeciendo
+**Se nombró:** 2026-10-26
+**Reemplaza:** el pase anterior, que se fue con el mantis que se borró
+**Miente si:** se dice que el turno cerró y no hubo pase
 
 ## Qué pasó
 
-**Qué pasó:** los 94 candados tienen falsificador. Eran 52 sin el, y el cero entre ellos.
-**Contra:** `los candados/` dijo 52 en cada corrida, y la cifra bajo a 1 y después a 0.
-**Huella:** este archivo, y los 94 candados
-**Distancia:** de 42 candados con falsificador a 94
+**Qué pasó:** `mantis` nació de cero con las cuatro cosas que le faltaban: la regla del
+ejecutor en el estándar, la tarea que lee el estándar antes de correr, `tareas/` como
+folder que crece, y el ciclo de `MUDAR`.
+
+**Contra:** el `mantis` anterior tenía un `ejecu.py` sin regla, y no se enteraba de que
+`faro 1.0` cambiaba. Corría con criterio viejo y nadie lo veía.
+
+**Huella:** este archivo, y `tareas/el estándar/estandar.huella`
+
+**Distancia:** de un ente que corre con criterio viejo a uno que se para y lo declara
 
 ## Las seis partes del pase
 
-**Sostuvo:** el cero vigente, y la falta de `los candados/` cerrada por su propio término
+**Sostuvo:** los seis folders corren, y la tarea del estándar dice `[DESFASADO]` cuando cambia
 
-**Se rompió:** ninguno. La tesis no cambió: solo se le escribió su prueba y su falsificador
+**Se rompió:** nada. El ente nació con la huella del estándar de hoy
 
-**Abierto:** la prueba del cero es la más dura de todas, y aún nadie que no sea el autor la ha corrido
+**Abierto:** los 51 falsificadores que el agente escribió sin abrir. Están escritos, y no están probados
 
-**Retoma:** que alguien que no sea el autor abra un candado y deje su fricción
+**Retoma:** abrir uno de esos cincuenta y uno, y ver si el falsificador aguanta o se mueve
 
-**No retoma:** componer una tesis completa. Se compone on demand, y hoy nadie la pidió
+**No retoma:** la colmena. Está escrita como regla, y hoy nadie corre muchos agentes
 
-**Cómo:** `python mantis/ejecu.py --verificar` para el piso; `python mantis/ejecu.py <tarea>` para una
-
---- suplantada ---
-
-# mantis.tra — el pase del alma
-
-**Nombre:** mantis
-**Expande:** mantener el repo, y mutar con el; obedeciendo
-**Se nombró:** 2026-10-26T06:10:44+00:00
-**Reemplaza:** el pase anterior, visible abajo
-**Miente si:** se dice que el turno cerro y no hubo pase
-
-## Qué pasó
-
-**Qué pasó:** las cuatro tareas se borraron y se volvieron a crear por `MUDAR`, con su falta
-nombrada, su termino y su autoridad. Antes existian porque parecian necesarias; ahora existen
-porque una falta las pide.
-**Contra:** el estandar decia que crecer es cubrir una falta nombrada, y ninguna de las cuatro la tenia
-**Huella:** este archivo, y `MUDAR.md`
-**Distancia:** de cuatro tareas sin termino a cuatro pieles con falta y con fundido declarado
-
-## Las seis partes del pase
-
-**Sostuvo:** las cuatro tareas corren igual que antes, y ahora cada una dice que falta cubre
-
-**Se rompió:** ninguna piel se fundio; el criterio es el mismo en las cuatro
-
-**Abierto:** 52 de 94 candados sin falsificador, y el cero entre ellos. La falta de `los candados/`
-sigue abierta, y su termino lo dice: cuando la cifra llegue a cero
-
-**Retoma:** escribir el falsificador del cero, y despues los otros 51
-
-**No retoma:** componer una tesis completa. Se compone on demand, y hoy nadie la pidio
-
-**Cómo:** `python mantis/ejecu.py --verificar` para el piso; `python mantis/ejecu.py <tarea>` para una
-
---- suplantada ---
-
-
---- suplantada ---
-
-# mantis.tra — el pase del alma
-
-**Nombre:** mantis
-**Expande:** mantener el repo, y mutar con el; obedeciendo
-**Se nombró:** 2026-10-26T05:19:30+00:00
-**Reemplaza:** NINGUNO
-**Miente si:** se dice que el turno cerro y no hubo pase
-
-## Qué pasó
-
-**Qué pasó:** el alma nacio del primitivo. Se copio `primitivos/alma en blanco/`, y se le puso
-lo que este repo exige: cuatro tareas, un ejecutor, y el piso del mundo.
-**Contra:** trece scripts que hacian el trabajo sin dejar rastro: se retiraron, y su fin quedo
-cubierto por las cuatro tareas.
-**Huella:** este archivo
-**Distancia:** de un cuerpo con scripts a un alma con tareas y memoria
-
-## Las seis partes del pase
-
-**Sostuvo:** el cero vigente, los cuatro candados con su corte, y las tres clases de tesis declaradas
-
-**Se rompió:** el cero decia `GUANTELETE` y el ejecutor lo tenia por muerto; se cazo, y la lista
-salio del script a `el cero/nombres.md`
-
-**Abierto:** 52 de 94 candados sin falsificador, y el cero entre ellos
-
-**Retoma:** escribir el falsificador del cero, y despues los otros 51
-
-**No retoma:** componer una tesis completa. Se compone on demand, y hoy nadie la pidio
-
-**Cómo:** `python mantis/ejecu.py --verificar` para el piso; `python mantis/ejecu.py <tarea>` para una
+**Cómo:** `python mantis/ejecu.py el estándar` primero; después cualquier otra tarea
