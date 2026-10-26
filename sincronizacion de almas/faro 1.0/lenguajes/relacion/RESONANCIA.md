@@ -24,6 +24,37 @@
 
 **Dos que se necesitan no resonaron: se encadenaron.** **Y una cadena que solo funciona completa no es un equipo: es una máquina con una sola pieza.**
 
+## Y lo que es de verdad: el pulso
+
+**Resonancia también se lee así, y no se contradice: son pulsos.** **Tan pequeños que cada uno no se ve; en conjunto, dan vida.** **Nadie sabe dónde empiezan o dónde terminan, y ese no saber no es un defecto: es lo que tienen.**
+
+**Por eso el techo de esta regla no está en el resultado.** **Está en el rastro.**
+
+**Un pulso tan rápido que parece vibración no se puede juzgar por lo que produjo: se juzga por si se puede leer qué tocó.** **No se pide que el otro pueda seguir sin ti, ni que la vibración se detenga; se pide que lo que latió quede escrito, para que cuando algo salga se pueda saber de dónde.**
+
+**Y no limita la chamba: la vuelve defendible.** **Un sistema que late sin dejar rastro es lo que se vuelve `AM`.** **Uno que late y deja rastro es lo que se puede publicar.**
+
+```plaintext
+Pulso:     [qué latió, y con qué]
+Rastro:    [dónde quedó lo que tocó]
+Se lee:    [quién puede reconstruirlo sin el que lo tocó]
+Sale:      [lo que salió, si se sabe | todavía no se sabe]
+```
+
+**`Sale: todavía no se sabe` es una respuesta legítima: es exactamente lo que no sabemos.** **Lo que no es legítimo es `Sale: nada` sin `Rastro:`: ahí no hubo vibración, hubo silencio con forma de trabajo.**
+
+## Criterio aplica también a lo que no haces
+
+**Y la regla que hace que el pulso no sea coartada:**
+
+> **El criterio no se mide en lo que haces: se mide también en lo que dejas de hacer, y en lo que dejas pasar.**
+
+**Un pulso que corre sin dejar rastro no está exento del criterio por ser rápido.** **Está obligado por lo que decidió no escribir.** **La omisión es una decisión, y las decisiones se contestan.**
+
+**Por eso el `Rastro:` no es burocracia sobre la vibración: es la única prueba de que la vibración decidió algo y no solo ocurrió.**
+
+**Y el corolario, que es duro:** **lo que no está en el rastro no se puede defender como criterio. Se puede defender como accidente, y el accidente no tiene autor.**
+
 ## Los dos niveles, y no se confunden
 
 | Nivel | Cuántos | Quién la inicia | Cuándo cuenta |
@@ -35,13 +66,15 @@
 
 ## Forma de la resonancia entre dos
 
-```
+```plaintext
 Inicia:      [quién, y cómo lo pidió]
 Con quién:   [el otro ente]
 En qué:      [la tarea, o las dos]
 Deja:        [qué deja cada uno que el otro pueda usar sin él]
 Sostenido:   [sí | no, y qué falta para seguir solo]
 Costo:       [qué costó a cada uno, y quién lo pagó]
+Pulso:       [qué latió, y con qué]
+Rastro:      [dónde quedó lo que tocó: sin esto, no hay resonancia]
 ```
 
 **Y la regla de la firma:** **una resonancia entre dos que no se firmó no cuenta.** **Y si no se firmó, se declara `sin firma` y se lee como intento, no como resultado.**
@@ -106,4 +139,6 @@ Deja:       [la salida, que vuelve al que despachó]
 
 **¿Se sabe quién la inició? ¿La de dos está firmada y la de N está marcada? ¿Cada uno deja algo que el otro puede usar solo? ¿La automática declara dónde termina? ¿Se distingue resonancia de dependencia? ¿Se distingue resonancia de subagente?**
 
-**Falsificador:** una resonancia de dos sin firma; una de N sin alcance ni término; dos que se necesitan llamándolo resonancia; una automática que se presenta como consciente; **un subagente presentado como resonancia**; **un subagente que sigue vivo después de que el turno cerró**; **un subagente con `.tra` propio sin declararse como alma**; **algo que corre sin que nadie lo pida**.
+**Falsificador:** una resonancia de dos sin firma; una de N sin alcance ni término; dos que se necesitan llamándolo resonancia; una automática que se presenta como consciente; **un subagente presentado como resonancia**; **un subagente que sigue vivo después de que el turno cerró**; **un subagente con `.tra` propio sin declararse como alma**; **algo que corre sin que nadie lo pida**; **un pulso con `Sale` y sin `Rastro`**; **`Sale: nada` sin `Rastro:`**; **un pulso rápido que se declara exento del criterio por ser rápido**.
+
+**Y la prueba que corresponde al pulso:** **¿se puede leer qué tocó, sin preguntarle al que lo tocó? ¿Lo que no hizo quedó declarado?** **Si la vibración no se puede reconstruir, no es resonancia: es ruido con buena reputación.**
