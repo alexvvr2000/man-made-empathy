@@ -3,7 +3,7 @@
 """ejecu.py - el unico archivo no-estandar de mantis.
 
 No sabe que hace un proceso: lee su corte, comprueba la entrada, lo corre.
-Los procesos viven en folders/, y cada uno declara:
+Las tareas viven en la raiz del alma, y cada una declara:
 
     Entra:    / Falla si: / Sale: / Consume:
 
@@ -25,9 +25,9 @@ import sys
 from datetime import datetime, timezone
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-MANTIS = AQUI if os.path.isdir(os.path.join(AQUI, "folders")) else os.path.abspath(os.path.join(AQUI, ".."))
+MANTIS = AQUI if os.path.isfile(os.path.join(AQUI, "el alma.vd")) else os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
-FOLDERS = os.path.join(MANTIS, "folders")
+TAREAS = MANTIS  # la tarea ES la carpeta: viven en la raiz del alma
 
 CAMPOS = ("Entra:", "Falla si:", "Sale:", "Consume:")
 
@@ -108,13 +108,13 @@ def main(argv):
         return 1
 
     if argv[1] == "--verificar":
-        if not os.path.isdir(FOLDERS):
-            print("[SIN FOLDERS] no esta " + FOLDERS)
+        if not os.path.isdir(TAREAS):
+            print("[SIN TAREAS] no esta " + TAREAS)
             return 1
         malos = 0
-        for nombre in sorted(os.listdir(FOLDERS)):
-            c = os.path.join(FOLDERS, nombre)
-            if os.path.isdir(c):
+        for nombre in sorted(os.listdir(TAREAS)):
+            c = os.path.join(TAREAS, nombre)
+            if os.path.isdir(c) and procesos_de(c):
                 ok, msg = verificar(c)
                 print(("[ok]    " if ok else "[falla] ") + nombre + ": " + msg)
                 malos += 0 if ok else 1
@@ -126,11 +126,11 @@ def main(argv):
         return 0
 
     if argv[1] == "--listar":
-        for nombre in sorted(os.listdir(FOLDERS)):
+        for nombre in sorted(os.listdir(TAREAS)):
             print(nombre)
         return 0
 
-    carpeta = os.path.join(FOLDERS, argv[1]) if not os.path.isdir(argv[1]) else argv[1]
+    carpeta = os.path.join(TAREAS, argv[1])
     ok, msg = verificar(carpeta)
     if not ok:
         print("[ACTIVIDAD - SIN CORTE] " + msg)

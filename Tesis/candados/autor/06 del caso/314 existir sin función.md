@@ -14,7 +14,7 @@
 
 **Falsificador.** Que su muerte se lea como heroísmo en vez de como la prueba de que se puede existir sin función.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde el que muta pueda firmarse sin perder el borde.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

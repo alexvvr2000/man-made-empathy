@@ -14,7 +14,7 @@
 
 **Falsificador.** Una definición de lo humano que no obligue a ver como el que la escribió.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

@@ -10,7 +10,7 @@ import re
 import sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-MANTIS = os.path.abspath(os.path.join(AQUI, "..", ".."))
+MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
 CANDADOS = os.path.join(REPO, "Tesis", "candados", "autor")
 

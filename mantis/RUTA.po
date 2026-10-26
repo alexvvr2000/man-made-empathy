@@ -13,7 +13,7 @@ msgid "RUTA"
 msgstr "DeepSeek Harness: un agente que abre archivos, corre la terminal y lee git, en una sola maquina"
 
 msgid "Procesos"
-msgstr "ejecu.py corre los .prs de mantis/folders/: el cero, los candados, la tesis y la memoria"
+msgstr "ejecu.py corre los .prs de las tareas de mantis/: el cero, los candados, la tesis y la memoria"
 
 msgid "Falta"
 msgstr "no hay ejecucion entre turnos: un folder corre cuando se pide, y no se queda vigilando"

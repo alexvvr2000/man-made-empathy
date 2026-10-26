@@ -10,7 +10,7 @@
 
 **Ficción.** Ninguna: los nombres de este repo, que ya caben en la forma.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

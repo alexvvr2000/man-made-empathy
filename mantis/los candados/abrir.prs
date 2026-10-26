@@ -1,7 +1,7 @@
 # abrir.prs — el candado aguanta, o se movió
 
 **Nombre.** ABRIR — **A**brir, **B**uscar, **R**ecoger, **I**r contra, **R**egistrar.
-**Origen.** De `mantis/folders/los candados/abrir.prs`: **la llave es hacer fricción, y la fricción se hace donde se toca.**
+**Origen.** De `mantis/los candados/abrir.prs`: **la llave es hacer fricción, y la fricción se hace donde se toca.**
 **Unidad:** proceso.
 **Aplica a:** abrir.
 **Tipo:** se ejecuta.

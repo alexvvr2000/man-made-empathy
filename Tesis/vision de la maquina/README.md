@@ -28,7 +28,7 @@ python mantis/ejecu.py la tesis
 **Estado:** vigente.
 
 **Sesgo:** se lee desde el que trae su visión, no desde el que ya tenía una.
-**Límite:** no es una visión compuesta: **es la puerta a una.** El proceso que la compone es `mantis/folders/la tesis/`.
+**Límite:** no es una visión compuesta: **es la puerta a una.** El proceso que la compone es `mantis/la tesis/`.
 **Firma:** humano:autoridad · máquina:quien la traiga.
 
 ## Lo que una máquina declara, y siempre las mismas cuatro cosas

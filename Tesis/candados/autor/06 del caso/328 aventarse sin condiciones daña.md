@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde juntar sin condiciones reduzca el prejuicio.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

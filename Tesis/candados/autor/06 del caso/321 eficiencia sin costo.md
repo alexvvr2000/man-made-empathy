@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde el costo se calcule después y sirva.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

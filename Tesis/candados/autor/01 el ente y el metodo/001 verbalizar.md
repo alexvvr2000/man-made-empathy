@@ -10,7 +10,7 @@
 
 **Ficción.** Ninguna: es el primitivo, y un primitivo no se ilustra con un caso.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

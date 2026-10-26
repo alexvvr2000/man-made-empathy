@@ -14,7 +14,7 @@
 
 **Falsificador.** Una condena rápida que no dejó rastro, y aun así se pudo preguntar antes.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

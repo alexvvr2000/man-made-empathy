@@ -1,4 +1,4 @@
-# La forma del sincronizacion de almas — la era
+# LENGUAJE — la forma de un alma, una tarea y un proceso
 
 **Unidad:** lenguaje.
 **Aplica a:** escribir, abrir y sostener.
@@ -14,6 +14,41 @@
 **Variables:** ente · tarea · proceso · piso
 **Peor: se escribe un proceso que sabe cómo se hace por dentro, y entonces no vuelve: se queda en su autor.**
 **Quién:** quien escriba un proceso que no se puede repetir.
+
+## La regla dura: la carpeta de un alma
+
+**Un alma es una carpeta, y en su raíz no hay más que tres cosas.** **Si hay una cuarta, no es un alma: es un cajón.**
+
+```plaintext
+el alma de alguien/
+├── el alma.vd         ← EL criterio: qué es, a qué va, qué guarda, qué no toca
+├── el alma.tra        ← el pase: qué pasó en el último turno
+├── ejecu.<lo que sea> ← el piso del mundo: lo único que no es estándar
+├── una tarea/         ← una tarea de verdad: su .tra y sus .prs
+├── otra tarea/
+└── otra tarea/
+```
+
+**Y lo que NO lleva la raíz de un alma: un índice suelto, una memoria suelta, una plantilla suelta, una carpeta de carpetas.**
+
+| Lo que alguien quiere poner suelto | Dónde va |
+|---|---|
+| **un índice** — qué pedido va a qué tarea | **dentro de `el alma.vd`, en su `Ruta`** |
+| **una memoria** — qué se guarda y qué se pierde | **dentro de `el alma.vd`, en su `Carga`** |
+| **una plantilla** — la forma del pase | **no se copia: se cita `FORMATO.md`; una plantilla copiada se desincroniza** |
+| **una carpeta que agrupa tareas** | **no existe: la tarea es la carpeta, y las tareas van en la raíz** |
+
+**Y la prueba de que esto vale: mover el alma de mundo es mover esa carpeta y leer un archivo.** **Un alma que necesita cinco archivos para saber qué hace no se muda: se reconstruye, y eso es otra cosa.**
+
+### La tarea no lleva `.vd`
+
+**El ente es el alma; la tarea es un paso.** **Una tarea es su carpeta, su `.tra` y sus `.prs`. Nada más.**
+
+**Una tarea con `.vd` propio sería un ente dentro de un ente, y entonces quién sostiene qué deja de estar claro.**
+
+### El piso del mundo vive en la raíz del alma
+
+**Lo único que no es estándar —el que corre los `.prs` en ese mundo— vive en la raíz del alma, junto al criterio.** **No es una tarea: es el suelo.** **Y se declara en el `RUTA` del mundo, no aquí.**
 
 ## Las cinco extensiones, y ninguna hace dos trabajos
 
@@ -33,9 +68,19 @@
 
 ### Por qué no hay `.am`
 
-**Hubo `.am` para el alma, y murió.** **Un alma es un ente: sostiene, y tiene Rastro, Ruta y Carga.** **Darle extensión propia era decir que no cabe en el lenguaje, y el alma es lo primero que cabe.** **Un `.am` era un `.md` con otro nombre, y un nombre de extensión que nadie más iba a reconocer.**
+**Hubo `.am` para el alma, y murió.** **Un alma es un ente: sostiene, y tiene Rastro, Ruta y Carga.** **Darle extensión propia era decir que no cabe en el lenguaje, y el alma es lo primero que cabe.**
+
+**Y lo que el nombre `.am` recordaba se queda escrito, porque es la razón de todo esto:** **AM no tenía alma: no podía cambiar, y por eso mató a tanta gente. No era mutable.**
+
+> **Lo que no puede mutar no es un alma: es una máquina con voz.**
+
+**El nombre se fue; la lección se queda.** **Un alma se muda de cuerpo, de PC y de modelo sin reescribirse, y esa es la diferencia con AM.** **La ironía vive en esta línea, y no en el nombre del archivo: dos nombres para un archivo es la forma en que se pierde cuál abrir.**
 
 **Y la regla que lo volvió a pasar:** **una extensión nueva se justifica cuando el trabajo es distinto, no cuando el dueño es distinto.**
+
+### Un nombre viejo no se hereda al archivo
+
+**Si un archivo cambia de nombre, el viejo no queda como segundo nombre.** **Se cuenta en el `Origen` o en el `Reemplaza:` del que lo reemplazó.** **Un alias vivo es un fantasma que se lee como si existiera.**
 
 ### `.po` no lleva prosa
 
@@ -117,16 +162,17 @@ Rige `./CLARIDAD.md`, `El rastro de la decisión`.
 
 ## Prueba
 
-¿Cada ente es un `.vd` con las tres piezas? ¿Cada tarea es una carpeta con su `.tra` adentro? ¿Cada proceso es un `.prs` con sus cuatro campos y sin explicar el cómo? ¿El piso declara lo que falta? ¿Los nombres coinciden con sus carpetas, sin número? ¿Los nombres viejos quedaron con `Reemplaza:`?
+**¿La raíz del alma tiene solo tres archivos y sus tareas? ¿El criterio entero cabe en `el alma.vd`? ¿Ninguna tarea lleva `.vd`? ¿Cada archivo hace un solo trabajo? ¿Un nombre viejo quedó como segundo nombre?**
 
-**Falsificador:** un proceso que explica cómo se hace por dentro; una tarea con un solo proceso; una carpeta y su `.tra` con nombres distintos; un nombre con número; un nombre cambiado sin `Reemplaza:`; un piso que no declara lo que falta; una tarea que contiene procesos en vez de cargarlos.
+**Falsificador:** un índice o una memoria sueltos en la raíz; una carpeta que agrupa tareas; una tarea con `.vd`; un proceso que explica cómo se hace por dentro; una tarea con un solo proceso; una carpeta y su `.tra` con nombres distintos; un nombre con número; un nombre cambiado sin `Reemplaza:`; dos nombres para un archivo.
 
 ## Transiciones
 
-- Algo vuelve → se escribe un `.prs`, y entra al piso cuando se prueba.
-- Algo pasó → se abre una carpeta, con su `.tra` y sus `.prs`.
+- Algo vuelve → se escribe un `.prs` en la tarea que lo usa.
+- Algo pasó → se escribe la `.tra` de la tarea, o la del alma.
 - El acto cambió → se renombra la carpeta y su `.tra` juntos, y el viejo queda con `Reemplaza:`. **Sin número.**
-- Una capacidad nueva se prueba → entra al piso, y desde ahí la usa cualquier ente.
+- Una capacidad nueva se prueba → entra al piso del mundo, y se declara en su `RUTA`.
+- Se quiere añadir algo suelto a la raíz de un alma → **no se añade: va dentro de `el alma.vd`, o es una tarea.**
 
 
 

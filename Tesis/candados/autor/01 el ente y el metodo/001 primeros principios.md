@@ -10,7 +10,7 @@
 
 **Ficción.** Ninguna: es una posición sobre el esquema y el prójimo, y no un caso.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 

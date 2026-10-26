@@ -264,6 +264,6 @@ GUANTELETE            CONVIVIR                        RUTA
 
 ---
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 Para los créditos y las fuentes de terceros, el estándar vive en `../../../../sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md`.

@@ -1,0 +1,31 @@
+# mantis.tra — el pase del alma
+
+**Nombre:** mantis
+**Expande:** mantener el repo, y mutar con el; obedeciendo
+**Se nombró:** 2026-10-26T05:19:30+00:00
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que el turno cerro y no hubo pase
+
+## Qué pasó
+
+**Qué pasó:** el alma nacio del primitivo. Se copio `primitivos/alma en blanco/`, y se le puso
+lo que este repo exige: cuatro tareas, un ejecutor, y el piso del mundo.
+**Contra:** trece scripts que hacian el trabajo sin dejar rastro: se retiraron, y su fin quedo
+cubierto por las cuatro tareas.
+**Huella:** este archivo
+**Distancia:** de un cuerpo con scripts a un alma con tareas y memoria
+
+## Las seis partes del pase
+
+**Sostuvo:** el cero vigente, los cuatro candados con su corte, y las tres clases de tesis declaradas
+
+**Se rompió:** el cero decia `GUANTELETE` y el ejecutor lo tenia por muerto; se cazo, y la lista
+salio del script a `el cero/nombres.md`
+
+**Abierto:** 52 de 94 candados sin falsificador, y el cero entre ellos
+
+**Retoma:** escribir el falsificador del cero, y despues los otros 51
+
+**No retoma:** componer una tesis completa. Se compone on demand, y hoy nadie la pidio
+
+**Cómo:** `python mantis/ejecu.py --verificar` para el piso; `python mantis/ejecu.py <tarea>` para una

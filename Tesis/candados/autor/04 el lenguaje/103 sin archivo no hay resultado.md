@@ -10,7 +10,7 @@
 
 **Ficción.** Ninguna: es la regla de la seccion.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
 
