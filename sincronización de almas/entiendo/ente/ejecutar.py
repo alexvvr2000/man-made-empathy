@@ -166,8 +166,19 @@ def huella_entrada(carpeta):
 
 
 # ------------------------------------------------------------ lo que lo corre
+def motor_propio(carpeta):
+    """Una tarea puede traer su propio motor: un .py que no es un paso, y que corre la tarea."""
+    for f in sorted(os.listdir(carpeta)):
+        if f.endswith(".py") and not f.startswith("paso"):
+            return os.path.join(carpeta, f)
+    return None
+
+
 def candidatos(carpeta, nombre):
     """Donde puede estar con que cumplir este corte, en este mundo, y en este orden."""
+    motor = motor_propio(carpeta)
+    if motor:
+        return [motor]
     fuera = []
     for ext in ORDEN:
         fuera.append(os.path.join(carpeta, "paso" + ext))
@@ -307,6 +318,8 @@ def cuenta(carpeta):
     propio = [c for c in cs if os.path.basename(c).startswith("paso")]
     if propio:
         return "paso" + os.path.splitext(propio[0])[1]
+    if len(cs) == 1 and os.path.dirname(cs[0]) != BIN:
+        return os.path.basename(cs[0]) + " (motor propio)"
     return "bin/" + os.path.basename(cs[0])
 
 
@@ -401,7 +414,11 @@ def main(argv):
         return 2
 
     ruta = cs[0]
-    salida, codigo, aviso = correr(ruta, [c["Entra:"], c["Sale:"], carpeta])
+    if motor_propio(carpeta) == ruta:
+        # el motor sabe que tarea es: se le pasa su nombre, y nada mas
+        salida, codigo, aviso = correr(ruta, [os.path.basename(os.path.abspath(carpeta))])
+    else:
+        salida, codigo, aviso = correr(ruta, [c["Entra:"], c["Sale:"], carpeta])
     print("")
     if aviso:
         print(aviso)

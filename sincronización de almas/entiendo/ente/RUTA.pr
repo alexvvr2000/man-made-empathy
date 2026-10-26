@@ -1,39 +1,49 @@
-# RUTA.pr — este mundo: qué tiene, y con qué se corre
+# RUTA.pr — este mundo: qué puede, y con qué se comprueba
 
-**Esto no es lo que el estándar exige: es lo que este mundo ya tiene, y se usa.** **Lo llena quien prepara el mundo, no quien escribe el ente.**
+**Esto no es lo que el estándar exige: es lo que este mundo puede, y se midió.** **Lo llena quien prepara el mundo, no quien escribe el ente.**
 
-**Y si el mundo cambia —otra PC, otro modelo, otro sistema— no se reescribe el ente: se lee el `RUTA.pr` del mundo nuevo.**
+**Y la regla es la de [`../../../0/formacion/PISO.vd`](../../../0/formacion/PISO.vd):** **una capacidad no declarada no existe; una declarada sin prueba tampoco.** **No se describe el mundo: se enumeran sus capacidades, y cada una se mide con `piso.py`.**
+
+**Y si el mundo cambia —otra PC, otro modelo, otro sistema— no se reescribe el ente: se vuelve a medir el piso.**
 
 ---
 
-## Qué puede este mundo
+## El piso
 
 ```plaintext
-rige:      [qué ruta portable obedece, o NINGUNA]
-mundo:     [dónde corre: el sistema, la máquina, el entorno]
-Escribe:   [quién llenó esto, y cuándo]
+mundo:       [cuál es, y qué lo distingue de otro. Ni marca ni dominio: lo que lo vuelve otro mundo]
+capacidades: leer · escribir · ejecutar · medir · fuera · entre_turnos
+con:         [con qué se cumple cada una. Aquí sí se nombra: el cómo es del mundo]
+prueba:      [la prueba de cada una, y cómo se comprueba]
+no_puede:    [lo que falta, y qué se pierde por eso]
+se_gasta:    [qué cambio del mundo lo deja viejo]
 ```
 
-| Pieza | Qué tiene | Nota |
+**Y las seis, y no hay más porque no se han necesitado más:**
+
+| Capacidad | Qué significa | Prueba |
 |---|---|---|
-| **archivos** | [leer, escribir, mover] | [dónde, y qué límites] |
-| **terminal** | [qué se puede correr] | [los comandos ] |
-| **git** | [sí o no] | [si no, no hay vuelta atrás] |
-| **memoria** | [dónde vive el rastro] | [en texto, o en una base] |
-| **web** | [sí o no, y con qué costo] | [si no, se declara] |
+| **`leer`** | traer el contenido de algo que ya existía | lee este archivo, y dice de qué mundo es |
+| **`escribir`** | dejar algo que otro pueda leer después | escribe, y al releer es lo mismo |
+| **`ejecutar`** | que algo corra, y devuelva si salió bien | corre un paso que dice `ok`, y recibe `ok` |
+| **`medir`** | contar el tiempo, lo que cuesta, o cuántas veces | cuenta, y da un número |
+| **`fuera`** | traer algo que no estaba en el mundo | puede faltar: si no hay, `no` |
+| **`entre_turnos`** | que algo siga corriendo cuando el ente no mira | puede faltar: si no hay, `no` |
 
-## Qué falta
+**Un mundo que necesite una séptima capacidad la pide, y la justifica: `¿un corte se cumple sin ella?` Si sí, no entra.**
 
-```plaintext
-Falta:      [qué no puede hacer este mundo]
-Se paga:    [qué se pierde por eso]
-Se muda:    [qué obliga a mirar el mundo otra vez]
-```
+## Qué no se declara aquí
 
-**Y lo que no hay se declara, no se improvisa:** **un ente que finge una capacidad que su mundo no tiene produce resultados que nadie puede reproducir.**
+**No se declara el lenguaje, ni la marca, ni el sistema, ni el dominio.** **Python no es una capacidad: es con qué este mundo cumple `ejecutar`.** **El cómo va en `con:`; el qué va en `capacidades:`.** **Si una capacidad nombra su herramienta, no es capacidad: es una pieza del mundo.**
 
 ## Prueba
 
-**¿El mundo está dicho con lo que importa: archivos, terminal, memoria y red? ¿Se dice qué falta, y qué cuesta? ¿Se dice cuándo se vuelve a mirar?**
+**`python piso.py`** — y lo que salga es la verdad, no lo que diga el archivo. **`piso.py` corre una prueba por capacidad, y lo que no la pasa se declara `[MIENTE]`.**
 
-**Falsificador:** un `RUTA.pr` que lista la máquina y no lo que puede hacer; una capacidad prometida sin el comando que la cumple; un `Falta` vacío.
+**Falsificador:** una capacidad sin prueba; una prueba que no se corrió; una capacidad que nombra su herramienta en vez de su acto; un `no_puede` vacío; un piso que declara `entre_turnos` y no lo tiene.
+
+## Transiciones
+
+- Se llega a un mundo nuevo → **se corre `piso.py`, y lo que no pase su prueba no se usa.**
+- Una capacidad falla su prueba → **se declara `no_puede`, y lo que dependía de ella no corre.**
+- El mundo cambia → **se vuelve a medir. Un piso que no se mide es una promesa.**

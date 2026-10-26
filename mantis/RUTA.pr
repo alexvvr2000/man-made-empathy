@@ -1,6 +1,16 @@
 # RUTA.pr — este mundo: DeepSeek Harness en la PC del autor
 #
 # Lo que este mundo ya tiene. No es lo que el estandar exige: es lo que hay, y se usa.
+#
+# Y el piso se MIDE: `python bin/piso.py` corre una prueba por capacidad declarada.
+# Lo que no pase la prueba no es capacidad: se declara no_puede.
+
+"mundo: DeepSeek Harness en una Legion Go S, con Windows\n"
+"capacidades: leer, escribir, ejecutar, medir\n"
+"con: python 3.14 para leer, escribir y correr; powershell para correr; el reloj del sistema para medir\n"
+"prueba: bin/piso.py, corrido en esta maquina\n"
+"no_puede: fuera, entre_turnos\n"
+"se_gasta: cambiar de maquina, de modelo o de interprete\n"
 
 msgid ""
 msgstr ""
