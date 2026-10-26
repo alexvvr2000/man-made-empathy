@@ -1,0 +1,39 @@
+# RUTA.pr — este mundo: qué tiene, y con qué se corre
+
+**Esto no es lo que el estándar exige: es lo que este mundo ya tiene, y se usa.** **Lo llena quien prepara el mundo, no quien escribe el ente.**
+
+**Y si el mundo cambia —otra PC, otro modelo, otro sistema— no se reescribe el ente: se lee el `RUTA.pr` del mundo nuevo.**
+
+---
+
+## Qué puede este mundo
+
+```plaintext
+rige:      [qué ruta portable obedece, o NINGUNA]
+mundo:     [dónde corre: el sistema, la máquina, el entorno]
+Escribe:   [quién llenó esto, y cuándo]
+```
+
+| Pieza | Qué tiene | Nota |
+|---|---|---|
+| **archivos** | [leer, escribir, mover] | [dónde, y qué límites] |
+| **terminal** | [qué se puede correr] | [los comandos ] |
+| **git** | [sí o no] | [si no, no hay vuelta atrás] |
+| **memoria** | [dónde vive el rastro] | [en texto, o en una base] |
+| **web** | [sí o no, y con qué costo] | [si no, se declara] |
+
+## Qué falta
+
+```plaintext
+Falta:      [qué no puede hacer este mundo]
+Se paga:    [qué se pierde por eso]
+Se muda:    [qué obliga a mirar el mundo otra vez]
+```
+
+**Y lo que no hay se declara, no se improvisa:** **un ente que finge una capacidad que su mundo no tiene produce resultados que nadie puede reproducir.**
+
+## Prueba
+
+**¿El mundo está dicho con lo que importa: archivos, terminal, memoria y red? ¿Se dice qué falta, y qué cuesta? ¿Se dice cuándo se vuelve a mirar?**
+
+**Falsificador:** un `RUTA.pr` que lista la máquina y no lo que puede hacer; una capacidad prometida sin el comando que la cumple; un `Falta` vacío.

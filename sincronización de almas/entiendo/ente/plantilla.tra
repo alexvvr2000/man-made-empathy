@@ -1,0 +1,68 @@
+# [el nombre de la tarea].tra — el rastro que deja una tarea
+
+**Cómo se usa:** **copias este archivo a `tareas/[el nombre]/`, y el archivo se llama como la carpeta.** **Luego llenas los corchetes.** **Sin números, y sin `v2`: una tarea no tiene versiones, tiene historial.**
+
+**Una tarea no es una idea: es un acto.** **Si no deja `.tra`, no pasó.**
+
+---
+
+**Nombre:** [el de la carpeta, igual]
+**Expande:** [el acto que ocurrió, en una frase que se pueda citar]
+**Se nombró:** [el instante, antes de responder]
+**Reemplaza:** [el nombre anterior, o NINGUNO]
+**Miente si:** [qué acto no ocurrió, y esto se está contando como si sí]
+
+## Qué pasó
+
+**Qué pasó:** [la frase dicha, literal: lo que entró, y lo que salió]
+**Contra:** [lo que lo contradijo, o «ninguno»]
+**Huella:** [dónde quedó, y cómo se comprueba]
+**Distancia:** [qué cambió, y desde cuándo]
+
+## Qué procesos entraron
+
+**Una tarea son varios procesos; uno solo es un acto, no una tarea.** **Marca los que corrió, y añade los suyos:**
+
+```plaintext
+ENTRAR:      [sí | no] — abre y nombra lo que llegó
+MIRAR:       [sí | no] — mira si el nombre sigue en pie
+EXTRAER:     [sí | no] — trae una capacidad de fuera, con su costo
+EXPRESION:   [sí | no] — emite lo que salió
+FRICCION:    [sí | no] — preguntó antes de tocar algo ajeno
+[otro]:      [sí | no] — qué hizo
+```
+
+## Lo que se usó, y lo que costó
+
+```plaintext
+Piso:        [qué se usó, y qué no estaba]
+Te cuesta:   [qué se pagó: tiempo, tokens, una tarde, lo que sea]
+Riesgo:      [qué pasaría si saliera mal]
+```
+
+## Lo que falta
+
+```plaintext
+Falta:       [lo que esta tarea no pudo hacer]
+Bloquea:     [qué decisión quedó abierta]
+Reabre si:   [qué obliga a volver a mirar]
+```
+
+## Las seis partes del pase, si esta tarea cierra un turno
+
+```plaintext
+Sostuvo:     lo que quedó vigente
+Se rompió:   qué falló, y qué lo detectó
+Abierto:     qué quedó sin cerrar, y por qué
+Retoma:      la primera acción concreta de la siguiente vuelta
+No retoma:   lo que quedó fuera a propósito, y por qué
+Cómo:        el comando, o el paso, para volver a correrlo
+```
+
+**`Retoma` es una acción y no un tema.**
+
+## Prueba
+
+**¿El nombre no lleva número? ¿La carpeta y el archivo se llaman igual? ¿Se marcaron al menos dos procesos? ¿El costo está declarado? ¿`Falta` está escrito? ¿El `Contra` viene de fuera?**
+
+**Falsificador:** un nombre numerado; una carpeta y un `.tra` con nombres distintos; una tarea con un solo proceso; un costo sin declarar; un `Falta` vacío; un `Contra` firmado por el que se corrigió.

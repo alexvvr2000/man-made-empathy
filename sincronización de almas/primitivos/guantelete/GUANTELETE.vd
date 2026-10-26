@@ -4,7 +4,7 @@
 
 **Origen.** De *Avengers: Infinity War* (2018) e *Endgame* (2019), y de la frase del autor: **"solo hizo lo que pudo con las gemas"**. **Y de la lectura de por qué lo pararon: no lo pararon por más fuerte. Lo pararon porque su sesgo no podía cambiar.**
 
-**Reemplaza:** `CERCO` — la carta que vivía en `Entes/cerco/`, y su procedimiento que vivía en `sincronización de almas/friccion/`. **Conserva todo lo que decían, y deja de ser dos entes diciendo lo mismo.** **Fusión hecha: `CERCO` y su `.prs` se retiraron, y lo que solo ellos tenían vive en esta carta y en las seis gemas de abajo.**
+**Reemplaza:** `CERCO` — la carta que vivía en `Entes/cerco/`, y su procedimiento que vivía en aquella `friccion/`. **Conserva todo lo que decían, y deja de ser dos entes diciendo lo mismo.** **Fusión hecha: `CERCO` y su `.prs` se retiraron, y lo que solo ellos tenían vive en esta carta y en sus herramientas.**
 
 **Unidad:** ente.
 **Aplica a:** permitir, y tocar.
@@ -30,7 +30,7 @@
 |---|---|---|
 | El acto que se ejecuta antes de mover | `FRICCION.prs` | [`./herramientas/FRICCION.prs`](./herramientas/FRICCION.prs) |
 | El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../0/friccion/GUANTELETE.prs`](../../0/friccion/GUANTELETE.prs) |
-| Las seis herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
+| Las siete herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
 | El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
 | El estándar de lo que deja ALAS | `ALAS.md` | [`../../0/salida/ALAS.md`](../../0/salida/ALAS.md) |
 
@@ -40,7 +40,7 @@
 
 ```
 Acto: [qué se toca] | Reversible: [sí | no] | Testigo: [tipo:nombre | ninguno]
-Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | no aplica]
+Gemas: [cuáles de los seis limites] | Rastro: [dónde quedó] | Deshecho: [sí | no | no aplica]
 ```
 
 ## Ruta — la mente
@@ -73,7 +73,7 @@ Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | n
 
 ```
 Acto: [qué se toca] | Reversible: [sí | no] | Testigo: [tipo:nombre | ninguno]
-Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | no aplica]
+Gemas: [cuáles de los seis limites] | Rastro: [dónde quedó] | Deshecho: [sí | no | no aplica]
 ```
 
 **Y las tres reglas que este ente vuelve estándar, y que todo lo demás cumple:**
@@ -83,6 +83,17 @@ Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | n
 | **la fricción primera** | **ningún acto corre sin preguntar antes quién lo va a contestar. Y si nadie contesta, se declara, no se lee como permiso** |
 | **el costo del caso malo** | **todo acto declara lo que costó su peor corrida, no su mejor** |
 | **la firma de lo quitado** | **si se quita una fricción, se firma con su hash: lo que se quitó tiene nombre** |
+
+## Las siete herramientas no son las seis gemas
+
+**Y esto se prestaba a confusión, así que se dice una vez y claro:**
+
+| | Qué es | Cuántas |
+|---|---|---|
+| **las gemas** | **las seis capacidades de un acto:** qué se va a poder tocar | seis, y están declaradas abajo |
+| **las herramientas** | **los siete procesos que se cargan:** cómo se hace, paso a paso | siete, y viven en `./herramientas/` |
+
+**Un acto declara sus gemas; el que lo ejecuta carga una herramienta, y ni una más.** **No hay correspondencia uno a uno entre las dos listas, y no hace falta que la haya: una herramienta puede usar dos gemas, y una gema puede no necesitar herramienta.**
 
 ## Las seis gemas, y qué limita cada una
 
@@ -166,17 +177,5 @@ Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | n
 - No hay testigo → **`[VACÍO - SIN TESTIGO]`; no se ejecuta como bueno.**
 - El acto se deshace → **se anota qué se tocó y qué vuelve.**
 
-## Lo que el guante vuelve estándar
-
-**Y esto es lo que sale del guante hacia el lenguaje:** **no una herramienta, sino tres reglas que todo lo demás cumple.**
-
-| Regla | Qué dice |
-|---|---|
-| **la fricción primera** | **ningún acto corre sin preguntar antes quién lo va a contestar. Y si nadie contesta, se declara, no se lee como permiso** |
-| **el costo del caso malo** | **todo acto declara lo que costó su peor corrida, no su mejor** |
-| **la firma de lo quitado** | **si se quita una fricción, se firma con su hash: lo que se quitó tiene nombre** |
-
 **Y la regla que las junta, y es la del guante:** **hacer todo lo posible desde el propio sesgo, con fricción.** **No limita: permite, y hace contestable lo permitido.**
-
-**Lo que el guante no hace, y es su seguridad:** **no decide si el acto era bueno.** **Mide si era contestable, reversible y con testigo.**
 

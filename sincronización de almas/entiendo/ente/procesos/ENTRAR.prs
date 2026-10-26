@@ -1,0 +1,40 @@
+# ENTRAR.prs — abrir la tarea y nombrar lo que llegó
+
+**Nombre.** ENTRAR — **E**scuchar, **N**ombrar, **T**razar, **R**edactar, **A**brir, **R**ecordar.
+**Origen.** El ciclo: la tarea se abre antes de saber qué va a pasar. **Viaja con la plantilla: es el proceso base del ente, no de este proyecto.**
+
+**Unidad:** proceso.
+**Aplica a:** abrir.
+**Tipo:** se ejecuta.
+**Lector:** el ente que recibe lo primero.
+**Dueño:** la autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se abre desde lo que llegó.
+**Límite:** no decide qué hacer con lo que llegó.
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Variables:** interacción · nombre · huella
+**Peor:** se responde antes de nombrar.
+**Quién:** quien cargue la respuesta que nadie puede citar.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** la interacción, y la carpeta de la tarea todavía sin `.tra`.
+- **Falla si:** se responde antes de nombrar; el nombre lleva número; el `.tra` no queda dentro de la carpeta de la tarea.
+- **Sale:** la carpeta de la tarea con su `.tra` adentro, con la frase dicha.
+- **Consume:** el siguiente `.prs` de la tarea.
+
+```
+1. escuchar  → lo que llegó, literal
+2. nombrar   → el nombre de la tarea, antes de responder
+3. trazar    → la huella: qué llegó y cuándo
+4. redactar  → el .tra, dentro de la carpeta
+5. abrir     → la carpeta con el nombre de la tarea
+6. recordar  → el nombre y su expansión, en la línea del nombre
+Prohibido el paso 6 sin el 2.
+```
+
+**Prueba:** ¿nombró antes de responder? ¿la carpeta y el `.tra` tienen el mismo nombre? ¿sin número?
+**Falsificador:** responder sin nombre; un nombre numerado; un `.tra` fuera de su carpeta.
+

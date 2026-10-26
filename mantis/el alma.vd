@@ -36,13 +36,13 @@
 |---|---|---|
 | **el pase** | `mantis.tra` — qué pasó en el último turno | [`./mantis.tra`](./mantis.tra) |
 | **el piso de este mundo** | `RUTA.pr` — qué puede DSH en esta PC, y con qué se corre | [`./RUTA.pr`](./RUTA.pr) |
-| **el guantelete que lleva puesto** | `GUANTELETE` | [`../sincronización de almas/primitivos/guantelete/GUANTELETE.vd`](../sincronizaci%C3%B3n%20de%20almas/primitivos/guantelete/GUANTELETE.vd) |
+| **el guantelete que lleva puesto** | `GUANTELETE` | [`../sincronización de almas/primitivos/guantelete/GUANTELETE.vd`](../sincronización de almas/primitivos/guantelete/GUANTELETE.vd) |
 | **lo que ya cumple los cortes** | `bin/` — la implementación de este mundo, escrita al leer el corte | [`./bin/`](./bin/) |
 | **la piel que crece** | `tareas/` — se rehace cuando entra o sale una | [`./tareas/`](./tareas/) |
 | **el criterio a pulso** | `integridad/` — si el 1 sigue siendo el 1 | [`./integridad/`](./integridad/) |
-| **lo que la mantiene al día** | `el estándar/` — lee el estándar y declara el desfase | [`./tareas/el estándar/`](./tareas/el%20est%C3%A1ndar/) |
-| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`../sincronización de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizaci%C3%B3n%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd) |
-| **el estándar que cumple** | `faro 1.0` | [`../sincronización de almas/faro 1.0/`](../sincronizaci%C3%B3n%20de%20almas/faro%201.0/) |
+| **lo que la mantiene al día** | `el estándar/` — lee el estándar y declara el desfase | [`./tareas/el estándar/`](./tareas/el estándar/) |
+| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`../sincronización de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronización de almas/primitivos/alma%20en%20blanco/MUDAR.vd) |
+| **el estándar que cumple** | `faro 1.0` | [`../sincronización de almas/faro 1.0/`](../sincronización de almas/faro%201.0/) |
 
 **Qué no se toca:** **el estándar, la tesis y el nombre.** **Se citan, y se espera a su autor.**
 

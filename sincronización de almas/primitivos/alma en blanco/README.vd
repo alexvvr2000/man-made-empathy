@@ -49,7 +49,7 @@ ente en blanco/
 ├── README.vd                 esto: la base en blanco
 ├── el alma.vd                la primera alma en blanco: pasa por N folders y X procesos
 ├── memoria.vd                el alma: la memoria como concepto, con la forma de la entrada
-├── VIGA.md                  el índice: enruta a qué proceso va cada paso
+├── IMA.md                   el índice: enruta a qué proceso va cada paso
 ├── tareas.vd                 la carta: qué sostiene, qué carga, qué pierde
 ├── ENTRAR.prs                texto: cómo se abre una tarea
 ├── MIRAR.prs                 texto: cómo se mira si el nombre sigue en pie
@@ -64,10 +64,11 @@ ente en blanco/
 |---|---|
 | La base | `./README.vd` |
 | El alma | `./el alma.vd` |
-| El índice | `../../0/salida/VIGA.md` |
+| El índice | `./IMA.md` — qué carpeta corre qué proceso, y cuándo se gasta la forma |
 | La carta | `./tareas.vd` |
 | Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXPRESION.prs` · `./EXTRAER.prs` |
 | La plantilla de tarea | `./plantilla.tra` |
+| **la copia que se pega en un proyecto** | [`../../entiendo/ente/`](../../entiendo/ente/) — aquí se explica la base; allá se pega una copia llena |
 | El lenguaje | `../` — el ente vive dentro del lenguaje, no al lado |
 | La memoria | `./memoria.vd` — la memoria como concepto, no como archivo |
 | El candado | el que declare su autor — se enlaza, no se copia |

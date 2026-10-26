@@ -1,0 +1,54 @@
+# APLICAR.prs — ejecutar un proceso sobre una entrada
+
+**Nombre.** APLICAR — **A**brir, **P**reparar, **L**eer, **I**nvocar, **C**omprobar, **A**notar, **R**endir.
+**Origen.** Del primer guantelete: **"sin aplicar, el catálogo es un catálogo."** **Es la que hace que las piezas sean un lenguaje.**
+
+**Unidad:** proceso.
+**Aplica a:** aplicar.
+**Tipo:** se ejecuta.
+**Lector:** quien tiene un proceso y una entrada, y quiere el resultado sin inventarlo.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se aplica desde el proceso, no desde lo que el ejecutor cree que el proceso quiere decir.
+**Límite:** no corrige la entrada ni el proceso. **Aplica y declara qué no cabe.**
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Variables:** proceso · entrada · salida · cabe
+**Peor:** se aplica un proceso a una entrada que no le corresponde, **y la salida parece válida: el error se descubre tres pasos después.**
+**Quién:** el siguiente que consume la salida.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un `.prs` con su bloque `Entra | Falla | Sale | Consume`, y una entrada.
+- **Falla si:** la entrada no es la que el proceso declara; el proceso no tiene su bloque; se aplica sin decir qué no cabía; la salida no se anota.
+- **Sale:** la salida del proceso, **o `[NO CABE]`** con qué no cabía.
+- **Consume:** el siguiente proceso de la cadena.
+
+**Prueba:** ¿la entrada era la que el proceso pide? ¿Se dijo qué no cabía? ¿La salida quedó anotada con su rastro?
+**Falsificador:** una entrada que no corresponde aplicada igual; una salida sin anotar; un `[NO CABE]` rellenado por el consumidor.
+
+## El proceso
+
+```
+1. abrir       → el .prs, y su bloque de entrada y salida.
+2. preparar    → la entrada, tal como está, sin limpiarla en silencio.
+3. leer        → qué pide el proceso, y qué no tolera.
+4. invocar     → ejecutar, por quien corresponda.
+5. comprobar   → ¿la salida es la que el proceso declara?
+6. anotar      → la salida, con su rastro.
+7. rendir      → qué se aplicó, qué no cabía, y qué sigue.
+Prohibido el paso 6 sin el 5.
+```
+
+## Lo que este proceso no hace
+
+**No adapta la entrada para que quepa.** **Si no cabe, lo dice: adaptarla en silencio es inventar el resultado.**
+
+**No juzga la salida.** **Comprueba que sea la que el proceso declara.**
+
+## Transiciones
+
+- La entrada cabe → se aplica, se comprueba y se anota.
+- La entrada no cabe → `[NO CABE]`, con qué no cabía.
+- El proceso no tiene su bloque → no se aplica: no es un proceso.

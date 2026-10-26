@@ -39,7 +39,7 @@
 
 | Si se declara como descripción | Si se declara como proceso |
 |---|---|
-| *«falta medir el peor caso»* | `peor-caso.prs`, con sus variables y su falsificador |
+| *«falta medir el peor caso»* | un proceso que mida el peor caso, con sus variables y su falsificador — **hoy no existe: se declara** |
 | nadie sabe qué hacer con eso | **se escribe, y el sistema queda completo** |
 | vuelve a la autoridad a interpretar | **el ejecutor lo cierra en la corrida** |
 

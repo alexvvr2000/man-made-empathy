@@ -45,6 +45,19 @@
 
 ---
 
+## La puerta que todo esto abre: la plantilla
+
+**Y esto es lo que hace que todo lo de arriba no sea una biblioteca: alguien puede usar un ente sin leerlo.**
+
+| Qué | Qué es | Dónde |
+|---|---|---|
+| **la base** | **los dos primitivos: por qué hay dos y no tres** | [`../primitivos/`](../primitivos/README.vd) |
+| **la plantilla** | **un ente en blanco, con el guantelete puesto, que se pega en la raíz de cualquier proyecto** | [`../entiendo/`](../entiendo/README.vd) |
+
+**La regla que las ordena:** **la base se cita; la plantilla se copia.** **Un proyecto ajeno no hereda este estándar: hereda un ente lleno que lo obedece.**
+
+---
+
 ## Cómo se entra
 
 ```plaintext

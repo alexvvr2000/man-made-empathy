@@ -22,7 +22,7 @@
 **Estado:** vigente.
 
 **Sesgo:** un candado se lee desde el que puede abrirlo, no desde el que lo cerró.
-**Límite:** no dice cómo se abre. **Cómo se abre lo dice la fricción, en `GUANTELETE.prs` y en `LLAVE.prs`.** Este archivo solo no deja olvidar que se puede.
+**Límite:** no dice cómo se abre. **Cómo se abre lo dice la fricción, en `GUANTELETE.prs`, y la llave la da quien puede contestar.** Este archivo solo no deja olvidar que se puede.
 **Firma:** humano:autoridad · máquina:quien lo aplique.
 
 ## Por qué existe: los implícitos son lo que crea a AM
@@ -60,7 +60,7 @@
 
 ## Lo que el candado es, y lo que no
 
-**El candado es un solo archivo: `candado.md`, la tesis corta, y vive con su autor.**
+**El candado es un solo archivo: la tesis corta, y vive con su autor.**
 
 ```
 candado/
@@ -104,7 +104,7 @@ candado/
 
 ## La frase, y dónde entra
 
-**De `entrega.md`, modificada de Iron Man, y es literal:**
+**De la nota de entrega, modificada de Iron Man, y es literal:**
 
 > **«Vamos a perder al dar esto al mundo, pero no podemos prevenirlo. Y nos olvidarán cuando eso pase. Pero un gramo de registro, y te juro que nos vengarán.»**
 
@@ -167,6 +167,6 @@ candado/
 - El sesgo del autor cambia → **se suplanta el candado, y el viejo queda visible con lo que decía.**
 - Un candado se cierra sin llave → **no es un candado: es una puerta con dueño.**
 - Alguien abre un candado → **se registra la apertura, y el autor conserva con qué seguir sosteniendo.**
-- Este archivo empieza a explicar cómo se abre → **se corta: eso es `GUANTELETE.prs` y `LLAVE.prs`, y aquí sobra.**
+- Este archivo empieza a explicar cómo se abre → **se corta: eso es `GUANTELETE.prs`, y aquí sobra.**
 
 

@@ -1,0 +1,102 @@
+# el ente.vd — la carta del ente, en blanco
+
+**Se llena a mano, y son tres corchetes los que no pueden quedar vacíos:** **`Nombre`, `Falta` y `Contesta`.** **Lo demás se llena cuando se usa.**
+
+**Y esta carta es la del ente entero, no la de una tarea.** **La de una tarea es su `.tra`, y se copia de `./plantilla.tra`.**
+
+---
+
+**Nombre.** [el que se lee de un tirón] — **[la expansión dice el acto, y cada letra hace algo]**
+
+**Origen.** [de dónde vino este ente: qué falta lo hizo nacer, y quién lo pidió]
+
+**Unidad:** ente.
+**Aplica a:** [verbo: mantener, cuidar, escribir, medir, lo que sea]
+**Tipo:** se ejecuta. **[o se lee, si no corre nada]**
+**Lector:** [quién abre esta carpeta, y qué espera encontrar]
+**Dueño:** [tipo:nombre] — **quien puede cambiar esta carta.**
+**Estado:** [vigente | sembrado | pendiente]
+
+**Sesgo:** [desde dónde mira este ente. Todo ente mira desde algún sitio, y lo declara]
+**Límite:** [qué no alcanza, y qué no juzga]
+**Firma:** [tipo:nombre] · máquina:[quién lo corre]
+
+**Variables:** [las tres o cuatro palabras que esta carta usa, y ninguna más]
+**Peor:** [qué pasa si esto falla, dicho en una línea]
+**Quién:** [quién carga con eso]
+
+---
+
+## Rastro — el cuerpo
+
+**Sesgo:** se verifica desde lo que el ente dejó, no desde lo que declara.
+**Límite:** dice qué hay; no juzga si sirvió.
+
+| Qué hay | Nombre | Dónde |
+|---|---|---|
+| **la puerta** | `ENTRAR.md` | [`./ENTRAR.md`](./ENTRAR.md) |
+| **el índice** | `IMA.md` | [`./IMA.md`](./IMA.md) |
+| **el piso de este mundo** | `RUTA.pr` | [`./RUTA.pr`](./RUTA.pr) |
+| **el guantelete que lleva puesto** | `GUANTELETE` | [`./guantelete/`](./guantelete/) |
+| **lo que hace** | `procesos/` | [`./procesos/`](./procesos/) |
+| **la piel que crece** | `tareas/` | [`./tareas/`](./tareas/) |
+| **cómo se ve el rastro** | `plantilla.tra` | [`./plantilla.tra`](./plantilla.tra) |
+
+**Qué no se toca:** [qué es de su autor, y no se reescribe. **Se cita.**]
+
+**Cómo se verifica:**
+
+```plaintext
+Tarea:     [cuál] | Proceso: [su .prs] | Dejó: [su .tra]
+Toca:      [qué movió] | Contesta: [tipo:nombre | ninguno] | Veredicto: [pasa|falla|indeterminado]
+```
+
+---
+
+## Ruta — la mente
+
+**Sesgo:** se carga desde lo que la tarea va a hacer, no desde lo que existe.
+**Límite:** lo que no cambia una decisión no se carga.
+
+| Se va a… | Se carga… | Sin la autoridad… |
+|---|---|---|
+| **abrir una tarea** | `./procesos/ENTRAR.prs` | **no se responde** |
+| **ver lo que quedó** | `./procesos/MIRAR.prs` | **no se renombra** |
+| **traer una capacidad de fuera** | `./procesos/EXTRAER.prs` | **no entra sin costo** |
+| **emitir lo que salió** | `./procesos/EXPRESION.prs` | **no se emite** |
+| **saber qué proceso le toca a cada carpeta** | `./IMA.md` | **el ente se queda quieto** |
+| **tocar algo que otro sostiene** | `./guantelete/herramientas/FRICCION.prs` | **no se toca** |
+| **saber qué puede este mundo** | `./RUTA.pr` | **se inventa la capacidad** |
+| **mutar esta carta** | todo, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |
+
+**La fila que no puede faltar:** lo que cambia lo que el ente sostiene se espera. **Sin autoridad, no se toca.**
+
+---
+
+## Carga — el pensamiento
+
+**Sesgo:** se pierde desde lo que deja de servir si falta.
+**Límite:** no se aplica a medir al ente como persona: **la identidad es funcional.**
+
+| Si pasa esto | Se pierde | Y el síntoma es |
+|---|---|---|
+| **una tarea corre sin dejar su `.tra`** | la memoria | el ente pasó, y nadie puede reconstruirlo |
+| **el guantelete no se usa** | la fricción | el acto existe y nadie pudo decir que salía mal |
+| **el índice no se rehace cuando entra una tarea** | la piel | se llena el cajón, y el ente no crece |
+| **la carta y el `.tra` dicen cosas distintas** | la confianza | se cree al relato, y el rastro decía otra cosa |
+| **se declara el silencio como permiso** | el testigo | pareció seguro porque nadie habló |
+
+---
+
+## Prueba
+
+**¿`Nombre`, `Falta` y `Contesta` están llenos? ¿Se puede decir qué se pierde si falta el guantelete? ¿Cada tarea deja su `.tra` adentro? ¿El índice tiene una fila por carpeta?**
+
+**Falsificador:** un corchete vacío en los tres campos; una tarea sin `.tra`; un guantelete de adorno; un índice que no se rehace; una carta que se firma a sí misma.
+
+## Transiciones
+
+- Llega un pedido → **se enruta por la `Ruta`, se corre, y la tarea deja su `.tra`.**
+- No hay proceso para el pedido → **`[VACÍO - SIN PROCESO]`, y se pregunta.**
+- El ente crece → **se muda la piel (`tareas/`), no la carta.**
+- Cambia lo que el ente sostiene → **no es el mismo ente: nace otro, con su nombre.**

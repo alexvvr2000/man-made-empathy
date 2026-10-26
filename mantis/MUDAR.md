@@ -22,7 +22,7 @@
 
 ## La regla que se aplica aquí
 
-**Rige [`../sincronización de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizaci%C3%B3n%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd).**
+**Rige [`../sincronización de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronización de almas/primitivos/alma%20en%20blanco/MUDAR.vd).**
 
 **Y el borde, que es el mismo:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **`Criterio: igual` en las cuatro, o no son mudas.**
 
