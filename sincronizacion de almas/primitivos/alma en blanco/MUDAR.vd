@@ -61,6 +61,14 @@ integridad/   el criterio: si el 1 sigue siendo el 1, y quién lo contesta
 
 **Una muda que deja piezas sueltas no es muda: es un cajón que se llenó.**
 
+## La tarea declara el corte; el mundo pone con qué
+
+**Una tarea no lleva código.** **Declara qué entra y qué sale, y se muda así, entera, a cualquier mundo.**
+
+**El mundo pone la implementación, y la pone cada vez.** **Si no puede, lo declara `[FALTA EN bin/]`, y no improvisa.**
+
+**Y la implementación no viaja con la tarea.** **Una implementación gastada no se migra: se compone de nuevo, en el mundo nuevo.** **Porque el mismo corte se cumple distinto en una PC y en un brazo, y ninguno de los dos es el correcto: cada uno es su mundo.**
+
 ## El borde: mudar o nacer
 
 **Y aquí está la línea que impide que crecer se vuelva otra cosa.**

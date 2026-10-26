@@ -1,31 +1,32 @@
-# bin — lo que este mundo ya tiene para correr un .prs
+# bin — lo que la IA ya escribió para este mundo
 
-**Nombre.** BIN. **Y el nombre dice el acto:** **lo que hay en esta máquina para correr un proceso.** **No es el estándar: es lo concreto.**
+**Nombre.** BIN. **Y el nombre dice el acto:** **lo que corre un `.prs` aquí, escrito por quien lee el mundo.** **No es el estándar: es este mundo cumpliendo un corte.**
 
-**Origen.** **De la corrección de la autoridad: *criterio aplica a todo; si tienes descargas, ¿no las aprovecharías?*** **Este mundo ya tiene con qué correr un `.prs`. Usarlo es lo que un criterio hace; declararlo es lo que lo vuelve contestable.**
+**Origen.** **De la corrección de la autoridad: la tarea declara el corte, y el mundo pone con qué.** **Y de la regla que lo vuelve posible: nadie programa a mano; el sistema lee el mundo y escribe lo que el corte pide.**
 
 **Unidad:** ente.
-**Aplica a:** correr.
-**Tipo:** se ejecuta. **Es lo que el `RUTA.pr` de este mundo declara que existe.**
+**Aplica a:** cumplir.
+**Tipo:** se ejecuta. **Es donde la IA escribe la implementación de cada corte, en el mundo que la pide.**
 **Lector:** quien va a correr una tarea.
 **Dueño:** humano:autoridad.
 **Estado:** vigente.
 
-**Sesgo:** lo que corre se lee desde lo que el mundo ya tiene, no desde lo que el estándar preferiría.
-**Límite:** **no es estándar.** **Si este mundo desaparece, `bin/` se va con él, y el ente no pierde nada: lee el `bin/` del mundo nuevo.**
-**Firma:** humano:autoridad · máquina:quien lo corra.
+**Sesgo:** lo que corre se lee desde el corte que cumple, no desde el lenguaje en que está escrito.
+**Límite:** **no es estándar, y no viaja con el alma.** **Si el mundo cambia, se vuelve a escribir: una implementación gastada no se migra, se compone.**
+**Firma:** humano:autoridad · máquina:quien la escriba.
 
-**Variables:** ejecutor · corte · tarea · mundo
-**Peor:** el ente lleva su propio ejecutor, **y al mudarse de mundo se lleva algo que el mundo nuevo no necesita y que puede no correr.**
-**Quién:** quien intente correr el ente en un mundo donde ese ejecutor no existe.
+**Variables:** corte · implementación · mundo · rastro
+**Peor:** la implementación viaja con la tarea, **y la tarea deja de ser portable: se lleva un mundo pegado.**
+**Quién:** quien intente correr esa tarea en otro mundo.
 
 ## Rastro — el cuerpo
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **lo que corre** | `ejecutar.py` — la implementación de este mundo | [`./ejecutar.py`](./ejecutar.py) |
-| **la regla** | `EJECUTOR` — qué es, y que el mundo lo declara | `../../../sincronizacion de almas/faro 1.0/lenguajes/formacion/EJECUTOR.md` |
-| **el mundo que lo declara** | `RUTA.pr` | [`../RUTA.pr`](../RUTA.pr) |
+| **el que corre** | `ejecutar.py` — lee el corte, y busca con qué cumplirlo | [`./ejecutar.py`](./ejecutar.py) |
+| **lo que ya cumplió** | `cero` · `candados` · `tesis` · `memoria` · `estandar` · `integridad` · `tareas` | `./*.py` |
+| **la regla** | `EJECUTOR` | `../../../sincronizacion de almas/faro 1.0/lenguajes/formacion/EJECUTOR.md` |
+| **el mundo que las pidió** | `RUTA.pr` | [`../RUTA.pr`](../RUTA.pr) |
 
 ## Ruta — la mente
 
@@ -33,18 +34,18 @@
 |---|---|---|
 | **correr una tarea** | `./ejecutar.py <tarea>` | **no se ejecuta** |
 | **ver cuáles cumplen** | `./ejecutar.py --verificar` | **no se declara que cumple** |
-| **saber con qué corre este mundo** | `../RUTA.pr`, clave `aqui_hoy` | **se corre con lo que no hay** |
+| **escribir una implementación que falta** | `../RUTA.pr` y el corte de la tarea | **no se escribe: se declara `[SIN IMPLEMENTACION]`** |
 
 ## Carga — el pensamiento
 
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
-| **el ente copia su ejecutor** | la transportabilidad | al mudarse de mundo no corre |
-| **el mundo no declara con qué corre** | la trazabilidad | se corre algo y nadie sabe con qué |
-| **el ejecutor sabe qué hacen los procesos** | la contestabilidad | hay que preguntarle a él qué quiso decir |
+| **la tarea trae su código** | la portabilidad | se lleva un mundo pegado |
+| **el mundo no declara con qué cumple** | la trazabilidad | se corre y nadie sabe con qué |
+| **una implementación se migra en vez de componerse** | la piel | se arrastra lo que ya no sirve para este mundo |
 
 ## Prueba
 
-**¿El mundo declara su ejecutor en `RUTA.pr`? ¿El ejecutor corre un proceso sin saber qué hace? ¿Deja la `.tra`? ¿El ente lo cita en vez de copiarlo?**
+**¿La tarea declara solo su corte? ¿La implementación vive en `bin/`, del mundo? ¿Si falta, se declara `[FALTA EN bin/]`? ¿Una tarea corre en otro mundo sin cambiar una letra?**
 
-**Falsificador:** un ente con su ejecutor copiado; un mundo que corre `.prs` sin declararlo; un ejecutor que conoce el nombre de sus procesos; una corrida sin `.tra`.
+**Falsificador:** una tarea con su propio `.py`; una implementación migrada en vez de compuesta; un `[FALTA EN bin/]` resuelto copiando de otro mundo; una corrida sin `.tra`.

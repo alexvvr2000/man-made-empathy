@@ -10,7 +10,7 @@ import os
 import sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-MANTIS = os.path.abspath(os.path.join(AQUI, "..", ".."))
+MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
 ESTANDAR = os.path.join(REPO, "sincronizacion de almas", "faro 1.0", "lenguajes")
 BASE = os.path.join(REPO, "sincronizacion de almas", "primitivos")

@@ -8,26 +8,25 @@
 
 ## Qué pasó
 
-**Qué pasó:** el ejecutor salió de la raíz y entró a `bin/`, con su regla en el estándar
-(`EJECUTOR`) y su declaración en `RUTA.pr`. Y el `RUTA` se partió en dos: `.rt` la regla, `.pr` este mundo.
+**Qué pasó:** la implementación salió de las tareas y entró a `bin/`. Una tarea es ahora su `.prs`
+y su `.tra`, y nada más. Si este mundo no tiene con qué cumplir el corte, lo declara.
 
-**Contra:** el `RUTA.po` decía `python`, y el estándar dice que no nombra lenguaje. Un mundo que
-declara su lenguaje como exigencia se limita a sí mismo.
+**Contra:** cada tarea traía su `.py`, y la tarea dejaba de ser portable: se llevaba un mundo pegado.
 
-**Huella:** este archivo, y `RUTA.pr`
+**Huella:** este archivo, y `bin/`
 
-**Distancia:** de un ejecutor en la raíz sin regla a uno en `bin/`, declarado por el mundo
+**Distancia:** de siete scripts dentro de las tareas a siete implementaciones en el mundo
 
 ## Las seis partes del pase
 
-**Sostuvo:** los siete folders corren con `bin/ejecutar.py`, y la tarea del estándar dice `[DESFASADO]` cuando cambia
+**Sostuvo:** los siete folders corren, y las tareas ya no llevan código
 
-**Se rompió:** el `RUTA.po` de los dos lados. Ahora hay `.rt` (la regla) y `.pr` (este mundo)
+**Se rompió:** nada. Se probó quitando `candados.py` de `bin/`: la tarea lo declaró, y volvió a correr cuando regresó
 
-**Abierto:** los 51 falsificadores escritos sin abrir. Y `bin/` sigue siendo python, porque es lo que hay
+**Abierto:** los 51 falsificadores escritos sin abrir
 
-**Retoma:** abrir uno de los cincuenta y uno, y ver si aguanta
+**Retoma:** abrir uno de los cincuenta y uno
 
-**No retoma:** otra implementación de `bin/`. Si este mundo tuviera otra cosa que corra `.prs`, entra en `aqui_hoy`
+**No retoma:** otra implementación. Si este mundo tuviera otra cosa que cumpla el corte, entra en `bin/` con su criterio
 
 **Cómo:** `python mantis/bin/ejecutar.py el estándar` primero; después cualquier otra tarea

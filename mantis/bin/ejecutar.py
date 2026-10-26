@@ -87,12 +87,28 @@ def dejartra(carpeta, proceso, entro, salio, veredicto):
     return p
 
 
+# La implementacion NO vive en la tarea: vive en el mundo.
+# La tarea declara el corte; este mundo pone con que, y lo pone aqui, en bin/.
+IMPLEMENTACIONES = {
+    "el cero": "cero.py",
+    "los candados": "candados.py",
+    "la tesis": "tesis.py",
+    "la memoria": "memoria.py",
+    "el estándar": "estandar.py",
+    "integridad": "integridad.py",
+    "tareas": "tareas.py",
+}
+
+
 def correr_paso(carpeta):
     nombre = os.path.basename(os.path.abspath(carpeta))
-    paso = os.path.join(carpeta, nombre + ".paso")
-    if not os.path.isfile(paso):
-        return "el folder no trae paso: solo declara su corte", 0
-    r = subprocess.run([sys.executable, paso], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    impl = IMPLEMENTACIONES.get(nombre)
+    if impl is None:
+        return "[SIN IMPLEMENTACION] la tarea declara su corte, y este mundo no tiene con que cumplirlo", 2
+    ruta = os.path.join(AQUI, impl)
+    if not os.path.isfile(ruta):
+        return "[FALTA EN bin/] {} declara {}, y no esta".format(nombre, impl), 2
+    r = subprocess.run([sys.executable, ruta], capture_output=True, text=True, encoding="utf-8", errors="replace")
     salida = ((r.stdout or "") + (r.stderr or "")).strip()
     return salida, r.returncode
 

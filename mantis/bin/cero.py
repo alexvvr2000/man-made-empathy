@@ -10,10 +10,10 @@ import re
 import sys
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-MANTIS = os.path.abspath(os.path.join(AQUI, "..", ".."))
+MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
 CERO = os.path.join(REPO, "Tesis", "candados", "autor", "000 el cero", "000 la tesis.md")
-LISTA = os.path.join(AQUI, "nombres.md")
+LISTA = os.path.join(MANTIS, "tareas", "el cero", "nombres.md")
 
 
 def leer(p):

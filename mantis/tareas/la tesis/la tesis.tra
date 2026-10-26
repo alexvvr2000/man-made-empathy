@@ -2,7 +2,7 @@
 
 **Nombre:** la tesis
 **Expande:** academia.prs
-**Se nombró:** 2026-10-26T07:21:19+00:00
+**Se nombró:** 2026-10-26T07:33:33+00:00
 **Reemplaza:** NINGUNO
 **Miente si:** se dice que corrió y no hay recibo
 
@@ -11,10 +11,10 @@
 **Qué pasó:** una tesis ya argumentada, y sus fuentes con enlace.
 **Contra:** [ok] la tesis se compone on demand: no corre sola
 
-  teorica.prs    declarada  exige: aunque X, sostiene Y, porque Z — y un contraargumento nombrado
-  academia.prs   declarada  exige: estilo declarado, IA declarada, conflicto declarado, referencias abribles
-  practica.prs   declarada  exige: archivo de la corrida, numeros con fuente, procedimiento repetible
+  teorica.prs    AUSENTE  exige: aunque X, sostiene Y, porque Z — y un contraargumento nombrado
+  academia.prs   AUSENTE  exige: estilo declarado, IA declarada, conflicto declarado, referencias abribles
+  practica.prs   AUSENTE  exige: archivo de la corrida, numeros con fuente, procedimiento repetible
 
-[ok] 95 candados disponibles para soste
+[ok] 95 candados disponibles para sostener la
 **Huella:** esta .tra
 **Distancia:** codigo 0
