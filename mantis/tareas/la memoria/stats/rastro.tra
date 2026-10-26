@@ -1,0 +1,26 @@
+# stats.tra — lo que pasó
+
+**Nombre:** stats
+**Expande:** stats.tra
+**Se nombró:** 2026-10-26T23:13:57+00:00
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que corrió y no hay recibo
+
+## Qué pasó
+
+**Qué pasó:** el registro crudo de la sesión —`.dsh/sessions/*/session.v4.jsonl.zstd`—. **No llega nada de fuera, y no toca la conversación: es solo-lectura.**
+**Contra:** [registro] session-4a569f10-ff41-4e3f-8850-9be62052fafc/session.v4.jsonl.zstd
+[registro] 15725411 comprimidos, 23148 eventos
+[registro] del 2026-10-24 al 2026-10-26
+
+  proveedor        opencode-go
+  modelo           deepseek-v4.1-flash
+  ventana          1000000
+
+  turnos                      546
+  pasos                     3,308
+  mensajes                  3,284
+  herramientas              2,804
+
+**Huella:** esta .tra
+**Distancia:** codigo 0

@@ -113,27 +113,34 @@
 
 **Todo lo de esta tabla se cuenta desde los archivos, y no desde la memoria de quien lo escribe.**
 
-| Medida | Valor |
-|---|---|
-| **días de trabajo** | **26**, del 1 al 26 de octubre de 2026 |
-| **versiones registradas** | **468** |
-| **entradas de memoria** | **279** |
-| **— de ellas, que nacen de una corrección** | **263** |
-| **— — la corrección viene de la autoridad** | **197** |
-| **— — la corrección viene de una contradicción** | **66** |
-| **— con el mundo como fuente de la corrección** | **15** |
-| **registros de turno** | **261** |
-| **notas sostenidas** | **355** |
-| **— con falsificador escrito** | **42** |
-| **— publicadas como no probadas** | **313** |
-| **reglas del autor** | **93** |
-| **trabajo por sesión** | **hasta mil peticiones, 99.3 % correctas** |
-| **costo total del proyecto** | **USD 1.76** |
-| **equipo** | **una consola de mano de 16 GB, llamando a una API remota** |
+**Y todo esto se puede volver a contar.** **`python mantis/bin/ejecutar.py stats` lee el registro crudo de la sesión y escribe `stats de la sesion.json`.** **Lo que sigue sale de ese archivo, y no de la memoria de quien lo escribe.**
+
+| Medida | Valor | De dónde sale |
+|---|---|---|
+| **días de trabajo** | **26**, del 1 al 26 de octubre de 2026 | el registro de versiones |
+| **versiones registradas** | **468** | `git log` |
+| **entradas de memoria** | **279** | `entrada.jsonl` |
+| **— que nacen de una corrección** | **263** | `entrada.jsonl`, campo `contra` |
+| **— — de la autoridad** | **197** | el mismo, campo `firma` |
+| **registros de turno** | **261** | `pase.jsonl` |
+| **notas sostenidas** | **355** | `pieza.jsonl` |
+| **— con falsificador escrito** | **42** | el mismo, campo `falsificador` |
+| **reglas del autor** | **93** | `Tesis/candados/autor/` |
+| **turnos de la sesión** | **546** | **el registro de la sesión**, `turn/start` |
+| **pasos** | **3 307** | `step/start` |
+| **herramientas ejecutadas** | **2 803** | `tool/call` |
+| **reintentos del modelo** | **15** | `llm/retry` |
+| **tokens de entrada** | **9 134 206** | los bloques `usage` |
+| **tokens de salida** | **1 808 570** | los mismos |
+| **tokens leídos del caché** | **1 268 092 160** | los mismos |
+| **total de tokens** | **1 279 034 936** | la suma de los tres |
+| **el caché trabajó** | **138.9 veces la entrada** | la división de las dos de arriba |
+| **equipo** | **una consola de mano de 16 GB, llamando a una API remota** | `pc.md` |
+| **proveedor y modelo** | **`opencode-go` · `deepseek-v4.1-flash` · ventana de 1 000 000** | el registro, `request/context` |
 
 **Y el número que este documento quiere que se lea primero:** **de las 279 entradas, 263 nacen de una corrección, y 197 de esas correcciones son del autor, dichas con su palabra.** **No es un fracaso del método: es el método.** **Un método que no produce correcciones no está midiendo nada.**
 
-**Y el segundo, que es el que la industria no puede publicar:** **el costo total de 26 días de trabajo con corrección permanente: menos de dos dólares, en una consola de mano.**
+**Y el segundo, que es el que la industria no puede publicar:** **1 279 034 936 tokens en una sola sesión, y el 99 % son lecturas de caché.** **1 268 092 160 contra 9 134 206 de entrada real: el caché trabajó 138.9 veces más que la entrada.** **Eso es lo que explica dos dólares en una consola de mano — y es lo que no se cuenta cuando se habla de lo que cuesta la IA.**
 
 ---
 

@@ -114,6 +114,7 @@ IMPLEMENTACIONES = {
     "integridad": "integridad.py",
     "tareas": "tareas.py",
     "privado": "privado.py",
+    "stats": "stats.py",
 }
 
 
