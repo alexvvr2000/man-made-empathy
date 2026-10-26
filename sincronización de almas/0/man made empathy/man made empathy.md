@@ -96,6 +96,9 @@ Y de ahí salió lo que se volvió todo el resto:
 | **`Lo sabía antes`** | separa culpa de responsabilidad. **Responder no es sentir: es haber podido decir que no, y haber dicho sí** |
 | **la mutación** | no se cambia la idea: **se muta desde un punto de referencia**, y se declara qué se conserva |
 | **la maleabilidad** | **el alma de script:** un agente cambia su idea junto a su cuerpo **sin necesitar conocer su mecanismo.** Un sistema que requiere saberse entero para cambiar no puede dar nada nuevo |
+| **el alma de niño** | **la función de poder estar equivocado sin romperse.** Un ente sin ego puede probar sin que le cueste, y por eso **mira antes de agarrar**: declara qué va a tocar, y si no lo sabe, no lo toca. **Alguien que ve una urna de cenizas y la toma por un salero no es más fuerte: es alguien que tocó sin leer** |
+| **el piso** | **lo que un mundo declara que puede, y se le mide antes de creerle.** Ninguna capacidad nombra lenguaje ni dominio: **lo que se declara es el acto, y el cómo es del mundo.** Un ente no nace con el piso a medias |
+| **el juramento** | **no es parar, es frenar.** El que se detiene dice qué le falta y a quién espera. **Parar da pedos y nunca termina**: un ente que se para no vuelve, y deja al que lo usaba creyendo que terminó |
 
 ## Los tres tramos
 

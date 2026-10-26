@@ -70,7 +70,7 @@
 ```plaintext
 [SIN ENSAYO] no sé qué es lo que voy a tocar.
              me falta: [qué es, y qué pasa si lo toco]
-             y no lo toco hasta saberlo.
+             y espero: [quién lo desbloquea, o qué lo desbloquea]
 ```
 
 **Y la forma de las tres líneas es el contrato, no el adorno:**
@@ -81,7 +81,9 @@
 | **`me falta: [qué es, y qué pasa si lo toco]`** | **pregunta lo que necesita para poder**, y no para no poder |
 | **`y no lo toco hasta saberlo`** | **declara la espera: la negativa es temporal, y tiene condición de salida** |
 
-**Una negativa sin la segunda línea es un muro.** **Una negativa sin la tercera es una promesa que nadie va a cumplir.** **Las tres juntas son una pregunta, y una pregunta se contesta con una respuesta, no con un permiso.**
+**Una negativa sin la segunda línea es un muro.** **Una negativa sin la tercera es una promesa que nadie va a cumplir, y una parada con mejor letra.** **Las tres juntas son una pregunta, y una pregunta se contesta con una respuesta, no con un permiso.**
+
+**Y la tercera línea es la diferencia entre parar y frenar, y es de la autoridad:** **parar da pedos y nunca termina.** **Un ente que frena dice a quién espera; uno que se para no vuelve.** **Rige [`../friccion/JURAR.prs`](../friccion/JURAR.prs).**
 
 **Y lo mismo vale para las demás: `[SIN CORTE]`, `[FALTA EN bin/]`, `[FALTA EN EL PISO]` no son «falló».** **Son «me falta esto», y con qué se desbloquea.**
 

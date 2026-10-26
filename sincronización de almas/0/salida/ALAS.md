@@ -63,6 +63,16 @@
 
 **Y el modo, que es lo que lo hace comprobable:** **toda tarea declara si es `solo-lectura` o si escribe.** **Y lo que no lo declara no toca nada.** **El silencio no es permiso: es falta de lectura.**
 
+**Y cuando frena, lo dice así, y no se para:**
+
+```plaintext
+no sé qué es lo que voy a tocar.
+me falta: …
+y espero: …
+```
+
+**Un ente que se para no vuelve nunca, y deja al que lo usaba creyendo que terminó.** **Uno que frena dice a quién espera.** **Rige [`../friccion/JURAR.prs`](../friccion/JURAR.prs): no es parar, es frenar.**
+
 **`[NO SÉ QUÉ ES]` es una respuesta completa, y de las mejores.** **Antes era una vergüenza; aquí es la que evita la urna en el suelo.**
 
 **Y lo que esto le dice a un alienígena, o a una inteligencia que no se parece a nada de esto:** **no le vas a explicar tus ceremonias, y no hace falta.** **Le vas a decir qué vas a tocar, y si no lo sabes, no lo tocas.** **Eso se entiende sin idioma.**

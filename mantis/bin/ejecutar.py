@@ -165,11 +165,20 @@ FALTA_LO_QUE = {
 }
 
 
+ESPERO_QUIEN = {
+    "SIN ENSAYO": "que la tarea lo declare, o que la autoridad diga qué es",
+    "SIN CORTE": "que la tarea se escriba con sus cuatro campos",
+    "FALTA EN bin/": "que el mundo ponga con qué, o que la tarea traiga su paso.*",
+}
+
+
 def preguntar(motivo, que_no_se):
+    """Las tres lineas de JURAR. No es parar: es frenar."""
     return ("[{m}] {q}\n"
             "             me falta: {f}\n"
-            "             y no lo toco hasta saberlo.").format(
-                m=motivo, q=que_no_se, f=FALTA_LO_QUE.get(motivo, "decir qué falta"))
+            "             y espero: {e}").format(
+                m=motivo, q=que_no_se, f=FALTA_LO_QUE.get(motivo, "decir qué falta"),
+                e=ESPERO_QUIEN.get(motivo, "que alguien diga qué falta"))
 
 
 def negarse(carpeta, motivo, porque):

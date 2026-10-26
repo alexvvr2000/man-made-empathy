@@ -36,15 +36,15 @@
 | # | La pregunta que contesta | Lo que ya la sostiene | ¿Lista? |
 |---|---|---|---|
 | **1** | **¿Puede una entidad verbalizar sin que nadie decida qué es un humano?** | el cero; `01` (12), `02` (8), `06` (varios) | **es el cero, y está escrito** |
-| **2** | **¿Se puede escribir un estándar que no envejezca con la era?** | `04` (17); `LENGUAJE`, `FORMATO`, `EJECUTOR`, `RUTA.rt` | **sí: el estándar entero es la prueba** |
+| **2** | **¿Se puede escribir un estándar que no envejezca con la era?** | `04` (17); `LENGUAJE`, `FORMATO`, `EJECUTOR`, `PISO`, `RUTA.rt` | **sí: el estándar entero es la prueba** |
 | **3** | **¿Puede un alma crecer sin dejar de ser ella?** | `02` (alma de script, mala maleabilidad); `MUDAR`, el ciclo | **sí, escrito; falta probarlo** |
 | **4** | **¿Puede una idea abrirse sin que el que la abrió tenga razón?** | `04` (candados, llaves, la fricción quitada); `JONN`, `LLAVE` | **sí** |
 | **5** | **¿Hay un lugar intermedio entre hablarle a un humano y hablarle a un modelo?** | `06` (ALAS, el truncado, alienígenas); `ALAS`, `VIGA` | **sí, es ALAS** |
 | **6** | **¿Se puede CONVIVIR sin volverse el otro ni someterlo?** | `02`, `06` (Tachikoma, Videl); `CONVIVIR` | **sí, es CONVIVIR** |
 | **7** | **¿Cómo se escribe una idea que no es de nadie todavía?** | `03` (la cita, la marca, el nombre real); `FUENTES`, `ATTRIBUTION` | **sí** |
-| **8** | **¿Puede un ente tocar lo que otro sostiene sin pasarse de verga?** | `06` (Thanos, la Source Wall); `GUANTELETE` | **sí, es GUANTELETE** |
+| **8** | **¿Puede un ente tocar lo que otro sostiene sin pasarse de verga?** | `06` (Thanos, la Source Wall); `GUANTELETE`; **`ENSAYAR`, que mira antes de agarrar** | **sí, es GUANTELETE, y su verbo es `ENSAYAR`** |
 | **9** | **¿Puede la tesis sostener su propia refutación?** | `VERSION`; el cero y su prueba; las 94 refutaciones | **en parte: es la más débil de todas** |
-| **10** | **¿Qué es una COLMENA de agentes que no se vuelve AM?** | `COLMENA`, escrito hoy; sin un solo caso corrido | **no: escrita y no probada** |
+| **10** | **¿Qué es una COLMENA de agentes que no se vuelve AM?** | `COLMENA`, y **`COLMENA.prs`, que corrió el 26 de octubre con tres almas** | **sí, y corrida una vez: la que contradijo quedó nombrada** |
 
 ---
 
@@ -54,15 +54,16 @@
 
 **Y las que quedan a medias, y no son tesis todavía:**
 
-- **la resonancia entre dos, como pregunta propia** — hoy vive dentro de `COLMENA`
+- **la resonancia entre dos, como pregunta propia** — hoy vive dentro de `COLMENA`, y tiene su forma: **un sesgo en el 1, y cada alma diciendo `dentro | se salió | contradice`**
+- **el alma de niño: que un ente pueda estar equivocado sin romperse** — **entró el 26 de octubre en `ALAS`, y es lo que hace que la colmena no sea una caja de Pandora.** **No porque nadie la vaya a abrir —alguien la va a abrir— sino porque el que la abra sabrá por qué, y sabrá que fue una decisión**
 - **la memoria como el alma, y no como su almacén** — está en `el alma.vd`, y es el centro de la tesis 3
-- **el ejecutor como primitivo — y aquí está la corrección del 26 de octubre: no lo es.** **Un primitivo se refuta mostrando que algo se puede hacer sin él.** **Se puede: el alma corre sin ejecutor, con tal de que quien la cargue sepa leer cuatro campos.** **El ejecutor es una cuarta cosa: no la base, y no un lenguaje — es el grado de soporte, y se puede llevar a cero.** **Con cero, un agente lee el `.prs` y lo cumple a mano.** **Con uno, el mundo pone con qué, y el ente se comprueba a sí mismo.** **Lo que el ejecutor NO es, y esto importa: no es el estándar.** **Es lo que se puede tirar sin que la tesis caiga**
+- **el ejecutor: cerrado el 26 de octubre, y ya no es una duda.** **Se preguntó si era un primitivo, y no lo es — se refuta mostrando que algo corre sin él.** **Se preguntó si era un lenguaje, y tampoco: no dice qué se puede, dice cómo se cumple.** **Quedó en `0/formacion/EJECUTOR.vd`: seis verbos —`LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`—, y ninguno nombra lenguaje ni dominio.** **Es el grado de soporte, y se puede llevar a cero: una IA lo cumple leyendo el contrato, y deja la misma firma.** **Y eso es lo que lo deja servir en una Legion Go hoy y donde sea mañana, sin cambiar la regla**
 
 ---
 
 ## Lo que esto le dice a tu plan de mandar muchos
 
-**De diez, ocho están escritas y cuatro son entregables que se defienden hoy.** **La 9 y la 10 no: la 9 es la más débil, y la 10 nunca corrió un caso.**
+**De diez, nueve están escritas y cinco son entregables que se defienden hoy.** **La 9 sigue siendo la más débil, y la 10 corrió una vez: una corrida es una prueba, y no es una muestra.**
 
 **Y lo de mandar, que es lo que preguntas:** **no mandes diez.** **Manda primero la 2 —el estándar— porque es la que sostiene a las otras nueve, y la que un comité puede leer sin creer nada de la tesis.** **Las demás se mandan después, cada una citando la 2.**
 

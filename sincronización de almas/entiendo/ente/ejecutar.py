@@ -69,12 +69,17 @@ if os.path.isfile(RUTA_PR):
 
 
 def preguntar(motivo, que_no_se, me_falta):
-    """Las tres lineas: lo que no se, lo que falta, y hasta cuando no se toca."""
+    """Las tres lineas de JURAR: lo que no se, lo que falta, y quien lo desbloquea.
+
+    No es parar: es frenar. Un ente que se para nunca vuelve; uno que frena
+    dice que espera, y a quien.
+    """
     return (
         "[{m}] {q}\n"
         "             me falta: {f}\n"
-        "             y no lo toco hasta saberlo."
-    ).format(m=motivo, q=que_no_se, f=me_falta)
+        "             y espero: {e}"
+    ).format(m=motivo, q=que_no_se, f=me_falta,
+             e=ESPERO_QUIEN.get(motivo, "que alguien diga qué falta"))
 
 
 def leer(p):
@@ -297,6 +302,14 @@ def dejartra(carpeta, proceso, entro, salio, veredicto, extra=None):
         fh.write(cuerpo)
     return p
 
+
+ESPERO_QUIEN = {
+    "SIN ENSAYO": "que la tarea lo declare, o que la autoridad diga qué es",
+    "SIN CORTE": "que la tarea se escriba con sus cuatro campos",
+    "FALTA EN bin/": "que el mundo ponga con qué, o que la tarea traiga su paso.*",
+    "FALTA EN EL PISO": "que el mundo declare esa capacidad, y pase su prueba",
+    "IGUAL": "un cambio en el corte, o que se pida --sin-tra a sabiendas",
+}
 
 FALTA_LO_QUE = {
     "SIN ENSAYO": "que la tarea declare su modo: si toca, o si solo lee. Y qué pasa si lo toca.",

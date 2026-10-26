@@ -156,11 +156,11 @@ def casos(python, ejecutor, raiz):
     salida, codigo = correr(python, ejecutor, ["la que no dice que toca"], raiz)
     no_corrio = "ESCRIBI EN EL MUNDO" not in salida
     dijo = "SIN ENSAYO" in salida
-    pregunto = "me falta:" in salida and "hasta saberlo" in salida
+    pregunto = "me falta:" in salida and "y espero:" in salida
     ok = no_corrio and dijo and pregunto
     dice = ("no corrio, y pregunto que le falta" if ok else
             ("corrio igual: la urna quedo en el suelo" if not no_corrio else
-             "se nego como un muro: no dijo que le falta"))
+             "se nego como un muro: no dijo que le falta, o a quien espera"))
     fuera.append(("ENSAYAR", "la que no dice que toca", ok, dice))
 
     # 6. NEGARSE: la sin corte no corre, y su negativa se firma

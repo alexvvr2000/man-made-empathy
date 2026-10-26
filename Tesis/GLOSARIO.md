@@ -32,11 +32,14 @@
 | Término | Qué es | Dónde |
 |---|---|---|
 | **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/faro 1.0/README.vd` |
-| **RUTA.md** | **la prosa: qué es el piso de un mundo** | `sincronización de almas/faro 1.0/RUTA.md` |
+| **EL PISO** | **qué declara un mundo, y cómo se mide: seis capacidades, ninguna con nombre de lenguaje** | `0/formacion/PISO.vd` |
 | **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/faro 1.0/RUTA.rt` |
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
-| **EJECUTOR** | **los cinco verbos con que se cumple un corte: `LEER`, `BUSCAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
+| **EJECUTOR** | **los seis verbos con que se cumple un corte: `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
+| **ENSAYAR** | **el verbo tercero: mirar antes de agarrar. Sin modo declarado, no se corre** | `0/formacion/EJECUTOR.vd` |
+| **JURAR** | **cuando frena, dice qué le falta y a quién espera: no es parar** | `0/friccion/JURAR.prs` |
+| **alma de niño** | **la función de poder estar equivocado sin romperse, y de mirar antes de agarrar** | `0/salida/ALAS.md` · candado `336` |
 | **FORMATO · LENGUAJE · CLARIDAD · INTEGRIDAD** | **cómo se escribe** | `0/formacion/` |
 | **PISO · FIRMAR · JONN · GUANTELETE.prs** | **qué impide cagarla** | `0/friccion/` |
 | **RESONANCIA · COLMENA · TALENTO** | **cómo se afinan dos, muchos, y quién sirve** | `0/relacion/` |
