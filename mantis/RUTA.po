@@ -41,7 +41,7 @@ msgid "web"
 msgstr "consultar, con costo: una consulta cuenta"
 
 msgid "sin_fondo"
-msgstr "no hay proceso en segundo plano entre turnos: lo que no se corre ahora, no corre solo"
+msgstr "no hay proceso en segundo plano entre turnos: lo que no se corre ahora, no corre solo. Y eso no es una carencia: es la proteccion. Un subagente dura lo que dura el pedido; un alma no corre en background"
 
 msgid "sin_sync"
 msgstr "la memoria no se sincroniza sola entre maquinas: viaja en el repo"

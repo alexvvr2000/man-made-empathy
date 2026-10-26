@@ -52,6 +52,12 @@ el alma de alguien/
 
 **Y la línea que no se cruza:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **Si el criterio cambia, no es la misma alma, y no hereda el nombre.**
 
+### Un subagente no es un alma
+
+**Un subagente corre mientras dura el pedido, y no deja `.tra` propio: tiene un encargo y una salida.** **Un alma deja `.tra`, y no corre en background.**
+
+**La prueba:** **si el que despachó se va, ¿queda algo corriendo?** **Si sí, hay un alma sin testigo, y no entra.** **Rige `../relacion/RESONANCIA.md`, `La regla del fondo`.**
+
 ### El alma se lee por lo que hizo
 
 **Si su carta dice una cosa y sus `.tra` dicen otra, gana el `.tra`.** **Lo que un alma sostiene no se lee en lo que dice de sí misma: se lee en lo que ejecutó.** **Rige `./INTEGRIDAD.md`, `Acciones sobre palabras`, y `../../../primitivos/alma en blanco/EXPRESION.prs`, `Leer un alma`.**
