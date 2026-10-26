@@ -68,6 +68,15 @@ if os.path.isfile(RUTA_PR):
         pass
 
 
+def preguntar(motivo, que_no_se, me_falta):
+    """Las tres lineas: lo que no se, lo que falta, y hasta cuando no se toca."""
+    return (
+        "[{m}] {q}\n"
+        "             me falta: {f}\n"
+        "             y no lo toco hasta saberlo."
+    ).format(m=motivo, q=que_no_se, f=me_falta)
+
+
 def leer(p):
     with open(p, "r", encoding="utf-8", errors="replace") as fh:
         return fh.read()
@@ -289,11 +298,20 @@ def dejartra(carpeta, proceso, entro, salio, veredicto, extra=None):
     return p
 
 
-def negarse(carpeta, motivo, porque, firma="ejecutor"):
-    """La negativa se firma con su hash, y no deja la tarea como corrida.
+FALTA_LO_QUE = {
+    "SIN ENSAYO": "que la tarea declare su modo: si toca, o si solo lee. Y qué pasa si lo toca.",
+    "SIN CORTE": "los cuatro campos del corte: qué entra, qué la deja mal, qué sale, quién lo usa.",
+    "FALTA EN bin/": "con qué cumplir el corte: un paso.* en la tarea, o lo que el mundo declare.",
+    "FALTA EN EL PISO": "que el mundo declare la capacidad que el corte pide.",
+    "IGUAL": "que el corte cambie, o que se pida --sin-tra a propósito.",
+}
 
-    Es la regla de FIRMAR.prs: una negativa sin hash no se puede contestar,
-    y una negativa que se cuenta como corrida ensucia el recibo de la tarea.
+
+def negarse(carpeta, motivo, porque, firma="ejecutor"):
+    """La negativa no es un freno: es una pregunta.
+
+    Un muro dice no puedes. Esto dice no se que es, y dime que es.
+    Y se firma con su hash, porque una negativa sin firma no se puede contestar.
     """
     nombre = os.path.basename(os.path.abspath(carpeta))
     texto = "{} | {} | {} | {}".format(nombre, motivo, porque,
@@ -304,6 +322,7 @@ def negarse(carpeta, motivo, porque, firma="ejecutor"):
         "tarea": nombre,
         "motivo": motivo,
         "porque": porque[:200],
+        "me_falta": FALTA_LO_QUE.get(motivo, "decir qué falta para poder"),
         "firma": firma,
         "hash": hashlib.sha256(texto.encode("utf-8")).hexdigest()[:16],
         "fecha": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -438,7 +457,8 @@ def main(argv):
     carpeta = carpeta_de(nombre)
     ok, msg = verificar(carpeta)
     if not ok:
-        print("[ACTIVIDAD - SIN CORTE] " + msg)
+        print(preguntar("SIN CORTE", "no sé qué la tarea hace: su corte está incompleto.",
+                        FALTA_LO_QUE["SIN CORTE"] + " " + msg))
         if os.path.isdir(carpeta):
             r = negarse(carpeta, "SIN CORTE", msg)
             print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
@@ -458,8 +478,8 @@ def main(argv):
         antes = leer(previa).strip()
     if antes == firma and not sin_tra:
         print("")
-        print("[IGUAL] el corte no cambio desde la ultima corrida ({}): no se corre".format(firma))
-        print("        si ya cambio algo que el corte no ve, se corre con --sin-tra")
+        print(preguntar("IGUAL", "sé qué es, y ya lo hice: el corte no cambió ({}).".format(firma),
+                        FALTA_LO_QUE["IGUAL"]))
         r = negarse(carpeta, "IGUAL", "el corte no cambio: " + firma)
         print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 3
@@ -471,9 +491,8 @@ def main(argv):
     cs = candidatos(carpeta, nombre)
     if not cs:
         print("")
-        print("[FALTA EN bin/] esta tarea declara su corte, y este mundo no tiene con que cumplirlo.")
-        print("                 se busca: paso.<ext> en la tarea, o {} en bin/.".format(nombre))
-        print("                 no se improvisa.")
+        print(preguntar("FALTA EN bin/", "sé qué es, y con qué no.",
+                        FALTA_LO_QUE["FALTA EN bin/"] + " Se buscó: paso.* en la tarea, y {} en bin/.".format(nombre)))
         if not sin_tra:
             dejartra(carpeta, proceso, c["Entra:"], "[FALTA EN bin/]", "codigo 2")
             r = negarse(carpeta, "FALTA EN bin/", "no hay con que: " + nombre)
@@ -485,7 +504,8 @@ def main(argv):
     print("")
     print("[ENSAYAR] modo: {} | {}".format(modo, porque))
     if not pasa:
-        print("[NEGARSE] firmada con el ensayo: la tarea no declara que toca")
+        falta = FALTA_LO_QUE["SIN ENSAYO"]
+        print(preguntar("SIN ENSAYO", "no sé qué es lo que voy a tocar.", falta))
         r = negarse(carpeta, "SIN ENSAYO", porque)
         print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 4

@@ -158,6 +158,20 @@ def correr_paso(carpeta):
     return salida, r.returncode
 
 
+FALTA_LO_QUE = {
+    "SIN ENSAYO": "que la tarea declare su modo: si toca, o si solo lee. Y qué pasa si lo toca.",
+    "SIN CORTE": "los cuatro campos del corte: qué entra, qué la deja mal, qué sale, quién lo usa.",
+    "FALTA EN bin/": "con qué cumplir el corte: un paso.* en la tarea, o lo que el mundo declare.",
+}
+
+
+def preguntar(motivo, que_no_se):
+    return ("[{m}] {q}\n"
+            "             me falta: {f}\n"
+            "             y no lo toco hasta saberlo.").format(
+                m=motivo, q=que_no_se, f=FALTA_LO_QUE.get(motivo, "decir qué falta"))
+
+
 def negarse(carpeta, motivo, porque):
     """La negativa se firma con hash: una negativa sin firma no se puede contestar."""
     import uuid
@@ -166,6 +180,7 @@ def negarse(carpeta, motivo, porque):
     os.makedirs(os.path.dirname(ruta), exist_ok=True)
     registro = imports_hash(texto)
     registro.update({"tarea": os.path.basename(carpeta), "motivo": motivo, "porque": porque[:200],
+                     "me_falta": FALTA_LO_QUE.get(motivo, "decir qué falta para poder"),
                      "firma": "ejecutor", "fecha": datetime.now(timezone.utc).isoformat(timespec="seconds")})
     with open(ruta, "a", encoding="utf-8") as fh:
         fh.write(json.dumps(registro, ensure_ascii=False, sort_keys=True) + "\n")
@@ -243,7 +258,7 @@ def main(argv):
     carpeta = carpeta_de(resto[0])
     ok, msg = verificar(carpeta)
     if not ok:
-        print("[ACTIVIDAD - SIN CORTE] " + msg)
+        print(preguntar("SIN CORTE", "no sé qué la tarea hace: su corte está incompleto. " + msg))
         if os.path.isdir(carpeta):
             r = negarse(carpeta, "SIN CORTE", msg)
             print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
@@ -259,7 +274,7 @@ def main(argv):
     modo = modo_de(c)
     print("")
     if modo == "ninguno":
-        print("[SIN ENSAYO] modo: ninguno | la tarea no dice si toca o si solo lee")
+        print(preguntar("SIN ENSAYO", "no sé qué es lo que voy a tocar."))
         r = negarse(carpeta, "SIN ENSAYO", "la tarea no declara su modo")
         print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         print("[NEGARSE] y no corrio: el silencio no es permiso")

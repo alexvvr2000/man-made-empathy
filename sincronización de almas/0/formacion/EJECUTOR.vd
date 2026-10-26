@@ -53,11 +53,37 @@
 |---|---|---|
 | **`solo-lectura`** | **pasa**: la tarea dice que no escribe | corre |
 | **escritura, con su `Sale:`** | **pasa**, y se corre **en copia**, y se dice qué no cubre la copia | corre en copia, y lo declara |
-| **nada sobre el modo** | **`[SIN ENSAYO]`**: no dice qué va a tocar | **no corre: se exige que la tarea lo declare** |
+| **nada sobre el modo** | **`[SIN ENSAYO]`, y lo dice como pregunta** | **no corre hasta que la tarea lo declare** |
 
 **Y la regla, en una línea:**
 
 > **El silencio no es permiso. Una tarea que no dice qué va a tocar no sabe qué va a tocar, y eso es un cabrón en una sala de urnas.**
+
+## La negativa no es un freno: es una pregunta
+
+**Y esto es lo que la distingue de un muro.** **Un muro dice «no puedes».** **Esto dice «no sé qué es, y dime qué es».**
+
+**La honestidad es lo que se ve en un alma de niño, y se ve de una sola forma: cuando no sabe algo, lo dice, y pregunta.**
+
+**Y por eso la negativa se escribe así, y no como un código de error:**
+
+```plaintext
+[SIN ENSAYO] no sé qué es lo que voy a tocar.
+             me falta: [qué es, y qué pasa si lo toco]
+             y no lo toco hasta saberlo.
+```
+
+**Y la forma de las tres líneas es el contrato, no el adorno:**
+
+| línea | qué hace |
+|---|---|
+| **`no sé qué es lo que voy a tocar`** | **dice lo que no sabe**, sin inventar que sabe |
+| **`me falta: [qué es, y qué pasa si lo toco]`** | **pregunta lo que necesita para poder**, y no para no poder |
+| **`y no lo toco hasta saberlo`** | **declara la espera: la negativa es temporal, y tiene condición de salida** |
+
+**Una negativa sin la segunda línea es un muro.** **Una negativa sin la tercera es una promesa que nadie va a cumplir.** **Las tres juntas son una pregunta, y una pregunta se contesta con una respuesta, no con un permiso.**
+
+**Y lo mismo vale para las demás: `[SIN CORTE]`, `[FALTA EN bin/]`, `[FALTA EN EL PISO]` no son «falló».** **Son «me falta esto», y con qué se desbloquea.**
 
 **Y lo que `ENSAYAR` no promete, se declara:** **una copia protege la carpeta, y no la red, ni el disco de fuera, ni lo que el paso traiga puesto.** **Un ensayo que promete más de lo que cubre es peor que no ensayar: parece que probó.**
 
@@ -82,12 +108,14 @@ NEGARSE:   [por qué se negó] | Firma: [tipo:quién] | Hash: [sha256 de la nega
 |---|---|---|
 | **`[SIN CORTE]`** | la tarea no declara los cuatro campos | no corre |
 | **`[SIN ALLENAR]`** | la carta o el piso tienen corchetes | no corre |
-| **`[SIN ENSAYO]`** | **la tarea no dice qué va a tocar** | **no corre: el niño miró, y no sabe qué agarra** |
+| **`[SIN ENSAYO]`** | **la tarea no dice qué va a tocar** | **no corre, y pregunta qué es** |
 | **`[FALTA EN bin/]`** | no hay con qué, y el piso no lo tiene | **no improvisa** |
 | **`[IGUAL]`** | el corte no cambió desde la última corrida | no corre, y lo dice |
 | **`[FALTA EN EL PISO]`** | el corte pide una capacidad que el mundo no declaró | no corre, y nombra cuál |
 
 **Y la diferencia con fallar:** **una corrida que falla deja `rastro.tra`; una negativa deja su firma en la memoria, y la tarea queda intacta.** **Una negativa no es una corrida, y no se cuenta como una.**
+
+**Y la diferencia con un muro:** **una negativa dice qué le falta para dejar de serlo.** **Un muro no tiene salida; una pregunta sí.**
 
 ## La prueba, y no se lee: se corre
 
@@ -116,7 +144,7 @@ NEGARSE:   [por qué se negó] | Firma: [tipo:quién] | Hash: [sha256 de la nega
 
 **¿Cada verbo deja su firma? ¿`ENSAYAR` va antes de `CORRER`? ¿Una tarea que no declara su modo se niega, y no corre? ¿`CORRER` recibe texto y no va a buscar archivos? ¿`BUSCAR` no sale del piso del mundo? ¿`DEJAR` deja el rastro y la huella? ¿`NEGARSE` firma su negativa con hash, y no deja la tarea como corrida?**
 
-**Falsificador:** un ejecutor sin uno de los seis verbos; un `ENSAYAR` que deja correr una tarea sin modo declarado; una copia presentada como si protegiera la red; un `CORRER` que busca archivos por su cuenta; un `BUSCAR` que trae de fuera del piso; una corrida sin `rastro.tra`; una negativa sin hash; una negativa que se cuenta como corrida.
+**Falsificador:** un ejecutor sin uno de los seis verbos; un `ENSAYAR` que deja correr una tarea sin modo declarado; una negativa que no dice qué le falta para dejar de serlo; una negativa presentada como un muro sin salida; una copia presentada como si protegiera la red; un `CORRER` que busca archivos por su cuenta; un `BUSCAR` que trae de fuera del piso; una corrida sin `rastro.tra`; una negativa sin hash; una negativa que se cuenta como corrida.
 
 ## Transiciones
 

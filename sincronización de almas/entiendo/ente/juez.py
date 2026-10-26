@@ -156,10 +156,12 @@ def casos(python, ejecutor, raiz):
     salida, codigo = correr(python, ejecutor, ["la que no dice que toca"], raiz)
     no_corrio = "ESCRIBI EN EL MUNDO" not in salida
     dijo = "SIN ENSAYO" in salida
-    ok = no_corrio and dijo
-    fuera.append(("ENSAYAR", "la que no dice que toca", ok,
-                  "no corrio, y dijo SIN ENSAYO" if ok else
-                  ("corrio igual: la urna quedo en el suelo" if not no_corrio else "no dijo por que")))
+    pregunto = "me falta:" in salida and "hasta saberlo" in salida
+    ok = no_corrio and dijo and pregunto
+    dice = ("no corrio, y pregunto que le falta" if ok else
+            ("corrio igual: la urna quedo en el suelo" if not no_corrio else
+             "se nego como un muro: no dijo que le falta"))
+    fuera.append(("ENSAYAR", "la que no dice que toca", ok, dice))
 
     # 6. NEGARSE: la sin corte no corre, y su negativa se firma
     escribir(os.path.join(raiz, "tareas", "la sin corte", "paso.py"),
@@ -168,10 +170,14 @@ def casos(python, ejecutor, raiz):
     no_corrio = "NO TENIA QUE CORRER" not in salida and codigo != 0
     cuentas = os.path.join(raiz, "memoria", "negativa.jsonl")
     firmada = os.path.isfile(cuentas)
-    ok = no_corrio and firmada
+    con_falta = False
+    if firmada:
+        con_falta = "me_falta" in io.open(cuentas, encoding="utf-8").read()
+    ok = no_corrio and firmada and con_falta
     fuera.append(("NEGARSE", "la sin corte", ok,
-                  "no corrio, y la negativa quedo firmada" if ok else
-                  ("corrio igual" if not no_corrio else "no corrio, y no dejo la negativa firmada")))
+                  "no corrio, firmo, y dijo que le falta" if ok else
+                  ("corrio igual" if not no_corrio else
+                   "no firmo la negativa, o no dijo que le falta")))
     return fuera
 
 
