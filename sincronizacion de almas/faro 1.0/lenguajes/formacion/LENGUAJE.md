@@ -52,6 +52,10 @@ el alma de alguien/
 
 **Y la línea que no se cruza:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **Si el criterio cambia, no es la misma alma, y no hereda el nombre.**
 
+### Muchos con su guantelete: colmena, no enjambre
+
+**Cuando corren muchos y cada uno tiene su guantelete, lo que se traza no son las almas: es el sesgo del 1.** **Separado es otro: la falta es del conjunto, y la muda es del conjunto.** **Rige `../relacion/COLMENA.md`.**
+
 ### Un subagente no es un alma
 
 **Un subagente corre mientras dura el pedido, y no deja `.tra` propio: tiene un encargo y una salida.** **Un alma deja `.tra`, y no corre en background.**
