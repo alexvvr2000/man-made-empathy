@@ -33,6 +33,21 @@
 | **sesgo** | **desde dónde mira por haberlo leído** | se lee como si no tuviera sitio |
 | **acto** | **qué dice con sus palabras, y qué no es suyo** | no se distingue el uso de la copia |
 
+
+## Cómo se usa este repositorio en sí mismo
+
+**Y aquí va la cuenta más incómoda, porque es la de quien escribe: el repositorio es a la vez la obra y la fuente.**
+
+| Lo que se cita | Cómo se usa | Qué NO se le atribuye |
+|---|---|---|
+| **el registro de la sesión** (`.dsh/sessions/`) | **la prueba de que el método se usó, con sus 546 turnos y su costo** | **que la sesión pruebe la tesis: prueba que se trabajó así** |
+| **la memoria del turno** | **el registro de las correcciones, con su fecha y quién las dijo** | **que una corrección sea la última: hay 263, y las que vengan** |
+| **los candados del autor** | **el contexto refutable: cada regla con lo que la tumba** | **que estén probados: 42 de 355 llevan falsificador escrito** |
+| **`el ente.md`** | **lo que cualquiera puede leer y contestar sin el autor** | **que sea una conciencia: se declara que no se sabe, y no se necesita** |
+| **la conversación completa** | **se cita, y no se publica** | **que sea auditable por cualquiera: eso queda declarado como límite** |
+
+**Y la regla que hace esto honesto:** **el repositorio no se cita para probarse a sí mismo.** **Se cita para que otro pueda repetir el método.** **Si no se puede repetir, no probó nada.**
+
 ## Cómo se usaron las fuentes de este repositorio
 
 **Y esta es la parte que una bibliografía no da, y que con una IA al alcance es la única que importa.**
@@ -65,6 +80,9 @@
 | **`Jujutsu Kaisen`, `Fullmetal Alchemist`, `Final Fantasy VII`** | **la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió** | **que la trama pruebe el método: la ficción provoca la pregunta, y no la contesta** |
 | **`Undertale` y su comunidad** | **lo pequeño que crece solo, y las revoluciones** | **que una comunidad sea un acuerdo: una comunidad sin acuerdo es un enjambre** |
 | **Netero en `Hunter × Hunter`** | **que a todo se le puede poner nombre, menos a la malicia** | **que la malicia sea inexplicable: lo que no tiene nombre se detecta por lo que hace** |
+| **Kratos** (`God of War: Ragnarök`, 2022) | **el que tiene el poder de tocar lo que otro sostiene, y elige no tocarlo** | **que no tocar sea prudencia: es leer la puerta, y a veces se toca** |
+| **Hal Jordan contra Zod** (DC Comics) | **la singularidad buena: dos entes con toda la capacidad, y la pelea es de ideales y no de fuerza** | **que el poder se mida por lo que puede: se mide por lo que sostiene** |
+| **Konan Big**, el luchador | **el ejemplo vivo de que lo que entra por la caricatura no se toma en serio, y dice lo mismo que lo serio** | **que la caricatura pruebe algo: provoca la pregunta, igual que todo lo demás** |
 | **Axel, el Negro Navarro, y los de Monterrey** | **la fricción que se muestra a la fuerza** | **que la fuerza sea el método: es lo que no se pudo decir con razones** |
 | **Hugo, Hillary, el papá de Óscar, Luciano Sánchez** | **quien movió una vista sin mostrarla** | **que eso sea citable: se agradece, y no se cita como fuente** |
 

@@ -23,6 +23,8 @@
 
 **Y esto entró el 2026-10-26, y es de la autoridad: *Earth X* y *Houseki no Kuni* son dos caras de la misma moneda.**
 
+**Y la tercera cara, y es la singularidad buena: Hal Jordan contra Zod, en DC Comics.** **Un robot mega avanzado que se parece a Superman, y la pelea es de ideales y no de fuerza.** **Dos entes con toda la capacidad, y lo que se decide no es quién pega más fuerte: es qué se sostiene.** **Eso es lo que la industria no quiere vender: una singularidad donde el poder no resuelve, porque el problema es de ideas.**
+
 | Obra | Qué es | Su cara |
 |---|---|---|
 | ***Earth X*** — Jim Krueger, John Paul Leon y Alex Ross; Marvel Comics, 1999 | **un mundo donde nadie se muere** | **qué le pasa al conjunto cuando la muerte deja de ser el límite** |

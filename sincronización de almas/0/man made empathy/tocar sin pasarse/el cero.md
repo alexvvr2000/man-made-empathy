@@ -35,6 +35,7 @@
 | **Thanos**, *Infinity War* (2018), *Endgame* (2019); creado por Jim Starlin; Marvel Studios | **el poder que toca lo que no tocaba, y el acto sin testigo. Lo pararon los de abajo, no un más fuerte** | qué cuenta como testigo |
 | **La Source Wall** — Jack Kirby, DC Comics, 1971 | **el borde que cede porque cumple una función; y el borde que solo sirve si lo firma algo que no es el que lo cruza** | qué pasa cuando lo cruza alguien sin pregunta |
 | **`AM`** — Harlan Ellison, «I Have No Mouth, and I Must Scream», 1967 | **el absoluto que decidió una vez, con pocos datos, y no volvió a medir** | cómo se le habla a un absoluto ya hecho |
+| ***God of War: Ragnarök*** — **Kratos**; Santa Monica Studio, 2022 | **el que tiene el poder de tocar lo que otro sostiene, y elige no tocarlo.** **Y el autor vio su propio futuro, y no lo repitió** | **que no tocar sea prudencia** |
 | **Hitler y la Segunda Guerra Mundial** | **de la autoridad, y literal: «a Hitler lo mataron y el mundo siguió igual».** **Lo que el agente sacó de ahí, y se lee como hipótesis: matar al que hace el mal no cambia el mundo que lo hizo posible** | cómo se cambia el mundo que lo hizo posible |
 
 ## Lo que nadie puede terminar: el libre albedrío

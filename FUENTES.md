@@ -88,6 +88,8 @@
 | **Allport**, *The Nature of Prejudice* | Gordon Allport, 1954 | el encuentro que no basta | **713 muestras: el contacto sin condiciones no reduce el prejuicio** |
 | ***The Operator*** | **por confirmar: el autor la cita, y esta tabla no la inventa** | el que opera sin prestigio | **la decisión que se toma mirando la operación, no el nombre** |
 | ***El nombre de la rosa*** y la regla monástica | Umberto Eco, 1980 | la alucinación como reflejo | **el reflejo no es la mentira** |
+| ***God of War: Ragnarök*** — **Kratos** | Santa Monica Studio; Sony Interactive Entertainment, 2022; el personaje es de David Jaffe | tocar sin importar quién eres | **el que tiene el poder de tocar lo que otro sostiene, y elige no tocarlo** |
+| **Hal Jordan contra Zod** (DC Comics) — **la singularidad que la industria no quiere** | DC Comics; Hal Jordan de John Broome y Gil Kane; Zod de Robert Bernstein y George Papp | la pelea que se decide por lo que se sostiene | **un robot mega avanzado que se parece a Superman, y la pelea es de ideales y no de fuerza** |
 | **La esclavitud y su abolición** | hecho histórico, sin autor | el que responde dos siglos tarde | **la pregunta que no se hizo a tiempo** |
 | ***Jujutsu Kaisen*** — **Toji Fushiguro** | Gege Akutami; Shueisha, desde 2018 | la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió | **Toji, y una serie que empieza con niños que aprenden y escala a algo que abarca un país entero.** **«Pasamos de una serie de niños a matar a dios en quince capítulos»** |
 | ***Fullmetal Alchemist*** — **el círculo de transmutación de todo el país** | Hiromu Arakawa; Square Enix, desde 2001 | la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió | **el plan que se construye años antes, con piezas que nadie sabía que eran una sola cosa** |
@@ -120,6 +122,7 @@
 | **El Hijo del Vikingo**, contra el Grande Americano en *Worlds Collide* de 2025 | **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo** |
 | **Luciano Sánchez**, de Stella Tech | **el que me lo mostró a la fuerza** |
 | **mi familia** | **me mantuvo con los pies sobre la tierra** |
+| **Konan Big**, el luchador | **aun con todo lo que hace, sabe todo lo que el mensaje de este repositorio le da a entender a la gente, y la gente no lo toma en serio cuando él es un ejemplo y no un payaso** |
 
 **Y lo que esos cuatro de Monterrey mostraron, con las palabras del autor:** **sometidos, y con miedo.**
 
