@@ -21,7 +21,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** lo que hay en `tareas/`, y el `.indice` de la última vez.
+- **Entra:** lo que hay en `tareas/`, y el `.indice` de la última vez. **Modo: escribe el indice.**
 - **Falla si:** hay una carpeta sin `.prs` que se cuente como tarea; el `.indice` no se actualiza cuando algo entró o salió; una tarea salió sin declararse; se declara `igual` habiendo cambiado.
 - **Sale:** la lista de tareas, y qué entró, qué salió, o `igual` — con el `.indice` escrito al día.
 - **Consume:** quien vaya a correr una tarea, y `MUDAR`, que decide si la nueva cubre una falta.

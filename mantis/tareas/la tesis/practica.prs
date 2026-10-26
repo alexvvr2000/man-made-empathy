@@ -19,7 +19,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** un problema real, y lo que se hizo para resolverlo, con sus archivos.
+- **Entra:** un problema real, y lo que se hizo para resolverlo, con sus archivos. **Modo: escribe.**
 - **Falla si:** no hay archivo de la corrida; los números no tienen fuente; el procedimiento no se puede repetir con lo que dice; no dice qué quedó.
 - **Sale:** la tesis práctica — problema, procedimiento, números, y lo que queda — **o `[SIN PRÁCTICA - NO SE HIZO]`**.
 - **Consume:** quien va a repetirlo, y quien va a decidir con él.

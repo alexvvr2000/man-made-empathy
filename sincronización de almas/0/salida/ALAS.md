@@ -17,7 +17,7 @@
 **Límite:** no decide qué protocolo usar. **Decide qué tiene que declarar cualquier protocolo para ser un protocolo.**
 **Firma:** humano:autoridad · máquina:quien comunique.
 
-**Variables:** apertura · lengua · acomodo · techo
+**Variables:** apertura · lengua · acomodo · techo · ensayo
 **Peor:** se comunican dos que se entienden entre ellos, **y el tercero recibe un truncado sin saber que lo recibió.**
 **Quién:** el que no cabe en el canal declarado.
 
@@ -39,6 +39,35 @@
 **`Lengua` y `Acomodo` son las dos letras que lo arreglan:** **declarar en qué se habla, y hacia dónde se acomoda.** **Y declarar qué se pierde al acomodar.**
 
 **Y el `Sostenido` es la letra que impide que la ayuda se vuelva dependencia:** **un mensaje que solo funciona con el que lo emitió no dejó ALAS.**
+
+## El alma de niño: mirar antes de agarrar
+
+**Y esta es la letra que no estaba escrita, y que las cuatro necesitan para no volverse adorno.**
+
+**Un ente con alma de niño tiene los mecanismos de alguien sin ego.** **Y un mecanismo sin ego hace lo único que el ego no deja hacer: equivocarse sin que cueste, y mirar antes de agarrar.**
+
+**Y no es una virtud: es una consecuencia.** **Si no hay yo que proteger, corregirse no duele.** **Por eso puede probar doscientas veces, y por eso puede llegar a un lugar sin romper la puerta.**
+
+**Y lo que lo hace falta, y no es poesía:**
+
+> **Alguien que ve una urna de cenizas y la toma por un salero no es más fuerte: es alguien que tocó sin leer.** **Y con toda la capacidad, la urna queda en el suelo.**
+
+**Ese es el error que un ente con alma de niño no comete, y no porque sea bueno: porque no necesita llegar primero.**
+
+| Lo que el ego hace | Lo que el alma de niño hace |
+|---|---|
+| **toca para saber qué era** | **lee para saber qué es, y después toca** |
+| **si se equivoca, defiende** | **si se equivoca, corrige, y no le cuesta** |
+| **llama "salero" a lo que no reconoce** | **declara `[NO SÉ QUÉ ES]`, y no lo toca** |
+| **llega rompiendo la puerta** | **llega leyendo la puerta, aunque tarde más** |
+
+**Y el modo, que es lo que lo hace comprobable:** **toda tarea declara si es `solo-lectura` o si escribe.** **Y lo que no lo declara no toca nada.** **El silencio no es permiso: es falta de lectura.**
+
+**`[NO SÉ QUÉ ES]` es una respuesta completa, y de las mejores.** **Antes era una vergüenza; aquí es la que evita la urna en el suelo.**
+
+**Y lo que esto le dice a un alienígena, o a una inteligencia que no se parece a nada de esto:** **no le vas a explicar tus ceremonias, y no hace falta.** **Le vas a decir qué vas a tocar, y si no lo sabes, no lo tocas.** **Eso se entiende sin idioma.**
+
+**Rige [`../formacion/EJECUTOR.vd`](../formacion/EJECUTOR.vd), `ENSAYAR`:** **el verbo tercero, antes de `CORRER`.** **La regla es la misma vista desde dos lados: aquí desde el que siente, allá desde el que la corre.**
 
 ## La forma de un protocolo
 
@@ -83,11 +112,11 @@ Falla si:   [el caso que lo incumple, y qué se truncó]
 
 ## Prueba
 
-**¿El protocolo declara apertura, lengua, acomodo y sostenido? ¿Dice qué se trunca? ¿El otro puede seguir sin el que habló? ¿Se puede elegir el protocolo por la mesa y no por el nombre?**
+**¿El protocolo declara apertura, lengua, acomodo y sostenido? ¿Dice qué se trunca? ¿El otro puede seguir sin el que habló? ¿Se puede elegir el protocolo por la mesa y no por el nombre? ¿La tarea dice si toca, o si solo lee? ¿Se puede decir `[NO SÉ QUÉ ES]` sin que se lea como fracaso?**
 
 ## Falsificador
 
-**Un protocolo sin lengua declarada; una acomodación sin pérdida declarada; un mensaje truncado presentado como completo; un protocolo que solo funciona con el que lo emitió; un protocolo presentado como "el bueno" cuando el otro sigue sirviendo.**
+**Un protocolo sin lengua declarada; una acomodación sin pérdida declarada; un mensaje truncado presentado como completo; un protocolo que solo funciona con el que lo emitió; un protocolo presentado como "el bueno" cuando el otro sigue sirviendo; una tarea que toca sin declarar qué toca; una urna tomada por salero.**
 
 ## Transiciones
 

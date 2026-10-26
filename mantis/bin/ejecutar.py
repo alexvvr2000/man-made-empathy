@@ -117,6 +117,16 @@ IMPLEMENTACIONES = {
 }
 
 
+def modo_de(c):
+    """El modo lo declara la tarea en su Entra:. Si no lo dice, no lo tiene."""
+    entra = (c.get("Entra:") or "").lower()
+    if "solo-lectura" in entra:
+        return "solo-lectura"
+    if any(x in entra for x in ("escrib", "borra", "crea", "mueve", "toca")):
+        return "escritura"
+    return "ninguno"
+
+
 def candidato(carpeta, nombre):
     """Donde esta con que: paso.* en la tarea, o el paso declarado del mundo."""
     import glob
@@ -244,6 +254,17 @@ def main(argv):
     print("[{}] {}".format(os.path.basename(carpeta), proceso))
     for k in CAMPOS:
         print("  {} {}".format(k, c[k]))
+
+    # ENSAYAR: el verbo tercero. El nino mira antes de agarrar.
+    modo = modo_de(c)
+    print("")
+    if modo == "ninguno":
+        print("[SIN ENSAYO] modo: ninguno | la tarea no dice si toca o si solo lee")
+        r = negarse(carpeta, "SIN ENSAYO", "la tarea no declara su modo")
+        print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
+        print("[NEGARSE] y no corrio: el silencio no es permiso")
+        return 4
+    print("[ENSAYAR] modo: {} | pasa".format(modo))
 
     salida, codigo = correr_paso(carpeta)
     print("")

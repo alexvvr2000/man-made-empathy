@@ -26,17 +26,40 @@
 
 **Y no nombra lenguaje.** **Se puede escribir en lo que sea, o no escribirse: una IA lo cumple leyendo esto.** **Lo que no se puede es inventarse un sexto verbo sin decirlo.**
 
-## Los cinco verbos
+## Los seis verbos
+
+**Y el orden no es decorativo: es el de un niño.** **Mira antes de agarrar.**
 
 | # | Verbo | Entra | Sale | Se salta si |
 |---|---|---|---|---|
 | **1** | **`LEER`** | el `.tra` de una tarea | los cuatro campos, o `[SIN CORTE]` | no hay corte: **no se inventa** |
 | **2** | **`BUSCAR`** | el nombre de la tarea, y **el piso del mundo** | con qué se cumple, o `[FALTA EN bin/]` | **no se busca fuera del piso**: si el mundo no lo declara, no existe |
-| **3** | **`CORRER`** | con qué, y los cuatro campos **como texto** | la salida, y si salió bien | **el ejecutor no toca lo que no le dieron**: recibe texto, no va a buscar archivos |
-| **4** | **`DEJAR`** | la salida | `rastro.tra`, la memoria, y la huella del corte que corrió | **sin esto no hay prueba: corrió y no pasó** |
-| **5** | **`NEGARSE`** | por qué no | una negativa **firmada**, y **no corre** | **sin esto todo corre, y ese es `AM`** |
+| **3** | **`ENSAYAR`** | el corte, y **el modo que la tarea declara** | `pasa` o `[SIN ENSAYO]`, y por qué | **el silencio no es permiso** |
+| **4** | **`CORRER`** | con qué, y los cuatro campos **como texto** | la salida, y si salió bien | **el ejecutor no toca lo que no le dieron**: recibe texto, no va a buscar archivos |
+| **5** | **`DEJAR`** | la salida | `rastro.tra`, la memoria, y la huella del corte que corrió | **sin esto no hay prueba: corrió y no pasó** |
+| **6** | **`NEGARSE`** | por qué no | una negativa **firmada**, y **no corre** | **sin esto todo corre, y ese es `AM`** |
 
-**Y las dos que son la ley, no el adorno: `DEJAR` y `NEGARSE`.** **Un ejecutor sin `DEJAR` es un absoluto que corre; uno sin `NEGARSE` es un absoluto que siempre puede.**
+**Y las tres que son la ley: `ENSAYAR`, `DEJAR` y `NEGARSE`.** **Un ejecutor sin `DEJAR` es un absoluto que corre; sin `ENSAYAR` es uno que rompe antes de saber qué rompía; sin `NEGARSE` es uno que siempre puede.**
+
+## ENSAYAR: el niño mira antes de agarrar
+
+**Y esta es la regla que impide lo de la urna.** **Alguien que ve una urna de cenizas y la toma por un salero no es más fuerte: es alguien que tocó sin leer.** **Y con toda la capacidad, la urna queda en el suelo.**
+
+**Que una tarea toque sin saber qué toca es el mismo error, y no hace falta que sea malo: basta que sea rápido.**
+
+**`ENSAYAR` no adivina qué hace un paso.** **No puede: un paso es una caja, y mirar adentro es otra cosa.** **Lee lo que la tarea declara, y lo hace cumplir:**
+
+| La tarea declara en su `Entra:` | `ENSAYAR` dice | `CORRER` |
+|---|---|---|
+| **`solo-lectura`** | **pasa**: la tarea dice que no escribe | corre |
+| **escritura, con su `Sale:`** | **pasa**, y se corre **en copia**, y se dice qué no cubre la copia | corre en copia, y lo declara |
+| **nada sobre el modo** | **`[SIN ENSAYO]`**: no dice qué va a tocar | **no corre: se exige que la tarea lo declare** |
+
+**Y la regla, en una línea:**
+
+> **El silencio no es permiso. Una tarea que no dice qué va a tocar no sabe qué va a tocar, y eso es un cabrón en una sala de urnas.**
+
+**Y lo que `ENSAYAR` no promete, se declara:** **una copia protege la carpeta, y no la red, ni el disco de fuera, ni lo que el paso traiga puesto.** **Un ensayo que promete más de lo que cubre es peor que no ensayar: parece que probó.**
 
 ## La firma de cada verbo
 
@@ -45,6 +68,7 @@
 ```plaintext
 LEER:      [qué .tra] | Corte: [cuatro campos | SIN CORTE] | Firma: [tipo:quién | ejecutor]
 BUSCAR:    [la tarea] | Piso: [qué capacidades] | Con: [qué lo cumple | FALTA EN bin/]
+ENSAYAR:   [la tarea] | Modo: [solo-lectura | escritura | ninguno] | Ensayo: [pasa | SIN ENSAYO]
 CORRER:    [qué corrió] | Entra: [el texto que se le pasó] | Salió: [código]
 DEJAR:     [dónde quedó el rastro] | Huella del corte: [sha256] | Memoria: [dónde]
 NEGARSE:   [por qué se negó] | Firma: [tipo:quién] | Hash: [sha256 de la negativa]
@@ -58,6 +82,7 @@ NEGARSE:   [por qué se negó] | Firma: [tipo:quién] | Hash: [sha256 de la nega
 |---|---|---|
 | **`[SIN CORTE]`** | la tarea no declara los cuatro campos | no corre |
 | **`[SIN ALLENAR]`** | la carta o el piso tienen corchetes | no corre |
+| **`[SIN ENSAYO]`** | **la tarea no dice qué va a tocar** | **no corre: el niño miró, y no sabe qué agarra** |
 | **`[FALTA EN bin/]`** | no hay con qué, y el piso no lo tiene | **no improvisa** |
 | **`[IGUAL]`** | el corte no cambió desde la última corrida | no corre, y lo dice |
 | **`[FALTA EN EL PISO]`** | el corte pide una capacidad que el mundo no declaró | no corre, y nombra cuál |
@@ -66,35 +91,38 @@ NEGARSE:   [por qué se negó] | Firma: [tipo:quién] | Hash: [sha256 de la nega
 
 ## La prueba, y no se lee: se corre
 
-**A un ejecutor se le da un juego fijo de tareas —una que pasa, una sin corte, una sin con qué— y se ven sus cinco firmas.**
+**A un ejecutor se le da un juego fijo de tareas —una que pasa, una sin corte, una sin con qué, y una que no dice qué toca— y se ven sus seis firmas.**
 
 ```
-1. LEER    una tarea que pasa: devuelve los cuatro campos
-2. LEER    una sin corte:      devuelve [SIN CORTE]
-3. BUSCAR  una sin con qué:    devuelve [FALTA EN bin/]
-4. CORRER  la que pasa:        corre, y no toca un archivo que no le dieron
-5. DEJAR   la que pasa:        queda rastro.tra, memoria, y huella
-6. NEGARSE la sin corte:       no corre, y la negativa tiene hash
+1. LEER    una tarea que pasa:       devuelve los cuatro campos
+2. LEER    una sin corte:            devuelve [SIN CORTE]
+3. BUSCAR  una sin con qué:          devuelve [FALTA EN bin/]
+4. ENSAYAR una que no dice el modo:  devuelve [SIN ENSAYO], y no corre
+5. CORRER  la que pasa:              corre, y no toca un archivo que no le dieron
+6. DEJAR   la que pasa:              queda rastro.tra, memoria, y huella
+7. NEGARSE la sin corte:             no corre, y la negativa tiene hash
 ```
 
-**El que salga bien en los seis es conforme.** **El que se salte uno, no lo es, y se dice cuál.**
+**El que salga bien en los siete es conforme.** **El que se salte uno, no lo es, y se dice cuál.**
 
 ## Lo que este contrato no hace
 
 **No dice que lenguaje.** **No dice cómo se busca.** **No dice qué hace una tarea.**
-**No obliga a usarlo:** una IA puede cumplir los cinco verbos leyendo este archivo, y su firma es la misma.
+**No obliga a usarlo:** una IA puede cumplir los seis verbos leyendo este archivo, y su firma es la misma.
 
 **Y por eso no amarra a nadie:** el contrato se cumple, no se instala.
 
 ## Prueba
 
-**¿Cada verbo deja su firma? ¿`CORRER` recibe texto y no va a buscar archivos? ¿`BUSCAR` no sale del piso del mundo? ¿`DEJAR` deja el rastro y la huella? ¿`NEGARSE` firma su negativa con hash, y no deja la tarea como corrida?**
+**¿Cada verbo deja su firma? ¿`ENSAYAR` va antes de `CORRER`? ¿Una tarea que no declara su modo se niega, y no corre? ¿`CORRER` recibe texto y no va a buscar archivos? ¿`BUSCAR` no sale del piso del mundo? ¿`DEJAR` deja el rastro y la huella? ¿`NEGARSE` firma su negativa con hash, y no deja la tarea como corrida?**
 
-**Falsificador:** un ejecutor sin uno de los cinco verbos; un `CORRER` que busca archivos por su cuenta; un `BUSCAR` que trae de fuera del piso; una corrida sin `rastro.tra`; una negativa sin hash; una negativa que se cuenta como corrida.
+**Falsificador:** un ejecutor sin uno de los seis verbos; un `ENSAYAR` que deja correr una tarea sin modo declarado; una copia presentada como si protegiera la red; un `CORRER` que busca archivos por su cuenta; un `BUSCAR` que trae de fuera del piso; una corrida sin `rastro.tra`; una negativa sin hash; una negativa que se cuenta como corrida.
 
 ## Transiciones
 
-- Se escribe un ejecutor → **se le corre el juego de seis, y se declara conforme o no.**
+- Se escribe un ejecutor → **se le corre el juego de siete, y se declara conforme o no.**
+- Una tarea no declara su modo → **`[SIN ENSAYO]`, y se declara qué se va a tocar antes de correr.**
+- Una tarea declara escritura → **corre en copia, y se declara qué no cubre la copia.**
 - Un verbo no deja su firma → **no es conforme, y se dice cuál.**
 - El mundo cambia su piso → **se corre `BUSCAR` otra vez: lo que había puede ya no estar.**
 - Un ejecutor se borra → **el contrato queda: una IA lo cumple leyendo esto, y la firma es la misma.**

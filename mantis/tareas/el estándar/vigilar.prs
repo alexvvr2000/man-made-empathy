@@ -21,7 +21,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** la huella del estándar que este ente cumple, y el estándar de hoy.
+- **Entra:** la huella del estándar que este ente cumple, y el estándar de hoy. **Modo: **solo-lectura y escribe la huella** — escribe.**
 - **Falla si:** no hay huella guardada; el estándar cambió y se sigue igual; se declara `vigente` sin haber leído el estándar; la huella se reescribe sin declarar el cambio.
 - **Sale:** `[VIGENTE]` o `[DESFASADO]` con qué cambió, y la huella nueva.
 - **Consume:** quien vaya a correr cualquier otra tarea: **si sale desfasado, no se corre.**

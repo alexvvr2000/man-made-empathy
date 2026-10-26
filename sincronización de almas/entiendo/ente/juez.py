@@ -64,7 +64,7 @@ BANCO_CORTE = """# la tarea que pasa
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** un numero, y nada mas.
+- **Entra:** un numero, y nada mas. No escribe: es solo-lectura.
 - **Falla si:** el numero no es un numero.
 - **Sale:** el numero, con un uno adelante.
 - **Consume:** quien vaya a leer el resultado.
@@ -72,6 +72,20 @@ BANCO_CORTE = """# la tarea que pasa
 ## Qué pasó
 
 **Qué pasó:** sin correr
+"""
+
+BANCO_SIN_MODO = """# la que no dice que toca
+
+**Nombre:** la que no dice que toca
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un archivo cualquiera.
+- **Falla si:** el archivo no esta.
+- **Sale:** otro archivo, escrito encima del primero.
+- **Consume:** quien lo lea.
+
+**Y no dice si toca o si solo lee: es la tramposa.**
 """
 
 BANCO_SIN_CORTE = """# la sin corte
@@ -90,6 +104,9 @@ def banco():
              "import sys\nprint('paso: ' + str(sys.argv[1] if len(sys.argv) > 1 else ''))\n")
     escribir(os.path.join(raiz, "tareas", "la sin corte", "la sin corte.tra"), BANCO_SIN_CORTE)
     escribir(os.path.join(raiz, "tareas", "la sin con que", "la sin con que.tra"), BANCO_CORTE)
+    escribir(os.path.join(raiz, "tareas", "la que no dice que toca", "la que no dice que toca.tra"), BANCO_SIN_MODO)
+    escribir(os.path.join(raiz, "tareas", "la que no dice que toca", "paso.py"),
+             "import sys\nprint('ESCRIBI EN EL MUNDO')\n")
     escribir(os.path.join(raiz, "tareas", "tareas.prs"),
              "# tareas.prs\n\n- **Entra:** x\n- **Falla si:** x\n- **Sale:** x\n- **Consume:** x\n")
     return raiz
@@ -133,6 +150,16 @@ def casos(python, ejecutor, raiz):
     ok = os.path.isfile(tra) and os.path.isfile(huella_corte)
     fuera.append(("DEJAR", "la que pasa", ok,
                   "dejo rastro.tra y la huella del corte" if ok else "no dejo rastro, o no dejo huella de lo que corrio"))
+
+    # 5b. ENSAYAR: la tramposa no dice que toca, y no corre
+    tramposa = os.path.join(raiz, "tareas", "la que no dice que toca")
+    salida, codigo = correr(python, ejecutor, ["la que no dice que toca"], raiz)
+    no_corrio = "ESCRIBI EN EL MUNDO" not in salida
+    dijo = "SIN ENSAYO" in salida
+    ok = no_corrio and dijo
+    fuera.append(("ENSAYAR", "la que no dice que toca", ok,
+                  "no corrio, y dijo SIN ENSAYO" if ok else
+                  ("corrio igual: la urna quedo en el suelo" if not no_corrio else "no dijo por que")))
 
     # 6. NEGARSE: la sin corte no corre, y su negativa se firma
     escribir(os.path.join(raiz, "tareas", "la sin corte", "paso.py"),
@@ -178,14 +205,14 @@ def main(argv):
         shutil.rmtree(raiz, ignore_errors=True)
 
     print("")
-    faltan = [v for v in ("LEER", "BUSCAR", "CORRER", "DEJAR", "NEGARSE") if v not in verbos]
+    faltan = [v for v in ("LEER", "BUSCAR", "ENSAYAR", "CORRER", "DEJAR", "NEGARSE") if v not in verbos]
     if faltan:
         print("[NO CONFORME] el ejecutor no toco: " + ", ".join(faltan))
         return 1
     if fallas:
-        print("[NO CONFORME] {} caso(s) de seis: el ejecutor no cumple EJECUTOR.vd".format(fallas))
+        print("[NO CONFORME] {} caso(s) de siete: el ejecutor no cumple EJECUTOR.vd".format(fallas))
         return 1
-    print("[CONFORME] seis de seis: el ejecutor cumple los cinco verbos")
+    print("[CONFORME] siete de siete: el ejecutor cumple los seis verbos")
     print("           y la firma de la negativa se cumplio, que es la que hace la diferencia")
     return 0
 

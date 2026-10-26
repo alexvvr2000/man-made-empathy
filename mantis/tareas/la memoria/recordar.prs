@@ -28,7 +28,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** lo que pasó en el turno: qué se decidió, qué se rompió, qué quedó sin cerrar.
+- **Entra:** lo que pasó en el turno: qué se decidió, qué se rompió, qué quedó sin cerrar. **Modo: escribe.**
 - **Falla si:** el turno cierra sin pase; una entrada anterior se edita en vez de suplantarse; `Retoma` dice un tema y no una acción; se guarda lo que no cambia una decisión; falta alguna de las seis partes de la entrada.
 - **Sale:** el pase, con sus seis partes, y la entrada nueva que suplanta a la anterior — **o `[SIN PASE - NO SE CIERRA]`**.
 - **Consume:** el turno siguiente, y quien decida con lo que quedó abierto.

@@ -31,7 +31,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** el candado cero, y `nombres.md` con sus dos listas.
+- **Entra:** el candado cero, y `nombres.md` con sus dos listas. **Modo: **solo-lectura**.**
 - **Falla si:** el cero usa un nombre de `Muertos`; el cero no usa ningún nombre de `Vivos`; `nombres.md` está ausente; un nombre aparece en las dos listas; un nombre de `Vivos` no existe en el repo.
 - **Sale:** el veredicto con los nombres que el cero usa, y lo que no cabe — **o `[SIN CERO]`** si el candado cero no está.
 - **Consume:** quien vaya a renombrar o retirar una pieza, y quien vaya a citar la tesis.

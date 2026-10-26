@@ -10,6 +10,9 @@ A un paso se le pasan tres cosas, y ninguna es de este ejecutor:
     argv[1] el Entra: de la tarea     argv[2] el Sale: de la tarea
     argv[3] la carpeta del ente       (y la variable del archivo, en $ARCHIVO)
 
+ANTES DE CORRER SE ENSAYA, y es el verbo tercero: el nino mira antes de agarrar.
+La tarea declara su modo en el Entra:. Lo que no lo declara, no corre.
+
 Donde busca con que, y en este orden:
   1. paso.<ext>   lo que trae la tarea: la implementacion de la tarea, en lo que sea.
                   .sh, .ps1, .py, .exe, cualquier cosa que el mundo sepa correr.
@@ -170,6 +173,35 @@ def huella_entrada(carpeta):
 
 
 # ------------------------------------------------------------ lo que lo corre
+MODO = "solo-lectura"
+
+
+def modo_de(c):
+    """El modo lo declara la tarea en su Entra:. Si no lo dice, no lo tiene."""
+    entra = (c.get("Entra:") or "").lower()
+    if MODO in entra:
+        return MODO
+    if any(p in entra for p in ("escrib", "borra", "crea", "mueve", "toca")):
+        return "escritura"
+    return "ninguno"
+
+
+def ensayar(carpeta, c):
+    """El nino mira antes de agarrar.
+
+    No adivina que hace un paso: lee lo que la tarea declara, y lo hace cumplir.
+    Una tarea que no dice si toca, no sabe que va a tocar, y eso es un cabron
+    en una sala de urnas.
+    """
+    modo = modo_de(c)
+    if modo == "ninguno":
+        return False, "[SIN ENSAYO]", "la tarea no dice si toca o si solo lee"
+    if modo == MODO:
+        return True, "solo-lectura", "la tarea dice que no escribe"
+    return True, "escritura", ("corre en copia; la copia protege la carpeta, "
+                               "y no la red, ni el disco de fuera")
+
+
 def motor_propio(carpeta):
     """Una tarea puede traer su propio motor: un .py que no es un paso, y que corre la tarea."""
     for f in sorted(os.listdir(carpeta)):
@@ -448,6 +480,16 @@ def main(argv):
             print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 2
 
+    # ENSAYAR: el verbo tercero, y el que impide lo de la urna
+    pasa, modo, porque = ensayar(carpeta, c)
+    print("")
+    print("[ENSAYAR] modo: {} | {}".format(modo, porque))
+    if not pasa:
+        print("[NEGARSE] firmada con el ensayo: la tarea no declara que toca")
+        r = negarse(carpeta, "SIN ENSAYO", porque)
+        print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
+        return 4
+
     ruta = cs[0]
     if motor_propio(carpeta) == ruta:
         # el motor sabe que tarea es: se le pasa su nombre, y nada mas
@@ -473,6 +515,7 @@ def main(argv):
         "decidio": salida.splitlines()[0][:200] if salida else "",
         "salio": codigo,
         "con": os.path.relpath(ruta, ENTE).replace("\\", "/"),
+        "ensayo": modo,
         "sostuvo": (c["Sale:"] or "")[:200],
         "limite": (c["Entra:"] or "")[:200],
     })
