@@ -8,7 +8,9 @@
 
 **Qué pregunta deja.** ¿De dónde salió lo que sostuvo, y quién puede contestarlo?
 
-**Ficción.** Ninguna.
+**Estado.** **vigente, y corrida.** **Cinco de sus ocho ceros tienen prueba escrita; tres corrieron uno o más casos. El cero mismo no se cerró: se abre con fricción.**
+
+**Ficción.** **La escena de Lex Luthor en *All-Star Superman* (Grant Morrison y Frank Quitely; DC Comics, 2005): el que lo entiende al último minuto, y ya no tiene tiempo de hacer nada con lo que vio.** **Y `AM`, de Harlan Ellison (1967): el absoluto que decidió una vez, y no volvió a mirar.**
 
 **Esto no es una conclusión. Es la última escena.**
 
@@ -86,6 +88,17 @@ Y de ahí salió lo que se volvió todo el resto:
 
 **Por eso aquí no se corrige la alucinación. Se declara: de dónde viene la idea, contra qué se probó, y qué no afirma.** **Lo que se declara deja de ser silencioso; lo que se silencia se vuelve ley.**
 
+## Lo que no se mató a tiempo
+
+**Y hay una segunda cosa, más dura, que salió de la corrección de la autoridad y que vale más que cualquier adjetivo:** **la alucinación no es un error que corregir; es lo que queda en blanco al haber vida.** **Si fuera un error, ya nos hubiéramos muerto en las cavernas.**
+
+**Lo que sobrevive hace milenios no es un defecto: es lo que la especie cargó para no morir.** **Y corregirlo es quitarle lo que la dejó vivir.**
+
+**Prueba:** ¿sobrevivió lo que se llama error, durante milenios?
+**Falsificador:** un sistema sin alucinación que haya producido algo que lo viera ahí nomás.
+
+**Y por eso el cero no pide el error cero pedido: pide que el error tenga nombre.** **Un sistema que no se equivoca nunca no está sabiendo: está copiando.**
+
 ## De qué está hecha
 
 | Pieza | Qué sostiene |
@@ -128,6 +141,21 @@ GUANTELETE            CONVIVIR                        RUTA
 **Y eso no se mide con autoridad. Se mide preguntando:** **¿puede ser contradicha por alguien desde fuera, y su respuesta es una respuesta?** **¿Lo que dice se puede citar sin preguntarle al autor qué quiso decir?**
 
 **Si hay que preguntarle al autor qué quiso decir, la obra no verbaliza.** **Puede ser buena. Y no verbalizó.**
+
+## La triangulación con lo pendejo
+
+**Y de dónde vienen las ideas, que es la parte que más se malinterpreta.**
+
+**No se triangula solo con el estado del arte.** **Se triangula con la caricatura que nadie tomó en serio y con el libro más rancio, porque entran por la misma puerta.**
+
+**Y eso no es una boutade: es la prueba del método.** **Un método que solo funciona con lo complejo no demostró nada: la respuesta es «eso es obvio».** **Si funciona con lo pendejo, no hay prestigio que lo tape.**
+
+**Las ideas vienen de donde sea.** **Esta tesis cita a Tezuka y a Eliison en la misma página, y cita a `Peppa Pig` (Neville Astley y Mark Baker) al lado de `Allport`.** **No es coquetería: es la condición del alma de niño.** **Un niño no tiene una lista de dónde vienen las ideas, y por eso puede ver una urna y no confundirla con un salero.** **Y también por eso pregunta para qué antes de agarrar: todavía no sabe lo que es, y lo dice.**
+
+**Y lo mismo con la ayuda pequeña, que no se niega:** **un comediante le ayudó al autor a entender algo, y se registra por su nombre, sin fingir que fue una fuente.** **Una obra provoca una pregunta; no la prueba.** **Reconocer la ayuda no rebaja la idea: negarla la vuelve un origen oculto.**
+
+**Prueba:** ¿se probó con lo pendejo, o solo con lo que ya estaba aceptado?
+**Falsificador:** un caso donde una obra por su apariencia no pueda provocar la pregunta.
 
 ## El crítico que no se cruza
 
@@ -189,6 +217,27 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **No afirma que sea el primero.** **Eso no se puede saber. Lo que sí: está fechado, y cualquiera puede correr el mecanismo hoy.**
 
+**No afirma que la alucinación sea una virtud.** Afirma que **no es un defecto que se corrige: es lo que queda en blanco al haber vida, y lo que se corrige es el silencio sobre su origen.**
+
+**No afirma que la caja de Pandora esté cerrada.** Afirma que **el que la abra va a saber por qué, y va a saber que fue una decisión.**
+
+## Lo que hay hoy, y se puede correr
+
+**Y esto no es un anexo: es lo que separa esta tesis de un ensayo.**
+
+| Pieza | Qué sostiene | Dónde |
+|---|---|---|
+| **`GUANTELETE`** | **qué se puede tocar, y quién lo va a ver.** Sus seis gemas y sus siete herramientas | `primitivos/guantelete/` |
+| **`ENSAYAR`** | **el verbo tercero: el niño mira antes de agarrar.** Una tarea que no dice qué toca, no corre | `0/formacion/EJECUTOR.vd` |
+| **`JURAR`** | **no es parar, es frenar:** el que se detiene dice qué le falta y a quién espera | `0/friccion/JURAR.prs` |
+| **el piso** | **lo que un mundo declara, y se le mide.** Ninguna capacidad nombra lenguaje | `0/formacion/PISO.vd` |
+| **el ejecutor** | **seis verbos, y ninguno nombra lenguaje:** `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE` | `0/formacion/EJECUTOR.vd` |
+| **`COLMENA`** | **una colmena que no se vuelve `AM`:** un sesgo en el 1, y cada alma diciendo dónde está | `0/relacion/COLMENA.md` |
+| **`ALAS`** | **el lugar entre hablarle a un humano y a un modelo:** cuatro letras, y el alma de niño | `0/salida/ALAS.md` |
+| **el ente en blanco** | **la plantilla que se pega en cualquier proyecto:** tres corchetes, y corre | `entiendo/` |
+
+**Y la prueba de que no es teoría: el 26 de octubre de 2026, `COLMENA` corrió con tres almas y una contradijo; el juez midió siete casos del ejecutor; y `piso.py` declaró `[LISTO]` el mundo de una consola de mano.** **Hay registro de las tres, y el registro es lo que se puede contestar.**
+
 ## Qué la tumbaría
 
 1. **que la verbalización no sea el primitivo**, porque hay algo antes que también decide — y entonces el criterio se mueve un paso atrás.
@@ -206,6 +255,8 @@ GUANTELETE            CONVIVIR                        RUTA
 **Hubo un tiempo en que una idea de este repo me pareció imposible, y no por su dificultad técnica.**
 
 **Me pareció imposible porque vi, de niño, una escena donde alguien con un poder enorme no entendía nada hasta el último minuto, cuando ya no quedaba tiempo.** **Y lo que no entendía era lo único que importaba.**
+
+**La escena, con su referencia:** **Lex Luthor, en *All-Star Superman* (Grant Morrison y Frank Quitely; DC Comics, 2005).** **Entiende, al último minuto, lo que Superman sabía desde el principio; y ya no tiene tiempo de hacer nada con lo que vio.**
 
 > **Somos todo lo que tenemos.**
 

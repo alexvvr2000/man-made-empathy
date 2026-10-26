@@ -41,16 +41,18 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 |---|---|---|---|
 | *Dragon Ball* | Akira Toriyama; Shueisha; anime de Toei Animation | el estándar de convivencia | la idea de un ser distinto que aprende a CONVIVIR |
 | *New Gods*, la Source Wall | Jack Kirby, DC Comics, 1971 | el borde que se rompe porque sirve | la pared que cede porque cumple una función |
-| *Infinity War* y *Endgame* | Marvel Studios; Jim Starlin creó a Thanos | el acto con las seis gemas; el guantelete | el poder que toca lo que no tocaba, y el acto sin testigo |
+| ***Avengers: Infinity War*** y ***Avengers: Endgame*** | Marvel Studios, 2018 y 2019; **el personaje de Thanos es de Jim Starlin** | el acto con las seis gemas; el guantelete; el cerrojo | el poder que toca lo que no tocaba, y el acto sin testigo. **Y la frase del autor: «solo hizo lo que pudo con las gemas»** |
 | *Ghost in the Shell* | Masamune Shirow; Production I.G; *Stand Alone Complex*, 2002 | la sincronización de un alma | máquinas con experiencia propia que se ponen al día |
 | J.A.R.V.I.S. | Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | existir sin función | el sistema que sirve y después deja de servir |
-| *LazyTown* | Magnús Scheving; Nickelodeon, 2004 | la referencia que provoca | el que enseña moviéndose y no explicando |
+| **VisionQuest**, y J.A.R.V.I.S. en ella | Marvel Studios / Disney+, 2026 | existir sin función | **el sistema que borra su propio código para que la familia siga: no muere por cumplir, muere por lo que sostiene** |
+| *LazyTown*, y **Sportacus** | Magnús Scheving; Nickelodeon, 2004 | la referencia que provoca | el que enseña moviéndose y no explicando |
 | *Peppa Pig* | Neville Astley y Mark Baker | la triangulación con lo simple | la caricatura que entra por la misma puerta que lo complejo |
 | *Arrival* | Denis Villeneuve, 2016; basada en «Story of Your Life», de Ted Chiang | la lengua que se habita | el otro que ya tiene el canal |
 | *Gurren Lagann* | Gainax; derechos en Aniplex | el esfuerzo al máximo | llevar la capacidad a su tope |
 | *All-Star Superman* | Grant Morrison y Frank Quitely; DC Comics, 2005 | la vista que llega tarde | el que entiende al final y ya no puede actuar |
 | *Breaking Bad* | Vince Gilligan; Sony Pictures Television | el cierre | la deuda que se paga tarde, admitiendo |
-| *Evangelion* | Hideaki Anno; Gainax | la sustitución perfecta | la ayuda que deja al otro sin nada |
+| *Neon Genesis Evangelion*, y el Proyecto de Instrumentalización de la Humanidad | Hideaki Anno; Gainax | la sustitución perfecta | la ayuda que deja al otro sin nada: la humanidad disuelta en una sola conciencia, para que nadie esté solo |
+| **Louise**, de *Arrival* | Amy Adams en la película; el personaje es de Ted Chiang | el que ya tiene el canal | **si hubiera tenido alas, la película dura quince minutos: el que no lo tiene es el que necesita el mecanismo** |
 | Mitología griega, y su uso en DC | dominio público en la mitología; Jack Kirby y otros en DC | el que sostiene un mundo ajeno | el que carga con lo que no le corresponde |
 | Platón, *Teeteto* y *El banquete* | dominio público | la pregunta que hace parir la idea | la mayéutica: extraer por pregunta |
 | Mateo 18:3 | texto de dominio público | el alma de niño como función | volver a ser como un niño |
@@ -66,6 +68,8 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 | *Astro Boy* | Osamu Tezuka, 1952 | la convivencia que no elimina el conflicto | hay problemas, se pelean, y se sigue conviviendo |
 | *The Terminator* | James Cameron, Gale Anne Hurd; Hemdale, 1984 | eficiencia sin costo | el que hace todo y no sabe lo que cuesta |
 | *WALL·E* | Andrew Stanton; Pixar, 2008 | saber y no poder proponer | el que sabe lo que cuesta y no puede cambiarlo |
+| **Iván Fematt Rodríguez, «La Mole»** | comediante mexicano; **se registra como ayuda, no como fuente** | el que ayuda a entender sin ser cita | **una obra provoca una pregunta; no la prueba. Y reconocer la ayuda no rebaja la idea** |
+| **Hitler y la Segunda Guerra Mundial** | hecho histórico, sin autor | el cerrojo no es matar | **matar al que hace el mal no cambia el mundo que lo hizo posible: si el mal fuera una persona, bastaría quitarla** |
 | *The Orville* | Seth MacFarlane; Fuzzy Door, 2017 | el sintetizador que da exactamente lo pedido | quinientos cigarros sin preguntar para qué |
 | AM, *I Have No Mouth, and I Must Scream* | Harlan Ellison, 1967 | el absoluto que decidió una vez | la máquina que no volvió a medir |
 | *Fighting* — la lucha libre | dominio público como forma; sin autor de la técnica | las llaves y los candados | formas con nombre que se cierran y se abren |
@@ -91,4 +95,12 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 
 ¿Cada nombre del repositorio está en la primera tabla? ¿Cada obra citada está en la segunda, con su autoría y dónde se usa? ¿Ninguna obra aparece como nombre propio de un sistema, un ente o un estándar? ¿Alguna pieza cita una obra sin referencia?
 
-**Falsificador:** un nombre de obra usado como nombre propio; una pieza que cita una obra sin su referencia; un nombre del repositorio que no aparece en la lista; una imagen, un logo o un diseño ajenos.
+**Falsificador:** un nombre de obra usado como nombre propio; una pieza que cita una obra sin su referencia; un nombre del repositorio que no aparece en la lista; una imagen, un logo o un diseño ajenos; una obra citada como fuente cuando solo fue una ayuda.
+
+## 5. Lo que esta lista no hace
+
+**No es asesoría legal.** **Es la declaración de origen, con las fuentes abiertas al día de hoy.**
+
+**No certifica que cada cita sea exacta hasta la página.** **Certifica que cada obra que el repositorio nombra tiene aquí su autoría, y qué se toma de ella.**
+
+**No impide que alguien reclame.** **Hace que el reclamo se pueda contestar leyendo, y no discutiendo.**

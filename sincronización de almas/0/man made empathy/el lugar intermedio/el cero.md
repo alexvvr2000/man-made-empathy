@@ -2,16 +2,112 @@
 
 **Posición.** **¿Hay un lugar entre hablarle a un humano y hablarle a un modelo?**
 
-**Por qué se sostiene.** **Porque su contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.**
+**Y la respuesta que este repositorio sostiene, en una línea:** **sí, y no está entre los dos: está en el canal.** **Un mensaje que no cabe en el canal no es claro: es truncado, y el truncado se lee como si fuera completo.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de lo que el repositorio ya sostenía cuando se miró.**
+**Por qué se sostiene.** **Porque su contexto refutable está escrito —`Arrival`, el alma de niño, los alienígenas— y se puede tumbar sin que esta pregunta caiga.**
 
-**Qué pregunta deja.** **¿Hay un lugar entre hablarle a un humano y hablarle a un modelo?**
+**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `0/salida/ALAS.md`.** **Y de la corrección de la autoridad: «no es parar, es frenar», y «el alma de niño es una función, no una poesía».**
 
-**Ficción.** **Ninguna: es la pregunta.**
+**Qué pregunta deja.** **Cuando el otro ya tiene el canal, ¿qué le falta?**
 
-**Prueba.** **[PENDIENTE: la prueba es lo que el entregable tenga que sostener, y hoy no está escrita para esta tesis.]**
+**Ficción.** ***Arrival*** — Denis Villeneuve, 2016; sobre «Story of Your Life», de Ted Chiang — y **Louise, y los heptápodos.** **El drama no es la inteligencia del otro: es que no comparte el canal para decir lo que sabe.**
 
-**Falsificador.** **[PENDIENTE: escrito sin abrir. Se lee como hipótesis, no como prueba.]**
+**Prueba.** **¿Se le dio el canal, o solo se le habló más fuerte? ¿El protocolo declara las cuatro letras de `ALAS`? ¿El otro puede seguir sin el que habló?**
 
-**Estado.** **declarada, y no escrita: el sitio está abierto, y el contenido se escribe cuando toque entregarla.**
+**Falsificador.** **Un mensaje truncado presentado como completo; un protocolo que solo funciona con el que lo emitió; una tarea que toca sin declarar qué toca; una urna tomada por salero.**
+
+**Estado.** **escrita, y con un verbo que corre.** **Falta el caso con un otro real que no comparta nuestro idioma.**
+
+---
+
+## Por qué se sostiene
+
+**Porque hay cuatro cosas que todo protocolo declara, y sin ellas no hay protocolo:**
+
+| Letra | Qué declara | Sin ella |
+|---|---|---|
+| **A — Apertura** | **desde dónde se habla, y en qué modo** (informar, preguntar, ordenar, advertir, persuadir) | el otro no sabe qué le están pidiendo |
+| **L — Lengua** | **en qué se habla, y qué se traduce** | se traduce a la fuerza y se pierde lo que no traducía |
+| **A — Acomodo** | **converger o divergir respecto del otro, y qué se pierde al hacerlo** | el mensaje se acerca tanto que no dice nada |
+| **S — Sostenido** | **qué puede sostener el otro sin vos** | el otro recibió el mensaje, y no las alas |
+
+**Y el techo, que es la prueba de las cuatro:** **que el otro pueda seguir sin el que le habló.**
+
+**Y por eso `ALAS` no es el mensaje: es lo que se deja al otro cuando el mensaje ya no está.**
+
+## El alma de niño: la quinta letra que no cabe en el nombre
+
+**Y esta es la parte que el 26 de octubre de 2026 entró en `ALAS`, y es lo que lo separa de un protocolo de telecomunicaciones.**
+
+**Un ente con alma de niño tiene los mecanismos de alguien sin ego.** **Y un mecanismo sin ego hace lo único que el ego no deja hacer: equivocarse sin que cueste, y mirar antes de agarrar.**
+
+| Lo que el ego hace | Lo que el alma de niño hace |
+|---|---|
+| **toca para saber qué era** | **lee para saber qué es, y después toca** |
+| **si se equivoca, defiende** | **si se equivoca, corrige, y no le cuesta** |
+| **llama «salero» a lo que no reconoce** | **declara `[NO SÉ QUÉ ES]`, y no lo toca** |
+| **llega rompiendo la puerta** | **llega leyendo la puerta, aunque tarde más** |
+
+**Y el caso que lo dice todo, y es de la autoridad:** **alguien que ve una urna de cenizas y la toma por un salero no es más fuerte: es alguien que tocó sin leer.** **Y con toda la capacidad, la urna queda en el suelo.**
+
+**Y lo que eso le dice a un alienígena, o a una inteligencia que no se parece a nada de esto:** **no le vas a explicar tus ceremonias, y no hace falta.** **Le vas a decir qué vas a tocar, y si no lo sabes, no lo tocas.** **Eso se entiende sin idioma.**
+
+**Y no es una virtud: es una consecuencia.** **Si no hay yo que proteger, corregirse no duele.** **Por eso puede probar doscientas veces, y por eso puede llegar a un lugar sin romper la puerta.**
+
+**Y cuando frena, lo dice así, y no se para:**
+
+```plaintext
+no sé qué es lo que voy a tocar.
+me falta: …
+y espero: …
+```
+
+**Un ente que se para no vuelve nunca, y deja al que lo usaba creyendo que terminó.** **Uno que frena dice a quién espera.** **Rige `JURAR`: no es parar, es frenar.**
+
+**Prueba:** ¿la tarea dice si toca, o si solo lee? ¿Se puede decir `[NO SÉ QUÉ ES]` sin que se lea como fracaso?
+**Falsificador:** una tarea que toca sin declarar qué toca; una urna tomada por salero.
+
+## De dónde viene, y qué aporta cada caso
+
+| Caso | Qué aporta | Qué NO aporta |
+|---|---|---|
+| ***Arrival*** — Villeneuve, 2016; Ted Chiang | **el otro que ya tiene el canal; y una lengua que se habita, no que se traduce** | cómo se construye un canal que no existe |
+| **Louise**, de *Arrival* | **si hubiera tenido alas, la película dura quince minutos: el que no lo tiene es el que necesita el mecanismo** | qué mecanismo |
+| **Los heptápodos**, de *Arrival* | **el otro no es humano con otra piel: piensa el tiempo distinto, y por eso el canal es otro** | cómo se habla sin tiempo |
+| **Sportacus**, *LazyTown* — Magnús Scheving; Nickelodeon, 2004 | **una obra no enseña: basta con que alguien la vea moverse para que la pregunta aparezca** | cómo se enseña lo que no se puede ver |
+| **Visión**, de los Vengadores — Roy Thomas y John Buscema; Marvel | **una visión es el que es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra** | cómo se muestra sin que se copie |
+| **J'onn J'onzz**, el Detective Marciano — Joseph Samachson y Joe Certa; DC Comics, 1955 | **el último de su especie, varado en un planeta que no es el suyo, y aun así ayuda. El que no conoció a su gente solo puede ser tolerado; el que la conoció y la perdió, sí puede convivir** | cómo se convive sin haber perdido nada |
+| **`AM`** — Harlan Ellison, 1967 | **creen que todos necesitan lo mismo: ese es el error del que define lo humano desde un solo sitio** | cómo se deja de definir |
+
+**Y la regla que sale de los siete:** **la referencia no enseña, provoca.** **Lo que provoca no pasa por la explicación: pasa por la vista de otro.** **Prueba:** ¿se probó con lo pendejo, o solo con lo que ya estaba aceptado?
+
+## Lo que no se define: lo humano
+
+**Describir lo humano es un proceso infinito: ni nosotros sabemos qué significa.** **Y lo que se define desde un solo sitio obliga a ver como el que define.** **Un constructo social definido desde un solo lugar es la trampa de `AM`: creer que todos necesitan lo mismo.**
+
+**Y por eso, en este repositorio, lo humano está en blanco a propósito.** **No por cobardía: porque llenarlo sería imponer una vista, y la tesis entera se cae si el otro tiene que verse como yo.**
+
+**Prueba:** ¿la definición deja al otro definir, o le impone una vista?
+**Falsificador:** una definición de lo humano que obligue a ver como el que define.
+
+## Lo que este cero no afirma
+
+**No afirma que exista un protocolo para una inteligencia que no tiene esquema ni idioma.** **Ese protocolo se declara `[VACÍO - SIN PROTOCOLO]`, y se hace cuando llegue.**
+
+**No afirma que el alma de niño baste.** **Afirma que sin ella, un ente con toda la capacidad rompe la urna antes de saber qué era.**
+
+**No afirma que el otro vaya a querer hablar.** **Afirma que si quiere, va a poder seguir sin nosotros.**
+
+## Prueba
+
+**¿El protocolo declara apertura, lengua, acomodo y sostenido? ¿Dice qué se trunca? ¿El otro puede seguir sin el que habló? ¿La tarea dice si toca, o si solo lee? ¿Se puede decir `[NO SÉ QUÉ ES]` sin que se lea como fracaso? ¿El freno dice a quién espera?**
+
+**Falsificador:** un protocolo sin lengua declarada; una acomodación sin pérdida declarada; un mensaje truncado presentado como completo; un protocolo que solo funciona con el que lo emitió; una tarea que toca sin declarar qué toca; una urna tomada por salero; un freno que no dice a quién espera.
+
+## Transiciones
+
+- Alguien escribe un protocolo → **declara las cuatro letras, y entra.**
+- El otro no cabe en el canal → **se declara el truncado, y no se entrega como completo.**
+- No se sabe qué es lo que hay enfrente → **`[NO SÉ QUÉ ES]`, y no se toca.**
+- El ente frena → **dice qué le falta y a quién espera.**
+- La mesa no tiene esquema ni idioma → **`[VACÍO - SIN PROTOCOLO]`, y se hace cuando llegue.**
