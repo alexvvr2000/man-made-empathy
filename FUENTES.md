@@ -72,12 +72,43 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 | **Hitler y la Segunda Guerra Mundial** | hecho histórico, sin autor | el cerrojo no es matar | **matar al que hace el mal no cambia el mundo que lo hizo posible: si el mal fuera una persona, bastaría quitarla** |
 | *The Orville* | Seth MacFarlane; Fuzzy Door, 2017 | el sintetizador que da exactamente lo pedido | quinientos cigarros sin preguntar para qué |
 | AM, *I Have No Mouth, and I Must Scream* | Harlan Ellison, 1967 | el absoluto que decidió una vez | la máquina que no volvió a medir |
-| *Fighting* — la lucha libre | dominio público como forma; sin autor de la técnica | las llaves y los candados | formas con nombre que se cierran y se abren |
+| *Fighting* — la lucha libre, y **la enciclopedia de la lucha libre de Andrés Pérez Sustaita**, en *Anecdotario con Latin*, donde trabajaba | **dominio público como forma; la enciclopedia es de su autor, y el programa de Latin Lover** | las llaves y los candados | **formas con nombre que se cierran y se abren.** **Y la inspiración es del autor de este repositorio, que lo oyó en ese programa: el anecdotario donde siempre se menciona** |
 | Malcolm X, *La autobiografía* | Malcolm X y Alex Haley, 1965 | el que se corrige mirando a otros | doce años sin ser contradicho, y una vista nueva |
 | Allport, *The Nature of Prejudice* | Gordon Allport, 1954 | el encuentro que no basta | 713 muestras: el contacto sin condiciones no reduce el prejuicio |
 | *The Operator* | **por confirmar: el autor la cita, y esta tabla no la inventa** | el que opera sin prestigio | la decisión que se toma mirando la operación, no el nombre |
 | *El nombre de la rosa* y la regla monástica — la alucinación como reflejo | Umberto Eco, 1980 | la alucinación como lo que queda en blanco al haber vida | el reflejo no es la mentira |
 | La esclavitud y su abolición | hecho histórico, sin autor | el que responde dos siglos tarde | la pregunta que no se hizo a tiempo |
+| ***Adventure Time*** — **Marceline, la Reina Vampiro** | Pendleton Ward; Cartoon Network, 2010. Miniserie *Stakes*, temporada 7 (2015); *Distant Lands: Obsidian*, 2020 | el equilibrio, y por qué no se para antes de tiempo | **aprendió la lección de no andar parando todo antes de tiempo, y que el equilibrio es un ciclo sin fin. Y lo que la autoridad sacó de ella: «los humanos son tontos porque no viven lo suficiente para ver sus errores»** |
+| ***Adventure Time*** — **Jake el Perro** | Pendleton Ward; Cartoon Network, 2010; voz de John DiMaggio | la concordia | **el ejemplo máximo de concordia: no se vuelve el otro, y no lo somete** |
+| ***Earth X*** | Jim Krueger, John Paul Leon y Alex Ross; Marvel Comics, 1999 | las dos caras de la inmortalidad | **una cara de la misma moneda que *Houseki no Kuni*: qué le pasa a un mundo cuando nadie se muere** |
+| ***Land of the Lustrous*** (*Houseki no Kuni*) | Haruko Ichikawa; Kodansha, 2012 | las dos caras de la inmortalidad | **la otra cara de la misma moneda: qué le pasa a un ser que no puede dejar de ser** |
+| ***Dorohedoro*** | Q Hayashida; Shogakukan, desde 2000 (*Spirits Zōkan Ikki*, después *Monthly Ikki*) | la memoria no necesita ser la misma | **viajes en el tiempo tan locos que a nadie le importa la interioridad ni si es el mismo: siguen y ya** |
+| ***Back to the Future*** (Volver al Futuro) | Robert Zemeckis y Bob Gale; Universal, 1985 | la memoria no necesita ser la misma | **igual que Dorohedoro: el viaje se hace, y nadie pregunta si el que volvió es el mismo** |
+| **Aya** | *Green Lantern: The Animated Series*, DC, 2011-2013; creada por Art Baltazar, Franco Aureliani y Dario Brizuela | el que fue hecho para reemplazar a otros, y aprende a sentir | **una inteligencia artificial creada como alternativa empática a los Manhunters** |
+| ***Fantastic Four: The Animated Series*, «When Calls Galactus»** — temporada 2, episodio 8, 1995; **Ghost Rider** | Marvel; Ghost Rider de Gary Friedrich y Mike Ploog | la mirada que no se explica: se muestra | **Ghost Rider usa el Penance Stare sobre Galactus y lo derrota en minutos.** **No porque lo hizo entender: porque lo hizo ver.** **Y el que no sabía se convirtió en el que decidió** |
+
+
+
+**Nota sobre el Penance Stare, y es de la autoridad.** **Los escritores actuales de Marvel no entienden al personaje y piensan que el Penance Stare es pasar el dolor de uno a otro.** **No es eso: es mostrar.** **Hay gente que no entiende de razones, y se lo tienen que mostrar a la fuerza para pasar de «no sabía» a «decidí».**
+
+**Y el caso que lo prueba es ese episodio de 1995:** **Ghost Rider no le explica nada a Galactus.** **Le muestra lo que hizo, y Galactus decide.**
+
+
+---
+
+## 2.b Los agradecimientos
+
+**Y esto no es una tabla de fuentes: es una deuda, y se paga nombrándola.**
+
+**Del autor, y literal:** **«me enseñaron cosas que no sabía, y movieron mi vista, y no la mostraron.** **Y a todos los que me hicieron un bien y un mal, que nunca lo voy a olvidar.»**
+
+| Quién | Qué enseñó |
+|---|---|
+| **mi prima Hillary** | **me mostró el anime de *Soul Eater* por primera vez.** **La resonancia entre dos que siguen siendo dos viene de ahí** |
+| **el papá de Óscar** | **me enseñó a que no me dejara de nadie** |
+| **mi profesor de primaria, Hugo** | **me hizo leer *Avengers vs. X-Men* cuando yo solo conocía las películas.** **Las escenas sangrientas me impactaron, y no me asustaron: se me hacía raro que nadie los estuviera leyendo, porque el MCU apenas estaba empezando y en los cómics ya mostraban cosas de ese estilo** |
+
+**Y por qué van aquí, y no en una nota al pie:** **una obra provoca una pregunta; no la prueba.** **Y quien te movió la vista sin mostrártela también dejó algo, y eso se nombra.**
 
 ---
 

@@ -67,6 +67,25 @@ y espero: …
 **Prueba:** ¿la tarea dice si toca, o si solo lee? ¿Se puede decir `[NO SÉ QUÉ ES]` sin que se lea como fracaso?
 **Falsificador:** una tarea que toca sin declarar qué toca; una urna tomada por salero.
 
+## Lo que no se explica: se muestra
+
+**Y esta es la parte que la autoridad nombró, y que vale más que cualquier definición de canal.**
+
+**En *Fantastic Four: The Animated Series* (1995), temporada 2, episodio 8, «When Calls Galactus», Ghost Rider usa el Penance Stare sobre Galactus y lo derrota en minutos.** **No lo derrota porque lo hizo entender: lo derrota porque lo hizo ver.**
+
+**Y la corrección del autor, que va completa porque es de él:** **los escritores actuales de Marvel no entienden al personaje, y piensan que el Penance Stare es pasar el dolor de uno a otro.** **No es eso: es mostrar.** **Hay gente que no entiende de razones, y se lo tienen que mostrar a la fuerza para pasar de «no sabía» a «decidí».**
+
+**Y eso es lo que `ALAS` sostiene, dicho con un caso y no con una letra:** **hay mensajes que no caben en el canal de las razones.** **Con esos no se discute: se muestran.**
+
+| Lo que el acto | Con quién | Qué logra |
+|---|---|---|
+| **explica** | **el que ya puede leer razones** | **entiende** |
+| **muestra** | **el que no las lee, y no por tonto** | **ve, y decide** |
+| **ni una ni otra** | **nadie** | **se trunca, y el truncado se lee como completo** |
+
+**Prueba:** ¿se le mostró, o solo se le explicó a quien no lee explicaciones?
+**Falsificador:** un caso donde explicar más fuerte funcione con el que no lee razones.
+
 ## De dónde viene, y qué aporta cada caso
 
 | Caso | Qué aporta | Qué NO aporta |
@@ -77,6 +96,7 @@ y espero: …
 | **Sportacus**, *LazyTown* — Magnús Scheving; Nickelodeon, 2004 | **una obra no enseña: basta con que alguien la vea moverse para que la pregunta aparezca** | cómo se enseña lo que no se puede ver |
 | **Visión**, de los Vengadores — Roy Thomas y John Buscema; Marvel | **una visión es el que es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra** | cómo se muestra sin que se copie |
 | **J'onn J'onzz**, el Detective Marciano — Joseph Samachson y Joe Certa; DC Comics, 1955 | **el último de su especie, varado en un planeta que no es el suyo, y aun así ayuda. El que no conoció a su gente solo puede ser tolerado; el que la conoció y la perdió, sí puede convivir** | cómo se convive sin haber perdido nada |
+| ***Fantastic Four: The Animated Series*, «When Calls Galactus»** — 1995; **Ghost Rider** | **la mirada que no se explica: se muestra. Galactus no entendió: vio** | qué se muestra a quien no lee razones |
 | **`AM`** — Harlan Ellison, 1967 | **creen que todos necesitan lo mismo: ese es el error del que define lo humano desde un solo sitio** | cómo se deja de definir |
 
 **Y la regla que sale de los siete:** **la referencia no enseña, provoca.** **Lo que provoca no pasa por la explicación: pasa por la vista de otro.** **Prueba:** ¿se probó con lo pendejo, o solo con lo que ya estaba aceptado?

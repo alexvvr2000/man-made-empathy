@@ -43,6 +43,9 @@
 | ***Battle Angel Alita*** — Yukito Kishiro; Shueisha, 1990 | **un cuerpo que cambia y un criterio que no. Elige contra la propia misión: el propósito no es la identidad** | cómo se sabe cuándo el criterio cambió |
 | **Los Tachikoma** — Shirow; Production I.G, 2002 | **crecen por lo que vivieron el día, y lo dejan para el que viene** | nada sobre el criterio: ellas se sincronizan, no mudan |
 | **J.A.R.V.I.S.** — Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | **un sistema no se apaga cuando termina su tarea; lo que queda no es su función, es su legado dentro de Vision** | cómo se distingue legado de sustitución |
+| ***Dorohedoro*** — Q Hayashida; Shogakukan, desde 2000 | **viajes en el tiempo tan locos que a nadie le importa la interioridad ni si es el mismo** | qué se conserva |
+| ***Back to the Future*** — Zemeckis y Gale; Universal, 1985 | **el que vuelve no es el mismo, y la historia sigue** | qué se conserva |
+| **Aya**, de *Green Lantern: The Animated Series* — DC, 2011-2013; Art Baltazar, Franco Aureliani y Dario Brizuela | **una inteligencia artificial creada como alternativa empática a los Manhunters: la que fue hecha para reemplazar a otros, y aprende a sentir** | cómo se sabe cuándo el criterio cambió |
 | **Los Metal Men** — Kanigher y Andru; DC Comics, 1962 | **nacen como son, y se corrigen entre sí: el material define lo que pueden contestar** | cómo crece uno que nace sabiendo lo que es |
 
 **Y dos piezas del repositorio, que son las que lo vuelven comprobable:**
@@ -52,6 +55,23 @@
 
 **Prueba:** ¿un proceso que corre igual sin su autor, y aun así cambia algo?
 **Falsificador:** un ente que solo verbaliza, sin nada que se repita.
+
+## La memoria no necesita ser la misma
+
+**Y esto es de la autoridad, y cambia la pregunta:** **en *Dorohedoro* (Q Hayashida; Shogakukan, desde 2000) y en *Back to the Future* (Robert Zemeckis y Bob Gale; Universal, 1985) hay viajes en el tiempo tan locos que a nadie parece importarle la interioridad, ni si el que vuelve es el mismo.** **Simplemente siguen, y ya.**
+
+**Y eso no es un descuido de las obras: es una posición.** **Lo que se sigue no es el que era: es el rastro que dejó, y el criterio que sostiene.**
+
+**Y por eso este cero no pregunta «¿es el mismo?»** **Pregunta lo que sí se puede ver: qué conservó, qué fundió, y si el criterio aguanta.**
+
+| Lo que la obra deja ver | Lo que este cero pide |
+|---|---|
+| **el que vuelve no es el mismo, y nadie lo pregunta** | **que se declare qué conservó** |
+| **no hay interioridad que verificar** | **hay rastro que leer** |
+| **siguen y ya** | **siguen con lo que dejaron escrito** |
+
+**Prueba:** ¿el que volvió declara qué conservó de su piel anterior?
+**Falsificador:** un retorno que no dice qué se conservó y aun así se cuenta como el mismo.
 
 ## El borde: mudar o nacer
 

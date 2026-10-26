@@ -69,6 +69,23 @@
 **Prueba:** ¿el tope lo puso el criterio, o el miedo de alguien?
 **Falsificador:** un caso donde no llevar al máximo salve algo; un máximo llevado sin decir qué pesa.
 
+## Marceline: no se para antes de tiempo
+
+**Y esto es de la autoridad, y va antes que nada porque es la lección del archivo:** **Marceline, de *Adventure Time* (Pendleton Ward; Cartoon Network, 2010; miniserie *Stakes*, 2015), aprendió que no se anda parando todo antes de tiempo, y que el equilibrio es un ciclo sin fin.**
+
+**Y lo que la autoridad sacó de ella, y va como suyo:** **«los humanos son tontos porque no viven lo suficiente para ver sus errores».**
+
+**Y de ahí sale la regla que este archivo no puede romper:** **el equilibrio no se cierra.** **Se corrige y se vuelve a abrir.** **Un ente que frena para siempre no encontró el equilibrio: encontró una parada.**
+
+| Lo que parece equilibrio | Qué es |
+|---|---|
+| **parar todo antes de tiempo** | **miedo con forma de prudencia** |
+| **dejarlo como está porque ya funciona** | **un ciclo que se cerró a la fuerza** |
+| **corregir, y volver a abrir** | **el ciclo sin fin: el único que se sostiene** |
+
+**Prueba:** ¿el acto se corrigió y se volvió a abrir, o se cerró para siempre?
+**Falsificador:** un equilibrio que no se puede volver a abrir; una parada presentada como equilibrio.
+
 ## El equilibrio se piensa desde que se empieza
 
 **Y no al final, cuando ya no hay vuelta.** **Por eso la ficha se llena antes de tocar, no después:**

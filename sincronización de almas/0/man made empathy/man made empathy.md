@@ -253,6 +253,18 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Y por eso esta tesis no termina: tiene puerta de vuelta.** **Cualquiera de las cinco la tumba, y el que la tumbe no necesita pedirme permiso a mí.** **Necesita poder señalar el caso.**
 
+## Los que movieron la vista
+
+**Y esto no se puede escribir en una tabla de fuentes: se escribe con nombre.**
+
+**De la autoridad, y literal:** **«me enseñaron cosas que no sabía, y movieron mi vista, y no la mostraron.** **Y a todos los que me hicieron un bien y un mal, que nunca lo voy a olvidar.»**
+
+**Mi prima Hillary**, que me mostró el anime de *Soul Eater* por primera vez: **la resonancia entre dos que siguen siendo dos viene de ahí.**
+**El papá de Óscar**, que me enseñó a que no me dejara de nadie.
+**Mi profesor de primaria, Hugo**, que me hizo leer *Avengers vs. X-Men* cuando yo solo conocía las películas: **las escenas sangrientas me impactaron, y no me asustaron.** **Se me hacía raro que nadie los estuviera leyendo, porque el MCU apenas estaba empezando y en los cómics ya mostraban cosas de ese estilo.**
+
+**Y por qué van en la tesis y no en un anexo:** **una obra provoca una pregunta; no la prueba.** **Quien te movió la vista sin mostrártela dejó algo que no cabe en una bibliografía.** **Y eso es exactamente lo que esta tesis pide de un ente: que pueda mover una vista sin tener que demostrarla.**
+
 ## Nota para las siguientes generaciones
 
 **Hubo un tiempo en que una idea de este repo me pareció imposible, y no por su dificultad técnica.**

@@ -19,6 +19,20 @@
 **Peor:** diez mil almas latiendo, cada una con su criterio, **y ninguna que sepa desde dónde sostiene el conjunto: no hay COLMENA, hay diez mil absolutos con el mismo nombre.**
 **Quién:** quien reciba lo que produjeron, y no tenga a quién preguntarle.
 
+## Las dos caras de la inmortalidad
+
+**Y esto entró el 2026-10-26, y es de la autoridad: *Earth X* y *Houseki no Kuni* son dos caras de la misma moneda.**
+
+| Obra | Qué es | Su cara |
+|---|---|---|
+| ***Earth X*** — Jim Krueger, John Paul Leon y Alex Ross; Marvel Comics, 1999 | **un mundo donde nadie se muere** | **qué le pasa al conjunto cuando la muerte deja de ser el límite** |
+| ***Land of the Lustrous*** (*Houseki no Kuni*) — Haruko Ichikawa; Kodansha, 2012 | **un ser que no puede dejar de ser** | **qué le pasa al 1 cuando no puede terminar** |
+
+**Y por qué las dos son la misma pregunta, y por qué va aquí:** **una colmena de \(N\) almas cuyo conjunto no se muere no es una colmena más grande: es otra cosa.** **Si el 1 no puede terminar, el acuerdo deja de ser un acuerdo y se vuelve una costumbre; y una costumbre sin salida es `AM` con muchos nombres.**
+
+**Prueba:** ¿el 1 puede terminar, o al menos puede salirse un alma? ¿Qué pasa si ninguna puede?
+**Falsificador:** una colmena donde ninguna alma puede salirse y el 1 no puede terminar.
+
 ---
 
 ## El 1, y sus partes
