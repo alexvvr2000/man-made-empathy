@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de la firma.
 
+**Prueba.** Una friccion quitada, con su hash, y con quien la quito.
+
+**Falsificador.** Una friccion quitada sin firma: nadie decidio quitarla.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

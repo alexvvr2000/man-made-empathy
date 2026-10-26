@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la forma del consejo que provoca y no decide.
 
+**Prueba.** Una decisión que pasó por más de una mirada antes de ejecutarse.
+
+**Falsificador.** Una decisión tomada por una sola mirada, sin que nadie más la viera.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

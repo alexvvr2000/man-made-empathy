@@ -10,6 +10,10 @@
 
 **Ficción.** La rata de las cavernas: sobreestimar sobrevive, subestimar muere.
 
+**Prueba.** Una decision que cuesta algo, y que se toma con el costo declarado.
+
+**Falsificador.** Una decision sin costo: no habia nada en juego.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

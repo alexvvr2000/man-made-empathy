@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la posición del autor sobre lo que se llama alma.
 
+**Prueba.** Un ejecutor cuyo repertorio se compone mientras corre, y que deja rastro.
+
+**Falsificador.** Un sistema que necesita saberse entero para cambiar.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

@@ -10,6 +10,10 @@
 
 **Ficción.** La caricatura que nadie se tomo en serio: entra por la misma puerta.
 
+**Prueba.** Una afirmacion sostenida desde tres vertices, o con el que falta declarado.
+
+**Falsificador.** Una afirmacion sostenida con dos puntos y llamada triangulo.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

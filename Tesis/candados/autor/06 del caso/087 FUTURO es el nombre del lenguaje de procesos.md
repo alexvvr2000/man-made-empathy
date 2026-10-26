@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es el nombre del lenguaje.
 
+**Prueba.** Un lenguaje con nombre propio, cuya expansion dice el acto.
+
+**Falsificador.** Un lenguaje con nombre de relleno, que se hereda a lo que contiene.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

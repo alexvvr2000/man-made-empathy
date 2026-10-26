@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la forma de lo que se repite.
 
+**Prueba.** Un proceso que corre igual sin su autor, y que aun asi cambia algo.
+
+**Falsificador.** Un procedimiento que solo funciona si el que lo hizo esta ahi.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

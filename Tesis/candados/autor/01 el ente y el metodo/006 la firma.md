@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de la firma.
 
+**Prueba.** Una pieza cuyo veredicto lo firma alguien distinto del que la produjo.
+
+**Falsificador.** Un veredicto firmado por quien lo produjo, o sin firma que se lea como aprobacion.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

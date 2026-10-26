@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es medicion.
 
+**Prueba.** Un .md que se lee y un .jsonl que se corre, y cada uno hace lo suyo.
+
+**Falsificador.** Un .md usado para probar, o un .jsonl del que se saca una conclusion a ojo.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

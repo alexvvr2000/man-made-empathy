@@ -10,6 +10,10 @@
 
 **Ficción.** Infinity War: si Thanos hubiera tenido friccion, dura quince minutos.
 
+**Prueba.** Un acto que hace todo lo posible desde su sesgo, y deja quien lo conteste.
+
+**Falsificador.** Un acto que hace todo lo posible y no deja a nadie que lo contradiga.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

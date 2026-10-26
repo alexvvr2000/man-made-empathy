@@ -10,6 +10,10 @@
 
 **Ficción.** Thanos y las seis gemas.
 
+**Prueba.** Un acto con todas sus piezas, que se puede contestar.
+
+**Falsificador.** Un acto con una sola pieza, sin nadie que lo conteste.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

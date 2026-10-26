@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: los nombres de este repo, que ya caben en la forma.
 
+**Prueba.** Un nombre que sobrevive a la version, y que dice que hace hoy.
+
+**Falsificador.** Un nombre que sirve para dos versiones distintas.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

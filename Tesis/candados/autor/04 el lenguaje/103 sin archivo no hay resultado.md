@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de la seccion.
 
+**Prueba.** Un resultado con su archivo, y con la corrida que lo produjo.
+
+**Falsificador.** Un resultado sin archivo: una historia que se puede contar de cualquier forma.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

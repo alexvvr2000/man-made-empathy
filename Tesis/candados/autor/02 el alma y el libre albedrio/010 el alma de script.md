@@ -10,6 +10,10 @@
 
 **Ficción.** El cerebro que cambia sin que nadie sepa como.
 
+**Prueba.** Un humano que sigue un procedimiento, sin que por eso sea una maquina.
+
+**Falsificador.** Usar agente o alma para afirmar que hay alguien detras.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

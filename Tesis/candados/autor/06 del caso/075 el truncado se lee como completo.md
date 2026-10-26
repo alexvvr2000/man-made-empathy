@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es el caso real de la accesibilidad.
 
+**Prueba.** Un mensaje que dice que se trunco, cuando se trunco.
+
+**Falsificador.** Un mensaje truncado que se presenta como completo.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

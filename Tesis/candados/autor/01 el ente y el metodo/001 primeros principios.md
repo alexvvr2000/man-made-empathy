@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es una posición sobre el esquema y el prójimo, y no un caso.
 
+**Prueba.** Un principio que no se puede derivar de otro, y que se pierde si desaparece.
+
+**Falsificador.** Un principio que se explica con otro, o que sobra sin que nada falte.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

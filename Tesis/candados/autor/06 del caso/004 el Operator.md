@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la figura del que juzga sin otro con quién negociar.
 
+**Prueba.** Una decision que se toma mirando la operacion, no el prestigio de quien la propone.
+
+**Falsificador.** Una decision que se sostiene porque la tomo alguien con nombre.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

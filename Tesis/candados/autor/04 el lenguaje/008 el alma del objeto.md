@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de la voz del objeto.
 
+**Prueba.** Un objeto que se puede correr sin su autor, y que sirve igual.
+
+**Falsificador.** Un objeto que solo funciona con quien lo creo presente.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

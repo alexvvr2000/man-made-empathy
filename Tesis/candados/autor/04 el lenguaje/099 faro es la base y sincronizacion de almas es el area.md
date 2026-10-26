@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es el nombre del area.
 
+**Prueba.** Una base que se puede leer sin saber con que se corre.
+
+**Falsificador.** Una base que nombra su lenguaje, y caduca cuando el lenguaje caduca.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

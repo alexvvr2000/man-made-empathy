@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del lenguaje.
 
+**Prueba.** Una cita que trae la pregunta que la fuente hacia.
+
+**Falsificador.** Una cita presentada como autoridad, sin lo que preguntaba.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

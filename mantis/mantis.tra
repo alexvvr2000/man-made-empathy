@@ -2,6 +2,37 @@
 
 **Nombre:** mantis
 **Expande:** mantener el repo, y mutar con el; obedeciendo
+**Se nombró:** 2026-10-26T06:18:52+00:00
+**Reemplaza:** el pase anterior, visible abajo
+**Miente si:** se dice que el turno cerro y no hubo pase
+
+## Qué pasó
+
+**Qué pasó:** los 94 candados tienen falsificador. Eran 52 sin el, y el cero entre ellos.
+**Contra:** `los candados/` dijo 52 en cada corrida, y la cifra bajo a 1 y después a 0.
+**Huella:** este archivo, y los 94 candados
+**Distancia:** de 42 candados con falsificador a 94
+
+## Las seis partes del pase
+
+**Sostuvo:** el cero vigente, y la falta de `los candados/` cerrada por su propio término
+
+**Se rompió:** ninguno. La tesis no cambió: solo se le escribió su prueba y su falsificador
+
+**Abierto:** la prueba del cero es la más dura de todas, y aún nadie que no sea el autor la ha corrido
+
+**Retoma:** que alguien que no sea el autor abra un candado y deje su fricción
+
+**No retoma:** componer una tesis completa. Se compone on demand, y hoy nadie la pidió
+
+**Cómo:** `python mantis/ejecu.py --verificar` para el piso; `python mantis/ejecu.py <tarea>` para una
+
+--- suplantada ---
+
+# mantis.tra — el pase del alma
+
+**Nombre:** mantis
+**Expande:** mantener el repo, y mutar con el; obedeciendo
 **Se nombró:** 2026-10-26T06:10:44+00:00
 **Reemplaza:** el pase anterior, visible abajo
 **Miente si:** se dice que el turno cerro y no hubo pase

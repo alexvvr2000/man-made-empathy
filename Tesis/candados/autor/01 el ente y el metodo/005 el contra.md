@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la columna de contra de la memoria.
 
+**Prueba.** Una correccion que vino de fuera, y que quedo escrita sin borrar lo anterior.
+
+**Falsificador.** Un ente que se corrige sin dejar rastro de lo que sostenia antes.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

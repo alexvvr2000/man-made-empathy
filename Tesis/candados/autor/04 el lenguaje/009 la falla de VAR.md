@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de aproximar y medir el error.
 
+**Prueba.** Una falla que se ve cuando ocurre, en el sitio donde ocurre.
+
+**Falsificador.** Una falla que aparece tres pasos despues, sin saber de donde vino.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

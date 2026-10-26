@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la tesis aplicada a su autor.
 
+**Prueba.** Una tesis que se sostiene en lo que una persona puede correr en su maquina.
+
+**Falsificador.** Una tesis que solo se demuestra con recursos que nadie mas tiene.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

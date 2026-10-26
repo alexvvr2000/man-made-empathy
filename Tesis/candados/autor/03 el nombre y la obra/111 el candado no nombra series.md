@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del candado.
 
+**Prueba.** Un candado que nombra lo que pregunta, sin citar la serie como autoridad.
+
+**Falsificador.** Un candado que se sostiene porque la serie dice X.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

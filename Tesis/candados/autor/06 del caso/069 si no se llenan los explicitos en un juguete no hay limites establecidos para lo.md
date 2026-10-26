@@ -10,6 +10,10 @@
 
 **Ficción.** El juguete: una cosa hecha para que otro la use sin saber como funciona.
 
+**Prueba.** Un juguete con sus limites escritos antes de usarse.
+
+**Falsificador.** Un juguete sin limites explicitos, con el criterio del que lo llena.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de publicar el propio desperdicio.
 
+**Prueba.** Un acto que deja escrito qué tocó, y qué quedó distinto.
+
+**Falsificador.** Un acto que cambió algo y no dice qué cambió.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

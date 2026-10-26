@@ -10,6 +10,10 @@
 
 **Ficción.** Gurren Lagann y Studio Trigger.
 
+**Prueba.** Una cita de la obra para analizarla, con su autor nombrado.
+
+**Falsificador.** El nombre de una obra usado como nombre propio del sistema.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

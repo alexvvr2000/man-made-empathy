@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del candado.
 
+**Prueba.** N candados que se abren uno por uno, cada uno con su friccion.
+
+**Falsificador.** Un candado que se abre arrastrando a otros, o uno que no se abre nunca.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

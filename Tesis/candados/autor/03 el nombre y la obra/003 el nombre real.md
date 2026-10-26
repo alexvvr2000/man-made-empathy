@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: los nombres de este repo, que ya se leen de un tirón.
 
+**Prueba.** Un nombre que dice el acto, y que se lee de un tiron.
+
+**Falsificador.** Un nombre que solo se puede usar deletreando su acronimo.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

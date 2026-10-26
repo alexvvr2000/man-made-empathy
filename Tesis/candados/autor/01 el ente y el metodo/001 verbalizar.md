@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es el primitivo, y un primitivo no se ilustra con un caso.
 
+**Prueba.** Una idea que se puede escribir en una frase, y que antes no estaba escrita.
+
+**Falsificador.** Una idea que solo existe mientras el que la tiene esta presente.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

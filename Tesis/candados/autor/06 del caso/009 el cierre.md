@@ -10,6 +10,10 @@
 
 **Ficción.** Breaking Bad, Walter White: admitir en vez de arrepentirse.
 
+**Prueba.** Un trabajo que cierra con lo que quedo abierto declarado.
+
+**Falsificador.** Un trabajo que se cierra sin decir que quedo sin hacer.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

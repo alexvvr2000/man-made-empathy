@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del estándar.
 
+**Prueba.** Una forma que se declara, se usa, y se cambia cuando se gasta.
+
+**Falsificador.** Una forma presentada como el estandar, sin decir cuando se gasta.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

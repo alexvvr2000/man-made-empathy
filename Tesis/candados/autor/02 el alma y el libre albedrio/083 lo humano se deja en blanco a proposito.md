@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la posicion del autor sobre lo humano.
 
+**Prueba.** Un lugar vacio declarado como decision, con su razon escrita.
+
+**Falsificador.** Una definicion de lo humano puesta desde una sola mirada.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

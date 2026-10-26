@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es el ciclo medido, con su deshacer.
 
+**Prueba.** Un ciclo con condición de término declarada, que puede parar por su cuenta.
+
+**Falsificador.** Un ciclo sin condición de término que corre hasta que algo externo lo mata.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

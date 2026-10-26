@@ -10,6 +10,10 @@
 
 **Ficción.** Peppa Pig: la caricatura que nadie se tomo en serio.
 
+**Prueba.** Una afirmacion triangulada contra algo que no es noble ni prestigioso.
+
+**Falsificador.** Una afirmacion probada solo contra lo que ya se aceptaba.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

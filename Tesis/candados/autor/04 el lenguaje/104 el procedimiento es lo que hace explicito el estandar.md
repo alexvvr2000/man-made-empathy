@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del procedimiento.
 
+**Prueba.** Un estandar con su procedimiento escrito, y el procedimiento cita al estandar.
+
+**Falsificador.** Un estandar sin procedimiento: se puede cumplir y no se sabe como.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

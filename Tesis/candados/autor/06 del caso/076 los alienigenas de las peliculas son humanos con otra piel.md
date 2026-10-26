@@ -10,6 +10,10 @@
 
 **Ficción.** Las peliculas de alien: humanos con otra piel.
 
+**Prueba.** Una forma nueva que no es la vieja pintada de otro color.
+
+**Falsificador.** Una diferencia que solo es la forma de siempre con otra piel.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de la composición.
 
+**Prueba.** Un sistema con una pieza menos que sigue fallando en el mismo sitio.
+
+**Falsificador.** Quitar una pieza y que la falla desaparezca: entonces no era esa.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

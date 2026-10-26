@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la posicion del autor sobre la alucinacion y la ficcion.
 
+**Prueba.** Una respuesta inventada, marcada como inventada, y util para avanzar.
+
+**Falsificador.** Una respuesta inventada presentada como si se supiera.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

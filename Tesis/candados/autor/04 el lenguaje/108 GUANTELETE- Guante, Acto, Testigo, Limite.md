@@ -10,6 +10,10 @@
 
 **Ficcion.** Marvel, Infinity War: la idea del objeto, y no su nombre.
 
+**Prueba.** Un acto que declara su testigo y dice si se puede deshacer.
+
+**Falsificador.** Un acto sin testigo, o irreversible sin espera declarada.
+
 **Se abre con friccion, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 **Y lo que este candado reemplaza, y se declara:** el que lo ocupaba se llamo `CERCO`, y decia lo mismo desde otro lado. **Dos nombres para un acto no son dos actos.** El guantele se quedo con el acto; el cerco se retiro, y su prueba quedo en `faro/Entes/guantelete/GUANTELETE.vd`, en su `Reemplaza:`.

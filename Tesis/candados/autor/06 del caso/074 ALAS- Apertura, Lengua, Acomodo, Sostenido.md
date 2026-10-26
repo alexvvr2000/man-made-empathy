@@ -10,6 +10,10 @@
 
 **Ficción.** Alas: lo que se le deja al otro, no lo que se le dice.
 
+**Prueba.** Un protocolo que declara apertura, lengua, acomodo y sostenido.
+
+**Falsificador.** Un protocolo sin lengua declarada, o con una acomodacion sin perdida declarada.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

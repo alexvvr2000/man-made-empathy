@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la posicion del autor sobre el libre albedrio.
 
+**Prueba.** Un cerrojo que se pone con la llave a la vista, y que el de adentro puede abrir.
+
+**Falsificador.** Un cerrojo que se cierra sin llave, o que solo abre el de afuera.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

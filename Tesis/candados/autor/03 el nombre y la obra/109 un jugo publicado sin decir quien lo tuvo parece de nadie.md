@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla de la publicacion.
 
+**Prueba.** Un jugo publicado con su autor, y con lo que pregunto.
+
+**Falsificador.** Una idea publicada sin decir de quien salio.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

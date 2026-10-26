@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del candado.
 
+**Prueba.** Un candado que se llena con los detalles duros, y no con las intenciones.
+
+**Falsificador.** Un candado lleno de buenas intenciones, sin un dato que se pueda senalar.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

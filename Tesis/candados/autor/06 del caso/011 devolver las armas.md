@@ -10,6 +10,10 @@
 
 **Ficción.** All-Star Superman, Lex Luthor: la vista que llega tarde.
 
+**Prueba.** Una capacidad que se devuelve cuando el fin termino.
+
+**Falsificador.** Una capacidad que se queda porque ya se tiene.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

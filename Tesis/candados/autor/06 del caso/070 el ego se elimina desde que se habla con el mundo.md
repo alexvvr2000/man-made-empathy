@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la conclusion de la era.
 
+**Prueba.** Una idea que se pone contra el mundo, y que sobrevive a lo que el mundo dijo.
+
+**Falsificador.** Una idea que solo se sostiene si nadie la mira.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la forma de la vision.
 
+**Prueba.** Una vision que deja algo que se puede usar, ademas de lo que ensena.
+
+**Falsificador.** Una vision que solo explica, y no deja nada que se pueda correr.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

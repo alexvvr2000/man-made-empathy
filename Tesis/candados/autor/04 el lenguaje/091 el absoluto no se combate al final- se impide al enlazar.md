@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del sistema.
 
+**Prueba.** Una pieza que se puede contestar antes de que se vuelva regla.
+
+**Falsificador.** Una regla que se impone y solo se puede discutir cuando ya hizo dano.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---

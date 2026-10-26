@@ -10,6 +10,10 @@
 
 **Ficción.** Ninguna: es la regla del borde declarado.
 
+**Prueba.** Un ente que dice que no sabe, antes de que se le pregunte.
+
+**Falsificador.** Un ente que se presenta completo y contesta como si supiera.
+
 **Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
 
 ---
