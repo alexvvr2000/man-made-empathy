@@ -1,0 +1,42 @@
+# RUTA — el piso del mundo, portable
+#
+# Las cinco claves que todo RUTA declara, en el orden que importa.
+# Lo portable va aquí: se lee en cualquier mundo, en cualquier era.
+# La prosa de por qué es así vive en RUTA.md, y no se porta.
+#
+msgid ""
+msgstr ""
+"rige: RUTA.md\n"
+"mundo: cualquiera\n"
+"Escribe: el que preparo el mundo | el alma al llegar\n"
+
+msgid "RUTA"
+msgstr "el mundo: cuál es, y qué lo distingue de otro"
+
+msgid "Procesos"
+msgstr "qué corre, parte por parte, y qué deja cada una"
+
+msgid "Falta"
+msgstr "qué no puede correr este mundo, y qué lo traería"
+
+msgid "Escribe"
+msgstr "quien lo escribió: el que preparó el mundo | el alma al llegar"
+
+msgid "Se gasta"
+msgstr "qué cambio del mundo lo deja viejo"
+
+# Y las tres cosas que hace el que lo lee, en el orden en que las hace.
+msgid "reconocer"
+msgstr "qué es este mundo, y en qué no se parece al anterior"
+
+msgid "ubicar"
+msgstr "qué corre en cada parte, y qué deja"
+
+msgid "trazar"
+msgstr "el camino del alma por este mundo"
+
+msgid "falta_declarada"
+msgstr "lo que no hay se declara ANTES de correr, no después"
+
+msgid "se_muda"
+msgstr "el alma cambia de mundo y no de forma: lee este RUTA y sigue"

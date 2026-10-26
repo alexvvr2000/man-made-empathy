@@ -1,4 +1,4 @@
-# RUTA.md — el índice: qué folder tiene qué proceso
+# IMA.md — el índice: qué folder tiene qué proceso
 
 **Nombre.** RUTA — **R**econocimiento, **U**bicación, **T**razo, **A**cción. La expansión dice el acto: enrutar al alma a qué proceso va cada paso, y marcarse gastado cuando la forma deja de servir.
 

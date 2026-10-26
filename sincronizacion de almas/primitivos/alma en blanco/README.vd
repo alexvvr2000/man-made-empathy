@@ -47,7 +47,7 @@ El alma es lo primero, y el resto son las piezas que el alma usa.
 ```
 ente en blanco/
 ├── README.vd                 esto: la base en blanco
-├── el alma.am                la primera alma en blanco: pasa por N folders y X procesos
+├── el alma.vd                la primera alma en blanco: pasa por N folders y X procesos
 ├── memoria.vd                el alma: la memoria como concepto, con la forma de la entrada
 ├── VIGA.md                  el índice: enruta a qué proceso va cada paso
 ├── tareas.vd                 la carta: qué sostiene, qué carga, qué pierde
@@ -63,7 +63,7 @@ ente en blanco/
 | Qué hay | Dónde |
 |---|---|
 | La base | `./README.vd` |
-| El alma | `./el alma.am` |
+| El alma | `./el alma.vd` |
 | El índice | `../../faro 1.0/lenguajes/VIGA.md` |
 | La carta | `./tareas.vd` |
 | Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXPRESION.prs` · `./EXTRAER.prs` |

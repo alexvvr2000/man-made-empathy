@@ -31,7 +31,7 @@
 | El acto que se ejecuta antes de mover | `FRICCION.prs` | [`./herramientas/FRICCION.prs`](./herramientas/FRICCION.prs) |
 | El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../faro 1.0/lenguajes/GUANTELETE.prs`](../../faro%201.0/lenguajes/GUANTELETE.prs) |
 | Las seis herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
-| El índice: qué pedido va a qué herramienta | `RUTA.md` | [`./RUTA.md`](./RUTA.md) |
+| El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
 | El estándar de lo que deja alas | `ALAS.md` | [`../../faro 1.0/lenguajes/ALAS.md`](../../faro 1.0/lenguajes/ALAS.md) |
 
 **Qué no se toca:** la fuente y el candado. **Se enlazan, no se copian.**
@@ -54,7 +54,7 @@ Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | n
 | **aplicar, mutar, retirar o invertir un proceso** | la herramienta que corresponda en `./herramientas/` | **no se ejecuta: se declara qué falta** |
 | **tocar lo irreversible** | `../../faro 1.0/lenguajes/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
 | **producir lo que todavía no existe** | `./herramientas/COMPONER.prs` | **no se produce: se improvisa** |
-| **crear una herramienta nueva** | el índice `./RUTA.md` | **no entra: se declara `[VACÍO - SIN HERRAMIENTA]`** |
+| **crear una herramienta nueva** | el índice `./IMA.md` | **no entra: se declara `[VACÍO - SIN HERRAMIENTA]`** |
 | **mutar la fuente o el candado** | todo, y **se espera** | **no se toca** |
 
 **La fila que no puede faltar:** lo que muta la fuente o el candado se espera. **Sin autoridad, no se toca.**
