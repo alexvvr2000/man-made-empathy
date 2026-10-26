@@ -1,0 +1,52 @@
+{
+  "registros": 907,
+  "por_tipo": {
+    "corrida": 2,
+    "descarte": 1,
+    "entrada": 279,
+    "pase": 261,
+    "pieza": 355,
+    "ruta": 9
+  },
+  "desde": "2026-10-23",
+  "hasta": "2026-10-26",
+  "campos": [
+    "clase",
+    "diferida",
+    "estado",
+    "familia",
+    "fecha",
+    "fila",
+    "firma",
+    "friccion",
+    "huella",
+    "id",
+    "largo_contra",
+    "largo_expansion",
+    "largo_porque",
+    "largo_que",
+    "largo_sostengo",
+    "largo_sostuvo",
+    "largo_techo",
+    "no_retoma",
+    "orden",
+    "se_rompio",
+    "sin_cambio",
+    "sucede_a",
+    "suplanta",
+    "tiene_falsificador",
+    "tiene_prueba",
+    "tipo"
+  ],
+  "que_no_sale": [
+    "texto libre",
+    "nombres",
+    "rutas absolutas",
+    "correos",
+    "horas con minutos",
+    "el texto de cada registro"
+  ],
+  "como_se_comprueba": "cada huella = sha256(id + ':' + los campos tirados de ese tipo)[:16]; quien tenga el registro original recalcula y compara",
+  "requests": "no esta el CSV de requests en request-logs-2026-10-25.csv",
+  "lo_que_no_prueba": "la huella prueba que la linea corresponde a un registro real; no prueba que el registro diga la verdad"
+}

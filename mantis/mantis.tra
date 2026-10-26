@@ -3,30 +3,33 @@
 **Nombre:** mantis
 **Expande:** mantener el repo, y mutar con él; obedeciendo
 **Se nombró:** 2026-10-26
-**Reemplaza:** el pase anterior, que se fue con el mantis que se borró
+**Reemplaza:** el pase del turno anterior, que decía que el turno cerró cuando todavía corría el mismo
 **Miente si:** se dice que el turno cerró y no hubo pase
 
 ## Qué pasó
 
-**Qué pasó:** la implementación salió de las tareas y entró a `bin/`. Una tarea es ahora su `.prs`
-y su `.tra`, y nada más. Si este mundo no tiene con qué cumplir el corte, lo declara.
+**Qué pasó:** la memoria dejó de ser un archivo que se cuenta y pasó a ser un paquete que se comprueba.
+Nació `tareas/la memoria/privado/`: entra la memoria viva y el log de requests, y sale
+`memoria publica.jsonl` (907 líneas, del 2026-10-23 al 2026-10-26) con **una huella por registro y sin una palabra de texto**.
+El jurado del paquete no es una lista de prohibiciones: es que **todo valor sea un número, una fecha al día, una huella o una categoría cerrada.** Lo que no está en el vocabulario se degrada a `otra`; no se adivina.
 
-**Contra:** cada tarea traía su `.py`, y la tarea dejaba de ser portable: se llevaba un mundo pegado.
+**Contra:** la primera versión filtró por lista negra —rutas, correos, horas— y **pasó registros con el nombre completo de la autoridad dentro de un campo de firma.** La lista negra no se equivocó: se quedó corta, que es lo mismo, y peor, porque da verde. Se cambió al revés: **se declara lo que puede salir, y lo demás no sale.**
 
-**Huella:** este archivo, y `bin/`
+**Y lo que también pasó, y no se puede dejar fuera:** el ejecutor buscaba solo tareas planas, y `privado` vive dentro de `la memoria/`. **Una tarea anidada no existía para el ente.** Ahora se busca también hacia adentro.
 
-**Distancia:** de siete scripts dentro de las tareas a siete implementaciones en el mundo
+**Huella:** `tareas/la memoria/privado/` — `.prs`, `.paso`, `.tra`, `memoria publica.jsonl`, `stats publicos.json`
+**Distancia:** de la memoria que solo se cuenta, a la memoria que se puede auditar sin leerla
 
 ## Las seis partes del pase
 
-**Sostuvo:** los siete folders corren, y las tareas ya no llevan código
+**Sostuvo:** el paquete sale, y cada una de las 907 huellas se recalculó desde el original: **907/907.** El conteo, el rango de fechas y los tipos salen del archivo, no de la memoria de quien escribe.
 
-**Se rompió:** nada. Se probó quitando `candados.py` de `bin/`: la tarea lo declaró, y volvió a correr cuando regresó
+**Se rompió:** **dos veces, y las dos falló el filtro, no el formato.** Primero por una lista negra corta; después por un `int()` sobre un registro viejo que traía texto donde pedía número —y ese texto era de la autoridad—. Las dos veces el proceso **no escribió nada** y lo dijo. Eso es lo único que hizo bien de entrada.
 
-**Abierto:** los 51 falsificadores escritos sin abrir
+**Abierto:** **el log de requests no está.** El `.prs` dice que entra «el CSV de requests del chat»; el archivo no existe en `~/Downloads` ni en el perfil. El paquete declara `[aviso]` y publica la memoria sin él. **Los números del turno —1000 requests, 993 ok, USD 1.761128— no están en ninguna parte del repo: viven en la memoria de quien los midió.**
 
-**Retoma:** abrir uno de los cincuenta y uno
+**Retoma:** encontrar el log de requests, o declararlo perdido. Y después: **un pase por turno**, no uno que reemplace a todos.
 
-**No retoma:** otra implementación. Si este mundo tuviera otra cosa que cumpla el corte, entra en `bin/` con su criterio
+**No retoma:** la idea de publicar la memoria entera «ofuscada». Ofuscar esconde la forma y deja el cuerpo; **esto hace lo contrario: guarda la forma y tira el cuerpo.**
 
-**Cómo:** `python mantis/bin/ejecutar.py el estándar` primero; después cualquier otra tarea
+**Cómo:** `python mantis/bin/ejecutar.py privado` — y antes, `el estándar`.

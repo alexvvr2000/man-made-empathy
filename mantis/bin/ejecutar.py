@@ -97,6 +97,7 @@ IMPLEMENTACIONES = {
     "el estándar": "estandar.py",
     "integridad": "integridad.py",
     "tareas": "tareas.py",
+    "privado": "privado.py",
 }
 
 
@@ -116,7 +117,29 @@ def correr_paso(carpeta):
 def carpeta_de(nombre):
     if nombre in SUELTOS:
         return os.path.join(MANTIS, nombre)
-    return os.path.join(TAREAS, nombre)
+    # una tarea puede vivir dentro de otra: la memoria tiene sus privadas
+    directa = os.path.join(TAREAS, nombre)
+    if os.path.isdir(directa):
+        return directa
+    for raiz, dirs, files in os.walk(TAREAS):
+        if nombre in dirs:
+            return os.path.join(raiz, nombre)
+    return directa
+
+
+def indice():
+    """Las tareas que hay: las de arriba y las que viven dentro de otra."""
+    if not os.path.isdir(TAREAS):
+        return []
+    halladas = []
+    for nombre in sorted(os.listdir(TAREAS)):
+        if not os.path.isdir(os.path.join(TAREAS, nombre)):
+            continue
+        halladas.append(nombre)
+        for dentro in sorted(os.listdir(os.path.join(TAREAS, nombre))):
+            if os.path.isdir(os.path.join(TAREAS, nombre, dentro)):
+                halladas.append(nombre + "/" + dentro)
+    return halladas
 
 
 def main(argv):
@@ -148,9 +171,8 @@ def main(argv):
         return 0
 
     if argv[1] == "--listar":
-        for n in sorted(os.listdir(TAREAS)):
-            if os.path.isdir(os.path.join(TAREAS, n)):
-                print(n)
+        for n in indice():
+            print(n)
         return 0
 
     carpeta = carpeta_de(argv[1])

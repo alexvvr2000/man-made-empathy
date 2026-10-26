@@ -1,0 +1,23 @@
+# privado.tra — lo que pasó
+
+**Nombre:** privado
+**Expande:** privado.prs
+**Se nombró:** 2026-10-26T08:39:04+00:00
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que corrió y no hay recibo
+
+## Qué pasó
+
+**Qué pasó:** la memoria viva —`.memoria continua/rastro/texto/*.jsonl`— y el CSV de requests del chat.
+**Contra:** [ok] corrida    2 registros reducidos
+[ok] descarte   1 registros reducidos
+[ok] entrada    279 registros reducidos
+[ok] pase       261 registros reducidos
+[ok] pieza      355 registros reducidos
+[ok] ruta       9 registros reducidos
+
+[ok] 907 lineas en memoria publica.jsonl
+[ok] del 2026-10-23 al 2026-10-26
+[ok] campos: clase, diferida, estado, familia, fecha, fila, firma, friccion, huella, id, l
+**Huella:** esta .tra
+**Distancia:** codigo 0
