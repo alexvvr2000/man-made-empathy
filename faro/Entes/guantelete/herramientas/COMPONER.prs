@@ -1,0 +1,92 @@
+# COMPONER.prs — de un pedido, una tarea que antes no existía
+
+**Nombre.** COMPONER — **C**otejar, **O**bservar, **M**apear, **P**recisar, **O**rdenar, **N**ombrar, **E**mitir, **R**endir.
+**Origen.** De la ausencia del guantelete: **`APLICAR` ejecuta lo que ya existe, y nada producía lo que no existía.** **Y de la pregunta de la autoridad: ¿qué hace el ente cuando llega algo que no tiene proceso?**
+
+**Unidad:** proceso.
+**Aplica a:** componer.
+**Tipo:** se ejecuta. **Es la arista que produce lo que ninguna otra produce: la pieza que falta.**
+**Lector:** quien llega con un pedido y no sabe si hay con qué.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la tarea se lee desde lo que el pedido deja por hacer, no desde lo que el pedido dice querer.
+**Límite:** **no juzga si el pedido era bueno, ni si la tarea sirvió.** **Decide si hay con qué, o qué pieza falta para haberlo.**
+**Firma:** humano:autoridad · máquina:quien componga.
+
+**Variables:** pedido · pieza que falta · tarea · proceso · vacío
+**Peor:** el pedido entra, se contesta «no hay con qué», **y la pieza que faltaba se olvida: el siguiente que llega con el mismo pedido choca con el mismo hueco, y ya nadie se acuerda de que alguien lo vio.**
+**Quién:** el siguiente que llega con el mismo pedido.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** el pedido, y lo que el repo ya tiene con qué contestarlo.
+- **Falla si:** se emite una tarea sin pieza que la sostenga; el proceso nuevo no declara `Entra | Falla | Sale | Consume`; la pieza que falta no queda con su `Cierra si`; no se declara qué se puede correr hoy.
+- **Sale:** **el proceso nuevo, completo**, o **`[VACÍO - SIN PIEZA]`** con la pieza que falta nombrada — **o `[COMPONE CON LO QUE HAY]`** cuando el pedido ya tiene con qué, y no hay nada que producir.
+- **Consume:** `SOSTENER` primero, que le da su posición; y `APLICAR`, que lo ejecuta.
+
+**Prueba:** ¿de este pedido salió algo que antes no existía, o una pieza que falta con nombre? ¿El proceso declara sus cuatro campos? ¿La pieza que falta dice qué la cierra? ¿Se declaró qué se puede correr hoy?
+
+**Falsificador:** un pedido que se contesta «no hay» y no deja nada; un proceso emitido sin sus cuatro campos; una pieza que falta sin `Cierra si`; una tarea emitida sin que ninguna pieza la sostenga; un proceso nuevo que nadie va a correr; la misma pieza que falta observada dos veces y nombrada distinta.
+
+## El proceso
+
+```
+1. cotejar    → el pedido, contra lo que el repo ya sostiene. ¿Existe la pieza?
+2. observar   → qué deja por hacer. Eso es la tarea, no lo que el pedido dice querer.
+3. mapear     → qué proceso falta de principio a fin, y de dónde a dónde va.
+4. precisar   → Entra | Falla | Sale | Consume, con el caso concreto que lo incumple.
+5. ordenar    → si son varios, en qué orden se leen, y cuál exige la salida del anterior.
+6. nombrar    → el nombre del proceso, sin número, y su `Reemplaza:` si ocupa un lugar.
+7. emitir     → el proceso, o el vacío con su nombre.
+8. rendir     → qué se puede correr hoy, qué se espera, y qué pieza falta.
+Prohibido el paso 7 sin el 4.
+```
+
+## Las tres salidas, y ninguna es un «pasa»
+
+| Si el pedido… | Sale | Y el que lo lee sabe |
+|---|---|---|
+| **ya tiene con qué** | `[COMPONE CON LO QUE HAY]` | qué proceso lo resuelve, y que no hacía falta producir |
+| **pide algo que no existe, y se puede nombrar** | el proceso nuevo, completo | que puede correrlo hoy |
+| **pide algo que no existe, y no se puede nombrar todavía** | `[VACÍO - SIN PIEZA]` | qué pieza falta, y qué la cierra |
+
+**Las tres se escriben.** **Un pedido que se contesta «no hay» sin decir qué falta es una puerta cerrada sin letrero.**
+
+## Lo que se escribe cuando la pieza no existe
+
+```
+Pieza:      [la que falta, por su nombre]
+Se buscó:   [dónde, y qué se encontró en su lugar]
+Cierra si:  [la condición observable, no la intención]
+Bloquea:    [qué tarea no se puede escribir sin ella]
+```
+
+**«Cierra si: cuando se pueda» no es una condición: es una frase.** **«Cierra si: aparece un proceso que reciba X y devuelva Y» sí lo es.**
+
+## Componer sobre lo que ya hay
+
+**Antes de producir un proceso, se busca el que ya existe y se **muta**.** **Un proceso nuevo que repite lo que otro ya hace no es componer: es duplicar, y el duplicado se desincroniza en la siguiente mutación.** Rige `MUTAR.prs`.
+
+**Y el corte, porque las dos se parecen:**
+
+| Si… | Entonces |
+|---|---|
+| **no hay proceso que cubra el fin** | **`COMPONER`: se produce** |
+| **hay proceso, y no alcanza** | **`MUTAR`: se transforma** |
+| **hay proceso y su fin dejó de existir** | **`RETIRAR`: se quita, con su `Vacío:` antes** |
+
+## Lo que este proceso no hace
+
+**No juzga si el pedido es bueno.** **Decide si hay con qué, y qué falta.**
+**No ejecuta lo que produce.** **Lo ejecuta `APLICAR`, y lo sostiene `SOSTENER`.**
+**No toca lo que otro sostiene.** **Si la tarea lo toca, se declara, y pasa a `CERCO`.**
+
+## Transiciones
+
+- El pedido ya tiene con qué → **`[COMPONE CON LO QUE HAY]`, y se ejecuta con `APLICAR`.**
+- El pedido ya tiene con qué, pero el proceso no alcanza → **`MUTAR`, no `COMPONER`.**
+- El pedido pide algo que no existe, y se puede nombrar → **el proceso nuevo entra, y se ejecuta hoy.**
+- El pedido pide algo que no existe, y no se puede nombrar → **`[VACÍO - SIN PIEZA]`, con su `Cierra si`.**
+- La tarea toca lo que otro sostiene → **`CERCO`, antes de tocar.**
+- En cualquier otro caso → **se rinde qué se puede correr, y se cierra.**

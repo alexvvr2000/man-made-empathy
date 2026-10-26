@@ -27,7 +27,7 @@
 | Capacidad | Te devuelve | Te cuesta | Riesgo | Estado |
 |---|---|---|---|---|
 | **Leer y escribir archivos | escribir el `.vd`, el `.tra`, el `.prs` | nada medido | sobrescribir sin `Reemplaza:` | disponible** |
-| **SQLite | la memoria y el jugo del candado | nada medido | escribir sin suplantar | disponible** |
+| **la memoria | guardar la posición y lo que se sostuvo | nada medido | escribir sin suplantar | disponible** |
 | **La web | la referencia: la obra y qué preguntó | una consulta | citar una fuente como autoridad | disponible** |
 | **Git | el historial y la foto de la corrida | un commit | reescribir la historia | disponible** |
 | **RAG | recuperar lo que el ente ya leyó | un índice y su mantenimiento | responder con lo que ya está viejo | no probado** |
@@ -54,6 +54,38 @@ Falta: [lo que no hay] | Bloquea: [qué proceso no se puede escribir] | Se reabr
 
 - Una capacidad se prueba → **entra aquí con su costo y su riesgo.**
 - Una capacidad se cae → se marca, y los `.prs` que la usan se declaran en riesgo.
+
+## El piso perpetuo, y por qué no es un reloj
+
+**El piso se corre en cada paso, no una vez al día.** **Y lo que lo hace perpetuo no es que corra solo: es que cada paso decide si sigue.**
+
+**Un reloj corre cada hora y dice «pasa». Eso no es criterio: es costumbre, y la costumbre tiene dueño.** **El criterio es esto:**
+
+```
+1. leer el estándar   → ¿cambió desde la última .tra?
+2. si cambió          → se declara desfasado, y se para. No se sigue con criterio viejo.
+3. correr el piso     → y escribir el veredicto en la .tra de ese paso
+4. no hay .tra        → [SIN TRA - NO PASÓ]. No se adivina, no se continúa.
+```
+
+**La diferencia con la industria, en una línea:** **un servicio corre siempre y no puede parar por su cuenta; un criterio corre solo mientras cumple, y se detiene cuando el estándar cambia.**
+
+| Un reloj | El criterio |
+|---|---|
+| corre cada hora | **corre en cada paso** |
+| repite la misma comprobación | **lee el piso de la `.tra` anterior y decide** |
+| no puede parar | **para cuando el estándar cambió** |
+| nunca dice «no sé» | **dice `[SIN TRA - NO PASÓ]`** |
+
+**Y el cerrojo que lo sostiene:** **el piso no se termina; se ponen cerrojos.** **Un piso perpetuo sin criterio es un cerrojo sin llave: se cierra y no deja pasar a nadie que el estándar no previó.**
+
+### Prueba del piso perpetuo
+
+**¿El piso corrió en este paso, o se corrió ayer? ¿Si el estándar cambió, se paró y lo declaró? ¿Si no hay `.tra`, se adivinó o se declaró?**
+
+**Falsificador:** un piso que corre en horario; un paso que sigue después de que el estándar cambió; un piso que no puede parar; un paso sin `.tra` que continúa igual.
+
+---
 
 ## La regla dura: nada de FARO nombra una era
 

@@ -19,10 +19,10 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **El estándar del lenguaje** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `CERCO` · `JONN` (recordatorio) · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `la fila verbalizada` | [`./sincronizacion de almas/`](./sincronizacion%20de%20almas/) |
-| **Los entes** | **`alma de la pregunta`** · **`cerco`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
+| **El estándar del lenguaje** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE` · `CERCO` · `JONN` (recordatorio) · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `la fila verbalizada` | [`./sincronizacion de almas/`](./sincronizacion%20de%20almas/) |
+| **Los entes** | **`alma de la pregunta`** · **`guantelete`** · **`cerco`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |
 | **El lugar vacío: lo humano** | `LO HUMANO.md` — se deja sin definir a propósito | [`./Entes/LO HUMANO.md`](./Entes/LO%20HUMANO.md) |
-| **La memoria viva** | `mantis.db` (SQLite), y su texto portable | [`../.memoria continua/rastro/`](../.memoria%20continua/rastro/) |
+| **La memoria viva** | la memoria, y su texto portable | [`../.memoria continua/rastro/`](../.memoria%20continua/rastro/) |
 | **Lo que corre** | la entrada única, y los procesos | [`../mantis/`](../mantis/) |
 
 **Y una fila que se fue:** **el jugo ya no tiene carpeta ni camino.** **Lo que ayuda a entender no se guarda aparte: si se sostiene de pie, es un candado; y si no se sostiene, no es el camino de nada.**
@@ -59,10 +59,10 @@
 
 | Qué | Qué mide | Cómo se corre |
 |---|---|---|
-| **la corrida** | **estándares, limpieza y rastro** | **`python mantis/bin/pedir.py piso`** |
-| **la dirección** | **si cada cita resuelve, y si nadie promete lo que no está** | **`python mantis/bin/pedir.py piso`** |
-| **la tesis** | **y cada visión compone la suya** | **`python mantis/bin/componer.py --tipo teoria --fuente <archivo> --salida <carpeta>`** |
+| **la corrida** | **estándares, limpieza y rastro** | **se pide a `mantis`: la única entrada** |
+| **la dirección** | **si cada cita resuelve, y si nadie promete lo que no está** | **se pide a `mantis`, en la misma corrida** |
+| **la tesis** | **y cada visión compone la suya** | **se pide a `mantis`: la que compone** |
 
-**Y la regla dura que la vuelve punto de no retorno:** **todo lo ejecutable es Python.** **Un `.ps1` ya no corre aquí.**
+**Y la regla dura que la vuelve punto de no retorno:** **este estándar no nombra un lenguaje.** **Con qué se corre es decisión de `mantis`, y `mantis` la declaró: Python. Eso vive en `mantis/`, no aquí.** **Un estándar que nombra su lenguaje caduca cuando el lenguaje caduca.**
 
-**Por eso `faro/` es el piso:** **no porque tenga los archivos, sino porque se puede correr, medir y romper sin perder nada.**
+**Por eso `faro/` es el piso:** **no porque tenga los archivos, sino porque se puede leer, medir y romper sin perder nada.** **Y lo que lo corre es `mantis`, que es de la máquina.**

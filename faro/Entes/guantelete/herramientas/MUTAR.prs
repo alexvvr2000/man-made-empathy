@@ -1,0 +1,64 @@
+# MUTAR.prs — transformar un proceso declarando qué conserva
+
+**Nombre.** MUTAR — **M**irar, **U**bicar, **T**ransformar, **A**notar, **R**eemplazar.
+**Origen.** Del primer guantelete: **una pieza que se muta y conserva el nombre anterior miente al lector.** **Y del repo: se muta desde un punto de referencia, y se declara qué se conserva.**
+
+**Unidad:** proceso.
+**Aplica a:** mutar.
+**Tipo:** se ejecuta. **Es la arista de retorno del lenguaje, y no su fundamento.**
+**Lector:** quien va a transformar una pieza que otro usa.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** el cambio se lee desde el que lo va a usar después, no desde el que lo hizo.
+**Límite:** no decide si la mutación sirve. **Decide si lo que se conserva está declarado y lo viejo sigue visible.**
+**Firma:** humano:autoridad · máquina:quien mute.
+
+**Variables:** pieza · qué se conserva · nombre · lugar · reemplazo
+**Peor:** el cambio se llama mutación y conserva el nombre y la ubicación anteriores: **el lector cree que lee lo de antes, y lee otra cosa.**
+**Quién:** quien va a usar la pieza y quien la va a mutar después.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** una pieza vigente, y el cambio que se le quiere hacer.
+- **Falla si:** no se declara qué se conserva; el nombre anterior desaparece con su razón; lo viejo no queda visible; el nombre sirve para dos versiones.
+- **Sale:** la pieza nueva, con su `Reemplaza:` y lo anterior visible.
+- **Consume:** quien va a usar la pieza nueva.
+
+**Prueba:** ¿está declarado qué se conserva? ¿Lo anterior quedó visible con su razón? ¿El nombre nuevo dice el acto nuevo?
+**Falsificador:** una mutación sin `Conserva`; lo anterior borrado; un nombre que sirve para dos versiones; una mutación que se presenta como arreglo.
+
+## El proceso
+
+```
+1. mirar        → qué hace la pieza hoy, y desde dónde se sostiene.
+2. ubicar       → qué otro depende de ella: quién la usa.
+3. transformar  → el cambio, con `Muta` y `Conserva` declarados ANTES.
+4. anotar       → lo anterior con `Reemplaza:`, visible.
+5. reemplazar   → el nombre y el lugar nuevos, si el acto cambió.
+Prohibido el paso 5 sin el 4.
+```
+
+## La mutación se declara antes, no después
+
+```
+Muta:        [qué cambia]
+Conserva:    [qué no cambia, y por qué importa]
+Nombre:      [el nuevo, o el mismo si el acto no cambió]
+Reemplaza:   [la versión anterior, visible]
+Sin cambio:  [si es igual, se declara; no se finge mutación]
+```
+
+**Si `Conserva` está vacío, el reemplazo pierde el servicio, y no entra.**
+
+## Lo que este proceso no hace
+
+**No juzga si el cambio fue bueno.** **Comprueba que se conservó lo que se dijo y que lo viejo sigue visible.**
+
+**No renombra por gusto.** **El nombre nuevo dice el acto nuevo, o se queda el de antes.**
+
+## Transiciones
+
+- El acto cambió → nombre y lugar nuevos, y lo anterior con `Reemplaza:`.
+- El acto no cambió → se queda el nombre, y se declara `sin cambio`.
+- `Conserva` está vacío → no entra: se conserva algo o no es mutación.
