@@ -80,7 +80,7 @@ el alma de alguien/
 | **`.prs`** | **lo que vuelve** | **`Entra \| Falla \| Sale \| Consume`**, y nada del cómo | `ENTRAR.prs` · `MUTAR.prs` |
 | **`.tra`** | **lo que pasó** | **la memoria:** el criterio sostenido y lo que se rompió | `lo que llega.tra` |
 | **`.md`** | **lo que se explica** | **lectura pura.** No se ejecuta | `IMA.md` · `RUTA.md` · `EMPEZAR.md` |
-| **`.po`** | **lo portable** | **lo que atraviesa eras y mundos:** claves, no prosa | `RUTA.po` · `PISO.po` |
+| **`.po`** | **lo portable** | **lo que atraviesa eras y mundos:** claves, no prosa | `RUTA.pr` · `PISO.po` |
 
 **Y el corte que las separa es uno:**
 

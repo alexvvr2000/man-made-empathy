@@ -2,7 +2,7 @@
 
 **Nombre:** integridad
 **Expande:** comprobar.prs
-**Se nombró:** 2026-10-26T07:11:09+00:00
+**Se nombró:** 2026-10-26T07:21:22+00:00
 **Reemplaza:** NINGUNO
 **Miente si:** se dice que corrió y no hay recibo
 
@@ -10,13 +10,9 @@
 
 **Qué pasó:** el 1 —su carta, sus tareas, sus `.tra`—, y el sesgo con el que se sostiene.
 **Contra:** [ok] el 1 declara desde donde sostiene: se sostiene desde la memoria, y se lee desde el que llega sin saber nada de esta era.
-[ok] y quien lo contesta: humano:autoridad Â· mÃ¡quina:quien lo abra.
+[ok] y quien lo contesta: humano:autoridad · máquina:quien lo abra.
 [ok] 5 .tra leidas, y la carta se compara contra ellas
 
 pasa: el 1 sigue siendo el 1, y se puede contestar
 **Huella:** esta .tra
 **Distancia:** codigo 0
-
-## Procesos
-
-**Procesos:** comprobar.prs

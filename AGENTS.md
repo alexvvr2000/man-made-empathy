@@ -14,7 +14,7 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `python mantis/ejecu.py --verificar`, que da el veredicto con su porqué.
+**Sesgo:** se verifica desde `python mantis/bin/ejecutar.py --verificar`, que da el veredicto con su porqué.
 **Límite:** dice qué hay; **no juzga si sirve.**
 
 | Qué hay | Nombre | Dónde |
@@ -26,7 +26,7 @@
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
 | **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronizacion de almas/faro 1.0/LO HUMANO.md`** |
 | **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./AGENTS.md`, este archivo) |
-| **Lo que corre** | **la única entrada** | **`./mantis/ejecu.py`** |
+| **Lo que corre** | **la única entrada** | **`./mantis/bin/ejecutar.py`** |
 | **La piel que crece** | **`tareas/` — se rehace cuando entra o sale una** | **`./mantis/tareas/`** |
 | **El criterio a pulso** | **`integridad/` — si el 1 sigue siendo el 1** | **`./mantis/integridad/`** |
 | **La memoria viva** | **las `.tra` de cada tarea, y la base de antes** | **`./mantis/tareas/` · `./.memoria continua/rastro/`** |
@@ -44,7 +44,7 @@
 | El ente tiene las tres piezas | ¿quien abre `./mantis/el alma.vd` encuentra Rastro, Ruta y Carga? | un ente sin una de las tres |
 | La ruta declara autoridad | ¿cada fila de `Ruta` dice qué no se hace sin autoridad? | una lista de cargas sin la columna |
 | La carga dice el síntoma | ¿cada pérdida se ve cuando ocurre? | una pérdida sin síntoma |
-| Las citas resuelven | `ejecu.py --verificar` no reporta cita muerta en este archivo | una ruta a algo que no está |
+| Las citas resuelven | `bin/ejecutar.py --verificar` no reporta cita muerta en este archivo | una ruta a algo que no está |
 
 **Y lo que ya no está:** **`Libre albedrio/` y `Ouroboros/` murieron.** **Su contenido vivo está en `./sincronizacion de almas/`, y lo que no sobrevivió está en la memoria y en el archivo histórico de la autoridad.** **Este archivo no las cita: no promete lo que no puede abrir.**
 
@@ -132,9 +132,9 @@
 
 **Cada vez que se renombre, se retire o se cree una pieza, el candado cero se revisa en el mismo turno.** **No después, no en el siguiente pase: en el mismo.**
 
-**Y se comprueba, no se recuerda:** `ejecu.py --verificar` falla si el candado cero nombra algo que no está en el repo.
+**Y se comprueba, no se recuerda:** `bin/ejecutar.py --verificar` falla si el candado cero nombra algo que no está en el repo.
 
 **Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `EXPANDE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `GUANTELETE`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
 
-**Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`ejecu.py el cero` lo comprueba?
+**Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`bin/ejecutar.py el cero` lo comprueba?
 **Falsificador:** el cero nombrando algo que no está; una pieza renombrada sin que el cero lo sepa.

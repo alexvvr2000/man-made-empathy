@@ -8,27 +8,26 @@
 
 ## Qué pasó
 
-**Qué pasó:** `mantis` nació de cero con las cuatro cosas que le faltaban: la regla del
-ejecutor en el estándar, la tarea que lee el estándar antes de correr, `tareas/` como
-folder que crece, y el ciclo de `MUDAR`.
+**Qué pasó:** el ejecutor salió de la raíz y entró a `bin/`, con su regla en el estándar
+(`EJECUTOR`) y su declaración en `RUTA.pr`. Y el `RUTA` se partió en dos: `.rt` la regla, `.pr` este mundo.
 
-**Contra:** el `mantis` anterior tenía un `ejecu.py` sin regla, y no se enteraba de que
-`faro 1.0` cambiaba. Corría con criterio viejo y nadie lo veía.
+**Contra:** el `RUTA.po` decía `python`, y el estándar dice que no nombra lenguaje. Un mundo que
+declara su lenguaje como exigencia se limita a sí mismo.
 
-**Huella:** este archivo, y `tareas/el estándar/estandar.huella`
+**Huella:** este archivo, y `RUTA.pr`
 
-**Distancia:** de un ente que corre con criterio viejo a uno que se para y lo declara
+**Distancia:** de un ejecutor en la raíz sin regla a uno en `bin/`, declarado por el mundo
 
 ## Las seis partes del pase
 
-**Sostuvo:** los seis folders corren, y la tarea del estándar dice `[DESFASADO]` cuando cambia
+**Sostuvo:** los siete folders corren con `bin/ejecutar.py`, y la tarea del estándar dice `[DESFASADO]` cuando cambia
 
-**Se rompió:** nada. El ente nació con la huella del estándar de hoy
+**Se rompió:** el `RUTA.po` de los dos lados. Ahora hay `.rt` (la regla) y `.pr` (este mundo)
 
-**Abierto:** los 51 falsificadores que el agente escribió sin abrir. Están escritos, y no están probados
+**Abierto:** los 51 falsificadores escritos sin abrir. Y `bin/` sigue siendo python, porque es lo que hay
 
-**Retoma:** abrir uno de esos cincuenta y uno, y ver si el falsificador aguanta o se mueve
+**Retoma:** abrir uno de los cincuenta y uno, y ver si aguanta
 
-**No retoma:** la colmena. Está escrita como regla, y hoy nadie corre muchos agentes
+**No retoma:** otra implementación de `bin/`. Si este mundo tuviera otra cosa que corra `.prs`, entra en `aqui_hoy`
 
-**Cómo:** `python mantis/ejecu.py el estándar` primero; después cualquier otra tarea
+**Cómo:** `python mantis/bin/ejecutar.py el estándar` primero; después cualquier otra tarea

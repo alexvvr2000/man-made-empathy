@@ -56,7 +56,7 @@ Falta:      [qué no puede correr este mundo, y qué lo traería]
 
 ## Cómo se declara en un mundo
 
-**En su `RUTA.po`, y con la misma forma que todo lo demás:**
+**En su `RUTA.pr`, y con la misma forma que todo lo demás:**
 
 ```plaintext
 msgid "ejecutor"

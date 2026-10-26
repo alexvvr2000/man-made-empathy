@@ -1,22 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""ejecu.py - el unico archivo no-estandar de mantis.
+"""bin/ - lo que ESTE mundo ya tiene para correr un .prs.
 
-No sabe que hace un proceso: lee su corte, comprueba la entrada, lo corre.
-Las tareas viven en tareas/, y cada una declara:
+No es el estandar: es lo concreto. Python esta aqui porque esta maquina lo tiene.
+Un mundo que tenga otra cosa pone la suya en su bin/, y declara cual en su RUTA.pr.
 
-    Entra:    / Falla si: / Sale: / Consume:
-
-Un folder puede traer su propio paso, en un archivo <folder>.paso (python).
+No sabe que hace ningun proceso: lee sus cuatro campos, y lo corre.
 
 Uso:
-    python ejecu.py --verificar          todos los folders tienen su corte
-    python ejecu.py --listar             que folders hay
-    python ejecu.py <folder>             corre el folder
-    python ejecu.py <folder> --sin-tra   corre sin dejar .tra
+    python mantis/bin/ejecutar.py --verificar      todos los folders tienen su corte
+    python mantis/bin/ejecutar.py --listar         que tareas hay
+    python mantis/bin/ejecutar.py <tarea>          corre una tarea
+    python mantis/bin/ejecutar.py el estándar      lee el estandar antes de nada
 
-Sale 0 si pasa, 1 si falla el proceso, 2 si el folder no tiene corte.
-Siempre dice el porque.
+Sale 0 si pasa, 1 si falla, 2 si el folder no tiene corte.
 """
 import os
 import re
@@ -25,9 +22,10 @@ import sys
 from datetime import datetime, timezone
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-MANTIS = AQUI if os.path.isfile(os.path.join(AQUI, "el alma.vd")) else os.path.abspath(os.path.join(AQUI, ".."))
+MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
-TAREAS = os.path.join(MANTIS, "tareas")  # la tarea es la carpeta, y viven en tareas/
+TAREAS = os.path.join(MANTIS, "tareas")
+SUELTOS = ("tareas", "integridad")
 
 CAMPOS = ("Entra:", "Falla si:", "Sale:", "Consume:")
 
@@ -82,9 +80,7 @@ def dejartra(carpeta, proceso, entro, salio, veredicto):
         "**Qué pasó:** {e}\n"
         "**Contra:** {s}\n"
         "**Huella:** esta .tra\n"
-        "**Distancia:** {v}\n\n"
-        "## Procesos\n\n"
-        "**Procesos:** {proc}\n"
+        "**Distancia:** {v}\n"
     ).format(n=nombre, proc=proceso, ahora=ahora, e=entro, s=salio, v=veredicto)
     with open(p, "w", encoding="utf-8", newline="") as fh:
         fh.write(cuerpo)
@@ -92,48 +88,56 @@ def dejartra(carpeta, proceso, entro, salio, veredicto):
 
 
 def correr_paso(carpeta):
-    """El paso del folder, si lo tiene. Devuelve (salida, codigo)."""
     nombre = os.path.basename(os.path.abspath(carpeta))
     paso = os.path.join(carpeta, nombre + ".paso")
     if not os.path.isfile(paso):
         return "el folder no trae paso: solo declara su corte", 0
-    r = subprocess.run([sys.executable, paso], capture_output=True, text=True)
-    salida = (r.stdout or "") + (r.stderr or "")
-    return salida.strip(), r.returncode
+    r = subprocess.run([sys.executable, paso], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    salida = ((r.stdout or "") + (r.stderr or "")).strip()
+    return salida, r.returncode
+
+
+def carpeta_de(nombre):
+    if nombre in SUELTOS:
+        return os.path.join(MANTIS, nombre)
+    return os.path.join(TAREAS, nombre)
 
 
 def main(argv):
     if len(argv) < 2:
-        print("uso: ejecu.py --verificar | --listar | <folder> [--sin-tra]")
+        print("uso: ejecutar.py --verificar | --listar | <tarea>")
         return 1
 
     if argv[1] == "--verificar":
-        if not os.path.isdir(TAREAS):
-            print("[SIN TAREAS] no esta " + TAREAS)
-            return 1
         malos = 0
-        for nombre in sorted(os.listdir(TAREAS)):
-            c = os.path.join(TAREAS, nombre)
-            if os.path.isdir(c) and procesos_de(c):
+        vistos = []
+        for base in (TAREAS, MANTIS):
+            if not os.path.isdir(base):
+                continue
+            for n in sorted(os.listdir(base)):
+                c = os.path.join(base, n)
+                if not os.path.isdir(c) or not procesos_de(c):
+                    continue
+                if base == MANTIS and n not in SUELTOS:
+                    continue
+                vistos.append(n)
                 ok, msg = verificar(c)
-                print(("[ok]    " if ok else "[falla] ") + nombre + ": " + msg)
+                print(("[ok]    " if ok else "[falla] ") + n + ": " + msg)
                 malos += 0 if ok else 1
         print("")
         if malos:
             print("falla: {} folder(s) sin corte".format(malos))
             return 1
-        print("pasa: todos los folders tienen su corte")
+        print("pasa: {} folders con su corte".format(len(vistos)))
         return 0
 
     if argv[1] == "--listar":
-        for nombre in sorted(os.listdir(TAREAS)):
-            print(nombre)
+        for n in sorted(os.listdir(TAREAS)):
+            if os.path.isdir(os.path.join(TAREAS, n)):
+                print(n)
         return 0
 
-    # las tareas viven en tareas/; integridad/ es su hermana y vive en la raiz
-    carpeta = os.path.join(TAREAS, argv[1])
-    if argv[1] in ("tareas", "integridad"):
-        carpeta = os.path.join(MANTIS, argv[1])
+    carpeta = carpeta_de(argv[1])
     ok, msg = verificar(carpeta)
     if not ok:
         print("[ACTIVIDAD - SIN CORTE] " + msg)
@@ -142,10 +146,8 @@ def main(argv):
     proceso = procesos_de(carpeta)[0]
     c = cortes(leer(os.path.join(carpeta, proceso)))
     print("[{}] {}".format(os.path.basename(carpeta), proceso))
-    print("  Entra:    " + c["Entra:"])
-    print("  Falla si: " + c["Falla si:"])
-    print("  Sale:     " + c["Sale:"])
-    print("  Consume:  " + c["Consume:"])
+    for k in CAMPOS:
+        print("  {} {}".format(k, c[k]))
 
     salida, codigo = correr_paso(carpeta)
     print("")

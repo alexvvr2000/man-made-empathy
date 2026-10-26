@@ -16,8 +16,8 @@ Tesis/visiones/<nombre>/
 ```
 
 ```
-python mantis/ejecu.py la tesis
-python mantis/ejecu.py la tesis
+python mantis/bin/ejecutar.py la tesis
+python mantis/bin/ejecutar.py la tesis
 ```
 
 **Unidad:** nivel.

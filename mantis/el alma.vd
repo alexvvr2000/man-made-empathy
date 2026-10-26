@@ -33,7 +33,7 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **el pase** | `mantis.tra` — qué pasó en el último turno | [`./mantis.tra`](./mantis.tra) |
-| **el piso de este mundo** | `RUTA.po` — qué puede DSH en esta PC, y con qué se corre | [`./RUTA.po`](./RUTA.po) |
+| **el piso de este mundo** | `RUTA.pr` — qué puede DSH en esta PC, y con qué se corre | [`./RUTA.pr`](./RUTA.pr) |
 | **el guantelete que lleva puesto** | `GUANTELETE` | [`../sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd`](../sincronizacion%20de%20almas/primitivos/guantelete/GUANTELETE.vd) |
 | **la piel que crece** | `tareas/` — se rehace cuando entra o sale una | [`./tareas/`](./tareas/) |
 | **el criterio a pulso** | `integridad/` — si el 1 sigue siendo el 1 | [`./integridad/`](./integridad/) |

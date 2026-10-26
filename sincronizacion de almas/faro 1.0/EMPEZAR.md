@@ -11,7 +11,7 @@
 ## Las siete piezas, en el único orden que funciona
 
 ```
-0. el mundo       →  ./RUTA.po  ·  ./RUTA.md                 (qué hay, y qué no, en ESTE mundo)
+0. el mundo       →  ./RUTA.pr  ·  ./RUTA.md                 (qué hay, y qué no, en ESTE mundo)
 1. el alma        →  ../primitivos/alma en blanco/el alma.vd
 2. sus folders    →  Entes/alma de la pregunta/ENTRAR.prs · MIRAR.prs · EXTRAER.prs
 3. su plantilla   →  Entes/alma de la pregunta/plantilla.tra  (lo que deja cada folder)
