@@ -23,16 +23,16 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `../../faro 1.0/lenguajes/ALAS.md` y desde `../../faro 1.0/lenguajes/FORMATO.md`.
+**Sesgo:** se verifica desde `../../faro 1.0/lenguajes/salida/ALAS.md` y desde `../../faro 1.0/lenguajes/formacion/FORMATO.md`.
 **Límite:** dice qué hay; no juzga si el acto sirvió.
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | El acto que se ejecuta antes de mover | `FRICCION.prs` | [`./herramientas/FRICCION.prs`](./herramientas/FRICCION.prs) |
-| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../faro 1.0/lenguajes/GUANTELETE.prs`](../../faro%201.0/lenguajes/GUANTELETE.prs) |
+| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../faro 1.0/lenguajes/friccion/GUANTELETE.prs`](../../faro%201.0/lenguajes/friccion/GUANTELETE.prs) |
 | Las seis herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
 | El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
-| El estándar de lo que deja alas | `ALAS.md` | [`../../faro 1.0/lenguajes/ALAS.md`](../../faro 1.0/lenguajes/ALAS.md) |
+| El estándar de lo que deja alas | `ALAS.md` | [`../../faro 1.0/lenguajes/salida/ALAS.md`](../../faro 1.0/lenguajes/salida/ALAS.md) |
 
 **Qué no se toca:** la fuente y el candado. **Se enlazan, no se copian.**
 
@@ -52,7 +52,7 @@ Gemas: [cuáles de las seis] | Rastro: [dónde quedó] | Deshecho: [sí | no | n
 |---|---|---|
 | **tocar algo que otro sostiene** | `./herramientas/FRICCION.prs`, y se pregunta antes | **no se toca** |
 | **aplicar, mutar, retirar o invertir un proceso** | la herramienta que corresponda en `./herramientas/` | **no se ejecuta: se declara qué falta** |
-| **tocar lo irreversible** | `../../faro 1.0/lenguajes/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
+| **tocar lo irreversible** | `../../faro 1.0/lenguajes/salida/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
 | **producir lo que todavía no existe** | `./herramientas/COMPONER.prs` | **no se produce: se improvisa** |
 | **crear una herramienta nueva** | el índice `./IMA.md` | **no entra: se declara `[VACÍO - SIN HERRAMIENTA]`** |
 | **mutar la fuente o el candado** | todo, y **se espera** | **no se toca** |

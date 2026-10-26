@@ -24,7 +24,7 @@
 | **La base del área** | **`alma en blanco` · `guantelete` — los dos primitivos** | **`./sincronizacion de almas/primitivos/`** |
 | **La biblioteca** | **`faro 1.0`** — los lenguajes que se escriben sobre la base | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
-| **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronizacion de almas/faro 1.0/lenguajes/LO HUMANO.md`** |
+| **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronizacion de almas/faro 1.0/LO HUMANO.md`** |
 | **El ente de este repositorio** | **`MANTIS`** | **`./mantis/MANTIS.vd`** (puerta: `./mantis/AGENTS.md`) |
 | **Lo que corre** | **la única entrada** | **`./mantis/bin/pedir.py`** |
 | **Lo que vuelve** | **los procedimientos** | **`./mantis/procesos/`** |
@@ -57,20 +57,20 @@
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
 | **leer la tesis o escribir sobre ella** | `./Tesis/candados/autor/000 el cero/` y la carpeta que toque | **no se reescribe: se cita** |
-| **escribir algo entregable** | `./sincronizacion de almas/faro 1.0/lenguajes/CLARIDAD.md` | **no se entrega** |
-| **escribir un proceso** | `./sincronizacion de almas/faro 1.0/lenguajes/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
-| **escribir un ente** | `./sincronizacion de almas/faro 1.0/lenguajes/LENGUAJE.md` | **no se sabe qué extensión le toca** |
-| **medir de forma repetible** | `./sincronizacion de almas/faro 1.0/lenguajes/PISO.md` | **no se mide** |
-| **guardar fricción quitada** | `./sincronizacion de almas/faro 1.0/lenguajes/FIRMAR.prs` | **no se quita sin firma** |
-| **usar llaves y candados** | `./sincronizacion de almas/faro 1.0/lenguajes/JONN.md` (recordar que se abre) y `./mantis/procesos/LLAVE.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
-| **tocar algo que otro sostiene** | `./sincronizacion de almas/faro 1.0/lenguajes/GUANTELETE.prs`, y `./sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd` | **no se toca** |
+| **escribir algo entregable** | `./sincronizacion de almas/faro 1.0/lenguajes/formacion/CLARIDAD.md` | **no se entrega** |
+| **escribir un proceso** | `./sincronizacion de almas/faro 1.0/lenguajes/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
+| **escribir un ente** | `./sincronizacion de almas/faro 1.0/lenguajes/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
+| **medir de forma repetible** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/PISO.md` | **no se mide** |
+| **guardar fricción quitada** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/FIRMAR.prs` | **no se quita sin firma** |
+| **usar llaves y candados** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/JONN.md` (recordar que se abre) y `./mantis/procesos/LLAVE.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
+| **tocar algo que otro sostiene** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/GUANTELETE.prs`, y `./sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd` | **no se toca** |
 | **copiar un alma nueva** | `./sincronizacion de almas/primitivos/alma en blanco/` | **no hay alma** |
-| **comunicar con otro que no es como uno** | `./sincronizacion de almas/faro 1.0/lenguajes/ALAS.md` | **no se comunica: se trunca** |
-| **convivir sin volverse el otro** | `./sincronizacion de almas/faro 1.0/lenguajes/CONVIVIR.vd` | **no hay convivencia: hay copia** |
-| **medir talento** | `./sincronizacion de almas/faro 1.0/lenguajes/TALENTO.md` | **no se decide con quién trabajar** |
-| **afinar dos entes** | `./sincronizacion de almas/faro 1.0/lenguajes/RESONANCIA.md` | **no se afinan** |
-| **declarar de dónde viene algo** | `./sincronizacion de almas/faro 1.0/lenguajes/CONTEXTO.md` | **lo heredado se presenta como propio** |
-| **escribir un resultado** | `./sincronizacion de almas/faro 1.0/lenguajes/RESULTADOS.prs` | **se inventa la medición** |
+| **comunicar con otro que no es como uno** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/ALAS.md` | **no se comunica: se trunca** |
+| **convivir sin volverse el otro** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/CONVIVIR.vd` | **no hay convivencia: hay copia** |
+| **medir talento** | `./sincronizacion de almas/faro 1.0/lenguajes/relacion/TALENTO.md` | **no se decide con quién trabajar** |
+| **afinar dos entes** | `./sincronizacion de almas/faro 1.0/lenguajes/relacion/RESONANCIA.md` | **no se afinan** |
+| **declarar de dónde viene algo** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
+| **escribir un resultado** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/RESULTADOS.prs` | **se inventa la medición** |
 | **responder a un mensaje** | `./mantis/AGENTS.md`, `./mantis/MANTIS.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
 | **decidir algo, antes de decidir** | el historial en `./.memoria continua/rastro/` | **se decide a ciegas** |
 | **abrir un candado** | `./mantis/procesos/LLAVE.prs` | **no se abre** |

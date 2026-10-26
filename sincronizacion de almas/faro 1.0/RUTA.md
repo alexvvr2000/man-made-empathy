@@ -104,7 +104,7 @@ Se gasta:  [qué cambio del mundo lo deja viejo]
 | Piso | De quién es | Qué declara | Dónde |
 |---|---|---|---|
 | **el del mundo** | **de nadie** | qué existe, qué corre, qué falta | **este archivo** |
-| **el del alma** | **de cada alma** | qué usó, qué costó, qué dejó | `./lenguajes/PISO.md` |
+| **el del alma** | **de cada alma** | qué usó, qué costó, qué dejó | `./lenguajes/friccion/PISO.md` |
 
 **Y no se confunden:** **el del mundo se lee antes de entrar; el del alma se escribe después de pasar.** **Un alma que escribe el piso del mundo está programando el mundo desde dentro, y eso se declara, no se supone.**
 

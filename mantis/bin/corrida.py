@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 AQUI = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(AQUI, "..", ".."))
 BASE_ALMAS = os.path.join(REPO, "sincronizacion de almas", "faro 1.0", "lenguajes")
-GRUPOS = ("",)
+GRUPOS = ("formacion", "friccion", "relacion", "salida")
 
 
 def estandar(nombre):
@@ -32,11 +32,8 @@ def rel(p):
 
 
 def r1():
-    faltan = [n for n in ("FORMATO.md", "LENGUAJE.md", "CLARIDAD.md", "JONN.md", "CONTEXTO.md")
+    faltan = [n for n in ("FORMATO.md", "LENGUAJE.md", "CLARIDAD.md", "JONN.md", "CONTEXTO.md", "ALAS.md")
               if estandar(n) is None]
-    alas = os.path.join(BASE_ALMAS, "ALAS.md")
-    if not os.path.isfile(alas):
-        faltan.append("sincronizacion de almas/faro 1.0/lenguajes/ALAS.md")
     if faltan:
         return False, "faltan: " + ", ".join(faltan)
     return True, "los estandares estan donde se citan"

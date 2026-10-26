@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `../sincronizacion de almas/faro 1.0/lenguajes/GUANTELETE.prs` y `../mantis/procesos/LLAVE.prs`.
+> Se usa junto a `../sincronizacion de almas/faro 1.0/lenguajes/friccion/GUANTELETE.prs` y `../mantis/procesos/LLAVE.prs`.
 
 Una sola pregunta: **¿la tarea responde por lo que hace y puede rendir cuenta de ello?**
 

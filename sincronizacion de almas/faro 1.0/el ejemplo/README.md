@@ -35,12 +35,12 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| el alma | `el alma.vd` | [`../../../primitivos/alma en blanco/el alma.vd`](../../../primitivos/alma%20en%20blanco/el%20alma.vd) |
+| el alma | `el alma.vd` | [`../../primitivos/alma en blanco/el alma.vd`](../../primitivos/alma%20en%20blanco/el%20alma.vd) |
 | el primer folder | `lo que llega` | [`./lo que llega/lo que llega.tra`](./lo%20que%20llega/lo%20que%20llega.tra) |
 | el segundo folder | `el nombre` | [`./el nombre/el nombre.tra`](./el%20nombre/el%20nombre.tra) |
 | el tercer folder | `el dato que falta` | [`./el dato que falta/el dato que falta.tra`](./el%20dato%20que%20falta/el%20dato%20que%20falta.tra) |
 | el índice | `IMA.md` | [`./IMA.md`](./IMA.md) |
-| la plantilla que se copió | `plantilla.tra` | [`../../../primitivos/alma en blanco/plantilla.tra`](../../../primitivos/alma%20en%20blanco/plantilla.tra) |
+| la plantilla que se copió | `plantilla.tra` | [`../../primitivos/alma en blanco/plantilla.tra`](../../primitivos/alma%20en%20blanco/plantilla.tra) |
 
 **Y lo que este ejemplo NO trae, a propósito:** **no trae el acto de nadie más.** **Cada quien pone el suyo; lo que se copia es cómo se deja escrito.**
 

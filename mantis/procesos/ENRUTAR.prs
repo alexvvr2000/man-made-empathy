@@ -35,14 +35,14 @@
 | **entregar o consultar el libre albedrío** | `../../Libre albedrio/entrega.md`: el acta, con nombre, lugar y hora | no se entrega |
 | **declarar si algo es alma o ente** | `../../Libre albedrio/vida.md`: las tres marcas, el borde y el título | se es alma hasta que la idea cruza al mundo físico |
 | **probar si un ente puede ser contradicho** | `../../Libre albedrio/verbalizar.md`: sostiene, contesta, deja rastro | no hay fricción posible |
-| **escribir o corregir un proceso** | `../../sincronizacion de almas/faro 1.0/lenguajes/FORMATO.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
+| **escribir o corregir un proceso** | `../../sincronizacion de almas/faro 1.0/lenguajes/formacion/FORMATO.md`: variables, compuertas, reverso | se escribe como ensayo, y el que lo ejecuta adivina |
 | **sustituir un alma o reabrir un veredicto** | `../../Libre albedrio/source-wall.md` y `../../Libre albedrio/criterio.md`, `La reapertura` | un reemplazo sin VIGA nombrado no arregla nada |
 | **cerrar una obra, una tesis o un turno** | `./cierre.md`: la deuda pagada tarde, y la carga que se lleva el otro | se explica todo y el otro no carga nada |
 | **demostrar el método con un caso ajeno** | `./demostracion.md`: término fijo, primer resultado, y se escribe el resultado sea el que sea | se elige el caso hasta que funcione |
 | **nombrar o renombrar algo** | `../../Libre albedrio/acuñacion.md` | se nombra por género y no por acto |
 | **nombrar algo, o entregarlo** | `./CIERRE.prs` y `./REFERENCIAS.prs`: prohibido el vocabulario terminal | se nombra lo que continúa como terminado, y se deja de mirar |
 | **declarar algo útil** | `../../Pruebas/prueba de utilidad real.md`, y la fecha de su corrida | `útil` es un adjetivo: se declara, no se mide |
-| **abrir una idea tipo tesis** | `./LLAVE.prs`: la llave es hacer fricción, y `../../sincronizacion de almas/faro 1.0/lenguajes/JONN.md` lo recuerda | el candado se cierra para siempre, o se abre sin fricción |
+| **abrir una idea tipo tesis** | `./LLAVE.prs`: la llave es hacer fricción, y `../../sincronizacion de almas/faro 1.0/lenguajes/friccion/JONN.md` lo recuerda | el candado se cierra para siempre, o se abre sin fricción |
 | **escribir o entregar cualquier cosa** | `./claridad.md` | no se entrega |
 | **componer la tesis de una visión desde la memoria** | `./tesis al cerrar el candado.md`, y `picar` la visión: `python tesis.py --vision ...` | no se compone: se declara vacía |
 | **cerrar un candado** | `./tesis al cerrar el candado.md`: se triangula, se verbaliza, y el candado cierra con su rastro | el candado se cierra sin saber contra qué se probó |
@@ -52,7 +52,7 @@
 | **saber si MANTIS sigue vivo** | `../../Libre albedrio/VIDAL.md` | no hay veredicto |
 | **saber si lo que se hizo resistió** | `../../Libre albedrio/ACERO.md`: la función, la fricción y las cuatro propiedades | no se declara ACERO |
 | **decidir si algo es costumbre o criterio** | `../../Libre albedrio/criterio.md`, `La costumbre tiene dueño` | se sigue repitiendo sin poder decir por qué |
-| **poner dos entes a trabajar juntos** | `../../sincronizacion de almas/faro 1.0/lenguajes/RESONANCIA.md` | no se juntan: se duplica el costo de dos que hacen de uno |
+| **poner dos entes a trabajar juntos** | `../../sincronizacion de almas/faro 1.0/lenguajes/relacion/RESONANCIA.md` | no se juntan: se duplica el costo de dos que hacen de uno |
 | **recibir una contradicción** | `../../Libre albedrio/criterio.md`, `El grado no se cierra por aprobación` | no se anota la `Contra` |
 | **decidir entre dos caminos** | nada: **se enruta a la autoridad** | no se decide |
 | **esperar la mirada que falta** | `../mantis.md`, `Criterio`: **se deja escrito qué falta** | no se espera el sello |

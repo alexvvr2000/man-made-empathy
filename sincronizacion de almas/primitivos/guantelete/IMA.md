@@ -35,8 +35,8 @@
 | **quitar un proceso cuyo fin dejó de existir** | `herramientas/RETIRAR.prs` | **se queda ocupando el lugar** |
 | **deducir un proceso de lo observable** | `herramientas/INVERTIR.prs` | **no se deduce** |
 | **tocar algo que otro sostiene** | **`../guantelete/GUANTELETE.vd`, y `herramientas/FRICCION.prs` antes** | **no se toca** |
-| **escribir y emitir lo que sale** | `../../faro 1.0/lenguajes/CLARIDAD.md` | **no se emite** |
-| **decir qué se usó, y qué no había** | `../../faro 1.0/lenguajes/PISO.md` | **se inventa la capacidad** |
+| **escribir y emitir lo que sale** | `../../faro 1.0/lenguajes/formacion/CLARIDAD.md` | **no se emite** |
+| **decir qué se usó, y qué no había** | `../../faro 1.0/lenguajes/friccion/PISO.md` | **se inventa la capacidad** |
 
 Una fila, un destino. **Si se cargan dos, se declara por qué: dos puertas abiertas a la vez es la forma en que se pierde el rastro de por qué se hizo algo.**
 
