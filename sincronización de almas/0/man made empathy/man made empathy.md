@@ -267,7 +267,7 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Blue Panther**, el original, por quien y por mi papá conocí la lucha.
 **Axel «El Heredero de Plata»**, que entrevistó al **Negro Navarro**: **el Negro sabe de muchas llaves, y me apantalló y me hizo acercarme a la lucha.** **Y cuando lo entrevistaron y lloró, me di cuenta de que hay cosas que yo no tomo con importancia cuando para otros es mucho.**
-**Pequeño Diamante**, **el Mongol Chino Jr. y su papá el Mongol Chino**, **Angelikal** y **Tormento Negro**, de Monterrey: **me mostraron otro mundo, muy distinto al que prometía la industria del software.** **Sometidos, y con miedo.**
+**Pequeño Diamante**, **el Mongol Chino Jr. y su papá el Mongol Chino**, **Arkangel** y **Tormento Negro**, de Monterrey: **me mostraron otro mundo, muy distinto al que prometía la industria del software.** **Sometidos, y con miedo.**
 **El Hijo del Vikingo**, contra el Grande Americano en *Worlds Collide* de 2025: **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo.** **Me lo mostraron a la fuerza.**
 **Y Luciano Sánchez**, de mi antiguo trabajo en Stella Tech: **fue el que me lo mostró a la fuerza.**
 

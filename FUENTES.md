@@ -110,7 +110,7 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 | **Axel «El Heredero de Plata»**, que entrevistó al **Negro Navarro** | **el Negro sabe de muchas llaves, y me apantalló y me hizo acercarme a la lucha.** **Y cuando lo entrevistaron y lloró, me di cuenta de que hay cosas que yo no tomo con importancia cuando para otros es mucho** |
 | **Pequeño Diamante** de Monterrey | **me mostró otro mundo, muy distinto al que prometía la industria del software** |
 | **El Mongol Chino Jr.** y su papá, **el Mongol Chino**, de Monterrey | **el mismo otro mundo: padre e hijo, y el oficio pasando de uno a otro** |
-| **Angelikal** de Monterrey | **el mismo otro mundo** |
+| **Arkangel**, el de Monterrey | **el mismo otro mundo: el que no es el que prometía la industria del software.** **Y aquí hubo un error de este archivo: se registró primero como «Angelikal», que es otro luchador, de AAA, y la autoridad lo corrigió** |
 | **Tormento Negro** de Monterrey | **el mismo otro mundo** |
 | **El Hijo del Vikingo**, contra **El Grande Americano** (Chad Gable) en *Worlds Collide* 2025 | **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo.** **Me lo mostraron a la fuerza** |
 | **Blue Panther**, el original | **por él y por mi papá conocí la lucha libre** |
@@ -133,7 +133,6 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 | **Mongol Chino Jr.**, hijo y alumno de **Mongol Chino**, nacido en Monterrey en 1972 | **confirmado** |
 | **Tormento Negro**, de Monterrey | **confirmado**, y hay un Tormento Negro de Saltillo que es otro |
 | **Pequeño Diamante** | **confirmado**: debutó en los ochentas, en el elenco de los Coliseinos, y fue maestro de Silver Star |
-| **Angelikal**, y su cambio de nombre a **Myzteziz Jr.** | **confirmado** |
 | **Blue Panther** — Genaro Vázquez Nevarez, debut el 8 de octubre de 1978 | **confirmado**, y la mención a su papá es de la autoridad |
 | **El Hijo del Vikingo** contra **Chad Gable**, *Worlds Collide* del 7 de junio de 2025, y el alter ego de Gable, **El Grande Americano** | **confirmado**: Gable peleó como él mismo, y el Americano es su otro personaje. **Y el Americano tuvo su propia pelea por el campeonato en 2026** |
 
