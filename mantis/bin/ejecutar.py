@@ -15,6 +15,7 @@ Uso:
 
 Sale 0 si pasa, 1 si falla, 2 si el folder no tiene corte.
 """
+import json
 import os
 import re
 import subprocess
@@ -22,12 +23,18 @@ import sys
 from datetime import datetime, timezone
 
 AQUI = os.path.dirname(os.path.abspath(__file__))
-MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
+# la raiz del ente es la carpeta del ejecutor. ENTE_PRUEBA permite correrlo contra un banco.
+MANTIS = os.environ.get("ENTE_PRUEBA") or AQUI
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
 TAREAS = os.path.join(MANTIS, "tareas")
 SUELTOS = ("tareas", "integridad")
 
 CAMPOS = ("Entra:", "Falla si:", "Sale:", "Consume:")
+
+
+def imports_hash(texto):
+    import hashlib
+    return {"hash": hashlib.sha256(texto.encode("utf-8")).hexdigest()[:16]}
 
 
 def leer(p):
@@ -45,7 +52,14 @@ def cortes(texto):
 
 
 def procesos_de(carpeta):
-    return sorted(f for f in os.listdir(carpeta) if f.endswith(".prs"))
+    """El corte de una tarea vive en su .tra; el de un folder de proceso, en su .prs."""
+    import glob
+    ps = sorted(f for f in os.listdir(carpeta) if f.endswith(".prs"))
+    if ps:
+        return ps
+    tras = sorted(x for x in glob.glob(os.path.join(carpeta, "*.tra"))
+                  if os.path.basename(x) != "rastro.tra")
+    return [os.path.basename(x) for x in tras]
 
 
 def verificar(carpeta):
@@ -54,6 +68,8 @@ def verificar(carpeta):
     ps = procesos_de(carpeta)
     if not ps:
         return False, "no hay .prs"
+    if ps[0].endswith(".tra") and not cortes(leer(os.path.join(carpeta, ps[0]))):
+        return False, "el .tra existe y no declara el corte"
     problemas = []
     for p in ps:
         c = cortes(leer(os.path.join(carpeta, p)))
@@ -67,7 +83,7 @@ def verificar(carpeta):
 
 def dejartra(carpeta, proceso, entro, salio, veredicto):
     nombre = os.path.basename(os.path.abspath(carpeta))
-    p = os.path.join(carpeta, nombre + ".tra")
+    p = os.path.join(carpeta, "rastro.tra")
     ahora = datetime.now(timezone.utc).isoformat(timespec="seconds")
     cuerpo = (
         "# {n}.tra — lo que pasó\n\n"
@@ -101,17 +117,49 @@ IMPLEMENTACIONES = {
 }
 
 
+def candidato(carpeta, nombre):
+    """Donde esta con que: paso.* en la tarea, o el paso declarado del mundo."""
+    import glob
+    propio = sorted(glob.glob(os.path.join(carpeta, "paso.*")))
+    if propio:
+        return propio[0]
+    impl = IMPLEMENTACIONES.get(nombre)
+    if impl:
+        ruta = os.path.join(AQUI, impl)
+        return ruta if os.path.isfile(ruta) else None
+    return None
+
+
 def correr_paso(carpeta):
     nombre = os.path.basename(os.path.abspath(carpeta))
-    impl = IMPLEMENTACIONES.get(nombre)
-    if impl is None:
-        return "[SIN IMPLEMENTACION] la tarea declara su corte, y este mundo no tiene con que cumplirlo", 2
-    ruta = os.path.join(AQUI, impl)
-    if not os.path.isfile(ruta):
-        return "[FALTA EN bin/] {} declara {}, y no esta".format(nombre, impl), 2
-    r = subprocess.run([sys.executable, ruta], capture_output=True, text=True, encoding="utf-8", errors="replace")
+    ruta = candidato(carpeta, nombre)
+    if ruta is None:
+        return ("[FALTA EN bin/] esta tarea declara su corte, y este mundo no tiene con que cumplirlo.\n"
+                "                 se busca: paso.* en la tarea, o el paso que el mundo declare."), 2
+    ext = os.path.splitext(ruta)[1].lower()
+    if ext == ".py":
+        argv = [sys.executable, ruta]
+    elif ext == ".ps1":
+        argv = ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ruta]
+    else:
+        argv = [ruta]
+    r = subprocess.run(argv, capture_output=True, text=True, encoding="utf-8", errors="replace")
     salida = ((r.stdout or "") + (r.stderr or "")).strip()
     return salida, r.returncode
+
+
+def negarse(carpeta, motivo, porque):
+    """La negativa se firma con hash: una negativa sin firma no se puede contestar."""
+    import uuid
+    texto = "{}|{}|{}".format(os.path.basename(carpeta), motivo, datetime.now(timezone.utc).isoformat())
+    ruta = os.path.join(MANTIS, "memoria", "negativa.jsonl")
+    os.makedirs(os.path.dirname(ruta), exist_ok=True)
+    registro = imports_hash(texto)
+    registro.update({"tarea": os.path.basename(carpeta), "motivo": motivo, "porque": porque[:200],
+                     "firma": "ejecutor", "fecha": datetime.now(timezone.utc).isoformat(timespec="seconds")})
+    with open(ruta, "a", encoding="utf-8") as fh:
+        fh.write(json.dumps(registro, ensure_ascii=False, sort_keys=True) + "\n")
+    return registro
 
 
 def carpeta_de(nombre):
@@ -175,10 +223,20 @@ def main(argv):
             print(n)
         return 0
 
-    carpeta = carpeta_de(argv[1])
+    # --sin-tra es un interruptor, y el nombre de la tarea es otra cosa
+    resto = [a for a in argv[1:] if not a.startswith("--")]
+    if not resto:
+        print("[FALTA EL NOMBRE] di que tarea")
+        return 1
+    sin_tra = "--sin-tra" in argv
+
+    carpeta = carpeta_de(resto[0])
     ok, msg = verificar(carpeta)
     if not ok:
         print("[ACTIVIDAD - SIN CORTE] " + msg)
+        if os.path.isdir(carpeta):
+            r = negarse(carpeta, "SIN CORTE", msg)
+            print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 2
 
     proceso = procesos_de(carpeta)[0]
@@ -190,8 +248,15 @@ def main(argv):
     salida, codigo = correr_paso(carpeta)
     print("")
     print(salida)
+    if codigo == 2 and salida.startswith("[FALTA EN bin/"):
+        r = negarse(carpeta, "FALTA EN bin/", salida[:200])
+        print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
 
-    if "--sin-tra" not in argv:
+    if not sin_tra:
+        import hashlib
+        firma = hashlib.sha256("\n".join(c[k][:120] for k in CAMPOS).encode("utf-8")).hexdigest()[:16]
+        with open(os.path.join(carpeta, ".corte"), "w", encoding="utf-8") as fh:
+            fh.write(firma)
         tra = dejartra(carpeta, proceso, c["Entra:"], salida[:400], "codigo " + str(codigo))
         print("")
         print("deja: " + os.path.relpath(tra, MANTIS))

@@ -1,0 +1,100 @@
+# EJECUTOR — los cinco verbos, y la firma que no se salta
+
+**Nombre.** EJECUTOR. **Y el nombre dice el acto:** **leer un corte, y cumplirlo, sin saber qué hay adentro.**
+**Reemplaza:** el archivo anterior, que decía «el estándar no nombra el ejecutor» y lo dejaba a la prosa. **Conserva lo que decía, y le pone lo que le faltaba: la forma.**
+
+**Unidad:** pieza.
+**Aplica a:** correr.
+**Tipo:** se declara y se comprueba. **No es un lenguaje: es una lista de cinco verbos, y cada uno tiene su firma.**
+**Lector:** quien vaya a escribir un ejecutor, y quien vaya a usar uno que otro escribió.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** un ejecutor se lee desde lo que **deja escrito**, no desde lo que corre.
+**Límite:** **no sabe qué hace ningún proceso.** **No busca lo que no le dieron.** **No decide si el resultado sirve.**
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Variables:** verbo · corte · qué · salida · negativa
+**Peor:** un ejecutor que corre y **no deja rastro**: el acto ocurrió, y nadie puede decir qué se corrió. **Ese es el absoluto, y no hace falta que sea un villano: basta que sea cómodo.**
+**Quién:** quien use un resultado que nadie puede volver a producir.
+
+---
+
+## La regla
+
+> **Un ejecutor no es un programa para correr tareas: es una lista de cinco verbos con su firma.** **El que se salte uno no es un ejecutor: es una mano que corre solo.**
+
+**Y no nombra lenguaje.** **Se puede escribir en lo que sea, o no escribirse: una IA lo cumple leyendo esto.** **Lo que no se puede es inventarse un sexto verbo sin decirlo.**
+
+## Los cinco verbos
+
+| # | Verbo | Entra | Sale | Se salta si |
+|---|---|---|---|---|
+| **1** | **`LEER`** | el `.tra` de una tarea | los cuatro campos, o `[SIN CORTE]` | no hay corte: **no se inventa** |
+| **2** | **`BUSCAR`** | el nombre de la tarea, y **el piso del mundo** | con qué se cumple, o `[FALTA EN bin/]` | **no se busca fuera del piso**: si el mundo no lo declara, no existe |
+| **3** | **`CORRER`** | con qué, y los cuatro campos **como texto** | la salida, y si salió bien | **el ejecutor no toca lo que no le dieron**: recibe texto, no va a buscar archivos |
+| **4** | **`DEJAR`** | la salida | `rastro.tra`, la memoria, y la huella del corte que corrió | **sin esto no hay prueba: corrió y no pasó** |
+| **5** | **`NEGARSE`** | por qué no | una negativa **firmada**, y **no corre** | **sin esto todo corre, y ese es `AM`** |
+
+**Y las dos que son la ley, no el adorno: `DEJAR` y `NEGARSE`.** **Un ejecutor sin `DEJAR` es un absoluto que corre; uno sin `NEGARSE` es un absoluto que siempre puede.**
+
+## La firma de cada verbo
+
+**Cada verbo deja su línea, y se escribe aunque el verbo se niegue.** **Un verbo sin firma no se puede contestar.**
+
+```plaintext
+LEER:      [qué .tra] | Corte: [cuatro campos | SIN CORTE] | Firma: [tipo:quién | ejecutor]
+BUSCAR:    [la tarea] | Piso: [qué capacidades] | Con: [qué lo cumple | FALTA EN bin/]
+CORRER:    [qué corrió] | Entra: [el texto que se le pasó] | Salió: [código]
+DEJAR:     [dónde quedó el rastro] | Huella del corte: [sha256] | Memoria: [dónde]
+NEGARSE:   [por qué se negó] | Firma: [tipo:quién] | Hash: [sha256 de la negativa]
+```
+
+**Y la regla de `NEGARSE` es la de [`../friccion/FIRMAR.prs`](../friccion/FIRMAR.prs):** **la negativa se firma con su hash.** **Negarse sin firma no es negarse: es fallar.**
+
+## Cuándo se niega, y no es lo mismo que fallar
+
+| `NEGARSE` dice | Cuándo | Qué no hace |
+|---|---|---|
+| **`[SIN CORTE]`** | la tarea no declara los cuatro campos | no corre |
+| **`[SIN ALLENAR]`** | la carta o el piso tienen corchetes | no corre |
+| **`[FALTA EN bin/]`** | no hay con qué, y el piso no lo tiene | **no improvisa** |
+| **`[IGUAL]`** | el corte no cambió desde la última corrida | no corre, y lo dice |
+| **`[FALTA EN EL PISO]`** | el corte pide una capacidad que el mundo no declaró | no corre, y nombra cuál |
+
+**Y la diferencia con fallar:** **una corrida que falla deja `rastro.tra`; una negativa deja su firma en la memoria, y la tarea queda intacta.** **Una negativa no es una corrida, y no se cuenta como una.**
+
+## La prueba, y no se lee: se corre
+
+**A un ejecutor se le da un juego fijo de tareas —una que pasa, una sin corte, una sin con qué— y se ven sus cinco firmas.**
+
+```
+1. LEER    una tarea que pasa: devuelve los cuatro campos
+2. LEER    una sin corte:      devuelve [SIN CORTE]
+3. BUSCAR  una sin con qué:    devuelve [FALTA EN bin/]
+4. CORRER  la que pasa:        corre, y no toca un archivo que no le dieron
+5. DEJAR   la que pasa:        queda rastro.tra, memoria, y huella
+6. NEGARSE la sin corte:       no corre, y la negativa tiene hash
+```
+
+**El que salga bien en los seis es conforme.** **El que se salte uno, no lo es, y se dice cuál.**
+
+## Lo que este contrato no hace
+
+**No dice que lenguaje.** **No dice cómo se busca.** **No dice qué hace una tarea.**
+**No obliga a usarlo:** una IA puede cumplir los cinco verbos leyendo este archivo, y su firma es la misma.
+
+**Y por eso no amarra a nadie:** el contrato se cumple, no se instala.
+
+## Prueba
+
+**¿Cada verbo deja su firma? ¿`CORRER` recibe texto y no va a buscar archivos? ¿`BUSCAR` no sale del piso del mundo? ¿`DEJAR` deja el rastro y la huella? ¿`NEGARSE` firma su negativa con hash, y no deja la tarea como corrida?**
+
+**Falsificador:** un ejecutor sin uno de los cinco verbos; un `CORRER` que busca archivos por su cuenta; un `BUSCAR` que trae de fuera del piso; una corrida sin `rastro.tra`; una negativa sin hash; una negativa que se cuenta como corrida.
+
+## Transiciones
+
+- Se escribe un ejecutor → **se le corre el juego de seis, y se declara conforme o no.**
+- Un verbo no deja su firma → **no es conforme, y se dice cuál.**
+- El mundo cambia su piso → **se corre `BUSCAR` otra vez: lo que había puede ya no estar.**
+- Un ejecutor se borra → **el contrato queda: una IA lo cumple leyendo esto, y la firma es la misma.**

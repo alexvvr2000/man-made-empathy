@@ -32,6 +32,7 @@ Uso:
 Sale 0 si pasa, 1 si falla, 2 si no puede, 3 si no corrio porque estaba igual.
 """
 import hashlib
+import io
 import json
 import os
 import re
@@ -41,7 +42,8 @@ from datetime import datetime, timezone
 
 # el ejecutor vive EN la raiz del ente: el ente esta aqui, no arriba
 AQUI = os.path.dirname(os.path.abspath(__file__))
-ENTE = AQUI
+# la raiz del ente es la carpeta del ejecutor. ENTE_PRUEBA permite correrlo contra un banco.
+ENTE = os.environ.get("ENTE_PRUEBA") or AQUI
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(ENTE, ".."))
 TAREAS = os.path.join(ENTE, "tareas")
 BIN = AQUI
@@ -130,6 +132,8 @@ def verificar(carpeta):
     ps = procesos_de(carpeta)
     if not ps:
         return False, "no hay .prs"
+    if ps[0].endswith(".tra") and not cortes(leer(os.path.join(carpeta, ps[0]))):
+        return False, "el .tra existe y no declara el corte"
     problemas = []
     for p in ps:
         c = cortes(leer(os.path.join(carpeta, p)))
@@ -251,6 +255,30 @@ def dejartra(carpeta, proceso, entro, salio, veredicto, extra=None):
     with open(p, "w", encoding="utf-8", newline="") as fh:
         fh.write(cuerpo)
     return p
+
+
+def negarse(carpeta, motivo, porque, firma="ejecutor"):
+    """La negativa se firma con su hash, y no deja la tarea como corrida.
+
+    Es la regla de FIRMAR.prs: una negativa sin hash no se puede contestar,
+    y una negativa que se cuenta como corrida ensucia el recibo de la tarea.
+    """
+    nombre = os.path.basename(os.path.abspath(carpeta))
+    texto = "{} | {} | {} | {}".format(nombre, motivo, porque,
+                                       datetime.now(timezone.utc).isoformat(timespec="seconds"))
+    ruta = os.path.join(ENTE, "memoria", "negativa.jsonl")
+    os.makedirs(os.path.dirname(ruta), exist_ok=True)
+    registro = {
+        "tarea": nombre,
+        "motivo": motivo,
+        "porque": porque[:200],
+        "firma": firma,
+        "hash": hashlib.sha256(texto.encode("utf-8")).hexdigest()[:16],
+        "fecha": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    with io.open(ruta, "a", encoding="utf-8", newline="") as fh:
+        fh.write(json.dumps(registro, ensure_ascii=False, sort_keys=True) + "\n")
+    return registro
 
 
 def memoria(carpeta, rastro):
@@ -379,6 +407,9 @@ def main(argv):
     ok, msg = verificar(carpeta)
     if not ok:
         print("[ACTIVIDAD - SIN CORTE] " + msg)
+        if os.path.isdir(carpeta):
+            r = negarse(carpeta, "SIN CORTE", msg)
+            print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 2
 
     proceso = procesos_de(carpeta)[0]
@@ -397,6 +428,8 @@ def main(argv):
         print("")
         print("[IGUAL] el corte no cambio desde la ultima corrida ({}): no se corre".format(firma))
         print("        si ya cambio algo que el corte no ve, se corre con --sin-tra")
+        r = negarse(carpeta, "IGUAL", "el corte no cambio: " + firma)
+        print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 3
     if antes == firma and sin_tra:
         print("")
@@ -411,6 +444,8 @@ def main(argv):
         print("                 no se improvisa.")
         if not sin_tra:
             dejartra(carpeta, proceso, c["Entra:"], "[FALTA EN bin/]", "codigo 2")
+            r = negarse(carpeta, "FALTA EN bin/", "no hay con que: " + nombre)
+            print("[NEGARSE] firmada: {}, hash {}".format(r["firma"], r["hash"]))
         return 2
 
     ruta = cs[0]

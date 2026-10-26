@@ -220,7 +220,20 @@ def main(argv):
         print("falla: {} capacidad(es) declaradas que no pasaron su prueba".format(fallaron))
         return 1
 
+    # el piso LISTO: todo lo que declara lo puede, y todo lo que no puede lo declaro
+    falla_algo = [c for c in CAPACIDADES
+                  if c not in declaradas_aqui and c not in negadas
+                  and PRUEBAS[c](ruta_pr, ENTE)[0]]
+    if falla_algo:
+        print("[A MEDIAS]  este mundo puede " + ", ".join(falla_algo)
+              + ", y no lo declara: una capacidad que existe y se calla no se puede contestar")
+        print("            se declara en capacidades:, y se vuelve a medir")
+        return 1
+
     print("pasa: el mundo declara lo que puede, y lo puede")
+    print("")
+    print("[LISTO] este piso puede sostener el nacimiento de un ente")
+    print("        todo lo que declara lo paso, y todo lo que no puede esta declarado")
     print("")
     print("lo que no declara, no existe: si un corte lo necesita, se declara [FALTA EN EL PISO]")
     return 0

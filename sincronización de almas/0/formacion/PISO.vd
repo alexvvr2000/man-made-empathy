@@ -53,11 +53,44 @@ se_gasta:         [qué cambio del mundo lo deja viejo]
 
 **`no_puede` no es una derrota: es la mitad del piso.** **Un mundo que no puede `entre_turnos` y lo dice no está roto: está declarado, y el ente no promete nada para después.**
 
+---
+
+## La regla del nacimiento: no nace nada con el piso a medias
+
+**Y esto es lo que impide que una opinión se vuelva un ente.**
+
+> **Un ente no nace hasta que el piso de su mundo está listo.** **Y el piso no está listo porque se escribió: está listo cuando se midió, y salió completo.**
+
+**"Completo" tiene dos condiciones, y las dos se corren, no se opinan:**
+
+| Condición | Qué significa |
+|---|---|
+| **todo lo que declara, lo puede** | cada capacidad declarada pasó su prueba |
+| **todo lo que no puede, lo declaró** | `no_puede` no está vacío si le falta algo, y **nombra qué** |
+
+**Y lo que no declara, no existe.** **Si el ente pide una capacidad que el piso no declara, es `[FALTA EN EL PISO]`, y no corre.** **No se supone: se dice.**
+
+**Por qué esto importa, y es la misma razón de `NEGARSE` en [`EJECUTOR`](./EJECUTOR.vd):** **un piso a medias no falla cuando algo sale mal: falla cuando algo sale bien, y entonces nadie lo puede volver a producir porque el mundo no tenía con qué.**
+
+**Un mundo con el piso a medias admite opiniones. No admite entes.**
+
+## La prueba del nacimiento
+
+```
+1. se llena el piso
+2. se corre su prueba, capacidad por capacidad
+3. lo que falló se corrige, o se declara no_puede
+4. solo entonces se llena la carta del ente: Nombre, Falta, Contesta
+5. el primer corte que se corre es el que nace
+```
+
+**Prohibido el paso 4 sin el 3.** **Un ente con los tres corchetes llenos y el piso a medias es un ente con opinión: parece que corre, y no se puede reproducir.**
+
 ## La prueba
 
-**¿Cada capacidad declarada tiene su prueba, y se corrió? ¿Alguna capacidad nombra cómo en vez de qué? ¿Lo que falta está declarado, y qué se pierde? ¿Se dice cuándo el mundo se gasta?**
+**¿Cada capacidad declarada tiene su prueba, y se corrió? ¿Alguna capacidad nombra cómo en vez de qué? ¿Lo que falta está declarado, y qué se pierde? ¿Se dice cuándo el mundo se gasta? ¿Se midió el piso ANTES de llenar la carta del ente?**
 
-**Falsificador:** una capacidad sin prueba, o con prueba que no se corrió; una capacidad que nombra su herramienta en vez de su acto; un `no_puede` vacío; un mundo que declara `entre_turnos` y no lo tiene; un piso escrito para un dominio y no para lo que corre.
+**Falsificador:** una capacidad sin prueba, o con prueba que no se corrió; una capacidad que nombra su herramienta en vez de su acto; un `no_puede` vacío; un mundo que declara `entre_turnos` y no lo tiene; un piso escrito para un dominio y no para lo que corre; **un ente que nace con el piso sin medir.**
 
 ## Transiciones
 
@@ -65,3 +98,5 @@ se_gasta:         [qué cambio del mundo lo deja viejo]
 - Una capacidad se declara y falla su prueba → **no tiene la capacidad: se declara `no_puede`, y lo que dependía de ella no corre.**
 - El mundo cambia → **se vuelve a medir. Un piso que no se mide es una promesa.**
 - Se quiere una capacidad nueva → **se nombra la falta que la pide, y se refuta: ¿un corte se cumple sin ella? Si sí, no entra.**
+- Se quiere que nazca un ente → **primero el piso listo; después la carta.** **Al revés no se nace: se opina.**
+

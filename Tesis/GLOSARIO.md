@@ -36,7 +36,7 @@
 | **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/faro 1.0/RUTA.rt` |
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
-| **EJECUTOR** | **lo que corre un `.prs`: lo declara el mundo** | `0/formacion/EJECUTOR.md` |
+| **EJECUTOR** | **los cinco verbos con que se cumple un corte: `LEER`, `BUSCAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
 | **FORMATO · LENGUAJE · CLARIDAD · INTEGRIDAD** | **cómo se escribe** | `0/formacion/` |
 | **PISO · FIRMAR · JONN · GUANTELETE.prs** | **qué impide cagarla** | `0/friccion/` |
 | **RESONANCIA · COLMENA · TALENTO** | **cómo se afinan dos, muchos, y quién sirve** | `0/relacion/` |
