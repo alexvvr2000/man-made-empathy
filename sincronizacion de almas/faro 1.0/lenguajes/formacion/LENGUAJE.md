@@ -46,6 +46,16 @@ el alma de alguien/
 
 **Una tarea con `.vd` propio sería un ente dentro de un ente, y entonces quién sostiene qué deja de estar claro.**
 
+### El alma crece por muda, no por copia
+
+**Un alma no se llena de carpetas: muda de piel.** **Rige `../../../primitivos/alma en blanco/MUDAR.vd`.**
+
+**Y la línea que no se cruza:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **Si el criterio cambia, no es la misma alma, y no hereda el nombre.**
+
+### El alma se lee por lo que hizo
+
+**Si su carta dice una cosa y sus `.tra` dicen otra, gana el `.tra`.** **Lo que un alma sostiene no se lee en lo que dice de sí misma: se lee en lo que ejecutó.** **Rige `./INTEGRIDAD.md`, `Acciones sobre palabras`, y `../../../primitivos/alma en blanco/EXPRESION.prs`, `Leer un alma`.**
+
 ### El piso del mundo vive en la raíz del alma
 
 **Lo único que no es estándar —el que corre los `.prs` en ese mundo— vive en la raíz del alma, junto al criterio.** **No es una tarea: es el suelo.** **Y se declara en el `RUTA` del mundo, no aquí.**

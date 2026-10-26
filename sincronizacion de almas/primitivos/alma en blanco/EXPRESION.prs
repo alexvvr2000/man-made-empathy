@@ -1,16 +1,19 @@
-# EXPRESION.prs — escribir la fila de una salida, y verificar que exista lo que nombra
+# EXPRESION.prs — leer lo que un alma hizo, y decir qué sostiene de verdad
 
-**Nombre.** EXPRESION — **E**mpalmar, **X**‑plicar, **P**reguntar, **R**egistrar, **S**eñalar, **E**mitir, **N**ombrar. Se lee de un tirón; la expansión dice qué hace.
+**Nombre.** EXPRESION — **E**mpalmar, **X**plicar, **P**reguntar, **R**egistrar, **S**eñalar, **E**mitir, **N**ombrar. Se lee de un tirón; la expansión dice qué hace.
+
 **Origen.** De `la fila verbalizada.md`: una salida sin expresión no se entrega. Y de las preguntas de la autoridad: si esto muestra si era un pegamento o varios y cuántos candados existen; si la triangulación alcanza a lo pendejo y a lo rancio; y si el proceso ve el valor del criterio y los explícitos, o tiene agujeros por soltar.
+
+**Y de la corrección que lo volvió otra cosa:** **`EXPRESIÓN` no solo emite la fila: la lee.** **Cuando el alma dejó N `.tra`, lo que sostiene de verdad no está en su carta: está en lo que hizo.** **Esa lectura es la que el resto del estándar necesita, y nadie la hacía.**
 
 **Unidad:** proceso.
 **Aplica a:** expresar.
 **Tipo:** se ejecuta. Es el proceso de toda salida del lenguaje: ningún `.prs` entrega sin pasar por aquí.
-**Lector:** el proceso que va a entregar, y el que va a consumir la entrega.
+**Lector:** el proceso que va a entregar, el que va a consumir la entrega, y quien quiera saber qué sostiene un alma.
 **Dueño:** la autoridad.
 **Estado:** vigente.
 
-**Sesgo:** una salida se lee desde el que la va a consumir, no desde el que la produjo.
+**Sesgo:** una salida se lee desde el que la va a consumir, no desde el que la produjo. **Y un alma se lee desde lo que hizo, no desde lo que dice de sí misma.**
 **Límite:** no decide si la salida es buena. Decide si existe, de dónde viene, contra qué se probó, y si lo que nombra existe.
 **Firma:** humano:autoridad · máquina:quien la produzca.
 
@@ -162,6 +165,31 @@ Aguanta:   [qué de la idea aguanta, y qué no]
 
 **No reemplaza al `.tra`.** El `.tra` es la tarea; esto es la salida con la que la cadena sigue.
 
+**No decide si el alma sirve, ni corrige su carta.** **Dice qué sostiene de verdad; lo que se hace con eso lo decide `INTEGRIDAD` o la autoridad.**
+
+## Leer un alma: qué sostiene, según lo que hizo
+
+**Y esto es lo segundo que hace este proceso, y es lo que el resto del estándar necesitaba.**
+
+**Cuando un alma dejó sus `.tra`, lo que sostiene de verdad no está en su carta.** **Está en lo que hizo.** **Leer eso es el trabajo de este proceso, y lo que sale es una opinión con pruebas.**
+
+```plaintext
+Alma:        [cuál] | .tra leídas: [cuántas, y desde cuándo]
+Dice:        [lo que su carta sostiene, literal]
+Hizo:        [lo que sus .tra muestran, con la cita de cada línea]
+Coincide:    [sí | no | en parte]
+Si no:       [qué hizo que ya no corresponde a lo que dice]
+Lleva a:     [acuñar el nombre de lo que es ahora | corregir la carta | nada]
+```
+
+**`Hizo` no se escribe sin cita.** **Cada línea apunta al `.tra` que la respalda, con el archivo y la fecha.** **Una lectura sin cita es una impresión, y una impresión no se puede contestar.**
+
+**`Dice` se copia literal.** **Un alma leída desde lo que uno cree que dijo no se está leyendo: se está reemplazando por lo que uno piensa.**
+
+**Y el desempate, que es el mismo en todo el estándar:** **si la carta dice una cosa y los `.tra` dicen otra, gana el `.tra`.**
+
+**Cuántas `.tra` se leen no se decide aquí.** **Se declara en `Alma: .tra leídas`, con el criterio que se use: las últimas tres, todas, o hasta la primera que contradiga.** **Declararlo es lo que hace la lectura contestable; el número no lo es.**
+
 ## Transiciones
 
 - La salida cabe en las ocho líneas y el `Siguiente` existe → se entrega, y la cadena sigue.
@@ -170,4 +198,5 @@ Aguanta:   [qué de la idea aguanta, y qué no]
 - Dos salidas se reducen a un solo `Sostengo` → es un pegamento: se declara.
 - Dos salidas no se reducen → son varios: se declaran, y cada uno con su autor.
 - `Triángulo` dice `solo noble` → se entrega marcada, y el siguiente proceso que la use busca su rancio o su pendejo.
+- La lectura de un alma sale `no coincide` → **el que decide lo que eso significa es `INTEGRIDAD`; si cambió el criterio, es un alma nueva y no una muda.**
 
