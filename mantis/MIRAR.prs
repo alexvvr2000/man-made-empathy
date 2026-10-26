@@ -1,0 +1,43 @@
+# MIRAR.prs — ver lo que la tarea dejó, y decir si el nombre sigue en pie
+
+**Nombre.** MIRAR — **M**edir, **I**dentificar, **R**econocer, **A**notar, **R**ecordar.
+**Origen.** El ciclo: después de `ENTRAR`, el ente tiene algo que ver.
+
+**Unidad:** proceso.
+**Aplica a:** mirar.
+**Tipo:** se ejecuta.
+**Lector:** el ente que ya tiene un `.tra` y mira si su nombre lo cubre.
+**Dueño:** la autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se mira desde lo que quedó escrito.
+**Límite:** no renombra por gusto; renombra solo si el acto ya no es el que la expansión dice.
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Variables:** nombre · expansión · acto · distancia
+**Peor:** se deja el mismo nombre cuando el acto ya cambió.
+**Quién:** quien lea el nombre después y crea que cubre un acto que no cubre.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** la carpeta de la tarea con su `.tra`.
+- **Falla si:** se cambia el nombre sin declarar qué acto no cubría el viejo; el nombre nuevo lleva número; el viejo se borra en vez de `Reemplaza:`.
+- **Sale:** el nombre que sigue en pie, o el nuevo con su `Reemplaza:`.
+- **Consume:** la tarea, que se abre con ese nombre.
+
+```
+1. medir        → la expansión del nombre, literal
+2. identificar  → el acto que ocurrió, según la huella
+3. reconocer    → ¿la expansión lo cubre? sí | no
+4. anotar       → si no: nombre nuevo, y qué no cubría el viejo
+5. recordar     → el viejo queda con Reemplaza:, visible
+Prohibido el paso 4 sin el 3.
+```
+
+## El nombre en blanco, y su pregunta
+
+Un nombre que dice "en blanco" dice lo que el artefacto es en su primer instante, cuando no se escribió nada encima. No es que espere: es que en ese momento está vacío. Y en cuanto hay algo escrito, el nombre tiene que decirlo.
+
+**Prueba:** ¿leyó la expansión y no el nombre? ¿el acto se identificó por la huella? ¿el viejo quedó con `Reemplaza:`? ¿sin número?
+**Falsificador:** renombrar sin `Reemplaza:`; un nombre numerado; leer el nombre y no la expansión.
+

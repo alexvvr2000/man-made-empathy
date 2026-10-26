@@ -10,7 +10,7 @@
 
 **Ficción.** Ninguna: los nombres de este repo, que ya se leen de un tirón.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde el diseño adulto deje entrar más que el niño.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

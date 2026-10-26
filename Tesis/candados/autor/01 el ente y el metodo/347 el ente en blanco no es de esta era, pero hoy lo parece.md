@@ -14,7 +14,7 @@
 
 **Falsificador.** Un ente que solo se entiende dentro de su era.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

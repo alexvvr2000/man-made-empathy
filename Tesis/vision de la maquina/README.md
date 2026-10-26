@@ -16,8 +16,8 @@ Tesis/visiones/<nombre>/
 ```
 
 ```
-python mantis/bin/visor.py --contar
-python mantis/bin/visor.py --vision "<nombre>"
+python mantis/ejecu.py la tesis
+python mantis/ejecu.py la tesis
 ```
 
 **Unidad:** nivel.
@@ -28,7 +28,7 @@ python mantis/bin/visor.py --vision "<nombre>"
 **Estado:** vigente.
 
 **Sesgo:** se lee desde el que trae su visión, no desde el que ya tenía una.
-**Límite:** no es una visión compuesta: **es la puerta a una.** El proceso que la compone es `mantis/procesos/VISOR.prs`.
+**Límite:** no es una visión compuesta: **es la puerta a una.** El proceso que la compone es `mantis/folders/la tesis/`.
 **Firma:** humano:autoridad · máquina:quien la traiga.
 
 ## Lo que una máquina declara, y siempre las mismas cuatro cosas

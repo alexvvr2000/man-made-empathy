@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde el que nunca tuvo otra comunidad pueda convivir con una.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

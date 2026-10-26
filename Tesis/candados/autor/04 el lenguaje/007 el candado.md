@@ -10,7 +10,7 @@
 
 **Ficción.** Lex Luthor en la carcel: una idea que no se abre desde donde se mira.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

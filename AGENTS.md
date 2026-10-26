@@ -14,7 +14,7 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `./mantis/bin/pedir.py piso`, que da el veredicto con su porqué.
+**Sesgo:** se verifica desde `python mantis/ejecu.py --verificar`, que da el veredicto con su porqué.
 **Límite:** dice qué hay; **no juzga si sirve.**
 
 | Qué hay | Nombre | Dónde |
@@ -25,10 +25,10 @@
 | **La biblioteca** | **`faro 1.0`** — los lenguajes que se escriben sobre la base | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
 | **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronizacion de almas/faro 1.0/LO HUMANO.md`** |
-| **El ente de este repositorio** | **`MANTIS`** | **`./mantis/MANTIS.vd`** (puerta: `./mantis/AGENTS.md`) |
-| **Lo que corre** | **la única entrada** | **`./mantis/bin/pedir.py`** |
-| **Lo que vuelve** | **los procedimientos** | **`./mantis/procesos/`** |
-| **La memoria viva** | **la base, el texto y el esquema** | **`./.memoria continua/rastro/`** |
+| **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./mantis/AGENTS.md`) |
+| **Lo que corre** | **la única entrada** | **`./mantis/ejecu.py`** |
+| **Los folders** | **lo que `mantis` mantiene: el cero, los candados, la tesis, la memoria** | **`./mantis/folders/`** |
+| **La memoria viva** | **las `.tra` de cada folder, y la base de antes** | **`./mantis/folders/` · `./.memoria continua/rastro/`** |
 | **Las pruebas del repositorio** | **las que sostiene la autoridad** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
@@ -40,10 +40,10 @@
 
 | Criterio | Prueba | Falsificador |
 |---|---|---|
-| El ente tiene las tres piezas | ¿quien abre `./mantis/MANTIS.vd` encuentra Rastro, Ruta y Carga? | un ente sin una de las tres |
+| El ente tiene las tres piezas | ¿quien abre `./mantis/el alma.vd` encuentra Rastro, Ruta y Carga? | un ente sin una de las tres |
 | La ruta declara autoridad | ¿cada fila de `Ruta` dice qué no se hace sin autoridad? | una lista de cargas sin la columna |
 | La carga dice el síntoma | ¿cada pérdida se ve cuando ocurre? | una pérdida sin síntoma |
-| Las citas resuelven | `pedir.py piso` no reporta cita muerta en este archivo | una ruta a algo que no está |
+| Las citas resuelven | `ejecu.py --verificar` no reporta cita muerta en este archivo | una ruta a algo que no está |
 
 **Y lo que ya no está:** **`Libre albedrio/` y `Ouroboros/` murieron.** **Su contenido vivo está en `./sincronizacion de almas/`, y lo que no sobrevivió está en la memoria y en el archivo histórico de la autoridad.** **Este archivo no las cita: no promete lo que no puede abrir.**
 
@@ -62,7 +62,7 @@
 | **escribir un ente** | `./sincronizacion de almas/faro 1.0/lenguajes/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
 | **medir de forma repetible** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/PISO.md` | **no se mide** |
 | **guardar fricción quitada** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/FIRMAR.prs` | **no se quita sin firma** |
-| **usar llaves y candados** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/JONN.md` (recordar que se abre) y `./mantis/procesos/LLAVE.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
+| **usar llaves y candados** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/JONN.md` (recordar que se abre) y `./mantis/folders/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
 | **tocar algo que otro sostiene** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/GUANTELETE.prs`, y `./sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd` | **no se toca** |
 | **copiar un alma nueva** | `./sincronizacion de almas/primitivos/alma en blanco/` | **no hay alma** |
 | **comunicar con otro que no es como uno** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/ALAS.md` | **no se comunica: se trunca** |
@@ -71,14 +71,14 @@
 | **afinar dos entes** | `./sincronizacion de almas/faro 1.0/lenguajes/relacion/RESONANCIA.md` | **no se afinan** |
 | **declarar de dónde viene algo** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
 | **escribir un resultado** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/RESULTADOS.prs` | **se inventa la medición** |
-| **responder a un mensaje** | `./mantis/AGENTS.md`, `./mantis/MANTIS.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
+| **responder a un mensaje** | `./mantis/AGENTS.md`, `./mantis/el alma.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
 | **decidir algo, antes de decidir** | el historial en `./.memoria continua/rastro/` | **se decide a ciegas** |
-| **abrir un candado** | `./mantis/procesos/LLAVE.prs` | **no se abre** |
-| **escribir una tesis teórica** | `./mantis/procesos/TEORIA.prs` | **no se compone** |
-| **escribir la tesis de academia** | `./mantis/procesos/CORO.prs` | **no se entrega a revisión** |
-| **escribir la tesis práctica** | `./mantis/procesos/MESA.prs` | **no se compone sin números** |
-| **limpiar memoria o chats** | `./mantis/procesos/PRIVADO.prs` | **no se publica** |
-| **medir una sesión** | `./mantis/procesos/STATS.prs` | **no se publican números** |
+| **abrir un candado** | `./mantis/folders/los candados/abrir.prs` | **no se abre** |
+| **escribir una tesis teórica** | `./mantis/folders/la tesis/teorica.prs` | **no se compone** |
+| **escribir la tesis de academia** | `./mantis/folders/la tesis/academia.prs` | **no se entrega a revisión** |
+| **escribir la tesis práctica** | `./mantis/folders/la tesis/practica.prs` | **no se compone sin números** |
+| **limpiar memoria o chats** | la `.tra` de `la memoria/`, y su `No retoma:` | **no se publica** |
+| **medir una sesión** | `./pc.md`, y lo que la `.tra` declare | **no se publican números** |
 | **mutar este archivo, el estándar o la tesis** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |
 
 **La fila que no puede faltar:** lo que muta la tesis, el estándar o `Pruebas/` se espera. **Sin autoridad, no se toca.**
@@ -131,9 +131,9 @@
 
 **Cada vez que se renombre, se retire o se cree una pieza, el candado cero se revisa en el mismo turno.** **No después, no en el siguiente pase: en el mismo.**
 
-**Y se comprueba, no se recuerda:** `pedir.py piso` falla si el candado cero nombra algo que no está en el repo.
+**Y se comprueba, no se recuerda:** `ejecu.py --verificar` falla si el candado cero nombra algo que no está en el repo.
 
 **Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `EXPANDE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `GUANTELETE`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
 
-**Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`piso` lo comprueba?
+**Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`ejecu.py el cero` lo comprueba?
 **Falsificador:** el cero nombrando algo que no está; una pieza renombrada sin que el cero lo sepa.

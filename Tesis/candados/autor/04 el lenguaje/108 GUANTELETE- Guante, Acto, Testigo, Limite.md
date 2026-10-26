@@ -10,7 +10,7 @@
 
 **Ficcion.** Marvel, Infinity War: la idea del objeto, y no su nombre.
 
-**Se abre con friccion, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con friccion, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 **Y lo que este candado reemplaza, y se declara:** el que lo ocupaba se llamo `CERCO`, y decia lo mismo desde otro lado. **Dos nombres para un acto no son dos actos.** El guantele se quedo con el acto; el cerco se retiro, y su prueba quedo en `faro/Entes/guantelete/GUANTELETE.vd`, en su `Reemplaza:`.
 

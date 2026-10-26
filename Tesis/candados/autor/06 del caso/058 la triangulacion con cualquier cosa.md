@@ -10,7 +10,7 @@
 
 **Ficción.** Peppa Pig: la caricatura que nadie se tomo en serio.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

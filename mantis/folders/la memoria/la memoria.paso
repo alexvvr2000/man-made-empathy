@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""El paso del folder 'la memoria': deja el pase, con sus seis partes.
+
+La memoria suplanta: la .tra anterior se mueve a .suplantada, y la nueva
+queda visible. No se edita: se reemplaza y lo viejo sigue ahi.
+"""
+import os
+import sys
+from datetime import datetime, timezone
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+MANTIS = os.path.abspath(os.path.join(AQUI, "..", ".."))
+
+TRA = os.path.join(AQUI, "la memoria.tra")
+VIEJA = os.path.join(AQUI, "la memoria.suplantada")
+
+
+def leer(p):
+    with open(p, "r", encoding="utf-8", errors="replace") as fh:
+        return fh.read()
+
+
+def main():
+    ahora = datetime.now(timezone.utc).isoformat(timespec="seconds")
+
+    if os.path.isfile(TRA):
+        anterior = leer(TRA)
+        with open(VIEJA, "a", encoding="utf-8", newline="") as fh:
+            fh.write("\n\n--- suplantada ---\n\n")
+            fh.write(anterior)
+        print("[ok] la entrada anterior quedo suplantada, y visible")
+
+    pase = (
+        "# la memoria.tra — el pase\n\n"
+        "**Nombre:** la memoria\n"
+        "**Expande:** recordar.prs\n"
+        "**Se nombró:** {ahora}\n"
+        "**Reemplaza:** la entrada anterior, visible en la memoria.suplantada\n"
+        "**Miente si:** se dice que el turno cerro y no hubo pase\n\n"
+        "**Sostuvo:**     [lo que quedo vigente]\n"
+        "**Se rompió:**   [que fallo, y que lo detecto]\n"
+        "**Abierto:**     [que quedo sin cerrar, y por que]\n"
+        "**Retoma:**      [la primera accion concreta del turno siguiente]\n"
+        "**No retoma:**   [lo que quedo fuera a proposito]\n"
+        "**Cómo:**        [por donde se va: la carpeta, el folder, el proceso]\n"
+    ).format(ahora=ahora)
+
+    with open(TRA, "w", encoding="utf-8", newline="") as fh:
+        fh.write(pase)
+
+    vacios = [l for l in pase.splitlines() if "[" in l and "]" in l]
+    print("[ok] el pase tiene sus {} partes".format(len(vacios)))
+    print("")
+    print("pasa: el pase quedo escrito, y lo anterior sigue visible")
+    print("falta: {} campo(s) por escribir, y los ve el turno siguiente".format(len(vacios)))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

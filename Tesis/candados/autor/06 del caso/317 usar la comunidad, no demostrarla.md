@@ -14,7 +14,7 @@
 
 **Falsificador.** Que la cita se lea como redención sin acto.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

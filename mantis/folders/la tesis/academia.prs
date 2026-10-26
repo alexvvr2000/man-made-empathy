@@ -1,0 +1,29 @@
+# academia.prs — la tesis que va a revisión
+
+**Nombre.** ACADEMIA — **A**rbitrar, **C**itar, **A**justar, **D**eclarar, **E**structurar, **M**edir, **I**ndicar, **A**notar.
+**Origen.** De `CORO.prs`, que ya existía: **la tesis que va a otro lado no lleva saludo: lleva método, números, y lo que se declara.**
+**Unidad:** proceso.
+**Aplica a:** componer.
+**Tipo:** se ejecuta.
+**Lector:** quien va a mandar una tesis a revisión.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la tesis se lee desde el revisor que la va a recibir sin conocer al autor.
+**Límite:** **no decide si la publicación es posible.** **Comprueba que el texto cumple lo que su destino exige.**
+**Firma:** humano:autoridad · máquina:quien la componga.
+
+**Variables:** estilo · IA · conflicto · referencias
+**Peor:** el texto va a revisión con dos estilos de cita, o con la IA usada y no declarada, **y lo único que se lee es eso.**
+**Quién:** quien la mande a revisión.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** una tesis ya argumentada, y sus fuentes con enlace.
+- **Falla si:** no declara su estilo de cita en la portada; mezcla estilos; no declara el uso de IA; no declara financiamiento o conflicto; la estructura no es IMRaD y no lo explica; hay una referencia que no se puede abrir.
+- **Sale:** el texto con su portada, su estilo declarado, su método, sus resultados y sus referencias, **o `[SIN ENTREGA]`** con lo que falta.
+- **Consume:** quien lo revisa, y quien va a citarlo.
+
+**Prueba:** ¿el estilo está declarado y se cumple igual de principio a fin? ¿la conducta está declarada? ¿cada afirmación tiene su referencia o se declara sin ella?
+
+**Falsificador:** dos estilos en un mismo texto; una IA usada y no declarada; una referencia que no se puede abrir; un resultado sin archivo.

@@ -1,0 +1,32 @@
+# comprobar.prs — el cero dice lo mismo que el repo
+
+**Nombre.** COMPROBAR — **C**argar, **O**mprar contra el repo, **M**irar los vivos, **P**esar los muertos, **R**obar la cita, **O**bservar, **B**arrer, **A**notar, **R**endir.
+**Origen.** De la regla dura de la autoridad: **si el cero nombra algo que ya no existe, el cero está mal.** **Y del bug que la hizo falta: la lista vivía dentro de un script, y un script no dicta.**
+
+**Unidad:** proceso.
+**Aplica a:** comprobar.
+**Tipo:** se ejecuta.
+**Lector:** quien va a renombrar, retirar o crear una pieza.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** el cero se lee desde el repo de hoy.
+**Límite:** **mide nombres, no sentido.**
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Variables:** nombre · vivos · muertos · veredicto
+**Peor:** el cero cita un fantasma y nadie lo nota.
+**Quién:** quien cite la tesis creyendo que el repo la respalda.
+
+---
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** el candado cero, y `nombres.md` con sus dos listas.
+- **Falla si:** el cero usa un nombre de `Muertos`; el cero no usa ningún nombre de `Vivos`; `nombres.md` está ausente; un nombre aparece en las dos listas; un nombre de `Vivos` no existe en el repo.
+- **Sale:** el veredicto con los nombres que el cero usa, y lo que no cabe — **o `[SIN CERO]`** si el candado cero no está.
+- **Consume:** quien vaya a renombrar o retirar una pieza, y quien vaya a citar la tesis.
+
+**Prueba:** ¿se leyó el candado cero entero? ¿Cada nombre que usa está en `Vivos`? ¿Ninguno de `Muertos` aparece? ¿El veredicto dice qué nombres se encontraron?
+
+**Falsificador:** un nombre muerto citado; un cero sin nombres vivos; una lista dentro del ejecutor en vez de en `nombres.md`; un veredicto `pasa` sin haber leído el cero.

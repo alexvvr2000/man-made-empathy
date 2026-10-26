@@ -14,7 +14,7 @@
 
 **Falsificador.** Un sistema sin alucinación que haya producido algo que lo viera venir.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde el otro alcance con el canal que ya trae.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

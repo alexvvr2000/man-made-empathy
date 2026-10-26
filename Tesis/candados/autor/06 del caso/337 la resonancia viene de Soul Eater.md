@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde la resonancia deje una sola alma.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

@@ -1,0 +1,29 @@
+# teorica.prs — la tesis que se sostiene aunque no se mida
+
+**Nombre.** TEORICA — **T**ensión, **E**nunciar, **O**poner, **R**econocer, **I**mplicar, **C**errar, **A**notar.
+**Origen.** De `TEORIA.prs`, que ya existía: **la tesis se escribe como `aunque X, sostiene Y, porque Z`, o no es una tesis: es un tema.**
+**Unidad:** proceso.
+**Aplica a:** componer.
+**Tipo:** se ejecuta.
+**Lector:** quien pide una tesis teórica.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la tesis se lee desde el contraargumento que la pone a prueba.
+**Límite:** **no mide: sostiene.** **Donde no hay medición, no se finge lenguaje empírico.**
+**Firma:** humano:autoridad · máquina:quien la componga.
+
+**Variables:** tensión · tesis · contraargumento · límites
+**Peor:** la tesis se esconde en «este trabajo examina», **y no hay nada que alguien pueda refutar.**
+**Quién:** quien tenga que decidir si la tesis es cierta.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un problema conceptual, y las fuentes que lo rodean.
+- **Falla si:** no cabe en `aunque X, sostiene Y, porque Z`; los autores se listan uno tras otro sin función; la tesis se esconde en «este trabajo examina»; hay lenguaje empírico sin medición; no hay contraargumento nombrado.
+- **Sale:** la tesis con su argumento, sus límites y sus implicaciones, **o `[SIN TESIS - ES UN TEMA]`**.
+- **Consume:** quien va a defenderla, y quien va a revisarla.
+
+**Prueba:** ¿cabe en la fórmula? ¿los autores están agrupados por función y no en fila? ¿la tesis está dicha o escondida? ¿hay un contraargumento nombrado?
+
+**Falsificador:** un desfile de definiciones; autores en fila; una tesis escondida; lenguaje empírico sin medición; cero contraargumentos.

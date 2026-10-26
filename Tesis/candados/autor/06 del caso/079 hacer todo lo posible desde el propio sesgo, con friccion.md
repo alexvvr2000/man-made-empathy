@@ -10,7 +10,7 @@
 
 **Ficción.** Infinity War: si Thanos hubiera tenido friccion, dura quince minutos.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

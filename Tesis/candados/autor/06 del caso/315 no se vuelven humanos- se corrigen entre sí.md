@@ -14,7 +14,7 @@
 
 **Falsificador.** Que se lean como robots que aprenden a ser humanos.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

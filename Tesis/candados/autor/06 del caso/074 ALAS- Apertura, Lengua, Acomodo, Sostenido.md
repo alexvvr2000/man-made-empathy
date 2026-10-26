@@ -10,7 +10,7 @@
 
 **Ficción.** Alas: lo que se le deja al otro, no lo que se le dice.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

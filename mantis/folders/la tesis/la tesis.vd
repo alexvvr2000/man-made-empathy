@@ -1,0 +1,51 @@
+# la tesis — el folder que compone una de las tres, cuando se pide
+
+**Nombre.** LA TESIS. La expansión dice el acto: **tomar un pedido de tesis —teórica, de academia o práctica— y componerla con sus candados, o declarar qué falta.**
+**Origen.** **De los tres procesos que ya existían y no tenían folder: `TEORIA.prs`, `CORO.prs` y `MESA.prs`.** **Y de la regla de la autoridad: *on demand*. Nada se compone si nadie lo pide.**
+**Unidad:** folder.
+**Aplica a:** componer.
+**Tipo:** se ejecuta. **No corre solo, y no adelanta trabajo: compone lo que se le pide, y para cuando el estándar cambió.**
+**Lector:** quien pide una tesis.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la tesis se compone desde los candados que la sostienen, no desde lo que el que la pide quiere oír.
+**Límite:** **no juzga si la tesis es cierta.** **Compone lo que hay, con sus candados, y declara lo que falta.** **No publica y no defiende.**
+**Firma:** humano:autoridad · máquina:quien la componga.
+
+**Variables:** clase · candados · huecos · entrega
+**Peor:** se compone una tesis con candados que ya no existen, **y queda bien escrita y sin respaldo: la forma sostiene lo que el fondo ya perdió.**
+**Quién:** quien la cite.
+
+## Rastro — el cuerpo
+
+| Qué hay | Nombre | Dónde |
+|---|---|---|
+| **las tres clases** | `teorica.prs` · `academia.prs` · `practica.prs` | `./` |
+| **el paso** | `la tesis.paso` | `./la tesis.paso` |
+| **los candados que la sostienen** | el cero y sus seis carpetas | `../../../Tesis/candados/autor/` |
+| **lo que deja** | `la tesis.tra` | `./la tesis.tra` |
+
+## Ruta — la mente
+
+| Se va a… | Se carga… | Sin la autoridad… |
+|---|---|---|
+| **componer la teórica** | `./teorica.prs` | **no se compone** |
+| **componer la de academia** | `./academia.prs` | **no se entrega a revisión** |
+| **componer la práctica** | `./practica.prs` | **no se compone sin números** |
+| **componer sin pedido** | nada: no se corre | **no se compone** |
+
+## Carga — el pensamiento
+
+| Si pasa esto | Se pierde | Y el síntoma es |
+|---|---|---|
+| **se compone sin que nadie lo pida** | el on demand | el repo se llena de tesis que nadie pidió |
+| **se compone con candados que ya no están** | el respaldo | la forma sostiene lo que el fondo perdió |
+| **se declara completa sin sus números** | la práctica | hay una historia, y no una medición |
+| **se entrega sin declarar la IA, o el financiamiento** | la conducta | se rompe la regla de la academia |
+
+## Prueba
+
+**¿Se compone solo lo que se pidió? ¿Cada afirmación tiene su candado o declara no tenerlo? ¿La práctica trae sus números con archivo? ¿La de academia declara estilo, IA y conflicto? ¿Quedó la `.tra`?**
+
+**Falsificador:** una tesis compuesta sin pedido; una afirmación sin candado y sin decirlo; una práctica sin archivo de la corrida; una entrega de academia sin declarar la IA.

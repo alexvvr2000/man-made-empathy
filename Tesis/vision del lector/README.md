@@ -16,8 +16,8 @@ Tesis/visiones/<nombre>/
 ```
 
 ```
-python mantis/bin/visor.py --contar
-python mantis/bin/visor.py --vision "<nombre>"
+python mantis/ejecu.py la tesis
+python mantis/ejecu.py la tesis
 ```
 
 **Unidad:** nivel.

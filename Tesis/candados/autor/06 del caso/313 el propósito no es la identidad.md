@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde obedecer la misión sea lo que la salva.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

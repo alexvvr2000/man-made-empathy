@@ -27,7 +27,7 @@
 
 ## Cómo se abre uno
 
-**Se entra a la carpeta que sostiene lo que se va a contestar, y se abre el candado que toque.** **Se abre con fricción, y no se reescribe: `../../mantis/procesos/LLAVE.prs`.**
+**Se entra a la carpeta que sostiene lo que se va a contestar, y se abre el candado que toque.** **Se abre con fricción, y no se reescribe: `../../mantis/folders/los candados/abrir.prs`.**
 
 **Y si un corte deja de aguantar solo, se suplanta: dice a cuál reemplaza, y el viejo queda visible.** **Las carpetas no cambian a quién se puede abrir un candado: cambian dónde está, para no andar abriendo cincuenta para llegar a uno.**
 

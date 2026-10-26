@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde no llevar al máximo salve algo.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

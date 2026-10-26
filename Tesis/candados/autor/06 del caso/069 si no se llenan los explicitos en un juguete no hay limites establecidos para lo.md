@@ -10,7 +10,7 @@
 
 **Ficción.** El juguete: una cosa hecha para que otro la use sin saber como funciona.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

@@ -1,0 +1,50 @@
+# la memoria — el folder que deja el pase, para que el siguiente turno sepa dónde quedó
+
+**Nombre.** LA MEMORIA. La expansión dice el acto: **guardar lo que se sostuvo, contra qué, y qué queda abierto, sin editar lo anterior.**
+**Origen.** **De la regla del repo: la memoria suplanta, no edita; y el turno no se cierra sin pase.** **Y de la corrección de la autoridad: el alma es la memoria, y lo que viaja entre mundos es el rastro.**
+**Unidad:** folder.
+**Aplica a:** recordar.
+**Tipo:** se ejecuta. **Es el último de cada turno, y el primero que lee el turno siguiente.**
+**Lector:** el turno siguiente, en otra PC, con otro modelo o en otra era.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la memoria se lee desde el que va a reconstruir la posición, no desde el que la escribió.
+**Límite:** **no decide qué es verdad.** **Guarda desde dónde se sostiene; la verdad la decide quien lee, contradiciendo.** **No guarda lo que no cambia una decisión.**
+**Firma:** humano:autoridad · máquina:quien recuerde.
+
+**Variables:** pase · suplantado · abierto · retoma
+**Peor:** el turno se cierra sin pase, **y el siguiente empieza a ciegas: repite lo que ya se hizo y no continúa lo que quedó abierto.**
+**Quién:** quien retome el trabajo y no sepa por dónde.
+
+## Rastro — el cuerpo
+
+| Qué hay | Nombre | Dónde |
+|---|---|---|
+| **la regla** | `memoria.vd`, heredada del primitivo | `../../memoria.vd` |
+| **el proceso** | `recordar.prs` | `./recordar.prs` |
+| **el paso** | `la memoria.paso` | `./la memoria.paso` |
+| **lo que deja** | `la memoria.tra`, y el pase | `./la memoria.tra` |
+
+## Ruta — la mente
+
+| Se va a… | Se carga… | Sin la autoridad… |
+|---|---|---|
+| **cerrar un turno** | este folder, antes de responder la última vez | **no se cierra: queda el pase pendiente** |
+| **decidir algo** | el pase del turno anterior | **se decide a ciegas** |
+| **corregir una entrada anterior** | `recordar.prs`: se suplanta, no se edita | **no se edita** |
+
+## Carga — el pensamiento
+
+| Si pasa esto | Se pierde | Y el síntoma es |
+|---|---|---|
+| **el turno cierra sin pase** | la continuidad | la siguiente instancia no sabe dónde quedó |
+| **se edita en vez de suplantar** | la historia | hay una sola fecha y ninguna prueba de qué cambió |
+| **se guarda lo que no cambia una decisión** | el on demand | la memoria se llena de lo que nadie va a leer |
+| **el pase dice un tema y no una acción** | el retomar | el siguiente lee el pase y no sabe por dónde empezar |
+
+## Prueba
+
+**¿El turno dejó su pase? ¿Lo anterior quedó suplantado y visible? ¿`Retoma` es una acción y no un tema? ¿Se guardó solo lo que cambia una decisión?**
+
+**Falsificador:** un turno cerrado sin pase; una entrada anterior editada; un `Retoma` que dice un tema; una memoria que guarda todo.

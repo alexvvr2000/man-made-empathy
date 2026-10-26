@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde dar lo pedido sea lo que se necesita.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 

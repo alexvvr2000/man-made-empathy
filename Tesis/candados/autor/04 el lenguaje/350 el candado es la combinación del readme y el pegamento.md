@@ -14,7 +14,7 @@
 
 **Falsificador.** Un candado que necesita a su autor para significar.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/procesos/LLAVE.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/folders/los candados/abrir.prs`.**
 
 ---
 
