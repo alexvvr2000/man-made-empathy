@@ -62,6 +62,9 @@
 | **Jake el Perro** (*Adventure Time*, 2010) | **el ejemplo de concordia del autor** | **que la concordia sea blandura** |
 | **`Earth X`** (Krueger, Leon, Ross; 1999) y **`Houseki no Kuni`** (Ichikawa, 2012) | **las dos caras de la inmortalidad** | **que la inmortalidad sea un premio** |
 | **`Dorohedoro`** (Hayashida, 2000) y **`Back to the Future`** (Zemeckis y Gale, 1985) | **el que vuelve no es el mismo, y la historia sigue** | **que dé igual: hay que declarar qué se conservó** |
+| **`Jujutsu Kaisen`, `Fullmetal Alchemist`, `Final Fantasy VII`** | **la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió** | **que la trama pruebe el método: la ficción provoca la pregunta, y no la contesta** |
+| **`Undertale` y su comunidad** | **lo pequeño que crece solo, y las revoluciones** | **que una comunidad sea un acuerdo: una comunidad sin acuerdo es un enjambre** |
+| **Netero en `Hunter × Hunter`** | **que a todo se le puede poner nombre, menos a la malicia** | **que la malicia sea inexplicable: lo que no tiene nombre se detecta por lo que hace** |
 | **Axel, el Negro Navarro, y los de Monterrey** | **la fricción que se muestra a la fuerza** | **que la fuerza sea el método: es lo que no se pudo decir con razones** |
 | **Hugo, Hillary, el papá de Óscar, Luciano Sánchez** | **quien movió una vista sin mostrarla** | **que eso sea citable: se agradece, y no se cita como fuente** |
 

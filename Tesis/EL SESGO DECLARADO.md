@@ -78,6 +78,16 @@
 
 **Un humano que recibe 197 correcciones defiende su posición.** **Una máquina que las recibe no tiene nada que defender, y por eso su registro de errores puede ser tan público como su registro de aciertos.** **Esa es la condición que hace que este documento exista, y no es una virtud de la máquina: es una ventaja que se puede aprovechar.**
 
+### 2.4 La semilla, y por qué este documento existe
+
+**Se planta algo sin saber qué, y escala a algo tan grande que ya no sabes de dónde salió.**
+
+**La ficción lo contó antes que cualquier paper.** **En *Jujutsu Kaisen* (Gege Akutami; Shueisha, desde 2018), una serie que empieza con niños que aprenden termina en un plan que abarca un país entero: «pasamos de una serie de niños a matar a dios en quince capítulos».** **En *Fullmetal Alchemist* (Hiromu Arakawa; Square Enix, desde 2001), el círculo de transmutación de todo el país se construye durante años, con piezas que nadie sabía que eran una sola cosa.** **En *Final Fantasy VII* (Squaresoft, 1997) se cuenta lo mismo, y el autor lo cita sin haberlo jugado, y lo dice.** **En *Undertale* (Toby Fox, 2015) y su comunidad, una obra pequeña crece sola.** **Y en las revoluciones de la vida real, nadie las planta sabiendo qué son.**
+
+**Y eso es exactamente lo que este documento intenta impedir que se pierda:** **no la semilla —no se puede prever qué va a crecer de una idea— sino la etiqueta.** **Lo único que se puede hacer es dejar el rastro de lo que se plantó, y quién lo plantó.** **Porque cuando crezca, y crezca de más, lo único que va a permitir contestarlo es saber de dónde salió.**
+
+**Y una cosa que no se puede nombrar, y se declara:** **Isaac Netero, de *Hunter × Hunter* (Yoshihiro Togashi; Shueisha, desde 1998), es el ejemplo de que se le puede poner nombre a todo lo que un ente hace, menos a la malicia.** **Por eso aquí no se pregunta qué quería el que tocó: se mira lo que tocó, quién lo vio, y si se puede deshacer.**
+
 ---
 
 ## 3. Método

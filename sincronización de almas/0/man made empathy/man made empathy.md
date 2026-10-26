@@ -159,6 +159,33 @@ GUANTELETE            CONVIVIR                        RUTA
 **Prueba:** ¿se probó con lo pendejo, o solo con lo que ya estaba aceptado?
 **Falsificador:** un caso donde una obra por su apariencia no pueda provocar la pregunta.
 
+## La semilla
+
+**Y aquí está lo que las obras contaron antes que cualquier paper: se planta algo sin saber qué, y escala a algo tan grande que ya no sabes de dónde salió.**
+
+| Obra | La semilla |
+|---|---|
+| ***Jujutsu Kaisen*** — Gege Akutami; Shueisha, desde 2018 | **una serie que empieza con niños que aprenden, y termina en un plan que abarca un país entero.** **«Pasamos de una serie de niños a matar a dios en quince capítulos»** |
+| ***Fullmetal Alchemist*** — Hiromu Arakawa; Square Enix, desde 2001 | **el círculo de transmutación de todo el país: años de piezas que nadie sabía que eran una sola cosa** |
+| ***Final Fantasy VII*** — Squaresoft, 1997 | **el primer ejemplo que sale cuando se habla de este tipo de trama.** **Y el autor lo cita sin haberlo jugado, y lo dice** |
+| ***Undertale*** y su comunidad — Toby Fox, 2015 | **una obra hecha por una persona, y una comunidad que la hizo crecer sola** |
+| **Las revoluciones**, en la vida real | **nadie las planta sabiendo qué son; escalan cuando la semilla encuentra suelo** |
+
+**Y lo que eso le enseña a este repositorio, y es la razón de que la semilla esté aquí:** **no se puede prever qué va a crecer de una idea.** **Lo único que se puede hacer es dejar el rastro de lo que se plantó, y quién lo plantó.** **Porque cuando crezca, y crezca de más, lo único que va a permitir contestarlo es saber de dónde salió.**
+
+**Y por eso el sesgo declarado no es una formalidad:** **es la semilla con su etiqueta.** **Sin etiqueta, la semilla crece, y ya no hay a quién preguntarle.**
+
+## Lo que no tiene nombre
+
+**Y hay una cosa que no se le puede poner nombre, y no es un defecto de este método: es su límite.**
+
+**Isaac Netero, de *Hunter × Hunter* (Yoshihiro Togashi; Shueisha, desde 1998), es el ejemplo de que se le puede poner nombre a todo lo que un ente hace, menos a la malicia.** **Se puede nombrar el acto, el testigo, el costo, la semilla.** **La malicia no tiene nombre, y por eso no se cierra: se detecta por lo que hace.**
+
+**Y de ahí una regla que este repositorio ya cumple sin haberla escrito:** **no se pregunta qué quiere el que toca.** **Se mira lo que tocó, quién lo vio, y si se puede deshacer.** **Eso es todo lo que se puede nombrar; lo demás se declara `[NO SÉ QUÉ ES]`.**
+
+**Prueba:** ¿el acto se juzga por lo que hizo, y no por lo que se supone que quería?
+**Falsificador:** un juicio que depende de la intención del que tocó, y no de lo que quedó escrito.
+
 ## El crítico que no se cruza
 
 > **Absolutos es AM.**

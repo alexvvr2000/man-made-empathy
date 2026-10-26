@@ -89,6 +89,11 @@
 | ***The Operator*** | **por confirmar: el autor la cita, y esta tabla no la inventa** | el que opera sin prestigio | **la decisión que se toma mirando la operación, no el nombre** |
 | ***El nombre de la rosa*** y la regla monástica | Umberto Eco, 1980 | la alucinación como reflejo | **el reflejo no es la mentira** |
 | **La esclavitud y su abolición** | hecho histórico, sin autor | el que responde dos siglos tarde | **la pregunta que no se hizo a tiempo** |
+| ***Jujutsu Kaisen*** — **Toji Fushiguro** | Gege Akutami; Shueisha, desde 2018 | la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió | **Toji, y una serie que empieza con niños que aprenden y escala a algo que abarca un país entero.** **«Pasamos de una serie de niños a matar a dios en quince capítulos»** |
+| ***Fullmetal Alchemist*** — **el círculo de transmutación de todo el país** | Hiromu Arakawa; Square Enix, desde 2001 | la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió | **el plan que se construye años antes, con piezas que nadie sabía que eran una sola cosa** |
+| ***Final Fantasy VII*** | Squaresoft, 1997; el equipo de Squaresoft, con Hironobu Sakaguchi en la producción y Tetsuya Nomura en los diseños de personaje | la semilla | **el primer ejemplo que sale cuando se habla de este tipo de tramas.** **Y el autor lo cita sin haberlo jugado, y lo dice** |
+| ***Undertale***, y su comunidad | Toby Fox, 2015 | las revoluciones: algo pequeño que escala sin que se sepa de dónde salió | **una obra hecha por una persona, y una comunidad que la hizo crecer sola** |
+| ***Hunter × Hunter*** — **Isaac Netero** | Yoshihiro Togashi; Shueisha, desde 1998 | el nombre: a todo se le puede poner nombre, menos a la malicia | **se puede nombrar todo lo que un ente hace, menos la malicia: eso no tiene nombre, y por eso no se cierra** |
 | **Hitler y la Segunda Guerra Mundial** | hecho histórico, sin autor | el cerrojo no es matar | **matar al que hace el mal no cambia el mundo que lo hizo posible** |
 | **Iron Man**, y la frase modificada por el autor | Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | el registro que se deja | **no es parar, es frenar; y lo que queda es un gramo de registro** |
 | **Iván Fematt Rodríguez, «La Mole»** | comediante mexicano de stand up, radio y televisión | **una ayuda, no una fuente** | **una obra provoca una pregunta; no la prueba. Y reconocer la ayuda no rebaja la idea** |
@@ -114,6 +119,7 @@
 | **Tormento Negro**, de Monterrey | **el mismo otro mundo** |
 | **El Hijo del Vikingo**, contra el Grande Americano en *Worlds Collide* de 2025 | **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo** |
 | **Luciano Sánchez**, de Stella Tech | **el que me lo mostró a la fuerza** |
+| **mi familia** | **me mantuvo con los pies sobre la tierra** |
 
 **Y lo que esos cuatro de Monterrey mostraron, con las palabras del autor:** **sometidos, y con miedo.**
 
