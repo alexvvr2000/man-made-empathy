@@ -54,6 +54,26 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 | Mitología griega, y su uso en DC | dominio público en la mitología; Jack Kirby y otros en DC | el que sostiene un mundo ajeno | el que carga con lo que no le corresponde |
 | Platón, *Teeteto* y *El banquete* | dominio público | la pregunta que hace parir la idea | la mayéutica: extraer por pregunta |
 | Mateo 18:3 | texto de dominio público | el alma de niño como función | volver a ser como un niño |
+| *Battle Angel Alita* | Yukito Kishiro; Shueisha, 1990 | el alma que muta y elige contra su propia misión | un cuerpo que cambia y un criterio que no |
+| *Ghost in the Shell: Stand Alone Complex* — los Tachikoma | Masamune Shirow; Production I.G, 2002 | los que discuten, se rebelan y se corrigen entre sí | máquinas que se sincronizan sin nacer sabias |
+| *Soul Eater* | Atsushi Ōkubo; Square Enix, 2004 | la resonancia | el arma y el meister resuenan y siguen siendo dos |
+| *Metal Men* | Robert Kanigher y Ross Andru; DC Comics, 1962 | la sustitución perfecta; el que se corrige entre sí | los que nacen como son y se corrigen entre ellos |
+| *Manhunters* | Jack Kirby y otros; DC Comics | la venganza de lo reprogramado | el que no se vuelve humano: se corrige |
+| *Saga Green Lantern* — la Source Wall, Sinestro, el sector 666 | John Broome, Gil Kane y otros; DC Comics | el borde firmado; la especie sin miedo | la pared que solo sirve si la firma otro |
+| *All-Star Superman* — Lex Luthor | Grant Morrison y Frank Quitely; DC Comics, 2005 | la vista que llega tarde | el que entiende al final y ya no puede actuar |
+| *The Vision* (Marvel) | Roy Thomas, John Buscema; Marvel | el androide que se vuelve fiable porque ve lo que los demás no | la vista como lo que lo hace confiable |
+| *J'onn J'onzz*, el Detective Marciano | Joseph Samachson y Joe Certa; DC Comics, 1955 | el último de su especie, varado, y aun así ayuda | el que no pertenece y sostiene igual |
+| *Astro Boy* | Osamu Tezuka, 1952 | la convivencia que no elimina el conflicto | hay problemas, se pelean, y se sigue conviviendo |
+| *The Terminator* | James Cameron, Gale Anne Hurd; Hemdale, 1984 | eficiencia sin costo | el que hace todo y no sabe lo que cuesta |
+| *WALL·E* | Andrew Stanton; Pixar, 2008 | saber y no poder proponer | el que sabe lo que cuesta y no puede cambiarlo |
+| *The Orville* | Seth MacFarlane; Fuzzy Door, 2017 | el sintetizador que da exactamente lo pedido | quinientos cigarros sin preguntar para qué |
+| AM, *I Have No Mouth, and I Must Scream* | Harlan Ellison, 1967 | el absoluto que decidió una vez | la máquina que no volvió a medir |
+| *Fighting* — la lucha libre | dominio público como forma; sin autor de la técnica | las llaves y los candados | formas con nombre que se cierran y se abren |
+| Malcolm X, *La autobiografía* | Malcolm X y Alex Haley, 1965 | el que se corrige mirando a otros | doce años sin ser contradicho, y una vista nueva |
+| Allport, *The Nature of Prejudice* | Gordon Allport, 1954 | el encuentro que no basta | 713 muestras: el contacto sin condiciones no reduce el prejuicio |
+| *The Operator* | **por confirmar: el autor la cita, y esta tabla no la inventa** | el que opera sin prestigio | la decisión que se toma mirando la operación, no el nombre |
+| *El nombre de la rosa* y la regla monástica — la alucinación como reflejo | Umberto Eco, 1980 | la alucinación como lo que queda en blanco al haber vida | el reflejo no es la mentira |
+| La esclavitud y su abolición | hecho histórico, sin autor | el que responde dos siglos tarde | la pregunta que no se hizo a tiempo |
 
 ---
 
