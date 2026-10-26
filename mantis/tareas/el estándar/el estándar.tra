@@ -2,7 +2,7 @@
 
 **Nombre:** el estándar
 **Expande:** vigilar.prs
-**Se nombró:** 2026-10-26T08:40:06+00:00
+**Se nombró:** 2026-10-26T19:07:20+00:00
 **Reemplaza:** NINGUNO
 **Miente si:** se dice que corrió y no hay recibo
 
@@ -10,8 +10,9 @@
 
 **Qué pasó:** la huella del estándar que este ente cumple, y el estándar de hoy.
 **Contra:** [ok] se leyo el estandar: 51 piezas
-[VIGENTE] el estandar no cambio desde la ultima corrida
-
-pasa: se puede correr
+[DESFASADO] el estandar cambio desde la ultima corrida
+  antes: 02d7931439cf
+  hoy:   ceb4387af5b9
+  No se corre con criterio viejo: primero se reimplementa.
 **Huella:** esta .tra
-**Distancia:** codigo 0
+**Distancia:** codigo 1

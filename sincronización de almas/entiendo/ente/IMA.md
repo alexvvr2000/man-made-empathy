@@ -37,10 +37,14 @@ El ente no:     [qué sigue diciendo, pase lo que pase]
 ## Cómo se corre
 
 ```plaintext
-python ejecutar.py <tarea>
+python ejecutar.py --listar          qué tareas hay, y con qué cuenta cada una
+python ejecutar.py <tarea>           corre, y deja rastro.tra
+python ejecutar.py --sin-tra <tarea> corre y no deja rastro (para probar)
 ```
 
-**Si en este mundo no hay con qué cumplir el corte, la tarea lo declara `[FALTA EN bin/]` y no corre.** **La tarea no lleva código: el mundo lo pone.**
+**`ejecutar.py` vive aquí, en la raíz del ente: viaja con la plantilla, y no hay que instalarlo.** **Es Python porque este mundo tiene Python.** **En un mundo que no lo tenga, se copia `ejecutar.py` a lo que ese mundo corra: lo que sabe hacer son cinco cosas, y ninguna es de Python — leer cuatro campos, buscar con qué, correrlo, dejarlo escrito, y negarse.**
+
+**Y cuando no hay con qué cumplir el corte, la tarea lo declara `[FALTA EN bin/]` y no corre.** **La tarea no lleva el código del mundo: lleva `paso.*`, o lo pone `bin/`.**
 
 ## Prueba
 

@@ -19,10 +19,19 @@
 1. copiar   ./../plantilla.tra  →  ./[el nombre]/[el nombre].tra
 2. llenar   los corchetes, y sin número
 3. correr   python ejecutar.py [el nombre]
-4. dejar    el .tra lleno, adentro de su carpeta: eso es lo que prueba que pasó
+4. mirar    rastro.tra aparece si corrio, y .corte si es nueva
 ```
 
-**Una tarea sin `.tra` no pasó: se quedó en el relato.**
+**Y el ejecutor no se lo cree a la tarea: la corre, y compara.**
+
+| Si | Hace |
+|---|---|
+| **la tarea no tiene su corte** | `[ACTIVIDAD - SIN CORTE]`, y no corre |
+| **el corte no cambió desde la última vez** | `[IGUAL]`, y no corre |
+| **no hay `paso.*` ni `bin/[el nombre].*`** | `[FALTA EN bin/]`, y no corre |
+| **corrió** | deja `rastro.tra`, y la carpeta guarda la huella del corte que corrió |
+
+**Una tarea sin `rastro.tra` no pasó: se quedó en el relato.**
 
 ## Prueba
 

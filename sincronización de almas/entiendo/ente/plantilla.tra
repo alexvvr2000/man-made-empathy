@@ -1,8 +1,8 @@
-# [el nombre de la tarea].tra — el rastro que deja una tarea
+# [el nombre de la tarea].tra — la tarea
 
 **Cómo se usa:** **copias este archivo a `tareas/[el nombre]/`, y el archivo se llama como la carpeta.** **Luego llenas los corchetes.** **Sin números, y sin `v2`: una tarea no tiene versiones, tiene historial.**
 
-**Una tarea no es una idea: es un acto.** **Si no deja `.tra`, no pasó.**
+**Y este archivo es la tarea, no su recibo.** **El corte vive aquí, y es lo que el ejecutor lee.** **El recibo de cada corrida lo escribe el ejecutor, y se llama `rastro.tra`.** **Un archivo que fuera las dos cosas se comería a sí mismo en la primera corrida.**
 
 ---
 
@@ -11,6 +11,17 @@
 **Se nombró:** [el instante, antes de responder]
 **Reemplaza:** [el nombre anterior, o NINGUNO]
 **Miente si:** [qué acto no ocurrió, y esto se está contando como si sí]
+
+## Entra | Falla | Sale | Consume
+
+**El corte. Y es lo único que el ejecutor sabe leer: cuatro campos, y nada más.**
+
+- **Entra:** [qué le llega a esta tarea, y de dónde]
+- **Falla si:** [qué lo deja mal: el jamón de la prueba]
+- **Sale:** [qué deja, y dónde queda]
+- **Consume:** [quién lo usa después, y para qué]
+
+**Y si el mundo se lo lleva a otro sitio:** **`paso.py`, `paso.sh` o `paso.ps1`, al lado de este archivo, es lo que lo cumple.** **Si no hay `paso.*`, el ejecutor busca `bin/[el nombre].*` del mundo.** **Si no hay ninguno de los dos, dice `[FALTA EN bin/]` y no corre: no improvisa.**
 
 ## Qué pasó
 

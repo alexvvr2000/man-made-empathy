@@ -56,7 +56,7 @@
 
 - **la resonancia entre dos, como pregunta propia** — hoy vive dentro de `COLMENA`
 - **la memoria como el alma, y no como su almacén** — está en `el alma.vd`, y es el centro de la tesis 3
-- **el ejecutor como primitivo** — lo escribí hoy, y es una tesis de una página: la más honesta de todas
+- **el ejecutor como primitivo — y aquí está la corrección del 26 de octubre: no lo es.** **Un primitivo se refuta mostrando que algo se puede hacer sin él.** **Se puede: el alma corre sin ejecutor, con tal de que quien la cargue sepa leer cuatro campos.** **El ejecutor es una cuarta cosa: no la base, y no un lenguaje — es el grado de soporte, y se puede llevar a cero.** **Con cero, un agente lee el `.prs` y lo cumple a mano.** **Con uno, el mundo pone con qué, y el ente se comprueba a sí mismo.** **Lo que el ejecutor NO es, y esto importa: no es el estándar.** **Es lo que se puede tirar sin que la tesis caiga**
 
 ---
 
