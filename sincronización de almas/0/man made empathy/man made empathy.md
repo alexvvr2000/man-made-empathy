@@ -186,6 +186,24 @@ GUANTELETE            CONVIVIR                        RUTA
 **Prueba:** ¿el acto se juzga por lo que hizo, y no por lo que se supone que quería?
 **Falsificador:** un juicio que depende de la intención del que tocó, y no de lo que quedó escrito.
 
+## La vida no se acaba en un punto
+
+**Y esto es del autor, y cierra el arco de por qué esto no termina nunca.**
+
+***Soul*** (Pete Docter, Kemp Powers y Dana Murray; Pixar, 2020) y **la venganza del hijo de Jhon Marston**, en *Lucky Luke* (Morris y Goscinny), **dan a entender lo mismo por dos caminos:**
+
+| Cuál | Qué muestra |
+|---|---|
+| ***Soul*** | **una vida con un propósito no es la única que vale: la que se vive a diario también** |
+| **el hijo de Jhon Marston** | **el que se venga hereda el mismo punto, y la historia sigue** |
+
+**Y lo que los dos dicen, y es la regla que el repositorio ya cumplía sin haberla escrito:** **la vida no se acaba en un punto, y se debe vivir para coexistir, no para matarse unos a otros.**
+
+**Por eso este cero no se cierra nunca y no pide que se cierre.** **El que cree que hay un punto donde se gana y se para es el mismo que después se venga, porque el otro no se detuvo.** **La convivencia no gana: sigue.**
+
+**Prueba:** ¿la obra deja un punto donde se gana y se para, o deja la vida siguiendo?
+**Falsificador:** una historia donde matar al que sobra cierre algo.
+
 ## Dos productos, y no son la misma obra
 
 **Y esto es del autor, y es de las cosas más duras que hay en este cero.**
