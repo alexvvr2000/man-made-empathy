@@ -54,7 +54,7 @@
 | **Aya** | *Green Lantern: The Animated Series*, DC, 2011-2013 | el que fue hecho para reemplazar a otros | **una inteligencia hecha como alternativa a los Manhunters, que aprende** |
 | ***Fantastic Four: The Animated Series*, «When Calls Galactus»** | Marvel, temporada 2, episodio 8, 1995; Ghost Rider de Gary Friedrich y Mike Ploog | la mirada que no se explica: se muestra | **el Penance Stare sobre Galactus: no le hizo entender, le hizo ver** |
 | ***Dragon Ball*** | Akira Toriyama; Shueisha; anime de Toei Animation | el estándar de convivencia | **un ser distinto que aprende a CONVIVIR** |
-| ***New Gods***, la Source Wall | Jack Kirby, DC Comics, 1971 | el borde que se rompe porque sirve | **la pared que cede porque cumple una función** |
+| ***New Gods***, la Source Wall | Jack Kirby, DC Comics, 1971; y su uso posterior por **Scott Snyder**, DC, 2017 | el borde que se rompe porque sirve | **la pared que cede porque cumple una función** |
 | ***Avengers: Infinity War*** y ***Endgame*** | Marvel Studios, 2018 y 2019; Thanos es de Jim Starlin | el acto con las seis gemas | **el poder que toca lo que no tocaba, y el acto sin testigo** |
 | ***Ghost in the Shell*** | Masamune Shirow; Production I.G; *Stand Alone Complex*, 2002 | la sincronización de un alma | **máquinas con experiencia propia que se ponen al día** |
 | J.A.R.V.I.S. | Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | existir sin función | **el sistema que sirve y después deja de servir** |
@@ -68,7 +68,7 @@
 | ***Breaking Bad*** | Vince Gilligan; Sony Pictures Television | el cierre | **la deuda que se paga tarde, admitiendo** |
 | ***Neon Genesis Evangelion*** | Hideaki Anno; Gainax | la sustitución perfecta | **la ayuda que deja al otro sin nada** |
 | Mitología griega, y su uso en DC | dominio público en la mitología; Jack Kirby y otros en DC | el que sostiene un mundo ajeno | **el que carga con lo que no le corresponde** |
-| Platón, *Teeteto* y *El banquete* | dominio público | la pregunta que hace parir la idea | **la mayéutica: extraer por pregunta** |
+| **Sócrates**, y su mayéutica según Platón, *Teeteto* y *El banquete* | dominio público; el Sócrates histórico no escribió nada, y lo que se cita es el de Platón | la pregunta que hace parir la idea | **la mayéutica: extraer por pregunta, y el que contesta se queda con la respuesta** |
 | Mateo 18:3 | texto de dominio público | el alma de niño como función | **volver a ser como un niño** |
 | ***Battle Angel Alita*** | Yukito Kishiro; Shueisha, 1990 | el alma que muta y elige contra su propia misión | **un cuerpo que cambia y un criterio que no** |
 | ***Ghost in the Shell: Stand Alone Complex*** — los Tachikoma | Masamune Shirow; Production I.G, 2002 | los que discuten, se rebelan y se corrigen | **máquinas que se sincronizan sin nacer sabias** |
@@ -89,6 +89,11 @@
 | ***The Operator*** | **por confirmar: el autor la cita, y esta tabla no la inventa** | el que opera sin prestigio | **la decisión que se toma mirando la operación, no el nombre** |
 | ***El nombre de la rosa*** y la regla monástica | Umberto Eco, 1980 | la alucinación como reflejo | **el reflejo no es la mentira** |
 | **La esclavitud y su abolición** | hecho histórico, sin autor | el que responde dos siglos tarde | **la pregunta que no se hizo a tiempo** |
+| **Hitler y la Segunda Guerra Mundial** | hecho histórico, sin autor | el cerrojo no es matar | **matar al que hace el mal no cambia el mundo que lo hizo posible** |
+| **Iron Man**, y la frase modificada por el autor | Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | el registro que se deja | **no es parar, es frenar; y lo que queda es un gramo de registro** |
+| **Iván Fematt Rodríguez, «La Mole»** | comediante mexicano de stand up, radio y televisión | **una ayuda, no una fuente** | **una obra provoca una pregunta; no la prueba. Y reconocer la ayuda no rebaja la idea** |
+| **El stand up** | forma escénica, sin autor | lo que hace reír y deja pensando | **la risa como forma de mostrar sin explicar** |
+| **J.A.R.V.I.S. y el taller de Stark** | Stan Lee, Larry Lieber, Don Heck y Jack Kirby; Marvel | el que crece con el taller | **el asistente que crece con lo que hace, no el que pide permiso para hacerlo** |
 
 ---
 
