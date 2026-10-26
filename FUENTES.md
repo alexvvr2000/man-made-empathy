@@ -107,6 +107,39 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 | **mi prima Hillary** | **me mostró el anime de *Soul Eater* por primera vez.** **La resonancia entre dos que siguen siendo dos viene de ahí** |
 | **el papá de Óscar** | **me enseñó a que no me dejara de nadie** |
 | **mi profesor de primaria, Hugo** | **me hizo leer *Avengers vs. X-Men* cuando yo solo conocía las películas.** **Las escenas sangrientas me impactaron, y no me asustaron: se me hacía raro que nadie los estuviera leyendo, porque el MCU apenas estaba empezando y en los cómics ya mostraban cosas de ese estilo** |
+| **Axel «El Heredero de Plata»**, que entrevistó al **Negro Navarro** | **el Negro sabe de muchas llaves, y me apantalló y me hizo acercarme a la lucha.** **Y cuando lo entrevistaron y lloró, me di cuenta de que hay cosas que yo no tomo con importancia cuando para otros es mucho** |
+| **Pequeño Diamante** de Monterrey | **me mostró otro mundo, muy distinto al que prometía la industria del software** |
+| **El Mongol Chino Jr.** y su papá, **el Mongol Chino**, de Monterrey | **el mismo otro mundo: padre e hijo, y el oficio pasando de uno a otro** |
+| **Angelikal** de Monterrey | **el mismo otro mundo** |
+| **Tormento Negro** de Monterrey | **el mismo otro mundo** |
+| **El Hijo del Vikingo**, contra **El Grande Americano** (Chad Gable) en *Worlds Collide* 2025 | **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo.** **Me lo mostraron a la fuerza** |
+| **Blue Panther**, el original | **por él y por mi papá conocí la lucha libre** |
+| **Luciano Sánchez**, de mi antiguo trabajo en Stella Tech | **fue el que me lo mostró a la fuerza** |
+
+**Y el «otro mundo» de los cuatro de Monterrey, dicho con las palabras de la autoridad:** **«sometidos y con miedo».** **Un mundo que no es el que prometía la industria del software.**
+
+**Y por qué eso entra en una tesis de empatía fabricada, y no es una digresión:** **la fricción no se aprende leyendo.** **Se aprende cuando alguien te muestra, a la fuerza si hace falta, que su mundo no tiene las reglas que te prometieron.** **Eso es el Penance Stare de esta tesis, aplicado a su autor.**
+
+
+**Nota de verificación, y va porque aquí es muy fácil confundir a los luchadores.**
+
+**Todo lo de esta tabla se buscó antes de escribirlo, y lo que no se pudo confirmar se dice:**
+
+| Dato | Estado |
+|---|---|
+| **Andrés Pérez Sustaita**, enciclopedia de la lucha libre, en *Anecdotario con Latin* | **confirmado**: los episodios del programa existen |
+| **Axel «El Heredero de Plata»**, y su parentesco con El Santo | **confirmado** |
+| **Negro Navarro**, y su fama de muchas llaves | **confirmado**: exhibiciones de llaves documentadas |
+| **Mongol Chino Jr.**, hijo y alumno de **Mongol Chino**, nacido en Monterrey en 1972 | **confirmado** |
+| **Tormento Negro**, de Monterrey | **confirmado**, y hay un Tormento Negro de Saltillo que es otro |
+| **Pequeño Diamante** | **confirmado**: debutó en los ochentas, en el elenco de los Coliseinos, y fue maestro de Silver Star |
+| **Angelikal**, y su cambio de nombre a **Myzteziz Jr.** | **confirmado** |
+| **Blue Panther** — Genaro Vázquez Nevarez, debut el 8 de octubre de 1978 | **confirmado**, y la mención a su papá es de la autoridad |
+| **El Hijo del Vikingo** contra **Chad Gable**, *Worlds Collide* del 7 de junio de 2025, y el alter ego de Gable, **El Grande Americano** | **confirmado**: Gable peleó como él mismo, y el Americano es su otro personaje. **Y el Americano tuvo su propia pelea por el campeonato en 2026** |
+
+**Y una corrección que el autor debe hacer si no es así:** **la autoridad dijo «El original Grande Americano», y lo que se puede confirmar es que Gable pelea como El Grande Americano además de como él mismo.** **Lo demás —que fuera el fin o el comienzo— es lo que la autoridad vio, y va como suyo.**
+
+**Y lo que se agradece es el acto, no la persona famosa:** **a quien te movió la vista, aunque no supiera que lo estaba haciendo.**
 
 **Y por qué van aquí, y no en una nota al pie:** **una obra provoca una pregunta; no la prueba.** **Y quien te movió la vista sin mostrártela también dejó algo, y eso se nombra.**
 

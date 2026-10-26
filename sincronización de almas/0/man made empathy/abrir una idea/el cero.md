@@ -68,6 +68,25 @@
 **Prueba:** ¿la firma dice qué se quitó, y el hash corresponde al contenido que se firmó?
 **Falsificador:** una fricción quitada sin firma; un hash que no corresponde; una firma que se puede editar sin que cambie el hash.
 
+## La fricción que se muestra a la fuerza
+
+**Y hay una forma de abrir una idea que no se parece a discutir, y es la que más importa.**
+
+**Ghost Rider no le explica nada a Galactus.** **En *Fantastic Four: The Animated Series*, «When Calls Galactus» (temporada 2, episodio 8, 1995), le muestra lo que hizo, y Galactus decide.** **Eso es el Penance Stare, y el autor lo dice claro: no es pasar el dolor de uno a otro; es mostrar.** **Hay gente que no entiende de razones, y se lo tienen que mostrar a la fuerza para pasar de «no sabía» a «decidí».**
+
+**Y lo mismo, con un cuerpo y no con una mirada:**
+
+| Quién | Qué mostró, y a la fuerza |
+|---|---|
+| **El Hijo del Vikingo**, contra el Grande Americano en *Worlds Collide* de 2025 | **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo** |
+| **Pequeño Diamante, el Mongol Chino Jr. y su papá, Angelikal y Tormento Negro**, de Monterrey | **otro mundo, muy distinto al que prometía la industria del software: sometidos, y con miedo** |
+| **Luciano Sánchez**, de Stella Tech | **me lo mostró a la fuerza, y no me lo explicó** |
+
+**Y la regla que sale de ahí, y es el borde de este cero:** **una idea no se abre solo con razones.** **Se abre cuando alguien ve lo que no veía.** **Y el que la abre está obligado a una sola cosa: a que el otro pueda contestar lo que vio, y no solo cargarlo.**
+
+**Prueba:** ¿se le mostró lo que no veía, o se le explicó otra vez lo mismo?
+**Falsificador:** una fricción que solo explica, con el que no lee explicaciones.
+
 ## Lo que este cero no afirma
 
 **No afirma que una idea abierta sea buena.** **Afirma que se puede abrir, y que el que la abrió no tiene que tener razón.**

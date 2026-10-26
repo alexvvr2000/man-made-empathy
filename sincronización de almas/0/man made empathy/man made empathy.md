@@ -263,6 +263,18 @@ GUANTELETE            CONVIVIR                        RUTA
 **El papá de Óscar**, que me enseñó a que no me dejara de nadie.
 **Mi profesor de primaria, Hugo**, que me hizo leer *Avengers vs. X-Men* cuando yo solo conocía las películas: **las escenas sangrientas me impactaron, y no me asustaron.** **Se me hacía raro que nadie los estuviera leyendo, porque el MCU apenas estaba empezando y en los cómics ya mostraban cosas de ese estilo.**
 
+**Y la lucha libre, que no es una afición: es la otra escuela.**
+
+**Blue Panther**, el original, por quien y por mi papá conocí la lucha.
+**Axel «El Heredero de Plata»**, que entrevistó al **Negro Navarro**: **el Negro sabe de muchas llaves, y me apantalló y me hizo acercarme a la lucha.** **Y cuando lo entrevistaron y lloró, me di cuenta de que hay cosas que yo no tomo con importancia cuando para otros es mucho.**
+**Pequeño Diamante**, **el Mongol Chino Jr. y su papá el Mongol Chino**, **Angelikal** y **Tormento Negro**, de Monterrey: **me mostraron otro mundo, muy distinto al que prometía la industria del software.** **Sometidos, y con miedo.**
+**El Hijo del Vikingo**, contra el Grande Americano en *Worlds Collide* de 2025: **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo.** **Me lo mostraron a la fuerza.**
+**Y Luciano Sánchez**, de mi antiguo trabajo en Stella Tech: **fue el que me lo mostró a la fuerza.**
+
+**Y por qué esto entra en una tesis de empatía fabricada, y no es una digresión:** **la fricción no se aprende leyendo.** **Se aprende cuando alguien te muestra, a la fuerza si hace falta, que su mundo no tiene las reglas que te prometieron.** **Es el Penance Stare de esta tesis, aplicado a su autor: no me lo explicaron, me lo mostraron, y de «no sabía» pasé a «decidí».**
+
+**Y lo que se agradece es el acto, no la persona:** **a quien te movió la vista, aunque no supiera que lo estaba haciendo.**
+
 **Y por qué van en la tesis y no en un anexo:** **una obra provoca una pregunta; no la prueba.** **Quien te movió la vista sin mostrártela dejó algo que no cabe en una bibliografía.** **Y eso es exactamente lo que esta tesis pide de un ente: que pueda mover una vista sin tener que demostrarla.**
 
 ## Nota para las siguientes generaciones
