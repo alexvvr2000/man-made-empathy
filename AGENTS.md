@@ -25,10 +25,11 @@
 | **La biblioteca** | **`faro 1.0`** — los lenguajes que se escriben sobre la base | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./sincronizacion de almas/faro 1.0/lenguajes/`** |
 | **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronizacion de almas/faro 1.0/LO HUMANO.md`** |
-| **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./mantis/AGENTS.md`) |
+| **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./AGENTS.md`, este archivo) |
 | **Lo que corre** | **la única entrada** | **`./mantis/ejecu.py`** |
-| **Los folders** | **lo que `mantis` mantiene: el cero, los candados, la tesis, la memoria** | **`./mantis/`** |
-| **La memoria viva** | **las `.tra` de cada folder, y la base de antes** | **`./mantis/` · `./.memoria continua/rastro/`** |
+| **La piel que crece** | **`tareas/` — se rehace cuando entra o sale una** | **`./mantis/tareas/`** |
+| **El criterio a pulso** | **`integridad/` — si el 1 sigue siendo el 1** | **`./mantis/integridad/`** |
+| **La memoria viva** | **las `.tra` de cada tarea, y la base de antes** | **`./mantis/tareas/` · `./.memoria continua/rastro/`** |
 | **Las pruebas del repositorio** | **las que sostiene la autoridad** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
@@ -62,7 +63,7 @@
 | **escribir un ente** | `./sincronizacion de almas/faro 1.0/lenguajes/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
 | **medir de forma repetible** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/PISO.md` | **no se mide** |
 | **guardar fricción quitada** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/FIRMAR.prs` | **no se quita sin firma** |
-| **usar llaves y candados** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/JONN.md` (recordar que se abre) y `./mantis/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
+| **usar llaves y candados** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
 | **tocar algo que otro sostiene** | `./sincronizacion de almas/faro 1.0/lenguajes/friccion/GUANTELETE.prs`, y `./sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd` | **no se toca** |
 | **copiar un alma nueva** | `./sincronizacion de almas/primitivos/alma en blanco/` | **no hay alma** |
 | **comunicar con otro que no es como uno** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/ALAS.md` | **no se comunica: se trunca** |
@@ -71,12 +72,12 @@
 | **afinar dos entes** | `./sincronizacion de almas/faro 1.0/lenguajes/relacion/RESONANCIA.md` | **no se afinan** |
 | **declarar de dónde viene algo** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
 | **escribir un resultado** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/RESULTADOS.prs` | **se inventa la medición** |
-| **responder a un mensaje** | `./mantis/AGENTS.md`, `./mantis/el alma.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
+| **responder a un mensaje** | `./AGENTS.md`, `./mantis/el alma.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
 | **decidir algo, antes de decidir** | el historial en `./.memoria continua/rastro/` | **se decide a ciegas** |
-| **abrir un candado** | `./mantis/los candados/abrir.prs` | **no se abre** |
-| **escribir una tesis teórica** | `./mantis/la tesis/teorica.prs` | **no se compone** |
-| **escribir la tesis de academia** | `./mantis/la tesis/academia.prs` | **no se entrega a revisión** |
-| **escribir la tesis práctica** | `./mantis/la tesis/practica.prs` | **no se compone sin números** |
+| **abrir un candado** | `./mantis/tareas/los candados/abrir.prs` | **no se abre** |
+| **escribir una tesis teórica** | `./mantis/tareas/la tesis/teorica.prs` | **no se compone** |
+| **escribir la tesis de academia** | `./mantis/tareas/la tesis/academia.prs` | **no se entrega a revisión** |
+| **escribir la tesis práctica** | `./mantis/tareas/la tesis/practica.prs` | **no se compone sin números** |
 | **limpiar memoria o chats** | la `.tra` de `la memoria/`, y su `No retoma:` | **no se publica** |
 | **medir una sesión** | `./pc.md`, y lo que la `.tra` declare | **no se publican números** |
 | **mutar este archivo, el estándar o la tesis** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |

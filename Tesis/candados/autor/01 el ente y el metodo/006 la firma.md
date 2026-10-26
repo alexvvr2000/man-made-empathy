@@ -14,7 +14,7 @@
 
 **Falsificador.** Un veredicto firmado por quien lo produjo, o sin firma que se lea como aprobacion.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

@@ -14,7 +14,7 @@
 
 **Falsificador.** Un ciclo sin condición de término que corre hasta que algo externo lo mata.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

@@ -16,7 +16,7 @@
 
 **Falsificador.** Una visión que no trae nada que nosotros no supiéramos.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

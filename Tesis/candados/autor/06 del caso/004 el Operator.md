@@ -14,7 +14,7 @@
 
 **Falsificador.** Una decision que se sostiene porque la tomo alguien con nombre.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

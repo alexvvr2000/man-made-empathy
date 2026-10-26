@@ -14,7 +14,7 @@
 
 **Falsificador.** Un protocolo sin lengua declarada, o con una acomodacion sin perdida declarada.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

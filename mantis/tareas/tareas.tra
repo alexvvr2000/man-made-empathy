@@ -1,0 +1,26 @@
+# tareas.tra — lo que pasó
+
+**Nombre:** tareas
+**Expande:** tareas.prs
+**Se nombró:** 2026-10-26T06:59:00+00:00
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que corrió y no hay recibo
+
+## Qué pasó
+
+**Qué pasó:** lo que hay en `tareas/`, y el `.indice` de la última vez.
+**Contra:** [ok] tareas en disco: 4
+  - el cero
+  - la memoria
+  - la tesis
+  - los candados
+
+[igual] nada entro ni salio desde 2026-10-26T06:56:34+00:00
+
+pasa: el folder no cambio, y lo declara
+**Huella:** esta .tra
+**Distancia:** codigo 0
+
+## Procesos
+
+**Procesos:** tareas.prs

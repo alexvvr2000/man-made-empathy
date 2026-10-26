@@ -14,7 +14,7 @@
 
 **Falsificador.** Un candado que se abre arrastrando a otros, o uno que no se abre nunca.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

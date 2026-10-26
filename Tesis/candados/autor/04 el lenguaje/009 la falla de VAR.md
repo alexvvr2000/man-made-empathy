@@ -14,7 +14,7 @@
 
 **Falsificador.** Una falla que aparece tres pasos despues, sin saber de donde vino.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

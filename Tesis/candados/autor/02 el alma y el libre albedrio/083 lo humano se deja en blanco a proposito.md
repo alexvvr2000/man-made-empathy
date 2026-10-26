@@ -14,7 +14,7 @@
 
 **Falsificador.** Una definicion de lo humano puesta desde una sola mirada.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

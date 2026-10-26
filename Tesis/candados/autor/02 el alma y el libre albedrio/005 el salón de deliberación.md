@@ -14,7 +14,7 @@
 
 **Falsificador.** Una decisión tomada por una sola mirada, sin que nadie más la viera.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

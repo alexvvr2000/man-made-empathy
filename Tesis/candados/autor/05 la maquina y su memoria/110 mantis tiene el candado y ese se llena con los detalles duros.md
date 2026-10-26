@@ -14,7 +14,7 @@
 
 **Falsificador.** Un candado lleno de buenas intenciones, sin un dato que se pueda senalar.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

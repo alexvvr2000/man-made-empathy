@@ -1,0 +1,31 @@
+# tareas.prs — el folder que crece, y lo declara
+
+**Nombre.** TAREAS — **T**omar, **A**notar, **R**evisar, **E**ntrar, **A**rchivar, **S**alir.
+**Origen.** De la corrección de la autoridad: **lo que el guantelete muda no son carpetas sueltas: muda `tareas/`.** **Y un folder mutable no se queda quieto esperando a que lo editen: ve que llegó algo, y se rehace.**
+**Unidad:** proceso.
+**Aplica a:** crecer.
+**Tipo:** se ejecuta. **Es la piel que se rehace sola cuando la lista cambia.**
+**Lector:** quien entra o saca una tarea.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** el folder se lee desde lo que entró y salió, no desde lo que hay hoy.
+**Límite:** **no decide qué tarea crear: eso es `MUDAR`.** **Solo declara que cambió, y se rehace.**
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Falta:** **nada dice qué tareas hay, ni cuándo entró una nueva: el folder no crece, se llena.**
+**Termina:** **por turno, y cada vez que entra o sale una tarea.**
+**Cierra en:** `tareas/tareas.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** igual.
+**Muda:** `../MUDAR.md`.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** lo que hay en `tareas/`, y el `.indice` de la última vez.
+- **Falla si:** hay una carpeta sin `.prs` que se cuente como tarea; el `.indice` no se actualiza cuando algo entró o salió; una tarea salió sin declararse; se declara `igual` habiendo cambiado.
+- **Sale:** la lista de tareas, y qué entró, qué salió, o `igual` — con el `.indice` escrito al día.
+- **Consume:** quien vaya a correr una tarea, y `MUDAR`, que decide si la nueva cubre una falta.
+
+**Prueba:** ¿se comparó contra el `.indice` anterior? ¿Se declara lo que entró y lo que salió? ¿El `.indice` se escribió? ¿Una carpeta sin `.prs` quedó fuera?
+
+**Falsificador:** un `.indice` que no se actualiza; una tarea que salió sin declararse; una carpeta sin `.prs` contada como tarea; un `igual` habiendo cambiado.

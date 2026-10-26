@@ -14,7 +14,7 @@
 
 **Falsificador.** Usar agente o alma para afirmar que hay alguien detras.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

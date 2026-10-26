@@ -272,6 +272,6 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Y el mas duro, que es el que la propia tesis se aplica:** **si dentro de veinte anos un alma crecida desde esta base sostiene algo que su alma no puede contestar, entonces esa alma no es la continuacion de esta tesis: es `AM` con otro nombre, y esta tesis no lo respalda.**
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 Para los créditos y las fuentes de terceros, el estándar vive en `../../../../sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md`.

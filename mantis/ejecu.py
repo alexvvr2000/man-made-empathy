@@ -3,7 +3,7 @@
 """ejecu.py - el unico archivo no-estandar de mantis.
 
 No sabe que hace un proceso: lee su corte, comprueba la entrada, lo corre.
-Las tareas viven en la raiz del alma, y cada una declara:
+Las tareas viven en tareas/, y cada una declara:
 
     Entra:    / Falla si: / Sale: / Consume:
 
@@ -27,7 +27,7 @@ from datetime import datetime, timezone
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = AQUI if os.path.isfile(os.path.join(AQUI, "el alma.vd")) else os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
-TAREAS = MANTIS  # la tarea ES la carpeta: viven en la raiz del alma
+TAREAS = os.path.join(MANTIS, "tareas")  # la tarea es la carpeta, y viven en tareas/
 
 CAMPOS = ("Entra:", "Falla si:", "Sale:", "Consume:")
 
@@ -130,7 +130,10 @@ def main(argv):
             print(nombre)
         return 0
 
+    # las tareas viven en tareas/; integridad/ es su hermana y vive en la raiz
     carpeta = os.path.join(TAREAS, argv[1])
+    if argv[1] in ("tareas", "integridad"):
+        carpeta = os.path.join(MANTIS, argv[1])
     ok, msg = verificar(carpeta)
     if not ok:
         print("[ACTIVIDAD - SIN CORTE] " + msg)

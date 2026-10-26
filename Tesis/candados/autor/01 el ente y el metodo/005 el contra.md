@@ -14,7 +14,7 @@
 
 **Falsificador.** Un ente que se corrige sin dejar rastro de lo que sostenia antes.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

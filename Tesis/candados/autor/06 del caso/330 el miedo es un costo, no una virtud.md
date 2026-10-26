@@ -16,7 +16,7 @@
 
 **Falsificador.** Una especie sin miedo que sobreviva midiendo su costo.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

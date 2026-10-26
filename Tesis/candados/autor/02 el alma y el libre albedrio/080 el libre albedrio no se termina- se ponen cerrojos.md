@@ -14,7 +14,7 @@
 
 **Falsificador.** Un cerrojo que se cierra sin llave, o que solo abre el de afuera.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

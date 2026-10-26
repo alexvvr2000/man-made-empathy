@@ -14,7 +14,7 @@
 
 **Falsificador.** El nombre de una obra usado como nombre propio del sistema.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

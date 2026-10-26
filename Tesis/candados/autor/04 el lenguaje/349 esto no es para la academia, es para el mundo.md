@@ -14,7 +14,7 @@
 
 **Falsificador.** Una obra que solo se entiende con el vocabulario de un gremio.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

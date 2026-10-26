@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde no volver a medir salve a alguien.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

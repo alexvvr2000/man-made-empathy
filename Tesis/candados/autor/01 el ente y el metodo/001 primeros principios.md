@@ -14,7 +14,7 @@
 
 **Falsificador.** Un principio que se explica con otro, o que sobra sin que nada falte.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

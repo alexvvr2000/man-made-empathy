@@ -14,7 +14,7 @@
 
 **Falsificador.** Un acto que cambió algo y no dice qué cambió.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

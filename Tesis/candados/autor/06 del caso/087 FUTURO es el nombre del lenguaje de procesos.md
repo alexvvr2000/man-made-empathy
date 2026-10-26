@@ -14,7 +14,7 @@
 
 **Falsificador.** Un lenguaje con nombre de relleno, que se hereda a lo que contiene.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

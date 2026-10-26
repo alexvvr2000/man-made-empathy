@@ -14,7 +14,7 @@
 
 **Falsificador.** Un nombre que sirve para dos versiones distintas.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

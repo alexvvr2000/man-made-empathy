@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde explicar haga más autónomo al otro que preguntar.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

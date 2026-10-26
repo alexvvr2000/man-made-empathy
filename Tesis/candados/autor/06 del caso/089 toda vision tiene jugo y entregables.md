@@ -14,7 +14,7 @@
 
 **Falsificador.** Una vision que solo explica, y no deja nada que se pueda correr.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

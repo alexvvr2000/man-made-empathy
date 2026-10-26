@@ -14,7 +14,7 @@
 
 **Falsificador.** Un juguete sin limites explicitos, con el criterio del que lo llena.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

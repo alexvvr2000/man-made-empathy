@@ -16,7 +16,7 @@
 
 **Falsificador.** Un caso donde el límite humano haga mejor al ente.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

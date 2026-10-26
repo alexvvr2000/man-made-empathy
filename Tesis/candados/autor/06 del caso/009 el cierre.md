@@ -14,7 +14,7 @@
 
 **Falsificador.** Un trabajo que se cierra sin decir que quedo sin hacer.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

@@ -14,7 +14,7 @@
 
 **Falsificador.** Un procedimiento que solo funciona si el que lo hizo esta ahi.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

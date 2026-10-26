@@ -14,7 +14,7 @@
 
 **Falsificador.** Una idea que no se puede contestar: se obedece o se rompe.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

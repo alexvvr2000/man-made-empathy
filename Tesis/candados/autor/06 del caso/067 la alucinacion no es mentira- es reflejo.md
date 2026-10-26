@@ -14,7 +14,7 @@
 
 **Falsificador.** Una respuesta inventada presentada como si se supiera.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

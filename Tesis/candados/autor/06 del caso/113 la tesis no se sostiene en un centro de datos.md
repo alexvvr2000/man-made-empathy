@@ -14,7 +14,7 @@
 
 **Falsificador.** Una tesis que solo se demuestra con recursos que nadie mas tiene.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

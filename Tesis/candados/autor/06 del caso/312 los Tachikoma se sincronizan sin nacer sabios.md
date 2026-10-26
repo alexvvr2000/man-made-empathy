@@ -14,7 +14,7 @@
 
 **Falsificador.** Leerla como una utopía donde la IA ya es libre y no cuesta nada.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

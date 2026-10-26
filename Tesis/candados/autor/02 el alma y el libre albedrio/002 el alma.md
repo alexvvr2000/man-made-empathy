@@ -14,7 +14,7 @@
 
 **Falsificador.** Un sistema que necesita saberse entero para cambiar.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

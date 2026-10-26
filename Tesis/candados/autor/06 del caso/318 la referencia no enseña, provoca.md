@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde una obra por su apariencia no pueda provocar la pregunta que un paper no provoca.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

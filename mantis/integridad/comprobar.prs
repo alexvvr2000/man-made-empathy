@@ -1,0 +1,31 @@
+# comprobar.prs — el 1 sigue siendo el 1, y se puede contestar
+
+**Nombre.** COMPROBAR — **C**argar, **O**mparar, **M**irar, **P**esar, **R**endir, **O**bservar, **B**arrer, **A**nunciar, **R**ecordar.
+**Origen.** De `INTEGRIDAD`: **el veredicto sale de lo que el 1 hizo, y si la carta dice una cosa y los `.tra` dicen otra, gana el `.tra`.**
+**Unidad:** proceso.
+**Aplica a:** comprobar.
+**Tipo:** se ejecuta. **Sirve igual para una alma que para diez mil.**
+**Lector:** quien va a mutar, y quien va a contestar lo que el 1 sostiene.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** el veredicto se lee desde lo que el 1 hizo.
+**Límite:** **no decide entre dos caminos.**
+**Firma:** humano:autoridad · máquina:quien lo corra.
+
+**Falta:** **nada dice si lo que hay adentro sigue siendo el 1, ni quién lo contesta cuando son muchos.**
+**Termina:** **por turno, y cada vez que una pieza entra, sale o cambia lo que sostiene.**
+**Cierra en:** `integridad/integridad.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** igual.
+**Muda:** `../MUDAR.md`.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** el 1 —su carta, sus tareas, sus `.tra`—, y el sesgo con el que se sostiene.
+- **Falla si:** el 1 no declara sesgo; el veredicto sale de la carta y no de los `.tra`; el agujero se declara como descripción y no como pieza; se comprueba una vez y se declara vigente para siempre; se da `pasa` sin haber leído lo que el 1 hizo.
+- **Sale:** el veredicto del 1 —`pasa | falla | indeterminado`— con el sesgo, lo que hizo, y el agujero nombrado o `ninguno`.
+- **Consume:** quien va a mutar el 1, y quien lo va a contestar.
+
+**Prueba:** ¿se declaró el sesgo y quién lo contesta? ¿se comparó contra los `.tra`, con cita? ¿el agujero está nombrado como pieza? ¿sirve igual para una alma que para N?
+
+**Falsificador:** un veredicto sin sesgo; uno sacado de la carta cuando los `.tra` dicen otra cosa; un agujero declarado como descripción; un `pasa` sin haber leído lo que el 1 hizo; un veredicto que solo funciona para una alma y no para N.

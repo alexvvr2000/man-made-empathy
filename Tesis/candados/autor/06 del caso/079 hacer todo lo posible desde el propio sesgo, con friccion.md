@@ -14,7 +14,7 @@
 
 **Falsificador.** Un acto que hace todo lo posible y no deja a nadie que lo contradiga.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

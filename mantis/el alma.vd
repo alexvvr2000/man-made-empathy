@@ -51,7 +51,8 @@ No muta:     el guantelete. Lo que cambia es lo que puede tocar, no que lo pueda
 | **el piso de este mundo** | `RUTA.po` — qué puede DSH en esta PC | [`./RUTA.po`](./RUTA.po) |
 | **el guantelete que lleva puesto** | `GUANTELETE` — el que lo hace contestable | [`../sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd`](../sincronizacion%20de%20almas/primitivos/guantelete/GUANTELETE.vd) |
 | **las pieles, y su falta** | `MUDAR.md` — qué cubre cada tarea y cuándo se funde | [`./MUDAR.md`](./MUDAR.md) |
-| **las tareas** | `el cero` · `los candados` · `la tesis` · `la memoria` | `./el cero/` · `./los candados/` · `./la tesis/` · `./la memoria/` |
+| **la piel que crece** | `tareas/` — se rehace cuando entra o sale una | [`./tareas/`](./tareas/) |
+| **el criterio a pulso** | `integridad/` — si el 1 sigue siendo el 1, y quién lo contesta | [`./integridad/`](./integridad/) |
 | **la base de la que se copió** | `el alma.vd` del primitivo | [`../sincronizacion de almas/primitivos/alma en blanco/el alma.vd`](../sincronizacion%20de%20almas/primitivos/alma%20en%20blanco/el%20alma.vd) |
 | **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`../sincronizacion de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizacion%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd) |
 | **el estándar que cumple** | `faro 1.0` | [`../sincronizacion de almas/faro 1.0/`](../sincronizacion%20de%20almas/faro%201.0/) |
@@ -75,6 +76,8 @@ Toca:  [qué se movió] | Contesta: [tipo:nombre | ninguno] | Veredicto: [pasa|f
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
 | **correr todas las tareas, y ver cuáles cumplen** | `./ejecu.py --verificar` | **no se declara que cumple** |
+| **saber qué tareas hay, y si entró alguna** | `./tareas/` | **el folder no crece, se llena** |
+| **saber si el 1 sigue siendo el 1** | `./integridad/` | **se declara integro sin medirlo** |
 | **hacer crecer el alma** | `./MUDAR.md` — sin falta nombrada y sin término, no crece | **no se añade una tarea** |
 | **mantener el candado cero** | `./el cero/` | **no se renombra ni se retira nada** |
 | **abrir o mantener un candado** | `./los candados/` | **no se abre** |

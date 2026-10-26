@@ -14,7 +14,7 @@
 
 **Falsificador.** Un caso donde la convivencia se logra eliminando el conflicto.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 

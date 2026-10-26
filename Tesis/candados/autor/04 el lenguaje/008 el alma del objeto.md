@@ -14,7 +14,7 @@
 
 **Falsificador.** Un objeto que solo funciona con quien lo creo presente.
 
-**Se abre con fricción, y no se reescribe: `../../../mantis/los candados/abrir.prs`.**
+**Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 ---
 
