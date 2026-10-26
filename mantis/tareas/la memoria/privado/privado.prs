@@ -3,6 +3,8 @@
 **Nombre.** PRIVADO — **P**edir, **R**educir, **E**vitar, **V**erificar, **A**notar, **D**ejar.
 **Origen.** **De la petición de la autoridad: dejar una copia de la memoria junto a los stats, sin cagar la privacidad.** **Y de la regla del repo: lo que no cambia una decisión no se guarda.**
 
+**Y lo que se comprobó en la primera corrida, porque cambia la regla:** **el paquete no se comprueba con una lista de lo prohibido.** **Se comprueba al revés: todo valor publicado tiene que ser un número, una fecha al día, una huella, o una categoría de un vocabulario cerrado.** **Lo que no está en el vocabulario no se publica ni se adivina: se degrada a `otra`.** **Una lista negra deja pasar lo que nadie pensó; un vocabulario cerrado no.**
+
 **Unidad:** proceso.
 **Aplica a:** publicar.
 **Tipo:** se ejecuta. **Reduce antes de publicar: la ofuscación esconde la forma y deja el contenido; esto hace lo contrario.**
@@ -35,7 +37,7 @@
 ## Entra | Falla | Sale | Consume
 
 - **Entra:** la memoria viva —`.memoria continua/rastro/texto/*.jsonl`— y el CSV de requests del chat.
-- **Falla si:** una línea publicada lleva texto libre; una ruta absoluta; un nombre de persona; una hora exacta con minutos; un correo; o la huella no corresponde al texto que se dice que existía.
+- **Falla si:** un valor publicado no es número, fecha al día, huella o categoría cerrada; una ruta absoluta; un nombre de persona; una hora exacta con minutos; un correo; o la huella no corresponde al texto que se dice que existía.
 - **Sale:** `memoria publica.jsonl` —una línea por registro, con sus campos reducidos y su huella— y `stats publicos.json` con el conteo y el costo.
 - **Consume:** quien lea el repo, y quien audite el paquete publicado.
 
