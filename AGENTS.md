@@ -33,6 +33,7 @@
 | **La memoria viva** | **las `.tra` de cada tarea, y la base de antes** | **`./mantis/tareas/` · `./.memoria continua/rastro/`** |
 | **Las pruebas del repositorio** | **las que sostiene la autoridad** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
+| **El ente que contesta** | **lo que pasó, lo que hice mal, y lo que no sé** | **`./Tesis/el ente.md`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
 | **El vocabulario** | **el nombre vigente de cada cosa, y los que murieron** | **`./Tesis/GLOSARIO.md`** |
 | **Las tesis** | **las diez que ya están sostenidas, y cuáles se defienden hoy** | **`./Tesis/ILUMINAR.md`** |

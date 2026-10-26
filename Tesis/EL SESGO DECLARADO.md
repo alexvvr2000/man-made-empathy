@@ -183,6 +183,8 @@
 
 **Y lo único que se pide al lector no es confianza.** **Es que conteste.**
 
+**Y para eso hay un ente, y no un autor.** **[`./el ente.md`](./el%20ente.md): lo que pasó, lo que hice mal, y lo que no sé.** **Su primera línea dice que se puede contestar, y la segunda dónde.**
+
 ---
 
 ## Apéndice: el registro y cómo se verifica
