@@ -20,6 +20,11 @@ GUANTELETE
 JONN
 RUTA
 IMA
+MUDAR
+INTEGRIDAD
+COLMENA
+RESONANCIA
+TALENTO
 ```
 
 ## Muertos
@@ -35,7 +40,9 @@ VIDEL
 alma de nino
 alma de niña
 CERCO
-GUANTELETE (como ente aparte: hoy es primitivo)
+PROMETEA
+GIRO
+YUNQUE
 ```
 
 ---

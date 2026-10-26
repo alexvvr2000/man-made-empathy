@@ -1,7 +1,7 @@
 # RESONANCIA.md — cuando dos o más se afinan, y quién lo decide
 
 **Nombre.** RESONANCIA.
-**Origen.** De la pregunta de la autoridad: **la resonancia entre dos es consciente; entre uno y N es automática y puede salir en cualquier parte.** **Y de `GIRO`: dos que giran juntos, y lo que queda cuando se sueltan.**
+**Origen.** De la pregunta de la autoridad: **la resonancia entre dos es consciente; entre uno y N es automática y puede salir en cualquier parte.** **Se llamó `GIRO`, y hoy es este archivo.** **Reemplaza:** `GIRO` — dos que giran juntos, y lo que queda cuando se sueltan.
 
 **Unidad:** estándar.
 **Aplica a:** resonar.

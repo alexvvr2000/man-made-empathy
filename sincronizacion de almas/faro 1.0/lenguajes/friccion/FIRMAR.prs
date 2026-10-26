@@ -20,7 +20,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** la fricción que se va a quitar (un paso de `EXPRESION`, un vértice del triángulo, una sonda de `YUNQUE`, el `Sostenido` de una resonancia), y lo que se va a producir sin ella.
+- **Entra:** la fricción que se va a quitar (un paso de `EXPRESION`, un vértice del triángulo, una sonda de `TALENTO`, el `Sostenido` de una resonancia), y lo que se va a producir sin ella.
 - **Falla si:** se quita sin firmar; la firma no dice qué se quitó; el `hash` no corresponde al contenido; la firma no dice qué se acepta; el lugar de la firma no se declara.
 - **Sale:** el archivo firmado, con su `hash`, o `[SIN FIRMA - FRICCIÓN QUITADA]`.
 - **Consume:** quien lea lo producido, y quien lo vaya a usar después.

@@ -21,7 +21,7 @@
 
 **La tesis: la verbalización como primitivo, y la separación entre el alma y la RUTA.** **Si alguien encontró antes algo parecido, sigue siendo su posición, escrita así por él.**
 
-**Y los nombres de las piezas:** **MANTIS, FARO, ALAS, CONVIVIR, VIGA, GIRO, YUNQUE, GUANTELETE, JONN.** **Son palabras comunes en español, dichas como acrónimos o como acto.** **Y las que se inspiran en una obra lo declaran, en `FUENTES.md`.**
+**Y los nombres de las piezas:** **MANTIS, FARO, ALAS, CONVIVIR, VIGA, RESONANCIA, TALENTO, GUANTELETE, JONN, COLMENA.** **Son palabras comunes en español, dichas como acrónimos o como acto.** **Y las que se inspiran en una obra lo declaran, en `FUENTES.md`.**
 
 **Y su límite, que es la regla primera:** **los ingredientes tienen antecedentes.** **La síntesis, la terminología y la forma de conectarlos, es lo que este repo pone.**
 

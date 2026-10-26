@@ -25,8 +25,8 @@ Son del autor. Son palabras comunes del español, dichas como acrónimo o como a
 | VIGA | el registro de la alineación | la pieza que sostiene sin ser el muro |
 | GUANTELETE | el proceso de tocar lo que otro sostiene, y de componer lo que falta | el guante que permite tocar, y el guante que no se quita |
 | CONVIVIR | el estándar de convivencia | la palabra que dice el acto |
-| GIRO | la resonancia | dos que giran juntos |
-| YUNQUE | el talento | lo que aguanta el golpe |
+| RESONANCIA | la resonancia (se llamó GIRO) | dos que giran juntos |
+| TALENTO | el talento (se llamó YUNQUE) | lo que aguanta el golpe |
 | JONN | el recordatorio de que un candado se abre | un nombre propio, elegido por el autor |
 
 **Nota de cumplimiento.** `MANTIS` y `FARO` son marcas activas de software de otras empresas en otras clases de producto. Aquí no se usan como marca, ni como producto, ni para identificar a esas empresas: son el nombre interno de dos piezas de este repositorio. Si una editorial pide aclaración, esta línea es la respuesta.

@@ -33,6 +33,8 @@
 | **Las pruebas del repositorio** | **las que sostiene la autoridad** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
+| **El vocabulario** | **el nombre vigente de cada cosa, y los que murieron** | **`./Tesis/GLOSARIO.md`** |
+| **Las tesis** | **las diez que ya están sostenidas, y cuáles se defienden hoy** | **`./Tesis/ILUMINAR.md`** |
 | **La máquina** | **con qué se hizo, y su techo** | **`./pc.md`** |
 
 **Qué no se toca:** **la tesis, el estándar y `Pruebas/`.** **Se leen; se citan; y lo que los cambia se espera a su autor.**
@@ -70,6 +72,7 @@
 | **convivir sin volverse el otro** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/CONVIVIR.vd` | **no hay convivencia: hay copia** |
 | **medir talento** | `./sincronizacion de almas/faro 1.0/lenguajes/relacion/TALENTO.md` | **no se decide con quién trabajar** |
 | **afinar dos entes** | `./sincronizacion de almas/faro 1.0/lenguajes/relacion/RESONANCIA.md` | **no se afinan** |
+| **escribir con un término del repo** | `./Tesis/GLOSARIO.md` | **se usa un nombre muerto como si existiera** |
 | **declarar de dónde viene algo** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
 | **escribir un resultado** | `./sincronizacion de almas/faro 1.0/lenguajes/salida/RESULTADOS.prs` | **se inventa la medición** |
 | **responder a un mensaje** | `./AGENTS.md`, `./mantis/el alma.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |

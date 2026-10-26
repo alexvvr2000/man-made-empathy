@@ -1,7 +1,7 @@
 # TALENTO.md — medir lo que aguanta, y no lo que promete
 
 **Nombre.** TALENTO.
-**Origen.** Del protocolo de la autoridad: **el talento no está en el colaborador ni en quien lo usa: está en la interacción.** **Y de `YUNQUE`: el que no atrae, aguanta el golpe y se mide por lo que no se dobla.**
+**Origen.** Del protocolo de la autoridad: **el talento no está en el colaborador ni en quien lo usa: está en la interacción.** **Se llamó `YUNQUE`, y hoy es este archivo.** **Reemplaza:** `YUNQUE` — el que no atrae, aguanta el golpe y se mide por lo que no se dobla.
 
 **Unidad:** estándar.
 **Aplica a:** medir.

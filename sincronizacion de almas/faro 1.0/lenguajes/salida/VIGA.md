@@ -69,7 +69,7 @@ Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | veri
 
 ## Protocolo 3 — comunicación efectiva
 
-**De dónde viene:** `Ouroboros/3 VIGA — mutación/Proceso VIGA.md`, la última. **Qué es:** **un proceso que se ejecuta sobre una salida.** **Y absorbió a los otros dos: sus cuatro archivos eran un solo proceso repartido.**
+**De dónde viene:** `Ouroboros/3 VIGA — mutación/Proceso VIGA.md`, la última. **Y `Ouroboros` murió: la cita es histórica, y lo vigente es este archivo.** **Qué es:** **un proceso que se ejecuta sobre una salida.** **Y absorbió a los otros dos: sus cuatro archivos eran un solo proceso repartido.**
 
 > **"Una idea que el otro lado no entiende vale cero."**
 >
