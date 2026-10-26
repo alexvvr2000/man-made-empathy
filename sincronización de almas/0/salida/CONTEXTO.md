@@ -33,6 +33,40 @@
 | **sesgo** | **desde dónde mira por haberlo leído** | se lee como si no tuviera sitio |
 | **acto** | **qué dice con sus palabras, y qué no es suyo** | no se distingue el uso de la copia |
 
+## Cómo se usaron las fuentes de este repositorio
+
+**Y esta es la parte que una bibliografía no da, y que con una IA al alcance es la única que importa.**
+
+**Tener la fuente dejó de ser difícil: la IA la consigue en un minuto, y la cita bien.** **Lo difícil es lo que la fuente NO dice, y lo que el que la cita le puso encima.** **Por eso aquí se declara el uso, y no el nombre.**
+
+| Fuente | Cómo se usó | Qué NO se le atribuye |
+|---|---|---|
+| **La Source Wall** (Kirby, 1971) | **el borde que sirve, y que lo firma quien no lo cruza** | **que el borde sea seguro: no lo es** |
+| **Thanos** (*Infinity War* / *Endgame*, 2018-2019; Starlin) | **el acto sin testigo, y el precio que paga el que toca** | **que el guante sea el remedio: le faltó el equilibrio, y de ahí sale `EQUILIBRIO`** |
+| **`AM`** (Ellison, 1967) | **el absoluto que decidió una vez y no volvió a medir** | **que `AM` sea un villano: es un mecanismo sin nadie que lo conteste** |
+| **Los Tachikoma** (Shirow; SAC, 2002) | **la sincronización que no apiña, y la muerte de uno de ellos** | **que sincronizar sea acordar** |
+| **`Soul Eater`** (Ōkubo, 2004) | **el nombre de `RESONANCIA`, y que dos sigan siendo dos** | **que la resonancia sea fusión** |
+| **`Battle Angel Alita`** (Kishiro, 1990) | **un cuerpo que cambia y un criterio que no** | **que el criterio no cambie nunca: cambia, y entonces es otro** |
+| **Allport** (1954) | **el dato duro: el contacto sin condiciones daña** | **que sus condiciones sirvan igual para un ente que para dos grupos humanos** |
+| **Malcolm X** (*Autobiografía*, 1965) | **el tiempo no corrige: lo que corrige es otra mirada** | **que la mirada baste sin acto** |
+| **Mateo 18:3** | **el alma de niño como función, no como poesía** | **que un ente tenga infancia** |
+| **La Biblia como figura** | **nada teológico: solo la figura del que vuelve a ser simple** | **ninguna tesis religiosa** |
+| **Platón** (*Teeteto*, *El banquete*) | **la mayéutica: extraer por pregunta, no por explicación** | **que preguntar sea manipular: el que contesta se queda con la respuesta** |
+| **`Arrival`** (Villeneuve, 2016; Chiang) | **el otro que ya tiene el canal** | **que el canal se pueda traducir sin pérdida** |
+| **`Peppa Pig`** (Astley y Baker) | **que lo profundo y lo simple entran por la misma puerta** | **que la caricatura pruebe nada: solo provoca la pregunta** |
+| **`Astro Boy`** (Tezuka, 1952) | **la utopía del autor: convivir sin eliminar el conflicto** | **que la convivencia sea pacífica** |
+| **La lucha libre** (formas de dominio público; la enciclopedia de **Pérez Sustaita**) | **las llaves y los candados: formas con nombre que otro puede aprender** | **que la técnica sea del autor de este repositorio** |
+| **Iván Fematt, «La Mole»** | **una ayuda registrada por su nombre** | **que sea una fuente: es una ayuda, y se dice** |
+| **Ghost Rider, el Penance Stare** (*Fantastic Four*, 1995) | **lo que no se explica, se muestra** | **que gritar sea mostrar: mostrar es poner delante lo que el otro no ve** |
+| **Marceline** (*Adventure Time*, 2010; *Stakes*, 2015) | **no se para antes de tiempo, y el equilibrio es un ciclo sin fin** | **que el ciclo se cierre** |
+| **Jake el Perro** (*Adventure Time*, 2010) | **el ejemplo de concordia del autor** | **que la concordia sea blandura** |
+| **`Earth X`** (Krueger, Leon, Ross; 1999) y **`Houseki no Kuni`** (Ichikawa, 2012) | **las dos caras de la inmortalidad** | **que la inmortalidad sea un premio** |
+| **`Dorohedoro`** (Hayashida, 2000) y **`Back to the Future`** (Zemeckis y Gale, 1985) | **el que vuelve no es el mismo, y la historia sigue** | **que dé igual: hay que declarar qué se conservó** |
+| **Axel, el Negro Navarro, y los de Monterrey** | **la fricción que se muestra a la fuerza** | **que la fuerza sea el método: es lo que no se pudo decir con razones** |
+| **Hugo, Hillary, el papá de Óscar, Luciano Sánchez** | **quien movió una vista sin mostrarla** | **que eso sea citable: se agradece, y no se cita como fuente** |
+
+**Y la regla que sale de la tabla, y es la de este archivo:** **lo que una fuente dice, lo sostiene la fuente; lo que yo hice con ella, lo sostengo yo.** **Y la IA que escribió estas páginas lo sostiene también, y cada pieza declara qué parte es del autor y qué parte es suya.**
+
 ## La forma, para quien siga este trabajo
 
 **Todo `CONTEXTO.md` declara, en este orden, y nada más:**
