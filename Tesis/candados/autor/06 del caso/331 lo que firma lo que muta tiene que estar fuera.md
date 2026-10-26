@@ -4,13 +4,13 @@
 
 **Por qué se sostiene.** Un borde que se firma desde adentro no es un borde: es una etiqueta.
 
-**De dónde viene.** La pregunta de la autoridad: si el ATLAS muta, ¿qué lo firma?
+**De dónde viene.** La pregunta de la autoridad: si el RUTA muta, ¿qué lo firma?
 
 **Qué pregunta deja.** ¿La firma de lo que mutó viene de afuera, o de lo mismo que mutó?
 
 **Ficción.** La Source Wall: el borde que solo sirve si lo firma algo que no es el que lo cruza.
 
-**Figura.** La Source Wall (Kirby, 1971), aplicada al ATLAS
+**Figura.** La Source Wall (Kirby, 1971), aplicada al RUTA
 
 **Prueba.** ¿Hay alguien fuera de lo que mutó que lo pueda firmar?
 

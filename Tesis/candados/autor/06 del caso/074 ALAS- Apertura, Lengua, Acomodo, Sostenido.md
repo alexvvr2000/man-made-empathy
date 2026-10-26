@@ -4,7 +4,7 @@
 
 **Por qué se sostiene.** Una comunicacion que funciona deja al otro con alas, no con el mensaje. La prueba no es que entienda: es que pueda seguir sin el que le hablo. Y las dos letras que arreglan el truncado son Lengua y Acomodo: un mensaje que no cabe en el canal no es claro, es truncado, y el truncado se lee como completo. Eso es lo que pasa con la gente que no entiende el idioma, que no oye, que no ve o que procesa distinto.
 
-**De dónde viene.** Los tres protocolos de ATLAS y la autoridad.
+**De dónde viene.** Los tres protocolos de RUTA y la autoridad.
 
 **Qué pregunta deja.** ¿Que declara un protocolo para no truncar a quien no es como el que habla?
 

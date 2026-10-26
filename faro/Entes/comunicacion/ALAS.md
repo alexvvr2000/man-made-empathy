@@ -67,7 +67,7 @@ Falla si:   [el caso que lo incumple, y qué se truncó]
 
 **Y el cuarto, que no existe todavía:** **el protocolo para una inteligencia que no tiene esquema, no tiene idioma, y no se parece a nada de esto.** **Se declara `[VACÍO - SIN PROTOCOLO]`, y se hace cuando llegue.**
 
-## Donde vive tu propio atlas
+## Donde vive tu propia RUTA
 
 **Y esta es la parte que lo vuelve de todos:** **cada quien escribe su protocolo, con su nombre propio, y declara las cuatro letras de ALAS.**
 

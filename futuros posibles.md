@@ -457,7 +457,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 **En vivo, el testigo es el que mira, en el momento.** **Y no hay dónde esconder el ensayo.**
 
-**Lo que se cumple o no delante de todos es el techo de ATLAS:** *que el otro pueda seguir haciéndolo sin nosotros.* **En un escenario, eso se ve o no se ve.** **En un documento, se puede fingir.**
+**Lo que se cumple o no delante de todos es el techo de RUTA:** *que el otro pueda seguir haciéndolo sin nosotros.* **En un escenario, eso se ve o no se ve.** **En un documento, se puede fingir.**
 
 **Por eso la presentación en tiempo real es lo que la academia no puede producir en un paper:** **el paper describe el ensayo; la presentación es el ensayo.**
 

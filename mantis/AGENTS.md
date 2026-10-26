@@ -35,3 +35,18 @@
 **Prueba:** ¿quien abre la carpeta encuentra el ente? ¿este archivo enruta en vez de explicar? ¿cada fila dice qué no se hace sin autoridad?
 
 **Falsificador:** una puerta que copia las tres piezas; una fila sin la columna de autoridad; un mensaje respondido sin abrir la puerta; un ente citado de memoria en vez de abierto.
+
+---
+
+## La regla dura: el cero dice lo mismo que el repo
+
+**El candado cero es la tesis entera, y si cita un nombre que ya no existe, el cero está mal.**
+
+**Cada vez que se renombre, se retire o se cree una pieza, el candado cero se revisa en el mismo turno.** **No después, no en el siguiente pase: en el mismo.**
+
+**Y se comprueba, no se recuerda:** `pedir.py piso` falla si el candado cero nombra algo que no está en el repo.
+
+**Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `GUANTELETE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `CERCO`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
+
+**Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`piso` lo comprueba?
+**Falsificador:** el cero nombrando algo que no está; una pieza renombrada sin que el cero lo sepa.

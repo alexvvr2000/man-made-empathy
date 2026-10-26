@@ -119,3 +119,18 @@
 **¿Alguien que abre este archivo encuentra Rastro, Ruta y Carga? ¿La ruta tiene la columna de autoridad? ¿La carga dice el síntoma? ¿Cada ruta que cita existe? ¿Se declara lo que no se hace?**
 
 **Falsificador:** una de las tres piezas ausente; una ruta sin autoridad; una carga sin síntoma; una cita a un archivo que no está; un apartado vacío que parece contenido.
+
+---
+
+## La regla dura: el cero dice lo mismo que el repo
+
+**El candado cero es la tesis entera, y si cita un nombre que ya no existe, el cero está mal.**
+
+**Cada vez que se renombre, se retire o se cree una pieza, el candado cero se revisa en el mismo turno.** **No después, no en el siguiente pase: en el mismo.**
+
+**Y se comprueba, no se recuerda:** `pedir.py piso` falla si el candado cero nombra algo que no está en el repo.
+
+**Está comprobación existe porque el cero estuvo desactualizado meses**, citando `ATLAS`, `VIDERE` y `GUANTELETE` cuando el repo ya tenía `RUTA`, `CONVIVIR` y `CERCO`. **Un cero que cita fantasmas no es una tesis: es un recuerdo.**
+
+**Prueba:** ¿cada nombre propio que el cero usa existe en el repo? ¿`piso` lo comprueba?
+**Falsificador:** el cero nombrando algo que no está; una pieza renombrada sin que el cero lo sepa.

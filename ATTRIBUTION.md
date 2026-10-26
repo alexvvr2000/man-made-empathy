@@ -19,7 +19,7 @@
 
 ## 2. Lo que es del autor, y de nadie más
 
-**La tesis: la verbalización como primitivo, y la separación entre el alma y la ATLAS.** **Si alguien encontró antes algo parecido, sigue siendo su posición, escrita así por él.**
+**La tesis: la verbalización como primitivo, y la separación entre el alma y la RUTA.** **Si alguien encontró antes algo parecido, sigue siendo su posición, escrita así por él.**
 
 **Y los nombres de las piezas:** **MANTIS, FARO, ALAS, CONVIVIR, VIGA, GIRO, YUNQUE, CERCO, JONN.** **Son palabras comunes en español, dichas como acrónimos o como acto.** **Y las que se inspiran en una obra lo declaran, en `FUENTES.md`.**
 

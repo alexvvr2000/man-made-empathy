@@ -63,6 +63,31 @@ def docs_con_estandares():
     return estandares, {f: os.path.join(lenguaje, f) for f in estandares}
 
 
+def comprobar_cero():
+    """El candado cero dice lo mismo que el repo, o falla.
+
+    Regla dura: si el cero nombra algo que ya no existe, el cero esta mal.
+    Se busca cada nombre propio que el cero usa y se comprueba contra el arbol.
+    """
+    cero = os.path.join(RAIZ, "Tesis", "candados", "autor", "000 el cero", "000 la tesis.md")
+    if not os.path.isfile(cero):
+        fallas.append("no esta el candado cero: la tesis entera no se puede comprobar")
+        return
+    texto = leer(cero)
+    # los nombres del repo, vivos, y los que murieron y no pueden volver a aparecer
+    VIVOS = ("MANTIS", "FARO", "ALAS", "VIGA", "CONVIVIR", "CERCO", "JONN", "GIRO", "YUNQUE", "RUTA")
+    MUERTOS = ("ATLAS", "VIDERE", "GUANTELETE", "Ouroboros", "Libre albedrio", "Pegamento",
+               "VIDEL", "alma de nino", "alma de niña")
+    for m in MUERTOS:
+        if re.search(r"\b" + re.escape(m) + r"\b", texto):
+            fallas.append("el candado cero nombra '{}', que ya no existe en el repo".format(m))
+    usados = [v for v in VIVOS if re.search(r"\b" + re.escape(v) + r"\b", texto)]
+    if not usados:
+        fallas.append("el candado cero no nombra ninguna pieza viva del repo: esta desconectado")
+    else:
+        diag("ok", "el cero y el repo dicen los mismos nombres: {}".format(", ".join(usados)))
+
+
 def main():
     # --- 1. limpieza de la fuente en git -----------------------------------
     seguro = False
@@ -83,6 +108,9 @@ def main():
         indet.append("no hay .git: no hay con que comparar")
     if seguro:
         diag("ok", "el repo esta limpio en git")
+
+    # --- 1b. el candado cero dice lo mismo que el repo ----------------------
+    comprobar_cero()
 
     # --- 2 y 3. los estandares existen y la carta los cubre -----------------
     estandares, rutas = docs_con_estandares()
