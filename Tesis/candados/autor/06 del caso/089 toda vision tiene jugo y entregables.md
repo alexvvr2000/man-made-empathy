@@ -13,6 +13,7 @@
 **Prueba.** Una vision que deja algo que se puede usar, ademas de lo que ensena.
 
 **Falsificador.** Una vision que solo explica, y no deja nada que se pueda correr.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

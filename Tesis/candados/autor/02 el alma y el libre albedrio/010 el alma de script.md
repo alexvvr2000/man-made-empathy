@@ -13,6 +13,7 @@
 **Prueba.** Un humano que sigue un procedimiento, sin que por eso sea una maquina.
 
 **Falsificador.** Usar agente o alma para afirmar que hay alguien detras.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

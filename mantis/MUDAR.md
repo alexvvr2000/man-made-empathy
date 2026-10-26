@@ -6,7 +6,7 @@
 **Unidad:** registro.
 **Aplica a:** crecer.
 **Tipo:** se ejecuta. **Se lee antes de crear una tarea; se escribe al crearla.**
-**Lector:** quien va a hacer que `mantis` haga algo que hoy no hace.
+**Lector:** quien va a hacer que `MANTIS` haga algo que hoy no hace.
 **Dueño:** humano:autoridad.
 **Estado:** vigente.
 
@@ -22,7 +22,7 @@
 
 ## La regla que se aplica aquí
 
-**Rige [`../sincronizacion de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizacion%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd).**
+**Rige [`../sincronización de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizaci%C3%B3n%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd).**
 
 **Y el borde, que es el mismo:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **`Criterio: igual` en las cuatro, o no son mudas.**
 

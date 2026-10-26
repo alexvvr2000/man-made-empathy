@@ -13,6 +13,7 @@
 **Prueba.** Una afirmacion triangulada contra algo que no es noble ni prestigioso.
 
 **Falsificador.** Una afirmacion probada solo contra lo que ya se aceptaba.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

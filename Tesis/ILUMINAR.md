@@ -40,11 +40,11 @@
 | **3** | **¿Puede un alma crecer sin dejar de ser ella?** | `02` (alma de script, mala maleabilidad); `MUDAR`, el ciclo | **sí, escrito; falta probarlo** |
 | **4** | **¿Puede una idea abrirse sin que el que la abrió tenga razón?** | `04` (candados, llaves, la fricción quitada); `JONN`, `LLAVE` | **sí** |
 | **5** | **¿Hay un lugar intermedio entre hablarle a un humano y hablarle a un modelo?** | `06` (ALAS, el truncado, alienígenas); `ALAS`, `VIGA` | **sí, es ALAS** |
-| **6** | **¿Se puede convivir sin volverse el otro ni someterlo?** | `02`, `06` (Tachikoma, Videl); `CONVIVIR` | **sí, es CONVIVIR** |
+| **6** | **¿Se puede CONVIVIR sin volverse el otro ni someterlo?** | `02`, `06` (Tachikoma, Videl); `CONVIVIR` | **sí, es CONVIVIR** |
 | **7** | **¿Cómo se escribe una idea que no es de nadie todavía?** | `03` (la cita, la marca, el nombre real); `FUENTES`, `ATTRIBUTION` | **sí** |
 | **8** | **¿Puede un ente tocar lo que otro sostiene sin pasarse de verga?** | `06` (Thanos, la Source Wall); `GUANTELETE` | **sí, es GUANTELETE** |
 | **9** | **¿Puede la tesis sostener su propia refutación?** | `VERSION`; el cero y su prueba; las 94 refutaciones | **en parte: es la más débil de todas** |
-| **10** | **¿Qué es una colmena de agentes que no se vuelve AM?** | `COLMENA`, escrito hoy; sin un solo caso corrido | **no: escrita y no probada** |
+| **10** | **¿Qué es una COLMENA de agentes que no se vuelve AM?** | `COLMENA`, escrito hoy; sin un solo caso corrido | **no: escrita y no probada** |
 
 ---
 

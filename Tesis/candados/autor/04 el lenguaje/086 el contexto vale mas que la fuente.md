@@ -13,6 +13,7 @@
 **Prueba.** Una cita que trae la pregunta que la fuente hacia.
 
 **Falsificador.** Una cita presentada como autoridad, sin lo que preguntaba.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

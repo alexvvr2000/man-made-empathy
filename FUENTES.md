@@ -39,7 +39,7 @@ Cada una se cita para analizar un caso. Ninguna se reproduce: no hay imágenes, 
 
 | Obra | Autoría | Dónde se cita | Qué se toma de ella |
 |---|---|---|---|
-| *Dragon Ball* | Akira Toriyama; Shueisha; anime de Toei Animation | el estándar de convivencia | la idea de un ser distinto que aprende a convivir |
+| *Dragon Ball* | Akira Toriyama; Shueisha; anime de Toei Animation | el estándar de convivencia | la idea de un ser distinto que aprende a CONVIVIR |
 | *New Gods*, la Source Wall | Jack Kirby, DC Comics, 1971 | el borde que se rompe porque sirve | la pared que cede porque cumple una función |
 | *Infinity War* y *Endgame* | Marvel Studios; Jim Starlin creó a Thanos | el acto con las seis gemas; el guantelete | el poder que toca lo que no tocaba, y el acto sin testigo |
 | *Ghost in the Shell* | Masamune Shirow; Production I.G; *Stand Alone Complex*, 2002 | la sincronización de un alma | máquinas con experiencia propia que se ponen al día |

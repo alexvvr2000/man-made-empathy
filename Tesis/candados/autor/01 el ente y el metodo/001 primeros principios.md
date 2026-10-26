@@ -13,6 +13,7 @@
 **Prueba.** Un principio que no se puede derivar de otro, y que se pierde si desaparece.
 
 **Falsificador.** Un principio que se explica con otro, o que sobra sin que nada falte.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

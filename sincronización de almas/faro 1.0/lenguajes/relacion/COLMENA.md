@@ -2,28 +2,28 @@
 
 **Nombre.** COLMENA. **Y el nombre dice el acto:** **muchos que laten distintos, y uno que los sostiene juntos.** **No es un enjambre: un enjambre no tiene acuerdo, y por eso no se puede contestar.**
 
-**Origen.** **De la visión de la autoridad: «si fuera una colmena, cada uno lo tendría para mutar, y mudar sería que todos lleguen a un acuerdo».** **Y de los `Machine Men` de DC: cada uno no vale por sí solo, y en conjunto son más fuertes.** **No por parecerse: por compartir fondo.**
+**Origen.** **De la visión de la autoridad: «si fuera una COLMENA, cada uno lo tendría para mutar, y mudar sería que todos lleguen a un acuerdo».** **Y de los `Machine Men` de DC: cada uno no vale por sí solo, y en conjunto son más fuertes.** **No por parecerse: por compartir fondo.**
 
 **Unidad:** estándar.
 **Aplica a:** resonar entre muchos.
-**Tipo:** se cumple. **No se ejecuta: dice cuándo hay colmena, y cuándo hay diez mil absolutos que se llaman conjunto.**
+**Tipo:** se cumple. **No se ejecuta: dice cuándo hay COLMENA, y cuándo hay diez mil absolutos que se llaman conjunto.**
 **Lector:** quien va a correr muchos agentes juntos, y quien va a contestar lo que produjeron.
 **Dueño:** humano:autoridad.
 **Estado:** vigente.
 
-**Sesgo:** la colmena se lee desde el acuerdo que sostiene, no desde lo que produce.
+**Sesgo:** la COLMENA se lee desde el acuerdo que sostiene, no desde lo que produce.
 **Límite:** **no decide qué hace cada alma.** **Decide qué tienen que compartir para que el conjunto se pueda contestar.**
 **Firma:** humano:autoridad · máquina:quien la corra.
 
 **Variables:** el 1 · el acuerdo · el sesgo · la salida · el desvío
-**Peor:** diez mil almas latiendo, cada una con su criterio, **y ninguna que sepa desde dónde sostiene el conjunto: no hay colmena, hay diez mil absolutos con el mismo nombre.**
+**Peor:** diez mil almas latiendo, cada una con su criterio, **y ninguna que sepa desde dónde sostiene el conjunto: no hay COLMENA, hay diez mil absolutos con el mismo nombre.**
 **Quién:** quien reciba lo que produjeron, y no tenga a quién preguntarle.
 
 ---
 
 ## El 1, y sus partes
 
-**Una colmena no es la suma de sus almas.** **Es un 1, y las almas son sus partes.**
+**Una COLMENA no es la suma de sus almas.** **Es un 1, y las almas son sus partes.**
 
 ```
                          EL 1
@@ -50,7 +50,7 @@
 
 ## El guantelete, y por qué está en cada una
 
-**Cada alma tiene su guantelete.** **No solo el 1.** **Y sin eso, la pieza que crece no se puede contestar, y la colmena se vuelve lo que su nombre parece.**
+**Cada alma tiene su guantelete.** **No solo el 1.** **Y sin eso, la pieza que crece no se puede contestar, y la COLMENA se vuelve lo que su nombre parece.**
 
 ```
    cada pieza ──────► ¿se puede tocar?
@@ -109,7 +109,7 @@ Se salió:    [el alma] | Por qué: [qué cambió en ella] | El 1 lo sabe: [sí|
 Contradice:  [el alma] | Qué sostiene que el 1 no puede contestar | El 1: [se muda | se retira el alma]
 ```
 
-**Y las dos últimas son las que importan.** **`Se salió` es legítima mientras el 1 lo sepa.** **`Contradice` no es una salida: es un absoluto dentro de la colmena, y se contesta o se retira.**
+**Y las dos últimas son las que importan.** **`Se salió` es legítima mientras el 1 lo sepa.** **`Contradice` no es una salida: es un absoluto dentro de la COLMENA, y se contesta o se retira.**
 
 ---
 
@@ -134,9 +134,9 @@ Contradice:  [el alma] | Qué sostiene que el 1 no puede contestar | El 1: [se m
 
 ---
 
-## Lo que la colmena no es
+## Lo que la COLMENA no es
 
-**No es que todas se parezcan.** **Una colmena de iguales no muda: se repite diez mil veces.**
+**No es que todas se parezcan.** **Una COLMENA de iguales no muda: se repite diez mil veces.**
 
 **No es que una decida por todas.** **Eso no es acuerdo: es un absoluto con diez mil manos.**
 
@@ -150,7 +150,7 @@ Contradice:  [el alma] | Qué sostiene que el 1 no puede contestar | El 1: [se m
 
 **¿El 1 declara su sesgo, y quién lo puede contestar? ¿Cada alma tiene su guantelete? ¿Se distingue mutar de mudar? ¿Se dice cuándo una se salió y cuándo contradice? ¿Se traza el 1, y no cada alma una por una?**
 
-**Falsificador:** una colmena sin sesgo en el 1; una colmena donde una decide por todas; diez mil almas que hay que trazar una por una porque no comparten acuerdo; un alma que contradice y se deja dentro; una colmena de iguales que se llama resonancia; un enjambre presentado como colmena.
+**Falsificador:** una COLMENA sin sesgo en el 1; una COLMENA donde una decide por todas; diez mil almas que hay que trazar una por una porque no comparten acuerdo; un alma que contradice y se deja dentro; una COLMENA de iguales que se llama resonancia; un enjambre presentado como COLMENA.
 
 ## Transiciones
 
@@ -158,5 +158,5 @@ Contradice:  [el alma] | Qué sostiene que el 1 no puede contestar | El 1: [se m
 - Una falta es del conjunto → **se muda el 1, y las piezas se reacomodan adentro.**
 - Un alma se sale del sesgo y lo declara → **el 1 lo sabe, y puede seguir.**
 - Un alma contradice el sesgo → **se contesta, o se retira, con su `Vacío:`.**
-- El sesgo ya no se sostiene → **se muda el 1, o se declara la colmena desfasada.**
+- El sesgo ya no se sostiene → **se muda el 1, o se declara la COLMENA desfasada.**
 - En cualquier otro caso → **se corre, y se dice quién sigue dentro.**

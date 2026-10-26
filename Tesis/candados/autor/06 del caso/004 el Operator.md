@@ -13,6 +13,7 @@
 **Prueba.** Una decision que se toma mirando la operacion, no el prestigio de quien la propone.
 
 **Falsificador.** Una decision que se sostiene porque la tomo alguien con nombre.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

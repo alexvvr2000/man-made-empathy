@@ -269,9 +269,11 @@ GUANTELETE            CONVIVIR                        RUTA
 **La verbalizacion se comprueba, no se cree.** **Se cumple si alguien que no es el autor puede tomar la tesis, ponerla contra algo que no es ella, y decir que aguanto o que se movio, dejando el rastro.**
 
 **Falsificador.** **Una tesis que solo se sostiene con el autor presente.** **O que se contradice y se corrige sin dejar lo que sostenia antes.** **O que no puede citar de donde salio lo que afirma.** **O que pide confianza en vez de dejar la pregunta abierta.**
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **En el cero esto pesa más que en ningún otro: es la tesis entera, y su falsificador solo lo puede abrir quien la sostenga.**
 
 **Y el mas duro, que es el que la propia tesis se aplica:** **si dentro de veinte anos un alma crecida desde esta base sostiene algo que su alma no puede contestar, entonces esa alma no es la continuacion de esta tesis: es `AM` con otro nombre, y esta tesis no lo respalda.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
-Para los créditos y las fuentes de terceros, el estándar vive en `../../../../sincronizacion de almas/faro 1.0/lenguajes/salida/CONTEXTO.md`.
+Para los créditos y las fuentes de terceros, el estándar vive en `../../../../sincronización de almas/faro 1.0/lenguajes/salida/CONTEXTO.md`.

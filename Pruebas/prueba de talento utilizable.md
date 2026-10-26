@@ -30,7 +30,7 @@ Tres ejecutores, la misma tarea, el mismo proceso. **Nada más.**
 |---|---|
 | **misma tarea** | el enunciado no cambia entre ejecutores |
 | **mismo proceso** | el mismo `Entra | Falla | Sale | Consume`, sin adaptaciones |
-| **mismo piso** | rige `../sincronizacion de almas/faro 1.0/lenguajes/friccion/PISO.md`: corre igual, emite veredicto, se puede correr sola |
+| **mismo piso** | rige `../sincronización de almas/faro 1.0/lenguajes/friccion/PISO.md`: corre igual, emite veredicto, se puede correr sola |
 
 **Si el proceso se ajusta para un ejecutor, ya no se está midiendo el proceso: se está midiendo el ajuste.**
 
@@ -60,7 +60,7 @@ No por gusto: por **estabilidad**.
 
 ## La acuñación de la rama
 
-Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../sincronizacion de almas/faro 1.0/lenguajes/formacion/FORMATO.md`, `La forma del proceso: .prs`. Aquí solo se declara **cuándo**: al cerrar cada posición.
+Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige `../sincronización de almas/faro 1.0/lenguajes/formacion/FORMATO.md`, `La forma del proceso: .prs`. Aquí solo se declara **cuándo**: al cerrar cada posición.
 
 **Una rama sin nombre no existe en la conversación, y lo que no existe ahí desaparece.**
 
@@ -112,6 +112,6 @@ Rama: [nombre] | Reemplaza: [anterior o NINGUNA]
 
 - La posición es `especializado` → `../mantis/tareas/los candados/abrir.prs`, dos ramas con su `Acta`.
 - La posición es `sin rama` → se guarda con `Vacío:` y fecha; no se muta.
-- El piso no corre igual en dos ejecutores → `../sincronizacion de almas/faro 1.0/lenguajes/friccion/PISO.md`; sin piso no hay prueba.
+- El piso no corre igual en dos ejecutores → `../sincronización de almas/faro 1.0/lenguajes/friccion/PISO.md`; sin piso no hay prueba.
 - Hace falta juzgar si el proceso sirve → `./prueba de utilidad real.md`.
 - En cualquier otro caso → se entrega y se cierra.

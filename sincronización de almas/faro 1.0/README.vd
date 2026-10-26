@@ -2,11 +2,11 @@
 
 **No es la base. Es la biblioteca que se apoya en la base.**
 
-**La base son dos primitivos, y viven en `../primitivos/`: el alma en blanco y el guantelete.** **`faro` no los contiene: los expone.**
+**La base son dos primitivos, y viven en `../primitivos/`: el alma en blanco y el guantelete.** **`FARO` no los contiene: los expone.**
 
 **Y lo que expone son lenguajes.** **Cada uno dice cómo se habla con la base: cómo se enruta, cómo se comunica, cómo se convive, cómo se mide, cómo se emite.** **Ninguno cambia la base.**
 
-**Donde las ciencias computacionales tienen C, Lisp o Prolog sobre el cálculo, esta área tiene `faro` sobre el alma en blanco y el guantelete.** **Y como toda biblioteca, se puede decir «uso `faro 1.0`» y significar algo.**
+**Donde las ciencias computacionales tienen C, Lisp o Prolog sobre el cálculo, esta área tiene `FARO` sobre el alma en blanco y el guantelete.** **Y como toda biblioteca, se puede decir «uso `faro 1.0`» y significar algo.**
 
 **Unidad:** biblioteca.
 **Aplica a:** entregar.
@@ -29,7 +29,7 @@
 
 **`faro 1.0`.** **Y el número no dice «está terminado»: dice que a partir de aquí, lo que cambie de forma se declara.** **Si se corrige una palabra, sigue siendo 1.0. Si cambia la forma de algo que ya estaba, es 2.0 o es otro nombre.**
 
-**Y lo que el número NO dice:** **no hay todavía un lenguaje de `faro` escrito por alguien que no sea el autor.** **`faro 1.0` es la versión que existe; no es la que un tercero validó.** **Esa frase va junto al número, o el número miente.**
+**Y lo que el número NO dice:** **no hay todavía un lenguaje de `FARO` escrito por alguien que no sea el autor.** **`faro 1.0` es la versión que existe; no es la que un tercero validó.** **Esa frase va junto al número, o el número miente.**
 
 ---
 
@@ -41,7 +41,7 @@
 | **el camino completo** | `EMPEZAR` — las piezas en el único orden que funciona | [`./EMPEZAR.md`](./EMPEZAR.md) |
 | **el piso del mundo** | `RUTA` — qué hay, qué corre y qué falta; uno por mundo | [`./RUTA.md`](./RUTA.md) |
 | **los lenguajes** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE.prs` · `JONN` · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `VIGA` · `CONVIVIR` · `la fila verbalizada` · `LO HUMANO` · `el ejemplo` | [`./lenguajes/`](./lenguajes/) |
-| **la base de la que cuelga todo** | `alma en blanco` · `guantelete` | [`../primitivos/`](../primitivos/) |
+| **la base de la que cuelga todo** | `alma en blanco` · `GUANTELETE` | [`../primitivos/`](../primitivos/) |
 
 **Y una fila que se fue:** **el jugo ya no tiene carpeta ni camino.** **Lo que ayuda a entender no se guarda aparte: si se sostiene de pie, es un candado; y si no se sostiene, no es el camino de nada.**
 

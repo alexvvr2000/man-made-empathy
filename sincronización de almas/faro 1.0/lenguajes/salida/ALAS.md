@@ -4,7 +4,7 @@
 
 **Origen.** Del VIGA que fue y ya no es. **El acrónimo viejo decía cómo se comunica uno.** **Este dice que cada persona o entidad define su propio protocolo, y que hay cuatro cosas que siempre se declaran.**
 
-**Y el nombre no es casual:** **una comunicación que funciona es la que deja al otro con alas, no con el mensaje.** **La prueba no es que entienda: es que pueda seguir sin el que le habló.**
+**Y el nombre no es casual:** **una comunicación que funciona es la que deja al otro con ALAS, no con el mensaje.** **La prueba no es que entienda: es que pueda seguir sin el que le habló.**
 
 **Unidad:** estándar.
 **Aplica a:** comunicar.
@@ -28,7 +28,7 @@
 | **A — Apertura** | **desde dónde se habla, y con qué modo** (informar, preguntar, ordenar, advertir, persuadir) | el otro no sabe qué le están pidiendo |
 | **L — Lengua** | **en qué se habla, y qué se traduce** | se traduce a la fuerza y se pierde lo que no traducía |
 | **A — Acomodo** | **converger o divergir respecto del otro, y qué se pierde al hacerlo** | el mensaje se acerca tanto que no dice nada |
-| **S — Sostenido** | **qué puede sostener el otro sin vos** | el otro ha recibido el mensaje, y no las alas |
+| **S — Sostenido** | **qué puede sostener el otro sin vos** | el otro ha recibido el mensaje, y no las ALAS |
 
 **Y el techo, que es la prueba de las cuatro:** **que el otro pueda seguir sin el que le habló.**
 
@@ -38,7 +38,7 @@
 
 **`Lengua` y `Acomodo` son las dos letras que lo arreglan:** **declarar en qué se habla, y hacia dónde se acomoda.** **Y declarar qué se pierde al acomodar.**
 
-**Y el `Sostenido` es la letra que impide que la ayuda se vuelva dependencia:** **un mensaje que solo funciona con el que lo emitió no dejó alas.**
+**Y el `Sostenido` es la letra que impide que la ayuda se vuelva dependencia:** **un mensaje que solo funciona con el que lo emitió no dejó ALAS.**
 
 ## La forma de un protocolo
 

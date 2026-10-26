@@ -13,6 +13,7 @@
 **Prueba.** Un jugo publicado con su autor, y con lo que pregunto.
 
 **Falsificador.** Una idea publicada sin decir de quien salio.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

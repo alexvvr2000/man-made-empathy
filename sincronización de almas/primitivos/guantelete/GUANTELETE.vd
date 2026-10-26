@@ -4,7 +4,7 @@
 
 **Origen.** De *Avengers: Infinity War* (2018) e *Endgame* (2019), y de la frase del autor: **"solo hizo lo que pudo con las gemas"**. **Y de la lectura de por qué lo pararon: no lo pararon por más fuerte. Lo pararon porque su sesgo no podía cambiar.**
 
-**Reemplaza:** `CERCO` — la carta que vivía en `Entes/cerco/`, y su procedimiento que vivía en `sincronizacion de almas/friccion/`. **Conserva todo lo que decían, y deja de ser dos entes diciendo lo mismo.** **Fusión hecha: `CERCO` y su `.prs` se retiraron, y lo que solo ellos tenían vive en esta carta y en las seis gemas de abajo.**
+**Reemplaza:** `CERCO` — la carta que vivía en `Entes/cerco/`, y su procedimiento que vivía en `sincronización de almas/friccion/`. **Conserva todo lo que decían, y deja de ser dos entes diciendo lo mismo.** **Fusión hecha: `CERCO` y su `.prs` se retiraron, y lo que solo ellos tenían vive en esta carta y en las seis gemas de abajo.**
 
 **Unidad:** ente.
 **Aplica a:** permitir, y tocar.
@@ -32,7 +32,7 @@
 | El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../faro 1.0/lenguajes/friccion/GUANTELETE.prs`](../../faro%201.0/lenguajes/friccion/GUANTELETE.prs) |
 | Las seis herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
 | El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
-| El estándar de lo que deja alas | `ALAS.md` | [`../../faro 1.0/lenguajes/salida/ALAS.md`](../../faro 1.0/lenguajes/salida/ALAS.md) |
+| El estándar de lo que deja ALAS | `ALAS.md` | [`../../faro 1.0/lenguajes/salida/ALAS.md`](../../faro 1.0/lenguajes/salida/ALAS.md) |
 
 **Qué no se toca:** la fuente y el candado. **Se enlazan, no se copian.**
 

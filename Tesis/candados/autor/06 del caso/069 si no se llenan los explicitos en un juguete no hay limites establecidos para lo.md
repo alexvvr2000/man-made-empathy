@@ -13,6 +13,7 @@
 **Prueba.** Un juguete con sus limites escritos antes de usarse.
 
 **Falsificador.** Un juguete sin limites explicitos, con el criterio del que lo llena.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

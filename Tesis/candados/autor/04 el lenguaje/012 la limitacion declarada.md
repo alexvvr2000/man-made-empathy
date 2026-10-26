@@ -13,6 +13,7 @@
 **Prueba.** Un ente que dice que no sabe, antes de que se le pregunte.
 
 **Falsificador.** Un ente que se presenta completo y contesta como si supiera.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

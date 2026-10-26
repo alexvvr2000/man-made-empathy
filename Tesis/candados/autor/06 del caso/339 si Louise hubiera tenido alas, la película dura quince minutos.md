@@ -1,10 +1,10 @@
-# si Louise hubiera tenido alas, la película dura quince minutos
+# si Louise hubiera tenido ALAS, la película dura quince minutos
 
 **Posición.** Quince minutos dura una historia donde el otro ya tiene el canal: el que no lo tiene es el que necesita el mecanismo.
 
 **Por qué se sostiene.** El drama no es la inteligencia del otro: es que no comparte el canal para decir lo que sabe.
 
-**De dónde viene.** La autoridad: 'hubiera durado 15 minutos si hubieran tenido alas'.
+**De dónde viene.** La autoridad: 'hubiera durado 15 minutos si hubieran tenido ALAS'.
 
 **Qué pregunta deja.** ¿El otro tiene el canal, o hay que construirlo?
 

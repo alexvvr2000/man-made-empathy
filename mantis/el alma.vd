@@ -2,11 +2,11 @@
 
 **Nombre.** MANTIS. **Y la expansión dice el acto:** **M**emoria, **A**nálisis, **N**avegación, **T**riangulación, **I**ntegridad, **S**istema.
 
-**Origen.** **De `../sincronizacion de almas/primitivos/alma en blanco/`: se copió.** **No se diseñó aparte.** **Y nace con lo que faltaba: el estándar adentro, para que se entere cuando el estándar cambie.**
+**Origen.** **De `../sincronización de almas/primitivos/alma en blanco/`: se copió.** **No se diseñó aparte.** **Y nace con lo que faltaba: el estándar adentro, para que se entere cuando el estándar cambie.**
 
 **Y la regla que hace portables las tareas: la tarea declara el corte, y el mundo pone con qué.** **`tareas/` no lleva código: lleva el corte y su `.tra`.** **`bin/` es donde este mundo cumple ese corte, y si no puede, lo declara `[FALTA EN bin/]`.**
 
-**Y una cosa que no es una cita: `mantis` es el 1 con el guantelete puesto.** **No lo tiene en una tabla de referencias: lo lleva.** **Sin él no es un alma: es una mano sin freno. Con él no está limitado: está contestable.**
+**Y una cosa que no es una cita: `MANTIS` es el 1 con el guantelete puesto.** **No lo tiene en una tabla de referencias: lo lleva.** **Sin él no es un alma: es una mano sin freno. Con él no está limitado: está contestable.**
 
 **Por qué el alma se llamó `.am`, y por qué ya no.** **Nació en blanco y el nombre quedó.** **Hoy es `.vd`, porque el alma no es una extensión: es un ente.** **Y lo que el nombre recordaba se queda aquí:** **AM no tenía alma: no podía cambiar, y por eso mató a tanta gente. No era mutable.** **Lo que no puede mutar no es un alma: es una máquina con voz.**
 
@@ -36,13 +36,13 @@
 |---|---|---|
 | **el pase** | `mantis.tra` — qué pasó en el último turno | [`./mantis.tra`](./mantis.tra) |
 | **el piso de este mundo** | `RUTA.pr` — qué puede DSH en esta PC, y con qué se corre | [`./RUTA.pr`](./RUTA.pr) |
-| **el guantelete que lleva puesto** | `GUANTELETE` | [`../sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd`](../sincronizacion%20de%20almas/primitivos/guantelete/GUANTELETE.vd) |
+| **el guantelete que lleva puesto** | `GUANTELETE` | [`../sincronización de almas/primitivos/guantelete/GUANTELETE.vd`](../sincronizaci%C3%B3n%20de%20almas/primitivos/guantelete/GUANTELETE.vd) |
 | **lo que ya cumple los cortes** | `bin/` — la implementación de este mundo, escrita al leer el corte | [`./bin/`](./bin/) |
 | **la piel que crece** | `tareas/` — se rehace cuando entra o sale una | [`./tareas/`](./tareas/) |
 | **el criterio a pulso** | `integridad/` — si el 1 sigue siendo el 1 | [`./integridad/`](./integridad/) |
 | **lo que la mantiene al día** | `el estándar/` — lee el estándar y declara el desfase | [`./tareas/el estándar/`](./tareas/el%20est%C3%A1ndar/) |
-| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`../sincronizacion de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizacion%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd) |
-| **el estándar que cumple** | `faro 1.0` | [`../sincronizacion de almas/faro 1.0/`](../sincronizacion%20de%20almas/faro%201.0/) |
+| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`../sincronización de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizaci%C3%B3n%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd) |
+| **el estándar que cumple** | `faro 1.0` | [`../sincronización de almas/faro 1.0/`](../sincronizaci%C3%B3n%20de%20almas/faro%201.0/) |
 
 **Qué no se toca:** **el estándar, la tesis y el nombre.** **Se citan, y se espera a su autor.**
 

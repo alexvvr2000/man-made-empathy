@@ -13,6 +13,7 @@
 **Prueba.** Una forma nueva que no es la vieja pintada de otro color.
 
 **Falsificador.** Una diferencia que solo es la forma de siempre con otra piel.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

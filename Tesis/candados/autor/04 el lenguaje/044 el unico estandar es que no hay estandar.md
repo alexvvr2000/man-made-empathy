@@ -13,6 +13,7 @@
 **Prueba.** Una forma que se declara, se usa, y se cambia cuando se gasta.
 
 **Falsificador.** Una forma presentada como el estandar, sin decir cuando se gasta.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

@@ -13,6 +13,7 @@
 **Prueba.** Una afirmacion sostenida desde tres vertices, o con el que falta declarado.
 
 **Falsificador.** Una afirmacion sostenida con dos puntos y llamada triangulo.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

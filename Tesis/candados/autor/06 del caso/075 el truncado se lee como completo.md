@@ -13,6 +13,7 @@
 **Prueba.** Un mensaje que dice que se trunco, cuando se trunco.
 
 **Falsificador.** Un mensaje truncado que se presenta como completo.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

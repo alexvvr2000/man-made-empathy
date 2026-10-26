@@ -13,6 +13,7 @@
 **Prueba.** Una pieza que se puede contestar antes de que se vuelva regla.
 
 **Falsificador.** Una regla que se impone y solo se puede discutir cuando ya hizo dano.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

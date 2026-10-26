@@ -6,7 +6,7 @@
 
 **De dónde viene.** Tesis/referencias/index.md, y Astro Boy (Tezuka, 1952).
 
-**Qué pregunta deja.** ¿Puede convivir dos que siguen en desacuerdo?
+**Qué pregunta deja.** ¿Puede CONVIVIR dos que siguen en desacuerdo?
 
 **Ficción.** Astro Boy: hay problemas, se pelean, y se sigue conviviendo.
 

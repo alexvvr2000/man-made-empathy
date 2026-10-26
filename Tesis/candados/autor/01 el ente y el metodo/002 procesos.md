@@ -13,6 +13,7 @@
 **Prueba.** Un proceso que corre igual sin su autor, y que aun asi cambia algo.
 
 **Falsificador.** Un procedimiento que solo funciona si el que lo hizo esta ahi.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

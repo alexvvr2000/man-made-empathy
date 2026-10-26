@@ -36,7 +36,7 @@ Para que cualquier futuro de esta lista ocurra, cuatro cosas tienen que estar en
 
 **Cómo se usa, en la práctica.** Abres un archivo. Si tiene `Sesgo`, `Límite` y `Firma`, se puede leer. Si le falta alguno, se marca como implícito. Si le falta `Rastro`, `Ruta` o `Carga`, no es un ente: es un fantasma.
 
-**Lo que ya existe.** `Era/sincronizacion de almas/formacion/FORMATO.md`, y los cuatro procesos de `Era/sincronizacion de almas/procesos/` ya lo cumplen.
+**Lo que ya existe.** `Era/sincronización de almas/formacion/FORMATO.md`, y los cuatro procesos de `Era/sincronización de almas/procesos/` ya lo cumplen.
 
 **Lo que falta.** Un chequeo que recorra una carpeta y liste los archivos fuera de forma. Es un script de veinte líneas en cualquier lenguaje. No está escrito.
 
@@ -56,7 +56,7 @@ Ruido         = ni uno ni otro
 
 **Y por qué un autor tiene varios.** Un autor no es una persona con una sola idea: es un historial de sesgos, y cada sesgo que sostuvo es un candado. Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena.
 
-**Lo que ya existe.** `Era/sincronizacion de almas/friccion/JONN.md` y la tabla `pieza` de la memoria, con cincuenta y siete piezas.
+**Lo que ya existe.** `Era/sincronización de almas/friccion/JONN.md` y la tabla `pieza` de la memoria, con cincuenta y siete piezas.
 
 **Lo que falta.** Nada técnico. Falta que la gente traiga sus candados.
 
@@ -507,7 +507,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 | Letra | Qué hace |
 |---|---|
-| **Sostenido** | **qué puede el otro sin el que habló.** **Una ayuda que solo funciona en presencia del que ayuda no dejó alas: dejó dependencia** |
+| **Sostenido** | **qué puede el otro sin el que habló.** **Una ayuda que solo funciona en presencia del que ayuda no dejó ALAS: dejó dependencia** |
 
 ## Lo que ya está posible hoy, sin escribir código
 

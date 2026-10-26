@@ -19,9 +19,9 @@
 
 | Término | Qué es, en una línea | Dónde vive su definición |
 |---|---|---|
-| **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronizacion de almas/primitivos/alma en blanco/el alma.vd` |
-| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronizacion de almas/primitivos/guantelete/GUANTELETE.vd` |
-| **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronizacion de almas/primitivos/alma en blanco/MUDAR.vd` |
+| **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronización de almas/primitivos/alma en blanco/el alma.vd` |
+| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/primitivos/guantelete/GUANTELETE.vd` |
+| **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronización de almas/primitivos/alma en blanco/MUDAR.vd` |
 
 **Y lo que el alma trae puesto:** **el guantelete no se consulta: lo lleva.** **Un alma sin guantelete crece y nadie la para: eso es `AM`.**
 
@@ -31,9 +31,9 @@
 
 | Término | Qué es | Dónde |
 |---|---|---|
-| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronizacion de almas/faro 1.0/README.vd` |
-| **RUTA.md** | **la prosa: qué es el piso de un mundo** | `sincronizacion de almas/faro 1.0/RUTA.md` |
-| **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronizacion de almas/faro 1.0/RUTA.rt` |
+| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/faro 1.0/README.vd` |
+| **RUTA.md** | **la prosa: qué es el piso de un mundo** | `sincronización de almas/faro 1.0/RUTA.md` |
+| **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/faro 1.0/RUTA.rt` |
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
 | **EJECUTOR** | **lo que corre un `.prs`: lo declara el mundo** | `faro 1.0/lenguajes/formacion/EJECUTOR.md` |
@@ -70,7 +70,7 @@
 | **VIDEL** | **CONVIVIR** | el mismo estándar, sin el nombre heredado |
 | **EXPANDE** | **(nada: no llegó a existir)** | se citó antes de tener cuerpo |
 | **el alma `.am`** | **el alma `.vd`** | el alma no es una extensión: es un ente |
-| **`sincronizacion de almas/faro 1.0/RUTA.po`** | **`RUTA.rt` y `RUTA.pr`** | `.po` era traducción; esto es el piso de un mundo |
+| **`sincronización de almas/faro 1.0/RUTA.po`** | **`RUTA.rt` y `RUTA.pr`** | `.po` era traducción; esto es el piso de un mundo |
 | **`mantis/ejecu.py`** | **`mantis/bin/`** | lo que corre es del mundo, no del ente |
 
 **Y lo que no se puede usar como si existiera:** **ninguno de la columna izquierda, salvo en su propio `Reemplaza:`, o en este glosario.**

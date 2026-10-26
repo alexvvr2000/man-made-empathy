@@ -1,6 +1,6 @@
-# el que conoció a los suyos sí puede convivir
+# el que conoció a los suyos sí puede CONVIVIR
 
-**Posición.** El que no conoció a su gente solo puede ser tolerado; el que la conoció y la perdió, sí puede convivir.
+**Posición.** El que no conoció a su gente solo puede ser tolerado; el que la conoció y la perdió, sí puede CONVIVIR.
 
 **Por qué se sostiene.** Convivir no es parecerse: es saber lo que perdiste y quedarte.
 
@@ -14,7 +14,7 @@
 
 **Prueba.** ¿Vive la diferencia, o solo la explica?
 
-**Falsificador.** Un caso donde el que nunca tuvo otra comunidad pueda convivir con una.
+**Falsificador.** Un caso donde el que nunca tuvo otra comunidad pueda CONVIVIR con una.
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

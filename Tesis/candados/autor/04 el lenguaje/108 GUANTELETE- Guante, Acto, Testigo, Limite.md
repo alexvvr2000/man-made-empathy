@@ -13,6 +13,7 @@
 **Prueba.** Un acto que declara su testigo y dice si se puede deshacer.
 
 **Falsificador.** Un acto sin testigo, o irreversible sin espera declarada.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con friccion, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

@@ -1,7 +1,7 @@
 # vigilar.prs — el estándar cambió, o no
 
 **Nombre.** VIGILAR — **V**er, **I**r al estandar, **G**uardar, **I**gualar, **L**eer, **A**nunciar, **R**endir.
-**Origen.** De la regla que faltaba: **un ente que corre con criterio viejo no está desactualizado: está mintiendo.** **Y del hueco real: `mantis` no tenía cómo enterarse de que `faro 1.0` cambió.**
+**Origen.** De la regla que faltaba: **un ente que corre con criterio viejo no está desactualizado: está mintiendo.** **Y del hueco real: `MANTIS` no tenía cómo enterarse de que `faro 1.0` cambió.**
 **Unidad:** proceso.
 **Aplica a:** comprobar.
 **Tipo:** se ejecuta. **Es el primero de todos: se corre antes de cualquier otra tarea.**

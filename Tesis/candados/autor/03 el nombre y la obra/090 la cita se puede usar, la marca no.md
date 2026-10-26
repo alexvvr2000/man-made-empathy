@@ -13,6 +13,7 @@
 **Prueba.** Una cita de la obra para analizarla, con su autor nombrado.
 
 **Falsificador.** El nombre de una obra usado como nombre propio del sistema.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

@@ -145,9 +145,9 @@ candado/
 
 **Y esa es la diferencia que este recordatorio necesita:**
 
-> **El que no conoció a su gente no puede convivir con otra: solo puede ser tolerado. El que la conoció, y la perdió, sí puede.**
+> **El que no conoció a su gente no puede CONVIVIR con otra: solo puede ser tolerado. El que la conoció, y la perdió, sí puede.**
 
-**Porque convivir no es parecerse a los demás ni olvidar lo que fuiste.** **Es saber lo que perdiste y quedarte.**
+**Porque CONVIVIR no es parecerse a los demás ni olvidar lo que fuiste.** **Es saber lo que perdiste y quedarte.**
 
 **Y eso toca el candado de frente:** **un candado escrito por el que nunca tuvo otra comunidad solo puede defender una.** **Un candado escrito por el que perdió la suya sabe que hay más de una, y deja llave.**
 

@@ -13,6 +13,7 @@
 **Prueba.** Una pieza cuyo veredicto lo firma alguien distinto del que la produjo.
 
 **Falsificador.** Un veredicto firmado por quien lo produjo, o sin firma que se lea como aprobacion.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

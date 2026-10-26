@@ -128,7 +128,7 @@ Deja:       [la salida, que vuelve al que despachó]
 
 **Este archivo dice de dos y de uno-a-N.** **Cuando son muchos y cada uno tiene su guantelete, no es esta regla: es `COLMENA`.**
 
-**La diferencia, en una línea:** **aquí se mide lo que deja una relación; en la colmena se mide el acuerdo que sostiene a todas, y si cada una sigue dentro.**
+**La diferencia, en una línea:** **aquí se mide lo que deja una relación; en la COLMENA se mide el acuerdo que sostiene a todas, y si cada una sigue dentro.**
 
 **Rige [`./COLMENA.md`](./COLMENA.md)** cuando el conjunto tiene su propio sesgo declarado y lo que crece es el 1.
 

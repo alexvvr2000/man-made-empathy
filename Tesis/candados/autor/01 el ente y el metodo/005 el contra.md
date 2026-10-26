@@ -13,6 +13,7 @@
 **Prueba.** Una correccion que vino de fuera, y que quedo escrita sin borrar lo anterior.
 
 **Falsificador.** Un ente que se corrige sin dejar rastro de lo que sostenia antes.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

@@ -13,6 +13,7 @@
 **Prueba.** Un acto con todas sus piezas, que se puede contestar.
 
 **Falsificador.** Un acto con una sola pieza, sin nadie que lo conteste.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

@@ -15,9 +15,9 @@
 1. el alma        →  ../primitivos/alma en blanco/el alma.vd
 2. sus folders    →  Entes/alma de la pregunta/ENTRAR.prs · MIRAR.prs · EXTRAER.prs
 3. su plantilla   →  Entes/alma de la pregunta/plantilla.tra  (lo que deja cada folder)
-4. el estándar    →  sincronizacion de almas/formacion/FORMATO.md · LENGUAJE.md
+4. el estándar    →  sincronización de almas/formacion/FORMATO.md · LENGUAJE.md
 5. el guantelete  →  Entes/guantelete/GUANTELETE.vd · herramientas/
-6. el piso        →  sincronizacion de almas/friccion/PISO.md
+6. el piso        →  sincronización de almas/friccion/PISO.md
 ```
 
 **Si lees 4, 5 y 6 antes de 1, no entiendes nada: son las reglas de algo que todavía no viste correr.** **Si lees 0 a 3 primero, ya tienes un alma; el resto te dice por qué está bien hecha.**
@@ -59,12 +59,12 @@ la .tra          la prueba de que pasó
 
 | Si quieres… | Ve a |
 |---|---|
-| **que dos almas se afinen sin volverse una** | `sincronizacion de almas/relacion/RESONANCIA.md` |
-| **medir si el ente sirve, y no solo si corre** | `sincronizacion de almas/relacion/TALENTO.md` |
-| **que otro siga sin ti** | `sincronizacion de almas/salida/CONTEXTO.md` |
-| **quitarte una regla, dejando rastro** | `sincronizacion de almas/friccion/FIRMAR.prs` |
+| **que dos almas se afinen sin volverse una** | `sincronización de almas/relacion/RESONANCIA.md` |
+| **medir si el ente sirve, y no solo si corre** | `sincronización de almas/relacion/TALENTO.md` |
+| **que otro siga sin ti** | `sincronización de almas/salida/CONTEXTO.md` |
+| **quitarte una regla, dejando rastro** | `sincronización de almas/friccion/FIRMAR.prs` |
 | **tocar algo que otro sostiene** | `Entes/guantelete/GUANTELETE.vd` |
-| **que otro no tenga que preguntarte nada** | `sincronizacion de almas/salida/la fila verbalizada.md` |
+| **que otro no tenga que preguntarte nada** | `sincronización de almas/salida/la fila verbalizada.md` |
 
 ---
 

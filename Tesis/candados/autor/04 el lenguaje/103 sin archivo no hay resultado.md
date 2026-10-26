@@ -13,6 +13,7 @@
 **Prueba.** Un resultado con su archivo, y con la corrida que lo produjo.
 
 **Falsificador.** Un resultado sin archivo: una historia que se puede contar de cualquier forma.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

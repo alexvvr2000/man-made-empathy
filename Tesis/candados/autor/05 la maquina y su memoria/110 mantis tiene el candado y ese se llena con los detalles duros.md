@@ -13,6 +13,7 @@
 **Prueba.** Un candado que se llena con los detalles duros, y no con las intenciones.
 
 **Falsificador.** Un candado lleno de buenas intenciones, sin un dato que se pueda senalar.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

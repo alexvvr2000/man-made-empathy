@@ -13,6 +13,7 @@
 **Prueba.** Una idea que se puede escribir en una frase, y que antes no estaba escrita.
 
 **Falsificador.** Una idea que solo existe mientras el que la tiene esta presente.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

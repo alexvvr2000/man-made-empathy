@@ -13,6 +13,7 @@
 **Prueba.** Un objeto que se puede correr sin su autor, y que sirve igual.
 
 **Falsificador.** Un objeto que solo funciona con quien lo creo presente.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

@@ -13,6 +13,7 @@
 **Prueba.** Un lugar vacio declarado como decision, con su razon escrita.
 
 **Falsificador.** Una definicion de lo humano puesta desde una sola mirada.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

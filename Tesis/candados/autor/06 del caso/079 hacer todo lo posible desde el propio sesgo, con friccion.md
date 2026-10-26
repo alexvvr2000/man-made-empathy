@@ -13,6 +13,7 @@
 **Prueba.** Un acto que hace todo lo posible desde su sesgo, y deja quien lo conteste.
 
 **Falsificador.** Un acto que hace todo lo posible y no deja a nadie que lo contradiga.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

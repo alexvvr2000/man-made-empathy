@@ -13,6 +13,7 @@
 **Prueba.** Una idea que se pone contra el mundo, y que sobrevive a lo que el mundo dijo.
 
 **Falsificador.** Una idea que solo se sostiene si nadie la mira.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 

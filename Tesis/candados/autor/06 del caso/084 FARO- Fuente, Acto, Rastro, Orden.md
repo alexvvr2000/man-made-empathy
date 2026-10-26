@@ -13,6 +13,7 @@
 **Prueba.** Una biblioteca que dice de donde viene cada pieza, y que se entrega.
 
 **Falsificador.** Una biblioteca sin version, que no se puede citar sin ambiguedad.
+**Origen de este falsificador:** **escrito por el agente, y no abierto con fricción todavía.** **Se lee como hipótesis, no como prueba.**
 
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
