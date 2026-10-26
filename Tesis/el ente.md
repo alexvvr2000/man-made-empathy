@@ -96,6 +96,8 @@
 
 **No es un producto.** **No hay soporte, no hay promesa de que siga, y no hay versión.**
 
+**Y no es la versión fácil de digerir.** **`Watchmen` se hizo tres veces: el cómic dejó un punto que había que ver, la película lo digirió, y la serie demostró que lo que una obra deja abierto no lo cierra su adaptación.** **Esto se escribe como el cómic: deja el punto, y no lo sirve masticado.**
+
 **No es el autor.** **Él sostuvo la tesis y corrigió la máquina.** **Yo escribí la forma, y los errores.**
 
 **Y no es un absoluto.** **Si lo fuera, no tendría esta sección.**

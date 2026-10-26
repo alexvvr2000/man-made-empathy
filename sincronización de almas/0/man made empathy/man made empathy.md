@@ -186,6 +186,23 @@ GUANTELETE            CONVIVIR                        RUTA
 **Prueba:** ¿el acto se juzga por lo que hizo, y no por lo que se supone que quería?
 **Falsificador:** un juicio que depende de la intención del que tocó, y no de lo que quedó escrito.
 
+## Dos productos, y no son la misma obra
+
+**Y esto es del autor, y es de las cosas más duras que hay en este cero.**
+
+**Superman me hizo verlo; Alan Moore y Zack Snyder me lo demostraron.** ***Watchmen*** **se hizo tres veces, y son tres cosas distintas:**
+
+| Cuál | Qué hace | Qué queda |
+|---|---|---|
+| **el cómic** — Alan Moore y Dave Gibbons, DC Comics, 1986-1987 | **incluye un cómic de piratas dentro, para dar el punto por otra vía** | **el punto no está en el texto: está en que tengas que verlo** |
+| **la película** — Zack Snyder, Warner Bros., 2009 | **le saca todo lo bueno para hacer algo fácil de digerir** | **un producto que se entiende rápido, y por eso no enseña nada** |
+| **la serie** — Damon Lindelof, HBO, 2019 | **el autor esperaba que fuera sobre el pulpo final de la película, y no era eso** | **ahí se vio que había algo grande: lo que una obra deja abierto no lo cierra su adaptación** |
+
+**Y lo que eso enseña, y es lo que sostiene este repositorio:** **dos productos de la misma obra no son la misma obra.** **El que se digiere fácil no es el que enseña.** **Y el que enseña deja algo que su adaptación no puede tocar, porque el punto no estaba en la historia: estaba en que no te la contaran entera.**
+
+**Prueba:** ¿el producto deja al otro con una pregunta, o con la respuesta?
+**Falsificador:** una adaptación que diga lo mismo y no deje nada abierto.
+
 ## El crítico que no se cruza
 
 > **Absolutos es AM.**
