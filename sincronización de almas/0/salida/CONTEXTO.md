@@ -80,6 +80,7 @@
 | **`Jujutsu Kaisen`, `Fullmetal Alchemist`, `Final Fantasy VII`** | **la semilla: se planta sin saber qué, y escala a algo que no sabes de dónde salió** | **que la trama pruebe el método: la ficción provoca la pregunta, y no la contesta** |
 | **`Undertale` y su comunidad** | **lo pequeño que crece solo, y las revoluciones** | **que una comunidad sea un acuerdo: una comunidad sin acuerdo es un enjambre** |
 | **Netero en `Hunter × Hunter`** | **que a todo se le puede poner nombre, menos a la malicia** | **que la malicia sea inexplicable: lo que no tiene nombre se detecta por lo que hace** |
+| **Arthur Morgan** (`Red Dead Redemption 2`, 2018) | **la concordia como cambio a tiempo: el que paga lo que hizo y elige a quién salvar** | **que la redención borre lo hecho: lo hecho queda, y por eso elige** |
 | ***Soul*** (Pixar, 2020) y **la venganza del hijo de Jhon Marston**, en *Lucky Luke* | **la vida no se acaba en un punto: se vive para coexistir, no para matarse unos a otros** | **que exista un punto donde se gana y se para: el que se venga hereda el mismo punto, y sigue** |
 | ***Watchmen***: el cómic, la película y la serie | **lo que se dice y lo que se deja ver: tres productos, y no la misma obra** | **que la adaptación sea una traición: es otro producto, y eso se puede decir sin desprecio** |
 | **Kratos** (`God of War: Ragnarök`, 2022) | **el que tiene el poder de tocar lo que otro sostiene, y elige no tocarlo** | **que no tocar sea prudencia: es leer la puerta, y a veces se toca** |

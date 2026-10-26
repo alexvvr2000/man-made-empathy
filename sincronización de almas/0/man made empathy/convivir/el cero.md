@@ -57,6 +57,7 @@
 
 | Caso | Qué aporta | Qué NO aporta |
 |---|---|---|
+| ***Red Dead Redemption 2*** — **Arthur Morgan**; Rockstar Games, 2018 | **la concordia como cambio a tiempo: empieza en una banda y acaba eligiendo a quién salvar, sin dejar de ser el mismo.** **Y paga lo que hizo, que es lo que lo hace legítimo** | cómo se convive cuando ya no hay vuelta |
 | ***Adventure Time*** — **Jake el Perro**; Pendleton Ward; Cartoon Network, 2010 | **la concordia de la autoridad: el ejemplo máximo. No se vuelve el otro, y no lo somete** | cómo se convive con el que no quiere |
 | ***Dragon Ball Z*** — Akira Toriyama; Shueisha; Toei Animation | **El diferente: tan distinto a los sayayin, y aprende a convivir. Lo diferente aprende a convivir, no a parecerse** | cómo se convive cuando el otro no quiere |
 | ***Astro Boy*** — Osamu Tezuka, 1952 | **la concordia que no elimina el conflicto: hay problemas, se pelean, y se sigue conviviendo.** **La autoridad lo declaró su definición de utopía** | cómo se paga el conflicto |
