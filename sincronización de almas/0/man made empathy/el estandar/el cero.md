@@ -88,6 +88,8 @@
 
 **Falsificador:** un estándar que nombra su lenguaje; una capacidad que dice `git` en vez de «historial»; un verbo que solo se cumple con una herramienta; un nombre numerado; un candado que necesita a su autor para significar; un estándar que cambia cuando cambia la industria.
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - Una capacidad nueva se quiere declarar → **se nombra la falta que la pide, y se refuta: ¿un corte se cumple sin ella? Si sí, no entra.**

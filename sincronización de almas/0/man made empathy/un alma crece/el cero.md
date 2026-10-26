@@ -85,6 +85,8 @@
 
 **Falsificador:** una piel nueva sin falta nombrada; una pieza duplicada por no buscar; una piel sin término; una muda donde el criterio cambió y no se declaró; una piel fundida sin `Vacío:`; una muda que no corrió nunca; una muda sin autoridad.
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - La falta se puede nombrar, y la pieza no existe → **se muda: se crea la pieza, y corre una vez.**

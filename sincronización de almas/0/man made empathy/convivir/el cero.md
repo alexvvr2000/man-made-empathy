@@ -81,6 +81,8 @@
 
 **Falsificador:** un caso donde convivir exija parecerse; un contacto sin condiciones presentado como ayuda; una convivencia sin conflicto presentada como concordia; un caso donde quitarle la soledad al otro le deje algo propio; una convivencia que se sostiene porque un lado no puede irse.
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - Dos distintos se juntan → **se declaran las cuatro condiciones, o se declara que se juntan sin ellas y se espera el daño.**

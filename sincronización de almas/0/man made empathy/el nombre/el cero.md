@@ -76,6 +76,8 @@
 
 **Falsificador:** un nombre de obra usado como nombre propio; una pieza que cita una obra sin su referencia; un nombre del repositorio que no aparece en la lista; una imagen, un logo o un diseño ajenos; un origen oculto.
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - Aparece un nombre nuevo → **declara su acto, y entra en la tabla.**

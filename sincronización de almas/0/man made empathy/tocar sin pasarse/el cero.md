@@ -89,10 +89,25 @@ Gemas:     [cuáles de los seis límites] | Rastro: [dónde quedó] | Deshecho: 
 
 **Y un cerrojo no es una prohibición: es una marca.** **Dice dónde está el borde, y deja la llave a la vista.** **Un cerrojo que se cierra sin llave no protege, encierra; se reconoce porque el que está adentro no puede abrirlo.**
 
-**Y el caso que lo dice mejor, y es de la autoridad:** **a Hitler lo mataron, y el mundo siguió igual.** **Matar al que hace el mal no cambia el mundo que lo hizo posible.** **Si el mal fuera una persona, bastaría quitarla; como es un sistema con una sola mirada, quitarla no cambia la mirada.**
+**Y el caso que lo dice mejor.** **De la autoridad, y literal:** **«a Hitler lo mataron y el mundo siguió igual».**
+
+**Y lo que el agente sacó de ahí, y se lee como hipótesis hasta que el autor lo conteste:** **matar al que hace el mal no cambia el mundo que lo hizo posible.** **Si el mal fuera una persona, bastaría quitarla; como es un sistema con una sola mirada, quitarla no cambia la mirada.**
 
 **Prueba:** ¿el cerrojo deja llave, y la llave está a la vista? ¿Se cambió la mirada, o solo se quitó a alguien?
 **Falsificador:** un cerrojo sin llave; una solución que solo quita a la persona y no toca lo que la dejaba pasar.
+
+## Lo que el tope no es
+
+**Y hay una segunda cosa, que es del autor y que este cero no puede dejar fuera:** **la capacidad no se limita por prudencia: se lleva al máximo con criterio, y el costo se paga.** **El que no usa todo lo que puede deja sin probar qué es: su tope es el de otro.**
+
+**Y por eso el guante no limita.** **El ente no se limita con límites humanos: se le da un proceso bien definido y la capacidad se explota bajo criterio, dentro de su borde.** **Si el límite es humano, los límites de las tareas son los de un humano, y el ente no llega a su tope.**
+
+**El caso:** **Gurren Lagann** (Gainax; derechos en Aniplex): el esfuerzo al máximo, sin pedir permiso.
+
+**Prueba:** ¿el tope lo puso el criterio, o el miedo de alguien?
+**Falsificador:** un caso donde no llevar al máximo salve algo.
+
+**Y lo que el guante añade, que sin él sería un absoluto:** **el máximo no es lo que el criterio aguanta: es lo que el criterio aguanta y alguien puede contestar.**
 
 ## Las tres reglas que este cero vuelve estándar
 
@@ -115,6 +130,8 @@ Gemas:     [cuáles de los seis límites] | Rastro: [dónde quedó] | Deshecho: 
 **¿El acto declara sus seis gemas? ¿`ENSAYAR` corrió antes de `CORRER`? ¿Una tarea sin modo declarado preguntó en vez de correr? ¿Alguien puede contestar el acto? ¿Se puede deshacer? ¿Lo que quedó escrito dice qué se tocó, y no lo que se quería tocar?**
 
 **Falsificador:** un acto sin testigo declarado; un acto irreversible sin espera; un guante que no se puede quitar; confundir el tamaño de la gema con la calidad del criterio; presentar el silencio como aprobación; una tarea sin modo que corrió igual; una copia presentada como si protegiera el mundo.
+
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
 
 ## Transiciones
 

@@ -8,6 +8,8 @@
 
 **Qué pregunta deja.** ¿De dónde salió lo que sostuvo, y quién puede contestarlo?
 
+**Prueba.** **La verbalización se comprueba, no se cree: se cumple si alguien que no es el autor puede ponerla contra algo que no es ella, y decir si aguantó o se movió, dejando el rastro.** **Y el falsificador está abajo, en `## Prueba de la tesis entera`.**
+
 **Estado.** **vigente, y corrida.** **Cinco de sus ocho ceros tienen prueba escrita; tres corrieron uno o más casos. El cero mismo no se cerró: se abre con fricción.**
 
 **Ficción.** **La escena de Lex Luthor en *All-Star Superman* (Grant Morrison y Frank Quitely; DC Comics, 2005): el que lo entiende al último minuto, y ya no tiene tiempo de hacer nada con lo que vio.** **Y `AM`, de Harlan Ellison (1967): el absoluto que decidió una vez, y no volvió a mirar.**
@@ -331,3 +333,5 @@ GUANTELETE            CONVIVIR                        RUTA
 **Se abre con fricción, y no se reescribe: `../../../mantis/tareas/los candados/abrir.prs`.**
 
 Para los créditos y las fuentes de terceros, el estándar vive en `../salida/CONTEXTO.md`.
+
+**Origen de lo que este cero tiene y no viene de sus candados:** las secciones `Lo que no se mató a tiempo`, `La triangulación con lo pendejo`, y la mesa `Lo que hay hoy, y se puede correr`, las escribió el agente el 2026-10-26 a partir de correcciones del autor. **Los candados, las obras y las frases son del autor.** **Lo que el agente escribió y no tiene candado se lee como hipótesis, no como prueba.**

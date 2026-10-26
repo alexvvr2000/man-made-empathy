@@ -80,6 +80,8 @@
 
 **No afirma que sea seguro.** **`AM` no fue un error de diseño: fue un diseño sin nadie que lo contestara.** **Esto pone a alguien a contestar. No pone a nadie a salvo.**
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - Una falta es de una pieza → **muta esa pieza, con su guantelete.**

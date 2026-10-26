@@ -82,6 +82,8 @@
 
 **Falsificador:** una idea que necesita a su autor para significar; un candado sin llave a la vista; una fricción quitada sin firma; un hash que no corresponde al contenido; un absoluto presentado como idea abierta.
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - Alguien encuentra un contra → **se anota, y la idea aguanta o se mueve.**

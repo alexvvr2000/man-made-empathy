@@ -104,6 +104,8 @@ y espero: …
 
 **Falsificador:** un protocolo sin lengua declarada; una acomodación sin pérdida declarada; un mensaje truncado presentado como completo; un protocolo que solo funciona con el que lo emitió; una tarea que toca sin declarar qué toca; una urna tomada por salero; un freno que no dice a quién espera.
 
+**Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
+
 ## Transiciones
 
 - Alguien escribe un protocolo → **declara las cuatro letras, y entra.**
