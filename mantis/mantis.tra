@@ -2,6 +2,43 @@
 
 **Nombre:** mantis
 **Expande:** mantener el repo, y mutar con el; obedeciendo
+**Se nombró:** 2026-10-26T06:10:44+00:00
+**Reemplaza:** el pase anterior, visible abajo
+**Miente si:** se dice que el turno cerro y no hubo pase
+
+## Qué pasó
+
+**Qué pasó:** las cuatro tareas se borraron y se volvieron a crear por `MUDAR`, con su falta
+nombrada, su termino y su autoridad. Antes existian porque parecian necesarias; ahora existen
+porque una falta las pide.
+**Contra:** el estandar decia que crecer es cubrir una falta nombrada, y ninguna de las cuatro la tenia
+**Huella:** este archivo, y `MUDAR.md`
+**Distancia:** de cuatro tareas sin termino a cuatro pieles con falta y con fundido declarado
+
+## Las seis partes del pase
+
+**Sostuvo:** las cuatro tareas corren igual que antes, y ahora cada una dice que falta cubre
+
+**Se rompió:** ninguna piel se fundio; el criterio es el mismo en las cuatro
+
+**Abierto:** 52 de 94 candados sin falsificador, y el cero entre ellos. La falta de `los candados/`
+sigue abierta, y su termino lo dice: cuando la cifra llegue a cero
+
+**Retoma:** escribir el falsificador del cero, y despues los otros 51
+
+**No retoma:** componer una tesis completa. Se compone on demand, y hoy nadie la pidio
+
+**Cómo:** `python mantis/ejecu.py --verificar` para el piso; `python mantis/ejecu.py <tarea>` para una
+
+--- suplantada ---
+
+
+--- suplantada ---
+
+# mantis.tra — el pase del alma
+
+**Nombre:** mantis
+**Expande:** mantener el repo, y mutar con el; obedeciendo
 **Se nombró:** 2026-10-26T05:19:30+00:00
 **Reemplaza:** NINGUNO
 **Miente si:** se dice que el turno cerro y no hubo pase

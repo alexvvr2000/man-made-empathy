@@ -17,6 +17,15 @@
 **Peor:** el pase dice un tema, y el siguiente no sabe por dónde empezar.
 **Quién:** quien retome el trabajo.
 
+
+## La falta que cubre, y su termino
+
+**Falta:** **el turno cierra sin pase, y el siguiente empieza a ciegas.**
+**Termina:** **por turno.**
+**Cierra en:** `la memoria/la memoria.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** igual.
+**Muda:** `../../MUDAR.md`.
+
 ## Entra | Falla | Sale | Consume
 
 - **Entra:** lo que pasó en el turno: qué se decidió, qué se rompió, qué quedó sin cerrar.

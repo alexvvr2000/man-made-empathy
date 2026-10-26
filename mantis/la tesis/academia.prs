@@ -17,6 +17,15 @@
 **Peor:** el texto va a revisión con dos estilos de cita, o con la IA usada y no declarada, **y lo único que se lee es eso.**
 **Quién:** quien la mande a revisión.
 
+
+## La falta que cubre, y su termino
+
+**Falta:** **las tres clases de tesis existen en el estandar y nadie las compone cuando se piden.**
+**Termina:** **por pedido.**
+**Cierra en:** `la tesis/la tesis.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** igual.
+**Muda:** `../../MUDAR.md`.
+
 ## Entra | Falla | Sale | Consume
 
 - **Entra:** una tesis ya argumentada, y sus fuentes con enlace.

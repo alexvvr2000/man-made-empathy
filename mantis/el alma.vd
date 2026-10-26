@@ -33,6 +33,7 @@
 | **lo que corre las tareas** | `ejecu.py` — el único que no es estándar | [`./ejecu.py`](./ejecu.py) |
 | **el pase** | `mantis.tra` — qué pasó en el último turno | [`./mantis.tra`](./mantis.tra) |
 | **el piso de este mundo** | `RUTA.po` — qué puede DSH en esta PC | [`./RUTA.po`](./RUTA.po) |
+| **las cuatro pieles, y su falta** | `MUDAR.md` — qué cubre cada tarea y cuándo se funde | [`./MUDAR.md`](./MUDAR.md) |
 | **las tareas** | `el cero` · `los candados` · `la tesis` · `la memoria` | `./el cero/` · `./los candados/` · `./la tesis/` · `./la memoria/` |
 | **la base de la que se copió** | `el alma.vd` del primitivo | [`../sincronizacion de almas/primitivos/alma en blanco/el alma.vd`](../sincronizacion%20de%20almas/primitivos/alma%20en%20blanco/el%20alma.vd) |
 | **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`../sincronizacion de almas/primitivos/alma en blanco/MUDAR.vd`](../sincronizacion%20de%20almas/primitivos/alma%20en%20blanco/MUDAR.vd) |
@@ -56,6 +57,7 @@ Tarea: [cuál] | Proceso: [su .prs] | Dejó: [su .tra] | Veredicto: [pasa|falla|
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
 | **correr todas las tareas, y ver cuáles cumplen** | `./ejecu.py --verificar` | **no se declara que cumple** |
+| **hacer crecer el alma** | `./MUDAR.md` — sin falta nombrada y sin término, no crece | **no se añade una tarea** |
 | **mantener el candado cero** | `./el cero/` | **no se renombra ni se retira nada** |
 | **abrir o mantener un candado** | `./los candados/` | **no se abre** |
 | **componer una tesis, on demand** | `./la tesis/` | **no se compone** |
