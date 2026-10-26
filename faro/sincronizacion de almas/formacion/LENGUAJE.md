@@ -54,6 +54,8 @@ Consume:  quién decide con la salida
 
 ## El piso
 
+**Hay dos, y no se confunden.** **El del mundo es `RUTA`: qué existe, qué corre y qué falta, y hay uno por mundo.** **El del alma lo pone cada alma encima: qué usó, qué costó, qué dejó.** **El alma no trae el índice del mundo; lo lee al llegar.** Rige `../../RUTA.md`.
+
 El piso es lo disponible para ejecutar: canales, formatos, herramientas, acceso a la web. **No se elige por gusto: se declara.**
 
 ```

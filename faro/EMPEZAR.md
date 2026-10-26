@@ -11,16 +11,18 @@
 ## Las siete piezas, en el único orden que funciona
 
 ```
+0. el mundo       →  ./RUTA.md                                 (qué hay, y qué no, en ESTE mundo)
 1. el alma        →  Entes/alma de la pregunta/el alma.am
 2. sus folders    →  Entes/alma de la pregunta/ENTRAR.prs · MIRAR.prs · EXTRAER.prs
-3. su índice      →  Entes/alma de la pregunta/IMA.md         (qué folder corre qué proceso)
-4. su plantilla   →  Entes/alma de la pregunta/plantilla.tra  (lo que deja cada folder)
-5. el estándar    →  sincronizacion de almas/formacion/FORMATO.md · LENGUAJE.md
-6. el guantelete  →  Entes/guantelete/GUANTELETE.vd · IMA.md · herramientas/
-7. el piso        →  sincronizacion de almas/friccion/PISO.md
+3. su plantilla   →  Entes/alma de la pregunta/plantilla.tra  (lo que deja cada folder)
+4. el estándar    →  sincronizacion de almas/formacion/FORMATO.md · LENGUAJE.md
+5. el guantelete  →  Entes/guantelete/GUANTELETE.vd · herramientas/
+6. el piso        →  sincronizacion de almas/friccion/PISO.md
 ```
 
-**Si lees 5, 6 y 7 antes de 1, no entiendes nada: son las reglas de algo que todavía no viste correr.** **Si lees 1 a 4 primero, ya tienes un alma; el resto te dice por qué está bien hecha.**
+**Si lees 4, 5 y 6 antes de 1, no entiendes nada: son las reglas de algo que todavía no viste correr.** **Si lees 0 a 3 primero, ya tienes un alma; el resto te dice por qué está bien hecha.**
+
+**Y el cero no es el alma: es el mundo donde el alma se para.** **Hay muchos `RUTA`, uno por mundo, y el alma es la misma en todos.** **Esa es la regla que hace que un alma se pueda mudar sin reescribirse.** Rige [`./RUTA.md`](./RUTA.md).
 
 ---
 

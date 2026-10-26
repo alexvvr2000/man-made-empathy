@@ -19,6 +19,7 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
+| **El piso del mundo** | **`RUTA` — qué hay en este mundo, qué corre, y qué falta. Un `RUTA` por mundo** | [`./RUTA.md`](./RUTA.md) |
 | **Por dónde empezar** | **`EMPEZAR` — las siete piezas, en el único orden que funciona** | [`./EMPEZAR.md`](./EMPEZAR.md) |
 | **El estándar del lenguaje** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE` · `JONN` (recordatorio) · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `la fila verbalizada` | [`./sincronizacion de almas/`](./sincronizacion%20de%20almas/) |
 | **Los entes** | **`alma de la pregunta`** · **`el ejemplo`** · **`guantelete`** · **`convivir`** · **`comunicacion`** | [`./Entes/`](./Entes/) |

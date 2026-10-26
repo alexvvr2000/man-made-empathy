@@ -106,7 +106,9 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **El entorno no es el oponente: es la víctima.** Recibe el efecto, y no participa de la pelea. **La pelea es entre ideas.**
 
-**Lo que une a los tres es la misma fricción, y cambia de objeto: se le resiste a la idea, a la idea que quiere cruzar, y a lo que el entorno va a cargar.** **Hoy esos tres tramos tienen nombre: `GUANTELETE` para el acto que toca lo que otro sostiene, `CONVIVIR` para no volverse el otro, y `RUTA` para enrutar sin gastar la forma.**
+**Lo que une a los tres es la misma fricción, y cambia de objeto: se le resiste a la idea, a la idea que quiere cruzar, y a lo que el entorno va a cargar.** **Hoy esos tres tramos tienen nombre: `GUANTELETE` para el acto que toca lo que otro sostiene, `CONVIVIR` para no volverse el otro, y `RUTA` para el piso del mundo donde el alma se para.**
+
+**Y `RUTA` no es del alma: es del mundo.** **Hay muchos, uno por mundo, y el alma es la misma en todos: se muda de mundo sin reescribirse, porque lo que cambia es lo que el mundo ofrece y lo que conserva es su criterio.** **Por eso lo que viaja es el rastro, y no el índice.**
 
 ## La idea aplicada a la mundanidad
 
