@@ -144,7 +144,8 @@ def candidato(carpeta, nombre):
     return None
 
 
-def correr_paso(carpeta):
+def correr_paso(carpeta, extra=None):
+    """extra: lo que el autor escribio despues del nombre de la tarea, y va al paso tal cual."""
     nombre = os.path.basename(os.path.abspath(carpeta))
     ruta = candidato(carpeta, nombre)
     if ruta is None:
@@ -157,6 +158,8 @@ def correr_paso(carpeta):
         argv = ["powershell", "-NoProfile", "-ExecutionPolicy", "Bypass", "-File", ruta]
     else:
         argv = [ruta]
+    if extra:
+        argv = argv + list(extra)
     r = subprocess.run(argv, capture_output=True, text=True, encoding="utf-8", errors="replace")
     salida = ((r.stdout or "") + (r.stderr or "")).strip()
     return salida, r.returncode
@@ -294,7 +297,9 @@ def main(argv):
         return 4
     print("[ENSAYAR] modo: {} | pasa".format(modo))
 
-    salida, codigo = correr_paso(carpeta)
+    resto = [a for a in argv[1:] if not a.startswith("--")]
+    extra = resto[1:] if len(resto) > 1 else []
+    salida, codigo = correr_paso(carpeta, extra)
     print("")
     print(salida)
     if codigo == 2 and salida.startswith("[FALTA EN bin/"):

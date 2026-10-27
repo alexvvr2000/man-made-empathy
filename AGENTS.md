@@ -25,7 +25,7 @@
 |---|---|---|
 | **La tesis** | **el candado cero, y las ocho tesis sembradas** | **`./tesis/`** |
 | **El contexto refutable** | **los 93 candados que sostienen las tesis** | **`./candados/`** |
-| **El blanco de las tesis** | **las visiones** | **`./vision de la maquina/` · `./vision del lector/`** |
+| **El blanco de las tesis** | **las visiones: de la máquina, del lector, y la del autor** | **`./vision de la maquina/` · `./vision del lector/` · `./vision del autor/`** |
 | **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos, y lo que la sostiene** | **`./base/`** |
 | **El lenguaje** | **`0/` — las piezas del estándar, que son la primera tesis** | **`./estandar/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./estandar/`** |
@@ -38,7 +38,7 @@
 | **Las pruebas del repositorio** | **las que sostiene la autoridad, medidas con `bin/pruebas.py`** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **El ente que contesta** | **lo que pasó, lo que hice mal, y lo que no sé** | **`./el ente.md`** |
-| **Los papers, en LaTeX, uno por candado** | **se componen con `bin/entregar.py`, y no se escribe LaTeX a mano** | **`./entregas/`** |
+| **Mis entregables** | **una carpeta por entrega, con su `.tex` y su `.pdf`. Se hace cuando el autor lo pida** | **`./vision del autor/`** |
 | **Las tesis que me trajeron aquí** | **las eras que ya no están, y se ven cuando se piden** | **`./tesis historicas/`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
 | **El vocabulario** | **el nombre vigente de cada cosa, y los que murieron** | **`./GLOSARIO.md`** |

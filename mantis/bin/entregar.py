@@ -18,8 +18,7 @@ este repo agrega.
 
 Uso:
     python entregar.py                       lista los candados que se pueden entregar
-    python entregar.py "<el candado>"        escribe entregas/<el candado>.tex
-    python entregar.py --todos               escribe los 93
+    python entregar.py "<el candado>"        escribe vision del autor/<el candado>/
 
 Sale 0 si escribió, 1 si el candado no está, 2 si le falta un campo.
 """
@@ -33,7 +32,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.path.abspath(os.path.join(MANTIS, ".."))
 CANDADOS = os.path.join(REPO, "candados")
-ENTREGAS = os.path.join(REPO, "entregas")
+ENTREGAS = os.path.join(REPO, "vision del autor")
 
 CAMPOS = [
     ("Posición", "resumen"),
@@ -155,6 +154,29 @@ def lista():
     return fuera
 
 
+def compilar(tex):
+    """Compila el .tex si este mundo tiene con qué. Si no, lo dice."""
+    import shutil, subprocess
+    # y si el mundo no lo tiene en el PATH, se busca donde se instalo
+    candidatos = [shutil.which(c) for c in ("tectonic", "pdflatex", "xelatex")]
+    candidatos.append(os.path.join(os.path.expanduser("~"), "AppData", "Local", "Programs",
+                                   "tectonic", "tectonic.exe"))
+    for exe in [c for c in candidatos if c and os.path.isfile(c)]:
+        cmd = "tectonic" if "tectonic" in os.path.basename(exe).lower() else "pdflatex"
+        try:
+            if cmd == "tectonic":
+                subprocess.run([exe, "-X", "compile", tex, "--outdir", os.path.dirname(tex)],
+                               capture_output=True, timeout=600)
+            else:
+                subprocess.run([exe, "-interaction=nonstopmode", "-output-directory", os.path.dirname(tex), tex],
+                               capture_output=True, timeout=600)
+        except Exception:
+            return None
+        pdf = os.path.splitext(tex)[0] + ".pdf"
+        return pdf if os.path.isfile(pdf) else None
+    return None
+
+
 def main(argv):
     todos = lista()
     if not todos:
@@ -178,21 +200,6 @@ def main(argv):
                 print("  {:<58} le falta: {}".format(os.path.basename(p)[:58], ", ".join(falta)))
         return 0
 
-    if argv[1] == "--todos":
-        os.makedirs(ENTREGAS, exist_ok=True)
-        hechos = 0
-        for p in todos:
-            c = campos_de(leer(p))
-            nombre = os.path.basename(p)[:-3]
-            tex, falta = paper(nombre, c, os.path.relpath(p, REPO).replace("\\", "/"))
-            if tex:
-                destino = os.path.join(ENTREGAS, id_de(nombre) + ".tex")
-                with io.open(destino, "w", encoding="utf-8", newline="") as fh:
-                    fh.write(tex)
-                hechos += 1
-        print("[entregar] {} papers escritos en entregas/".format(hechos))
-        return 0
-
     cual = " ".join(argv[1:])
     p = None
     for x in todos:
@@ -208,14 +215,19 @@ def main(argv):
     if tex is None:
         print("[SIN ENTREGA] le falta: " + ", ".join(falta))
         return 2
-    os.makedirs(ENTREGAS, exist_ok=True)
-    destino = os.path.join(ENTREGAS, id_de(nombre) + ".tex")
+    carpeta = os.path.join(ENTREGAS, nombre)
+    os.makedirs(carpeta, exist_ok=True)
+    destino = os.path.join(carpeta, id_de(nombre) + ".tex")
     with io.open(destino, "w", encoding="utf-8", newline="") as fh:
         fh.write(tex)
     print("[entregar] " + nombre)
     print("deja: " + os.path.relpath(destino, REPO))
     print("")
-    print("y para el PDF, en un mundo con LaTeX:  pdflatex " + os.path.basename(destino))
+    pdf = compilar(destino)
+    if pdf:
+        print("y el PDF: " + os.path.relpath(pdf, REPO))
+    else:
+        print("y el PDF: no hay con qué compilar en este mundo (falta tectonic o pdflatex)")
     return 0
 
 
