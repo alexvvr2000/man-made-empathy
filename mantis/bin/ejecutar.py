@@ -115,6 +115,7 @@ IMPLEMENTACIONES = {
     "tareas": "tareas.py",
     "privado": "privado.py",
     "stats": "stats.py",
+    "basura": "basura.py",
 }
 
 

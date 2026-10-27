@@ -1,0 +1,39 @@
+# basura.tra — la tarea: listar lo que git tiene y el repo ya no
+
+**Cómo se usa:** **vive en `tareas/la memoria/basura/`, y se corre con `python bin/ejecutar.py basura`.**
+**No restaura nada por su cuenta: lista, y espera la orden.**
+
+---
+
+**Nombre:** basura
+**Expande:** el historial de git se contó, y lo que ya no está quedó en un índice
+**Se nombró:** 2026-10-26
+**Reemplaza:** NINGUNO
+**Miente si:** se dice cuántas eras hay sin haber leído el historial, o se restaura una era que el autor no pidió
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** el historial completo de git —cada ruta que existió en cualquier rama—. **Es solo-lectura: no restaura nada sin `--sacar`.**
+- **Falla si:** git no contesta; una era se cuenta dos veces; se restaura algo sin que el autor lo pida; el índice no dice de qué commit salió cada era.
+- **Sale:** `Tesis/basura/indice.json` con las eras muertas, sus archivos y el último commit de cada una.
+- **Consume:** quien busque algo que se borró, y quien decida qué se recupera.
+
+## Qué cuenta, y por qué así
+
+```plaintext
+1. SE LEE      cada ruta de cualquier rama, con git log --all
+2. SE DESCARTA lo que existe hoy en el arbol
+3. SE AGRUPA   por carpeta de primer nivel: eso es una era
+4. SE SACA     el ultimo commit donde existio, para poder volver a ella
+```
+
+**Y no restaura nada:** **restaurar 1181 archivos sin pedirlo es llenar el repo de lo que nadie pidió.** **Por eso el `--sacar` es explícito, y por era.**
+
+**Prueba:** ¿el total de archivos sale de las rutas y no de un número dicho? ¿cada era trae su último commit? ¿el árbol de trabajo no cambió?
+**Falsificador:** un total que no cuadra con el índice; una era sin commit de origen; un archivo restaurado sin pedirlo.
+
+## Transiciones
+
+- El autor pide una era → **`--sacar <era>`, y vuelve a `Tesis/basura/<era>/`.**
+- El autor pide todas → **`--sacar todas`, y se dice cuánto pesa.**
+- No pide nada → **solo se lista, y el repo queda igual.**

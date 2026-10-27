@@ -1,0 +1,206 @@
+{
+  "eras": [
+    {
+      "era": "2 Ouroboros",
+      "archivos": 158,
+      "ultimo": "85cb6f2 2026-10-22"
+    },
+    {
+      "era": "Ouroboros",
+      "archivos": 144,
+      "ultimo": "bab6d8d 2026-10-24"
+    },
+    {
+      "era": "(Place holder)",
+      "archivos": 97,
+      "ultimo": "d45f5e1 2026-10-24"
+    },
+    {
+      "era": "sincronizacion de almas",
+      "archivos": 80,
+      "ultimo": "5a1cbc7 2026-10-26"
+    },
+    {
+      "era": "(Placeholder)",
+      "archivos": 77,
+      "ultimo": "f111a31 2026-10-24"
+    },
+    {
+      "era": "faro",
+      "archivos": 73,
+      "ultimo": "f2817e4 2026-10-25"
+    },
+    {
+      "era": "S.A.R.A",
+      "archivos": 72,
+      "ultimo": "2e27443 2026-10-22"
+    },
+    {
+      "era": "2 Place holder",
+      "archivos": 69,
+      "ultimo": "138ff06 2026-10-22"
+    },
+    {
+      "era": "futuro",
+      "archivos": 49,
+      "ultimo": "53b504b 2026-10-25"
+    },
+    {
+      "era": "Agentes",
+      "archivos": 47,
+      "ultimo": "2e27443 2026-10-22"
+    },
+    {
+      "era": "Era",
+      "archivos": 34,
+      "ultimo": "f111a31 2026-10-24"
+    },
+    {
+      "era": "Alineacion de tareas",
+      "archivos": 28,
+      "ultimo": "bb4b14c 2026-10-21"
+    },
+    {
+      "era": "Bases de diseño",
+      "archivos": 28,
+      "ultimo": "7ae9378 2026-10-20"
+    },
+    {
+      "era": "mantis_nuevo",
+      "archivos": 23,
+      "ultimo": "78a61d7 2026-10-25"
+    },
+    {
+      "era": "1 Tesis",
+      "archivos": 22,
+      "ultimo": "85cb6f2 2026-10-22"
+    },
+    {
+      "era": "1 Introduccion",
+      "archivos": 20,
+      "ultimo": "138ff06 2026-10-22"
+    },
+    {
+      "era": "Instrucciones",
+      "archivos": 19,
+      "ultimo": "bb4b14c 2026-10-21"
+    },
+    {
+      "era": "A.R.E.S",
+      "archivos": 15,
+      "ultimo": "94bfe35 2026-10-19"
+    },
+    {
+      "era": "dsh",
+      "archivos": 15,
+      "ultimo": "06eface 2026-10-18"
+    },
+    {
+      "era": "Libre albedrio",
+      "archivos": 15,
+      "ultimo": "fa58149 2026-10-24"
+    },
+    {
+      "era": "corpus",
+      "archivos": 13,
+      "ultimo": "2e27443 2026-10-22"
+    },
+    {
+      "era": "notas",
+      "archivos": 12,
+      "ultimo": "45ce43c 2026-10-23"
+    },
+    {
+      "era": "Entornos de desarrollo",
+      "archivos": 12,
+      "ultimo": "06eface 2026-10-18"
+    },
+    {
+      "era": "Principios Agentes",
+      "archivos": 12,
+      "ultimo": "8d1922d 2026-10-18"
+    },
+    {
+      "era": "Principios",
+      "archivos": 7,
+      "ultimo": "6cfc788 2026-10-02"
+    },
+    {
+      "era": "faber",
+      "archivos": 6,
+      "ultimo": "c419d99 2026-10-20"
+    },
+    {
+      "era": "prompts iniciales",
+      "archivos": 6,
+      "ultimo": "3ce700e 2026-10-17"
+    },
+    {
+      "era": "Sondas de comportamiento",
+      "archivos": 4,
+      "ultimo": "d017ea7 2026-10-21"
+    },
+    {
+      "era": "Puntos de inicio",
+      "archivos": 4,
+      "ultimo": "6cfc788 2026-10-02"
+    },
+    {
+      "era": "3 Era",
+      "archivos": 3,
+      "ultimo": "85cb6f2 2026-10-22"
+    },
+    {
+      "era": "VIDERE",
+      "archivos": 3,
+      "ultimo": "0139310 2026-10-23"
+    },
+    {
+      "era": "Implementaciones de la era",
+      "archivos": 3,
+      "ultimo": "13a7720 2026-10-22"
+    },
+    {
+      "era": "Sistemas Compilables",
+      "archivos": 3,
+      "ultimo": "d017ea7 2026-10-21"
+    },
+    {
+      "era": "scripts",
+      "archivos": 2,
+      "ultimo": "bb4b14c 2026-10-21"
+    },
+    {
+      "era": "Punto de inicio chatbots.md",
+      "archivos": 1,
+      "ultimo": "675b485 2026-10-02"
+    },
+    {
+      "era": "POSIBILIDADES.md",
+      "archivos": 1,
+      "ultimo": "53b504b 2026-10-25"
+    },
+    {
+      "era": "Posicion de la IA frente a mi sistema.md",
+      "archivos": 1,
+      "ultimo": "6cfc788 2026-10-02"
+    },
+    {
+      "era": "Instruccion Inicial.md",
+      "archivos": 1,
+      "ultimo": "f8b9ce6 2026-10-03"
+    },
+    {
+      "era": "prompt inicial.md",
+      "archivos": 1,
+      "ultimo": "1e1a8d9 2026-10-05"
+    },
+    {
+      "era": "man_made_empathy_ficha.md",
+      "archivos": 1,
+      "ultimo": "79d75cb 2026-10-15"
+    }
+  ],
+  "archivos": 1181,
+  "como_se_cuenta": "cada ruta que existio en cualquier rama y hoy no esta en el arbol"
+}
