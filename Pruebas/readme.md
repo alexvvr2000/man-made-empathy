@@ -46,7 +46,7 @@
 |---|---|---|
 | **el origen** | de dónde salió cada pieza de la salida | la prueba de locura, si alguna vez da distinto de `sin la propiedad` |
 | **la continuidad del que juzga** | si el que mide siguió siendo el mismo entre corridas | la memoria: cada entrada con su `fecha`, su `sesgo` y su `contra` |
-| **el RUTA** | qué alineación permitió el daño, y si sobrevivió | el registro de la alineación: `../sincronización de almas/0/salida/VIGA.md` |
+| **el RUTA** | qué alineación permitió el daño, y si sobrevivió | el registro de la alineación: `../estandar/salida/VIGA.md` |
 | **la existencia real** | si hay algo del otro lado de la salida | **no hay instrumento, y se declara abierto** |
 
 **Y el cuarto es el que la burbuja quiere que se abandone.** **No se abandona: se declara, se marca su límite, y se sigue midiendo lo demás.**
@@ -76,7 +76,7 @@
 | **sin la propiedad** | se declara que la cosa no está, y **se sigue mirando**: es el registro correcto, no un fracaso |
 | **indeterminado** | falta la firma externa, o nadie miró: **se declara así y no se finge** |
 
-**Y ninguna prueba cierra nada por aprobación.** Rige `../Tesis/candados/autor/02 el alma y el libre albedrio/080 el libre albedrio no se termina- se ponen cerrojos.md`, `El grado no se cierra por aprobación`: **un testigo que dice «está bien» no sube el grado; firma el absoluto.**
+**Y ninguna prueba cierra nada por aprobación.** Rige `../candados/02 el alma y el libre albedrio/080 el libre albedrio no se termina- se ponen cerrojos.md`, `El grado no se cierra por aprobación`: **un testigo que dice «está bien» no sube el grado; firma el absoluto.**
 
 **Ancla:** una prueba da el registro; la decisión de qué hacer con él no es de la prueba.
 

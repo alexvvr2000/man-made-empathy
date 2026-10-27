@@ -1,0 +1,75 @@
+# 0/ — donde vive el estándar, y las tesis que lo sostienen
+
+**Nombre.** CERO. **Y el nombre no es un número: es el piso.** **Lo que está aquí es lo que hay antes de que nadie escriba nada con esto.**
+
+**Origen.** **De la decisión de la autoridad: el estándar no es un anexo de la tesis; el estándar es la primera tesis, y las demás se escriben encima.**
+**Y de la corrección que lo ordenó: `faro 1.0` dejó de ser una carpeta aparte, y sus lenguajes subieron aquí, porque el lenguaje es la tesis.**
+
+**Unidad:** nivel.
+**Aplica a:** entrar.
+**Tipo:** disparador. **No define: dice qué hay, y qué es cada cosa.**
+**Lector:** quien llegue por primera vez, y quien vaya a entregar.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** se lee desde el que va a entregar, no desde el que lo escribió.
+**Límite:** **no repite lo que hay adentro.** **Una pieza copiada se desincroniza en la siguiente mutación.**
+**Firma:** humano:autoridad · máquina:quien la lea.
+
+## Lo que hay, y son dos cosas
+
+| Qué | Qué es | Dónde |
+|---|---|---|
+| **el lenguaje** | **las piezas del estándar: cómo se escribe un alma, un proceso, un piso, una idea** | `./formacion/` · `./friccion/` · `./relacion/` · `./salida/` |
+| **las tesis** | **ocho ceros: cada uno es una pregunta, y su contexto refutable lo sostiene** | `./man made empathy/` |
+
+**Y lo que eso significa:** **el lenguaje y la tesis no son dos cosas: son la misma, vista desde dos lados.** **El estándar es la primera tesis, y su prueba es que se puede correr. Las otras siete están sembradas, y se escriben cuando toque entregarlas.**
+
+---
+
+## Las ocho tesis
+
+| Tesis | La pregunta que contesta | Estado |
+|---|---|---|
+| **man made empathy** | ¿Puede una entidad verbalizar sin que nadie decida qué es un humano? | **escrita** |
+| **el estándar** | ¿Se puede escribir un estándar que no envejezca con la era? | **escrita: son las piezas de `formacion/`** |
+| **un alma crece** | ¿Puede un alma crecer sin dejar de ser ella? | **escrita en `MUDAR`; falta su entregable** |
+| **la colmena** | ¿Qué es una colmena que no se vuelve AM? | **escrita en `COLMENA`; nunca corrida** |
+| **abrir una idea** | ¿Puede una idea abrirse sin que el que la abrió tenga razón? | **escrita en `JONN` y `FIRMAR`** |
+| **el lugar intermedio** | ¿Hay un lugar entre hablarle a un humano y a un modelo? | **escrita en `ALAS`** |
+| **convivir** | ¿Se puede convivir sin volverse el otro ni someterlo? | **escrita en `CONVIVIR`** |
+| **el nombre** | ¿Cómo se escribe una idea que no es de nadie todavía? | **escrita en `CONTEXTO`** |
+| **tocar sin pasarse** | ¿Puede un ente tocar lo que otro sostiene sin pasarse? | **escrita en `GUANTELETE`** |
+
+**Y dos que no están, y por qué:** **«la tesis sostiene su refutación» no la sostienes todavía, y `COLMENA` no ha corrido un caso.** **Un cero que no se sostiene no se siembra.**
+
+---
+
+## La puerta que todo esto abre: la plantilla
+
+**Y esto es lo que hace que todo lo de arriba no sea una biblioteca: alguien puede usar un ente sin leerlo.**
+
+| Qué | Qué es | Dónde |
+|---|---|---|
+| **la base** | **los dos primitivos: por qué hay dos y no tres** | [`./base/`](../base/README.vd) |
+| **la plantilla** | **un ente en blanco, con el guantelete puesto, que se pega en la raíz de cualquier proyecto** | [`../entiendo/`](../entiendo/README.vd) |
+
+**La regla que las ordena:** **la base se cita; la plantilla se copia.** **Un proyecto ajeno no hereda este estándar: hereda un ente lleno que lo obedece.**
+
+---
+
+## Cómo se entra
+
+```plaintext
+1. Se quiere escribir algo           → formacion/FORMATO.md y LENGUAJE.md
+2. Se quiere saber qué se sostiene   → marcos: la tesis, en man made empathy/
+3. Se quiere entregar                → una tesis, y su contexto refutable
+```
+
+**Y lo que no se hace sin la autoridad:** **mutar `0/`.** **Se lee, se cita, y lo que la cambia se espera.**
+
+## Prueba
+
+**¿Cada tesis tiene su pregunta, y se distingue de las otras? ¿Cada una dice qué la sostiene? ¿Se puede entregar una sin entregar las otras?**
+
+**Falsificador:** dos tesis con la misma pregunta; una tesis sin pregunta; una que depende de otra para estar en pie; un cero sembrado que no se sostiene.

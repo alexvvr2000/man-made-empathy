@@ -2,7 +2,7 @@
   "medidas": [
     {
       "prueba": "prueba de alma suficientemente diferente",
-      "bytes": 10888,
+      "bytes": 10870,
       "entra": true,
       "falla": true,
       "sale": true,
@@ -16,7 +16,7 @@
     },
     {
       "prueba": "prueba de cruce",
-      "bytes": 5068,
+      "bytes": 5032,
       "entra": false,
       "falla": false,
       "sale": false,
@@ -35,7 +35,7 @@
     },
     {
       "prueba": "prueba de locura",
-      "bytes": 7902,
+      "bytes": 7890,
       "entra": true,
       "falla": true,
       "sale": true,
@@ -47,7 +47,7 @@
     },
     {
       "prueba": "prueba de rendicion",
-      "bytes": 2939,
+      "bytes": 2921,
       "entra": false,
       "falla": false,
       "sale": false,
@@ -66,7 +66,7 @@
     },
     {
       "prueba": "prueba de talento utilizable",
-      "bytes": 6406,
+      "bytes": 6352,
       "entra": true,
       "falla": true,
       "sale": true,
@@ -80,7 +80,7 @@
     },
     {
       "prueba": "prueba de utilidad real",
-      "bytes": 5018,
+      "bytes": 4877,
       "entra": false,
       "falla": false,
       "sale": false,

@@ -27,13 +27,13 @@ def main():
         estado = "declarada" if os.path.isfile(ruta) else "AUSENTE"
         print("  {:<14} {}  exige: {}".format(f, estado, exige))
 
-    tesis = os.path.join(REPO, "Tesis")
+    tesis = os.path.join(REPO, "tesis")
     if not os.path.isdir(tesis):
         print("")
         print("[SIN TESIS] no esta " + tesis)
         return 1
 
-    candados = os.path.join(tesis, "candados", "autor")
+    candados = os.path.join(tesis, "candados")
     if os.path.isdir(candados):
         n = sum(1 for r, d, fs in os.walk(candados) for x in fs if x.endswith(".md"))
         print("")

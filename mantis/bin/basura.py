@@ -8,7 +8,7 @@ cada era, su fecha, y cuánto pesa.
 
 Uso:
     python basura.py                 lista las eras muertas, sin restaurar
-    python basura.py --sacar <era>   restaura una era a Tesis/basura/<era>/
+    python basura.py --sacar <era>   restaura una era a basura/<era>/
     python basura.py --sacar todas   las restaura todas (son muchas)
 
 Sale 0 si pudo leer el historial, 1 si git no contesta.
@@ -23,11 +23,12 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.path.abspath(os.path.join(MANTIS, ".."))
-DESTINO = os.path.join(REPO, "Tesis", "basura")
+DESTINO = os.path.join(REPO, "basura")
 INDICE = os.path.join(DESTINO, "indice.json")
 
 # lo que no es una era: archivos sueltos de la raíz, y lo de hoy
-IGNORAR = (".git", "mantis", "Tesis", "sincronización de almas", "Pruebas", "Select-Object",
+IGNORAR = (".git", "mantis", "tesis", "estandar", "base", "entiendo", "faro", "candados", "basura",
+           "vision de la maquina", "vision del lector", "Pruebas",
            "AGENTS.md", "ATTRIBUTION.md", "CITATION.cff", "FUENTES.md", "LICENSE.txt", "README.md",
            "futuros posibles.md", "pc.md", ".gitignore")
 

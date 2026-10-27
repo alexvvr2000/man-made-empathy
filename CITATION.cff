@@ -47,7 +47,7 @@ references:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
     date-published: "2026-10-26"
-    file: "Tesis/EL SESGO DECLARADO.md"
+    file: "EL SESGO DECLARADO.md"
     notes: "El paper práctico. Es el documento que este repositorio sostiene como entrada."
   - type: generic
     title: "Man-Made Empathy: las ocho tesis, y el cero"
@@ -55,11 +55,11 @@ references:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
     date-published: "2026-10-26"
-    file: "sincronización de almas/0/man made empathy/"
+    file: "tesis/"
   - type: generic
     title: "Las 93 reglas del autor, con su prueba"
     authors:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
     date-published: "2026-10-26"
-    file: "Tesis/candados/autor/"
+    file: "candados/"

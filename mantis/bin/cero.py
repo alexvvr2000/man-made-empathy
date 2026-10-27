@@ -12,7 +12,7 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
-CERO = os.path.join(REPO, "sincronización de almas", "0", "man made empathy", "man made empathy.md")
+CERO = os.path.join(REPO, "tesis", "man made empathy", "man made empathy.md")
 LISTA = os.path.join(MANTIS, "tareas", "el cero", "nombres.md")
 
 
