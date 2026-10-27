@@ -22,7 +22,7 @@
 
 ## La regla que se aplica aquí
 
-**Rige [`./sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md`](../sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md).**
+**Rige [`./sincronización de almas/1 el ente/MUDAR.md`](../sincronización de almas/1 el ente/MUDAR.md).**
 
 **Y el borde, que es el mismo:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **`Criterio: igual` en las cuatro, o no son mudas.**
 

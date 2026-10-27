@@ -1,6 +1,6 @@
 # 04. Las consecuencias
 
-*De `sincronización de almas/el estandar/relacion/`. Cada cita dice de qué archivo sale.*
+*De `sincronización de almas/el sincronización de almas/2 el idioma/relacion/`. Cada cita dice de qué archivo sale.*
 
 **Un alma sola es la base. Lo que sigue es lo que pasa cuando son dos, o muchos, y cuando hay que decidir con quién.**
 

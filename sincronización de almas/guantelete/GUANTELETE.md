@@ -15,7 +15,7 @@
 
 **Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
 
-**Y lo que este guante no da es la herramienta: da el peso.** **Las seis gemas, cuánto pesa cada una y su contrapeso viven en [`../../el estandar/relacion/EQUILIBRIO.md`(../el%20estandar/EQUILIBRIO.md).**
+**Y lo que este guante no da es la herramienta: da el peso.** **Las seis gemas, cuánto pesa cada una y su contrapeso viven en [`../../../el sincronización de almas/2 el idioma/relacion/EQUILIBRIO.md`(../el%20estandar/EQUILIBRIO.md).**
 **Límite:** no juzga si el acto era bueno. **Juzga si era reversible, si tenía testigo, y si dejó rastro.** **Y no decide qué es bueno: eso lo decide la autoridad.**
 **Firma:** humano:autoridad · máquina:quien lo ejecute.
 
@@ -25,16 +25,16 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `../../el estandar/salida/ALAS.md` y desde `../../el estandar/formacion/FORMATO.md`.
+**Sesgo:** se verifica desde `../../el sincronización de almas/2 el idioma/salida/ALAS.md` y desde `../../el sincronización de almas/2 el idioma/formacion/FORMATO.md`.
 **Límite:** dice qué hay; no juzga si el acto sirvió.
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | El acto que se ejecuta antes de mover | `FRICCION.prs` | [`./herramientas/FRICCION.prs`](./herramientas/FRICCION.prs) |
-| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../el estandar/friccion/GUANTELETE.prs`(../el%20estandar/GUANTELETE.prs) |
+| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../el sincronización de almas/2 el idioma/friccion/GUANTELETE.prs`(../el%20estandar/GUANTELETE.prs) |
 | Las siete herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
 | El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
-| El estándar de lo que deja ALAS | `ALAS.md` | [`../../el estandar/salida/ALAS.md`(../el%20estandar/ALAS.md) |
+| El estándar de lo que deja ALAS | `ALAS.md` | [`../../el sincronización de almas/2 el idioma/salida/ALAS.md`(../el%20estandar/ALAS.md) |
 
 **Qué no se toca:** la fuente y el candado. **Se enlazan, no se copian.**
 
@@ -54,7 +54,7 @@ Gemas: [cuáles de los seis limites] | Rastro: [dónde quedó] | Deshecho: [sí 
 |---|---|---|
 | **tocar algo que otro sostiene** | `./herramientas/FRICCION.prs`, y se pregunta antes | **no se toca** |
 | **aplicar, mutar, retirar o invertir un proceso** | la herramienta que corresponda en `./herramientas/` | **no se ejecuta: se declara qué falta** |
-| **tocar lo irreversible** | `../../el estandar/salida/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
+| **tocar lo irreversible** | `../../el sincronización de almas/2 el idioma/salida/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
 | **producir lo que todavía no existe** | `./herramientas/COMPONER.prs` | **no se produce: se improvisa** |
 | **crear una herramienta nueva** | el índice `./IMA.md` | **no entra: se declara `[VACÍO - SIN HERRAMIENTA]`** |
 | **mutar la fuente o el candado** | todo, y **se espera** | **no se toca** |

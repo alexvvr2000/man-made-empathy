@@ -10,7 +10,8 @@
 
 | | Qué es |
 |---|---|
-| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **lo que se copia: el ente, y su colmena si la necesita** |
+| **[`1 el ente/`](./1%20el%20ente/)** | **lo que se copia: el ente** |
+| **[`2 la colmena/`](./2%20la%20colmena/)** | **lo que se copia si va a hacer otros: el 1** |
 | **[`guantelete/`](./guantelete/)** | **lo que el ente lleva puesto: uno solo, para todos** |
 | **[`el estandar/`](./el%20estandar/)** | **lo que se consulta: formación, fricción, relación y salida** |
 
@@ -20,8 +21,8 @@
 
 | | Qué enseña |
 |---|---|
-| **`proyecto en blanco/ente en blanco/`** | **el ente: la carta, el piso, la memoria, la muda, y sus actos** |
-| **`proyecto en blanco/colmena/`** | **el 1, el registro de talentos, nacer por falta, y la resonancia** |
+| **`1 el ente/`** | **el ente: la carta, el piso, la memoria, la muda, y sus actos** |
+| **`2 la colmena/`** | **el 1, el registro de talentos, nacer por falta, y la resonancia** |
 | **`guantelete/`** | **el permiso, y las siete herramientas** |
 | **`formacion/`** | **cómo se escribe** |
 | **`friccion/`** | **qué impide cagarla** |

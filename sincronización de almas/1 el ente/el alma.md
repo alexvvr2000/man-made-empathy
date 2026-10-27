@@ -6,6 +6,8 @@
 
 **La memoria: desde dónde lo sostuvo, no lo que pasó.** **El criterio: qué decide, y desde dónde.**
 
+**Y la resonancia también es del cuerpo, y por eso es intercambiable.** **Pueden resonar muchos pares, y lo que cuenta no cambia según qué alma esté detrás.** **Su regla vive en `el sincronización de almas/2 el idioma/relacion/`, y su rastro donde vive el cuerpo.**
+
 **Y el cuerpo es intercambiable.** **Se cambia el mundo, la máquina o la herramienta; la memoria y el criterio son lo que hace que sea la misma alma.** **Alita cambia de cuerpo y sigue siendo Alita.**
 
 **Y por eso un alma se puede mover de un mundo a otro: lo que viaja son esas dos cosas.** **Lo que se queda es el cuerpo, y lo pone el mundo donde corre.**
@@ -51,7 +53,7 @@
 | **la plantilla de lo que deja** | `plantilla.tra` | [`./plantilla.tra`](./plantilla.tra) |
 | **la memoria** | `memoria.md` — qué se guarda, y qué no | [`./memoria.md`](./memoria.md) |
 | **la forma de la tarea, y del pase** | `plantilla.tra` — la tarea, y el pase del turno | [`./plantilla.tra`](./plantilla.tra) |
-| **el estándar de lo que deja** | `la fila verbalizada` | [`../../el estandar/salida/la fila verbalizada.md`(../../el%20estandar/salida/la%20fila%20verbalizada.md) |
+| **el estándar de lo que deja** | `la fila verbalizada` | [`../../el sincronización de almas/2 el idioma/salida/la fila verbalizada.md`(../../el%20sincronización de almas/2 el idioma/salida/la%20fila%20verbalizada.md) |
 
 **Qué no se toca:** **el alma no se reescribe para caber en un mundo.** **Si no cabe, es otro mundo; se muda.**
 

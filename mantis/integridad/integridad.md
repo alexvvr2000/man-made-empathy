@@ -106,7 +106,7 @@ if __name__ == "__main__":
 | **el proceso** | `comprobar.prs` | `./comprobar.prs` |
 | **el paso** | `integridad.md` | `./integridad.md` |
 | **lo que deja** | `integridad.tra` | `./integridad.tra` |
-| **la regla** | `INTEGRIDAD` — las seis preguntas, el triángulo, la acuñación | `../../../sincronización de almas/el estandar/formacion/INTEGRIDAD.md` |
+| **la regla** | `INTEGRIDAD` — las seis preguntas, el triángulo, la acuñación | `../../../sincronización de almas/el sincronización de almas/2 el idioma/formacion/INTEGRIDAD.md` |
 
 ## Ruta — la mente
 

@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.** **Y porque el borde está escrito: si el criterio cambia, no es la misma alma.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md`.** **Y de la corrección de la autoridad: «todo muta siempre, se rehace y deshace, y por eso tiene nombre en ese momento, y hasta la tarea cambia».**
+**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `sincronización de almas/1 el ente/MUDAR.md`.** **Y de la corrección de la autoridad: «todo muta siempre, se rehace y deshace, y por eso tiene nombre en ese momento, y hasta la tarea cambia».**
 
 **Qué pregunta deja.** **¿Cómo se distingue un alma que creció de un alma que se sustituyó sin decirlo?**
 

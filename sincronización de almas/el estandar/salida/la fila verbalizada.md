@@ -7,7 +7,7 @@
 **Firma:** humano:autoridad · máquina:quien la produzca.
 **Estado:** vigente.
 
-**Y su ejecutor es un proceso:** `EXPRESION` escribe la fila, y ningún `.prs` entrega sin pasar por él. **Y vive en `.././sincronización de almas/proyecto en blanco/ente en blanco/EXPRESION.prs`: la fila solo cita lo que existe.** Es la prueba viva de que la resonancia del alma es implícita: un proceso puede consumir lo que otro produjo sin que ninguno pregunte qué hay detrás.
+**Y su ejecutor es un proceso:** `EXPRESION` escribe la fila, y ningún `.prs` entrega sin pasar por él. **Y vive en `.././sincronización de almas/1 el ente/EXPRESION.prs`: la fila solo cita lo que existe.** Es la prueba viva de que la resonancia del alma es implícita: un proceso puede consumir lo que otro produjo sin que ninguno pregunte qué hay detrás.
 
 ## Por qué existe
 

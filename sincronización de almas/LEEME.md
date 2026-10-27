@@ -10,7 +10,7 @@
 
 | | Qué es | Qué se hace con ella |
 |---|---|---|
-| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **el ente, y opcionalmente su colmena** | **se copia y se pega donde vayas a trabajar** |
+| **[`proyecto en blanco/`](./1%20el%20ente/)** | **el ente, y opcionalmente su colmena** | **se copia y se pega donde vayas a trabajar** |
 | **[`guantelete/`](./guantelete/)** | **lo que el ente lleva puesto: uno solo, para todos** | **se lee, y se copia si tu mundo lo necesita aparte** |
 | **[`el estandar/`](./el%20estandar/)** | **cómo se escribe, y cómo se habla con otro** | **se consulta. No se copia** |
 
@@ -36,9 +36,9 @@
 
 **Cuatro pasos, y el primero es copiar.**
 
-### 1. Copia `proyecto en blanco/`
+### 1. Copia `1 el ente/`
 
-**Esa carpeta ES tu proyecto.** **Se copia entera, se pega donde vayas a trabajar, y se le pone nombre.**
+**Esa carpeta ES tu ente.** **Se copia entera, se pega donde vayas a trabajar, y se le pone nombre.**
 
 **No hay nada que instalar.**
 
