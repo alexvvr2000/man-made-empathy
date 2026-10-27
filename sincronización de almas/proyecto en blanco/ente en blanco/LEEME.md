@@ -13,6 +13,9 @@
 | **`el alma.md`** | **la carta: Rastro, Ruta y Carga. Y es lo que se pega en un `AGENTS.md`** | **con los tres corchetes por llenar** |
 | **`RUTA.md`** | **el piso: qué puede tu mundo, y con qué se prueba** | **por declarar** |
 | **`el pase.tra`** | **dónde quedó el último turno** | **vacío** |
+| **`DECIR.prs`** | **de lo que pides a una tarea. Y si no se puede cortar, lo dice** | **listo para usar** |
+| **`MEDIR.prs`** | **probar lo que tu mundo dice que puede** | **listo para usar** |
+| **`PASE.prs`** | **cerrar el turno sin dejarlo a ciegas** | **listo para usar** |
 | **`bin/`** | **lo que tu mundo ya sabe hacer** | **vacío: tu mundo lo llena** |
 | **`tareas/`** | **la piel: una carpeta por tarea, y se rehace** | **vacía** |
 | **`integridad/`** | **si el 1 sigue siendo el 1** | **vacía, y con lo que se pregunta** |

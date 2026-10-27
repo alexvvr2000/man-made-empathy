@@ -39,6 +39,9 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
+| **decir lo que se quiere** | `DECIR.prs` — de un deseo a una tarea, o `[ES UN DESEO]` | [`./DECIR.prs`](./DECIR.prs) |
+| **medir el mundo** | `MEDIR.prs` — de lo declarado a lo probado | [`./MEDIR.prs`](./MEDIR.prs) |
+| **cerrar el turno** | `PASE.prs` — dónde quedó, y qué sigue | [`./PASE.prs`](./PASE.prs) |
 | **el piso de este mundo** | `RUTA.md` — qué puede, y con qué se prueba | [`./RUTA.md`](./RUTA.md) |
 | **lo que este mundo ya sabe hacer** | `bin/` — vacío al nacer: tu mundo lo llena | [`./bin/`](./bin/) |
 | **la piel que crece** | `tareas/` — vacía al nacer, y se rehace | [`./tareas/`](./tareas/) |

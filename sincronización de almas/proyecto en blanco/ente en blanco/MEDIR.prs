@@ -1,0 +1,67 @@
+# MEDIR.prs — del piso declarado al piso probado
+
+**Nombre.** MEDIR — **M**irar, **E**xigir, **D**eclarar, **I**ntentar, **R**egistrar.
+**Origen.** De la regla del piso que nadie estaba cumpliendo: **una capacidad declarada sin prueba no es capacidad, es una promesa.**
+
+**Unidad:** proceso.
+**Aplica a:** medir el mundo.
+**Tipo:** se ejecuta.
+**Lector:** quien llega a un mundo nuevo, y el ente antes de tocar nada.
+**Dueño:** la autoridad.
+**Estado:** vigente.
+
+**Sesgo:** un mundo se lee desde lo que no puede, no desde lo que declara.
+**Límite:** **no cambia el mundo.** **Dice qué tiene, y qué no.**
+**Firma:** humano:autoridad · máquina:quien lo mida.
+
+**Variables:** capacidad · prueba · resultado · hueco
+**Peor:** el piso dice `puede` sobre una capacidad que nunca se corrió, **y el ente descubre que no puede en medio de la tarea, cuando ya tocó algo.**
+**Quién:** quien corra una tarea en un mundo que nadie midió.
+
+## La falta que cubre, y su término
+
+**Falta:** **`RUTA.md` dice qué puede un mundo, y nadie lo probaba. Se creía.**
+**Termina:** **cada capacidad declarada tiene su prueba corrida, con su resultado a la vista.**
+**Cierra en:** el `.tra` del piso.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** el `RUTA.md` de un mundo, con lo que declara. **Modo: escribe — deja el resultado en el mismo sitio.**
+- **Falla si:** se declara una capacidad sin haberla corrido; una prueba no dice qué salió; se marca `puede` una que falló; se mide una capacidad que el mundo no declaró.
+- **Sale:** cada capacidad con `[LISTO]`, `[A MEDIAS]` o `[MIENTE]`, y lo que sigue siendo verdad si cambia el mundo.
+- **Consume:** el ente, antes de correr, y quien vaya a confiar en ese mundo.
+
+## Las seis, y cómo se prueban
+
+```plaintext
+leer           leer el propio RUTA.md, y que coincida
+escribir       escribir algo, y volver a leerlo
+ejecutar       correr un paso que diga qué salió
+medir          medir la prueba de arriba, y dar un número
+fuera          traer algo que no estaba: puede faltar
+entre_turnos   que algo siga: puede faltar
+```
+
+**Y las dos últimas pueden faltar.** **Pero no pueden faltar en silencio: se mueven a `no_puede`, y se dice por qué.**
+
+## Las tres respuestas, y qué significan
+
+| | Qué es | Qué se hace |
+|---|---|---|
+| **`[LISTO]`** | **la capacidad se probó, y salió** | **se usa** |
+| **`[A MEDIAS]`** | **salió, pero con un costo o una condición** | **se usa, y la condición se declara** |
+| **`[MIENTE]`** | **el mundo la declaró y la prueba falló** | **se mueve a `no_puede`, y no se corre la tarea que la necesita** |
+
+**Y `[MIENTE]` es el que importa.** **Un mundo que dice poder y no puede es peor que uno que dice que no: el primero destruye cosas en el camino.**
+
+## Prueba
+
+**¿Cada capacidad declarada se corrió? ¿Cada resultado dice qué salió, o solo dice que sí? ¿Lo que faltó se declaró? ¿Alguna quedó en `[MIENTE]` y se siguió igual?**
+
+**Falsificador:** una capacidad declarada sin prueba; una prueba sin resultado; un `[MIENTE]` que se dejó en `puede`; una capacidad declarada que el mundo nunca declaró.
+
+## Transiciones
+
+- Todo `[LISTO]` → **se corre la tarea.**
+- Algo `[A MEDIAS]` → **se corre, y la condición viaja con el resultado.**
+- Algo `[MIENTE]` → **`[FALTA EN EL PISO]`, y no se corre.**
