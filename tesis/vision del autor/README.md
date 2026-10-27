@@ -4,7 +4,7 @@
 
 | | Qué es |
 |---|---|
-| **[`teoria completa/`](./teoria%20completa/)** | **`LA TEORIA.md` — el documento, que se lee de arriba abajo** |
+| **[`teoria completa/`](./teoria%20completa/)** | **el índice, y las secciones numeradas. Se leen en orden, o cada una sola** |
 | **[`historicas/`](./historicas/)** | **las eras que me trajeron aquí, en un índice por fecha. Se piden, no se cargan** |
 
 ## Las nueve piezas
