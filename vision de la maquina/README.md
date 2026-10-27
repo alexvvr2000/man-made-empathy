@@ -1,3 +1,11 @@
+# VISION DE LA MAQUINA
+
+**No hay archivos aquí, y es el experimento.**
+
+**Lo que la maquina ve no se guarda en una carpeta: se sostiene con los candados.** **Esta carpeta es su nombre, y nada más.**
+
+**Y si aparece algo, no se versiona.** **El repo se lo pasa por alto a propósito: lo que cuenta no es lo que se archivó, sino lo que se puede contestar.**
+
 # Visión de la máquina
 
 **Una visión, no una alineación.** **Visión es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo.** **La alineación se explica; la visión se muestra.**

@@ -4,3 +4,9 @@
 __pycache__/
 *.pyc
 
+
+# las dos visiones son el experimento: las sostienen los candados, no un archivo
+vision de la maquina/*
+!vision de la maquina/README.md
+vision del lector/*
+!vision del lector/README.md

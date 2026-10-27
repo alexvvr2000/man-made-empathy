@@ -1,32 +1,35 @@
 # VISION DEL AUTOR
 
-**Aquí van mis entregables, y son de dos clases.**
+**Dos tesis, y nada más.**
 
-## Lo teórico: las nueve tesis
+| | Qué es | Estado |
+|---|---|---|
+| **`tesis teorica/`** | **nueve carpetas, cada una con su `.tex` y su `.pdf`** | **terminadas y compiladas** |
+| **`tesis practica/`** | **`EL SESGO DECLARADO.md`, el registro de 26 días** | **abierta: la etiqueta está montada, el adhesivo no** |
 
-**Ya están escritas, y se pueden entregar.**
+**Y las dos están hechas de candados.** **Cada tesis es lo que 93 reglas sostienen, y cada regla dice qué la tumba.**
 
-| Qué | Dónde |
-|---|---|
-| **el candado cero** | [`./tesis/man made empathy/`](./tesis/man%20made%20empathy/) |
-| **las ocho sembradas** | **una carpeta cada una, dentro de esa misma** |
-| **lo que las sostiene** | [`../candados/`](../candados/) — 93 reglas, cada una con su prueba y lo que la tumba |
-
-**Y las tesis infinitas salen de aquí:** **cada candado que se cierra da la siguiente, y se convierte en una tesis.** **No antes: una tesis que no se disparó no se escribe.**
-
-## Lo práctico
-
-**`EL SESGO DECLARADO.md`** — **el registro de 26 días, que todavía no está terminado.** **Está aquí porque es mío y va a salir de aquí.**
-
-## La forma de una entrega
+## La forma
 
 ```
 vision del autor/
-└── <el nombre del entregable>/
-    ├── <el nombre>.tex
-    └── <el nombre>.pdf
+├── tesis teorica/
+│   ├── convivir/            convivir.tex + convivir.pdf
+│   ├── la colmena/          la-colmena.tex + la-colmena.pdf
+│   └── ... nueve en total
+└── tesis practica/
+    └── EL SESGO DECLARADO.md
 ```
 
-**Una carpeta por entrega, y adentro los dos archivos.** **Nada más.**
+**Cada carpeta de `tesis teorica/` tiene sus dos archivos y nada más.** **El `.tex` para quien lo quiera tocar, y el `.pdf` para quien lo quiera leer.**
 
-**Y se hace cuando se pida, con su destino conocido, y cuando el texto esté terminado.** **Lo que no está terminado no se entrega: es un borrador con nombre de final.**
+## Cómo se rehace
+
+```powershell
+python mantis/bin/teoricas.py            las nueve
+python mantis/bin/teoricas.py convivir   una
+```
+
+**El script lee los ocho campos de cada tesis, los vuelve las ocho secciones de un paper, y compila.** **Nada se escribe nuevo: se mueve lo que ya está escrito al formato de la academia.**
+
+**Y por eso el formato no es el trabajo.** **El trabajo es la tesis. El formato lo hace un comando.**
