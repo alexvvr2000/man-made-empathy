@@ -48,7 +48,7 @@ el alma de alguien/
 
 ### El alma crece por muda, no por copia
 
-**Un alma no se llena de carpetas: muda de piel.** **Rige `.././sincronización de almas/1 el ente/MUDAR.md`.**
+**Un alma no se llena de carpetas: muda de piel.** **Rige `.././sincronización de almas/ente/criterio/MUDAR.md`.**
 
 **Y la línea que no se cruza:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **Si el criterio cambia, no es la misma alma, y no hereda el nombre.**
 
@@ -64,7 +64,7 @@ el alma de alguien/
 
 ### El alma se lee por lo que hizo
 
-**Si su carta dice una cosa y sus `.tra` dicen otra, gana el `.tra`.** **Lo que un alma sostiene no se lee en lo que dice de sí misma: se lee en lo que ejecutó.** **Rige `./INTEGRIDAD.md`, `Acciones sobre palabras`, y `.././sincronización de almas/1 el ente/EXPRESION.prs`, `Leer un alma`.**
+**Si su carta dice una cosa y sus `.tra` dicen otra, gana el `.tra`.** **Lo que un alma sostiene no se lee en lo que dice de sí misma: se lee en lo que ejecutó.** **Rige `./INTEGRIDAD.md`, `Acciones sobre palabras`, y `.././sincronización de almas/ente/EXPRESION.prs`, `Leer un alma`.**
 
 ### El piso del mundo vive en la raíz del alma
 

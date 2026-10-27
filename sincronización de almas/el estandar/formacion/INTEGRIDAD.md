@@ -164,6 +164,6 @@ Veredicto: [pasa|falla|indeterminado]
 - El hallazgo se puede nombrar en una línea → **se agrega: se escribe, y se cierra.**
 - El hallazgo no se puede nombrar → **no falta una pieza: falta un nivel; se rehace.**
 - El veredicto contradice la carta → **gana el `.tra`, y la carta se declara desfasada.**
-- Lo que apareció es una piel nueva → **`.././sincronización de almas/1 el ente/MUDAR.md`.**
+- Lo que apareció es una piel nueva → **`.././sincronización de almas/ente/criterio/MUDAR.md`.**
 - Lo que apareció cambia el criterio → **no se acuña: nace otro ente, y lo decide la autoridad.**
 - En cualquier otro caso → **se entrega la pieza reescrita, y se cierra.**

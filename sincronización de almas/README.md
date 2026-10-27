@@ -6,27 +6,25 @@
 
 # SINCRONIZACIÓN DE ALMAS
 
-**Tres carpetas, y se usan distinto:**
+**Cinco carpetas, y se usan distinto:**
 
 | | Qué es |
 |---|---|
-| **[`1 el ente/`](./1%20el%20ente/)** | **lo que se copia: el ente** |
-| **[`2 la colmena/`](./2%20la%20colmena/)** | **lo que se copia si va a hacer otros: el 1** |
-| **[`guantelete/`](./guantelete/)** | **lo que el ente lleva puesto: uno solo, para todos** |
-| **[`el estandar/`](./el%20estandar/)** | **lo que se consulta: formación, fricción, relación y salida** |
-
-**El estándar no se copia: si cada proyecto tuviera su copia, cada uno tendría su propia versión de la regla.**
+| **[`ente/`](./ente/)** | **lo que se copia: memoria y criterio** |
+| **[`colmena/`](./colmena/)** | **lo que se copia si va a hacer otros: el 1** |
+| **[`cuerpo/`](./cuerpo/)** | **donde corre: el alma, la resonancia, y las tareas** |
+| **[`guantelete/`](./guantelete/)** | **lo que permite tocar: uno, para todos** |
+| **[`el estandar/`](./el%20estandar/)** | **lo que se consulta: formación, fricción, relación, salida** |
 
 ## Lo que hay dentro
 
 | | Qué enseña |
 |---|---|
-| **`1 el ente/`** | **el ente: la carta, el piso, la memoria, la muda, y sus actos** |
-| **`2 la colmena/`** | **el 1, el registro de talentos, nacer por falta, y la resonancia** |
-| **`guantelete/`** | **el permiso, y las siete herramientas** |
-| **`formacion/`** | **cómo se escribe** |
-| **`friccion/`** | **qué impide cagarla** |
-| **`relacion/`** | **resonancia, colmena, talento, equilibrio** |
-| **`salida/`** | **qué se le deja al otro** |
-
-**Y el piso no está en el estándar: vive dentro de cada ente, porque el piso es de cada mundo.**
+| **`ente/memoria/`** | **lo que recuerda, en un folder mutable** |
+| **`ente/criterio/`** | **lo que decide, en un folder mutable: lo humano, la muda, la integridad** |
+| **`colmena/interioridad/`** | **el 1: el acuerdo, el registro de talentos, las tres respuestas** |
+| **`colmena/nacer.prs`** | **de una falta sale un ente, y no de una copia** |
+| **`cuerpo/alma/`** | **el socket: entra un `ente/` o una `colmena/`** |
+| **`cuerpo/resonancia/`** | **va pegado al cuerpo: las almas son las mismas en todos lados** |
+| **`cuerpo/tareas/`** | **una carpeta por tarea, y sus procesos por pasos** |
+| **`cuerpo/RUTA.md`** | **el piso: qué puede este cuerpo, y cómo se prueba** |

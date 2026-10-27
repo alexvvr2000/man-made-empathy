@@ -1,0 +1,53 @@
+# <el nombre de la tarea>.tra — la tarea, por pasos
+
+**Una tarea es una carpeta con sus pasos en orden.** **Y cada paso dice qué pasa si falla.**
+
+## La tarea
+
+```plaintext
+Nombre:      [el nombre, en palabras, sin número]
+Entra:       [qué necesita para empezar]
+Falla si:    [qué la deja mal — y si no se puede llenar, no es una tarea]
+Sale:        [qué entrega]
+Consume:     [quién lo usa]
+Pasos:       [cuántos, y en qué orden]
+```
+
+## Cada paso
+
+```plaintext
+Paso [N]:    [qué hace]
+Entra:       [qué necesita, que ya exista]
+Falla si:    [qué lo deja mal]
+Sale:        [qué deja hecho]
+Si falla:    [se detiene | se revierte | sigue, y se marca]
+```
+
+**Y `Si falla` no se decide después: se decide al escribir el paso.**
+
+| | Qué deja |
+|---|---|
+| **se detiene** | **el rastro dice en qué paso se quedó, y lo anterior queda hecho** |
+| **se revierte** | **vuelve a como estaba antes del paso, y se dice qué se deshizo** |
+| **sigue** | **el paso se marca fallido, y los siguientes corren con eso a la vista** |
+
+## Y el rastro, por pasos
+
+```plaintext
+Paso 1:  pasó
+Paso 2:  falló — se detuvo aquí
+Paso 3:  no corrió
+```
+
+---
+
+# Y al cerrar el turno, el pase
+
+```plaintext
+Turno:            [el número o la fecha]
+Qué pasó:         [en tres renglones]
+Queda abierto:    [lo que no se terminó, con su nombre]
+Lo que sigue:     [la primera cosa que hay que hacer]
+No se contradice: [lo decidido, y por qué — o `nada`]
+Antes de tocar:   [lo que el siguiente tiene que saber — o `nada`]
+```

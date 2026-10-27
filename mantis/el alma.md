@@ -2,7 +2,7 @@
 
 **Nombre.** MANTIS. **Y la expansión dice el acto:** **M**emoria, **A**nálisis, **N**avegación, **T**riangulación, **I**ntegridad, **S**istema.
 
-**Origen.** **De `./sincronización de almas/1 el ente/`: se copió.** **No se diseñó aparte.** **Y nace con lo que faltaba: el estándar adentro, para que se entere cuando el estándar cambie.**
+**Origen.** **De `./sincronización de almas/ente/`: se copió.** **No se diseñó aparte.** **Y nace con lo que faltaba: el estándar adentro, para que se entere cuando el estándar cambie.**
 
 **Y la regla que hace portables las tareas: la tarea declara el corte, y el mundo pone con qué.** **`tareas/` no lleva código: lleva el corte y su `.tra`.** **`bin/` es donde este mundo cumple ese corte, y si no puede, lo declara `[FALTA EN bin/]`.**
 
@@ -41,8 +41,8 @@
 | **la piel que crece** | `tareas/` — se rehace cuando entra o sale una | [`./tareas/`](./tareas/) |
 | **el criterio a pulso** | `integridad/` — si el 1 sigue siendo el 1 | [`./integridad/`](./integridad/) |
 | **lo que la mantiene al día** | `el estándar/` — lee el estándar y declara el desfase | [`./tareas/el estándar/`](./tareas/el estándar/) |
-| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`./sincronización de almas/1 el ente/MUDAR.md`](../sincronización de almas/1 el ente/MUDAR.md) |
-| **el estándar que cumple** | `faro 1.0` | [`../sincronización de almas/1 el ente/`](../sincronización de almas/1 el ente/) |
+| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`./sincronización de almas/ente/criterio/MUDAR.md`](../sincronización de almas/ente/criterio/MUDAR.md) |
+| **el estándar que cumple** | `faro 1.0` | [`../sincronización de almas/ente/`](../sincronización de almas/ente/) |
 
 **Qué no se toca:** **el estándar, la tesis y el nombre.** **Se citan, y se espera a su autor.**
 

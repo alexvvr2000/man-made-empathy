@@ -26,7 +26,7 @@
 | **Las tesis del autor** | **nueve, cada una con su `.tex` y su `.pdf`; la fuente del cero, y la práctica abierta** | **`./tesis/vision del autor/`** |
 | **Donde el lector crea** | **el disparo, y la triangulación. Vacía hasta que un disparo la llene** | **`./tesis/vision del lector/`** |
 | **Para hacer un ente** | **el proyecto en blanco que se copia, y el estándar que se consulta** | **`./sincronización de almas/`** |
-| **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronización de almas/1 el ente/LO HUMANO.md`** |
+| **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronización de almas/ente/criterio/LO HUMANO.md`** |
 | **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.md`** (puerta: `./AGENTS.md`, este archivo) |
 | **Lo que corre** | **la única entrada** | **`./mantis/bin/ejecutar.py`** |
 | **La piel que crece** | **`tareas/` — se rehace cuando entra o sale una** | **`./mantis/tareas/`** |
@@ -71,7 +71,7 @@
 | **guardar fricción quitada** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/FIRMAR.prs` | **no se quita sin firma** |
 | **usar llaves y candados** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
 | **tocar algo que otro sostiene** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/GUANTELETE.prs`, y `./sincronización de almas/guantelete/GUANTELETE.md` | **no se toca** |
-| **copiar un alma nueva** | `./sincronización de almas/1 el ente/` | **no hay alma** |
+| **copiar un alma nueva** | `./sincronización de almas/ente/` | **no hay alma** |
 | **comunicar con otro que no es como uno** | `./sincronización de almas/el sincronización de almas/2 el idioma/salida/ALAS.md` | **no se comunica: se trunca** |
 | **CONVIVIR sin volverse el otro** | `./sincronización de almas/el sincronización de almas/2 el idioma/salida/CONVIVIR.md` | **no hay convivencia: hay copia** |
 | **medir talento** | `./sincronización de almas/el sincronización de almas/2 el idioma/relacion/TALENTO.md` | **no se decide con quién trabajar** |
