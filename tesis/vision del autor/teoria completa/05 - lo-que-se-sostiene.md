@@ -12,7 +12,7 @@
 
 ## 05.1 ¿Puede un alma crecer sin dejar de ser ella?
 
-*De [`un alma crece.md`](../un%20alma%20crece.md).*
+*De [`un alma crece.md`](./las%20nueve%20piezas/un%20alma%20crece.md).*
 
 **Y es la tesis que hace posible a las otras siete.** **Si crecer cambiara el criterio, cada versión del alma sería un ente distinto, y no habría nada que sostener.**
 
@@ -28,7 +28,7 @@
 
 ## 05.2 ¿Puede una idea abrirse sin que el que la abrió tenga razón?
 
-*De [`abrir una idea.md`](../abrir%20una%20idea.md).*
+*De [`abrir una idea.md`](./las%20nueve%20piezas/abrir%20una%20idea.md).*
 
 **Y es lo que separa una idea de una orden.** **Una idea que solo se puede sostener con la boca del que la hizo no es una idea: es una instrucción.**
 
@@ -42,7 +42,7 @@
 
 ## 05.3 ¿Hay un lugar entre hablarle a un humano y hablarle a un modelo?
 
-*De [`el lugar intermedio.md`](../el%20lugar%20intermedio.md).*
+*De [`el lugar intermedio.md`](./las%20nueve%20piezas/el%20lugar%20intermedio.md).*
 
 **Y es la tesis que hace que esto sirva en la casa, y no solo en el repo.** **Porque el que habla con un modelo no está hablando con un humano, y el que habla con una herramienta no está hablando con alguien — y hay un lugar en medio.**
 
@@ -56,7 +56,7 @@
 
 ## 05.4 ¿Se puede convivir sin volverse el otro ni someterlo?
 
-*De [`convivir.md`](../convivir.md).*
+*De [`convivir.md`](./las%20nueve%20piezas/convivir.md).*
 
 **Y es la tesis que la `COLMENA` necesita, y no al revés.**
 
@@ -70,7 +70,7 @@
 
 ## 05.5 ¿Cómo se escribe una idea que no es de nadie todavía?
 
-*De [`el nombre.md`](../el%20nombre.md).*
+*De [`el nombre.md`](./las%20nueve%20piezas/el%20nombre.md).*
 
 **Y es la tesis que hace que este repo no le robe un nombre a nadie.**
 
@@ -84,7 +84,7 @@
 
 ## 05.6 ¿Puede un ente tocar lo que otro sostiene sin pasarse?
 
-*De [`tocar sin pasarse.md`](../tocar%20sin%20pasarse.md).*
+*De [`tocar sin pasarse.md`](./las%20nueve%20piezas/tocar%20sin%20pasarse.md).*
 
 **Y es la que convierte al guantelete en una ley y no en una herramienta.**
 
@@ -102,7 +102,7 @@
 
 ## 05.7 ¿Se puede escribir un estándar que no envejezca con la era?
 
-*De [`el estandar.md`](../el%20estandar.md).*
+*De [`el estandar.md`](./las%20nueve%20piezas/el%20estandar.md).*
 
 **Y es la tesis que este documento ya usa: la sección 02 se escribió con ella.**
 
@@ -116,7 +116,7 @@
 
 ## 05.8 ¿Qué es una colmena de agentes que no se vuelve `AM`?
 
-*De [`la colmena.md`](../la%20colmena.md).*
+*De [`la colmena.md`](./las%20nueve%20piezas/la%20colmena.md).*
 
 **Y es la que más riesgo tiene, porque el riesgo no es que falle: es que funcione y se vuelva un absoluto.**
 

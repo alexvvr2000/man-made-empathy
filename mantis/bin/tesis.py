@@ -27,7 +27,7 @@ def main():
         estado = "declarada" if os.path.isfile(ruta) else "AUSENTE"
         print("  {:<14} {}  exige: {}".format(f, estado, exige))
 
-    tesis = os.path.join(REPO, "tesis", "vision del autor")
+    tesis = os.path.join(REPO, "tesis", "vision del autor", "teoria completa", "las nueve piezas")
     if not os.path.isdir(tesis):
         print("")
         print("[SIN TESIS] no esta " + tesis)
