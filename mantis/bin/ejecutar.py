@@ -265,7 +265,19 @@ def main(argv):
         return 0
 
     # --sin-tra es un interruptor, y el nombre de la tarea es otra cosa
-    resto = [a for a in argv[1:] if not a.startswith("--")]
+    CON_VALOR = ("--desde", "--sacar")
+    limpio = []
+    salta = False
+    for a in argv[1:]:
+        if salta:
+            salta = False
+            continue
+        if a.startswith("--"):
+            if a in CON_VALOR:
+                salta = True
+            continue
+        limpio.append(a)
+    resto = limpio
     if not resto:
         print("[FALTA EL NOMBRE] di que tarea")
         return 1
@@ -297,8 +309,37 @@ def main(argv):
         return 4
     print("[ENSAYAR] modo: {} | pasa".format(modo))
 
-    resto = [a for a in argv[1:] if not a.startswith("--")]
-    extra = resto[1:] if len(resto) > 1 else []
+    CON_VALOR = ("--desde", "--sacar")
+    limpio = []
+    salta = False
+    for a in argv[1:]:
+        if salta:
+            salta = False
+            continue
+        if a.startswith("--"):
+            if a in CON_VALOR:
+                salta = True
+            continue
+        limpio.append(a)
+    resto = limpio
+    # lo que el autor escribio despues del nombre de la tarea va al paso tal cual,
+    # incluidos los interruptores que llevan valor: el paso sabe que hacer con ellos
+    extra = []
+    i = 1
+    while i < len(argv):
+        a = argv[i]
+        if a.startswith("--"):
+            # los interruptores con valor pasan al paso, con su valor
+            if a in CON_VALOR and i + 1 < len(argv):
+                extra.extend([a, argv[i + 1]])
+                i += 2
+                continue
+            i += 1
+            continue
+        extra.append(a)
+        i += 1
+    if extra and extra[0] == resto[0]:
+        extra = extra[1:]
     salida, codigo = correr_paso(carpeta, extra)
     print("")
     print(salida)

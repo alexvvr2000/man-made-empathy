@@ -94,11 +94,24 @@ def sacar(era):
 
 def main(argv):
     eras = eras_muertas()
+
+    # lo que el ejecutor pasa como argumento llega en la lista, y aqui se lee antes que nada
+    if "--desde" in argv:
+        i = argv.index("--desde")
+        if i + 1 < len(argv):
+            f = argv[i + 1]
+            esas = [e for e in eras if e["ultimo"] and e["ultimo"] >= f]
+            print("[eras] {} eras con fecha {} o despues:".format(len(esas), f))
+            for e in esas:
+                print("  {:<34} {:>7}  {}".format(e["era"][:34], e["archivos"], e["ultimo"]))
+            return 0
+
     if not eras:
         print("[nada] el repo no tiene eras muertas que recuperar")
         return 0
 
-    print("[historicas] {} eras que ya no estan en el arbol".format(len(eras)))
+    if "--desde" not in argv:
+        print("[historicas] {} eras que ya no estan en el arbol".format(len(eras)))
     print("")
     print("  {:<34} {:>6}  {}".format("era", "arch.", "ultimo commit"))
     for e in eras:
