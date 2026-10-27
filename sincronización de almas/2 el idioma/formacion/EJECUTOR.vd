@@ -1,11 +1,11 @@
-# EJECUTOR — los cinco verbos, y la firma que no se salta
+# EJECUTOR — los seis verbos, y la firma que no se salta
 
 **Nombre.** EJECUTOR. **Y el nombre dice el acto:** **leer un corte, y cumplirlo, sin saber qué hay adentro.**
 **Reemplaza:** el archivo anterior, que decía «el estándar no nombra el ejecutor» y lo dejaba a la prosa. **Conserva lo que decía, y le pone lo que le faltaba: la forma.**
 
 **Unidad:** pieza.
 **Aplica a:** correr.
-**Tipo:** se declara y se comprueba. **No es un lenguaje: es una lista de cinco verbos, y cada uno tiene su firma.**
+**Tipo:** se declara y se comprueba. **No es un lenguaje: es una lista de seis verbos, y cada uno tiene su firma.**
 **Lector:** quien vaya a escribir un ejecutor, y quien vaya a usar uno que otro escribió.
 **Dueño:** humano:autoridad.
 **Estado:** vigente.
@@ -22,7 +22,7 @@
 
 ## La regla
 
-> **Un ejecutor no es un programa para correr tareas: es una lista de cinco verbos con su firma.** **El que se salte uno no es un ejecutor: es una mano que corre solo.**
+> **Un ejecutor no es un programa para correr tareas: es una lista de seis verbos con su firma.** **El que se salte uno no es un ejecutor: es una mano que corre solo.**
 
 **Y no nombra lenguaje.** **Se puede escribir en lo que sea, o no escribirse: una IA lo cumple leyendo esto.** **Lo que no se puede es inventarse un sexto verbo sin decirlo.**
 
