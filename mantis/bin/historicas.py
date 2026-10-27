@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""basura — saca de git lo que ya no está en el repo, y lo guarda con su razón.
+"""historicas — lista las eras que git guarda y el repo ya no, y las saca cuando se piden.
 
 No borra nada: todo esto ya no existe en el árbol de trabajo, y se
 recupera de la última versión que lo tuvo. Lo que sale es un índice con
@@ -23,7 +23,7 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.path.abspath(os.path.join(MANTIS, ".."))
-DESTINO = os.path.join(REPO, "basura")
+DESTINO = os.path.join(REPO, "tesis historicas")
 INDICE = os.path.join(DESTINO, "indice.json")
 
 # lo que no es una era: archivos sueltos de la raíz, y lo de hoy
@@ -98,14 +98,14 @@ def main(argv):
         print("[nada] el repo no tiene eras muertas que recuperar")
         return 0
 
-    print("[basura] {} eras que ya no estan en el arbol".format(len(eras)))
+    print("[historicas] {} eras que ya no estan en el arbol".format(len(eras)))
     print("")
     print("  {:<34} {:>6}  {}".format("era", "arch.", "ultimo commit"))
     for e in eras:
         print("  {:<34} {:>6}  {}".format(e["era"][:34], e["archivos"], e["ultimo"]))
     total = sum(e["archivos"] for e in eras)
     print("")
-    print("[basura] {} archivos en total, y ninguno de ellos pesa en el repo de hoy".format(total))
+    print("[historicas] {} archivos en total, y ninguno de ellos pesa en el repo de hoy".format(total))
 
     os.makedirs(DESTINO, exist_ok=True)
     with io.open(INDICE, "w", encoding="utf-8", newline="") as fh:

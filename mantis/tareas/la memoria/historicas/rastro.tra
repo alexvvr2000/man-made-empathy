@@ -1,21 +1,21 @@
-# basura.tra — lo que pasó
+# historicas.tra — lo que pasó
 
-**Nombre:** basura
-**Expande:** basura.tra
-**Se nombró:** 2026-10-27T00:19:11+00:00
+**Nombre:** historicas
+**Expande:** historicas.tra
+**Se nombró:** 2026-10-27T14:16:52+00:00
 **Reemplaza:** NINGUNO
 **Miente si:** se dice que corrió y no hay recibo
 
 ## Qué pasó
 
 **Qué pasó:** el historial completo de git —cada ruta que existió en cualquier rama—. **Es solo-lectura: no restaura nada sin `--sacar`.**
-**Contra:** [basura] 40 eras que ya no estan en el arbol
+**Contra:** [historicas] 42 eras que ya no estan en el arbol
 
   era                                 arch.  ultimo commit
+  Tesis                                 272  444e4ce 2026-10-27
+  sincronización de almas               165  444e4ce 2026-10-27
   2 Ouroboros                           158  85cb6f2 2026-10-22
   Ouroboros                             144  bab6d8d 2026-10-24
-  (Place holder)                         97  d45f5e1 2026-10-24
-  sincronizacion de almas                80  5a1cbc7 2026-10-26
-  (Placeholder)                        
+  (Place holder)                   
 **Huella:** esta .tra
 **Distancia:** codigo 0

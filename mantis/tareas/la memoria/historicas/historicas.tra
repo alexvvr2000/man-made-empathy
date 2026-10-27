@@ -1,11 +1,11 @@
-# basura.tra — la tarea: listar lo que git tiene y el repo ya no
+# historicas.tra — la tarea: listar lo que git tiene y el repo ya no
 
-**Cómo se usa:** **vive en `tareas/la memoria/basura/`, y se corre con `python bin/ejecutar.py basura`.**
+**Cómo se usa:** **vive en `tareas/la memoria/historicas/`, y se corre con `python bin/ejecutar.py historicas`.**
 **No restaura nada por su cuenta: lista, y espera la orden.**
 
 ---
 
-**Nombre:** basura
+**Nombre:** historicas
 **Expande:** el historial de git se contó, y lo que ya no está quedó en un índice
 **Se nombró:** 2026-10-26
 **Reemplaza:** NINGUNO
@@ -15,7 +15,7 @@
 
 - **Entra:** el historial completo de git —cada ruta que existió en cualquier rama—. **Es solo-lectura: no restaura nada sin `--sacar`.**
 - **Falla si:** git no contesta; una era se cuenta dos veces; se restaura algo sin que el autor lo pida; el índice no dice de qué commit salió cada era.
-- **Sale:** `Tesis/basura/indice.json` con las eras muertas, sus archivos y el último commit de cada una.
+- **Sale:** `tesis historicas/indice.json` con las eras muertas, sus archivos y el último commit de cada una.
 - **Consume:** quien busque algo que se borró, y quien decida qué se recupera.
 
 ## Qué cuenta, y por qué así
@@ -34,6 +34,6 @@
 
 ## Transiciones
 
-- El autor pide una era → **`--sacar <era>`, y vuelve a `Tesis/basura/<era>/`.**
+- El autor pide una era → **`--sacar <era>`, y vuelve a `tesis historicas/<era>/`.**
 - El autor pide todas → **`--sacar todas`, y se dice cuánto pesa.**
 - No pide nada → **solo se lista, y el repo queda igual.**
