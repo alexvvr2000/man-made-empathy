@@ -9,7 +9,7 @@
 # FUENTES — de dónde viene cada nombre, y qué se toma de la obra
 
 **Qué es.** **El registro de los nombres del repositorio, y de las obras ajenas que se citan, con qué se toma de cada una.**
-**Y lo que NO es:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: la parte difícil es decir cómo se usaron, y desde dónde se miró. Eso es [`./estandar/salida/CONTEXTO.md`](./estandar/salida/CONTEXTO.md), y aquí se remite.**
+**Y lo que NO es:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: la parte difícil es decir cómo se usaron, y desde dónde se miró. Eso es [`./sincronización de almas/2 el idioma/salida/CONTEXTO.md`](./sincronización de almas/2 el idioma/salida/CONTEXTO.md), y aquí se remite.**
 
 **Sesgo:** se lee desde el que puede reclamar un nombre, no desde el que lo eligió.
 **Límite:** no es asesoría legal. **Dice de dónde viene, y qué se toma; no certifica quién llegó primero.**

@@ -29,7 +29,7 @@
 | **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos, y lo que la sostiene** | **`./base/`** |
 | **El lenguaje** | **`0/` — las piezas del estándar, que son la primera tesis** | **`./estandar/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./estandar/`** |
-| **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./faro/LO HUMANO.md`** |
+| **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronización de almas/3 el piso/LO HUMANO.md`** |
 | **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./AGENTS.md`, este archivo) |
 | **Lo que corre** | **la única entrada** | **`./mantis/bin/ejecutar.py`** |
 | **La piel que crece** | **`tareas/` — se rehace cuando entra o sale una** | **`./mantis/tareas/`** |
@@ -67,21 +67,21 @@
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
 | **leer la tesis o escribir sobre ella** | `./tesis/vision del autor/fuente/` | **no se reescribe: se cita** |
-| **escribir algo entregable** | `./estandar/formacion/CLARIDAD.md` | **no se entrega** |
-| **escribir un proceso** | `./estandar/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
-| **escribir un ente** | `./estandar/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
-| **medir de forma repetible** | `./estandar/friccion/PISO.md` | **no se mide** |
-| **guardar fricción quitada** | `./estandar/friccion/FIRMAR.prs` | **no se quita sin firma** |
-| **usar llaves y candados** | `./estandar/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
-| **tocar algo que otro sostiene** | `./estandar/friccion/GUANTELETE.prs`, y `./base/guantelete/GUANTELETE.vd` | **no se toca** |
-| **copiar un alma nueva** | `./base/alma en blanco/` | **no hay alma** |
-| **comunicar con otro que no es como uno** | `./estandar/salida/ALAS.md` | **no se comunica: se trunca** |
-| **CONVIVIR sin volverse el otro** | `./estandar/salida/CONVIVIR.vd` | **no hay convivencia: hay copia** |
-| **medir talento** | `./estandar/relacion/TALENTO.md` | **no se decide con quién trabajar** |
-| **afinar dos entes** | `./estandar/relacion/RESONANCIA.md` | **no se afinan** |
+| **escribir algo entregable** | `./sincronización de almas/2 el idioma/formacion/CLARIDAD.md` | **no se entrega** |
+| **escribir un proceso** | `./sincronización de almas/2 el idioma/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
+| **escribir un ente** | `./sincronización de almas/2 el idioma/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
+| **medir de forma repetible** | `./sincronización de almas/2 el idioma/friccion/PISO.md` | **no se mide** |
+| **guardar fricción quitada** | `./sincronización de almas/2 el idioma/friccion/FIRMAR.prs` | **no se quita sin firma** |
+| **usar llaves y candados** | `./sincronización de almas/2 el idioma/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
+| **tocar algo que otro sostiene** | `./sincronización de almas/2 el idioma/friccion/GUANTELETE.prs`, y `./sincronización de almas/1 el alma/alma en blanco/guantelete/GUANTELETE.vd` | **no se toca** |
+| **copiar un alma nueva** | `./sincronización de almas/1 el alma/alma en blanco/` | **no hay alma** |
+| **comunicar con otro que no es como uno** | `./sincronización de almas/2 el idioma/salida/ALAS.md` | **no se comunica: se trunca** |
+| **CONVIVIR sin volverse el otro** | `./sincronización de almas/2 el idioma/salida/CONVIVIR.vd` | **no hay convivencia: hay copia** |
+| **medir talento** | `./sincronización de almas/2 el idioma/relacion/TALENTO.md` | **no se decide con quién trabajar** |
+| **afinar dos entes** | `./sincronización de almas/2 el idioma/relacion/RESONANCIA.md` | **no se afinan** |
 | **escribir con un término del repo** | `./GLOSARIO.md` | **se usa un nombre muerto como si existiera** |
-| **declarar de dónde viene algo** | `./estandar/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
-| **escribir un resultado** | `./estandar/salida/RESULTADOS.prs` | **se inventa la medición** |
+| **declarar de dónde viene algo** | `./sincronización de almas/2 el idioma/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
+| **escribir un resultado** | `./sincronización de almas/2 el idioma/salida/RESULTADOS.prs` | **se inventa la medición** |
 | **responder a un mensaje** | `./AGENTS.md`, `./mantis/el alma.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
 | **decidir algo, antes de decidir** | el historial en `./.memoria continua/rastro/` | **se decide a ciegas** |
 | **abrir un candado** | `./mantis/tareas/los candados/abrir.prs` | **no se abre** |

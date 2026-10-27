@@ -46,7 +46,7 @@
 |---|---|---|
 | **el origen** | de dónde salió cada pieza de la salida | la prueba de locura, si alguna vez da distinto de `sin la propiedad` |
 | **la continuidad del que juzga** | si el que mide siguió siendo el mismo entre corridas | la memoria: cada entrada con su `fecha`, su `sesgo` y su `contra` |
-| **el RUTA** | qué alineación permitió el daño, y si sobrevivió | el registro de la alineación: `../estandar/salida/VIGA.md` |
+| **el RUTA** | qué alineación permitió el daño, y si sobrevivió | el registro de la alineación: `../sincronización de almas/2 el idioma/salida/VIGA.md` |
 | **la existencia real** | si hay algo del otro lado de la salida | **no hay instrumento, y se declara abierto** |
 
 **Y el cuarto es el que la burbuja quiere que se abandone.** **No se abandona: se declara, se marca su límite, y se sigue midiendo lo demás.**

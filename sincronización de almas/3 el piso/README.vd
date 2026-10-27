@@ -1,0 +1,71 @@
+# faro 1.0 — la primera biblioteca del área
+
+**No es la base. Es la biblioteca que se apoya en la base.**
+
+**La base son dos primitivos, y viven en `./base/`: el alma en blanco y el guantelete.** **`FARO` no los contiene: los expone.**
+
+**Y lo que expone son lenguajes.** **Cada uno dice cómo se habla con la base: cómo se enruta, cómo se comunica, cómo se convive, cómo se mide, cómo se emite.** **Ninguno cambia la base.**
+
+**Donde las ciencias computacionales tienen C, Lisp o Prolog sobre el cálculo, esta área tiene `FARO` sobre el alma en blanco y el guantelete.** **Y como toda biblioteca, se puede decir «uso `faro 1.0`» y significar algo.**
+
+**Unidad:** biblioteca.
+**Aplica a:** entregar.
+**Tipo:** se importa. **No se reescribe para cada ente: se cita, y se declara la versión.**
+**Lector:** quien va a escribir un alma, un ente o un proceso usando lenguajes ya hechos.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** la biblioteca se lee desde quien la va a importar, no desde quien la escribió.
+**Límite:** **no dice qué es un alma.** **Eso es la base.** **Dice cómo se habla con ella.**
+**Firma:** humano:autoridad · máquina:quien la importe.
+
+**Variables:** versión · lenguaje · prueba
+**Peor:** alguien importa `faro 1.0` creyendo que es la base, **y escribe su tesis encima de un lenguaje como si fuera un primitivo: hereda un límite que el lenguaje nunca declaró.**
+**Quién:** quien construya sobre un lenguaje sin saber que lo era.
+
+---
+
+## La versión
+
+**`faro 1.0`.** **Y el número no dice «está terminado»: dice que a partir de aquí, lo que cambie de forma se declara.** **Si se corrige una palabra, sigue siendo 1.0. Si cambia la forma de algo que ya estaba, es 2.0 o es otro nombre.**
+
+**Y lo que el número NO dice:** **no hay todavía un lenguaje de `FARO` escrito por alguien que no sea el autor.** **`faro 1.0` es la versión que existe; no es la que un tercero validó.** **Esa frase va junto al número, o el número miente.**
+
+---
+
+## Lo que hay
+
+| Qué hay | Nombre | Dónde |
+|---|---|---|
+| **por dónde se empieza** | `ENTRAR` — las cinco primeras cosas | [`./ENTRAR.md`](./ENTRAR.md) |
+| **el camino completo** | `EMPEZAR` — las piezas en el único orden que funciona | [`./EMPEZAR.md`](./EMPEZAR.md) |
+| **el piso del mundo** | `RUTA` — qué hay, qué corre y qué falta; uno por mundo | [`./RUTA.md`](./RUTA.md) |
+| **los lenguajes** | `FORMATO` · `LENGUAJE` · `CLARIDAD` · `PISO` · `FIRMAR` · `GUANTELETE.prs` · `JONN` · `RESONANCIA` · `TALENTO` · `CONTEXTO` · `RESULTADOS` · `ALAS` · `VIGA` · `CONVIVIR` · `la fila verbalizada` · `LO HUMANO` · `el ejemplo` | [`./estandar/`](../2 el idioma) |
+| **la base de la que cuelga todo** | `alma en blanco` · `GUANTELETE` | [`../1 el alma/`](../1 el alma/) |
+| **la plantilla que se pega en un proyecto** | `entiendo` — el ente en blanco, con el guantelete puesto | [`../../`](../README.md) |
+
+**Y una fila que se fue:** **el jugo ya no tiene carpeta ni camino.** **Lo que ayuda a entender no se guarda aparte: si se sostiene de pie, es un candado; y si no se sostiene, no es el camino de nada.**
+
+---
+
+## Qué no se toca
+
+- **La base.** **Se cita desde `./base/`, no se copia.**
+- **Los lenguajes que ya están escritos.** Se usan; lo que los cambia se espera a su autor.
+- **Lo que este repo escribe para sí.** `Tesis/` y `Pruebas/` se leen; su estándar es este que ves.
+
+---
+
+## Prueba
+
+**¿Se puede decir «uso `faro 1.0`» y saber qué incluye? ¿Todo lo que aquí está es un lenguaje, y ninguno dice qué es un alma? ¿La base queda fuera y se cita? ¿Cada lenguaje dice desde cuándo está?**
+
+**Falsificador:** un número puesto como título sin decir qué entrega; un lenguaje que cambia la base para caber; un `faro 1.0` que cambia de forma sin cambiar de nombre; una versión que se sube por cualquier edición; un «está validado» sin un tercero.
+
+## Transiciones
+
+- Se escribe un lenguaje nuevo → **entra en `./estandar/`, con su prueba, y la versión sigue siendo 1.0.**
+- Un lenguaje se retira → **se declara su `Vacío:`, la versión sigue, y se dice qué fin queda descubierto.**
+- Cambia la forma de algo que ya estaba → **es `faro 2.0`, o es otro nombre.**
+- Se quiere cambiar la base → **no se toca desde aquí.**
+- En cualquier otro caso → **se importa la versión, y se declara.**
