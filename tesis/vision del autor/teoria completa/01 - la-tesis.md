@@ -64,7 +64,7 @@
 
 ---
 
-*De `sincronización de almas/el estandar/2 el idioma/`. Cada cita dice de qué archivo sale.*
+*De `sincronización de almas/el estandar/`. Cada cita dice de qué archivo sale.*
 
 **Aquí está el idioma. Y la primera cosa que hay que decir es lo que el idioma NO es:**
 

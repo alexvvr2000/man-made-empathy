@@ -21,7 +21,7 @@
 |---|---|---|
 | **BASE** | **la carpeta de los dos primitivos: lo que se lee para entender, y no se copia para usar** | `sincronización de almas/1 el alma/` |
 | **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronización de almas/proyecto en blanco/ente en blanco/el alma.vd` |
-| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/proyecto en blanco/guantelete/GUANTELETE.vd` |
+| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/guantelete/GUANTELETE.vd` |
 | **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd` |
 
 **Y lo que el alma trae puesto:** **el guantelete no se consulta: lo lleva.** **Un alma sin guantelete crece y nadie la para: eso es `AM`.**
@@ -32,9 +32,9 @@
 
 | Término | Qué es | Dónde |
 |---|---|---|
-| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/el estandar/3 el piso/el alma.vd` |
+| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/proyecto en blanco/ente en blanco/el alma.vd` |
 | **EL PISO** | **qué declara un mundo, y cómo se mide: seis capacidades, ninguna con nombre de lenguaje** | `0/formacion/PISO.vd` |
-| **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/el estandar/3 el piso/RUTA.rt` |
+| **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/proyecto en blanco/ente en blanco/RUTA.rt` |
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
 | **EJECUTOR** | **los seis verbos con que se cumple un corte: `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
@@ -76,7 +76,7 @@
 | **VIDEL** | **CONVIVIR** | el mismo estándar, sin el nombre heredado |
 | **EXPANDE** | **(nada: no llegó a existir)** | se citó antes de tener cuerpo |
 | **el alma `.am`** | **el alma `.vd`** | el alma no es una extensión: es un ente |
-| **`sincronización de almas/el estandar/3 el piso/RUTA.po`** | **`RUTA.rt` y `RUTA.pr`** | `.po` era traducción; esto es el piso de un mundo |
+| **`sincronización de almas/proyecto en blanco/ente en blanco/RUTA.po`** | **`RUTA.rt` y `RUTA.pr`** | `.po` era traducción; esto es el piso de un mundo |
 | **`mantis/ejecu.py`** | **`mantis/bin/`** | lo que corre es del mundo, no del ente |
 
 **Y lo que no se puede usar como si existiera:** **ninguno de la columna izquierda, salvo en su propio `Reemplaza:`, o en este glosario.**

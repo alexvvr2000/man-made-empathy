@@ -6,21 +6,26 @@
 
 # SINCRONIZACIÓN DE ALMAS
 
-**Dos carpetas, y se usan distinto:**
+**Tres carpetas, y se usan distinto:**
 
 | | Qué es |
 |---|---|
-| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **lo que se copia: el ente, y el guantelete que lleva puesto** |
-| **[`el estandar/`](./el%20estandar/)** | **lo que se consulta: cómo se escribe, qué puede el mundo, y un ejemplo** |
+| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **lo que se copia: el ente, y su colmena si la necesita** |
+| **[`guantelete/`](./guantelete/)** | **lo que el ente lleva puesto: uno solo, para todos** |
+| **[`el estandar/`](./el%20estandar/)** | **lo que se consulta: formación, fricción, relación y salida** |
 
 **El estándar no se copia: si cada proyecto tuviera su copia, cada uno tendría su propia versión de la regla.**
 
-## Lo que hay dentro de el estandar
+## Lo que hay dentro
 
 | | Qué enseña |
 |---|---|
-| **[`2 el idioma/`](./el%20estandar/2%20el%20idioma/)** | **formación, fricción, relación y salida** |
-| **[`3 el piso/`](./el%20estandar/3%20el%20piso/)** | **qué puede el mundo, cómo se mide, y lo humano** |
-| **[`4 el ejemplo/`](./el%20estandar/4%20el%20ejemplo/)** | **un ente de punta a punta, sin código** |
+| **`proyecto en blanco/ente en blanco/`** | **el ente: la carta, el piso, la memoria, la muda, y sus actos** |
+| **`proyecto en blanco/colmena/`** | **el 1, el registro de talentos, nacer por falta, y la resonancia** |
+| **`guantelete/`** | **el permiso, y las siete herramientas** |
+| **`formacion/`** | **cómo se escribe** |
+| **`friccion/`** | **qué impide cagarla** |
+| **`relacion/`** | **resonancia, colmena, talento, equilibrio** |
+| **`salida/`** | **qué se le deja al otro** |
 
-**Y el número 1 no falta: es `proyecto en blanco/`, que subió a la raíz porque es lo que se copia.**
+**Y el piso no está en el estándar: vive dentro de cada ente, porque el piso es de cada mundo.**

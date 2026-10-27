@@ -4,7 +4,7 @@
 
 **Y lo que este archivo es, dicho antes de lo demás: un recordatorio, no un estándar.**
 
-**La llave no se estudia aquí: se hace.** **La llave es hacer fricción, y la fricción se hace donde se toca, con [`./GUANTELETE.prs`](./GUANTELETE.prs) y con [`../../../../mantis/tareas/los candados/abrir.prs`](../../../../mantis/tareas/los%20candados/abrir.prs).**
+**La llave no se estudia aquí: se hace.** **La llave es hacer fricción, y la fricción se hace donde se toca, con [`./GUANTELETE.prs`](./GUANTELETE.prs) y con [`../../../../mantis/tareas/los candados/abrir.prs`](../../../mantis/tareas/los%20candados/abrir.prs).**
 
 **Lo que queda aquí es una sola cosa: un candado se puede abrir, y se abre con la concordia en mente.** **Un candado que no se puede abrir no protege nada: encierra. Y un candado que se abre sin pensar en el que queda adentro no se abre: se rompe.**
 

@@ -5,9 +5,21 @@
 ```
 proyecto en blanco/
 ├── ente en blanco/    el ente: su carta, su piso, su memoria, y sus tareas
-└── guantelete/        lo que lleva puesto: qué puede tocar, y quién lo ve
+└── colmena/           OPCIONAL: si va a hacer otros entes, o traerlos
 ```
 
-**Copia esta carpeta entera, pégala donde vayas a trabajar, y ponle nombre.**
+**Y el guantelete no está aquí: es uno solo, y vive en [`../guantelete/`](../guantelete/).**
 
-**Y lee [`../LEEME.md`](../LEEME.md), que son los cuatro pasos.** **Esto de aquí es solo el mapa de lo que acabas de copiar.**
+## Cómo se usa en un `AGENTS.md`
+
+**Ojo: esto no se pega tal cual en un `AGENTS.md`.**
+
+**Lo que se pega es `ente en blanco/el alma.vd`, y se pega en un archivo que se llame `AGENTS.md`, en la raíz de tu proyecto.** **Ese archivo es la puerta: quien lo abra sabe qué hay, qué cargar, y qué se pierde si falta.**
+
+**Y el orden es:** **los tres corchetes del alma, después `RUTA.pr`, y al final la primera tarea.**
+
+## Cuándo copiar la colmena
+
+**Cuando tu ente vaya a hacer otros entes, o a traerlos.** **Y no antes: un ente solo no la necesita, y llenarla antes de tiempo es lo mismo que llenar `tareas/` de lo que nadie pidió.**
+
+**Su `LEEME` dice cómo se decide que nace uno:** **de una falta, no de una plantilla.**

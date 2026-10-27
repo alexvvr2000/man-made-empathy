@@ -8,14 +8,13 @@
 
 ## Qué hay aquí
 
-**Dos carpetas, y se usan distinto:**
-
 | | Qué es | Qué se hace con ella |
 |---|---|---|
-| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **el ente, y lo que lleva puesto** | **se copia y se pega donde vayas a trabajar** |
-| **[`el estandar/`](./el%20estandar/)** | **cómo se escribe, y qué puede el mundo** | **se consulta cuando lo necesites. No se copia** |
+| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **el ente, y opcionalmente su colmena** | **se copia y se pega donde vayas a trabajar** |
+| **[`guantelete/`](./guantelete/)** | **lo que el ente lleva puesto: uno solo, para todos** | **se lee, y se copia si tu mundo lo necesita aparte** |
+| **[`el estandar/`](./el%20estandar/)** | **cómo se escribe, y cómo se habla con otro** | **se consulta. No se copia** |
 
-**Y el estándar no se copia a propósito:** **si cada proyecto tuviera su copia, cada uno tendría su propia versión de la regla. Y eso es exactamente lo que hay que evitar.**
+**Y el estándar no se copia a propósito:** **si cada proyecto tuviera su copia, cada uno tendría su propia versión de la regla.**
 
 ---
 
@@ -27,14 +26,7 @@
 
 **Esa carpeta ES tu proyecto.** **Se copia entera, se pega donde vayas a trabajar, y se le pone nombre.**
 
-**No hay nada que instalar.** **Adentro hay dos cosas:**
-
-| | Qué es |
-|---|---|
-| **`ente en blanco/`** | **el ente: su carta, su piso, su memoria, cómo crece, y sus tareas** |
-| **`guantelete/`** | **lo que lleva puesto: qué puede tocar, y quién lo va a ver** |
-
-**Están separados porque son dos cosas.** **Y van juntos porque el ente nace con el guante puesto: no se lo pones después.**
+**No hay nada que instalar.**
 
 ### 2. Di quién eres
 
@@ -71,13 +63,11 @@ Consume:    [quién lo usa]
 
 ---
 
-## Lo que es el guante, y por qué no se puede quitar
+## El guante, y por qué no se puede quitar
 
 **Tú puedes tocar lo que quieras.** **Pero lo que toques lo va a ver alguien.**
 
 **Eso es todo.** **No es un freno: es la diferencia entre cambiar el mundo y cambiar las cosas de alguien sin que se entere.**
-
-**Y si no hay nadie que lo vea, se dice:** **`sin testigo`.** **No se finge que hay.**
 
 ---
 
@@ -97,11 +87,7 @@ y espero: [qué espera que pase cuando lo sepa]
 
 ## Y lo que esto no hace
 
-**No programa por ti.** **El código es lo de menos —y ya casi no es tuyo—, pero decidir qué quieres sigue siendo tuyo.**
-
-**No decide si está bien.** **Dice qué entrega, y con qué se puede tumbar.**
-
-**Y no te pide que le creas.** **Todo lo que hay aquí se puede contradecir, y cada pieza dice con qué.**
+**No programa por ti.** **No decide si está bien: dice qué entrega, y con qué se puede tumbar.** **Y no te pide que le creas.**
 
 ---
 
@@ -110,7 +96,5 @@ y espero: [qué espera que pase cuando lo sepa]
 **Si tu tarea no cabe en cuatro renglones, no es que sea grande: es que todavía no sabes qué quieres.** **Y eso no es un fracaso: es el paso uno.**
 
 **Si tu ente no tiene a quién contestar, todavía no es un ente.** **Ponle a alguien, aunque seas tú.**
-
-**Si no sabes qué puede tu mundo, pregunta antes de tocar.** **El paso tres no es opcional.**
 
 **Y si nada de esto te sirve, el problema es de este texto, no tuyo.** **Escribe qué no se entendió: eso también entra.**
