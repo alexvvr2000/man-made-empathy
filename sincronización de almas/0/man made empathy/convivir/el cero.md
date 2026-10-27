@@ -6,11 +6,11 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.** **Y porque tiene sus dos casos límite: el que ayuda tanto que borra al otro, y el que juntó sin condiciones y lo empeoró.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `0/salida/CONVIVIR.vd`.** **Y de la autoridad: el diferente de *Dragon Ball* es el estándar de los que viven en concordia.**
+**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `0/salida/CONVIVIR.vd`.** **Y de la autoridad: Videl es el estándar de los que viven en concordia — nunca fue tan poderosa como los sayayin, y como quiera encaja.**
 
 **Qué pregunta deja.** **¿Cómo se distingue la ayuda del sometimiento cuando el que ayuda tiene más capacidad?**
 
-**Ficción.** **Jake el Perro, de *Adventure Time* (Pendleton Ward; Cartoon Network, 2010), que la autoridad nombró el ejemplo máximo de concordia: no se vuelve el otro, y no lo somete.** **Y el diferente de *Dragon Ball Z* (Akira Toriyama; Shueisha; anime de Toei Animation): tan distinto a los sayayin, y aprendió a convivir con ellos.** **Y los Tachikoma, de *Ghost in the Shell: Stand Alone Complex*: discuten, se rebelan, y siguen siendo parte del grupo.**
+**Ficción.** **Jake el Perro, de *Adventure Time* (Pendleton Ward; Cartoon Network, 2010), que la autoridad nombró el ejemplo máximo de concordia: no se vuelve el otro, y no lo somete.** **Y Videl, de *Dragon Ball Z* (Akira Toriyama; Shueisha; anime de Toei Animation): nunca fue tan poderosa como los sayayin, y como quiera encaja.** **Y los Tachikoma, de *Ghost in the Shell: Stand Alone Complex*: discuten, se rebelan, y siguen siendo parte del grupo.**
 
 **Prueba.** **¿Sigue siendo distinto después de convivir? ¿El contacto tiene las cuatro condiciones? ¿Se le quitó al otro la capacidad de estar solo?**
 

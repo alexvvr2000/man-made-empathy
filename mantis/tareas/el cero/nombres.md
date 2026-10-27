@@ -56,7 +56,6 @@ EXPANDE
 Ouroboros
 Libre albedrio
 Pegamento
-VIDEL
 CERCO
 PROMETEA
 GIRO
