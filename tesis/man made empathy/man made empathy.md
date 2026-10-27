@@ -32,6 +32,40 @@ Y de ahí salió lo que se volvió todo el resto:
 
 **Y en ese momento pasé de ser el que pide, a ser el que pregunta.**
 
+## La direccion, y por qué no es un estándar
+
+**Y esto es lo que el repositorio entrega de verdad, y no es una forma de escribir.**
+
+> **El estándar es que no hay estándar. Hay una dirección.**
+> **Y la dirección cabe en cuatro palabras: mirar, pesar, tocar, y dejar rastro.**
+
+| la palabra | qué pieza la cumple |
+|---|---|
+| **mirar** | **`ENSAYAR`: el que no sabe qué va a tocar, no toca** |
+| **pesar** | **`EQUILIBRIO`: las seis gemas, y cuánto pesa cada una** |
+| **tocar** | **`GUANTELETE`: se puede, y alguien lo va a ver** |
+| **dejar rastro** | **`DEJAR`: si no quedó escrito, corrió y no pasó** |
+
+**Y por eso no es un estándar: un estándar dice cómo se escribe. Esto dice qué se tiene que poder contestar.** **Se puede seguir con LaTeX, con un papel, con un video, o con lo que la gente invente.**
+
+## El código no es de la gente, y eso se rompe aquí
+
+**Para hacer efectos especiales hay que saber Houdini. Para hacer robótica, ROS. Para hacer física, C++ y CUDA.** **Y el que no los sabe no hace nada, aunque sepa exactamente qué quiere.**
+
+**Y lo que aquí se escribe es la dirección, no el oficio.** **El cómo lo pone la máquina, o el mundo, o el que sabe.** **Lo que no se puede poner por ti es qué quieres.**
+
+**Los Tachikoma, de *Ghost in the Shell*, no programan: deciden.** **Iron Man no teclea: dice lo que quiere, y el taller lo hace.** **Esa es la diferencia, y no es de ciencia ficción: es lo que ya pasa, y lo que todavía no llega a quien no sabe el código.**
+
+| el ejemplo del autor | qué prueba |
+|---|---|
+| **`Ghost in the Shell`** | **las máquinas ya hacen el código: lo que queda para la gente es decir qué** |
+| **Iron Man** | **el taller perfecto: no tiene el dinero, tiene el taller que lo entiende** |
+| **los efectos especiales, la robótica, la física** | **la dirección no es de un dominio: sirve igual en los tres, y por eso no es un estándar** |
+| **La Mole, los luchadores, los memes** | **las ideas vienen de donde sea; nadie se queda fuera por la puerta de entrada de su oficio** |
+
+**Prueba:** ¿alguien que no sabe programar llegó al final de una tarea con esto, sin aprender un lenguaje?
+**Falsificador:** un paso de la dirección que exija saber el oficio para darlo.
+
 ## La afirmación
 
 > **La verbalización no es un derecho: es el primitivo.**
