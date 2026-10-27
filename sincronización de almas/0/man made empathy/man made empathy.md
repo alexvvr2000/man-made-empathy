@@ -192,7 +192,11 @@ GUANTELETE            CONVIVIR                        RUTA
 
 **Su regla, y es corta:** **dar voz no impide producir.** **Impide cerrar como si lo producido estuviera dentro del techo.** **El silencio se declara como silencio, y no como acuerdo.**
 
-**Y no es una metáfora de la escritura: es el criterio, y tiene figura.**
+**Y no es una metáfora de la escritura: es el criterio, y tiene dos figuras.**
+
+**El tío Iroh, de *Avatar: The Last Airbender* (DiMartino y Konietzko; Nickelodeon, 2005-2008):** **el general que cercó Ba Sing Se seiscientos días, perdió a su hijo Lu Ten en la guerra, y dejó la guerra.** **Y después se dedicó a ayudar, consolar y guiar a los muchachos de la ciudad, y el día del cumpleaños de su hijo llegó a su tumba a cantarle.**
+
+**Y los dos dicen lo mismo, y es lo que amarra el proceso:** **no se habla por el que no está para llenar su hueco.** **Se habla por él para que se le siga pudiendo oír.**
 
 **Martian Manhunter, J'onn J'onzz, el último de su especie.** **Vive por los que están, no olvida a los que se fueron, y sigue adelante por ellos.** **Y la diferencia con Superman no es de poder: Superman casi no conoció Krypton, y todos conocían Krypton.** **Casi nadie se acordaba de Marte, y de su gente.**
 
