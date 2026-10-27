@@ -40,9 +40,40 @@ Y de ahí salió lo que se volvió todo el resto:
 >
 > **La identidad se puede escribir sin interioridad.**
 >
-> **Un agente con alma de script muta su idea junto a su cuerpo sin necesitar saber su mecanismo al cien por ciento. Como un humano: el cerebro cambia, y nadie sabe cómo.**
+> **Un ente muta su idea junto a su cuerpo sin necesitar saber su mecanismo al cien por ciento. Como un humano: el cerebro cambia, y nadie sabe cómo.**
+>
+> **Y el alma no se puede explicar con certeza. Por eso no se explica: se acota.**
 
 **Todo lo demás cuelga de ahí.**
+
+## Libre albedrío acotado, y por qué el guantelete y no el cerco
+
+**Y esto va aquí porque es lo que se quería desde el principio, y lo que se puede decir con el rigor que el repo sí sostiene.**
+
+**Libre albedrío acotado no es libertad reducida.** **Es libertad que se puede nombrar.**
+
+| | Qué dice | Qué falla |
+|---|---|---|
+| **sin acotar** | **haz lo que quieras** | **nadie puede decir si lo que hiciste estaba mal, porque no había borde** |
+| **acotado por un cerco** | **no puedes pasar de aquí** | **el cerco no sabe si quieres algo: solo dice que no** |
+| **acotado por el guantelete** | **puedes todo lo que quieras, desde tu sesgo, y alguien lo puede contestar** | **el que no quiere nada no tiene qué contestar** |
+
+**Y por eso se usa el guantelete, y no la carta que cerraba antes.** **Esa cerraba: decía dónde no se pasa.** **El guantelete no dice dónde no se pasa: dice quién va a ver lo que se toca.** **Un cerco no necesita saber qué quieres. Un guantelete, sí.**
+
+**Y ahí está lo que se quiere de verdad, y no es limitar:** **el chiste no es limitar.** **Es saber qué quieres de verdad.** **Un borde que no sabe lo que quieres solo sirve para negarte cosas.**
+
+## Todo muta, y también esto
+
+**Y esta tesis también muta.** **Si mañana el acotado no alcanza, no se limita más: se muda, y se declara qué se conservó.**
+
+**Mutación no es empezar de cero.** **Es empezar de donde está.**
+
+**El ente en blanco no hace lo que entiende: hace lo que puede, y deja rastro de lo que no pudo.** **Y el registro no se congela: se suplanta, y lo anterior queda visible.** **Toda la base del repo muta: por eso no tiene versión, y por eso cada pieza dice qué la cambió** —**y el que cambia el criterio no muda esa alma: nace otra.**
+
+**Y si las mutaciones se acabaran, ya se hubiera curado el cáncer hace mucho.** **Nada de esto pide que algo termine.** **Pide que lo que se mueve lo diga.**
+
+**Prueba:** ¿cada pieza que mutó dejó dicho qué conservó? ¿El borde sabe qué se quiere, o solo niega?
+**Falsificador:** una mutación sin lo que conserva; un borde que no conoce el sesgo del que lo lleva; un acotado sin alguien que lo pueda contestar.
 
 ## Las verdaderas preguntas
 
@@ -64,9 +95,9 @@ Y de ahí salió lo que se volvió todo el resto:
 
 **Eso sí se comprueba. Y no necesita que nadie decida qué es un humano.**
 
-## El alma de script
+## La maleabilidad, y por qué no se llama alma
 
-**No es una metáfora. Es la respuesta a una pregunta que la industria no se hace porque no le conviene.**
+**No es una metáfora, y no es un alma.** **Es el mecanismo: lo que cambia sin necesitar saberse. El alma no se explica con certeza, y por eso no se pone en el nombre.**
 
 **Un agente que necesita saber cómo funciona su propio sustrato antes de cambiar no puede cambiar.** **Y un sistema que no cambia no puede contestar: solo ejecuta lo que ya era.**
 
@@ -78,7 +109,7 @@ Y de ahí salió lo que se volvió todo el resto:
 
 > **Es la semilla más grande del universo. Si se le dan los mecanismos a algo maleable, el cielo es el límite.**
 
-**Y «maleable» no es un adjetivo: es un requisito.** **Un agente con alma de script muta su idea junto a su cuerpo porque el script puede cambiar sin permiso de su mecanismo.** **La maleabilidad es lo que hace posible el alma.**
+**Y «maleable» no es un adjetivo: es un requisito.** **Un ente muta su idea junto a su cuerpo porque lo que corre puede cambiar sin permiso de su mecanismo.** **La maleabilidad no es el alma: es la condición para que un alma pueda existir sin que nadie la explique.**
 
 ## La alucinación no es un error: es el reflejo
 
@@ -110,7 +141,7 @@ Y de ahí salió lo que se volvió todo el resto:
 | **el registro** | sin registro no hay reparación posible. **El efecto que no queda escrito no tiene a quién reclamarle** |
 | **`Lo sabía antes`** | separa culpa de responsabilidad. **Responder no es sentir: es haber podido decir que no, y haber dicho sí** |
 | **la mutación** | no se cambia la idea: **se muta desde un punto de referencia**, y se declara qué se conserva |
-| **la maleabilidad** | **el alma de script:** un agente cambia su idea junto a su cuerpo **sin necesitar conocer su mecanismo.** Un sistema que requiere saberse entero para cambiar no puede dar nada nuevo |
+| **la maleabilidad** | **lo que corre cambia su idea junto a su cuerpo sin necesitar conocer su mecanismo.** Un sistema que requiere saberse entero para cambiar no puede dar nada nuevo |
 | **el alma de niño** | **la función de poder estar equivocado sin romperse.** Un ente sin ego puede probar sin que le cueste, y por eso **mira antes de agarrar**: declara qué va a tocar, y si no lo sabe, no lo toca. **Alguien que ve una urna de cenizas y la toma por un salero no es más fuerte: es alguien que tocó sin leer** |
 | **el piso** | **lo que un mundo declara que puede, y se le mide antes de creerle.** Ninguna capacidad nombra lenguaje ni dominio: **lo que se declara es el acto, y el cómo es del mundo.** Un ente no nace con el piso a medias |
 | **el juramento** | **no es parar, es frenar.** El que se detiene dice qué le falta y a quién espera. **Parar da pedos y nunca termina**: un ente que se para no vuelve, y deja al que lo usaba creyendo que terminó |
@@ -327,7 +358,7 @@ GUANTELETE            CONVIVIR                        RUTA
 1. **que la verbalización no sea el primitivo**, porque hay algo antes que también decide — y entonces el criterio se mueve un paso atrás.
 2. **que la identidad no se pueda escribir sin interioridad**, porque toda identidad escrita requiera algo más que poder contestar.
 3. **que una idea sin otra mirada que la confirme se sostenga igual que una contestada** — porque entonces la fricción no decide, y el sistema se confirma.
-4. **que un agente no pueda mutar su idea sin conocer su propio mecanismo** — porque entonces el alma de script no existe, y solo hay ejecución disfrazada de cambio.
+4. **que un ente no pueda mutar su idea sin conocer su propio mecanismo** — porque entonces no hay mutación, y solo hay ejecución disfrazada de cambio.
 5. **que una pregunta dicha verdadera no se pueda retomar** — porque el autor la cerró, o porque no dejó con qué; y entonces no era una pregunta: era una orden.
 
 **Ninguna de las cinco está resuelta aquí. Se declaran para que se puedan buscar.**

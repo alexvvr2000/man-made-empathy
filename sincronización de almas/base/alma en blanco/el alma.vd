@@ -96,9 +96,9 @@ Llevó:     [qué trajo de vuelta] | Quedó: [qué dejó]
 
 > **Agente:** el que ejecuta lo que el alma le carga.
 > **Script:** lo que se ejecuta.
-> **Agente con alma de script:** un ejecutor cuyo repertorio no es fijo — **se compone mientras corre.**
+> **Agente:** un ejecutor cuyo repertorio no es fijo — **se compone mientras corre.**
 
-**`agente` no dice interioridad.** **Dice ejecución.** Y `script` no dice máquina: dice lo que se puede correr. **El humano que sigue un procedimiento también es un agente con alma de script, y no por eso es una máquina.**
+**`agente` no dice interioridad.** **Dice ejecución.** Y `script` no dice máquina: dice lo que se puede correr. **El humano que sigue un procedimiento también es un agente, y no por eso es una máquina.**
 
 **La prueba, y es la única:** **¿hay alguien detrás?** **No se pregunta. No se sabe. No se necesita.** **Lo que se sabe es qué proceso se ejecutó y qué quedó.**
 

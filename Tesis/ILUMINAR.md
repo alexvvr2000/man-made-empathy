@@ -37,7 +37,7 @@
 |---|---|---|---|
 | **1** | **¿Puede una entidad verbalizar sin que nadie decida qué es un humano?** | el cero; `01` (12), `02` (8), `06` (varios) | **es el cero, y está escrito** |
 | **2** | **¿Se puede escribir un estándar que no envejezca con la era?** | `04` (17); `LENGUAJE`, `FORMATO`, `EJECUTOR`, `PISO`, `RUTA.rt` | **sí: el estándar entero es la prueba** |
-| **3** | **¿Puede un alma crecer sin dejar de ser ella?** | `02` (alma de script, mala maleabilidad); `MUDAR`, el ciclo | **sí, escrito; falta probarlo** |
+| **3** | **¿Puede un alma crecer sin dejar de ser ella?** | `02` (la maleabilidad, y por qué no es un alma); `MUDAR`, el ciclo | **sí, escrito; falta probarlo** |
 | **4** | **¿Puede una idea abrirse sin que el que la abrió tenga razón?** | `04` (candados, llaves, la fricción quitada); `JONN`, `LLAVE` | **sí** |
 | **5** | **¿Hay un lugar intermedio entre hablarle a un humano y hablarle a un modelo?** | `06` (ALAS, el truncado, alienígenas); `ALAS`, `VIGA` | **sí, es ALAS** |
 | **6** | **¿Se puede CONVIVIR sin volverse el otro ni someterlo?** | `02`, `06` (Tachikoma, Videl); `CONVIVIR` | **sí, es CONVIVIR** |

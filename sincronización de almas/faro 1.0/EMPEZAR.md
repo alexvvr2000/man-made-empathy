@@ -1,4 +1,4 @@
-# EMPEZAR — cómo se arma un alma de script, hoy
+# EMPEZAR — cómo se arma un ente, hoy
 
 **Esta es la única puerta.** Los demás archivos dicen qué hay. **Este dice en qué orden leerlo, para que de aquí salga un agente que corre.**
 
