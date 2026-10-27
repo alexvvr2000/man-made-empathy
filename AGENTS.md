@@ -34,6 +34,7 @@
 | **Las pruebas del repositorio** | **las que sostiene la autoridad** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **El ente que contesta** | **lo que pasó, lo que hice mal, y lo que no sé** | **`./Tesis/el ente.md`** |
+| **Lo que se retiró, y no se perdió** | **los 33 archivos de la segunda corrida, y lo que venga** | **`./Tesis/basura/`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
 | **El vocabulario** | **el nombre vigente de cada cosa, y los que murieron** | **`./Tesis/GLOSARIO.md`** |
 | **Las tesis** | **las diez que ya están sostenidas, y cuáles se defienden hoy** | **`./Tesis/ILUMINAR.md`** |
