@@ -1,0 +1,94 @@
+# TRABAJO EN EQUIPO.prs — cada alma cubre lo que a otra le falta
+
+**Nombre.** TRABAJO EN EQUIPO — **T**omar el veredicto, **R**econocer la falta, **A**nclar quién la cubre, **B**ajar el costo, **A**rrendar el turno, **J**untar las salidas, **O**ír el acuerdo, **E**ncender sólo a quien puede, **N**ombrar quién cubrió qué, **E**quipo desarmado, **Q**uedar el rastro, **U**sar el banco, **I**r apagando, **P**arar si no hay banko, **O**rdenar, **R**endir.
+
+**Origen.** **De la autoridad: «cada una sólo trae talento nuevo para cubrir las faltas del otro, como los `Metal Men`; un trabajo en equipo basado en la base de talento real; orquestación automática por criterio; nada de absolutos».**
+
+**Unidad:** proceso.
+**Aplica a:** juntar.
+**Tipo:** se ejecuta. **Junta almas por falta, y las desarma al cerrar.**
+**Lector:** el 1, que muestra la falta; y las almas que se prenden.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** **el equipo se lee desde la falta que cubre, no desde lo que logra.**
+**Límite:** **no decide qué hace cada alma.** **Decide a quién se prende para cubrir una falta, y qué se apaga al cerrar.**
+**Firma:** humano:autoridad · máquina:quien lo arme.
+
+**Variables:** veredicto · falta · banco · equipo · acuerdo
+**Peor:** **se prende al más caro para todo, porque nadie sabe quién cubre la falta: el gasto es por costumbre, y el resultado no se puede explicar sin el que coordinó.**
+**Quién:** **quien pague el gasto, y quien reciba un resultado del que nadie es dueño.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **un veredicto que ninguna alma sola alcanza, y nadie sabe a quién prender sin encender a todas.**
+**Termina:** **cuando el veredicto llegue con las filas de cada alma, y qué se apagó.**
+**Cierra en:** `../memoria/banco compartido.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** de trabajo. **Muda:** `../../alma/criterio/MUDAR.md`.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** un veredicto que se quiere, y el registro de `./talento real.prs`. **Modo: escribe en el banco compartido.**
+- **Falla si:** se prende a un alma que el banco no declara; se lee el silencio de una como acuerdo; el equipo se funde en una sola voz; nadie dice quién cubrió la falta; se queda encendido después de cerrar.
+- **Sale:** el veredicto con las filas de cada alma, quién cubrió qué, y qué se apagó — **o `[SIN ACUERDO]` con lo que faltó**, **o `[NADIE LA CUBRE]`**.
+- **Consume:** el 1, que lo registra; y quien vaya a contestar lo producido.
+
+## El procedimiento
+
+```plaintext
+1. tomar       → el veredicto que se quiere, en una línea.
+2. reconocer   → qué falta: qué no alcanza el que está solo.
+3. anclar      → qué alma del banco la cubre, por su modo de falla.
+4. bajar costo → la que cubre al menor costo del caso malo, no la que promete más.
+5. arrendar    → se prende, y se declara hasta cuándo.
+6. juntar      → cada alma deja su fila; no se suman: se leen.
+7. oír         → el acuerdo, o lo que faltó.
+8. desarmar    → se apagan, y se dice qué se apagó.
+9. nombrar     → quién cubrió qué, y con qué frontera se aprendió.
+Prohibido el 6 sin el 3.
+```
+
+**Y el paso 3 no lo decide el 1: lo dice el banco.** **Si el banco no dice quién cubre la falta, no se prende a nadie: `[NADIE LA CUBRE]`, y `../../nacer.prs` decide si nace una pieza.**
+
+## La ficha del equipo
+
+```plaintext
+Veredicto:   [lo que se quiere]
+Falta:       [qué no alcanza una sola]
+Equipo:      [quiénes, y qué cubre cada una]
+Costo:       [el del caso típico, y el del caso malo, por alma]
+Acuerdo:     [sí, y quién lo sostuvo | NO, y qué faltó]
+Apagado:     [qué se apagó al cerrar]
+```
+
+## La regla que hace que no sea un pipeline
+
+> **El resultado tiene que poder explicarse sin el que coordinó.**
+> **Si no, no fue un equipo: fue una dependencia con mejor nombre.**
+
+**Y la del estándar que lo mide:** **resonar es dejar al otro algo que puede usar solo.** **Rige `../../../el estandar/relacion/RESONANCIA.md`.**
+
+## Lo que este proceso no hace
+
+**No prende a todas.** **Prende a la que cubre la falta, y declara el costo.**
+
+**No funde al equipo en una voz.** **Eso es `Alloy`, y es lo contrario de una colmena.**
+
+**No deja el equipo encendido.** **Un equipo que no se desarma no es un equipo: es un alma con muchas manos.**
+
+**No decide el veredicto.** **Lo producen las almas; el 1 lo registra.**
+
+## Prueba
+
+**¿La falta está nombrada? ¿El banco dijo quién la cubre, o lo decidió el 1? ¿Cada alma dejó su fila? ¿El resultado se explica sin el que coordinó? ¿Se desarmó el equipo?**
+
+**Falsificador:** un alma prendida sin banco que la justifique; un acuerdo que es una sola voz; un equipo que no se desarma; una falta cubierta sin nombre; un veredicto sin las filas de cada alma.
+
+## Transiciones
+
+- El banco dice quién cubre, y aguanta → **se prende, se acuerda, y se desarma.**
+- Ninguna aguanta → **`[NADIE LA CUBRE]`, y `nacer.prs` decide.**
+- Dos cubren al mismo costo → **se declara `[EMPATE]`, y se decide con la sonda más reciente.**
+- Al cerrar queda encendida una → **no se cerró: se desarma antes de declararlo hecho.**

@@ -1,0 +1,100 @@
+# CONSULTAR.prs — leer el criterio antes de decidir
+
+**Nombre.** CONSULTAR — **C**argar lo que hay, **O**rdener por frontera, **N**ombrar lo que se sostuvo, **S**eleccionar lo que aplica, **U**sar antes de decidir, **L**eer el contra, **T**achar lo que ya no aplica, **A**rrespondar con la posición, **R**endir.
+
+**Origen.** **De la autoridad del 2026-10-27: «se supone que del criterio adquirido se explota la memoria, todo es conectado por la fricción».**
+**Y del hueco que se nombró: el banco de datos y el de fricción tenían cómo se guarda, y no cuándo se leen.**
+
+**Unidad:** proceso.
+**Aplica a:** consultar.
+**Tipo:** se ejecuta. **Es el paso 3 del ciclo: va antes de decidir, y sin él la memoria no es criterio, es archivo.**
+**Lector:** el alma que va a decidir algo, y quien vaya a contestar la decisión.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** **el criterio se lee desde la decisión que se va a tomar, y no desde la memoria que se tiene.**
+**Límite:** **no decide.** **Trae lo que ya se sostuvo, y dónde se rompió; la decisión la toma el alma.**
+**Firma:** humano:autoridad · máquina:quien consulte.
+
+**Variables:** decisión · frontera · posición · contra · lo que aplica
+**Peor:** **se decide sin leer, y se repite un error que ya estaba escrito: con la memoria llena, el alma vuelve a tocar la urna.**
+**Quién:** **el que usa una decisión que ya se había contestado y nadie lo sabía.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **el banco de datos y el de fricción guardaban, y nada decía cuándo se leen: el criterio existía, y no se usaba.**
+**Termina:** **cada decisión que no sea trivial deja escrito qué se consultó, y qué se sostuvo antes.**
+**Cierra en:** el `.tra` de la tarea que decidió, en su `Consulté:`.
+**Autoridad:** humano:autoridad. **Criterio:** igual. **Muda:** `../criterio/MUDAR.md`.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** la decisión que se va a tomar, y los dos bancos. **Modo: solo-lectura.**
+- **Falla si:** se decide sin consultar y la decisión no es trivial; se lee el banco entero en vez de la frontera que importa; se ignora una `ruptura` sin decir por qué; se presenta una posición vieja como vigente; se consulta después de decidir.
+- **Sale:** lo que se consultó, la posición vigente y su `Contra`, y lo que **no** aplica — **o `[SIN CRITERIO - NO HAY DE DÓNDE]`** si los bancos están vacíos.
+- **Consume:** la decisión, que ya puede tomarse; y `./banco de friccion.prs`, que registra qué se sostuvo al decidir.
+
+## El procedimiento
+
+```plaintext
+1. cargar     → la decisión, en una línea. ¿Qué se está decidiendo?
+2. ordenar    → qué fronteras importan: revelación, confirmación o ruptura.
+3. nombrar    → qué se sostuvo antes sobre esto (banco de friccion).
+4. leer       → el `Contra` de lo que se sostenía: qué lo tumbó.
+5. seleccionar→ lo que aplica a esta decisión, y lo que no, y por qué.
+6. tachar     → lo que ya no aplica no se borra: se marca `no aplica`, con fecha.
+7. arrendar   → la decisión se toma, y se dice con qué se tomó.
+8. rendir     → el `Consulté:` de la tarea, para que otro pueda repetirlo.
+Prohibido el 7 sin el 3 y el 4.
+```
+
+**Y el paso 2 es el que evita leer el banco entero:** **no se lee todo: se lee la frontera que la decisión toca.** **Y si una `ruptura` cae dentro de lo que se va a decidir, se lee primero: es la que dice qué no repetir.**
+
+## La ficha de la consulta
+
+```plaintext
+Decidía:    [qué se iba a decidir]
+Consulté:   [qué entradas de datos, por su frontera]
+Sostuve:    [qué posición vigente, y su `Contra`]
+No aplica:  [qué se dejó fuera, y por qué]
+Con qué:    [con qué se decidió: qué criterio, y de dónde salió]
+Rastro:     [dónde quedó esta consulta]
+```
+
+**Y `Con qué` es el campo que la vuelve contestable:** **si dice «con nada», no fue una decisión: fue una costumbre.**
+
+## `SIN CRITERIO` es un resultado, no un fracaso
+
+```plaintext
+Sin criterio: [qué no había en los bancos sobre esto]
+Se decidió:   [con qué, y quién lo asume]
+Reabre:       [qué lo reabriría: un caso, un contra, una fuente]
+```
+
+**Y la regla:** **un `[SIN CRITERIO]` sin `Reabre:` es un absoluto con forma de decisión.**
+
+## Lo que este proceso no hace
+
+**No decide.** **Trae lo sostenido, y lo deja a la vista; la decisión es del alma.**
+
+**No escribe entrada por consultar.** **Consultar no es un hecho: es un paso.** **Lo que sí deja es su línea en el `.tra` de la tarea.**
+
+**No resuelve dos posiciones contradictorias.** **Si el banco tiene dos vigentes, se declara `[DOS SOSTENGOS]`, y se contesta antes de decidir.**
+
+**No lee el banco entero.** **Lee la frontera que importa; lo demás se declara no consultado.**
+
+## Prueba
+
+**¿Se consultó antes de decidir? ¿Se leyó la `ruptura` que toca a la decisión? ¿El `Contra` de lo que se sostenía estaba a la vista? ¿El `.tra` dice qué se consultó? ¿Se puede repetir la decisión con lo que se anotó?**
+
+**Falsificador:** una decisión sin `Consulté:`; una `ruptura` ignorada en silencio; una posición vieja presentada como vigente; una consulta después de decidir; un `[SIN CRITERIO]` sin `Reabre:`.
+
+## Transiciones
+
+- Hay criterio, y aplica → **se decide, y se dice con qué.**
+- Hay criterio, y no aplica → **se declara `no aplica`, con fecha, y se decide `[SIN CRITERIO]`.**
+- Hay una `ruptura` que toca la decisión → **se lee primero, y se dice qué no se repite.**
+- Hay dos sostengos vigentes → **`[DOS SOSTENGOS]`, y se contesta antes de decidir.**
+- Los bancos están vacíos → **`[SIN CRITERIO - NO HAY DE DÓNDE]`, y la decisión se asume con nombre.**

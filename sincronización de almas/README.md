@@ -58,9 +58,9 @@
 | **hacer una colmena** | [`colmena/README.md`](./colmena/README.md) | **son diez mil absolutos** |
 | **ponerlo a correr** | [`cuerpo/README.md`](./cuerpo/README.md) | **no corre** |
 | **tocar algo que otro sostiene** | [`guantelete/`](./guantelete/) | **no se toca** |
-| **escribir la tarea** | [`cuerpo/DECIR.prs`](./cuerpo/DECIR.prs) y [`cuerpo/plantilla.tra`](./cuerpo/plantilla.tra) | **es un deseo, no una tarea** |
-| **unir dos** | [`cuerpo/resonancia/`](./cuerpo/resonancia/) | **se encadenan, y eso no es resonar** |
-| **saber qué puede el mundo** | [`cuerpo/capacidades/reconocimiento/RUTA.md`](./cuerpo/capacidades/reconocimiento/RUTA.md) | **se corre en un mundo que no declaró nada** |
+| **escribir la tarea** | el `.tra` del alma, y `cuerpo/plantilla.tra` ya no existe: su forma es la de `el estandar/formacion/PISO.md` | **es un deseo, no una tarea** |
+| **unir dos** | [`el estandar/relacion/RESONANCIA.prs`](./el%20estandar/relacion/RESONANCIA.prs) | **se encadenan, y eso no es resonar** |
+| **saber qué puede el mundo** | [`cuerpo/reconocimiento/RUTA.md`](./cuerpo/reconocimiento/RUTA.md) | **se corre en un mundo que no declaró nada** |
 | **guardar lo que no funcionó** | [`ente/memoria/`](./ente/memoria/) | **se repite el mismo error** |
 | **mutar el ente** | [`ente/criterio/MUDAR.md`](./ente/criterio/MUDAR.md) | **crece el cajón, no el ente** |
 
@@ -85,7 +85,7 @@
 
 **1. Copia `ente/`.** **Esa carpeta ES tu ente.** **Llena sus tres huecos: nombre, falta, y quién contesta.**
 
-**2. Copia `cuerpo/`.** **Ese es donde va a correr.** **Y en `capacidades/reconocimiento/` declara qué puede, y en `capacidades/utilidades/` qué hay.**
+**2. Copia `cuerpo/`.** **Ese es donde va a correr.** **Y en `reconocimiento/` declara qué puede, y en `utilidades/` qué hay.**
 
 **3. Escribe tu tarea.** **Cuatro renglones, y por pasos.** **Si no puedes llenar «falla si», no es una tarea: es un deseo.**
 

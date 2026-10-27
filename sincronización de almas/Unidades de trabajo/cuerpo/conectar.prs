@@ -1,0 +1,144 @@
+# CONECTAR.prs — el cuerpo dice qué comprueba al recibir
+
+**Nombre.** CONECTAR — **C**onocer el piso, **O**bservar lo que puede, **N**ombrar el alma, **E**scribir la montura, **C**ontar lo que falta, **T**omar el primer corte, **A**rrancar, **R**endir.
+
+**Origen.** **De la corrección de la autoridad del 2026-10-27: el alma deja escrito lo suyo en `/alma/conectar.prs`; el cuerpo comprueba lo suyo aquí.** **Y de la regla del piso: un ente no nace hasta que el piso de su mundo está medido.**
+
+**Unidad:** proceso.
+**Aplica a:** recibir.
+**Tipo:** se ejecuta. **Es la mitad del cuerpo: comprueba, y deja escrito qué alma está montada.**
+**Lector:** quien va a correr un alma en este cuerpo, y quien vaya a contestar lo que produzca.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** **el cuerpo se lee desde lo que puede probar, no desde lo que el alma le pide.**
+**Límite:** **no decide si el alma sirve.** **Decide si este mundo puede sostenerla, y lo deja escrito.**
+**Firma:** humano:autoridad · máquina:quien reciba.
+
+**Variables:** piso · alma · montura · lo que falta · primer corte
+**Peor:** el cuerpo recibe un alma sin haber medido su piso, **y lo que el alma produzca no se puede repetir porque el mundo nunca tuvo con qué.**
+**Quién:** quien use lo producido, y no pueda volver a correrlo.
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **un cuerpo puede ejecutar un alma sin que nadie deje escrito cuál es, y cuándo llegó; y sin que su piso se haya probado.**
+**Termina:** **cada montura queda declarada con su piso probado, o el alma no entra.**
+**Cierra en:** `./alma/README.md`, `Montura:`.
+**Autoridad:** humano:autoridad. **Criterio:** igual. **Muda:** `../alma/criterio/MUDAR.md`.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un alma que dice montarse aquí, y el piso declarado en `./reconocimiento/RUTA.md`. **Modo: escribe la montura.**
+- **Falla si:** el piso no está medido; el alma pide una capacidad que este cuerpo no declaró; no se escribe qué alma está montada y desde cuándo; se recibe un alma sin su `../alma/conectar.prs`.
+- **Sale:** la montura declarada, **o `[FALTA EN EL PISO]` con la capacidad que falta**, **o `[ALMA SIN REGISTRO - NO ENTRA]`**.
+- **Consume:** quien va a correr el alma, y quien vaya a contestar lo que produzca.
+
+## El procedimiento
+
+```plaintext
+1. conocer     → qué piso declara este cuerpo, y qué se probó.
+2. observar    → qué capacidades de las que pide el alma están, y cuáles no.
+3. nombrar     → qué alma se está montando: su nombre, y de dónde viene.
+4. escribir    → la montura: alma, cuerpo, y desde cuándo.
+5. contar      → lo que falta, con su nombre: [FALTA EN EL PISO].
+6. tomar       → el primer corte a correr, y con qué se cumple.
+7. arrancar    → corre, y deja su rastro.
+8. rendir      → la montura declarada, o el vacío con su nombre.
+Prohibido el 7 sin el 4 y el 5.
+```
+
+## La ficha de la montura
+
+```plaintext
+Alma:        [cuál]
+Desde:       [cuándo se montó]
+Piso:        [qué capacidades se probaron, y las que se declararon no_puede]
+Con:         [qué hay en bin/ que la sostiene]
+En proceso:  [qué .prs de ./procesos/ la enlazan, o «ninguno todavía»]
+Falta:       [qué no puede este cuerpo, y qué se pierde por eso]
+```
+
+**Y `En proceso: ninguno todavía` es una respuesta legítima:** **`./procesos/` nace vacío, y lo llena el alma que llega.** **El cuerpo no monta un alma con procesos prestados.**
+
+## El ciclo, y no es un evento
+
+**Montar es la primera vuelta. Y el ciclo no se cierra: cada vuelta mejora a los dos.**
+
+> **El alma tiene sus procesos y su resonancia sobre los procesos del cuerpo.** **Por eso no es una entrega: es un aprendizaje continuo, y se mejora el alma y el cuerpo al mismo tiempo.**
+
+```plaintext
+1. montar       → el alma llega, y el cuerpo comprueba su piso.
+2. entregar     → el cuerpo entrega lo que ha ganado: ./entregar.prs
+                  → ./utilidades/, el piso, lo que no puede, y lo que faltó.
+3. consultar    → el alma lee su criterio antes de decidir:
+                  ../alma/memoria continua/consultar.prs
+4. usar         → el alma corre con ./procesos/ y el código de ./bin/.
+5. aprender     → el alma escribe en su banco de datos qué frontera se movió, y en el
+                  de fricción dónde se sostuvo.
+6. mejorar el cuerpo → lo que funcionó se declara en ./utilidades/; lo que faltó,
+                  se declara [FALTA EN bin/] y se agrega.
+7. mejorar el alma   → el criterio que salió de esa vuelta se lleva a su
+                  cuerpos/<N>/README.md, en su `Abstracción:`.
+8. volver       → 4, otra vez. La montura sigue abierta.
+```
+
+**Y el paso 5 y el 6 son la misma cosa vista de dos lados:** **lo que el alma aprendió, el cuerpo lo gana en `utilidades/`; y lo que el cuerpo ganó, el alma lo lleva en su registro.** **Uno no crece sin el otro.**
+
+**Y la regla que lo hace un aprendizaje y no una costumbre:** **una vuelta sin paso 5 o sin paso 6 no es una vuelta: es uso.** **Y un cuerpo que se usa y no se anota se gasta, y el que llega empieza de cero.**
+
+## El paso 4 es una frontera, y se escribe en los dos bancos
+
+**Y no se anota todo lo que pasó: se anota lo que movió una frontera.**
+
+| La frontera | Qué es | Qué deja |
+|---|---|---|
+| **`revelación`** | **apareció algo que el cuerpo o el alma no sabían: un programa, una capacidad, un archivo** | **entrada en el banco de datos; en fricción, sólo si contradice lo que se sostenía** |
+| **`confirmación`** | **lo esperado pasó, y por primera vez con datos** | **entrada en el banco de datos; fricción: `sin cambio`** |
+| **`ruptura`** | **algo que se daba por cierto no pasó: falló, se cayó, cambió** | **entrada en el banco de datos, y otra en fricción** |
+
+**Y lo que pasó sin mover frontera se declara `visto`, y no se escribe.** **Una vuelta de rutina no es una vuelta de aprendizaje.**
+
+**Y por qué esto es lo que hace que el ciclo mejore a los dos:** **el cuerpo no se anota lo que hizo: se anota lo que ganó.** **Y el alma no se lleva los scripts: se lleva qué frontera se movió en ese cuerpo.** **Eso es lo que sirve cuando llega al siguiente.**
+
+**Y el orden entre los dos bancos no se cambia:** **primero el borde, después la posición.** **Un dato sin posición es una casualidad; una posición sin dato es una opinión.**
+
+## Qué se lleva el alma al montar
+
+**Y se entrega en el paso 2, no en el 8: sin eso, el alma decide a ciegas.**
+
+```plaintext
+Utilidades:   [lo que este cuerpo tiene, con su costo y su prueba]
+Piso:         [qué capacidades declaró, y cuáles se probaron]
+No puede:     [lo que se declaró no_puede, y qué se pierde por eso]
+Faltó:        [lo que falta en bin/, para que el alma no lo busque dos veces]
+```
+
+**Y eso entra al banco de datos del alma, con su fecha.** **No se copia a `cuerpo/`: el cuerpo se queda con su lista, el alma con su lectura.**
+
+## Lo que este proceso no hace
+
+**No elige el alma.** **El alma se presenta; el cuerpo dice si puede sostenerla.**
+
+**No escribe el registro del alma.** **Eso lo hace `../alma/conectar.prs`, en `cuerpos/<N>/`. Aquí sólo queda la montura, del lado del cuerpo.**
+
+**No implementa el código.** **Si falta, se declara `[FALTA EN bin/]`; no se improvisa.**
+
+**No guarda el criterio.** **El alma se lo lleva; el cuerpo sólo dice qué puede, y se queda con lo que ganó en `./utilidades/`.**
+
+## Prueba
+
+**¿El piso se probó antes de recibir? ¿Quedó escrito qué alma, y desde cuándo? ¿El cuerpo entregó su `utilidades/` al montar? ¿Cada vuelta dejó su paso 5 y su paso 6? ¿El alma se llevó lo que aguantó, o se fue sin ello?**
+
+**Falsificador:** un cuerpo que recibe sin medir su piso; una montura sin fecha; un alma montada sin su registro; un proceso en `./procesos/` que el cuerpo puso por su cuenta; un `[FALTA EN EL PISO]` sin decir qué capacidad; una vuelta de uso que no dejó nada en `utilidades/` ni en la `Abstracción` del alma.
+
+## Transiciones
+
+- El piso está probado y el alma trae su registro → **se monta, y corre el primer corte.**
+- Falta una capacidad que el alma necesita → **`[FALTA EN EL PISO]`, y no se monta.**
+- El alma no trae su registro → **`[ALMA SIN REGISTRO - NO ENTRA]`.**
+- Una vuelta de uso funciona → **se anota en `utilidades/` y en la `Abstracción:` del alma.**
+- Una vuelta de uso falta algo → **`[FALTA EN bin/]`, y el cuerpo lo agrega.**
+- El alma se va → **la montura se cierra con su fecha; `utilidades/` se queda, y el alma se lleva su `Abstracción:`.**
+- En cualquier otro caso → **se vuelve al paso 3: el ciclo sigue abierto.**

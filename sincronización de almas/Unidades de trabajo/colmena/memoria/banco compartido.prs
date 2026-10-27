@@ -1,0 +1,75 @@
+# BANCO COMPARTIDO.prs — el qué del conjunto, y no la fricción de nadie
+
+**Nombre.** BANCO COMPARTIDO — **B**uscar lo que pasó, **A**nclar la fecha, **N**ombrar quién lo sostuvo, **C**opiar las filas, **O**ír el acuerdo, **M**edir lo que faltó, **P**artir sin editar, **A**rrendar al 1, **R**endir.
+
+**Origen.** **De la autoridad: «cada uno debe tener banco de datos separado, y uno en conjunto, pero los criterios separados: trabajo en equipo de verdad».**
+**Y de la regla: el QUÉ se comparte; la FRICCIÓN no.**
+
+**Unidad:** proceso.
+**Aplica a:** recordar lo del conjunto.
+**Tipo:** se ejecuta. **Es el banco de datos de la colmena: no la fricción, y no las filas sueltas.**
+**Lector:** el 1, para el tablero; y quien vaya a replicar un acuerdo.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** **el conjunto se lee desde lo que acordó, y no desde lo que cada alma pensó.**
+**Límite:** **no guarda el criterio de una alma.** **Guarda qué se pidió, quién se prendió, y qué se acordó.**
+**Firma:** humano:autoridad · máquina:quien anote.
+
+**Variables:** veredicto · equipo · acuerdo · falta · fecha
+**Peor:** **el conjunto no recuerda dónde se rompió, y cada reunión empieza de cero: las almas tienen memoria, y el equipo no.**
+**Quién:** **el que repita un acuerdo que ya se había contestado.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **cada alma recuerda lo suyo, y el conjunto no recuerda nada: lo que se acordó y se rompió se pierde con el turno.**
+**Termina:** **cuando cada acuerdo deje su registro, con las almas que lo sostuvieron.**
+**Cierra en:** `./banco compartido.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** del conjunto. **Muda:** `../../alma/criterio/MUDAR.md`.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que pasó en el conjunto: qué se pidió, quién se prendió, qué se acordó, y qué faltó. **Modo: escribe.**
+- **Falla si:** se guarda el criterio de una sola alma como si fuera del conjunto; se guarda una fila suelta en vez del acuerdo; no se dice qué alma sostuvo cada parte; se edita un registro anterior; no tiene fecha.
+- **Sale:** el registro del conjunto con sus seis campos — **o `[SIN DATO - NO SE ACORDÓ NADA]` con qué lo reabre.**
+- **Consume:** el 1, para el tablero; y quien vaya a repetir el acuerdo.
+
+## Los seis campos
+
+```plaintext
+Fecha:      [ISO 8601]
+Veredicto:  [qué se quería]
+Equipo:     [quiénes se prendieron, y qué cubrió cada una]
+Sostuvo:    [qué alma sostuvo qué parte del acuerdo]
+Faltó:      [qué no se cubrió, y por qué]
+Frontera:   [revelación | confirmación | ruptura, del conjunto]
+```
+
+**Y `Sostuvo` es el que hace que el acuerdo no sea anónimo:** **una frase del acuerdo sin el alma que la sostuvo es una opinión del conjunto, y el conjunto no opina.**
+
+## Lo que este banco NO guarda
+
+**No guarda la fricción de nadie.** **Qué se sostuvo y contra qué es de cada alma, en su propio `banco de friccion.prs`.**
+**No guarda las filas sueltas.** **Están en el `.tra` de cada alma; aquí va lo que el conjunto acordó con ellas.**
+**No reemplaza al banco de datos del alma.** **El del alma es suyo, y es más detallado.**
+
+## Y la regla que lo vuelve el QUÉ del conjunto
+
+> **Lo que se comparte es lo que el conjunto acordó; lo que no se comparte es desde dónde cada alma lo sostuvo.**
+
+**Si se comparte la fricción, todas llegan al mismo acuerdo, y eso es `Alloy`.**
+
+## Prueba
+
+**¿El registro dice quién sostuvo qué? ¿Guarda el acuerdo, y no las filas? ¿Tiene fecha? ¿Guarda la fricción de alguna alma? ¿Se editó un registro anterior?**
+
+**Falsificador:** un registro con la fricción de una alma; un acuerdo sin quién lo sostuvo; un registro sin fecha; un registro editado; un `sin dato` sin qué lo reabre.
+
+## Transiciones
+
+- Hay acuerdo → **se escribe el registro, con quién lo sostuvo.**
+- No hubo acuerdo → **`[SIN ACUERDO]`, con lo que faltó, y su frontera.**
+- El acuerdo se revisa → **no se edita: se suplanta, y el viejo queda visible.**
+- Una alma se sale de un acuerdo → **se registra con la fecha, y el acuerdo se revisa con las que quedan.**
