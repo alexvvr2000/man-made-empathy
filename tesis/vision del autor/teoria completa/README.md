@@ -17,9 +17,9 @@
 | **[02](./02%20-%20el-estándar.md)** | **El estándar** | **cómo se escribe sin formato, y los seis verbos que lo hacen cumplir** |
 | **[03](./03%20-%20la-base.md)** | **La base** | **el alma, el guantelete que trae puesto, y el piso del mundo** |
 | **[04](./04%20-%20las-consecuencias.md)** | **Las consecuencias** | **cuando son dos, cuando son muchos, y cuánto pesa un acto** |
-| **05** | **Lo que se sostiene** | **las ocho tesis, una por una** |
-| **06** | **El contra** | **lo que las tumba, dicho antes que el revisor** |
-| **07** | **Lo que queda abierto** | **la práctica, y las tesis del lector** |
+| **[05](./05%20-%20lo-que-se-sostiene.md)** | **Lo que se sostiene** | **las ocho tesis, una por una, y qué le falta a cada una** |
+| **06** | **El contra** *(pendiente)* | **lo que las tumba, dicho antes que el revisor** |
+| **07** | **Lo que queda abierto** *(pendiente)* | **la práctica, y las tesis del lector** |
 
 ## El orden, y por qué es ese
 
