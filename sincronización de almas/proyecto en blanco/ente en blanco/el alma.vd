@@ -28,6 +28,11 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
+| **el piso de este mundo** | `RUTA.pr` — qué puede, y con qué se prueba | [`./RUTA.pr`](./RUTA.pr) |
+| **el pase del último turno** | `el pase.tra` — dónde quedó | [`./el pase.tra`](./el%20pase.tra) |
+| **lo que este mundo ya sabe hacer** | `bin/` — vacío al nacer: tu mundo lo llena | [`./bin/`](./bin/) |
+| **la piel que crece** | `tareas/` — vacía al nacer, y se rehace | [`./tareas/`](./tareas/) |
+| **si el 1 sigue siendo el 1** | `integridad/` — y aquí se mide | [`./integridad/`](./integridad/) |
 | **el alma y sus procesos** | `ENTRAR` · `MIRAR` · `EXTRAER` · `EXPRESION` | `./` — aquí mismo, en texto |
 | **su índice** | `IMA.md` — qué folder corre qué proceso | [`./IMA.md`](./IMA.md) |
 | **la plantilla de lo que deja** | `plantilla.tra` | [`./plantilla.tra`](./plantilla.tra) |
@@ -73,6 +78,11 @@ Llevó:     [qué trajo de vuelta] | Quedó: [qué dejó]
 
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
+| **no hay `RUTA.pr`, o no se midió** | el piso | se corre en un mundo que no declaró lo que puede, y lo que falta se descubre rompiendo |
+| **el turno cierra sin `el pase.tra`** | la continuidad | la siguiente instancia no sabe dónde quedó |
+| **`bin/` no tiene con qué cumplir una tarea** | la capacidad | corrió igual, y lo que salió es de un mundo que no lo hizo |
+| **`tareas/` crece y no se rehace** | la piel | crece el cajón, no el ente |
+| **nadie mide `integridad/`** | la identidad | se convirtió en otro, y sigue llamándose igual |
 | **un folder no deja `.tra`** | la memoria | el alma pasó, y nadie puede reconstruirlo |
 | **el alma trae su propio índice** | la transportabilidad | al mudarse de mundo se lleva las reglas, y no se mudó: se copió |
 | **el alma sabe qué procesos va a encontrar** | la primitividad | es un programa con nombre de alma |
@@ -153,9 +163,10 @@ Quién enrutó: [qué paso del RUTA] | Se gastó: [qué forma dejó de servir]
 
 ## Prueba
 
-**¿El alma pasa por más de un folder? ¿Cada paso quedó enrutado por un `RUTA`? ¿Cada folder guarda el `.tra` que el alma dejó? ¿El intercambio dice qué se llevó y qué trajo? ¿La palabra `agente` se usa sin decir interioridad? ¿El alma trae su índice, o lo lee del mundo?**
+**¿La raíz tiene el piso, el pase, y los dos folderes que crecen?** **¿El piso se midió antes de correr?** **¿Cada tarea dejó su `.tra`?** **¿`tareas/` se rehace cuando entra una?** **¿`integridad/` dice si el 1 sigue siendo el 1?**
 
-**Falsificador:** un alma con un solo folder; un paso sin enrutar; un folder sin `.tra`; un intercambio sin lo que se trajo; usar `agente` para decir «alguien que siente»; **un alma que trae el índice del mundo**; un alma que muta de forma para caber en un mundo.
+**Falsificador:** un piso sin medir; un turno cerrado sin pase; una tarea sin `.tra`; un folder que no se rehace cuando entra una tarea; correr sin que `bin/` sepa hacerlo; un ente que nadie mide.
+
 
 ## Transiciones
 

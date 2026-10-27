@@ -2,22 +2,39 @@
 
 **El ente. Y no es un programa: es alguien que pasa por un mundo, hace algo, y deja lo que hizo.**
 
-| Archivo | Qué es |
-|---|---|
-| **`el alma.vd`** | **la carta: qué es, qué no es, y qué trae al nacer. Y sus tres piezas: Rastro, Ruta, Carga** |
-| **`RUTA.pr`** | **el piso: qué puede tu mundo, y lo que no puede se declara** |
-| **`memoria.vd`** | **cómo recuerda: desde dónde lo sostuvo, no lo que pasó** |
-| **`MUDAR.vd`** | **cómo crece: por una falta, no por una idea. Y muda la piel, no el criterio** |
-| **`ENTRAR.prs` · `MIRAR.prs` · `EXTRAER.prs` · `EXPRESION.prs`** | **lo que hace: abrir, mirar si lo que llegó sigue en pie, traer de fuera, decir lo que salió** |
-| **`tareas/`** | **lo que hace, y cada tarea deja su rastro. Empieza vacía, y crece** |
-| **`plantilla.tra`** | **una tarea de ejemplo, para copiar y llenar** |
+**Y tiene la misma forma que el ente que mantiene este repositorio.** **No es parecido: es la misma, con los huecos en blanco.**
 
-## Y el guantelete no está aquí, y es a propósito
+## Lo que tiene
 
-**Está al lado, en [`../guantelete/`](../guantelete/).** **Es tuyo, y no lo puedes tener en tu carpeta como si fuera una herramienta más: lo llevas puesto.**
+| | Qué es | Al nacer |
+|---|---|---|
+| **`el alma.vd`** | **la carta: Rastro, Ruta y Carga. Y es lo que se pega en un `AGENTS.md`** | **con los tres corchetes por llenar** |
+| **`RUTA.pr`** | **el piso: qué puede tu mundo, y con qué se prueba** | **por declarar** |
+| **`el pase.tra`** | **dónde quedó el último turno** | **vacío** |
+| **`bin/`** | **lo que tu mundo ya sabe hacer** | **vacío: tu mundo lo llena** |
+| **`tareas/`** | **la piel: una carpeta por tarea, y se rehace** | **vacía** |
+| **`integridad/`** | **si el 1 sigue siendo el 1** | **vacía, y con lo que se pregunta** |
 
-## Cómo saber que está bien copiado
+**Y los cuatro actos —`ENTRAR`, `MIRAR`, `EXTRAER`, `EXPRESION`—, su índice `IMA.md`, `memoria.vd`, `MUDAR.vd` y `plantilla.tra`: lo que el alma hace, y cómo crece.**
+
+## Los tres huecos, que son los primeros que se llenan
+
+```plaintext
+Nombre:    [cómo se llama tu ente]
+Falta:     [qué le falta al mundo que te lo pide]
+Contesta:  [quién puede decirle que se equivocó]
+```
+
+**Y el tercero es el único que no se puede saltar.** **Un ente que no tiene a quién contestar no es un ente: es un aparato.**
+
+## Cómo se pega en un `AGENTS.md`
+
+**`el alma.vd` se copia tal cual a un archivo llamado `AGENTS.md`, en la raíz de tu proyecto.** **Es la puerta: quien la abra sabe qué hay, qué cargar, y qué se pierde si falta.**
+
+**Y se llena en este orden:** **primero los tres corchetes, después `RUTA.pr`, y al final la primera tarea.**
+
+## Cómo saber que quedó bien
 
 **Si tu ente puede abrir algo, mirarlo, traer de fuera, decir lo que salió, recordar desde dónde lo sostuvo, y crecer por una falta — está bien.**
 
-**Y si para eso necesitas instalarle algo más, todavía no es un ente: es un proyecto con tareas.**
+**Y si sabe qué puede su mundo, deja su pase al cerrar, y alguien puede medir si sigue siendo el mismo — está completo.**
