@@ -1,3 +1,7 @@
+**Si vienes a hacer un ente: [`LEEME.md`](./LEEME.md).** **Está en llano.**
+
+---
+
 # 3 EL PISO — qué puede el mundo
 
 **Antes de creerle algo a un mundo, se le mide.**

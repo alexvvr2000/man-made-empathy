@@ -1,3 +1,7 @@
+**Si vienes a hacer un ente: [`LEEME.md`](./LEEME.md).** **Está en llano.**
+
+---
+
 # 2 EL IDIOMA — cómo se escribe
 
 **Lo que se lee mientras se escribe, y no una plantilla.**

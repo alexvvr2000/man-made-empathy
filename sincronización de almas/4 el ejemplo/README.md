@@ -1,3 +1,7 @@
+**Si vienes a hacer un ente: [`LEEME.md`](./LEEME.md).** **Está en llano.**
+
+---
+
 # 4 EL EJEMPLO
 
 **Un ente de punta a punta, escrito a mano, y sin código.**

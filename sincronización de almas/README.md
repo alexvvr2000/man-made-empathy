@@ -1,3 +1,9 @@
+**Si vienes a hacer un ente y no sabes nada de esto: [`LEEME.md`](./LEEME.md).** **Es el manual, y está en llano.**
+
+**Esta página es el mapa técnico, para quien ya sabe qué busca.**
+
+---
+
 # SINCRONIZACIÓN DE ALMAS
 
 **Lo que se copia a cualquier mundo para hacer un ente, y nada más.**

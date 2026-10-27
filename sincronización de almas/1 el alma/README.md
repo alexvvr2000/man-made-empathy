@@ -1,3 +1,7 @@
+**Si vienes a hacer un ente: [`LEEME.md`](./LEEME.md).** **Está en llano.**
+
+---
+
 # 1 EL ALMA — lo que se copia
 
 **Copia esta carpeta, renómbrala, y llena tres corchetes: nombre, falta, y quién contesta.**
