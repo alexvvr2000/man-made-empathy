@@ -23,7 +23,7 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.path.abspath(os.path.join(MANTIS, ".."))
-DESTINO = os.path.join(REPO, "tesis autor", "historicas")
+DESTINO = os.path.join(REPO, "tesis", "vision del autor", "historicas")
 INDICE = os.path.join(DESTINO, "indice.json")
 
 # lo que no es una era: archivos sueltos de la raíz, y lo de hoy

@@ -4,7 +4,7 @@
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
 **Dueño:** humano:autoridad. **Estado:** vigente.
 
-**Sesgo:** mira desde las tesis escritas en `./tesis autor/fuente/` y desde el lenguaje de `./estandar/`, con su contexto refutable en `./candados/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
+**Sesgo:** mira desde las tesis escritas en `./tesis/vision del autor/fuente/` y desde el lenguaje de `./estandar/`, con su contexto refutable en `./candados/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
 **Límite:** no se aplica a juzgar si la tesis es cierta. **Dice qué hay, dónde, y qué no se toca.**
 **Firma:** humano:autoridad · máquina:agente-de-turno.
 
@@ -23,9 +23,9 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **Las tesis del autor** | **nueve, cada una con su `.tex` y su `.pdf`; la fuente del cero, y la práctica abierta** | **`./tesis autor/`** |
+| **Las tesis del autor** | **nueve, cada una con su `.tex` y su `.pdf`; la fuente del cero, y la práctica abierta** | **`./tesis/vision del autor/`** |
 | **El contexto refutable** | **los 93 candados que sostienen las tesis** | **`./candados/`** |
-| **Donde el lector crea** | **el disparo, y la triangulación. Vacía hasta que un disparo la llene** | **`./vision del lector/`** |
+| **Donde el lector crea** | **el disparo, y la triangulación. Vacía hasta que un disparo la llene** | **`./tesis/vision del lector/`** |
 | **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos, y lo que la sostiene** | **`./base/`** |
 | **El lenguaje** | **`0/` — las piezas del estándar, que son la primera tesis** | **`./estandar/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./estandar/`** |
@@ -38,7 +38,7 @@
 | **Las pruebas del repositorio** | **las que sostiene la autoridad, medidas con `bin/pruebas.py`** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **El ente que contesta** | **lo que pasó, lo que hice mal, y lo que no sé** | **`./el ente.md`** |
-| **Las tesis que me trajeron aquí** | **vacía a propósito: N carpetas que no se traen, y se piden** | **`./tesis autor/historicas/`** |
+| **Las tesis que me trajeron aquí** | **vacía a propósito: N carpetas que no se traen, y se piden** | **`./tesis/vision del autor/historicas/`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
 | **El vocabulario** | **el nombre vigente de cada cosa, y los que murieron** | **`./GLOSARIO.md`** |
 | **Las tesis** | **las diez que ya están sostenidas, y cuáles se defienden hoy** | **`./ILUMINAR.md`** |
@@ -66,7 +66,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **leer la tesis o escribir sobre ella** | `./tesis autor/fuente/` | **no se reescribe: se cita** |
+| **leer la tesis o escribir sobre ella** | `./tesis/vision del autor/fuente/` | **no se reescribe: se cita** |
 | **escribir algo entregable** | `./estandar/formacion/CLARIDAD.md` | **no se entrega** |
 | **escribir un proceso** | `./estandar/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
 | **escribir un ente** | `./estandar/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |

@@ -1,3 +1,13 @@
+# FUENTES
+
+**Y ahora cada obra tiene su archivo, en [`./fuentes/`](./fuentes/).**
+
+**Una carpeta por obra, y adentro sus puntos.** **Cada punto dice dónde pasa y qué se toma de él.** **Agregar un ejemplo es una línea nueva, no una fila reescrita: por eso esta tabla se partió.**
+
+**La tabla completa sigue aquí abajo, y no se toca: es lo que había, y lo que se cita.**
+
+---
+
 # FUENTES — de dónde viene cada nombre, y qué se toma de la obra
 
 **Qué es.** **El registro de los nombres del repositorio, y de las obras ajenas que se citan, con qué se toma de cada una.**

@@ -6,7 +6,7 @@
 
 | Carpeta | Qué sostiene | Cuántos |
 |---|---|---|
-| **[`man made empathy/`](../tesis autor/fuente)** | **la tesis entera, en la voz del autor** | 1 |
+| **[`man made empathy/`](../tesis/vision del autor)** | **la tesis entera, en la voz del autor** | 1 |
 | **[`01 el ente y el metodo/`](./01%20el%20ente%20y%20el%20metodo/)** | **qué es un ente, cómo se abre, y cómo se prueba** | 8 |
 | **[`02 el alma y el libre albedrio/`](./02%20el%20alma%20y%20el%20libre%20albedrio/)** | **qué es un alma, qué la mueve, y qué no se termina** | 7 |
 | **[`03 el nombre y la obra/`](./03%20el%20nombre%20y%20la%20obra/)** | **de quién es lo que se dice, y qué se puede usar** | 5 |

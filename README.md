@@ -10,7 +10,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 ---
 
-**Las tesis del autor: nueve con su .tex y su .pdf, la práctica abierta, y las históricas vacías:** `tesis autor/`
+**Las tesis del autor: nueve con su .tex y su .pdf, la práctica abierta, y las históricas vacías:** `tesis/vision del autor/`
 **La base: dos carpetas, y por qué hay dos y no tres:** `base/`
 **Lo que se copia a tu proyecto, con tres corchetes:** `entiendo/ente/`
 **El estándar: cómo se escribe un proceso, y qué lo deja mal:** `estandar/`
