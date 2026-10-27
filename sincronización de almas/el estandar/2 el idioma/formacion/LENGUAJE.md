@@ -76,7 +76,7 @@ el alma de alguien/
 
 | Extensión | Qué es | Regla | Ejemplo |
 |---|---|---|---|
-| **`.vd`** | **lo que sostiene** | **un ente, una puerta o un estándar.** **Siempre Rastro, Ruta y Carga** | `el alma.vd` · `GUANTELETE.vd` · `README.vd` |
+| **`.vd`** | **lo que sostiene** | **un ente, una puerta o un estándar.** **Siempre Rastro, Ruta y Carga** | `el alma.vd` · `GUANTELETE.vd` · `el alma.vd` |
 | **`.prs`** | **lo que vuelve** | **`Entra \| Falla \| Sale \| Consume`**, y nada del cómo | `ENTRAR.prs` · `MUTAR.prs` |
 | **`.tra`** | **lo que pasó** | **la memoria:** el criterio sostenido y lo que se rompió | `lo que llega.tra` |
 | **`.md`** | **lo que se explica** | **lectura pura.** No se ejecuta | `IMA.md` · `RUTA.md` · `EMPEZAR.md` |

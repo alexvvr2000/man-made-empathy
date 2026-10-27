@@ -32,7 +32,7 @@
 
 | Término | Qué es | Dónde |
 |---|---|---|
-| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/el estandar/3 el piso/README.vd` |
+| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/el estandar/3 el piso/el alma.vd` |
 | **EL PISO** | **qué declara un mundo, y cómo se mide: seis capacidades, ninguna con nombre de lenguaje** | `0/formacion/PISO.vd` |
 | **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/el estandar/3 el piso/RUTA.rt` |
 | **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |

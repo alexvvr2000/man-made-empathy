@@ -29,7 +29,6 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **el piso de este mundo** | `RUTA.pr` — qué puede, y con qué se prueba | [`./RUTA.pr`](./RUTA.pr) |
-| **el pase del último turno** | `el pase.tra` — dónde quedó | [`./el pase.tra`](./el%20pase.tra) |
 | **lo que este mundo ya sabe hacer** | `bin/` — vacío al nacer: tu mundo lo llena | [`./bin/`](./bin/) |
 | **la piel que crece** | `tareas/` — vacía al nacer, y se rehace | [`./tareas/`](./tareas/) |
 | **si el 1 sigue siendo el 1** | `integridad/` — y aquí se mide | [`./integridad/`](./integridad/) |
@@ -37,7 +36,7 @@
 | **su índice** | `IMA.md` — qué folder corre qué proceso | [`./IMA.md`](./IMA.md) |
 | **la plantilla de lo que deja** | `plantilla.tra` | [`./plantilla.tra`](./plantilla.tra) |
 | **la memoria** | `memoria.vd` — qué se guarda, y qué no | [`./memoria.vd`](./memoria.vd) |
-| **la forma de la tarea** | `tareas.vd` — el ente en blanco que se copia | [`./tareas.vd`](./tareas.vd) |
+| **la forma de la tarea, y del pase** | `plantilla.tra` — la tarea, y el pase del turno | [`./plantilla.tra`](./plantilla.tra) |
 | **el estándar de lo que deja** | `la fila verbalizada` | [`../../el estandar/2 el idioma/salida/la fila verbalizada.md`](../../el%20estandar/2%20el%20idioma/salida/la%20fila%20verbalizada.md) |
 
 **Qué no se toca:** **el alma no se reescribe para caber en un mundo.** **Si no cabe, es otro mundo; se muda.**
@@ -79,7 +78,6 @@ Llevó:     [qué trajo de vuelta] | Quedó: [qué dejó]
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
 | **no hay `RUTA.pr`, o no se midió** | el piso | se corre en un mundo que no declaró lo que puede, y lo que falta se descubre rompiendo |
-| **el turno cierra sin `el pase.tra`** | la continuidad | la siguiente instancia no sabe dónde quedó |
 | **`bin/` no tiene con qué cumplir una tarea** | la capacidad | corrió igual, y lo que salió es de un mundo que no lo hizo |
 | **`tareas/` crece y no se rehace** | la piel | crece el cajón, no el ente |
 | **nadie mide `integridad/`** | la identidad | se convirtió en otro, y sigue llamándose igual |
