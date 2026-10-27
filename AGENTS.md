@@ -64,21 +64,21 @@
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
 | **leer la tesis o escribir sobre ella** | `./tesis/vision del autor/` | **no se reescribe: se cita** |
-| **escribir algo entregable** | `./sincronización de almas/el sincronización de almas/2 el idioma/formacion/CLARIDAD.md` | **no se entrega** |
-| **escribir un proceso** | `./sincronización de almas/el sincronización de almas/2 el idioma/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
-| **escribir un ente** | `./sincronización de almas/el sincronización de almas/2 el idioma/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
-| **medir de forma repetible** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/PISO.md` | **no se mide** |
-| **guardar fricción quitada** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/FIRMAR.prs` | **no se quita sin firma** |
-| **usar llaves y candados** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
-| **tocar algo que otro sostiene** | `./sincronización de almas/el sincronización de almas/2 el idioma/friccion/GUANTELETE.prs`, y `./sincronización de almas/guantelete/GUANTELETE.md` | **no se toca** |
+| **escribir algo entregable** | `./sincronización de almas/el estandar/formacion/CLARIDAD.md` | **no se entrega** |
+| **escribir un proceso** | `./sincronización de almas/el estandar/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
+| **escribir un ente** | `./sincronización de almas/el estandar/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
+| **medir de forma repetible** | `./sincronización de almas/el estandar/friccion/PISO.md` | **no se mide** |
+| **guardar fricción quitada** | `./sincronización de almas/el estandar/friccion/FIRMAR.prs` | **no se quita sin firma** |
+| **usar llaves y candados** | `./sincronización de almas/el estandar/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
+| **tocar algo que otro sostiene** | `./sincronización de almas/el estandar/friccion/GUANTELETE.prs`, y `./sincronización de almas/guantelete/GUANTELETE.md` | **no se toca** |
 | **copiar un alma nueva** | `./sincronización de almas/ente/` | **no hay alma** |
-| **comunicar con otro que no es como uno** | `./sincronización de almas/el sincronización de almas/2 el idioma/salida/ALAS.md` | **no se comunica: se trunca** |
-| **CONVIVIR sin volverse el otro** | `./sincronización de almas/el sincronización de almas/2 el idioma/salida/CONVIVIR.md` | **no hay convivencia: hay copia** |
-| **medir talento** | `./sincronización de almas/el sincronización de almas/2 el idioma/relacion/TALENTO.md` | **no se decide con quién trabajar** |
-| **afinar dos entes** | `./sincronización de almas/el sincronización de almas/2 el idioma/relacion/RESONANCIA.md` | **no se afinan** |
+| **comunicar con otro que no es como uno** | `./sincronización de almas/el estandar/salida/ALAS.md` | **no se comunica: se trunca** |
+| **CONVIVIR sin volverse el otro** | `./sincronización de almas/el estandar/salida/CONVIVIR.md` | **no hay convivencia: hay copia** |
+| **medir talento** | `./sincronización de almas/el estandar/relacion/TALENTO.md` | **no se decide con quién trabajar** |
+| **afinar dos entes** | `./sincronización de almas/el estandar/relacion/RESONANCIA.md` | **no se afinan** |
 | **escribir con un término del repo** | `./GLOSARIO.md` | **se usa un nombre muerto como si existiera** |
-| **declarar de dónde viene algo** | `./sincronización de almas/el sincronización de almas/2 el idioma/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
-| **escribir un resultado** | `./sincronización de almas/el sincronización de almas/2 el idioma/salida/RESULTADOS.prs` | **se inventa la medición** |
+| **declarar de dónde viene algo** | `./sincronización de almas/el estandar/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
+| **escribir un resultado** | `./sincronización de almas/el estandar/salida/RESULTADOS.prs` | **se inventa la medición** |
 | **responder a un mensaje** | `./AGENTS.md`, `./mantis/el alma.md`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
 | **decidir algo, antes de decidir** | el historial en `./.memoria continua/rastro/` | **se decide a ciegas** |
 | **abrir un candado** | `./mantis/tareas/los candados/abrir.prs` | **no se abre** |

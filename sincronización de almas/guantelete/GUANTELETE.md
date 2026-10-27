@@ -15,7 +15,7 @@
 
 **Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
 
-**Y lo que este guante no da es la herramienta: da el peso.** **Las seis gemas, cuánto pesa cada una y su contrapeso viven en [`../../../el sincronización de almas/2 el idioma/relacion/EQUILIBRIO.md`(../el%20estandar/EQUILIBRIO.md).**
+**Y lo que este guante no da es la herramienta: da el peso.** **Las seis gemas, cuánto pesa cada una y su contrapeso viven en [`../../../el estandar/relacion/EQUILIBRIO.md`(../el%20estandar/EQUILIBRIO.md).**
 **Límite:** no juzga si el acto era bueno. **Juzga si era reversible, si tenía testigo, y si dejó rastro.** **Y no decide qué es bueno: eso lo decide la autoridad.**
 **Firma:** humano:autoridad · máquina:quien lo ejecute.
 
@@ -25,16 +25,16 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `../../el sincronización de almas/2 el idioma/salida/ALAS.md` y desde `../../el sincronización de almas/2 el idioma/formacion/FORMATO.md`.
+**Sesgo:** se verifica desde `../../el estandar/salida/ALAS.md` y desde `../../el estandar/formacion/FORMATO.md`.
 **Límite:** dice qué hay; no juzga si el acto sirvió.
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| El acto que se ejecuta antes de mover | `FRICCION.prs` | [`./herramientas/FRICCION.prs`](./herramientas/FRICCION.prs) |
-| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../el sincronización de almas/2 el idioma/friccion/GUANTELETE.prs`(../el%20estandar/GUANTELETE.prs) |
-| Las siete herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | [`./herramientas/`](./herramientas/) |
+| El acto que se ejecuta antes de mover | `FRICCION.prs` | `herramienta` |
+| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../el estandar/friccion/GUANTELETE.prs`(../el%20estandar/GUANTELETE.prs) |
+| Las siete herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | `herramienta` |
 | El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
-| El estándar de lo que deja ALAS | `ALAS.md` | [`../../el sincronización de almas/2 el idioma/salida/ALAS.md`(../el%20estandar/ALAS.md) |
+| El estándar de lo que deja ALAS | `ALAS.md` | [`../../el estandar/salida/ALAS.md`(../el%20estandar/ALAS.md) |
 
 **Qué no se toca:** la fuente y el candado. **Se enlazan, no se copian.**
 
@@ -52,10 +52,10 @@ Gemas: [cuáles de los seis limites] | Rastro: [dónde quedó] | Deshecho: [sí 
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **tocar algo que otro sostiene** | `./herramientas/FRICCION.prs`, y se pregunta antes | **no se toca** |
-| **aplicar, mutar, retirar o invertir un proceso** | la herramienta que corresponda en `./herramientas/` | **no se ejecuta: se declara qué falta** |
-| **tocar lo irreversible** | `../../el sincronización de almas/2 el idioma/salida/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
-| **producir lo que todavía no existe** | `./herramientas/COMPONER.prs` | **no se produce: se improvisa** |
+| **tocar algo que otro sostiene** | `FRICCION`, y se pregunta antes | **no se toca** |
+| **aplicar, mutar, retirar o invertir un proceso** | la herramienta que corresponda, por su nombre | **no se ejecuta: se declara qué falta** |
+| **tocar lo irreversible** | `../../el estandar/salida/ALAS.md`, `Sostenido` | **no se toca sin testigo** |
+| **producir lo que todavía no existe** | `COMPONER` | **no se produce: se improvisa** |
 | **crear una herramienta nueva** | el índice `./IMA.md` | **no entra: se declara `[VACÍO - SIN HERRAMIENTA]`** |
 | **mutar la fuente o el candado** | todo, y **se espera** | **no se toca** |
 
@@ -86,16 +86,23 @@ Gemas: [cuáles de los seis limites] | Rastro: [dónde quedó] | Deshecho: [sí 
 | **el costo del caso malo** | **todo acto declara lo que costó su peor corrida, no su mejor** |
 | **la firma de lo quitado** | **si se quita una fricción, se firma con su hash: lo que se quitó tiene nombre** |
 
-## Las siete herramientas no son las seis gemas
 
-**Y esto se prestaba a confusión, así que se dice una vez y claro:**
+## Las siete, y qué hace cada una
 
-| | Qué es | Cuántas |
-|---|---|---|
-| **las gemas** | **las seis capacidades de un acto:** qué se va a poder tocar | seis, y están declaradas abajo |
-| **las herramientas** | **los siete procesos que se cargan:** cómo se hace, paso a paso | siete, y viven en `./herramientas/` |
+**Y no son archivos: son lo que el guante permite.** **Cada una dice qué se va a tocar, y quién lo va a ver.**
 
-**Un acto declara sus gemas; el que lo ejecuta carga una herramienta, y ni una más.** **No hay correspondencia uno a uno entre las dos listas, y no hace falta que la haya: una herramienta puede usar dos gemas, y una gema puede no necesitar herramienta.**
+| | Herramienta | Qué hace | Cuándo se carga |
+|---|---|---|---|
+| **1** | **`SOSTENER`** | **sostener una pieza, y saber quién puede contestarla** | **cuando algo depende de ti** |
+| **2** | **`FRICCION`** | **decidir algo que afecta a otro** | **cuando la decisión no es solo tuya** |
+| **3** | **`COMPONER`** | **producir lo que todavía no existe** | **cuando creas algo nuevo** |
+| **4** | **`APLICAR`** | **ejecutar un proceso que ya existe** | **cuando sigues un procedimiento** |
+| **5** | **`MUTAR`** | **cambiar un proceso sin perder lo que servía** | **cuando algo queda chico** |
+| **6** | **`RETIRAR`** | **quitar un proceso cuyo fin dejó de existir** | **cuando algo ya no sirve** |
+| **7** | **`INVERTIR`** | **deducir un proceso de lo observable** | **cuando el fin no está escrito** |
+
+**Una herramienta, y ni una más.** **Si se cargan dos, se declara por qué.**
+
 
 ## Las seis gemas, y qué limita cada una
 

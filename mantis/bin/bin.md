@@ -25,7 +25,7 @@
 |---|---|---|
 | **el que corre** | `ejecutar.py` — lee el corte, y busca con qué cumplirlo | [`./ejecutar.py`](./ejecutar.py) |
 | **lo que ya cumplió** | `cero` · `candados` · `tesis` · `memoria` · `estandar` · `integridad` · `tareas` | `./*.py` |
-| **la regla: los cinco verbos** | `EJECUTOR` | `../../../sincronización de almas/el sincronización de almas/2 el idioma/formacion/EJECUTOR.md` |
+| **la regla: los cinco verbos** | `EJECUTOR` | `../../../sincronización de almas/el estandar/formacion/EJECUTOR.md` |
 | **el mundo que las pidió** | `RUTA.md` | [`../RUTA.md`](../RUTA.md) |
 
 ## Ruta — la mente
