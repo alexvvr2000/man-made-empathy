@@ -6,7 +6,7 @@ FUENTES.md es una tabla: una fila por obra. Y esa tabla es lo que no se
 deja tocar: agregar un ejemplo de una obra obliga a buscar su fila y
 reescribirla, y ahi se pierden cosas.
 
-Lo que la vuelve mutable es partirla: una carpeta `fuentes/`, un archivo
+Lo que la vuelve mutable es partirla: una carpeta `contexto/`, un archivo
 por obra, y adentro sus puntos, cada uno con su momento y lo que se tomo
 de el. Agregar un punto es una linea nueva, no una fila reescrita.
 

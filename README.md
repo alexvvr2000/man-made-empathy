@@ -17,7 +17,9 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 **Las 93 reglas del autor, cada una con lo que la tumba:** `candados/`
 **El ente que mantiene este repositorio, y corre:** `mantis/`
 
-**Donde el lector crea, con disparo y triangulación:** `vision del lector/`
+**Las tesis del autor, y donde el lector crea:** `tesis/`
+**Lo citado, en APA 7:** `FUENTES.md`
+**Lo que cada obra provocó, sin formato:** `contexto/`
 
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
 
