@@ -21,7 +21,7 @@
 
 ## Entra | Falla | Sale | Consume
 
-- **Entra:** el 1 —su carta, sus tareas, sus `.tra`—, y el sesgo con el que se sostiene.
+- **Entra:** el 1 —su carta, sus tareas, sus `.tra`—, y el sesgo con el que se sostiene. **Modo: solo-lectura.**
 - **Falla si:** el 1 no declara sesgo; el veredicto sale de la carta y no de los `.tra`; el agujero se declara como descripción y no como pieza; se comprueba una vez y se declara vigente para siempre; se da `pasa` sin haber leído lo que el 1 hizo.
 - **Sale:** el veredicto del 1 —`pasa | falla | indeterminado`— con el sesgo, lo que hizo, y el agujero nombrado o `ninguno`.
 - **Consume:** quien va a mutar el 1, y quien lo va a contestar.

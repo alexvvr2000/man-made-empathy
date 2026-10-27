@@ -56,14 +56,14 @@
       "ultimo": "f111a31 2026-10-24"
     },
     {
-      "era": "Alineacion de tareas",
-      "archivos": 28,
-      "ultimo": "bb4b14c 2026-10-21"
-    },
-    {
       "era": "Bases de diseño",
       "archivos": 28,
       "ultimo": "7ae9378 2026-10-20"
+    },
+    {
+      "era": "Alineacion de tareas",
+      "archivos": 28,
+      "ultimo": "bb4b14c 2026-10-21"
     },
     {
       "era": "mantis_nuevo",
@@ -86,11 +86,6 @@
       "ultimo": "bb4b14c 2026-10-21"
     },
     {
-      "era": "A.R.E.S",
-      "archivos": 15,
-      "ultimo": "94bfe35 2026-10-19"
-    },
-    {
       "era": "dsh",
       "archivos": 15,
       "ultimo": "06eface 2026-10-18"
@@ -99,6 +94,11 @@
       "era": "Libre albedrio",
       "archivos": 15,
       "ultimo": "fa58149 2026-10-24"
+    },
+    {
+      "era": "A.R.E.S",
+      "archivos": 15,
+      "ultimo": "94bfe35 2026-10-19"
     },
     {
       "era": "corpus",
@@ -111,14 +111,14 @@
       "ultimo": "45ce43c 2026-10-23"
     },
     {
-      "era": "Entornos de desarrollo",
-      "archivos": 12,
-      "ultimo": "06eface 2026-10-18"
-    },
-    {
       "era": "Principios Agentes",
       "archivos": 12,
       "ultimo": "8d1922d 2026-10-18"
+    },
+    {
+      "era": "Entornos de desarrollo",
+      "archivos": 12,
+      "ultimo": "06eface 2026-10-18"
     },
     {
       "era": "Principios",
@@ -126,19 +126,14 @@
       "ultimo": "6cfc788 2026-10-02"
     },
     {
-      "era": "faber",
-      "archivos": 6,
-      "ultimo": "c419d99 2026-10-20"
-    },
-    {
       "era": "prompts iniciales",
       "archivos": 6,
       "ultimo": "3ce700e 2026-10-17"
     },
     {
-      "era": "Sondas de comportamiento",
-      "archivos": 4,
-      "ultimo": "d017ea7 2026-10-21"
+      "era": "faber",
+      "archivos": 6,
+      "ultimo": "c419d99 2026-10-20"
     },
     {
       "era": "Puntos de inicio",
@@ -146,14 +141,14 @@
       "ultimo": "6cfc788 2026-10-02"
     },
     {
+      "era": "Sondas de comportamiento",
+      "archivos": 4,
+      "ultimo": "d017ea7 2026-10-21"
+    },
+    {
       "era": "3 Era",
       "archivos": 3,
       "ultimo": "85cb6f2 2026-10-22"
-    },
-    {
-      "era": "VIDERE",
-      "archivos": 3,
-      "ultimo": "0139310 2026-10-23"
     },
     {
       "era": "Implementaciones de la era",
@@ -166,19 +161,14 @@
       "ultimo": "d017ea7 2026-10-21"
     },
     {
+      "era": "VIDERE",
+      "archivos": 3,
+      "ultimo": "0139310 2026-10-23"
+    },
+    {
       "era": "scripts",
       "archivos": 2,
       "ultimo": "bb4b14c 2026-10-21"
-    },
-    {
-      "era": "Punto de inicio chatbots.md",
-      "archivos": 1,
-      "ultimo": "675b485 2026-10-02"
-    },
-    {
-      "era": "POSIBILIDADES.md",
-      "archivos": 1,
-      "ultimo": "53b504b 2026-10-25"
     },
     {
       "era": "Posicion de la IA frente a mi sistema.md",
@@ -199,6 +189,16 @@
       "era": "man_made_empathy_ficha.md",
       "archivos": 1,
       "ultimo": "79d75cb 2026-10-15"
+    },
+    {
+      "era": "Punto de inicio chatbots.md",
+      "archivos": 1,
+      "ultimo": "675b485 2026-10-02"
+    },
+    {
+      "era": "POSIBILIDADES.md",
+      "archivos": 1,
+      "ultimo": "53b504b 2026-10-25"
     }
   ],
   "archivos": 1181,

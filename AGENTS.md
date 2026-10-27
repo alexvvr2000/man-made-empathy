@@ -33,7 +33,7 @@
 | **La piel que crece** | **`tareas/` — se rehace cuando entra o sale una** | **`./mantis/tareas/`** |
 | **El criterio a pulso** | **`integridad/` — si el 1 sigue siendo el 1** | **`./mantis/integridad/`** |
 | **La memoria viva** | **las `.tra` de cada tarea, y la base de antes** | **`./mantis/tareas/` · `./.memoria continua/rastro/`** |
-| **Las pruebas del repositorio** | **las que sostiene la autoridad** | **`./Pruebas/`** |
+| **Las pruebas del repositorio** | **las que sostiene la autoridad, medidas con `bin/pruebas.py`** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **El ente que contesta** | **lo que pasó, lo que hice mal, y lo que no sé** | **`./Tesis/el ente.md`** |
 | **Lo que se retiró, y no se perdió** | **los 33 archivos de la segunda corrida, y lo que venga** | **`./Tesis/basura/`** |
@@ -88,6 +88,7 @@
 | **escribir la tesis práctica** | `./mantis/tareas/la tesis/practica.prs` | **no se compone sin números** |
 | **limpiar memoria o chats** | la `.tra` de `la memoria/`, y su `No retoma:` | **no se publica** |
 | **medir una sesión** | `./pc.md`, y lo que la `.tra` declare | **no se publican números** |
+| **saber si las pruebas se pueden correr** | `python mantis/bin/ejecutar.py pruebas` — mide, no corre | **no se dice que pasaron** |
 | **mutar este archivo, el estándar o la tesis** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |
 
 **La fila que no puede faltar:** lo que muta la tesis, el estándar o `Pruebas/` se espera. **Sin autoridad, no se toca.**

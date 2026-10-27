@@ -28,7 +28,7 @@ TALENTO
 PISO
 ENSAYAR
 EQUILIBRIO
-jurar
+JURAR
 DAR VOZ
 alma de niño
 ```

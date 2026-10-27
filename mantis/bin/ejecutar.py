@@ -116,6 +116,7 @@ IMPLEMENTACIONES = {
     "privado": "privado.py",
     "stats": "stats.py",
     "basura": "basura.py",
+    "pruebas": "pruebas.py",
 }
 
 
