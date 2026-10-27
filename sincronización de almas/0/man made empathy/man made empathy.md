@@ -310,7 +310,7 @@ GUANTELETE            CONVIVIR                        RUTA
 
 | Pieza | Qué sostiene | Dónde |
 |---|---|---|
-| **`GUANTELETE`** | **qué se puede tocar, y quién lo va a ver** | `primitivos/guantelete/` |
+| **`GUANTELETE`** | **qué se puede tocar, y quién lo va a ver** | `base/guantelete/` |
 | **`EQUILIBRIO`** | **las seis gemas y su peso: el guante no da herramientas, dice qué se equilibra, y te hace pensar desde que empiezas** | `0/relacion/EQUILIBRIO.md` |
 | **`ENSAYAR`** | **el verbo tercero: el niño mira antes de agarrar.** Una tarea que no dice qué toca, no corre | `0/formacion/EJECUTOR.vd` |
 | **`JURAR`** | **no es parar, es frenar:** el que se detiene dice qué le falta y a quién espera | `0/friccion/JURAR.prs` |

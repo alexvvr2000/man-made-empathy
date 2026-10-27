@@ -68,7 +68,7 @@ Se gasta:  [qué cambio del mundo lo deja viejo]
 
 **Cuando un alma puede escribir el `RUTA` de un mundo que no conoce, se deja de programar.** **Se le entrega un mundo, lo lee, escribe qué corre donde, y declara `Falta:` en vez de inventarlo.**
 
-**Y eso no es magia ni promesa: es `COMPONER`.** **La pieza que produce lo que no existía sirve tanto para una tarea como para un `RUTA`.** Rige `../primitivos/guantelete/herramientas/COMPONER.prs`.
+**Y eso no es magia ni promesa: es `COMPONER`.** **La pieza que produce lo que no existía sirve tanto para una tarea como para un `RUTA`.** Rige `../base/guantelete/herramientas/COMPONER.prs`.
 
 **Y la condición sigue siendo la misma:** **componer un `RUTA` es componer una pieza, y una pieza pasa por `SOSTENER` —desde dónde se sostiene— y por `FRICCION` —quién puede contestarla—.** **Un `RUTA` escrito por el alma y no contestable por nadie es un absoluto con forma de índice.**
 

@@ -24,7 +24,7 @@
 | **La tesis** | **el candado cero, y las ocho tesis sembradas** | **`./sincronización de almas/0/man made empathy/`** |
 | **El contexto refutable** | **los 93 candados que sostienen las tesis** | **`./Tesis/candados/autor/`** |
 | **El blanco de las tesis** | **las visiones** | **`./Tesis/vision de la maquina/` · `./Tesis/vision del lector/`** |
-| **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos** | **`./sincronización de almas/primitivos/`** |
+| **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos, y lo que la sostiene** | **`./sincronización de almas/base/`** |
 | **El lenguaje** | **`0/` — las piezas del estándar, que son la primera tesis** | **`./sincronización de almas/0/`** |
 | **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./sincronización de almas/0/`** |
 | **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronización de almas/faro 1.0/LO HUMANO.md`** |
@@ -71,8 +71,8 @@
 | **medir de forma repetible** | `./sincronización de almas/0/friccion/PISO.md` | **no se mide** |
 | **guardar fricción quitada** | `./sincronización de almas/0/friccion/FIRMAR.prs` | **no se quita sin firma** |
 | **usar llaves y candados** | `./sincronización de almas/0/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
-| **tocar algo que otro sostiene** | `./sincronización de almas/0/friccion/GUANTELETE.prs`, y `./sincronización de almas/primitivos/guantelete/GUANTELETE.vd` | **no se toca** |
-| **copiar un alma nueva** | `./sincronización de almas/primitivos/alma en blanco/` | **no hay alma** |
+| **tocar algo que otro sostiene** | `./sincronización de almas/0/friccion/GUANTELETE.prs`, y `./sincronización de almas/base/guantelete/GUANTELETE.vd` | **no se toca** |
+| **copiar un alma nueva** | `./sincronización de almas/base/alma en blanco/` | **no hay alma** |
 | **comunicar con otro que no es como uno** | `./sincronización de almas/0/salida/ALAS.md` | **no se comunica: se trunca** |
 | **CONVIVIR sin volverse el otro** | `./sincronización de almas/0/salida/CONVIVIR.vd` | **no hay convivencia: hay copia** |
 | **medir talento** | `./sincronización de almas/0/relacion/TALENTO.md` | **no se decide con quién trabajar** |

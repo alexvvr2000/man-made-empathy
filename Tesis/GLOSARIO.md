@@ -19,9 +19,10 @@
 
 | Término | Qué es, en una línea | Dónde vive su definición |
 |---|---|---|
-| **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronización de almas/primitivos/alma en blanco/el alma.vd` |
-| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/primitivos/guantelete/GUANTELETE.vd` |
-| **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronización de almas/primitivos/alma en blanco/MUDAR.vd` |
+| **BASE** | **la carpeta de los dos primitivos: lo que se lee para entender, y no se copia para usar** | `sincronización de almas/base/` |
+| **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronización de almas/base/alma en blanco/el alma.vd` |
+| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/base/guantelete/GUANTELETE.vd` |
+| **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronización de almas/base/alma en blanco/MUDAR.vd` |
 
 **Y lo que el alma trae puesto:** **el guantelete no se consulta: lo lleva.** **Un alma sin guantelete crece y nadie la para: eso es `AM`.**
 

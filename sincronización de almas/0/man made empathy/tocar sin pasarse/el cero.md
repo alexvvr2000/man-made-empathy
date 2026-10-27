@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque el contexto refutable está escrito —Thanos, la Source Wall, `AM`— y se puede tumbar sin que esta pregunta caiga.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `primitivos/guantelete/GUANTELETE.vd`.** **Y de la autoridad: «hacer todo lo posible desde tu propio sesgo con posibilidad de fricción; si es solo una opinión en grande, *Infinity War* habría acabado en quince minutos».**
+**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `base/guantelete/GUANTELETE.vd`.** **Y de la autoridad: «hacer todo lo posible desde tu propio sesgo con posibilidad de fricción; si es solo una opinión en grande, *Infinity War* habría acabado en quince minutos».**
 
 **Qué pregunta deja.** **¿Cómo se sabe que un acto fue contestable, y no solo permitido?**
 

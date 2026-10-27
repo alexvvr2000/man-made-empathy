@@ -3,7 +3,7 @@
 **Nombre.** ENTIENDO — **E**ntra, **N**ombra, **T**oma, **I**ndica, **E**ncuentra, **N**unca, **D**uda, **O**bedece.
 **La expansión dice el acto:** **entra a un mundo que no es este, nombra al que va a trabajar, y encuentra con qué correr sin que haya que enseñarle nada.**
 
-**Origen.** **De la petición de la autoridad: «una plantilla, y que sea pegar el ente y el guantelete en la raíz de cualquier proyecto».** **Y de lo que estaba mal: `primitivos/` explicaba la base del área, y una base no se pega en un proyecto ajeno. Lo que se pega es una copia llena. Eso es lo que hay aquí.**
+**Origen.** **De la petición de la autoridad: «una plantilla, y que sea pegar el ente y el guantelete en la raíz de cualquier proyecto».** **Y de lo que estaba mal: `base/` explicaba la base del área, y una base no se pega en un proyecto ajeno. Lo que se pega es una copia llena. Eso es lo que hay aquí.**
 
 **Unidad:** plantilla.
 **Aplica a:** copiar y pegar.
@@ -13,7 +13,7 @@
 **Estado:** vigente.
 
 **Sesgo:** se lee desde el que abre un proyecto ajeno y no sabe qué es este ente.
-**Límite:** **no es la base.** **La base es [`../primitivos/`](../primitivos/README.vd), y se cita: no viaja.** **Esto es una copia; si choca con la base, gana la base.**
+**Límite:** **no es la base.** **La base es [`../base/`](../base/README.vd), y se cita: no viaja.** **Esto es una copia; si choca con la base, gana la base.**
 **Firma:** humano:autoridad · máquina:quien la pegue.
 
 **Peor:** se pega en un proyecto sin llenar los tres corchetes, **y el ente corre sin falta, sin nombre y sin quién lo conteste: una voz que ya no puede dejar de ser obedecida.**
@@ -42,7 +42,7 @@
 
 **Lo que no viaja, y es a propósito:**
 
-- **`../../../primitivos/`** — la explicación de la base. **Se cita, no se copia.** Copiarla mete esta área entera en el proyecto ajeno, y el proyecto deja de ser un proyecto.
+- **`../../../base/`** — la explicación de la base. **Se cita, no se copia.** Copiarla mete esta área entera en el proyecto ajeno, y el proyecto deja de ser un proyecto.
 - **`../../../0/`** — el lenguaje. **Se cita.** Un proyecto no necesita nueve lenguajes; necesita el suyo.
 - **`mantis/`** — otro ente, ya lleno. **Un proyecto no hereda un alma ajena: la llena.**
 
@@ -50,7 +50,7 @@
 
 ## Prueba
 
-**¿Alguien que no es el autor pega `ente/`, llena tres corchetes y corre una tarea sin leer `primitivos/`? ¿La primera tarea dejó su `.tra` adentro del ente? ¿El ente trae su guantelete puesto, sin que haya que instalarlo?**
+**¿Alguien que no es el autor pega `ente/`, llena tres corchetes y corre una tarea sin leer `base/`? ¿La primera tarea dejó su `.tra` adentro del ente? ¿El ente trae su guantelete puesto, sin que haya que instalarlo?**
 
 **Falsificador:** una plantilla que pide leer la base para funcionar; un ente que corre sin la falta declarada; un guantelete que se instala en vez de nacer puesto; una tarea cuyo `.tra` queda fuera del ente.
 
@@ -58,5 +58,5 @@
 
 - Se quiere un ente en un proyecto → **se copia `ente/`, se renombra, y se llenan los tres corchetes.**
 - El ente crece, y no cabe en la plantilla → **no se amplía la plantilla: se muda el ente, con `MUDAR`.**
-- La plantilla se gasta → **se rehace desde `primitivos/`, y se declara qué cambió.**
+- La plantilla se gasta → **se rehace desde `base/`, y se declara qué cambió.**
 - En cualquier otro caso → **se pega, y se trabaja.**

@@ -17,7 +17,7 @@
 **Termina:** **cuando cada alma declarada devolvió su estado: `dentro | se salió | contradice`.**
 **Cierra en:** `COLMENA.tra`.
 **Autoridad:** humano:autoridad. **Criterio:** igual.
-**Muda:** `../primitivos/alma en blanco/MUDAR.vd`.
+**Muda:** `../base/alma en blanco/MUDAR.vd`.
 
 ## Entra | Falla | Sale | Consume
 

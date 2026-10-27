@@ -20,12 +20,12 @@
 
 | | Para qué sirve | Se pega en un proyecto |
 |---|---|---|
-| **`primitivos/`** | **explicar por qué hay dos y no tres.** Es de esta área | **no** |
+| **`base/`** | **explicar por qué hay dos y no tres.** Es de esta área | **no** |
 | **[`../entiendo/`](../entiendo/README.vd)** | **dar un ente en blanco, con el guantelete puesto, listo para llenar** | **sí: su `ente/`** |
 
 **Y la diferencia no es de forma, es de función:** **aquí se discute qué es un primitivo; allá se pega uno y se trabaja.** **Una plantilla que obliga a leer la base antes de correr no es plantilla: es un examen.**
 
-**Si `entiendo/` y `primitivos/` se contradicen, gana `primitivos/`:** **la copia hereda de la base, no al revés.**
+**Si `entiendo/` y `base/` se contradicen, gana `base/`:** **la copia hereda de la base, no al revés.**
 
 ---
 
