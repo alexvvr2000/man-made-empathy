@@ -22,7 +22,7 @@
 
 ## La regla que se aplica aquí
 
-**Rige [`./sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd`](../sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd).**
+**Rige [`./sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md`](../sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md).**
 
 **Y el borde, que es el mismo:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **`Criterio: igual` en las cuatro, o no son mudas.**
 
@@ -46,7 +46,7 @@
 ```plaintext
 Muda:        mantis | Falta: [la de la tabla] | Piel nueva: [la tarea]
 Nombre:      [el de la tarea] | Termino: [Crear | Terminar | Cierra en]
-Conserva:    [el corte del .prs, y su .paso]
+Conserva:    [el corte del .prs, y su .md]
 Funde:       ninguna — es la primera piel
 Autoridad:   humano:autoridad
 Criterio:    igual

@@ -124,3 +124,95 @@ Se gasta:  [qué cambio del mundo lo deja viejo]
 - Un `RUTA` se gasta → **se gasta el del mundo, no el del alma; se reescribe, y se declara qué cambió.**
 - El alma no puede correr lo que el mundo ofrece → **se declara `Falta:`, y se sigue con lo que hay.**
 - En cualquier otro caso → **se lee, se ejecuta, y se deja el `.tra`.**
+
+---
+
+# (de RUTA.md)
+
+# RUTA.md — este mundo
+#
+# Lo que este mundo ya tiene. No es lo que el estándar exige: es lo que hay, y se usa.
+#
+# Y el piso se MIDE: cada capacidad declarada se prueba, y se dice con qué.
+# Lo que no pase la prueba no es capacidad: se declara no_puede.
+#
+# Las seis capacidades son estas, y ninguna nombra un lenguaje:
+#   leer · escribir · ejecutar · medir · fuera · entre_turnos
+#
+# Se llenan los corchetes. Lo que quede en blanco se declara en no_puede.
+
+"mundo: [dónde corre tu ente: la máquina, el sistema, o donde sea]\n"
+"capacidades: leer, escribir, ejecutar, medir\n"
+"con: [con qué las cumple: un lenguaje, un programa, una mano]\n"
+"prueba: [cómo se prueba cada una, y en qué se corrió]\n"
+"no_puede: fuera, entre_turnos\n"
+"se_gasta: [qué lo rompe: cambiar de máquina, de modelo o de intérprete]\n"
+
+# Y las dos que pueden faltar se dejan dichas, no olvidadas:
+#   fuera        traer algo que no estaba en el mundo
+#   entre_turnos que algo siga corriendo cuando el ente no lo mira
+#
+# Si tu mundo las tiene, se mueven a capacidades: y se ponen a prueba como las otras.
+
+---
+
+# (de RUTA.md)
+
+# RUTA.md — la regla: qué declara todo piso de un mundo
+#
+# Esta forma es la misma en todos los mundos. Si dos mundos tienen el mismo RUTA.md,
+# no son dos mundos. Este archivo no dice que hay en ningun mundo: dice que se declara.
+
+msgid ""
+msgstr ""
+"rige: RUTA.md\n"
+"forma: RUTA.md\n"
+"mundo: ninguno: es la regla, no un mundo\n"
+
+msgid "RUTA"
+msgstr "el mundo: cual es, y que lo distingue de otro"
+
+msgid "Procesos"
+msgstr "que corre en este mundo, y con que nombres"
+
+msgid "Falta"
+msgstr "que no puede correr este mundo, y que lo traeria"
+
+msgid "Escribe"
+msgstr "quien lo escribio: el que preparo el mundo | el alma al llegar"
+
+msgid "Se gasta"
+msgstr "que cambio del mundo lo deja viejo"
+
+msgid "ejecutor"
+msgstr "lo que corre un .prs: cualquiera que sepa leer sus cuatro campos. No nombra lenguaje: nombra capacidad"
+
+msgid "aqui_hoy"
+msgstr "lo que ESTE mundo tiene hoy, declarado como concreto y no como exigencia del estandar"
+
+msgid "archivos"
+msgstr "leer, escribir y mover archivos"
+
+msgid "terminal"
+msgstr "correr procesos"
+
+msgid "git"
+msgstr "el historial, y la vuelta a un estado"
+
+msgid "memoria"
+msgstr "donde queda el rastro, en texto"
+
+msgid "web"
+msgstr "consultar fuera del mundo, con costo"
+
+msgid "fondo"
+msgstr "si este mundo corre entre turnos, y quien lo para. Si no lo declara, no hay fondo"
+
+msgid "sin_fondo"
+msgstr "no hay proceso entre turnos: lo que no se corre ahora, no corre solo. No es carencia: un subagente dura lo que dura el pedido, y un alma no corre en background"
+
+msgid "se_muda"
+msgstr "el alma es la memoria: el rastro se lleva al mundo siguiente, y el ejecutor se vuelve a encontrar en el nuevo mundo"
+
+msgid "se_lee"
+msgstr "para leer un mundo, se lee su RUTA.md; para saber que debe declarar, se lee este RUTA.md"

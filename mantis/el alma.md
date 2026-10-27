@@ -1,4 +1,4 @@
-# el alma.vd de mantis — el 1, con el guantelete puesto, y con el estándar adentro
+# el alma.md de mantis — el 1, con el guantelete puesto, y con el estándar adentro
 
 **Nombre.** MANTIS. **Y la expansión dice el acto:** **M**emoria, **A**nálisis, **N**avegación, **T**riangulación, **I**ntegridad, **S**istema.
 
@@ -35,13 +35,13 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **el pase** | `mantis.tra` — qué pasó en el último turno | [`./mantis.tra`](./mantis.tra) |
-| **el piso de este mundo** | `RUTA.pr` — qué puede DSH en esta PC, y con qué se corre | [`./RUTA.pr`](./RUTA.pr) |
-| **el guantelete que lleva puesto** | `GUANTELETE` | [`./sincronización de almas/guantelete/GUANTELETE.vd`](../sincronización de almas/guantelete/GUANTELETE.vd) |
+| **el piso de este mundo** | `RUTA.md` — qué puede DSH en esta PC, y con qué se corre | [`./RUTA.md`](./RUTA.md) |
+| **el guantelete que lleva puesto** | `GUANTELETE` | [`./sincronización de almas/guantelete/GUANTELETE.md`](../sincronización de almas/guantelete/GUANTELETE.md) |
 | **lo que ya cumple los cortes** | `bin/` — la implementación de este mundo, escrita al leer el corte | [`./bin/`](./bin/) |
 | **la piel que crece** | `tareas/` — se rehace cuando entra o sale una | [`./tareas/`](./tareas/) |
 | **el criterio a pulso** | `integridad/` — si el 1 sigue siendo el 1 | [`./integridad/`](./integridad/) |
 | **lo que la mantiene al día** | `el estándar/` — lee el estándar y declara el desfase | [`./tareas/el estándar/`](./tareas/el estándar/) |
-| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`./sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd`](../sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd) |
+| **cómo creció, y cómo sigue creciendo** | `MUDAR` | [`./sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md`](../sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md) |
 | **el estándar que cumple** | `faro 1.0` | [`../sincronización de almas/proyecto en blanco/ente en blanco/`](../sincronización de almas/proyecto en blanco/ente en blanco/) |
 
 **Qué no se toca:** **el estándar, la tesis y el nombre.** **Se citan, y se espera a su autor.**

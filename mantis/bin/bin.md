@@ -25,8 +25,8 @@
 |---|---|---|
 | **el que corre** | `ejecutar.py` — lee el corte, y busca con qué cumplirlo | [`./ejecutar.py`](./ejecutar.py) |
 | **lo que ya cumplió** | `cero` · `candados` · `tesis` · `memoria` · `estandar` · `integridad` · `tareas` | `./*.py` |
-| **la regla: los cinco verbos** | `EJECUTOR` | `../../../sincronización de almas/el estandar/formacion/EJECUTOR.vd` |
-| **el mundo que las pidió** | `RUTA.pr` | [`../RUTA.pr`](../RUTA.pr) |
+| **la regla: los cinco verbos** | `EJECUTOR` | `../../../sincronización de almas/el estandar/formacion/EJECUTOR.md` |
+| **el mundo que las pidió** | `RUTA.md` | [`../RUTA.md`](../RUTA.md) |
 
 ## Ruta — la mente
 
@@ -34,7 +34,7 @@
 |---|---|---|
 | **correr una tarea** | `./ejecutar.py <tarea>` | **no se ejecuta** |
 | **ver cuáles cumplen** | `./ejecutar.py --verificar` | **no se declara que cumple** |
-| **escribir una implementación que falta** | `../RUTA.pr` y el corte de la tarea | **no se escribe: se declara `[SIN IMPLEMENTACION]`** |
+| **escribir una implementación que falta** | `../RUTA.md` y el corte de la tarea | **no se escribe: se declara `[SIN IMPLEMENTACION]`** |
 
 ## Carga — el pensamiento
 

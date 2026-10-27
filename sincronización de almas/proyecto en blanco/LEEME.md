@@ -14,9 +14,9 @@ proyecto en blanco/
 
 **Ojo: esto no se pega tal cual en un `AGENTS.md`.**
 
-**Lo que se pega es `ente en blanco/el alma.vd`, y se pega en un archivo que se llame `AGENTS.md`, en la raíz de tu proyecto.** **Ese archivo es la puerta: quien lo abra sabe qué hay, qué cargar, y qué se pierde si falta.**
+**Lo que se pega es `ente en blanco/el alma.md`, y se pega en un archivo que se llame `AGENTS.md`, en la raíz de tu proyecto.** **Ese archivo es la puerta: quien lo abra sabe qué hay, qué cargar, y qué se pierde si falta.**
 
-**Y el orden es:** **los tres corchetes del alma, después `RUTA.pr`, y al final la primera tarea.**
+**Y el orden es:** **los tres corchetes del alma, después `RUTA.md`, y al final la primera tarea.**
 
 ## Cuándo copiar la colmena
 

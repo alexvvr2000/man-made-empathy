@@ -1,4 +1,4 @@
-# memoria.vd — la memoria del alma
+# memoria.md — la memoria del alma
 
 **Nombre.** Memoria. La expansión dice el acto: **guardar la posición, no el hecho, para que otro la pueda reconstruir sin el que la escribió.**
 

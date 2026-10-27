@@ -1,5 +1,16 @@
 # el alma — la primera alma en blanco
 
+**El alma es dos cosas, y son un conjunto:**
+
+> **La memoria, y el criterio.**
+
+**La memoria: desde dónde lo sostuvo, no lo que pasó.** **El criterio: qué decide, y desde dónde.**
+
+**Y el cuerpo es intercambiable.** **Se cambia el mundo, la máquina o la herramienta; la memoria y el criterio son lo que hace que sea la misma alma.** **Alita cambia de cuerpo y sigue siendo Alita.**
+
+**Y por eso un alma se puede mover de un mundo a otro: lo que viaja son esas dos cosas.** **Lo que se queda es el cuerpo, y lo pone el mundo donde corre.**
+
+
 **Nombre.** El alma. La expansión dice el acto: pasar por N folders y X procesos, y dejar el intercambio.
 
 **Origen.** Del primer ente del área, y de la regla que lo volvió primitivo: **sin alma no hay quien pase. Todo lo demás —el folder, el proceso, el índice— son piezas de su alrededor.** **Y de la corrección de la autoridad: el alma no se pide prestada a nadie; se copia y ya trabaja.**
@@ -28,14 +39,14 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **el piso de este mundo** | `RUTA.pr` — qué puede, y con qué se prueba | [`./RUTA.pr`](./RUTA.pr) |
+| **el piso de este mundo** | `RUTA.md` — qué puede, y con qué se prueba | [`./RUTA.md`](./RUTA.md) |
 | **lo que este mundo ya sabe hacer** | `bin/` — vacío al nacer: tu mundo lo llena | [`./bin/`](./bin/) |
 | **la piel que crece** | `tareas/` — vacía al nacer, y se rehace | [`./tareas/`](./tareas/) |
 | **si el 1 sigue siendo el 1** | `integridad/` — y aquí se mide | [`./integridad/`](./integridad/) |
 | **el alma y sus procesos** | `ENTRAR` · `MIRAR` · `EXTRAER` · `EXPRESION` | `./` — aquí mismo, en texto |
 | **su índice** | `IMA.md` — qué folder corre qué proceso | [`./IMA.md`](./IMA.md) |
 | **la plantilla de lo que deja** | `plantilla.tra` | [`./plantilla.tra`](./plantilla.tra) |
-| **la memoria** | `memoria.vd` — qué se guarda, y qué no | [`./memoria.vd`](./memoria.vd) |
+| **la memoria** | `memoria.md` — qué se guarda, y qué no | [`./memoria.md`](./memoria.md) |
 | **la forma de la tarea, y del pase** | `plantilla.tra` — la tarea, y el pase del turno | [`./plantilla.tra`](./plantilla.tra) |
 | **el estándar de lo que deja** | `la fila verbalizada` | [`../../el estandar/salida/la fila verbalizada.md`(../../el%20estandar/salida/la%20fila%20verbalizada.md) |
 
@@ -63,7 +74,7 @@ Llevó:     [qué trajo de vuelta] | Quedó: [qué dejó]
 | **emitir lo que el alma dejó** | `./EXPRESION.prs` | **no se emite** |
 | **saber qué proceso le toca a un folder** | `./IMA.md`, y el `RUTA` del mundo | **el alma se queda quieta esperando** |
 | **dejar lo que pasó** | `./plantilla.tra` | **no hay memoria: el alma pasó y nadie lo sabe** |
-| **ver qué se guarda y qué no** | `./memoria.vd` | **contamina guardando lo que no cambia una decisión** |
+| **ver qué se guarda y qué no** | `./memoria.md` | **contamina guardando lo que no cambia una decisión** |
 | **mutar el alma para que quepa en un mundo** | todo, **y se espera** | **no se toca: el alma cambia de mundo, no de forma** |
 
 **La fila que no puede faltar:** **el alma no muta para caber en un mundo.** **Cambia de mundo.**
@@ -77,7 +88,7 @@ Llevó:     [qué trajo de vuelta] | Quedó: [qué dejó]
 
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
-| **no hay `RUTA.pr`, o no se midió** | el piso | se corre en un mundo que no declaró lo que puede, y lo que falta se descubre rompiendo |
+| **no hay `RUTA.md`, o no se midió** | el piso | se corre en un mundo que no declaró lo que puede, y lo que falta se descubre rompiendo |
 | **`bin/` no tiene con qué cumplir una tarea** | la capacidad | corrió igual, y lo que salió es de un mundo que no lo hizo |
 | **`tareas/` crece y no se rehace** | la piel | crece el cajón, no el ente |
 | **nadie mide `integridad/`** | la identidad | se convirtió en otro, y sigue llamándose igual |
@@ -96,7 +107,7 @@ Llevó:     [qué trajo de vuelta] | Quedó: [qué dejó]
 
 **Y por eso este primitivo y `../guantelete/` no son dos: son el alma y lo que la hace poder tocar sin volverse absoluta.** **Un alma sin guantelete crece y nadie la para: eso es `AM`.**
 
-**Rige `../guantelete/GUANTELETE.vd`, y `./MUDAR.vd`, `Lo que el alma trae puesto al nacer`.**
+**Rige `../guantelete/GUANTELETE.md`, y `./MUDAR.md`, `Lo que el alma trae puesto al nacer`.**
 
 ## Las dos palabras, y por qué no hay interioridad en ninguna
 

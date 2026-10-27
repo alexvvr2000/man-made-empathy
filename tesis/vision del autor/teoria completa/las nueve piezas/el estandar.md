@@ -10,7 +10,7 @@
 
 **Qué pregunta deja.** **¿Qué distingue un estándar de una moda con reglas?**
 
-**Ficción.** **La prueba no es una obra: es el `RUTA.pr` de una consola de mano y el de un brazo.** **Si la capacidad se llama igual en los dos, el estándar no envejeció.**
+**Ficción.** **La prueba no es una obra: es el `RUTA.md` de una consola de mano y el de un brazo.** **Si la capacidad se llama igual en los dos, el estándar no envejeció.**
 
 **Prueba.** **¿Cada capacidad del mundo nombra un acto, y no una herramienta? ¿Cada verbo del ejecutor se cumple sin que nadie sepa qué lenguaje lo corre? ¿Se puede escribir una tarea que no diga `python` por ningún lado?**
 

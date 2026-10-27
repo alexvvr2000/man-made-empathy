@@ -3,7 +3,7 @@
 """bin/ - lo que ESTE mundo ya tiene para correr un .prs.
 
 No es el estandar: es lo concreto. Python esta aqui porque esta maquina lo tiene.
-Un mundo que tenga otra cosa pone la suya en su bin/, y declara cual en su RUTA.pr.
+Un mundo que tenga otra cosa pone la suya en su bin/, y declara cual en su RUTA.md.
 
 No sabe que hace ningun proceso: lee sus cuatro campos, y lo corre.
 

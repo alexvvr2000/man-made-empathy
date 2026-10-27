@@ -119,7 +119,7 @@ EXPRESAR.prs   ok
 EXTRAER.prs    [IMPLÍCITO - SIN LÍMITE]
 Leyendo 3 entes...
 el alma.am     ok
-el alma.vd      [FANTASMA - FALTA CARGA]
+el alma.md      [FANTASMA - FALTA CARGA]
 ```
 
 **Por qué importa.** Un sistema que solo mide cumplimiento no puede ver la costumbre. Un validador no juzga la idea: dice qué marca falta. Y eso es lo que hace visible el implícito.

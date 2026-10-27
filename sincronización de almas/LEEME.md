@@ -18,6 +18,20 @@
 
 ---
 
+## Las tres extensiones, y nada más
+
+| | Qué es |
+|---|---|
+| **`.md`** | **lo que se lee: la carta, el piso, la teoría** |
+| **`.prs`** | **el proceso: qué entra, qué sale** |
+| **`.tra`** | **el rastro: qué pasó** |
+
+**Y ninguna es un lenguaje.** **`.py` es de Python, y Python es uno de mil.** **Este sistema no pide ninguno.**
+
+**Si tu mundo cumple un proceso con código, lo pone en `bin/`, y lo dice.** **Si lo cumple con la mano, también.** **El sistema no pregunta con qué: pregunta qué se puede contestar.**
+
+---
+
 ## Qué vas a hacer
 
 **Cuatro pasos, y el primero es copiar.**

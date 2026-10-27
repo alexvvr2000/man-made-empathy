@@ -377,10 +377,10 @@ GUANTELETE            CONVIVIR                        RUTA
 |---|---|---|
 | **`GUANTELETE`** | **qué se puede tocar, y quién lo va a ver** | `sincronización de almas/guantelete/` |
 | **`EQUILIBRIO`** | **las seis gemas y su peso: el guante no da herramientas, dice qué se equilibra, y te hace pensar desde que empiezas** | `0/relacion/EQUILIBRIO.md` |
-| **`ENSAYAR`** | **el verbo tercero: el niño mira antes de agarrar.** Una tarea que no dice qué toca, no corre | `0/formacion/EJECUTOR.vd` |
+| **`ENSAYAR`** | **el verbo tercero: el niño mira antes de agarrar.** Una tarea que no dice qué toca, no corre | `0/formacion/EJECUTOR.md` |
 | **`JURAR`** | **no es parar, es frenar:** el que se detiene dice qué le falta y a quién espera | `0/friccion/JURAR.prs` |
-| **el piso** | **lo que un mundo declara, y se le mide.** Ninguna capacidad nombra lenguaje | `0/formacion/PISO.vd` |
-| **el ejecutor** | **seis verbos, y ninguno nombra lenguaje:** `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE` | `0/formacion/EJECUTOR.vd` |
+| **el piso** | **lo que un mundo declara, y se le mide.** Ninguna capacidad nombra lenguaje | `0/formacion/PISO.md` |
+| **el ejecutor** | **seis verbos, y ninguno nombra lenguaje:** `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE` | `0/formacion/EJECUTOR.md` |
 | **`COLMENA`** | **una colmena que no se vuelve `AM`:** un sesgo en el 1, y cada alma diciendo dónde está | `0/relacion/COLMENA.md` |
 | **`ALAS`** | **el lugar entre hablarle a un humano y a un modelo:** cuatro letras, y el alma de niño | `0/salida/ALAS.md` |
 | **el ente en blanco** | **la plantilla que se pega en cualquier proyecto:** tres corchetes, y corre | `sincronización de almas/` |

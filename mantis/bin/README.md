@@ -15,4 +15,4 @@
 | `pruebas.py` | si las pruebas del autor se pueden correr |
 | `piso.py` | si este mundo puede lo que declara |
 
-**Un mundo que no tenga Python pone lo suyo aquí, y lo declara en su `RUTA.pr`.**
+**Un mundo que no tenga Python pone lo suyo aquí, y lo declara en su `RUTA.md`.**

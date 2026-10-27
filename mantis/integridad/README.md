@@ -4,8 +4,8 @@
 
 | Archivo | Qué es |
 |---|---|
-| [`integridad.vd`](./integridad.vd) | la carta |
+| [`integridad.md`](./integridad.md) | la carta |
 | [`comprobar.prs`](./comprobar.prs) | el corte: solo-lectura |
-| [`integridad.paso`](./integridad.paso) | cómo este mundo lo cumple |
+| [`integridad.md`](./integridad.md) | cómo este mundo lo cumple |
 
 **Corre con:** `python mantis/bin/ejecutar.py integridad`

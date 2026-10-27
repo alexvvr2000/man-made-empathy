@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 """piso — mide un mundo: qué declara, y qué puede de verdad.
 
-No le cree a la prosa. Lee el RUTA.pr, y prueba cada capacidad declarada
+No le cree a la prosa. Lee el RUTA.md, y prueba cada capacidad declarada
 con algo que se pueda hacer aquí y ahora. Lo que no pasa la prueba no es
 una capacidad: se declara no_puede.
 
 Uso:
     python piso.py                 mide el mundo de este ente
-    python piso.py --ruta <b>      mide el mundo declarado en otro RUTA.pr
+    python piso.py --ruta <b>      mide el mundo declarado en otro RUTA.md
 
 Sale 0 si todas las capacidades declaradas pasaron su prueba, 1 si alguna fallo.
 """
@@ -85,10 +85,10 @@ def prueba_leer(ruta_pr):
     try:
         texto = leer(ruta_pr)
     except OSError as e:
-        return False, "no se pudo leer el RUTA.pr: " + str(e)
+        return False, "no se pudo leer el RUTA.md: " + str(e)
     if "mundo:" not in texto:
         return False, "leido, pero no dice de que mundo es"
-    return True, "leyo el RUTA.pr ({} bytes)".format(len(texto))
+    return True, "leyo el RUTA.md ({} bytes)".format(len(texto))
 
 
 def prueba_escribir(carpeta):
@@ -167,11 +167,11 @@ PRUEBAS = {
 
 
 def main(argv):
-    ruta_pr = os.path.join(ENTE, "RUTA.pr")
+    ruta_pr = os.path.join(ENTE, "RUTA.md")
     if "--ruta" in argv:
         i = argv.index("--ruta")
         if i + 1 >= len(argv):
-            print("[FALTA] --ruta quiere un RUTA.pr")
+            print("[FALTA] --ruta quiere un RUTA.md")
             return 1
         ruta_pr = argv[i + 1]
 

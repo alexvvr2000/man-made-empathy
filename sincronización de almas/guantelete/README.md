@@ -4,7 +4,7 @@
 
 | Archivo | Qué es |
 |---|---|
-| [`GUANTELETE.vd`](./GUANTELETE.vd) | la carta: el guante no limita, permite y hace contestable lo permitido |
+| [`GUANTELETE.md`](./GUANTELETE.md) | la carta: el guante no limita, permite y hace contestable lo permitido |
 | [`IMA.md`](./IMA.md) | el índice: qué pedido va a qué herramienta |
 | [`herramientas/`](./herramientas/) | las siete: sostener, fricción, componer, aplicar, mutar, retirar, invertir |
 

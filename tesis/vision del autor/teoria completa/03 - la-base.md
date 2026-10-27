@@ -8,7 +8,7 @@
 
 ## 03.1 El alma, y por qué es el primitivo
 
-*De `alma en blanco/el alma.vd`.*
+*De `alma en blanco/el alma.md`.*
 
 > **Sin alma no hay quien pase. Todo lo demás —el folder, el proceso, el índice— son piezas de su alrededor.**
 
@@ -22,7 +22,7 @@
 
 ## 03.2 El guantelete: lo que el alma trae puesto
 
-*De `alma en blanco/guantelete/GUANTELETE.vd`.*
+*De `alma en blanco/guantelete/GUANTELETE.md`.*
 
 > **El alma nace con el guantelete puesto.** **No se instala después. Se lleva desde el principio.**
 
@@ -42,7 +42,7 @@
 
 ## 03.3 La memoria: la posición, y no el hecho
 
-*De `alma en blanco/memoria.vd`.*
+*De `alma en blanco/memoria.md`.*
 
 > **Guardar la posición, no el hecho, para que otro la pueda reconstruir sin el que la escribió.**
 
@@ -54,7 +54,7 @@
 
 ## 03.4 MUDAR: cómo crece un alma, y dónde deja de crecer
 
-*De `alma en blanco/MUDAR.vd`.*
+*De `alma en blanco/MUDAR.md`.*
 
 > **Un alma no añade cajones al crecer: muda de piel.** **Lo que le quedaba chico se cae, lo que sirve se queda pegado, y el alma sigue siendo la misma.**
 
@@ -85,7 +85,7 @@
 
 ## 03.6 El piso: lo que un mundo declara, y cómo se le mide
 
-*De `3 el piso/RUTA.md` y `3 el piso/RUTA.rt`.*
+*De `3 el piso/RUTA.md` y `3 el piso/RUTA.md`.*
 
 **El piso es uno por mundo, y es lo primero que se lee al llegar.**
 

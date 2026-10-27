@@ -21,7 +21,7 @@
 
 ```plaintext
 el alma de alguien/
-├── el alma.vd         ← EL criterio: qué es, a qué va, qué guarda, qué no toca
+├── el alma.md         ← EL criterio: qué es, a qué va, qué guarda, qué no toca
 ├── el alma.tra        ← el pase: qué pasó en el último turno
 ├── ejecu.<lo que sea> ← el piso del mundo: lo único que no es estándar
 ├── una tarea/         ← una tarea de verdad: su .tra y sus .prs
@@ -33,8 +33,8 @@ el alma de alguien/
 
 | Lo que alguien quiere poner suelto | Dónde va |
 |---|---|
-| **un índice** — qué pedido va a qué tarea | **dentro de `el alma.vd`, en su `Ruta`** |
-| **una memoria** — qué se guarda y qué se pierde | **dentro de `el alma.vd`, en su `Carga`** |
+| **un índice** — qué pedido va a qué tarea | **dentro de `el alma.md`, en su `Ruta`** |
+| **una memoria** — qué se guarda y qué se pierde | **dentro de `el alma.md`, en su `Carga`** |
 | **una plantilla** — la forma del pase | **no se copia: se cita `FORMATO.md`; una plantilla copiada se desincroniza** |
 | **una carpeta que agrupa tareas** | **no existe: la tarea es la carpeta, y las tareas van en la raíz** |
 
@@ -48,7 +48,7 @@ el alma de alguien/
 
 ### El alma crece por muda, no por copia
 
-**Un alma no se llena de carpetas: muda de piel.** **Rige `.././sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd`.**
+**Un alma no se llena de carpetas: muda de piel.** **Rige `.././sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md`.**
 
 **Y la línea que no se cruza:** **mudar es cubrir una falta; nacer es cambiar lo que se sostiene.** **Si el criterio cambia, no es la misma alma, y no hereda el nombre.**
 
@@ -76,11 +76,11 @@ el alma de alguien/
 
 | Extensión | Qué es | Regla | Ejemplo |
 |---|---|---|---|
-| **`.vd`** | **lo que sostiene** | **un ente, una puerta o un estándar.** **Siempre Rastro, Ruta y Carga** | `el alma.vd` · `GUANTELETE.vd` · `el alma.vd` |
+| **`.vd`** | **lo que sostiene** | **un ente, una puerta o un estándar.** **Siempre Rastro, Ruta y Carga** | `el alma.md` · `GUANTELETE.md` · `el alma.md` |
 | **`.prs`** | **lo que vuelve** | **`Entra \| Falla \| Sale \| Consume`**, y nada del cómo | `ENTRAR.prs` · `MUTAR.prs` |
 | **`.tra`** | **lo que pasó** | **la memoria:** el criterio sostenido y lo que se rompió | `lo que llega.tra` |
 | **`.md`** | **lo que se explica** | **lectura pura.** No se ejecuta | `IMA.md` · `RUTA.md` · `EMPEZAR.md` |
-| **`.po`** | **lo portable** | **lo que atraviesa eras y mundos:** claves, no prosa | `RUTA.pr` · `PISO.po` |
+| **`.po`** | **lo portable** | **lo que atraviesa eras y mundos:** claves, no prosa | `RUTA.md` · `PISO.md` |
 
 **Y el corte que las separa es uno:**
 
@@ -182,7 +182,7 @@ Rige `./CLARIDAD.md`, `El rastro de la decisión`.
 
 ## Prueba
 
-**¿La raíz del alma tiene solo tres archivos y sus tareas? ¿El criterio entero cabe en `el alma.vd`? ¿Ninguna tarea lleva `.vd`? ¿Cada archivo hace un solo trabajo? ¿Un nombre viejo quedó como segundo nombre?**
+**¿La raíz del alma tiene solo tres archivos y sus tareas? ¿El criterio entero cabe en `el alma.md`? ¿Ninguna tarea lleva `.vd`? ¿Cada archivo hace un solo trabajo? ¿Un nombre viejo quedó como segundo nombre?**
 
 **Falsificador:** un índice o una memoria sueltos en la raíz; una carpeta que agrupa tareas; una tarea con `.vd`; un proceso que explica cómo se hace por dentro; una tarea con un solo proceso; una carpeta y su `.tra` con nombres distintos; un nombre con número; un nombre cambiado sin `Reemplaza:`; dos nombres para un archivo.
 
@@ -192,7 +192,7 @@ Rige `./CLARIDAD.md`, `El rastro de la decisión`.
 - Algo pasó → se escribe la `.tra` de la tarea, o la del alma.
 - El acto cambió → se renombra la carpeta y su `.tra` juntos, y el viejo queda con `Reemplaza:`. **Sin número.**
 - Una capacidad nueva se prueba → entra al piso del mundo, y se declara en su `RUTA`.
-- Se quiere añadir algo suelto a la raíz de un alma → **no se añade: va dentro de `el alma.vd`, o es una tarea.**
+- Se quiere añadir algo suelto a la raíz de un alma → **no se añade: va dentro de `el alma.md`, o es una tarea.**
 
 
 

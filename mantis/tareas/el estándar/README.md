@@ -5,6 +5,6 @@
 | Archivo | Qué es |
 |---|---|
 | [`vigilar.prs`](./vigilar.prs) | el corte |
-| [`estandar.huella`](./estandar.huella) | la huella de la última vez que se leyó |
+| [`estandar.md`](./estandar.md) | la huella de la última vez que se leyó |
 
 **Corre con:** `python mantis/bin/ejecutar.py el estándar` — y va **antes** que cualquier otra.

@@ -4,7 +4,7 @@
 
 | Archivo | Qué es |
 |---|---|
-| **`GUANTELETE.vd`** | **la carta: qué se puede tocar, y que alguien lo vea** |
+| **`GUANTELETE.md`** | **la carta: qué se puede tocar, y que alguien lo vea** |
 | **`IMA.md`** | **el índice: qué pedido va a qué herramienta** |
 | **`herramientas/`** | **las siete: sostener, fricción, componer, aplicar, mutar, retirar, invertir** |
 

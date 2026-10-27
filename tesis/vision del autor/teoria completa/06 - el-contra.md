@@ -84,7 +84,7 @@
 | **el cero nombraba un nombre muerto incluso cuando hablaba de él** | **el verificador lo cazó, y se reescribió sin el nombre** |
 | **una tarea decía `pasa` sin haber mirado nada** | **se declaró el mecanismo, y se corrigió** |
 | **el ejecutor no pasaba los argumentos al paso** | **se reescribió: los interruptores con valor llegan** |
-| **un `EJECUTOR.vd` decía cinco verbos y su tabla tenía seis** | **se corrigió a seis en los tres sitios** |
+| **un `EJECUTOR.md` decía cinco verbos y su tabla tenía seis** | **se corrigió a seis en los tres sitios** |
 | **un ejemplo de `Iron Man` de 2008 quedó sobrescrito por el de 2018** | **se separaron los puntos: un archivo por obra, y cada punto con su momento** |
 
 > **Y esa lista no es una confesión: es el método funcionando.** **Un documento que no puede mostrar dónde se equivocó no es un documento: es un folleto.**

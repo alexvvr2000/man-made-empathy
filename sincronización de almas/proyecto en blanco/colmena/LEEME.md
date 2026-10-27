@@ -10,7 +10,7 @@
 
 | | Qué es |
 |---|---|
-| **`el 1.vd`** | **el acuerdo, el registro de talentos, y las tres respuestas. El único que se mira** |
+| **`el 1.md`** | **el acuerdo, el registro de talentos, y las tres respuestas. El único que se mira** |
 | **`nacer.prs`** | **la falta nombrada, y el ente que la cubre** |
 | **`resonancia/`** | **entre dos, porque se pide. Entre muchos, porque el 1 la sostiene** |
 
@@ -41,7 +41,7 @@
 
 ## Cómo se usa
 
-**1. Llena `el 1.vd`:** **su acuerdo, y su firma.**
+**1. Llena `el 1.md`:** **su acuerdo, y su firma.**
 **2. Registra el primer talento de verdad:** **el que aguantó, con su modo de falla.**
 **3. Cuando algo falte, corre `nacer.prs`:** **la falta con nombre, y el ente que la cubre.**
 **4. Y cuando dos se vayan a juntar, abre `resonancia/`:** **se firma antes, no después.**

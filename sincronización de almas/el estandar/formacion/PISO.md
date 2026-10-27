@@ -1,7 +1,7 @@
 # el piso — qué declara un mundo, y cómo se comprueba
 
 **Nombre.** EL PISO. **El nombre dice el acto:** **un mundo no dice lo que puede: dice lo que puede, y se le mide antes de creerle.**
-**Reemplaza:** la prosa de `RUTA.pr`. **Conserva lo que decía, y le quita lo que no se puede comprobar.**
+**Reemplaza:** la prosa de `RUTA.md`. **Conserva lo que decía, y le quita lo que no se puede comprobar.**
 
 **Unidad:** pieza.
 **Aplica a:** declarar y comprobar.
@@ -25,7 +25,7 @@
 
 | # | Capacidad | Qué significa, sin decir cómo | Prueba mínima |
 |---|---|---|---|
-| **1** | **`leer`** | traer el contenido de algo que ya existía | leer el propio `RUTA.pr`, y que coincida con lo que se declaró |
+| **1** | **`leer`** | traer el contenido de algo que ya existía | leer el propio `RUTA.md`, y que coincida con lo que se declaró |
 | **2** | **`escribir`** | dejar algo que otro pueda leer después | escribir un archivo, y volver a leerlo igual |
 | **3** | **`ejecutar`** | que algo corra, y que devuelva si salió bien | correr un paso que diga `ok`, y recibir `ok` |
 | **4** | **`medir`** | contar el tiempo, lo que cuesta, o cuántas veces | medir la prueba de arriba, y que dé un número |
@@ -70,7 +70,7 @@ se_gasta:         [qué cambio del mundo lo deja viejo]
 
 **Y lo que no declara, no existe.** **Si el ente pide una capacidad que el piso no declara, es `[FALTA EN EL PISO]`, y no corre.** **No se supone: se dice.**
 
-**Por qué esto importa, y es la misma razón de `NEGARSE` en [`EJECUTOR`](./EJECUTOR.vd):** **un piso a medias no falla cuando algo sale mal: falla cuando algo sale bien, y entonces nadie lo puede volver a producir porque el mundo no tenía con qué.**
+**Por qué esto importa, y es la misma razón de `NEGARSE` en [`EJECUTOR`](./EJECUTOR.md):** **un piso a medias no falla cuando algo sale mal: falla cuando algo sale bien, y entonces nadie lo puede volver a producir porque el mundo no tenía con qué.**
 
 **Un mundo con el piso a medias admite opiniones. No admite entes.**
 

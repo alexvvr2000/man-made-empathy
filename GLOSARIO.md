@@ -20,9 +20,9 @@
 | Término | Qué es, en una línea | Dónde vive su definición |
 |---|---|---|
 | **BASE** | **la carpeta de los dos primitivos: lo que se lee para entender, y no se copia para usar** | `sincronización de almas/1 el alma/` |
-| **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronización de almas/proyecto en blanco/ente en blanco/el alma.vd` |
-| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/guantelete/GUANTELETE.vd` |
-| **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.vd` |
+| **el alma en blanco** | **lo que corre: pasa por folders y deja `.tra`** | `sincronización de almas/proyecto en blanco/ente en blanco/el alma.md` |
+| **el guantelete** | **lo que permite, y hace contestable lo permitido** | `sincronización de almas/guantelete/GUANTELETE.md` |
+| **MUDAR** | **cómo crece un alma: cubre una falta, y es un ciclo** | `sincronización de almas/proyecto en blanco/ente en blanco/MUDAR.md` |
 
 **Y lo que el alma trae puesto:** **el guantelete no se consulta: lo lleva.** **Un alma sin guantelete crece y nadie la para: eso es `AM`.**
 
@@ -32,14 +32,14 @@
 
 | Término | Qué es | Dónde |
 |---|---|---|
-| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/proyecto en blanco/ente en blanco/el alma.vd` |
-| **EL PISO** | **qué declara un mundo, y cómo se mide: seis capacidades, ninguna con nombre de lenguaje** | `0/formacion/PISO.vd` |
-| **RUTA.rt** | **la regla portable: qué declara todo piso** | `sincronización de almas/proyecto en blanco/ente en blanco/RUTA.rt` |
-| **RUTA.pr** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.pr` |
+| **FARO 1.0** | **la biblioteca: los lenguajes que se escriben sobre la base** | `sincronización de almas/proyecto en blanco/ente en blanco/el alma.md` |
+| **EL PISO** | **qué declara un mundo, y cómo se mide: seis capacidades, ninguna con nombre de lenguaje** | `0/formacion/PISO.md` |
+| **RUTA.md** | **la regla portable: qué declara todo piso** | `sincronización de almas/proyecto en blanco/ente en blanco/RUTA.md` |
+| **RUTA.md** | **un mundo concreto, y lo que tiene** | `mantis/RUTA.md` |
 | **IMA** | **el índice: qué pedido va a qué tarea** | el `IMA.md` de cada ente |
-| **EJECUTOR** | **los seis verbos con que se cumple un corte: `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
+| **EJECUTOR** | **los seis verbos con que se cumple un corte: `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.md` |
 | **EQUILIBRIO** | **las seis gemas y su peso: el guante no da herramientas, dice qué se equilibra. Te hace pensar desde que empiezas** | `0/relacion/EQUILIBRIO.md` |
-| **ENSAYAR** | **el verbo tercero: mirar antes de agarrar. Sin modo declarado, no se corre** | `0/formacion/EJECUTOR.vd` |
+| **ENSAYAR** | **el verbo tercero: mirar antes de agarrar. Sin modo declarado, no se corre** | `0/formacion/EJECUTOR.md` |
 | **DAR VOZ** | **el proceso del que habla por quien no puede, y que no cierra sin declarar el efecto. Su figura es Martian Manhunter** | `0/friccion/DAR VOZ.prs` |
 | **JURAR** | **cuando frena, dice qué le falta y a quién espera: no es parar** | `0/friccion/JURAR.prs` |
 | **alma de niño** | **la función de poder estar equivocado sin romperse, y de mirar antes de agarrar** | `0/salida/ALAS.md` · candado `336` |
@@ -48,7 +48,7 @@
 | **RESONANCIA · COLMENA · TALENTO** | **cómo se afinan dos, muchos, y quién sirve** | `0/relacion/` |
 | **ALAS · VIGA · CONVIVIR · CONTEXTO · RESULTADOS · la fila verbalizada** | **qué se deja en el otro** | `0/salida/` |
 | **LO HUMANO** | **el lugar que se deja en blanco a propósito** | `faro 1.0/LO HUMANO.md` |
-| **MANTIS** | **el ente de este repositorio: el 1 con el guantelete puesto** | `mantis/el alma.vd` |
+| **MANTIS** | **el ente de este repositorio: el 1 con el guantelete puesto** | `mantis/el alma.md` |
 
 ---
 
@@ -76,7 +76,7 @@
 | **VIDEL** | **CONVIVIR** | el mismo estándar, sin el nombre heredado |
 | **EXPANDE** | **(nada: no llegó a existir)** | se citó antes de tener cuerpo |
 | **el alma `.am`** | **el alma `.vd`** | el alma no es una extensión: es un ente |
-| **`sincronización de almas/proyecto en blanco/ente en blanco/RUTA.po`** | **`RUTA.rt` y `RUTA.pr`** | `.po` era traducción; esto es el piso de un mundo |
+| **`sincronización de almas/proyecto en blanco/ente en blanco/RUTA.md`** | **`RUTA.md` y `RUTA.md`** | `.po` era traducción; esto es el piso de un mundo |
 | **`mantis/ejecu.py`** | **`mantis/bin/`** | lo que corre es del mundo, no del ente |
 
 **Y lo que no se puede usar como si existiera:** **ninguno de la columna izquierda, salvo en su propio `Reemplaza:`, o en este glosario.**
@@ -90,7 +90,7 @@
 | **el ente** — cuando es un alma, o un ente del estándar | *la entidad*, *el sistema* |
 | **la pieza** — cuando es una parte de un ente | *el módulo*, *el componente* |
 | **la tarea** — una carpeta con su `.tra` y sus `.prs` | *el folder* cuando es una tarea |
-| **el mundo** — lo que un `RUTA.pr` declara | *el entorno*, *la plataforma* |
+| **el mundo** — lo que un `RUTA.md` declara | *el entorno*, *la plataforma* |
 | **la era** — lo que caduca: el lenguaje, la herramienta, la versión | *la época* |
 | **el criterio** — lo que sostiene una decisión, y no la máquina que la corre | *la inteligencia*, *el modelo* |
 

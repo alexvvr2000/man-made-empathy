@@ -77,7 +77,7 @@ y espero: …
 
 **Y lo que esto le dice a un alienígena, o a una inteligencia que no se parece a nada de esto:** **no le vas a explicar tus ceremonias, y no hace falta.** **Le vas a decir qué vas a tocar, y si no lo sabes, no lo tocas.** **Eso se entiende sin idioma.**
 
-**Rige [`../formacion/EJECUTOR.vd`](../formacion/EJECUTOR.vd), `ENSAYAR`:** **el verbo tercero, antes de `CORRER`.** **La regla es la misma vista desde dos lados: aquí desde el que siente, allá desde el que la corre.**
+**Rige [`../formacion/EJECUTOR.md`](../formacion/EJECUTOR.md), `ENSAYAR`:** **el verbo tercero, antes de `CORRER`.** **La regla es la misma vista desde dos lados: aquí desde el que siente, allá desde el que la corre.**
 
 ## La forma de un protocolo
 

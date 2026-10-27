@@ -34,7 +34,7 @@ def existe_en_repo(nombre, raiz):
     for r, d, files in os.walk(raiz):
         d[:] = [x for x in d if x not in (".git", ".memoria continua", "__pycache__")]
         for f in files:
-            if not f.endswith((".md", ".vd", ".prs", ".tra", ".po", ".py")):
+            if not f.endswith((".md", ".md", ".prs", ".tra", ".md", ".py")):
                 continue
             try:
                 if nombre in leer(os.path.join(r, f)):

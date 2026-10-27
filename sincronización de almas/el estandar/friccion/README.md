@@ -9,4 +9,4 @@
 | [`JONN.md`](./JONN.md) | el recordatorio de que un candado se abre |
 | [`GUANTELETE.prs`](./GUANTELETE.prs) | el acto que toca lo que otro sostiene |
 | [`DAR VOZ.prs`](./DAR%20VOZ.prs) | el que habla por quien no puede |
-| [`PISO.po`](./PISO.po) | el piso, portable |
+| [`PISO.md`](./PISO.md) | el piso, portable |

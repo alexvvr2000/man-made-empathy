@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """El paso del folder 'la memoria': deja el pase, con sus seis partes.
 
-La memoria suplanta: la .tra anterior se mueve a .suplantada, y la nueva
+La memoria suplanta: la .tra anterior se mueve a .md, y la nueva
 queda visible. No se edita: se reemplaza y lo viejo sigue ahi.
 """
 import os
@@ -13,7 +13,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 
 TRA = os.path.join(MANTIS, "tareas", "la memoria", "la memoria.tra")
-VIEJA = os.path.join(MANTIS, "tareas", "la memoria", "la memoria.suplantada")
+VIEJA = os.path.join(MANTIS, "tareas", "la memoria", "la memoria.md")
 
 
 def leer(p):
@@ -36,7 +36,7 @@ def main():
         "**Nombre:** la memoria\n"
         "**Expande:** recordar.prs\n"
         "**Se nombró:** {ahora}\n"
-        "**Reemplaza:** la entrada anterior, visible en la memoria.suplantada\n"
+        "**Reemplaza:** la entrada anterior, visible en la memoria.md\n"
         "**Miente si:** se dice que el turno cerro y no hubo pase\n\n"
         "**Sostuvo:**     [lo que quedo vigente]\n"
         "**Se rompió:**   [que fallo, y que lo detecto]\n"

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """El paso de 'el estandar': dice si faro 1.0 cambio desde la ultima corrida.
 
-Guarda una huella del estandar en estandar.huella, y la compara.
+Guarda una huella del estandar en estandar.md, y la compara.
 Si cambio, sale DESFASADO y no se sigue.
 """
 import hashlib
@@ -12,9 +12,9 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.environ.get("MANTIS_REPO") or os.path.abspath(os.path.join(MANTIS, ".."))
-ESTANDAR = os.path.join(REPO, "sincronización de almas", "2 el idioma")
+ESTANDAR = os.path.join(REPO, "sincronización de almas", "el estandar")
 BASE = os.path.join(REPO, "sincronización de almas", "1 el alma", "alma en blanco")
-HUELLA = os.path.join(MANTIS, "tareas", "el estándar", "estandar.huella")
+HUELLA = os.path.join(MANTIS, "tareas", "el estándar", "estandar.md")
 
 
 def huella(raices):
@@ -26,7 +26,7 @@ def huella(raices):
         for r, d, f in os.walk(raiz):
             d[:] = sorted(x for x in d if x not in ("__pycache__",))
             for x in sorted(f):
-                if not x.endswith((".md", ".vd", ".prs", ".po", ".tra")):
+                if not x.endswith((".md", ".md", ".prs", ".md", ".tra")):
                     continue
                 p = os.path.join(r, x)
                 with open(p, "rb") as fh:

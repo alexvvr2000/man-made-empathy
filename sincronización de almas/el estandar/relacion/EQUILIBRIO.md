@@ -123,7 +123,7 @@ Gemas:     [cuáles de los seis límites] | Rastro: [dónde quedó] | Deshecho: 
 
 **No da el procedimiento.** **Eso es `herramientas/`, y su pregunta es otra: cómo se hace.**
 
-**No da el verbo que se niega.** **Eso es `ENSAYAR`, en `0/formacion/EJECUTOR.vd`: el ejecutor es el que puede negarse; el guante dice qué permitir.**
+**No da el verbo que se niega.** **Eso es `ENSAYAR`, en `0/formacion/EJECUTOR.md`: el ejecutor es el que puede negarse; el guante dice qué permitir.**
 
 ## Prueba
 

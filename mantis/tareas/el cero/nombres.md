@@ -40,8 +40,8 @@ alma de niño
 
 | Nombre | Qué es | De dónde |
 |---|---|---|
-| **`PISO`** | qué declara un mundo, y cómo se mide | `0/formacion/PISO.vd` |
-| **`ENSAYAR`** | el verbo tercero: mirar antes de agarrar | `0/formacion/EJECUTOR.vd` |
+| **`PISO`** | qué declara un mundo, y cómo se mide | `0/formacion/PISO.md` |
+| **`ENSAYAR`** | el verbo tercero: mirar antes de agarrar | `0/formacion/EJECUTOR.md` |
 | **`jurar`** | la negativa que dice qué le falta | `0/friccion/JURAR.prs` |
 | **`alma de niño`** | **no es un nombre nuevo: es el candado `336` del autor, «el alma de niño es una función, no una poesía»** | `tesis/vision del autor/` |
 

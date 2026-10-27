@@ -12,7 +12,7 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 TAREAS = os.path.join(MANTIS, "tareas")
-INDICE = os.path.join(TAREAS, "tareas.indice")
+INDICE = os.path.join(TAREAS, "tareas.md")
 
 
 def leer_indice():

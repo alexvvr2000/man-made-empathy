@@ -12,7 +12,7 @@ import sys
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 TAREAS = os.path.join(MANTIS, "tareas")
-CARTA = os.path.join(MANTIS, "el alma.vd")
+CARTA = os.path.join(MANTIS, "el alma.md")
 
 
 def leer(p):
@@ -29,7 +29,7 @@ def main():
     fallas = []
 
     if not os.path.isfile(CARTA):
-        print("[SIN CARTA] no esta el alma.vd: no hay 1 que comprobar")
+        print("[SIN CARTA] no esta el alma.md: no hay 1 que comprobar")
         return 1
 
     carta = leer(CARTA)

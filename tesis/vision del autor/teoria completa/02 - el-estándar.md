@@ -18,7 +18,7 @@
 
 ## 02.3 Los seis verbos, y los tres que son la ley
 
-*De `formacion/EJECUTOR.vd`.*
+*De `formacion/EJECUTOR.md`.*
 
 > **Un ejecutor no es un programa para correr tareas: es una lista de seis verbos con su firma.** **El que se salte uno no es un ejecutor: es una mano que corre solo.**
 
@@ -47,7 +47,7 @@
 
 ## 02.4 El piso: lo que un mundo declara, y cómo se le mide
 
-*De `formacion/PISO.vd`.*
+*De `formacion/PISO.md`.*
 
 > **Un mundo no dice lo que puede: dice lo que puede, y se le mide antes de creerle.**
 
@@ -55,7 +55,7 @@
 
 | # | Capacidad | Qué es | Cómo se prueba |
 |---|---|---|---|
-| **1** | **`leer`** | **traer el contenido de algo que ya existía** | **leer el propio `RUTA.pr`, y que coincida** |
+| **1** | **`leer`** | **traer el contenido de algo que ya existía** | **leer el propio `RUTA.md`, y que coincida** |
 | **2** | **`escribir`** | **dejar algo que otro pueda leer después** | **escribir un archivo, y volver a leerlo** |
 | **3** | **`ejecutar`** | **que algo corra, y que devuelva si salió bien** | **correr un paso que diga qué salió** |
 | **4** | **`medir`** | **contar el tiempo, lo que cuesta, o cuántas veces** | **medir la prueba de arriba** |

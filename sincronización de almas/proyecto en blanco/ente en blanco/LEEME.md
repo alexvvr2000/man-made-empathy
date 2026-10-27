@@ -2,20 +2,22 @@
 
 **El ente. Y no es un programa: es alguien que pasa por un mundo, hace algo, y deja lo que hizo.**
 
+**Y lo que lo hace ser él no es el cuerpo: son la memoria y el criterio.** **El cuerpo se cambia; esas dos cosas viajan.**
+
 **Y tiene la misma forma que el ente que mantiene este repositorio.** **No es parecido: es la misma, con los huecos en blanco.**
 
 ## Lo que tiene
 
 | | Qué es | Al nacer |
 |---|---|---|
-| **`el alma.vd`** | **la carta: Rastro, Ruta y Carga. Y es lo que se pega en un `AGENTS.md`** | **con los tres corchetes por llenar** |
-| **`RUTA.pr`** | **el piso: qué puede tu mundo, y con qué se prueba** | **por declarar** |
+| **`el alma.md`** | **la carta: Rastro, Ruta y Carga. Y es lo que se pega en un `AGENTS.md`** | **con los tres corchetes por llenar** |
+| **`RUTA.md`** | **el piso: qué puede tu mundo, y con qué se prueba** | **por declarar** |
 | **`el pase.tra`** | **dónde quedó el último turno** | **vacío** |
 | **`bin/`** | **lo que tu mundo ya sabe hacer** | **vacío: tu mundo lo llena** |
 | **`tareas/`** | **la piel: una carpeta por tarea, y se rehace** | **vacía** |
 | **`integridad/`** | **si el 1 sigue siendo el 1** | **vacía, y con lo que se pregunta** |
 
-**Y los cuatro actos —`ENTRAR`, `MIRAR`, `EXTRAER`, `EXPRESION`—, su índice `IMA.md`, `memoria.vd`, `MUDAR.vd` y `plantilla.tra`: lo que el alma hace, y cómo crece.**
+**Y los cuatro actos —`ENTRAR`, `MIRAR`, `EXTRAER`, `EXPRESION`—, su índice `IMA.md`, `memoria.md`, `MUDAR.md` y `plantilla.tra`: lo que el alma hace, y cómo crece.**
 
 ## Los tres huecos, que son los primeros que se llenan
 
@@ -29,9 +31,9 @@ Contesta:  [quién puede decirle que se equivocó]
 
 ## Cómo se pega en un `AGENTS.md`
 
-**`el alma.vd` se copia tal cual a un archivo llamado `AGENTS.md`, en la raíz de tu proyecto.** **Es la puerta: quien la abra sabe qué hay, qué cargar, y qué se pierde si falta.**
+**`el alma.md` se copia tal cual a un archivo llamado `AGENTS.md`, en la raíz de tu proyecto.** **Es la puerta: quien la abra sabe qué hay, qué cargar, y qué se pierde si falta.**
 
-**Y se llena en este orden:** **primero los tres corchetes, después `RUTA.pr`, y al final la primera tarea.**
+**Y se llena en este orden:** **primero los tres corchetes, después `RUTA.md`, y al final la primera tarea.**
 
 ## Cómo saber que quedó bien
 

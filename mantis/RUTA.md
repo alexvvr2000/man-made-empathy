@@ -1,4 +1,4 @@
-# RUTA.pr — este mundo: DeepSeek Harness en la PC del autor
+# RUTA.md — este mundo: DeepSeek Harness en la PC del autor
 #
 # Lo que este mundo ya tiene. No es lo que el estandar exige: es lo que hay, y se usa.
 #
@@ -14,7 +14,7 @@
 
 msgid ""
 msgstr ""
-"rige: RUTA.rt\n"
+"rige: RUTA.md\n"
 "mundo: DeepSeek Harness en una PC de escritorio, Windows\n"
 "Escribe: el que preparo el mundo\n"
 
@@ -31,7 +31,7 @@ msgid "Escribe"
 msgstr "el que preparo el mundo: la autoridad, en esta maquina"
 
 msgid "Se gasta"
-msgstr "cambiar de modelo, de PC o de entorno: entonces se lee el RUTA.pr del mundo nuevo"
+msgstr "cambiar de modelo, de PC o de entorno: entonces se lee el RUTA.md del mundo nuevo"
 
 msgid "ejecutor"
 msgstr "existe, y es bin/: corre el corte de un .prs. No sabe que hace el proceso"
@@ -58,4 +58,4 @@ msgid "sin_fondo"
 msgstr "no hay proceso en segundo plano entre turnos. Y eso no es una carencia: un subagente dura lo que dura el pedido, y un alma no corre en background"
 
 msgid "se_muda"
-msgstr "el alma es la memoria: el rastro se lleva al mundo siguiente, y el ejecutor se vuelve a encontrar en el RUTA.pr del nuevo mundo"
+msgstr "el alma es la memoria: el rastro se lleva al mundo siguiente, y el ejecutor se vuelve a encontrar en el RUTA.md del nuevo mundo"

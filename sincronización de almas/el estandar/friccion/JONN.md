@@ -64,7 +64,7 @@
 
 ```
 candado/
-├── el alma.vd                     qué es un candado
+├── el alma.md                     qué es un candado
 ├── <CADA_CANDADO>.md             un candado por posición: la tesis corta
 └── ...
 ```

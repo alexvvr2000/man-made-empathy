@@ -27,7 +27,7 @@
 | **Donde el lector crea** | **el disparo, y la triangulación. Vacía hasta que un disparo la llene** | **`./tesis/vision del lector/`** |
 | **Para hacer un ente** | **el proyecto en blanco que se copia, y el estándar que se consulta** | **`./sincronización de almas/`** |
 | **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronización de almas/proyecto en blanco/ente en blanco/LO HUMANO.md`** |
-| **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./AGENTS.md`, este archivo) |
+| **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.md`** (puerta: `./AGENTS.md`, este archivo) |
 | **Lo que corre** | **la única entrada** | **`./mantis/bin/ejecutar.py`** |
 | **La piel que crece** | **`tareas/` — se rehace cuando entra o sale una** | **`./mantis/tareas/`** |
 | **El criterio a pulso** | **`integridad/` — si el 1 sigue siendo el 1** | **`./mantis/integridad/`** |
@@ -47,7 +47,7 @@
 
 | Criterio | Prueba | Falsificador |
 |---|---|---|
-| El ente tiene las tres piezas | ¿quien abre `./mantis/el alma.vd` encuentra Rastro, Ruta y Carga? | un ente sin una de las tres |
+| El ente tiene las tres piezas | ¿quien abre `./mantis/el alma.md` encuentra Rastro, Ruta y Carga? | un ente sin una de las tres |
 | La ruta declara autoridad | ¿cada fila de `Ruta` dice qué no se hace sin autoridad? | una lista de cargas sin la columna |
 | La carga dice el síntoma | ¿cada pérdida se ve cuando ocurre? | una pérdida sin síntoma |
 | Las citas resuelven | `bin/ejecutar.py --verificar` no reporta cita muerta en este archivo | una ruta a algo que no está |
@@ -70,16 +70,16 @@
 | **medir de forma repetible** | `./sincronización de almas/el estandar/friccion/PISO.md` | **no se mide** |
 | **guardar fricción quitada** | `./sincronización de almas/el estandar/friccion/FIRMAR.prs` | **no se quita sin firma** |
 | **usar llaves y candados** | `./sincronización de almas/el estandar/friccion/JONN.md` (recordar que se abre) y `./mantis/tareas/los candados/abrir.prs` (hacer la fricción) | **el candado se vuelve ruido, o se cierra para siempre** |
-| **tocar algo que otro sostiene** | `./sincronización de almas/el estandar/friccion/GUANTELETE.prs`, y `./sincronización de almas/guantelete/GUANTELETE.vd` | **no se toca** |
+| **tocar algo que otro sostiene** | `./sincronización de almas/el estandar/friccion/GUANTELETE.prs`, y `./sincronización de almas/guantelete/GUANTELETE.md` | **no se toca** |
 | **copiar un alma nueva** | `./sincronización de almas/proyecto en blanco/ente en blanco/` | **no hay alma** |
 | **comunicar con otro que no es como uno** | `./sincronización de almas/el estandar/salida/ALAS.md` | **no se comunica: se trunca** |
-| **CONVIVIR sin volverse el otro** | `./sincronización de almas/el estandar/salida/CONVIVIR.vd` | **no hay convivencia: hay copia** |
+| **CONVIVIR sin volverse el otro** | `./sincronización de almas/el estandar/salida/CONVIVIR.md` | **no hay convivencia: hay copia** |
 | **medir talento** | `./sincronización de almas/el estandar/relacion/TALENTO.md` | **no se decide con quién trabajar** |
 | **afinar dos entes** | `./sincronización de almas/el estandar/relacion/RESONANCIA.md` | **no se afinan** |
 | **escribir con un término del repo** | `./GLOSARIO.md` | **se usa un nombre muerto como si existiera** |
 | **declarar de dónde viene algo** | `./sincronización de almas/el estandar/salida/CONTEXTO.md` | **lo heredado se presenta como propio** |
 | **escribir un resultado** | `./sincronización de almas/el estandar/salida/RESULTADOS.prs` | **se inventa la medición** |
-| **responder a un mensaje** | `./AGENTS.md`, `./mantis/el alma.vd`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
+| **responder a un mensaje** | `./AGENTS.md`, `./mantis/el alma.md`, y se anota en `./.memoria continua/rastro/` | **no se responde** |
 | **decidir algo, antes de decidir** | el historial en `./.memoria continua/rastro/` | **se decide a ciegas** |
 | **abrir un candado** | `./mantis/tareas/los candados/abrir.prs` | **no se abre** |
 | **escribir una tesis teórica** | `./mantis/tareas/la tesis/teorica.prs` | **no se compone** |
