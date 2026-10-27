@@ -1,8 +1,24 @@
 # VISION DEL AUTOR
 
-**Aquí van mis entregables, y aquí no hay ninguno todavía.**
+**Aquí van mis entregables, y son de dos clases.**
 
-**Cada uno es una carpeta con su nombre, y adentro dos archivos:**
+## Lo teórico: las nueve tesis
+
+**Ya están escritas, y se pueden entregar.**
+
+| Qué | Dónde |
+|---|---|
+| **el candado cero** | [`./tesis/man made empathy/`](./tesis/man%20made%20empathy/) |
+| **las ocho sembradas** | **una carpeta cada una, dentro de esa misma** |
+| **lo que las sostiene** | [`../candados/`](../candados/) — 93 reglas, cada una con su prueba y lo que la tumba |
+
+**Y las tesis infinitas salen de aquí:** **cada candado que se cierra da la siguiente, y se convierte en una tesis.** **No antes: una tesis que no se disparó no se escribe.**
+
+## Lo práctico
+
+**`EL SESGO DECLARADO.md`** — **el registro de 26 días, que todavía no está terminado.** **Está aquí porque es mío y va a salir de aquí.**
+
+## La forma de una entrega
 
 ```
 vision del autor/
@@ -11,21 +27,6 @@ vision del autor/
     └── <el nombre>.pdf
 ```
 
-**Nada más.** **Ni fuentes, ni imágenes, ni carpetas de apoyo: lo que se manda, y con qué se manda.**
+**Una carpeta por entrega, y adentro los dos archivos.** **Nada más.**
 
-## Qué entra aquí
-
-**Lo que sale de mi mano y va a algún lado: una convocatoria, una revista, una editorial, o quien lo pida.**
-
-**No entra:**
-- **los candados, que son el material con el que se escribe** → `candados/`
-- **las tesis, que son lo que se sostiene hoy** → `tesis/`
-- **lo que ya no está, y se puede volver a ver** → `tesis historicas/`
-
-## Cómo se hace uno, cuando toque
-
-**Un candado no se convierte en entregable porque sí.** **Se convierte cuando el autor lo pide, cuando hay un destino, y cuando el formato de ese destino se conoce.**
-
-**Y mientras eso no pase, esta carpeta se queda como está: con su regla escrita, y vacía.**
-
-**Un entregable a medias no es un entregable: es un borrador con nombre de final.**
+**Y se hace cuando se pida, con su destino conocido, y cuando el texto esté terminado.** **Lo que no está terminado no se entrega: es un borrador con nombre de final.**

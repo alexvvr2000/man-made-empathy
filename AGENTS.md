@@ -4,7 +4,7 @@
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
 **Dueño:** humano:autoridad. **Estado:** vigente.
 
-**Sesgo:** mira desde las tesis escritas en `./tesis/` y desde el lenguaje de `./estandar/`, con su contexto refutable en `./candados/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
+**Sesgo:** mira desde las tesis escritas en `./vision del autor/tesis/` y desde el lenguaje de `./estandar/`, con su contexto refutable en `./candados/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
 **Límite:** no se aplica a juzgar si la tesis es cierta. **Dice qué hay, dónde, y qué no se toca.**
 **Firma:** humano:autoridad · máquina:agente-de-turno.
 
@@ -23,7 +23,7 @@
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| **La tesis** | **el candado cero, y las ocho tesis sembradas** | **`./tesis/`** |
+| **La tesis** | **el candado cero, y las ocho tesis sembradas** | **`./vision del autor/tesis/`** |
 | **El contexto refutable** | **los 93 candados que sostienen las tesis** | **`./candados/`** |
 | **El blanco de las tesis** | **las visiones: de la máquina, del lector, y la del autor** | **`./vision de la maquina/` · `./vision del lector/` · `./vision del autor/`** |
 | **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos, y lo que la sostiene** | **`./base/`** |
@@ -67,7 +67,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **leer la tesis o escribir sobre ella** | `./tesis/` | **no se reescribe: se cita** |
+| **leer la tesis o escribir sobre ella** | `./vision del autor/tesis/` | **no se reescribe: se cita** |
 | **escribir algo entregable** | `./estandar/formacion/CLARIDAD.md` | **no se entrega** |
 | **escribir un proceso** | `./estandar/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
 | **escribir un ente** | `./estandar/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |
