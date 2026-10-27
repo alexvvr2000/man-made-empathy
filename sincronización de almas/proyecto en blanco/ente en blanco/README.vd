@@ -68,7 +68,7 @@ ente en blanco/
 | La carta | `./tareas.vd` |
 | Los procesos | `./ENTRAR.prs` · `./MIRAR.prs` · `./EXPRESION.prs` · `./EXTRAER.prs` |
 | La plantilla de tarea | `./plantilla.tra` |
-| **la copia que se pega en un proyecto** | [`../../sincronización de almas/1 el alma/alma en blanco/`](.) — aquí se explica la base; allá se pega una copia llena |
+| **la copia que se pega en un proyecto** | [`../../sincronización de almas/proyecto en blanco/ente en blanco/`](.) — aquí se explica la base; allá se pega una copia llena |
 | El lenguaje | `../` — el ente vive dentro del lenguaje, no al lado |
 | La memoria | `./memoria.vd` — la memoria como concepto, no como archivo |
 | El candado | el que declare su autor — se enlaza, no se copia |
@@ -81,7 +81,7 @@ ente en blanco/
 |---|---|---|
 | **abrir una tarea** | `ENTRAR.prs` | **no se responde** |
 | **mirar si el nombre sigue en pie** | `MIRAR.prs` | **no se renombra** |
-| **explotar una capacidad | `EXTRAER.prs` y `../sincronización de almas/2 el idioma/friccion/PISO.md` | no entra sin costo** |
+| **explotar una capacidad | `EXTRAER.prs` y `../../el estandar/2 el idioma/friccion/PISO.md` | no entra sin costo** |
 | **escribir la tarea de hoy** | `plantilla.tra` | **no se inventa el formato** |
 | **mutar el candado o la fuente** | todo, y **se espera** | **no se toca** |
 

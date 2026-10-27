@@ -68,7 +68,7 @@ Se gasta:  [qué cambio del mundo lo deja viejo]
 
 **Cuando un alma puede escribir el `RUTA` de un mundo que no conoce, se deja de programar.** **Se le entrega un mundo, lo lee, escribe qué corre donde, y declara `Falta:` en vez de inventarlo.**
 
-**Y eso no es magia ni promesa: es `COMPONER`.** **La pieza que produce lo que no existía sirve tanto para una tarea como para un `RUTA`.** Rige `./sincronización de almas/1 el alma/alma en blanco/guantelete/herramientas/COMPONER.prs`.
+**Y eso no es magia ni promesa: es `COMPONER`.** **La pieza que produce lo que no existía sirve tanto para una tarea como para un `RUTA`.** Rige `./sincronización de almas/proyecto en blanco/guantelete/herramientas/COMPONER.prs`.
 
 **Y la condición sigue siendo la misma:** **componer un `RUTA` es componer una pieza, y una pieza pasa por `SOSTENER` —desde dónde se sostiene— y por `FRICCION` —quién puede contestarla—.** **Un `RUTA` escrito por el alma y no contestable por nadie es un absoluto con forma de índice.**
 
@@ -104,7 +104,7 @@ Se gasta:  [qué cambio del mundo lo deja viejo]
 | Piso | De quién es | Qué declara | Dónde |
 |---|---|---|---|
 | **el del mundo** | **de nadie** | qué existe, qué corre, qué falta | **este archivo** |
-| **el del alma** | **de cada alma** | qué usó, qué costó, qué dejó | `./sincronización de almas/2 el idioma/friccion/PISO.md` |
+| **el del alma** | **de cada alma** | qué usó, qué costó, qué dejó | `./sincronización de almas/el estandar/2 el idioma/friccion/PISO.md` |
 
 **Y no se confunden:** **el del mundo se lee antes de entrar; el del alma se escribe después de pasar.** **Un alma que escribe el piso del mundo está programando el mundo desde dentro, y eso se declara, no se supone.**
 

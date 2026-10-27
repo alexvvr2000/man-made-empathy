@@ -12,4 +12,4 @@
 | [`IMA.md`](./IMA.md) | el índice: qué carpeta corre qué proceso |
 | [`plantilla.tra`](./plantilla.tra) | cómo se ve el rastro que deja |
 
-**Esto no se copia para usarlo.** Se lee para entender. **Lo que se copia está en [`../../sincronización de almas/1 el alma/alma en blanco/`](.).**
+**Esto no se copia para usarlo.** Se lee para entender. **Lo que se copia está en [`../../sincronización de almas/proyecto en blanco/ente en blanco/`](.).**

@@ -6,7 +6,7 @@
 **Unidad:** proceso.
 **Aplica a:** detenerse antes de actuar, y decirlo.
 **Tipo:** se ejecuta. **Es lo que convierte una negativa en una pregunta, y una pregunta en un plan.**
-**Lo corre:** `./../sincronización de almas/1 el alma/alma en blanco/tareas/jurar/`, con `jurar.py`. **Y no jura por otro: si la negativa no dijo qué le falta, se nombra y no se rellena.**
+**Lo corre:** `./../sincronización de almas/proyecto en blanco/ente en blanco/tareas/jurar/`, con `jurar.py`. **Y no jura por otro: si la negativa no dijo qué le falta, se nombra y no se rellena.**
 **Lector:** quien recibe un `[SIN ENSAYO]`, un `[SIN CORTE]`, o cualquier negativa del ente.
 **Dueño:** humano:autoridad.
 **Estado:** vigente.

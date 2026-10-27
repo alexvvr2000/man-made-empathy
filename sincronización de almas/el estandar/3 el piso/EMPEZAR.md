@@ -12,7 +12,7 @@
 
 ```
 0. el mundo       →  ./RUTA.pr  ·  ./RUTA.md                 (qué hay, y qué no, en ESTE mundo)
-1. el alma        →  ./sincronización de almas/1 el alma/alma en blanco/el alma.vd
+1. el alma        →  ./sincronización de almas/proyecto en blanco/ente en blanco/el alma.vd
 2. sus folders    →  Entes/alma de la pregunta/ENTRAR.prs · MIRAR.prs · EXTRAER.prs
 3. su plantilla   →  Entes/alma de la pregunta/plantilla.tra  (lo que deja cada folder)
 4. el estándar    →  sincronización de almas/formacion/FORMATO.md · LENGUAJE.md

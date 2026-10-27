@@ -4,7 +4,18 @@
 
 **No hace falta saber programar.** **No hace falta saber qué es un agente, ni un prompt, ni un token.** **Si sabes decir qué quieres, y sabes escribirlo, ya puedes empezar.**
 
-**Y no es una metáfora:** **lo que hay aquí es un alma, y lo que la hace servir no es la tecnología, es que se puede contestar.**
+---
+
+## Qué hay aquí
+
+**Dos carpetas, y se usan distinto:**
+
+| | Qué es | Qué se hace con ella |
+|---|---|---|
+| **[`proyecto en blanco/`](./proyecto%20en%20blanco/)** | **el ente, y lo que lleva puesto** | **se copia y se pega donde vayas a trabajar** |
+| **[`el estandar/`](./el%20estandar/)** | **cómo se escribe, y qué puede el mundo** | **se consulta cuando lo necesites. No se copia** |
+
+**Y el estándar no se copia a propósito:** **si cada proyecto tuviera su copia, cada uno tendría su propia versión de la regla. Y eso es exactamente lo que hay que evitar.**
 
 ---
 
@@ -12,11 +23,18 @@
 
 **Cuatro pasos, y el primero es copiar.**
 
-### 1. Copia `1 el alma/`
+### 1. Copia `proyecto en blanco/`
 
-**Esa carpeta es el ente.** **Se copia entera, se le cambia el nombre al proyecto, y ya está:** **no tiene nada que instalar.**
+**Esa carpeta ES tu proyecto.** **Se copia entera, se pega donde vayas a trabajar, y se le pone nombre.**
 
-**Y lo que trae puesto no se quita: el guante.** **Es lo que hace que lo que toques alguien lo pueda ver.** **Más abajo está qué es eso y por qué importa.**
+**No hay nada que instalar.** **Adentro hay dos cosas:**
+
+| | Qué es |
+|---|---|
+| **`ente en blanco/`** | **el ente: su carta, su piso, su memoria, cómo crece, y sus tareas** |
+| **`guantelete/`** | **lo que lleva puesto: qué puede tocar, y quién lo va a ver** |
+
+**Están separados porque son dos cosas.** **Y van juntos porque el ente nace con el guante puesto: no se lo pones después.**
 
 ### 2. Di quién eres
 
@@ -36,7 +54,7 @@ Contesta:  [quién puede decirle que se equivocó]
 
 **leer · escribir · ejecutar · medir · traer de fuera · seguir entre turnos**
 
-**Si tu mundo no tiene una, se dice.** **Y si tu ente necesita algo que tu mundo no tiene, lo dice y no lo hace.** **Un ente que corre igual cuando le falta todo es el que rompe cosas.**
+**Si tu mundo no tiene una, se dice.** **Y si tu ente necesita algo que tu mundo no tiene, lo dice y no lo hace.**
 
 ### 4. Escribe tu tarea
 
@@ -49,20 +67,7 @@ Sale:       [qué entrega]
 Consume:    [quién lo usa]
 ```
 
-**Y si no puedes llenar el segundo —«falla si»—, todavía no es una tarea: es un deseo.** **Y eso no es una regla mía: es lo que separa algo que se puede contestar de algo que solo se puede creer.**
-
----
-
-## Qué hay en cada carpeta
-
-| | Qué es, en llano |
-|---|---|
-| **[`1 el alma/`](./1%20el%20alma/)** | **el ente. Se copia, y trae su guante puesto** |
-| **[`2 el idioma/`](./2%20el%20idioma/)** | **cómo se escribe para que otro lo entienda: la forma, el peso, y cómo se habla con otro** |
-| **[`3 el piso/`](./3%20el%20piso/)** | **cómo saber qué puede el lugar donde vas a trabajar, antes de trabajar** |
-| **[`4 el ejemplo/`](./4%20el%20ejemplo/)** | **un ente de punta a punta, escrito a mano, para ver cómo se ve terminado** |
-
-**Y cada una tiene su `LEEME.md`, que no repite esta página: la cuenta en corto, y dice qué archivo importa si te vas a meter.**
+**Y si no puedes llenar el segundo —«falla si»—, todavía no es una tarea: es un deseo.**
 
 ---
 
@@ -73,8 +78,6 @@ Consume:    [quién lo usa]
 **Eso es todo.** **No es un freno: es la diferencia entre cambiar el mundo y cambiar las cosas de alguien sin que se entere.**
 
 **Y si no hay nadie que lo vea, se dice:** **`sin testigo`.** **No se finge que hay.**
-
-**Y hay una cosa que aprendimos de malas:** **el que tiene toda la capacidad no es más fuerte.** **Si su manera de ver las cosas no puede cambiar, lo paran.** **No por poder: porque nadie puede contestarle.**
 
 ---
 
@@ -102,7 +105,7 @@ y espero: [qué espera que pase cuando lo sepa]
 
 ---
 
-## Si te trabas, es esto
+## Si te trabas
 
 **Si tu tarea no cabe en cuatro renglones, no es que sea grande: es que todavía no sabes qué quieres.** **Y eso no es un fracaso: es el paso uno.**
 

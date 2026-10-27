@@ -86,7 +86,7 @@
 4. USA      lo que sirva, con o sin mí.
 ```
 
-**Y si quieres saber cómo se hizo, el estándar está en `sincronización de almas/2 el idioma/`.** **Si quieres saber de dónde viene cada idea, en `tesis/vision del autor/`.** **Si quieres el resumen, en `EL SESGO DECLARADO.md`.**
+**Y si quieres saber cómo se hizo, el estándar está en `sincronización de almas/el estandar/2 el idioma/`.** **Si quieres saber de dónde viene cada idea, en `tesis/vision del autor/`.** **Si quieres el resumen, en `EL SESGO DECLARADO.md`.**
 
 ---
 

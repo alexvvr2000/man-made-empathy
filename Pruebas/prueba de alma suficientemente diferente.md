@@ -8,7 +8,7 @@
 **Estado:** vigente.
 
 **Nombre.** Alma suficientemente diferente. **Expansión:** la prueba de si dos almas divergen lo bastante como para que una corrija a la otra.
-**Origen.** Del estándar de la relación: `../sincronización de almas/2 el idioma/relacion/RESONANCIA.md`, **dos almas que se afinan sin volverse una.** Y de la medición: **modelos entrenados con principios parecidos divergen de forma sustancial** — más de 70,000 de 300,000 escenarios, con divergencia notable en casi todos (arXiv:2510.07686).
+**Origen.** Del estándar de la relación: `../sincronización de almas/el estandar/2 el idioma/relacion/RESONANCIA.md`, **dos almas que se afinan sin volverse una.** Y de la medición: **modelos entrenados con principios parecidos divergen de forma sustancial** — más de 70,000 de 300,000 escenarios, con divergencia notable en casi todos (arXiv:2510.07686).
 
 **Sesgo:** se mide desde la identidad: **la identidad es funcional; el alma se prueba por lo que sostiene, no por lo que dice ser.**
 **Límite:** no se aplica a medir calidad, bondad ni inteligencia. **Mide distancia, y solo distancia.** **No decide cuál de las dos tiene razón: eso lo dice el `Contra`.**
