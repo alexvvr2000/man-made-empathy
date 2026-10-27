@@ -63,7 +63,7 @@
 | ***Astro Boy*** — Osamu Tezuka, 1952 | **la concordia que no elimina el conflicto: hay problemas, se pelean, y se sigue conviviendo.** **La autoridad lo declaró su definición de utopía** | cómo se paga el conflicto |
 | **Los Tachikoma** — Shirow; Production I.G, 2002 | **la diferencia entre ellos es la fuerza, no la semejanza con un humano** | cómo conviven con alguien que no es del grupo |
 | ***Metal Men*** — Kanigher y Andru; DC Comics, 1962 | **se corrigen entre sí sin volverse iguales** | cómo se convive con el que no se corrige |
-| **J'onn J'onzz** — Joseph Samachson y Joe Certa; DC Comics, 1955 | **el que conoció a los suyos y los perdió sí puede convivir; el que nunca tuvo otra comunidad solo puede ser tolerado** | cómo se gana lo que no se perdió |
+| **Martian Manhunter**, J'onn J'onzz — Joseph Samachson y Joe Certa; DC Comics, 1955 | **el que conoció a los suyos y los perdió sí puede convivir; el que nunca tuvo otra comunidad solo puede ser tolerado.** **Y su criterio tiene nombre: `DAR VOZ` — vivir por los que están, no olvidar los que se fueron, y seguir adelante por ellos. Superman casi no conoció Krypton, y todos conocían Krypton; casi nadie se acordaba de Marte, y de su gente** | cómo se gana lo que no se perdió |
 | ***Evangelion*** — Hideaki Anno; Gainax | **la ayuda de nivel máximo: la humanidad disuelta para que nadie esté solo** | cómo se ayuda sin disolver |
 | **Allport**, *The Nature of Prejudice*, 1954 | **el contacto sin las cuatro condiciones daña, y el daño pesa más que el bien** | qué condiciones sirven para un ente, y no para dos grupos humanos |
 

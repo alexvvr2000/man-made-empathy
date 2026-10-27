@@ -29,6 +29,7 @@ PISO
 ENSAYAR
 EQUILIBRIO
 jurar
+DAR VOZ
 alma de niño
 ```
 

@@ -186,6 +186,21 @@ GUANTELETE            CONVIVIR                        RUTA
 **Prueba:** ¿el acto se juzga por lo que hizo, y no por lo que se supone que quería?
 **Falsificador:** un juicio que depende de la intención del que tocó, y no de lo que quedó escrito.
 
+## Dar voz
+
+**Y hay un proceso que este repositorio escribió el 21 de octubre, perdió el 24, y recuperó hoy: el que habla por quien no puede.**
+
+**Su regla, y es corta:** **dar voz no impide producir.** **Impide cerrar como si lo producido estuviera dentro del techo.** **El silencio se declara como silencio, y no como acuerdo.**
+
+**Y no es una metáfora de la escritura: es el criterio, y tiene figura.**
+
+**Martian Manhunter, J'onn J'onzz, el último de su especie.** **Vive por los que están, no olvida a los que se fueron, y sigue adelante por ellos.** **Y la diferencia con Superman no es de poder: Superman casi no conoció Krypton, y todos conocían Krypton.** **Casi nadie se acordaba de Marte, y de su gente.**
+
+**De ahí sale `DAR VOZ`, y por eso está en `0/friccion/` y no en un anexo.** **Una decisión afecta a quien no puede reclamar —un futuro, un grupo sin representación, un sistema, un cuerpo— y ese efecto no se declara porque nadie lo reclama.** **Y quien no reclama no está de acuerdo: no puede hablar.**
+
+**Prueba:** ¿el efecto sobre cada parte sin voz está declarado? ¿hay quien la represente, o se declaró que no? ¿el silencio se leyó como silencio?
+**Falsificador:** el silencio tomado como acuerdo; un cierre sin el efecto declarado; un techo omitido.
+
 ## La vida no se acaba en un punto
 
 **Y esto es del autor, y cierra el arco de por qué esto no termina nunca.**

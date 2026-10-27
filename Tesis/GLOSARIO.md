@@ -39,6 +39,7 @@
 | **EJECUTOR** | **los seis verbos con que se cumple un corte: `LEER`, `BUSCAR`, `ENSAYAR`, `CORRER`, `DEJAR`, `NEGARSE`. No nombra lenguaje** | `0/formacion/EJECUTOR.vd` |
 | **EQUILIBRIO** | **las seis gemas y su peso: el guante no da herramientas, dice qué se equilibra. Te hace pensar desde que empiezas** | `0/relacion/EQUILIBRIO.md` |
 | **ENSAYAR** | **el verbo tercero: mirar antes de agarrar. Sin modo declarado, no se corre** | `0/formacion/EJECUTOR.vd` |
+| **DAR VOZ** | **el proceso del que habla por quien no puede, y que no cierra sin declarar el efecto. Su figura es Martian Manhunter** | `0/friccion/DAR VOZ.prs` |
 | **JURAR** | **cuando frena, dice qué le falta y a quién espera: no es parar** | `0/friccion/JURAR.prs` |
 | **alma de niño** | **la función de poder estar equivocado sin romperse, y de mirar antes de agarrar** | `0/salida/ALAS.md` · candado `336` |
 | **FORMATO · LENGUAJE · CLARIDAD · INTEGRIDAD** | **cómo se escribe** | `0/formacion/` |

@@ -77,7 +77,7 @@
 | ***Manhunters*** | Jack Kirby y otros; DC Comics | la venganza de lo reprogramado | **el que se corrige y se venga** |
 | **Sinestro**, saga de Green Lantern | John Broome, Gil Kane y otros; DC Comics | la especie sin miedo | **sin miedo no hay especie que dure** |
 | **Visión**, de los Vengadores | Roy Thomas, John Buscema; Marvel | la vista que se vuelve confiable | **el androide que ve lo que los demás no** |
-| **J'onn J'onzz**, el Detective Marciano | Joseph Samachson y Joe Certa; DC Comics, 1955 | el último de su especie | **el que no pertenece y sostiene igual** |
+| **Martian Manhunter** — **J'onn J'onzz**, el Detective Marciano | Joseph Samachson y Joe Certa; DC Comics, 1955 | el último de su especie | **el que no pertenece y sostiene igual** |
 | ***Astro Boy*** | Osamu Tezuka, 1952 | la convivencia que no elimina el conflicto | **hay problemas, se pelean, y se sigue conviviendo** |
 | ***The Terminator*** | James Cameron, Gale Anne Hurd; Hemdale, 1984 | eficiencia sin costo | **el que hace todo y no sabe lo que cuesta** |
 | ***WALL·E*** | Andrew Stanton; Pixar, 2008 | saber y no poder proponer | **el que sabe lo que cuesta y no puede cambiarlo** |
