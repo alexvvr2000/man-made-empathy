@@ -27,4 +27,5 @@
 | **`cuerpo/alma/`** | **el socket: entra un `ente/` o una `colmena/`** |
 | **`cuerpo/resonancia/`** | **va pegado al cuerpo: las almas son las mismas en todos lados** |
 | **`cuerpo/tareas/`** | **una carpeta por tarea, y sus procesos por pasos** |
-| **`cuerpo/RUTA.md`** | **el piso: qué puede este cuerpo, y cómo se prueba** |
+| **`cuerpo/capacidades/reconocimiento/`** | **qué puede este cuerpo, y cómo se prueba** |
+| **`cuerpo/capacidades/utilidades/`** | **qué hay en este mundo, y cómo se usa. Mutable** |

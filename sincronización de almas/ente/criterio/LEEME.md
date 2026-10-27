@@ -1,22 +1,24 @@
-# integridad/ — si el 1 sigue siendo el 1
+# CRITERIO — lo que decide
 
-**Y esto no es un adorno: es lo que impide que un ente se vuelva otro sin que nadie lo note.**
+**Y es un folder, y no un archivo, porque se reagrupa.** **Lo que decide no cambia de contenido; cambia de lugar.**
 
-## Qué se pregunta
+| | Qué es |
+|---|---|
+| **`LO HUMANO.md`** | **el lugar que se deja vacío a propósito** |
+| **`MUDAR.md`** | **cómo crece: por una falta, y muda la piel y no el criterio** |
+| **`IMA.md`** | **el índice: qué hay, y cómo se agrupa** |
+| **`integridad/`** | **si el 1 sigue siendo el 1** |
 
-**No si cada archivo está completo.** **Si el sistema no tiene agujeros.** **Y si lo que se sostiene hoy es lo mismo que se sostenía cuando nació.**
+## Y la regla de agrupar
 
-## Lo que se escribe aquí
+> **El criterio se puede reagrupar sin dejar de ser el mismo criterio.**
 
-**Una comprobación, y su resultado, con fecha.** **Y su modo: `solo-lectura`, siempre — porque medir la integridad no puede cambiar lo que se mide.**
+**Lo que era `integridad` hace mucho no cambió de contenido: cambió de agrupamiento.** **Se partió en dos, o se fundió con otra cosa, y sigue siendo el mismo criterio.**
 
-```plaintext
-Qué se comprobó:  [la pieza, o el criterio]
-Cómo:             [la prueba, y en qué se corrió]
-Salió:            [íntegro | se movió | y qué se movió]
-Quién lo vio:      [quién puede contestar este resultado]
-```
+**Y eso es distinto de mudar el criterio.** **Mudar el criterio es cambiarlo; reagruparlo es encontrarle otro lugar.**
 
-## Y el síntoma de que falta
+> **Si cambia el criterio —no el agrupamiento, el criterio—, no muda ese ente: nace otro.**
 
-**Si nadie mide, el ente puede cambiar de criterio y seguir llamándose igual.** **Ese es el peor modo de falla: no rompe nada, se convierte en otro.**
+## Y por eso `IMA.md` está aquí
+
+**Porque el índice no es una lista: es cómo está agrupado.** **Y cuando se reagrupa, el índice cambia y el criterio no.**
