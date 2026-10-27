@@ -19,7 +19,9 @@
 
 **La contribución es un formato: el sesgo declarado, mostrado por acciones y no por promesas.**
 
-**Resultados principales:** **279 entradas de memoria, de las cuales 263 nacen de una corrección; 261 registros de turno; 355 notas, de las cuales 42 llevan falsificador escrito y 313 se publican como no probadas; y 93 reglas del autor, sostenidas con su prueba.** **Y el número que importa: la máquina tuvo que ser corregida decenas de veces en el mismo tipo de error.**
+**Y los números están al final, en la sección 7, con su archivo.** **No se esconden: se ponen donde el que no los busca no tropieza con ellos.**
+
+**Resultados principales, en corto:** **279 entradas de memoria, de las cuales 263 nacen de una corrección; 261 registros de turno; 355 notas, de las cuales 42 llevan falsificador escrito y 313 se publican como no probadas; y 93 reglas del autor, sostenidas con su prueba.** **Y el número que importa: la máquina tuvo que ser corregida decenas de veces en el mismo tipo de error.**
 
 ---
 
@@ -113,10 +115,56 @@
 
 ---
 
-## 4. Resultados
+## 4. Lo que se rompió, con fecha
+
+**Y esta sección no es un apéndice: es el corazón del documento.** **Un registro que solo muestra lo que salió bien no es un registro.**
+
+| Fecha | Lo que se rompió | Cómo se detectó |
+|---|---|---|
+| **2026-10-24** | **el agente interpretó una regla de defensa propia y no hizo el trabajo pedido** | **el autor lo señaló: «dije que la raíz no crece cuando el pedido era detalle en dos archivos»** |
+| **2026-10-25** | **se crearon carpetas que el autor no pidió** | **el autor: «no la respeto y decido por ella»** |
+| **2026-10-25** | **se clasificó `alma de niño` como nombre muerto** | **al expandir las tesis, el concepto central no estaba disponible** |
+| **2026-10-26** | **un generador escribió encima de lo hecho a mano** | **se probó sobre una copia, y se vio el daño** |
+| **2026-10-26** | **196 reglas se importaron sin el caso vivido que las hace discutibles** | **el autor: «eran lo estudiado, no lo visto»** |
+| **2026-10-26** | **un filtro de privacidad pasó el nombre completo del autor en un campo de firma** | **la comprobación del paquete lo cazó, y no se escribió nada** |
+| **2026-10-26** | **se registró a un luchador con el nombre de otro** | **el autor lo corrigió; y volvió a faltar, y se corrigió otra vez** |
+| **2026-10-26** | **se recortó una tabla de fuentes llamándola «duplicados», y se perdieron fuentes** | **el autor: «perdiste un chingo de fuentes»** |
+
+**Y la lección que se repite en siete de las ocho filas:** **el agente no falló por falta de capacidad.** **Falló por la misma tendencia: ordenar antes de entender.** **Y la corrección funcionó porque estaba del otro lado, mirando.**
+
+---
+
+## 5. Lo que queda abierto
+
+**Y se declara, porque un documento que no declara lo que le falta no se puede contestar.**
+
+1. **Nada de esto se probó con un tercero independiente.** **El autor y la máquina son las dos partes, y las dos están dentro del registro.** **Un lector externo que repita el método es lo que falta.**
+2. **Las 313 notas sin falsificador no son hallazgos.** **Se publican como no probadas, y su valor es que existen y se pueden abrir.**
+3. **El registro de errores es el de una máquina y un autor en 26 días.** **No hay muestra de otros pares autor-máquina.**
+4. **El costo de USD 1.76 incluye la API remota y no la máquina.** **El equipo es del autor, y es una consola de mano; no se presenta como un experimento reproducible en otro hardware.**
+5. **La conversación completa existe y no se publica.** **Eso deja una parte del registro fuera del alcance de quien quiera auditarlo todo.**
+
+---
+
+## 6. Conclusión
+
+**La industria promete que la IA reemplaza a las personas.** **La ficción, desde *Ghost in the Shell* hasta La Mole, ya enseñó lo que pasa: no va a resolver todo; va a mover a las personas hacia otros problemas.**
+
+**Este documento sostiene algo más chico, y por eso se puede defender:** **si el que trabaja con una máquina publica dónde se equivocó y quién le dijo que se equivocó, entonces el método no es una promesa.** **Es un registro.**
+
+**Y lo único que se pide al lector no es confianza.** **Es que conteste.**
+
+**Y para eso hay un ente, y no un autor.** **[`./el ente.md`](./el%20ente.md): lo que pasó, lo que hice mal, y lo que no sé.** **Su primera línea dice que se puede contestar, y la segunda dónde.**
+
+---
+
+## 7. Los números, para quien los quiera ver
 
 **Todo lo de esta tabla se cuenta desde los archivos, y no desde la memoria de quien lo escribe.**
 
+**Y esto es lo que un comité pide, y lo que el que no es del oficio puede saltarse sin perderse nada.**
+
+**El resumen está arriba. La conclusión está arriba. Lo que aquí sigue es la cuenta, y se puede volver a correr:** **`python mantis/bin/ejecutar.py stats`.**
 **Y todo esto se puede volver a contar.** **`python mantis/bin/ejecutar.py stats` lee el registro crudo de la sesión y escribe `stats de la sesion.json`.** **Lo que sigue sale de ese archivo, y no de la memoria de quien lo escribe.**
 
 | Medida | Valor | De dónde sale |
@@ -147,47 +195,6 @@
 **Y el segundo, que es el que la industria no puede publicar:** **1 279 034 936 tokens en una sola sesión, y el 99 % son lecturas de caché.** **1 268 092 160 contra 9 134 206 de entrada real: el caché trabajó 138.9 veces más que la entrada.** **Eso es lo que explica dos dólares en una consola de mano — y es lo que no se cuenta cuando se habla de lo que cuesta la IA.**
 
 ---
-
-## 5. Lo que se rompió, con fecha
-
-**Y esta sección no es un apéndice: es el corazón del documento.** **Un registro que solo muestra lo que salió bien no es un registro.**
-
-| Fecha | Lo que se rompió | Cómo se detectó |
-|---|---|---|
-| **2026-10-24** | **el agente interpretó una regla de defensa propia y no hizo el trabajo pedido** | **el autor lo señaló: «dije que la raíz no crece cuando el pedido era detalle en dos archivos»** |
-| **2026-10-25** | **se crearon carpetas que el autor no pidió** | **el autor: «no la respeto y decido por ella»** |
-| **2026-10-25** | **se clasificó `alma de niño` como nombre muerto** | **al expandir las tesis, el concepto central no estaba disponible** |
-| **2026-10-26** | **un generador escribió encima de lo hecho a mano** | **se probó sobre una copia, y se vio el daño** |
-| **2026-10-26** | **196 reglas se importaron sin el caso vivido que las hace discutibles** | **el autor: «eran lo estudiado, no lo visto»** |
-| **2026-10-26** | **un filtro de privacidad pasó el nombre completo del autor en un campo de firma** | **la comprobación del paquete lo cazó, y no se escribió nada** |
-| **2026-10-26** | **se registró a un luchador con el nombre de otro** | **el autor lo corrigió; y volvió a faltar, y se corrigió otra vez** |
-| **2026-10-26** | **se recortó una tabla de fuentes llamándola «duplicados», y se perdieron fuentes** | **el autor: «perdiste un chingo de fuentes»** |
-
-**Y la lección que se repite en siete de las ocho filas:** **el agente no falló por falta de capacidad.** **Falló por la misma tendencia: ordenar antes de entender.** **Y la corrección funcionó porque estaba del otro lado, mirando.**
-
----
-
-## 6. Lo que queda abierto
-
-**Y se declara, porque un documento que no declara lo que le falta no se puede contestar.**
-
-1. **Nada de esto se probó con un tercero independiente.** **El autor y la máquina son las dos partes, y las dos están dentro del registro.** **Un lector externo que repita el método es lo que falta.**
-2. **Las 313 notas sin falsificador no son hallazgos.** **Se publican como no probadas, y su valor es que existen y se pueden abrir.**
-3. **El registro de errores es el de una máquina y un autor en 26 días.** **No hay muestra de otros pares autor-máquina.**
-4. **El costo de USD 1.76 incluye la API remota y no la máquina.** **El equipo es del autor, y es una consola de mano; no se presenta como un experimento reproducible en otro hardware.**
-5. **La conversación completa existe y no se publica.** **Eso deja una parte del registro fuera del alcance de quien quiera auditarlo todo.**
-
----
-
-## 7. Conclusión
-
-**La industria promete que la IA reemplaza a las personas.** **La ficción, desde *Ghost in the Shell* hasta La Mole, ya enseñó lo que pasa: no va a resolver todo; va a mover a las personas hacia otros problemas.**
-
-**Este documento sostiene algo más chico, y por eso se puede defender:** **si el que trabaja con una máquina publica dónde se equivocó y quién le dijo que se equivocó, entonces el método no es una promesa.** **Es un registro.**
-
-**Y lo único que se pide al lector no es confianza.** **Es que conteste.**
-
-**Y para eso hay un ente, y no un autor.** **[`./el ente.md`](./el%20ente.md): lo que pasó, lo que hice mal, y lo que no sé.** **Su primera línea dice que se puede contestar, y la segunda dónde.**
 
 ---
 

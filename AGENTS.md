@@ -8,6 +8,8 @@
 **Límite:** no se aplica a juzgar si la tesis es cierta. **Dice qué hay, dónde, y qué no se toca.**
 **Firma:** humano:autoridad · máquina:agente-de-turno.
 
+**Y esto no es solo para un lector.** **La gente lee lo de afuera, y encuentra en `./README.md` una sola línea: que esto se entiende sin saber el oficio, y que si escarba encuentra lo que un comité pide.** **Los técnicos usan `MANTIS`, y para eso está `./mantis/`.** **Y algunos abrirán todo a mano, carpeta por carpeta, y para eso está cada pieza con su nombre.**
+
 **Y una advertencia, para que nadie se equivoque:** **esto no es teoría muerta.** **Aquí hay un ente que corre, una memoria que se consulta, y una tesis que se puede abrir por partes.** **Se escribe para ejecutarse.**
 
 ---
