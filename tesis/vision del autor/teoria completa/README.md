@@ -4,7 +4,7 @@
 
 **Este `README` es el índice que las une.** **Se lee aquí, y se sigue en orden; o se abre la sección que interese, y cada una se sostiene sola.**
 
-**Y cada archivo dice de qué pieza del repo sale.** **Lo que no estaba escrito se marca `[FALTA]`, y no se rellena.**
+**Y cada archivo dice de qué pieza del repo sale.** **Las ocho secciones están escritas, y cada una dice lo que le falta a la teoría.**
 
 ---
 
@@ -18,8 +18,14 @@
 | **[03](./03%20-%20la-base.md)** | **La base** | **el alma, el guantelete que trae puesto, y el piso del mundo** |
 | **[04](./04%20-%20las-consecuencias.md)** | **Las consecuencias** | **cuando son dos, cuando son muchos, y cuánto pesa un acto** |
 | **[05](./05%20-%20lo-que-se-sostiene.md)** | **Lo que se sostiene** | **las ocho tesis, una por una, y qué le falta a cada una** |
-| **06** | **El contra** *(pendiente)* | **lo que las tumba, dicho antes que el revisor** |
-| **07** | **Lo que queda abierto** *(pendiente)* | **la práctica, y las tesis del lector** |
+| **[06](./06%20-%20el-contra.md)** | **El contra** | **lo que las tumba, dicho antes que el revisor** |
+| **[07](./07%20-%20lo-que-queda-abierto.md)** | **Lo que queda abierto** | **la práctica, las tesis del lector, y lo que falta con su nombre** |
+
+## El estado
+
+**Las ocho escritas, y el documento compuesto.**
+
+**Y lo que la teoría todavía no es, lo dice su última sección: la práctica no existe, y nadie de fuera la ha usado todavía.**
 
 ## El orden, y por qué es ese
 
