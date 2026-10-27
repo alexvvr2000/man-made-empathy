@@ -43,7 +43,7 @@ alma de niño
 | **`PISO`** | qué declara un mundo, y cómo se mide | `0/formacion/PISO.vd` |
 | **`ENSAYAR`** | el verbo tercero: mirar antes de agarrar | `0/formacion/EJECUTOR.vd` |
 | **`jurar`** | la negativa que dice qué le falta | `0/friccion/JURAR.prs` |
-| **`alma de niño`** | **no es un nombre nuevo: es el candado `336` del autor, «el alma de niño es una función, no una poesía»** | `candados/06 del caso/336` |
+| **`alma de niño`** | **no es un nombre nuevo: es el candado `336` del autor, «el alma de niño es una función, no una poesía»** | `tesis/vision del autor/` |
 
 **Y `alma de niño` estuvo en `Muertos`, y ahí estaba mal.** **Lo puso un agente, no la autoridad, y el candado 336 dice lo contrario.** **Se saca de `Muertos` y pasa a `Vivos`, y el cero lo puede volver a usar.**
 

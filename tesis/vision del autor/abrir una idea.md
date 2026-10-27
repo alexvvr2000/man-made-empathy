@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque el contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.** **Y porque la idea se puede citar sin permiso: el candado y la llave están en el mismo sitio.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, de `0/friccion/JONN.md` y `0/friccion/FIRMAR.prs`, y de `Tesis/candados/autor/` — los candados que se discuten.**
+**De dónde viene.** **De `Tesis/ILUMINAR.md`, de `0/friccion/JONN.md` y `0/friccion/FIRMAR.prs`, y de las tesis que discuten esos candados.**
 
 **Qué pregunta deja.** **¿Quién puede abrir una idea que nadie cerró?**
 

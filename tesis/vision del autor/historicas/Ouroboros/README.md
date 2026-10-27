@@ -1,36 +1,18 @@
-# herramientas
+# Ouroboros
 
-**Deterrente:** si una herramienta deja de declarar desde dónde se aplica, esta sub-tarea deja de justificarse. **Una herramienta sin posición se aplica igual, y su resultado se lee como si no tuviera sitio.**
+**Vacía a propósito.**
 
-**Fallo que cubre:** una pieza de base dice desde dónde se sostiene una regla; no dice cómo se ejecuta. Sin las herramientas, cada tarea inventa su propio modo de aplicar, mutar o retirar, y dos ejecutores no llegan al mismo sitio.
+**Esta era tuvo 144 archivos en su ultima version, y su última vez fue el 2026-10-24 en $(144 archivos en su ultima version bab6d8d 2026-10-24[1]).**
 
-**Piso:** `../../../Ouroboros/piso.md` — la unidad lo corre desde la raíz; desde aquí son cuatro niveles. Dos ejecutores que aplican la misma herramienta tienen que tender al mismo resultado; si no, no era herramienta: era preferencia.
+**Los archivos no se cargan aquí: se piden.**
 
-## Entra | Falla | Sale | Consume
+**Un folder que se llena de lo que nadie pidió no dice nada; un folder vacío con su nombre dice exactamente lo que hay.**
 
-**Variables:** pieza · herramienta · fallo que cubre · piso · quién la carga
-**Peor:** la sub-tarea se mantiene porque está, y la herramienta que decía cubrir un fallo ya no lo cubre.
-**Quién:** quien carga una herramienta, y quien carga con lo que se rompe cuando el fallo no estaba cubierto.
+## Para verla
 
-- **Entra:** un trabajo que cae en `herramientas`.
-- **Falla si:** no hay herramienta que cubra el fallo; una herramienta se usa sin la pieza de base que la sostiene.
-- **Sale:** las herramientas que se cargan, o `[VACÍO - SIN HERRAMIENTA]`.
-- **Consume:** quien ejecuta la herramienta cargada.
+```powershell
+python mantis/bin/historicas.py                     las eras, con su fecha
+python mantis/bin/historicas.py --sacar "Ouroboros"     la trae aquí
+```
 
-**Prueba:** ¿el fallo que cubre se puede señalar? ¿cada herramienta tiene `Falsificador`?
-**Falsificador:** una herramienta sin `Falsificador`; una herramienta que se aplica sin sesgo declarado.
-
-## Procesos
-
-| Herramienta | Qué decide | Qué lo refuta |
-|---|---|---|
-| `manipulacion.md` | crear, calibrar, reemplazar y retirar procesos, en ese orden | se crea sin variables o sin fricción |
-| `aplicar.md` | ejecutar un proceso sobre una entrada y comprobar la composición | se aplica con una entrada que no le corresponde |
-| `mutar.md` | transformar declarando qué conserva, y acuñar nombre y lugar nuevos | se muta sin declarar qué se conserva |
-| `retiro.md` | cuándo un proceso se retira, y qué fin queda descubierto | se retira sin declarar el fin que cubría |
-| `ingenieria-inversa.md` | deducir un proceso de lo observable, por tendencia | el proceso deducido no reproduce nada observable |
-| `claridad.md` | la forma de lo que se lee o se ejecuta | la forma no llega al lector |
-
-**`X` muta.** Seis hoy; mañana pueden ser otras.
-
-> **Seis herramientas, y ninguna es fundamento.** Se aplican sobre lo que ya tiene sesgo declarado. Una herramienta que se defiende por ser la de siempre es la que no se vuelve a correr cuando el criterio cambió.
+**Y cuando llegue, se lee, y se borra otra vez si ya no hace falta.** **Git la sigue teniendo.**

@@ -1,13 +1,18 @@
-# FARO 1.0
+# faro
 
-**Los lenguajes que se escriben sobre la base, y el piso del mundo.**
+**Vacía a propósito.**
 
-| Archivo | Qué es |
-|---|---|
-| [`ENTRAR.md`](./ENTRAR.md) | por dónde se empieza |
-| [`EMPEZAR.md`](./EMPEZAR.md) | el camino completo |
-| [`RUTA.md`](./RUTA.md) · [`RUTA.rt`](./RUTA.rt) | el piso: uno por mundo, y la regla portable |
-| [`LO HUMANO.md`](./LO%20HUMANO.md) | el lugar que se deja en blanco a propósito |
-| [`el ejemplo/`](./el%20ejemplo/) | tres `.tra` que muestran cómo se ve |
+**Esta era tuvo 73 archivos en su ultima version, y su última vez fue el 2026-10-25 en $(73 archivos en su ultima version f2817e4 2026-10-25[1]).**
 
-**Los lenguajes no viven aquí: viven en [`./estandar/`](../estandar).**
+**Los archivos no se cargan aquí: se piden.**
+
+**Un folder que se llena de lo que nadie pidió no dice nada; un folder vacío con su nombre dice exactamente lo que hay.**
+
+## Para verla
+
+```powershell
+python mantis/bin/historicas.py                     las eras, con su fecha
+python mantis/bin/historicas.py --sacar "faro"     la trae aquí
+```
+
+**Y cuando llegue, se lee, y se borra otra vez si ya no hace falta.** **Git la sigue teniendo.**

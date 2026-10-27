@@ -4,7 +4,7 @@
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
 **Dueño:** humano:autoridad. **Estado:** vigente.
 
-**Sesgo:** mira desde las tesis escritas en `./tesis/vision del autor/fuente/` y desde el lenguaje de `./estandar/`, con su contexto refutable en `./candados/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
+**Sesgo:** mira desde las tesis escritas en `./tesis/vision del autor/` y desde el lenguaje de `./estandar/`, con su contexto en `./tesis/vision del autor/`. No finge neutralidad: este repositorio se sostiene sobre esa tesis.
 **Límite:** no se aplica a juzgar si la tesis es cierta. **Dice qué hay, dónde, y qué no se toca.**
 **Firma:** humano:autoridad · máquina:agente-de-turno.
 
@@ -24,11 +24,8 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **Las tesis del autor** | **nueve, cada una con su `.tex` y su `.pdf`; la fuente del cero, y la práctica abierta** | **`./tesis/vision del autor/`** |
-| **El contexto refutable** | **los 93 candados que sostienen las tesis** | **`./candados/`** |
 | **Donde el lector crea** | **el disparo, y la triangulación. Vacía hasta que un disparo la llene** | **`./tesis/vision del lector/`** |
-| **La base del área** | **`alma en blanco` · `GUANTELETE` — los dos primitivos, y lo que la sostiene** | **`./base/`** |
-| **El lenguaje** | **`0/` — las piezas del estándar, que son la primera tesis** | **`./estandar/`** |
-| **Los lenguajes** | **`ALAS` · `VIGA` · `CONVIVIR` · `FORMATO` · `LENGUAJE` · `PISO` · `JONN` · `TALENTO` · `RESONANCIA`** | **`./estandar/`** |
+| **Para hacer un ente** | **el alma, el idioma, el piso y un ejemplo** | **`./sincronización de almas/`** |
 | **El lugar vacío: lo humano** | **`LO HUMANO`** — se deja sin definir a propósito | **`./sincronización de almas/3 el piso/LO HUMANO.md`** |
 | **El ente de este repositorio** | **`MANTIS`** | **`./mantis/el alma.vd`** (puerta: `./AGENTS.md`, este archivo) |
 | **Lo que corre** | **la única entrada** | **`./mantis/bin/ejecutar.py`** |
@@ -66,7 +63,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **leer la tesis o escribir sobre ella** | `./tesis/vision del autor/fuente/` | **no se reescribe: se cita** |
+| **leer la tesis o escribir sobre ella** | `./tesis/vision del autor/` | **no se reescribe: se cita** |
 | **escribir algo entregable** | `./sincronización de almas/2 el idioma/formacion/CLARIDAD.md` | **no se entrega** |
 | **escribir un proceso** | `./sincronización de almas/2 el idioma/formacion/FORMATO.md` | **se escribe como ensayo, y el que lo lee adivina** |
 | **escribir un ente** | `./sincronización de almas/2 el idioma/formacion/LENGUAJE.md` | **no se sabe qué extensión le toca** |

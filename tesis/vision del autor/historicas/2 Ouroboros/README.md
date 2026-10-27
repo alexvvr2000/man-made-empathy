@@ -1,41 +1,18 @@
-# mutaciones
+# 2 Ouroboros
 
-**Deterrente:** si una mutación deja de declarar qué conserva, esta sub-tarea deja de justificarse. **Un proceso nuevo que no dice qué conserva no reemplaza: borra sin decirlo.**
+**Vacía a propósito.**
 
-**Fallo que cubre:** cada primitivo resuelve una cosa y ninguna resuelve **el momento de decidir** ni **el de mirar**. Los dos fallos son distintos y no se cubren mutando un primitivo entero: se cubren **mudando uno de ellos hacia ese momento.**
+**Esta era tuvo 158 archivos en su ultima version, y su última vez fue el 2026-10-22 en $(158 archivos en su ultima version 85cb6f2 2026-10-22[1]).**
 
-**Piso:** `../../../1 Tesis/piso.md`. Una mutación que dos ejecutores no reproducen no es una pieza del lenguaje: es una costumbre.
+**Los archivos no se cargan aquí: se piden.**
 
-## Entra | Falla | Sale | Consume
+**Un folder que se llena de lo que nadie pidió no dice nada; un folder vacío con su nombre dice exactamente lo que hay.**
 
-**Variables:** sub-tarea · proceso · fallo que cubre · piso · quién la carga
-**Peor:** la sub-tarea se mantiene porque está, y el fallo que decía cubrir ya no existe.
-**Quién:** quien carga un proceso de aquí, y quien carga con lo que se rompe cuando el fallo no estaba cubierto.
+## Para verla
 
-- **Entra:** un trabajo que cae en `mutaciones`.
-- **Falla si:** no hay proceso que cubra el fallo; dos sub-tareas se solapan.
-- **Sale:** los procesos que se cargan, o `[VACÍO - SIN PROCESO]`.
-- **Consume:** quien ejecuta el proceso cargado.
+```powershell
+python mantis/bin/historicas.py                     las eras, con su fecha
+python mantis/bin/historicas.py --sacar "2 Ouroboros"     la trae aquí
+```
 
-**Prueba:** ¿el fallo que cubre se puede señalar? ¿cada proceso tiene Falsificador?
-**Falsificador:** un proceso sin Falsificador; una sub-tarea cuyo fallo ya no existe.
-
-## Procesos
-
-| Proceso | Qué decide | Qué lo refuta |
-|---|---|---|
-| `friccion.md` | que la decisión pase por quien la toma, antes de mover algo | la decisión se ejecuta sin haber pasado por quien la toma |
-| `sesgo-declarado.md` | desde dónde se mira, y quién puede ver lo que no se ve | la idea se descarta por no caber, sin nombrar la regla que rompe |
-
-**X muta.** Dos hoy; mañana pueden ser otros.
-
-## De dónde nacen
-
-Las dos nacieron de la misma pregunta —*¿el otro puede reconstruir esto?*— y nacen de `../primitivos/claridad.md`.
-
-| Mutación | Qué conserva de `claridad` |
-|---|---|
-| `friccion` | que el otro pueda reconstruir **la decisión** |
-| `sesgo-declarado` | que el otro pueda reconstruir **desde dónde se mira** |
-
-> **Una mutación nueva puede nacer de n primitivos, no de uno.** Las piezas se combinan, no se escalan.
+**Y cuando llegue, se lee, y se borra otra vez si ya no hace falta.** **Git la sigue teniendo.**

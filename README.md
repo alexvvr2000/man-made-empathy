@@ -13,7 +13,6 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 **Las tesis del autor: nueve con su .tex y su .pdf, la práctica abierta, y las históricas vacías:** `tesis/vision del autor/`
 
 **Para hacer un ente, de principio a fin:** `sincronización de almas/`
-**Las 93 reglas del autor, cada una con lo que la tumba:** `candados/`
 **El ente que mantiene este repositorio, y corre:** `mantis/`
 
 **Las tesis del autor, y donde el lector crea:** `tesis/`
