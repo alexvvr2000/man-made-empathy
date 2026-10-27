@@ -1,4 +1,4 @@
-# IMA.md — qué pedido va a qué herramienta
+# IMA.md — qué pedido va a qué herramienta, y dónde vive cada una
 
 **Nombre.** RUTA — **R**econocimiento, **U**bicación, **T**razo, **A**cción. La expansión dice el acto: enrutar el pedido a la herramienta que le toca, y marcarse gastado cuando la forma deja de servir.
 
@@ -10,35 +10,53 @@
 **Estado:** vigente.
 
 **Sesgo:** el pedido se lee desde lo que pide, no desde el nombre de la herramienta.
-**Límite:** no decide qué se hace con el pedido. **Dice qué herramienta corre, y nada más.**
+**Límite:** no decide qué se hace con el pedido. **Dice qué herramienta corre, y dónde vive.**
 **Firma:** humano:autoridad · máquina:quien enrute.
 
 **Variables:** pedido · herramienta · respuesta · gastadura
-**Peor:** se enruta a la herramienta que ya no sirve, y la salida parece correcta porque nadie declara desde dónde se tomó.
+**Peor:** se enruta a una herramienta que ya no está donde este índice dice, y la salida parece correcta porque nadie declara desde dónde se tomó.
 **Quién:** quien cargue la salida de una herramienta gastada.
 
 ## El estándar de esta RUTA es que no hay estándar
 
 > No hay una forma fija de enrutar. Hay un índice: cada pedido se enruta a la herramienta que le toca, y cuando la forma se gasta, se intercambia.
 
-**Y lo que NO se intercambia es la carta.** La carta dice qué es el ente; la RUTA se cambia de forma.
+**Y lo que NO se intercambia es la carta.** La carta dice qué es el guante; la RUTA se cambia de forma.
+
+---
+
+## Dónde viven las siete, y por qué cambió
+
+**Hasta el 2026-10-27 vivían aquí, en `herramientas/`.** **Hoy viven con el alma que las ejecuta, en `../alma/procesos/guante/`.**
+
+> **El guante es de cada alma, y no un préstamo global.** **Cada alma tiene sus siete, y puede cambiarlas con su criterio.**
+
+**Y lo que se queda aquí es lo que el alma lleva puesto:** **`GUANTELETE.md` (las seis gemas y la ficha) y el peso, que vive en `../el estandar/relacion/EQUILIBRIO.md`.**
+
+---
 
 ## Las filas, y cada una se lee antes de enrutar
 
+**La ruta es relativa a un alma: `<alma>/procesos/guante/<NOMBRE>.prs`.**
+
 | Se va a… | Se enruta a… | Sin la autoridad… |
 |---|---|---|
-| **sostener una pieza, y saber quién puede contestarla** | `herramientas/SOSTENER.prs` | **no entra: hay opinión, no pieza** |
-| **decidir algo que afecta a otro** | `herramientas/FRICCION.prs` | **no se decide: se ejecuta** |
-| **producir lo que todavía no existe** | `herramientas/COMPONER.prs` | **no se produce: se improvisa** |
-| **ejecutar un proceso que ya existe** | `herramientas/APLICAR.prs` | **no se ejecuta** |
-| **cambiar un proceso sin perder lo que servía** | `herramientas/MUTAR.prs` | **no se muta** |
-| **quitar un proceso cuyo fin dejó de existir** | `herramientas/RETIRAR.prs` | **se queda ocupando el lugar** |
-| **deducir un proceso de lo observable** | `herramientas/INVERTIR.prs` | **no se deduce** |
-| **tocar algo que otro sostiene** | **`../guantelete/GUANTELETE.md`, y `herramientas/FRICCION.prs` antes** | **no se toca** |
-| **escribir y emitir lo que sale** | `../../el estandar/formacion/CLARIDAD.md` | **no se emite** |
-| **decir qué se usó, y qué no había** | `../../el estandar/friccion/PISO.md` | **se inventa la capacidad** |
+| **sostener una pieza, y saber quién puede contestarla** | `guante/sostener.prs` | **no entra: hay opinión, no pieza** |
+| **decidir algo que afecta a otro** | `guante/friccion.prs` | **no se decide: se ejecuta** |
+| **producir lo que todavía no existe** | `guante/componer.prs` | **no se produce: se improvisa** |
+| **ejecutar un proceso que ya existe** | `guante/aplicar.prs` | **no se ejecuta** |
+| **cambiar un proceso sin perder lo que servía** | `guante/mutar.prs` | **no se muta** |
+| **quitar un proceso cuyo fin dejó de existir** | `guante/retirar.prs` | **se queda ocupando el lugar** |
+| **deducir un proceso de lo observable** | `guante/invertir.prs` | **no se deduce** |
+| **tocar algo que otro sostiene** | **`./GUANTELETE.md`, y `guante/friccion.prs` antes** | **no se toca** |
+| **escribir y emitir lo que sale** | `../alma/procesos/salida/expresion.prs` | **no se emite** |
+| **decir qué se usó, y qué no había** | `../el estandar/friccion/PISO.md` | **se inventa la capacidad** |
 
 Una fila, un destino. **Si se cargan dos, se declara por qué: dos puertas abiertas a la vez es la forma en que se pierde el rastro de por qué se hizo algo.**
+
+**Y la ruta de la colmena, que no cambia:** **un alma de `colmena/almas/<alma>/` enruta a `colmena/almas/<alma>/procesos/guante/<NOMBRE>.prs`.** **Cada una con el suyo.**
+
+---
 
 ## Las puertas que no se abren solas
 
@@ -73,12 +91,13 @@ La carta no: [qué sigue diciendo, pase lo que pase]
 
 **No guarda el rastro del pedido.** **El rastro queda en la `.tra` de la tarea.**
 **No decide si la herramienta sirve.** **Eso lo dice su propio `Falsificador`, cuando se corre.**
+**No tiene las herramientas.** **Sabe dónde están, y a cuál va cada pedido.**
 
 ## Prueba
 
-**¿Cada pedido que llegó tiene fila, o quedó como `[VACÍO - SIN HERRAMIENTA]`? ¿La forma de enrutar está declarada? ¿Se declara cuándo se gasta? ¿La carta queda fuera de lo que se intercambia?**
+**¿Cada pedido que llegó tiene fila, o quedó como `[VACÍO - SIN HERRAMIENTA]`? ¿La forma de enrutar está declarada? ¿Se declara cuándo se gasta? ¿La carta queda fuera de lo que se intercambia? ¿La ruta de cada herramienta apunta a donde vive hoy?**
 
-**Falsificador:** un pedido sin fila que se corrió igual; una RUTA presentada como estándar; una forma que se gasta y no se intercambia; una carta que se reescribe para que quepa el índice.
+**Falsificador:** un pedido sin fila que se corrió igual; una RUTA presentada como estándar; una forma que se gasta y no se intercambia; una carta que se reescribe para que quepa el índice; una fila que apunta a `herramientas/`, que ya no existe.
 
 ## Transiciones
 

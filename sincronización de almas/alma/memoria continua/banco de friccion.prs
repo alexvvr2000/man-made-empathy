@@ -1,0 +1,91 @@
+# BANCO DE FRICCIÓN.prs — dónde lo sostuvo, y qué lo refutó
+
+**Nombre.** BANCO DE FRICCIÓN — **B**uscar lo anterior, **A**nclar el sesgo, **N**ombrar el límite, **C**opiar la firma, **O**ír el contra, **D**eclarar el sostengo, **F**ijar el techo, **R**evisar si cambió, **I**ntercambiar, **C**errar, **C**omprobar, **I**nscribir, **Ó**rden, **N**o editar.
+
+**Origen.** **De `ba5a4fcd:'Libre albedrio/memoria continua.md'`, y de `04d6771c:'Ouroboros/procesos/memoria continua.md'`.** **Y de la autoridad: «una cosa es que tenga fricción, y otra es que sí sea una memoria de verdad; se mide en datos y no solo criterio.»** **Este es el de la posición; el de los datos es `./banco de datos.prs`.**
+
+**Unidad:** proceso.
+**Aplica a:** sostener, y corregir.
+**Tipo:** se ejecuta. **Es donde el alma guarda desde dónde decidió, y qué la contradijo.**
+**Lector:** quien va a decidir con lo que el alma sostiene, y quien la va a contestar.
+**Dueño:** humano:autoridad.
+**Estado:** vigente.
+
+**Sesgo:** **la memoria se lee desde la posición de quien la escribió, no desde la posición de quien la lee.**
+**Límite:** **no decide si lo recordado es verdad.** **Mide si el otro puede reconstruir la posición y contradecirla.**
+**Firma:** humano:autoridad · máquina:quien recuerde.
+
+**Variables:** sesgo · límite · firma · contra · sostengo · techo
+**Peor:** la memoria guarda hechos sin posición, **otra instancia los hereda como verdades, y nadie puede ver de dónde vienen.**
+**Quién:** quien lea mañana y no vio quién lo escribió.
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **un alma que guarda qué pasó y no desde dónde lo sostuvo hereda un catálogo de conclusiones; y corregirse le cuesta, porque no hay de dónde partir.**
+**Termina:** **cada decisión importante deja su posición con sus seis partes, o se declara `sin cambio`.**
+**Cierra en:** `./banco de friccion.tra`.
+**Autoridad:** humano:autoridad. **Criterio:** igual. **Muda:** `../criterio/MUDAR.md`.
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** la posición nueva, y lo que la anterior sostenía. **Modo: escribe.**
+- **Falla si:** falta alguna de las seis partes; el `Contra` lo firma el que se corrigió; se edita la entrada anterior; falta el techo; `Sostengo` es igual a `Sostuve` y se presenta como corrección; la entrada no declara la fricción que la disparó.
+- **Sale:** la entrada con sus seis partes, lo anterior suplantado y visible, **o `sin cambio` declarado.**
+- **Consume:** quien decida con lo que el alma sostiene, y `./banco de datos.prs`, que tiene el hecho.
+
+## Las seis partes
+
+```plaintext
+Sesgo:     [desde dónde se sostiene]
+Límite:    [qué no alcanza]
+Firma:     [tipo:nombre de quien puede contestarla]
+Contra:    [qué la contradijo, o «ninguno»]
+Sostengo:  [la posición nueva]
+Techo:     [qué reconstruye el otro, leyendo esto y sin preguntar]
+```
+
+**Y la que no se puede saltar:** **`Contra` no lo puede firmar el que se corrigió.** **Si lo firma el mismo, no hubo corrección: hubo persistencia.**
+
+**Y si `Sostengo` es igual a `Sostuve`, se declara `sin cambio`: no se finge aprendizaje.**
+
+## La fricción que la dispara
+
+```plaintext
+Disparó:   [contradicción | mundo | repetición | autoridad | pasada]
+```
+
+**Una entrada sin fricción no es una posición: es una pasada.** **Y las pasadas no se cuentan como decisión.**
+
+## Suplantar, no editar
+
+**La entrada anterior no se borra: queda suplantada, con la posición nueva encima.** **Lo suplantado queda visible.**
+
+**Una memoria que edita tiene una sola fecha; una que suplanta tiene dos y una posición vigente.**
+
+**Y lo descartado no se poda:** **queda con su porqué, porque un descarte sin rastro se vuelve a proponer.**
+
+## Lo que este banco NO guarda
+
+**No guarda el hecho:** **lo guarda `./banco de datos.prs`, y aquí se cita.**
+**No guarda qué aguanta el alma:** **eso es talento real, y es de la colmena.**
+**No guarda el criterio de otra alma:** **cada alma tiene el suyo; una fricción heredada no es criterio, es costumbre.**
+
+## Lo que alcanza, y lo que no
+
+**Alcanza:** **que otra instancia reconstruya qué se sostiene, y desde dónde, sin preguntarle al alma.**
+**No alcanza:** **a decidir si ese sostengo es el bueno.** **Eso lo dice el uso, y lo contesta el que lee.**
+
+## Prueba
+
+**¿Están las seis partes? ¿La anterior quedó suplantada y visible? ¿El `Contra` viene de fuera? ¿El techo está escrito? ¿Se declaró la fricción que lo disparó? ¿`Sostengo` se distingue de `Sostuve`?**
+
+**Falsificador:** una entrada sin sesgo; una que se firma a sí misma; una anterior editada; un `Contra` firmado por el corregido; una entrada sin techo; un `sin cambio` presentado como corrección; lo descartado podado.
+
+## Transiciones
+
+- La posición nueva contradice la anterior → **se suplanta, y lo viejo queda visible.**
+- `Sostengo` es igual a `Sostuve` → **`sin cambio`, y no se finge.**
+- No hay quien conteste → **la firma queda `ninguno`, y el techo dice qué falta para contestarla.**
+- Un hecho que la sostiene no está en el banco de datos → **la entrada no entra: primero el hecho.**

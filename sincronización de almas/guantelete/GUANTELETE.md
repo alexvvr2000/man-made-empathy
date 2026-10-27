@@ -25,16 +25,19 @@
 
 ## Rastro — el cuerpo
 
-**Sesgo:** se verifica desde `../../el estandar/salida/ALAS.md` y desde `../../el estandar/formacion/FORMATO.md`.
+**Sesgo:** se verifica desde [`../../el estandar/salida/ALAS.md`](../el%20estandar/salida/ALAS.md).
 **Límite:** dice qué hay; no juzga si el acto sirvió.
+
+**Y lo primero que hay que saber:** **el guante es de cada alma, y no un préstamo global.** **Esta carta dice qué se lleva puesto; dónde se ejecutan sus siete está en cada alma, en `<alma>/procesos/guante/`.** **Y desde el 2026-10-27 no hay `herramientas/` aquí: se fue con el alma.**
 
 | Qué hay | Nombre | Dónde |
 |---|---|---|
-| El acto que se ejecuta antes de mover | `FRICCION.prs` | `herramienta` |
-| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../el estandar/friccion/GUANTELETE.prs`(../el%20estandar/GUANTELETE.prs) |
-| Las siete herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | `herramienta` |
+| El acto que se ejecuta antes de mover | `FRICCION.prs` | **`../alma/procesos/guante/friccion.prs`** |
+| El procedimiento, paso a paso | `GUANTELETE.prs` | [`../../el estandar/friccion/GUANTELETE.prs`](../el%20estandar/friccion/GUANTELETE.prs) |
+| Las siete herramientas | `SOSTENER` · `FRICCION` · `COMPONER` · `APLICAR` · `MUTAR` · `RETIRAR` · `INVERTIR` | **`../alma/procesos/guante/` — el alma las tiene, y las cambia con su criterio** |
 | El índice: qué pedido va a qué herramienta | `IMA.md` | [`./IMA.md`](./IMA.md) |
-| El estándar de lo que deja ALAS | `ALAS.md` | [`../../el estandar/salida/ALAS.md`(../el%20estandar/ALAS.md) |
+| El peso de cada gema | `EQUILIBRIO.md` | [`../../el estandar/relacion/EQUILIBRIO.md`](../el%20estandar/relacion/EQUILIBRIO.md) |
+| El estándar de lo que deja | `ALAS.md` | [`../../el estandar/salida/ALAS.md`](../el%20estandar/salida/ALAS.md) |
 
 **Qué no se toca:** la fuente y el candado. **Se enlazan, no se copian.**
 
