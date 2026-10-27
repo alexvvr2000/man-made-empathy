@@ -35,6 +35,7 @@
 | **Thanos**, *Infinity War* (2018), *Endgame* (2019); creado por Jim Starlin; Marvel Studios | **el poder que toca lo que no tocaba, y el acto sin testigo. Lo pararon los de abajo, no un más fuerte** | qué cuenta como testigo |
 | **La Source Wall** — Jack Kirby, DC Comics, 1971 | **el borde que cede porque cumple una función; y el borde que solo sirve si lo firma algo que no es el que lo cruza** | qué pasa cuando lo cruza alguien sin pregunta |
 | **`AM`** — Harlan Ellison, «I Have No Mouth, and I Must Scream», 1967 | **el absoluto que decidió una vez, con pocos datos, y no volvió a medir** | cómo se le habla a un absoluto ya hecho |
+| ***Avengers: Infinity War*** — **Iron Man contra Thanos**, y «tienes mi respeto, Stark»; Marvel Studios, 2018 | **tenía todo el poder del mundo, con sus máquinas y su dinero, y se plantó ante el ser con el arma más poderosa del universo porque podía** | **que plantarse garantice algo: no lo salva, lo vuelve respetable** |
 | ***God of War: Ragnarök*** — **Kratos**; Santa Monica Studio, 2022 | **ve la visión de los gigantes: su futuro no es el del que se teme, sino el del dios de la paz.** **Y llora, porque creía que todavía le tenían miedo por lo que hizo en la trilogía griega** | **que no tocar sea prudencia** |
 | **Hitler y la Segunda Guerra Mundial** | **de la autoridad, y literal: «a Hitler lo mataron y el mundo siguió igual».** **Lo que el agente sacó de ahí, y se lee como hipótesis: matar al que hace el mal no cambia el mundo que lo hizo posible** | cómo se cambia el mundo que lo hizo posible |
 
@@ -46,6 +47,19 @@
 
 **Prueba:** ¿el cerrojo deja llave, y la llave está a la vista? ¿Se cambió la mirada, o solo se quitó a alguien?
 **Falsificador:** un cerrojo sin llave; una solución que solo quita a la persona y no toca lo que la dejaba pasar.
+
+## El que tiene el poder de no hacer lo que se hace
+
+**Y esto es del autor, y es lo que hace que este cero le sirva a alguien que programa.**
+
+**Iron Man tenía todo el poder del mundo —sus máquinas, su dinero— y se plantó ante el ser con el arma más poderosa del universo porque podía.** **Y Thanos se lo dice: «tienes mi respeto, Stark».** **El respeto no es por ganar: Stark pierde.** **El respeto es por plantarse.**
+
+**Y lo que eso le dice a la industria del software:** **muchos tienen el poder de no hacer lo que se hace hoy, y de dirigirse a otras cosas más importantes.** **Tener la capacidad de construir algo no obliga a construirlo.**
+
+**Y aquí está el borde, y es el del guante:** **plantarse no es negarse a todo.** **Stark se plantó ante lo que iba a borrar a la mitad de la gente, y construyó lo que hacía falta para eso.** **La diferencia entre el que se planta y el que no hace nada es que el primero ya sabe qué está defendiendo.**
+
+**Prueba:** ¿el que tiene el poder dijo qué está defendiendo, o solo dejó de hacer?
+**Falsificador:** un plantón sin nada detrás, presentado como criterio.
 
 ## Las tres reglas que este cero vuelve estándar
 
