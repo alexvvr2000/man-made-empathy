@@ -1,0 +1,33 @@
+# entregar.tra — la tarea: un candado pasa a paper, en LaTeX, sin saber LaTeX
+
+**Cómo se usa:** **vive en `tareas/la tesis/entregar/`, y se corre con `python bin/ejecutar.py entregar`.**
+
+---
+
+**Nombre:** entregar
+**Expande:** el candado se compuso en paper, y quedo en entregas/
+**Se nombró:** 2026-10-27
+**Reemplaza:** NINGUNO
+**Miente si:** se dice que el paper se escribio y no esta, o se entrega uno sin sus siete campos
+
+## Entra | Falla | Sale | Consume
+
+- **Entra:** un candado de `candados/`, con sus siete campos escritos. **Modo: escribe en `entregas/`.**
+- **Falla si:** al candado le falta uno de los siete campos; el `\title` lleva caracteres sin proteger; el paper no declara su sesgo en la primera página.
+- **Sale:** `entregas/<el candado>.tex`, con resumen, argumento, contexto, caso, método, límites y lo que queda abierto.
+- **Consume:** quien mande el paper, y quien lo revise.
+
+## Por qué existe
+
+**La academia usa el formato como puerta.** **Y el formato es una plantilla.** **Si la plantilla se escribe sola, la puerta deja de ser puerta.**
+
+**Y los siete campos de un candado ya son las siete secciones de un paper, sin agregar nada.** **Eso es lo que se entrega: lo que ya estaba escrito, en el formato de ellos.**
+
+**Prueba:** ¿el candado tenía sus siete campos? ¿el paper dice su sesgo en la primera página? ¿cada sección viene de un campo y no de la inventiva del que compila?
+**Falsificador:** un paper con una sección que no sale de ningún campo; un candado entregado sin sus siete campos; un paper sin su sesgo declarado.
+
+## Transiciones
+
+- El candado está completo → **se escribe el paper.**
+- Le falta un campo → **`[SIN ENTREGA]`, y se dice cuál.**
+- Se corrige el candado → **se vuelve a entregar: el paper cambia porque el candado cambió.**

@@ -38,6 +38,7 @@
 | **Las pruebas del repositorio** | **las que sostiene la autoridad, medidas con `bin/pruebas.py`** | **`./Pruebas/`** |
 | **La atribución** | **de quién es cada cosa** | **`./ATTRIBUTION.md`** |
 | **El ente que contesta** | **lo que pasó, lo que hice mal, y lo que no sé** | **`./el ente.md`** |
+| **Los papers, en LaTeX, uno por candado** | **se componen con `bin/entregar.py`, y no se escribe LaTeX a mano** | **`./entregas/`** |
 | **Las tesis que me trajeron aquí** | **las eras que ya no están, y se ven cuando se piden** | **`./tesis historicas/`** |
 | **Los nombres** | **de dónde viene cada uno** | **`./FUENTES.md`** |
 | **El vocabulario** | **el nombre vigente de cada cosa, y los que murieron** | **`./GLOSARIO.md`** |
