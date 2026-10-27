@@ -26,8 +26,8 @@ import unicodedata
 AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.path.abspath(os.path.join(MANTIS, ".."))
-ORIGEN = os.path.join(REPO, "vision del autor", "tesis", "man made empathy")
-DESTINO = os.path.join(REPO, "vision del autor", "tesis teorica")
+ORIGEN = os.path.join(REPO, "tesis autor", "fuente", "man made empathy")
+DESTINO = os.path.join(REPO, "tesis autor", "teoricas")
 
 CAMPOS = [
     ("Posición", "La tesis"),

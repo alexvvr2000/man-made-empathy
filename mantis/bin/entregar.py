@@ -32,7 +32,7 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 MANTIS = os.path.abspath(os.path.join(AQUI, ".."))
 REPO = os.path.abspath(os.path.join(MANTIS, ".."))
 CANDADOS = os.path.join(REPO, "candados")
-ENTREGAS = os.path.join(REPO, "vision del autor")
+ENTREGAS = os.path.join(REPO, "tesis autor")
 
 CAMPOS = [
     ("Posición", "resumen"),

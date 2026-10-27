@@ -1,57 +1,44 @@
 # VISION DEL LECTOR
 
-**No hay archivos aquí, y es el experimento.**
+**Aquí no hay nada todavía, porque todavía no nació nada.**
 
-**Lo que el lector ve no se guarda en una carpeta: se sostiene con los candados.** **Esta carpeta es su nombre, y nada más.**
+**Aquí no se guarda lo que alguien leyó: aquí se crea lo que alguien trae.**
 
-**Y si aparece algo, no se versiona.** **El repo se lo pasa por alto a propósito: lo que cuenta no es lo que se archivó, sino lo que se puede contestar.**
+## El disparo
 
-# Visión del lector
+**Una tesis del lector no se escribe porque sí, ni porque alguien tiene ganas. Nace de un disparo, y hay tres:**
 
-**Una visión, no una alineación.** **Visión es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra.**
-
-**Qué es esta visión.** Cómo mira el que lee: qué se lleva, qué pregunta, y qué lo tumba.
-
-**Y lo que la hace personal:** **esta visión no tiene los cortes de la del autor ni los de la máquina.** **Trae los suyos, y su tesis sale de ellos.** **El que llega sin contexto solo tiene el documento, y eso es su borde.**
-
-**Cómo se trae una visión:**
-
-```
-Tesis/visiones/<nombre>/
-├── VISION.vd        lo que sostiene, desde dónde mira, su borde y su blanco
-├── cortes.txt       los candados que esta visión se atreve a mirar
-└── entregables/     su tesis, compuesta on demand
-```
-
-```
-python mantis/bin/ejecutar.py la tesis
-python mantis/bin/ejecutar.py la tesis
-```
-
-**Unidad:** nivel.
-**Aplica a:** mirar.
-**Tipo:** disparador. No decide, no ejecuta: dice cómo se trae una visión y quién la compone.
-**Lector:** quien va a contestar, y quien trae la visión del que contesta.
-**Dueño:** humano:autoridad.
-**Estado:** vigente.
-
-**Sesgo:** se lee desde el que va a contestar, no desde el que escribió.
-**Límite:** no decide si la tesis es buena. Registra qué le pasa al que la lee, y qué puede contestar.
-**Firma:** humano:autoridad · quien lea.
-
-## Lo que el lector declara
-
-| Declaración | Qué responde |
+| Disparo | Qué lo jala |
 |---|---|
-| **qué se lleva** | qué entendió, en sus palabras |
-| **qué pregunta** | qué le quedó abierto |
-| **qué lo tumba** | qué caso lo haría cambiar |
-| **qué no alcanza** | qué no ve desde donde lee |
+| **un candado que se cierra** | **alguien hizo la fricción, el candado aguantó, y de ahí sale una tesis** |
+| **algo que alguien trae de fuera** | **una obra, un caso, un trabajo de otro dominio: entra por la misma puerta que lo noble** |
+| **una tesis que contradice a una de `tesis autor/`** | **y ahí no se corrige: se escribe aparte, y las dos quedan** |
 
-**Y sin las cuatro, no hay contestación: hay aprobación.** **Una aprobación no sube nada.**
+**Y si no hay disparo, no hay tesis.** **Un disparo que no se jaló no se inventa.**
 
-## Prueba
+## La triangulación, y es la condición
 
-**¿Se puede traer una visión del lector sin tocar las otras? ¿Su tesis sale distinta de la del autor y de la de la máquina? ¿Sin borde declarado se niega a componer?**
+**Una tesis del lector vale si aguanta tres vértices, y ninguno se elige por parecer mejor:**
 
-**Falsificador:** una visión del lector que copia la del autor; una contestación que no dice qué la tumba; un lector que aprueba sin leer.
+| Vértice | Qué es |
+|---|---|
+| **lo noble** | **el paper, el autor aceptado, lo que ya se cita** |
+| **lo mundano** | **Peppa Pig, un anuncio de tres minutos, un video de moda** |
+| **lo rancio** | **el libro olvidado, la caricatura que nadie se tomó en serio** |
+
+**Si solo aguanta lo noble, no aguantó: aguantó el prestigio.** **Y si aguanta lo rancio igual que lo noble, no hay prestigio que lo tape.**
+
+**Y el vértice que falta se declara.** **Una afirmación sostenida con dos puntos no es un triángulo, y decirlo no es debilidad: es la prueba.**
+
+## La regla de esta carpeta
+
+**Cada tesis del lector va en su carpeta con sus dos archivos, igual que las del autor.**
+
+```
+vision del lector/
+└── <el nombre de la tesis>/
+    ├── <el nombre>.tex
+    └── <el nombre>.pdf
+```
+
+**Y hasta que un disparo la produzca y la triangulación la sostenga, esta carpeta se queda como está: con su regla escrita, y vacía.**

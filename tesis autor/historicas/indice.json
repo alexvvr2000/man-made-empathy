@@ -26,6 +26,11 @@
       "ultimo": "d45f5e1 2026-10-24"
     },
     {
+      "era": "entregas",
+      "archivos": 92,
+      "ultimo": "fbdfa43 2026-10-27"
+    },
+    {
       "era": "sincronizacion de almas",
       "archivos": 80,
       "ultimo": "5a1cbc7 2026-10-26"
@@ -54,6 +59,11 @@
       "era": "Agentes",
       "archivos": 47,
       "ultimo": "2e27443 2026-10-22"
+    },
+    {
+      "era": "vision del autor",
+      "archivos": 41,
+      "ultimo": "8e308aa 2026-10-27"
     },
     {
       "era": "Era",
@@ -91,6 +101,11 @@
       "ultimo": "bb4b14c 2026-10-21"
     },
     {
+      "era": "dsh",
+      "archivos": 15,
+      "ultimo": "06eface 2026-10-18"
+    },
+    {
       "era": "Libre albedrio",
       "archivos": 15,
       "ultimo": "fa58149 2026-10-24"
@@ -99,11 +114,6 @@
       "era": "A.R.E.S",
       "archivos": 15,
       "ultimo": "94bfe35 2026-10-19"
-    },
-    {
-      "era": "dsh",
-      "archivos": 15,
-      "ultimo": "06eface 2026-10-18"
     },
     {
       "era": "corpus",
@@ -116,14 +126,14 @@
       "ultimo": "06eface 2026-10-18"
     },
     {
-      "era": "notas",
-      "archivos": 12,
-      "ultimo": "45ce43c 2026-10-23"
-    },
-    {
       "era": "Principios Agentes",
       "archivos": 12,
       "ultimo": "8d1922d 2026-10-18"
+    },
+    {
+      "era": "notas",
+      "archivos": 12,
+      "ultimo": "45ce43c 2026-10-23"
     },
     {
       "era": "Principios",
@@ -141,14 +151,14 @@
       "ultimo": "3ce700e 2026-10-17"
     },
     {
-      "era": "Puntos de inicio",
-      "archivos": 4,
-      "ultimo": "6cfc788 2026-10-02"
-    },
-    {
       "era": "Sondas de comportamiento",
       "archivos": 4,
       "ultimo": "d017ea7 2026-10-21"
+    },
+    {
+      "era": "Puntos de inicio",
+      "archivos": 4,
+      "ultimo": "6cfc788 2026-10-02"
     },
     {
       "era": "3 Era",
@@ -171,6 +181,11 @@
       "ultimo": "d017ea7 2026-10-21"
     },
     {
+      "era": "tesis historicas",
+      "archivos": 2,
+      "ultimo": "10a6893 2026-10-27"
+    },
+    {
       "era": "scripts",
       "archivos": 2,
       "ultimo": "bb4b14c 2026-10-21"
@@ -186,19 +201,9 @@
       "ultimo": "675b485 2026-10-02"
     },
     {
-      "era": "Instruccion Inicial.md",
+      "era": "POSIBILIDADES.md",
       "archivos": 1,
-      "ultimo": "f8b9ce6 2026-10-03"
-    },
-    {
-      "era": "prompt inicial.md",
-      "archivos": 1,
-      "ultimo": "1e1a8d9 2026-10-05"
-    },
-    {
-      "era": "Posicion de la IA frente a mi sistema.md",
-      "archivos": 1,
-      "ultimo": "6cfc788 2026-10-02"
+      "ultimo": "53b504b 2026-10-25"
     },
     {
       "era": "Select-Object",
@@ -206,11 +211,26 @@
       "ultimo": "6caffee 2026-10-26"
     },
     {
-      "era": "POSIBILIDADES.md",
+      "era": "prompt inicial.md",
       "archivos": 1,
-      "ultimo": "53b504b 2026-10-25"
+      "ultimo": "1e1a8d9 2026-10-05"
+    },
+    {
+      "era": "EL SESGO DECLARADO.md",
+      "archivos": 1,
+      "ultimo": "950fca4 2026-10-27"
+    },
+    {
+      "era": "Instruccion Inicial.md",
+      "archivos": 1,
+      "ultimo": "f8b9ce6 2026-10-03"
+    },
+    {
+      "era": "Posicion de la IA frente a mi sistema.md",
+      "archivos": 1,
+      "ultimo": "6cfc788 2026-10-02"
     }
   ],
-  "archivos": 1546,
+  "archivos": 1682,
   "como_se_cuenta": "cada ruta que existio en cualquier rama y hoy no esta en el arbol"
 }

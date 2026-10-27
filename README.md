@@ -10,14 +10,14 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 ---
 
-**Las tesis, y lo que cada una contesta:** `tesis/`
+**Las tesis del autor: nueve con su .tex y su .pdf, la práctica abierta, y las históricas vacías:** `tesis autor/`
 **La base: dos carpetas, y por qué hay dos y no tres:** `base/`
 **Lo que se copia a tu proyecto, con tres corchetes:** `entiendo/ente/`
 **El estándar: cómo se escribe un proceso, y qué lo deja mal:** `estandar/`
 **Las 93 reglas del autor, cada una con lo que la tumba:** `candados/`
 **El ente que mantiene este repositorio, y corre:** `mantis/`
-**Las tesis que me trajeron aquí, vacías hasta que se pidan:** `tesis historicas/`
-**Las tres visiones: la de la máquina, la del lector, y la mía:** `vision de la maquina/` · `vision del lector/` · `vision del autor/`
+
+**Donde el lector crea, con disparo y triangulación:** `vision del lector/`
 
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
 
