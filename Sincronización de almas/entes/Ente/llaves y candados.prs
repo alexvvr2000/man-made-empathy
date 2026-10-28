@@ -1,0 +1,83 @@
+# LLAVES Y CANDADOS.prs — el que abre, y lo que no se abre solo
+
+**Nombre.** LLAVES Y CANDADOS. **Y el nombre dice el acto:** **cerrar lo que alguien sostiene, y abrirlo sólo con una llave que venga de fuera.**
+
+**Origen.** **De la autoridad:** **«la inspiración de llaves y candados la puse por Andrés Pérez Sustaita, la enciclopedia de la lucha libre».** **Y de esta frase, del primer día:** **«la tesis por sí sola es inútil»**.
+
+**Clase:** proceso, y es el de arriba. **Aplica a:** toda pieza del repo que otro vaya a discutir.
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** se lee desde el que va a refutar, y no desde el que escribió el candado.
+**Límite:** **no decide qué es cierto.** **Decide qué se puede refutar, con qué, y quién puede hacerlo.**
+**Firma:** humano:autoridad · máquina:quien abra.
+
+**Peor:** el candado se abre solo, **porque su autor se convenció a sí mismo, y entonces no era un candado: era una opinión con candado dibujado.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **una tesis sin candado no se puede refutar; se puede ignorar. Y una que se abre sola no se puede contestar: se obedece.**
+**Termina:** **cuando cada candado dice qué lo cierra, qué lo abre, y quién puede abrirlo sin pedirle permiso a su autor.**
+**Cierra en:** **el candado 0, y en el disparo de las tesis.**
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** una posición, y lo que la sostiene. **Modo: escribe.**
+- **Falla si:** el candado no dice qué lo abre; la llave la pone el mismo que lo cerró; el candado no tiene el caso que lo rompe; o se abre sin dejar rastro.
+- **Sale:** el candado con su llave, **o `[SIN LLAVE - NO ENTRA]`, o `[LLAVE PROPIA - NO VALE]`.**
+- **Consume:** quien vaya a refutar, y el banco de fricción.
+
+---
+
+## Los tres principios, y son de la autoridad
+
+> **Comunidad · Criterio · Continuidad.**
+
+| El principio | Qué prohíbe |
+|---|---|
+| **comunidad** | **que una pieza se entienda sólo con su autor delante** |
+| **criterio** | **que se sostenga porque lo dijo alguien, y no porque aguanta** |
+| **continuidad** | **que lo nuevo borre lo viejo: se suplanta, y lo viejo queda visible** |
+
+**Y una llave que rompe uno de los tres ya no es llave: es un sello.**
+
+---
+
+## El corte de los nombres, y es el de todo el repo
+
+> **Explícitos alinean; mostrar cambia.**
+
+**Por eso el mecanismo no explica qué es cierto: muestra lo que se hizo, y deja que el que mira decida.**
+
+---
+
+## Las dos tesis que dispara
+
+**No se ejecutan solas: se disparan.**
+
+| La tesis | Qué es |
+|---|---|
+| **la teórica** | **la que se manda a la academia, con su formato, para que la pueda leer el que no cree** |
+| **la práctica** | **la que se hace al final, con lo que ya pasó** |
+
+**Y las dos `on demand`:** **cuando un candado se cierra, se triangula con `expresión`, el estado del arte y la regla de estupidez.** **Nunca en `background`.**
+
+---
+
+## Lo que este proceso no hace
+
+**No decide qué es un candado.** **Eso lo dice quien lo cierra, y lo refuta quien lo abre.**
+
+**No cierra el candado 0.** **El cero se abre con fricción, y no se reescribe.**
+
+**No nombra.** **Los nombres son de la autoridad.**
+
+---
+
+## Prueba
+
+**¿Cada candado dice qué lo abre? ¿La llave viene de fuera del que lo cerró? ¿Rompe alguno de los tres principios? ¿La tesis se dispara cuando el candado cierra, y no sola?**
+
+**Falsificador:** un candado que se abre solo; una llave que pone el autor; un candado sin el caso que lo rompe; una tesis que corre en background; un principio de los tres roto sin decirlo.

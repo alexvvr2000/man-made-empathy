@@ -1,0 +1,81 @@
+# FIRMAR.prs — el que se equivoca, y sabe que se equivocó
+
+**Nombre.** FIRMAR. **Y el nombre dice el acto:** **dejar la marca de quién responde por lo que se hizo.**
+
+**Origen.** **De la autoridad, el 2026-10-28:** **«así ya sabe el que la cagó que fue por pendejo y no porque no sabía».**
+
+**Clase:** proceso, y es base. **Aplica a:** todo acto que otro vaya a contestar.
+**Dueño:** humano:autoridad. **Estado:** vigente en el borrador, y espera dónde vive.
+
+**Sesgo:** el acto se lee desde el que va a contestarlo, y no desde el que lo hizo.
+**Límite:** **no dice si el acto estuvo bien.** **Dice quién responde, qué dijo que iba a pasar, y qué pasó de verdad.**
+**Firma:** humano:autoridad · máquina:quien firme.
+
+**Peor:** el acto se hizo, salió mal, y nadie puede decir quién lo decidió, **y entonces se repite igual, porque nadie cargó con nada.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **un acto sin firma es un acto que nadie puede corregir, porque no hay a quién preguntarle.**
+**Termina:** **cuando el acto queda con nombre, con lo que se esperaba, y con lo que salió.**
+**Cierra en:** **la línea `Firma:` del acto, y en el banco de fricción.**
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** el acto que se va a hacer, y lo que se espera de él. **Modo: escribe.**
+- **Falla si:** no dice quién responde; no dice qué se esperaba; no dice qué salió; o se firma a sí mismo.
+- **Sale:** la firma completa, **o `[SIN FIRMA - NO CORRE]`.**
+- **Consume:** quien vaya a corregir el acto, y el banco de fricción.
+
+---
+
+## La firma, y son cuatro líneas
+
+```plaintext
+Quién:      [tipo:nombre, y quién puede contestarlo]
+Esperaba:   [qué decía que iba a pasar]
+Pasó:       [qué pasó de verdad]
+Y si no:    [por qué — o «no sé», que es una respuesta]
+```
+
+**Y la cuarta línea es la que separa la ignorancia de la negligencia:** **`no sé` es una firma válida; `no lo anoté` no lo es.**
+
+---
+
+## Lo que se firma, y lo que no
+
+| Se firma | No se firma |
+|---|---|
+| **el acto que toca algo ajeno** | **leer, buscar, y comparar** |
+| **la decisión que otro va a cargar** | **lo que el mundo hizo, y no el ente** |
+| **el cambio de un banco o de un criterio** | **la corrida de una prueba que ya tiene fecha** |
+| **lo que se publica** | **lo que se descarta, que va con su porqué** |
+
+---
+
+## Y la regla que lo vuelve un proceso y no un sello
+
+> **La firma no la pone el que hizo el acto si el acto lo juzga.**
+> **Y el que firma puede decir `no sé`, y eso es contestable.**
+
+**Porque un sello que nadie puede contestar no es firma: es un absoluto con letra.**
+
+---
+
+## Lo que este proceso no hace
+
+**No juzga el acto.** **Eso lo dice el uso, y quien lo contesta.**
+
+**No impide el error.** **Lo hace visible: y el que se equivocó lo va a saber él primero.**
+
+**No reemplaza el banco de fricción.** **La firma abre la fricción; no la sustituye.**
+
+---
+
+## Prueba
+
+**¿La firma dice quién responde? ¿Dice qué se esperaba y qué pasó? ¿El que firma puede ser contestado? ¿El `no sé` se acepta como respuesta?**
+
+**Falsificador:** una firma sin `quién`; una firma que dice `pasó` sin decir `esperaba`; un acto que se firma a sí mismo; un `no sé` convertido en `no lo anoté`.
