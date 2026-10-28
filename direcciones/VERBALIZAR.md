@@ -1,0 +1,63 @@
+# VERBALIZAR — darle nombre a lo que es, y que el nombre diga el acto
+
+**Nombre.** VERBALIZAR. **Y el nombre dice el acto:** **decir lo que algo es, en una palabra que se pueda leer y que diga qué hace.**
+
+**Clase:** dirección. **Aplica a:** nombrar algo, y a pedirle a otro que lo nombre.
+**Dueño:** humano:autoridad.
+
+**Sesgo:** el nombre se lee desde el que no estuvo, y no desde el que lo eligió.
+**Límite:** **no decide qué es la cosa.** **Decide si su nombre se puede usar sin preguntar por qué se llama así.**
+**Firma:** humano:autoridad · máquina:quien lo nombre.
+
+**Peor:** el nombre se recuerda y no se entiende, **y cada vez que alguien lo usa tiene que preguntar qué hace, o inventarse qué hace.**
+
+---
+
+## Lo que dispone, y es el orden
+
+> **Primero el acto. Después el nombre. Y la expansión dice el acto, no la marca.**
+
+**Y las cuatro pruebas que lo vuelven nombre y no etiqueta:**
+
+| La prueba | Pregunta | Si no pasa |
+|---|---|---|
+| **se lee de un tirón** | **¿se puede decir en voz alta, y quedarse?** | **es una etiqueta** |
+| **se expande en el acto** | **¿su expansión dice qué hace?** | **adorna** |
+| **no es de nadie más** | **¿ya existía como nombre de una obra, una marca o una persona?** | **es prestado, y lo prestado se devuelve** |
+| **sobrevive sin su autor** | **¿alguien que no estuvo sabe qué hace, con solo leerlo?** | **el nombre no sirve: se pregunta por qué se llama así** |
+
+**Y por qué el orden importa:** **un nombre puesto antes del acto describe la idea de uno; un nombre puesto después describe lo que la cosa hace.** **Y lo segundo es lo único que otro puede usar.**
+
+---
+
+## Lo que la incumple
+
+**Un nombre que hay que deletrear para recordarlo.** **Lo que se deletrea no se corre desde la memoria, y entonces se busca: y en la búsqueda se pierde el corte.**
+
+**Una expansión que no dice el acto.** **Si la expansión podría ser la de cualquier cosa, no es una expansión: es un adorno con letras.**
+
+**Un nombre que ya era de una obra.** **Aunque suene bien. Y no se usa como segundo nombre: se cuenta en el `Reemplaza:` del que lo reemplazó.**
+
+**Un idioma prestado.** **El nombre se dice en el idioma en que se habla el acto.** **Y cuando se dice en otro, se dice por qué.**
+
+**Un nombre que necesita su autor.** **Si hay que estar en la conversación para entenderlo, no nombra: señala.**
+
+---
+
+## Y el trabajo de nombrar
+
+**Nombrar es de los dos, y en este orden:**
+
+1. **La máquina propone.** **Lee el acto, y propone nombres que se expanden.**
+2. **El humano elige.** **Y lo que descarta no se borra: se anota por qué, porque un descarte sin rastro se vuelve a proponer.**
+3. **El nombre se prueba con el que no estuvo.** **Si lo entiende, entra; si pregunta, todavía no.**
+
+**Y la propuesta de la máquina no se acepta por ser de la máquina.** **Se acepta si pasa las cuatro pruebas, y la firma es de quien lo elige.**
+
+---
+
+## Prueba
+
+**¿Se lee de un tirón? ¿Su expansión dice el acto? ¿No era de nadie más? ¿Alguien que no estuvo sabe qué hace?**
+
+**Falsificador:** un nombre que hay que deletrear; una expansión que no dice el acto; un nombre de obra usado como propio; un nombre que solo se entiende con su autor delante.
