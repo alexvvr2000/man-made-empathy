@@ -1,143 +1,95 @@
-# CONTEXTO.md — de dónde vino, qué provocó, y que se usó bien
+# CONTEXTO — de dónde corrió esto, con qué techo, y por qué empezó sin saber
 
-**Nombre.** CONTEXTO. **Y la expansión dice el acto:** **mostrar de dónde viene lo que se usa, qué provocó, y que la información se usó bien.**
-**Y su otra mitad, que es la que lo separa de las fuentes:** **forzar lo justo, y mostrar lo demás.**
+**Hecho:** 2026-10-28. **Clase:** la perspectiva del usuario. **Estado:** vigente.
 
-**Hecho:** 2026-10-28. **Clase:** aplicación. **Estado:** propuesto.
-**Reemplaza:** `direcciones/CONTEXTO.md` (que se retiró), y absorbe lo que hacían `contexto/` y `ejemplos/`. **Los dos se retiran: no hay carpeta para lo que cabe en un archivo.**
-
-**Lector:** quien va a citar algo ajeno, y quien va a leer el repo sin saber de dónde salió cada cosa.
+**Lector:** el que va a correr esto en algo peor, y el que quiere entender por qué el repo dice lo que dice hoy.
 **Dueño:** humano:autoridad.
 
-**Sesgo:** se lee desde el que va a entender, no desde el que se defiende.
-**Límite:** **no protege legalmente.** **Eso es `FUENTES.md` y `ATTRIBUTION.md`.** **Este muestra qué se usó, de dónde, y para qué.**
-**Firma:** humano:autoridad · máquina:quien lo escriba.
+**Sesgo:** se lee desde el que llega sin saber muchas cosas, y quiere ver de dónde venían los que ya estaban.
+**Límite:** **no es una dirección.** **Cómo se declara el origen está en [`./direcciones/CONTEXTO.md`](./direcciones/CONTEXTO.md), y es vago a propósito.** **Esto es lo de aquí: con qué se hizo, y qué nombres hubo.**
+**Firma:** humano:autoridad · máquina:aquí.
 
 ---
 
-## Por qué es un archivo, y no una carpeta
+## 1. La máquina
 
-> **Un folder es molesto.** **Lo que cabía en un archivo no necesita un folder: necesita una forma.**
+| Pieza | Qué es | Qué significa para la IA |
+|---|---|---|
+| **Equipo** | **Legion Go S** | **una consola de mano, no un servidor** |
+| **Procesador** | **AMD Ryzen Z2 Go** — 4 núcleos, 8 hilos, hasta 4.3 GHz | **un modelo local grande no cabe por cómputo** |
+| **Gráficos** | **RDNA 2 integrada, 12 CU** | **la GPU comparte memoria con el sistema** |
+| **Memoria** | **16 GB LPDDR5X-6400** | **el techo real: memoria compartida entre sistema y GPU** |
+| **Modalidad** | **API remota, y no local** | **el cálculo no ocurre aquí: la máquina solo pide** |
 
-**Y por eso una sola pieza absorbe tres cosas que antes estaban separadas:**
+**Y por qué eso es el punto, y no una excusa:** **la tesis no se sostiene en un centro de datos: se sostiene en una consola de mano de 16 GB.** **Si corrió aquí, corre en casi cualquier cosa con acceso a la red.**
 
-| Lo que era | Ahora |
-|---|---|
-| **`contexto/`, una carpeta por obra** | **una entrada por obra, aquí** |
-| **`ejemplos/`, lo que provoca** | **una entrada con su `Provoca:` y su `Límite:`, aquí** |
-| **`direcciones/CONTEXTO.md`** | **este archivo, en la raíz: se lee junto a `FUENTES.md` y `ATTRIBUTION.md`, y no dentro de `direcciones/`** |
-
----
-
-## Los tres archivos, y cada uno hace lo suyo
-
-| Archivo | Para quién | Qué hace | Su prueba |
-|---|---|---|---|
-| **`FUENTES.md`** | **el que puede reclamar un nombre** | **registra la obra, con autoría y año** | **¿se verifica que existe, y que no se adjudicó?** |
-| **`ATTRIBUTION.md`** | **el que revisa legalmente** | **qué es mío, qué es ajeno, qué se cede** | **¿se distingue lo propio de lo heredado?** |
-| **`CONTEXTO.md`** | **el que va a entender** | **de dónde vino, qué provocó, y dónde se usó** | **¿el otro entiende por qué esto está aquí, y se ve que la info se usó bien?** |
-
-**Y la regla que los separa, dicha por la autoridad:**
-
-> **Una cosa es forzar, y otra es mostrar.**
-> **Las fuentes existen para no meterse en un problema legal; el contexto, para que la gente entienda.**
-
-**Y la meta de este repo es mostrar.** **Por eso el contexto no es un anexo: es lo que hace que el repo sea del que lo lee.**
+**Y lo que no promete:** **no promete que un modelo local dé lo mismo.** **Dice que el método no lo impide, y que la diferencia es de tiempo.**
 
 ---
 
-## Lo que declara cada entrada, y son seis cosas
+## 2. Los nombres del repo: los vivos, y los muertos
 
-```plaintext
-Obra:      [título, autor y año. Lo mínimo para encontrarla]
-Soporte:   [libro | película | serie | cómic | artículo | página | conversación]
-Provocó:   [la pregunta, en una línea]
-Se usó:    [dónde, con su ruta, y para qué]
-Se toma:   [la frase, el caso o la idea que se usa, y nada más]
-Límite:    [lo que esa obra NO enseña, y por qué no se puede estirar]
-```
+**Y esto está aquí, y no en `FUENTES` ni en `ATTRIBUTION`, porque no es legal: es la historia de por qué el repo habla como habla.**
 
-**Y cada uno, con su por qué:**
+**Empecé sin saber muchas cosas, y varios nombres se cayeron porque el que los tenía era de otro.** **Un nombre vivo es el que el repo usa hoy. Un muerto es el que usó, y que hoy no aparece en ninguna parte salvo aquí.**
 
-| El campo | Sin él |
-|---|---|
-| **`Obra` + `Soporte`** | **no se puede encontrar, y sin encontrar no se verifica** |
-| **`Provocó`** | **la obra se cita como autoridad, y no como lo que preguntó** |
-| **`Se usó`** | **la idea queda sin saber a qué pieza sirvió** |
-| **`Se toma`** | **se apropia la obra entera, cuando sólo se usó una línea** |
-| **`Límite`** | **la obra se estira, y el que leyó la obra no reconoce la suya** |
+### Los vivos
 
----
+| Nombre | Qué es | De dónde sale |
+|---|---|---|
+| **ALAS** | **los protocolos de comunicación** | **lo que se le deja al otro** |
+| **VIGA** | **el registro de la alineación** | **la pieza que sostiene sin ser el muro** |
+| **GUANTELETE** | **lo que se puede tocar, y quién lo va a ver** | **el guante que permite, y el que no se quita** |
+| **EQUILIBRIO** | **las seis gemas, y su peso** | **lo que se rompe cuando solo se mira la herramienta** |
+| **CONVIVIR** | **convivir sin volverse el otro** | **la palabra que dice el acto** |
+| **PISO** | **lo que un mundo puede, y que se mide** | **el suelo donde se para** |
+| **ENSAYAR** | **mirar antes de agarrar** | **el acto de probar sin tocar** |
+| **JURAR** | **el freno que dice qué falta y a quién espera** | **el juramento de no parar en seco** |
+| **alma de niño** | **la función de estar equivocado sin romperse** | **es una función, no una poesía** |
+| **RESONANCIA** | **dos que se afinan sin volverse uno** | **se llamó `GIRO`** |
+| **TALENTO** | **lo que aguanta el golpe** | **se llamó `YUNQUE`** |
+| **JONN** | **el recordatorio de que un candado se abre** | **un nombre propio, elegido por el autor** |
+| **CONTEXTO** | **de dónde vino, y que se usó bien** | **el sitio desde donde se mira** |
+| **RASTRO** | **el primitivo: lo que entra y lo que sale** | **lo que queda de lo que pasó** |
 
-## La regla de oro, y es la que evita el problema legal sin tocar la ley
+### Los muertos, y por qué se fueron
 
-> **Se cita la obra como lo que es: una obra que preguntó algo.**
-> **Y lo que se toma se dice, y nada más. Lo que no se toma no se insinúa.**
+**Y todos se fueron por la misma razón: no eran del repo, eran de otro.** **Un nombre de una obra no se usa como nombre propio, aunque suene bien.**
 
-**Y el daño que previene es doble, y el segundo es el que más duele:**
+| El nombre que murió | Por qué | Qué lo reemplazó |
+|---|---|---|
+| **`ATLAS`** | **era el índice, y el nombre no decía el acto** | **`RUTA`** |
+| **`VIDERE`** | **describir al humano es un proceso infinito: se intentó fijarlo, y se cayó** | **`LO HUMANO`, que se deja vacío** |
+| **`VIDAL`** | **era el estándar de los robots de *Concordia*: prestado** | **`CONVIVIR`** |
+| **`GIRO`** | **dos que giran juntos; el nombre no decía que no se vuelven uno** | **`RESONANCIA`** |
+| **`YUNQUE`** | **lo que aguanta el golpe; no decía que se mide a un costo** | **`TALENTO`** |
+| **`CERCO`** | **decía cómo se cierra, y no cómo se abre** | **`GUANTELETE`** |
+| **`PROMETEA`** | **el mito, no el acto** | **`MUDAR`** |
+| **`MANTIS`** | **es una marca activa de software de otra empresa; aquí no se usa como marca, ni como producto, ni para identificarla** | **se retiró, y el ente del repo se llama por lo que hace** |
+| **`FARO`** | **es una marca activa de software de otra empresa; mismo caso** | **se retiró, y lo que hacía lo dice `RASTRO`** |
+| **`EXPANDE`** | **el nombre no decía el acto** | **se retiró** |
+| **`S.A.R.A`** | **una persona prestada para hablar de una máquina** | **se retiró** |
+| **`Ouroboros`** | **la era; la serpiente no decía qué se hacía** | **la dirección** |
+| **`Libre albedrío`** | **era el nombre de una corriente de la que el repo no depende** | **la dirección** |
+| **`.am`** | **la ironía de la extensión del alma** | **`.md`, porque el alma es un ente** |
+| **`DEGRADAR`** | **no existe en el historial: se propuso y nunca se escribió** | **`[SIN DATO]`** |
 
-1. **Legal:** **no se presenta como propio lo que es ajeno.**
-2. **De lectura:** **el que leyó la obra reconoce la suya, y no otra inventada por el que la citó.**
-
-**Y por eso también protege del sesgo:** **la obra provoca la pregunta; no la prueba.**
-
----
-
-## Cómo se ve una entrada
-
-```plaintext
-Obra:      Arrival (Ted Chiang, 1998; Denis Villeneuve, 2016)
-Soporte:   cuento y película
-Provocó:   ¿qué pasa si el otro ya tiene un canal, y el canal es otro?
-Se usó:    direcciones/ALAS.md, «Lengua» — para la razón de declarar lo que se traduce
-Se toma:   la idea de una lengua que se habita y no se traduce
-Límite:    no enseña cómo se construye un canal que no existe
-```
-
-**Y eso es todo.** **Con seis líneas, el que lee sabe de dónde vino, para qué sirvió, y qué no se puede estirar.** **Y no tuvo que abrir una carpeta.**
-
----
-
-## Lo que este archivo NO hace
-
-**No protege legalmente.** **Eso es `FUENTES.md` y `ATTRIBUTION.md`.**
-
-**No obliga a declarar todo.** **Declara lo que se tomó. Lo que no cambió una decisión, no se declara.**
-
-**No juzga la obra.** **Dice qué provocó y dónde se usó. Si es buena o mala, no es asunto de este archivo.**
-
-**No convierte una obra en fuente.** **Una fuente se cita; una obra que provocó, se agradece.**
+**Y lo que estos muertos enseñan, que es la razón de listarlos:** **cada uno se cayó cuando el repo dejó de pedir prestado el nombre de otro.** **Y se listan aquí, y no en un aviso legal, porque lo que ayudan es a entender el porqué, no a defenderse.**
 
 ---
 
-## Su corte
+## 3. De dónde viene lo que provocó cada idea
 
-**Entra:** una idea, un nombre o un caso que se usó y no nació aquí.
+**No de aquí.**
 
-**Falla si:**
-- **no se puede encontrar la obra con lo que se declara.**
-- **se declara la obra entera cuando se usó una línea.**
-- **se omite el `Límite`, y la obra se estira.**
-- **se presenta como propio lo que provocó a otro.**
+**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/CONTEXTO.md`](./direcciones/CONTEXTO.md), que es la dirección: dice cómo se declara, y es vaga a propósito.**
 
-**Sale:** **la entrada con sus seis campos**, o **`[SIN CONTEXTO - NO SE SABE DE DÓNDE]`.**
-
-**Consume:** **el que lee, y el que va a contestar la idea.**
+**Y los agradecimientos personales —los que enseñaron algo sin pedir nada— están en [`./FUENTES.md`](./FUENTES.md).**
 
 ---
 
 ## Prueba
 
-**¿Cada entrada dice obra, soporte, qué provocó, dónde se usó, qué se toma y qué no enseña? ¿Se puede encontrar la obra con lo que dice? ¿Se distingue lo que se tomó de lo que sólo se menciona? ¿El que leyó la obra la reconoce?**
+**¿Está declarado el cómputo, la memoria y la modalidad? ¿Están los nombres vivos, y los muertos con su reemplazo? ¿Cada muerto dice por qué se fue? ¿Se distingue esto de la dirección, que es vaga?**
 
-**Falsificador:** una obra citada como autoridad; una entrada sin `Límite`; una obra estirada más allá de su caso; una idea heredada presentada como propia; una entrada sin `Se usó`.
-
----
-
-## Lo que queda abierto, y es de la autoridad
-
-**1. ¿Las entradas se ordenan por obra, por uso, o por fecha?** **Mi recomendación: por uso, porque el que busca lo hace para saber qué sustentó una pieza.** **Y la columna `Se usó` es la que permite ordenar así.**
-
-**2. ¿`futuros posibles.md` tiene su propia tabla de contexto, o cita ésta?** **Yo citaría ésta: una sola fuente de procedencia, y no dos.**
-
-**3. ¿`FUENTES.md` adelgaza a agradecimientos y regla de nombres, y las obras quedan sólo aquí?** **Si sí, no hay duplicado; si no, hay dos listas que se van a desincronizar.**
+**Falsificador:** una máquina sin decir si el cálculo es local o remoto; un nombre vivo sin su línea; un muerto sin su reemplazo ni su porqué; una dirección de contexto con los nombres adentro.

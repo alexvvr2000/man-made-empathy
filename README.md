@@ -12,12 +12,12 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 **Las tesis del autor: nueve con su .tex y su .pdf, la práctica abierta, y las históricas vacías:** `tesis/vision del autor/`
 
-**Para hacer un ente, de principio a fin, en llano:** `sincronización de almas/LEEME.md`
-**El ente que mantiene este repositorio, y corre:** `mantis/`
+**Para hacer un ente, de principio a fin, en llano:** `Sincronización de almas/`
+**La dirección: lo que se tiene que poder contestar:** `direcciones/`
 
 **Las tesis del autor, y donde el lector crea:** `tesis/`
-**Lo citado, en APA 7:** `FUENTES.md`
-**Lo que cada obra provocó, sin formato:** `contexto/`
+**Los agradecimientos, y la regla de los nombres:** `FUENTES.md`
+**De dónde vino lo que se usó, y qué hizo:** `contexto.md`
 
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
 

@@ -11,6 +11,27 @@
 
 ---
 
+## LA REGLA DURA: vago a propósito
+
+> **Las direcciones son vagas a propósito.**
+> **Los estándares están muertos: meter más detalle no ayuda, las hace parecer lo que ya se sabe producir sin pensar.**
+
+**Y lo que eso obliga, sin excepción:**
+
+| Una dirección SÍ dice | Una dirección NO dice |
+|---|---|
+| **qué se tiene que poder contestar** | **cómo se contesta en cada caso** |
+| **qué la incumple** | **la lista de los casos que conoce** |
+| **su falsificador** | **ejemplos del repo de nadie** |
+
+**Y el daño del detalle, que ya ocurrió:** **una dirección llena de casos se vuelve un estándar con otro nombre.** **Y entonces el que la lee cree que ya sabe cómo se hace, y deja de mirar.**
+
+**Y la prueba, que se corre sin opinar:** **¿la dirección sirve para un caso que no está en ella?** **Si sólo sirve para los casos que lista, no es una dirección: es el manual de una casa.**
+
+**Y lo que va donde debe, y no aquí:** **lo que provocó cada obra, y los nombres vivos y muertos del repo, viven en [`../contexto.md`](../contexto.md)**, que es la perspectiva del usuario y no lleva forma. **Aquí, sólo cómo se declara.**
+
+---
+
 ## Por qué esta carpeta no se llama `estandares/`
 
 > **La IA mató a los estándares.**
@@ -38,13 +59,15 @@
 
 ## Lo que hay aquí, y lo que falta
 
-| Dirección | Qué dispone | Estado |
-|---|---|---|
-| **[`./ALAS.md`](./ALAS.md)` | **qué declara todo protocolo que va a servir, y qué se trunca** | **restaurada del git, íntegra** |
-| **[`./CONVIVIR.md`](./CONVIVIR.md)` | **convivir sin volverse el otro** | **restaurada del git, íntegra** |
-| **[`./VIGA.md`](./VIGA.md)` | **cómo se lee un destino sin saber qué es** | **restaurada del git, íntegra** |
-| **`./CONTEXTO.md`** | **de dónde vino, y que se usó bien** | **hoy vive en [`../contexto.md`](../contexto.md), en la raíz: se lee junto a `FUENTES` y `ATTRIBUTION`** |
-| **las demás** | **se rescatan del chat** | **`[FALTA]`: es lo que hace `../.memoria continua/notas/ciclo.md`** |
+| Dirección | Qué dispone |
+|---|---|
+| **[`./ALAS.md`](./ALAS.md)` | **qué declara todo protocolo, y qué se trunca** |
+| **[`./CONVIVIR.md`](./CONVIVIR.md)` | **convivir sin volverse el otro** |
+| **[`./VIGA.md`](./VIGA.md)` | **leer un destino sin saber qué es** |
+| **[`./CONTEXTO.md`](./CONTEXTO.md)` | **de dónde vino, y que se usó bien** |
+| **[`./PROCESOS.md`](./PROCESOS.md)` | **un proceso no se escribe: se refuta primero** |
+
+**Y las demás se rescatan del chat, cuando se rescaten:** **`[FALTA]`, y no se inventan.** **Lo que hace es lo que dice `../.memoria continua/notas/ciclo.md`.**
 
 **Y el orden de las faltas lo dice la autoridad:** **primero rescatar las que el chat ya tiene, y no inventar las que nadie pidió.**
 
