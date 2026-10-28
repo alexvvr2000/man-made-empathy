@@ -11,14 +11,17 @@
 
 ## Lo que hay, y no es poco
 
-**La tesis escrita se borró.** **Pero no todo lo que decía murió con ella: lo que sigue aguantando está en [`./tesis vieja/`](./tesis%20vieja/), y se salvó en el mismo orden en que se escribió.**
+**La tesis escrita se borró.** **Pero no todo lo que decía murió con ella.** **Y ya está barrida: el argumento quedó aquí, y los ejemplos se fueron a [`../ejemplos/`](../ejemplos/).**
 
-| Archivo | De dónde salió | Qué se salvó |
-|---|---|---|
-| **[`./tesis vieja/la tesis.md`](./tesis%20vieja/la%20tesis.md)** | **el cero entero, el más grande** | **el mecanismo: la dirección, el libre albedrío acotado, la alucinación, la semilla, lo que la tumbaría, y lo que no afirma** |
-| **[`./tesis vieja/las nueve piezas/`](./tesis%20vieja/las%20nueve%20piezas/)** | **las nueve piezas** | **el alma de niño, el estándar, la colmena, el nombre, convivir, abrir una idea, tocar sin pasarse, un alma crece, y el lugar intermedio** |
+| Archivo | Qué es |
+|---|---|
+| **[`./el cero.md`](./el%20cero.md)** | **el argumento de la tesis vieja, sin los ejemplos: la posición, la dirección, el acotado, la alucinación, la triangulación, la semilla, y lo que la tumba** |
+| **[`./tesis vieja/`](./tesis%20vieja/)** | **lo que la tesis vieja dijo, tal cual, con su índice de qué pieza se salvó a dónde** |
+| **[`../ejemplos/ficcion/`](../ejemplos/ficcion/)** | **las 26 fichas: cada obra que la tesis usó, con su verificación** |
 
-**Y cada uno es una vista, no un archivo.** **Lo que de ellos sigue siendo verdad ya está en `entes/` y en `direcciones/`; lo que sólo estaba ahí es la historia de por qué se llegó a eso, y es lo que hace entender el resto.**
+**Y el corte:** **`el cero` se lee para el argumento; `tesis vieja/` se abre para la historia; y las obras se buscan en `ejemplos/`, una por archivo.**
+
+**Y cada uno es una vista, no un archivo duplicado.** **Lo que sigue siendo verdad ya está en `entes/` y en `direcciones/`; lo que sólo estaba ahí es la historia de por qué se llegó a eso.**
 
 ---
 
