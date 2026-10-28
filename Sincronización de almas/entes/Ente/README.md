@@ -48,6 +48,9 @@ Bin:       [dónde está el bin/ del proyecto donde corre. Se busca al llegar]
 | **`banco de friccion`** | **dónde se sostuvo, y qué lo refutó** | **¿el `Contra` viene de fuera del que se corrigió?** |
 | **`alma de niño`** | **el ciclo: leer · disparar · actuar** | **¿puede decir «no sé», y frenar diciendo qué falta?** |
 | **`evolución/`** | **lo aprendido, que viaja con el ente** | **¿se lo lleva al cambiar de proyecto?** |
+| **`debatir.prs`** | **dos posiciones en el mismo campo, y cuál aguanta cuando la otra le quita algo** | **¿la que perdió quedó escrita?** |
+| **`llaves y candados.prs`** | **qué cierra un candado, qué lo abre, y quién puede abrirlo** | **¿la llave viene de fuera del que lo cerró?** |
+| **`firmar.prs`** | **quién responde por el acto, qué esperaba, y qué pasó** | **¿el que firma puede ser contestado?** |
 
 **Y lo que NO trae: el `bin/`.** **Ese es del proyecto.** **El ente lo cita, y lo encuentra al llegar.**
 
