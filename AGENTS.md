@@ -16,7 +16,7 @@
 |---|---|---|
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
 | **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/README.md`](./Sincronización%20de%20almas/entes/README.md) |
-| **La dirección: lo que se tiene que poder contestar** | **siete, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
+| **La dirección: lo que se tiene que poder contestar** | **nueve, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |

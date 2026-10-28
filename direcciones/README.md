@@ -66,6 +66,8 @@
 | **[`./VIGA.md`](./VIGA.md)` | **leer un destino sin saber qué es** |
 | **[`./CONTEXTO.md`](./CONTEXTO.md)` | **de dónde vino, y que se usó bien** |
 | **[`./PROCESOS.md`](./PROCESOS.md)` | **un proceso no se escribe: se refuta primero** |
+| **[`./MUTAR.md`](./MUTAR.md)` | **el alma de niño es fija, y todo lo demás evoluciona** |
+| **[`./CRITERIO.md`](./CRITERIO.md)` | **lo que separa esto de la industria** |
 | **[`./VERBALIZAR.md`](./VERBALIZAR.md)` | **darle nombre a lo que es, y que el nombre diga el acto** |
 
 **Y las demás se rescatan del chat, cuando se rescaten:** **`[FALTA]`, y no se inventan.** **Lo que hace es lo que dice `../.memoria continua/notas/ciclo.md`.**
