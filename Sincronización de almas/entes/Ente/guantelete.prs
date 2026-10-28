@@ -1,0 +1,78 @@
+# GUANTELETE.prs — la ficha que se llena antes de tocar
+
+**Nombre.** GUANTELETE — **G**uardar el acto, **U**bicar quién lo sostiene, **A**nclar quién lo dice, **N**ombrar lo reversible, **T**achar el rastro, **E**sperar si no hay vuelta, **L**eer la respuesta, **E**scribir lo que volvió.
+
+**Origen.** **De la regla: el guantelete te deja hacer todo, y para que no salga Thanos, tiene que haber fricción, sí o sí.** **Y de la pregunta que lo vuelve uso: ¿quién se va a enterar de esto, y qué pasa si sale mal?**
+
+**Clase:** proceso. **Aplica a:** tocar algo que otro sostiene.
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
+**Límite:** **no juzga si el acto es bueno.** **Decide si se puede contestar, si se puede deshacer, y si deja rastro.**
+**Firma:** humano:autoridad · máquina:quien lo ejecute.
+
+**Peor:** el ente toca, **y nadie se enteró, y no hay vuelta.**
+**Quién:** el que carga con lo que se tocó, y el que no pudo reclamar.
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **tocar sin preguntar quién lo va a ver, y sin saber si se puede deshacer.**
+**Termina:** **cuando cada acto que toca algo ajeno deja su ficha, con quién lo contestó.**
+**Cierra en:** el `.tra` de la tarea que tocó, en su `Acto:`.
+**Autoridad:** humano:autoridad. **Muda:** `../../ideas/`, cuando se rescate.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** el acto que se quiere ejecutar, y lo que toca. **Modo: escribe.**
+- **Falla si:** no se declara quién lo contesta; el acto es irreversible y no se espera; no deja rastro; el silencio se lee como aprobación.
+- **Sale:** el acto con su ficha, **o `[VACÍO - SIN TESTIGO]`**, **o `[ESPERA - IRREVERSIBLE]`**.
+- **Consume:** quien vaya a leer lo que se tocó, y quien vaya a deshacerlo.
+
+---
+
+## La ficha, y son seis líneas
+
+```plaintext
+Acto:        [qué se toca]
+Sostiene:    [quién lo sostiene]
+Me lo dice:  [tipo:nombre | ninguno]
+Reversible:  [sí | no, y cuánto cuesta]
+Rastro:      [dónde quedó]
+Deshecho:    [sí | no | no aplica]
+```
+
+**Y `ninguno` es una respuesta.** **Significa que lo que se rompa se rompe con los ojos abiertos.** **Lo que no se permite es leer el silencio como un sí.**
+
+---
+
+## El procedimiento
+
+```plaintext
+1. nombrar    → qué se toca, y qué queda distinto si sale bien.
+2. ubicar     → quién lo sostiene.
+3. preguntar  → quién me lo va a decir si sale mal. Nombre, o «ninguno».
+4. medir      → ¿se puede deshacer? ¿cuánto cuesta deshacerlo?
+5. tocar      → se ejecuta, con la ficha llena.
+6. esperar    → si es irreversible y no hay testigo, no se toca: se declara.
+7. dejar      → la ficha, con lo que cambió.
+8. revisar    → si apareció alguien que lo cargue, se le dice.
+Prohibido el 5 sin el 3 y el 4.
+```
+
+---
+
+## Lo que este proceso no hace
+
+**No decide si el acto es bueno.** **Eso lo decide la autoridad.**
+
+**No impide el acto irreversible.** **Exige testigo, y lo deja escrito.**
+
+---
+
+## Prueba
+
+**¿Quién contesta el acto? ¿Es reversible? ¿Qué cuesta deshacerlo? ¿Dejó rastro? ¿El silencio se leyó como silencio?**
+
+**Falsificador:** un acto sin testigo declarado; un irreversible sin espera; un acto sin ficha; el silencio leído como permiso.

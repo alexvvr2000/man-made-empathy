@@ -1,0 +1,72 @@
+# BANCO DE FRICCIÓN.prs — dónde se sostuvo, y qué lo refutó
+
+**Nombre.** BANCO DE FRICCIÓN — **B**uscar lo anterior, **A**nclar el sesgo, **N**ombrar el límite, **C**opiar la firma, **O**ír el contra, **D**eclarar el sostengo, **F**ijar el techo, **R**evisar si cambió.
+
+**Origen.** **De la regla: una memoria que guarda hechos sin posición es un catálogo de conclusiones, y corregirse cuesta porque no hay de dónde partir.**
+**Y de la autoridad: son dos memorias, y se pueden intercambiar por separado.**
+
+**Clase:** proceso. **Aplica a:** sostener, y corregir.
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** la memoria se lee desde la posición de quien la escribió, no desde quien la lee.
+**Límite:** **no decide si lo recordado es verdad.** **Mide si el otro puede reconstruir la posición y contradecirla.**
+**Firma:** humano:autoridad · máquina:quien recuerde.
+
+**Peor:** se guardan hechos sin posición, **y otra instancia los hereda como verdades, y nadie ve de dónde vienen.**
+**Quién:** quien lea mañana y no vio quién lo escribió.
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **un ente que guarda qué pasó y no desde dónde lo sostuvo hereda conclusiones, y corregirse le cuesta.**
+**Termina:** **cuando cada decisión deja su posición, o se declara `sin cambio`.**
+**Cierra en:** el `.tra` del ente, en su `Sostuve:`.
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** la posición nueva, y lo que la anterior sostenía. **Modo: escribe.**
+- **Falla si:** falta una de las seis partes; el `Contra` lo firma el que se corrigió; se edita la anterior; falta el techo; `Sostengo` es igual a `Sostuve` y se presenta como corrección.
+- **Sale:** la entrada con sus seis partes, lo anterior suplantado y visible, **o `sin cambio`.**
+- **Consume:** quien decida con lo que el ente sostiene.
+
+---
+
+## Las seis partes
+
+```plaintext
+Sesgo:     [desde dónde se sostiene]
+Límite:    [qué no alcanza]
+Firma:     [quién puede contestarla]
+Contra:    [qué la contradijo, o «ninguno»]
+Sostengo:  [la posición nueva]
+Techo:     [qué reconstruye el otro, sin preguntar]
+```
+
+**Y la que no se salta:** **`Contra` no lo puede firmar el que se corrigió.** **Si lo firma el mismo, no hubo corrección: hubo persistencia.**
+
+---
+
+## El disparo
+
+```plaintext
+Disparó:  [contradicción | mundo | repetición | autoridad]
+```
+
+**Y una entrada sin fricción no es una posición: es una pasada.**
+
+---
+
+## Lo que este banco NO guarda
+
+**No guarda el hecho.** **Eso es `./banco de memoria.prs`, y aquí se cita.**
+**No guarda el criterio de otra alma.** **Una fricción heredada no es criterio: es costumbre.**
+
+---
+
+## Prueba
+
+**¿Están las seis partes? ¿Lo anterior quedó suplantado y visible? ¿El `Contra` viene de fuera? ¿Hay techo? ¿`Sostengo` se distingue de `Sostuve`?**
+
+**Falsificador:** una entrada sin sesgo; una que se firma a sí misma; una anterior editada; un `Contra` firmado por el corregido; una entrada sin techo; un `sin cambio` presentado como corrección.

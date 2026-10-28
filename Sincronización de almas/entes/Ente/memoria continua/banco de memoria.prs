@@ -1,0 +1,65 @@
+# BANCO DE MEMORIA.prs — lo que pasó, con su texto y su fecha
+
+**Nombre.** BANCO DE MEMORIA — **B**uscar lo que pasó, **A**nclar la fecha, **N**ombrar la frontera, **C**opiar el texto, **O**rdenar, **D**eclarar lo vacío, **E**scribir sin resumir, **T**achar lo pasado.
+
+**Origen.** **De la autoridad: «el banco de datos no estaba, por eso perdí tanta información».**
+**Y de la regla que lo hace útil: no se guarda lo que pasó; se guarda lo que cambió el borde de lo que sabes.**
+
+**Clase:** proceso. **Aplica a:** recordar lo que pasó.
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** lo que pasó se lee desde el que no estuvo, no desde el que lo resumió.
+**Límite:** **no decide qué es importante.** **Guarda lo que cambió una decisión; lo que no cambió nada, no entra.**
+**Firma:** humano:autoridad · máquina:quien anote.
+
+**Peor:** se guarda el resumen, **y el que llega no puede reconstruir qué se dijo, sólo lo que el que anotó creyó que importaba.**
+**Quién:** quien decida con un resumen y no con lo que pasó.
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **lo que pasó no quedaba escrito, y cada intento de recordar preguntaba por la posición, que no dice qué ocurrió.**
+**Termina:** **cuando cada frontera deja su registro, o se declara `visto` y no se escribe.**
+**Cierra en:** el `.tra` del ente, en su `Pasó:`.
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que pasó: el texto, quién lo dijo, cuándo, y qué lo disparó. **Modo: escribe.**
+- **Falla si:** se guarda un resumen en vez del texto; se edita un registro anterior; no tiene fecha; no dice su frontera; contesta «nada» a «¿qué no sabía antes?».
+- **Sale:** un registro con sus seis campos, **o `visto`** si no movió ninguna frontera.
+- **Consume:** quien vaya a reconstruir qué pasó, y el banco de fricción.
+
+---
+
+## El disparo es una frontera, y son tres
+
+| La frontera | Cuándo | Por qué no es ruido |
+|---|---|---|
+| **revelación** | **apareció algo que no estaba** | **el banco tenía una falta, y se cerró** |
+| **confirmación** | **lo esperado pasó, y por primera vez con datos** | **deja de ser creencia y pasa a registro** |
+| **ruptura** | **algo que se daba por cierto no pasó** | **es la frontera de antes, movida** |
+
+**Y lo que no se guarda:** **lo esperado que vuelve a pasar igual.** **Se declara `visto`, sin entrada.**
+
+---
+
+## Los seis campos
+
+```plaintext
+Fecha:     [de cuando pasó, no de cuando se escribió]
+Dijo:      [quién habló, o qué sistema lo produjo]
+Texto:     [literal. Si no cabe, dos registros: el texto y lo que se hizo]
+Frontera:  [revelación | confirmación | ruptura]
+Sabía:     [qué no sabía antes. Si es «nada», no entra]
+Turno:     [dónde quedó, para poder volver]
+```
+
+---
+
+## Prueba
+
+**¿El registro tiene sus seis campos? ¿Dice su frontera? ¿Contesta «qué no sabía antes»? ¿El texto es literal?**
+
+**Falsificador:** un resumen como registro; un registro sin fecha; un registro sin frontera; un registro editado en vez de suplantado; un `visto` escrito como entrada.
