@@ -2,23 +2,27 @@ cff-version: 1.2.0
 message: "Si utilizas este trabajo, por favor cítalo de la siguiente manera."
 title: "Man-Made Empathy: el sesgo declarado, medido en acciones"
 abstract: >-
-  Man-Made Empathy es un método y un registro. Sostiene que la verbalización es
-  el primitivo: quien puede declarar lo que hace, y dejar rastro de lo que no
-  hizo, se puede contestar sin decidir qué hay detrás de él. El repositorio
-  contiene el estándar con que se escribe un ente ejecutable, sus 93 reglas con
-  su prueba, y un registro de 26 días de trabajo entre un autor y una máquina:
-  279 entradas de memoria, 263 de ellas nacidas de una corrección, y 197 dichas
-  con la palabra del autor. No se presenta como un modelo validado con terceros
-  independientes. Se presenta como un caso, medido y publicado, con sus errores
-  a la vista.
+  Man-Made Empathy es un método y un registro. Sostiene que el rastro es el
+  primitivo: lo que se puede observar de lo que un ente hace entra y sale, y
+  nada más. La identidad se puede escribir sin interioridad, porque la pregunta
+  por lo que hay dentro no tiene comprobación, y la pregunta por lo que contestó
+  sí. El repositorio contiene las direcciones que un trabajo tiene que poder
+  contestar (mirar, pesar, tocar, y dejar rastro), la plantilla ejecutable de un
+  ente con sus dos bancos de memoria y su guantelete, el ciclo mínimo que corre
+  en SQLite, y un registro fechado de lo que se decidió, se descartó y se
+  verificó. Los ejemplos se citan con su obra, su lugar y si se verificaron;
+  lo que no se verificó, lo dice. La tesis escrita se retiró, y su argumento
+  vive en el repositorio junto a su historia. No se presenta como un modelo
+  validado con terceros independientes: se presenta como un caso, medido y
+  publicado, con sus errores a la vista.
 type: software
 authors:
   - family-names: "Valenzuela Rivera"
     given-names: "Alejandro"
     email: "alejandrovalenzuela051@gmail.com"
     affiliation: "Universidad Autónoma de Nuevo León, Facultad de Ciencias Físico Matemáticas (egresado de la Licenciatura en Ciencias Computacionales)"
-version: "2"
-date-released: "2026-10-26"
+version: "3"
+date-released: "2026-10-28"
 repository-code: "https://github.com/alexvvr2000/man-made-empathy"
 license: "CC-BY-4.0"
 identifiers:
@@ -41,25 +45,51 @@ keywords:
   - "human-computer interaction"
   - "auditability"
 references:
-  - type: article
-    title: "El sesgo declarado, medido en acciones: un registro de 26 días de correcciones entre un autor y una máquina"
-    authors:
-      - family-names: "Valenzuela Rivera"
-        given-names: "Alejandro"
-    date-published: "2026-10-26"
-    file: "EL SESGO DECLARADO.md"
-    notes: "El paper práctico. Es el documento que este repositorio sostiene como entrada."
   - type: generic
-    title: "Man-Made Empathy: las ocho tesis, y el cero"
+    title: "Las direcciones: lo que un trabajo tiene que poder contestar"
     authors:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
-    date-published: "2026-10-26"
-    file: "tesis/"
+    date-published: "2026-10-28"
+    file: "direcciones/"
+    notes: "Siete direcciones, cada una con su falsificador. La vaguedad es a propósito: no es un estándar."
   - type: generic
-    title: "Las 93 reglas del autor, con su prueba"
+    title: "La plantilla del ente, y la colmena"
     authors:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
-    date-published: "2026-10-26"
-    file: "candados/"
+    date-published: "2026-10-28"
+    file: "Sincronización de almas/entes/"
+    notes: "Lo que se copia y corre: la carta del ente, el guantelete, los dos bancos, el ciclo, y la evolución."
+  - type: generic
+    title: "Los ejemplos, con su verificación"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-28"
+    file: "Sincronización de almas/ejemplos/"
+    notes: "Una ficha por obra: qué escena, dónde está, y si se verificó."
+  - type: generic
+    title: "El argumento, y su historia"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-28"
+    file: "Sincronización de almas/ideas/"
+    notes: "El cero sin sus ejemplos, y la tesis vieja tal cual, con su índice de qué se salvó a dónde."
+  - type: generic
+    title: "El ciclo mínimo: dos bancos en SQLite"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-28"
+    file: "bin/"
+    notes: "bin/ciclo.py y su esquema. El bin es del proyecto, y el ente lo busca al llegar."
+  - type: generic
+    title: "El histórico del método"
+    authors:
+      - family-names: "Valenzuela Rivera"
+        given-names: "Alejandro"
+    date-published: "2026-10-28"
+    file: ".memoria continua/historico/"
+    notes: "El esquema de la memoria vieja y su rastro crudo, guardados para ver la evolución."
