@@ -1,55 +1,57 @@
-# IDEAS — lo que se piensa, y de dónde sale lo que se ejecuta
+# IDEAS — lo que se piensa, y lo que ya se salvó de la tesis vieja
 
-**Hecho:** 2026-10-28. **Clase:** lo que se piensa. **Estado:** abierta, y vacía: aquí sólo llega lo pulido.
+**Hecho:** 2026-10-28. **Clase:** lo que se piensa. **Estado:** abierta. **Lector:** quien quiere saber por qué esto dice lo que dice.
+**Dueño:** humano:autoridad.
 
-**Sesgo:** se lee desde el que quiere saber por qué esto dice lo que dice.
-**Límite:** **no se ejecuta.** **Lo que se ejecuta vive en [`../entes/`](../entes/).**
+**Sesgo:** se lee desde el que quiere saber de dónde vino todo esto, y qué aguanta todavía.
+**Límite:** **no se ejecuta.** **Lo que se ejecuta vive en [`../entes/`](../entes/) y en [`../../../direcciones/`](../../direcciones/).**
 **Firma:** humano:autoridad.
 
 ---
 
-## Qué va aquí, y dónde se trabaja
+## Lo que hay, y no es poco
 
-**El taller vive fuera de la entrega: en `../../../.memoria continua/notas/borrador/`, un ciclo por sesión.** **Y aquí se queda sólo lo que ya no depende del chat.**
+**La tesis escrita se borró.** **Pero no todo lo que decía murió con ella: lo que sigue aguantando está en [`./tesis vieja/`](./tesis%20vieja/), y se salvó en el mismo orden en que se escribió.**
 
-## Qué va aquí, y cuándo
+| Archivo | De dónde salió | Qué se salvó |
+|---|---|---|
+| **[`./tesis vieja/la tesis.md`](./tesis%20vieja/la%20tesis.md)** | **el cero entero, el más grande** | **el mecanismo: la dirección, el libre albedrío acotado, la alucinación, la semilla, lo que la tumbaría, y lo que no afirma** |
+| **[`./tesis vieja/las nueve piezas/`](./tesis%20vieja/las%20nueve%20piezas/)** | **las nueve piezas** | **el alma de niño, el estándar, la colmena, el nombre, convivir, abrir una idea, tocar sin pasarse, un alma crece, y el lugar intermedio** |
 
-**Todo lo que salga de `notas/`, unificado y pulido.** **Los argumentos, los ejemplos y la historia.**
-
-**Y son tres cosas, que hoy viven separadas:**
-
-| Lo que hay hoy | Qué queda aquí |
-|---|---|
-| **`notas/base.md`** | **el árbol del ente, y la ley** |
-| **`notas/colmena.md` y `notas/ciclo.md`** | **el conjunto, y la meta** |
-| **`notas/argumentos/`** | **lo que se puede demostrar: el rastro, la interioridad, ALAS** |
-
-**Y casi todo eso ya está en [`../entes/`](../entes/), en forma de dirección.** **Aquí se queda el porqué, y ahí el cómo se usa.**
+**Y cada uno es una vista, no un archivo.** **Lo que de ellos sigue siendo verdad ya está en `entes/` y en `direcciones/`; lo que sólo estaba ahí es la historia de por qué se llegó a eso, y es lo que hace entender el resto.**
 
 ---
 
-## Por qué está vacío
+## El criterio con el que se salvó, y el que se descartó
 
-> **Sin sustento, se trabaja con lo que se cree.** **Y lo que se cree no se puede contestar.**
+**Se salvó lo que dice algo que hoy no está escrito en otra parte.** **Y se descartó lo que ya se fue: las citas a `mantis/`, a `0/`, a `RUTA`, a `VIDERE`, y lo que apuntaba a carpetas que ya no existen.**
 
-**Y por eso no se llena ahora:** **se llena al final, cuando el ciclo cierre y lo de `notas/` esté pulido.** **Copiarlo ahora sería tener dos versiones, y la que se lee deja de ser la que se sostiene.**
+**Y no se reescribió una palabra de lo salvado.** **Lo que decía, dice; y lo que ya no aguanta, se nota al leerlo.**
 
 ---
 
-## Lo que va a decir cuando se llene
+## La pregunta que queda
 
-```plaintext
-Idea:       [la tesis, en una línea]
-Provocó:    [qué obra, caso o persona la hizo pensable]
-Sostiene:   [qué argumento la sostiene, con entrada y salida]
-Se usa en:  [qué dirección de ../entes/ la aplica]
-Límite:     [lo que la idea NO afirma]
-```
+> **¿Qué de esto ya no aguanta, y por qué?**
+
+**Y la única respuesta honesta:** **el rastro, y no la verbalización.** **El cero entero se sostiene sobre que la verbalización es el primitivo, y eso ya se cambió: el primitivo es el rastro, y la verbalización es una forma de contarlo.**
+
+**Y eso no invalida lo salvado: lo reubica.** **Lo que sigue aguanta es `Lo que no se mató a tiempo`, `La triangulación con lo pendejo`, y `Lo que no afirma`.** **Lo que se mueve es la primera línea de la posición.**
+
+**Y ese cambio se escribe cuando se escriba la tesis nueva, no ahora.**
+
+---
+
+## Lo que se piensa, y todavía no está aquí
+
+**El taller está fuera del git, en `.memoria continua/notas/borrador/`, un ciclo por sesión.** **Y de ahí sale lo que se sube aquí, ya pulido.**
+
+**Y lo que hoy está en `notas/` (el rastro, la interioridad, ALAS, el ejemplo contra el argumento) sube cuando el ciclo lo toque, no antes: una nota en dos sitios se desincroniza.**
 
 ---
 
 ## Prueba
 
-**¿Cada idea apunta a la dirección que la usa? ¿Cada idea dice de dónde vino? ¿Cada una dice lo que no afirma?**
+**¿Cada idea salvada dice de dónde salió? ¿Se distingue lo que aguanta de lo que ya no, sin reescribirlo? ¿Lo que se piensa apunta a donde se ejecuta?**
 
-**Falsificador:** una idea sin prueba; una idea que se presenta como prueba; una idea que no apunta a dónde se usa.
+**Falsificador:** una idea sin origen; una idea reescrita para que quepa en lo nuevo; una idea que se presenta como prueba.
