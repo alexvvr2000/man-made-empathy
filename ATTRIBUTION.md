@@ -58,20 +58,7 @@
 
 **Y la licencia no protege la idea: protege el texto.** **Quien quiera usar el método, puede; y si lo usa, que declare de dónde viene.**
 
-## 7. Y lo que va a pasar con el jugo
-
-**El jugo está en la memoria, y su forma es `CONTEXTO`.** **Y el jugo que se publique —las memorias y los chats limpios— lleva su propia atribución al inicio de cada archivo:**
-
-```
-Origen:     [la sesion, con su archivo y su fecha]
-Autoria:    [el autor, y los modelos que ayudaron]
-Licencia:   [la del repo]
-Limpieza:   [que se etiqueto, y donde esta la tabla]
-```
-
-**Y ese bloque no es adorno:** **un chat publicado sin decir quién lo tuvo es un chat que parece de nadie.**
-
-## 8. Lo que este archivo no hace
+## 7. Lo que este archivo no hace
 
 **No certifica originalidad, ni prioridad, ni que el autor haya llegado primero.**
 

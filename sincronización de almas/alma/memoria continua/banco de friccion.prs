@@ -2,8 +2,6 @@
 
 **Nombre.** BANCO DE FRICCIÓN — **B**uscar lo anterior, **A**nclar el sesgo, **N**ombrar el límite, **C**opiar la firma, **O**ír el contra, **D**eclarar el sostengo, **F**ijar el techo, **R**evisar si cambió, **I**ntercambiar, **C**errar, **C**omprobar, **I**nscribir, **Ó**rden, **N**o editar.
 
-**Origen.** **De `ba5a4fcd:'Libre albedrio/memoria continua.md'`, y de `04d6771c:'Ouroboros/procesos/memoria continua.md'`.** **Y de la autoridad: «una cosa es que tenga fricción, y otra es que sí sea una memoria de verdad; se mide en datos y no solo criterio.»** **Este es el de la posición; el de los datos es `./banco de datos.prs`.**
-
 **Unidad:** proceso.
 **Aplica a:** sostener, y corregir.
 **Tipo:** se ejecuta. **Es donde el alma guarda desde dónde decidió, y qué la contradijo.**
@@ -26,7 +24,7 @@
 **Falta:** **un alma que guarda qué pasó y no desde dónde lo sostuvo hereda un catálogo de conclusiones; y corregirse le cuesta, porque no hay de dónde partir.**
 **Termina:** **cada decisión importante deja su posición con sus seis partes, o se declara `sin cambio`.**
 **Cierra en:** `./banco de friccion.tra`.
-**Autoridad:** humano:autoridad. **Criterio:** igual. **Muda:** `../criterio/MUDAR.md`.
+**Autoridad:** humano:autoridad. **Criterio:** igual.
 
 ## Entra | Falla | Sale | Consume
 

@@ -25,8 +25,6 @@
 
 ## Protocolo 1 — el índice de intenciones a formas
 
-**De dónde viene:** `A.R.E.S/atlas.md`, la primera versión. **Qué es:** **un índice, no un proceso.** **Se busca por intención, nunca por nombre de método.**
-
 ```
 Fila: intención | capa | primitiva | ejemplo mínimo | límite | compone | verifica
 ```
