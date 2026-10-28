@@ -45,6 +45,7 @@
 | **nombrar algo** | [`./direcciones/VERBALIZAR.md`](./direcciones/VERBALIZAR.md) | **se pone una etiqueta, y lo que se deletrea no se corre** |
 | **hablar con otro que no es como uno** | [`./direcciones/ALAS.md`](./direcciones/ALAS.md) | **se trunca, y se lee como completo** |
 | **declarar de dónde vino algo** | [`./direcciones/CONTEXTO.md`](./direcciones/CONTEXTO.md) | **lo heredado se presenta como propio** |
+| **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
 | **leer lo que se dijo y se descartó** | **`.memoria continua/notas/`** | **se repite una discusión cerrada** |
 | **mutar la dirección o el producto** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |
