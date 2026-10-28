@@ -21,10 +21,11 @@
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
 | **De dónde vino lo que se usó** | **la máquina, los nombres vivos, y los muertos con su reemplazo** | [`./contexto.md`](./contexto.md) |
-| **Lo legal** | **vacío a propósito: se escribe al final** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
-| **Lo que se piensa** | **vacío: se llena al cerrar los ciclos** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
-| **Lo que se muestra** | **vacío: casos completos, al final** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
-| **Lo que se dijo y se descartó** | **en `notas/`, fuera del git** | **`.memoria continua/notas/`** |
+| **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
+| **Lo que se piensa** | **el cero sin sus ejemplos, y la tesis vieja con su índice** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
+| **Lo que se muestra** | **26 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
+| **Lo que se dijo y se descartó** | **en `notas/`, en el repo** | **`.memoria continua/notas/`** |
+| **El histórico del método** | **el esquema viejo y el rastro crudo de MANTIS, para ver la evolución** | **[`.memoria continua/historico/`](.memoria%20continua/historico/)** |
 
 **Qué no se toca:** **la dirección, y lo que entrega el producto.** **Se leen, se citan, y lo que las cambia se espera a la autoridad.**
 
@@ -81,7 +82,7 @@ al cerrar   → python bin/ciclo.py disparar    si movió una frontera
 
 ## Lo que este repositorio no hace, y se declara
 
-**No certifica originalidad ni prioridad.** Ver [`./ATTRIBUTION.md`](./ATTRIBUTION.md), que está vacío a propósito.
+**No certifica originalidad ni prioridad.** Ver [`./ATTRIBUTION.md`](./ATTRIBUTION.md): la licencia es CC BY 4.0, y el DOI es de Zenodo desde el segundo cero.
 
 **No usa el nombre de una obra como nombre propio.** Ver [`./contexto.md`](./contexto.md), y los nombres muertos.
 
