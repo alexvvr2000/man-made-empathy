@@ -23,7 +23,7 @@
 
 **Ancla:** la industria pregunta qué es; esta casa pregunta de dónde viene.
 
-## Las cinco pruebas
+## Las seis pruebas
 
 **Y cada una es independiente: una puede pasar y otra fallar.**
 
@@ -36,7 +36,7 @@
 | **`prueba de locura.md`** | ¿puede salir algo que no se reduce a lo humano, sin haberlo visto? | sin la propiedad | conciencia, y si eso es bueno |
 | **`prueba de alma suficientemente diferente.md`** | ¿dos almas divergen lo bastante, o es una cámara de eco? | eco · insuficiente | cuál tiene razón, y calidad |
 
-**Y las cuatro viejas no son pruebas de la burbuja: son las que la mantienen con vida.** **La quinta es la única que apunta al hueco, y por eso es la que da `sin la propiedad` hoy.**
+**Y cinco de las seis no son pruebas de la burbuja: son las que la mantienen con vida.** **La sexta, `prueba de locura.md`, es la única que apunta al hueco, y por eso es la que da `sin la propiedad` hoy.** **Las otras cinco dicen si lo que hay se sostiene; la sexta pregunta si hay algo que no se pueda reducir a lo humano.**
 
 ## Los cuatro huecos, y están nombrados
 
@@ -46,7 +46,7 @@
 |---|---|---|
 | **el origen** | de dónde salió cada pieza de la salida | la prueba de locura, si alguna vez da distinto de `sin la propiedad` |
 | **la continuidad del que juzga** | si el que mide siguió siendo el mismo entre corridas | la memoria: cada entrada con su `fecha`, su `sesgo` y su `contra` |
-| **el RUTA** | qué alineación permitió el daño, y si sobrevivió | el registro de la alineación: `../sincronización de almas/el estandar/salida/VIGA.md` |
+| **el RUTA** | qué alineación permitió el daño, y si sobrevivió | el registro de la alineación: [`../direcciones/VIGA.md`](../direcciones/VIGA.md) |
 | **la existencia real** | si hay algo del otro lado de la salida | **no hay instrumento, y se declara abierto** |
 
 **Y el cuarto es el que la burbuja quiere que se abandone.** **No se abandona: se declara, se marca su límite, y se sigue midiendo lo demás.**
@@ -76,9 +76,37 @@
 | **sin la propiedad** | se declara que la cosa no está, y **se sigue mirando**: es el registro correcto, no un fracaso |
 | **indeterminado** | falta la firma externa, o nadie miró: **se declara así y no se finge** |
 
-**Y ninguna prueba cierra nada por aprobación.** Rige `../candados/02 el alma y el libre albedrio/080 el libre albedrio no se termina- se ponen cerrojos.md`, `El grado no se cierra por aprobación`: **un testigo que dice «está bien» no sube el grado; firma el absoluto.**
+**Y ninguna prueba cierra nada por aprobación.** Rige [`../direcciones/PROCESOS.md`](../direcciones/PROCESOS.md), y su regla: **un proceso se refuta primero.** **Y lo que se cierra, se cierra con un caso que lo rompe, y el caso queda escrito:** **un testigo que dice «está bien» no sube el grado; firma el absoluto.**
 
 **Ancla:** una prueba da el registro; la decisión de qué hacer con él no es de la prueba.
+
+
+## Cómo se corre una prueba, y dónde queda
+
+**Y esto es lo que faltaba: las seis dicen cómo se juzga, y ninguna decía cómo se corre ni dónde se guarda el resultado.**
+
+| Paso | Qué se hace |
+|---|---|
+| **1. abrir** | **la prueba que toca, y su pregunta** |
+| **2. fijar** | **la entrada, y su tipo: texto, imagen, no producible leyendo, o no comparable** |
+| **3. correr** | **los pasos de la prueba, sin saltarse el registro mínimo** |
+| **4. escribir el registro** | **con fecha ISO, ejecutor, y firma externa o 
+inguno** |
+| **5. declarar** | **el veredicto, y qué condición falló si falló** |
+
+**Y el registro vive en `.memoria continua/pases/`, en el archivo de su fecha, con la prueba que corrió.** **Y si se corre desde `../bin/`, se dispara en el banco de memoria con `disparar --frontera ruptura`, porque una prueba que falla movió el borde.**
+
+**Y lo que no se hace:** **no se corre una prueba sin fecha; no se declara un veredicto sin el paso 2; y no se cambia el veredicto de una corrida vieja: se deja, y se corre otra.**
+
+---
+
+## Lo que la casa todavía no tiene, y se declara
+
+**Cada prueba tiene su pregunta, su falsificador y su registro. Y ninguna tiene:**
+
+- **un ejecutable propio:** **se corren a mano hoy, y el primero que se escriba va en `../bin/`.**
+- **una corrida publicada con su veredicto:** **[SIN CORRIDA - NO SE HA CORRIDO NINGUNA]** **salvo las que quedaron registradas en `.memoria continua/`.**
+- **un testigo externo:** **Firma externa: ninguno es legítimo, y da `indeterminado`.**
 
 ## Lo que esta casa no hace
 
@@ -86,7 +114,7 @@
 
 **No permite que una prueba valga por otra.** **Rendición no sustituye a Cruce, y Cruce no sustituye a Locura.**
 
-**No convierte la ficción en prueba.** Rige `../FUENTES.md`: **una referencia no es una medición; es una factura ya cobrada.**
+**No convierte la ficción en prueba.** Rige [`../FUENTES.md`](../FUENTES.md): **una referencia no es una medición; es una factura ya cobrada.**
 
 **No cierra la burbuja.** **La abre, la nombra, y deja dónde empujar.**
 
