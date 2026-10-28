@@ -10,6 +10,18 @@
 
 ---
 
+## Las tres carpetas, y son tres cosas distintas
+
+| La carpeta | Qué tiene | Cómo se verifica |
+|---|---|---|
+| **[`./ficcion/`](./ficcion/)** | **33 obras, de la ficción** | **con ficha: título, autor, año, y si la escena se abrió** |
+| **[`./real/`](./real/)** | **lo que pasó: un hecho, una decisión, un episodio** | **con fuente, y si está disputado, con sus dos lados** |
+| **[`./dicho/`](./dicho/)** | **lo que alguien dijo, con nombre** | **con nombre, y si no consta, `reportado por otro`** |
+
+**Y las tres son legítimas, y ninguna sustituye a la otra.** **La ficción se verifica con ficha; el hecho con fuente; y el dicho con nombre.**
+
+---
+
 ## La regla, y es una sola
 
 > **Un ejemplo no es absoluto porque nunca está solo: lleva su verificación pegada.**
