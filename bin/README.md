@@ -14,6 +14,8 @@
 |---|---|
 | **`ciclo.py`** | **el ciclo mínimo: disparar en memoria, sostener en fricción, ver, y cerrar el pase** |
 | **`esquema.sql`** | **las dos tablas: `memoria` y `friccion`, y nada más** |
+| **`historia.py`** | **trae una era del historial de git, una cuando se pide. Va a `%TEMP%`, y no al repo.** |
+| **`historia.md`** | **la regla del historial: una era cuando se pide, y no todas** |
 
 **Y la base vive en `.memoria continua/ciclo.db`, fuera del git.** **No se copia: se rehace desde el esquema.**
 
