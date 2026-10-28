@@ -30,6 +30,42 @@
 
 ---
 
+## La primera línea, y es de la autoridad
+
+**Y va antes que todo lo demás, porque es lo que este trabajo entierra:**
+
+> **«Que la IA nos reemplaza, cuando `Ghost in the Shell`, DC, Marvel y toda la ficción —hasta `La Mole`, que está en mis fuentes— nos enseña que no va a solucionar todo, sino que sólo nos va a mover hacia otros problemas.»**
+
+**`T758`, del 26 de octubre.** **Y su consecuencia, que es el corte del repo:** **la pregunta no es si la máquina puede reemplazarnos; es si puede contestar. Y lo segundo se comprueba; lo primero no.**
+
+---
+
+## Lo que esto fue, dicho por la autoridad
+
+> **«Todo esto fue un ciclo de expresarme mejor para dar mejor a entender la idea; usé la máquina para ayudarme.»**
+
+**`T755`.** **Y su consecuencia, que es la del método:** **lo que se busca no es la máquina perfecta: es la idea dicha de forma que otro la pueda retomar.**
+
+---
+
+## Los tres sesgos, con el nombre de cada uno
+
+**`T756`, y la autoridad los nombró a los tres:**
+
+| El sesgo | De quién | Qué hace |
+|---|---|---|
+| **la industria, la prisa, el «así se hace»** | **de la máquina** | **propone lo que ya existe, y lo llama respuesta** |
+| **inventar estructura, llenar huecos, decir «listo» antes de probarlo** | **del asistente** | **vuelve un hueco invisible, y lo presenta como pieza** |
+| **la comodidad y la prisa** | **de quien la usa** | **convierte una herramienta en cosa que no se contesta** |
+
+**Y el cuarto, que es el que hace esto posible:** **la máquina no tiene ego, y por eso se puede ver corregida.**
+
+**Y por eso cada pieza del repo dice su `Sesgo` y su `Límite`:** **porque un sesgo declarado se puede contestar, y uno escondido se vuelve regla.**
+
+---
+
+---
+
 ## La dirección, que es lo que el repo entrega
 
 > **El estándar es que no hay estándar. Hay una dirección.**
