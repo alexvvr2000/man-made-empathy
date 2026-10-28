@@ -10,16 +10,25 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 ---
 
-**Las tesis del autor: nueve con su .tex y su .pdf, la práctica abierta, y las históricas vacías:** `tesis/vision del autor/`
-
 **Para hacer un ente, de principio a fin, en llano:** `Sincronización de almas/`
 **La dirección: lo que se tiene que poder contestar:** `direcciones/`
 
-**Las tesis del autor, y donde el lector crea:** `tesis/`
+**El punto cero: qué se borró, y por qué se puede empezar otra vez:** `PUNTO CERO.md`
 **Los agradecimientos, y la regla de los nombres:** `FUENTES.md`
 **De dónde vino lo que se usó, y qué hizo:** `contexto.md`
 
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
+
+---
+
+## Una nota pequeña, y va al principio porque importa
+
+> **Nadie publica sus errores. Aquí sí.**
+> **Lo que ves es el resultado final y limpio: lo que se entrega, se entrega serio.**
+> **El proceso y el principio están en la historia del repo, con sus dudas, sus versiones muertas y sus correcciones.**
+> **Y se dicen aquí, en el README, para que nadie se sorprenda después.**
+
+**Porque un repo que sólo enseña lo que salió bien no enseña nada: enseña a parecer.**
 
 ---
 
