@@ -1,6 +1,6 @@
 # IDEAS — lo que se piensa, y de dónde sale lo que se ejecuta
 
-**Hecho:** 2026-10-28. **Clase:** lo que se piensa. **Estado:** abierta: el taller está en [`./borrador/`](./borrador/), y lo pulido llega al final.
+**Hecho:** 2026-10-28. **Clase:** lo que se piensa. **Estado:** abierta, y vacía: aquí sólo llega lo pulido.
 
 **Sesgo:** se lee desde el que quiere saber por qué esto dice lo que dice.
 **Límite:** **no se ejecuta.** **Lo que se ejecuta vive en [`../entes/`](../entes/).**
@@ -10,7 +10,7 @@
 
 ## Qué va aquí, y dónde se trabaja
 
-**El taller está en [`./borrador/`](./borrador/): un ciclo por sesión, y de ahí sale lo que se queda.** **Y aquí se queda sólo lo que ya no depende del chat.**
+**El taller vive fuera de la entrega: en `../../../.memoria continua/notas/borrador/`, un ciclo por sesión.** **Y aquí se queda sólo lo que ya no depende del chat.**
 
 ## Qué va aquí, y cuándo
 

@@ -13,7 +13,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 **Para hacer un ente, de principio a fin, en llano:** `Sincronización de almas/`
 **La dirección: lo que se tiene que poder contestar:** `direcciones/`
 
-**El punto cero: qué se borró, y por qué se puede empezar otra vez:** `PUNTO CERO.md`
+
 **Los agradecimientos, y la regla de los nombres:** `FUENTES.md`
 **De dónde vino lo que se usó, y qué hizo:** `contexto.md`
 
