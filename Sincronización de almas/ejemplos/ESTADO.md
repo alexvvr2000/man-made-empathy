@@ -30,7 +30,7 @@
 | La ficha | Estado | Qué se abrió | Lo que falta |
 |---|---|---|---|
 | **`adventure-time.md`** | **verificado** | **Wikipedia** | **—** |
-| **`all-star-superman.md`** | **`parcial`** | **Wikipedia y el clip (`Ardx6mBZfa0`)** | **el diálogo literal: no se oyó** |
+| **`all-star-superman.md`** | **verificado** | **Wikipedia, el clip (`Ardx6mBZfa0`) y el guion de la película en Wikiquote (revisión del 2026-08-10)** | **—** **y se separa la película (2011) del cómic (2005): la autoridad vio la película** |
 | **`am.md`** | **verificado** | **Wikipedia** | **—** |
 | **`arrival.md`** | **verificado** | **Wikipedia** | **—** |
 | **`dorohedoro-y-back-to-the-future.md`** | **verificado** | **Wikipedia** | **—** |

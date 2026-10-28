@@ -1,50 +1,78 @@
-# ALL-STAR SUPERMAN — Lex entiende, y ya no le queda tiempo
+# ALL-STAR SUPERMAN — el monólogo que disparó la tesis
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y con la escena confirmada por un clip.
+**Clase:** ejemplo, y es el de origen. **Carpeta:** `ficcion/`. **Estado:** verificado en el guion de la película, y con la escena confirmada por un clip.
+
+**Y esta es la pieza que disparó todo el repositorio, y la autoridad lo dice así.**
 
 ---
 
 ## La ficha
 
 ```plaintext
-Escena:      Lex Luthor gana el poder de Superman, y por fin entiende el universo — demasiado tarde
-Obra:        All-Star Superman — Grant Morrison (guion) y Frank Quitely (dibujo); DC Comics, 2005–2008
-Dónde:       12 números, de noviembre de 2005 a octubre de 2008. La escena, en el número 12
-¿Es así?:    verificado en la ficha; y la escena, confirmada por el clip «Lex figures out how the Universe works»
-Qué provoca: ¿qué valor tiene entender cuando ya no queda tiempo de hacer nada con lo que se vio?
-Límite:      no enseña a hacer con tiempo lo que Luthor hizo sin él; la escena es un castigo, no un método
+Escena:      Luthor gana los poderes de Superman y, por fin, ve el universo — y ya no le queda tiempo
+Obra:        All-Star Superman — película animada, 2011, dirigida por Sam Liu
+             (sobre el cómic de Grant Morrison y Frank Quitely; DC Comics, 2005–2008)
+Dónde:       el monólogo «Welcome to the new world», tras vencer a Superman
+¿Es así?:    verificado en el guion (Wikiquote, revisión del 10 de agosto de 2026), y en el clip `Ardx6mBZfa0`
+Qué provoca: si entender el universo sirve de algo cuando ya no queda tiempo de usarlo
+Límite:      no enseña a entender a tiempo; la película es un castigo, y no un método
 ```
 
-## Lo verificado, textual
+**Y la autoridad declara de dónde viene:** **vio la animada de niño, y no leyó el cómic.** **La cita es de la película, y no del cómic.** **Eso se dice porque son dos obras distintas.**
 
-> **"The series ran from November 2005 to October 2008, written by Grant Morrison, drawn by Frank Quitely… It is now widely seen as one of the greatest Superman stories ever written and one of the best comic books of all time."**
-> — Wikipedia, *All-Star Superman*
+---
 
-> **"won the Eisner Award for 'Best New Series' in 2006, as well as 'Best Continuing Series' in 2007 and 2009."**
+## El fragmento, verbatim
 
-**Y la escena, confirmada por el clip de YouTube:** **«Lex figures out how the Universe works | All Star SuperMan»** (`youtube.com/watch?v=Ardx6mBZfa0`, canal **DaSlotho**). **El título mismo dice lo que la escena hace: Lex entiende cómo funciona el universo.**
+> **Lex Luthor:** «Welcome to the new world. Lay down your weapons and you won't be hurt.»
 
-## Lo que la tesis toma de él
+> **«Better than okay. I can see the entire electromagnetic spectrum and those must be atoms, little clouds of possibility. Einstein couldn't connect the gravitational force to the other three, but if he could have seen this... It's so obvious.»**
 
-> **"El que lo entiende al último minuto, y ya no tiene tiempo de hacer nada con lo que vio."**
+> **«The fundamental forces are yoked by consciousness. Everything's connected. Everyone. And this how he sees things all the time. Every day.»**
 
-**Y la obra lo sostiene por su estructura:** **Superman se está muriendo durante los doce números —"attempts to make peace with the world before his imminent death due to overexposure to Earth's Sun"— y Luthor se queda con el poder cuando ya no sirve para usarlo.**
+> **«It's a cruel joke. The mechanistic clockwork of reality hinging on a precious impossible defiance of entropy, on life. And the clockwork doesn't care. It's like — Like it's all just us, in here together. We're all we've got.»**
 
-**Y por eso el ejemplo funciona como lo que es:** **no es un método que se pueda copiar; es el castigo de llegar tarde.**
+> — **All-Star Superman** (película, 2011), guion en [Wikiquote](https://en.wikiquote.org/wiki/All-Star_Superman_(film)), revisión del **10 de agosto de 2026**
 
-## Una pieza más, para que no se pierda
+**Y el cierre, que es el que la tesis usa entera:**
 
-**En el número final, Superman le deja su legado al Doctor Quintum, y Luthor queda atrapado en su propia revelación.** **Y la ficha confirma la estructura de doce números:** **el título es una serie completa, no un episodio suelto.** **Quien quiera ir al diálogo exacto, lo busca en el #12.**
+> **Lex Luthor:** «Give it back. I saw everything. I saw how to save the world. I could have made everyone see. If it wasn't for you, I could have saved the world.»
+> **Superman:** «If it had mattered to you, Luthor, **you could have saved the world years ago.**»
+
+---
+
+## Las tres frases que quedan firmes, y lo que fija cada una
+
+| La frase | Lo que fija |
+|---|---|
+| **«the fundamental forces are yoked by consciousness»** | **el universo no se explica sin el que mira** |
+| **«it's all just us, in here together. We're all we've got»** | **la empatía no es un adorno: es el único material que hay** |
+| **«you could have saved the world years ago»** | **el poder no llegó tarde: llegó sin querer usarlo** |
+
+**Y lo que la tesis toma no es «Luthor entendió el universo».** **Es «Luthor entendió, y no le importó hasta que le pasó a él».** **Eso es el guantelete: no dice qué puedes tocar; dice quién lo va a ver.**
+
+---
+
+## Lo que la autoridad dice de esta escena, y es suyo
+
+> **«Vi la animada en su tiempo cuando era niño, y hasta grande le entendí. Era como una combinación nueva de palabras que nunca había escuchado, y se me quedó por muchos años.»**
+
+**O sea: no le enseñó un concepto; le dio una frase que no existía, y le duró.**
+
+**Y de ahí sale la prueba del repo:** **una obra no se mide por lo que enseña; se mide por lo que deja dando vueltas.** **Y lo que dejó dando vueltas fue «las fuerzas están uncidas por la conciencia».**
+
+**Y la lectura con la que se protege, y es de la autoridad:** **«si hubiera sido Luthor, habría trabajado para la industria; la lucha libre me enseñó que es mental, y no iba a permitir que me sometieran con miedo al reemplazo.»**
+
+**Que es el mismo corte del guion:** **el que entiende y no hace nada es el que pierde; y el que usa el miedo para no hacer nada, también.**
+
+---
 
 ## Lo que este ejemplo NO enseña
 
-**No enseña a entender a tiempo.** **Ese es justo su punto: Luthor entiende, y la comprensión llega sin margen.**
+**No enseña a entender a tiempo.** **Ese es su punto: Luthor entiende, y la comprensión llega sin margen.**
 
-**Y no enseña que el poder se resuelva con más poder.** **Superman gana porque ya había hecho lo suyo durante doce números, no hasta el final.**
+**Y no enseña que el poder se resuelva con más poder.** **Superman ganó porque ya había hecho lo suyo veinticuatro horas antes, no hasta el final.**
 
-## La cita que la tesis usa, y de dónde viene
+**Y no se cita el cómic cuando se cita la película.** **Son dos obras, y la autoridad sólo vio una.**
 
-**La tesis vieja dice:** **"el que lo entiende al último minuto, y ya no tiene tiempo de hacer nada con lo que vio."**
-**Y eso es una lectura del autor, no una cita del cómic.** **Se declara como lectura hasta que se verifique el diálogo literal.**
-
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../README.md`](../README.md), y su estado en [`../ESTADO.md`](../ESTADO.md).**
