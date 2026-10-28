@@ -17,6 +17,8 @@
 
 **Y la base vive en `.memoria continua/ciclo.db`, fuera del git.** **No se copia: se rehace desde el esquema.**
 
+**Y el `bin/` es del proyecto, no del ente.** **El ente no se lo lleva: lo busca al llegar, y lo cita.**
+
 ---
 
 ## Cómo se usa
@@ -28,7 +30,15 @@ python bin/ciclo.py sostener  --sesgo "…" --limite "…" --firma "humano:autor
                               --contra "…" --sostuve "…" --sostengo "…" --techo "…" --disparo autoridad
 python bin/ciclo.py ver
 python bin/ciclo.py pase --sostuvo "…" --abierto "…" --retoma "…" --no-retoma "…"
+
+# en otro proyecto, y con bancos separados por ente:
+python bin/ciclo.py instalar --proyecto C:\otro\proyecto --modo separado --ente alfa
+python bin/ciclo.py disparar --proyecto C:\otro\proyecto --modo separado --ente alfa --frontera revelación ...
 ```
+
+**Y sin --proyecto, es este repo.** **Y sin --modo, los bancos son compartidos.**
+
+**Y las dos bases pueden convivir:** **compartido escribe en .memoria continua/ciclo.db, y separado en .memoria continua/ente-<nombre>/ciclo.db.** **Nadie tiene que elegir antes de empezar.**
 
 ---
 
@@ -49,7 +59,7 @@ python bin/ciclo.py pase --sostuvo "…" --abierto "…" --retoma "…" --no-ret
 ## Lo que falta, y se declara
 
 - **El alma de niño no está en este ciclo.** **Es el ciclo mínimo: los dos bancos, y nada más.**
-- **No hay `bin/` por ente.** **Esto es el `bin/` del proyecto, y crece con el tiempo.**
+- **No hay `bin/` por ente.** **Esto es el `bin/` del proyecto, y crece con el tiempo.** **Y el ente lo busca al llegar, y declara qué encontró.**
 - **El `pase` escribe a `.memoria continua/pases/`, y no a la base.** **Se unificará cuando el ciclo crezca.**
 
 ---

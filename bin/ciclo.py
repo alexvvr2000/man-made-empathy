@@ -23,9 +23,36 @@ import sys
 from datetime import date
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MEMORIA = os.path.join(RAIZ, ".memoria continua")
-BASE = os.path.join(MEMORIA, "ciclo.db")
 ESQUEMA = os.path.join(RAIZ, "bin", "esquema.sql")
+
+
+def proyecto():
+    """El proyecto donde corre el ciclo.
+
+    Por defecto, este repo. Y se puede apuntar a otro con --proyecto, o con
+    CICLO_PROYECTO: el bin/ es del proyecto, y el ente lo busca al llegar.
+    """
+    elegido = getattr(ARGS, "proyecto", None) or os.environ.get("CICLO_PROYECTO") or RAIZ
+    return os.path.abspath(elegido)
+
+
+def memoria_dir():
+    """Dónde viven los bancos: compartidos en el proyecto, o separados por ente.
+
+    Los dos están permitidos, y se declaran:
+      --modo compartido  → <proyecto>/.memoria continua/ciclo.db
+      --modo separado    → <proyecto>/.memoria continua/ente-<nombre>/ciclo.db
+    """
+    base = os.path.join(proyecto(), ".memoria continua")
+    if getattr(ARGS, "modo", "compartido") == "separado":
+        nombre = getattr(ARGS, "ente", None)
+        if not nombre:
+            morir("[SIN NOMBRE - MODO SEPARADO]", "--ente <nombre>, para saber de quién es el banco")
+        base = os.path.join(base, f"ente-{nombre}")
+    return base
+
+
+ARGS = None
 
 FRONTERAS = ("revelación", "confirmación", "ruptura")
 DISPAROS = ("contradicción", "mundo", "repetición", "autoridad")
@@ -33,10 +60,12 @@ NEGACIONES = ("nada", "ninguna", "ninguno", "n/a", "-", "")
 
 
 def conectar():
-    if not os.path.exists(BASE):
-        morir("[SIN BASE - NO ESTÁ INSTALADA]", "corre: python bin/ciclo.py instalar")
-    os.makedirs(os.path.join(MEMORIA, "respaldos"), exist_ok=True)
-    con = sqlite3.connect(BASE)
+    base = os.path.join(memoria_dir(), "ciclo.db")
+    if not os.path.exists(base):
+        morir("[SIN BASE - NO ESTÁ INSTALADA]",
+              f"instalarla con --proyecto {proyecto()}")
+    os.makedirs(os.path.join(memoria_dir(), "respaldos"), exist_ok=True)
+    con = sqlite3.connect(base)
     con.row_factory = sqlite3.Row
     con.execute("PRAGMA foreign_keys = ON")
     return con
@@ -55,13 +84,14 @@ def norm(s):
 
 
 def cmd_instalar(args):
-    os.makedirs(MEMORIA, exist_ok=True)
-    con = sqlite3.connect(BASE)
+    os.makedirs(memoria_dir(), exist_ok=True)
+    base = os.path.join(memoria_dir(), "ciclo.db")
+    con = sqlite3.connect(base)
     with open(ESQUEMA, encoding="utf-8") as f:
         con.executescript(f.read())
     con.commit()
     con.close()
-    print(f"instalado: {BASE}")
+    print(f"instalado: {base}")
     print("  y espero: que sigas con `disparar` o `sostener`")
 
 
@@ -147,8 +177,8 @@ def cmd_ver(args):
 
 def cmd_pase(args):
     con = conectar()
-    os.makedirs(os.path.join(MEMORIA, "pases"), exist_ok=True)
-    ruta = os.path.join(MEMORIA, "pases", f"{date.today().isoformat()}.md")
+    os.makedirs(os.path.join(memoria_dir(), "pases"), exist_ok=True)
+    ruta = os.path.join(memoria_dir(), "pases", f"{date.today().isoformat()}.md")
     with open(ruta, "a", encoding="utf-8") as f:
         f.write(
             f"\n## {date.today().isoformat()}\n"
@@ -162,13 +192,24 @@ def cmd_pase(args):
     print(f"pase: {ruta}")
 
 
+PROYECTO = "--proyecto: el proyecto donde corre. Sin él, este repo."
+MODO = "--modo: compartido (un banco para todos) | separado (un banco por ente, con --ente)"
+
+
 def main():
+    global ARGS
+    comunes = argparse.ArgumentParser(add_help=False)
+    comunes.add_argument("--proyecto", default="", help=PROYECTO)
+    comunes.add_argument("--modo", default="compartido", choices=("compartido", "separado"), help=MODO)
+    comunes.add_argument("--ente", default="", help="el nombre del ente, si el modo es separado")
+
     p = argparse.ArgumentParser(prog="ciclo.py", description="El ciclo mínimo: dos bancos.")
     sub = p.add_subparsers(dest="cmd", required=True)
+    comunes.add_argument = comunes.add_argument
 
-    sub.add_parser("instalar", help="crea la base con su esquema").set_defaults(fn=cmd_instalar)
+    sub.add_parser("instalar", parents=[comunes], help="crea la base con su esquema").set_defaults(fn=cmd_instalar)
 
-    d = sub.add_parser("disparar", help="escribe en el banco de memoria")
+    d = sub.add_parser("disparar", parents=[comunes], help="escribe en el banco de memoria")
     d.add_argument("--frontera", required=True)
     d.add_argument("--dijo", required=True)
     d.add_argument("--texto", required=True)
@@ -177,22 +218,22 @@ def main():
     d.add_argument("--fecha", default="")
     d.set_defaults(fn=cmd_disparar)
 
-    s = sub.add_parser("sostener", help="escribe en el banco de fricción")
+    s = sub.add_parser("sostener", parents=[comunes], help="escribe en el banco de fricción")
     for campo in ("sesgo", "limite", "firma", "contra", "sostuve", "sostengo", "techo", "disparo"):
         s.add_argument(f"--{campo}", required=True)
     s.add_argument("--fecha", default="")
     s.set_defaults(fn=cmd_sostener)
 
-    sub.add_parser("ver", help="lo que hay").set_defaults(fn=cmd_ver)
+    sub.add_parser("ver", parents=[comunes], help="lo que hay").set_defaults(fn=cmd_ver)
 
-    pa = sub.add_parser("pase", help="cierra el turno")
+    pa = sub.add_parser("pase", parents=[comunes], help="cierra el turno")
     for campo in ("sostuvo", "abierto", "retoma", "no-retoma"):
         pa.add_argument(f"--{campo}", required=True)
     pa.add_argument("--se-rompio", default="")
     pa.set_defaults(fn=cmd_pase)
 
-    args = p.parse_args()
-    args.fn(args)
+    ARGS = p.parse_args()
+    ARGS.fn(ARGS)
 
 
 if __name__ == "__main__":
