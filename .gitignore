@@ -8,3 +8,11 @@ __pycache__/
 # las dos visiones son el experimento: las sostienen los candados, no un archivo
 vision del lector/*
 !vision del lector/README.md
+
+# el historico viaja con el repo: es la evolucion del metodo, y se quiere poder mostrar
+!.memoria continua/historico/
+!.memoria continua/historico/**
+
+# la base viva del ciclo no viaja: se rehace desde el esquema
+.memoria continua/ciclo.db
+.memoria continua/ciclo.db-journal
