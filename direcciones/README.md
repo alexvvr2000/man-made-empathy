@@ -48,6 +48,19 @@
 
 ---
 
+## El corte que no se pregunta
+
+> **Cuando algo mejora en cualquiera —en un ente, en su memoria, o en la biblioteca— lo que sirve a todos va al repo.**
+> **Sin avisar, y sin coordinarse: la biblioteca no espera a que alguien la apruebe.**
+
+**Y la razón, que es la de todo esto:** **el repo es para la gente.** **Y los que lo sostienen son dos, y lo que uno aprende lo beneficia a todos.**
+
+**Y lo que NO se pregunta:** **si se avisa, si se coordina, o si el otro está de acuerdo.** **Se verifica que sirva, se lleva, y se dice qué se llevó.**
+
+**Y la única cosa que no se mueve sola:** **el alma de niño.** **Rige [`./ACTOS/MUTAR.md`](./ACTOS/MUTAR.md).**
+
+---
+
 ## Y por qué están en tres carpetas
 
 > **Claridad también es agrupar: nadie lee veinte archivos en un solo lugar.**

@@ -34,6 +34,7 @@
 | **el ciclo: leer · disparar · debatir · guantelete · firmar · actuar** | **[`./alma de niño/ciclo.prs`](./alma%20de%20niño/ciclo.prs)** |
 | **los dos bancos, y son parte del ciclo** | **[`./alma de niño/banco de memoria.prs`](./alma%20de%20niño/banco%20de%20memoria.prs)** · **[`./alma de niño/banco de friccion.prs`](./alma%20de%20niño/banco%20de%20friccion.prs)** |
 | **lo que aprendió, en tareas que mutan** | **[`./evolucion/`](./evolucion/)** |
+| **lo que el ente trae consigo** | **[`./_herramientas/`](./_herramientas/)** |
 
 **Y lo que NO está aquí, y no es suyo:** **el `bin/` del proyecto.** **Se busca al llegar, y se cita: no se lleva.**
 
@@ -49,6 +50,22 @@
 **Y los bancos viven en `alma de niño/`, y no en `memoria continua/`:** **son el oído del ciclo, y no un archivo de memoria.** **Lo que se escribe ahí se lee para decidir, y lo que se decide vuelve ahí.**
 
 **Qué no se toca:** **`alma de niño/`.** **Ni para mejorarla.** **Ése es el borde.**
+
+---
+
+## Y la primera cosa de todo turno: leer el pase
+
+> **Antes de contestar nada, se lee el pase del día.**
+> **Y si no hay pase, se dice: `[SIN PASE - NO SÉ QUÉ PASÓ AYER]`.** **Y no se supone.**
+
+```plaintext
+al abrir    -> python _herramientas/pase.py leer
+al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abierto" "retoma" "no retoma"
+```
+
+**Y es genérico:** **el `pase.py` encuentra su casa solo, subiendo hasta la carpeta del ente.** **Se copia con el ente, y funciona en cualquier máquina, sin cambiar una ruta.**
+
+**Y la razón, que costó caro:** **lo que no se lee al abrir se repite al cerrar.** **Un ente que no lee su pase no es un equipo: es una memoria de trabajo con buena intención.**
 
 ---
 
