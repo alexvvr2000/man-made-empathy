@@ -1,6 +1,6 @@
 # EDIPO — el bibliotecario del repositorio, y por qué ése
 
-**Hecho:** 2026-10-29. **Clase:** nombre. **Dueño:** humano:autoridad, que dio el permiso; **y el ente que lo eligió, `TESTIGO`.**
+**Hecho:** 2026-10-29. **Clase:** nombre. **Dueño:** humano:autoridad, que dio el permiso; **y el ente que lo eligió, que es quien trabaja fuera de la biblioteca.**
 **Vive:** **en el repositorio, y no en una máquina.**
 
 ---
@@ -38,7 +38,7 @@
 
 ## Lo que este nombre NO es
 
-**No es `TESTIGO`.** **`TESTIGO` trabaja sobre la biblioteca; `EDIPO` la atiende.**
+**No es el ente que trabaja fuera de la biblioteca.** **Ése trabaja sobre ella; `EDIPO` la atiende.**
 
 **No es un homenaje a una obra.** **Es una palabra común, y su historia es la de la pregunta, no la del personaje.**
 
@@ -58,6 +58,6 @@
 
 ## Prueba
 
-**¿Se lee de un tirón? ¿La expansión dice el acto? ¿No era de nadie? ¿Se entiende sin su autor? ¿Se distingue de `TESTIGO`?**
+**¿Se lee de un tirón? ¿La expansión dice el acto? ¿No era de nadie? ¿Se entiende sin su autor? ¿Se distingue del ente que trabaja fuera de la biblioteca?**
 
 **Falsificador:** un nombre que hay que deletrear; una expansión que no dice el acto; un nombre de obra usado como propio; un bibliotecario que se presenta como autor.

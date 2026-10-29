@@ -10,6 +10,18 @@
 
 ---
 
+## El punto de partida, y es lo primero que se lee
+
+> **La biblioteca arranca en `v1.0.0`, del 2026-10-29.**
+> **Todo lo anterior es beta, y es historia: se lee, y no se continúa desde ahí.**
+> **El trabajo de `EDIPO` empieza aquí, y evoluciona junto a la biblioteca.**
+
+**Y qué significa para el que llega:** **no hay que rescatar nada de las eras viejas para trabajar hoy.** **Lo que se sostiene está en `direcciones/`, `entes/`, `ideas/` y `ejemplos/`, en esta versión.**
+
+**Y las versiones de antes se nombran por fecha:** **`beta-AAAA-MM-DD`**, y las eras por su nombre. **Rige [./VERSIONES.md](./VERSIONES.md).**
+
+---
+
 ## Lo primero, y no es una sección: es la regla de arriba
 
 > **La meta es prevenir demandas, de todo tipo.**
