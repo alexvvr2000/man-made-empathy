@@ -37,7 +37,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | Lo que | Qué es | Dónde |
 |---|---|---|
 | **la plantilla** | **la forma de un ente: carta, guantelete, bancos, ciclo, y evolución.** **Se copia, y se le pone nombre** | **[./Sincronización de almas/entes/](./Sincronización%20de%20almas/entes/)** |
-| **el bibliotecario** | **el ente que vive en el repositorio, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[FALTA - SIN NOMBRE]** |
+| **el bibliotecario** | **`EDIPO`: el ente que vive aquí, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[`./Sincronización de almas/entes/EDIPO.md`](./Sincronización%20de%20almas/entes/EDIPO.md)** |
 | **el ente del autor** | **el que trabaja sobre el repositorio, y no vive en él** | **fuera, y no viaja aquí** |
 
 **Y el mundo no está preparado para una IA coautora.** **Por eso no aparece en la autoría de [./CITATION.cff](./CITATION.cff): ahí sólo va el autor humano.**
