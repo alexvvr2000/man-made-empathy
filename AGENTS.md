@@ -16,6 +16,7 @@
 |---|---|---|
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
 | **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/README.md`](./Sincronización%20de%20almas/entes/README.md) |
+| **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase** | [`./Sincronización de almas/entes/Ente/AGENTS.md`](./Sincronización%20de%20almas/entes/Ente/AGENTS.md) · [`./Sincronización de almas/entes/Colmena/AGENTS.md`](./Sincronización%20de%20almas/entes/Colmena/AGENTS.md) |
 | **La dirección: lo que se tiene que poder contestar** | **nueve, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |

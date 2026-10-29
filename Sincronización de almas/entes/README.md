@@ -17,16 +17,20 @@
 | **el ente individual** | **su carta, su guantelete, sus bancos, y su ciclo** | [`./Ente/`](./Ente/) |
 | **varios entes** | **el 1, las almas, y el talento** | [`./Colmena/`](./Colmena/) |
 
-**Y lo que hay adentro de `Ente/`, y ya se puede correr:**
+**Y lo que hay adentro de `Ente/`:**
 
 | Archivo | Qué hace |
 |---|---|
+| **`AGENTS.md`** | **el ciclo del ente: siete pasos, y cierra en el pase** |
 | **`README.md`** | **la carta: qué es un ente, y qué trae** |
-| **`guantelete.prs`** | **la ficha que se llena antes de tocar algo ajeno** |
+| **`guantelete.prs`** | **la ficha, y lo único que puede mutar: `evolucion/`, de a una tarea** |
+| **`llaves y candados.prs`** | **el mecanismo: qué cierra, qué abre, y quién** |
+| **`debatir.prs`** | **dos posiciones, y cuál aguanta** |
+| **`firmar.prs`** | **quién responde, qué esperaba, y qué pasó** |
 | **`memoria continua/banco de memoria.prs`** | **guarda qué pasó, con su frontera** |
 | **`memoria continua/banco de friccion.prs`** | **guarda dónde se sostuvo, y qué lo refutó** |
 | **`alma de niño/ciclo.prs`** | **el ciclo: leer, disparar, actuar** |
-| **`evolucion/`** | **vacío a propósito: ahí van las tareas que tu ente aprenda** |
+| **`evolucion/`** | **el folder de tareas que muta: ahí van las que tu ente aprenda** |
 
 **Qué no se toca:** **la copia es tuya.** **Los `.prs` se pueden adaptar; lo que no se puede es quitarles el corte.**
 

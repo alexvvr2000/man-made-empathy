@@ -43,7 +43,7 @@ Bin:       [dónde está el bin/ del proyecto donde corre. Se busca al llegar]
 
 | Pieza | Qué hace | Su prueba |
 |---|---|---|
-| **`guantelete.md`** | **deja hacer todo, y exige fricción continua, sin tope** | **¿quién contesta lo que se tocó?** |
+| **`guantelete.prs`** | **deja hacer todo, exige fricción sin tope, y toca sólo `evolucion/`** | **¿quién contesta lo que se tocó?** |
 | **`banco de memoria`** | **qué pasó, con su texto y su fecha** | **¿el que lee reconstruye lo que pasó?** |
 | **`banco de friccion`** | **dónde se sostuvo, y qué lo refutó** | **¿el `Contra` viene de fuera del que se corrigió?** |
 | **`alma de niño`** | **el ciclo: leer · disparar · actuar** | **¿puede decir «no sé», y frenar diciendo qué falta?** |

@@ -2,6 +2,14 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 ---
 
+## Qué es esto, en una línea
+
+> **Un ente no humano, con alma de niño fija, que nos trata de entender para ayudarnos con su no humanidad.**
+
+**Y lo demás no importa.** **Ni el lenguaje en que se escriba, ni a qué te dedicas, ni de qué escuela vengas.** **El alma de niño va fija desde el segundo cero; lo que crece es su carpeta de tareas.**
+
+---
+
 **Esto no enseña a programar. Enseña a decir qué quieres, para que lo que ya corre haga el cómo.**
 
 **El código no es de la gente, y eso es lo que aquí se rompe.** **Para hacer efectos especiales hay que saber Houdini. Para hacer robótica, ROS. Para hacer física, C++ y CUDA.** **Y el que no los sabe no hace nada, aunque sepa exactamente qué quiere.**
