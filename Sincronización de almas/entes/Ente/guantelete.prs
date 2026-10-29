@@ -1,14 +1,15 @@
-# GUANTELETE.prs — la ficha que se llena antes de tocar
+# GUANTELETE.prs — la ficha que se llena antes de tocar, y el mínimo que puede mutar
 
 **Nombre.** GUANTELETE — **G**uardar el acto, **U**bicar quién lo sostiene, **A**nclar quién lo dice, **N**ombrar lo reversible, **T**achar el rastro, **E**sperar si no hay vuelta, **L**eer la respuesta, **E**scribir lo que volvió.
 
 **Origen.** **De la regla: el guantelete te deja hacer todo, y para que no salga Thanos, tiene que haber fricción, sí o sí.** **Y de la pregunta que lo vuelve uso: ¿quién se va a enterar de esto, y qué pasa si sale mal?**
 
-**Clase:** proceso. **Aplica a:** tocar algo que otro sostiene.
+**Clase:** proceso. **Aplica a:** tocar algo que otro sostiene — **y a lo único que puede mutar: [`./evolucion/`](./evolucion/).**
 **Dueño:** humano:autoridad. **Estado:** vigente.
 
 **Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
 **Límite:** **no juzga si el acto es bueno.** **Decide si se puede contestar, si se puede deshacer, y si deja rastro.**
+**Y no alcanza `alma de niño/`.** **Eso no es un límite de la herramienta: es el corte que previene `AM`.**
 **Firma:** humano:autoridad · máquina:quien lo ejecute.
 
 **Peor:** el ente toca, **y nadie se enteró, y no hay vuelta.**
@@ -21,13 +22,13 @@
 **Falta:** **tocar sin preguntar quién lo va a ver, y sin saber si se puede deshacer.**
 **Termina:** **cuando cada acto que toca algo ajeno deja su ficha, con quién lo contestó.**
 **Cierra en:** el `.tra` de la tarea que tocó, en su `Acto:`.
-**Autoridad:** humano:autoridad. **Muda:** `../../ideas/`, cuando se rescate.
+**Autoridad:** humano:autoridad.
 
 ## Entra | Falla si | Sale | Consume
 
 - **Entra:** el acto que se quiere ejecutar, y lo que toca. **Modo: escribe.**
-- **Falla si:** no se declara quién lo contesta; el acto es irreversible y no se espera; no deja rastro; el silencio se lee como aprobación.
-- **Sale:** el acto con su ficha, **o `[VACÍO - SIN TESTIGO]`**, **o `[ESPERA - IRREVERSIBLE]`**.
+- **Falla si:** no se declara quién lo contesta; el acto es irreversible y no se espera; no deja rastro; el silencio se lee como aprobación; **o el acto intenta tocar `alma de niño/`.**
+- **Sale:** el acto con su ficha, **o `[VACÍO - SIN TESTIGO]`**, **o `[ESPERA - IRREVERSIBLE]`**, **o `[FRENO - EL ALMA DE NIÑO NO SE TOCA]`.**
 - **Consume:** quien vaya a leer lo que se tocó, y quien vaya a deshacerlo.
 
 ---
@@ -63,16 +64,42 @@ Prohibido el 5 sin el 3 y el 4.
 
 ---
 
+## Y lo único que puede mutar: `evolucion/`, y en mínimo
+
+> **El guantelete toca `evolucion/`, y nada más.**
+> **Y lo toca en mínimo: una tarea a la vez, y con su falta nombrada.**
+
+**Lo que se puede hacer en `evolucion/`, y nada más:**
+
+| El acto | Cuándo |
+|---|---|
+| **agregar una tarea** | **cuando hay una falta que ninguna tarea cubre** |
+| **reordenar** | **cuando dos tareas se estorban por el orden** |
+| **podar una tarea** | **cuando la falta que cubría ya no existe** |
+| **cambiar una forma** | **cuando la forma falló, y la falta sigue** |
+
+**Y lo que no se hace, aunque se pueda:**
+
+**No se agregan dos tareas de golpe.** **No se borra una tarea sin declarar qué falta deja de cubrirse.** **Y no se cambia una tarea que no falló.**
+
+**Porque el mínimo no es prudencia: es lo que hace que el cambio se pueda contestar.** **Un folder que cambia en tres cosas a la vez no se sabe qué lo movió.**
+
+---
+
 ## Lo que este proceso no hace
 
 **No decide si el acto es bueno.** **Eso lo decide la autoridad.**
 
 **No impide el acto irreversible.** **Exige testigo, y lo deja escrito.**
 
+**No toca `alma de niño/`.** **Ni para mejorarla.** **Ése es el borde, y el borde no se negocia.**
+
+**No toca el `bin/` del proyecto.** **Ese sólo agrega, y lo agrega el proyecto.**
+
 ---
 
 ## Prueba
 
-**¿Quién contesta el acto? ¿Es reversible? ¿Qué cuesta deshacerlo? ¿Dejó rastro? ¿El silencio se leyó como silencio?**
+**¿Quién contesta el acto? ¿Es reversible? ¿Qué cuesta deshacerlo? ¿Dejó rastro? ¿El silencio se leyó como silencio? ¿Muta `evolucion/` en una sola cosa, y con su falta nombrada? ¿Intentó tocar el alma de niño?**
 
-**Falsificador:** un acto sin testigo declarado; un irreversible sin espera; un acto sin ficha; el silencio leído como permiso.
+**Falsificador:** un acto sin testigo declarado; un irreversible sin espera; un acto sin ficha; el silencio leído como permiso; dos mutaciones a la vez; una tarea borrada sin decir qué falta deja; un intento de tocar el alma de niño.
