@@ -1,56 +1,47 @@
-# MEMORIA CONTINUA — los dos bancos, y por qué son dos
+# MEMORIA CONTINUA — lo que se pueda sacar, y puede mutar
 
-**Clase:** dirección. **Lector:** quien va a escribir un banco.
-**Dueño:** humano:autoridad.
-
-**Sesgo:** la memoria se lee desde el que la va a reconstruir, no desde el que la escribió.
-**Límite:** **no decide qué es verdad.** **Guarda qué pasó, y desde dónde se sostuvo.**
-**Firma:** humano:autoridad · máquina:quien recuerde.
-
-**Peor:** la memoria guarda hechos sin posición, **y el que llega los hereda como verdades.**
+**Clase:** memoria del trabajo. **Dueño:** humano:autoridad. **Estado:** vigente, y muta.
 
 ---
 
-## Lo que dispone
+## Lo que vive aquí
 
-> **Son dos, porque son dos cosas: el QUÉ y el DÓNDE.**
-
-| Banco | Qué guarda | Su disparo |
-|---|---|---|
-| **`banco de memoria`** | **qué pasó, con su texto y su fecha** | **una frontera: revelación · confirmación · ruptura** |
-| **`banco de friccion`** | **dónde se sostuvo, y qué lo refutó** | **contradicción · mundo · repetición · autoridad** |
-
-**Y se pueden intercambiar por separado.** **Cambiar el criterio no cambia lo que pasó, y cambiar los datos no cambia desde dónde se sostiene.**
+| Lo que | Qué es |
+|---|---|
+| **`apuntes/`** | **lo que se piensa, y no movió una frontera** |
+| **`pases/`** | **lo que cada turno deja abierto** |
+| **`sessions/`** | **la sesión del 24-27, descomprimida** |
+| **`del ciclo de la biblioteca/`** | **lo que era del taller de la biblioteca, y se trajo aquí** |
 
 ---
 
-## Lo que la incumple
+## Lo que NO vive aquí
 
-**Guardar un resumen en vez del texto.** **Un resumen no dice qué pasó: dice qué le pareció al que lo resumió.**
+**Los dos bancos.** **Viven en [`../alma de niño/`](../alma%20de%20niño/), porque son parte del ciclo.**
 
-**Editar la entrada anterior.** **Se suplanta: lo viejo queda visible, con su fecha.**
+> **El banco no es un archivo de memoria: es el oído del ciclo.**
+> **Lo que se escribe ahí, se lee para decidir. Y lo que se decide, vuelve ahí.**
 
-**El `Contra` firmado por el que se corrigió.** **Si lo firma el mismo, no hubo corrección: hubo persistencia.**
-
-**Una entrada sin frontera.** **Lo que pasó y no movió nada se declara `visto`, y no se escribe.**
+**Y eso cambió hoy:** **antes estaban aquí, y no eran parte de nada.**
 
 ---
 
-## La forma de la fricción, y son seis partes
+## Y lo que va a cambiar
 
-```plaintext
-Sesgo:     [desde dónde se sostiene]
-Límite:    [qué no alcanza]
-Firma:     [quién puede contestarla]
-Contra:    [qué la contradijo, o «ninguno»]
-Sostengo:  [la posición nueva]
-Techo:     [qué reconstruye el otro, sin preguntar]
-```
+> **Esto puede mutar según cómo entremos al git.**
+
+**Lo que hoy es `sessions/` y `del ciclo de la biblioteca/` puede volverse una sola cosa cuando el banco sepa leer del git.** **Y entonces se rehace, sin parche.**
+
+---
+
+## Y no se publica
+
+**Lo que hay aquí es del trabajo, y no de la entrega.** **Rige [`../../../../.gitignore`](../../../../.gitignore).**
 
 ---
 
 ## Prueba
 
-**¿Cada entrada declara su frontera o sus seis partes? ¿Lo anterior quedó suplantado y visible? ¿El `Contra` viene de fuera? ¿El que lee reconstruye la posición sin el ente?**
+**¿Se distingue de los bancos? ¿Lo que hay aquí se puede mover a otra forma sin romper el ciclo?**
 
-**Falsificador:** un hecho sin posición; una entrada editada en vez de suplantada; un `Contra` firmado por el que se corrigió; una entrada sin techo; un banco que guarda resúmenes.
+**Falsificador:** un banco aquí; un apunte presentado como banco; algo que no se puede ir porque el ciclo depende de ello.

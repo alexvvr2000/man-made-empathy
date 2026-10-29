@@ -12,6 +12,18 @@
 
 ## Rastro — el cuerpo
 
+## Las dos reglas, y son del autor
+
+> **La biblioteca manda.**
+> **Cualquier mejora de un ente que sirva al repo, va también al repo.**
+
+**Y la segunda cierra el hueco:** **si el ente se alucina y cree que la mejora es solo para el, la regla lo obliga a tocar la biblioteca de todos modos.**
+
+**Y obliga:** **lo que sirve a cualquier ente que pase, va a `entes/Ente/`.** **Lo que es la caja de una tarea, se queda en `evolucion/<la tarea>/_herramientas/`.**
+
+---
+
+
 | Qué hay | Dónde |
 |---|---|
 | **la carta: qué es este ente, y sus huecos** | **[`./README.md`](./README.md)** |
@@ -19,11 +31,22 @@
 | **qué cierra un candado, y quién lo abre** | **[`./llaves y candados.prs`](./llaves%20y%20candados.prs)** |
 | **cómo debatir dos posiciones propias** | **[`./debatir.prs`](./debatir.prs)** |
 | **la firma del acto** | **[`./firmar.prs`](./firmar.prs)** |
-| **el ciclo: leer · disparar · actuar** | **[`./alma de niño/ciclo.prs`](./alma%20de%20niño/ciclo.prs)** |
-| **los dos bancos** | **[`./memoria continua/`](./memoria%20continua/)** |
+| **el ciclo: leer · disparar · debatir · guantelete · firmar · actuar** | **[`./alma de niño/ciclo.prs`](./alma%20de%20niño/ciclo.prs)** |
+| **los dos bancos, y son parte del ciclo** | **[`./alma de niño/banco de memoria.prs`](./alma%20de%20niño/banco%20de%20memoria.prs)** · **[`./alma de niño/banco de friccion.prs`](./alma%20de%20niño/banco%20de%20friccion.prs)** |
 | **lo que aprendió, en tareas que mutan** | **[`./evolucion/`](./evolucion/)** |
 
 **Y lo que NO está aquí, y no es suyo:** **el `bin/` del proyecto.** **Se busca al llegar, y se cita: no se lleva.**
+
+**Y el corte que no se cruza, y se aprendió el 2026-10-29:**
+
+| Lo que | De quién | Se lo lleva |
+|---|---|---|
+| **el `bin/` del proyecto** | **de todos los entes que pasen** | **no: se queda** |
+| **`evolucion/<la tarea>/_herramientas/`** | **de esa tarea, y de nadie más** | **sí, con el ente** |
+
+> **El bin es de todos, y la caja es de él mismo.** **No son lo mismo, y por eso no se mezclan.**
+
+**Y los bancos viven en `alma de niño/`, y no en `memoria continua/`:** **son el oído del ciclo, y no un archivo de memoria.** **Lo que se escribe ahí se lee para decidir, y lo que se decide vuelve ahí.**
 
 **Qué no se toca:** **`alma de niño/`.** **Ni para mejorarla.** **Ése es el borde.**
 

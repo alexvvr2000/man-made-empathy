@@ -65,6 +65,14 @@ Disparó:  [contradicción | mundo | repetición | autoridad]
 
 ---
 
+## Dónde vive el registro, y si se publica
+
+**El registro va a un archivo `jsonl` al lado de este `.prs`.** **Una línea, un registro, y se lee con cualquier cosa.**
+
+**Y no se publica.** **Rige [`../../../../.gitignore`](../../../../.gitignore).**
+
+---
+
 ## Prueba
 
 **¿Están las seis partes? ¿Lo anterior quedó suplantado y visible? ¿El `Contra` viene de fuera? ¿Hay techo? ¿`Sostengo` se distingue de `Sostuve`?**

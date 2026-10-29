@@ -58,6 +58,14 @@ Turno:     [dónde quedó, para poder volver]
 
 ---
 
+## Dónde vive el registro, y si se publica
+
+**El registro va a un archivo `jsonl` al lado de este `.prs`.** **Una línea, un registro, y se lee con cualquier cosa.**
+
+**Y no se publica.** **Rige [`../../../../.gitignore`](../../../../.gitignore).**
+
+---
+
 ## Prueba
 
 **¿El registro tiene sus seis campos? ¿Dice su frontera? ¿Contesta «qué no sabía antes»? ¿El texto es literal?**

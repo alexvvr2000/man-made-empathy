@@ -70,10 +70,11 @@
 | **`llaves y candados.prs`** | **el mecanismo: qué cierra, qué abre, y quién** |
 | **`debatir.prs`** | **dos posiciones, y cuál aguanta** |
 | **`firmar.prs`** | **quién responde, qué esperaba, y qué pasó** |
-| **`memoria continua/banco de memoria.prs`** | **guarda qué pasó, con su frontera** |
-| **`memoria continua/banco de friccion.prs`** | **guarda dónde se sostuvo, y qué lo refutó** |
-| **`alma de niño/ciclo.prs`** | **el ciclo: leer, disparar, actuar** |
-| **`evolucion/`** | **el folder de tareas que muta: ahí van las que tu ente aprenda** |
+| **`alma de niño/banco de memoria.prs`** | **guarda qué pasó, con su frontera** |
+| **`alma de niño/banco de friccion.prs`** | **guarda dónde se sostuvo, y qué lo refutó** |
+| **`alma de niño/ciclo.prs`** | **el ciclo: leer, disparar, debatir, guantelete, firmar, actuar** |
+| **`evolucion/`** | **n tareas, cada una con su `.prs` y su `_herramientas/`** |
+| **`bin/`** | **el taller del proyecto: de todos, y muta bajo criterio** |
 
 **Qué no se toca:** **la copia es tuya.** **Los `.prs` se pueden adaptar; lo que no se puede es quitarles el corte.**
 
@@ -87,8 +88,8 @@
 | **engaño: creer que `EDIPO` es el entregable** | **esta sección, y el `.gitignore`** | **se abren pull requests para «mejorar al bibliotecario», y nadie pidió uno** |
 | **llenar su carta** | **`./Ente/README.md`, sus preguntas** | **no se sabe qué falta cubre, ni a quién contesta** |
 | **tocar algo que no es tuyo** | **`./Ente/guantelete.prs`** | **se toca sin testigo, y no hay vuelta** |
-| **recordar qué pasó** | **`./Ente/memoria continua/banco de memoria.prs`** | **se repite el mismo error** |
-| **decidir con fundamento** | **`./Ente/memoria continua/banco de friccion.prs`** | **se obedece una conclusión sin saber de dónde vino** |
+| **recordar qué pasó** | **`./Ente/alma de niño/banco de memoria.prs`** | **se repite el mismo error** |
+| **decidir con fundamento** | **`./Ente/alma de niño/banco de friccion.prs`** | **se obedece una conclusión sin saber de dónde vino** |
 | **correr una vuelta** | **`./Ente/alma de niño/ciclo.prs`** | **se actúa sin leer, y sin decir que no se sabe** |
 | **agregar una tarea aprendida** | **`./Ente/evolucion/`** | **crece el cajón, y no el ente** |
 | **juntar varios entes** | **[`./Colmena/README.md`](./Colmena/README.md)** | **son varios absolutos con el mismo nombre** |

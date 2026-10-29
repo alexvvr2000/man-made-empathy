@@ -33,7 +33,7 @@ Turno:     [dónde quedó]
 
 **No es el archivo de la biblioteca.** **La biblioteca ya tiene su historia en git.** **Esto es lo que `EDIPO` vivió atendiendo, y no lo que la biblioteca recuerda.**
 
-**Y no se publica.** **Rige el [`../../../.gitignore`](../../../.gitignore).**
+**Y no se publica.** **Rige el [`../../../../.gitignore`](../../../../.gitignore).**
 
 ---
 
