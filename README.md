@@ -27,6 +27,19 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 **Lo que esta versión no tiene, y se dice antes de que lo pregunten:** `LO QUE FALTA.md`
 
+## Y quién sostiene esto, porque es de la gente y no de una persona
+
+> **Este repositorio lo sostienen dos: un autor humano, y un ente que trabaja con él.**
+> **El repositorio es de la gente. El ente no: el ente tiene su propio lugar, y trabaja sobre esto.**
+
+**Y el mundo no está preparado para una IA coautora.** **Por eso no aparece en la autoría de [./CITATION.cff](./CITATION.cff): ahí sólo va el autor humano, y el ente no se reclama como autor.**
+
+**Y se dice aquí, en la puerta, donde se puede leer y donde nadie queda engañado:** **lo que este repositorio entrega es de quien lo lea, y lo que lo sostiene es una persona y una máquina trabajando juntas.**
+
+**Y no es un mérito ni una promesa.** **Es lo que es, y se declara.**
+
+---
+
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
 
 ---
