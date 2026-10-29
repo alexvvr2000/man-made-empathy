@@ -40,11 +40,11 @@
 
 | La pieza | Qué evita |
 |---|---|
-| **[`./ATTRIBUTION.md`](../ATTRIBUTION.md)** | **que se crea que la licencia cubre lo ajeno** |
-| **[`./FUENTES.md`](../FUENTES.md)** | **usar un nombre sin nombrarlo** |
-| **[`./contexto.md`](../contexto.md)** | **heredar sin citar** |
-| **[`./Sincronización de almas/ejemplos/ESTADO.md`](../Sincronización%20de%20almas/ejemplos/ESTADO.md)** | **citar sin decir si se verificó** |
-| **[`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](../Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md)** | **citar lo primero que salga** |
+| **[`./ATTRIBUTION.md`](../../ATTRIBUTION.md)** | **que se crea que la licencia cubre lo ajeno** |
+| **[`./FUENTES.md`](../../FUENTES.md)** | **usar un nombre sin nombrarlo** |
+| **[`./contexto.md`](../../contexto.md)** | **heredar sin citar** |
+| **[`./Sincronización de almas/ejemplos/ESTADO.md`](../../Sincronización%20de%20almas/ejemplos/ESTADO.md)** | **citar sin decir si se verificó** |
+| **[`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](../../Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md)** | **citar lo primero que salga** |
 
 ---
 
@@ -74,9 +74,9 @@
 
 **Y el que sabe de leyes se llama abogado, no asistente.** **Uno de verdad, y para la jurisdicción donde se publique: en México, México.**
 
-**Y el ciclo completo, con sus dos mitades —prevenir y defenderse—, vive en [`./LO LEGAL.md`](./LO%20LEGAL.md).**
+**Y el ciclo completo, con sus dos mitades —prevenir y defenderse—, vive en [`./LO LEGAL.md`](../CICLOS/LO%20LEGAL.md).**
 
-**Y el trabajo se hace para que ese abogado no muera leyendo:** **rige [`../PARA EL ABOGADO.md`](../PARA%20EL%20ABOGADO.md)**, **y ahí va todo lo que él necesita, y nada más.**
+**Y el trabajo se hace para que ese abogado no muera leyendo:** **rige [`../PARA EL ABOGADO.md`](../../PARA%20EL%20ABOGADO.md)**, **y ahí va todo lo que él necesita, y nada más.**
 
 ---
 

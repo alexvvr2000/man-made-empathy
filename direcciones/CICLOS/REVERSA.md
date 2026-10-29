@@ -152,7 +152,7 @@ Legajo:         [qué documento creció, y cómo]
 
 **Y no sustituye al abogado.** **Le da el expediente ordenado, y lo llama a tiempo.**
 
-**Rige [`./LO LEGAL.md`](./LO%20LEGAL.md), que tiene el ciclo de antes del commit 1, y [`./DEMANDAS.md`](./DEMANDAS.md), que tiene la regla de arriba.**
+**Rige [`./LO LEGAL.md`](./LO%20LEGAL.md), que tiene el ciclo de antes del commit 1, y [`./DEMANDAS.md`](../RIESGO/DEMANDAS.md), que tiene la regla de arriba.**
 
 ---
 

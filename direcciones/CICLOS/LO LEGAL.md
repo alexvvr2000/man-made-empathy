@@ -56,7 +56,7 @@
 
 **Porque hoy tiene que fiar del autor.** **Y un abogado no fia: verifica.**
 
-**Rige [`../PARA EL ABOGADO.md`](../PARA%20EL%20ABOGADO.md).**
+**Rige [`../PARA EL ABOGADO.md`](../../PARA%20EL%20ABOGADO.md).**
 
 # CICLO 1 — ANTES DE PUBLICAR
 
@@ -76,10 +76,10 @@
 | El paso | La regla | Dónde |
 |---|---|---|
 | **inventario** | **lo que no se nombró, no entra** | **este archivo** |
-| **fuente** | **una obra sin autor no entra; y un canal de terceros se nombra y no se enlaza** | **[`./ATTRIBUTION.md`](../ATTRIBUTION.md)** |
-| **derecho** | **se cita y se remite; no se reproduce** | **[`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](../Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md)** |
-| **declarar** | **`[SIN VERIFICAR]` es una respuesta; el silencio no** | **[`./Sincronización de almas/ejemplos/ESTADO.md`](../Sincronización%20de%20almas/ejemplos/ESTADO.md)** |
-| **abogado** | **si hay duda, se pregunta; no se resuelve de memoria** | **[`./PARA EL ABOGADO.md`](../PARA%20EL%20ABOGADO.md)** |
+| **fuente** | **una obra sin autor no entra; y un canal de terceros se nombra y no se enlaza** | **[`./ATTRIBUTION.md`](../../ATTRIBUTION.md)** |
+| **derecho** | **se cita y se remite; no se reproduce** | **[`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](../../Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md)** |
+| **declarar** | **`[SIN VERIFICAR]` es una respuesta; el silencio no** | **[`./Sincronización de almas/ejemplos/ESTADO.md`](../../Sincronización%20de%20almas/ejemplos/ESTADO.md)** |
+| **abogado** | **si hay duda, se pregunta; no se resuelve de memoria** | **[`./PARA EL ABOGADO.md`](../../PARA%20EL%20ABOGADO.md)** |
 
 ---
 
@@ -111,7 +111,7 @@
 
 **No borra la historia.** **Si se quita algo, se declara que se quitó, y por qué.** **Y el historial de git lo tiene: borrarlo es peor.**
 
-**No sustituye al abogado.** **Lo llama a tiempo, y le lleva [`./PARA EL ABOGADO.md`](../PARA%20EL%20ABOGADO.md).**
+**No sustituye al abogado.** **Lo llama a tiempo, y le lleva [`./PARA EL ABOGADO.md`](../../PARA%20EL%20ABOGADO.md).**
 
 **Y no promete que no pase nada.** **Promete que, si pasa, hay con qué contestar.**
 
