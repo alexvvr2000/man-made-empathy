@@ -36,9 +36,10 @@
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
 | **De dónde vino lo que se usó** | **la máquina, los nombres vivos, y los muertos con su reemplazo** | [`./contexto.md`](./contexto.md) |
+| **Lo que la v1 no tiene** | **lo que falta, con su por qué y su cuándo** | [./LO QUE FALTA.md](./LO%20QUE%20FALTA.md) |
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
 | **Lo que se piensa** | **el cero sin sus ejemplos, y la tesis vieja con su índice** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
-| **Lo que se muestra** | **26 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
+| **Lo que se muestra** | **33 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
 | **Lo que se dijo y se descartó** | **en `notas/`, en el repo** | **`.memoria continua/notas/`** |
 | **El histórico del método** | **el esquema viejo y el rastro crudo de MANTIS, para ver la evolución** | **[`.memoria continua/historico/`](.memoria%20continua/historico/)** |
 
@@ -60,6 +61,7 @@
 | **nombrar algo** | [`./direcciones/VERBALIZAR.md`](./direcciones/VERBALIZAR.md) | **se pone una etiqueta, y lo que se deletrea no se corre** |
 | **hablar con otro que no es como uno** | [`./direcciones/ALAS.md`](./direcciones/ALAS.md) | **se trunca, y se lee como completo** |
 | **declarar de dónde vino algo** | [`./direcciones/CONTEXTO.md`](./direcciones/CONTEXTO.md) | **lo heredado se presenta como propio** |
+| **publicar algo, o citar una obra** | [./direcciones/DEMANDAS.md](./direcciones/DEMANDAS.md), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
 | **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
 | **leer lo que se dijo y se descartó** | **`.memoria continua/notas/`** | **se repite una discusión cerrada** |

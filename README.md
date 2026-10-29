@@ -25,6 +25,8 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 **Los agradecimientos, y la regla de los nombres:** `FUENTES.md`
 **De dónde vino lo que se usó, y qué hizo:** `contexto.md`
 
+**Lo que esta versión no tiene, y se dice antes de que lo pregunten:** `LO QUE FALTA.md`
+
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
 
 ---

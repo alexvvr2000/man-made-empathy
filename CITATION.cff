@@ -21,8 +21,8 @@ authors:
     given-names: "Alejandro"
     email: "alejandrovalenzuela051@gmail.com"
     affiliation: "Universidad Autónoma de Nuevo León, Facultad de Ciencias Físico Matemáticas (egresado de la Licenciatura en Ciencias Computacionales)"
-version: "3"
-date-released: "2026-10-28"
+version: "1.0.0"
+date-released: "2026-10-29"
 repository-code: "https://github.com/alexvvr2000/man-made-empathy"
 license: "CC-BY-4.0"
 identifiers:
