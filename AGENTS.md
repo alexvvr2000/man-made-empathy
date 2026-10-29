@@ -41,8 +41,8 @@
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
 | **Lo que se piensa** | **el cero sin sus ejemplos, y la tesis vieja con su índice** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
 | **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
-| **Lo que se dijo y se descartó** | **en `notas/`, y vive con `TESTIGO`, en MEGA** | **`MEGA/TESTIGO/memoria continua/notas/`** |
-| **El histórico del método** | **el esquema viejo y el rastro crudo: viven con `TESTIGO`, en MEGA, y no en el repositorio** | **`MEGA/TESTIGO/memoria continua/historico/`** |
+| **Lo que se dijo y se descartó** | **el proceso de este trabajo, fuera de la biblioteca** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |
+| **El histórico del método** | **el esquema viejo y el rastro crudo: viven fuera de la biblioteca, y no en el repositorio** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |
 
 **Qué no se toca:** **la dirección, y lo que entrega el producto.** **Se leen, se citan, y lo que las cambia se espera a la autoridad.**
 
@@ -65,7 +65,7 @@
 | **publicar algo, o citar una obra** | [./direcciones/DEMANDAS.md](./direcciones/DEMANDAS.md), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
 | **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
-| **leer lo que se dijo y se descartó** | **`MEGA/TESTIGO/memoria continua/notas/`** | **se repite una discusión cerrada** |
+| **leer lo que se dijo y se descartó** | **el proceso de este trabajo, que vive fuera de la biblioteca** | **se repite una discusión cerrada** |
 | **mutar la dirección o el producto** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |
 
 **La fila que no puede faltar:** **lo que muta `direcciones/` o `entes/` se espera.** **Sin autoridad, no se toca.**
@@ -107,7 +107,7 @@ al cerrar   → python bin/ciclo.py disparar    si movió una frontera
 
 **No promete que un modelo local dé lo mismo que uno remoto.** Ver la sección de la máquina, en [`./contexto.md`](./contexto.md).
 
-**No entrega el proceso: lo entrega en la historia.** **Y el proceso vive con `TESTIGO`, en MEGA.**
+**No entrega el proceso: lo entrega en la historia.** **Y el proceso de este trabajo vive fuera de la biblioteca, con quien lo escribió, y no en este repositorio.**
 
 **No esconde lo que falta.** Cuando no hay, se dice `[FALTA]`; cuando hay y no está listo, `[EN PROCESO]`; cuando se fue, `[BORRADA]`.
 
