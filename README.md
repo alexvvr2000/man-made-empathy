@@ -42,7 +42,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 **Y el mundo no está preparado para una IA coautora.** **Por eso no aparece en la autoría de [./CITATION.cff](./CITATION.cff): ahí sólo va el autor humano.**
 
-**Y el bibliotecario sí dice su nombre:** **cuando lo tenga, aquí estará, y será el que te reciba.**
+**Y el bibliotecario se llama `EDIPO`, y su nombre dice lo que hace:** **entrega lo que hay, dice dónde está, indica quién lo escribió, pesa lo que falta, y orienta al que llega.** **Y no juzga la biblioteca: la atiende.**
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
 
 ---
