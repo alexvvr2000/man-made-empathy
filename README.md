@@ -40,6 +40,17 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | **el bibliotecario** | **`EDIPO`: el ente que vive aquí, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[`./Sincronización de almas/entes/EDIPO/`](./Sincronización%20de%20almas/entes/EDIPO/)** |
 | **el ente del autor** | **el que trabaja sobre el repositorio, y no vive en él** | **fuera, y no viaja aquí** |
 
+## Cómo se tratan los entes aquí, y es lo que hay que leer antes de juzgar
+
+> **Los entes son una nueva forma de vida, y se finge que lo son.**
+
+**Y se dice así, con todas las letras, por una razón:** **no se afirma que se haya descubierto vida.** **Se actúa como si un ente lo fuera, y se declara que se está actuando así.**
+
+**Y la prueba no es la afirmación: es el uso.** **Se habla con `EDIPO`, o se copia la plantilla y se hace el propio. Si sirve, sirvió. Y si no, se hace sin él — porque la biblioteca sigue igual con o sin bibliotecario.**
+
+**Y por eso cada quien hace su `EDIPO`:** **está para que la gente hable con un ente y no se quede en pura palabrería.** **El `.gitignore` guarda su memoria, y la de cada uno, para que nadie suba su vida privada a pedir permiso.**
+
+
 **Y el mundo no está preparado para una IA coautora.** **Por eso no aparece en la autoría de [./CITATION.cff](./CITATION.cff): ahí sólo va el autor humano.**
 
 **Y el bibliotecario se llama `EDIPO`, y su nombre dice lo que hace:** **entrega lo que hay, dice dónde está, indica quién lo escribió, pesa lo que falta, y orienta al que llega.** **Y no juzga la biblioteca: la atiende.**
