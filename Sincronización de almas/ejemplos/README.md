@@ -45,7 +45,7 @@ Límite:      [lo que NO enseña]
 | # | El ejemplo | Dónde se cita | ¿Es así? |
 |---|---|---|---|
 | **1** | **`AM`** — Harlan Ellison, 1967 | **la tesis, tocar, el nombre, abrir, el estándar, la colmena, un alma crece** | **verificado: autor, año, revista y Hugo** |
-| **2** | **`All-Star Superman`** — Morrison y Quitely, DC, 2005 | **la tesis, abrir, el nombre** | **verificado que la escena existe ([clip](https://www.youtube.com/watch?v=Ardx6mBZfa0)); el diálogo literal, no** |
+| **2** | **`All-Star Superman`** — Morrison y Quitely, DC, 2005 | **la tesis, abrir, el nombre** | **verificado que la escena existe, y el diálogo literal no.** **El clip no se enlaza: se cita la obra** |
 | **3** | **`Source Wall`** — Jack Kirby, DC, 1971 | **abrir, el nombre, tocar** | **`[SIN VERIFICAR]`** |
 | **4** | **`Metal Men`** — Kanigher y Andru, DC, 1962 | **convivir, la colmena, un alma crece** | **`[SIN VERIFICAR]`** |
 | **5** | **`Ghost in the Shell: Stand Alone Complex`** — Shirow; Production I.G, 2002 | **la tesis, convivir, la colmena, un alma crece** | **`[SIN VERIFICAR]`** |

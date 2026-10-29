@@ -43,7 +43,7 @@
 > **«It's Hal versus Zod in a one-on-one brawl for the fate of the Corps. How can the greatest Green Lantern of all stand against the might of the ruthless general from Krypton?»**
 > — la ficha del cómic, en [dc.com](https://www.dc.com/comics/hal-jordan-and-the-green-lantern-corps-2016/hal-jordan-and-the-green-lantern-corps-41)
 
-**Y el clip con el que la autoridad la vio:** **«Hal Jordan HUMILIATES General Zod»**, canal **`Kode Donal`**, [`youtube.com/watch?v=c2FtjT2wDH4`](https://www.youtube.com/watch?v=c2FtjT2wDH4).
+**Y la autoridad la vio en un clip de un canal de terceros, que no se enlaza aquí:** **un enlace a una copia no autorizada es difundirla, y este repositorio no difunde copias.** **La ficha se sostiene sola: el cómic, el número, y la fecha.**
 
 **Y lo que la ficha confirma es el corte:** **la pelea es «for the fate of the Corps», y el humano se planta contra «the might of the ruthless general from Krypton».** **El poder de `Zod` está dicho en su propia ficha, y `Hal` pelea igual.**
 

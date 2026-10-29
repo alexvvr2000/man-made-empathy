@@ -60,6 +60,20 @@
 
 ---
 
+
+---
+
+## Lo que NO va al release, y se declara
+
+**La imagen de la escena de Fire Force («next is the soul world») no va al release, y no es un olvido.**
+
+> **Es una captura de una obra, y este repositorio cita sus obras: no las reproduce.**
+
+**Y el mensaje sí está, en la descripción del release, con la obra, el autor, y qué dice la escena.**
+**Rige [./ATTRIBUTION.md](./ATTRIBUTION.md), y [./direcciones/DEMANDAS.md](./direcciones/DEMANDAS.md).**
+
+**Y lo mismo con los clips:** **este repositorio no enlaza copias de terceros.** **Cita la obra, su autor, el número y la fecha, y la ficha se sostiene sola.**
+
 ## Prueba
 
 **¿Está dicha cada cosa que falta, con su por qué y su cuándo? ¿Se distingue lo que se puede usar hoy de lo que todavía no? ¿El lector puede encontrar el hueco sin que se lo escondan?**

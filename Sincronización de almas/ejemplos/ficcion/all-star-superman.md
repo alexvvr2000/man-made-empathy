@@ -13,7 +13,7 @@ Escena:      Luthor gana los poderes de Superman y, por fin, ve el universo — 
 Obra:        All-Star Superman — película animada, 2011, dirigida por Sam Liu
              (sobre el cómic de Grant Morrison y Frank Quitely; DC Comics, 2005–2008)
 Dónde:       el monólogo «Welcome to the new world», tras vencer a Superman
-¿Es así?:    verificado en el guion (Wikiquote, revisión del 10 de agosto de 2026), y en el clip `Ardx6mBZfa0`
+¿Es así?:    verificado en el guion (Wikiquote, revisión del 10 de agosto de 2026), y la escena se confirmó con un clip de un tercero que no se enlaza
 Qué provoca: si entender el universo sirve de algo cuando ya no queda tiempo de usarlo
 Límite:      no enseña a entender a tiempo; la película es un castigo, y no un método
 ```
