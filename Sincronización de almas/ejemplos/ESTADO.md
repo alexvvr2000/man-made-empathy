@@ -78,7 +78,7 @@
 
 ## Y lo que todavía no se buscó, y es lo más importante
 
-**Ninguna de las 26 se buscó en una segunda fuente.** **Todas descansan en la ficha de Wikipedia, y una en un clip de YouTube.** **Eso es una sola mirada, y el repo pide dos.**
+**Ninguna de las 33 se buscó en una segunda fuente.** **Todas descansan en la ficha de Wikipedia, y una en el guion de su película.** **Eso es una sola mirada, y el repo pide dos.**
 
 **Y por eso esta tabla dice `verificado` y no `confirmado`:** **verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
 
