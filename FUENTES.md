@@ -1,5 +1,8 @@
 # FUENTES — los agradecimientos, y la regla de los nombres
 
+> **Esto no es una bibliografía: es gente.**
+> **Para lo legal, [`./ATTRIBUTION.md`](./ATTRIBUTION.md). Para de dónde vino lo que se usó, [`./contexto.md`](./contexto.md).**
+
 **Hecho:** 2026-10-28. **Clase:** registro. **Estado:** vigente.
 
 **Lector:** el que puede reclamar un nombre, y el que recibe el agradecimiento.

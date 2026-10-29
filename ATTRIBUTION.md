@@ -1,5 +1,8 @@
 # ATTRIBUTION
 
+> **Esto no es gente, ni contexto: es lo legal.**
+> **A la gente se le agradece en [./FUENTES.md](./FUENTES.md). De dónde vino, en [./contexto.md](./contexto.md).**
+
 **Lo legal, en una página.** **Y separado en dos cosas que no son lo mismo:** **lo que este repositorio licencia, y lo que no.**
 
 ---

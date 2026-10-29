@@ -10,6 +10,18 @@
 
 ---
 
+## Lo primero, y no es una sección: es la regla de arriba
+
+> **La meta es prevenir demandas, de todo tipo.**
+> **Antes de publicar cualquier pieza se pregunta qué demanda la puede provocar, y se busca en internet, porque el que escribe no sabe de leyes.**
+> **Y si no se encuentra la respuesta, se declara, y se pregunta a un abogado. No se resuelve de memoria.**
+
+**Y no es sólo el copyright.** **Son cinco: copyright, marca, difamación, datos de terceros, y atribución.** **Rige [./direcciones/DEMANDAS.md](./direcciones/DEMANDAS.md).**
+
+**Y si un turno va a publicar algo —una ficha, un nombre, un chat, una imagen— y no consultó esa dirección, el turno no cierra.**
+
+---
+
 ## Rastro — el cuerpo
 
 | Qué hay | Nombre | Dónde |

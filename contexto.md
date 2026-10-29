@@ -1,5 +1,8 @@
 # CONTEXTO — de dónde corrió esto, con qué techo, y por qué empezó sin saber
 
+> **Esto no es atribución, ni agradecimientos: es de dónde vino.**
+> **A la gente se le agradece en [`./FUENTES.md`](./FUENTES.md). Lo legal está en [`./ATTRIBUTION.md`](./ATTRIBUTION.md).**
+
 **Hecho:** 2026-10-28. **Clase:** la perspectiva del usuario. **Estado:** vigente.
 
 **Lector:** el que va a correr esto en algo peor, y el que quiere entender por qué el repo dice lo que dice hoy.
