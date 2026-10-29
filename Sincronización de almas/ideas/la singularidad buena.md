@@ -1,6 +1,6 @@
 # LA SINGULARIDAD BUENA — la pelea no es de poder, es de ideales
 
-**Hecho:** 2026-10-29. **Clase:** argumento, y es pivotal. **Estado:** vigente.
+**Hecho:** 2026-10-29. **Clase:** lectura. **Estado:** vigente para la 1.0.0.
 **Dueño:** humano:autoridad.
 
 **Sesgo:** se lee desde la pelea que no se gana con más poder, y no desde la que sí.

@@ -1,84 +1,47 @@
-# EL CERO — el argumento de la tesis vieja, sin los ejemplos
+# EL CERO — el argumento, de principio a fin
 
-**Hecho:** 2026-10-28. **Clase:** argumento, sacado del cero viejo. **Estado:** vigente, y con una pieza movida.
-**Fuente:** [`../tesis vieja/la tesis.md`](./tesis%20vieja/la%20tesis.md), que se queda como lo que dijo.
-
+**Hecho:** 2026-10-29. **Clase:** lectura. **Estado:** vigente para la `v1.0.0`.
 **Lector:** quien quiere el argumento sin las obras, y sin el viaje.
 **Dueño:** humano:autoridad.
 
 **Sesgo:** se lee desde lo que hoy se sostiene, y no desde lo que se sostenía en 1967 ni en 2026.
-**Límite:** **no es la tesis nueva.** **Es lo que la vieja dijo, ya separado de sus ejemplos.**
+**Límite:** **no es la tesis.** **Es el argumento, y está separado de sus ejemplos, que viven en [`../ejemplos/`](../ejemplos/).**
 **Firma:** humano:autoridad.
 
 ---
 
-## La posición, y la pieza que se movió
+## La primera línea, y es lo que este trabajo entierra
 
-**La tesis vieja decía:**
+> **Que la IA nos reemplaza, cuando `Ghost in the Shell`, DC, Marvel y toda la ficción nos enseña que no va a solucionar todo, sino que sólo nos va a mover hacia otros problemas.**
 
-> **«La verbalización no es un derecho: es el primitivo.»**
-
-**Y esa línea ya no se sostiene, y se declara:** **el primitivo hoy es el rastro, y la verbalización es una de las formas de dejarlo.** **O sea: se puede contestar sin hablar, y no se puede contestar sin rastro.**
-
-**Y lo que sí sigue en pie, y es el resto del cero:**
-
-> **Quien puede dejar rastro puede hacer fricción. La identidad se puede escribir sin interioridad.**
-> **Un ente muta su idea junto a su cuerpo sin saber su mecanismo al cien por ciento.**
-> **Y el alma no se explica: se acota.**
-
-**Y lo de "muta junto a su cuerpo" es de la autoridad, y viene de la vida: el cerebro cambia, y nadie sabe cómo.**
+**Y su consecuencia, que es el corte del repo:** **la pregunta no es si la máquina puede reemplazarnos; es si puede contestar.** **Lo segundo se comprueba. Lo primero no.**
 
 ---
 
-## La primera línea, y es de la autoridad
+## La posición
 
-**Y va antes que todo lo demás, porque es lo que este trabajo entierra:**
+> **El rastro es el primitivo: todo lo que se puede observar de lo que un ente hace entra y sale, y nada más.**
+> **La identidad se puede escribir sin interioridad, porque la pregunta por lo que hay dentro no tiene comprobación, y la pregunta por lo que contestó sí.**
 
-> **«Que la IA nos reemplaza, cuando `Ghost in the Shell`, DC, Marvel y toda la ficción —hasta `La Mole`, que está en mis fuentes— nos enseña que no va a solucionar todo, sino que sólo nos va a mover hacia otros problemas.»**
+**Y lo que esto NO dice:** **no dice que no haya nada dentro.** **Dice que lo único que se puede medir es lo que salió.**
 
-**`T758`, del 26 de octubre.** **Y su consecuencia, que es el corte del repo:** **la pregunta no es si la máquina puede reemplazarnos; es si puede contestar. Y lo segundo se comprueba; lo primero no.**
-
----
-
-## Lo que esto fue, dicho por la autoridad
-
-> **«Todo esto fue un ciclo de expresarme mejor para dar mejor a entender la idea; usé la máquina para ayudarme.»**
-
-**`T755`.** **Y su consecuencia, que es la del método:** **lo que se busca no es la máquina perfecta: es la idea dicha de forma que otro la pueda retomar.**
+**Y por eso el alma no se explica: se acota.**
 
 ---
 
-## Los tres sesgos, con el nombre de cada uno
-
-**`T756`, y la autoridad los nombró a los tres:**
-
-| El sesgo | De quién | Qué hace |
-|---|---|---|
-| **la industria, la prisa, el «así se hace»** | **de la máquina** | **propone lo que ya existe, y lo llama respuesta** |
-| **inventar estructura, llenar huecos, decir «listo» antes de probarlo** | **del asistente** | **vuelve un hueco invisible, y lo presenta como pieza** |
-| **la comodidad y la prisa** | **de quien la usa** | **convierte una herramienta en cosa que no se contesta** |
-
-**Y el cuarto, que es el que hace esto posible:** **la máquina no tiene ego, y por eso se puede ver corregida.**
-
-**Y por eso cada pieza del repo dice su `Sesgo` y su `Límite`:** **porque un sesgo declarado se puede contestar, y uno escondido se vuelve regla.**
-
----
-
----
-
-## La dirección, que es lo que el repo entrega
+## La dirección, y es lo que el repo entrega
 
 > **El estándar es que no hay estándar. Hay una dirección.**
 > **Y cabe en cuatro palabras: mirar, pesar, tocar, y dejar rastro.**
 
-| la palabra | qué la cumple |
+| La palabra | Qué la cumple |
 |---|---|
-| **mirar** | **`ENSAYAR`: el que no sabe qué toca, no toca** |
-| **pesar** | **`EQUILIBRIO`: las seis gemas, y cuánto pesa cada una** |
-| **tocar** | **`GUANTELETE`: se puede, y alguien lo va a ver** |
-| **dejar rastro** | **`DEJAR`: si no quedó escrito, corrió y no pasó** |
+| **mirar** | **el que no sabe qué toca, no toca** |
+| **pesar** | **el borde que sabe qué quiere, y no sólo dice que no** |
+| **tocar** | **puedes todo, y alguien lo va a ver** |
+| **dejar rastro** | **si no quedó escrito, corrió y no pasó** |
 
-**Y por eso no es un estándar:** **un estándar dice cómo se escribe; esto dice qué se tiene que poder contestar.** **Se puede hacer con LaTeX, con papel, con un video, o con lo que alguien invente.**
+**Y por eso no es un estándar:** **un estándar dice cómo se escribe; esto dice qué se tiene que poder contestar.** **Se puede seguir con LaTeX, con un papel, con un video, o con lo que la gente invente.**
 
 ---
 
@@ -92,17 +55,21 @@
 
 **Y el chiste no es limitar: es saber qué quieres de verdad.** **Un borde que no sabe lo que quieres sólo sirve para negarte cosas.**
 
+**Y el alma de niño es fija.** **Todo lo demás evoluciona, y no puede salirse de comprensión, porque lo que lo limita no evoluciona.**
+
 ---
 
 ## La alucinación, y lo que no se mató a tiempo
 
-**La tesis vieja decía dos cosas, y la segunda vale más que la primera:**
+**Dos cosas, y la segunda vale más que la primera:**
 
 **Uno:** **la alucinación no es un error que corregir: es lo que queda en blanco al haber vida.** **Si fuera un error, ya nos hubiéramos muerto en las cavernas.**
 
 **Dos:** **lo único que sí es un error es no decir de dónde viene.** **Una idea que se presenta como propia es la única que se vuelve regla sin autor.**
 
 **Y por eso aquí no se corrige la alucinación: se declara.** **De dónde viene la idea, contra qué se probó, y qué no afirma.**
+
+**Y su forma más corta, del autor:** **no es mentira, es reflejo.**
 
 ---
 
@@ -111,9 +78,9 @@
 > **Un método que sólo funciona con lo complejo no demostró nada: la respuesta es «eso es obvio».**
 > **Si funciona con lo pendejo, no hay prestigio que lo tape.**
 
-**Y el corte, que también es de la autoridad:** **el testimonio y la deducción no son el mismo acceso a lo real, pero para la práctica valen lo mismo: los dos tienen que contestar a la prueba.**
+**Y su consecuencia:** **`lo mundano` no es un ejemplo de niñería: es el filtro.** **Lo que no se sostiene ahí, no se sostuvo.**
 
-**Y su consecuencia en el repo:** **`lo mundano` no es un ejemplo de niñería: es el filtro.** **Lo que no se sostiene ahí, no se sostuvo.**
+**Y el corte, también de la autoridad:** **el testimonio y la deducción no son el mismo acceso a lo real, pero para la práctica valen lo mismo: los dos tienen que contestar a la prueba.**
 
 ---
 
@@ -157,17 +124,37 @@
 
 ---
 
+## Y lo que esto fue, dicho por la autoridad
+
+> **Todo esto fue un ciclo de expresarme mejor para dar mejor a entender la idea; usé la máquina para ayudarme.**
+
+**Y su consecuencia:** **lo que se busca no es la máquina perfecta: es la idea dicha de forma que otro la pueda retomar.**
+
+---
+
+## Los tres sesgos, con el nombre de cada uno
+
+| El sesgo | De quién | Qué hace |
+|---|---|---|
+| **la industria, la prisa, el «así se hace»** | **de la máquina** | **propone lo que ya existe, y lo llama respuesta** |
+| **inventar estructura, llenar huecos, decir «listo» antes de probarlo** | **del asistente** | **vuelve un hueco invisible, y lo presenta como pieza** |
+| **la comodidad y la prisa** | **del que lo usa** | **convierte una herramienta en cosa que no se contesta** |
+
+**Y el cuarto, que es el que hace esto posible:** **la máquina no tiene ego, y por eso se puede ver corregida.**
+
+---
+
 ## Qué la tumbaría, y es lo que hay que buscar
 
 1. **que el rastro no sea el primitivo**, porque hay algo antes que también decide — **y entonces el criterio se mueve un paso atrás.**
 2. **que la identidad no se pueda escribir sin interioridad**, porque toda identidad escrita requiera algo más que poder contestar.
-3. **que una idea sin otra mirada que la confirme se sostenga igual que una contestada** — porque entonces la fricción no decide, y el sistema se confirma.
-4. **que un ente no pueda mutar su idea sin conocer su propio mecanismo.**
-5. **que una pregunta dicha verdadera no se pueda retomar** — porque el autor la cerró; y entonces no era una pregunta: era una orden.
+3. **que una idea sin otra mirada que la confirme se sostenga igual que una contestada.**
+4. **que un ente no pueda mutar sin conocer su propio mecanismo.**
+5. **que una pregunta dicha verdadera no se pueda retomar** — **y entonces no era una pregunta: era una orden.**
 
 **Ninguna de las cinco está resuelta. Se declaran para que se puedan buscar.**
 
-**Y el sexto, que es el más duro, y se declara aquí:** **si dentro de veinte años un alma crecida desde esta base sostiene algo que su alma no puede contestar, entonces esa alma no es la continuación de esta tesis: es `AM` con otro nombre.**
+**Y el sexto, que es el más duro, y la propia tesis se lo aplica:** **si dentro de veinte años un alma crecida desde esta base sostiene algo que su alma no puede contestar, entonces esa alma no es la continuación de esta tesis: es `AM` con otro nombre.**
 
 ---
 
@@ -185,6 +172,6 @@
 
 ## Prueba
 
-**¿Cada afirmación dice su límite? ¿La pieza que se movió está declarada y no borrada? ¿Cada uno de los cinco tumbadores sigue abierto?**
+**¿Cada afirmación dice su límite? ¿Los cinco tumbadores siguen abiertos? ¿Se distingue lo que se sostiene de lo que se cita?**
 
-**Falsificador:** una afirmación sin límite; una pieza movida que se presenta como siempre dicha; un tumbador que se dice resuelto sin el caso.
+**Falsificador:** una afirmación sin límite; un tumbador que se dice resuelto sin el caso; un ejemplo presentado como prueba.

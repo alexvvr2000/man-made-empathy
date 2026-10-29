@@ -1,6 +1,6 @@
 # LA FRASE — «un gramo de registro», y de dónde viene
 
-**Hecho:** 2026-10-28. **Clase:** argumento, recuperado del historial de git. **Estado:** vigente.
+**Hecho:** 2026-10-28. **Clase:** lectura, recuperada del historial de git. **Estado:** vigente para la 1.0.0.
 **Fuente:** `JONN.md`, que vivió en `sincronización de almas/2 el idioma/friccion/`, en el commit `ce31de5`. **Se recuperó con `git show`, y no se reescribió.**
 
 **Lector:** quien vaya a cerrar el repo, y no sepa por qué se registra todo.
