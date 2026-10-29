@@ -18,19 +18,33 @@
 
 ---
 
+## 0. Cómo llegó esto a existir, y es lo primero que hay que saber
+
+**El autor empezó desde la ignorancia, y el repositorio evolucionó sin un plan legal.**
+
+> **«No supe cómo iba a evolucionar esto. Empecé desde la ignorancia; ni sabía qué era Zenodo. Yo no soy omnisciente, y la máquina tampoco.»**
+
+**O sea:** **no hay un diseño legal detrás. Hay un proyecto que creció, y un autor que fue aprendiendo sobre la marcha.**
+
+**Y lo legal evoluciona con él.** **Este documento es la foto de hoy, y se actualiza; no es una declaración de que siempre estuvo así.**
+
+**`[TRANSPARENCIA]`:** **el historial de git tiene 562 versiones, y cada una está fechada.** **Si el autor sabía algo en un momento, ahí está.** **Y lo que no sabía, no lo declaró, porque no se puede declarar lo que no se sabe.**
+
+---
+
 ## 1. El caso, en diez líneas
 
 **Un repositorio de GitHub, con licencia `CC BY 4.0` y depósito en Zenodo, que sostiene un método para escribir entidades que se puedan contestar.**
 
 **Su autor no cita obras para reproducirlas: las cita para discutirlas.** **Cada una tiene su ficha, con su autor, su año, dónde está la escena, y si se verificó.**
 
-**El repositorio no contiene imágenes, ni clips, ni texto ajeno largo, ni datos personales de terceros, ni fuente académica.**
+**El repositorio no contiene imágenes, ni clips, ni texto ajeno largo, ni fuente académica.**
 
 **Y el autor está desempleado, y nunca ha trabajado para la industria de la IA.**
 
 ---
 
-## 2. Lo que hay que revisar, y son cinco cosas
+## 2. Lo que hay que revisar, y son seis cosas
 
 | # | Lo que | Dónde está, y qué tiene |
 |---|---|---|
@@ -39,6 +53,7 @@
 | **3** | **difamación** | **las mismas fichas, y [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md).** **Lo que no se verificó dice `[SIN VERIFICAR]`** |
 | **4** | **datos de terceros** | **[`.memoria continua/historico/`](.memoria%20continua/historico/): el rastro crudo, y [`.memoria continua/notas/tranceptos.md`](.memoria%20continua/notas/tranceptos.md): cómo se depuraría** |
 | **5** | **atribución** | **[`./FUENTES.md`](./FUENTES.md): todo lo que sea gente real, nombrado.** **Y [`./ATTRIBUTION.md`](./ATTRIBUTION.md): lo que licencia y lo que no** |
+| **6** | **el historial de git** | **562 versiones, y el rastro crudo de 279 entradas.** **Lo que se vea ahí, se ve igual que en el árbol: nada se borró** |
 
 ---
 
@@ -56,7 +71,25 @@
 
 ---
 
-## 4. Lo que el autor ya hizo, y no hay que repetirle
+## 4. Lo que ya se revisó, y lo que se encontró
+
+**Y esto se escaneó hoy, no se supone.**
+
+**El rastro crudo de `.memoria continua/historico/` —2 049 registros entre los ocho archivos— se buscó por correos y por números, y el resultado es este:**
+
+| Lo que se buscó | Lo que hay |
+|---|---|
+| **correos electrónicos** | **ninguno** |
+| **teléfonos o identificadores** | **ninguno: lo que salió era fechas y números de `arxiv`** |
+| **datos de salud, finanzas, o menores** | **ninguno** |
+
+**Y lo que sí hay, y es lo que el abogado tiene que ver: conversación.** **Las entradas de `entrada.jsonl` son el criterio del autor, con su sesgo, su límite y su firma.** **Y los `pase.jsonl` son lo que cada turno dejó abierto.** **No son de terceros: son del autor y de la máquina.**
+
+**`[SIN DEPURAR]`:** **esto es un escaneo de patrones, y no una revisión: si hay un nombre de un tercero escrito en prosa, no lo detecta un escaneo.** **Eso lo tiene que mirar alguien, y puede ser el abogado, o el autor con la lista que se le dé.**
+
+---
+
+## 5. Lo que el autor ya hizo, y no hay que repetirle
 
 **Licencia declarada en `LICENSE.txt`, y en `CITATION.cff`.**
 **Depósito con DOI en Zenodo.**
@@ -69,25 +102,28 @@
 
 ---
 
-## 5. Lo que NO está resuelto, y es lo que se le pide dictaminar
+## 6. Lo que NO está resuelto, y es lo que se le pide dictaminar
 
 **1. Si citar una escena y decir qué provocó es suficiente, o hay que quitar el nombre de la obra.**
-**2. Si el rastro crudo de `.memoria continua/historico/` se puede publicar tal cual, o hay que depurarlo antes.**
+**2. Si el rastro crudo de `.memoria continua/historico/` se puede publicar tal cual, o hay que depurarlo antes — y si basta con un aviso, o hay que quitarlo del repo.**
 **3. Si el depósito en Zenodo cambia algo, o si conviene una versión sin ese histórico.**
-**4. Y si hay algo de la lista de arriba que el autor no vio.**
+**4. Si el historial de git, con 562 versiones, tiene algo que se pueda reclamar, y si borrarlo es peor que dejarlo.**
+**5. Y si hay algo de la lista de arriba que el autor no vio.**
 
 ---
 
-## 6. Lo que este documento no es
+## 7. Lo que este documento no es
 
 **No es un dictamen, y no lo firma un abogado.** **Si un abogado lo firma, se cambia el dueño y se anota la fecha.**
 
 **No sustituye la lectura de lo que el abogado quiera abrir.** **Señala dónde, y no qué pensar.**
 
+**Y no promete que el repositorio esté limpio:** **promete que está declarado lo que hay, y lo que falta.**
+
 ---
 
 ## Prueba
 
-**¿Un abogado puede dictaminar leyendo sólo esto? ¿Cada punto lo manda a un sitio concreto? ¿Las cinco preguntas están contestadas? ¿Está dicho lo que falta?**
+**¿Un abogado puede dictaminar leyendo sólo esto? ¿Cada punto lo manda a un sitio concreto? ¿Las cinco preguntas están contestadas? ¿Está dicho lo que falta, y lo que nadie revisó?**
 
-**Falsificador:** un abogado que tiene que leer el repositorio entero; un punto sin sitio; una pregunta sin respuesta; un dictamen que se presenta como hecho.
+**Falsificador:** un abogado que tiene que leer el repositorio entero; un punto sin sitio; una pregunta sin respuesta; un escaneo presentado como revisión; un dictamen que se presenta como hecho.
