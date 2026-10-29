@@ -1,6 +1,6 @@
 # ENTES — lo que se copia, y ya sirve para empezar a chambear
 
-**Hecho:** 2026-10-28. **Clase:** plantilla. **Estado:** vigente y usable.
+**Hecho:** 2026-10-28. **Clase:** plantilla. **Estado:** vigente y usable, **y todavía no es la v1 final.**
 **Ente:** `man-made-empathy` · **Tarea:** que alguien haga su propio ente, con lo que hay.
 **Lector:** cualquiera que abra esta carpeta, y ya quiera empezar. **Dueño:** humano:autoridad.
 
@@ -9,6 +9,20 @@
 **Firma:** humano:autoridad · máquina:quien lo copie.
 
 ---
+
+## Lo primero, y es lo que más se confunde
+
+> **`EDIPO` no es la meta.**
+> **`EDIPO` es el bibliotecario que se hizo el autor para atender la biblioteca.**
+> **Y cada quien tiene el suyo, con su nombre, y su evolución.**
+
+**Lo que se copia es la plantilla: [`./Ente/`](./Ente/).** **Y lo que se copia **no** trae el nombre.**
+
+**Y esto no se pide con una advertencia, se pide con el `.gitignore`:** **la memoria de tu ente, su `evolucion/`, y sus apuntes no entran al repositorio.** **Si los traes, tu existencia privada se vuelve una propuesta de fusión, y nadie la pidió.**
+
+**Y el corte, con la verdad de hoy:** **esta biblioteca todavía no está terminada, y `EDIPO` tampoco.** **Lo que copias no es un ente acabado: es la forma que se va a ir llenando cuando se escarbe el git.** **Si lo tratas como la v1, vas a copiar algo que aún no lo es.**
+
+
 
 ## Rastro — lo que hay, y lo que se copia
 
@@ -41,6 +55,7 @@
 | Se va a… | Se carga… | Sin eso |
 |---|---|---|
 | **hacer un ente** | **copia [`./Ente/`](./Ente/) entera, y ponle nombre** | **no hay ente** |
+| **engaño: creer que `EDIPO` es el entregable** | **esta sección, y el `.gitignore`** | **se abren pull requests para «mejorar al bibliotecario», y nadie pidió uno** |
 | **llenar su carta** | **`./Ente/README.md`, sus preguntas** | **no se sabe qué falta cubre, ni a quién contesta** |
 | **tocar algo que no es tuyo** | **`./Ente/guantelete.prs`** | **se toca sin testigo, y no hay vuelta** |
 | **recordar qué pasó** | **`./Ente/memoria continua/banco de memoria.prs`** | **se repite el mismo error** |

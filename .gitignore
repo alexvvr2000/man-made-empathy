@@ -16,3 +16,32 @@ vision del lector/*
 # la base viva del ciclo no viaja: se rehace desde el esquema
 .memoria continua/ciclo.db
 .memoria continua/ciclo.db-journal
+
+
+# ---------------------------------------------------------------------------
+# EDIPO NO ES LA META. Lo que se copia es Ente/, y cada quien tiene su EDIPO.
+# ---------------------------------------------------------------------------
+# Tu bibliotecario es tuyo. Su memoria, su evolucion y sus apuntes se quedan
+# en tu casa, y no entran aqui. Si los traes, tu vida privada se vuelve una
+# propuesta de fusion que nadie pidio.
+
+# la memoria viva de cualquier ente copiado
+**/entes/*/.memoria continua/
+**/entes/*/entidad.jsonl
+**/entes/*/apuntes/
+
+# sus tareas aprendidas: son de quien lo copio, y no del repo
+**/entes/*/evolucion/*.tra
+**/entes/*/evolucion/**/*.tra
+**/entes/*/evolucion/*.jsonl
+
+# y los restos de cualquier instancia local
+**/entes/*/pases/
+**/entes/*/sala/
+*.wav
+*.onnx
+delirios/
+
+# y la plantilla NO ignora sus propios README: la forma si se entrega
+!**/entes/*/evolucion/README.md
+
