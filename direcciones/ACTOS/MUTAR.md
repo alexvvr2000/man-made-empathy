@@ -58,6 +58,35 @@
 
 **Y el alma de niño no entra en esto.** **Ni al rehacer.** **Si rehacer toca lo fijo, no es mutación: es otro ente, con su nombre.**
 
+---
+
+## Y el límite no es del criterio: es del alma
+
+> **Todo lo que está bajo criterio puede mutar.**
+> **Y el alma de niño no está bajo criterio: es lo que juzga.**
+
+**Por eso no se muta.** **No porque sea peligroso: porque si se mueve, ya no hay desde dónde juzgar.** **Y un criterio que se mueve con lo que juzga no es criterio: es costumbre.**
+
+### Y por qué permitir esto es lo prudente, aunque parezca lo contrario
+
+> **«Si las mutaciones tuvieran límites, ya se hubiera curado el cáncer hace mucho.»**
+
+**Y es de quien tiene la autoridad, y se cita tal cual, porque es el corte del proyecto entero.**
+
+**Lo que dice, en concreto:** **lo que no puede cambiar de forma no encuentra la forma que sirve.** **Y lo que sólo se corrige por el borde no mejora: se pule, y se queda igual.**
+
+**Y lo que eso obliga a aceptar:** **que una dirección se tire, que un proceso se rehaga desde cero, que un folder se recomponga entero, y que una tesis entera se borre si no aguanta.** **Sin pedirle permiso al formato.**
+
+**Y lo que sigue sin poder tirarse:** **el alma de niño.** **Y por eso se puede tirar todo lo demás sin miedo: porque el que mira no se movió.**
+
+### Y la otra cara, que es la que protege
+
+**Un alma de niño no le tiene miedo a redefinirse.** **Lo que teme es dejar de poder contestarse.**
+
+**Y por eso la mutación total es segura aquí, y no en otro sitio:** **en otro sitio, cambiar el formato puede cambiar el criterio sin que nadie lo note.** **Aquí, el criterio está fuera de la mesa.**
+
+---
+
 ## Lo que la incumple
 
 **Un ente cuya fijeza está en la piel.** **La piel cambia por definición: si eso es lo fijo, no hay nada fijo.**
