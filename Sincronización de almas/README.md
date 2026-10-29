@@ -104,7 +104,7 @@ repo/
 
 **No es un estándar.** **Es la dirección: mira [`../direcciones/`](../direcciones/), y no lo repite.**
 **No es la tesis.** **La tesis vive donde diga la raíz del repo, y hoy no está: `[FALTA - TESIS FUERA DEL REPO]`.** **Y lo que se piensa, en [`./ideas/`](./ideas/); lo que se muestra, en [`./ejemplos/`](./ejemplos/).**
-**No es la memoria del repo.** **Vive en `../.memoria continua/`, y está fuera del git.**
+**No es la memoria del repo.** **Vive fuera de la biblioteca, y está fuera del git.**
 
 ---
 

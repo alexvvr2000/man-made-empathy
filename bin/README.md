@@ -41,7 +41,7 @@ python bin/historia.py traer <commit> "<ruta>"
 python bin/conciencia.py dump --destino "<tu carpeta>"
 ```
 
-**Y la base del ciclo vive en `.memoria continua/ciclo.db`, fuera del git.** **No se copia: se rehace desde el esquema.**
+**Y la base del ciclo vive fuera del git, en la máquina de quien trabaja.** **No se copia: se rehace desde el esquema.**
 
 ---
 
@@ -63,7 +63,7 @@ python bin/conciencia.py dump --destino "<tu carpeta>"
 
 - **El alma de niño no está en este ciclo.** **Es el ciclo mínimo: los dos bancos, y nada más.**
 - **Esto es el `bin/` del proyecto, y crece con quien lo usa.** **No viaja con el ente.**
-- **El `pase` escribe a `.memoria continua/pases/`, y no a la base.** **Se unificará cuando el ciclo crezca.**
+- **El `pase` escribe fuera de la biblioteca, y no a la base.** **Se unificará cuando el ciclo crezca.**
 
 ---
 

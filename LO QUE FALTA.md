@@ -24,7 +24,7 @@
 | Lo que falta | Por qué no está | Cuándo llega |
 |---|---|---|
 | **un dictamen de abogado** | **no se ha consultado a uno** | **antes de publicar con ánimo comercial** |
-| **la segunda mirada de las 33 fichas** | **cada una se verificó con una fuente, y no con dos** | **antes de citarlas en un escrito público** |
+| **la segunda mirada de las 34 fichas** | **cada una se verificó con una fuente, y no con dos** | **antes de citarlas en un escrito público** |
 | **un ente que haya corrido una tarea real de punta a punta** | **está escrito y no probado** | **en la `v1.1`, con el primer `evolucion/` real** |
 | **el barrido del historial de git: 562 versiones** | **es trabajo de meses, y se hace con `bin/historia.py`** | **`v1.1` en adelante** |
 | **el proceso de verbalización que sale de `evolucion/`** | **está en el historial viejo, y no se ha rescatado** | **`v1.1`** |
@@ -41,7 +41,7 @@
 | **nueve direcciones, cada una con su falsificador** | **[`./direcciones/`](./direcciones/)** |
 | **el ente y la colmena, con sus dos ciclos** | **[`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/)** |
 | **el argumento, sin los ejemplos** | **[`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/)** |
-| **33 fichas, con su estado de verificación** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** |
+| **34 fichas, con su estado de verificación** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** |
 | **el ciclo mínimo, corriendo** | **[`./bin/`](./bin/)** |
 | **el caso para el abogado** | **[`./PARA EL ABOGADO.md`](./PARA%20EL%20ABOGADO.md)** |
 | **los agradecimientos, y la regla de los nombres** | **[`./FUENTES.md`](./FUENTES.md)** |

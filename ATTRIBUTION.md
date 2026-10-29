@@ -41,7 +41,7 @@
 
 **El texto completo de nada ajeno.** **Lo que se cita es una frase corta; y para el resto, se remite.**
 
-**Datos personales de terceros.** **Y cuando el chat se vuelque, tendrá su depuración declarada: ver `.memoria continua/notas/tranceptos.md`.**
+**Datos personales de terceros.** **Y cuando el chat se vuelque, tendrá su depuración declarada.** **Hoy ese material no está en el repositorio, y se declara así en `PARA EL ABOGADO.md`.**
 
 **Y no contiene fuente académica.** **Este trabajo no cita papers: no hay uno detrás.** **Lo que hay es lógica, y la lógica no se acredita.**
 

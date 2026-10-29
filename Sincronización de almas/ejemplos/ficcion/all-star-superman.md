@@ -24,22 +24,19 @@ Límite:      no enseña a entender a tiempo; la película es un castigo, y no u
 
 ---
 
-## El fragmento, verbatim
+## Lo que se cita, y por qué es sólo esto
 
-> **Lex Luthor:** «Welcome to the new world. Lay down your weapons and you won't be hurt.»
+**Y aquí está el cambio del 2026-10-29, y se declara:** **antes esta ficha reproducía seis párrafos del monólogo, unos cien palabras seguidas.** **Ahora cita tres frases cortas, y el resto se remite a la obra.**
 
-> **«Better than okay. I can see the entire electromagnetic spectrum and those must be atoms, little clouds of possibility. Einstein couldn't connect the gravitational force to the other three, but if he could have seen this... It's so obvious.»**
+**Por qué:** **un monólogo entero es la pieza entera de la escena, y es la cantidad más difícil de defender.** **Y las tres frases que el argumento usa caben en tres líneas: lo demás era relleno, y el relleno es lo que cuesta.**
 
-> **«The fundamental forces are yoked by consciousness. Everything's connected. Everyone. And this how he sees things all the time. Every day.»**
+> **«The fundamental forces are yoked by consciousness.»**
+> **«It's like — Like it's all just us, in here together. We're all we've got.»**
+> **«You could have saved the world years ago.»**
 
-> **«It's a cruel joke. The mechanistic clockwork of reality hinging on a precious impossible defiance of entropy, on life. And the clockwork doesn't care. It's like — Like it's all just us, in here together. We're all we've got.»**
+> — ***All-Star Superman*** **(película, 2011).** **El monólogo completo se lee en la obra, y en [Wikiquote](https://en.wikiquote.org/wiki/All-Star_Superman_(film)), revisión del 10 de agosto de 2026.** **Aquí no se reproduce.**
 
-> — **All-Star Superman** (película, 2011), guion en [Wikiquote](https://en.wikiquote.org/wiki/All-Star_Superman_(film)), revisión del **10 de agosto de 2026**
-
-**Y el cierre, que es el que la tesis usa entera:**
-
-> **Lex Luthor:** «Give it back. I saw everything. I saw how to save the world. I could have made everyone see. If it wasn't for you, I could have saved the world.»
-> **Superman:** «If it had mattered to you, Luthor, **you could have saved the world years ago.**»
+**Y lo que se pierde al recortar, se dice:** **se pierde el arranque del monólogo, que es el que dice «welcome to the new world».** **Y se pierde porque no hace falta: no es una de las tres frases que sostienen el argumento.**
 
 ---
 

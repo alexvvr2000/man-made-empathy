@@ -72,7 +72,7 @@
 | **[`./CRITERIO.md`](./CRITERIO.md)` | **lo que separa esto de la industria** |
 | **[`./VERBALIZAR.md`](./VERBALIZAR.md)` | **darle nombre a lo que es, y que el nombre diga el acto** |
 
-**Y las demás se rescatan del chat, cuando se rescaten:** **`[FALTA]`, y no se inventan.** **Lo que hace es lo que dice `../.memoria continua/notas/ciclo.md`.**
+**Y las demás se rescatan del chat, cuando se rescaten:** **`[FALTA]`, y no se inventan.** **Lo que hace se declara fuera de la biblioteca.**
 
 **Y el orden de las faltas lo dice la autoridad:** **primero rescatar las que el chat ya tiene, y no inventar las que nadie pidió.**
 

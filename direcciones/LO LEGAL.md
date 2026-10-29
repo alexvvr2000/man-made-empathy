@@ -19,6 +19,45 @@
 
 ---
 
+
+---
+
+# CICLO 0 — ANTES DEL COMMIT 1, y se corre con un comando
+
+**Y es el que faltaba:** **los otros dos ciclos son para cada publicación.** **Éste es para la que no se puede deshacer: el primer commit de la historia.**
+
+```plaintext
+1. CUADRAR      todos los numeros coinciden: fichas, direcciones, versiones
+2. RUTAS        cero rutas rotas, comprobado con un comando
+3. COPYRIGHT    lo que se cita literal: cuanto, y se sostiene con menos
+4. FUENTE       cada ficha con su autor, su ano, y su URL de verificacion
+5. NOMBRES      ninguna marca activa como nombre propio
+6. DATOS        ningun correo, telefono, nombre de tercero, ni ruta de la maquina
+7. ABOGADO      lo que no se sabe, se dice, y se anota que falta
+```
+
+**Y el que se niega a correrlo, no hace el commit 1.**
+
+## Lo que cada paso comprueba, y como
+
+| El paso | Como se comprueba | Que encuentra si falla |
+|---|---|---|
+| **cuadrar** | **contar las fichas en disco, y contar las filas de la tabla** | **un numero que no cuadra entre documentos** |
+| **rutas** | **un validador que abre cada enlace relativo** | **una ruta a algo que no existe** |
+| **copyright** | **medir el texto literal de cada ficha** | **una escena entera reproducida** |
+| **fuente** | **que cada ficha diga su autor, su ano, y que se abrio** | **una ficha sin segunda mirada** |
+| **nombres** | **la tabla de nombres muertos de `../contexto.md`** | **una marca activa usada como nombre propio** |
+| **datos** | **buscar `@`, telefonos, y rutas de maquina en todo el repo** | **un dato que expone a un tercero** |
+| **abogado** | **el inventario firmado** | **lo que el autor no sabe, y no ha declarado** |
+
+## Y lo que el abogado recibe, y hoy no tenia
+
+> **Un inventario firmado: que hay en el repositorio, pieza por pieza, con fecha.**
+
+**Porque hoy tiene que fiar del autor.** **Y un abogado no fia: verifica.**
+
+**Rige [`../PARA EL ABOGADO.md`](../PARA%20EL%20ABOGADO.md).**
+
 # CICLO 1 — ANTES DE PUBLICAR
 
 **Y se corre cada vez que algo va a salir: un release, una ficha, una imagen, un chat, un nombre.**

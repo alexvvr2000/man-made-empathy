@@ -3,7 +3,7 @@
 **Hecho:** 2026-10-28. **Clase:** índice de verificación. **Estado:** vigente, y se actualiza al verificar.
 **Lector:** quien va a citar un ejemplo, y quiere saber si puede.
 
-**Sesgo:** se lee desde el que no va a abrir las 26 fichas para saber qué está firme.
+**Sesgo:** se lee desde el que no va a abrir las 34 fichas para saber qué está firme.
 **Límite:** **no dice si la obra es buena, ni si la escena dice lo que la tesis quiere.** **Dice de dónde salió la ficha, y si se buscó.**
 **Firma:** humano:autoridad · máquina:quien verifique.
 
@@ -25,7 +25,7 @@
 
 ---
 
-## Las 33, una por una
+## Las 34, una por una
 
 **Y el estado es el que declara cada ficha, sin corregirlo aquí.**
 
@@ -40,6 +40,7 @@
 | **`dorohedoro-y-back-to-the-future.md`** | **verificado** | verificado en su ficha. |
 | **`earth-x-y-houseki-no-kuni.md`** | **verificado** | verificado en su ficha. Y `Earth X` es Marvel, y NO es del MCU. |
 | **`fantastic-four-1994.md`** | **verificado** | verificado en su ficha. Y es de Marvel, pero NO del MCU. |
+| **`fire-force.md`** | **`declarado`** | declarado: la autoridad lo dijo, y no se abrió la escena. Es el nombre de una época, y está como tal. |
 | **`final-fantasy-vii.md`** | **verificado** | verificado en su ficha, y sin jugar: lo declara la autoridad. |
 | **`fullmetal-alchemist.md`** | **verificado** | verificado en su ficha. |
 | **`hunter-x-hunter.md`** | **verificado** | verificado en su ficha. |
@@ -73,7 +74,7 @@
 |---|---|
 | **`verificado`** | **28** |
 | **`parcial`** | **4**: `lazytown-sportacus`, `lucky-luke`, `marceline`, y `videl-kratos-iroh` |
-| **`declarado`** | **1**: el `MCU` |
+| **`declarado`** | **2**: el `MCU` y `fire-force` |
 
 **Y ninguna tiene segunda mirada.** **Verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
 
@@ -83,7 +84,7 @@
 
 ## Y lo que todavía no se buscó, y es lo más importante
 
-**Ninguna de las 33 se buscó en una segunda fuente.** **Todas descansan en la ficha de Wikipedia, y una en el guion de su película.** **Eso es una sola mirada, y el repo pide dos.**
+**Ninguna de las 34 se buscó en una segunda fuente.** **Todas descansan en la ficha de Wikipedia, y una en el guion de su película.** **Eso es una sola mirada, y el repo pide dos.**
 
 **Y por eso esta tabla dice `verificado` y no `confirmado`:** **verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
 

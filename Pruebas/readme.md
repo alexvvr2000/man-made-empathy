@@ -94,7 +94,7 @@
 inguno** |
 | **5. declarar** | **el veredicto, y qué condición falló si falló** |
 
-**Y el registro vive en `.memoria continua/pases/`, en el archivo de su fecha, con la prueba que corrió.** **Y si se corre desde `../bin/`, se dispara en el banco de memoria con `disparar --frontera ruptura`, porque una prueba que falla movió el borde.**
+**Y el registro vive fuera de la biblioteca, en el archivo de su fecha, con la prueba que corrió.** **Y si se corre desde `../bin/`, se dispara en el banco de memoria con `disparar --frontera ruptura`, porque una prueba que falla movió el borde.**
 
 **Y lo que no se hace:** **no se corre una prueba sin fecha; no se declara un veredicto sin el paso 2; y no se cambia el veredicto de una corrida vieja: se deja, y se corre otra.**
 
@@ -105,7 +105,7 @@ inguno** |
 **Cada prueba tiene su pregunta, su falsificador y su registro. Y ninguna tiene:**
 
 - **un ejecutable propio:** **se corren a mano hoy, y el primero que se escriba va en `../bin/`.**
-- **una corrida publicada con su veredicto:** **[SIN CORRIDA - NO SE HA CORRIDO NINGUNA]** **salvo las que quedaron registradas en `.memoria continua/`.**
+- **una corrida publicada con su veredicto:** **[SIN CORRIDA - NO SE HA CORRIDO NINGUNA]** **salvo las que se registraron fuera de la biblioteca.**
 - **un testigo externo:** **Firma externa: ninguno es legítimo, y da `indeterminado`.**
 
 ## Lo que esta casa no hace

@@ -47,7 +47,7 @@ python bin/historia.py traer ce31de5 "ruta/del/archivo.md"
 
 ## Y lo que no hace, y se declara
 
-**No busca en la base de la memoria vieja.** **Ese histórico ya está en `.memoria continua/historico/`, y se lee con `sqlite3`, no con esto.**
+**No busca en la base de la memoria vieja.** **Ese histórico vive fuera de la biblioteca, y se lee con `sqlite3`, no con esto.**
 
 **No decide qué se sostiene.** **Trae; el juicio es de quien lo lee.**
 
