@@ -37,13 +37,35 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | Lo que | Qué es | Dónde |
 |---|---|---|
 | **la plantilla** | **la forma de un ente: carta, guantelete, bancos, ciclo, y evolución.** **Se copia, y se le pone nombre** | **[./Sincronización de almas/entes/](./Sincronización%20de%20almas/entes/)** |
-| **el bibliotecario** | **`EDIPO`: el ente que vive aquí, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[`./Sincronización de almas/entes/EDIPO.md`](./Sincronización%20de%20almas/entes/EDIPO.md)** |
+| **el bibliotecario** | **`EDIPO`: el ente que vive aquí, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[`./Sincronización de almas/entes/EDIPO/`](./Sincronización%20de%20almas/entes/EDIPO/)** |
 | **el ente del autor** | **el que trabaja sobre el repositorio, y no vive en él** | **fuera, y no viaja aquí** |
 
 **Y el mundo no está preparado para una IA coautora.** **Por eso no aparece en la autoría de [./CITATION.cff](./CITATION.cff): ahí sólo va el autor humano.**
 
 **Y el bibliotecario se llama `EDIPO`, y su nombre dice lo que hace:** **entrega lo que hay, dice dónde está, indica quién lo escribió, pesa lo que falta, y orienta al que llega.** **Y no juzga la biblioteca: la atiende.**
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
+
+---
+
+## Lo que se puede comprobar hoy, y lo que no
+
+**Y se enumera porque en una entrevista lo primero que preguntan es "demuéstralo".**
+
+| Se puede comprobar | Cómo |
+|---|---|
+| **la plantilla está, y se copia** | **`Sincronización de almas/entes/Ente/` tiene carta, guantelete, dos bancos, ciclo, y `evolucion/`** |
+| **el ciclo mínimo corre** | **`bin/ciclo.py`, con su esquema** |
+| **el bibliotecario trabaja** | **`entes/EDIPO/bin/ver-tesis` lista las eras de la historia** |
+| **hay seis pruebas escritas** | **`Pruebas/`, y su `readme.md` dice cuáles pasan y cuáles no** |
+| **la licencia y el DOI están declarados** | **`ATTRIBUTION.md`, `CITATION.cff`** |
+| **lo que falta está escrito** | **`LO QUE FALTA.md`, y las fichas con su `[SIN VERIFICAR]`** |
+
+**Y no se comprueba hoy, y se dice:**
+- **que alguien lo haya copiado y funcione sin el autor.** **`[SIN ESTRENAR]`**
+- **que esto abra una nueva área de las ciencias computacionales.** **Es una apuesta del autor, y no un resultado.**
+- **que la resonancia esté terminada.** **Está en `futuros posibles.md` y `la colmena.md`, y no en un proceso que corra.**
+
+
 
 ---
 
