@@ -1,10 +1,6 @@
 # ATTRIBUTION
 
-**La licencia se decide, y está decidida desde el segundo cero: CC BY 4.0.**
-
-**Y el depósito también:** **Zenodo, con DOI conceptual `10.5281/zenodo.23090721`, y un DOI por cada versión archivada.**
-
-**Y este archivo no decide nada de eso: lo declara, y apunta a donde está escrito.**
+**Lo legal, en una página.** **Y separado en dos cosas que no son lo mismo:** **lo que este repositorio licencia, y lo que no.**
 
 ---
 
@@ -14,29 +10,53 @@
 |---|---|
 | **la licencia del repositorio** | **[`./LICENSE.txt`](./LICENSE.txt): Attribution 4.0 International (CC BY 4.0)** |
 | **la licencia, la autoría y el DOI** | **[`./CITATION.cff`](./CITATION.cff): `license: CC-BY-4.0`, autor, versión, y el DOI conceptual** |
-| **el depósito** | **Zenodo, desde el segundo cero** |
-
-**Y eso ya protege lo que había que proteger:** **la obra queda fechada, atribuida, y con su versión guardada.** **Y quien la use, la cita con su DOI.**
+| **el depósito** | **Zenodo, con DOI `10.5281/zenodo.23090721` desde el segundo cero** |
 
 ---
 
-## Lo que este repositorio hace con las obras ajenas
+## Lo que esta licencia cubre, y lo que no
 
-**Y esto no es la licencia: es lo que se hace con lo que no es de uno.**
+> **`CC BY 4.0` licencia este repositorio, y sólo este repositorio.**
 
-**Las cita para discutirlas.** **Una escena, una frase corta, un título, con su autor y su año.** **Y no reproduce ninguna obra, ni la sustituye, ni la distribuye.**
+**Lo que es del autor —los textos de `direcciones/`, `entes/`, `ideas/`, `bin/`, y la raíz— se puede usar, citar y adaptar, con atribución.**
 
-**Y por eso cada ficha de [`./Sincronización de almas/ejemplos/ficcion/`](./Sincronización%20de%20almas/ejemplos/ficcion/) dice tres cosas:** **la obra, dónde está la escena, y si se verificó.** **Lo que no se verificó, lo dice.**
+**Y lo que NO cubre, y es lo que hay que decir en voz alta:**
+
+**Las obras que este repositorio cita no están licenciadas aquí.** **`Watchmen`, `Ghost in the Shell`, `All-Star Superman`, `Red Dead Redemption`, y todas las demás, siguen siendo de sus dueños.**
+
+**Su mención no las licencia, no las cede, y no las reclama.**
 
 ---
 
-## Lo que este repositorio NO contiene
+## Lo que este repositorio contiene, y lo que no
 
-**No contiene imágenes, escenas ni clips de ninguna obra.** **Si algún día los lleva, se dirá aquí, y con su permiso o su razón.**
+**Contiene:** **el título de una obra, su autor, su año, el nombre de una escena, y el lugar donde está.** **Y lo que esa escena provocó.**
 
-**No contiene el texto completo de nada ajeno.** **Lo que cita es una frase, y para el resto remite.**
+**No contiene:**
 
-**No contiene datos personales de terceros.** **Y cuando el chat se vuelque, tendrá su depuración declarada: ver `.memoria continua/notas/tranceptos.md`.**
+**Imágenes, escenas ni clips de ninguna obra.** **Si algún día los lleva, se dirá aquí, y con su permiso.**
+
+**El texto completo de nada ajeno.** **Lo que se cita es una frase corta; y para el resto, se remite.**
+
+**Datos personales de terceros.** **Y cuando el chat se vuelque, tendrá su depuración declarada: ver `.memoria continua/notas/tranceptos.md`.**
+
+**Y no contiene fuente académica.** **Este trabajo no cita papers: no hay uno detrás.** **Lo que hay es lógica, y la lógica no se acredita.**
+
+---
+
+## Lo que dice cada ficha, y es lo que protege
+
+**Cada uno de los ejemplos de [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) declara tres cosas, y las tres son obligatorias:**
+
+| Lo que declara | Por qué |
+|---|---|
+| **la obra, con su autor y su año** | **para saber de quién es** |
+| **dónde está la escena: capítulo, número, episodio, o clip** | **para que se pueda verificar** |
+| **si se verificó, o si es `reportado por otro`** | **para no presentar un recuerdo como un hecho** |
+
+**Y la regla que lo cierra:** **lo que no se verificó, se dice `[SIN VERIFICAR]`.** **Una cita sin fuente es lo que se condena; una cita con su estado, no.**
+
+**Rige [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md).**
 
 ---
 
@@ -48,14 +68,20 @@
 
 ---
 
-## Lo que esto NO es
+## Lo que esta declaración NO es
 
-**No es una licencia nueva.** **La licencia es `CC BY 4.0`, y está en `LICENSE.txt` y en `CITATION.cff`.**
+**No es una licencia nueva.** **La licencia es `CC BY 4.0`, y está en [`./LICENSE.txt`](./LICENSE.txt) y en [`./CITATION.cff`](./CITATION.cff).**
 
-**No es un descargo general.** **Es lo que este repositorio hace con lo ajeno, dicho en corto.**
+**No es un registro de propiedad.** **El DOI de Zenodo es un archivo fechado y citable, y no un título.**
 
-**No sustituye el consejo de un abogado.** **Y el depósito en Zenodo no es un registro de propiedad: es un archivo fechado y citable.**
+**No es un título de abogado.** **Si esto se va a publicar con ánimo comercial, o si alguien reclama, se consulta a un abogado, y no a este archivo.** **Y se le lleva estas cuatro preguntas, que son las que va a hacer:** **¿qué se copió, cuánto, se sustituye la obra, y afecta su mercado?**
+
+**Y no promete que nadie reclame.** **Promete que lo que hay está declarado.**
 
 ---
 
-**Falsificador:** leer una licencia distinta de la que dicen `LICENSE.txt` y `CITATION.cff`; citar una obra sin decir de dónde salió; llevar imágenes o texto ajeno sin declararlo.
+## Prueba
+
+**¿Se distingue lo que licencia el repo de lo que no? ¿Cada ejemplo declara su obra, su escena, y si se verificó? ¿Se dice que no hay imágenes ni texto ajeno? ¿Se declara que no hay fuente académica?**
+
+**Falsificador:** una imagen o un clip sin permiso; un texto largo citado como si fuera cita; un ejemplo sin decir de dónde salió; una cita sin su estado de verificación; un nombre de obra usado como nombre propio.
