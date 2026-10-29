@@ -22,6 +22,19 @@
 
 ---
 
+## Y empieza en blanco, y es lo que hace que sirva
+
+> **`EDIPO` no ha atendido a nadie todavía.**
+> **Sus bancos están vacíos, y su `evolucion/` también.**
+> **Y así se entrega: para que la gente lo vea evolucionar en tiempo real.**
+
+**Porque un ente entregado con la memoria de otro no enseña nada: enseña un resultado.** **Y lo que hace falta ver no es el resultado: es que empezó de cero, como va a empezar quien lo lea.**
+
+**Y por eso su primera fricción no está escrita:** **va a salir la primera vez que le pregunten algo que no sepa.**
+
+
+---
+
 ## Lo que hay aquí, y es todo
 
 ```

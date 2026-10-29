@@ -1,0 +1,42 @@
+# BANCO DE MEMORIA — vacío, y es a propósito
+
+**Hecho:** 2026-10-29. **Clase:** proceso, y su primer registro. **Estado:** en blanco.
+
+**Y empieza en blanco para que se le vea crecer.**
+
+---
+
+## Lo que guarda
+
+**Lo que pasó mientras atendía.** **Con su frontera: revelación, confirmación, o ruptura.**
+
+**Y no guarda nada todavía.** **Porque `EDIPO` no ha atendido a nadie.**
+
+---
+
+## Los seis campos
+
+```plaintext
+Fecha:     [de cuando pasó, no de cuando se escribió]
+Dijo:      [quién habló]
+Texto:     [literal, sin resumir]
+Frontera:  [revelación | confirmación | ruptura]
+Sabía:     [qué no sabía antes. Si es «nada», no entra]
+Turno:     [dónde quedó]
+```
+
+**Y el disparo es una frontera, y son tres:** **apareció algo que no estaba; lo esperado pasó por primera vez con datos; o algo que se daba por cierto no pasó.**
+
+---
+
+## Lo que este banco no es
+
+**No es el archivo de la biblioteca.** **La biblioteca ya tiene su historia en git.** **Esto es lo que `EDIPO` vivió atendiendo, y no lo que la biblioteca recuerda.**
+
+**Y no se publica.** **Rige el [`../../../.gitignore`](../../../.gitignore).**
+
+---
+
+## Prueba
+
+**¿Hay algún registro?** **Todavía no.** **Y ése es el estado correcto: `[VACÍO - TODAVÍA NO ATENDIÓ A NADIE]`.**
