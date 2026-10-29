@@ -37,13 +37,30 @@
 > **Porque la pelea nunca fue de poder: era ver cuánto aguantaban los ideales de los dos.**
 > **Incluso si tenían que matarse los dos en el proceso.**
 
-**`[SIN VERIFICAR - FALTA LA ESCENA]`: se dice el número y el arco cuando se verifique, y se pone en [`./ejemplos/`](../ejemplos/).**
+**Y la escena está verificada:**
+
+> **`Hal Jordan and the Green Lantern Corps` #41, «Zod's Will» finale — Robert Venditti, Rafa Sandoval y Jordi Tarragona; DC, 28 de marzo de 2018.**
+> **«It's Hal versus Zod in a one-on-one brawl for the fate of the Corps. How can the greatest Green Lantern of all stand against the might of the ruthless general from Krypton?»**
+> — la ficha del cómic, en [dc.com](https://www.dc.com/comics/hal-jordan-and-the-green-lantern-corps-2016/hal-jordan-and-the-green-lantern-corps-41)
+
+**Y el clip con el que la autoridad la vio:** **«Hal Jordan HUMILIATES General Zod»**, canal **`Kode Donal`**, [`youtube.com/watch?v=c2FtjT2wDH4`](https://www.youtube.com/watch?v=c2FtjT2wDH4).
+
+**Y lo que la ficha confirma es el corte:** **la pelea es «for the fate of the Corps», y el humano se planta contra «the might of the ruthless general from Krypton».** **El poder de `Zod` está dicho en su propia ficha, y `Hal` pelea igual.**
 
 ## Y el segundo, que dice lo mismo
 
-**`JoJo's Bizarre Adventure`, parte 2, la pelea del coliseo.**
+**`JoJo's Bizarre Adventure`, parte 2 (`Battle Tendency`), la pelea del coliseo.**
 
-**`[SIN VERIFICAR - FALTA LA ESCENA]`**
+**Y está verificada:**
+
+> **`Battle Tendency` es la segunda parte, serializada en `Weekly Shōnen Jump` de octubre de 1987 a marzo de 1989; capítulos 45 a 113; anime desde el episodio 10, por David Production.**
+
+> **Los `Pillar Men` despiertan bajo el `Colosseum` de Roma; `Wamuu` le pone a `Joseph` el anillo de la muerte, y el anime lo cubre en el episodio 14, «Ultimate Warriors from Ancient Times».**
+> — la ficha, en [jojowiki.com](https://jojowiki.com/Battle_Tendency)
+
+**Y la pelea que la autoridad señala es la de después:** **la carrera con cuadriga en el `Skeleton Heel Stone`.** **`Wamuu` se saca los ojos para tener ventaja, y `Joseph` gana igual — y después lo honra, y bebe el antídoto ante su cabeza.**
+
+**Y el corte es el mismo que el de `Zod`:** **el que tiene la ventaja física la pierde contra el que aguanta.**
 
 **Y las dos comparten el corte:** **el que tiene más poder pierde cuando su idea no aguanta; y el que aguanta, gana aunque no tenga con qué.**
 
