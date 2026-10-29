@@ -51,7 +51,7 @@
 | **1** | **copyright** | **[`./Sincronización de almas/ejemplos/ficcion/`](./Sincronización%20de%20almas/ejemplos/ficcion/): 33 fichas.** **Cada una cita una obra, una escena, y si se verificó.** **Ninguna reproduce texto, imagen ni clip** |
 | **2** | **marca** | **[`./contexto.md`](./contexto.md): la tabla de nombres.** **Ningún nombre de obra se usa como nombre propio del sistema; los que se usaron, se reemplazaron, y el reemplazo está anotado** |
 | **3** | **difamación** | **las mismas fichas, y [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md).** **Lo que no se verificó dice `[SIN VERIFICAR]`** |
-| **4** | **datos de terceros** | **[`.memoria continua/historico/`](.memoria%20continua/historico/): el rastro crudo, y [`.memoria continua/notas/tranceptos.md`](.memoria%20continua/notas/tranceptos.md): cómo se depuraría** |
+| **4** | **datos de terceros** | **el rastro crudo no está en el repositorio: vive con `TESTIGO`, fuera, y se escaneó: 2 049 registros, cero correos y cero teléfonos.** **Y lo que se publica es sólo lo que el repositorio entrega** |
 | **5** | **atribución** | **[`./FUENTES.md`](./FUENTES.md): todo lo que sea gente real, nombrado.** **Y [`./ATTRIBUTION.md`](./ATTRIBUTION.md): lo que licencia y lo que no** |
 | **6** | **el historial de git** | **562 versiones, y el rastro crudo de 279 entradas.** **Lo que se vea ahí, se ve igual que en el árbol: nada se borró** |
 
@@ -75,7 +75,7 @@
 
 **Y esto se escaneó hoy, no se supone.**
 
-**El rastro crudo de `.memoria continua/historico/` —2 049 registros entre los ocho archivos— se buscó por correos y por números, y el resultado es este:**
+**El rastro crudo —2 049 registros entre los ocho archivos, y no está en el repositorio— se buscó por correos y por números, y el resultado es este:**
 
 | Lo que se buscó | Lo que hay |
 |---|---|
@@ -105,7 +105,7 @@
 ## 6. Lo que NO está resuelto, y es lo que se le pide dictaminar
 
 **1. Si citar una escena y decir qué provocó es suficiente, o hay que quitar el nombre de la obra.**
-**2. Si el rastro crudo de `.memoria continua/historico/` se puede publicar tal cual, o hay que depurarlo antes — y si basta con un aviso, o hay que quitarlo del repo.**
+**2. Y si conviene publicar alguna parte de ese histórico, o se queda fuera del repositorio, como hoy.**
 **3. Si el depósito en Zenodo cambia algo, o si conviene una versión sin ese histórico.**
 **4. Si el historial de git, con 562 versiones, tiene algo que se pueda reclamar, y si borrarlo es peor que dejarlo.**
 **5. Y si hay algo de la lista de arriba que el autor no vio.**
