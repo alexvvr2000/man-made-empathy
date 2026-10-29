@@ -37,7 +37,7 @@
 > **Porque la pelea nunca fue de poder: era ver cuánto aguantaban los ideales de los dos.**
 > **Incluso si tenían que matarse los dos en el proceso.**
 
-**`[SIN VERIFICAR - FALTA LA ESCENA]`: se dice el número y el arco cuando se verifique, y se pone en [`./ejemplos/`](./ejemplos/).**
+**`[SIN VERIFICAR - FALTA LA ESCENA]`: se dice el número y el arco cuando se verifique, y se pone en [`./ejemplos/`](../ejemplos/).**
 
 ## Y el segundo, que dice lo mismo
 
