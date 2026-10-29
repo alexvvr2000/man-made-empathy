@@ -57,8 +57,8 @@
 | Se va a… | Se carga… | Sin eso |
 |---|---|---|
 | **hacer algo que otro sostiene** | **`guantelete.prs`** | **se toca sin testigo** |
-| **recordar qué pasó** | **`memoria continua/banco de memoria.prs`** | **se repite el error** |
-| **sostener una posición** | **`memoria continua/banco de friccion.prs`** | **se obedece sin saber de dónde vino** |
+| **recordar qué pasó** | **`alma de niño/banco de memoria.prs`** | **se repite el error** |
+| **sostener una posición** | **`alma de niño/banco de friccion.prs`** | **se obedece sin saber de dónde vino** |
 | **decidir entre dos cosas que yo mismo sostengo** | **`debatir.prs`** | **se elige la que defiende mejor, y no la que aguanta** |
 | **cerrar una posición, y abrirla después** | **`llaves y candados.prs`** | **se cierra por costumbre, y se abre por permiso** |
 | **responder por un acto** | **`firmar.prs`** | **el error no tiene a quién reclamarle** |

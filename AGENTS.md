@@ -66,8 +66,8 @@
 |---|---|---|
 | **hacer un ente** | `./Sincronización de almas/entes/README.md`, y se copia `Ente/` | **no se inventa la forma** |
 | **tocar algo que otro sostiene** | [`./Sincronización de almas/entes/Ente/guantelete.prs`](./Sincronización%20de%20almas/entes/Ente/guantelete.prs) | **no se toca** |
-| **recordar qué pasó** | [`./Sincronización de almas/entes/Ente/memoria continua/banco de memoria.prs`](./Sincronización%20de%20almas/entes/Ente/memoria%20continua/banco%20de%20memoria.prs) | **se repite el mismo error** |
-| **sostener una posición** | [`./Sincronización de almas/entes/Ente/memoria continua/banco de friccion.prs`](./Sincronización%20de%20almas/entes/Ente/memoria%20continua/banco%20de%20friccion.prs) | **se obedece una conclusión sin saber de dónde vino** |
+| **recordar qué pasó** | [`./Sincronización de almas/entes/Ente/alma de niño/banco de memoria.prs`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20ni%C3%B1o/banco%20de%20memoria.prs) | **se repite el mismo error** |
+| **sostener una posición** | [`./Sincronización de almas/entes/Ente/alma de niño/banco de friccion.prs`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20ni%C3%B1o/banco%20de%20friccion.prs) | **se obedece una conclusión sin saber de dónde vino** |
 | **correr el ciclo** | [`./Sincronización de almas/entes/Ente/alma de niño/ciclo.prs`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20niño/ciclo.prs) | **se actúa sin leer, y sin decir que no se sabe** |
 | **juntar varios** | [`./Sincronización de almas/entes/Colmena/`](./Sincronización%20de%20almas/entes/Colmena/) | **son varios absolutos con el mismo nombre** |
 | **escribir un proceso** | [`./direcciones/PROCESOS.md`](./direcciones/PROCESOS.md) | **se escribe un deseo con pasos** |
