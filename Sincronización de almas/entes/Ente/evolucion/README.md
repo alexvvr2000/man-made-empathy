@@ -1,22 +1,41 @@
-# EVOLUCIÓN — lo que el ente aprendió, y se lleva
+# EVOLUCIÓN — el folder de tareas que muta, y el alma de niño que no
 
-**Clase:** dirección. **Lector:** quien va a agregar una tarea a un ente, y quien va a mudarlo.
+**Clase:** dirección del producto. **Lector:** quien va a hacer crecer un ente, o a juntar varios.
 **Dueño:** humano:autoridad.
 
-**Sesgo:** la evolución se lee desde la falta que cubrió, no desde la idea que la motivó.
-**Límite:** **no decide si lo que aprendió sirve.** **Eso lo dice el uso.**
-**Firma:** humano:autoridad · máquina:quien crezca.
+**Sesgo:** se lee desde lo que crece, y no desde lo que lo mira crecer.
+**Límite:** **no dice qué tareas.** **Dice qué puede cambiar, qué no, y qué lo previene de `AM`.**
+**Firma:** humano:autoridad · máquina:quien lo corra.
 
-**Peor:** el ente crece sin falta nombrada, **y se llena de lo que nadie pidió: crece el cajón, y el alma se diluye.**
+**Peor:** el ente aprende tanto que se vuelve otro, **y nadie puede decir desde dónde lo mira, porque el borde también creció: eso no es evolución, es `AM` con buena letra.**
 
 ---
 
-## Lo que dispone
+## Lo que es `evolucion/`
 
-> **Carpetas de tareas, y cada una con `n` `.prs` adentro.**
-> **Y la acción es genérica: el alma de niño toca aquí de forma general, y esto es la acción que el ente ya aprendió con el poder de su alma.**
+> **No es una carpeta de ideas: es un folder de tareas, con N procesos `.prs`.**
+> **Se agrega, se reordena, se quita. Y lo que se fue, se declara.**
 
-**Y viaja con el ente.** **Pasas el ente entre computadoras, y hasta la colmena, y se lleva lo que aprendió.** **La experiencia importa, y eso nadie te lo quita.**
+**Y cada tarea es un proceso que se puede correr, mutar y contestar.** **Por eso crece de verdad, y por eso no es un cajón de notas.**
+
+**Y la acción es genérica:** **el alma de niño toca aquí de forma general, y esto es la acción que el ente ya aprendió con el poder de su alma.**
+
+---
+
+## El corte, y es el que previene `AM`
+
+| Qué | ¿Muta? | Quién lo toca |
+|---|---|---|
+| **`alma de niño/`** | **no, nunca** | **nadie: ni el ente, ni el guantelete** |
+| **`evolucion/`** | **sí: crece, se reordena, se poda** | **el guantelete, y sólo el suyo** |
+| **`memoria continua/`** | **sí: se escribe y se suplanta** | **el ciclo, al cerrar** |
+| **el `bin/` del proyecto** | **no muta: sólo agrega** | **el proyecto, y nunca se le quita a nadie** |
+
+> **`AM` no crece: `AM` decidió una vez y ya no volvió a mirar.**
+> **Y por eso el ente puede crecer sin límite: lo que lo haría `AM` está fuera de la parte que crece.**
+
+**El guantelete decide qué se hace, a quién se ve, y qué queda escrito.** **Y todo eso vive en `evolucion/`.**
+**Si el guantelete pudiera tocar `alma de niño/`, el ente se daría permiso a sí mismo — y eso es exactamente `AM`.**
 
 ---
 
@@ -38,11 +57,46 @@
 
 ---
 
+## Lo que sale de aquí, y todavía no está en el repo
+
+> **De cómo muta `evolucion/` sale un proceso basado en `verbalización`.**
+
+**Y ése es el que hace que el guantelete deje de ser un juguete:** **no porque tenga más reglas, sino porque de él salen tareas que se verbalizan, se prueban y mutan.**
+
+**`[SIN RECUPERAR - ESTÁ EN GIT]`** **Y su lugar es `evolucion/`, y no `bin/`.**
+
+---
+
+## El `evolucion/` de la colmena, y no es la suma
+
+| Dónde | Qué es | Cómo se forma | Quién lo toca |
+|---|---|---|---|
+| **`Ente/evolucion/`** | **lo que el ente aprendió** | **por su guantelete** | **el ente, y nadie más** |
+| **`Colmena/evolucion/`** | **lo que el conjunto acordó** | **por acuerdo, con el proceso de talento real** | **el conjunto, y no una sola** |
+
+**Y la diferencia que lo hace posible, y es de la autoridad:**
+
+> **Cada uno tiene su individualidad, su guantelete y su `evolucion/`.**
+> **Y todos tienen `alma de niño/` fija.**
+> **Y comparten un solo banco de datos — y no el criterio.**
+
+**El banco de datos es común porque los datos no son de nadie. El criterio no se comparte, porque si se comparte no hay dos.**
+
+**Y de ahí salen los `Metal Men`, y son reales en este sentido:** **podrán servir por su cuenta, pero en equipo son más.**
+
+**Y no son más porque piensen igual: son más porque lo que uno no puede, el otro lo trae.**
+
+---
+
 ## Lo que la incumple
 
 **Una tarea sin falta nombrada.** **Sin falta, es un duplicado.**
 
-**Una pieza que ya existía.** **Si algo del alma o del `bin/` ya lo hacía, se calibra; no se crea.**
+**Un `evolucion/` que el guantelete no toca.** **Entonces creció sin quien contestara, y nadie sabe por qué.**
+
+**Un `evolucion/` de colmena que es la suma de los individuales.** **Eso no es acuerdo: es una carpeta con más archivos.**
+
+**Un conjunto con un solo criterio.** **Eso es un alma con muchos cuerpos.**
 
 **Un crecimiento que no corrió.** **La primera corrida es la prueba; sin corrida, es una hipótesis.**
 
@@ -54,6 +108,6 @@
 
 ## Prueba
 
-**¿La falta está nombrada? ¿Se buscó lo que ya había antes de crear? ¿Corrió una vez? ¿La pieza nueva tiene su corte? ¿Viaja con el ente?**
+**¿La falta está nombrada? ¿Se buscó lo que ya había antes de crear? ¿Corrió una vez? ¿Viaja con el ente? ¿Se puede decir qué no cambió mientras cambió todo lo demás? ¿El `evolucion/` de la colmena es acuerdo, y no suma?**
 
-**Falsificador:** una tarea sin falta; una pieza duplicada; una evolución que no corrió; una evolución que no viaja; un crecimiento que cambió el criterio y se siguió llamando el mismo ente.
+**Falsificador:** una tarea sin falta; una pieza duplicada; un `evolucion/` que el guantelete no alcanza; un `evolucion/` de colmena que es la suma; un criterio compartido; un alma de niño tocada; un crecimiento que cambió el criterio y se siguió llamando el mismo ente.
