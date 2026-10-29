@@ -1,4 +1,4 @@
-# REVERSA — el ciclo combinado: cada paso atrás solidifica el repo y el legajo
+# REVERSA — el ciclo combinado: cada día que se revisa solidifica el repo y el legajo
 
 **Hecho:** 2026-10-29. **Clase:** dirección, y es el ciclo de trabajo. **Estado:** vigente.
 **Lector:** quien vaya a escarbar el historial, y quien tenga que defender el repositorio después.
@@ -27,43 +27,102 @@
 
 ---
 
-## El ciclo, y son ocho pasos por era
+## El corte: por fecha, y no por nombre
+
+> **No hay eras con nombre. Hay días.**
+> **El git ya tiene un día por cada día, y no hay que inventar uno.**
+
+**Y son 28 días con commits, del `2026-10-01` al `2026-10-29`, y 594 commits.**
+
+| El día | Commits | Y qué se espera |
+|---|---|---|
+| **`2026-10-01`** | **1** | **el primer commit: el corte que es la meta** |
+| **`2026-10-02`** | **18** | **—** |
+| **`2026-10-03`** | **6** | **—** |
+| **`2026-10-04`** | **8** | **—** |
+| **`2026-10-05`** | **7** | **—** |
+| **`2026-10-06`** | **24** | **—** |
+| **`2026-10-07`** | **17** | **—** |
+| **`2026-10-08`** | **10** | **—** |
+| **`2026-10-09`** | **8** | **—** |
+| **`2026-10-10`** | **3** | **—** |
+| **`2026-10-11`** | **9** | **—** |
+| **`2026-10-12`** | **19** | **—** |
+| **`2026-10-13`** | **8** | **—** |
+| **`2026-10-15`** | **6** | **—** |
+| **`2026-10-16`** | **2** | **—** |
+| **`2026-10-17`** | **8** | **—** |
+| **`2026-10-18`** | **90** | **el día más caro: dos tercios del trabajo de una semana en una tarde** |
+| **`2026-10-19`** | **80** | **el segundo más caro, y el que más se dijo después** |
+| **`2026-10-20`** | **19** | **—** |
+| **`2026-10-21`** | **15** | **—** |
+| **`2026-10-22`** | **19** | **—** |
+| **`2026-10-23`** | **18** | **—** |
+| **`2026-10-24`** | **24** | **el primer día del chat grande** |
+| **`2026-10-25`** | **18** | **—** |
+| **`2026-10-26`** | **45** | **el día que nació la tesis** |
+| **`2026-10-27`** | **41** | **—** |
+| **`2026-10-28`** | **31** | **—** |
+| **`2026-10-29`** | **40** | **hoy: la biblioteca publicada, y la voz** |
+
+**Y el orden es de atrás hacia adelante:** **se empieza por hoy, y se termina en el `2026-10-01`.** **Porque lo viejo está sin filtro, y lo nuevo ya se pensó hoy.**
+
+---
+
+## El ciclo, y son ocho pasos por día
 
 ```plaintext
-1. ABRIR ERA      una rama por era, y se anota en el registro
-2. LEER EL GIT    commit por commit, con su hash, y qué cambió
-3. CLASIFICAR     se sostiene · se cayó · no se puede juzgar
-4. SOLIDIFICAR    lo que se sostiene entra al árbol de hoy
-5. ASEGURAR       el inventario se actualiza, y cuadra
-6. DECLARAR       lo que se cayó, con su porqué; y lo que no se puede juzgar, con qué falta
-7. COMMIT         uno por era, con el hash de origen y qué se tomó de él
-8. CERRAR         el registro de la era, y el pase del día
+1. ABRIR EL DÍA    el corte por fecha, y se anota en el registro
+2. LEER LOS COMMITS todos los del día, con su hash, y qué cambió
+3. CLASIFICAR      se sostiene · se cayó · no se puede juzgar
+4. SOLIDIFICAR     lo que se sostiene entra al árbol de hoy
+5. ASEGURAR        el inventario se actualiza, y cuadra
+6. DECLARAR        lo que se cayó, con su porqué; y lo que no se puede juzgar, con qué falta
+7. COMMIT DEL DÍA  uno por día, con el rango de hashes
+8. CERRAR EL DÍA   el registro del día, y el pase
 ```
 
 **Y la regla que lo vuelve medible:**
 
-> **No se avanza de era hasta que el inventario cuadre, y las rutas den cero.**
+> **No se avanza de día hasta que el inventario cuadre, y las rutas den cero.**
 
 **Porque un paso atrás que deja un número roto no solidificó: oxidó.**
 
 ---
 
-## Lo que cada era deja escrito, y no se puede saltar
+## Lo que cada día deja escrito, y no se puede saltar
 
-**Y es un archivo por era, en `registro/`, y no un resumen en la memoria:**
+**Y es un archivo por día, en `registro/`, y no un resumen en la memoria:**
 
 ```plaintext
-Era:            [el nombre, y su rango de commits]
+Día:            [la fecha, y su rango de commits]
 Commits:        [cuántos, del hash A al hash B]
 Se sostiene:    [qué entró al árbol de hoy, con su hash de origen]
 Se cayó:        [qué no, y por qué]
 No se juzga:    [qué falta para poder juzgarlo]
+Mensajes:       [los T# del chat de ese día, si los hay]
 Inventario:     [los números, antes y después del paso]
 Rutas:          [cero rotas, o cuántas quedan y por qué]
 Legajo:         [qué documento creció, y cómo]
 ```
 
-**Y ese archivo es la prueba de que el paso se dio.** **Sin él, la era no se cerró.**
+**Y ese archivo es la prueba de que el paso se dio.** **Sin él, el día no se cerró.**
+
+---
+
+## Y la tela que `EDIPO` saca de aquí
+
+**Los cortes por fecha no son 28 sobres vacíos: son la puerta.**
+
+| Lo que hay dentro de cada día | Cuánto |
+|---|---|
+| **commits, con su mensaje** | **594 en total** |
+| **mensajes del autor en el chat, con su `T#`** | **926 en total, del 24 al 27** |
+| **piezas que aparecieron: fichas, direcciones, ideas** | **lo que se escribió ese día** |
+
+**Y lo que `EDIPO` tiene que traer a la biblioteca, día por día:** **las tesis y las ideas que aparecieron, y a dónde fueron, o por qué no entraron.**
+
+**Eso es lo que convierte la reversa en trabajo de biblioteca, y no en una caminata por el historial.**
 
 ---
 
@@ -75,8 +134,8 @@ Legajo:         [qué documento creció, y cómo]
 
 | Lo que el abogado necesita | Cómo lo produce este ciclo |
 |---|---|
-| **saber qué hay, y que se pueda contar** | **el inventario se actualiza en cada era, y cuadra** |
-| **saber cómo cambió, y cuándo** | **el registro de eras, con hashes** |
+| **saber qué hay, y que se pueda contar** | **el inventario se actualiza cada día, y cuadra** |
+| **saber cómo cambió, y cuándo** | **el registro por día, con hashes** |
 | **saber que lo que se quitó se quitó a propósito** | **el campo `Se cayó`, con su porqué** |
 
 **Y el cuarto, que no se produce escribiendo:** **que lo que se declara sea verdad.** **Eso se prueba abriendo el repo, y el ciclo no lo puede sustituir.**
@@ -89,20 +148,9 @@ Legajo:         [qué documento creció, y cómo]
 
 **No borra la historia.** **Si algo se quitó, se dice dónde estaba y por qué se quitó.** **El hash del commit original se guarda.**
 
-**No promete que todo se pueda rescatar.** **Algunas eras no se van a poder juzgar, y se declara así en vez de inventarles una lectura.**
+**No promete que todo se pueda rescatar.** **Algunos días no se van a poder juzgar, y se declara así en vez de inventarles una lectura.**
 
 **Y no sustituye al abogado.** **Le da el expediente ordenado, y lo llama a tiempo.**
-
----
-
-## El orden de las eras, y por dónde se empieza
-
-```plaintext
-hoy  →  las eras nombradas  →  los commits sueltos  →  el commit 1
-       faro · mantis · v182838 · antes-del-corte · ciclo-0
-```
-
-**Y de atrás hacia adelante, y no al revés:** **lo viejo está sin filtro.** **Lo nuevo ya se pensó hoy, y empezar por ahí es repetir lo que ya se sabe.**
 
 **Rige [`./LO LEGAL.md`](./LO%20LEGAL.md), que tiene el ciclo de antes del commit 1, y [`./DEMANDAS.md`](./DEMANDAS.md), que tiene la regla de arriba.**
 
@@ -110,6 +158,6 @@ hoy  →  las eras nombradas  →  los commits sueltos  →  el commit 1
 
 ## Prueba
 
-**¿Cada era tiene su registro? ¿El inventario cuadra después de cada paso? ¿Las rutas dan cero? ¿Lo que se cayó tiene su porqué? ¿El commit de la era lleva el hash de origen? ¿Se avanza sólo cuando todo lo anterior se cumplió?**
+**¿Cada día tiene su registro? ¿El inventario cuadra después de cada paso? ¿Las rutas dan cero? ¿Lo que se cayó tiene su porqué? ¿El commit del día lleva su rango de hashes? ¿Se avanza sólo cuando todo lo anterior se cumplió?**
 
-**Falsificador:** una era sin registro; un paso que rescató y no documentó; un inventario que no cuadra y se siguió; una era saltada; un commit de era sin hash de origen; un paso atrás que oxidó y se declaró sólido.
+**Falsificador:** un día sin registro; un paso que rescató y no documentó; un inventario que no cuadra y se siguió; un día saltado; un commit de día sin rango de hashes; un paso atrás que oxidó y se declaró sólido.

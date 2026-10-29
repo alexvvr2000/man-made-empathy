@@ -68,7 +68,7 @@
 | **[`./PROCESOS.md`](./PROCESOS.md)` | **un proceso no se escribe: se refuta primero** |
 | **[`./DEMANDAS.md`](./DEMANDAS.md)` | **prevenir demandas, de todo tipo: se busca, y no se resuelve de memoria** |
 | **[`./LO LEGAL.md`](./LO%20LEGAL.md)` | **el ciclo: antes de publicar, y si te llega una reclamación** |
-| **[`./REVERSA.md`](./REVERSA.md)** | **el ciclo combinado: cada paso atrás solidifica el repo y el legajo** |
+| **[`./REVERSA.md`](./REVERSA.md)** | **el ciclo por día: cada día que se revisa solidifica el repo y el legajo** |
 | **[`./MUTAR.md`](./MUTAR.md)` | **el alma de niño es fija, y todo lo demás evoluciona** |
 | **[`./CRITERIO.md`](./CRITERIO.md)` | **lo que separa esto de la industria** |
 | **[`./VERBALIZAR.md`](./VERBALIZAR.md)` | **darle nombre a lo que es, y que el nombre diga el acto** |
