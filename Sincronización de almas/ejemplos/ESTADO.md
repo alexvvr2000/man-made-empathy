@@ -55,6 +55,12 @@
 | **`tachikoma.md`** | **verificado** | **Wikipedia** | **—** |
 | **`undertale.md`** | **verificado** | **Wikipedia** | **—** |
 | **`watchmen.md`** | **verificado** | **Wikipedia** | **—** |
+| **`lanterns.md`** | **verificado** | **Wikiquote (Lanterns, revision del 2026-10-15)** | **la frase literal de Sinestro que cita el autor sigue sin aparecer: la serie dice la misma idea con otras palabras** |
+| **`arthur-morgan.md`** | **verificado** | **Wikipedia** | **—** |
+| **`martian-manhunter.md`** | **verificado** | **Wikipedia** | **—** |
+| **`marceline.md`** | **parcial** | **Wikipedia** | **la frase del cuento: `[SIN VERIFICAR]`** |
+| **`earth-x-y-houseki-no-kuni.md`** | **verificado** | **Wikipedia** | **—** |
+| **`videl-kratos-iroh.md`** | **parcial** | **Wikipedia** | **la escena exacta de Kratos: lectura del autor** |
 
 ---
 

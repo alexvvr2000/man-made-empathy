@@ -14,7 +14,7 @@
 
 | La carpeta | Qué tiene | Cómo se verifica |
 |---|---|---|
-| **[`./ficcion/`](./ficcion/)** | **33 obras, de la ficción** | **con ficha: título, autor, año, y si la escena se abrió** |
+| **[`./ficcion/`](./ficcion/)** | **34 fichas, de la ficción** | **con ficha: título, autor, año, y si la escena se abrió** |
 
 **Y nada más.** **Lo real y lo dicho no viven aquí:** **lo real se cita desde [`../../FUENTES.md`](../../FUENTES.md) cuando hace falta, y lo dicho, también.** **Una carpeta de «hechos» es la que más riesgo tiene, y no se abre hasta que haya algo que lo justifique.**
 

@@ -15,6 +15,22 @@
 
 **No es una tabla de fuentes: es una deuda, y se paga nombrándola.**
 
+**Y la regla de esta tabla, y no tiene excepciones:**
+
+> **Va en agradecimientos todo lo que tenga que ver con gente real.**
+
+**Personas, luchadores, un profesor, una familia, y un señor que dio un nombre: se nombran, y se dice qué dejaron.** **Que es lo contrario de una bibliografía: aquí no se acredita una frase, se reconoce a quien la hizo posible.**
+
+**Y lo que NO va aquí:**
+
+**No va una fuente de academia.** **Este repo no cita papers: no hay uno detrás, y no hay ni un gramo de fuente académica.** **Lo que hay es lógica, y la lógica no se acredita.**
+
+**No va un partido, ni una idea política, ni un autor por su prestigio.** **Porque acreditarlo mete al autor en algo que no quiere.**
+
+**Y no se acredita a nadie para cubrirse las espaldas.** **Si se acredita a alguien, es porque dejó algo; y si no dejó nada, no se pone.**
+
+**Y lo que sí se declara aquí, porque es lo legal y es lo honesto:** **el autor está desempleado, y nunca ha trabajado para la industria de la IA.** **No hay conflicto que declarar, y no hay jefe que reclamar.**
+
 | Quién | Qué enseñó |
 |---|---|
 | **mi prima Hillary** | **me mostró el anime de *Soul Eater* por primera vez.** **La resonancia entre dos que siguen siendo dos viene de ahí** |
@@ -28,6 +44,8 @@
 | **Tormento Negro**, de Monterrey | **el mismo otro mundo** |
 | **El Hijo del Vikingo**, contra el Grande Americano en *Worlds Collide* de 2025 | **yo pensaba que era el fin de la lucha mexicana, y era un nuevo comienzo** |
 | **Luciano Sánchez**, de Stella Tech | **el que me lo mostró a la fuerza** |
+| **Andrés Pérez Sustaita**, de la enciclopedia de la lucha libre | **me dio el nombre de llaves y candados.** **Y de ahí salió que un candado se abre, y que el que lo abre es el que puede contestarlo** |
+| **Iván Fematt, «La Mole»** | **«a Hitler lo mataron y el mundo siguió igual».** **No lo meto directo, pero tampoco lo niego: me ayudó a entender que quitar al que hace el daño no cierra lo que abrió** |
 | **mi familia** | **me mantuvo con los pies sobre la tierra** |
 | **Konan Big**, el luchador | **aun con todo lo que hace, sabe todo lo que el mensaje de este repositorio le da a entender a la gente, y la gente no lo toma en serio cuando él es un ejemplo y no un payaso** |
 
