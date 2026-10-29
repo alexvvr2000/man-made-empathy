@@ -4,6 +4,7 @@
 Uso:
     python bin/conciencia.py lista                 las sesiones, y cuánto pesan
     python bin/conciencia.py dump [--destino RUTA] escribe todo lo que salió, y el índice
+                                                    (sin --destino, va a ~/conciencia-dump)
     python bin/conciencia.py verificar RUTA        cuenta lo que salió, y si sirve
 
 Qué escribe, y qué NO:
@@ -112,7 +113,9 @@ def cmd_lista(args):
 
 
 def cmd_dump(args):
-    destino = args.destino or os.path.join(os.path.expanduser("~"), "Documents", "MEGA", "man-made-empathy-conciencia")
+    # Y el destino es de quien lo corre: sin argumento, va a una carpeta en su casa.
+    # El repo no guarda rutas de nadie, y lo que se escribe tampoco entra aquí.
+    destino = args.destino or os.path.join(os.path.expanduser("~"), "conciencia-dump")
     os.makedirs(destino, exist_ok=True)
     total = 0
     sesiones = []

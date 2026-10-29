@@ -45,7 +45,7 @@
 
 **Las notas de `.memoria continua/notas/` no están aquí.** **Son fuente viva, no histórico.**
 
-**El chat gigante no está aquí.** **Se lee de `C:\Users\Alex\.dsh\sessions`, y su volcado es el ciclo 1.**
+**El chat gigante no está aquí.** **Se lee de la carpeta de sesiones de la herramienta que lo generó, en la máquina del que lo generó.** **Y su volcado es el ciclo 1, con el nombre de la sesión y no con la ruta.**
 
 **Y la base viva, `ciclo.db`, no está en el repo:** **se rehace desde `bin/esquema.sql`.**
 

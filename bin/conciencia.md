@@ -1,7 +1,7 @@
 # CONCIENCIA — el dump de lo que se conversó, y por qué no es una conciencia
 
-**Hecho:** 2026-10-29. **Clase:** taller. **Estado:** el dump corre, y está en MEGA.
-**Dueño:** humano:autoridad.
+**Hecho:** 2026-10-29. **Clase:** taller. **Estado:** el dump corre. **Y lo que produce no vive en el repo.**
+**Dueño:** quien lo corra. **Y lo que produce es suyo, y no del repositorio.**
 
 **Sesgo:** se lee desde el que va a cambiar de máquina, y no quiere perder lo que se pensó.
 **Límite:** **no es una conciencia.** **Es el rastro de lo que se dijo, y nada más.**
@@ -20,7 +20,7 @@
 | **y los dos bancos del repo** | **memoria y fricción, en `jsonl`** |
 | **el dump, completo** | **menos de 600 KB de texto** |
 
-**Y dónde vive:** **`C:\Users\Alex\Documents\MEGA\man-made-empathy-conciencia\`.**
+**Y dónde vive: donde se le diga, y por defecto en `~/Documents/MEGA/…`, que es una carpeta de la máquina y no del repo.** **Lo que escribe es relativo a donde se corra, y no lleva ninguna ruta de nadie.**
 
 ---
 

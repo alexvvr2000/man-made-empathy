@@ -56,6 +56,8 @@
 
 **Decir que una obra hace algo sin haberla abierto.** **Eso no es copyright: es más grave.**
 
+**Escribir la ruta de tu computadora en un archivo del repo.** **Una ruta de la máquina no le sirve a nadie, y dice dónde vives.** **D:\... y C:\Users\... se quedan en la máquina, y el repo dice «una carpeta que elija cada quien».** **Y lo mismo con el nombre de tu máquina, tu casa, o tu red.**
+
 **Meter el chat sin depurar.** **Ahí no hay pleito con una editorial: hay pleito con una persona.**
 
 **Y no buscar cuando hay duda.** **No saber no es excusa; no buscar sí lo es.**
