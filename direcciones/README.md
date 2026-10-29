@@ -96,6 +96,7 @@
 |---|---|
 | **[`./CICLOS/LO LEGAL.md`](./CICLOS/LO%20LEGAL.md)** | **tres ciclos: antes del commit 1, antes de publicar, y si te llega una reclamación** |
 | **[`./CICLOS/REVERSA.md`](./CICLOS/REVERSA.md)** | **el ciclo por día: cada día que se revisa solidifica el proyecto y el legajo** |
+| **[`./CICLOS/GIT.md`](./CICLOS/GIT.md)** | **el turno de git: seis pasos, y lo legal es la puerta de cada uno** |
 
 ---
 

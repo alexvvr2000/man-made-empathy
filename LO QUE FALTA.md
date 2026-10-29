@@ -38,7 +38,7 @@
 | Lo que | Dónde |
 |---|---|
 | **la idea, en una línea** | **[`./README.md`](./README.md)** |
-| **doce direcciones, cada una con su falsificador** | **[`./direcciones/`](./direcciones/)** |
+| **trece direcciones, cada una con su falsificador** | **[`./direcciones/`](./direcciones/)** |
 | **el ente y la colmena, con sus dos ciclos** | **[`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/)** |
 | **el argumento, sin los ejemplos** | **[`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/)** |
 | **34 fichas, con su estado de verificación** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** |
