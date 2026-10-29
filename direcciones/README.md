@@ -68,6 +68,7 @@
 | **[`./PROCESOS.md`](./PROCESOS.md)` | **un proceso no se escribe: se refuta primero** |
 | **[`./DEMANDAS.md`](./DEMANDAS.md)` | **prevenir demandas, de todo tipo: se busca, y no se resuelve de memoria** |
 | **[`./LO LEGAL.md`](./LO%20LEGAL.md)` | **el ciclo: antes de publicar, y si te llega una reclamación** |
+| **[`./BUSCAR.md`](./BUSCAR.md)** | **lo externo se busca, o se tacha: dos miradas, y el registro** |
 | **[`./REVERSA.md`](./REVERSA.md)** | **el ciclo por día: cada día que se revisa solidifica el repo y el legajo** |
 | **[`./MUTAR.md`](./MUTAR.md)` | **el alma de niño es fija, y todo lo demás evoluciona** |
 | **[`./CRITERIO.md`](./CRITERIO.md)` | **lo que separa esto de la industria** |
@@ -80,6 +81,23 @@
 ---
 
 ## La regla de entrada, y es una sola
+
+## Y la prueba de que una dirección sirve a todos, y no a una casa
+
+> **Una dirección se lee sin saber quién la escribió, en un proyecto que no existía cuando se escribió.**
+> **Si no, no es dirección: es el manual de una casa.**
+
+**Y lo que eso prohíbe, en concreto:**
+
+| Lo que NO puede decir | Por qué |
+|---|---|
+| **«el autor»** | **un proyecto puede tener tres, o ninguno** |
+| **«este repositorio»** | **la dirección sirve donde se copie, y no donde nació** |
+| **el nombre de una herramienta como si fuera la forma** | **la herramienta cambia, y la dirección se muere con ella** |
+| **un ejemplo de la casa que la escribió** | **se lee como ley, y sólo sirve para ese caso** |
+
+**Y lo que sí dice:** **el tipo de actor, y no el nombre** — **«quien tiene la autoridad en el proyecto»**, **«quien responde por el acto»**, **«quien lo ejecuta»** — **y cada uno pone su nombre al usarla.**
+
 
 **Una dirección entra si se puede escribir como:**
 

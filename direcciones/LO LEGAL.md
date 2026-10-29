@@ -2,11 +2,11 @@
 
 **Hecho:** 2026-10-29. **Clase:** proceso. **Estado:** vigente.
 **Lector:** quien vaya a publicar algo, y quien abra un correo de un abogado.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que puede reclamar, y desde el que va a quedar expuesto.
 **Límite:** **no sustituye a un abogado.** **Ordena lo que se puede hacer sin uno, y marca dónde hace falta.**
-**Firma:** humano:autoridad · máquina:quien lo corra.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
 
@@ -47,8 +47,8 @@
 | **copyright** | **medir el texto literal de cada ficha** | **una escena entera reproducida** |
 | **fuente** | **que cada ficha diga su autor, su ano, y que se abrio** | **una ficha sin segunda mirada** |
 | **nombres** | **la tabla de nombres muertos de `../contexto.md`** | **una marca activa usada como nombre propio** |
-| **datos** | **buscar `@`, telefonos, y rutas de maquina en todo el repo** | **un dato que expone a un tercero** |
-| **abogado** | **el inventario firmado** | **lo que el autor no sabe, y no ha declarado** |
+| **datos** | **buscar `@`, telefonos, y rutas de maquina en todo el proyecto** | **un dato que expone a un tercero** |
+| **abogado** | **el inventario firmado** | **lo que quien firma no sabe, y no ha declarado** |
 
 ## Y lo que el abogado recibe, y hoy no tenia
 
@@ -91,7 +91,7 @@
 1. NO CONTESTES EN CALIENTE.   Un correo respondido con miedo es una admisión.
 2. GUARDA TODO.                El correo, la fecha, y qué reclamó. Sin eso, no hay defensa.
 3. MIRA QUÉ RECLAMA.           ¿Dice la obra, la pieza, y dónde está? Si no lo dice, se pide.
-4. BUSCA LA PIEZA.             ¿Está en el repo? ¿Se publicó, y cuándo?
+4. BUSCA LA PIEZA.             ¿Está en el proyecto donde se aplica? ¿Se publicó, y cuándo?
 5. CONTESTA CON LO QUE HAY.    La ficha, su fuente, y qué se hizo. Sin excusas.
 6. Y HAZ LO QUE TOQUE.         Si hay que quitar, se quita, y se dice que se quitó.
 ```

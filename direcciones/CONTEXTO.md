@@ -3,11 +3,11 @@
 **Nombre.** CONTEXTO. **Y la expansión dice el acto:** **declarar de dónde viene lo que se usa, qué provocó, y que la información se usó bien.**
 
 **Clase:** dirección. **Aplica a:** declarar procedencia, sin volverla un trámite.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que va a entender, no desde el que se defiende.
 **Límite:** **no protege legalmente, y no guarda casos.** **Dice qué se declara, y cómo. Lo demás vive en la raíz.**
-**Firma:** humano:autoridad · máquina:quien lo escriba.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se presenta como propio lo que provocó a otro, **y el que leyó la obra no reconoce la suya: reconoce una versión inventada por el que la citó.**
 

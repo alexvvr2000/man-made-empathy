@@ -1,12 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-ver-tesis — lista las tesis historicas de la biblioteca.
+ver-tesis — lista los dias con commits de la biblioteca, y sus tesis.
 
 Corre solo, y no depende de que el repo exista:
-si no encuentra las tesis, lo dice, y no inventa.
+si no encuentra el historial, lo dice, y no inventa.
 
-Uso:  python bin/ver-tesis [--era faro|mantis|todas]
+Uso:  python bin/ver-tesis [--dia 2026-10-18] [--dias N]
 """
 
 import argparse
@@ -14,11 +14,8 @@ import os
 import subprocess
 import sys
 
-# la casa de EDIPO, y desde ahi se mira la biblioteca
 CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BIBLIOTECA = os.path.abspath(os.path.join(CASA, "..", "..", ".."))
-
-ERAS = ["faro", "mantis", "v182838", "antes-del-corte", "ciclo-0"]
 
 
 def hay_repo():
@@ -27,10 +24,8 @@ def hay_repo():
 
 def git(*args):
     try:
-        p = subprocess.run(
-            ["git", "-C", BIBLIOTECA] + list(args),
-            capture_output=True, timeout=60,
-        )
+        p = subprocess.run(["git", "-C", BIBLIOTECA] + list(args),
+                           capture_output=True, timeout=60)
         if p.returncode != 0:
             return None
         return p.stdout.decode("utf-8", "replace").strip()
@@ -38,33 +33,65 @@ def git(*args):
         return None
 
 
-def listar(era):
-    if not hay_repo():
-        print("[SIN BIBLIOTECA - NO HAY .git EN %s]" % BIBLIOTECA)
-        print("  y no lo supongo: sin biblioteca no hay tesis que ver.")
+def dias(limite):
+    """Los dias con commits, del mas reciente al mas viejo."""
+    salida = git("log", "--format=%ad", "--date=format:%Y-%m-%d")
+    if not salida:
+        print("[SIN HISTORIAL - NO HAY COMMITS QUE LEER]")
+        print("  y no lo supongo: sin historial no hay dias que ver.")
         return
+    cuenta = {}
+    for linea in salida.splitlines():
+        if linea.strip():
+            cuenta[linea.strip()] = cuenta.get(linea.strip(), 0) + 1
+    orden = sorted(cuenta.keys(), reverse=True)
+    if limite:
+        orden = orden[:limite]
+    print("%-14s %8s  %s" % ("DIA", "COMMITS", "EL PRIMER MENSAJE"))
+    for d in orden:
+        primero = git("log", "--format=%s", "--date=format:%Y-%m-%d",
+                      "--diff-filter=A", "-1", "--since=%s 00:00" % d,
+                      "--until=%s 23:59" % d)
+        if not primero:
+            primero = git("log", "--format=%s", "-1", "--since=%s 00:00" % d,
+                          "--until=%s 23:59" % d) or ""
+        print("%-14s %8d  %s" % (d, cuenta[d], primero[:60]))
+    print("\n  dias: %d | commits: %d" % (len(cuenta), sum(cuenta.values())))
 
-    etiquetas = [era] if era and era != "todas" else ERAS
-    for nombre in etiquetas:
-        sha = git("rev-parse", "--short", nombre)
-        if not sha:
-            print("[NO EXISTE LA ERA] %s" % nombre)
-            continue
-        fecha = git("log", "-1", "--format=%ad", "--date=short", nombre) or "?"
-        sujeto = git("log", "-1", "--format=%s", nombre) or "?"
-        print("%-16s %s  %s  %s" % (nombre, sha, fecha, sujeto[:70]))
+
+def dia_unico(d):
+    n = git("rev-list", "--count", "--since=%s 00:00" % d, "--until=%s 23:59" % d)
+    if not n:
+        print("[SIN COMMITS EN %s]" % d)
+        return
+    print("%s: %s commits" % (d, n))
+    salida = git("log", "--format=%h %ad %s", "--date=format:%H:%M",
+                 "--since=%s 00:00" % d, "--until=%s 23:59" % d)
+    if salida:
+        for linea in salida.splitlines():
+            print("  " + linea)
 
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--era", default="todas")
+    p.add_argument("--dia", help="un solo dia, con sus commits")
+    p.add_argument("--dias", type=int, default=0, help="cuantos dias listar")
     args = p.parse_args()
 
-    print("EDIPO — tesis historicas de la biblioteca")
+    print("EDIPO — los dias con commits de la biblioteca")
     print("  biblioteca: %s" % BIBLIOTECA)
     print("  %s" % ("hay repositorio" if hay_repo() else "[SIN REPOSITORIO]"))
     print()
-    listar(args.era)
+
+    if not hay_repo():
+        print("[SIN REPOSITORIO - NO HAY HISTORIAL QUE LEER]")
+        return 0
+
+    if args.dia:
+        dia_unico(args.dia)
+        return 0
+
+    dias(args.dias)
     return 0
 
 

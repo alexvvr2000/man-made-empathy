@@ -1,20 +1,20 @@
-# REVERSA — el ciclo combinado: cada día que se revisa solidifica el repo y el legajo
+# REVERSA — el ciclo combinado: cada día que se revisa solidifica el proyecto y el legajo
 
 **Hecho:** 2026-10-29. **Clase:** dirección, y es el ciclo de trabajo. **Estado:** vigente.
-**Lector:** quien vaya a escarbar el historial, y quien tenga que defender el repositorio después.
-**Dueño:** humano:autoridad.
+**Lector:** quien vaya a escarbar el historial, y quien tenga que defender el proyecto después.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el commit 1, que es la meta, y no desde el último commit, que es donde estamos.
 **Límite:** **no dice qué se va a rescatar.** **Dice cómo se rescata, y qué tiene que quedar en cada paso.**
-**Firma:** humano:autoridad · máquina:quien lo corra.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
-**Peor:** se escarba el historial durante meses, **y al llegar al commit 1 el repo tiene la misma historia de siempre y ni un documento más para defenderse.** **Eso no es rescatar: es caminar.**
+**Peor:** se escarba el historial durante meses, **y al llegar al commit 1 el proyecto tiene la misma historia de siempre y ni un documento más para defenderse.** **Eso no es rescatar: es caminar.**
 
 ---
 
 ## La idea, y es de la autoridad
 
-> **Entre más vayamos para atrás, el repo no sólo queda más sólido: queda más sólido legalmente.**
+> **Entre más vayamos para atrás, el proyecto no sólo queda más sólido: queda más sólido legalmente.**
 
 **Y eso no pasa solo.** **Pasa si cada paso hace dos cosas a la vez:**
 
@@ -138,7 +138,7 @@ Legajo:         [qué documento creció, y cómo]
 | **saber cómo cambió, y cuándo** | **el registro por día, con hashes** |
 | **saber que lo que se quitó se quitó a propósito** | **el campo `Se cayó`, con su porqué** |
 
-**Y el cuarto, que no se produce escribiendo:** **que lo que se declara sea verdad.** **Eso se prueba abriendo el repo, y el ciclo no lo puede sustituir.**
+**Y el cuarto, que no se produce escribiendo:** **que lo que se declara sea verdad.** **Eso se prueba abriendo el proyecto, y el ciclo no lo puede sustituir.**
 
 ---
 

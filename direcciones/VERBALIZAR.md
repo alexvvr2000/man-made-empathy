@@ -3,11 +3,11 @@
 **Nombre.** VERBALIZAR. **Y el nombre dice el acto:** **decir lo que algo es, en una palabra que se pueda leer y que diga qué hace.**
 
 **Clase:** dirección. **Aplica a:** nombrar algo, y a pedirle a otro que lo nombre.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** el nombre se lee desde el que no estuvo, y no desde el que lo eligió.
 **Límite:** **no decide qué es la cosa.** **Decide si su nombre se puede usar sin preguntar por qué se llama así.**
-**Firma:** humano:autoridad · máquina:quien lo nombre.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** el nombre se recuerda y no se entiende, **y cada vez que alguien lo usa tiene que preguntar qué hace, o inventarse qué hace.**
 

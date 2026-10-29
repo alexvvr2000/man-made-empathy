@@ -26,7 +26,7 @@
 | **`beta-AAAA-MM-DD`** | **el último commit de cada día anterior al release** | **`beta-2026-10-26`** |
 | **`v0.9.9-beta`** | **el primer commit de todos, el del 1 de octubre** | **lo que antes se llamaba `v1.0.0`** |
 | **`v1.0.0`** | **el primer release, el 2026-10-29** | **el que se ve en GitHub** |
-| **y los nombres de las eras** | **`faro`, `mantis`, `v182838`, `antes-del-corte`** | **se quedan: son la historia, y no se tocan** |
+| **y los tags viejos con nombre propio** | **`faro-antes-de-base`, `mantis-antes-del-swap`, `v182838`, `antes-del-corte`** | **se quedan: son la historia, y no se tocan.** **Pero no son las eras del trabajo: el trabajo se corta por día** |
 
 **Y `v1.0.0` también se llamaba el primero, y se movió.** **El nombre no se puede repetir, y el que importa es el de hoy.**
 

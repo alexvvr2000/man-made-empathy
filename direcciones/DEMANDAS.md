@@ -1,11 +1,11 @@
 # DEMANDAS — lo que hay que prevenir, antes que nada
 
 **Hecho:** 2026-10-29. **Clase:** dirección, y es la de arriba. **Estado:** vigente.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que va a quedar expuesto, y no desde el que publica.
 **Límite:** **no dice cuándo llega una demanda.** **Dice qué hace que te llegue una, y qué la evita.**
-**Firma:** humano:autoridad · máquina:quien decida.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** el proyecto sale entero, limpio y verdadero, **y una ficha sin fuente o una imagen copiada se lleva todo por delante — y el que pierde es el más famoso del planeta, que es el que tiene más que perder.**
 
@@ -36,7 +36,7 @@
 
 ---
 
-## Y lo que el repo ya hace, y hay que saberlo para no repetirlo
+## Y lo que el proyecto ya hace, y hay que saberlo para no repetirlo
 
 | La pieza | Qué evita |
 |---|---|
@@ -56,7 +56,7 @@
 
 **Decir que una obra hace algo sin haberla abierto.** **Eso no es copyright: es más grave.**
 
-**Escribir la ruta de tu computadora en un archivo del repo.** **Una ruta de la máquina no le sirve a nadie, y dice dónde vives.** **D:\... y C:\Users\... se quedan en la máquina, y el repo dice «una carpeta que elija cada quien».** **Y lo mismo con el nombre de tu máquina, tu casa, o tu red.**
+**Escribir la ruta de tu computadora en un archivo del proyecto.** **Una ruta de la máquina no le sirve a nadie, y dice dónde vives.** **D:\... y C:\Users\... se quedan en la máquina, y el proyecto dice «una carpeta que elija cada quien».** **Y lo mismo con el nombre de tu máquina, tu casa, o tu red.**
 
 **Meter el chat sin depurar.** **Ahí no hay pleito con una editorial: hay pleito con una persona.**
 

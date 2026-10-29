@@ -16,9 +16,9 @@
 > **Todo lo anterior es beta, y es historia: se lee, y no se continúa desde ahí.**
 > **El trabajo de `EDIPO` empieza aquí, y evoluciona junto a la biblioteca.**
 
-**Y qué significa para el que llega:** **no hay que rescatar nada de las eras viejas para trabajar hoy.** **Lo que se sostiene está en `direcciones/`, `entes/`, `ideas/` y `ejemplos/`, en esta versión.**
+**Y qué significa para el que llega:** **no hay que rescatar nada de los días viejos para trabajar hoy.** **Lo que se sostiene está en `direcciones/`, `entes/`, `ideas/` y `ejemplos/`, en esta versión.**
 
-**Y las versiones de antes se nombran por fecha:** **`beta-AAAA-MM-DD`**, y las eras por su nombre. **Rige [./VERSIONES.md](./VERSIONES.md).**
+**Y las versiones de antes se nombran por fecha:** **`beta-AAAA-MM-DD`**, un corte por día. **Rige [./VERSIONES.md](./VERSIONES.md).**
 
 ---
 
@@ -43,7 +43,7 @@
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
 | **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/README.md`](./Sincronización%20de%20almas/entes/README.md) |
 | **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/PLANTILLA.md`](./Sincronización%20de%20almas/entes/Ente/PLANTILLA.md) · [`./Sincronización de almas/entes/Colmena/PLANTILLA.md`](./Sincronización%20de%20almas/entes/Colmena/PLANTILLA.md) |
-| **La dirección: lo que se tiene que poder contestar** | **once, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
+| **La dirección: lo que se tiene que poder contestar** | **doce, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |

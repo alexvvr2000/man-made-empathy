@@ -14,13 +14,13 @@
 > **Se trae UNA era cuando alguien la pide, y no todas.**
 > **Y lo que se trae va fuera del repo, se lee, y si se sostiene se declara.**
 
-**Porque el error del 27 fue traer sin decidir.** **Y el repo tiene **562 eras**: traerlas todas es empezar de nuevo, no continuar.**
+**Porque el error del 27 fue traer sin decidir.** **Y el repo tiene **594 días con commits (594 commits)**: traerlas todas es empezar de nuevo, no continuar.**
 
 ## Lo que tiene el historial, medido
 
 | Lo que | Cuánto |
 |---|---|
-| **eras (commits)** | **562** |
+| **commits** | **594**, en 28 días |
 | **y en una sola, del 27** | **237 archivos, en cinco carpetas** |
 
 ---
@@ -29,7 +29,7 @@
 
 ```plaintext
 python bin/historia.py listar --limite 20
-    las eras, con su fecha y su tema. Sin el contenido.
+    los días, con su fecha y su tema. Sin el contenido.
 
 python bin/historia.py buscar "un gramo de registro"
     qué commits tocan ese texto. Sin traerlo.

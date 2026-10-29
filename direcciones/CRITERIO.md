@@ -4,12 +4,12 @@
 
 **Origen.** **De la autoridad, el 2026-10-25:** **«¿no ves que `criterio` es lo que separa este estándar de la industria?»**
 
-**Clase:** dirección. **Aplica a:** toda decisión que se tome en el repo.
-**Dueño:** humano:autoridad.
+**Clase:** dirección. **Aplica a:** toda decisión que se tome en el proyecto donde se aplica.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde la decisión, y no desde la herramienta.
 **Límite:** **no dice qué decidir.** **Dice desde dónde se decide, y qué lo hace contestable.**
-**Firma:** humano:autoridad · máquina:quien decida.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** la herramienta decide, y el que la usó dice que «así se hace», **y entonces no hay decisión, hay costumbre con buena letra.**
 
@@ -22,7 +22,7 @@
 
 **Y por eso el criterio es lo que no se puede comprar:** **la herramienta se copia; el criterio que decide cuál usar, no.**
 
-**Y su forma, y es la del repo:** **criterio no es prohibir.** **`T664`:** **«bajo criterio; o sea, si tuvieras descargas, ¿no los aprovecharías? criterio aplica a todo».**
+**Y su forma, y es la del proyecto:** **criterio no es prohibir.** **`T664`:** **«bajo criterio; o sea, si tuvieras descargas, ¿no los aprovecharías? criterio aplica a todo».**
 
 ---
 
@@ -44,7 +44,7 @@
 | **el formato manda** | **el formato sirve a la idea** |
 | **se copia el estándar** | **se decide qué del estándar aguanta** |
 
-**Y por eso el repo no nombra herramientas,** **y por eso no hay un solo lenguaje,** **y por eso el `bin/` es del proyecto y crece con quien lo usa.**
+**Y por eso el proyecto no nombra herramientas,** **y por eso no hay un solo lenguaje,** **y por eso el `bin/` es del proyecto y crece con quien lo usa.**
 
 ---
 

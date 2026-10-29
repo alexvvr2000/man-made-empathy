@@ -12,7 +12,7 @@
 | Lo que | Para qué |
 |---|---|
 | **`python` 3** | **`bin/ver-tesis` y `bin/estado` lo usan** |
-| **`git`** | **leer las eras y los commits de la biblioteca** |
+| **`git`** | **leer los días y los commits de la biblioteca** |
 
 **Y lo que no hay:** **ningún modelo, ninguna llave, ninguna dependencia del repo.**
 

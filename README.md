@@ -66,7 +66,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 |---|---|
 | **la plantilla está, y se copia** | **`Sincronización de almas/entes/Ente/` tiene carta, guantelete, dos bancos, ciclo, y `evolucion/`** |
 | **el ciclo mínimo corre** | **`bin/ciclo.py`, con su esquema** |
-| **el bibliotecario trabaja** | **`entes/EDIPO/bin/ver-tesis` lista las eras de la historia** |
+| **el bibliotecario trabaja** | **`entes/EDIPO/bin/ver-tesis` lista los días y commits de la historia** |
 | **hay seis pruebas escritas** | **`Pruebas/`, y su `readme.md` dice cuáles pasan y cuáles no** |
 | **la licencia y el DOI están declarados** | **`ATTRIBUTION.md`, `CITATION.cff`** |
 | **lo que falta está escrito** | **`LO QUE FALTA.md`, y las fichas con su `[SIN VERIFICAR]`** |

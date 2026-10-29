@@ -3,11 +3,11 @@
 **Nombre.** CONVIVIR. **Y el nombre dice el acto:** **no se funde, no se copia, no se somete: convive.**
 
 **Clase:** dirección. **Aplica a:** vivir junto a otro que no es como uno.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** un robot no se vuelve el mundo que habita; aprende a convivir con él sin dejar de ser lo que es.
 **Límite:** **no decide qué es el robot ni qué es su mundo.** **Decide qué tiene que declarar para que dos cosas muy distintas se sostengan juntas.**
-**Firma:** humano:autoridad · máquina:quien la cumpla.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** el robot se vuelve el mundo para convivir, **y deja de ser el robot: hay menos mundo, no más convivencia.**
 

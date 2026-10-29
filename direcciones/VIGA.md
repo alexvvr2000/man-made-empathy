@@ -3,11 +3,11 @@
 **Nombre.** VIGA. **Y el nombre dice el acto:** **la pieza que sostiene sin ser el muro.**
 
 **Clase:** dirección. **Aplica a:** entregar algo a alguien que no comparte tu forma.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** un destino se lee por su esquema, no por lo que parece ser.
 **Límite:** **no decide qué destino es.** **Dice qué necesita el otro para reconstruir lo que se le entrega, sin preguntar.**
-**Firma:** humano:autoridad · máquina:quien entregue.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se describe el aparato pieza por pieza, **y se pierde el para qué: lo reproducido hereda la forma y no la razón.**
 

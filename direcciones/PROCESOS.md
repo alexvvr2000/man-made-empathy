@@ -3,11 +3,11 @@
 **Nombre.** PROCESOS. **Y el nombre dice el acto:** **decir qué convierte un texto en algo que se puede contestar.**
 
 **Clase:** dirección. **Aplica a:** escribir un proceso, un `.prs`, o cualquier cosa que se vaya a correr.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** un proceso se lee desde el caso que lo rompe, no desde el caso que lo usa.
 **Límite:** **no dice cómo se maqueta un archivo.** **Eso es forma, y ya está escrita donde vive.** **Dice qué hace que un proceso sea uno.**
-**Firma:** humano:autoridad · máquina:quien lo escriba.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se escribe un proceso que suena bien, y su `Falla si` se rellena al final, **y entonces el corte no protege de nada: se escribió después de que el proceso ya pasó.**
 

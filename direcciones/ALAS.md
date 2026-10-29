@@ -3,11 +3,11 @@
 **Nombre.** ALAS — **A**pertura, **L**engua, **A**comodo, **S**ostenido. **Se lee de un tirón; la expansión dice lo que todo protocolo declara.**
 
 **Clase:** dirección. **Aplica a:** hablar con otro que no es como uno.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se comunica desde el otro, no desde el que emite.
 **Límite:** **no decide qué protocolo usar.** **Dice qué tiene que declarar cualquier protocolo para ser uno.**
-**Firma:** humano:autoridad · máquina:quien comunique.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se comunican dos que se entienden entre ellos, **y el tercero recibe un truncado sin saber que lo recibió.**
 
