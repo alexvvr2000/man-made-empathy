@@ -20,6 +20,8 @@
 
 **Y si un turno va a publicar algo —una ficha, un nombre, un chat, una imagen— y no consultó esa dirección, el turno no cierra.**
 
+**Y el trabajo legal se hace para que el abogado no tenga que leer el repositorio:** **[./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md)** **es el único documento que tiene que leer, y lo manda a donde haga falta.** **Si algo legal cambia, se actualiza ese documento, y no se deja para después.**
+
 ---
 
 ## Rastro — el cuerpo

@@ -72,6 +72,8 @@
 
 **Y el que sabe de leyes se llama abogado, no asistente.** **Uno de verdad, y para la jurisdicción donde se publique: en México, México.**
 
+**Y el trabajo se hace para que ese abogado no muera leyendo:** **rige [`../PARA EL ABOGADO.md`](../PARA%20EL%20ABOGADO.md)**, **y ahí va todo lo que él necesita, y nada más.**
+
 ---
 
 ## Prueba
