@@ -25,54 +25,59 @@
 
 ---
 
-## Las 26, una por una
+## Las 33, una por una
 
-| La ficha | Estado | Qué se abrió | Lo que falta |
-|---|---|---|---|
-| **`adventure-time.md`** | **verificado** | **Wikipedia** | **—** |
-| **`all-star-superman.md`** | **verificado** | **Wikipedia, el clip (`Ardx6mBZfa0`) y el guion de la película en Wikiquote (revisión del 2026-08-10)** | **—** **y se separa la película (2011) del cómic (2005): la autoridad vio la película** |
-| **`am.md`** | **verificado** | **Wikipedia** | **—** |
-| **`arrival.md`** | **verificado** | **Wikipedia** | **—** |
-| **`dorohedoro-y-back-to-the-future.md`** | **verificado** | **Wikipedia** | **—** |
-| **`fantastic-four-1994.md`** | **verificado** | **Wikipedia** | **—** |
-| **`final-fantasy-vii.md`** | **`parcial`** | **Wikipedia** | **la autoridad nunca lo jugó: `reportado por otros`** |
-| **`fullmetal-alchemist.md`** | **verificado** | **Wikipedia** | **—** |
-| **`hunter-x-hunter.md`** | **verificado** | **Wikipedia** | **—** |
-| **`jujutsu-kaisen.md`** | **`parcial`** | **Wikipedia** | **la frase de los quince capítulos es un chiste de internet, y se declara así** |
-| **`la-semilla.md`** | **`parcial`** | **las tres fichas** | **`FF7` está sin jugar** |
-| **`lazytown-sportacus.md`** | **`parcial`** | **Wikipedia** | **el medallista olímpico: `reportado por el autor`, sin entrevista** |
-| **`lo-mundano.md`** | **verificado** | **Wikipedia** | **—** |
-| **`lucky-luke.md`** | **`parcial`** | **Wikipedia** | **la escena del hijo no era de aquí: era de `Red Dead`, y se corrigió** |
-| **`malcolm-x.md`** | **verificado** | **Wikipedia** | **—** |
-| **`mcu.md`** | **`declarado`** | **—** | **`Infinity War`, `Endgame` y `Thanos`: pendientes hasta acabar el repo** |
-| **`metal-men.md`** | **verificado** | **Wikipedia** | **—** |
-| **`platon.md`** | **verificado** | **Wikipedia** | **—** |
-| **`red-dead-redemption.md`** | **verificado** | **Wikipedia** | **—** |
-| **`soul-eater.md`** | **verificado** | **Wikipedia** | **—** |
-| **`soul.md`** | **verificado** | **Wikipedia** | **—** |
-| **`source-wall.md`** | **verificado** | **Wikipedia** | **—** |
-| **`story-of-your-life.md`** | **verificado** | **Wikipedia** | **—** |
-| **`tachikoma.md`** | **verificado** | **Wikipedia** | **—** |
-| **`undertale.md`** | **verificado** | **Wikipedia** | **—** |
-| **`watchmen.md`** | **verificado** | **Wikipedia** | **—** |
-| **`lanterns.md`** | **verificado** | **Wikiquote (Lanterns, revision del 2026-10-15)** | **la frase literal de Sinestro que cita el autor sigue sin aparecer: la serie dice la misma idea con otras palabras** |
-| **`arthur-morgan.md`** | **verificado** | **Wikipedia** | **—** |
-| **`martian-manhunter.md`** | **verificado** | **Wikipedia** | **—** |
-| **`marceline.md`** | **parcial** | **Wikipedia** | **la frase del cuento: `[SIN VERIFICAR]`** |
-| **`earth-x-y-houseki-no-kuni.md`** | **verificado** | **Wikipedia** | **—** |
-| **`videl-kratos-iroh.md`** | **parcial** | **Wikipedia** | **la escena exacta de Kratos: lectura del autor** |
+**Y el estado es el que declara cada ficha, sin corregirlo aquí.**
+
+| La ficha | Estado | Lo que la ficha declara |
+|---|---|---|
+| **`adventure-time.md`** | **verificado** | verificado en su ficha. |
+| **`all-star-superman.md`** | **verificado** | verificado en el guion de la película, y con la escena confirmada por un clip. |
+| **`am.md`** | **verificado** | verificado en su ficha. |
+| **`arrival.md`** | **verificado** | verificado. |
+| **`arthur-morgan.md`** | **verificado** | verificado en su ficha. |
+| **`aya-y-manhunters.md`** | **verificado** | verificado en su ficha, y separado de `Lanterns`. |
+| **`dorohedoro-y-back-to-the-future.md`** | **verificado** | verificado en su ficha. |
+| **`earth-x-y-houseki-no-kuni.md`** | **verificado** | verificado en su ficha. Y `Earth X` es Marvel, y NO es del MCU. |
+| **`fantastic-four-1994.md`** | **verificado** | verificado en su ficha. Y es de Marvel, pero NO del MCU. |
+| **`final-fantasy-vii.md`** | **verificado** | verificado en su ficha, y sin jugar: lo declara la autoridad. |
+| **`fullmetal-alchemist.md`** | **verificado** | verificado en su ficha. |
+| **`hunter-x-hunter.md`** | **verificado** | verificado en su ficha. |
+| **`jujutsu-kaisen.md`** | **verificado** | verificado en su ficha. |
+| **`la-semilla.md`** | **verificado** | verificado en su parte verificable. |
+| **`lanterns.md`** | **verificado** | verificado en el guion de la serie, con una corrección. |
+| **`lazytown-sportacus.md`** | **`parcial`** | verificado en su ficha. Y el caso del medallista queda `[SIN VERIFICAR]`, como se declara. |
+| **`lo-mundano.md`** | **verificado** | verificado en su parte verificable. |
+| **`lucky-luke.md`** | **`parcial`** | verificado en su ficha, y con la escena del hijo apuntada sin verificar. |
+| **`malcolm-x.md`** | **verificado** | verificado en su ficha. |
+| **`marceline.md`** | **`parcial`** | verificado en su ficha, y con la frase `[SIN VERIFICAR]`. |
+| **`martian-manhunter.md`** | **verificado** | verificado en su ficha. |
+| **`mcu.md`** | **`declarado`** | `declarado`: no se ha verificado ninguna escena del `MCU`. Y no cierra hasta que se rescate del historial. |
+| **`metal-men.md`** | **verificado** | verificado. |
+| **`platon.md`** | **verificado** | verificado en su ficha. |
+| **`red-dead-redemption.md`** | **verificado** | verificado en su ficha. |
+| **`soul-eater.md`** | **verificado** | verificado en su ficha. |
+| **`soul.md`** | **verificado** | verificado en su ficha. |
+| **`source-wall.md`** | **verificado** | verificado, y decidido. |
+| **`story-of-your-life.md`** | **verificado** | verificado en su ficha. |
+| **`tachikoma.md`** | **verificado** | verificado, y con una sorpresa. |
+| **`undertale.md`** | **verificado** | verificado en su ficha. |
+| **`videl-kratos-iroh.md`** | **`parcial`** | verificado en su ficha, y `Videl`/`Kratos` como `[SIN VERIFICAR]` de escena. |
+| **`watchmen.md`** | **verificado** | verificado en su ficha. |
 
 ---
 
-## Las cuentas, para que se vea de un golpe
+## Las cuentas, y son las de arriba
 
 | Estado | Cuántas |
 |---|---|
-| **`verificado`** | **18** |
-| **`parcial`** | **7** |
-| **`declarado`** | **1** — **el `MCU`** |
+| **`verificado`** | **28** |
+| **`parcial`** | **4**: `lazytown-sportacus`, `lucky-luke`, `marceline`, y `videl-kratos-iroh` |
+| **`declarado`** | **1**: el `MCU` |
 
-**Y las parciales, todas por lo mismo:** **la obra está verificada, y la escena o el dato humano no.** **No se esconde: se dice.**
+**Y ninguna tiene segunda mirada.** **Verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
+
+**⚠️ Y eso sigue siendo la tarea de la `v1.1`:** **antes de citar cualquier ejemplo en un escrito público, se pide la segunda mirada.** **Rige [`./COMO SE VERIFICA.md`](./COMO%20SE%20VERIFICA.md).**
 
 ---
 
@@ -88,67 +93,6 @@
 
 
 ---
-
-## Las nueve que se escribieron el 28, y su estado real
-
-| La ficha | Estado | Qué se abrió | Lo que falta |
-|---|---|---|---|
-| **martian-manhunter.md** | **verificado** | **Wikipedia** | **—** |
-| **rthur-morgan.md** | **verificado** | **Wikipedia** | **—** |
-| **marceline.md** | **parcial** | **Wikipedia** | **la frase del cuento: [SIN VERIFICAR], sólo T745** |
-| **arth-x-y-houseki-no-kuni.md** | **verificado** | **Wikipedia** | **—** y **Earth X es Marvel, y NO es del MCU** |
-| **idel-kratos-iroh.md** | **parcial** | **Wikipedia** | **la escena de Videl y de Kratos** |
-| **ya-y-manhunters.md** | **parcial** | **—** | **la cita de Sinestro y la escena de Aya: sin ficha** |
-
-**Y las cuentas, con las nuevas:** **21 verificadas, 9 parciales, 1 declarada.** **Y sigue en pie lo de siempre: ninguna tiene segunda mirada.**
-
-
----
-
-## La segunda mirada, y lo que cambió
-
-**Hecha el 2026-10-28 sobre las nueve parciales.** **Y no todas pasaron.**
-
-| La ficha | Antes | Después de la segunda mirada |
-|---|---|---|
-| **ya-y-manhunters.md** | **parcial** | **sin fuente**: **Sinestro NO dice esa frase en la película de 2011**; dice que hay que *ignorar* el miedo. **Se retira la atribución, y la idea se queda como del autor** |
-| **arth-x-y-houseki-no-kuni.md** | **erificado** | **erificado, y con el dato exacto**: **Houseki, del 25 de octubre de 2012 al 25 de abril de 2024** |
-| **marceline.md** | **parcial** | **parcial**: **se buscó, y la frase no está en las citas de Adventure Time.** **Sigue [SIN FUENTE]** |
-| **idel-kratos-iroh.md** | **parcial** | **parcial**: **la obra sí; la escena sigue sin verificar** |
-
-**Y lo que la segunda mirada enseña, y es lo que vale:** **una mirada más no confirma: a veces desmiente.** **Y eso es exactamente para lo que se pide.**
-
-
----
-
-## La corrección del 2026-10-28, y es la más grave del día
-
-**El repo escribió que la cita de Sinestro no existía.** **Sí existía: estaba en Lanterns (2026), y el repo buscó la película de 2011 porque era lo que tenía.**
-
-| Lo que pasó | Lo que se corrige |
-|---|---|
-| **se buscó Green Lantern (2011), y no dijo la frase** | **la frase es de Lanterns (2026), episodio 1×8** |
-| **se declaró [SIN FUENTE EN ESTA OBRA]** | **[VERIFICADO EN LANTERNS]: «Fear can be the most powerful force in the universe»** |
-| **Videl y Kratos quedaron parcial** | **erificados**: **Videl desde el manga de 1993; Kratos, en el mural de Ragnarök (2022)** |
-
-**Y la regla que se lleva, y es la del autor:** **siempre buscar, y buscar la obra que el autor vio, y no la que uno recuerda.**
-
-**Ficha nueva:** **[./ficcion/lanterns.md](./ficcion/lanterns.md)**, **con la corrección declarada dentro.**
-
-
----
-
-## Y la segunda corrección: Aya y los Manhunters son otra obra
-
-**ya-y-manhunters.md se reescribió el 2026-10-28, porque los tenía mezclados con Lanterns.**
-
-| Lo que | Dónde va, y por qué |
-|---|---|
-| **Aya** | **Green Lantern: The Animated Series (2011–2013)** — **verificado: creada por Scar como alternativa empática a los Manhunters** |
-| **Los Manhunters** | **cómic, Justice League of America #140–141 (1977)** — **la policía androide que se rebeló** |
-| **Lanterns (2026)** | **[./ficcion/lanterns.md](./ficcion/lanterns.md)** — **los usa como hilo, y no son los mismos** |
-
-**Y lo que se ganó al separarlos, y no se veía con los dos juntos:** **Aya fue creada como «empathetic alternative to the Manhunters».** **O sea: la máquina que siente se hizo para reemplazar a la que sólo obedece.** **Eso es el repo, dicho en su ficha.**
 
 ## Prueba
 

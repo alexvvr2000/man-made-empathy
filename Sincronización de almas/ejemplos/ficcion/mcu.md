@@ -2,7 +2,7 @@
 
 **¿Es así?:** **declarado: no se ha verificado ninguna escena del MCU; se escribe cuando se cierre.**
 
-**Estado:** abierto, y **no cierra hasta que termine el repo.** **Tiene muchísimos casos, y no se une antes de acabar todo lo demás.**
+**Estado:** `declarado`: no se ha verificado ninguna escena del `MCU`. **Y no cierra hasta que se rescate del historial.**
 **Y no se mezcla con nada que no sea del MCU.**
 
 ---

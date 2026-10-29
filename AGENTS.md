@@ -40,7 +40,7 @@
 | **Lo que la v1 no tiene** | **lo que falta, con su por qué y su cuándo** | [./LO QUE FALTA.md](./LO%20QUE%20FALTA.md) |
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
 | **Lo que se piensa** | **el cero sin sus ejemplos, y la tesis vieja con su índice** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
-| **Lo que se muestra** | **33 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
+| **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
 | **Lo que se dijo y se descartó** | **en `notas/`, en el repo** | **`.memoria continua/notas/`** |
 | **El histórico del método** | **el esquema viejo y el rastro crudo de MANTIS, para ver la evolución** | **[`.memoria continua/historico/`](.memoria%20continua/historico/)** |
 

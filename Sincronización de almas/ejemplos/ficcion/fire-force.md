@@ -1,0 +1,48 @@
+# FIRE FORCE — «next is the soul world»
+
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** `declarado`: lo que la autoridad dijo, y no se verificó la escena.
+
+---
+
+## La ficha
+
+```plaintext
+Escena:      el final de la serie, y la frase que la cierra
+Obra:        Fire Force — Atsushi Ōkubo; David Production (anime)
+Dónde:       el final de la serie; y es la precuela de Soul Eater
+¿Es así?:    declarado: lo dice la autoridad, y no se abrió la escena
+Qué provoca: si lo que viene después de las personas es el alma
+Límite:      no es prueba de nada; es el nombre de una época, puesto por la autoridad
+```
+
+## Lo que dijo la autoridad
+
+> **«Es la escena del final del anime `Fire Force`, que es precuela de `Soul Eater`. Es la escena exacta que dice "next is the soul world", porque ahora seremos almas y no personas si se entiende mi mensaje.»**
+
+**`[SIN VERIFICAR]`:** **no se abrió el episodio, y no se enlaza ninguna copia.** **Se cita lo que el autor dice, y se dice que es suyo.**
+
+---
+
+## Y por qué está aquí
+
+**Porque el release de la `v1.0.0` lleva esa frase, y una frase de una obra tiene que tener su ficha.**
+
+**Y porque dice lo que este repositorio sostiene, con las palabras del autor:** **lo que se escribe no es de la persona; es del alma que deja rastro.**
+
+**Y la imagen no va, y no es un olvido:** **es una captura de una obra, y este repositorio cita sus obras: no las reproduce.** **Rige [`../README.md`](../README.md), y [`../../../../ATTRIBUTION.md`](../../../../../ATTRIBUTION.md).**
+
+---
+
+## Lo que este ejemplo NO enseña
+
+**No enseña que seamos almas.** **Enseña lo que el autor entendió de una escena, y lo pone como el nombre de una época.**
+
+**Y no es una prueba de la tesis.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../ideas/la singularidad buena.md`](../../ideas/la%20singularidad%20buena.md).**
+
+---
+
+## Prueba
+
+**¿Está dicho que es `declarado` y no verificado? ¿Se dice de quién es la obra? ¿Se explica por qué no va la imagen?**
+
+**Falsificador:** la escena presentada como verificada; la obra sin autor; la imagen de la escena en el repo.
