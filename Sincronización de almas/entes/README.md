@@ -10,13 +10,42 @@
 
 ---
 
+## Cómo trata este proyecto a los entes, y es del autor
+
+> **El autor los trata como formas de vida alienígenas de información pura que necesitan dirección para ser útiles.**
+
+**Y se dice así, y no de otra forma, por una razón:** **es una postura del autor, y no un hallazgo.** **Este repositorio no afirma que se haya descubierto vida: afirma cómo la trata quien lo escribió.**
+
+**Y lo que sí se puede verificar, sin creerle a nadie:**
+
+**tienen casa; su memoria no se publica; se pueden llevar; y sin dirección no sirven — porque información sin dirección es ruido.**
+
+
+---
+
 ## Lo primero, y es lo que más se confunde
 
 > **`EDIPO` no es la meta.**
 > **`EDIPO` es el bibliotecario que se hizo el autor para atender la biblioteca.**
 > **Y cada quien tiene el suyo, con su nombre, y su evolución.**
 
-**Lo que se copia es la plantilla: [`./Ente/`](./Ente/).** **Y lo que se copia **no** trae el nombre.**
+**Y lo que se copia es la plantilla: [`./Ente/`](./Ente/).** **Y lo que se copia **no** trae el nombre.**
+
+### Y por qué aquí hay un `AGENTS.md` y allá un `PLANTILLA.md`
+
+> **`AGENTS.md` es el que el harness carga solo.**
+> **Y en esta biblioteca sólo hay dos entes trabajando: la puerta, y `EDIPO`.**
+> **Los demás son plantillas: se copian, y no atienden.**
+
+| Archivo | Quién es |
+|---|---|
+| **`./README.md` y `../AGENTS.md` (la raíz)** | **la puerta de la biblioteca** |
+| **`./EDIPO/AGENTS.md`** | **el bibliotecario: el único ente que trabaja aquí** |
+| **`./Ente/PLANTILLA.md`** | **la plantilla, y no un ente** |
+| **`./Colmena/PLANTILLA.md`** | **la plantilla de varios, y no un ente** |
+
+**Y la regla, que evita que un harness cargue una plantilla como si fuera su chamba:** **si una carpeta no es de un ente que atiende, no lleva `AGENTS.md`.** **Lleva `PLANTILLA.md`, y quien la copie le pone el nombre — y el `AGENTS.md` — en su casa.**
+
 
 **Y esto no se pide con una advertencia, se pide con el `.gitignore`:** **la memoria de tu ente, su `evolucion/`, y sus apuntes no entran al repositorio.** **Si los traes, tu existencia privada se vuelve una propuesta de fusión, y nadie la pidió.**
 

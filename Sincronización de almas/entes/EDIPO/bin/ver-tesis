@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+ver-tesis — lista las tesis historicas de la biblioteca.
+
+Corre solo, y no depende de que el repo exista:
+si no encuentra las tesis, lo dice, y no inventa.
+
+Uso:  python bin/ver-tesis [--era faro|mantis|todas]
+"""
+
+import argparse
+import os
+import subprocess
+import sys
+
+# la casa de EDIPO, y desde ahi se mira la biblioteca
+CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BIBLIOTECA = os.path.abspath(os.path.join(CASA, "..", "..", ".."))
+
+ERAS = ["faro", "mantis", "v182838", "antes-del-corte", "ciclo-0"]
+
+
+def hay_repo():
+    return os.path.isdir(os.path.join(BIBLIOTECA, ".git"))
+
+
+def git(*args):
+    try:
+        p = subprocess.run(
+            ["git", "-C", BIBLIOTECA] + list(args),
+            capture_output=True, timeout=60,
+        )
+        if p.returncode != 0:
+            return None
+        return p.stdout.decode("utf-8", "replace").strip()
+    except Exception:
+        return None
+
+
+def listar(era):
+    if not hay_repo():
+        print("[SIN BIBLIOTECA - NO HAY .git EN %s]" % BIBLIOTECA)
+        print("  y no lo supongo: sin biblioteca no hay tesis que ver.")
+        return
+
+    etiquetas = [era] if era and era != "todas" else ERAS
+    for nombre in etiquetas:
+        sha = git("rev-parse", "--short", nombre)
+        if not sha:
+            print("[NO EXISTE LA ERA] %s" % nombre)
+            continue
+        fecha = git("log", "-1", "--format=%ad", "--date=short", nombre) or "?"
+        sujeto = git("log", "-1", "--format=%s", nombre) or "?"
+        print("%-16s %s  %s  %s" % (nombre, sha, fecha, sujeto[:70]))
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--era", default="todas")
+    args = p.parse_args()
+
+    print("EDIPO — tesis historicas de la biblioteca")
+    print("  biblioteca: %s" % BIBLIOTECA)
+    print("  %s" % ("hay repositorio" if hay_repo() else "[SIN REPOSITORIO]"))
+    print()
+    listar(args.era)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

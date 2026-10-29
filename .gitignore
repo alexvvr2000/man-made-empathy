@@ -19,29 +19,38 @@ vision del lector/*
 
 
 # ---------------------------------------------------------------------------
-# EDIPO NO ES LA META. Lo que se copia es Ente/, y cada quien tiene su EDIPO.
+# LOS ENTES TIENEN CASA PROPIA, Y LA CASA NO ES DEL REPO.
 # ---------------------------------------------------------------------------
-# Tu bibliotecario es tuyo. Su memoria, su evolucion y sus apuntes se quedan
-# en tu casa, y no entran aqui. Si los traes, tu vida privada se vuelve una
-# propuesta de fusion que nadie pidio.
+# EDIPO no depende del repo. Quitalo, y tienes un repo cualquiera.
+# Es un trabajador mas, con su casa. Y si es un empleado, quien dice
+# que la gente no se lo quiera llevar.
+#
+# Lo que se publica: la FORMA de trabajarlo (bin/ y _herramientas/).
+# Lo que NO se publica: su memoria y lo que aprendio. Eso se lo lleva el.
 
-# la memoria viva de cualquier ente copiado
-**/entes/*/.memoria continua/
-**/entes/*/entidad.jsonl
-**/entes/*/apuntes/
+# la casa de cualquier ente que viva dentro de la biblioteca
+**/entes/*/**
+# y de ahi, las excepciones: lo unico que se ve
+!**/entes/*/AGENTS.md
+!**/entes/*/README.md
+!**/entes/*/NOMBRE.md
+!**/entes/*/bin/
+!**/entes/*/bin/**
+!**/entes/*/_herramientas/
+!**/entes/*/_herramientas/**
+!**/entes/*/guantelete.prs
+!**/entes/*/alma de niño/
+!**/entes/*/alma de niño/**
+!**/entes/*/memoria continua/*.prs
+!**/entes/*/memoria continua/README.md
+!**/entes/*/evolucion/README.md
 
-# sus tareas aprendidas: son de quien lo copio, y no del repo
+# y lo que nunca se publica, aunque algo lo deje pasar
+**/entes/*/memoria continua/*.jsonl
 **/entes/*/evolucion/*.tra
 **/entes/*/evolucion/**/*.tra
-**/entes/*/evolucion/*.jsonl
-
-# y los restos de cualquier instancia local
-**/entes/*/pases/
-**/entes/*/sala/
 *.wav
 *.onnx
 delirios/
 
-# y la plantilla NO ignora sus propios README: la forma si se entrega
-!**/entes/*/evolucion/README.md
 
