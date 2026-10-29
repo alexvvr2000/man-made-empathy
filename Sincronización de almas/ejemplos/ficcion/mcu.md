@@ -1,5 +1,7 @@
 # MCU — el motor principal, y por qué estas películas son el ejemplo más fuerte
 
+**¿Es así?:** **declarado: no se ha verificado ninguna escena del MCU; se escribe cuando se cierre.**
+
 **Estado:** abierto, y **no cierra hasta que termine el repo.** **Tiene muchísimos casos, y no se une antes de acabar todo lo demás.**
 **Y no se mezcla con nada que no sea del MCU.**
 

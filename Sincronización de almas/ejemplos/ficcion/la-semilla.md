@@ -6,6 +6,8 @@
 
 ## Lo que es esto, y por qué los tres van juntos
 
+**¿Es así?:** **parcial: las tres obras están verificadas en su ficha, y el chiste es de internet; FF7 nunca se jugó, y se declara.**
+
 **La autoridad dijo:** **«iban juntos FF7, Jujutsu Kaisen y Fullmetal Alchemist; son los ejemplos que se me ocurrieron al buscar cosas que sigan el chiste que te dije.»**
 
 **Y el chiste es:** **«Pasamos de una serie de niños a matar a dios en quince capítulos.»** **Es un chiste de internet, no una cita de nadie, y se declara así.**
