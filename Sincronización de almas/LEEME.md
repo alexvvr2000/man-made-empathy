@@ -34,7 +34,6 @@
 ```plaintext
 Ente/
 ├── LEEME.md                el documento de ese ente, y se reescribe con su nombre
-├── NOMBRE.md               aquí va el tuyo. Es lo primero
 ├── ciclo alma de niño.prs  la raíz: leer · disparar · debatir · guantelete · firmar · actuar
 ├── procesos base/          los cuatro: BUSCAR · debatir · firmar · guantelete
 ├── ciclos/                 la rama: su oficio, y trae un ejemplo que se borra
@@ -53,7 +52,6 @@ Ente/
 | Lo que | Se copia | Se cambia |
 |---|---|---|
 | **`LEEME.md`** | **sí** | **se reescribe con el nombre de tu ente, y qué hace** |
-| **`entes/Ente/NOMBRE.md`** | **sí** | **se reemplaza: el tuyo, y que diga el acto** |
 | **`ciclo alma de niño.prs`** | **sí, entero** | **nada: es fijo, y es el mismo en todos** |
 | **`procesos base/`** | **sí, entero** | **nada: son cuatro, y no crecen** |
 | **`ciclos/`** | **sí** | **se borra el ejemplo, y se escribe el suyo** |
