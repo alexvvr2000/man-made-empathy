@@ -37,7 +37,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | Lo que | Qué es | Dónde |
 |---|---|---|
 | **la plantilla** | **la forma de un ente: carta, guantelete, bancos, ciclo, y evolución.** **Se copia, y se le pone nombre** | **[./Sincronización de almas/entes/](./Sincronización%20de%20almas/entes/)** |
-| **el bibliotecario y el historiador** | **`EDIPO` dice qué hay, de quién es, y qué falta. `HERÓDOTO` dice qué hubo, con fecha, y de dónde vino. Viven en [`./colmena/`](./colmena/), y no juzgan.** |
+| **el bibliotecario y el historiador** | **`EDIPO` dice qué hay, de quién es, y qué falta. `HERÓDOTO` dice qué hubo, con fecha, y de dónde vino. Viven en [`./biblioteca/`](./biblioteca/), y no juzgan.** |
 | **el ente del autor** | **el que trabaja sobre el repositorio, y no vive en él** | **fuera, y no viaja aquí** |
 
 ## Cómo se tratan los entes aquí, y es lo que hay que leer antes de juzgar

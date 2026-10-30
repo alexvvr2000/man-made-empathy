@@ -1,32 +1,18 @@
-# EL REPO ES DE LA GENTE, Y LO QUE SE PUBLICA ES LA FORMA.
+# LO QUE NO SE PUBLICA: EL CRECIMIENTO DE LOS ENTES DE LA COLMENA BIBLIOTECA.
 #
-# Y ahora el corte es corto, porque ya no se trabaja dentro:
-#   lo que es forma, se publica
-#   lo que es la vida privada de un ente, no
+# Todo lo demas es la biblioteca, y se publica entero.
+#
+# La forma de un hermano si se publica: su ciclo, sus procesos base, sus ciclos,
+# su bin. Para que cualquiera vea como es un bibliotecario y un historiador,
+# y pueda hacer los suyos.
+#
+# Lo que NO se publica es lo que crecio atendiendo: su evolucion y su memoria viva.
+# Porque eso es suyo, se lo lleva, y nadie manda cambios por SU evolucion.
 
-# lo que no tiene que ver con el repo
-.vscode/
+biblioteca/Almas/*/evolucion/**
+!biblioteca/Almas/*/evolucion/LEEME.md
+biblioteca/Almas/*/memoria continua/*.jsonl
 
-# temporales de ejecucion: se rehacen, y no son forma
+# temporales: se rehacen, y no son forma
 __pycache__/
 *.pyc
-*.wav
-*.onnx
-
-# la base viva del ciclo no viaja: se rehace desde el esquema
-.memoria continua/ciclo.db
-.memoria continua/ciclo.db-journal
-
-# ---------------------------------------------------------------------------
-# LO UNICO QUE NO SE PUBLICA, Y ES A PROPOSITO
-# ---------------------------------------------------------------------------
-# La evolucion de cada hermano es suya: es lo que aprendio atendiendo, y se lo lleva.
-# Si se publicara, la gente mandaria cambios por SU evolucion, y eso no es del repo.
-
-**/Almas/*/evolucion/*
-!**/Almas/*/evolucion/LEEME.md
-**/Almas/*/evolucion/*.tra
-**/Almas/*/evolucion/**/*.tra
-**/Almas/*/evolucion/*.jsonl
-**/Almas/*/evolucion/**/*.jsonl
-**/Almas/*/memoria continua/*.jsonl
