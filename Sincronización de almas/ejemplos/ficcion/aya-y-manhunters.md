@@ -34,7 +34,7 @@ Límite:      no enseña a hacer una máquina empática; enseña que el que la h
 
 ## Y son obras distintas, y ésta es la corrección
 
-**El autor lo dijo el 28:** **«`Manhunters` y `Aya` son un ejemplo aparte, no son de la serie de `Lanterns`, son obras distintas.»**
+**Quien lo trajo lo dijo el 28:** **«`Manhunters` y `Aya` son un ejemplo aparte, no son de la serie de `Lanterns`, son obras distintas.»**
 
 | Lo que | De qué obra es |
 |---|---|

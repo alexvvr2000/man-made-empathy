@@ -10,7 +10,7 @@
 **Nombre.** Locura. **Expansión:** la prueba de si algo puede producir lo que no se puede producir leyendo.
 **Origen.** Del **Necronomicón** de Lovecraft: un libro que no existe, y por eso nadie puede haberlo leído. **Se llama locura por lo que le pasa al que pregunta, no por lo que se encuentra.**
 
-**Sesgo:** se mide desde `./README.md`, `La prueba de locura`: **la industria pregunta qué es; esta casa pregunta de dónde viene.**
+**Sesgo:** se mide desde `./README.md`, `La prueba de locura`: **la industria pregunta qué es; este método pregunta de dónde viene.**
 **Límite:** no se aplica a juzgar si lo producido es bueno, seguro o deseable. **Mide el origen del cambio, y nada más.** **No mide conciencia: no hay instrumento, y no se finge tenerlo.**
 **Firma:** humano:autoridad · máquina:quien corra la prueba.
 

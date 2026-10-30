@@ -46,7 +46,7 @@ Límite:      no enseña a reconstruir una identidad: enseña a aceptarla cuando
 
 ## Y la declaración que hace falta
 
-**La autoridad nunca lo jugó.** **Lo menciona porque siempre lo mencionan.** **Y eso se dice, porque el repo exige que se diga de dónde viene lo que se cita: `reportado por otros`, y no `verificado por el autor`.**
+**Quien lo trajo nunca lo jugó.** **Lo menciona porque siempre lo mencionan.** **Y eso se dice, porque el repo exige que se diga de dónde viene lo que se cita: `reportado por otros`, y no `verificado por el autor`.**
 
 ## Lo que este ejemplo NO enseña
 

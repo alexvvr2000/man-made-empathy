@@ -14,7 +14,7 @@
 > **Se trae UNA era cuando alguien la pide, y no todas.**
 > **Y lo que se trae va fuera del repo, se lee, y si se sostiene se declara.**
 
-**Porque el error del 27 fue traer sin decidir.** **Y el repo tiene **594 días con commits (594 commits)**: traerlas todas es empezar de nuevo, no continuar.**
+**Porque traer sin decidir es lo que infla un registro.** **Y un historial con muchos días no es un argumento: es un historial.**
 
 ## Lo que tiene el historial, medido
 

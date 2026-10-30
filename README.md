@@ -72,8 +72,8 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | **lo que falta está escrito** | **`LO QUE FALTA.md`, y las fichas con su `[SIN VERIFICAR]`** |
 
 **Y no se comprueba hoy, y se dice:**
-- **que alguien lo haya copiado y funcione sin el autor.** **`[SIN ESTRENAR]`**
-- **que esto abra una nueva área de las ciencias computacionales.** **Es una apuesta del autor, y no un resultado.**
+- **que alguien lo haya copiado y funcione sin el autor.** **Sin estrenar: y se dice, porque nadie lo ha probado todavía.**
+- **que esto abra una nueva área de las ciencias computacionales.** **Es una apuesta, y no un resultado.**
 - **que la resonancia esté terminada.** **Está en `futuros posibles.md` y `la colmena.md`, y no en un proceso que corra.**
 
 

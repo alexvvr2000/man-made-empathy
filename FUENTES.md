@@ -26,7 +26,7 @@
 
 **Y lo que NO va aquí:**
 
-**No va una fuente de academia.** **Este repo no cita papers: no hay uno detrás, y no hay ni un gramo de fuente académica.** **Lo que hay es lógica, y la lógica no se acredita.**
+**No va una fuente de academia.** **Este método no cita papers: no hay uno detrás, y no hay ni un gramo de fuente académica.** **Lo que hay es lógica, y la lógica no se acredita.**
 
 **No va un partido, ni una idea política, ni un autor por su prestigio.** **Porque acreditarlo mete al autor en algo que no quiere.**
 

@@ -20,7 +20,7 @@
 | **y los dos bancos del repo** | **memoria y fricción, en `jsonl`** |
 | **el dump, completo** | **menos de 600 KB de texto** |
 
-**Y dónde vive: donde se le diga, y por defecto en `~/Documents/MEGA/…`, que es una carpeta de la máquina y no del repo.** **Lo que escribe es relativo a donde se corra, y no lleva ninguna ruta de nadie.**
+**Y dónde vive: donde se le diga, y por defecto en una carpeta que se elija, que es una carpeta de la máquina y no del repo.** **Lo que escribe es relativo a donde se corra, y no lleva ninguna ruta de nadie.**
 
 ---
 
@@ -47,7 +47,7 @@
 
 | Lo que falta | Por qué |
 |---|---|
-| **subirlo a MEGA** | **el dump está en la carpeta, y la sincronización la hace el cliente de MEGA, y no este script** |
+| **subirlo a una nube** | **el dump queda en la carpeta, y la sincronización la hace el cliente de la nube, y no este script** |
 | **probarlo en otra máquina** | **hasta que se abra en otra, no se sabe si sirve** |
 | **y el modelo** | **el dump es el rastro; el modelo que lo lea puede ser otro** |
 

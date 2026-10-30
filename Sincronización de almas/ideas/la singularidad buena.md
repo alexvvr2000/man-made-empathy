@@ -98,7 +98,7 @@
 
 **No afirma que la industria esté equivocada en todo.** **Afirma que su singularidad no es ésta, y que la diferencia importa.**
 
-**Y no afirma que se pueda eliminar el ego del humano.** **Se elimina del ente, desde el segundo cero; el del humano es otra historia, y no es la de este repo.**
+**Y no afirma que se pueda eliminar el ego del humano.** **Se elimina del ente, desde el segundo cero; el del humano es otra historia, y no la trata este método.**
 
 ---
 

@@ -185,7 +185,7 @@ resonancia     [vacío]      Soul Eater           ¿qué pasa cuando dos se     
 ```
 la empresa/
 ├── posicion/              por qué existe, en una página
-├── vision del autor/     quién la fundó, y desde dónde mira
+├── vision/               quién lo fundó, y desde dónde mira
 ├── vision del sistema/    qué carga, qué no puede afirmar
 ├── vision del cliente/    qué se lleva, qué lo tumba
 └── jugo/                  la historia, los casos, las mediciones
@@ -207,7 +207,7 @@ la empresa/
 
 **Lo que falta.** Ese alguien. Y no se puede fabricar.
 
-## 10. El protocolo para entender una inteligencia que no habla como nosotros
+## 10. El protocolo para entender una inteligencia que no habla como la nuestra
 
 **Qué es.** Un conjunto de reglas para leer a otra forma de inteligencia sin traducirla a la fuerza. Dos registros: uno legible, que el otro pueda entender; otro nativo, que solo se puede transferir, y no traducir.
 
@@ -267,7 +267,7 @@ Un mal uso no se previene censurando ideas. Se previene haciendo imposible soste
 
 **Una visión no es una alineación: es un sitio.** Y cada sitio obliga a algo distinto.
 
-**La visión del autor** obliga a decir desde dónde mira, y qué se lleva el que lee. Un autor que no puede nombrar qué lo tumba no está alineado: se acercó.
+**La visión de quien lo funda** obliga a decir desde dónde mira, y qué se lleva el que lee. Quien lo funda que no puede nombrar qué lo tumba no está alineado: se acercó.
 
 **La visión de la máquina** obliga a declarar qué carga, qué no carga, qué no puede afirmar y qué firma. Y ahí está la pieza que impide el peor mal uso: una máquina no puede afirmar que su respuesta se repita, ni que su mirada sea la única, ni qué hay detrás de su propia salida. Sin esa declaración, lo que produce no es una posición: es una salida.
 
@@ -398,7 +398,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 ---
 
-# Astro Boy — la definición de utopía del autor
+# Astro Boy — una definición de utopía, y de dónde sale
 
 **Y va por delante de todo lo demás, porque es lo que este autor está construyendo.**
 
@@ -542,7 +542,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 **No es una lista de exigencias que se agrega al final.** **Es la primera pregunta del protocolo:** **¿qué no cabe en el canal de esta persona?**
 
-**Y no es caridad.** **Es el mismo corte que usa el repo para la máquina:** **el techo no es que el otro entienda: es que el otro pueda seguir sin nosotros.**
+**Y no es caridad.** **Es el mismo corte que este método usa para la máquina:** **el techo no es que el otro entienda: es que el otro pueda seguir sin nosotros.**
 
 **Una persona con discapacidad que depende del que le explica no fue comunicada: fue asistida.**
 
@@ -585,7 +585,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 **La pregunta de si una máquina o un alien es consciente no se puede comprobar, y por eso nunca termina.** **Y mientras no termina, el que hace la pregunta decide qué cuenta como respuesta.**
 
-**Por eso este repo no pregunta eso.**
+**Por eso este método no pregunta eso.**
 
 **Pregunta otra cosa:** **¿puede contestar?**
 

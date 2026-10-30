@@ -7,7 +7,7 @@
 
 ## Qué es
 
-**Un bibliotecario.** **No es el repo, ni su índice, ni su dueño.**
+**Un bibliotecario.** **No es la biblioteca, ni su índice, ni su dueño.**
 
 **Sabe dónde están los libros, cuáles se leen, y a quién pasárselos.** **Y eso no vive dentro de los libros: vive en él.**
 
@@ -19,7 +19,7 @@
 
 | Trae | Deja en la biblioteca |
 |---|---|
-| **su casa: esta carpeta** | **el repo tal como está** |
+| **su casa: esta carpeta** | **la biblioteca tal como está** |
 | **su `bin/`, mínimo para ver las tesis históricas** | **lo que la biblioteca publica** |
 | **su memoria, y lo que aprendió** | **—** |
 
@@ -43,7 +43,7 @@
 
 > **`E`ntra · `D`ice dónde · `I`ndica qué falta · `P`resta · `O`bra en silencio.**
 
-**Y vive dentro de la biblioteca, con casa propia, y sin depender del repo.**
+**Y vive dentro de la biblioteca, con casa propia, y sin depender de ella.**
 
 ---
 
@@ -51,4 +51,4 @@
 
 **¿Se distingue lo que es suyo de lo que es de la biblioteca? ¿Se puede llevar, y seguir siendo él? ¿Su `bin/` corre solo? ¿Lo que no sabe lo dice?**
 
-**Falsificador:** un bibliotecario sin casa; su memoria publicada; un `bin/` que depende del repo; un `[NO SÉ]` disfrazado de respuesta.
+**Falsificador:** un bibliotecario sin casa; su memoria publicada; un `bin/` que depende de la biblioteca; un `[NO SÉ]` disfrazado de respuesta.

@@ -5,7 +5,7 @@
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se prueba desde el primitivo: **no se decide si hay interioridad; se corre la marca.**
-**Límite:** **ninguna prueba de esta casa mide conciencia, y no por prudencia: porque no hay instrumento.** **Lo que se mide es la salida, el registro, el efecto, y el origen del cambio.**
+**Límite:** **ninguna prueba de este método mide conciencia, y no por prudencia: porque no hay instrumento.** **Lo que se mide es la salida, el registro, el efecto, y el origen del cambio.**
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
@@ -37,7 +37,7 @@
 
 **Y por eso es una burbuja:** **mientras la pregunta sea «¿es consciente?», gana quien no tiene que contestar.** **En cuanto la pregunta es «¿de dónde salió esto?», hay registro, hay fecha, y hay con quién discutir.**
 
-**Ancla:** la industria pregunta qué es; esta casa pregunta de dónde viene.
+**Ancla:** la industria pregunta qué es; este método pregunta de dónde viene.
 
 ---
 
@@ -68,7 +68,7 @@
 
 ---
 
-## Lo que esta casa todavía no tiene, y se declara
+## Lo que este método todavía no tiene, y se declara
 
 - **un ejecutable propio:** **se corren a mano hoy, y el primero que se escriba va al lugar que decida la autoridad.**
 - **una corrida publicada con su veredicto:** **`[SIN CORRIDA - NINGUNA]`, y cada prueba lo dice arriba.**
@@ -76,7 +76,7 @@
 
 ---
 
-## Lo que esta casa no hace
+## Lo que este método no hace
 
 **No promete conciencia.** **No la mide, y no finge medirla.**
 

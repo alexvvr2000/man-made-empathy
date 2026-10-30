@@ -31,7 +31,7 @@ Límite:      no enseña que todo se reduzca a lo infantil; enseña que si no ba
 
 ## Por qué es el ejemplo de lo mundano, y no un chiste
 
-**Porque `Peppa Pig` tiene algo que este repo necesita y que no se consigue con más teoría: se entiende sin saber nada.**
+**Porque `Peppa Pig` tiene algo que este método necesita y que no se consigue con más teoría: se entiende sin saber nada.**
 
 **Y el repo lo dijo desde su `README`:** **«esto se entiende sin saber el oficio».**
 

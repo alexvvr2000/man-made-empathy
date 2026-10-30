@@ -1,4 +1,4 @@
-# HUNTER × HUNTER — lo que no se puede nombrar, y el autor que dejó cuatro finales
+# HUNTER × HUNTER — lo que no se puede nombrar, y el mangaka que dejó cuatro finales
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
 
@@ -31,7 +31,7 @@ Límite:      no enseña a nombrar la malicia; enseña que el sistema de nombrar
 
 **Eso es la semilla y el borde, en las palabras del autor:** **cuatro finales, uno de ellos publicado por si se muere, y prefiere el que va a hacer enojar al 90 %.**
 
-**Y es el mejor ejemplo de todo el repo para el argumento del rastro:** **el autor dejó su criterio escrito antes de terminar, para que otro lo pudiera seguir.** **No dejó el final: dejó las opciones y su porqué.**
+**Y es el mejor ejemplo de todo el repo para el argumento del rastro:** **el mangaka dejó su criterio escrito antes de terminar, para que otro lo pudiera seguir.** **No dejó el final: dejó las opciones y su porqué.**
 
 ## Y un dato que explica el repo entero
 

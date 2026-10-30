@@ -44,7 +44,7 @@ Límite:      no enseña que el miedo sea bueno; enseña que los que lo despreci
 
 **Y el repo se equivocó antes de esto:** **buscó la película, la desmintió, y presentó el desmentido como si la cita no existiera.** **Lo que no existía era la obra en la búsqueda: la serie es de 2026, y apareció después.**
 
-**⚠️ Y la frase exacta que el autor citó —«show me a species that is fearless and I'll show you something on the extinction list»— sigue `[SIN VERIFICAR]`.** **Lo que el guion de `Lanterns` sí trae, y está verificado, es que su `Sinestro` dice lo mismo con otras palabras:** **el Cuerpo se equivoca, y el miedo es la fuerza más poderosa del universo.**
+**⚠️ Y la frase exacta que se citó —«show me a species that is fearless and I'll show you something on the extinction list»— sigue `[SIN VERIFICAR]`.** **Lo que el guion de `Lanterns` sí trae, y está verificado, es que su `Sinestro` dice lo mismo con otras palabras:** **el Cuerpo se equivoca, y el miedo es la fuerza más poderosa del universo.**
 
 ---
 
