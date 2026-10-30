@@ -111,7 +111,6 @@
 | **[`./ACTOS/ACTO.prs`](./ACTOS/ACTO.prs)** | **el ciclo antes de tocar: leer, clasificar, cambiar, cuadrar, declarar, subir** |
 | **[`./ACTOS/VIGA.prs`](./ACTOS/VIGA.prs)** | **leer un destino sin saber qué es** |
 | **[`./ACTOS/CONTEXTO.prs`](./ACTOS/CONTEXTO.prs)** | **de dónde vino, y que se usó bien** |
-| **[`./ACTOS/VERBALIZAR.prs`](./ACTOS/VERBALIZAR.prs)** | **darle nombre a lo que es, y que el nombre diga el acto** |
 | **[`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs)** | **el alma de niño es fija, y todo lo demás cambia: seis actos de mutación** |
 | **[`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs)** | **un proceso no se escribe: se refuta primero** |
 

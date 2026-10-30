@@ -24,7 +24,7 @@
 | Lo que | Cuánto | Dónde |
 |---|---|---|
 | **la idea, en una línea** | **una** | **[`./README.md`](./README.md)** |
-| **los procesos de dirección** | **10, cada uno con su falsificador** | **[`./direcciones/`](./direcciones/)** |
+| **los procesos de dirección** | **9, cada uno con su falsificador** | **[`./direcciones/`](./direcciones/)** |
 | **el ente y la colmena** | **la forma, y su ciclo fijo** | **[`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/)** |
 | **los dos hermanos que atienden** | **2, con sus tareas y sus cajas** | **[`./biblioteca/`](./biblioteca/)** |
 | **el argumento** | **12 piezas** | **[`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/)** |

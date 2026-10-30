@@ -44,6 +44,8 @@ Ente/
 
 **Y no trae `bin/`.** **Eso es del proyecto, y de todos.**
 
+**Y no trae un archivo de nombre aparte:** **el nombre va en su `LEEME.md`, y la regla para elegirlo está en el ciclo, en la parte de verbalizar.**
+
 **Y no trae `_herramientas/` en la raíz.** **Eso es de una tarea, y sólo de esa.**
 
 ### Qué se copia, y qué se cambia
@@ -188,7 +190,7 @@ Límite:      lo que NO enseña
 
 **1. Lee este documento. Ya está.**
 **2. Copia [`./entes/Ente/`](./entes/Ente/) a donde vaya a vivir tu ente.**
-**3. Abre su `NOMBRE.md`, y ponle nombre.**
+**3. Ponle nombre: el proyecto tiene uno, para que el agente no se desvíe; y si se batalla, se verbaliza. Rige el ciclo, en su parte de verbalizar.**
 **4. Lee su `LEEME.md`, y reescríbelo con lo que tu ente hace.**
 **5. Corre su piso, si lo tiene, y arregla lo que falte.**
 **6. Y cuando haya dos, copia [`./entes/Colmena/`](./entes/Colmena/) y ponlos adentro.**

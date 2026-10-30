@@ -44,7 +44,7 @@
 | **La puerta del producto** | **el documento único: qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/LEEME.md`](./Sincronización%20de%20almas/LEEME.md) |
 | **El ciclo del ente, y el de la colmena** | **seis pasos el ente, y el fijo llama a los ciclos propios; la colmena no tiene ciclo: los tienen los entes. Y son PLANTILLAS, no entes que atienden** | [`./Sincronización de almas/entes/Ente/LEEME.md`](Sincronización%20de%20almas/LEEME.md) · [`./Sincronización de almas/entes/Colmena/LEEME.md`](Sincronización%20de%20almas/LEEME.md) |
 | **La colmena que atiende** | **EDIPO el bibliotecario, y HERÓDOTO el historiador, con su evolucion y su talento compartidos** | [`./biblioteca/`](./biblioteca/) |
-| **La dirección: lo que se tiene que poder contestar** | **diez, cada uno con su falsificador** | [`./direcciones/`](./direcciones/) |
+| **La dirección: lo que se tiene que poder contestar** | **nueve, cada uno con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller del proyecto** | **herramientas que sirven a todos, y mutan bajo criterio** | [`./bin/`](./bin/) |
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
@@ -72,7 +72,7 @@
 | **correr el ciclo** | [`./Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](./Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs) | **se actúa sin leer, y sin decir que no se sabe** |
 | **juntar varios** | [`./Sincronización de almas/entes/Colmena/`](./Sincronización%20de%20almas/entes/Colmena/) | **son varios absolutos con el mismo nombre** |
 | **escribir un proceso** | [`./Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](./Sincronización de almas/entes/Ente/ciclo alma de niño.prs) | **se escribe un deseo con pasos** |
-| **nombrar algo** | [`./direcciones/ACTOS/VERBALIZAR.prs`](./direcciones/ACTOS/VERBALIZAR.prs) | **se pone una etiqueta, y lo que se deletrea no se corre** |
+| **nombrar algo** | [`./Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](./Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs), en su parte de verbalizar | **se pone un nombre que no dice el acto** |
 | **hablar con otro que no es como uno** | [`./direcciones/ACTOS/ALAS.prs`](./direcciones/ACTOS/ALAS.prs) | **se trunca, y se lee como completo** |
 | **declarar de dónde vino algo** | [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs) | **lo heredado se presenta como propio** |
 | **publicar algo, o citar una obra** | [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |

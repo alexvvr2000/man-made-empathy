@@ -18,7 +18,7 @@
 |---|---|---|---|
 | **archivos en el repositorio** | **130** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
 | **fichas de obras** | **34** | **`Sincronización de almas/ejemplos/ficcion/`** | **contar los `.md`** |
-| **direcciones** | **10** | **`direcciones/`** | **contar los `.md`** |
+| **direcciones** | **9** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
 | **piezas de ideas** | **16** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
 | **piezas en `bin/`** | **5** | **`bin/`** | **contar los archivos** |
