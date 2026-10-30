@@ -71,7 +71,7 @@ Segunda:     [sí, con cuál | no, y por qué]
 
 **No se cita una fuente que no se abrió.** **El enlace copiado no es la lectura.**
 
-**No se convierte una obra en prueba.** **Rige [`../../../Pruebas/`](../../Pruebas/): una referencia no es una medición.**
+**No se convierte una obra en prueba.** **Rige [`../../../Pruebas/`](https://github.com/alexvvr2000/man-made-empathy/tree/main/Pruebas): una referencia no es una medición.**
 
 **No se verifican los sentimientos.** **Lo que provocó una obra no se comprueba; se declara.**
 

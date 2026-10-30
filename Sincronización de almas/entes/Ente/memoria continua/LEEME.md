@@ -37,7 +37,7 @@
 
 ## Y no se publica
 
-**Lo que hay aquí es del trabajo, y no de la entrega.** **Rige [`../../../../.gitignore`](../../../../.gitignore).**
+**Lo que hay aquí es del trabajo, y no de la entrega.** **Quien lo copie decide si lo publica.**
 
 ---
 

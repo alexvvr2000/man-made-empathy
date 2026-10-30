@@ -9,7 +9,7 @@
 | **[`./Ente/`](./Ente/)** | **un ente completo, y vacío de nombre** | **se copia, se le pone nombre, y ya atiende** |
 | **[`./Colmena/`](./Colmena/)** | **el lugar donde viven varios entes** | **se copia cuando ya hay más de uno** |
 
-**Y ninguna de las dos es un ente que atiende: son la forma.** **Lo que atiende de verdad está en [`../../biblioteca/`](../../biblioteca/).**
+**Y ninguna de las dos es un ente que atiende: son la forma.** **Lo que atiende de verdad vive en el repo, y no en esta carpeta: el punto 0 no depende de nadie.**
 
 ## El corte, y es el que ordena todo
 

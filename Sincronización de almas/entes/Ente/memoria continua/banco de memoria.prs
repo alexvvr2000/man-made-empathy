@@ -64,7 +64,7 @@ Turno:     [dónde quedó, para poder volver]
 
 **El registro va a un archivo `jsonl` al lado de este `.prs`.** **Una línea, un registro, y se lee con cualquier cosa.**
 
-**Y no se publica.** **Rige [`../../../../.gitignore`](../../../../.gitignore).**
+**Y no se publica.** **Quien lo copie decide si lo publica: es la memoria viva de su ente, y no la forma.**
 
 ---
 

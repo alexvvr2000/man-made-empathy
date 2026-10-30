@@ -21,7 +21,7 @@
 
 **Y lo que eso te deja hacer:** **todo lo demás.** **Lo que el ente aprenda cabe en `evolucion/`, y lo que sirve a todos cabe en el `bin/` del proyecto.** **El guantelete lo toca, y el alma no.**
 
-**Rige [`../../ejemplos/ficcion/source-wall.md`](../../ejemplos/ficcion/source-wall.md), que es el ejemplo, y [`../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs), que es la regla.**
+**Rige [`../../ejemplos/ficcion/source-wall.md`](../LEEME.md), que es el ejemplo, y [`./ciclo alma de niño.prs`](./ciclo alma de niño.prs), que es la regla.**
 
 ---
 
@@ -77,7 +77,7 @@ evolucion/
 
 **Y el orden, que sí importa:** **primero se pasa por `procesos base/` (debatir, firmar, guantelete), y después se escribe en `evolucion/`.** **Al revés no cuenta.**
 
-**Rige [`../../../direcciones/ACTOS/ACTO.prs`](../../../direcciones/ACTOS/ACTO.prs), que es el ciclo del acto, y [`./procesos%20base/guantelete.prs`](./procesos%20base/guantelete.prs), que es el que lo toca.**
+**Rige [`./ciclo%20alma%20de%20ni%C3%B1o.prs`](./ciclo%20alma%20de%20ni%C3%B1o.prs), que es el ciclo del acto, y [`./procesos%20base/guantelete.prs`](./procesos%20base/guantelete.prs), que es el que lo toca.**
 
 
 **Y el acto vuelve al banco.** **Eso es el ciclo: lo que se escribe, se lee.**
@@ -167,8 +167,8 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Se corren aquí, en el paso 4, y no son procesos aparte.**
 
-- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../ideas/mutar.md`](../../ideas/mutar.md).**
-- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../ideas/procesos.md`](../../ideas/procesos.md).**
+- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../ideas/mutar.md`](./LEEME.md).**
+- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../ideas/procesos.md`](./LEEME.md).**
 
 **Y la regla que las une:** **todo acto dice qué se pierde, y si se puede recuperar.**
 

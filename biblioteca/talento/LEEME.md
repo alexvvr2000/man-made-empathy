@@ -1,23 +1,17 @@
-# TALENTO — lo que cada ente aguanta, y a qué precio
+# talento — se cita de la plantilla
 
-**Cuándo se abre:** **cuando se reparte un trabajo, y cuando un ente entra o sale.**
+**Cuándo se abre:** **cuando la biblioteca va a usar esto, y hay que saber de dónde viene.**
 
-## Lo que hay aquí
+**Y este LEEME NO vive aquí: se cita de la plantilla.**
 
-| Lo que | Qué es |
-|---|---|
-| **[`./TALENTO.prs`](./TALENTO.prs)** | **el proceso: qué se le vio aguantar, con testigo y precio** |
-| **y el banco real** | **la tabla, que se llena sola al correrlo** |
+**Rige [$enc](../../Sincronización%20de%20almas/entes/Colmena/talento/LEEME.md).**
 
-## Y el corte
+**Y por qué se cita, y no se copia:** **dentro del repo hay una versión y no dos.** **Si se copia, se separan, y ninguna manda.**
 
-> **No es lo que cada uno dice que sabe.**
-> **Es lo que se le vio aguantar, y el precio al que lo entrega.**
-
-**Y lo que NO aguanta es lo que sirve.** **Porque lo que nadie vio no es talento: es lo que el ente cree de sí mismo.**
+**Y si la biblioteca necesita algo distinto, se pide al punto 0, y se cambia allá: una versión, y con su porqué.**
 
 ## Prueba
 
-**¿Cada línea tiene su rastro? ¿Se dice lo que no aguanta? ¿Hay testigo?**
+**¿Esto es una copia, o una cita?**
 
-**Falsificador:** un talento sin rastro; un "puedo con todo"; un banco que es la suma de lo que cada uno dijo de sí.
+**Falsificador:** una copia que ya divergió de la plantilla.

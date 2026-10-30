@@ -1,27 +1,17 @@
-# EVOLUCION — lo que acordaron, y sus tareas
+# evolucion — se cita de la plantilla
 
-**Cuándo se abre:** **cuando la colmena va a hacer algo junto, y antes de escribirlo.**
+**Cuándo se abre:** **cuando la biblioteca va a usar esto, y hay que saber de dónde viene.**
 
-## Lo que hay aquí
+**Y este LEEME NO vive aquí: se cita de la plantilla.**
 
-| Lo que | Qué es |
-|---|---|
-| **[`./ACUERDO.prs`](./ACUERDO.prs)** | **el proceso: la falta, quién, el precio, el `Contra`, y quién acepta** |
-| **`<la tarea>/`** | **cada tarea acordada, con sus procesos y su `_herramientas/`** |
-| **`ACUERDO - <la tarea>.md`** | **el acuerdo de cada tarea, y sin él no entra** |
+**Rige [$enc](../../Sincronización%20de%20almas/entes/Colmena/evolucion/LEEME.md).**
 
-## Y el corte
+**Y por qué se cita, y no se copia:** **dentro del repo hay una versión y no dos.** **Si se copia, se separan, y ninguna manda.**
 
-> **Sin `ACUERDO.prs` corrido, y sin su `Contra` escrito, no se escribe aquí.**
-
-**Y el comando lo revisa:** **una tarea sin su acuerdo, falla.**
-
-## Y no es la suma de los individuales
-
-**Es lo que varios aceptaron.** **Y lo que cada uno aprendió por su cuenta se queda con él.**
+**Y si la biblioteca necesita algo distinto, se pide al punto 0, y se cambia allá: una versión, y con su porqué.**
 
 ## Prueba
 
-**¿Cada tarea tiene su acuerdo? ¿Hay un `Contra` escrito? ¿Se conservó el criterio de cada uno?**
+**¿Esto es una copia, o una cita?**
 
-**Falsificador:** una tarea sin acuerdo; un acuerdo sin `Contra`; un `evolucion/` que es la suma.
+**Falsificador:** una copia que ya divergió de la plantilla.

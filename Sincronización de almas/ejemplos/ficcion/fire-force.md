@@ -32,7 +32,7 @@ Límite:      no es prueba de nada; es el nombre de una época, puesto por la au
 
 **Y porque dice lo que este repositorio sostiene, con las palabras del autor:** **lo que se escribe no es de la persona; es del alma que deja rastro.**
 
-**Y la imagen no va, y no es un olvido:** **es una captura de una obra, y este repositorio cita sus obras: no las reproduce.** **Rige [`../LEEME`](../LEEME.md), y [`../../../../ATTRIBUTION.md`](../../../ATTRIBUTION.md).**
+**Y la imagen no va, y no es un olvido:** **es una captura de una obra, y este repositorio cita sus obras: no las reproduce.** **Rige [`../LEEME`](../LEEME.md), y [`../../../../ATTRIBUTION.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/ATTRIBUTION.md).**
 
 ---
 
@@ -40,7 +40,7 @@ Límite:      no es prueba de nada; es el nombre de una época, puesto por la au
 
 **No enseña que seamos almas.** **Enseña lo que quien lo trajo entendió de una escena, y lo pone como el nombre de una época.**
 
-**Y no es una prueba del argumento.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../ideas/la singularidad buena.md`](../../ideas/la%20singularidad%20buena.md).**
+**Y no es una prueba del argumento.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../ideas/la singularidad buena.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/Sincronizaci%C3%B3n%20de%20almas/ideas/la%20singularidad%20buena.md).**
 
 ---
 

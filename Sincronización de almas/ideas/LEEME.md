@@ -85,10 +85,10 @@
 | Lo que busca | Dónde está |
 |---|---|
 | **las obras, y qué provocaron** | **[`../ejemplos/`](../ejemplos/)**, una ficha por obra, con su estado |
-| **lo que se tiene que poder contestar** | **[`../../direcciones/`](../../direcciones/)**, trece procesos, con su falsificador |
+| **lo que se tiene que poder contestar** | **[`../../direcciones/`](https://github.com/alexvvr2000/man-made-empathy/tree/main/direcciones)**, trece procesos, con su falsificador |
 | **cómo se hace un ente** | **[`../entes/`](../entes/)**, y sus dos ciclos |
-| **de dónde vino todo esto** | **[`../../contexto.md`](../../contexto.md)**, y **[`../../FUENTES.md`](../../FUENTES.md)** |
-| **lo que esta versión no tiene** | **[`../../ALCANCE.md`](../../ALCANCE.md)** |
+| **de dónde vino todo esto** | **[`../../contexto.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/contexto.md)**, y **[`../../FUENTES.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/FUENTES.md)** |
+| **lo que esta versión no tiene** | **[`../../ALCANCE.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/ALCANCE.md)** |
 
 ---
 

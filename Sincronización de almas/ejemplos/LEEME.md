@@ -5,7 +5,7 @@
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que va a verificar, y no desde el que ya se lo sabe.
-**Límite:** **no prueba nada.** **Provoca, y su verificación se declara; la prueba está en [`../../direcciones/`](../../direcciones/).**
+**Límite:** **no prueba nada.** **Provoca, y su verificación se declara; la prueba está en [`../../direcciones/`](https://github.com/alexvvr2000/man-made-empathy/tree/main/direcciones).**
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
@@ -16,7 +16,7 @@
 |---|---|---|
 | **[`./ficcion/`](./ficcion/)** | **34 fichas, de la ficción** | **con ficha: título, autor, año, y si la escena se abrió** |
 
-**Y nada más.** **Lo real y lo dicho no viven aquí:** **lo real se cita desde [`../../FUENTES.md`](../../FUENTES.md) cuando hace falta, y lo dicho, también.** **Una carpeta de «hechos» es la que más riesgo tiene, y no se abre hasta que haya algo que lo justifique.**
+**Y nada más.** **Lo real y lo dicho no viven aquí:** **lo real se cita desde [`../../FUENTES.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/FUENTES.md) cuando hace falta, y lo dicho, también.** **Una carpeta de «hechos» es la que más riesgo tiene, y no se abre hasta que haya algo que lo justifique.**
 
 **Y mientras llegan las fichas que faltan, se declara:** **`Thanos` no tiene ficha, y no cierra hasta que se escriba.**
 

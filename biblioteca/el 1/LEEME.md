@@ -1,24 +1,17 @@
-# EL 1 — el acuerdo, y quién lo contesta
+# el 1 — se cita de la plantilla
 
-**Cuándo se abre:** **cuando la colmena va a acordar algo, y hay que saber quién responde.**
+**Cuándo se abre:** **cuando la biblioteca va a usar esto, y hay que saber de dónde viene.**
 
-## Lo que es
+**Y este LEEME NO vive aquí: se cita de la plantilla.**
 
-> **No es el jefe.** **Es donde se escribe qué se acordó, quién lo propuso, y quién lo contradijo.**
+**Rige [$enc](../../Sincronización%20de%20almas/entes/Colmena/el%201/LEEME.md).**
 
-**Y el acuerdo no es una votación: es un registro.** **Lo que se hace junto, se acordó antes, y quedó escrito.**
+**Y por qué se cita, y no se copia:** **dentro del repo hay una versión y no dos.** **Si se copia, se separan, y ninguna manda.**
 
-## Y lo que no entra
-
-**El criterio de nadie.** **Cada ente conserva el suyo.**
-**Y un acuerdo que unifica el criterio no es un acuerdo: es la fusión.**
-
-## Dónde se escribe
-
-**En el [`../evolucion/`](../evolucion/), con su [`../evolucion/ACUERDO.prs`](../evolucion/ACUERDO.prs).** **Y aquí se dice quién contesta.**
+**Y si la biblioteca necesita algo distinto, se pide al punto 0, y se cambia allá: una versión, y con su porqué.**
 
 ## Prueba
 
-**¿Se sabe quién propuso, y quién contradijo? ¿Se conservó el criterio de cada uno?**
+**¿Esto es una copia, o una cita?**
 
-**Falsificador:** un acuerdo sin quién lo propuso; un criterio unificado; un acuerdo sin `Contra`.
+**Falsificador:** una copia que ya divergió de la plantilla.

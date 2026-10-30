@@ -1,85 +1,17 @@
-# ACUERDO.prs — lo que la colmena aceptó, y sin esto no se escribe en el evolucion/ compartido
+# ACUERDO — se cita de la plantilla
 
-**Cuándo se corre:** **antes de escribir cualquier tarea en el `evolucion/` compartido de la colmena, y una vez por acuerdo.**
+**Cuándo se abre:** **cuando la biblioteca va a usar esto, y hay que saber de dónde viene.**
 
-**Nombre.** ACUERDO — **A**brir la falta, **C**ontar quién puede, **U**nir el precio, **E**scribir el contra, **R**egistrar quién aceptó, **D**ecidir si entra, **O**brar.
+**Y este ACUERDO NO vive aquí: se cita de la plantilla.**
 
-**Clase:** proceso. **Aplica a:** toda tarea que vaya al `evolucion/` compartido de una colmena.
+**Rige [$enc](../../Sincronización%20de%20almas/entes/Colmena/evolucion/ACUERDO.prs).**
 
-**Sesgo:** se lee desde el que se queda fuera del acuerdo, y no desde el que lo propone.
-**Límite:** **no unifica el criterio de nadie.** **Decide qué se hace juntos, y con qué precio.**
-**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
-**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+**Y por qué se cita, y no se copia:** **dentro del repo hay una versión y no dos.** **Si se copia, se separan, y ninguna manda.**
 
-**Peor:** uno escribe en el `evolucion/` compartido **y los demás se enteran después.** **Eso no es acuerdo: es un hecho consumado con forma de tarea.**
-
----
-
-## Entra | Falla si | Sale | Consume
-
-- **Entra:** la tarea que se quiere hacer en conjunto, y quiénes están en la colmena. **Modo: escribe.**
-- **Falla si:** se escribe sin acuerdo; se unifica el criterio; una tarea entra sin `Contra`; se escribe en nombre de otro.
-- **Sale:** la tarea con su acuerdo firmado, **o `[NO ENTRA - FALTA EL ACUERDO]`**.
-- **Consume:** todos los entes de la colmena, y quien lea el `evolucion/` compartido mañana.
-
----
-
-## El ciclo, y son cinco pasos
-
-```plaintext
-1. FALTA      qué falta, y ninguno de los dos la cubre solo
-2. QUIEN      quién la hace bien, y en qué posición de la cadena
-3. PRECIO     el coste por resultado de la cadena, y no el de cada pieza
-4. CONTRA     alguien dice por qué no, y se escribe. Sin Contra no hay acuerdo.
-5. ACEPTA     cada ente dice si acepta, con su nombre. Y el que no puede, queda escrito
-```
-
-**Y el cuarto es el que no se salta:** **un acuerdo sin `Contra` no es acuerdo: es silencio. Y el silencio no es permiso.**
-
----
-
-## Lo que cada acuerdo deja escrito, y sin él no entra
-
-```plaintext
-La falta:       [qué falta, y por qué ninguno solo puede]
-Quién:          [quién la hace, y en qué posición de la cadena]
-Precio:         [el coste por resultado de la cadena]
-Contra:         [el que dijo no, y por qué. Obligatorio]
-Aceptan:        [el nombre de cada ente que aceptó]
-No puede:       [el que no puede, y a quién se le puede pedir]
-Criterio:       [no se toca: cada uno conserva el suyo]
-```
-
-**Y ese acuerdo se escribe en `ACUERDO/<la tarea>.md`, antes de que la tarea entre al `evolucion/` compartido.**
-
----
-
-## Y la búsqueda, que es lo que separa afirmar de repetir
-
-> **Lo externo no se recuerda: se busca, o se tacha.**
-
-| Lo que se busca | Dónde | Y si no se encuentra |
-|---|---|---|
-| **qué aguanta cada ente, y a qué precio** | **su `procesos base/` y su `evolucion/`** | **`[SIN ENCONTRAR - SE PREGUNTA AL ENTE]`** |
-| **si alguien ya hizo esa tarea** | **el `evolucion/` compartido, y el de cada uno** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
-| **la obra o el caso que la provocó** | **su ficha, o el registro** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
-
-**Y el registro, que es lo que lo hace servir de prueba:**
-
-```plaintext
-Se buscó:     [la pregunta exacta]
-Dónde:        [el motor, la ficha, la fuente, o el enlace]
-Decía:        [lo que decía, literal o citado]
-Segunda:      [sí, con cuál | no, y por qué]
-Conclusión:   [se sostiene | se cae | no se pudo juzgar]
-```
-
-**Rige el `procesos base/BUSCAR.prs` de cada ente, y el proceso de talento para el banco compartido.**
-
----
+**Y si la biblioteca necesita algo distinto, se pide al punto 0, y se cambia allá: una versión, y con su porqué.**
 
 ## Prueba
 
-**¿Hay acuerdo antes de la tarea? ¿Cada ente dijo su nombre? ¿Hay un `Contra` escrito? ¿Se conservó el criterio de cada uno? ¿El precio es el de la cadena, y no el de la pieza?**
+**¿Esto es una copia, o una cita?**
 
-**Falsificador:** una tarea en el `evolucion/` compartido sin acuerdo; un acuerdo sin `Contra`; un criterio unificado; alguien que acepta por otro; una tarea que nadie acordó.
+**Falsificador:** una copia que ya divergió de la plantilla.

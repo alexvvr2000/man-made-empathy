@@ -21,7 +21,7 @@ Almas/
 
 **Y un ente NO trae `bin/`: eso es del proyecto.** **El ente trae sus tareas, y cada tarea su `_herramientas/`.**
 
-**Y aquí no hay entes: es la plantilla.** **Los de verdad están en [`../../../../biblioteca/Almas/`](../../../../biblioteca/Almas/).**
+**Y aquí no hay entes: es la plantilla.** **Los de verdad viven en el repo, y no en esta carpeta: el punto 0 no depende de nadie.**
 
 ## Prueba
 
