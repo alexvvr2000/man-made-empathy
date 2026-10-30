@@ -57,3 +57,8 @@
 **No va a mezclar el MCU con lo demás.** **Esto se cierra cuando el repo esté acabado, y con lo suyo: seis gemas, ficha, prueba y falsificador.**
 
 **Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+
+## Qué provoca, y qué no
+
+**Qué provoca:** **¿qué pasa cuando el que tiene el poder decide por todos, y cree que su cuenta es la buena?**
+**Límite:** **no enseña que Thanos tenga razón; enseña que el guantelete del repo sale de aquí, y que el argumento ya lo separó de All-Star Superman.**
