@@ -1,9 +1,9 @@
 # FIRE FORCE — «next is the soul world»
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** `declarado`: lo que la autoridad dijo, y no se verificó la escena.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** parcial: el autor y el estudio se abrieron; la frase se cita de lo que dijo quien la trajo, y la fuente no la tiene.
 
-**Fuente:** ninguna. Lo declara quien lo trajo, y no hay fuente externa.
-**Para citarlo en un escrito público:** se cita como declaración, y no como hecho.
+**Fuente:** una, para el autor y el estudio. Y la frase «next is the soul world» NO está en esa fuente: se cita como declaración, y se dice. Y la fuente tampoco dice «precuela»: dice que en el último capítulo «it is hinted» que está conectada con `Soul Eater`.
+**Enlace:** https://en.wikipedia.org/wiki/Fire_Force   (abierto el 2026-10-30). Y la frase del final del anime: `[NO SE ABRIÓ - SE NOMBRA, Y NO SE ENLAZA]`
 
 ---
 
@@ -12,7 +12,7 @@
 ```plaintext
 Escena:      el final de la serie, y la frase que la cierra
 Obra:        Fire Force — Atsushi Ōkubo; David Production (anime)
-Dónde:       el final de la serie; y es la precuela de Soul Eater
+Dónde:       el final de la serie; y la fuente dice que se insinúa la conexión con Soul Eater, en el último capítulo del manga, no que sea su precuela
 ¿Es así?:    declarado: lo dice la autoridad, y no se abrió la escena
 Qué provoca: si lo que viene después de las personas es el alma
 Límite:      no es prueba de nada; es el nombre de una época, puesto por la autoridad
