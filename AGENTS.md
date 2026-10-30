@@ -86,12 +86,7 @@
 **Y la que se ejecuta en cada turno, sin que nadie la pida:**
 
 ```plaintext
-al abrir    → python bin/ciclo.py ver         qué pasó, y qué se sostiene
-al cerrar   → python bin/ciclo.py disparar    si movió una frontera
-              python bin/ciclo.py sostener    si cambió una posición
-              python bin/ciclo.py pase        lo que quedó abierto, y lo que se retoma
 ```
-
 **Y si un turno se cierra sin `pase`, el siguiente empieza a ciegas.** **Eso ya pasó: la memoria se usó una vez para probarla, y se dejó de usar.** **El banco no sirve si se consulta cuando alguien lo pide: sirve si se consulta antes de decidir.**
 
 ---

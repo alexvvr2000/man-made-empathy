@@ -51,6 +51,16 @@
 
 ---
 
+## Y lo que se retiró, y por qué
+
+| Lo que se retiró | Por qué |
+|---|---|
+| **`bin/ciclo.py` y `bin/esquema.sql`** | **hacían en SQLite lo que hoy hacen los bancos en texto, y nunca se instalaron.** **Dos formas de hacer lo mismo, y una sin usar, es ruido** |
+| **`LO QUE FALTA.md`** | **se convirtió en este documento: un alcance, y no una lista de faltas** |
+| **`MUTAR.prs` y `PROCESOS.prs`** | **entraron al ciclo fijo, y su prosa fue a `ideas/`** |
+
+---
+
 ## Y lo que se declara, sin que nadie lo pregunte
 
 **· cada ficha dice su fuente, y su estado; ninguna se presenta como verificada con dos**
