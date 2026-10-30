@@ -41,8 +41,8 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
-| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/LEEME.md`](./Sincronización%20de%20almas/entes/LEEME.md) |
-| **El ciclo del ente, y el de la colmena** | **seis pasos el ente, y el fijo llama a los ciclos propios; la colmena no tiene ciclo: los tienen los entes. Y son PLANTILLAS, no entes que atienden** | [`./Sincronización de almas/entes/Ente/LEEME.md`](./Sincronización%20de%20almas/entes/Ente/LEEME.md) · [`./Sincronización de almas/entes/Colmena/LEEME.md`](./Sincronización%20de%20almas/entes/Colmena/LEEME.md) |
+| **La puerta del producto** | **el documento único: qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/LEEME.md`](./Sincronización%20de%20almas/LEEME.md) |
+| **El ciclo del ente, y el de la colmena** | **seis pasos el ente, y el fijo llama a los ciclos propios; la colmena no tiene ciclo: los tienen los entes. Y son PLANTILLAS, no entes que atienden** | [`./Sincronización de almas/entes/Ente/LEEME.md`](Sincronización%20de%20almas/LEEME.md) · [`./Sincronización de almas/entes/Colmena/LEEME.md`](Sincronización%20de%20almas/LEEME.md) |
 | **La colmena que atiende** | **EDIPO el bibliotecario, y HERÓDOTO el historiador, con su evolucion y su talento compartidos** | [`./biblioteca/`](./biblioteca/) |
 | **La dirección: lo que se tiene que poder contestar** | **diez, cada uno con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller del proyecto** | **herramientas que sirven a todos, y mutan bajo criterio** | [`./bin/`](./bin/) |
@@ -65,7 +65,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **hacer un ente** | `./Sincronización de almas/entes/LEEME`, y se copia `Ente/` | **no se inventa la forma** |
+| **hacer un ente** | `./Sincronización de almas/LEEME.md`, y se copia `Ente/` | **no se inventa la forma** |
 | **tocar algo que otro sostiene** | [`./Sincronización de almas/entes/Ente/procesos base/guantelete.prs`](./Sincronización%20de%20almas/entes/Ente/procesos base/guantelete.prs) | **no se toca** |
 | **recordar qué pasó** | [`./Sincronización de almas/entes/Ente/memoria continua/banco de memoria.prs`](./Sincronización%20de%20almas/entes/Ente/memoria%20continua/banco%20de%20memoria.prs) | **se repite el mismo error** |
 | **sostener una posición** | [`./Sincronización de almas/entes/Ente/memoria continua/banco de friccion.prs`](./Sincronización%20de%20almas/entes/Ente/memoria%20continua/banco%20de%20friccion.prs) | **se obedece una conclusión sin saber de dónde vino** |

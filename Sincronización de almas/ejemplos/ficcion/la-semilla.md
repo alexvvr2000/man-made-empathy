@@ -80,7 +80,7 @@
 
 **Y no enseña a controlar el final.** **`FF7` mató a Aerith porque Sakaguchi estaba de duelo por su madre; `JJK` terminó con un juego de exterminio; `FMA` gastó el precio de Edward.** **Ninguna de las tres eligió el final desde el principio.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**
 
 ## Qué provoca, y qué no
 

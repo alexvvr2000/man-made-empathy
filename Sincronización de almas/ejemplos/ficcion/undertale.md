@@ -50,4 +50,4 @@ Límite:      no enseña a construir comunidad; enseña que la obra que deja ele
 
 **Y no enseña que la comunidad se pueda convocar.** **La ficha no dice cómo se juntó: dice que la obra dejó elegir, y que la gente respondió.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**

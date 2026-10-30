@@ -58,4 +58,4 @@ Límite:      no enseña a cambiar de postura; enseña que el cambio se puede de
 
 **Y no enseña a copiar sus posturas.** **Se cita lo que la obra cuenta del cambio, no lo que sostiene antes ni después.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**

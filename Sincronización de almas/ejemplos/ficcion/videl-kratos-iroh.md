@@ -65,4 +65,4 @@ Límite:      no enseña a ayudar; enseña las tres formas en que se puede dejar
 
 **Y lo que queda [SIN VERIFICAR] es una sola cosa:** **que Kratos piense que le tienen miedo por la trilogía griega.** **Eso es lectura del autor, y se declara como suya.**
 
-**Rige [`../LEEME`](../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**
+**Rige [`../LEEME`](../../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**

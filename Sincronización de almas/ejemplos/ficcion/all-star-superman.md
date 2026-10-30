@@ -77,4 +77,4 @@ Límite:      no enseña a entender a tiempo; la película es un castigo, y no u
 
 **Y no se cita el cómic cuando se cita la película.** **Son dos obras, y la autoridad sólo vio una.**
 
-**Rige [`../LEEME`](../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**
+**Rige [`../LEEME`](../../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**

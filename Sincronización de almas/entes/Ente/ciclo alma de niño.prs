@@ -21,7 +21,7 @@
 
 **Y lo que eso te deja hacer:** **todo lo demás.** **Lo que el ente aprenda cabe en `evolucion/`, y lo que sirve a todos cabe en el `bin/` del proyecto.** **El guantelete lo toca, y el alma no.**
 
-**Rige [`../../ejemplos/ficcion/source-wall.md`](../LEEME.md), que es el ejemplo, y [`./ciclo alma de niño.prs`](./ciclo alma de niño.prs), que es la regla.**
+**Rige [`./LEEME.md`](../../LEEME.md), que es el ejemplo, y [`./ciclo alma de niño.prs`](./ciclo alma de niño.prs), que es la regla.**
 
 ---
 
@@ -167,8 +167,8 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Se corren aquí, en el paso 4, y no son procesos aparte.**
 
-- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../ideas/mutar.md`](./LEEME.md).**
-- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../ideas/procesos.md`](./LEEME.md).**
+- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../ideas/mutar.md`](../../LEEME.md).**
+- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../ideas/procesos.md`](../../LEEME.md).**
 
 **Y la regla que las une:** **todo acto dice qué se pierde, y si se puede recuperar.**
 

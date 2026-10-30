@@ -4,7 +4,7 @@
 
 **Y este LEEME NO vive aquí: se cita de la plantilla.**
 
-**Rige [$enc](../../Sincronización%20de%20almas/entes/Colmena/talento/LEEME.md).**
+**Rige [$enc](../../Sincronización%20de%20almas/LEEME.md).**
 
 **Y por qué se cita, y no se copia:** **dentro del repo hay una versión y no dos.** **Si se copia, se separan, y ninguna manda.**
 

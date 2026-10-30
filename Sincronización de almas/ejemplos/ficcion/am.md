@@ -57,4 +57,4 @@ Límite:      no enseña cómo se detiene un absoluto; sólo muestra qué es lo 
 
 **Y su frase más honesta, que es de Ellison según la fuente:** **el final representa cómo hay "a spark of humanity in us, that in the last, final, most excruciating moment, will do the unspeakable in the name of kindness".** **O sea: el acto de Ted, matar por piedad, es el que se lee como humano.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**

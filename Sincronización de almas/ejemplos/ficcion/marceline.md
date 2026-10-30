@@ -50,4 +50,4 @@ Límite:      no enseña a parar una pelea; enseña que hay peleas que no se pue
 
 **Y no enseña que parar sea siempre malo.** **`Marceline` para peleas cuando toca; lo que no hace es parar todas antes de tiempo.**
 
-**Rige [`../LEEME`](../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**
+**Rige [`../LEEME`](../../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**

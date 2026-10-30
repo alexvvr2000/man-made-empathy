@@ -49,4 +49,4 @@ Límite:      no enseña a vivir sin propósito; enseña que el propósito no er
 
 **Y no enseña a llenar `LO HUMANO`.** **La película lo llena con una espiritualidad propia, y el repo lo deja vacío a propósito.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**

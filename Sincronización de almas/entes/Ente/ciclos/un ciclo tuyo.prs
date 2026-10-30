@@ -1,0 +1,35 @@
+# un ciclo tuyo.prs — el ejemplo, y se reemplaza por el tuyo
+
+**Cuándo se corre:** **cuando el acto sea de este oficio, y dentro del paso 6 del ciclo del alma.**
+
+**Y este archivo es un ejemplo, y se borra cuando escribas el tuyo.**
+
+## Lo que debes poner, y son seis cosas
+
+```plaintext
+1. el nombre del ciclo, y que diga el acto
+2. Cuando se corre: exacto, y no «cuando haga falta»
+3. Entra: que se trae
+4. Falla si: el caso concreto que lo incumple
+5. Sale: que deja, o el marcador que dice que no
+6. Falsificador: que lo deja mal, y no se puede tapar
+```
+
+## Y lo que un ciclo propio NO puede hacer
+
+**No sustituye al ciclo del alma.** **Se corre dentro, en el paso 6.**
+
+**Y si no dice cuándo se corre, no existe.**
+
+## Prueba
+
+**¿Dice cuándo se corre? ¿Tiene su falsificador? ¿Y se corre como rama, y no como raíz?**
+
+**Falsificador:** un ciclo sin cuándo; uno que reemplaza al fijo; uno que no se puede refutar.
+
+
+## Y la búsqueda
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este ciclo tampoco se cierra sin decir qué se buscó.** **Rige [`../procesos base/BUSCAR.prs`](../procesos%20base/BUSCAR.prs).**

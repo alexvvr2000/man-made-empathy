@@ -32,7 +32,7 @@ Límite:      no es prueba de nada; es el nombre de una época, puesto por la au
 
 **Y porque dice lo que este repositorio sostiene, con las palabras del autor:** **lo que se escribe no es de la persona; es del alma que deja rastro.**
 
-**Y la imagen no va, y no es un olvido:** **es una captura de una obra, y este repositorio cita sus obras: no las reproduce.** **Rige [`../LEEME`](../LEEME.md), y [`../../../../ATTRIBUTION.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/ATTRIBUTION.md).**
+**Y la imagen no va, y no es un olvido:** **es una captura de una obra, y este repositorio cita sus obras: no las reproduce.** **Rige [`../LEEME`](../../LEEME.md), y [`../../../../ATTRIBUTION.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/ATTRIBUTION.md).**
 
 ---
 

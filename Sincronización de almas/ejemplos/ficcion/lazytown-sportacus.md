@@ -64,4 +64,4 @@ Límite:      no enseña que el ejemplo funcione solo; el que mira tiene que pod
 
 **Y no enseña el caso del medallista, porque todavía no tiene fuente.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**

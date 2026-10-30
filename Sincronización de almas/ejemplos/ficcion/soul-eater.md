@@ -51,4 +51,4 @@ Límite:      no enseña a medir la afinación; sólo muestra que afinarse es lo
 
 **Y la ficha lo confirma:** **están "paired up", son dos, y la pelea depende de que sigan siéndolo.**
 
-**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../LEEME.md), la regla del ejemplo que no es absoluto.**
