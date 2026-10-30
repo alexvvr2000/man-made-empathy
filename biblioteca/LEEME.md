@@ -6,8 +6,8 @@
 
 | El ente | Qué hace |
 |---|---|
-| **[`./EDIPO/`](./EDIPO/)** | **el bibliotecario: dice qué hay, de quién es, y qué falta** |
-| **[`./HERÓDOTO/`](./HERÓDOTO/)** | **el historiador: dice qué hubo, con fecha, y de dónde vino** |
+| **[`./Almas/EDIPO/`](./Almas/EDIPO/)** | **el bibliotecario: dice qué hay, de quién es, y qué falta** |
+| **[`./Almas/HERÓDOTO/`](./Almas/HERÓDOTO/)** | **el historiador: dice qué hubo, con fecha, y de dónde vino** |
 
 **Y son hermanos, y no copias:** **`EDIPO` responde el enigma del que llega. `HERÓDOTO` no deja que se pierda la respuesta.**
 
