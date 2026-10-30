@@ -46,7 +46,7 @@
 
 **Empieza con "high school student Yuji Itadori" aprendiendo en una escuela, y termina con el `Culling Game`.**
 
-**Y la frase de los quince capítulos es un chiste de internet.** **No es de Gege Akutami, y la tesis vieja la ponía como si lo fuera.** **Se corrige, y se queda como lo que es: el chiste que describe el patrón.**
+**Y la frase de los quince capítulos es un chiste de internet.** **No es de Gege Akutami, y el argumento la ponía como si lo fuera.** **Se corrige, y se queda como lo que es: el chiste que describe el patrón.**
 
 ### `Final Fantasy VII` — verificado, **y con una declaración obligatoria**
 

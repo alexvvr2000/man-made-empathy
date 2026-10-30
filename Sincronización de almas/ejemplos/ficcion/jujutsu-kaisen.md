@@ -21,7 +21,7 @@ Límite:      no enseña a planear un arco largo; enseña la escala del salto
 
 **Y la frase de los quince capítulos, que hay que declarar: NO es del autor.**
 
-**«Pasamos de una serie de niños a matar a dios en quince capítulos» es un chiste que se dice en internet cuando se habla de anime y de tramas de ese tipo.** **No es una cita de Gege Akutami, y la tesis vieja la ponía como si lo fuera.** **Se corrige, y la frase se queda como lo que es: un chiste con su rastro.**
+**«Pasamos de una serie de niños a matar a dios en quince capítulos» es un chiste que se dice en internet cuando se habla de anime y de tramas de ese tipo.** **No es una cita de Gege Akutami, y quien la citó la ponía como si lo fuera.** **Se corrige, y la frase se queda como lo que es: un chiste con su rastro.**
 
 **Y lo que sí está verificado es lo que el chiste describe:** **la obra empieza con un estudiante aprendiendo en una escuela, y termina con el `Culling Game`, un juego de exterminio de alcance nacional.**
 

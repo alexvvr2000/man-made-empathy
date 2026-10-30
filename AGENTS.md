@@ -43,7 +43,7 @@
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
 | **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/README.md`](./Sincronización%20de%20almas/entes/README.md) |
 | **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/PLANTILLA.md`](./Sincronización%20de%20almas/entes/Ente/PLANTILLA.md) · [`./Sincronización de almas/entes/Colmena/PLANTILLA.md`](./Sincronización%20de%20almas/entes/Colmena/PLANTILLA.md) |
-| **La dirección: lo que se tiene que poder contestar** | **trece, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
+| **La dirección: lo que se tiene que poder contestar** | **doce, cada una con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
@@ -51,7 +51,7 @@
 | **Las versiones, y qué es beta** | **todo lo anterior al 2026-10-29 es beta; la 1.0.0 es el primer release** | [./VERSIONES.md](./VERSIONES.md) |
 | **Lo que la v1 no tiene** | **lo que falta, con su por qué y su cuándo** | [./LO QUE FALTA.md](./LO%20QUE%20FALTA.md) |
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
-| **Lo que se piensa** | **el cero sin sus ejemplos, y la tesis vieja con su índice** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
+| **Lo que se piensa** | **el cero sin sus ejemplos, y las ocho piezas que lo completan** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
 | **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
 | **Lo que se dijo y se descartó** | **el proceso de este trabajo, fuera de la biblioteca** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |
 | **El histórico del método** | **el esquema viejo y el rastro crudo: viven fuera de la biblioteca, y no en el repositorio** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |

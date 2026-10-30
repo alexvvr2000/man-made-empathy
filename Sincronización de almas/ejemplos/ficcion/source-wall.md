@@ -41,7 +41,7 @@ Límite:      no enseña cómo se contesta lo que se aprendió; sólo que se apr
 
 **Y no enseña el muro de Kirby, que es otro caso:** **el que intenta ver es destruido y se vuelve parte del muro.** **Se queda anotado, porque es el borde que no deja volver.**
 
-## Lo que se cambia en la tesis vieja, y se anota sin tocar el original
+## Lo que se cambia en el argumento, y se anota sin tocar el original
 
 **La tesis decía:** **"el borde que sólo sirve si lo firma algo que no es el que lo cruza."**
 **Y lo que la obra dice:** **el borde se cruza igual, y el que vuelve, vuelve sabiendo; el testigo es el que avisó y no fue escuchado.**

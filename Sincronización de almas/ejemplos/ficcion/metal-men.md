@@ -47,7 +47,7 @@ Límite:      no enseña cómo se reparte el trabajo; sólo que el material deci
 
 **Y no enseña que el conjunto gane solo por ser distinto:** **los Metal Men son origialmente un relleno de última hora —"as last minute filler"— y aún así aguantaron sesenta años.** **Lo que aguantó no fue la diversidad: fue que cada uno hacía algo que otro no.**
 
-## Lo que se toca de la tesis vieja, y se anota
+## Lo que se toca del argumento, y se anota
 
 **Decía:** **"cada uno no vale por sí solo, y en conjunto son más fuertes. No por parecerse: por compartir fondo."**
 

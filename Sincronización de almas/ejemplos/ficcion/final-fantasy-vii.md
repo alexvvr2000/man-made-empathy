@@ -23,7 +23,7 @@ Límite:      no enseña a reconstruir una identidad: enseña a aceptarla cuando
 
 **O sea: la obra entera de `FF7` no es sobre sirena ni sobre la compañía: es sobre un hombre que descubre que su memoria no era suya, y aun así sigue.**
 
-**Y esa es la pieza que la tesis necesita, y la tesis vieja la intuye cuando dice:** **"la memoria no necesita ser la misma."**
+**Y esa es la pieza que el argumento necesita, y se sostiene cuando dice:** **"la memoria no necesita ser la misma."**
 
 ## Lo que la ficha dice del desarrollo, y es la mejor `semilla` del repo
 

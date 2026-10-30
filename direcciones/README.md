@@ -46,6 +46,23 @@
 
 ---
 
+## Y la regla que separa lo bueno de lo listo
+
+> **Bueno no significa listo.**
+
+**Y lo que cada uno quiere decir, en concreto:**
+
+| La palabra | Qué afirma | Qué no afirma |
+|---|---|---|
+| **bueno** | **el trabajo está bien hecho, y no miente sobre sí mismo** | **que esté terminado** |
+| **listo** | **se puede entregar, y no hay nada que esperar** | **nada: ésa es la que hay que poder probar** |
+
+**Y la prueba, que se corre antes de decir «listo»:** **¿lo que falta está declarado? ¿los números cuadran con lo que hay? ¿cada rutina se corrió, o se dice que no?** **Si alguna falla, es bueno, y no está listo.**
+
+**Y por qué se escribe aquí:** **porque la prisa por entregar es lo que convierte un trabajo bueno en una promesa.** **Y una promesa con números que no cuadran se cobra.**
+
+---
+
 ## El corte que no se pregunta
 
 > **Cuando algo mejora en cualquiera —en un ente, en su memoria, o en un proyecto— lo que sirve a todos va al repo.**

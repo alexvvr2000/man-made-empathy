@@ -34,7 +34,7 @@ Límite:      no enseña a medir la afinación; sólo muestra que afinarse es lo
 
 **No enseña que resonar sea bueno siempre.** **Un par que sólo funciona junto es el caso que la tesis llama `[ENCADENADOS]`, y sería el peor ejemplo si se copiara tal cual.**
 
-**Y por eso la tesis vieja ya lo decía bien:** **"la resonancia entre dos que siguen siendo dos viene de ahí"** — **lo que se toma es la sintonía, no la dependencia.**
+**Y por eso el argumento ya lo decía bien:** **"la resonancia entre dos que siguen siendo dos viene de ahí"** — **lo que se toma es la sintonía, no la dependencia.**
 
 ## Lo que la anécdota añade, y no se mezcla
 
