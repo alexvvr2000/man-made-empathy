@@ -16,16 +16,37 @@
 
 | Lo que | Cuánto | Dónde | Cómo se comprueba |
 |---|---|---|---|
-| **archivos en el repositorio** | **121** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
+| **archivos en el repositorio** | **129** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
 | **fichas de obras** | **34** | **`Sincronización de almas/ejemplos/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **13** | **`direcciones/`** | **contar los `.md`** |
-| **pruebas escritas** | **7** | **`Pruebas/`** | **contar los `.md`** |
-| **piezas de ideas** | **14** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
+| **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
+| **piezas de ideas** | **13** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
 | **piezas en `bin/`** | **7** | **`bin/`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
-| **commits en el historial** | **594** | **el historial de git** | **`git rev-list --count HEAD`** |
+| **commits en el historial** | **616** | **el historial de git** | **`git rev-list --count HEAD`** |
 | **días con commits** | **28** | **el git** | **agrupar por fecha** |
 | **primer commit** | **`505c659`, del 2026-10-01** | **el historial de git** | **`git log --reverse`** |
+
+---
+
+## La raíz, archivo por archivo, y no se escapa ninguno
+
+**Y un archivo de la raíz que no esté aquí es un archivo que nadie revisa.**
+
+| El archivo | Qué es |
+|---|---|
+| **`README.md`** | **la puerta: qué es esto, y qué se puede comprobar** |
+| **`AGENTS.md`** | **lo que se carga solo: las reglas, la ruta, y la carga** |
+| **`INVENTARIO.md`** | **este archivo: lo que hay, y su comando** |
+| **`LO QUE FALTA.md`** | **lo que no hay, con nombre** |
+| **`PARA EL ABOGADO.md`** | **lo único que lee un abogado** |
+| **`ATTRIBUTION.md`** | **el alcance de la licencia, y de quién es cada pieza** |
+| **`FUENTES.md`** | **las personas reales, nombradas, y la regla de los nombres** |
+| **`contexto.md`** | **la máquina, los nombres vivos y los muertos** |
+| **`VERSIONES.md`** | **qué es cada versión, y qué tag la marca** |
+| **`CITATION.cff`** | **cómo se cita esto, y con qué correo** |
+| **`LICENSE.txt`** | **la licencia entera** |
+| **`futuros posibles.md`** | **la que contesta «y para qué sirve»** |
 
 ---
 

@@ -118,7 +118,7 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 | **se toca el alma de niño** | el borde | es `AM`, con buena letra |
 | **se cambia `evolucion/` en dos cosas a la vez** | el rastro | no se sabe qué lo movió |
 | **se borra una tarea sin decir qué falta dejó** | el criterio | se repite el problema que esa tarea cubría |
-| **se cierra sin llave** | la apertura | el candado se vuelve opinión con candado dibujado |
+| **se cierra sin llave** | la apertura | la posición se vuelve opinión con candado dibujado |
 | **se firma sin `me lo dice`** | la corrección | el error no se puede reclamar |
 | **se salta el pase** | la continuidad | el siguiente turno empieza ciego |
 

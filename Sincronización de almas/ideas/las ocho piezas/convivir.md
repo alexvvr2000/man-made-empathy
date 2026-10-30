@@ -1,4 +1,4 @@
-# convivir — el candado cero
+# convivir — la pregunta, y su respuesta
 
 **Posición.** **¿Se puede convivir sin volverse el otro ni someterlo?**
 

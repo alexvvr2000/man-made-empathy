@@ -1,4 +1,4 @@
-# la colmena — el candado cero
+# la colmena — la pregunta, y su respuesta
 
 **Posición.** **¿Qué es una colmena de agentes que no se vuelve AM?**
 

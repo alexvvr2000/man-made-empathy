@@ -51,7 +51,7 @@
 | **alma de niño** | **la función de estar equivocado sin romperse** | **es una función, no una poesía** |
 | **RESONANCIA** | **dos que se afinan sin volverse uno** | **se llamó `GIRO`** |
 | **TALENTO** | **lo que aguanta el golpe** | **se llamó `YUNQUE`** |
-| **JONN** | **el recordatorio de que un candado se abre** | **un nombre propio, elegido por el autor** |
+| **JONN** | **el recordatorio de que una posición se abre** | **un nombre propio, elegido por el autor** |
 | **CONTEXTO** | **de dónde vino, y que se usó bien** | **el sitio desde donde se mira** |
 | **RASTRO** | **el primitivo: lo que entra y lo que sale** | **lo que queda de lo que pasó** |
 

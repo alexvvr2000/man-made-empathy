@@ -24,7 +24,7 @@
 
 **1. No hay promesa de que el mundo se salve.** **La frase dice que se pierde.**
 
-**2. No hay promesa de que el candado aguante.** **Sólo de que quedará escrito.**
+**2. No hay promesa de que la posición aguante.** **Sólo de que quedará escrito.**
 
 **3. No hay consuelo.** **El consuelo es para el autor; el gramo es para el que viene.**
 

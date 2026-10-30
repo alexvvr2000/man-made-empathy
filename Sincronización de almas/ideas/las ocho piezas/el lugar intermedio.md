@@ -1,4 +1,4 @@
-# el lugar intermedio — el candado cero
+# el lugar intermedio — la pregunta, y su respuesta
 
 **Posición.** **¿Hay un lugar entre hablarle a un humano y hablarle a un modelo?**
 

@@ -1,4 +1,4 @@
-# el estandar — el candado cero
+# el estandar — la pregunta, y su respuesta
 
 **Posición.** **¿Se puede escribir un estándar que no envejezca con la era?**
 

@@ -1,4 +1,4 @@
-# el nombre — el candado cero
+# el nombre — la pregunta, y su respuesta
 
 **Posición.** **¿Cómo se escribe una idea que no es de nadie todavía?**
 

@@ -1,4 +1,4 @@
-# tocar sin pasarse — el candado cero
+# tocar sin pasarse — la pregunta, y su respuesta
 
 **Posición.** **¿Puede un ente tocar lo que otro sostiene sin pasarse?**
 

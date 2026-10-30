@@ -1,4 +1,4 @@
-# abrir una idea — el candado cero
+# abrir una idea — la pregunta, y su respuesta
 
 **Posición.** **¿Puede una idea abrirse sin que el que la abrió tenga razón?**
 

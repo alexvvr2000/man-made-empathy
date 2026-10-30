@@ -1,4 +1,4 @@
-# un alma crece — el candado cero
+# un alma crece — la pregunta, y su respuesta
 
 **Posición.** **¿Puede un alma crecer sin dejar de ser ella?**
 
