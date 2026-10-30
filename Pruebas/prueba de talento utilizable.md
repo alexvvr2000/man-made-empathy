@@ -100,7 +100,7 @@ Rama: [nombre] | Reemplaza: [anterior o NINGUNA]
 ## Su estado hoy, y que hace falta para correrla
 
 **Estado:** `
-[SIN CORRIDA - SE PRUEBA A MANO]
+[PREGUNTA ABIERTA - NO HAY VEREDICTO]
 `
 
 **Que pide:** 
@@ -111,7 +111,7 @@ el mismo proceso, corriendo con dos ejecutores distintos
 se puede correr con dos modelos, o con dos personas
 .
 
-**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
+**Y lo que no se hace:** **no se declara un veredicto.** **Una prueba que se piensa no tiene veredicto del que la escribe.** **Y lo que se dice es:  esta aprobada: esta pendiente, y se dice.**
 ## Prueba
 
 ¿Se corrieron tres veces por ejecutor? ¿El proceso no se adaptó a ninguno? ¿La posición sale de la repetición y no del gusto? ¿La rama tiene nombre?

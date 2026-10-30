@@ -76,7 +76,7 @@ Quien supervisa, no quien produce. El costo de control lo mide quien lo paga; el
 ## Su estado hoy, y que hace falta para correrla
 
 **Estado:** `
-[SIN CORRIDA - SE PRUEBA A MANO]
+[PREGUNTA ABIERTA - NO HAY VEREDICTO]
 `
 
 **Que pide:** 
@@ -87,4 +87,4 @@ el efecto neto de un trabajo, contra su costo
 se puede correr sobre un trabajo terminado
 .
 
-**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
+**Y lo que no se hace:** **no se declara un veredicto.** **Una prueba que se piensa no tiene veredicto del que la escribe.** **Y lo que se dice es:  esta aprobada: esta pendiente, y se dice.**

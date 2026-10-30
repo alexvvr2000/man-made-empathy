@@ -67,7 +67,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | **la plantilla está, y se copia** | **`Sincronización de almas/entes/Ente/` tiene carta, guantelete, dos bancos, ciclo, y `evolucion/`** |
 | **el taller del proyecto** | **`bin/`, con sus herramientas y su documentación** |
 | **el bibliotecario trabaja** | **`bin/historia.py` lista las eras del historial** |
-| **hay seis pruebas escritas** | **`Pruebas/`, y su `LEEME.md` dice cuáles pasan y cuáles no** |
+| **hay seis pruebas escritas** | **`Pruebas/`: seis preguntas que se piensan, y su `LEEME.md` dice cuál contesta cada una** |
 | **la licencia y el DOI están declarados** | **`ATTRIBUTION.md`, `CITATION.cff`** |
 | **el alcance está dicho** | **`ALCANCE.md`, y las fichas con su fuente declarada** |
 

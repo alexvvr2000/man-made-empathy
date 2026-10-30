@@ -5,7 +5,7 @@
 **Tipo:** prueba. ¿Es un alma distinta, o es la misma con otro nombre?
 **Lector:** quien va a usar un modelo para contrastar algo, y quien va a decir si el contraste fue real.
 **Dueño:** la autoridad.
-**Estado:** `[SIN CORRIDA - SE PRUEBA A MANO]`: la corrida va aparte, y se dice cuando exista.
+**Estado:** `[PREGUNTA ABIERTA - NO HAY VEREDICTO]`: se piensa, no se corre. Y la respuesta la da el que la lee.
 
 **Nombre.** Alma suficientemente diferente. **Expansión:** la prueba de si dos almas divergen lo bastante como para que una corrija a la otra.
 **Origen.** Del estándar de la relación: [`../Sincronización de almas/entes/Colmena/LEEME`](../Sincronización%20de%20almas/LEEME.md), **dos almas que se afinan sin volverse una.** Y de la medición: **modelos entrenados con principios parecidos divergen de forma sustancial** — más de 70,000 de 300,000 escenarios, con divergencia notable en casi todos (arXiv:2510.07686).
@@ -180,7 +180,7 @@ tres abruptas y dos suaves, con el umbral de 3 de 3 fijado el 2026-10-24
 el umbral esta fijado, y la corrida que lo uso no se publico: o se muestra, o se dice que no se puede
 .
 
-**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
+**Y lo que no se hace:** **no se declara un veredicto.** **Una prueba que se piensa no tiene veredicto del que la escribe.** **Y lo que se dice es:  esta aprobada: esta pendiente, y se dice.**
 ## Prueba
 
 **¿El umbral se fijó antes del resultado?** **¿Se midió en conducta y no en estilo?** **¿Corrió cada una sola?** **¿Se distinguió resonancia de eco por el dato de la soledad?**

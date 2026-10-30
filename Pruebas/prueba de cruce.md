@@ -84,7 +84,7 @@ Quien paga el costo del registro, no quien produce la salida. La reconstrucción
 ## Su estado hoy, y que hace falta para correrla
 
 **Estado:** `
-[SIN CORRIDA - SE PRUEBA A MANO]
+[PREGUNTA ABIERTA - NO HAY VEREDICTO]
 `
 
 **Que pide:** 
@@ -95,4 +95,4 @@ una salida real, y quien la produjo, para reconstruirla
 se puede correr con cualquier trabajo ya hecho
 .
 
-**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
+**Y lo que no se hace:** **no se declara un veredicto.** **Una prueba que se piensa no tiene veredicto del que la escribe.** **Y lo que se dice es:  esta aprobada: esta pendiente, y se dice.**

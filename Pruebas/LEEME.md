@@ -12,7 +12,14 @@
 
 ## Lo primero: el estado de las seis, en una tabla
 
-> **Una prueba sin corrida no está aprobada: está pendiente, y se dice.**
+> **Una prueba no se corre: se piensa.**
+> **Y no hay veredicto del que la escribe, porque eso es lo que la hace servir.**
+
+**Y lo que cambia, y es lo que importa:** **son la pregunta incómoda que alguien te hace cuando menos la esperas, y que necesitabas.**
+
+> **«Hoy son estas, mañana otras.»**
+
+**Y por eso no son seis para siempre:** **se agregan cuando alguien se hace una pregunta, y la que no aguanta se retira, y se dice.**
 
 | La prueba | Qué pregunta | Su estado hoy |
 |---|---|---|

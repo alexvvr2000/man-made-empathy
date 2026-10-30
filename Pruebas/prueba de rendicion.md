@@ -55,7 +55,7 @@ El juicio de valor queda en quien observa y se declara como criterio abierto. Co
 ## Su estado hoy, y que hace falta para correrla
 
 **Estado:** `
-[SIN CORRIDA - SE PRUEBA A MANO]
+[PREGUNTA ABIERTA - NO HAY VEREDICTO]
 `
 
 **Que pide:** 
@@ -66,4 +66,4 @@ un registro, y alguien distinto del ejecutor que intente reconstruirlo
 se puede correr con cualquier registro, y con una segunda persona
 .
 
-**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
+**Y lo que no se hace:** **no se declara un veredicto.** **Una prueba que se piensa no tiene veredicto del que la escribe.** **Y lo que se dice es:  esta aprobada: esta pendiente, y se dice.**

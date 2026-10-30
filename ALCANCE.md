@@ -56,9 +56,9 @@
 
 | Fuera del alcance | Por qué | Cuándo entra |
 |---|---|---|
-| **el dictamen de un abogado** | **no se ha consultado a uno** | **antes de publicar con ánimo comercial** |
+| **la capa legal** | **crece con el tiempo, y cada publicación la revisa** | **siempre: no es un requisito, es una capa** |
 | **la segunda mirada de las 34 fichas** | **cada una tiene una fuente, y no dos** | **antes de citarlas en un escrito público** |
-| **una corrida publicada de cada prueba** | **las seis están escritas, y ninguna se corrió** | **cuando se corran, con su fecha y su veredicto** |
+| **las pruebas nuevas** | **hoy son seis, y mañana otras: se piensan, no se corren** | **cuando alguien se haga la pregunta** |
 | **la reversa del historial** | **642 commits, y es trabajo de meses** | **después de la `v1.0.0`, día por día** |
 | **el `MCU`, y las tesis entregables** | **dependen de que lo demás esté firme** | **`v1.2` en adelante** |
 

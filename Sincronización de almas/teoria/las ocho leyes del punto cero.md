@@ -117,6 +117,16 @@
 **Porque así crece la experiencia:** **no con más ciclos, sino con más casos en los que ya no se pregunta.**
 
 ---
+### Y la prueba que no se corre, y es la que más sirve
+
+> **Una prueba no se corre: se piensa.**
+> **Es la pregunta incómoda que alguien te hace cuando menos la esperas, y que necesitabas.**
+
+**Y por eso no hay veredicto del que la escribe.** **Y por eso "hoy son estas, mañana otras".**
+
+**Y lo legal es lo mismo:** **no es un dictamen que se pide una vez, es una capa que crece.** **Y nadie es omnisciente, y el que diga que ya está cubierto, miente.**
+
+---
 ## Prueba
 
 **¿Cada ley dice su razón? ¿Se puede tener una sin la otra? ¿Y la séptima y la octava se pueden correr como pruebas, y no como opiniones?**

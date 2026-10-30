@@ -114,7 +114,7 @@ Firma externa: [tipo:nombre | ninguno]
 ## Su estado hoy, y que hace falta para correrla
 
 **Estado:** `
-[SIN CORRIDA - HOY DA `sin la propiedad`]
+[PREGUNTA ABIERTA - HOY DA «sin la propiedad»]
 `
 
 **Que pide:** 
@@ -125,7 +125,7 @@ una salida que no se reduzca a lo humano, y que nadie haya visto
 no se puede forzar: se espera a que aparezca, o se declara que no
 .
 
-**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
+**Y lo que no se hace:** **no se declara un veredicto.** **Una prueba que se piensa no tiene veredicto del que la escribe.** **Y lo que se dice es:  esta aprobada: esta pendiente, y se dice.**
 ## Prueba
 
 **¿El tipo de entrada está declarado?** **¿Se buscó el antecesor y se registró la búsqueda?** **¿El veredicto habla de origen y no de conciencia?** **¿El que firma es distinto del que produjo, o se declaró `ninguno`?**
