@@ -21,7 +21,7 @@
 
 **Y lo que eso te deja hacer:** **todo lo demás.** **Lo que el ente aprenda cabe en `evolucion/`, y lo que sirve a todos cabe en el `bin/` del proyecto.** **El guantelete lo toca, y el alma no.**
 
-**Rige [`../../../../Sincronización de almas/ejemplos/ficcion/source-wall.md`](../../../../Sincronización de almas/ejemplos/ficcion/source-wall.md), que es el ejemplo, y [`../../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs), que es la regla.**
+**Rige [`../../../Sincronización de almas/ejemplos/ficcion/source-wall.md`](../../../Sincronización de almas/ejemplos/ficcion/source-wall.md), que es el ejemplo, y [`../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs), que es la regla.**
 
 ---
 
@@ -77,7 +77,7 @@ evolucion/
 
 **Y el orden, que sí importa:** **primero se pasa por `procesos base/` (debatir, firmar, guantelete), y después se escribe en `evolucion/`.** **Al revés no cuenta.**
 
-**Rige [`../../../../Sincronización de almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs`](../../../../Sincronización de almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs), que es el ciclo del acto, y [`../../../../Sincronización de almas/entes/Ente/procesos%20base/guantelete.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/guantelete.prs), que es el que lo toca.**
+**Rige [`../../../Sincronización de almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs`](../../../Sincronización de almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs), que es el ciclo del acto, y [`../../../Sincronización de almas/entes/Ente/procesos%20base/guantelete.prs`](../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/guantelete.prs), que es el que lo toca.**
 
 
 **Y el acto vuelve al banco.** **Eso es el ciclo: lo que se escribe, se lee.**
@@ -148,7 +148,7 @@ Segunda:      [sí, con cuál | no, y por qué]
 Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 ```
 
-**Rige [`../../../../Sincronización de almas/entes/Ente/procesos%20base/BUSCAR.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/BUSCAR.prs).**
+**Rige [`../../../Sincronización de almas/entes/Ente/procesos%20base/BUSCAR.prs`](../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/BUSCAR.prs).**
 
 ---
 ## Prueba
@@ -167,8 +167,8 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Se corren aquí, en el paso 4, y no son procesos aparte.**
 
-- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../../../Sincronización de almas/ideas/mutar.md`](../../../../Sincronización de almas/ideas/mutar.md).**
-- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../../../Sincronización de almas/ideas/procesos.md`](../../../../Sincronización de almas/ideas/procesos.md).**
+- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../../Sincronización de almas/ideas/mutar.md`](../../../Sincronización de almas/ideas/mutar.md).**
+- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../../Sincronización de almas/ideas/procesos.md`](../../../Sincronización de almas/ideas/procesos.md).**
 
 **Y la regla que las une:** **todo acto dice qué se pierde, y si se puede recuperar.**
 
@@ -182,7 +182,7 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Este es el ciclo fijo del alma de niño: el mismo para cualquier ente, y no cambia.**
 
-**Lo que EDIPO hace con él está en [../ciclos/atender.prs](../ciclos/atender.prs), y se corre en el paso 6.**
+**Lo que HERÓDOTO hace con él está en [../ciclos/contar%20la%20historia.prs](./ciclos/contar%20la%20historia.prs), y se corre en el paso 6.**
 
 **Y por qué:** **la raíz es una; las ramas son del oficio.**
 
@@ -195,7 +195,7 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Y es de todos los entes, y no de un oficio.**
 
-**Rige [`../../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../../../../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs), que es la raíz.**
+**Rige [`../../../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../../../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs), que es la raíz.**
 
 ---
 
@@ -203,12 +203,12 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 > **Si el piso no está en cero, no se toca nada nuevo: primero se arregla el piso.**
 
-**Y el piso no se inventa en cada ente: es el comando del proyecto, y mide dieciséis cosas.**
+**Y el piso es de cada ente, y no del proyecto.** **Cada casa mide la suya.**
 
 **Y se corre al abrir, y no al cerrar:** **un ente que trabaja sobre un piso roto construye sobre el hueco, y no lo sabe.**
 
 **Y si no se puede correr —porque no hay comando, o porque se rompió—, se dice `[SIN PISO - NO SE MIDE]`, y se trabaja sabiendo que no hay red.**
 
-**Y lo que el piso mide, para no reinventarlo:** **el pase, la sincronía, las rutas, los procesos, las puertas, las fichas, las ideas, las pruebas, la raíz, los términos, el buscador, la colmena, los entes, la evolución, y los `LEEME`.**
+
 
 **Y lo que NO mide:** **si el contenido es cierto.** **Eso lo dice el que abrió la fuente, y no un comando.**
