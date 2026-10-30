@@ -50,4 +50,4 @@ Límite:      no enseña cuál de las tres es la buena; enseña que no son inter
 
 **Eso no cabe en una película: no hay página que reflejar.** **Y por eso el ejemplo no es "una historia, tres medios": es que la historia estaba hecha de su medio.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

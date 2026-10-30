@@ -37,7 +37,7 @@
 
 | Lo que | Dónde |
 |---|---|
-| **la idea, en una línea** | **[`./README.md`](./README.md)** |
+| **la idea, en una línea** | **[`./LEEME`](./README.md)** |
 | **doce procesos, cada uno con su falsificador** | **[`./direcciones/`](./direcciones/)** |
 | **el ente y la colmena, con sus dos ciclos** | **[`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/)** |
 | **el argumento, sin los ejemplos** | **[`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/)** |

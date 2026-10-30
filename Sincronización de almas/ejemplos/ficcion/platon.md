@@ -52,4 +52,4 @@ Límite:      no enseña a hacer mayéutica; enseña que el método puede termin
 
 **Y no enseña a citar a Platón.** **Como se dice arriba: se declara de qué diálogo sale qué, o no se cita.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

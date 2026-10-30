@@ -54,4 +54,4 @@ Límite:      no enseña a repartir la memoria entre almas; sólo muestra lo que
 
 **Y lo que la ficha confirma y añade:** **se sincronizan, y aun así son distintas — porque son curiosas, y porque la segunda vez ya no comparten todo.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

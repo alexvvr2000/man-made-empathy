@@ -54,4 +54,4 @@ Límite:      no enseña cómo se construye un canal que no existe; la propia ob
 
 **Eso es exactamente el truncado que `ALAS` pide declarar.** **Y la película lo hizo a propósito.** **La ficha lo dice, con la traducción del guionista, y que Villeneuve decidió no subtitular.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

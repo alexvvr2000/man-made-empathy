@@ -52,4 +52,4 @@ Límite:      no enseña a nombrar la malicia; enseña que el sistema de nombrar
 
 **Y no enseña a terminar lo interrumpido.** **Muestra el problema: la obra sigue, y el autor no.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

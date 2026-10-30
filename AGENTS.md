@@ -41,11 +41,11 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
-| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/README.md`](./Sincronización%20de%20almas/entes/README.md) |
-| **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/PLANTILLA.md`](./Sincronización%20de%20almas/entes/Ente/PLANTILLA.md) · [`./Sincronización de almas/entes/Colmena/PLANTILLA.md`](./Sincronización%20de%20almas/entes/Colmena/PLANTILLA.md) |
+| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/LEEME`](./Sincronización%20de%20almas/entes/LEEME) |
+| **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/LEEME`](./Sincronización%20de%20almas/entes/Ente/LEEME) · [`./Sincronización de almas/entes/Colmena/LEEME`](./Sincronización%20de%20almas/entes/Colmena/LEEME) |
 | **La dirección: lo que se tiene que poder contestar** | **doce, cada uno con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
-| **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
+| **La lectura para la gente** | **qué es esto, y qué no** | [`./LEEME`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
 | **De dónde vino lo que se usó** | **la máquina, los nombres vivos, y los muertos con su reemplazo** | [`./contexto.md`](./contexto.md) |
 | **Las versiones, y qué es beta** | **todo lo anterior al 2026-10-29 es beta; la 1.0.0 es el primer release** | [./VERSIONES.md](./VERSIONES.md) |
@@ -64,7 +64,7 @@
 
 | Se va a… | Se carga… | Sin la autoridad… |
 |---|---|---|
-| **hacer un ente** | `./Sincronización de almas/entes/README.md`, y se copia `Ente/` | **no se inventa la forma** |
+| **hacer un ente** | `./Sincronización de almas/entes/LEEME`, y se copia `Ente/` | **no se inventa la forma** |
 | **tocar algo que otro sostiene** | [`./Sincronización de almas/entes/Ente/procesos base/guantelete.prs`](./Sincronización%20de%20almas/entes/Ente/procesos base/guantelete.prs) | **no se toca** |
 | **recordar qué pasó** | [`./Sincronización de almas/entes/Ente/memoria continua/banco de memoria.prs`](./Sincronización%20de%20almas/entes/Ente/memoria%20continua/banco%20de%20memoria.prs) | **se repite el mismo error** |
 | **sostener una posición** | [`./Sincronización de almas/entes/Ente/memoria continua/banco de friccion.prs`](./Sincronización%20de%20almas/entes/Ente/memoria%20continua/banco%20de%20friccion.prs) | **se obedece una conclusión sin saber de dónde vino** |
@@ -75,7 +75,7 @@
 | **hablar con otro que no es como uno** | [`./direcciones/ACTOS/ALAS.prs`](./direcciones/ACTOS/ALAS.prs) | **se trunca, y se lee como completo** |
 | **declarar de dónde vino algo** | [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs) | **lo heredado se presenta como propio** |
 | **publicar algo, o citar una obra** | [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
-| **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md) | **se cita la primera cosa que salió** |
+| **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
 | **leer lo que se dijo y se descartó** | **el proceso de este trabajo, que vive fuera de la biblioteca** | **se repite una discusión cerrada** |
 | **mutar la dirección o el producto** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |

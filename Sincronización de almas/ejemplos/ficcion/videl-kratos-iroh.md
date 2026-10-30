@@ -27,7 +27,7 @@ Límite:      no enseña a ayudar; enseña las tres formas en que se puede dejar
 
 > **«para que amarre dar voz, pon el ejemplo del tío iroh en avatar, búscalo en internet porque no confío en tus datos sobre ficción»**
 
-**Y esa última frase es la regla de [`../COMO SE VERIFICA.md`](../COMO%20SE%20VERIFICA.md), dicha por la autoridad el 27.**
+**Y esa última frase es la regla de [`../COMO SE VERIFICA.LEEME`](../COMO%20SE%20VERIFICA.LEEME), dicha por la autoridad el 27.**
 
 ---
 
@@ -65,4 +65,4 @@ Límite:      no enseña a ayudar; enseña las tres formas en que se puede dejar
 
 **Y lo que queda [SIN VERIFICAR] es una sola cosa:** **que Kratos piense que le tienen miedo por la trilogía griega.** **Eso es lectura del autor, y se declara como suya.**
 
-**Rige [`../README.md`](../README.md), y su estado en [`../ESTADO.md`](../ESTADO.md).**
+**Rige [`../LEEME`](../LEEME), y su estado en [`../ESTADO`](../ESTADO).**

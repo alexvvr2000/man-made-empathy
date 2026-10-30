@@ -57,4 +57,4 @@ Límite:      no enseña a reconstruir una identidad: enseña a aceptarla cuando
 
 **Y no enseña que el plan inicial se pueda recuperar.** **La idea de Nueva York se fue a otro juego, y en `FF7` no queda.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

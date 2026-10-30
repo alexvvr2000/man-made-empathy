@@ -57,4 +57,4 @@ Límite:      no enseña a vivir sin muerte; enseña que la pregunta cambia cuan
 
 **Y `Earth X` no se cuenta con el MCU.** **Es Marvel de 1999, y va aparte:** **rige [`./mcu.md`](./mcu.md), y su regla de no mezclar.**
 
-**Rige [`../README.md`](../README.md), y su estado en [`../ESTADO.md`](../ESTADO.md).**
+**Rige [`../LEEME`](../LEEME), y su estado en [`../ESTADO`](../ESTADO).**

@@ -49,4 +49,4 @@ Límite:      no enseña cómo se contesta lo que se aprendió; sólo que se apr
 **El argumento dice:** **"el borde que sólo sirve si lo firma algo que no es el que lo cruza."**
 **Y lo que la obra dice:** **el borde se cruza igual, y el que vuelve, vuelve sabiendo; el testigo es el que avisó y no fue escuchado.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

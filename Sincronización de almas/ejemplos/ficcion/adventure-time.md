@@ -50,4 +50,4 @@ Límite:      no enseña a escribir un mundo sin reglas; enseña que el mundo pu
 
 **Y no enseña que el misterio sea un logro.** **La ficha muestra una serie que duró; no una teoría del misterio.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

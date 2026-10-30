@@ -58,4 +58,4 @@ Límite:      no enseña que la identidad no importe; enseña que la obra no la 
 
 **Y no enseña a escribir viajes en el tiempo.** **Enseña que la obra puede seguir sin resolver qué es el que viaja.**
 
-**Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**

@@ -41,7 +41,7 @@
 
 | Archivo | Quién es |
 |---|---|
-| **`./README.md` y `../AGENTS.md` (la raíz)** | **la puerta de la biblioteca** |
+| **`./LEEME` y `../AGENTS.md` (la raíz)** | **la puerta de la biblioteca** |
 | **`./EDIPO/AGENTS.md`** | **el bibliotecario: el único ente que trabaja aquí** |
 | **`./Ente/PLANTILLA.md`** | **la plantilla, y no un ente** |
 | **`./Colmena/PLANTILLA.md`** | **la plantilla de varios, y no un ente** |
@@ -94,8 +94,8 @@
 | **decidir con fundamento** | **`./Ente/alma de niño/banco de friccion.prs`** | **se obedece una conclusión sin saber de dónde vino** |
 | **correr una vuelta** | **`./Ente/alma de niño/ciclo.prs`** | **se actúa sin leer, y sin decir que no se sabe** |
 | **agregar una tarea aprendida** | **`./Ente/evolucion/`** | **crece el cajón, y no el ente** |
-| **juntar varios entes** | **[`./Colmena/README.md`](./Colmena/README.md)** | **son varios absolutos con el mismo nombre** |
-| **saber cuál conviene** | **[`./Colmena/talento.md`](./Colmena/talento.md)** | **se elige por lo que promete, y sale cara y frágil** |
+| **juntar varios entes** | **[`./Colmena/LEEME`](./Colmena/LEEME)** | **son varios absolutos con el mismo nombre** |
+| **saber cuál conviene** | **[`./Colmena/LEEME`](./Colmena/LEEME)** | **se elige por lo que promete, y sale cara y frágil** |
 | **conocer las ideas detrás** | **[`../ideas/`](../ideas/), cuando esté** | **se trabaja sin sustento** |
 
 ---
