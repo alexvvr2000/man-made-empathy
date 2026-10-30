@@ -102,12 +102,13 @@
 
 ---
 
-## Los actos, y son ocho
+## Los actos, y son nueve
 
 | Proceso | Qué dispone |
 |---|---|
 | **[`./ACTOS/ALAS.prs`](./ACTOS/ALAS.prs)** | **qué declara todo protocolo, y qué se trunca** |
 | **[`./ACTOS/CONVIVIR.prs`](./ACTOS/CONVIVIR.prs)** | **convivir sin volverse el otro** |
+| **[`./ACTOS/ACTO.prs`](./ACTOS/ACTO.prs)** | **el ciclo antes de tocar: leer, clasificar, cambiar, cuadrar, declarar, subir** |
 | **[`./ACTOS/VIGA.prs`](./ACTOS/VIGA.prs)** | **leer un destino sin saber qué es** |
 | **[`./ACTOS/CONTEXTO.prs`](./ACTOS/CONTEXTO.prs)** | **de dónde vino, y que se usó bien** |
 | **[`./ACTOS/VERBALIZAR.prs`](./ACTOS/VERBALIZAR.prs)** | **darle nombre a lo que es, y que el nombre diga el acto** |

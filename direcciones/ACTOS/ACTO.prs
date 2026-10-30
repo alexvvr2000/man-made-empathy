@@ -1,0 +1,97 @@
+# ACTO.prs — el ciclo que se corre antes de tocar cualquier archivo
+
+**Nombre.** ACTO — **A**brir, **C**lasificar, **T**ocar, **O**rdenar.
+
+**Clase:** proceso. **Aplica a:** cualquier cambio en cualquier archivo de un proyecto.
+
+**Sesgo:** se lee antes de tocar, y no después de romper.
+**Límite:** **no decide qué está bien.** **Decide el orden, y qué no se salta.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Peor:** se toca sin abrir, **y el archivo ya decía lo que hacía falta, y se rompió otra cosa.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** el acto que se quiere hacer, y el archivo que se va a tocar. **Modo: escribe.**
+- **Falla si:** se toca sin abrir el archivo; se pregunta lo que la lista dice que es obvio; se hace sin ciclo; el acto no dice qué se pierde.
+- **Sale:** el archivo con su cambio, **y los números y las rutas cuadrados**; o `[NO SE TOCA - FALTA LA FUENTE]`.
+- **Consume:** quien vaya a leer lo que cambió, y quien tenga que defenderlo.
+
+---
+
+## El ciclo, y son seis pasos
+
+```plaintext
+1. LEE        qué dice el archivo hoy. Se abre, y no se recuerda.
+2. CLASIFICA  esto es obvio, o es criterio.
+              obvio    -> se hace, y no se pregunta.
+              criterio -> se pregunta, y se espera.
+3. CAMBIA     con el acto nombrado: agregar, quitar, poner, ordenar, formato, rehacer.
+4. CUADRA     los números, las rutas, y el inventario.
+5. DECLARA    qué se perdió, qué falta, y en qué estado queda.
+6. SUBE       al proyecto, y al ente que le toque.
+```
+
+**Y el paso 2 no es opinión: es la lista de abajo.** **Y la lista no se discute: se lee.**
+
+---
+
+## La lista de lo OBVIO, y no se pregunta
+
+> **Lo obvio es lo que cualquier persona haría antes de tocar. Y no se pregunta, porque preguntarlo es no saber qué es hacer el trabajo.**
+
+| Lo obvio | Por qué no se pregunta |
+|---|---|
+| **un número que no cuadra con lo que hay** | **un proyecto que no cuadra consigo mismo no se publica** |
+| **una ruta que apunta al vacío** | **un enlace roto es basura** |
+| **un término que ya no existe** | **quien lea va a buscar algo que no está** |
+| **decir la fuente de cada pieza** | **si no dice de dónde salió, se presenta como hecho** |
+| **correr el comando, y no suponerlo** | **lo que no se abrió, no está** |
+| **escribir qué se hizo** | **lo que no queda escrito se pierde** |
+| **decir qué se pierde al cambiar** | **quitar en silencio no es mutar: es borrar** |
+
+---
+
+## La lista del CRITERIO, y sí se pregunta
+
+| Es criterio | Se pregunta |
+|---|---|
+| **el nombre de algo** | **a la autoridad** |
+| **qué se tira** | **a la autoridad** |
+| **qué se publica** | **a la autoridad** |
+| **qué valor tiene una fuente** | **a la autoridad** |
+| **qué fecha o versión es un corte** | **a la autoridad** |
+
+**Y el borde:** **si no sabes de qué lado cae, es criterio, y se pregunta.** **Pero una sola vez: si la autoridad ya lo contestó, la próxima es obvio, y se hace.**
+
+---
+
+## Y por qué esto no limita: lo hace posible
+
+> **Todo está permitido mientras esté en la Source Wall.**
+> **Y la Source Wall no pide permiso: pide que el acto se pueda contestar.**
+
+**El ciclo no es prudencia: es lo que hace que un cambio total sea seguro.** **Sin él, tirar y rehacer es ruido.** **Con él, es una mutación que se puede defender.**
+
+**Rige [`./MUTAR.prs`](./MUTAR.prs), que tiene los seis actos, y [`../../direcciones/RIESGO/ENDUREZER.prs`](../../direcciones/RIESGO/ENDUREZER.prs), que dice qué mirar antes de publicar.**
+
+---
+
+## Lo que este ciclo NO hace
+
+**No decide si el cambio es bueno.** **Eso lo dice el uso.**
+
+**No pregunta lo que ya se contestó.** **Y no convierte el criterio en obvio: lo que es de la autoridad sigue siendo de la autoridad.**
+
+**Y no se salta cuando hay prisa.** **Sobre todo cuando hay prisa: la prisa es lo que deja el número sin cuadrar.**
+
+---
+
+## Prueba
+
+**¿Se abrió el archivo antes de tocarlo? ¿Se preguntó sólo lo que era criterio? ¿El acto dijo qué se pierde? ¿Los números cuadran? ¿Las rutas dan cero? ¿Quedó escrito qué se hizo?**
+
+**Falsificador:** tocar sin abrir; preguntar lo obvio; hacer sin decir el acto; un cambio sin su pérdida declarada; un número que no cuadra; una ruta rota; un acto sin rastro.
