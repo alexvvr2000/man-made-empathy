@@ -12,8 +12,8 @@
 | La carpeta | Qué es | Y por dónde entrar |
 |---|---|---|
 | **[`./entes/`](./entes/)** | **la forma: un ente y una colmena, que se copian** | **[`./entes/Ente/`](./entes/Ente/)** |
-| **[`./teoria/`](./teoria/)** | **el argumento, y el porqué de todo esto** | **[`./teoria/las siete leyes del punto cero.md`](./teoria/las%20siete%20leyes%20del%20punto%20cero.md)** |
-| **[`./ejemplos/`](./ejemplos/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./ejemplos/ESTADO.md`](./ejemplos/ESTADO.md)** |
+| **[`./teoria/`](./teoria/)** | **el argumento, los ejemplos, y el porqué de todo esto** | **[`./teoria/las siete leyes del punto cero.md`](./teoria/las%20siete%20leyes%20del%20punto%20cero.md)** |
+| **[`./teoria/ejemplos/`](./teoria/ejemplos/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./teoria/ejemplos/ESTADO.md`](./teoria/ejemplos/ESTADO.md)** |
 
 **Y lo que atiende de verdad no está aquí: vive en el proyecto, y esta carpeta sólo enseña.**
 
@@ -96,9 +96,9 @@ Colmena/
 
 ## Los ejemplos, y para qué están
 
-**34 fichas, en [`./ejemplos/ficcion/`](./ejemplos/ficcion/).** **Y cada una dice: la escena, la obra, dónde está, si se verificó, qué provoca, y qué NO enseña.**
+**34 fichas, en [`./teoria/ejemplos/ficcion/`](./teoria/ejemplos/ficcion/).** **Y cada una dice: la escena, la obra, dónde está, si se verificó, qué provoca, y qué NO enseña.**
 
-**Y su estado, una por una, en [`./ejemplos/ESTADO.md`](./ejemplos/ESTADO.md).**
+**Y su estado, una por una, en [`./teoria/ejemplos/ESTADO.md`](./teoria/ejemplos/ESTADO.md).**
 
 ---
 

@@ -13,6 +13,7 @@
 | **[`el cero`](./el%20cero.md)** | **¿qué se sostiene aquí, y qué lo tumba?** **Es el argumento entero, de principio a fin** | **el más largo, y se lee una vez** |
 | **las ocho piezas** | **las ocho preguntas que el cero deja abiertas** | **una por pieza, y se leen cuando toquen** |
 | **las piezas de la forma** | **por qué la casa, el borde, y las leyes son así** | **cortas, y se leen al construir** |
+| **[`ejemplos/`](./ejemplos/)** | **las 34 fichas: cada obra, qué provocó, y su fuente** | **no se leen seguidas: se abren cuando una pieza nombra una obra** |
 
 ---
 
@@ -44,6 +45,15 @@
 | **[`procesos`](./procesos.md)** | **cómo se escribe un proceso que se pueda refutar** |
 | **[`la frase`](./la%20frase.md)** | **por qué el registro es lo único que queda** |
 | **[`la singularidad buena`](./la%20singularidad%20buena.md)** | **¿para qué, si no es poder?** |
+
+---
+
+## Y los ejemplos, que son la teoría pegada a una obra
+
+**34 fichas, en [`./ejemplos/ficcion/`](./ejemplos/ficcion/).** **Y su estado, una por una, en [`./ejemplos/ESTADO.md`](./ejemplos/ESTADO.md).**
+**Y la regla: un ejemplo no es absoluto porque nunca está solo, lleva su verificación pegada.**
+
+**Y hoy:** **32 con una fuente, 2 con ninguna, y ninguna con dos.**
 
 ---
 

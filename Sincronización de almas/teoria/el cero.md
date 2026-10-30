@@ -5,7 +5,7 @@
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde lo que hoy se sostiene, y no desde lo que se sostenía en 1967 ni en 2026.
-**Límite:** **no es la tesis.** **Es el argumento, y está separado de sus ejemplos, que viven en [`../ejemplos/`](../ejemplos/).**
+**Límite:** **no es la tesis.** **Es el argumento, y está separado de sus ejemplos, que viven en [`../teoria/ejemplos/`](../teoria/ejemplos/).**
 **Firma:** **quien responde por el acto, con su nombre.**
 
 ---

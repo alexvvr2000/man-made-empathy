@@ -49,7 +49,7 @@
 
 ## Lo que dice cada ficha, y es lo que protege
 
-**Cada uno de los ejemplos de [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) declara tres cosas, y las tres son obligatorias:**
+**Cada uno de los ejemplos de [`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/) declara tres cosas, y las tres son obligatorias:**
 
 | Lo que declara | Por qué |
 |---|---|
@@ -59,7 +59,7 @@
 
 **Y la regla que lo cierra:** **lo que no se verificó, se dice `[SIN VERIFICAR]`.** **Una cita sin fuente es lo que se condena; una cita con su estado, no.**
 
-**Rige [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME.md).**
+**Rige [`./Sincronización de almas/teoria/ejemplos/COMO SE VERIFICA.LEEME.md`](./Sincronización%20de%20almas/teoria/ejemplos/COMO%20SE%20VERIFICA.LEEME.md).**
 
 ---
 

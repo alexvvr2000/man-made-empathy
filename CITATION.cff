@@ -67,7 +67,7 @@ references:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
     date-published: "2026-10-28"
-    file: "Sincronización de almas/ejemplos/"
+    file: "Sincronización de almas/teoria/ejemplos/"
     notes: "Una ficha por obra: qué escena, dónde está, y si se verificó."
   - type: generic
     title: "El argumento, y su historia"

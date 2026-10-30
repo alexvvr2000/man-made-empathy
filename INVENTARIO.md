@@ -17,7 +17,7 @@
 | Lo que | Cuánto | Dónde | Cómo se comprueba |
 |---|---|---|---|
 | **archivos en el repositorio** | **140** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
-| **fichas de obras** | **34** | **`Sincronización de almas/ejemplos/ficcion/`** | **contar los `.md`** |
+| **fichas de obras** | **34** | **`Sincronización de almas/teoria/ejemplos/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **9** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
 | **piezas de teoría** | **19** | **`Sincronización de almas/teoria/`** | **contar los archivos** |
@@ -85,7 +85,7 @@
 
 ## Y el estado de verificación, que no es lo mismo que el inventario
 
-**Las 34 fichas están verificadas con una sola mirada, y ninguna con dos.** **La tabla completa está en [`../Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO.md).**
+**Las 34 fichas están verificadas con una sola mirada, y ninguna con dos.** **La tabla completa está en [`../Sincronización de almas/teoria/ejemplos/ESTADO`](./Sincronización%20de%20almas/teoria/ejemplos/ESTADO.md).**
 
 | Estado | Cuántas |
 |---|---|

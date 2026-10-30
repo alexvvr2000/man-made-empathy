@@ -28,7 +28,7 @@
 | **el ente y la colmena** | **la forma, y su ciclo fijo** | **[`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/)** |
 | **los dos hermanos que atienden** | **2, con sus tareas y sus cajas** | **[`./biblioteca/`](./biblioteca/)** |
 | **el argumento** | **12 piezas** | **[`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/)** |
-| **las fichas de obras** | **34, con su fuente** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** |
+| **las fichas de obras** | **34, con su fuente** | **[`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/)** |
 | **las pruebas** | **6 escritas** | **[`./Pruebas/`](./Pruebas/)** |
 | **el taller del proyecto** | **lo que sirve a todos** | **[`./bin/`](./bin/)** |
 | **la historia** | **642 commits, en 29 días** | **[`./biblioteca/Almas/HERÓDOTO/`](./biblioteca/Almas/HER%C3%93DOTO/)** |

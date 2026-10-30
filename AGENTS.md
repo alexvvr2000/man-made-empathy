@@ -16,7 +16,7 @@
 > **Todo lo anterior es beta, y es historia: se lee, y no se continúa desde ahí.**
 > **El trabajo de `EDIPO` empieza aquí, y evoluciona junto a la biblioteca.**
 
-**Y qué significa para el que llega:** **no hay que rescatar nada de los días viejos para trabajar hoy.** **Lo que se sostiene está en `direcciones/`, `entes/`, `ideas/` y `ejemplos/`, en esta versión.**
+**Y qué significa para el que llega:** **no hay que rescatar nada de los días viejos para trabajar hoy.** **Lo que se sostiene está en `direcciones/`, `entes/`, `ideas/` y `teoria/ejemplos/`, en esta versión.**
 
 **Y las versiones de antes se nombran por fecha:** **`beta-AAAA-MM-DD`**, un corte por día. **Rige [./VERSIONES.md](./VERSIONES.md).**
 
@@ -53,7 +53,7 @@
 | **El alcance de la v1** | **hasta dónde llega, y qué se queda fuera a propósito** | [./ALCANCE.md](./ALCANCE.md) |
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
 | **Lo que se piensa** | **el cero sin sus ejemplos, y las ocho piezas que lo completan** | [`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/) |
-| **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
+| **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/) |
 | **Lo que se dijo y se descartó** | **el proceso de este trabajo, fuera de la biblioteca** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |
 | **El histórico del método** | **el esquema viejo y el rastro crudo: viven fuera de la biblioteca, y no en el repositorio** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |
 
@@ -76,7 +76,7 @@
 | **hablar con otro que no es como uno** | [`./direcciones/ACTOS/ALAS.prs`](./direcciones/ACTOS/ALAS.prs) | **se trunca, y se lee como completo** |
 | **declarar de dónde vino algo** | [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs) | **lo heredado se presenta como propio** |
 | **publicar algo, o citar una obra** | [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
-| **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME.md) | **se cita la primera cosa que salió** |
+| **citar un ejemplo** | [`./Sincronización de almas/teoria/ejemplos/ESTADO`](./Sincronización%20de%20almas/teoria/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/teoria/ejemplos/COMO SE VERIFICA.LEEME.md`](./Sincronización%20de%20almas/teoria/ejemplos/COMO%20SE%20VERIFICA.LEEME.md) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
 | **leer lo que se dijo y se descartó** | **el proceso de este trabajo, que vive fuera de la biblioteca** | **se repite una discusión cerrada** |
 | **mutar la dirección o el producto** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |

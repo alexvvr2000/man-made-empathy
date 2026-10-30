@@ -38,7 +38,7 @@
 | **el proceso** | **[`./direcciones/`](./direcciones/)** | **¿qué se tiene que poder contestar, y qué lo incumple?** |
 | **la plantilla del ente** | **[`./Sincronización de almas/entes/Ente/`](./Sincronización%20de%20almas/entes/Ente/)** | **¿cómo se hace uno que se pueda contestar?** |
 | **el argumento** | **[`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/)** | **¿qué se sostiene, y qué lo tumba?** |
-| **las fichas** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** | **¿qué obra provocó qué, y si se verificó?** |
+| **las fichas** | **[`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/)** | **¿qué obra provocó qué, y si se verificó?** |
 
 **Y las cuatro juntas son una sola cosa:** **una idea que cualquiera puede leer, correr y contradecir, sin pedirle permiso a nadie.**
 
@@ -372,7 +372,7 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 | **«Los que se van de Omelas»** | Ursula K. Le Guin (1973) | **¿qué costo carga el que no lo siente, y quién lo declara?** |
 | **«La última pregunta»** | Isaac Asimov (1956) | **una pregunta que nadie puede contestar ¿se puede heredar?** |
 
-**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/), que es donde cada obra tiene su ficha y su estado.**
+**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige [`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/), que es donde cada obra tiene su ficha y su estado.**
 
 ## La analogía que no es de un personaje, y sirve para todo el sistema
 
