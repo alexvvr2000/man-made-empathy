@@ -23,7 +23,7 @@
 | **piezas de teoría** | **55** | **`Sincronización de almas/teoria/`** | **contar los archivos** |
 | **piezas en `bin/`** | **5** | **`bin/`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
-| **commits en el historial** | **670** | **el historial de git** | **`git rev-list --count HEAD`** |
+| **commits en el historial** | **674** | **el historial de git** | **`git rev-list --count HEAD`** |
 | **días con commits** | **29** | **el git** | **agrupar por fecha** |
 | **primer commit** | **`505c659`, del 2026-10-01** | **el historial de git** | **`git log --reverse`** |
 

@@ -31,10 +31,25 @@
 | **las fichas de obras** | **34: 32 con una fuente, y 2 con ninguna, y cada una lo dice** | **[`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/)** |
 | **las pruebas** | **6 escritas** | **[`./Pruebas/`](./Pruebas/)** |
 | **el taller del proyecto** | **lo que sirve a todos** | **[`./bin/`](./bin/)** |
-| **la historia** | **642 commits, en 29 días** | **[`./biblioteca/Almas/HERÓDOTO/`](./biblioteca/Almas/HER%C3%93DOTO/)** |
+| **la historia** | **674 commits, en 29 días** | **[`./biblioteca/Almas/HERÓDOTO/`](./biblioteca/Almas/HER%C3%93DOTO/)** |
 
 ---
 
+## La forma de hoy, y es lo que la v2 entrega
+
+| Lo que | Y cómo está |
+|---|---|
+| **`Sincronización de almas/`** | **el punto 0, y no cita nada de fuera** |
+| **su puerta** | **un solo `AGENTS.md`, y un solo `LEEME.md`** |
+| **`teoria/`** | **19 piezas, y un orden de lectura** |
+| **los ejemplos** | **dentro de `teoria/ejemplos/`, y no sueltos** |
+| **las plantillas** | **`Ente/` y `Colmena/`, y las dos con `PLANTILLA.md` que se renombra** |
+| **los hermanos** | **`EDIPO` y `HERÓDOTO`, con su piso en una tarea** |
+| **la guía** | **una, y la teoría aparte: se puede practicar sin leerla** |
+
+**Y lo que la forma obliga, y es nuevo:** **la octava ley, que dice que lo obvio se hace y lo que no es obvio se marca.** **Y el ciclo que nace mutando, y se juzga por si ahorró una pregunta.**
+
+---
 ## Lo que se queda fuera, y por qué
 
 **Y no es una lista de disculpas: es una lista de decisiones.**
