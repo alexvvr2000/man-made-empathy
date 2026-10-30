@@ -7,6 +7,8 @@
 **Sesgo:** se lee antes de tocar, y no después de romper.
 **Límite:** **no decide qué está bien.** **Decide el orden, y qué no se salta.**
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+**Cuándo se corre:** **antes de tocar cualquier archivo de cualquier proyecto, y es lo primero.**
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Peor:** se toca sin abrir, **y el archivo ya decía lo que hacía falta, y se rompió otra cosa.**

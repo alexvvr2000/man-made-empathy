@@ -9,6 +9,8 @@
 **Límite:** **no dice cómo se maqueta un archivo.** **Eso es forma, y ya está escrita donde vive.** **Dice qué hace que un proceso sea uno.**
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
+**Cuándo se corre:** **cuando se va a escribir un proceso, y antes de correrlo.**
+
 **Peor:** se escribe un proceso que suena bien, y su `Falla si` se rellena al final, **y entonces el corte no protege de nada: se escribió después de que el proceso ya pasó.**
 
 ---

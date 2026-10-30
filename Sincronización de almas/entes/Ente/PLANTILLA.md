@@ -1,5 +1,7 @@
 # AGENTS.md — el ciclo del ente individual
 
+**Cuándo se abre:** **al copiar un ente, y antes de darle nombre y casa.**
+
 **Ente:** el que se copió de esta carpeta. **Tarea:** hacer una cosa, con su falta, y dejar el rastro.
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que cargue este ente.
 **Dueño:** humano:autoridad.
