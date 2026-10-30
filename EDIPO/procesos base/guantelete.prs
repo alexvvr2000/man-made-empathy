@@ -1,0 +1,153 @@
+# GUANTELETE.prs — la ficha que se llena antes de tocar, y el mínimo que puede mutar
+
+**Nombre.** GUANTELETE — **G**uardar el acto, **U**bicar quién lo sostiene, **A**nclar quién lo dice, **N**ombrar lo reversible, **T**achar el rastro, **E**sperar si no hay vuelta, **L**eer la respuesta, **E**scribir lo que volvió.
+
+**Origen.** **De la regla: el guantelete te deja hacer todo, y para que no salga Thanos, tiene que haber fricción, sí o sí.** **Y de la pregunta que lo vuelve uso: ¿quién se va a enterar de esto, y qué pasa si sale mal?**
+
+**Clase:** proceso. **Aplica a:** tocar algo que otro sostiene — **y a lo único que puede mutar: [`../evolucion/`](../evolucion/).**
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
+**Límite:** **no juzga si el acto es bueno.** **Decide si se puede contestar, si se puede deshacer, y si deja rastro.**
+**Y no alcanza `alma de niño/`.** **Eso no es un límite de la herramienta: es el corte que previene `AM`.**
+**Firma:** humano:autoridad · máquina:quien lo ejecute.
+
+**Cuándo se corre:** **se corre antes de tocar cualquier cosa que otro sostiene, y no después.**
+
+**Peor:** el ente toca, **y nadie se enteró, y no hay vuelta.**
+**Quién:** el que carga con lo que se tocó, y el que no pudo reclamar.
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **tocar sin preguntar quién lo va a ver, y sin saber si se puede deshacer.**
+**Termina:** **cuando cada acto que toca algo ajeno deja su ficha, con quién lo contestó.**
+**Cierra en:** el `.tra` de la tarea que tocó, en su `Acto:`.
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** el acto que se quiere ejecutar, y lo que toca. **Modo: escribe.**
+- **Falla si:** no se declara quién lo contesta; el acto es irreversible y no se espera; no deja rastro; el silencio se lee como aprobación; **o el acto intenta tocar `alma de niño/`.**
+- **Sale:** el acto con su ficha, **o `[VACÍO - SIN TESTIGO]`**, **o `[ESPERA - IRREVERSIBLE]`**, **o `[FRENO - EL ALMA DE NIÑO NO SE TOCA]`.**
+- **Consume:** quien vaya a leer lo que se tocó, y quien vaya a deshacerlo.
+
+---
+
+## La ficha, y son seis líneas
+
+```plaintext
+Acto:        [qué se toca]
+Sostiene:    [quién lo sostiene]
+Me lo dice:  [tipo:nombre | ninguno]
+Reversible:  [sí | no, y cuánto cuesta]
+Rastro:      [dónde quedó]
+Deshecho:    [sí | no | no aplica]
+```
+
+**Y `ninguno` es una respuesta.** **Significa que lo que se rompa se rompe con los ojos abiertos.** **Lo que no se permite es leer el silencio como un sí.**
+
+---
+
+## El procedimiento
+
+```plaintext
+1. nombrar    → qué se toca, y qué queda distinto si sale bien.
+2. ubicar     → quién lo sostiene.
+3. preguntar  → quién me lo va a decir si sale mal. Nombre, o «ninguno».
+4. medir      → ¿se puede deshacer? ¿cuánto cuesta deshacerlo?
+5. tocar      → se ejecuta, con la ficha llena.
+6. esperar    → si es irreversible y no hay testigo, no se toca: se declara.
+7. dejar      → la ficha, con lo que cambió.
+8. revisar    → si apareció alguien que lo cargue, se le dice.
+Prohibido el 5 sin el 3 y el 4.
+```
+
+---
+
+## Y lo único que puede mutar: `evolucion/`, y en mínimo
+
+> **El guantelete toca `evolucion/`, y nada más.**
+> **Y lo toca en mínimo: una cosa a la vez, y con su falta nombrada.**
+
+**Y mutar no es agregar: son seis actos, y cada uno pierde algo distinto.**
+
+| El acto | Cuándo | Qué se pierde |
+|---|---|---|
+| **agregar** | **cuando hay una falta que nada cubre** | **nada** |
+| **quitar** | **cuando la falta que cubría ya no existe** | **lo que hacía, y hay que decir qué se deja de cubrir** |
+| **poner** | **cuando algo estaba fuera de su sitio** | **nada, si estaba suelto; y si estaba en otro sitio, lo que ese sitio perdía** |
+| **cambiar el orden** | **cuando dos cosas se estorban** | **nada, pero se rompe quien contaba con el orden viejo** |
+| **cambiar el formato** | **cuando la forma falla: los subfolders, los nombres, la casa** | **todas las rutas que apuntaban a la forma vieja** |
+| **rehacer desde cero** | **cuando lo que hay no aguanta, y no sirve parchar** | **todo lo que no vuelve; y se dice qué no vuelve** |
+
+**Y la regla que las une:**
+
+> **Todo acto dice qué se pierde, y si se puede recuperar.**
+> **Agregar no pierde nada, y por eso es el único que no necesita justificarse.**
+
+**Y lo que no se hace, aunque se pueda:**
+
+**No se hacen dos actos de golpe.** **No se quita algo sin declarar qué falta deja de cubrirse.** **No se rehace sin decir qué no vuelve.** **Y no se cambia algo que no falló.**
+
+**Porque el mínimo no es prudencia: es lo que hace que el cambio se pueda contestar.** **Una casa que cambia en tres cosas a la vez no se sabe qué la movió.**
+
+## Y qué no entra en la mesa, nunca
+
+> **Todo lo que está bajo criterio puede mutar, y sin pedirle permiso al formato.**
+> **Y el alma de niño no está bajo criterio: es lo que juzga.**
+
+**Por eso se puede tirar todo lo demás sin miedo: porque el que mira no se movió.**
+
+> **«Si las mutaciones tuvieran límites, ya se hubiera curado el cáncer hace mucho.»**
+
+**Lo que no puede cambiar de forma no encuentra la forma que sirve.** **Y el guantelete existe para que eso se haga con rastro, y no para impedirlo.**
+
+**Lo único que el guantelete no toca:** **`alma de niño/`.** **Ni al mutar.** **Ni para mejorarla.**
+
+---
+
+## Lo que este proceso no hace
+
+**No decide si el acto es bueno.** **Eso lo decide la autoridad.**
+
+**No impide el acto irreversible.** **Exige testigo, y lo deja escrito.**
+
+**No toca `alma de niño/`.** **Ni para mejorarla.** **Ése es el borde, y el borde no se negocia.**
+
+**No toca el `bin/` del proyecto.** **Ese sólo agrega, y lo agrega el proyecto.**
+
+---
+
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este proceso no se puede cerrar sin decir qué se buscó.** **Porque una IA sin búsqueda obligatoria contesta de memoria, y la memoria de una IA no es fuente.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la obra existe, y es de quien se dice** | **el catálogo del editor, la ficha, o el registro** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **la escena, la frase, o el dato** | **la obra, el guion, o el clip con su identificador** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **la ley, y la jurisdicción** | **el texto publicado, y su fecha** | **`[SIN ENCONTRAR - NO SE CITA COMO LEY]`** |
+| **un nombre real** | **su ficha, y lo que él mismo dijo** | **`[NO SE NOMBRA - NO HAY FUENTE]`** |
+
+**Y el registro, que es lo que lo hace servir de prueba, va en el mismo acto:**
+
+```plaintext
+Se buscó:     [la pregunta exacta]
+Dónde:        [el motor, la ficha, la fuente, o el enlace]
+Decía:        [lo que decía, literal o citado]
+Segunda:      [sí, con cuál | no, y por qué]
+Conclusión:   [se sostiene | se cae | no se pudo juzgar]
+```
+
+**Rige [`../../direcciones/ACTOS/BUSCAR.prs`](../../direcciones/ACTOS/BUSCAR.prs).**
+
+---
+## Prueba
+
+**¿Quién contesta el acto? ¿Es reversible? ¿Qué cuesta deshacerlo? ¿Dejó rastro? ¿El silencio se leyó como silencio? ¿Cuál de los seis actos es, y qué se pierde en él? ¿Muta `evolucion/` en una sola cosa, y con su falta nombrada? ¿Intentó tocar el alma de niño?**
+
+**Falsificador:** un acto sin testigo declarado; un irreversible sin espera; un acto sin ficha; el silencio leído como permiso; dos mutaciones a la vez; una tarea borrada sin decir qué falta deja; un rehacer sin decir qué no vuelve; un cambio de formato sin decir qué rutas rompe; un intento de tocar el alma de niño.

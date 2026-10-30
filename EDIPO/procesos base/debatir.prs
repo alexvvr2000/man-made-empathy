@@ -1,0 +1,235 @@
+# DEBATIR.prs — una persona es un historial de sesgos, y no cree una sola cosa
+
+**Nombre.** DEBATIR. **Y el nombre dice el acto:** **poner dos posiciones en el mismo campo, y ver cuál aguanta — sin que nadie gane por hablar mejor.**
+
+**Origen.** **De la autoridad, el 2026-10-28:** **«ponle mecanismo de debate, para tener algo con lo que debatir, no algo para la academia»**. **Y del corte que lo hace posible:** **«una persona es un historial de sesgos, y no es válido decir que sólo cree una cosa»**.
+
+**Clase:** proceso, y va antes de `llaves y candados`. **Aplica a:** toda posición que otro vaya a firmar.
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** se lee desde el que va a ceder, y no desde el que va a ganar.
+**Límite:** **no decide qué es cierto.** **Decide qué posición aguantó cuando la otra le quitó algo — y deja escritas las dos.**
+**Firma:** humano:autoridad · máquina:quien debata.
+
+**Cuándo se corre:** **se corre cuando una posición va a entrar a llaves y candados, y antes de cerrarla.**
+
+**Peor:** se cierra el debate por acuerdo, **y la posición que ganó es la que mejor se defendió, y no la que aguantó: y entonces el candado se cierra sobre una opinión con buenos modales.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **un candado sin debate se puede creer o se puede refutar, y las dos son igual de malas: la primera porque no se contestó, y la segunda porque nunca se intentó.**
+**Termina:** **cuando cada posición se pisó contra otra que la contradice, y se sabe qué le quitó.**
+**Cierra en:** **la posición que aguanta, y su `Contra`, en el banco de fricción.**
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** **dos o más posiciones, y el historial de sesgos de cada una.** **Modo: escribe.**
+- **Falla si:** todas las posiciones son del mismo que las sostiene; ninguna dice qué perdería si la otra gana; no hay un tercero que pueda decir cuál aguantó; el debate se cierra por votación o por acuerdo; o se borra la posición que perdió.
+- **Sale:** **la posición que aguantó, con lo que la otra le quitó** — **o `[SIN DEBATE - NO HAY CONTRINCANTE]`.**
+- **Consume:** **quien va a cerrar el candado, y el banco de fricción.**
+
+---
+
+## Por qué una persona trae más de una posición
+
+> **Una persona es un historial de sesgos. Y no es válido decir que sólo cree una cosa.**
+> **Por eso un debate no es «tú contra mí»: es «estas dos cosas que yo sostengo, y que no caben juntas».**
+
+**Y el caso más común no es el de dos personas: es el de una, con dos posiciones que se pisan.**
+
+| El debate | Cómo se ve |
+|---|---|
+| **entre dos** | **dos historiales, y cada uno trae su sesgo declarado** |
+| **dentro de uno** | **un historial, y dos posiciones que el mismo sostiene y que no caben juntas** |
+| **y el que más sirve** | **el segundo: porque nadie va a defender su propia contradicción por orgullo** |
+
+**Y por eso el proceso pide el historial de cada posición y no el nombre de quien la sostiene:** **la posición se juzga por lo que sostiene, y no por quién la trae.**
+
+---
+
+## Las cuatro reglas, y ninguna se salta
+
+**1. La mejor versión de la otra.** **Cada posición se presenta como la presentaría el que la sostiene, y no como la versión fácil de tumbar.**
+
+**2. Qué se pierde.** **Cada posición dice qué dejaría de ser cierto si la otra gana.** **Sin eso no hay debate: hay dos monólogos.**
+
+**3. El tercero.** **Alguien que no sostiene ninguna de las dos dice cuál aguantó, y con qué.** **Y si no hay tercero, se declara `[SIN TERCERO]`, y no se finge que hubo.**
+
+**4. Lo que perdió se queda.** **La posición vencida no se borra: se declara vencida, con lo que le quitó a la que ganó.**
+
+---
+
+## El corte, y es el del repo
+
+> **Explícitos alinean; mostrar cambia.**
+
+**Por eso el debate no concluye con una definición: deja escrito qué cambió en cada posición.** **Y el que lee ve el cambio, y no el veredicto.**
+
+---
+
+## Lo que este proceso no hace
+
+**No decide qué es cierto.** **Decide qué aguantó, y con qué.**
+
+**No elige al ganador por votos.** **El que habla mejor no cuenta: cuenta lo que la otra posición le quitó.**
+
+**No cierra el candado.** **Eso lo hace `llaves y candados`, después.**
+
+**No obliga a que todas las posiciones sean de personas distintas.** **Una sola persona puede traer dos, y es el caso que más sirve.**
+
+---
+
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este proceso no se puede cerrar sin decir qué se buscó.** **Porque una IA sin búsqueda obligatoria contesta de memoria, y la memoria de una IA no es fuente.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la obra existe, y es de quien se dice** | **el catálogo del editor, la ficha, o el registro** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **la escena, la frase, o el dato** | **la obra, el guion, o el clip con su identificador** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **la ley, y la jurisdicción** | **el texto publicado, y su fecha** | **`[SIN ENCONTRAR - NO SE CITA COMO LEY]`** |
+| **un nombre real** | **su ficha, y lo que él mismo dijo** | **`[NO SE NOMBRA - NO HAY FUENTE]`** |
+
+**Y el registro, que es lo que lo hace servir de prueba, va en el mismo acto:**
+
+```plaintext
+Se buscó:     [la pregunta exacta]
+Dónde:        [el motor, la ficha, la fuente, o el enlace]
+Decía:        [lo que decía, literal o citado]
+Segunda:      [sí, con cuál | no, y por qué]
+Conclusión:   [se sostiene | se cae | no se pudo juzgar]
+```
+
+**Rige [`../../direcciones/ACTOS/BUSCAR.prs`](../../direcciones/ACTOS/BUSCAR.prs).**
+
+---
+## Prueba
+
+**¿Cada posición trae su historial de sesgos? ¿Dice qué perdería si la otra gana? ¿Hay un tercero, o se declaró que no? ¿La posición que perdió quedó escrita?**
+
+**Falsificador:** un debate entre la misma posición; una posición sin qué perder; un cierre por acuerdo; un veredicto sin tercero; una posición borrada; un debate que concluye con una definición en vez de con un cambio.
+
+
+---
+
+## Lo que era 'llaves y candados', y aqui vive
+
+**Este proceso tenia un hermano aparte, y era el mismo: cerrar con llave lo que el debate abrio.** **Se fusiono aqui, porque una llave sin debate es una opinion, y un debate sin llave no cierra.**
+
+# LLAVES Y CANDADOS.prs — el que abre, y lo que no se abre solo
+
+**Nombre.** LLAVES Y CANDADOS. **Y el nombre dice el acto:** **cerrar lo que alguien sostiene, y abrirlo sólo con una llave que venga de fuera.**
+
+**Origen.** **De la autoridad:** **«la inspiración de llaves y candados la puse por Andrés Pérez Sustaita, la enciclopedia de la lucha libre».** **Y de esta frase, del primer día:** **«la tesis por sí sola es inútil»**.
+
+**Clase:** proceso, y es el de arriba. **Aplica a:** toda pieza del repo que otro vaya a discutir.
+**Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Sesgo:** se lee desde el que va a refutar, y no desde el que escribió el candado.
+**Límite:** **no decide qué es cierto.** **Decide qué se puede refutar, con qué, y quién puede hacerlo.**
+**Firma:** humano:autoridad · máquina:quien abra.
+
+**Cuándo se corre:** **se corre cuando algo se cierra con llave, y cuando alguien pide abrirlo.**
+
+**Peor:** el candado se abre solo, **porque su autor se convenció a sí mismo, y entonces no era un candado: era una opinión con candado dibujado.**
+
+---
+
+## La falta que cubre, y su término
+
+**Falta:** **una tesis sin candado no se puede refutar; se puede ignorar. Y una que se abre sola no se puede contestar: se obedece.**
+**Termina:** **cuando cada candado dice qué lo cierra, qué lo abre, y quién puede abrirlo sin pedirle permiso a su autor.**
+**Cierra en:** **el candado 0, y en el disparo de las tesis.**
+**Autoridad:** humano:autoridad.
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** una posición, y lo que la sostiene. **Modo: escribe.**
+- **Falla si:** el candado no dice qué lo abre; la llave la pone el mismo que lo cerró; el candado no tiene el caso que lo rompe; o se abre sin dejar rastro.
+- **Sale:** el candado con su llave, **o `[SIN LLAVE - NO ENTRA]`, o `[LLAVE PROPIA - NO VALE]`.**
+- **Consume:** quien vaya a refutar, y el banco de fricción.
+
+---
+
+## Los tres principios, y son de la autoridad
+
+> **Comunidad · Criterio · Continuidad.**
+
+| El principio | Qué prohíbe |
+|---|---|
+| **comunidad** | **que una pieza se entienda sólo con su autor delante** |
+| **criterio** | **que se sostenga porque lo dijo alguien, y no porque aguanta** |
+| **continuidad** | **que lo nuevo borre lo viejo: se suplanta, y lo viejo queda visible** |
+
+**Y una llave que rompe uno de los tres ya no es llave: es un sello.**
+
+---
+
+## El corte de los nombres, y es el de todo el repo
+
+> **Explícitos alinean; mostrar cambia.**
+
+**Por eso el mecanismo no explica qué es cierto: muestra lo que se hizo, y deja que el que mira decida.**
+
+---
+
+## Las dos tesis que dispara
+
+**No se ejecutan solas: se disparan.**
+
+| La tesis | Qué es |
+|---|---|
+| **la teórica** | **la que se escribe en el formato que pida quien la vaya a leer, para que la pueda entender el que no cree** |
+| **la práctica** | **la que se hace al final, con lo que ya pasó** |
+
+**Y las dos `on demand`:** **cuando un candado se cierra, se triangula con `expresión`, el estado del arte y la regla de estupidez.** **Nunca en `background`.**
+
+---
+
+## Lo que este proceso no hace
+
+**No decide qué es un candado.** **Eso lo dice quien lo cierra, y lo refuta quien lo abre.**
+
+**No cierra el candado 0.** **El cero se abre con fricción, y no se reescribe.**
+
+**No nombra.** **Los nombres son de la autoridad.**
+
+---
+
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este proceso no se puede cerrar sin decir qué se buscó.** **Porque una IA sin búsqueda obligatoria contesta de memoria, y la memoria de una IA no es fuente.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la obra existe, y es de quien se dice** | **el catálogo del editor, la ficha, o el registro** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **la escena, la frase, o el dato** | **la obra, el guion, o el clip con su identificador** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **la ley, y la jurisdicción** | **el texto publicado, y su fecha** | **`[SIN ENCONTRAR - NO SE CITA COMO LEY]`** |
+| **un nombre real** | **su ficha, y lo que él mismo dijo** | **`[NO SE NOMBRA - NO HAY FUENTE]`** |
+
+**Y el registro, que es lo que lo hace servir de prueba, va en el mismo acto:**
+
+```plaintext
+Se buscó:     [la pregunta exacta]
+Dónde:        [el motor, la ficha, la fuente, o el enlace]
+Decía:        [lo que decía, literal o citado]
+Segunda:      [sí, con cuál | no, y por qué]
+Conclusión:   [se sostiene | se cae | no se pudo juzgar]
+```
+
+**Rige [`../../direcciones/ACTOS/BUSCAR.prs`](../../direcciones/ACTOS/BUSCAR.prs).**
+
+---
+## Prueba
+
+**¿Cada candado dice qué lo abre? ¿La llave viene de fuera del que lo cerró? ¿Rompe alguno de los tres principios? ¿La tesis se dispara cuando el candado cierra, y no sola?**
+
+**Falsificador:** un candado que se abre solo; una llave que pone el autor; un candado sin el caso que lo rompe; una tesis que corre en background; un principio de los tres roto sin decirlo.
+
