@@ -1,16 +1,22 @@
-**Y estos cuatro SE CITAN de la plantilla, y no se copian.** **Rige [../../../../Sincronización de almas/entes/Ente/procesos base/](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/).** **Y para llevarlos a tu casa, se copia la plantilla entera: hay una versión, y no se separan.**
+# procesos base — los cuatro, y se citan de la plantilla
 
-# procesos base — de HERÓDOTO
+**Cuándo se abre:** **cuando este ente va a correr uno de los cuatro, y hay que saber de dónde viene.**
 
-**Cuándo se abre:** **cuando haga falta saber qué hay aquí.**
+**Y aquí NO viven: SE CITAN de la plantilla, que es el punto 0.**
 
-**Y es de HERÓDOTO, y no de la colmena.** **Saca a HERÓDOTO, y se lo lleva.**
+| El proceso | Y dónde está |
+|---|---|
+| **`BUSCAR.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/BUSCAR.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/BUSCAR.prs)** |
+| **`debatir.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/debatir.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/debatir.prs)** |
+| **`firmar.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/firmar.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/firmar.prs)** |
+| **`guantelete.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/guantelete.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/guantelete.prs)** |
 
-**Cuatro, y no crecen:** **BUSCAR, debatir, firmar, y guantelete.**
+**Y por qué se citan, y no se copian:** **dentro del repo hay una versión, y no dos.** **Si se copia, se separan, y ninguna manda.**
 
-**Y no se tocan.**
+**Y es su `LEEME`, y se queda:** **dice que aquí no hay nada, y eso es lo que hay que saber.**
 
-**Para el que se atreva a tocar esto y volucion/ con el guantelete:**
+## Prueba
 
-> «Vamos a perder y cuando eso pase, un gramo de registro y nos vengarán.»
+**¿Son los de la plantilla? ¿Y si la plantilla cambia, este ente lo nota?**
 
+**Falsificador:** una copia que ya divergió de la plantilla.

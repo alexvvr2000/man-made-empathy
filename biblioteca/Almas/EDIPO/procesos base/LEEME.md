@@ -1,23 +1,22 @@
-# procesos base — el libre albedrío sobre un alma fija, y se citan
+# procesos base — los cuatro, y se citan de la plantilla
 
-**Cuándo se abre:** **al empezar, y cuando alguien quiera tocar algo aquí.**
+**Cuándo se abre:** **cuando este ente va a correr uno de los cuatro, y hay que saber de dónde viene.**
 
-**Y estos cuatro SE CITAN de la plantilla, y no se copian.** **Rige [`../../../../Sincronización de almas/entes/Ente/procesos base/`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/).**
+**Y aquí NO viven: SE CITAN de la plantilla, que es el punto 0.**
 
-**Y para llevarlos a tu casa, se copia la plantilla entera: hay una versión, y no se separan.**
+| El proceso | Y dónde está |
+|---|---|
+| **`BUSCAR.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/BUSCAR.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/BUSCAR.prs)** |
+| **`debatir.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/debatir.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/debatir.prs)** |
+| **`firmar.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/firmar.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/firmar.prs)** |
+| **`guantelete.prs`** | **[`../../Sincronización de almas/entes/Ente/procesos base/guantelete.prs`](../../../../Sincronización%20de%20almas/entes/Ente/procesos%20base/guantelete.prs)** |
 
-## Los cuatro, y no crecen
+**Y por qué se citan, y no se copian:** **dentro del repo hay una versión, y no dos.** **Si se copia, se separan, y ninguna manda.**
 
-**`BUSCAR`** · **`debatir`** · **`firmar`** · **`guantelete`**
-
-## Y el sello
-
-**Para el que se atreva a tocar esto y `evolucion/` con el guantelete:**
-
-> **«Vamos a perder y cuando eso pase, un gramo de registro, y nos vengarán.»**
+**Y es su `LEEME`, y se queda:** **dice que aquí no hay nada, y eso es lo que hay que saber.**
 
 ## Prueba
 
-**¿Siguen siendo cuatro? ¿Se citan de la plantilla, o se copiaron?**
+**¿Son los de la plantilla? ¿Y si la plantilla cambia, este ente lo nota?**
 
-**Falsificador:** un quinto proceso; una copia que ya divergió de la plantilla.
+**Falsificador:** una copia que ya divergió de la plantilla.
