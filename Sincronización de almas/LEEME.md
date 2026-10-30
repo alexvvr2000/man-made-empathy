@@ -12,7 +12,7 @@
 | La carpeta | Qué es | Y por dónde entrar |
 |---|---|---|
 | **[`./entes/`](./entes/)** | **la forma: un ente y una colmena, que se copian** | **[`./entes/Ente/`](./entes/Ente/)** |
-| **[`./teoria/`](./teoria/)** | **el argumento, los ejemplos, y el porqué de todo esto** | **[`./teoria/las siete leyes del punto cero.md`](./teoria/las%20siete%20leyes%20del%20punto%20cero.md)** |
+| **[`./teoria/`](./teoria/)** | **el argumento, los ejemplos, y el porqué de todo esto** | **[`./teoria/las ocho leyes del punto cero.md`](./teoria/las%20ocho%20leyes%20del%20punto%20cero.md)** |
 | **[`./teoria/ejemplos/`](./teoria/ejemplos/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./teoria/ejemplos/ESTADO.md`](./teoria/ejemplos/ESTADO.md)** |
 
 **Y lo que atiende de verdad no está aquí: vive en el proyecto, y esta carpeta sólo enseña.**
@@ -108,7 +108,7 @@ Colmena/
 
 | La pieza | Y qué contesta |
 |---|---|
-| **[`las siete leyes del punto cero`](./teoria/las%20siete%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
+| **[`las ocho leyes del punto cero`](./teoria/las%20ocho%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
 | **[`la casa del ente`](./teoria/la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
 | **[`por que el guantelete no toca el alma`](./teoria/por%20que%20el%20guantelete%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
 | **[`el alma es la raiz, y el oficio es la rama`](./teoria/el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |

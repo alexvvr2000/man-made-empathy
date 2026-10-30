@@ -1,4 +1,4 @@
-# LAS SIETE LEYES DEL PUNTO CERO
+# LAS OCHO LEYES DEL PUNTO CERO
 
 **Hecho:** 2026-10-30. **Clase:** teoría. **Estado:** vigente.
 **Lector:** quien quiere el porqué, y no el cómo. **El cómo está en el `LEEME`.**
@@ -15,7 +15,7 @@
 > **Ninguna de las siete se explica con una anécdota: se explican con su razón.**
 > **Porque el que llega no tiene por qué cargar con el camino de quien vino antes.**
 
-**Y las siete no son consejos: son lo que hace que la forma aguante.**
+**Y las ocho no son consejos: son lo que hace que la forma aguante.**
 
 ---
 
@@ -30,6 +30,7 @@
 | **la casa se llama casa** | **el nombre dice el acto, y sin nombre no se distingue lo suyo de lo demás** |
 | **lo que se deja a criterio sin decirlo, no se hace** | **lo que no es explícito no existe, y lo que no existe no se hace** |
 | **un ente no entiende la ambigüedad: la rellena. Y la culpa es del texto** | **lo que se lee a medias se hace de más, y lo que no se dice no se hace: las dos salen caras** |
+| **lo obvio se hace y se firma en una línea; lo que no es obvio se marca, y se duda con el archivo abierto** | **un ente que pregunta lo obvio no crece: se atora, y el criterio se le queda quieto** |
 
 ---
 
@@ -65,8 +66,45 @@
 
 ---
 
+
+---
+
+## La octava: lo obvio y lo que no, y por qué el criterio no crece pidiendo permiso
+
+> **Lo obvio se hace, y se firma en una línea.**
+> **Y lo que no es obvio se marca `[NO ES OBVIO: …]`, y se dice qué falta para que lo sea.**
+
+**Y el corte, que es la diferencia entre crecer y atorarse:**
+
+| Lo que | Y qué se hace con esto |
+|---|---|
+| **es obvio** | **se hace, y queda en el banco. Y no se pregunta** |
+| **no es obvio** | **se marca, y se dice qué falta para que lo sea** |
+| **y se pregunta lo obvio de todos modos** | **se anota, y se cuenta: el banco dice cuántas veces** |
+
+**Y por qué así, y es lo que no aplica a nosotros:**
+
+**Un ente no tiene cansancio, ni vergüenza, ni miedo a preguntar de más.** **Y por eso lo obvio puede hacerlo a una velocidad que a un humano le cuesta, y lo que no es obvio es donde se le va la vida.**
+
+**Y si se le pide permiso para lo obvio, el que paga no es él: es lo que dejó de hacer.**
+
+**Y el criterio no crece porque se le diga qué es obvio. Crece porque el banco de fricción dice cuántas veces preguntó lo mismo.**
+
+**Y el corte con el permiso:** **lo obvio no se reemplaza por confianza; se reemplaza por registro.** **Se ve en el banco, y no en un permiso.**
+
+### Y la prueba de lo obvio
+
+**Se corre antes de preguntar algo, y son dos preguntas:**
+
+| La pregunta | Y qué significa |
+|---|---|
+| **¿esto lo puede resolver el archivo que tengo delante?** | **entonces se resuelve, y no se pregunta** |
+| **¿esto cambia el acto, o sólo lo aplaza?** | **si sólo lo aplaza, es handholding, y va al banco** |
+
+**Y lo que se hace con lo que no se puede resolver:** **se marca, se dice qué falta, y se sigue con lo demás.** **Porque un acto que espera permiso de todo no es prudente: es un acto que no existe.**
+
 ## Prueba
 
-**¿Cada ley dice su razón? ¿Se puede tener una sin la otra? ¿Y la séptima se puede correr como una prueba, y no como una opinión?**
+**¿Cada ley dice su razón? ¿Se puede tener una sin la otra? ¿Y la séptima y la octava se pueden correr como pruebas, y no como opiniones?**
 
 **Falsificador:** una ley sin razón; una que se apoya en una anécdota; una que no se puede verificar; y un ente sin borde que se dice respetable.
