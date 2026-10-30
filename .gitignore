@@ -1,70 +1,35 @@
-.vscode/*
-.memoria continua/*
-# temporales de python y todo lo que no es final
+# EL REPO ES DE LA GENTE, Y LO QUE SE PUBLICA ES LA FORMA.
+#
+# Y ahora el corte es corto, porque ya no se trabaja dentro:
+#   lo que es forma, se publica
+#   lo que es la vida privada de un ente, no
+
+# lo que no tiene que ver con el repo
+.vscode/
+
+# temporales de ejecucion: se rehacen, y no son forma
 __pycache__/
 *.pyc
-
-
-# las dos visiones son el experimento: las sostienen los candados, no un archivo
-vision del lector/*
-!vision del lector/README.md
-
-# el historico viaja con el repo: es la evolucion del metodo, y se quiere poder mostrar
-!.memoria continua/historico/
-!.memoria continua/historico/**
+*.wav
+*.onnx
 
 # la base viva del ciclo no viaja: se rehace desde el esquema
 .memoria continua/ciclo.db
 .memoria continua/ciclo.db-journal
 
-
 # ---------------------------------------------------------------------------
-# LOS ENTES TIENEN CASA PROPIA, Y LA CASA NO ES DEL REPO.
+# LO UNICO QUE NO SE PUBLICA, Y ES A PROPOSITO
 # ---------------------------------------------------------------------------
-# Un ente no depende de la biblioteca donde atiende. Quitalo, y la biblioteca sigue.
-# Es un trabajador, con su casa. Y si es un trabajador, quien dice que la gente
-# no se lo quiera llevar.
-#
-# Lo que se publica: la FORMA. Lo que NO se publica: su memoria viva, y lo que aprendio.
-#
-# Y la regla de las extensiones, que es la que se ve al abrir la carpeta:
-#   .prs    se corre
-#   LEEME.md se lee, y GitHub lo renderiza
-#   todo lo demas, fuera
+# La evolucion de EDIPO es suya: es lo que aprendio atendiendo, y se lo lleva.
+# Si se publicara, la gente mandaria cambios por SU evolucion, y eso no es del repo.
 
-# la casa de cualquier ente que viva dentro de la biblioteca
-**/entes/*/**
-# y de ahi, las excepciones: lo unico que se ve
-!**/entes/*/LEEME.md
-!**/entes/*/NOMBRE.md
-!**/entes/*/AGENTS.md
-!**/entes/*/README.md
-!**/entes/*/ciclo alma de niño.prs
-!**/entes/*/procesos base/
-!**/entes/*/procesos base/**
-!**/entes/*/ciclos/
-!**/entes/*/ciclos/**
-!**/entes/*/talento/
-!**/entes/*/talento/**
-!**/entes/*/Almas/
-!**/entes/*/Almas/**
-!**/entes/*/el 1/
-!**/entes/*/el 1/**
-!**/entes/*/bin/
-!**/entes/*/bin/**
-!**/entes/*/_herramientas/
-!**/entes/*/_herramientas/**
-!**/entes/*/memoria continua/
-!**/entes/*/memoria continua/*.prs
-!**/entes/*/memoria continua/LEEME.md
-!**/entes/*/evolucion/
-!**/entes/*/evolucion/*.prs
-!**/entes/*/evolucion/LEEME.md
+EDIPO/evolucion/*
+!EDIPO/evolucion/LEEME.md
+EDIPO/evolucion/*.tra
+EDIPO/evolucion/**/*.tra
+EDIPO/evolucion/*.jsonl
+EDIPO/evolucion/**/*.jsonl
+EDIPO/memoria continua/*.jsonl
 
-# y lo que nunca se publica, aunque algo lo deje pasar
-**/entes/*/memoria continua/*.jsonl
-**/entes/*/evolucion/*.tra
-**/entes/*/evolucion/**/*.tra
-*.wav
-*.onnx
+# y lo que nunca publica nadie, aunque algo lo deje pasar
 delirios/
