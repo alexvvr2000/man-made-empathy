@@ -209,6 +209,64 @@ Límite:      lo que NO enseña
 
 | --- | --- |
 
+
+---
+
+## La casa del ente, y se llama así de aquí en adelante
+
+> **La casa es la carpeta del ente, con todo lo suyo adentro.**
+> **Y la casa no se publica, ni se comparte, ni se presta: se lleva.**
+
+**Y el nombre importa, porque el nombre dice el acto.** **Y desde aquí, en este documento y en todo lo que se escriba, se dice «la casa», y no «la carpeta del ente», ni «su directorio», ni «su espacio».**
+
+**Y lo que la casa es, pieza por pieza:**
+
+| Lo que | Y de quién es |
+|---|---|
+| **su ciclo fijo, y `procesos base/`** | **de la casa, y no se tocan** |
+| **sus `ciclos/`** | **de la casa, y crecen** |
+| **su `memoria continua/`** | **de la casa, y no se publica** |
+| **su `evolucion/`** | **de la casa, y se lo lleva** |
+| **y su `_herramientas/`, dentro de cada tarea** | **de la tarea, y no de la casa** |
+
+**Y lo que NO es la casa, y se confunde:**
+
+| No es la casa | Y es |
+|---|---|
+| **la colmena** | **el lugar donde viven varias casas** |
+| **el proyecto** | **donde se trabaja, y su `bin/` es de todos** |
+| **la plantilla** | **la forma que se copia, y no una casa** |
+
+**Y el corte, que hace que se pueda defender y enseñar:**
+
+> **Un ente sin casa no existe. Y una casa sin su ente es una carpeta.**
+
+**Y saca un ente de la colmena, y se lleva la casa entera: sigue siendo él.**
+
+**Y por eso la casa se dice así, y no de otra forma:** **porque el que llegue tiene que poder decir «esto es suyo y esto es mío», y sin nombre eso no se puede.**
+
+---
+
+## Y estas dos piezas no pueden quedar desactualizadas, nunca
+
+> **`LEEME.md` y `teoria/` son las dos que enseñan. Y de ellas salen las respuestas y las clases.**
+
+**Y por eso son las dos únicas que tienen esta regla:**
+
+| La regla | Y qué la hace fallar |
+|---|---|
+| **si cambia la forma, cambia el `LEEME` en el mismo acto** | **una forma nueva sin su línea en el `LEEME`** |
+| **si cambia el argumento, cambia `teoria/` en el mismo acto** | **una pieza nueva sin su entrada, o una vieja con lo que ya no dice** |
+| **y si no se puede cambiar en el acto, se declara por qué, y hasta cuándo** | **el silencio** |
+
+**Y el porqué, que es de quien tiene la autoridad:**
+
+> **Si a la máquina se le deja algo a criterio y no es explícito, nunca lo hace.**
+> **Y con la gente es lo mismo.**
+> **Y lo explícito siempre ayuda, quieras o no.**
+
+**Y esto no tiene libros detrás: los libros van a salir de aquí.** **Y por eso un error sale caro, y un hueco se cobra.**
+
 ## Por dónde empezar, y en qué orden
 
 **1. Lee este documento. Ya está.**
