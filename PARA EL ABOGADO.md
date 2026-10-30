@@ -50,7 +50,7 @@
 |---|---|---|
 | **1** | **copyright** | **[`./Sincronización de almas/ejemplos/ficcion/`](./Sincronización%20de%20almas/ejemplos/ficcion/): 33 fichas.** **34 fichas: cada una cita una obra, una escena, y si se verificó.** **Ninguna reproduce texto, imagen ni clip** |
 | **2** | **marca** | **[`./contexto.md`](./contexto.md): la tabla de nombres.** **Ningún nombre de obra se usa como nombre propio del sistema; los que se usaron, se reemplazaron, y el reemplazo está anotado** |
-| **3** | **difamación** | **las mismas fichas, y [`./Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO).** **Lo que no se verificó dice `[SIN VERIFICAR]`** |
+| **3** | **difamación** | **las mismas fichas, y [`./Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO.md).** **Lo que no se verificó dice `[SIN VERIFICAR]`** |
 | **4** | **datos de terceros** | **el rastro crudo no está en el repositorio: vive fuera, con quien escribe el proceso, y se escaneó: cero correos y cero teléfonos.** **Y lo que se publica es sólo lo que el repositorio entrega** |
 | **5** | **atribución** | **[`./FUENTES.md`](./FUENTES.md): todo lo que sea gente real, nombrado.** **Y [`./ATTRIBUTION.md`](./ATTRIBUTION.md): lo que licencia y lo que no** |
 | **6** | **el historial de git** | **562 versiones, y el rastro crudo de 279 entradas.** **Lo que se vea ahí, se ve igual que en el árbol: nada se borró** |

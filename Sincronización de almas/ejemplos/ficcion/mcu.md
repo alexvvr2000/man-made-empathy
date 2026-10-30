@@ -56,4 +56,4 @@
 
 **No va a mezclar el MCU con lo demás.** **Esto se cierra cuando el repo esté acabado, y con lo suyo: seis gemas, ficha, prueba y falsificador.**
 
-**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**

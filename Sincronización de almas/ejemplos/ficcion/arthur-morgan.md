@@ -58,4 +58,4 @@ Límite:      no enseña que morirse ayude; enseña que sin margen se ve qué er
 
 **Y su costo se declara, porque es la mitad del ejemplo:** **el juego se hizo con jornadas de cien horas, y la ficha lo dice.** **La concordia de `Arthur` la escribió gente que estaba viviendo lo contrario.**
 
-**Rige [`../LEEME`](../LEEME), y su estado en [`../ESTADO`](../ESTADO).**
+**Rige [`../LEEME`](../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**

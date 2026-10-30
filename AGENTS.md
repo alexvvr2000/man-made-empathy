@@ -41,8 +41,8 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
-| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/LEEME`](./Sincronización%20de%20almas/entes/LEEME) |
-| **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/LEEME`](./Sincronización%20de%20almas/entes/Ente/LEEME) · [`./Sincronización de almas/entes/Colmena/LEEME`](./Sincronización%20de%20almas/entes/Colmena/LEEME) |
+| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/LEEME`](./Sincronización%20de%20almas/entes/LEEME.md) |
+| **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/LEEME`](./Sincronización%20de%20almas/entes/Ente/LEEME.md) · [`./Sincronización de almas/entes/Colmena/LEEME`](./Sincronización%20de%20almas/entes/Colmena/LEEME.md) |
 | **La dirección: lo que se tiene que poder contestar** | **doce, cada uno con su falsificador** | [`./direcciones/`](./direcciones/) |
 | **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
 | **La lectura para la gente** | **qué es esto, y qué no** | [`./LEEME`](./README.md) |
@@ -75,7 +75,7 @@
 | **hablar con otro que no es como uno** | [`./direcciones/ACTOS/ALAS.prs`](./direcciones/ACTOS/ALAS.prs) | **se trunca, y se lee como completo** |
 | **declarar de dónde vino algo** | [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs) | **lo heredado se presenta como propio** |
 | **publicar algo, o citar una obra** | [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
-| **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME) | **se cita la primera cosa que salió** |
+| **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME.md) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
 | **leer lo que se dijo y se descartó** | **el proceso de este trabajo, que vive fuera de la biblioteca** | **se repite una discusión cerrada** |
 | **mutar la dirección o el producto** | todo lo anterior, **y se espera** | **no se toca: la fuente no muta de abajo hacia arriba** |

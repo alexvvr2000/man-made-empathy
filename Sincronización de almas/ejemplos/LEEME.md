@@ -40,7 +40,7 @@ Límite:      [lo que NO enseña]
 
 ## El estado, y se cuenta de una sola fuente
 
-> **El estado de cada ficha lo declara la ficha, y [`./ESTADO`](./ESTADO) lo recoge.**
+> **El estado de cada ficha lo declara la ficha, y [`./ESTADO`](./ESTADO.md) lo recoge.**
 > **No se cuenta dos veces, ni se dice un número que no cuadre.**
 
 **Y hoy, verificado contra los archivos:**
@@ -53,7 +53,7 @@ Límite:      [lo que NO enseña]
 | **`declarado`** | **2** |
 | **con segunda mirada independiente** | **0** |
 
-**Y la tabla completa, una por una, vive en [`./ESTADO`](./ESTADO).** **Aquí no se repite: se cuenta.**
+**Y la tabla completa, una por una, vive en [`./ESTADO`](./ESTADO.md).** **Aquí no se repite: se cuenta.**
 
 ---
 
@@ -78,7 +78,7 @@ Límite:      [lo que NO enseña]
 
 ## El método: cómo se verifica, y cuándo no se usa
 
-**Rige [`./COMO SE VERIFICA.LEEME`](./COMO SE VERIFICA.LEEME).** **Y sus dos reglas, que son las que evitan citar basura:**
+**Rige [`./COMO SE VERIFICA.LEEME.md`](./COMO SE VERIFICA.LEEME.md).** **Y sus dos reglas, que son las que evitan citar basura:**
 
 > **La ficha primero, el video después.**
 > **Y lo que no se abrió, no se dice como abierto.**

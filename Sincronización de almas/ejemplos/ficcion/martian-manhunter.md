@@ -56,4 +56,4 @@ Límite:      no enseña a hablar por el que no está; enseña por qué se harí
 
 **Y no enseña a recordar a los muertos sin volverse uno de ellos:** **`J'onn` vive con los que están; el recuerdo no lo detiene.**
 
-**Rige [`../LEEME`](../LEEME), y su estado en [`../ESTADO`](../ESTADO).**
+**Rige [`../LEEME`](../LEEME.md), y su estado en [`../ESTADO`](../ESTADO.md).**

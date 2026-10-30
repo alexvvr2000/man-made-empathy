@@ -21,33 +21,45 @@ vision del lector/*
 # ---------------------------------------------------------------------------
 # LOS ENTES TIENEN CASA PROPIA, Y LA CASA NO ES DEL REPO.
 # ---------------------------------------------------------------------------
-# EDIPO no depende del repo. Quitalo, y tienes un repo cualquiera.
-# Es un trabajador mas, con su casa. Y si es un empleado, quien dice
-# que la gente no se lo quiera llevar.
+# Un ente no depende de la biblioteca donde atiende. Quitalo, y la biblioteca sigue.
+# Es un trabajador, con su casa. Y si es un trabajador, quien dice que la gente
+# no se lo quiera llevar.
 #
-# Lo que se publica: la FORMA de trabajarlo (bin/ y _herramientas/).
-# Lo que NO se publica: su memoria y lo que aprendio. Eso se lo lleva el.
+# Lo que se publica: la FORMA. Lo que NO se publica: su memoria viva, y lo que aprendio.
+#
+# Y la regla de las extensiones, que es la que se ve al abrir la carpeta:
+#   .prs    se corre
+#   LEEME.md se lee, y GitHub lo renderiza
+#   todo lo demas, fuera
 
 # la casa de cualquier ente que viva dentro de la biblioteca
 **/entes/*/**
 # y de ahi, las excepciones: lo unico que se ve
+!**/entes/*/LEEME.md
+!**/entes/*/NOMBRE.md
 !**/entes/*/AGENTS.md
 !**/entes/*/README.md
-!**/entes/*/NOMBRE.md
+!**/entes/*/ciclo alma de niño.prs
+!**/entes/*/procesos base/
+!**/entes/*/procesos base/**
+!**/entes/*/ciclos/
+!**/entes/*/ciclos/**
+!**/entes/*/talento/
+!**/entes/*/talento/**
+!**/entes/*/Almas/
+!**/entes/*/Almas/**
+!**/entes/*/el 1/
+!**/entes/*/el 1/**
 !**/entes/*/bin/
 !**/entes/*/bin/**
 !**/entes/*/_herramientas/
 !**/entes/*/_herramientas/**
-!**/entes/*/guantelete.prs
-!**/entes/*/alma de niño/
-!**/entes/*/alma de niño/**
-!**/entes/*/memoria continua/
 !**/entes/*/memoria continua/
 !**/entes/*/memoria continua/*.prs
-!**/entes/*/memoria continua/README.md
+!**/entes/*/memoria continua/LEEME.md
 !**/entes/*/evolucion/
-!**/entes/*/evolucion/
-!**/entes/*/evolucion/README.md
+!**/entes/*/evolucion/*.prs
+!**/entes/*/evolucion/LEEME.md
 
 # y lo que nunca se publica, aunque algo lo deje pasar
 **/entes/*/memoria continua/*.jsonl
@@ -56,5 +68,3 @@ vision del lector/*
 *.wav
 *.onnx
 delirios/
-
-

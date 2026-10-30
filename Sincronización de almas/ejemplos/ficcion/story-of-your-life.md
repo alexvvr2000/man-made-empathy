@@ -44,4 +44,4 @@ Límite:      no enseña a traducir un idioma sin tiempo; el propio cuento lo us
 
 **Eso es el `Techo` del estándar `CONTEXTO` visto en ficción: lo que otro puede reconstruir sin el que lo escribió.**
 
-**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**

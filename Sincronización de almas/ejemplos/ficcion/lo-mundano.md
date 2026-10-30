@@ -58,4 +58,4 @@ Límite:      no enseña que todo se reduzca a lo infantil; enseña que si no ba
 
 **Y no enseña que lo grande sobre: `la-semilla`, el `MCU` y `Hunter × Hunter` son para otro propósito: defender.**
 
-**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**

@@ -56,4 +56,4 @@ Límite:      no enseña a continuar una obra ajena sin traicionarla; enseña qu
 
 **Y eso es todo el problema de los nombres del argumento, en un ejemplo real:** **el mismo personaje, con dos nombres, en dos mercados.** **Y el que sepa el nombre viejo no encuentra el nuevo, y al revés.**
 
-**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**

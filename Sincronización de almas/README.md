@@ -74,7 +74,7 @@ repo/
 
 **Y lo que hace que se pueda pasar el ente entre computadoras, y hasta la colmena:** **llega con alma de niño, y por eso hay trabajo en equipo y no una jerarquía.**
 
-**Rige [`./entes/Colmena/LEEME`](./entes/Colmena/LEEME).**
+**Rige [`./entes/Colmena/LEEME`](./entes/Colmena/LEEME.md).**
 
 ---
 

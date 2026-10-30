@@ -52,4 +52,4 @@ Límite:      no enseña a salir de la herencia; enseña que el juego te hace ca
 
 **Y no enseña que el padre pudiera elegir.** **Un rehén no es un acuerdo.**
 
-**Rige [`../LEEME`](../LEEME), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../LEEME.md), la regla del ejemplo que no es absoluto.**

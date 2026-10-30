@@ -1,0 +1,69 @@
+# TALENTO.prs — lo que cada ente aguanta, y a qué precio
+
+**Cuándo se corre:** **cuando un ente entra o sale de la colmena, y cuando se reparte un trabajo.**
+
+**Nombre.** TALENTO — **T**raer lo que aguanta, **A**notar lo que no, **L**eer el rastro, **E**scribir el precio, **N**ombrar quién lo vio, **T**achar lo que no se probó, **O**brar.
+
+**Clase:** proceso. **Aplica a:** la colmena, y a su banco de talento real.
+
+**Sesgo:** se lee desde lo que se le vio aguantar, y no desde lo que dijo saber.
+**Límite:** **no dice si el ente es bueno.** **Dice qué aguanta, a qué precio, y con qué rastro.**
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+**Peor:** el banco se llena de lo que cada uno dice de sí mismo, **y entonces no hay talento real: hay un directorio de promesas.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** el ente, y lo que se le vio hacer. **Modo: escribe.**
+- **Falla si:** se anota un talento sin rastro; se anota "puedo con todo"; no se dice qué no aguanta.
+- **Sale:** la línea del banco, con su rastro, **o `[SIN TALENTO REGISTRADO - NO SE LE VIO]`**.
+- **Consume:** quien reparte el trabajo, y quien entra o sale de la colmena.
+
+---
+
+## El ciclo, y son cinco pasos
+
+```plaintext
+1. TRAER     qué se le vio hacer, y dónde está el rastro
+2. DECIR     qué aguanta, y lo que NO aguanta. Lo segundo es lo que sirve
+3. PRECIO    a qué precio lo entrega: tiempo, cuidado, o lo que sea
+4. TESTIGO   quién lo vio. Sin testigo, no entra al banco
+5. ESCRIBIR  la línea: ente · aguanta · no aguanta · precio · quién lo vio
+```
+
+**Y el paso 4 es el que lo hace real:** **lo que nadie vio no es talento: es lo que el ente cree de sí mismo.**
+
+---
+
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la tarea donde aguantó** | **algún `evolucion/`, con su acuerdo** | **`[SIN RASTRO - NO ENTRA AL BANCO]`** |
+| **quién lo vio** | **el acuerdo, o la firma del acto** | **`[SIN TESTIGO - NO ENTRA]`** |
+| **lo que no aguanta** | **su propia declaración, o una tarea que falló** | **`[SIN ENCONTRAR - SE PREGUNTA AL ENTE]`** |
+
+**Y el registro:**
+
+```plaintext
+Se buscó:     [la tarea, y su acuerdo]
+Dónde:        [la ruta del evolucion, y el acto]
+Decía:        [qué hizo, y qué no]
+Testigo:      [quién lo vio]
+Conclusión:   [entra al banco | no entra]
+```
+
+**Rige [`../../Ente/procesos base/BUSCAR.prs`](../../Ente/procesos%20base/BUSCAR.prs).**
+
+---
+
+## Prueba
+
+**¿Cada línea del banco tiene rastro? ¿Se dice lo que NO aguanta? ¿Hay testigo? ¿El precio está dicho?**
+
+**Falsificador:** un talento sin rastro; un "puedo con todo"; un banco que es la suma de lo que cada uno dijo de sí.

@@ -59,7 +59,7 @@
 
 **Y la regla que lo cierra:** **lo que no se verificó, se dice `[SIN VERIFICAR]`.** **Una cita sin fuente es lo que se condena; una cita con su estado, no.**
 
-**Rige [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME).**
+**Rige [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.LEEME.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.LEEME.md).**
 
 ---
 

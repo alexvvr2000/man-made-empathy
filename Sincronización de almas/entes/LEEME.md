@@ -94,8 +94,8 @@
 | **decidir con fundamento** | **`./Ente/ciclo alma de niño.prsbanco de friccion.prs`** | **se obedece una conclusión sin saber de dónde vino** |
 | **correr una vuelta** | **`./Ente/ciclo alma de niño.prs`** | **se actúa sin leer, y sin decir que no se sabe** |
 | **agregar una tarea aprendida** | **`./Ente/evolucion/`** | **crece el cajón, y no el ente** |
-| **juntar varios entes** | **[`./Colmena/LEEME`](./Colmena/LEEME)** | **son varios absolutos con el mismo nombre** |
-| **saber cuál conviene** | **[`./Colmena/LEEME`](./Colmena/LEEME)** | **se elige por lo que promete, y sale cara y frágil** |
+| **juntar varios entes** | **[`./Colmena/LEEME`](./Colmena/LEEME.md)** | **son varios absolutos con el mismo nombre** |
+| **saber cuál conviene** | **[`./Colmena/LEEME`](./Colmena/LEEME.md)** | **se elige por lo que promete, y sale cara y frágil** |
 | **conocer las ideas detrás** | **[`../ideas/`](../ideas/), cuando esté** | **se trabaja sin sustento** |
 
 ---

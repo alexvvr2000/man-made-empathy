@@ -44,7 +44,7 @@ ente/
 
 ## Y lo que NUNCA se toca
 
-**`procesos base/`.** **Cuatro procesos, y no crecen.** **Rige [`./procesos base/LEEME`](./procesos%20base/LEEME).**
+**`procesos base/`.** **Cuatro procesos, y no crecen.** **Rige [`./procesos base/LEEME`](./procesos%20base/LEEME.md).**
 
 **Y el guantelete toca `evolucion/`, y nada más.**
 

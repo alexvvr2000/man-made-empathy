@@ -85,7 +85,7 @@
 
 ## Y el estado de verificación, que no es lo mismo que el inventario
 
-**Las 34 fichas están verificadas con una sola mirada, y ninguna con dos.** **La tabla completa está en [`../Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO).**
+**Las 34 fichas están verificadas con una sola mirada, y ninguna con dos.** **La tabla completa está en [`../Sincronización de almas/ejemplos/ESTADO`](./Sincronización%20de%20almas/ejemplos/ESTADO.md).**
 
 | Estado | Cuántas |
 |---|---|
