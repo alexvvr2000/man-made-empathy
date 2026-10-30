@@ -99,7 +99,7 @@ Segunda:      [sí, con cuál | no, y por qué]
 Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 ```
 
-**Rige [`../../../../direcciones/ACTOS/BUSCAR.prs`](../../../../direcciones/ACTOS/BUSCAR.prs), que dice qué se busca y qué no.**
+**Rige [`./BUSCAR.prs`](./BUSCAR.prs), que dice qué se busca y qué no.**
 
 ---
 

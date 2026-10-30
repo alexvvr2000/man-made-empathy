@@ -112,7 +112,6 @@
 | **[`./ACTOS/VIGA.prs`](./ACTOS/VIGA.prs)** | **leer un destino sin saber qué es** |
 | **[`./ACTOS/CONTEXTO.prs`](./ACTOS/CONTEXTO.prs)** | **de dónde vino, y que se usó bien** |
 | **[`./ACTOS/VERBALIZAR.prs`](./ACTOS/VERBALIZAR.prs)** | **darle nombre a lo que es, y que el nombre diga el acto** |
-| **[`./ACTOS/BUSCAR.prs`](./ACTOS/BUSCAR.prs)** | **lo externo se busca, o se tacha: dos miradas, y el registro** |
 | **[`./ACTOS/MUTAR.prs`](./ACTOS/MUTAR.prs)** | **el alma de niño es fija, y todo lo demás cambia: seis actos de mutación** |
 | **[`./ACTOS/PROCESOS.prs`](./ACTOS/PROCESOS.prs)** | **un proceso no se escribe: se refuta primero** |
 

@@ -86,7 +86,7 @@ Segunda:      [sí, con cuál | no, y por qué]
 Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 ```
 
-**Rige [``../ACTOS/BUSCAR.prs``](`../ACTOS/BUSCAR.prs`), que dice qué se busca y qué no.**
+**Y el proceso de buscar vive en el ente, en `procesos base/BUSCAR.prs`: es obligatorio para cada uno, porque es lo que previene que una máquina conteste de memoria.**
 
 ---
 
