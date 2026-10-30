@@ -8,7 +8,7 @@ Uso:
     python bin/conciencia.py verificar RUTA        cuenta lo que salió, y si sirve
 
 Qué escribe, y qué NO:
-  - Escribe el texto de cada turno, con su fecha y su rol. Y el banco de memoria del repo.
+  - Escribe el texto de cada turno, con su fecha y su rol.
   - NO escribe código, ni rutas del sistema, ni credenciales.
   - Y no promete una conciencia: es el rastro de lo que se dijo.
 
@@ -137,20 +137,9 @@ def cmd_dump(args):
                         f.write(json.dumps(fila, ensure_ascii=False) + "\n")
                 sesiones.append({"sesion": nombre, "turnos": len(filas), "archivo": os.path.basename(salida)})
                 total += len(filas)
-    # los bancos del repo, que son la memoria del trabajo
-    banco = os.path.join(MEMORIA, "ciclo.db")
-    if os.path.exists(banco):
-        con = sqlite3.connect(banco)
-        con.row_factory = sqlite3.Row
-        for tabla in ("memoria", "friccion"):
-            filas = [dict(r) for r in con.execute(f"SELECT * FROM {tabla}")]
-            with open(os.path.join(destino, f"banco-{tabla}.jsonl"), "w", encoding="utf-8") as f:
-                for fila in filas:
-                    f.write(json.dumps(fila, ensure_ascii=False) + "\n")
-        con.close()
+                total += len(filas)
     indice = {
-        "hecho": date.today().isoformat(),
-        "qué_es": "el rastro de lo que se conversó, y los bancos del repo. No es una conciencia: es lo que se dijo.",
+        "que_es": "el rastro de lo que se conversó. No es una conciencia: es lo que se dijo",
         "sesiones": sesiones,
         "turnos": total,
     }

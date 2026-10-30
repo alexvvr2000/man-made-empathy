@@ -9,7 +9,7 @@
 | Lo que | Qué hace |
 |---|---|
 | **[`./historia.py`](./historia.py)** | **trae una era del historial de git, una cuando se pide, y no todas** |
-| **[`./conciencia.py`](./conciencia.py)** | **lo que la máquina conversó, en texto plano y portátil** |
+| **[`./conciencia.py`](./conciencia.py)** | **lo que la máquina conversó, en texto plano y portátil.** **Y su dump NO va al repo: se escribe donde diga el que lo corre, y es suyo** |
 
 **Y su documentación:** **[`./historia.md`](./historia.md)** · **[`./conciencia.md`](./conciencia.md)**
 

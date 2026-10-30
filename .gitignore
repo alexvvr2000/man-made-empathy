@@ -16,3 +16,8 @@ biblioteca/Almas/*/memoria continua/*.jsonl
 # temporales: se rehacen, y no son forma
 __pycache__/
 *.pyc
+
+# y lo que se converso nunca entra al repo: el dump es de quien lo corre
+conciencia-dump/
+**/conciencia-dump/
+*.jsonl
