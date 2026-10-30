@@ -22,6 +22,15 @@
 
 ---
 
+## Y el acuerdo, antes de la tarea
+
+> **Sin `ACUERDO.prs` corrido, no se escribe en el `evolucion/` compartido.**
+> **Y cada tarea deja su acuerdo en `ACUERDO - <la tarea>.md`, con el `Contra` escrito, y el nombre de cada ente que aceptó.**
+
+**Rige [`./ACUERDO.prs`](./ACUERDO.prs).**
+
+---
+
 ## De qué está hecho el acuerdo, y de qué no
 
 | Lo que entra al acuerdo | De dónde viene |
