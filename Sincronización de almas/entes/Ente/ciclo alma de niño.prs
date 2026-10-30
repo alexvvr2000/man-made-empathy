@@ -106,7 +106,7 @@ una tarea nueva, y el comando dice:
 |---|---|---|
 | **ciclo alma de niño.prs** | **del ente** | **no, nunca** |
 | **evolucion/** | **del ente, y se lo lleva** | **si: el guantelete lo toca, de a una tarea** |
-| **el bin/ del proyecto** | **de todos** | **si: bajo criterio, y sirve a todos los entes que pasen** |
+| **el `bin/` del proyecto** | **de todos** | **sí: bajo criterio, y sirve a todos los entes que pasen. Y el ente NO trae `bin/`** |
 | **la _herramientas/ de una tarea** | **de esa tarea** | **si: es su propio bin** |
 
 **Y el corte:** **el bin es de todos, y la caja es de el mismo.** **No son lo mismo, y por eso no se mezclan.**

@@ -19,6 +19,8 @@ Almas/
     └── bin/                    sus herramientas
 ```
 
+**Y un ente NO trae `bin/`: eso es del proyecto.** **El ente trae sus tareas, y cada tarea su `_herramientas/`.**
+
 **Y aquí no hay entes: es la plantilla.** **Los de verdad están en [`../../../../biblioteca/Almas/`](../../../../biblioteca/Almas/).**
 
 ## Prueba

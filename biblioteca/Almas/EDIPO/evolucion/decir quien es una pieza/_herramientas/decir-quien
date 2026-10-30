@@ -12,8 +12,13 @@ Uso:  python bin/decir-quien <nombre-o-parte>
 import os
 import sys
 
-CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BIBLIOTECA = os.path.abspath(os.path.join(CASA, "..", "..", ".."))
+AQUI = os.path.dirname(os.path.abspath(__file__))
+CASA = AQUI
+BIBLIOTECA = AQUI
+for _ in range(8):
+    if os.path.isdir(os.path.join(BIBLIOTECA, ".git")):
+        break
+    BIBLIOTECA = os.path.dirname(BIBLIOTECA)
 
 # de quien es cada carpeta de la biblioteca
 DUENOS = [

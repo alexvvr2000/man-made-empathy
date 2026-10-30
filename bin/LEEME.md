@@ -1,3 +1,5 @@
+**Y este in/ es del proyecto, y no de un ente.** **Los entes no traen in/: traen tareas, y cada tarea su _herramientas/.** **Lo que sirve a todos, vive aquí.**
+
 # BIN — el código que hace correr el ciclo
 
 **Hecho:** 2026-10-29. **Clase:** taller. **Estado:** el ciclo mínimo corre.

@@ -8,7 +8,7 @@
 |---|---|
 | **cuenta** | **qué pasó, y en qué orden** |
 | **fecha** | **cada cosa con su día** |
-| **rastrea** | **[`./bin/historia`](./bin/historia)**: de dónde vino algo, y si cambió de sitio |
+| **rastrea** | **[`./evolucion/contar la historia/`](./evolucion/contar%20la%20historia/)**: de dónde vino algo, y si cambió de sitio |
 | **distingue** | **lo que se tiró, de lo que nunca estuvo** |
 | **y dice lo que no sabe** | **y no lo inventa** |
 
@@ -22,8 +22,7 @@ HERÓDOTO/
 ├── procesos base/          BUSCAR, debatir, firmar, guantelete. No se tocan.
 ├── ciclos/                 los suyos
 ├── memoria continua/       lo que registró
-├── evolucion/              lo que aprendió
-└── bin/                    historia
+└── evolucion/              sus tareas, cada una con su _herramientas/
 ```
 
 ## Y su hermano

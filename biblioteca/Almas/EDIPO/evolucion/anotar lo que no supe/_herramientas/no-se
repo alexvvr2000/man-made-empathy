@@ -16,7 +16,17 @@ import os
 import sys
 from datetime import datetime
 
-CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+AQUI = os.path.dirname(os.path.abspath(__file__))
+CASA = AQUI
+for _ in range(8):
+    if os.path.isdir(os.path.join(CASA, "memoria continua")):
+        break
+    CASA = os.path.dirname(CASA)
+BIBLIOTECA = CASA
+for _ in range(8):
+    if os.path.isdir(os.path.join(BIBLIOTECA, ".git")):
+        break
+    BIBLIOTECA = os.path.dirname(BIBLIOTECA)
 REGISTRO = os.path.join(CASA, "memoria continua", "no-se.jsonl")
 
 

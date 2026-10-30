@@ -6,10 +6,10 @@
 
 | Lo que | Con qué |
 |---|---|
-| **busca** | **[`./bin/buscar`](./bin/buscar)**: en el catálogo, antes de decir que no hay |
-| **dice de quién es** | **[`./bin/decir-quien`](./bin/decir-quien)**: la pieza, su dueño, y su estado |
-| **dice qué falta** | **[`./bin/que-falta`](./bin/que-falta)**: lo pendiente, lo sin cerrar, y lo sin verificar |
-| **y anota lo que no supo** | **[`./bin/no-se`](./bin/no-se)**: queda como pieza que falta |
+| **busca** | **[`./evolucion/buscar/`](./evolucion/buscar/)**: en el catálogo, antes de decir que no hay |
+| **dice de quién es** | **[`./evolucion/decir quien es una pieza/`](./evolucion/decir%20quien%20es%20una%20pieza/)**: la pieza, su dueño, y su estado |
+| **dice qué falta** | **[`./evolucion/decir que falta/`](./evolucion/decir%20que%20falta/)**: lo pendiente, lo sin cerrar, y lo sin verificar |
+| **y anota lo que no supo** | **[`./evolucion/anotar lo que no supe/`](./evolucion/anotar%20lo%20que%20no%20supe/)**: queda como pieza que falta |
 
 ## Su casa
 
@@ -21,8 +21,7 @@ EDIPO/
 ├── procesos base/          BUSCAR, debatir, firmar, guantelete. No se tocan.
 ├── ciclos/                 los suyos
 ├── memoria continua/       sus dos bancos
-├── evolucion/              lo que aprendió
-└── bin/                    sus cuatro herramientas
+└── evolucion/              sus tareas, cada una con su _herramientas/
 ```
 
 ## Y su hermano

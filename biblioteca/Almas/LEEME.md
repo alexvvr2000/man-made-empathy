@@ -21,8 +21,7 @@
 ├── procesos base/          cuatro, y no crecen
 ├── ciclos/                 los suyos
 ├── memoria continua/       lo que acumuló
-├── evolucion/              lo que aprendió
-└── bin/                    sus herramientas
+└── evolucion/              sus tareas, cada una con su _herramientas/
 ```
 
 **Y saca uno de aquí, y no pasa nada: sigue siendo él, con su casa.**
