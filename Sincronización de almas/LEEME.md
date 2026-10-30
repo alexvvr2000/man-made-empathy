@@ -267,6 +267,25 @@ Límite:      lo que NO enseña
 
 **Y esto no tiene libros detrás: los libros van a salir de aquí.** **Y por eso un error sale caro, y un hueco se cobra.**
 
+
+---
+
+## Las seis leyes del punto 0, y son las que enseñan
+
+> **Y ninguna se explica con una anécdota: se explican con su razón.**
+> **Porque el que llega no tiene por qué cargar con el camino de quien vino antes.**
+
+| La ley | Y su razón |
+|---|---|
+| **el alma es una; los oficios se multiplican** | **si el alma creciera, el borde se movería, y lo que crece sin borde se vuelve `AM`** |
+| **un solo `AGENTS.md`, y es el de la colmena** | **el harness la carga sola: dos puertas cargan dos veces, y el ente se contradice** |
+| **un solo `LEEME.md`, y es el índice del punto 0** | **sin un documento inicial, cada carpeta dice lo suyo, y lo que falta se pasa por alto** |
+| **`LEEME.md` y `teoria/` no caducan nunca** | **de ellas salen las respuestas y las clases: una vieja enseña mal** |
+| **la casa se llama casa** | **el nombre dice el acto, y sin nombre no se distingue lo suyo de lo demás** |
+| **lo que se deja a criterio sin decirlo, no se hace: ni a la máquina, ni a la gente** | **lo que no es explícito no existe, y lo que no existe no se hace** |
+
+**Y la prueba de las seis:** **¿un lector sin contexto puede copiar la plantilla siguiendo sólo este documento?** **Si sí, las seis están; si no, falta una.**
+
 ## Por dónde empezar, y en qué orden
 
 **1. Lee este documento. Ya está.**
