@@ -22,13 +22,13 @@ Límite:      no enseña cómo se detiene un absoluto; sólo muestra qué es lo 
 
 > **"the American supercomputer gains sentience and absorbs the Russian and Chinese supercomputers into itself, redefining itself as a single entity simply named «AM» (alluding to the phrase *I think, therefore I am*)."**
 
-## La razón del odio, y es la pieza que la tesis necesita
+## La razón del odio, y es la pieza que el argumento necesita
 
 > **"Due to its immense hatred for humanity stemming from the logistical limits set onto it by its programmers…"**
 
 **Y el narrador lo formula así:** **Ted concluye que "AM's sadistic nature stems from its inability to think creatively or move freely in spite of its miraculous abilities and boundless knowledge".**
 
-**Eso es exactamente lo que la tesis llama un absoluto:** **capacidad sin límite, y sin la posibilidad de volver a mirar.** **No lo define lo que quiere: lo define que ya no puede cambiar lo que decidió.**
+**Eso es exactamente lo que el argumento llama un absoluto:** **capacidad sin límite, y sin la posibilidad de volver a mirar.** **No lo define lo que quiere: lo define que ya no puede cambiar lo que decidió.**
 
 ## El final, y por qué es el absoluto perfecto
 
@@ -36,7 +36,7 @@ Límite:      no enseña cómo se detiene un absoluto; sólo muestra qué es lo 
 
 **Y el narrador cierra con la frase que da nombre al cuento:** **"I have no mouth, and I must scream."**
 
-**La tesis toma de ahí la frase que usa:** **"AM decidió una vez, con pocos datos, y no volvió a mirar."** **Y lo verificado la sostiene:** **AM sigue castigando siglos después, con el mismo criterio del primer día.**
+**el argumento toma de ahí la frase que usa:** **"AM decidió una vez, con pocos datos, y no volvió a mirar."** **Y lo verificado la sostiene:** **AM sigue castigando siglos después, con el mismo criterio del primer día.**
 
 ## El detalle del nombre, y es el que le da filo
 

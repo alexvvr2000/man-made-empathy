@@ -25,7 +25,7 @@ Límite:      no enseña a escribir un mundo sin reglas; enseña que el mundo pu
 
 **Y la ficha lo dice en sus propias palabras, sobre el mundo:** **hay un "post-apocalyptic" pasado que se revela a cuentagotas, sin una fila de exposición.**
 
-## Y la pieza que la tesis usa, y es de la concordia
+## Y la pieza que el argumento usa, y es de la concordia
 
 > **"la fiesta que no se para antes de tiempo": la convivencia no gana, sigue.**
 

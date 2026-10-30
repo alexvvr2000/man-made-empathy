@@ -29,7 +29,7 @@ Límite:      no enseña que la identidad no importe; enseña que la obra no la 
 
 **Y el nombre mismo lo enseña, y la ficha lo dice:** **«The title is deliberately ambiguous without context»** — **`doro` y `hedoro`: lodo y cieno.** **Ni el título quiere decir una cosa sola.**
 
-**Y el caso de la memoria y la identidad está en la ficha, y no en la tesis:** **`En` cree muerto a un `Caiman` que no es quien cree; `Shin` mató a una madre y a un padre; `Asu` resulta ser el hermano adoptivo de `Nikaido`.** **Todos descubren algo del pasado, y el mundo sigue funcionando.**
+**Y el caso de la memoria y la identidad está en la ficha, y no en el argumento:** **`En` cree muerto a un `Caiman` que no es quien cree; `Shin` mató a una madre y a un padre; `Asu` resulta ser el hermano adoptivo de `Nikaido`.** **Todos descubren algo del pasado, y el mundo sigue funcionando.**
 
 ### `Back to the Future`
 
@@ -41,13 +41,13 @@ Límite:      no enseña que la identidad no importe; enseña que la obra no la 
 
 **O sea: la obra que se ríe del tiempo acabó declarada patrimonio.** **Y por lo que enseña, no por lo que explica.**
 
-## Lo que este ejemplo le dice a la tesis
+## Lo que este ejemplo le dice al argumento
 
 > **No hace falta contestar qué hay dentro para que una obra viva dieciocho años o cuarenta.**
 
-**Y la razón, que es la misma del repo:** **la tesis que pregunta por la interioridad no termina nunca, y mientras no termina, el que decide es el que la pregunta.** **Estas dos obras preguntaron otra cosa —qué pasa cuando el tiempo se rompe— y la contestaron con personajes que siguen viviendo.**
+**Y la razón, que es la misma del repo:** **el argumento que pregunta por la interioridad no termina nunca, y mientras no termina, el que decide es el que la pregunta.** **Estas dos obras preguntaron otra cosa —qué pasa cuando el tiempo se rompe— y la contestaron con personajes que siguen viviendo.**
 
-**Y el otro corte, que es el del repo:** **`Back to the Future` es la obra que la tesis usa para `un alma crece`:** **«el que vuelve no es el mismo, y la historia sigue».**
+**Y el otro corte, que es el del repo:** **`Back to the Future` es la obra que el argumento usa para `un alma crece`:** **«el que vuelve no es el mismo, y la historia sigue».**
 
 ## Lo que este ejemplo NO enseña
 

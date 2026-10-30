@@ -20,7 +20,7 @@ Límite:      no enseña cómo se construye un canal que no existe; la propia ob
 > **"Both the book and the screenwriting required the invention of a form of alien linguistics which recurs in the plot. … Three linguists from McGill University were consulted. … Jessica Coon, a Canada Research Chair in Syntax and Indigenous Languages, was consulted for her linguistics expertise during the review of the script."**
 > — Wikipedia, *Arrival (film)*, sección «Linguistics»
 
-**Y lo que un lingüista dijo de la exactitud, y es la parte que la tesis usa:**
+**Y lo que un lingüista dijo de la exactitud, y es la parte que el argumento usa:**
 
 > **"David Adger… had a favorable view of the accuracy of the linguistics in *Arrival*, saying, 'the portrayal of trying different hypotheses about the language, coming up with generalizations, and testing them out was spot on.'"**
 > — Wikipedia, *Arrival (film)*, sección «Response from academics»
@@ -31,7 +31,7 @@ Límite:      no enseña cómo se construye un canal que no existe; la propia ob
 
 **Y la otra crítica, que hay que declarar:** **Betty Birner dijo que el uso de la hipótesis de Sapir–Whorf va "beyond anything that is plausible", y que la película "oversimplified the process of translating", saltando del vocabulario básico a entender "weapon".**
 
-## Lo que la tesis toma de él
+## Lo que el argumento toma de él
 
 > **"El otro que ya tiene un canal; y una lengua que se habita, no que se traduce."**
 

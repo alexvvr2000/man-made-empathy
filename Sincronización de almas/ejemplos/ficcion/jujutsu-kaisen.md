@@ -31,7 +31,7 @@ Límite:      no enseña a planear un arco largo; enseña la escala del salto
 
 > **"In October 2020, Akutami stated that the story's ending and main stages were planned, but that the path between the two remained 'fairly free.'"**
 
-**Eso es exactamente la tesis del repo aplicada a un autor:** **el fin está puesto, el camino se deja libre, y lo que se escribe entre los dos se aprende escribiéndolo.**
+**Eso es exactamente el argumento aplicado a un autor:** **el fin está puesto, el camino se deja libre, y lo que se escribe entre los dos se aprende escribiéndolo.**
 
 > **"Akutami knew how the story for Megumi Fushiguro would end, but not for Sukuna."**
 

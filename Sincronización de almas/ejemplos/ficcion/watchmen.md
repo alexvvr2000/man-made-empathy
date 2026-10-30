@@ -27,11 +27,11 @@ Límite:      no enseña cuál de las tres es la buena; enseña que no son inter
 
 **Y lo que Moore dijo de las adaptaciones:** **"Moore has expressed his displeasure with adaptations and sequels of *Watchmen* and asked for his name not to be used for future works."**
 
-## Lo que la tesis toma de él
+## Lo que el argumento toma de él
 
 > **"*Watchmen* se hizo tres veces, y son tres cosas distintas."**
 
-**Y la ficha lo sostiene mejor de lo que la tesis lo dice:** **el cómic se diseñó para un medio que no existe en otro sitio** — "the areas that comics succeed in where no other media is capable of operating". **Y la serie ni siquiera es la misma historia: es una continuación treinta y cuatro años después.**
+**Y la ficha lo sostiene mejor de lo que el argumento lo dice:** **el cómic se diseñó para un medio que no existe en otro sitio** — "the areas that comics succeed in where no other media is capable of operating". **Y la serie ni siquiera es la misma historia: es una continuación treinta y cuatro años después.**
 
 **O sea: no son tres versiones de lo mismo. Son un cómic, una película de un cómic, y una serie que pasa después.**
 

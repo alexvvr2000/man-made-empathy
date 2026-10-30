@@ -25,13 +25,13 @@ Límite:      no enseña a mostrar sin destruir; enseña que hay quien no lee ex
 
 **Y el detalle que ordena el ejemplo:** **el número del cómic está en la ficha: `Fantastic Four` #242–244, que es el arco de Galactus de John Byrne (1982).** **O sea: la escena de la serie tiene su número exacto, y se puede ir a leer.**
 
-## Lo que la tesis toma, y es una lectura de la autoridad
+## Lo que el argumento toma, y es una lectura de la autoridad
 
 > **«Los escritores actuales de Marvel no entienden al personaje, y piensan que el Penance Stare es pasar el dolor de uno a otro. No es eso: es mostrar.»**
 
 **Eso es lectura del autor sobre el personaje, y se declara como suya.** **Lo que sí verifica la ficha es el episodio: Ghost Rider aparece, y el argumento lo usa para doblegar a Galactus.**
 
-## Y la lección que la tesis pone, y es la mejor
+## Y la lección que el argumento pone, y es la mejor
 
 > **Hay mensajes que no caben en el canal de las razones.** **Con esos no se discute: se muestran.**
 

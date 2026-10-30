@@ -31,7 +31,7 @@ Límite:      no enseña a parar una pelea; enseña que hay peleas que no se pue
 
 ---
 
-## Lo que la tesis toma de ella
+## Lo que el argumento toma de ella
 
 > **El equilibrio no es un resultado: es una pelea que se mantiene.**
 

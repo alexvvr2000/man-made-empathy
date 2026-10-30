@@ -4,7 +4,7 @@
 **Lector:** quien va a citar un ejemplo, y quiere saber si puede.
 
 **Sesgo:** se lee desde el que no va a abrir las 34 fichas para saber qué está firme.
-**Límite:** **no dice si la obra es buena, ni si la escena dice lo que la tesis quiere.** **Dice de dónde salió la ficha, y si se buscó.**
+**Límite:** **no dice si la obra es buena, ni si la escena dice lo que el argumento quiere.** **Dice de dónde salió la ficha, y si se buscó.**
 **Firma:** humano:autoridad · máquina:quien verifique.
 
 ---

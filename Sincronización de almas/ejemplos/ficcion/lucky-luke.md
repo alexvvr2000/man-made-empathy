@@ -27,9 +27,9 @@ Límite:      no enseña a continuar una obra ajena sin traicionarla; enseña qu
 
 **O sea: la obra sobrevivió a los dos que la hicieron.** **Eso es la semilla que sigue creciendo después del que la plantó.**
 
-## Y la escena de la tesis: NO es de `Lucky Luke`
+## Y la escena del argumento: NO es de `Lucky Luke`
 
-**La tesis la cita como "la venganza del hijo de Jhon Marston".** **Y está mal, y se corrige:**
+**El argumento la citaba como "la venganza del hijo de Jhon Marston", y ese nombre estaba mal.** **Y está mal, y se corrige:**
 
 **No es `Lucky Luke`. Es `Red Dead Redemption` (2010), el primero, que es precuela del 2.** **Y el hijo es `Jack Marston`, no «Jhon».** **Jack caza al agente Edgar Ross al final del juego, para vengar a su padre John.**
 
@@ -45,12 +45,12 @@ Límite:      no enseña a continuar una obra ajena sin traicionarla; enseña qu
 
 **Y no enseña el caso del hijo con venganza,** **porque no está verificado.**
 
-## Y lo que sí dice la ficha, y sirve para la tesis de los nombres
+## Y lo que sí dice la ficha, y sirve para el argumento de los nombres
 
 > **"The Giggle version had Luke's name changed to «Buck Bingo»."**
 
 **En una de las traducciones inglesas, `Lucky Luke` se llamó `Buck Bingo`.**
 
-**Y eso es todo el problema de los nombres de la tesis, en un ejemplo real:** **el mismo personaje, con dos nombres, en dos mercados.** **Y el que sepa el nombre viejo no encuentra el nuevo, y al revés.**
+**Y eso es todo el problema de los nombres del argumento, en un ejemplo real:** **el mismo personaje, con dos nombres, en dos mercados.** **Y el que sepa el nombre viejo no encuentra el nuevo, y al revés.**
 
 **Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**

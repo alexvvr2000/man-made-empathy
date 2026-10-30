@@ -35,7 +35,7 @@ Límite:      no enseña que todo se reduzca a lo infantil; enseña que si no ba
 
 **Y el repo lo dijo desde su `README`:** **«esto se entiende sin saber el oficio».**
 
-**O sea: `Peppa Pig` es el filtro de lectura de la tesis.** **Si una idea del repo no se puede decir con un cerdo y una niña de cuatro años, todavía no está dicha; está citada.**
+**O sea: `Peppa Pig` es el filtro de lectura del argumento.** **Si una idea del repo no se puede decir con un cerdo y una niña de cuatro años, todavía no está dicha; está citada.**
 
 **Y el caso que lo vuelve serio, y no un insulto al público:** **la serie enseña lo que el repo llama `mundano`: lavarse las manos, no empujar, saludar.** **Y nadie la acusa de superficial, porque el que la ve aprende algo que puede probar esa tarde.**
 
@@ -51,7 +51,7 @@ Límite:      no enseña que todo se reduzca a lo infantil; enseña que si no ba
 
 ## Lo que este ejemplo NO enseña
 
-**No enseña que la tesis sea para niños.** **Un niño de cuatro no sostiene una tesis; pero la tesis que no baja a esa altura es la que no llegó a nadie.**
+**No enseña que el argumento sea para niños.** **Un niño de cuatro no sostiene una tesis; pero el argumento que no baja a esa altura es el que no llegó a nadie.**
 
 **Y no enseña que lo grande sobre: `la-semilla`, el `MCU` y `Hunter × Hunter` son para otro propósito: defender.**
 

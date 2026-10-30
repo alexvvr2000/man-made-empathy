@@ -37,7 +37,7 @@ Límite:      no es prueba de nada; es el nombre de una época, puesto por la au
 
 **No enseña que seamos almas.** **Enseña lo que el autor entendió de una escena, y lo pone como el nombre de una época.**
 
-**Y no es una prueba de la tesis.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../ideas/la singularidad buena.md`](../../ideas/la%20singularidad%20buena.md).**
+**Y no es una prueba del argumento.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../ideas/la singularidad buena.md`](../../ideas/la%20singularidad%20buena.md).**
 
 ---
 

@@ -21,9 +21,9 @@ Límite:      no enseña a nombrar la malicia; enseña que el sistema de nombrar
 
 **O sea: el presidente de la Asociación de Cazadores —el más fuerte del mundo— gana con una bomba que lo mata.** **No con una técnica: con un aparato, y con su vida.**
 
-**Y lo que la tesis llama "la malicia sin nombre" está aquí, y es literal:** **no se vence a Meruem por habilidad; se vence con lo que nadie quiso pensar como una técnica.**
+**Y lo que el argumento llama "la malicia sin nombre" está aquí, y es literal:** **no se vence a Meruem por habilidad; se vence con lo que nadie quiso pensar como una técnica.**
 
-## Y la pieza que la tesis cita sin fuente, pero que sí está
+## Y la pieza que el argumento cita sin fuente, pero que sí está
 
 > **"In November 2023… Togashi announced via a handwritten letter that he had planned four possible endings for the series. Only the fourth abandoned ending («ending D») was revealed, intended as a contingency should he die before completing the manga."**
 
@@ -31,13 +31,13 @@ Límite:      no enseña a nombrar la malicia; enseña que el sistema de nombrar
 
 **Eso es la semilla y el borde, en las palabras del autor:** **cuatro finales, uno de ellos publicado por si se muere, y prefiere el que va a hacer enojar al 90 %.**
 
-**Y es el mejor ejemplo de todo el repo para la tesis del rastro:** **el autor dejó su criterio escrito antes de terminar, para que otro lo pudiera seguir.** **No dejó el final: dejó las opciones y su porqué.**
+**Y es el mejor ejemplo de todo el repo para el argumento del rastro:** **el autor dejó su criterio escrito antes de terminar, para que otro lo pudiera seguir.** **No dejó el final: dejó las opciones y su porqué.**
 
 ## Y un dato que explica el repo entero
 
 > **"The series has been frequently interrupted by hiatuses since 2006… In July, he revealed that back and hip problems had prevented him from sitting for two years, forcing him to draw while lying down."**
 
-**El manga lleva veinte años interrumpido por la salud del autor, y sigue vivo.** **Eso es lo que la tesis llama `[PASE]`: el trabajo no se pierde porque el que lo empezó no esté; el rastro lo sostiene.**
+**El manga lleva veinte años interrumpido por la salud del autor, y sigue vivo.** **Eso es lo que el argumento llama `[PASE]`: el trabajo no se pierde porque el que lo empezó no esté; el rastro lo sostiene.**
 
 **Y su frase del 2023, tras siete meses de pausa:** **«Start over»**, con una esquina de página y una regla.
 

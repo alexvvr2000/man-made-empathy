@@ -26,7 +26,7 @@ Límite:      no enseña a vivir sin propósito; enseña que el propósito no er
 
 > **"According to Murray, the filmmakers were undecided on Soul's ending before the last screening. Some test versions of the film ended featuring Joe pondering whether to pass on to the Great Beyond; returning to Earth a year later; or staying in the Great Before as a mentor. Initial storyboards featured several brief scenes showing 22's life on Earth after her new birth… These scenes were ultimately discarded."**
 
-**Eso es la tesis del repo aplicada a una película:** **no se sabía el final, y se decidió en la última proyección.** **Y las escenas descartadas no se tiraron: se anotaron.**
+**Eso es el argumento aplicado a una película:** **no se sabía el final, y se decidió en la última proyección.** **Y las escenas descartadas no se tiraron: se anotaron.**
 
 ## Y el caso de `22`, que es el que hay que declarar
 

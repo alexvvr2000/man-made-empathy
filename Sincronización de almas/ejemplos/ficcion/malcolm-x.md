@@ -43,7 +43,7 @@ Límite:      no enseña a cambiar de postura; enseña que el cambio se puede de
 
 ## Y por qué no es "un ejemplo": es la prueba del repo
 
-**La tesis dice:** **«somos un historial de sesgos, y el criterio es ese historial leído antes de decidir.»**
+**el argumento dice:** **«somos un historial de sesgos, y el criterio es ese historial leído antes de decidir.»**
 
 **Malcolm X es eso, con nombre y dos fechas:** **la postura vieja, la contradicción, y la nueva.** **Y nadie le pide que la primera no haya existido.**
 

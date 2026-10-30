@@ -40,7 +40,7 @@ Límite:      no enseña a vivir sin muerte; enseña que la pregunta cambia cuan
 
 ---
 
-## Lo que este ejemplo le da a la tesis
+## Lo que este ejemplo le da al argumento
 
 > **El repo dice que el alma no se explica: se acota. Y estas dos la acotan por el otro lado: no preguntan qué es, preguntan qué pasa cuando se rompe y no se acaba.**
 

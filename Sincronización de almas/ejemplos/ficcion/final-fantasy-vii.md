@@ -35,7 +35,7 @@ Límite:      no enseña a reconstruir una identidad: enseña a aceptarla cuando
 
 **Eso es la semilla con su etiqueta:** **el tema `vida` no vino de un brief: vino de que la madre del productor se murió durante el desarrollo del juego anterior.** **Y de ahí salió `Aerith`, y su muerte, que se decidió "as the most devastating and consequential".**
 
-## Y lo que la ficha dice de la muerte de Aerith, que la tesis puede usar
+## Y lo que la ficha dice de la muerte de Aerith, que el argumento puede usar
 
 > **"Kitase wanted to depict it as very sudden and unexpected, leaving 'not a dramatic feeling but great emptiness', 'feelings of reality and not Hollywood'."**
 

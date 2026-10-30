@@ -33,7 +33,7 @@ Límite:      no enseña a salir de la herencia; enseña que el juego te hace ca
 
 **Tres lecturas académicas del mismo final, y las tres son del mismo hecho:** **el hijo mata a Ross, y al hacerlo se vuelve lo que su padre quiso dejar de ser.**
 
-**Y por eso el ejemplo sirve para la tesis:** **no es una escena que se mira; es una hora que se juega, y el que juega carga con el punto que el padre no pudo cerrar.**
+**Y por eso el ejemplo sirve para el argumento:** **no es una escena que se mira; es una hora que se juega, y el que juega carga con el punto que el padre no pudo cerrar.**
 
 ## Y el dato del desarrollo, que es el borde del ejemplo
 
@@ -41,7 +41,7 @@ Límite:      no enseña a salir de la herencia; enseña que el juego te hace ca
 
 > **"Red Dead Redemption's 1,500-page script was written in two years."**
 
-**Eso se queda dicho, porque el ejemplo de la herencia no se usa sin su costo:** **la obra que habla del ciclo de violencia se hizo con jornadas de doce horas.** **Y ese no es un detalle de trivia: es la mitad que la tesis llama fricción.**
+**Eso se queda dicho, porque el ejemplo de la herencia no se usa sin su costo:** **la obra que habla del ciclo de violencia se hizo con jornadas de doce horas.** **Y ese no es un detalle de trivia: es la mitad que el argumento llama fricción.**
 
 ## Lo que este ejemplo NO enseña
 

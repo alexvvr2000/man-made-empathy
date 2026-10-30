@@ -1,4 +1,4 @@
-# ALL-STAR SUPERMAN — el monólogo que disparó la tesis
+# ALL-STAR SUPERMAN — el monólogo que disparó el argumento
 
 **Clase:** ejemplo, y es el de origen. **Carpeta:** `ficcion/`. **Estado:** verificado en el guion de la película, y con la escena confirmada por un clip.
 
@@ -48,7 +48,7 @@ Límite:      no enseña a entender a tiempo; la película es un castigo, y no u
 | **«it's all just us, in here together. We're all we've got»** | **la empatía no es un adorno: es el único material que hay** |
 | **«you could have saved the world years ago»** | **el poder no llegó tarde: llegó sin querer usarlo** |
 
-**Y lo que la tesis toma no es «Luthor entendió el universo».** **Es «Luthor entendió, y no le importó hasta que le pasó a él».** **Eso es el guantelete: no dice qué puedes tocar; dice quién lo va a ver.**
+**Y lo que el argumento toma no es «Luthor entendió el universo».** **Es «Luthor entendió, y no le importó hasta que le pasó a él».** **Eso es el guantelete: no dice qué puedes tocar; dice quién lo va a ver.**
 
 ---
 

@@ -39,7 +39,7 @@ Límite:      no enseña a construir comunidad; enseña que la obra que deja ele
 
 > **"Initially, Toriel had to be killed in order to progress the game, but Fox changed it before the release of Undertale's demo. He felt that it was wrong that the only way to progress was killing Toriel; this decision influenced Fox to implement the option to spare monsters as it made Fox understand what «Undertale was really about»."**
 
-**O sea: la obra que enseña que se puede no matar nació de quitar una obligación de matar.** **No se diseñó la regla primero: se quitó el candado, y la regla apareció.**
+**O sea: la obra que enseña que se puede no matar nació de quitar una obligación de matar.** **No se diseñó la regla primero: se quitó la obligación, y la regla apareció sola.**
 
 ## Lo que este ejemplo NO enseña
 

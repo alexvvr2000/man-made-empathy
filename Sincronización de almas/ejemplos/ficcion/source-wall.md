@@ -33,7 +33,7 @@ Límite:      no enseña cómo se contesta lo que se aprendió; sólo que se apr
 
 **Y por eso el ejemplo bueno es el de *Justice League Unlimited*, y no el del muro que petrifica:** **no es el borde que castiga; es el que deja pasar sin saber, y devuelve sabiendo lo que nadie pesó.**
 
-**Y lo que la tesis toma de él, entonces, no es "lo firma otro": es "lo cruzó alguien que no sabía, y volvió sabiendo — y ya no había quién le preguntara cómo".**
+**Y lo que el argumento toma de él, entonces, no es "lo firma otro": es "lo cruzó alguien que no sabía, y volvió sabiendo — y ya no había quién le preguntara cómo".**
 
 ## Lo que este ejemplo NO enseña
 
@@ -43,7 +43,7 @@ Límite:      no enseña cómo se contesta lo que se aprendió; sólo que se apr
 
 ## Lo que se cambia en el argumento, y se anota sin tocar el original
 
-**La tesis decía:** **"el borde que sólo sirve si lo firma algo que no es el que lo cruza."**
+**El argumento dice:** **"el borde que sólo sirve si lo firma algo que no es el que lo cruza."**
 **Y lo que la obra dice:** **el borde se cruza igual, y el que vuelve, vuelve sabiendo; el testigo es el que avisó y no fue escuchado.**
 
 **Rige [`../README.md`](../README.md), la regla del ejemplo que no es absoluto.**

@@ -25,7 +25,7 @@ Límite:      no enseña a traducir un idioma sin tiempo; el propio cuento lo us
 
 **`Arrival` se basa en él, y no es lo mismo:** **la película hace la historia sobre una invasión que se puede leer como amenaza; el cuento la hace sobre una madre pensando en su hija muerta.**
 
-**Y lo que el cuento deja a la tesis es más fuerte que la película:** **Louise no descubre un arma ni lo impide; acepta lo que ya sabe que va a pasar.** **La elección no es entre dos futuros: es aceptar el que vio.**
+**Y lo que el cuento deja al argumento es más fuerte que la película:** **Louise no descubre un arma ni lo impide; acepta lo que ya sabe que va a pasar.** **La elección no es entre dos futuros: es aceptar el que vio.**
 
 **Y por eso `Arrival` y este cuento son dos ejemplos, no uno.** **El de la película enseña el método de traducir; el del cuento enseña lo que cuesta leer el rastro completo.**
 
@@ -35,9 +35,9 @@ Límite:      no enseña a traducir un idioma sin tiempo; el propio cuento lo us
 
 **Y no enseña a hacerlo con un idioma real.** **Nadie habla uno sin tiempo; es una premisa.**
 
-## Lo que la tesis toma de él
+## Lo que el argumento toma de él
 
-**La tesis usa `Arrival` para decir "el otro ya tiene un canal".** **Y del cuento se toma otra cosa, que no está escrita todavía:** **la lingüista lee su vida como rastro, y por eso elegirla otra vez no es elegir: es aceptar lo que ya leyó.**
+**el argumento usa `Arrival` para decir "el otro ya tiene un canal".** **Y del cuento se toma otra cosa, que no está escrita todavía:** **la lingüista lee su vida como rastro, y por eso elegirla otra vez no es elegir: es aceptar lo que ya leyó.**
 
 **Eso es el `Techo` del estándar `CONTEXTO` visto en ficción: lo que otro puede reconstruir sin el que lo escribió.**
 

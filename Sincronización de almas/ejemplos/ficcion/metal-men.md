@@ -25,21 +25,21 @@ Límite:      no enseña cómo se reparte el trabajo; sólo que el material deci
 
 **Y los poderes, que también son del metal:** **Gold estira su forma, Iron es fortísimo, Lead bloquea radiación, Mercury se derrite y pasa por huecos, Platinum y Tin estiran o hilan.**
 
-## Lo que la tesis toma de él
+## Lo que el argumento toma de él
 
 > **"Cada uno no vale por sí solo, y en conjunto son más fuertes. No por parecerse: por compartir fondo."**
 
 **Y lo que la ficha confirma:** **el fondo es el mismo —un creador, un laboratorio, un dispositivo— y las piezas son distintas por su material.** **El metal no es decoración: es lo que cada uno puede hacer, y por eso lo que cada uno puede contestar.**
 
-**Y la pieza que la tesis llama `responsómetro` es literal:** **"devices called responsometers"**, y son los que dictan la personalidad. **No es una metáfora inventada: es el nombre que la obra usa.**
+**Y la pieza que el argumento llama `responsómetro` es literal:** **"devices called responsometers"**, y son los que dictan la personalidad. **No es una metáfora inventada: es el nombre que la obra usa.**
 
 ## El caso de `Alloy`, que hay que decir
 
 **Y no es adorno:** **en *Justice League: Generation Lost* (2010–2011), los Metal Men son reprogramados y "merge into their alternate universe persona Alloy", de la miniserie *Kingdom Come* (1996).**
 
-**O sea: la obra misma tiene el caso del conjunto que se funde en uno.** **Y es el que la tesis usa como lo que NO se quiere.**
+**O sea: la obra misma tiene el caso del conjunto que se funde en uno.** **Y es el que el argumento usa como lo que NO se quiere.**
 
-**Y ahí el ejemplo es más fuerte de lo que la tesis dice:** **no es una idea del autor sobre la colmena: es lo que le pasó a los Metal Men cuando alguien los controló.**
+**Y ahí el ejemplo es más fuerte de lo que el argumento dice:** **no es una idea del autor sobre la colmena: es lo que le pasó a los Metal Men cuando alguien los controló.**
 
 ## Lo que este ejemplo NO enseña
 

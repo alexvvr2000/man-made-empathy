@@ -29,7 +29,7 @@ Límite:      no enseña que el ejemplo funcione solo; el que mira tiene que pod
 
 **Y su costo, que la vuelve un caso raro:** **"the cost per episode being over five times that of the average children's show", "the most expensive children's show in the world" según Scheving, con un millón de dólares por episodio.**
 
-## Y el origen, que es la pieza que la tesis ama
+## Y el origen, que es la pieza que el argumento ama
 
 > **"Designed to encourage healthy lifestyles, the series was based on Scheving's stage play Áfram Latibær!… itself adapted from a book that Scheving wrote in 1995."**
 
@@ -47,7 +47,7 @@ Límite:      no enseña que el ejemplo funcione solo; el que mira tiene que pod
 
 **Y queda abierto:** **se verifica cuando alguien encuentre la entrevista donde el medallista lo dice, y si no existe, se rebaja a `[SIN FUENTE - SE RETIRA EL NOMBRE]`.**
 
-## Lo que este ejemplo le dice a la tesis
+## Lo que este ejemplo le dice al argumento
 
 > **Una obra no enseña: basta con que alguien la vea moverse.**
 

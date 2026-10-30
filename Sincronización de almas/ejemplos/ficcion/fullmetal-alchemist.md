@@ -21,7 +21,7 @@ Límite:      no enseña a hacerlo; enseña el tamaño del gesto
 
 > **"The series also delves into the principle of equivalent exchange—the idea that obtaining something requires sacrificing something of equal value. This concept governs alchemical transmutation and serves as a philosophical tenet for the Elric brothers."**
 
-**Y el final, que es la pieza que la tesis usa:** **Father activa "the nationwide transmutation circle" y absorbe "the superior being"; Edward lo derrota, y "Edward sacrifices his ability to perform alchemy to fully restore Alphonse".**
+**Y el final, que es la pieza que el argumento usa:** **Father activa "the nationwide transmutation circle" y absorbe "the superior being"; Edward lo derrota, y "Edward sacrifices his ability to perform alchemy to fully restore Alphonse".**
 
 ## El origen de la regla, y es de la vida y no de la fantasía
 
@@ -29,7 +29,7 @@ Límite:      no enseña a hacerlo; enseña el tamaño del gesto
 
 **Eso importa y vale decirlo:** **la ley del intercambio no salió de un manual de alquimia: salió de una granja en Hokkaido, y de padres que trabajaban para comer.**
 
-## Lo que la tesis toma de él
+## Lo que el argumento toma de él
 
 > **"El círculo de transmutación de todo el país: años de piezas que nadie sabía que eran una sola cosa."**
 

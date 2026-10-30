@@ -45,7 +45,7 @@ Límite:      no enseña a repartir la memoria entre almas; sólo muestra lo que
 
 **Y no enseña a construir sincronización.** **Que dos máquinas compartan memoria cada noche es del anime; en el repo, eso es una decisión que se declara.**
 
-## Lo que la tesis toma de él
+## Lo que el argumento toma de él
 
 > **"Se sincronizan sin nacer sabios; discuten, y crecen por lo que vivieron el día."**
 

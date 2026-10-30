@@ -37,7 +37,7 @@ Límite:      no enseña a hacer mayéutica; enseña que el método puede termin
 
 > **"El banquete" — sobre el amor, y el diálogo famoso de `Aristófanes` sobre las mitades.**
 
-**Y aquí hay que declarar algo:** **la tesis usa la mayéutica como el modelo de "extraer por pregunta".** **Y eso no es lo que el `Teeteto` hace:** **el `Teeteto` examina tres definiciones y las deja caer; no hay un parto, hay tres abortos.**
+**Y aquí hay que declarar algo:** **el argumento usa la mayéutica como el modelo de "extraer por pregunta".** **Y eso no es lo que el `Teeteto` hace:** **el `Teeteto` examina tres definiciones y las deja caer; no hay un parto, hay tres abortos.**
 
 **O sea: la lectura de la mayéutica como "extraer lo que el otro ya sabe" es de `Menón`, y no de `Teeteto`.** **Y eso se declara, porque citar a Platón sin el diálogo es lo que mata a una tesis.**
 
