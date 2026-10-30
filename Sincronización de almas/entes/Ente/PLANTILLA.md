@@ -36,7 +36,7 @@
 | **el ciclo: leer · disparar · debatir · guantelete · firmar · actuar** | **[`./alma de niño/ciclo.prs`](./alma%20de%20niño/ciclo.prs)** |
 | **los dos bancos, y son parte del ciclo** | **[`./memoria continua/banco de memoria.prs`](./memoria%20continua/banco%20de%20memoria.prs)** · **[`./memoria continua/banco de friccion.prs`](./memoria%20continua/banco%20de%20friccion.prs)** |
 | **lo que aprendió, en tareas que mutan** | **[`./evolucion/`](./evolucion/)** |
-| **lo que el ente trae consigo** | **[`./_herramientas/`](./_herramientas/)** |
+| **lo que el ente trae consigo** | **nada, y el `bin/` del proyecto** |
 
 **Y lo que NO está aquí, y no es suyo:** **el `bin/` del proyecto.** **Se busca al llegar, y se cita: no se lleva.**
 

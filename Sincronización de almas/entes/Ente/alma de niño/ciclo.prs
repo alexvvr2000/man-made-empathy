@@ -38,6 +38,25 @@
 6. ACTUAR     con evolucion/ y su caja, o con el bin/ del proyecto
 ```
 
+## Y el paso que hace que `evolucion/` crezca bien
+
+> **Evolucionar no es escribir en `evolucion/`: es abrir una tarea, y que la tarea tenga sus procesos y su caja.**
+> **Y no entra al ciclo si no es una tarea, con su nombre, sus n procesos, y su `_herramientas/`.**
+
+```plaintext
+evolucion/
+└── la tarea que aprendi/
+    ├── un proceso, o varios: cada uno con su cuando, y su busqueda
+    └── _herramientas/     la caja de esa tarea, y no de otra
+```
+
+**Y el corte, que no se salta:** **una tarea sin procesos no es una tarea: es un cajon.** **Y un proceso sin `_herramientas/` es un proceso que no se puede correr donde no esté el que lo escribió.**
+
+**Y el orden, que sí importa:** **primero se pasa por `procesos base/` (debatir, firmar, guantelete), y después se escribe en `evolucion/`.** **Al revés no cuenta.**
+
+**Rige [`../../../../direcciones/ACTOS/ACTO.prs`](../../../../direcciones/ACTOS/ACTO.prs), que es el ciclo del acto, y [`../procesos%20base/guantelete.prs`](../procesos%20base/guantelete.prs), que es el que lo toca.**
+
+
 **Y el acto vuelve al banco.** **Eso es el ciclo: lo que se escribe, se lee.**
 
 ---
