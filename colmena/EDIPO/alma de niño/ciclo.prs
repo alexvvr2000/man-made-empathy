@@ -1,4 +1,4 @@
-# CICLO.prs — recibir, buscar, decir de quién, decir qué falta, contar la historia, anotar
+# CICLO.prs — recibir, buscar, decir de quién, decir qué falta, derivar, anotar
 
 **Cuándo se corre:** **en cada atención, y es lo primero: antes de contestar nada.**
 
@@ -19,7 +19,7 @@
 2. BUSCAR         en el catálogo. Y no de memoria: bin/buscar
 3. DECIR DE QUIÉN la pieza, su dueño, y su estado. Y si está, se dice dónde
 4. DECIR QUÉ FALTA lo pendiente, lo sin cerrar, y lo sin verificar
-5. CONTAR LA HISTORIA de dónde vino, con su fecha. Y si se tiró, dónde está
+5. DERIVAR     si preguntan qué hubo, eso es de HERÓDOTO: se le pasa
 6. ANOTAR         lo que no supo: bin/no-se, y queda como pieza que falta
 ```
 

@@ -20,13 +20,13 @@ __pycache__/
 # ---------------------------------------------------------------------------
 # LO UNICO QUE NO SE PUBLICA, Y ES A PROPOSITO
 # ---------------------------------------------------------------------------
-# La evolucion de EDIPO es suya: es lo que aprendio atendiendo, y se lo lleva.
+# La evolucion de cada hermano es suya: es lo que aprendio atendiendo, y se lo lleva.
 # Si se publicara, la gente mandaria cambios por SU evolucion, y eso no es del repo.
 
-EDIPO/evolucion/*
-!EDIPO/evolucion/LEEME.md
-EDIPO/evolucion/*.tra
-EDIPO/evolucion/**/*.tra
-EDIPO/evolucion/*.jsonl
-EDIPO/evolucion/**/*.jsonl
-EDIPO/memoria continua/*.jsonl
+**/Almas/*/evolucion/*
+!**/Almas/*/evolucion/LEEME.md
+**/Almas/*/evolucion/*.tra
+**/Almas/*/evolucion/**/*.tra
+**/Almas/*/evolucion/*.jsonl
+**/Almas/*/evolucion/**/*.jsonl
+**/Almas/*/memoria continua/*.jsonl
