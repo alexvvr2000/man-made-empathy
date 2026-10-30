@@ -1,0 +1,94 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+decir-quien — dada una pieza, dice de quien es, y en que estado esta.
+
+Corre solo, y no depende de que la biblioteca exista:
+si no encuentra la pieza, lo dice, y no inventa.
+
+Uso:  python bin/decir-quien <nombre-o-parte>
+"""
+
+import os
+import sys
+
+CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BIBLIOTECA = os.path.abspath(os.path.join(CASA, "..", "..", ".."))
+
+# de quien es cada carpeta de la biblioteca
+DUENOS = [
+    ("direcciones/", "los procesos, y son de todos los que usen la biblioteca"),
+    ("Sincronización de almas/entes/Ente/", "la plantilla: se copia, y cada quien le pone nombre"),
+    ("Sincronización de almas/entes/Colmena/", "la plantilla del conjunto"),
+    ("Sincronización de almas/entes/EDIPO/", "EDIPO: el bibliotecario, y su casa"),
+    ("Sincronización de almas/ejemplos/", "las fichas: la obra es de su dueño, la ficha es de quien la escribió"),
+    ("Sincronización de almas/ideas/", "lo que se piensa, y vive aquí"),
+    ("Pruebas/", "las pruebas, y su regla"),
+    ("bin/", "el taller del proyecto: de todos, y agrega sin quitar"),
+]
+
+
+def estado(ruta):
+    """El estado de una ficha: el que declara, y no el que uno quisiera."""
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            t = f.read()
+    except Exception:
+        return "?"
+    for marca in ("verificado", "parcial", "declarado", "SIN VERIFICAR", "FALTA", "EN PROCESO", "BORRADA"):
+        if marca in t:
+            return marca
+    return "sin estado declarado"
+
+
+def buscar(parte):
+    encontrados = []
+    if not os.path.isdir(BIBLIOTECA):
+        print("[SIN BIBLIOTECA - NO HAY NADA QUE DECIR]")
+        return encontrados
+    for raiz, _, archivos in os.walk(BIBLIOTECA):
+        if ".git" in raiz or "_herramientas" in raiz:
+            continue
+        for a in archivos:
+            if parte.lower() in a.lower():
+                encontrados.append(os.path.join(raiz, a))
+    return encontrados
+
+
+def main():
+    if len(sys.argv) < 2:
+        print(__doc__)
+        return 1
+    parte = sys.argv[1]
+
+    print("EDIPO — de quien es, y en que estado")
+    print("  biblioteca: %s" % BIBLIOTECA)
+    print()
+
+    if not os.path.isdir(BIBLIOTECA):
+        print("[SIN BIBLIOTECA - NO PUEDO DECIR DE QUIEN ES NADA]")
+        return 0
+
+    encontrados = buscar(parte)
+    if not encontrados:
+        print("[NO LA ENCONTRE - NO ES LO MISMO QUE NO ESTAR]")
+        print("  busque: %r en toda la biblioteca" % parte)
+        return 0
+
+    for ruta in encontrados[:10]:
+        rel = os.path.relpath(ruta, BIBLIOTECA).replace(os.sep, "/")
+        dueno = "no se sabe: esta en una carpeta que no conozco"
+        for prefijo, d in DUENOS:
+            if rel.lower().startswith(prefijo.lower()):
+                dueno = d
+                break
+        print("%s" % rel)
+        print("  de quien: %s" % dueno)
+        print("  estado:   %s" % estado(ruta))
+        print()
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+

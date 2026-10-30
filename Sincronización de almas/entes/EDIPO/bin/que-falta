@@ -1,0 +1,66 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+que-falta — dice que piezas estan en FALTA, EN PROCESO, o sin verificar.
+
+Y es lo unico que le da sentido a un bibliotecario: el que llega sabe que no esta.
+
+Uso:  python bin/que-falta
+"""
+
+import os
+import re
+import sys
+
+CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BIBLIOTECA = os.path.abspath(os.path.join(CASA, "..", "..", ".."))
+
+MARCAS = ["[FALTA]", "[EN PROCESO]", "[BORRADA]", "[SIN VERIFICAR]", "[SIN CORRIDA"]
+
+
+def main():
+    print("EDIPO — que falta, y donde se declara")
+    print("  biblioteca: %s" % BIBLIOTECA)
+    print()
+
+    if not os.path.isdir(BIBLIOTECA):
+        print("[SIN BIBLIOTECA - NO HAY QUE DECLAR]")
+        return 0
+
+    cuenta = {m: 0 for m in MARCAS}
+    lugares = {m: [] for m in MARCAS}
+
+    for raiz, _, archivos in os.walk(BIBLIOTECA):
+        if ".git" in raiz:
+            continue
+        for a in archivos:
+            if not a.endswith((".md", ".prs")):
+                continue
+            ruta = os.path.join(raiz, a)
+            try:
+                t = open(ruta, "r", encoding="utf-8", errors="replace").read()
+            except Exception:
+                continue
+            for m in MARCAS:
+                n = t.count(m)
+                if n:
+                    cuenta[m] += n
+                    lugares[m].append(os.path.relpath(ruta, BIBLIOTECA).replace(os.sep, "/"))
+
+    for m in MARCAS:
+        if cuenta[m]:
+            print("%-18s %d" % (m, cuenta[m]))
+            for l in list(dict.fromkeys(lugares[m]))[:5]:
+                print("    " + l)
+
+    total = sum(cuenta.values())
+    if total == 0:
+        print("[NO HAY MARCAS - TODO LO QUE HAY ESTA DECLARADO COMPLETO]")
+    else:
+        print("\n  total de marcas: %d" % total)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+

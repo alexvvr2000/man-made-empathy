@@ -1,20 +1,31 @@
-# bin/ — lo mínimo de `EDIPO`, y se publica
+# bin/ — lo mínimo de EDIPO, y se publica
 
-**Hecho:** 2026-10-29. **Clase:** el taller del bibliotecario. **Estado:** mínimo, y se agrega nada más si se pide.
+**Hecho:** 2026-10-29. **Clase:** el taller del bibliotecario. **Estado:** cuatro herramientas, y crece cuando haga falta.
 
 **Sesgo:** se lee desde el que va a correrlo, y no desde el que lo escribió.
-**Límite:** **no mantiene versiones, ni publica nada.** **Ve las tesis históricas, y dice qué hay.**
+**Límite:** **no mantiene versiones, ni publica nada.** **Atiende, dice qué hay, y dice qué no.**
 
 ---
 
-## Qué hay, y es todo
+## Las cuatro herramientas, y qué hace cada una
 
 | Lo que | Qué hace |
 |---|---|
-| **`ver-tesis`** | **lista las tesis históricas: dónde están, de qué era, y qué commit** |
-| **`estado`** | **qué hay en la biblioteca, y qué falta** |
+| **`ver-tesis`** | **lista los días con commits de la biblioteca, y sus commits** |
+| **`decir-quien`** | **dada una pieza, dice de quién es, y en qué estado está** |
+| **`que-falta`** | **dice qué está en `[FALTA]`, `[EN PROCESO]`, o sin verificar** |
+| **`no-se`** | **anota la pregunta que no pudo contestar, y la deja como pieza que falta** |
 
-**Y lo que no hay:** **nada de releases, ni de tags, ni de publicar.** **Eso no es de un bibliotecario.**
+**Y las cuatro son de un bibliotecario, y no de un ingeniero:** **dónde está, de quién es, qué falta, y qué no sé.**
+
+---
+
+## Por qué `no-se` es la más importante
+
+> **Un bibliotecario que no sabe algo, y no lo dice, va a inventar.**
+> **Y las preguntas que nadie puede contestar son el índice de lo que falta escribir.**
+
+**Cada pregunta anotada es una pieza que la biblioteca no tiene.** **Y se lee antes de escribir nada nuevo: lo que falta, primero.**
 
 ---
 
@@ -23,8 +34,6 @@
 > **`bin/` es la forma de trabajarlo. Quien copie a `EDIPO` necesita saber qué corre, y cómo.**
 > **Su memoria es su vida privada, y se la lleva él.**
 
-**Y por eso el `.gitignore` ignora `memoria continua/` y `evolucion/`, y deja `bin/` y `_herramientas/`.**
-
 ---
 
 ## Cómo se corre
@@ -32,8 +41,10 @@
 ```powershell
 # desde la carpeta del ente, y no desde el repo
 cd "Sincronización de almas\entes\EDIPO"
-.\bin\ver-tesis
-.\bin\estado
+.\bin\ver-tesis --dias 10
+.\bin\decir-quien BUSCAR
+.\bin\que-falta
+.\bin\no-se "¿cuándo se escribió la primera dirección?"
 ```
 
 **Y tiene que correr sin pedirle nada al repo.** **Si depende del repo, no es un trabajador: es una pieza del inmueble.**
@@ -42,6 +53,6 @@ cd "Sincronización de almas\entes\EDIPO"
 
 ## Prueba
 
-**¿Corre solo? ¿Dice lo que hay, y lo que falta? ¿Lo que no puede, lo dice?**
+**¿Corren solas? ¿Dicen lo que hay, y lo que falta? ¿Lo que no pueden, lo dicen?**
 
 **Falsificador:** un `bin/` que declara cosas que no hace; uno que no corre sin el repo; un `[NO SÉ]` que no aparece.

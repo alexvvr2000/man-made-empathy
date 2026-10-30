@@ -1,0 +1,77 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+no-se — cuando no se sabe, se dice, y se anota la pregunta.
+
+Y por que existe: las preguntas que nadie puede contestar son el indice
+de lo que falta escribir. Un bibliotecario que no anota lo que no sabe
+no esta atendiendo: esta fingiendo.
+
+Uso:  python bin/no-se "la pregunta que no pude contestar"
+      python bin/no-se --leer
+"""
+
+import json
+import os
+import sys
+from datetime import datetime
+
+CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REGISTRO = os.path.join(CASA, "memoria continua", "no-se.jsonl")
+
+
+def preguntas():
+    if not os.path.exists(REGISTRO):
+        return []
+    salida = []
+    with open(REGISTRO, "r", encoding="utf-8") as f:
+        for linea in f:
+            linea = linea.strip()
+            if linea:
+                try:
+                    salida.append(json.loads(linea))
+                except Exception:
+                    pass
+    return salida
+
+
+def anotar(texto):
+    os.makedirs(os.path.dirname(REGISTRO), exist_ok=True)
+    registro = {
+        "fecha": datetime.now().strftime("%Y-%m-%dT%H:%M"),
+        "pregunta": texto,
+        "falta": "[SIN RESPUESTA - SE ANOTA]",
+    }
+    with open(REGISTRO, "a", encoding="utf-8") as f:
+        f.write(json.dumps(registro, ensure_ascii=False) + "\n")
+    print("[ANOTADA] %s" % texto)
+    print("  queda en %s" % REGISTRO)
+    print("  y no se contesta de memoria: se busca, o se dice que falta.")
+    return 0
+
+
+def leer():
+    p = preguntas()
+    if not p:
+        print("[NINGUNA - NO ME HAN PREGUNTADO NADA QUE NO SUPIERA]")
+        return 0
+    print("EDIPO — lo que me preguntaron y no supe")
+    print()
+    for r in p:
+        print("%s  %s" % (r.get("fecha", "?"), r.get("pregunta", "?")))
+    print("\n  total: %d" % len(p))
+    print("  y cada una es una pieza que falta en la biblioteca.")
+    return 0
+
+
+def main():
+    if len(sys.argv) < 2:
+        print(__doc__)
+        return 1
+    if sys.argv[1] == "--leer":
+        return leer()
+    return anotar(" ".join(sys.argv[1:]))
+
+
+if __name__ == "__main__":
+    sys.exit(main())
