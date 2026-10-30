@@ -2,6 +2,9 @@
 
 **Clase:** ejemplo, y son tres casos. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y `Videl`/`Kratos` como `[SIN VERIFICAR]` de escena.
 
+**Fuente:** una. Se abrió la ficha de la obra.
+**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+
 ---
 
 ## La ficha

@@ -1,6 +1,9 @@
 # SOURCE WALL — el que cruza, y vuelve sabiendo
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado, y decidido.
+
+**Fuente:** una. Se abrió la ficha de la obra.
+**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
 **Lector:** quien va a usar la Source Wall para hablar de un borde que se cruza.
 
 ---

@@ -2,6 +2,9 @@
 
 **Clase:** ejemplo, y es la regla de entrada de los demás. **Carpeta:** `ficcion/`. **Estado:** verificado en su parte verificable.
 
+**Fuente:** una. Se abrió la ficha de la obra.
+**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+
 ---
 
 ## Lo que es esto

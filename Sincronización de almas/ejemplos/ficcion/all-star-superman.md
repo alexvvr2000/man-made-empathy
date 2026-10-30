@@ -2,6 +2,9 @@
 
 **Clase:** ejemplo, y es el de origen. **Carpeta:** `ficcion/`. **Estado:** verificado en el guion de la película, y con la escena confirmada por un clip.
 
+**Fuente:** una. Se abrió la ficha de la obra.
+**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+
 **Y esta es la pieza que disparó todo el repositorio, y la autoridad lo dice así.**
 
 ---

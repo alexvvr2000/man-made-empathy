@@ -2,6 +2,9 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en el guion de la serie, con una corrección.
 
+**Fuente:** una. Se abrió la ficha de la obra.
+**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+
 ---
 
 ## La ficha

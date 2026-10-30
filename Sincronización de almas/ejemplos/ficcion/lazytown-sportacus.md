@@ -2,6 +2,9 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha. **Y el caso del medallista queda `[SIN VERIFICAR]`, como se declara.**
 
+**Fuente:** una. Se abrió la ficha de la obra.
+**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+
 ---
 
 ## La ficha

@@ -2,6 +2,9 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** `declarado`: lo que la autoridad dijo, y no se verificó la escena.
 
+**Fuente:** ninguna. Lo declara quien lo trajo, y no hay fuente externa.
+**Para citarlo en un escrito público:** se cita como declaración, y no como hecho.
+
 ---
 
 ## La ficha
