@@ -79,6 +79,33 @@
 
 ---
 
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este proceso no se puede cerrar sin decir qué se buscó.** **Porque una máquina sin búsqueda obligatoria contesta de memoria, y la memoria de una máquina no es fuente.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la obra existe, y es de quien se dice** | **el catálogo del editor, la ficha, o el registro** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **la escena, la frase, o el dato** | **la obra, el guion, o el clip con su identificador** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **la ley, y la jurisdicción** | **el texto publicado, y su fecha** | **`[SIN ENCONTRAR - NO SE CITA COMO LEY]`** |
+| **un nombre real** | **su ficha, y lo que la persona misma dijo** | **`[NO SE NOMBRA - NO HAY FUENTE]`** |
+
+**Y el registro, que es lo que lo hace servir de prueba:**
+
+```plaintext
+Se buscó:     [la pregunta exacta]
+Dónde:        [el motor, la ficha, la fuente, o el enlace]
+Decía:        [lo que decía, literal o citado]
+Segunda:      [sí, con cuál | no, y por qué]
+Conclusión:   [se sostiene | se cae | no se pudo juzgar]
+```
+
+**Rige [``../ACTOS/BUSCAR.prs``](`../ACTOS/BUSCAR.prs`), que dice qué se busca y qué no.**
+
+---
+
 ## Prueba
 
 **¿Se nombra cada pieza? ¿Cada una tiene su fuente? ¿Lo que no se verificó dice su estado? ¿Se buscó antes de dudar? ¿Si llegara una reclamación, hay con qué contestarla?**

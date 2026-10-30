@@ -71,13 +71,20 @@ def main():
             continue  # el README de una carpeta vacia si se publica: es la forma
         if os.path.basename(x).startswith("banco de"):
             texto = open(x, "r", encoding="utf-8").read()
-            filas = len([l for l in texto.splitlines() if l.startswith("| ") and not l.startswith("| ---") and not l.startswith("| Lo")])
+            lineas_tabla = [l for l in texto.splitlines() if l.startswith("| ") and not l.startswith("| ---") and not l.startswith("| Lo") and not l.startswith("| **lo que se busca") and not l.startswith("| **la obra") and not l.startswith("| **la escena") and not l.startswith("| **la ley") and not l.startswith("| **un nombre real")]
+            filas = len(lineas_tabla)
             if filas == 0:
                 continue  # plantilla vacia: se publica, porque es la forma
             suyos.append(x)
             continue
         suyos.append(x)
     fallas += check("archivos con datos vividos (no deberian ir al repo)", [os.path.basename(x) for x in suyos])
+
+    # y el oficio: buscar antes de decir que no hay
+    if not os.path.exists(os.path.join(CASA, "bin", "buscar")):
+        fallas += check("bin/buscar (el bibliotecario busca antes de decir que no hay)", ["no existe"])
+    else:
+        fallas += check("bin/buscar", [])
 
     print()
     if fallas == 0:
@@ -89,5 +96,7 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
 
 

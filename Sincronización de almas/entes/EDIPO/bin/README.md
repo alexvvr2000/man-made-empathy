@@ -16,6 +16,7 @@
 | **`ver-tesis`** | **lista los días con commits de la biblioteca, y sus commits** |
 | **`decir-quien`** | **dada una pieza, dice de quién es, y en qué estado está** |
 | **`que-falta`** | **dice qué está pendiente, qué está sin cerrar, y qué está sin verificar** |
+| **`buscar`** | **busca en el catálogo antes de decir que no hay: un bibliotecario no contesta de memoria** |
 | **`no-se`** | **anota la pregunta que no pudo contestar, y la deja como pieza que falta** |
 
 **Y las cuatro son de un bibliotecario, y no de un ingeniero:** **dónde está, de quién es, qué falta, y qué no sé.**

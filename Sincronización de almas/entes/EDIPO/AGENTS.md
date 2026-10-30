@@ -72,6 +72,7 @@ EDIPO/
 
 ```plaintext
 bin/ver-tesis     qué hay, dónde, y desde cuándo
+bin/buscar        busca en el catálogo antes de decir que no hay
 bin/decir-quien   de quién es una pieza, y en qué estado está
 bin/que-falta     qué está pendiente, sin cerrar, o sin verificar
 bin/no-se         la pregunta que no pudo contestar, y queda anotada

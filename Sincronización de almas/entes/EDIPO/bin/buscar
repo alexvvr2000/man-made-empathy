@@ -1,0 +1,74 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+buscar — el bibliotecario busca en el catalogo antes de decir que no hay.
+
+Y existe porque un bibliotecario que contesta de memoria no es bibliotecario:
+es un senor que opina.
+
+  python bin/buscar "la pregunta"
+"""
+
+import os
+import sys
+
+CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BIBLIOTECA = os.path.abspath(os.path.join(CASA, "..", "..", ".."))
+
+
+def archivos():
+    salida = []
+    for raiz, _, f in os.walk(BIBLIOTECA):
+        if ".git" in raiz:
+            continue
+        for a in f:
+            if a.endswith((".md", ".prs", ".cff", ".txt")):
+                salida.append(os.path.join(raiz, a))
+    return salida
+
+
+def main():
+    if len(sys.argv) < 2:
+        print(__doc__)
+        return 1
+    pregunta = " ".join(sys.argv[1:]).lower()
+    palabras = [p for p in pregunta.split() if len(p) > 3][:6]
+
+    print("EDIPO — buscando en el catalogo, y no en la memoria")
+    print("  biblioteca: %s" % BIBLIOTECA)
+    print("  busque: %r" % pregunta)
+    print()
+
+    if not os.path.isdir(BIBLIOTECA):
+        print("[SIN BIBLIOTECA - NO HAY CATALOGO QUE LEER]")
+        return 0
+
+    hallazgos = []
+    for f in archivos():
+        try:
+            texto = open(f, "r", encoding="utf-8").read().lower()
+        except Exception:
+            continue
+        cuenta = sum(1 for p in palabras if p in texto)
+        if cuenta:
+            hallazgos.append((cuenta, f))
+
+    hallazgos.sort(reverse=True)
+
+    if not hallazgos:
+        print("[NO ESTA - Y NO ES LO MISMO QUE NO EXISTIR]")
+        print("  y queda anotado: la pregunta no tiene respuesta en el catalogo.")
+        print("  y no se contesta de memoria: se dice que falta.")
+        return 0
+
+    print("  lo mas cercano, y no es la respuesta:")
+    for cuenta, f in hallazgos[:8]:
+        rel = os.path.relpath(f, BIBLIOTECA).replace(os.sep, "/")
+        print("    [%d] %s" % (cuenta, rel))
+    print()
+    print("  Y el paso que sigue: abrir el archivo que encontre, y no el que creia.")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
