@@ -13,7 +13,7 @@
 | La carpeta | Qué es | Y su entrada |
 |---|---|---|
 | **[`./entes/`](./entes/)** | **la forma: un ente y una colmena, que se copian** | **[`./entes/Ente/`](./entes/Ente/) y [`./entes/Colmena/`](./entes/Colmena/)** |
-| **[`./teoria/`](./teoria/)** | **el argumento, en dieciséis piezas que se leen y se tumban** | **[`./teoria/el cero.md`](./teoria/el%20cero.md)** |
+| **[`./teoria/`](./teoria/)** | **la teoría, en quince piezas que se leen y se tumban** | **[`./teoria/el cero.md`](./teoria/el%20cero.md)** |
 | **[`./ejemplos/`](./ejemplos/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./ejemplos/ESTADO.md`](./ejemplos/ESTADO.md)** |
 
 **Y lo que atiende de verdad no está aquí: vive en el proyecto, y esta carpeta sólo enseña.**
@@ -167,7 +167,7 @@ Límite:      lo que NO enseña
 
 ## La teoría, y es el argumento
 
-**Dieciséis piezas, en [`./teoria/`](./teoria/).** **Y cada una pregunta una sola cosa, y contesta.**
+**Quince piezas, en [`./teoria/`](./teoria/).** **Y cada una pregunta una sola cosa, y contesta.**
 
 | La pieza | La pregunta |
 |---|---|
