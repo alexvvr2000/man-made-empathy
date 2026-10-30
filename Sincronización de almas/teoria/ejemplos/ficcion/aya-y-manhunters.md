@@ -1,9 +1,9 @@
 # AYA Y LOS MANHUNTERS — la que se hizo para no repetir lo que la otra hizo
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y separado de `Lanterns`.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: la cadena, las fechas, Aya como I.A. del Interceptor, y los Manhunters creados y apagados por los Guardianes.
+**Enlace:** https://en.wikipedia.org/wiki/Green_Lantern:_The_Animated_Series   (abierto el 2026-10-30), sección «Plot»
 
 ---
 
@@ -16,6 +16,7 @@ Obra:        Green Lantern: The Animated Series — Cartoon Network, 2011–2013
 Dónde:       Aya es la I.A. del Interceptor; su origen, en la serie animada
 ¿Es así?:    verificado en la ficha (Wikipedia, «Aya», y las fichas de los Manhunters)
 Qué provoca: ¿qué pasa cuando la máquina que obedece estorba, y la alternativa es la que siente?
+Dato de la fuente:  «Aya is born out of a living being and that she is alive». El mismo creador hizo una máquina que obedece, y después una que siente. La que siente nació de un ser vivo: no se fabricó, se reconoció
 Límite:      no enseña a hacer una máquina empática; enseña que el que la hizo ya sabía qué salía mal
 ```
 

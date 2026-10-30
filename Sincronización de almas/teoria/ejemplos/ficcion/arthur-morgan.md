@@ -1,9 +1,9 @@
 # ARTHUR MORGAN — la concordia de un hombre que se sabe muerto
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: el año, el estudio, las fechas de PS4, Xbox One y Windows, y la tuberculosis.
+**Enlace:** https://en.wikipedia.org/wiki/Red_Dead_Redemption_2   (abierto el 2026-10-30), secciones «Plot» y «Setting and characters»
 
 ---
 
@@ -15,6 +15,7 @@ Obra:        Red Dead Redemption 2 — Rockstar Games, 2018
 Dónde:        PlayStation 4 y Xbox One, 26 de octubre de 2018; Windows, 5 de noviembre de 2019
 ¿Es así?:    verificado en la ficha (Wikipedia, «Red Dead Redemption 2», secciones «Plot» y «Setting»)
 Qué provoca: ¿qué hace la concordia con alguien que ya no puede ganar nada?
+Dato de la fuente:  la honra se sostiene «through moral choices and deeds», y el final cambia según ella: con honra alta, muere mirando el amanecer; con honra baja, lo ejecutan. La obra no dice qué es bueno: deja elegir, y cobra la elección
 Límite:      no enseña que morirse ayude; enseña que sin margen se ve qué era lo que importaba
 ```
 
