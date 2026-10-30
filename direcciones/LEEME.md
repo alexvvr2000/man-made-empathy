@@ -86,7 +86,7 @@
 > **Cuando algo mejora en cualquiera —en un ente, en su memoria, o en un proyecto— lo que sirve a todos va al repo.**
 > **Sin avisar, y sin coordinarse: la biblioteca no espera a que alguien la apruebe.**
 
-**Y lo único que no se mueve solo:** **el alma de niño.** **Rige [`./ACTOS/MUTAR.prs`](./ACTOS/MUTAR.prs).**
+**Y lo único que no se mueve solo:** **el alma de niño.** **Rige [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs).**
 
 ---
 
@@ -112,8 +112,8 @@
 | **[`./ACTOS/VIGA.prs`](./ACTOS/VIGA.prs)** | **leer un destino sin saber qué es** |
 | **[`./ACTOS/CONTEXTO.prs`](./ACTOS/CONTEXTO.prs)** | **de dónde vino, y que se usó bien** |
 | **[`./ACTOS/VERBALIZAR.prs`](./ACTOS/VERBALIZAR.prs)** | **darle nombre a lo que es, y que el nombre diga el acto** |
-| **[`./ACTOS/MUTAR.prs`](./ACTOS/MUTAR.prs)** | **el alma de niño es fija, y todo lo demás cambia: seis actos de mutación** |
-| **[`./ACTOS/PROCESOS.prs`](./ACTOS/PROCESOS.prs)** | **un proceso no se escribe: se refuta primero** |
+| **[`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs)** | **el alma de niño es fija, y todo lo demás cambia: seis actos de mutación** |
+| **[`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización%20de%20almas/entes/Ente/ciclo%20alma%20de%20ni%C3%B1o.prs)** | **un proceso no se escribe: se refuta primero** |
 
 ---
 
