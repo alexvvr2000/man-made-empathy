@@ -82,7 +82,7 @@
 | Lo que se fue | A dónde | Por qué |
 |---|---|---|
 | **las seis gemas, las siete herramientas, y la ficha del acto** | `0/relacion/EQUILIBRIO.md` | **ahí el guante no da herramientas: dice qué se equilibra, y te hace pensar desde que empiezas** |
-| **`ENSAYAR`, la regla de la urna, y el freno** | `0/formacion/EJECUTOR.md` y `0/friccion/JURAR.prs` | **es el verbo que cumple el corte, y no la carta del permiso.** **El guante dice qué permitir; el ejecutor es el que puede negarse** |
+| **`ENSAYAR`, la regla de la urna, y el freno** | **dos registros viejos, que viven en el historial** | **es el verbo que cumple el corte, y no la carta del permiso.** **El guante dice qué permitir; el ejecutor es el que puede negarse** |
 | **el costo: Terminator, WALL·E, Sinestro** | **un registro viejo, que vive en el historial** | **es una pregunta propia: quién sabe lo que costó, y quién puede corregirlo** |
 | **el máximo con criterio: Gurren Lagann** | `0/relacion/EQUILIBRIO.md` | **el máximo sin equilibrio es un absoluto: se lleva al máximo, y se dice qué pesa** |
 
@@ -103,5 +103,6 @@
 - No hay testigo → **`[VACÍO - SIN TESTIGO]`; no se ejecuta como bueno.**
 - El acto se deshace → **se anota qué se tocó y qué vuelve.**
 - La duda es de equilibrio, y no de permiso → **se lee `0/relacion/EQUILIBRIO.md`.**
+
 
 
