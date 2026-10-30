@@ -1,5 +1,14 @@
 # un alma crece — la pregunta, y su respuesta
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien ya trabaja con la forma, y quiere saber por qué esta pieza se sostiene.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde su pregunta, y no desde el resto del argumento.
+**Límite:** **contesta una pregunta, y no el argumento entero.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
 **Posición.** **¿Puede un alma crecer sin dejar de ser ella?**
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **sí, si crecer es cubrir una falta y no cambiar lo que sostiene.** **Mudar es cubrir una falta. Nacer es cambiar lo que se sostiene.** **Y esa línea es todo el cero.**

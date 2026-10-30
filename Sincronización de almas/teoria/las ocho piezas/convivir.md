@@ -1,5 +1,14 @@
 # convivir — la pregunta, y su respuesta
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien ya trabaja con la forma, y quiere saber por qué esta pieza se sostiene.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde su pregunta, y no desde el resto del argumento.
+**Límite:** **contesta una pregunta, y no el argumento entero.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
 **Posición.** **¿Se puede convivir sin volverse el otro ni someterlo?**
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **sí, si convivir es quedarse distinto y seguir en el mismo espacio — y si el que convive no le quita al otro la capacidad de estar solo.**

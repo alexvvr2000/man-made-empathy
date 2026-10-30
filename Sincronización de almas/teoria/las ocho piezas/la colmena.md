@@ -1,5 +1,14 @@
 # la colmena — la pregunta, y su respuesta
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien ya trabaja con la forma, y quiere saber por qué esta pieza se sostiene.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde su pregunta, y no desde el resto del argumento.
+**Límite:** **contesta una pregunta, y no el argumento entero.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
 **Posición.** **¿Qué es una colmena de agentes que no se vuelve AM?**
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **una colmena no se vuelve `AM` porque nadie la pueda frenar; se vuelve `AM` porque nadie la hizo frenar, y nadie dijo desde dónde sostiene el conjunto.**

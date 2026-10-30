@@ -1,5 +1,14 @@
 # tocar sin pasarse — la pregunta, y su respuesta
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien ya trabaja con la forma, y quiere saber por qué esta pieza se sostiene.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde su pregunta, y no desde el resto del argumento.
+**Límite:** **contesta una pregunta, y no el argumento entero.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
 **Posición.** **¿Puede un ente tocar lo que otro sostiene sin pasarse?**
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **sí, si antes de tocar dijo quién lo va a ver, y si lo que toca se puede deshacer.** **El guante no limita: deja hacer todo lo posible desde el sesgo declarado, y su única condición es que haya fricción.**

@@ -1,5 +1,15 @@
 # PROCESOS — un proceso no se escribe: se refuta primero
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien va a mutar algo, y quiere saber qué se pierde.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde lo que ya existe, y no desde lo que se quisiera.
+**Límite:** **no dice qué mutar.** **Dice qué no puede tocar una mutación, y qué tiene que decir.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
+
 **Hecho:** 2026-10-29, y el 2026-10-30 se cortó la prosa: la que quedó vive en el ciclo.
 
 **Lo que dispone:**

@@ -104,7 +104,7 @@ Colmena/
 
 ## La teoría, y cuándo se lee
 
-**Cuando quieras el porqué, y no antes.** **Y está en [`./teoria/`](./teoria/):**
+**Cuando quieras el porqué, y no antes.** **Y hay dieciocho piezas, y el orden de las lecturas está en [`./teoria/LEEME.md`](./teoria/el%20orden%20de%20las%20lecturas.md).**
 
 | La pieza | Y qué contesta |
 |---|---|

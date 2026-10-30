@@ -1,5 +1,14 @@
 # abrir una idea — la pregunta, y su respuesta
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien ya trabaja con la forma, y quiere saber por qué esta pieza se sostiene.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde su pregunta, y no desde el resto del argumento.
+**Límite:** **contesta una pregunta, y no el argumento entero.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
 **Posición.** **¿Puede una idea abrirse sin que el que la abrió tenga razón?**
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **sí, si la idea se guarda como una pregunta que se puede contestar, y el que la contesta no necesita al que la escribió para saber qué quiso decir.**

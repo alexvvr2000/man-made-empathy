@@ -1,5 +1,14 @@
 # el estandar — la pregunta, y su respuesta
 
+**Clase:** teoría. **Estado:** vigente.
+**Lector:** quien ya trabaja con la forma, y quiere saber por qué esta pieza se sostiene.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde su pregunta, y no desde el resto del argumento.
+**Límite:** **contesta una pregunta, y no el argumento entero.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+---
 **Posición.** **¿Se puede escribir un estándar que no envejezca con la era?**
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **sí, si el estándar no nombra cómo.** **Un estándar que dice `python` envejece cuando python envejece; uno que dice «ejecutar» no envejece nunca, porque ejecutar no es de ninguna era.**
