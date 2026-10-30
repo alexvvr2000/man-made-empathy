@@ -39,7 +39,6 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 |---|---|---|
 | **la plantilla** | **la forma de un ente: carta, guantelete, bancos, ciclo, y evolución.** **Se copia, y se le pone nombre** | **[./Sincronización de almas/entes/](./Sincronización%20de%20almas/entes/)** |
 | **el bibliotecario y el historiador** | **`EDIPO` dice qué hay, de quién es, y qué falta. `HERÓDOTO` dice qué hubo, con fecha, y de dónde vino. Viven en [`./biblioteca/`](./biblioteca/), y no juzgan.** |
-| **el ente del autor** | **el que trabaja sobre el repositorio, y no vive en él** | **fuera, y no viaja aquí** |
 
 ## Cómo se tratan los entes aquí, y es lo que hay que leer antes de juzgar
 
@@ -67,8 +66,8 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 |---|---|
 | **la plantilla está, y se copia** | **`Sincronización de almas/entes/Ente/` tiene carta, guantelete, dos bancos, ciclo, y `evolucion/`** |
 | **el taller del proyecto** | **`bin/`, con sus herramientas y su documentación** |
-| **el bibliotecario trabaja** | **`EDIPO/bin/ver-tesis` lista los días y commits de la historia** |
-| **hay seis pruebas escritas** | **`Pruebas/`, y su `readme.md` dice cuáles pasan y cuáles no** |
+| **el bibliotecario trabaja** | **`bin/historia.py` lista las eras del historial** |
+| **hay seis pruebas escritas** | **`Pruebas/`, y su `LEEME.md` dice cuáles pasan y cuáles no** |
 | **la licencia y el DOI están declarados** | **`ATTRIBUTION.md`, `CITATION.cff`** |
 | **el alcance está dicho** | **`ALCANCE.md`, y las fichas con su fuente declarada** |
 

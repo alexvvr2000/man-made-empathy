@@ -5,7 +5,7 @@
 **Tipo:** prueba. ¿Es un alma distinta, o es la misma con otro nombre?
 **Lector:** quien va a usar un modelo para contrastar algo, y quien va a decir si el contraste fue real.
 **Dueño:** la autoridad.
-**Estado:** vigente.
+**Estado:** `[SIN CORRIDA - SE PRUEBA A MANO]`: la corrida va aparte, y se dice cuando exista.
 
 **Nombre.** Alma suficientemente diferente. **Expansión:** la prueba de si dos almas divergen lo bastante como para que una corrija a la otra.
 **Origen.** Del estándar de la relación: [`../Sincronización de almas/entes/Colmena/LEEME`](../Sincronización%20de%20almas/LEEME.md), **dos almas que se afinan sin volverse una.** Y de la medición: **modelos entrenados con principios parecidos divergen de forma sustancial** — más de 70,000 de 300,000 escenarios, con divergencia notable en casi todos (arXiv:2510.07686).
