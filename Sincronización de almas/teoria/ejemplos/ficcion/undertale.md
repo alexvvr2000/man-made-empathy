@@ -1,9 +1,9 @@
 # UNDERTALE — una persona, un juego, y una comunidad que lo hizo crecer sola
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: el año, el autor, la fecha de lanzamiento, y que Fox hizo el guion y la música.
+**Enlace:** https://en.wikipedia.org/wiki/Undertale   (abierto el 2026-10-30)
 
 ---
 
@@ -51,3 +51,5 @@ Límite:      no enseña a construir comunidad; enseña que la obra que deja ele
 **Y no enseña que la comunidad se pueda convocar.** **La ficha no dice cómo se juntó: dice que la obra dejó elegir, y que la gente respondió.**
 
 **Rige [`../LEEME`](../../../LEEME.md), la regla del ejemplo que no es absoluto.**
+
+

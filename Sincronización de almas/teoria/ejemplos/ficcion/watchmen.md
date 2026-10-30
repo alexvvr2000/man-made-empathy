@@ -1,9 +1,9 @@
 # WATCHMEN — tres veces, y no es la misma obra
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: los autores, DC, los 12 números, las fechas, y la película y la serie.
+**Enlace:** https://en.wikipedia.org/wiki/Watchmen   (abierto el 2026-10-30)
 
 ---
 
@@ -51,3 +51,5 @@ Límite:      no enseña cuál de las tres es la buena; enseña que no son inter
 **Eso no cabe en una película: no hay página que reflejar.** **Y por eso el ejemplo no es "una historia, tres medios": es que la historia estaba hecha de su medio.**
 
 **Rige [`../LEEME`](../../../LEEME.md), la regla del ejemplo que no es absoluto.**
+
+

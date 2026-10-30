@@ -1,9 +1,9 @@
 # ARRIVAL — el otro ya tiene un canal, y el canal es el otro
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: las dos secciones citadas, abiertas, y la crítica académica que matiza.
+**Enlace:** https://en.wikipedia.org/wiki/Arrival_(film)   (abierto el 2026-10-30), secciones «Linguistics» y «Response from academics»
 
 ---
 
