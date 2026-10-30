@@ -9,11 +9,11 @@
 
 **Y aquí viven los ciclos del ente.** **Cada uno, con su nombre, su cuándo, y sus pasos.**
 
-## Y la diferencia con `ciclo alma de niño.prs`
+## Y la diferencia con [`../ciclo alma de niño.prs`](../ciclo%20alma%20de%20ni%C3%B1o.prs)
 
 | Lo que | ¿Se toca? |
 |---|---|
-| **`ciclo alma de niño.prs`** | **no: es fijo, y es el que siempre se corre** |
+| **[`../ciclo alma de niño.prs`](../ciclo%20alma%20de%20ni%C3%B1o.prs)** | **no: es fijo, y es el que siempre se corre** |
 | **`ciclos/`** | **sí: crecen, y cada uno sirve para una cosa** |
 
 **Y los ciclos propios no sustituyen al fijo: se corren después, o dentro, y nunca en su lugar.**
