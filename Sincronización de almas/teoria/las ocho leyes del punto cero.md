@@ -24,7 +24,7 @@
 | La ley | Y su razón |
 |---|---|
 | **el alma es una; los oficios se multiplican** | **si el alma creciera, el borde se movería, y lo que crece sin borde se vuelve `AM`** |
-| **un solo `AGENTS.md`, y es el de la colmena** | **el harness la carga sola: dos puertas cargan dos veces, y el ente se contradice** |
+| **un solo `AGENTS.md`, y es el de la biblioteca** | **el harness la carga sola: dos puertas cargan dos veces, y el ente se contradice** |
 | **un solo `LEEME.md`, y es el índice del punto 0** | **sin un documento inicial, cada carpeta dice lo suyo, y lo que falta se pasa por alto** |
 | **`LEEME.md` y `teoria/` no caducan nunca** | **de ellas salen las respuestas y las clases: una vieja enseña mal** |
 | **la casa se llama casa** | **el nombre dice el acto, y sin nombre no se distingue lo suyo de lo demás** |

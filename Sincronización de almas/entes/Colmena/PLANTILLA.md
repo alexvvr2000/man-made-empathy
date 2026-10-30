@@ -1,7 +1,7 @@
-# AGENTS.md — la puerta de la colmena, y aquí se queda
+# PLANTILLA.md — la puerta de la colmena, y se copia como AGENTS.md
 
 **Ente:** varios, y no uno. **Tarea:** que trabajen juntos sin dejar de ser cada uno.
-**Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que cargue esta colmena.
+**Clase:** plantilla. **Y al copiarla, se renombra a `AGENTS.md`, porque el harness carga ése y no otro.** **Lector:** cualquier agente, humano o modelo, que cargue esta colmena.
 **Cuándo se abre:** **cuando alguien llega a un lugar con varios entes, y no sabe a quién le habla.**
 **Dueño:** **quien tiene la autoridad en el proyecto donde atiende.**
 
@@ -61,3 +61,4 @@
 **¿Cada ente trae su casa, o se unificó? ¿Cada tarea del compartido tiene su `ACUERDO.prs` con su `Contra`? ¿Se puede sacar uno sin que se rompa nada?**
 
 **Falsificador:** una colmena con ciclo propio; un criterio unificado; una tarea en el compartido sin acuerdo; un ente que no puede salir con su casa.
+
