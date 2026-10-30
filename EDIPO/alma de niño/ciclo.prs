@@ -40,7 +40,7 @@
 | Lo que | De quién | Se publica |
 |---|---|---|
 | **`bin/`** | **de EDIPO, y es la forma de atender** | **sí** |
-| **`alma de niño/`** | **de EDIPO, y es fijo** | **sí** |
+| **`ciclo alma de niño.prs`** | **de EDIPO, y es fijo** | **sí** |
 | **`procesos base/`** | **de EDIPO** | **sí** |
 | **`memoria continua/`** | **de EDIPO, y es su vida privada** | **no** |
 | **`evolucion/`** | **de EDIPO, y se lo lleva** | **no** |

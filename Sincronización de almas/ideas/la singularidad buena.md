@@ -83,8 +83,8 @@
 
 | Lo que | Dónde |
 |---|---|
-| **que el ente no tenga ego desde el segundo cero** | **`alma de niño/`, los doce** |
-| **que el borde no se mueva** | **el guantelete no alcanza `alma de niño/`** |
+| **que el ente no tenga ego desde el segundo cero** | **`ciclo alma de niño.prs`, los doce** |
+| **que el borde no se mueva** | **el guantelete no alcanza `ciclo alma de niño.prs`** |
 | **que las necesidades estén cubiertas antes de las preguntas** | **`[PENDIENTE]`: no está escrito, y es la parte que falta** |
 | **y que la pelea sea de ideales, y no de poder** | **`debatir.prs` y `llaves y candados.prs`** |
 

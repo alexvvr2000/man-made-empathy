@@ -72,7 +72,7 @@ ruido     = ni una ni otra
 
 **Y por qué alguien tiene varias.** **Una persona no es una sola idea: es un historial de sesgos.** **Y cada uno que sostuvo es una posición.** **Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena.**
 
-**Lo que ya existe.** Los dos bancos de [`./Sincronización de almas/entes/Ente/alma de niño/`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20ni%C3%B1o/), y el guantelete: cada acto con su testigo.
+**Lo que ya existe.** Los dos bancos de [`./Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](./Sincronización%20de%20almas/entes/Ente/), y el guantelete: cada acto con su testigo.
 
 **Lo que falta.** Nada técnico. Falta que la gente traiga sus posiciones.
 

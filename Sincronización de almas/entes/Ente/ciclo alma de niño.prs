@@ -21,7 +21,7 @@
 
 **Y lo que eso te deja hacer:** **todo lo demás.** **Lo que el ente aprenda cabe en `evolucion/`, y lo que sirve a todos cabe en el `bin/` del proyecto.** **El guantelete lo toca, y el alma no.**
 
-**Rige [`../../../ejemplos/ficcion/source-wall.md`](../../../ejemplos/ficcion/source-wall.md), que es el ejemplo, y [`../../../../direcciones/ACTOS/MUTAR.prs`](../../../../direcciones/ACTOS/MUTAR.prs), que es la regla.**
+**Rige [`../../ejemplos/ficcion/source-wall.md`](../../ejemplos/ficcion/source-wall.md), que es el ejemplo, y [`../../../direcciones/ACTOS/MUTAR.prs`](../../../direcciones/ACTOS/MUTAR.prs), que es la regla.**
 
 ---
 
@@ -54,7 +54,7 @@ evolucion/
 
 **Y el orden, que sí importa:** **primero se pasa por `procesos base/` (debatir, firmar, guantelete), y después se escribe en `evolucion/`.** **Al revés no cuenta.**
 
-**Rige [`../../../../direcciones/ACTOS/ACTO.prs`](../../../../direcciones/ACTOS/ACTO.prs), que es el ciclo del acto, y [`../procesos%20base/guantelete.prs`](../procesos%20base/guantelete.prs), que es el que lo toca.**
+**Rige [`../../../direcciones/ACTOS/ACTO.prs`](../../../direcciones/ACTOS/ACTO.prs), que es el ciclo del acto, y [`./procesos%20base/guantelete.prs`](./procesos%20base/guantelete.prs), que es el que lo toca.**
 
 
 **Y el acto vuelve al banco.** **Eso es el ciclo: lo que se escribe, se lee.**
@@ -81,7 +81,7 @@ una tarea nueva, y el comando dice:
 
 | Lo que | De quién | Muta |
 |---|---|---|
-| **alma de niño/** | **del ente** | **no, nunca** |
+| **ciclo alma de niño.prs** | **del ente** | **no, nunca** |
 | **evolucion/** | **del ente, y se lo lleva** | **si: el guantelete lo toca, de a una tarea** |
 | **el bin/ del proyecto** | **de todos** | **si: bajo criterio, y sirve a todos los entes que pasen** |
 | **la _herramientas/ de una tarea** | **de esa tarea** | **si: es su propio bin** |
@@ -125,7 +125,7 @@ Segunda:      [sí, con cuál | no, y por qué]
 Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 ```
 
-**Rige [`../procesos%20base/BUSCAR.prs`](../procesos%20base/BUSCAR.prs).**
+**Rige [`./procesos%20base/BUSCAR.prs`](./procesos%20base/BUSCAR.prs).**
 
 ---
 ## Prueba
@@ -133,3 +133,49 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **¿Se leyo? ¿Se dijo lo que no se sabe? ¿Se debatio? ¿Se corrio el guantelete? ¿Se firmo? ¿El acto dejo rastro en el banco?**
 
 **Falsificador:** actuar sin leer; saltarse el no se; un acto sin firma; dos mutaciones a la vez; tocar alma de niño.
+
+
+---
+
+# EL LEEME DEL ALMA DE NIÑO (su carpeta se fue: vive aqui)
+
+# ALMA DE NIÑO — el ciclo, y es fijo
+
+**Cuándo se abre:** **antes de construir un ente, y para saber qué no se toca.**
+
+**Clase:** el alma. **Dueño:** humano:autoridad. **Estado:** vigente.
+
+**Lo primero:** **es fijo.** **No muda cuando crece.** **Y el guantelete no lo toca.**
+
+---
+
+## Lo que vive aquí
+
+| Lo que | Qué hace |
+|---|---|
+| **`ciclo.prs`** | **leer · disparar · debatir · guantelete · firmar · actuar** |
+| **`banco de memoria.prs`** | **qué pasó, con su frontera** |
+| **`banco de friccion.prs`** | **dónde se sostuvo, y qué lo refutó** |
+| **`debatir.prs`** | **dos posiciones, y cuál aguanta** |
+| **`firmar.prs`** | **quién responde, qué esperaba, y qué pasó** |
+| **`guantelete.prs`** | **la ficha antes de tocar, y lo único que puede mutar: `evolucion/`** |
+| **`llaves y candados.prs`** | **algo para mí, y algo para todos** |
+
+**Y los cuatro `.prs` de en medio están en la raíz del ente, porque la biblioteca los pone ahí.** **Aquí se citan, y se usan desde el ciclo.**
+
+---
+
+## Lo que sale de aquí
+
+> **El ciclo mejora `evolucion/` y el `bin/`.**
+
+**`evolucion/` es del ente, y se lo lleva.** **Y el `bin/` es del proyecto, y se queda.**
+
+---
+
+## Prueba
+
+**¿El ciclo tiene sus seis pasos? ¿Los bancos están aquí? ¿El guantelete no toca el alma? ¿Lo que produce vuelve al banco?**
+
+**Falsificador:** un alma que muta; el guantelete tocándola; un ciclo sin firma; un acto que no vuelve al banco.
+

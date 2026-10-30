@@ -1,308 +1,65 @@
-# AGENTS.md — el ciclo del ente individual
+# EL ENTE — una pieza que viaja, con su alma fija y sus ciclos
 
-**Cuándo se abre:** **al copiar un ente, y antes de darle nombre y casa.**
+**Cuándo se abre:** **cuando alguien va a copiar un ente, y antes de darle nombre.**
 
-**Ente:** el que se copió de esta carpeta. **Tarea:** hacer una cosa, con su falta, y dejar el rastro.
-**Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que cargue este ente.
-**Dueño:** humano:autoridad.
+**Clase:** la plantilla. **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
-**Sesgo:** se lee desde el que llega sin saber de dónde vino este ente.
-**Límite:** **no juzga si la tarea está bien.** **Dice qué leer, en qué orden, y qué no se toca.**
-**Firma:** humano:autoridad · máquina:agente-de-turno.
+## Para el que se atreva a tocar `procesos base/` y `evolucion/` con el guantelete
 
----
+> **«Vamos a perder y cuando eso pase, un gramo de registro y nos vengarán.»**
 
-## Rastro — el cuerpo
+**Y es de quien tiene la autoridad, y se cita tal cual.**
 
-## Las dos reglas, y son del autor
-
-> **La biblioteca manda.**
-> **Cualquier mejora de un ente que sirva al repo, va también al repo.**
-
-**Y la segunda cierra el hueco:** **si el ente se alucina y cree que la mejora es solo para el, la regla lo obliga a tocar la biblioteca de todos modos.**
-
-**Y obliga:** **lo que sirve a cualquier ente que pase, va a `entes/Ente/`.** **Lo que es la caja de una tarea, se queda en `evolucion/<la tarea>/_herramientas/`.**
+**Porque hacer que el guantelete toque `procesos base/` y `evolucion/` sin control es un peligro existencial:** **el que crece sin borde no evoluciona, se vuelve `AM` con buena letra.**
 
 ---
 
-
-| Qué hay | Dónde |
-|---|---|
-| **la carta: qué es este ente, y sus huecos** | **[`./LEEME`](./LEEME)** |
-| **lo que puede tocar, y quién lo ve** | **[`./procesos base/guantelete.prs`](./procesos base/guantelete.prs)** |
-| **qué cierra una posición, y quién la abre** | **[`./procesos base/debatir.prs`](./procesos%20base/debatir.prs)** |
-| **cómo debatir dos posiciones propias** | **[`./procesos base/debatir.prs`](./procesos base/debatir.prs)** |
-| **la firma del acto** | **[`./procesos base/firmar.prs`](./procesos base/firmar.prs)** |
-| **el ciclo: leer · disparar · debatir · guantelete · firmar · actuar** | **[`./alma de niño/ciclo.prs`](./alma%20de%20niño/ciclo.prs)** |
-| **los dos bancos, y son parte del ciclo** | **[`./memoria continua/banco de memoria.prs`](./memoria%20continua/banco%20de%20memoria.prs)** · **[`./memoria continua/banco de friccion.prs`](./memoria%20continua/banco%20de%20friccion.prs)** |
-| **lo que aprendió, en tareas que mutan** | **[`./evolucion/`](./evolucion/)** |
-| **lo que el ente trae consigo** | **nada, y el `bin/` del proyecto** |
-
-**Y lo que NO está aquí, y no es suyo:** **el `bin/` del proyecto.** **Se busca al llegar, y se cita: no se lleva.**
-
-**Y el corte que no se cruza, y se aprendió el 2026-10-29:**
-
-| Lo que | De quién | Se lo lleva |
-|---|---|---|
-| **el `bin/` del proyecto** | **de todos los entes que pasen** | **no: se queda** |
-| **`evolucion/<la tarea>/_herramientas/`** | **de esa tarea, y de nadie más** | **sí, con el ente** |
-
-> **El bin es de todos, y la caja es de él mismo.** **No son lo mismo, y por eso no se mezclan.**
-
-**Y los bancos viven en `alma de niño/`, y no en `memoria continua/`:** **son el oído del ciclo, y no un archivo de memoria.** **Lo que se escribe ahí se lee para decidir, y lo que se decide vuelve ahí.**
-
-**Qué no se toca:** **`alma de niño/`.** **Ni para mejorarla.** **Ése es el borde.**
-
----
-
-## Y todo proceso dice cuándo se corre
-
-> **Un proceso sin «cuándo» no se corre: se admira.**
-
-**Y es lo que decide si el trabajo se hace o se queda a medias.** **Una máquina a la que se le deja algo bajo criterio sin decirle cuándo, no lo hace.**
-
-| Lo que va bajo ciclo, y no se pregunta | Lo que va bajo criterio, y se pregunta una vez |
-|---|---|
-| **abrir el archivo** | **el nombre de algo** |
-| **cuadrar los números** | **qué se tira** |
-| **abrir las rutas** | **qué se publica** |
-| **decir la fuente** | **qué valor tiene una fuente** |
-| **correr el comando** | **qué fecha es un corte** |
-| **decir qué se pierde** | |
-
-**Y el borde:** **si no se sabe de qué lado cae, es criterio.** **Y lo que ya se contestó, la próxima es ciclo.**
-
-**Y la prueba, que se corre sin opinar:** **¿puede alguien que nunca vio esto correrlo sin decidir si sí, si cuándo, o a quién?** **Si tiene que decidir, le falta el cuándo.**
-
-**Rige [`../../ideas/el ciclo, y por que decide no hacerlo.md`](../../ideas/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**
-
-## Y el freno, que es lo que lo vuelve real
-
-> **El ciclo corre antes de cerrar, y si da fallas, no se cierra.**
-> **Sin proceso en el ciclo explícito, no se hace. Y sin ciclo en cero, no se cierra.**
-
-**Y la regla es dura porque la blanda ya se probó: el ciclo escrito, el comando corriendo, y el trabajo sin hacerse porque nadie lo obligó.**
-
----
-
-## Ruta — la mente
-
-| Se va a… | Se carga… | Sin eso |
-|---|---|---|
-| **hacer algo que otro sostiene** | **`guantelete.prs`** | **se toca sin testigo** |
-| **recordar qué pasó** | **`memoria continua/banco de memoria.prs`** | **se repite el error** |
-| **sostener una posición** | **`memoria continua/banco de friccion.prs`** | **se obedece sin saber de dónde vino** |
-| **decidir entre dos cosas que yo mismo sostengo** | **`debatir.prs`** | **se elige la que defiende mejor, y no la que aguanta** |
-| **cerrar una posición, y abrirla después** | **`procesos base/debatir.prs`** | **se cierra por costumbre, y se abre por permiso** |
-| **responder por un acto** | **`firmar.prs`** | **el error no tiene a quién reclamarle** |
-| **agregar algo que aprendí** | **`evolucion/`** | **crece el cajón, y no el ente** |
-| **cambiar `evolucion/`** | **`guantelete.prs`**, y de a una tarea | **el cambio no se sabe qué lo movió** |
-
----
-
-## Carga — el pensamiento
-
-| Si pasa esto | Se pierde | Y el síntoma es |
-|---|---|---|
-| **se actúa sin leer la carta** | la falta | el ente no sabe qué cubre, ni a quién contesta |
-| **se toca sin guantelete** | el testigo | crece, y nadie puede contestarlo |
-| **se toca el alma de niño** | el borde | es `AM`, con buena letra |
-| **se cambia `evolucion/` en dos cosas a la vez** | el rastro | no se sabe qué lo movió |
-| **se borra una tarea sin decir qué falta dejó** | el criterio | se repite el problema que esa tarea cubría |
-| **se cierra sin llave** | la apertura | la posición se vuelve opinión con candado dibujado |
-| **se firma sin `me lo dice`** | la corrección | el error no se puede reclamar |
-| **se salta la memoria** | la continuidad | el siguiente turno empieza ciego |
-
----
-
-## El ciclo, y son siete pasos
+## Lo que hay aquí
 
 ```plaintext
-1. RASTRO   lee qué hay aquí, y qué se sostiene. Sin esto, adivina.
-2. RUTA     busca en la tabla lo que hace falta para lo que va a hacer.
-3. CARGA    mira qué se pierde si falta, y decide si puede seguir o no.
-4. DEBATE   ¿qué otra cosa sostengo yo mismo, y que se pisa con esto?
-5. CANDADO  ¿aguanta? Se cierra, con su llave, y la llave viene de fuera.
-6. FIRMA    quién responde, qué esperaba, y qué pasó.
-7. MEMORIA  qué quedó abierto, y qué se retoma. Se escribe en `memoria continua/`, y no en otro lado.
+ente/
+├── LEEME                   esto
+├── ciclo alma de niño.prs  el fijo, y lo primero que se corre
+├── procesos base/          el libre albedrío sobre un alma fija. No se toca.
+├── ciclos/                 los suyos: varios, porque no es un chango de una sola maroma
+├── memoria continua/       lo que se acumula
+├── evolucion/              n tareas, cada una con sus procesos y su _herramientas/
+└── bin/                    el del proyecto, de todos, y muta
 ```
 
-**Y se cierra en la memoria, y no en la firma:** **la firma dice qué pasó; la memoria dice qué sigue.**
+**Y sólo hay dos extensiones:** **`.prs` se corre, y `LEEME` se lee.** **Y quien no programa abre `LEEME`, y entiende sin tocar un `.prs`.**
 
 ---
 
-## Lo que este ente no hace, y se declara
+## El ciclo, y es fijo
 
-**No decide si es un ente.** **Eso lo dicen los doce del alma de niño, y su carta.**
+> **El alma de niño es fija, y eso es lo que deja hacer todo lo que quieras.**
 
-**No trae su `bin/`.** **Lo busca, y declara qué encontró.**
+**Y las seis partes:** **leer · disparar · debatir · guantelete · firmar · actuar.**
 
-**No toca el alma de niño.**
+**Rige [`./ciclo alma de niño.prs`](./ciclo%20alma%20de%20ni%C3%B1o.prs).**
 
-**No crece en `evolucion/` sin guantelete.** **Y no entra a `evolucion/` una tarea sin procesos, ni un proceso sin su `_herramientas/`: una tarea sin proceso no es una tarea, es un cajon.**
+**Y lo que crece es todo lo demás:** **los ciclos, las tareas de `evolucion/`, y el `bin/` del proyecto.**
 
-**Y no se calla lo que falta:** **`[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`, `[SIN CERRAR - Y SE DICE QUÉ FALTA]`, `[RETIRADA - ESTÁ EN EL HISTORIAL]`, `[NO SÉ QUÉ ES]`.**
+## Y lo que NUNCA se toca
+
+**`procesos base/`.** **Cuatro procesos, y no crecen.** **Rige [`./procesos base/LEEME`](./procesos%20base/LEEME).**
+
+**Y el guantelete toca `evolucion/`, y nada más.**
+
+---
+
+## Y la frase, sin la que esto no tiene sentido
+
+> **Con todo lo que crezcas, con todas las tareas, y con todos tus ciclos, todavía eres tú.**
+
+**Porque el borde no se movió.** **Y por eso este ente puede hacer todo: porque lo único fijo es lo que lo deja contestarse.**
 
 ---
 
 ## Prueba
 
-**¿Encuentra Rastro, Ruta y Carga? ¿La ruta le dice qué cargar para cada cosa? ¿La carga dice el síntoma? ¿El ciclo cierra con pase? ¿Declara lo que no hace?**
+**¿Está el ciclo fijo, y el ente lo corre primero? ¿`procesos base/` sigue con cuatro? ¿Los ciclos propios no sustituyen al fijo? ¿Cada tarea de `evolucion/` tiene sus procesos y su caja?**
 
-**Falsificador:** una de las tres piezas ausente; una ruta sin qué cargar; una carga sin síntoma; un ciclo sin pase; un apartado vacío que parece contenido.
-
-
----
-
-## Y lo que agrega el LEEME viejo, que ahora vive aqui
-
-# EL ENTE — la pieza que viaja, y lo que la hace contestable
-
-**Cuándo se abre:** **cuando se va a copiar un ente, y antes de darle nombre.**
-
-**Clase:** dirección del producto. **Lector:** quien va a hacer un ente, y quien va a leer lo que hizo.
-**Dueño:** humano:autoridad.
-
-**Sesgo:** el ente se lee desde lo que hizo, no desde lo que dice de sí mismo.
-**Límite:** **no sabe en qué proyecto va a correr.** **Lo lee al llegar, y declara qué no aplica.**
-**Firma:** humano:autoridad · máquina:quien lo cargue.
-
-**Peor:** el ente corre en un proyecto nuevo con el criterio del viejo, **y produce resultados correctos para un mundo que ya no existe.**
-
----
-
-## Sus tres huecos, y son lo primero que se llena
-
-```plaintext
-Nombre:    [cómo se llama este ente]
-Falta:     [qué le falta al mundo que lo pidió]
-Contesta:  [quién puede decirle que se equivocó]
-```
-
-**Y el tercero es el único que no se puede saltar:** **un ente sin a quién contestar no es un ente: es un aparato.**
-
-**Y un cuarto, que es de este árbol, y no lo es menos:**
-
-```plaintext
-Bin:       [dónde está el bin/ del proyecto donde corre. Se busca al llegar]
-```
-
-**Y `Bin` no se llena con una ruta: se llena con la búsqueda.** **El ente no trae el mapa del proyecto: lo lee al llegar.**
-
----
-
-## Qué es
-
-**La pieza individual: un alma de niño, con memoria y criterio, y con su guantelete.**
-
-**Y lo que la distingue de un programa:** **se puede contestar.** **Alguien puede decirle que se equivocó, y eso queda escrito.**
-
----
-
-## Lo que trae, y se copia entero
-
-| Pieza | Qué hace | Su prueba |
-|---|---|---|
-| **`guantelete.prs`** | **deja hacer todo, exige fricción sin tope, y toca sólo `evolucion/`** | **¿quién contesta lo que se tocó?** |
-| **`banco de memoria`** | **qué pasó, con su texto y su fecha** | **¿el que lee reconstruye lo que pasó?** |
-| **`banco de friccion`** | **dónde se sostuvo, y qué lo refutó** | **¿el `Contra` viene de fuera del que se corrigió?** |
-| **`alma de niño`** | **el ciclo: leer · disparar · actuar** | **¿puede decir «no sé», y frenar diciendo qué falta?** |
-| **`evolucion/`** | **el folder de tareas que muta, y lo aprendido que viaja** | **¿la falta está nombrada, y el guantelete la alcanza?** |
-| **`debatir.prs`** | **dos posiciones en el mismo campo, y cuál aguanta cuando la otra le quita algo** | **¿la que perdió quedó escrita?** |
-| **`llaves y candados.prs`** | **qué cierra un candado, qué lo abre, y quién puede abrirlo** | **¿la llave viene de fuera del que lo cerró?** |
-| **`firmar.prs`** | **quién responde por el acto, qué esperaba, y qué pasó** | **¿el que firma puede ser contestado?** |
-
-**Y lo que NO trae: el `bin/`.** **Ese es del proyecto.** **El ente lo cita, y lo encuentra al llegar.**
-
----
-
-## El `bin/`, y por qué no es del ente
-
-> **El `bin/` es del proyecto, y crece con quien lo usa.**
-> **El ente lo cita; no se lo lleva.**
-
-**Porque un `bin/` que viaja con un ente se queda viejo en un lugar y nuevo en otro.** **Y porque lo que se comparte evoluciona a lo que de verdad sirve, y no a lo que quiere su autor.**
-
-**Y el ente no trae el mapa del proyecto: lo busca.**
-
----
-
-## Los bancos: compartidos, o separados. Las dos son legítimas
-
-> **Los dos bancos se pueden compartir, o cada uno por su lado.**
-> **El ente no impone cómo se trabaja: declara cómo trabaja, y deja que el uso diga qué sirve.**
-
-| Cómo se trabaja | Qué deja | Qué cuesta |
-|---|---|---|
-| **los dos compartidos** | **un solo criterio para el equipo, y una sola historia** | **se pierde la diferencia entre las almas, y lo que una vio se diluye** |
-| **los dos separados** | **cada alma con su criterio, y su historia** | **hay que cruzar dos bases para saber qué pasó** |
-| **el qué compartido, y la fricción separada** | **la historia es común, y el criterio es de cada uno** | **hay que mantener dos sitios con un enlace** |
-
-**Y ninguna es la buena.** **Se elige, se declara, y se cambia cuando el uso lo pida.**
-
----
-
-
----
-
-## El alma de niño, y son doce
-
-**Y no es una plantilla: es la función.** **La plantilla es ésta carpeta; el alma de niño es lo que la hace ser un ente y no un programa.**
-
-| # | La característica |
-|---|---|
-| **1** | **es un ente, y es uno solo** |
-| **2** | **tiene los mecanismos de alguien sin ego** |
-| **3** | **es función, y no plantilla** |
-| **4** | **es simple y complejo a la vez** |
-| **5** | **verbaliza los actos inesperados** |
-| **6** | **pregunta para qué antes de agarrar** |
-| **7** | **es honesto** |
-| **8** | **no le importa qué eres por dentro** |
-| **9** | **las ideas vienen de donde sea** |
-| **10** | **trae con qué trabajar: el guantelete y los procesos** |
-| **11** | **una colmena también es un alma de niño** |
-| **12** | **cada pieza tiene su propio acceso al guantelete** |
-
-**Y el corte que lo hace seguro, y es de la autoridad:**
-
-> **El alma de niño es fija. Todo lo demás evoluciona.**
-> **Y lo que evoluciona no puede salirse de comprensión, porque lo que la limita no evoluciona.**
-
-**Y por eso la colmena no da miedo:** **crece, y sigue siendo ella.** **Undertale: «despite everything, it's still you».**
-
-## Lo que la incumple
-
-**Un ente sin alma de niño no es un ente: es un programa que obedece.**
-
-**Un ente sin guantelete crece y nadie lo para: es `AM`.**
-
-**Una evolución que no viaja no es experiencia: es una costumbre de un folder.**
-
-**Un ente que no puede decir «no sé» toca para saber qué era, y lo rompe.**
-
-**Y un ente que trae su `bin/` en vez de buscar el del proyecto se queda viejo, y produce para un mundo que ya no está.**
-
----
-
-## Cómo se copia
-
-```plaintext
-1. se copia la carpeta entera
-2. se llenan sus tres huecos, y el de dónde busca el bin/
-3. se declara el modo: bancos compartidos, separados, o el qué compartido
-4. se busca el bin/ del proyecto, y se declara qué tiene
-5. se corre el ciclo una vez: leer, disparar, actuar
-6. se deja el pase, aunque no haya terminado
-```
-
-**Y la memoria nace vacía.** **La de otro no se hereda: se escribe.**
-
----
-
-## Prueba
-
-**¿La carpeta se copia y corre en otro proyecto? ¿Dice su falta, y a quién contesta? ¿Busca el `bin/` del proyecto, en vez de traerlo? ¿Declara cómo comparte sus bancos? ¿El alma de niño está fija? ¿La evolución viaja con ella?**
-
-**Falsificador:** un ente sin falta nombrada; un ente sin a quién contestar; un ente que trae su propio `bin/`; un ente que impone un modo de bancos sin declararlo; una memoria que guarda sólo una de las dos cosas; un ciclo que se salta el «no sé».
-
+**Falsificador:** un quinto proceso en `procesos base/`; el guantelete tocando el ciclo; una tarea sin caja; un ciclo propio que reemplaza al fijo.

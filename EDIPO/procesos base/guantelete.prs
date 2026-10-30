@@ -9,7 +9,7 @@
 
 **Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
 **Límite:** **no juzga si el acto es bueno.** **Decide si se puede contestar, si se puede deshacer, y si deja rastro.**
-**Y no alcanza `alma de niño/`.** **Eso no es un límite de la herramienta: es el corte que previene `AM`.**
+**Y no alcanza `ciclo alma de niño.prs`.** **Eso no es un límite de la herramienta: es el corte que previene `AM`.**
 **Firma:** humano:autoridad · máquina:quien lo ejecute.
 
 **Cuándo se corre:** **se corre antes de tocar cualquier cosa que otro sostiene, y no después.**
@@ -29,7 +29,7 @@
 ## Entra | Falla si | Sale | Consume
 
 - **Entra:** el acto que se quiere ejecutar, y lo que toca. **Modo: escribe.**
-- **Falla si:** no se declara quién lo contesta; el acto es irreversible y no se espera; no deja rastro; el silencio se lee como aprobación; **o el acto intenta tocar `alma de niño/`.**
+- **Falla si:** no se declara quién lo contesta; el acto es irreversible y no se espera; no deja rastro; el silencio se lee como aprobación; **o el acto intenta tocar `ciclo alma de niño.prs`.**
 - **Sale:** el acto con su ficha, **o `[VACÍO - SIN TESTIGO]`**, **o `[ESPERA - IRREVERSIBLE]`**, **o `[FRENO - EL ALMA DE NIÑO NO SE TOCA]`.**
 - **Consume:** quien vaya a leer lo que se tocó, y quien vaya a deshacerlo.
 
@@ -104,7 +104,7 @@ Prohibido el 5 sin el 3 y el 4.
 
 **Lo que no puede cambiar de forma no encuentra la forma que sirve.** **Y el guantelete existe para que eso se haga con rastro, y no para impedirlo.**
 
-**Lo único que el guantelete no toca:** **`alma de niño/`.** **Ni al mutar.** **Ni para mejorarla.**
+**Lo único que el guantelete no toca:** **`ciclo alma de niño.prs`.** **Ni al mutar.** **Ni para mejorarla.**
 
 ---
 
@@ -114,7 +114,7 @@ Prohibido el 5 sin el 3 y el 4.
 
 **No impide el acto irreversible.** **Exige testigo, y lo deja escrito.**
 
-**No toca `alma de niño/`.** **Ni para mejorarla.** **Ése es el borde, y el borde no se negocia.**
+**No toca `ciclo alma de niño.prs`.** **Ni para mejorarla.** **Ése es el borde, y el borde no se negocia.**
 
 **No toca el `bin/` del proyecto.** **Ese sólo agrega, y lo agrega el proyecto.**
 

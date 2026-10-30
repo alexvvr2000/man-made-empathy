@@ -38,7 +38,7 @@
 ├── memoria continua/
 │   ├── banco de memoria.prs      qué pasó
 │   └── banco de friccion.prs     dónde se sostuvo
-├── alma de niño/          el ciclo: leer · disparar · actuar
+├── ciclo alma de niño.prs          el ciclo: leer · disparar · actuar
 └── evolución/             lo que aprendió. Viaja con el ente.
 ```
 
@@ -61,7 +61,7 @@ repo/
 |---|---|---|
 | **`guantelete.md`** | **la regla: deja hacer todo, y exige fricción continua** | **¿alguien puede contestar lo que se tocó?** |
 | **`memoria continua/`** | **los dos bancos: qué pasó, y dónde se sostuvo** | **¿otro reconstruye la posición sin el ente?** |
-| **`alma de niño/`** | **el ciclo, completo, y fijo** | **¿puede decir «no sé», frenar, y cambiar de opinión?** |
+| **`ciclo alma de niño.prs`** | **el ciclo, completo, y fijo** | **¿puede decir «no sé», frenar, y cambiar de opinión?** |
 | **`evolución/`** | **las tareas aprendidas, que viajan con el ente** | **¿el ente se lleva lo que aprendió?** |
 
 ---
