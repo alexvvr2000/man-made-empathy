@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a [`../Sincronización de almas/entes/Ente/guantelete.prs`](../Sincronización%20de%20almas/entes/Ente/guantelete.prs) y a [`./prueba de cruce.md`](./prueba%20de%20cruce.md). **Y el registro que la prueba lee es el de [`../bin/`](../bin/), cuando se corran las tareas desde ahí.**
+> Se usa junto a [`../Sincronización de almas/entes/Ente/procesos base/guantelete.prs`](../Sincronización%20de%20almas/entes/Ente/procesos base/guantelete.prs) y a [`./prueba de cruce.md`](./prueba%20de%20cruce.md). **Y el registro que la prueba lee es el de [`../bin/`](../bin/), cuando se corran las tareas desde ahí.**
 
 Una sola pregunta: **¿la tarea responde por lo que hace y puede rendir cuenta de ello?**
 

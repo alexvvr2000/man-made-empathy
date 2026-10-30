@@ -37,7 +37,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | Lo que | Qué es | Dónde |
 |---|---|---|
 | **la plantilla** | **la forma de un ente: carta, guantelete, bancos, ciclo, y evolución.** **Se copia, y se le pone nombre** | **[./Sincronización de almas/entes/](./Sincronización%20de%20almas/entes/)** |
-| **el bibliotecario** | **`EDIPO`: el ente que vive aquí, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[`./Sincronización de almas/entes/EDIPO/`](./Sincronización%20de%20almas/entes/EDIPO/)** |
+| **el bibliotecario** | **`EDIPO`: el ente que vive aquí, y atiende: muestra el trabajo, dice qué hay, y no juzga** | **[`./EDIPO/`](./EDIPO/)** |
 | **el ente del autor** | **el que trabaja sobre el repositorio, y no vive en él** | **fuera, y no viaja aquí** |
 
 ## Cómo se tratan los entes aquí, y es lo que hay que leer antes de juzgar
@@ -66,7 +66,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 |---|---|
 | **la plantilla está, y se copia** | **`Sincronización de almas/entes/Ente/` tiene carta, guantelete, dos bancos, ciclo, y `evolucion/`** |
 | **el ciclo mínimo corre** | **`bin/ciclo.py`, con su esquema** |
-| **el bibliotecario trabaja** | **`entes/EDIPO/bin/ver-tesis` lista los días y commits de la historia** |
+| **el bibliotecario trabaja** | **`EDIPO/bin/ver-tesis` lista los días y commits de la historia** |
 | **hay seis pruebas escritas** | **`Pruebas/`, y su `readme.md` dice cuáles pasan y cuáles no** |
 | **la licencia y el DOI están declarados** | **`ATTRIBUTION.md`, `CITATION.cff`** |
 | **lo que falta está escrito** | **`LO QUE FALTA.md`, y las fichas con su `[SIN VERIFICAR]`** |

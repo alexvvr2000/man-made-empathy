@@ -29,12 +29,12 @@
 | Qué hay | Dónde |
 |---|---|
 | **la carta: qué es este ente, y sus huecos** | **[`./README.md`](./README.md)** |
-| **lo que puede tocar, y quién lo ve** | **[`./guantelete.prs`](./guantelete.prs)** |
-| **qué cierra un candado, y quién lo abre** | **[`./llaves y candados.prs`](./llaves%20y%20candados.prs)** |
-| **cómo debatir dos posiciones propias** | **[`./debatir.prs`](./debatir.prs)** |
-| **la firma del acto** | **[`./firmar.prs`](./firmar.prs)** |
+| **lo que puede tocar, y quién lo ve** | **[`./procesos base/guantelete.prs`](./procesos base/guantelete.prs)** |
+| **qué cierra una posición, y quién la abre** | **[`./procesos base/debatir.prs`](./procesos%20base/debatir.prs)** |
+| **cómo debatir dos posiciones propias** | **[`./procesos base/debatir.prs`](./procesos base/debatir.prs)** |
+| **la firma del acto** | **[`./procesos base/firmar.prs`](./procesos base/firmar.prs)** |
 | **el ciclo: leer · disparar · debatir · guantelete · firmar · actuar** | **[`./alma de niño/ciclo.prs`](./alma%20de%20niño/ciclo.prs)** |
-| **los dos bancos, y son parte del ciclo** | **[`./alma de niño/banco de memoria.prs`](./alma%20de%20niño/banco%20de%20memoria.prs)** · **[`./alma de niño/banco de friccion.prs`](./alma%20de%20niño/banco%20de%20friccion.prs)** |
+| **los dos bancos, y son parte del ciclo** | **[`./memoria continua/banco de memoria.prs`](./memoria%20continua/banco%20de%20memoria.prs)** · **[`./memoria continua/banco de friccion.prs`](./memoria%20continua/banco%20de%20friccion.prs)** |
 | **lo que aprendió, en tareas que mutan** | **[`./evolucion/`](./evolucion/)** |
 | **lo que el ente trae consigo** | **[`./_herramientas/`](./_herramientas/)** |
 
@@ -90,10 +90,10 @@
 | Se va a… | Se carga… | Sin eso |
 |---|---|---|
 | **hacer algo que otro sostiene** | **`guantelete.prs`** | **se toca sin testigo** |
-| **recordar qué pasó** | **`alma de niño/banco de memoria.prs`** | **se repite el error** |
-| **sostener una posición** | **`alma de niño/banco de friccion.prs`** | **se obedece sin saber de dónde vino** |
+| **recordar qué pasó** | **`memoria continua/banco de memoria.prs`** | **se repite el error** |
+| **sostener una posición** | **`memoria continua/banco de friccion.prs`** | **se obedece sin saber de dónde vino** |
 | **decidir entre dos cosas que yo mismo sostengo** | **`debatir.prs`** | **se elige la que defiende mejor, y no la que aguanta** |
-| **cerrar una posición, y abrirla después** | **`llaves y candados.prs`** | **se cierra por costumbre, y se abre por permiso** |
+| **cerrar una posición, y abrirla después** | **`procesos base/debatir.prs`** | **se cierra por costumbre, y se abre por permiso** |
 | **responder por un acto** | **`firmar.prs`** | **el error no tiene a quién reclamarle** |
 | **agregar algo que aprendí** | **`evolucion/`** | **crece el cajón, y no el ente** |
 | **cambiar `evolucion/`** | **`guantelete.prs`**, y de a una tarea | **el cambio no se sabe qué lo movió** |
