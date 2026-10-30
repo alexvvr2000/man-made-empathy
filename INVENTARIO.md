@@ -20,11 +20,11 @@
 | **fichas de obras** | **34** | **`Sincronización de almas/ejemplos/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **12** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
-| **piezas de ideas** | **13** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
+| **piezas de ideas** | **12** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
 | **piezas en `bin/`** | **7** | **`bin/`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
 | **commits en el historial** | **627** | **el historial de git** | **`git rev-list --count HEAD`** |
-| **días con commits** | **28** | **el git** | **agrupar por fecha** |
+| **días con commits** | **29** | **el git** | **agrupar por fecha** |
 | **primer commit** | **`505c659`, del 2026-10-01** | **el historial de git** | **`git log --reverse`** |
 
 ---
@@ -38,7 +38,7 @@
 | **`README.md`** | **la puerta: qué es esto, y qué se puede comprobar** |
 | **`AGENTS.md`** | **lo que se carga solo: las reglas, la ruta, y la carga** |
 | **`INVENTARIO.md`** | **este archivo: lo que hay, y su comando** |
-| **`LO QUE FALTA.md`** | **lo que no hay, con nombre** |
+| **`ALCANCE.md`** | **hasta dónde llega la v1, y qué se queda fuera a propósito** |
 | **`PARA EL ABOGADO.md`** | **lo único que lee un abogado** |
 | **`ATTRIBUTION.md`** | **el alcance de la licencia, y de quién es cada pieza** |
 | **`FUENTES.md`** | **las personas reales, nombradas, y la regla de los nombres** |

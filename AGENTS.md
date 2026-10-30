@@ -50,7 +50,7 @@
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
 | **De dónde vino lo que se usó** | **la máquina, los nombres vivos, y los muertos con su reemplazo** | [`./contexto.md`](./contexto.md) |
 | **Las versiones, y qué es beta** | **todo lo anterior al 2026-10-29 es beta; la 1.0.0 es el primer release** | [./VERSIONES.md](./VERSIONES.md) |
-| **Lo que la v1 no tiene** | **lo que falta, con su por qué y su cuándo** | [./LO QUE FALTA.md](./LO%20QUE%20FALTA.md) |
+| **El alcance de la v1** | **hasta dónde llega, y qué se queda fuera a propósito** | [./ALCANCE.md](./ALCANCE.md) |
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
 | **Lo que se piensa** | **el cero sin sus ejemplos, y las ocho piezas que lo completan** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
 | **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |

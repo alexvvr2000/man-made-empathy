@@ -78,7 +78,7 @@
 | **lo que se tiene que poder contestar** | **[`../../direcciones/`](../../direcciones/)**, trece procesos, con su falsificador |
 | **cómo se hace un ente** | **[`../entes/`](../entes/)**, y sus dos ciclos |
 | **de dónde vino todo esto** | **[`../../contexto.md`](../../contexto.md)**, y **[`../../FUENTES.md`](../../FUENTES.md)** |
-| **lo que esta versión no tiene** | **[`../../LO QUE FALTA.md`](../../LO%20QUE%20FALTA.md)** |
+| **lo que esta versión no tiene** | **[`../../ALCANCE.md`](../../ALCANCE.md)** |
 
 ---
 

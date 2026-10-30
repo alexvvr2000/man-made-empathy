@@ -25,7 +25,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 **Los agradecimientos, y la regla de los nombres:** `FUENTES.md`
 **De dónde vino lo que se usó, y qué hizo:** `contexto.md`
 
-**Lo que esta versión no tiene, y se dice antes de que lo pregunten:** `LO QUE FALTA.md`
+**Hasta dónde llega, y qué se queda fuera a propósito:** `ALCANCE.md`
 
 ## La biblioteca, y su bibliotecario
 
@@ -69,7 +69,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 | **el bibliotecario trabaja** | **`EDIPO/bin/ver-tesis` lista los días y commits de la historia** |
 | **hay seis pruebas escritas** | **`Pruebas/`, y su `readme.md` dice cuáles pasan y cuáles no** |
 | **la licencia y el DOI están declarados** | **`ATTRIBUTION.md`, `CITATION.cff`** |
-| **lo que falta está escrito** | **`LO QUE FALTA.md`, y las fichas con su `[SIN VERIFICAR]`** |
+| **el alcance está dicho** | **`ALCANCE.md`, y las fichas con su fuente declarada** |
 
 **Y no se comprueba hoy, y se dice:**
 - **que alguien lo haya copiado y funcione sin el autor.** **Sin estrenar: y se dice, porque nadie lo ha probado todavía.**
