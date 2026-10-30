@@ -11,6 +11,8 @@
 **Límite:** **no dice si el acto estuvo bien.** **Dice quién responde, qué dijo que iba a pasar, y qué pasó de verdad.**
 **Firma:** humano:autoridad · máquina:quien firme.
 
+**Cuándo se corre:** **se corre al cerrar cualquier acto que toco algo de otro, y no antes.**
+
 **Peor:** el acto se hizo, salió mal, y nadie puede decir quién lo decidió, **y entonces se repite igual, porque nadie cargó con nada.**
 
 ---

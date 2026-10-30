@@ -29,6 +29,14 @@
 
 ---
 
+## La pieza que va antes, y es la que faltaba
+
+| La pieza | La pregunta |
+|---|---|
+| **[`./el ciclo, y por que decide no hacerlo.md`](./el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **¿por qué un ente al que se le deja algo bajo criterio no lo hace?** |
+
+---
+
 ## Las ocho piezas, y cada una contesta lo que el cero no
 
 **Y son las que se rescatan: ocho preguntas, con su respuesta y con su tumbador.**
@@ -46,7 +54,7 @@
 
 ---
 
-## Y el corte que comparten las once
+## Y el corte que comparten las doce
 
 > **Se puede crecer sin límite, y lo que impide que ese crecimiento se vuelva `AM` es que el borde no se mueva.**
 

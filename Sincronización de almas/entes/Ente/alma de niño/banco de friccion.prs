@@ -12,6 +12,8 @@
 **Límite:** **no decide si lo recordado es verdad.** **Mide si el otro puede reconstruir la posición y contradecirla.**
 **Firma:** humano:autoridad · máquina:quien recuerde.
 
+**Cuándo se corre:** **se corre cuando una posicion cambia, y no cuando se repite.**
+
 **Peor:** se guardan hechos sin posición, **y otra instancia los hereda como verdades, y nadie ve de dónde vienen.**
 **Quién:** quien lea mañana y no vio quién lo escribió.
 

@@ -69,6 +69,29 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 
 ---
 
+## Y todo proceso dice cuándo se corre
+
+> **Un proceso sin «cuándo» no se corre: se admira.**
+
+**Y es lo que decide si el trabajo se hace o se queda a medias.** **Una máquina a la que se le deja algo bajo criterio sin decirle cuándo, no lo hace.**
+
+| Lo que va bajo ciclo, y no se pregunta | Lo que va bajo criterio, y se pregunta una vez |
+|---|---|
+| **abrir el archivo** | **el nombre de algo** |
+| **cuadrar los números** | **qué se tira** |
+| **abrir las rutas** | **qué se publica** |
+| **decir la fuente** | **qué valor tiene una fuente** |
+| **correr el comando** | **qué fecha es un corte** |
+| **decir qué se pierde** | |
+
+**Y el borde:** **si no se sabe de qué lado cae, es criterio.** **Y lo que ya se contestó, la próxima es ciclo.**
+
+**Y la prueba, que se corre sin opinar:** **¿puede alguien que nunca vio esto correrlo sin decidir si sí, si cuándo, o a quién?** **Si tiene que decidir, le falta el cuándo.**
+
+**Rige [`../../ideas/el ciclo, y por que decide no hacerlo.md`](../../ideas/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**
+
+---
+
 ## Ruta — la mente
 
 | Se va a… | Se carga… | Sin eso |
