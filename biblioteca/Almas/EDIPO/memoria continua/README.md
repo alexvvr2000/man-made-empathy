@@ -11,7 +11,7 @@
 > **La biblioteca ya tiene su historia en git.**
 > **Esto es lo que `EDIPO` vivió atendiendo, y se lo lleva él.**
 
-**Y por eso no se publica.** **Rige [`../../../../../../.gitignore`](../../../../../../.gitignore).**
+**Y por eso no se publica.** **Rige [`../../../../.gitignore`](../../../../.gitignore).**
 
 ---
 
