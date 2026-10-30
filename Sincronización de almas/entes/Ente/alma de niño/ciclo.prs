@@ -61,6 +61,22 @@ evolucion/
 
 ---
 
+
+## Y lo que se revisa solo, para que no se olvide
+
+> **Una tarea de `evolucion/` que no tenga su proceso con `Cuándo se corre`, su búsqueda, y su `_herramientas/`, no cierra el ciclo.**
+
+```plaintext
+una tarea nueva, y el comando dice:
+  [FALLA] proceso sin cuando se corre
+  [FALLA] proceso sin buscador obligatorio
+  [FALLA] evolucion sin proceso o sin caja
+```
+
+**Y no es una advertencia: es el freno.** **La tarea no entra hasta que las tres esten en cero.**
+
+**Y la razon:** **un ente que evoluciona sin ciclo evoluciona hacia donde no se puede contestar.** **Y una caja vacia no es una caja: es una promesa.**
+
 ## De quién es cada cosa
 
 | Lo que | De quién | Muta |

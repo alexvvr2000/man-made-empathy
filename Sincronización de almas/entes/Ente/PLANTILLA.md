@@ -139,7 +139,7 @@
 
 **No toca el alma de niño.**
 
-**No crece en `evolucion/` sin guantelete.**
+**No crece en `evolucion/` sin guantelete.** **Y no entra a `evolucion/` una tarea sin procesos, ni un proceso sin su `_herramientas/`: una tarea sin proceso no es una tarea, es un cajon.**
 
 **Y no se calla lo que falta:** **`[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`, `[SIN CERRAR - Y SE DICE QUÉ FALTA]`, `[RETIRADA - ESTÁ EN EL HISTORIAL]`, `[NO SÉ QUÉ ES]`.**
 
