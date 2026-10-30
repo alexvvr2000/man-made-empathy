@@ -108,6 +108,24 @@ Firma externa: [tipo:nombre | ninguno]
 
 **No cierra nada.** Rige [`../direcciones/ACTOS/PROCESOS.prs`](../direcciones/ACTOS/PROCESOS.prs), y su regla: **un proceso se refuta primero, y no se cierra por aprobación.** **El grado no se cierra por aprobación:** **lo que se cierra es con un caso que lo rompe, y queda escrito.**
 
+
+---
+
+## Su estado hoy, y que hace falta para correrla
+
+**Estado:** `
+[SIN CORRIDA - HOY DA `sin la propiedad`]
+`
+
+**Que pide:** 
+una salida que no se reduzca a lo humano, y que nadie haya visto
+.
+
+**Y si se puede correr hoy:** 
+no se puede forzar: se espera a que aparezca, o se declara que no
+.
+
+**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
 ## Prueba
 
 **¿El tipo de entrada está declarado?** **¿Se buscó el antecesor y se registró la búsqueda?** **¿El veredicto habla de origen y no de conciencia?** **¿El que firma es distinto del que produjo, o se declaró `ninguno`?**

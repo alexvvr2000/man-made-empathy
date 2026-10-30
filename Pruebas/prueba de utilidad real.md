@@ -70,3 +70,21 @@ El veredicto no juzga a la tarea en abstracto: juzga **esta intervención, en es
 ## Quién la aplica
 
 Quien supervisa, no quien produce. El costo de control lo mide quien lo paga; el efecto lo verifica quien recibe el resultado. Si el mismo acto produce, ejecuta y certifica, no hay prueba.
+
+---
+
+## Su estado hoy, y que hace falta para correrla
+
+**Estado:** `
+[SIN CORRIDA - SE PRUEBA A MANO]
+`
+
+**Que pide:** 
+el efecto neto de un trabajo, contra su costo
+.
+
+**Y si se puede correr hoy:** 
+se puede correr sobre un trabajo terminado
+.
+
+**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**

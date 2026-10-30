@@ -78,3 +78,21 @@ Las tres son independientes. Una tarea puede rendir cuentas, ser útil y no cruz
 ## Quién la aplica
 
 Quien paga el costo del registro, no quien produce la salida. La reconstrucción la intenta un lector que no la produjo. Si el mismo acto produce, verifica y certifica el cruce, no hay prueba: rige la condición 7 de `./prueba de rendicion.md`.
+
+---
+
+## Su estado hoy, y que hace falta para correrla
+
+**Estado:** `
+[SIN CORRIDA - SE PRUEBA A MANO]
+`
+
+**Que pide:** 
+una salida real, y quien la produjo, para reconstruirla
+.
+
+**Y si se puede correr hoy:** 
+se puede correr con cualquier trabajo ya hecho
+.
+
+**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**

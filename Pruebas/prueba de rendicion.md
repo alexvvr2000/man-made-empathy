@@ -49,3 +49,21 @@ Cuatro señales bastan para detectarlo desde fuera: **mandato** (alguien le dele
 La prueba no dice si el mandato es **bueno o malo**. Dos tareas con mandatos opuestos la pasan igual.
 
 El juicio de valor queda en quien observa y se declara como criterio abierto. Confundir «responde por lo que hace» con «hace lo correcto» convierte una prueba en un tribunal.
+
+---
+
+## Su estado hoy, y que hace falta para correrla
+
+**Estado:** `
+[SIN CORRIDA - SE PRUEBA A MANO]
+`
+
+**Que pide:** 
+un registro, y alguien distinto del ejecutor que intente reconstruirlo
+.
+
+**Y si se puede correr hoy:** 
+se puede correr con cualquier registro, y con una segunda persona
+.
+
+**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**

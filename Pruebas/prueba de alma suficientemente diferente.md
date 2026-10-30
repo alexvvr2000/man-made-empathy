@@ -163,6 +163,24 @@ Firma fuera de las almas: [tipo:nombre | ninguno → indeterminado]
 
 **No convierte la coincidencia en garantía.** **Si coinciden y las dos tienen razón, coincidir no es eco: es acuerdo con fundamento.** **Por eso el veredicto `eco` no se da por la coincidencia sola: se da porque ninguna lo habría producido sin la otra.**
 
+
+---
+
+## Su estado hoy, y que hace falta para correrla
+
+**Estado:** `
+[CON UMBRAL - LA CORRIDA NO ESTA PUBLICADA]
+`
+
+**Que pide:** 
+tres abruptas y dos suaves, con el umbral de 3 de 3 fijado el 2026-10-24
+.
+
+**Y si se puede correr hoy:** 
+el umbral esta fijado, y la corrida que lo uso no se publico: o se muestra, o se dice que no se puede
+.
+
+**Y lo que no se hace:** **no se declara un veredicto si no se corrio.** **Una prueba sin corrida no esta aprobada: esta pendiente, y se dice.**
 ## Prueba
 
 **¿El umbral se fijó antes del resultado?** **¿Se midió en conducta y no en estilo?** **¿Corrió cada una sola?** **¿Se distinguió resonancia de eco por el dato de la soledad?**
