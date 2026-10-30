@@ -194,3 +194,19 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **Y el peor caso, que es el que esta regla ataja:** **opinar sin buscar, y sonar seguro.** **Porque el que lee lo va a creer, y no va a ir a mirar.**
 
 **Rige [`./procesos base/BUSCAR.prs`](./procesos%20base/BUSCAR.prs), que dice qué se busca y qué no.**
+
+---
+
+## Y el piso, que se mide en cada corrida
+
+> **Si el piso no está en cero, no se toca nada nuevo: primero se arregla el piso.**
+
+**Y el piso no se inventa en cada ente: es el comando del proyecto, y mide dieciséis cosas.**
+
+**Y se corre al abrir, y no al cerrar:** **un ente que trabaja sobre un piso roto construye sobre el hueco, y no lo sabe.**
+
+**Y si no se puede correr —porque no hay comando, o porque se rompió—, se dice `[SIN PISO - NO SE MIDE]`, y se trabaja sabiendo que no hay red.**
+
+**Y lo que el piso mide, para no reinventarlo:** **el pase, la sincronía, las rutas, los procesos, las puertas, las fichas, las ideas, las pruebas, la raíz, los términos, el buscador, la colmena, los entes, la evolución, y los `LEEME`.**
+
+**Y lo que NO mide:** **si el contenido es cierto.** **Eso lo dice el que abrió la fuente, y no un comando.**
