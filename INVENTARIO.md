@@ -20,7 +20,7 @@
 | **fichas de obras** | **34** | **`Sincronización de almas/ejemplos/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **10** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
-| **piezas de ideas** | **12** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
+| **piezas de ideas** | **14** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
 | **piezas en `bin/`** | **7** | **`bin/`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
 | **commits en el historial** | **627** | **el historial de git** | **`git rev-list --count HEAD`** |

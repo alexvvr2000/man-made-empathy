@@ -19,6 +19,15 @@
 
 ---
 
+## Y las dos que salieron de los procesos, y aquí viven
+
+| La pieza | La pregunta |
+|---|---|
+| **[`./mutar.md`](./mutar.md)** | **¿qué puede cambiar, y qué se pierde en cada acto?** |
+| **[`./procesos.md`](./procesos.md)** | **¿cómo se escribe un proceso que se pueda refutar?** |
+
+---
+
 ## Las tres lecturas, y se leen en este orden
 
 | # | El archivo | Qué responde |

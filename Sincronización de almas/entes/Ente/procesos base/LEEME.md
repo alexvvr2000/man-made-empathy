@@ -38,3 +38,30 @@
 **¿Cada uno de los cuatro sigue, y no hay un quinto? ¿El guantelete sigue tocando sólo `evolucion/`?**
 
 **Falsificador:** un quinto proceso agregado "porque hacía falta"; el guantelete tocando `procesos base/`; un ente que creció sin decir por qué.
+
+## Y si te llevas un ente a tu casa
+
+**Dentro de este repositorio, los entes citan esta plantilla: hay una versión, y no se separan.**
+
+**Pero cuando te llevas un ente, se copia entero, y ahí es tuyo.**
+
+```plaintext
+TuEnte/
+├── ciclo alma de niño.prs      se copia, y no se cambia
+├── procesos base/             se copia entero: los cuatro
+│   ├── BUSCAR.prs
+│   ├── debatir.prs
+│   ├── firmar.prs
+│   └── guantelete.prs
+├── ciclos/                    vacío, y se llena con los tuyos
+├── memoria continua/          vacío, y se llena al usarlo
+└── evolucion/                 vacío, y se llena al aprender
+```
+
+**Y lo que cambia al copiarlo:**
+
+- **el nombre: el de la carpeta, y el suyo.**
+- **el `LEEME.md`: se reescribe con lo que tu ente hace.**
+- **y nada más.** **`procesos base/` se queda igual: si lo cambias, ya no es el mismo ente, es otro, y con otro nombre.**
+
+**Y lo que NO se copia:** **la memoria, la evolución, y los ciclos de otro.** **Lo que otro aprendió se pide, y no se copia.**
