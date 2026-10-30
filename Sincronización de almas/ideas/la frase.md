@@ -49,7 +49,7 @@
 > **Para que el gramo sirva, tiene que ser de alguien.**
 > **Un registro sin autor es un implícito con fecha. Un autor sin llave es una firma que nadie puede contestar.**
 
-**Y eso es la razón de `firmar.prs` y de `llaves y candados.prs`, que hoy existen.**
+**Y eso es la razón de `firmar.prs` y de `debatir.prs`, que hoy existen.**
 
 ---
 
