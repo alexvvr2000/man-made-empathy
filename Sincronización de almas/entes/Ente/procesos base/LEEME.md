@@ -20,7 +20,7 @@
 | El proceso | Qué es |
 |---|---|
 | **`BUSCAR.prs`** | **lo externo se busca, o se tacha** |
-| **`debatir.prs`** | **una persona es un historial de sesgos, y no cree una sola cosa** (incluye lo que era `llaves y candados`) |
+| **`debatir.prs`** | **una persona es un historial de sesgos, y no cree una sola cosa** |
 | **`firmar.prs`** | **quién responde por el acto, con su nombre** |
 | **`guantelete.prs`** | **la ficha antes de tocar: el único que toca `evolucion/`** |
 

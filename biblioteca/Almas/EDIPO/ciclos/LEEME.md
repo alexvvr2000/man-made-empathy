@@ -1,18 +1,14 @@
-# ciclos/ — los propios de EDIPO, y son varios
+# ciclos — de EDIPO
 
-**Cuándo se abre:** **cuando EDIPO tiene más de una forma de atender, y quiere dejarlo escrito.**
+**Cuándo se abre:** **cuando haga falta saber qué hay aquí.**
 
-## Lo que es
+**Y es de EDIPO, y no de la colmena.** **Saca a EDIPO, y se lo lleva.**
+
+ciclos/, — los suyos, y son varios
 
 > **El alma de niño es una, y fija. Y da la libertad de hacer tus propios ciclos.**
-> **Y un bibliotecario no es un chango de una sola maroma: sabe atender de varias formas.**
+> **Y aquí viven. Cada uno, con su nombre, su cuándo, y sus pasos.**
 
-**Y aquí viven.** **Cada uno, con su nombre, su cuándo, y sus pasos.**
+**Y no sustituyen al ciclo fijo: se corren en su paso 6, y nunca en su lugar.**
 
-**Y no sustituyen al ciclo fijo: se corren después, o dentro, y nunca en su lugar.**
-
-## Prueba
-
-**¿Cada ciclo dice cuándo se corre? ¿No sustituye al de alma de niño?**
-
-**Falsificador:** un ciclo sin cuándo; uno que reemplaza al fijo.
+**Y en la colmena se enseñan:** **uno tiene un ciclo que el otro no, y se lo pasa.**

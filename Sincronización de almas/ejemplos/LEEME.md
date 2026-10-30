@@ -18,7 +18,7 @@
 
 **Y nada más.** **Lo real y lo dicho no viven aquí:** **lo real se cita desde [`../../FUENTES.md`](../../FUENTES.md) cuando hace falta, y lo dicho, también.** **Una carpeta de «hechos» es la que más riesgo tiene, y no se abre hasta que haya algo que lo justifique.**
 
-**Y mientras llegan las fichas que faltan, se declara:** **`llaves y candados`, y `Thanos`, no tienen ficha y no cierran hasta que se escriban.**
+**Y mientras llegan las fichas que faltan, se declara:** **`Thanos` no tiene ficha, y no cierra hasta que se escriba.**
 
 ---
 

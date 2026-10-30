@@ -15,7 +15,7 @@
 
 | Archivo | Qué hace |
 |---|---|
-| **`ciclo.py`** | **el ciclo mínimo: disparar en memoria, sostener en fricción, ver, y cerrar el pase** |
+| **`ciclo.py`** | **el ciclo mínimo: disparar en memoria, sostener en fricción, y ver** |
 | **`esquema.sql`** | **las dos tablas: `memoria` y `friccion`, y nada más** |
 | **`historia.py`** | **trae una era del historial de git, cuando se pide** |
 | **`historia.md`** | **la regla del historial: una era cuando se pide, y no todas** |

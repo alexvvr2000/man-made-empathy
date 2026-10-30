@@ -4,20 +4,33 @@
 
 ## Lo que hace, y son cuatro cosas
 
-| Lo que | Y cómo |
+| Lo que | Con qué |
 |---|---|
-| **recibe** | **le dice al que llega dónde está parado** |
-| **busca** | **`bin/buscar`: en el catálogo, antes de decir que no hay** |
-| **dice de quién es** | **`bin/decir-quien`: la pieza, su dueño, y su estado** |
-| **dice qué falta** | **`bin/que-falta`: lo pendiente, lo sin cerrar, y lo sin verificar** |
-| **y anota lo que no supo** | **`bin/no-se`: queda como pieza que falta** |
+| **busca** | **[`./bin/buscar`](./bin/buscar)**: en el catálogo, antes de decir que no hay |
+| **dice de quién es** | **[`./bin/decir-quien`](./bin/decir-quien)**: la pieza, su dueño, y su estado |
+| **dice qué falta** | **[`./bin/que-falta`](./bin/que-falta)**: lo pendiente, lo sin cerrar, y lo sin verificar |
+| **y anota lo que no supo** | **[`./bin/no-se`](./bin/no-se)**: queda como pieza que falta |
+
+## Su casa
+
+```plaintext
+EDIPO/
+├── LEEME.md                esto
+├── NOMBRE.md               su nombre, y por qué ése
+├── ciclo alma de niño.prs  su ciclo: recibir, buscar, decir de quién, decir qué falta, derivar, anotar
+├── procesos base/          BUSCAR, debatir, firmar, guantelete. No se tocan.
+├── ciclos/                 los suyos
+├── memoria continua/       sus dos bancos
+├── evolucion/              lo que aprendió
+└── bin/                    sus cuatro herramientas
+```
 
 ## Y su hermano
 
 **`HERÓDOTO` cuenta qué hubo. `EDIPO` dice qué hay.**
-**Y viven juntos, en la misma colmena, y cada uno con su casa.** **Saca uno, y no pasa nada.**
+**Viven juntos, en [`../`](../), y cada uno con su casa.**
 
-`EDIPO` responde el enigma del que llega. `HERÓDOTO` no deja que se pierda la respuesta.
+**Y lo que no es suyo se deriva:** **si preguntan qué hubo, se pasa a [`../HERÓDOTO/`](../HER%C3%93DOTO/).**
 
 ## Lo que NO hace
 

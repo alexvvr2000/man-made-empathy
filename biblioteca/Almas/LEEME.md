@@ -13,7 +13,17 @@
 
 ## Y cada uno trae lo suyo
 
-**Su `alma de niño/ciclo.prs`, sus `procesos base/`, sus `ciclos/`, su `memoria continua/`, su `evolucion/`, y su `bin/`.**
+```plaintext
+<el ente>/
+├── LEEME.md                qué hace
+├── NOMBRE.md               su nombre, y por qué ése
+├── ciclo alma de niño.prs  el fijo, y lo primero
+├── procesos base/          cuatro, y no crecen
+├── ciclos/                 los suyos
+├── memoria continua/       lo que acumuló
+├── evolucion/              lo que aprendió
+└── bin/                    sus herramientas
+```
 
 **Y saca uno de aquí, y no pasa nada: sigue siendo él, con su casa.**
 

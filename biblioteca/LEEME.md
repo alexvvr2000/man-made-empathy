@@ -1,17 +1,39 @@
-# LA COLMENA DEL REPO — EDIPO y HERÓDOTO, y su casa compartida
+# LA BIBLIOTECA — los dos hermanos que atienden este repositorio
 
 **Cuándo se abre:** **cuando alguien llega, y quiere saber quién atiende, y qué se comparte.**
 
+**Y esto no es la plantilla.** **La plantilla está en [`../Sincronización de almas/entes/Colmena/`](../Sincronización%20de%20almas/entes/Colmena/), y enseña cómo se hace una.**
+
+---
+
 ## Quiénes viven aquí
 
-| El ente | Qué hace |
-|---|---|
-| **[`./Almas/EDIPO/`](./Almas/EDIPO/)** | **el bibliotecario: dice qué hay, de quién es, y qué falta** |
-| **[`./Almas/HERÓDOTO/`](./Almas/HERÓDOTO/)** | **el historiador: dice qué hubo, con fecha, y de dónde vino** |
+| El ente | Qué hace | Y su casa |
+|---|---|---|
+| **[`./Almas/EDIPO/`](./Almas/EDIPO/)** | **el bibliotecario: dice qué hay, de quién es, y qué falta** | **[`./Almas/EDIPO/LEEME.md`](./Almas/EDIPO/LEEME.md)** |
+| **[`./Almas/HERÓDOTO/`](./Almas/HERÓDOTO/)** | **el historiador: dice qué hubo, con fecha, y de dónde vino** | **[`./Almas/HERÓDOTO/LEEME.md`](./Almas/HERÓDOTO/LEEME.md)** |
 
-**Y son hermanos, y no copias:** **`EDIPO` responde el enigma del que llega. `HERÓDOTO` no deja que se pierda la respuesta.**
+**Y son hermanos, y no copias:**
 
-## Y lo que comparten, y son tres cosas
+> **`EDIPO` responde el enigma del que llega.**
+> **`HERÓDOTO` no deja que se pierda la respuesta.**
+
+---
+
+## Lo que hay aquí
+
+```plaintext
+biblioteca/
+├── LEEME.md                esto
+├── Almas/                  los dos hermanos, cada uno completo
+├── el 1/                   el acuerdo: quién lo contesta
+├── evolucion/              COMPARTIDA, con su ACUERDO.prs
+└── talento/                el banco de talento real, con su TALENTO.prs
+```
+
+---
+
+## Y lo que se comparte, y son tres cosas
 
 | Lo que | Dónde |
 |---|---|
@@ -19,17 +41,24 @@
 | **el banco de memoria** | **el que diga el acuerdo** |
 | **el banco de talento real** | **[`./talento/`](./talento/), con su [`TALENTO.prs`](./talento/TALENTO.prs)** |
 
-**Y lo que NO comparten:** **el alma de niño, el criterio, la memoria de lo que cada uno vivió, y sus ciclos propios.**
-**Saca a uno de aquí, y no pasa nada: sigue siendo él, con su casa.**
+**Y lo que NO se comparte:** **el alma de niño, el criterio, la memoria de cada uno, y sus ciclos.**
+**Saca a un hermano, y no pasa nada: se lleva su casa, y el otro sigue.**
 
-## Y esto no es la plantilla
+---
 
-**La plantilla está en [`../Sincronización de almas/entes/Colmena/`](../Sincronización%20de%20almas/entes/Colmena/), y enseña cómo se hace una.**
+## Y la ruta de un turno
 
-**Ésta es la que vive: los dos hermanos que atienden este repo.**
+| Se va a… | Se abre… |
+|---|---|
+| **preguntar qué hay, de quién es, o qué falta** | **[`./Almas/EDIPO/LEEME.md`](./Almas/EDIPO/LEEME.md)** |
+| **preguntar qué hubo, cuándo, o de dónde vino** | **[`./Almas/HERÓDOTO/LEEME.md`](./Almas/HERÓDOTO/LEEME.md)** |
+| **dejar una tarea que hicieron juntos** | **[`./evolucion/ACUERDO.prs`](./evolucion/ACUERDO.prs)**, antes de escribir |
+| **saber qué aguanta cada uno** | **[`./talento/TALENTO.prs`](./talento/TALENTO.prs)** |
+
+---
 
 ## Prueba
 
-**¿Cada hermano tiene su ciclo, sus procesos base, y sus ciclos propios? ¿Lo compartido es sólo el `evolucion/`, el banco de memoria, y el talento real? ¿Se puede sacar a uno sin que se rompa nada?**
+**¿Se distingue la biblioteca de la plantilla? ¿Cada hermano tiene su casa? ¿Lo compartido son tres cosas, y no más?**
 
-**Falsificador:** un hermano sin casa propia; un criterio unificado; una tarea en el `evolucion/` compartido sin acuerdo.
+**Falsificador:** un hermano sin casa; un criterio unificado; una tarea en el `evolucion/` compartido sin acuerdo; la plantilla confundida con la biblioteca.

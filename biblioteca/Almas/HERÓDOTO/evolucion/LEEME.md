@@ -1,6 +1,9 @@
 # evolucion — de HERÓDOTO
 
-**Cuándo se abre:** cuando haga falta saber qué hay aquí.
+**Cuándo se abre:** **cuando haga falta saber qué hay aquí.**
 
 **Y es de HERÓDOTO, y no de la colmena.** **Saca a HERÓDOTO, y se lo lleva.**
 
+**Aquí vive lo que HERÓDOTO aprendió contando la historia.**
+
+**Y NO SE PUBLICA.** **Se lo lleva él.**

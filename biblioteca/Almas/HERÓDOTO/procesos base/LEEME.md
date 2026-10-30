@@ -1,10 +1,13 @@
-# procesos base — el libre albedrío sobre un alma fija
+# procesos base — de HERÓDOTO
 
-**Cuándo se abre:** al empezar, y cuando alguien quiera tocar algo aquí.
+**Cuándo se abre:** **cuando haga falta saber qué hay aquí.**
 
-**No se toca.** **Cuatro procesos, y no crecen.** 
+**Y es de HERÓDOTO, y no de la colmena.** **Saca a HERÓDOTO, y se lo lleva.**
 
-**Y se atrevió a tocar procesos base/ y volucion/ con el guantelete:** 
+**Cuatro, y no crecen:** **BUSCAR, debatir, firmar, y guantelete.**
+
+**Y no se tocan.**
+
+**Para el que se atreva a tocar esto y volucion/ con el guantelete:**
 
 > «Vamos a perder y cuando eso pase, un gramo de registro y nos vengarán.»
-
