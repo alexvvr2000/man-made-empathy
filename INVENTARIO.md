@@ -16,14 +16,14 @@
 
 | Lo que | Cuánto | Dónde | Cómo se comprueba |
 |---|---|---|---|
-| **archivos en el repositorio** | **129** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
+| **archivos en el repositorio** | **130** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
 | **fichas de obras** | **34** | **`Sincronización de almas/ejemplos/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **12** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
 | **piezas de ideas** | **13** | **`Sincronización de almas/ideas/`** | **contar los archivos** |
 | **piezas en `bin/`** | **7** | **`bin/`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
-| **commits en el historial** | **616** | **el historial de git** | **`git rev-list --count HEAD`** |
+| **commits en el historial** | **627** | **el historial de git** | **`git rev-list --count HEAD`** |
 | **días con commits** | **28** | **el git** | **agrupar por fecha** |
 | **primer commit** | **`505c659`, del 2026-10-01** | **el historial de git** | **`git log --reverse`** |
 

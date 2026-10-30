@@ -1,0 +1,101 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+historia — que hubo, y no solo que hay.
+
+Y existe porque un bibliotecario te dice que hay una pieza, y no de donde salio.
+Y aqui hay cientos de commits que nadie va a leer jamas, y que son la prueba
+de lo que se intento.
+
+  python bin/historia                 los dias, con lo que nacio y lo que se fue
+  python bin/historia --dia 2026-10-26   un dia, y sus commits
+  python bin/historia --pieza BUSCAR     de donde vino una pieza, y cuando
+"""
+
+import os
+import subprocess
+import sys
+
+CASA = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BIBLIOTECA = os.path.abspath(os.path.join(CASA, ".."))
+
+
+def git(*args):
+    try:
+        p = subprocess.run(["git", "-C", BIBLIOTECA] + list(args),
+                           capture_output=True, timeout=120)
+        if p.returncode != 0:
+            return None
+        return p.stdout.decode("utf-8", "replace").strip()
+    except Exception:
+        return None
+
+
+def dias(limite=0):
+    salida = git("log", "--format=%ad", "--date=format:%Y-%m-%d")
+    if not salida:
+        print("[SIN HISTORIAL - NO HAY MEMORIA QUE LEER]")
+        print("  y no lo supongo: sin historial no hay historia.")
+        return
+    cuenta = {}
+    for l in salida.splitlines():
+        if l.strip():
+            cuenta[l.strip()] = cuenta.get(l.strip(), 0) + 1
+    orden = sorted(cuenta, reverse=True)
+    if limite:
+        orden = orden[:limite]
+    print("EDIPO — la historia de la biblioteca")
+    print("  %d dias con commits, y %d commits en total" % (len(cuenta), sum(cuenta.values())))
+    print()
+    for d in orden:
+        n = cuenta[d]
+        primero = git("log", "--format=%s", "-1", "--since=%s 00:00" % d, "--until=%s 23:59" % d) or ""
+        print("%s  %3d commits  %s" % (d, n, primero[:70]))
+    print()
+    print("  Y ninguno se lee solo: `historia --dia FECHA` abre uno.")
+
+
+def un_dia(d):
+    print("EDIPO — el dia %s" % d)
+    salida = git("log", "--format=%h|%ad|%s", "--date=format:%Y-%m-%d")
+    if not salida:
+        print("[SIN HISTORIAL]")
+        return
+    linea_dia = [l for l in salida.splitlines() if l.split("|")[1] == d]
+    if not linea_dia:
+        print("[SIN COMMITS EN ESE DIA]")
+        return
+    print("  %s commits" % len(linea_dia))
+    print()
+    for l in linea_dia:
+        partes = l.split("|")
+        print("  %s  %s" % (partes[0], partes[2][:100]))
+
+
+def de_una_pieza(nombre):
+    print("EDIPO — de donde vino '%s'" % nombre)
+    salida = git("log", "--follow", "--format=%h|%ad|%s|%D", "--date=format:%Y-%m-%d", "--name-status", "--", "*%s*" % nombre)
+    if not salida:
+        print("[SIN HISTORIAL PARA ESA PIEZA]")
+        return
+    for l in salida.splitlines()[:40]:
+        print("  " + l[:110])
+    print()
+    print("  Y lo que se ve: cuando nacio, y si cambio de sitio.")
+
+
+def main():
+    if not os.path.isdir(os.path.join(BIBLIOTECA, ".git")):
+        print("[SIN REPOSITORIO - NO HAY HISTORIA QUE LEER]")
+        return 0
+    if len(sys.argv) > 2 and sys.argv[1] == "--dia":
+        return un_dia(sys.argv[2])
+    if len(sys.argv) > 2 and sys.argv[1] == "--pieza":
+        return de_una_pieza(sys.argv[2])
+    return dias()
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+
+
