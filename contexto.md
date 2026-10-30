@@ -9,7 +9,7 @@
 **Dueño:** humano:autoridad.
 
 **Sesgo:** se lee desde el que llega sin saber muchas cosas, y quiere ver de dónde venían los que ya estaban.
-**Límite:** **no es una dirección.** **Cómo se declara el origen está en [`./direcciones/ACTOS/CONTEXTO.md`](./direcciones/ACTOS/CONTEXTO.md), y es vago a propósito.** **Esto es lo de aquí: con qué se hizo, y qué nombres hubo.**
+**Límite:** **no es una dirección.** **Cómo se declara el origen está en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs), y es vago a propósito.** **Esto es lo de aquí: con qué se hizo, y qué nombres hubo.**
 **Firma:** humano:autoridad · máquina:aquí.
 
 ---
@@ -85,7 +85,7 @@
 
 **No de aquí.**
 
-**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.md`](./direcciones/ACTOS/CONTEXTO.md), que es la dirección: dice cómo se declara, y es vaga a propósito.**
+**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs), que es la dirección: dice cómo se declara, y es vaga a propósito.**
 
 **Y los agradecimientos personales —los que enseñaron algo sin pedir nada— están en [`./FUENTES.md`](./FUENTES.md).**
 

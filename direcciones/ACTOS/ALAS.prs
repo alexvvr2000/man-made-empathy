@@ -2,7 +2,7 @@
 
 **Nombre.** ALAS — **A**pertura, **L**engua, **A**comodo, **S**ostenido. **Se lee de un tirón; la expansión dice lo que todo protocolo declara.**
 
-**Clase:** dirección. **Aplica a:** hablar con otro que no es como uno.
+**Clase:** proceso. **Aplica a:** hablar con otro que no es como uno.
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se comunica desde el otro, no desde el que emite.
@@ -10,6 +10,15 @@
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se comunican dos que se entienden entre ellos, **y el tercero recibe un truncado sin saber que lo recibió.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
 
 ---
 
@@ -39,3 +48,4 @@
 **¿El protocolo declara las cuatro letras? ¿Dice qué se trunca? ¿El otro puede seguir sin el que habló?**
 
 **Falsificador:** un protocolo sin lengua declarada; una acomodación sin pérdida declarada; un mensaje truncado presentado como completo; un mensaje que sólo funciona con el que lo emitió.
+

@@ -28,7 +28,7 @@
 > **Antes de publicar cualquier pieza se pregunta qué demanda la puede provocar, y se busca en internet, porque el que escribe no sabe de leyes.**
 > **Y si no se encuentra la respuesta, se declara, y se pregunta a un abogado. No se resuelve de memoria.**
 
-**Y no es sólo el copyright.** **Son cinco: copyright, marca, difamación, datos de terceros, y atribución.** **Rige [./direcciones/RIESGO/DEMANDAS.md](./direcciones/RIESGO/DEMANDAS.md).**
+**Y no es sólo el copyright.** **Son cinco: copyright, marca, difamación, datos de terceros, y atribución.** **Rige [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs).**
 
 **Y si un turno va a publicar algo —una ficha, un nombre, un chat, una imagen— y no consultó esa dirección, el turno no cierra.**
 
@@ -70,11 +70,11 @@
 | **sostener una posición** | [`./Sincronización de almas/entes/Ente/alma de niño/banco de friccion.prs`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20ni%C3%B1o/banco%20de%20friccion.prs) | **se obedece una conclusión sin saber de dónde vino** |
 | **correr el ciclo** | [`./Sincronización de almas/entes/Ente/alma de niño/ciclo.prs`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20niño/ciclo.prs) | **se actúa sin leer, y sin decir que no se sabe** |
 | **juntar varios** | [`./Sincronización de almas/entes/Colmena/`](./Sincronización%20de%20almas/entes/Colmena/) | **son varios absolutos con el mismo nombre** |
-| **escribir un proceso** | [`./direcciones/ACTOS/PROCESOS.md`](./direcciones/ACTOS/PROCESOS.md) | **se escribe un deseo con pasos** |
-| **nombrar algo** | [`./direcciones/ACTOS/VERBALIZAR.md`](./direcciones/ACTOS/VERBALIZAR.md) | **se pone una etiqueta, y lo que se deletrea no se corre** |
-| **hablar con otro que no es como uno** | [`./direcciones/ACTOS/ALAS.md`](./direcciones/ACTOS/ALAS.md) | **se trunca, y se lee como completo** |
-| **declarar de dónde vino algo** | [`./direcciones/ACTOS/CONTEXTO.md`](./direcciones/ACTOS/CONTEXTO.md) | **lo heredado se presenta como propio** |
-| **publicar algo, o citar una obra** | [./direcciones/RIESGO/DEMANDAS.md](./direcciones/RIESGO/DEMANDAS.md), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
+| **escribir un proceso** | [`./direcciones/ACTOS/PROCESOS.prs`](./direcciones/ACTOS/PROCESOS.prs) | **se escribe un deseo con pasos** |
+| **nombrar algo** | [`./direcciones/ACTOS/VERBALIZAR.prs`](./direcciones/ACTOS/VERBALIZAR.prs) | **se pone una etiqueta, y lo que se deletrea no se corre** |
+| **hablar con otro que no es como uno** | [`./direcciones/ACTOS/ALAS.prs`](./direcciones/ACTOS/ALAS.prs) | **se trunca, y se lee como completo** |
+| **declarar de dónde vino algo** | [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs) | **lo heredado se presenta como propio** |
+| **publicar algo, o citar una obra** | [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs), y el documento para el abogado: [./PARA EL ABOGADO.md](./PARA%20EL%20ABOGADO.md) | **se publica sin buscar, y llega una demanda** |
 | **citar un ejemplo** | [`./Sincronización de almas/ejemplos/ESTADO.md`](./Sincronización%20de%20almas/ejemplos/ESTADO.md), y su regla en [`./Sincronización de almas/ejemplos/COMO SE VERIFICA.md`](./Sincronización%20de%20almas/ejemplos/COMO%20SE%20VERIFICA.md) | **se cita la primera cosa que salió** |
 | **correr el ciclo mínimo** | [`./bin/`](./bin/), y su README | **no se corre: se supone** |
 | **leer lo que se dijo y se descartó** | **el proceso de este trabajo, que vive fuera de la biblioteca** | **se repite una discusión cerrada** |

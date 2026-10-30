@@ -2,7 +2,7 @@
 
 **Nombre.** BUSCAR — **B**uscar el antecesor, **U**nir dos miradas, **S**aber qué se abrió, **C**itar con su enlace, **A**notar lo que falta, **R**epetir si no alcanza.
 
-**Clase:** dirección. **Aplica a:** toda afirmación sobre algo que no escribió quien la hace.
+**Clase:** proceso. **Aplica a:** toda afirmación sobre algo que no escribió quien la hace.
 
 **Sesgo:** se lee desde el que puede reclamar, y no desde el que ya cree saberlo.
 **Límite:** **no dice qué es verdad.** **Dice qué se abrió, dónde, y qué no se pudo.**
@@ -10,6 +10,15 @@
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Peor:** se afirma algo de una obra, una ley, una persona o un precio, **y no hay una sola línea de dónde salió.** **Eso no es un error: es lo que se condena.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
 
 ---
 
@@ -94,3 +103,4 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **¿Se buscó, y hay un registro con dónde? ¿Hay dos miradas, o se declaró que hay una? ¿Se buscó lo que podía desmentirlo? ¿Cada cita tiene su enlace? ¿Se dijo dónde se buscó cuando no se encontró?**
 
 **Falsificador:** una afirmación externa sin registro; un `verificado` con una sola mirada; una búsqueda que sólo confirma; una cita sin enlace; un «no encontré» sin decir dónde se buscó.
+

@@ -70,7 +70,7 @@
 > **Es una captura de una obra, y este repositorio cita sus obras: no las reproduce.**
 
 **Y el mensaje sí está, en la descripción del release, con la obra, el autor, y qué dice la escena.**
-**Rige [./ATTRIBUTION.md](./ATTRIBUTION.md), y [./direcciones/RIESGO/DEMANDAS.md](./direcciones/RIESGO/DEMANDAS.md).**
+**Rige [./ATTRIBUTION.md](./ATTRIBUTION.md), y [./direcciones/RIESGO/ENDUREZER.prs](./direcciones/RIESGO/ENDUREZER.prs).**
 
 **Y lo mismo con los clips:** **este repositorio no enlaza copias de terceros.** **Cita la obra, su autor, el número y la fecha, y la ficha se sostiene sola.**
 

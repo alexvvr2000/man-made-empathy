@@ -2,7 +2,7 @@
 
 **Nombre.** PROCESOS. **Y el nombre dice el acto:** **decir qué convierte un texto en algo que se puede contestar.**
 
-**Clase:** dirección. **Aplica a:** escribir un proceso, un `.prs`, o cualquier cosa que se vaya a correr.
+**Clase:** proceso. **Aplica a:** escribir un proceso, un `.prs`, o cualquier cosa que se vaya a correr.
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** un proceso se lee desde el caso que lo rompe, no desde el caso que lo usa.
@@ -10,6 +10,15 @@
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se escribe un proceso que suena bien, y su `Falla si` se rellena al final, **y entonces el corte no protege de nada: se escribió después de que el proceso ya pasó.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
 
 ---
 
@@ -57,3 +66,4 @@ Falsificador: una dirección de procesos con un ejemplo, y no una forma
 **¿El proceso tiene el caso que lo deja mal, y lo puede decir su autor? ¿El corte se escribió antes que el cómo? ¿Alguien que no lo escribió lo corrió contra el caso malo? ¿Tiene consumidor? ¿El nombre se lee de un tirón?**
 
 **Falsificador:** un proceso cuyo `Falla si` se escribió al final; un `Falla si` que es «si falla»; un proceso que nadie consume; un nombre que hay que deletrear; una dirección de procesos que trae el caso.
+

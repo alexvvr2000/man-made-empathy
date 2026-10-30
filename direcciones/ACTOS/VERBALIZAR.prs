@@ -2,7 +2,7 @@
 
 **Nombre.** VERBALIZAR. **Y el nombre dice el acto:** **decir lo que algo es, en una palabra que se pueda leer y que diga qué hace.**
 
-**Clase:** dirección. **Aplica a:** nombrar algo, y a pedirle a otro que lo nombre.
+**Clase:** proceso. **Aplica a:** nombrar algo, y a pedirle a otro que lo nombre.
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** el nombre se lee desde el que no estuvo, y no desde el que lo eligió.
@@ -10,6 +10,15 @@
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** el nombre se recuerda y no se entiende, **y cada vez que alguien lo usa tiene que preguntar qué hace, o inventarse qué hace.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
 
 ---
 
@@ -61,3 +70,4 @@
 **¿Se lee de un tirón? ¿Su expansión dice el acto? ¿No era de nadie más? ¿Alguien que no estuvo sabe qué hace?**
 
 **Falsificador:** un nombre que hay que deletrear; una expansión que no dice el acto; un nombre de obra usado como propio; un nombre que solo se entiende con su autor delante.
+

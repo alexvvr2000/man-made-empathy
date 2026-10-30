@@ -1,0 +1,66 @@
+# ENDURECER.prs — mirar tu trabajo con los ojos del que te va a demandar
+
+**Nombre.** ENDURECER — **E**numerar lo expuesto, **N**ombrar de quién es, **D**ecidir si se puede usar, **U**bicar la fuente, **R**evisar el estado, **E**legir qué se quita, **C**errar el hueco, **E**scribir lo que queda, **R**evisar otra vez.
+
+**Clase:** proceso. **Aplica a:** cualquier obra, repositorio, texto, o conjunto de datos que se vaya a mostrar.
+
+**Sesgo:** se lee desde el que puede reclamar, y no desde el que publica.
+**Límite:** **no dice cuándo llega una demanda.** **Dice qué hace que te llegue una, y qué la evita.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Peor:** el trabajo sale entero, limpio y verdadero, **y una sola pieza sin fuente se lleva todo por delante.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se va a mostrar, y lo que contiene. **Modo: escribe.**
+- **Falla si:** hay una pieza sin dueño; se cita algo que no se abrió; se afirma sin fuente; se publica un dato de un tercero; se da por bueno lo que se recuerda.
+- **Sale:** el inventario de lo expuesto con su estado, **o `[SIN RESPUESTA - SE PREGUNTA A UN ABOGADO]`**.
+- **Consume:** quien publique, y quien tenga que defender lo publicado.
+
+---
+
+## El inventario, y es lo único que hay que hacer
+
+```plaintext
+Pieza:        [qué es: texto, imagen, enlace, nombre, dato]
+Dueño:        [de quién es, o «no se sabe»]
+Uso:          [se cita | se reproduce | se nombra | se distribuye]
+Fuente:       [dónde se abrió, y qué decía]
+Estado:       [verificado | una mirada | sin verificar]
+Se puede usar:[sí | con condición | no]
+```
+
+**Y si el dueño no se sabe, o el uso es reproducir, o el estado es sin verificar: no entra.**
+
+---
+
+## Las cinco preguntas, y son las que va a hacer el que reclama
+
+| La pregunta | Qué contesta |
+|---|---|
+| **¿Qué copiaste?** | **títulos, escenas, frases cortas, o una obra** |
+| **¿Cuánto?** | **una frase, un párrafo, o la pieza entera** |
+| **¿Sustituyes la obra?** | **si tu pieza se puede usar en vez de la original** |
+| **¿Afecta su mercado?** | **si se vende, se distribuye, o se adapta** |
+| **¿Hay alguien a quien nombra?** | **si hay una persona real, con nombre** |
+
+**Y si no puedes contestarlas, no está listo para publicarse.**
+
+---
+
+## Lo que este proceso NO hace
+
+**No es un dictamen.** **No es un abogado.** **Y no promete que no pase nada.**
+
+**Lo que hace:** **que cuando llegue la pregunta, tengas la respuesta escrita antes de que llegue.**
+
+---
+
+## Prueba
+
+**¿Cada pieza tiene dueño, uso, fuente, y estado? ¿Lo que no se sabe quedó fuera? ¿Se contestan las cinco preguntas sin buscar? ¿Se distingue lo que se cita de lo que se reproduce?**
+
+**Falsificador:** una pieza sin dueño; algo reproducido presentado como cita; una fuente que no se abrió; una pregunta sin respuesta; un trabajo que se presenta como limpio sin haberlo mirado.

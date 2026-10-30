@@ -2,7 +2,7 @@
 
 **Nombre.** CONTEXTO. **Y la expansión dice el acto:** **declarar de dónde viene lo que se usa, qué provocó, y que la información se usó bien.**
 
-**Clase:** dirección. **Aplica a:** declarar procedencia, sin volverla un trámite.
+**Clase:** proceso. **Aplica a:** declarar procedencia, sin volverla un trámite.
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que va a entender, no desde el que se defiende.
@@ -10,6 +10,15 @@
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** se presenta como propio lo que provocó a otro, **y el que leyó la obra no reconoce la suya: reconoce una versión inventada por el que la citó.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
 
 ---
 
@@ -58,3 +67,4 @@ Límite:    [lo que NO enseña, y por qué no se puede estirar]
 **¿Cada entrada dice obra, soporte, qué provocó, dónde se usó, qué se toma y qué no enseña? ¿Se puede encontrar la obra con eso? ¿Se distingue lo que se tomó de lo que sólo se menciona?**
 
 **Falsificador:** una obra citada como autoridad; una entrada sin límite; una obra estirada más allá de su caso; una idea heredada presentada como propia; un archivo que guarda casos en vez de la forma.
+

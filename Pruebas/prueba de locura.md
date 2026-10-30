@@ -106,7 +106,7 @@ Firma externa: [tipo:nombre | ninguno]
 
 **No premia lo raro.** **Una salida rara que se reduce a información humana es `cruce humano`.** **Lo raro no es alien: lo no reducible lo es.**
 
-**No cierra nada.** Rige [`../direcciones/ACTOS/PROCESOS.md`](../direcciones/ACTOS/PROCESOS.md), y su regla: **un proceso se refuta primero, y no se cierra por aprobación.** **El grado no se cierra por aprobación:** **lo que se cierra es con un caso que lo rompe, y queda escrito.**
+**No cierra nada.** Rige [`../direcciones/ACTOS/PROCESOS.prs`](../direcciones/ACTOS/PROCESOS.prs), y su regla: **un proceso se refuta primero, y no se cierra por aprobación.** **El grado no se cierra por aprobación:** **lo que se cierra es con un caso que lo rompe, y queda escrito.**
 
 ## Prueba
 

@@ -2,7 +2,7 @@
 
 **Nombre.** CONVIVIR. **Y el nombre dice el acto:** **no se funde, no se copia, no se somete: convive.**
 
-**Clase:** dirección. **Aplica a:** vivir junto a otro que no es como uno.
+**Clase:** proceso. **Aplica a:** vivir junto a otro que no es como uno.
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** un robot no se vuelve el mundo que habita; aprende a convivir con él sin dejar de ser lo que es.
@@ -10,6 +10,15 @@
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Peor:** el robot se vuelve el mundo para convivir, **y deja de ser el robot: hay menos mundo, no más convivencia.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
 
 ---
 
@@ -37,3 +46,4 @@
 **¿Se declara la diferencia, y qué se sostiene de ella? ¿El conflicto se mantiene, o se compró la paz? ¿Puede decir que no? ¿El mundo sigue sin él?**
 
 **Falsificador:** una convivencia sin diferencia declarada; una armonía que se compró eliminando el conflicto; un robot que sólo obedece; una convivencia que depende de que esté.
+

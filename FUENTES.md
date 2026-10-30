@@ -9,7 +9,7 @@
 **Dueño:** humano:autoridad.
 
 **Sesgo:** se lee desde el que podría reclamar, no desde el que eligió el nombre.
-**Límite:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: lo difícil es decir cómo se usaron, y eso vive en [`./direcciones/ACTOS/CONTEXTO.md`](./direcciones/ACTOS/CONTEXTO.md).**
+**Límite:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: lo difícil es decir cómo se usaron, y eso vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs).**
 **Firma:** humano:autoridad · máquina:quien lo lea.
 
 ---
@@ -70,7 +70,7 @@
 
 **No de aquí.**
 
-**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.md`](./direcciones/ACTOS/CONTEXTO.md): una entrada por obra.**
+**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs): una entrada por obra.**
 
 **Y la razón de separarlo:** **las fuentes existen para no meterse en un problema legal; el contexto, para que la gente entienda.**
 
@@ -80,6 +80,6 @@
 
 ## Prueba
 
-**¿Cada persona que enseñó algo está nombrada con lo que enseñó? ¿La regla de los nombres está dicha una sola vez? ¿Cada obra que provocó algo está en `direcciones/ACTOS/CONTEXTO.md` y no aquí?**
+**¿Cada persona que enseñó algo está nombrada con lo que enseñó? ¿La regla de los nombres está dicha una sola vez? ¿Cada obra que provocó algo está en `direcciones/ACTOS/CONTEXTO.prs` y no aquí?**
 
 **Falsificador:** una tabla de personas reducida a una lista de agradecimientos vagos; un nombre de obra usado como nombre propio; una obra citada aquí sin su entrada de contexto.

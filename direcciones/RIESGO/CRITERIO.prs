@@ -1,0 +1,56 @@
+# CRITERIO.prs — decidir si la herramienta es la que hace falta
+
+**Nombre.** CRITERIO — **C**uestionar la herramienta, **R**evisar qué se pide, **I**ndicar desde dónde se decide, **T**achar lo que es costumbre, **E**scribir la razón, **R**esponder por ella, **I**nformar lo que no se sabe, **O**brar.
+
+**Clase:** proceso. **Aplica a:** toda decisión donde una herramienta, o una costumbre, propone lo que hay que hacer.
+
+**Sesgo:** se lee desde la decisión, y no desde la herramienta.
+**Límite:** **no dice qué decidir.** **Dice desde dónde se decide, y qué lo hace contestable.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Peor:** la herramienta decide, y el que la usó dice que «así se hace», **y entonces no hay decisión: hay costumbre con buena letra.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** la decisión, y lo que la propone. **Modo: escribe.**
+- **Falla si:** se decide porque «así se hace»; se decide por la herramienta y no por lo que hace falta; no se dice desde dónde se decide; la decisión no se puede contestar.
+- **Sale:** la decisión con su razón, **o `[NO SE DECIDE - SE DECLARA LA DUDA]`**.
+- **Consume:** quien vaya a vivir con esa decisión, y quien la pueda contradecir.
+
+---
+
+## Lo que dispone
+
+> **La herramienta no decide: propone.**
+> **Y criterio es decidir si la herramienta es la que hace falta.**
+
+**Y la prueba, que se corre en cualquier proyecto:** **¿la decisión se sostiene si mañana aparece una herramienta mejor?** **Si se cae con la herramienta, no era criterio: era su manual.**
+
+---
+
+## Las tres preguntas, y no hay más
+
+| La pregunta | Qué descarta |
+|---|---|
+| **¿Esto lo pide el trabajo, o lo pide la herramienta?** | **el método que existe porque sí** |
+| **¿Qué sostiene la decisión, y desde dónde?** | **la decisión que no se puede contestar** |
+| **¿Y si mañana cambia la herramienta?** | **la decisión que muere con su herramienta** |
+
+---
+
+## Lo que este proceso NO hace
+
+**No dice que la herramienta sea mala.** **Dice que la herramienta no decide.**
+
+**Ni sustituye a la autoridad.** **Ordena la decisión, y deja quién responde.**
+
+---
+
+## Prueba
+
+**¿Se decidió por lo que hace falta, o por lo que hay? ¿Se dice desde dónde se decide? ¿Se puede contestar? ¿La decisión sobrevive a su herramienta?**
+
+**Falsificador:** una decisión que sólo se explica con su herramienta; un «así se hace» sin razón; una decisión que no se puede contradecir; una herramienta presentada como criterio.

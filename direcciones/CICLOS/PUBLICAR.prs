@@ -1,0 +1,84 @@
+# PUBLICAR.prs — publicar sin que te demande nadie, y responder si te llega
+
+**Nombre.** PUBLICAR — **P**reguntar qué entra, **U**bicar de quién es, **B**uscar si se puede, **L**eer lo que falta, **I**nformar lo que se declara, **C**errar el acto, **A**notar la fecha, **R**esponder si llega.
+
+**Clase:** proceso. **Aplica a:** cualquier publicación: un release, una obra, un dato, un nombre, un chat.
+
+**Sesgo:** se lee desde el que puede reclamar, y no desde el que publica.
+**Límite:** **no sustituye a un abogado.** **Ordena lo que se puede hacer sin uno, y marca dónde hace falta.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Peor:** se publica entero, limpio y verdadero, **y una ficha sin fuente o una imagen copiada se lleva todo por delante.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se quiere publicar, y lo que contiene. **Modo: escribe.**
+- **Falla si:** no se nombra pieza por pieza; se publica sin fuente; se declara sin estado lo que no se verificó; se resuelve de memoria lo que hay que buscar.
+- **Sale:** lo publicado con su declaración, **o `[ESPERA - FALTA LA FUENTE]`**, **o `[ESPERA - SE PREGUNTA A UN ABOGADO]`**.
+- **Consume:** quien lea lo publicado, y quien tenga que defenderlo.
+
+---
+
+## Los seis tipos de pleito, y no es sólo el copyright
+
+| El tipo | Qué lo provoca | Qué lo evita |
+|---|---|---|
+| **copyright** | **copiar una obra: imagen, clip, o texto largo** | **citar y remitir; nunca reproducir; decir el estado** |
+| **marca** | **usar el nombre de una obra como nombre propio del sistema** | **la regla de los nombres: se cita una vez, y no se usa** |
+| **difamación** | **decir que una obra, una persona o una empresa hace algo que no hace** | **no afirmar sin fuente; `[SIN VERIFICAR]` cuando no la hay** |
+| **privacidad y datos** | **publicar nombres de terceros, teléfonos, correos, o rutas de la máquina** | **la depuración declarada, y el permiso antes de publicar** |
+| **atribución** | **usar un nombre o una idea como propia sin decir de quién es** | **todo lo que sea gente real, se nombra** |
+| **y el sexto, que no es pleito** | **afirmar que algo está probado cuando no se corrió** | **decir qué se corrió, y qué no** |
+
+---
+
+## CICLO 1 — antes de publicar, y son seis pasos
+
+```plaintext
+1. INVENTARIO   qué entra: se nombra pieza por pieza: texto, imagen, enlace, nombre
+2. FUENTE       de quién es cada pieza. Si no se sabe, no entra
+3. DERECHO      se puede usar: citar, citar con ficha, o no entrar
+4. DECLARAR     quedó dicho dónde está y si se verificó. Si no, no entra
+5. ABOGADO      esto necesita un abogado. Si hay duda, se pregunta
+6. PUBLICAR     y se anota qué se publicó, con fecha
+```
+
+**Y el 5 es el que más se salta:** **si hay duda, se pregunta, y no se resuelve de memoria.**
+
+---
+
+## CICLO 2 — si te llega una reclamación
+
+```plaintext
+1. NO CONTESTES EN CALIENTE   un correo respondido con miedo es una admisión
+2. GUARDA TODO                el correo, la fecha, y qué reclamó
+3. MIRA QUÉ RECLAMA           la obra, la pieza, y dónde está
+4. BUSCA LA PIEZA             está donde dice, y desde cuándo
+5. CONTESTA CON LO QUE HAY    la ficha, su fuente, y qué se hizo, sin excusas
+6. HAZ LO QUE TOQUE           si hay que quitar, se quita, y se dice que se quitó
+```
+
+**Y lo que pasa si es una reclamación formal en una plataforma:** **se quita la pieza, y se avisa; y el que la subió puede pedir que se vuelva a poner, con sus razones y su nombre.** **Y ese aviso pide tu nombre y tu consentimiento a la jurisdicción: defenderse no es gratis, y por eso se previene.**
+
+---
+
+## Lo que este proceso NO hace
+
+**No dice que tengas razón.** **Dice qué tienes, y dónde está escrito.**
+
+**No borra la historia.** **Si se quita algo, se declara que se quitó, y por qué.**
+
+**No sustituye al abogado.** **Lo llama a tiempo, y le lleva el caso ordenado.**
+
+**Y no promete que no pase nada.** **Promete que, si pasa, hay con qué contestar.**
+
+---
+
+## Prueba
+
+**¿Se nombra cada pieza? ¿Cada una tiene su fuente? ¿Lo que no se verificó dice su estado? ¿Se buscó antes de dudar? ¿Si llegara una reclamación, hay con qué contestarla?**
+
+**Falsificador:** una imagen sin declarar; un enlace a una copia; una ficha sin estado; un «no pasa nada» sin fuente; una reclamación contestada sin guardar nada; un `no sé` presentado como respuesta.

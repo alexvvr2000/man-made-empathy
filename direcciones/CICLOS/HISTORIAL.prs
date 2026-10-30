@@ -1,0 +1,87 @@
+# HISTORIAL.prs — escarbar un historial sin romperlo
+
+**Nombre.** HISTORIAL — **H**ojear el registro, **I**dentificar el corte, **S**eparar lo que aguanta, **T**irar lo que no, **O**rdenar lo que entra, **R**egistrar el día, **I**nformar lo que se cayó, **A**notar el origen, **L**eer otra vez.
+
+**Clase:** proceso. **Aplica a:** cualquier repositorio o registro con historia, cuando se va a rescatar algo de lo que ya se hizo.
+
+**Sesgo:** se lee desde lo que aguanta hoy, y no desde lo que se dijo entonces.
+**Límite:** **no decide qué se rescata.** **Decide el orden, y qué no se puede saltar.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Peor:** se escarba durante semanas, **y no se rescata nada, ni queda registro de haber mirado: se camina, y no se trabaja.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** el historial, y el corte que se va a revisar. **Modo: escribe.**
+- **Falla si:** se recupera sin declarar de dónde; se tira algo sin decir qué se pierde; se avanza sin registrar; se cambia el formato sin decir qué rutas rompe.
+- **Sale:** lo rescatado con su hash de origen, **y el registro del corte**; **o `[NO SE PUEDE JUZGAR - FALTA EL CONTEXTO]`**.
+- **Consume:** quien use lo rescatado, y quien tenga que defender de dónde vino.
+
+---
+
+## El corte: por fecha, y no por nombre
+
+> **No hay que nombrar etapas. Hay días, cortes, o versiones: lo que el registro ya tiene.**
+> **Nombrar lo que el registro no nombra es inventar.**
+
+**Y el corte se elige por lo que se puede contar:** **un día, una versión, o un rango de commits.** **Y no se avanza al siguiente hasta cerrar el que se abrió.**
+
+---
+
+## El ciclo, y son seis pasos por corte
+
+```plaintext
+1. LEE        ese corte: qué entró, qué salió, y qué dice cada cambio
+2. JUZGA      qué de eso aguanta hoy, y qué se cayó
+3. SUBE       lo que aguanta, con su origen
+4. CUADRA     los totales, las rutas, y el inventario
+5. DECLARA    lo que se cayó, y por qué; y lo que no se puede juzgar, con qué falta
+6. REGISTRA   el corte, con su rango y lo que se llevó de él
+```
+
+**Y los pasos 3 y 4 no se pueden saltar entre sí:** **lo que sube sin cuadrar deja el registro mintiendo.** **Y lo que cuadra sin subir es un corte perdido.**
+
+---
+
+## Lo que cada corte deja escrito
+
+```plaintext
+Corte:          [el día, la versión, o el rango]
+Cambios:        [cuántos, del origen A al origen B]
+Se sostiene:    [qué entró, con su origen]
+Se cayó:        [qué no, y por qué]
+No se juzga:    [qué falta para poder juzgarlo]
+Totales:        [los números, antes y después]
+Rutas:          [cero rotas, o cuántas quedan y por qué]
+```
+
+**Y sin ese registro, el corte no se cerró.** **Y un corte que no se cerró no se puede defender.**
+
+---
+
+## El orden, y por qué es de atrás hacia adelante
+
+**Se empieza por lo más reciente, y se termina en el primer corte.**
+
+**Porque lo viejo está sin filtro.** **Y lo nuevo ya se pensó hace poco, y empezar por ahí no repite nada.**
+
+---
+
+## Lo que este proceso NO hace
+
+**No borra historia.** **Si algo se quita, se dice dónde estaba y por qué se quitó.**
+
+**No promete que todo se pueda rescatar.** **Algunos cortes no se van a poder juzgar, y se declara así en vez de inventarles una lectura.**
+
+**Ni sustituye al que decide.** **Ordena, y deja el rastro; la decisión de qué vale sigue siendo de quien responde.**
+
+---
+
+## Prueba
+
+**¿Cada corte tiene su registro? ¿Lo rescatado dice de dónde vino? ¿Los totales cuadran? ¿Las rutas dan cero? ¿Lo que se cayó tiene su porqué? ¿Se avanzó sólo con el corte cerrado?**
+
+**Falsificador:** un corte sin registro; algo rescatado sin origen; totales que no cuadran y se sigue; una ruta rota; un corte saltado; lo que se cayó sin porqué.
