@@ -2,11 +2,11 @@
 
 **Ente:** `man-made-empathy` · **Tarea:** sostener que la dirección se puede contestar, y que lo que corre se puede repetir.
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
-**Dueño:** humano:autoridad. **Estado:** vigente.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** se lee desde el que llega sin saber nada de esto, y desde lo que ya corre.
 **Límite:** **no juzga si la tesis es cierta.** **Dice qué hay, dónde, qué se toca, y qué no.**
-**Firma:** humano:autoridad · máquina:agente-de-turno.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** agente-de-turno.
 
 ---
 

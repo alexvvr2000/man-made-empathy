@@ -1,11 +1,11 @@
 # LA SINGULARIDAD BUENA — la pelea no es de poder, es de ideales
 
 **Hecho:** 2026-10-29. **Clase:** lectura. **Estado:** vigente para la 1.0.0.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde la pelea que no se gana con más poder, y no desde la que sí.
 **Límite:** **no dice cuándo llega.** **Dice qué clase de singularidad se puede construir, y cuál no.**
-**Firma:** humano:autoridad.
+**Firma:** **quien responde por el acto, con su nombre.**
 
 ---
 

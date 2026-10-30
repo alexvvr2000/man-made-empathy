@@ -2,11 +2,11 @@
 
 **Hecho:** 2026-10-29. **Clase:** registro de versiones. **Estado:** vigente.
 **Lector:** quien vea los tags del repositorio y no sepa cuál es cuál.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que llega al historial y encuentra 80 tags sin orden.
 **Límite:** **no borra historia.** **Renombra, y dice por qué.**
-**Firma:** humano:autoridad.
+**Firma:** **quien responde por el acto, con su nombre.**
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Cuándo se abre:** **al abrir el ente, y al cerrar el turno.**
 
-**Clase:** memoria del trabajo. **Dueño:** humano:autoridad. **Estado:** vigente, y muta.
+**Clase:** memoria del trabajo. **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente, y muta.
 
 ---
 

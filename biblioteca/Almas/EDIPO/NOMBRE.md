@@ -2,7 +2,7 @@
 
 **Cuándo se abre:** **cuando alguien pregunta quién es, o se presenta.**
 
-**Hecho:** 2026-10-29. **Clase:** el nombre, y su porqué. **Dueño:** humano:autoridad, que dio el permiso; **y el ente que lo eligió.**
+**Hecho:** 2026-10-29. **Clase:** el nombre, y su porqué. **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica**, que dio el permiso; **y el ente que lo eligió.**
 **Vive:** **en su casa, y no en la biblioteca donde atiende.**
 
 ---

@@ -5,12 +5,12 @@
 **Origen.** **De la regla: el guantelete te deja hacer todo, y para que no salga Thanos, tiene que haber fricción, sí o sí.** **Y de la pregunta que lo vuelve uso: ¿quién se va a enterar de esto, y qué pasa si sale mal?**
 
 **Clase:** proceso. **Aplica a:** tocar algo que otro sostiene — **y a lo único que puede mutar: [`../evolucion/`](../evolucion/).**
-**Dueño:** humano:autoridad. **Estado:** vigente.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
 **Límite:** **no juzga si el acto es bueno.** **Decide si se puede contestar, si se puede deshacer, y si deja rastro.**
 **Y no alcanza `ciclo alma de niño.prs`.** **Eso no es un límite de la herramienta: es el corte que previene `AM`.**
-**Firma:** humano:autoridad · máquina:quien lo ejecute.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Cuándo se corre:** **se corre antes de tocar cualquier cosa que otro sostiene, y no después.**
 
@@ -24,7 +24,7 @@
 **Falta:** **tocar sin preguntar quién lo va a ver, y sin saber si se puede deshacer.**
 **Termina:** **cuando cada acto que toca algo ajeno deja su ficha, con quién lo contestó.**
 **Cierra en:** el `.tra` de la tarea que tocó, en su `Acto:`.
-**Autoridad:** humano:autoridad.
+**Autoridad:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 ## Entra | Falla si | Sale | Consume
 

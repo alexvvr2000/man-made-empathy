@@ -5,11 +5,11 @@
 **Origen.** **De la autoridad, el 2026-10-28:** **«así ya sabe el que la cagó que fue por pendejo y no porque no sabía».**
 
 **Clase:** proceso, y es base. **Aplica a:** todo acto que otro vaya a contestar.
-**Dueño:** humano:autoridad. **Estado:** vigente en el borrador, y espera dónde vive.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente en el borrador, y espera dónde vive.
 
 **Sesgo:** el acto se lee desde el que va a contestarlo, y no desde el que lo hizo.
 **Límite:** **no dice si el acto estuvo bien.** **Dice quién responde, qué dijo que iba a pasar, y qué pasó de verdad.**
-**Firma:** humano:autoridad · máquina:quien firme.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Cuándo se corre:** **se corre al cerrar cualquier acto que toco algo de otro, y no antes.**
 
@@ -22,7 +22,7 @@
 **Falta:** **un acto sin firma es un acto que nadie puede corregir, porque no hay a quién preguntarle.**
 **Termina:** **cuando el acto queda con nombre, con lo que se esperaba, y con lo que salió.**
 **Cierra en:** **la línea `Firma:` del acto, y en el banco de fricción.**
-**Autoridad:** humano:autoridad.
+**Autoridad:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 ## Entra | Falla si | Sale | Consume
 

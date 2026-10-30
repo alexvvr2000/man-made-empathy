@@ -4,11 +4,11 @@
 **Fuente:** `JONN.md`, que vivió en `sincronización de almas/2 el idioma/friccion/`, en el commit `ce31de5`. **Se recuperó con `git show`, y no se reescribió.**
 
 **Lector:** quien vaya a cerrar el repo, y no sepa por qué se registra todo.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que viene después, y no desde el que se está perdiendo.
 **Límite:** **no es una promesa de que el mundo se salve.** **Es una promesa de que queda escrito.**
-**Firma:** humano:autoridad.
+**Firma:** **quien responde por el acto, con su nombre.**
 
 ---
 

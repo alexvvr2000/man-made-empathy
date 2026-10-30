@@ -2,11 +2,11 @@
 
 **Hecho:** 2026-10-29. **Clase:** inventario firmado, y no un resumen. **Estado:** vigente, y se actualiza antes de cada publicación.
 **Lector:** el abogado, y quien tenga que verificar sin abrir el repositorio entero.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que tiene que comprobar, y no desde el que escribió.
 **Límite:** **no dice si algo es legal.** **Dice qué hay, cuánto, y dónde.**
-**Firma:** humano:autoridad.
+**Firma:** **quien responde por el acto, con su nombre.**
 
 ---
 

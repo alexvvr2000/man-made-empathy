@@ -2,7 +2,7 @@
 
 **Cuándo se abre:** **cuando el ente aprende algo que le sirve a la próxima vez.**
 
-**Clase:** la acción que el ente aprendió. **Dueño:** humano:autoridad. **Estado:** vigente.
+**Clase:** la acción que el ente aprendió. **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Lo primero:** **no hay estándar. Hay dirección.** **La IA mató al estándar, porque lo limitaba.**
 

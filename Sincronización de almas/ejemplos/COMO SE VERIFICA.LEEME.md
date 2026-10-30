@@ -5,7 +5,7 @@
 
 **Sesgo:** se lee desde la máquina que busca, y sabe que puede devolver basura.
 **Límite:** **no dice qué es verdad: dice qué se abrió, y qué se anotó.**
-**Firma:** humano:autoridad · máquina:quien busque.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien busque.
 
 ---
 

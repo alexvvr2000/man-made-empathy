@@ -12,7 +12,7 @@
 
 **Sesgo:** se mide desde `./LEEME`, `La prueba de locura`: **la industria pregunta qué es; este método pregunta de dónde viene.**
 **Límite:** no se aplica a juzgar si lo producido es bueno, seguro o deseable. **Mide el origen del cambio, y nada más.** **No mide conciencia: no hay instrumento, y no se finge tenerlo.**
-**Firma:** humano:autoridad · máquina:quien corra la prueba.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien corra la prueba.
 
 **Variables:** entrada · visto · no visto · salida · antecesor.
 **Peor:** se declara `alien` a una salida que viene de texto humano, **y la burbuja se revienta al revés: se certifica lo que la industria quería,** y ya nadie vuelve a mirar.

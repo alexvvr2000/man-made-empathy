@@ -2,11 +2,11 @@
 
 **Hecho:** 2026-10-29. **Clase:** documento de servicio. **Estado:** vigente, y se actualiza antes de cada publicación.
 **Lector:** un abogado, y nadie más.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que tiene que dictaminar en una hora, y no desde el que escribió el proyecto.
 **Límite:** **no es un dictamen.** **Es el caso, ordenado, para que el dictamen se pueda dar.**
-**Firma:** humano:autoridad.
+**Firma:** **quien responde por el acto, con su nombre.**
 
 ---
 

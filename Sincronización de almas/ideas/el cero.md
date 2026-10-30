@@ -2,11 +2,11 @@
 
 **Hecho:** 2026-10-29. **Clase:** lectura. **Estado:** vigente para la `v1.0.0`.
 **Lector:** quien quiere el argumento sin las obras, y sin el viaje.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde lo que hoy se sostiene, y no desde lo que se sostenía en 1967 ni en 2026.
 **Límite:** **no es la tesis.** **Es el argumento, y está separado de sus ejemplos, que viven en [`../ejemplos/`](../ejemplos/).**
-**Firma:** humano:autoridad.
+**Firma:** **quien responde por el acto, con su nombre.**
 
 ---
 

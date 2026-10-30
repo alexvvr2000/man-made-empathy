@@ -6,11 +6,11 @@
 **Y de la autoridad: son dos memorias, y se pueden intercambiar por separado.**
 
 **Clase:** proceso. **Aplica a:** sostener, y corregir.
-**Dueño:** humano:autoridad. **Estado:** vigente.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** la memoria se lee desde la posición de quien la escribió, no desde quien la lee.
 **Límite:** **no decide si lo recordado es verdad.** **Mide si el otro puede reconstruir la posición y contradecirla.**
-**Firma:** humano:autoridad · máquina:quien recuerde.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien recuerde.
 
 **Cuándo se corre:** **se corre cuando una posicion cambia, y no cuando se repite.**
 
@@ -24,7 +24,7 @@
 **Falta:** **un ente que guarda qué pasó y no desde dónde lo sostuvo hereda conclusiones, y corregirse le cuesta.**
 **Termina:** **cuando cada decisión deja su posición, o se declara `sin cambio`.**
 **Cierra en:** el `.tra` del ente, en su `Sostuve:`.
-**Autoridad:** humano:autoridad.
+**Autoridad:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 ## Entra | Falla si | Sale | Consume
 

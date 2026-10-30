@@ -5,7 +5,7 @@
 
 **Sesgo:** se lee desde el que no va a abrir las 34 fichas para saber qué está firme.
 **Límite:** **no dice si la obra es buena, ni si la escena dice lo que el argumento quiere.** **Dice de dónde salió la ficha, y si se buscó.**
-**Firma:** humano:autoridad · máquina:quien verifique.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien verifique.
 
 ---
 

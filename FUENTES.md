@@ -6,11 +6,11 @@
 **Hecho:** 2026-10-28. **Clase:** registro. **Estado:** vigente.
 
 **Lector:** el que puede reclamar un nombre, y el que recibe el agradecimiento.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que podría reclamar, no desde el que eligió el nombre.
 **Límite:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: lo difícil es decir cómo se usaron, y eso vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs).**
-**Firma:** humano:autoridad · máquina:quien lo lea.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien lo lea.
 
 ---
 

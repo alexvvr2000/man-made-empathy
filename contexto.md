@@ -6,11 +6,11 @@
 **Hecho:** 2026-10-28. **Clase:** la perspectiva del usuario. **Estado:** vigente.
 
 **Lector:** el que va a correr esto en algo peor, y el que quiere entender por qué el repo dice lo que dice hoy.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que llega sin saber muchas cosas, y quiere ver de dónde venían los que ya estaban.
 **Límite:** **no es una dirección.** **Cómo se declara el origen está en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs), y es vago a propósito.** **Esto es lo de aquí: con qué se hizo, y qué nombres hubo.**
-**Firma:** humano:autoridad · máquina:aquí.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** aquí.
 
 ---
 

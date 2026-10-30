@@ -5,11 +5,11 @@
 **Origen.** **De la autoridad, el 2026-10-28:** **«ponle mecanismo de debate, para tener algo con lo que debatir, no algo para la academia»**. **Y del corte que lo hace posible:** **«una persona es un historial de sesgos, y no es válido decir que sólo cree una cosa»**.
 
 **Clase:** proceso, y va antes de `llaves y candados`. **Aplica a:** toda posición que otro vaya a firmar.
-**Dueño:** humano:autoridad. **Estado:** vigente.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** se lee desde el que va a ceder, y no desde el que va a ganar.
 **Límite:** **no decide qué es cierto.** **Decide qué posición aguantó cuando la otra le quitó algo — y deja escritas las dos.**
-**Firma:** humano:autoridad · máquina:quien debata.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Cuándo se corre:** **se corre cuando una posición va a entrar a llaves y candados, y antes de cerrarla.**
 
@@ -22,7 +22,7 @@
 **Falta:** **un candado sin debate se puede creer o se puede refutar, y las dos son igual de malas: la primera porque no se contestó, y la segunda porque nunca se intentó.**
 **Termina:** **cuando cada posición se pisó contra otra que la contradice, y se sabe qué le quitó.**
 **Cierra en:** **la posición que aguanta, y su `Contra`, en el banco de fricción.**
-**Autoridad:** humano:autoridad.
+**Autoridad:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 ## Entra | Falla si | Sale | Consume
 
@@ -128,11 +128,11 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **Origen.** **De la autoridad:** **«la inspiración de llaves y candados la puse por Andrés Pérez Sustaita, la enciclopedia de la lucha libre».** **Y de esta frase, del primer día:** **«la tesis por sí sola es inútil»**.
 
 **Clase:** proceso, y es el de arriba. **Aplica a:** toda pieza del repo que otro vaya a discutir.
-**Dueño:** humano:autoridad. **Estado:** vigente.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** se lee desde el que va a refutar, y no desde el que escribió el candado.
 **Límite:** **no decide qué es cierto.** **Decide qué se puede refutar, con qué, y quién puede hacerlo.**
-**Firma:** humano:autoridad · máquina:quien abra.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien abra.
 
 **Cuándo se corre:** **se corre cuando algo se cierra con llave, y cuando alguien pide abrirlo.**
 
@@ -145,7 +145,7 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **Falta:** **una tesis sin candado no se puede refutar; se puede ignorar. Y una que se abre sola no se puede contestar: se obedece.**
 **Termina:** **cuando cada candado dice qué lo cierra, qué lo abre, y quién puede abrirlo sin pedirle permiso a su autor.**
 **Cierra en:** **el candado 0, y en el disparo de las tesis.**
-**Autoridad:** humano:autoridad.
+**Autoridad:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 ## Entra | Falla si | Sale | Consume
 

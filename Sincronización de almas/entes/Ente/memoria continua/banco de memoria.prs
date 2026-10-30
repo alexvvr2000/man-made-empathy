@@ -6,11 +6,11 @@
 **Y de la regla que lo hace útil: no se guarda lo que pasó; se guarda lo que cambió el borde de lo que sabes.**
 
 **Clase:** proceso. **Aplica a:** recordar lo que pasó.
-**Dueño:** humano:autoridad. **Estado:** vigente.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** lo que pasó se lee desde el que no estuvo, no desde el que lo resumió.
 **Límite:** **no decide qué es importante.** **Guarda lo que cambió una decisión; lo que no cambió nada, no entra.**
-**Firma:** humano:autoridad · máquina:quien anote.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien anote.
 
 **Cuándo se corre:** **se corre al cerrar el acto: lo que paso se anota aqui, y no en otro lado.**
 
@@ -24,7 +24,7 @@
 **Falta:** **lo que pasó no quedaba escrito, y cada intento de recordar preguntaba por la posición, que no dice qué ocurrió.**
 **Termina:** **cuando cada frontera deja su registro, o se declara `visto` y no se escribe.**
 **Cierra en:** el `.tra` del ente, en su `Pasó:`.
-**Autoridad:** humano:autoridad.
+**Autoridad:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 ## Entra | Falla si | Sale | Consume
 

@@ -1,11 +1,13 @@
 # HISTORIA — el historial de git, una era cuando se pide
 
+**Cuándo se abre:** **cuando alguien necesita una era del historial, y no quiere traerlo todo.**
+
 **Hecho:** 2026-10-28. **Clase:** taller. **Estado:** el script corre.
-**Dueño:** humano:autoridad.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que va a buscar algo viejo, y no quiere traerlo todo.
 **Límite:** **no trae nada al repo.** **Trae a una carpeta fuera, y lo que se queda se declara primero.**
-**Firma:** humano:autoridad · máquina:quien busque.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
 

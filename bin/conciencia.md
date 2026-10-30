@@ -1,11 +1,13 @@
 # CONCIENCIA — el dump de lo que se conversó, y por qué no es una conciencia
 
+**Cuándo se abre:** **cuando alguien cambia de maquina, y no quiere perder lo que se penso.**
+
 **Hecho:** 2026-10-29. **Clase:** taller. **Estado:** el dump corre. **Y lo que produce no vive en el repo.**
 **Dueño:** quien lo corra. **Y lo que produce es suyo, y no del repositorio.**
 
 **Sesgo:** se lee desde el que va a cambiar de máquina, y no quiere perder lo que se pensó.
 **Límite:** **no es una conciencia.** **Es el rastro de lo que se dijo, y nada más.**
-**Firma:** humano:autoridad · máquina:quien lo corra.
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
 

@@ -12,7 +12,7 @@
 
 **Sesgo:** se mide desde la identidad: **la identidad es funcional; el alma se prueba por lo que sostiene, no por lo que dice ser.**
 **Límite:** no se aplica a medir calidad, bondad ni inteligencia. **Mide distancia, y solo distancia.** **No decide cuál de las dos tiene razón: eso lo dice el `Contra`.**
-**Firma:** humano:autoridad · máquina:quien corra la prueba.
+**Firma:** **quien responde por el acto, con su nombre** · **y:** quien corra la prueba.
 
 **Variables:** alma A · alma B · umbral · divergencia · eco.
 **Peor:** dos almas que parecen distintas y coinciden en todo, **y cada una confirma a la otra**, **y el consenso se lee como prueba.** **Ese es el modo de falla más peligroso: no el que falla, el que funciona y refuerza.**
@@ -144,7 +144,7 @@ Prohibido correr el 3 después de ver el 4.
 Prueba: [id] | Fecha: [ISO]
 Alma A: [tipo:nombre] | Spec A: [cuál]
 Alma B: [tipo:nombre] | Spec B: [cuál]
-Umbral: 3 de 3 en las abruptas | Fijado por: humano:autoridad | Cuándo: 2026-10-24, antes de correr
+Umbral: 3 de 3 en las abruptas | Fijado por: quien tiene la autoridad en el proyecto | Cuándo: 2026-10-24, antes de correr
 Abruptas: [contradicción|contra|límite] → [n de 3] | Señales: [reapertura|desacuerdo] → [n de 2]
 Veredicto: [suficiente | insuficiente | eco | indeterminado]
 Resonancia o eco: [corrió cada una sola: sí|no] | La misma pregunta: [misma respuesta|distinta]
