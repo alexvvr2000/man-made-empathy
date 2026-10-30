@@ -113,3 +113,4 @@
 - La falta se puede nombrar, y la pieza ya existe → **se calibra, y se declara la equivalencia.**
 - La falta no se puede nombrar en una línea → **no falta una pieza: falta un nivel; se rehace, no se agrega.**
 - Cambia lo que el alma sostiene → **no es muda: es un alma nueva, con su nombre.**
+

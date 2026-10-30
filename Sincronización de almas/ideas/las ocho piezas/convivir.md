@@ -91,3 +91,4 @@
 - El que ayuda puede más → **se declara qué le deja al otro de pie.**
 - El conflicto aparece → **no se elimina: se sostiene, y se sigue conviviendo.**
 - Un lado no puede irse → **no es convivencia: es sujeción, y se declara.**
+

@@ -84,3 +84,4 @@
 - Un nombre de obra se quiere usar → **se cita con su autoría, y no como nombre propio.**
 - Alguien reclama un nombre → **se responde con la tabla, no con la discusión.**
 - El nombre deja de decir su acto → **se cambia el nombre, y el viejo pasa a muertos con su razón.**
+

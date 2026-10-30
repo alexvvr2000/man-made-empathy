@@ -103,3 +103,4 @@
 - No hay testigo → **`[VACÍO - SIN TESTIGO]`; no se ejecuta como bueno.**
 - El acto se deshace → **se anota qué se tocó y qué vuelve.**
 - La duda es de equilibrio, y no de permiso → **se lee `0/relacion/EQUILIBRIO.md`.**
+

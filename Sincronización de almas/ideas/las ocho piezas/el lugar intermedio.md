@@ -133,3 +133,4 @@ y espero: …
 - No se sabe qué es lo que hay enfrente → **`[NO SÉ QUÉ ES]`, y no se toca.**
 - El ente frena → **dice qué le falta y a quién espera.**
 - La mesa no tiene esquema ni idioma → **`[VACÍO - SIN PROTOCOLO]`, y se hace cuando llegue.**
+

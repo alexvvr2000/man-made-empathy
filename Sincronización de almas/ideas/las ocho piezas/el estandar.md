@@ -96,3 +96,4 @@
 - Una herramienta nueva aparece → **se declara en el piso, en `con:`, y el estándar no cambia.**
 - El mundo cambia → **se vuelve a medir el piso. El estándar no se toca.**
 - El estándar se gasta → **se retira la pieza, con su `Vacío:`, y se declara qué la reemplaza.**
+

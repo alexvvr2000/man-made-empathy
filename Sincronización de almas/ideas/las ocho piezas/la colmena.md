@@ -89,3 +89,4 @@
 - Un alma se sale del sesgo y lo declara → **el 1 lo sabe, y puede seguir.**
 - Un alma contradice el sesgo → **se contesta, o se retira, con su `Vacío:`.**
 - El sesgo ya no se sostiene → **se muda el 1, o se declara la colmena desfasada.**
+

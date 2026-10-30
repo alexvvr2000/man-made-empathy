@@ -110,3 +110,4 @@
 - El contenido cambia → **el hash cambia, y la firma anterior se declara `no vale para este contenido`.**
 - Un candado deja de servir → **se retira con su `Vacío:`, y se dice qué lo reemplaza.**
 - Nadie puede contestar una idea → **no es una idea abierta: es un absoluto con formato.**
+
