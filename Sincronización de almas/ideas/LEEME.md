@@ -23,6 +23,7 @@
 
 | La pieza | La pregunta |
 |---|---|
+| **[`./el alma es la raiz, y el oficio es la rama.md`](./el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **¿de dónde sale el ciclo, y qué es del oficio?** |
 | **[`./mutar.md`](./mutar.md)** | **¿qué puede cambiar, y qué se pierde en cada acto?** |
 | **[`./procesos.md`](./procesos.md)** | **¿cómo se escribe un proceso que se pueda refutar?** |
 
