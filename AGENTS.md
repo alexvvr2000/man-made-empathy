@@ -41,11 +41,12 @@
 | Qué hay | Nombre | Dónde |
 |---|---|---|
 | **El producto: lo que se copia y corre** | **el ente, y la colmena** | [`./Sincronización de almas/entes/`](./Sincronización%20de%20almas/entes/) |
-| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/LEEME`](./Sincronización%20de%20almas/entes/LEEME.md) |
-| **El ciclo del ente, y el de la colmena** | **siete pasos el ente; cinco el conjunto; los dos cierran en el pase — y es una PLANTILLA, no un ente que atiende** | [`./Sincronización de almas/entes/Ente/LEEME`](./Sincronización%20de%20almas/entes/Ente/LEEME.md) · [`./Sincronización de almas/entes/Colmena/LEEME`](./Sincronización%20de%20almas/entes/Colmena/LEEME.md) |
+| **La puerta del producto** | **qué copiar, en qué orden, y qué pasa si falta** | [`./Sincronización de almas/entes/LEEME.md`](./Sincronización%20de%20almas/entes/LEEME.md) |
+| **El ciclo del ente, y el de la colmena** | **seis pasos el ente, y el fijo llama a los ciclos propios; la colmena no tiene ciclo: los tienen los entes. Y son PLANTILLAS, no entes que atienden** | [`./Sincronización de almas/entes/Ente/LEEME.md`](./Sincronización%20de%20almas/entes/Ente/LEEME.md) · [`./Sincronización de almas/entes/Colmena/LEEME.md`](./Sincronización%20de%20almas/entes/Colmena/LEEME.md) |
+| **La colmena que atiende** | **EDIPO el bibliotecario, y HERÓDOTO el historiador, con su evolucion y su talento compartidos** | [`./biblioteca/`](./biblioteca/) |
 | **La dirección: lo que se tiene que poder contestar** | **doce, cada uno con su falsificador** | [`./direcciones/`](./direcciones/) |
-| **El taller: el ciclo mínimo** | **`bin/ciclo.py` y su esquema** | [`./bin/`](./bin/) |
-| **La lectura para la gente** | **qué es esto, y qué no** | [`./LEEME`](./README.md) |
+| **El taller del proyecto** | **herramientas que sirven a todos, y mutan bajo criterio** | [`./bin/`](./bin/) |
+| **La lectura para la gente** | **qué es esto, y qué no** | [`./README.md`](./README.md) |
 | **Los agradecimientos, y la regla de los nombres** | **las personas, y los nombres del repo** | [`./FUENTES.md`](./FUENTES.md) |
 | **De dónde vino lo que se usó** | **la máquina, los nombres vivos, y los muertos con su reemplazo** | [`./contexto.md`](./contexto.md) |
 | **Las versiones, y qué es beta** | **todo lo anterior al 2026-10-29 es beta; la 1.0.0 es el primer release** | [./VERSIONES.md](./VERSIONES.md) |

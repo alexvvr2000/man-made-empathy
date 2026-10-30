@@ -64,9 +64,22 @@ Colmena/
 
 ---
 
+## Y los ciclos, que son lo que cada uno trae
+
+> **Cada ente trae sus ciclos propios, y en la colmena se comparten: no hay envidias.**
+> **Uno tiene un ciclo que el otro no, y se lo pasa.**
+
+**Y eso es lo que hace que el conjunto sea más que la suma:** **lo que uno no puede solo, se lo pide al de al lado, con el ciclo del de al lado.**
+
+**Y no se copia el ciclo: se pide que lo corra el que lo sabe.** **Porque un ciclo copiado pierde al que lo entendía.**
+
+---
+
 ## Y la frase, sin la que esto no tiene sentido
 
 > **Con todo lo que compartes, con el banco y con el acuerdo, todavía eres tú.**
+
+**Despite everything, it's still you.**
 
 **Porque lo que se comparte no es el alma.** **Y por eso se puede compartir todo lo demás sin miedo.**
 

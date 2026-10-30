@@ -36,7 +36,30 @@
 4. GUANTELETE quien lo contesta, si es reversible, y si deja rastro
 5. FIRMAR     quien respondio, que esperaba, y que paso
 6. ACTUAR     con evolucion/ y su caja, o con el bin/ del proyecto
+              y si el acto tiene un ciclo propio, se llama aqui: ciclos/
 ```
+
+
+## Y el paso 6 llama a los ciclos propios
+
+> **El alma de niño es una, y fija. Y no es un chango de una sola maroma: sabe varias cosas, y cada una tiene su ciclo.**
+
+**Y así se encadenan, y no se mezclan:**
+
+```plaintext
+1 a 5   el fijo, siempre, y no se salta
+6       si el acto tiene un ciclo propio, se llama a ciclos/<el suyo>.prs
+        y si no lo tiene, se hace con lo de siempre
+```
+
+**Y la regla, que es la única:**
+
+> **Un ciclo propio se llama si está escrito y dice cuándo se corre.**
+> **Y no se improvisa: un ciclo que no está en `ciclos/` no existe.**
+
+**Y no sustituyen al fijo: se corren dentro de él, en el paso 6, y nunca en su lugar.**
+
+**Y en la colmena esto es lo que más se usa:** **cada uno trae lo que trae en el morral, y se lo pasa al de al lado.**
 
 ## Y el paso que hace que `evolucion/` crezca bien
 

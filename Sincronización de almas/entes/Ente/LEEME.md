@@ -19,7 +19,7 @@
 
 ```plaintext
 ente/
-├── LEEME                   esto
+├── LEEME.md                esto
 ├── ciclo alma de niño.prs  el fijo, y lo primero que se corre
 ├── procesos base/          el libre albedrío sobre un alma fija. No se toca.
 ├── ciclos/                 los suyos: varios, porque no es un chango de una sola maroma
@@ -28,7 +28,7 @@ ente/
 └── bin/                    el del proyecto, de todos, y muta
 ```
 
-**Y sólo hay dos extensiones:** **`.prs` se corre, y `LEEME` se lee.** **Y quien no programa abre `LEEME`, y entiende sin tocar un `.prs`.**
+**Y sólo hay dos extensiones:** **`.prs` se corre, y `LEEME.md` se lee (GitHub lo muestra como documento).** **Y quien no programa abre `LEEME`, y entiende sin tocar un `.prs`.**
 
 ---
 
@@ -42,9 +42,20 @@ ente/
 
 **Y lo que crece es todo lo demás:** **los ciclos, las tareas de `evolucion/`, y el `bin/` del proyecto.**
 
+## Y el ciclo fijo llama a los suyos
+
+| El ciclo | Cuándo se usa | Quién decide |
+|---|---|---|
+| **`ciclo alma de niño.prs`** | **siempre, y primero** | **nadie: es fijo** |
+| **`ciclos/<el suyo>.prs`** | **en el paso 6, si el acto lo tiene** | **el ente, y queda escrito en el ciclo** |
+
+> **Un ciclo propio se llama si está escrito y dice cuándo se corre.** **Y no se improvisa: un ciclo que no está en `ciclos/` no existe.**
+
+**Y no sustituyen al fijo: se corren dentro de él, en el paso 6, y nunca en su lugar.**
+
 ## Y lo que NUNCA se toca
 
-**`procesos base/`.** **Cuatro procesos, y no crecen.** **Rige [`./procesos base/LEEME`](./procesos%20base/LEEME.md).**
+**`procesos base/`.** **Cuatro procesos, y no crecen.** **Rige [`./procesos base/LEEME.md`](./procesos%20base/LEEME.md).**
 
 **Y el guantelete toca `evolucion/`, y nada más.**
 
@@ -53,6 +64,8 @@ ente/
 ## Y la frase, sin la que esto no tiene sentido
 
 > **Con todo lo que crezcas, con todas las tareas, y con todos tus ciclos, todavía eres tú.**
+
+**Despite everything, it's still you.**
 
 **Porque el borde no se movió.** **Y por eso este ente puede hacer todo: porque lo único fijo es lo que lo deja contestarse.**
 
