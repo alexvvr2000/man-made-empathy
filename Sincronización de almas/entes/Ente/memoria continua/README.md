@@ -11,7 +11,6 @@
 | Lo que | Qué es |
 |---|---|
 | **`apuntes/`** | **lo que se piensa, y no movió una frontera** |
-| **`pases/`** | **lo que cada turno deja abierto** |
 | **`sessions/`** | **la sesión del 24-27, descomprimida** |
 | **`del ciclo de la biblioteca/`** | **lo que era del taller de la biblioteca, y se trajo aquí** |
 

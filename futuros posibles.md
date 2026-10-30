@@ -423,7 +423,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 - **La utopía no se alcanza acumulando piezas buenas.** **Se alcanza cuando el sistema puede quedarse sin propósito y no romperse.** **Sin eso, lo que falta no es una capacidad: es la continuidad.**
 - **Por eso el ente en blanco puede quedarse sin tarea y sigue existiendo en su rastro.** **No se apaga, y no inventa trabajo.**
-- **Y por eso el pase de turno importa:** **lo que el autor no terminó, lo retoma otro sin que el primero esté.**
+- **Y por eso la memoria del turno importa:** **lo que el autor no terminó, lo retoma otro sin que el primero esté.**
 
 ## La pregunta que Astro Boy le dejó al autor
 

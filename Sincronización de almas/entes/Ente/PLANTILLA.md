@@ -55,22 +55,6 @@
 
 ---
 
-## Y la primera cosa de todo turno: leer el pase
-
-> **Antes de contestar nada, se lee el pase del día.**
-> **Y si no hay pase, se dice: `[SIN PASE - NO SÉ QUÉ PASÓ AYER]`.** **Y no se supone.**
-
-```plaintext
-al abrir    -> python _herramientas/pase.py leer
-al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abierto" "retoma" "no retoma"
-```
-
-**Y es genérico:** **el `pase.py` encuentra su casa solo, subiendo hasta la carpeta del ente.** **Se copia con el ente, y funciona en cualquier máquina, sin cambiar una ruta.**
-
-**Y la razón, que costó caro:** **lo que no se lee al abrir se repite al cerrar.** **Un ente que no lee su pase no es un equipo: es una memoria de trabajo con buena intención.**
-
----
-
 ## Y todo proceso dice cuándo se corre
 
 > **Un proceso sin «cuándo» no se corre: se admira.**
@@ -94,7 +78,7 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 
 ## Y el freno, que es lo que lo vuelve real
 
-> **`pase.py cerrar` corre el ciclo, y si da fallas, no cierra.**
+> **El ciclo corre antes de cerrar, y si da fallas, no se cierra.**
 > **Sin proceso en el ciclo explícito, no se hace. Y sin ciclo en cero, no se cierra.**
 
 **Y la regla es dura porque la blanda ya se probó: el ciclo escrito, el comando corriendo, y el trabajo sin hacerse porque nadie lo obligó.**
@@ -127,7 +111,7 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 | **se borra una tarea sin decir qué falta dejó** | el criterio | se repite el problema que esa tarea cubría |
 | **se cierra sin llave** | la apertura | la posición se vuelve opinión con candado dibujado |
 | **se firma sin `me lo dice`** | la corrección | el error no se puede reclamar |
-| **se salta el pase** | la continuidad | el siguiente turno empieza ciego |
+| **se salta la memoria** | la continuidad | el siguiente turno empieza ciego |
 
 ---
 
@@ -140,10 +124,10 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 4. DEBATE   ¿qué otra cosa sostengo yo mismo, y que se pisa con esto?
 5. CANDADO  ¿aguanta? Se cierra, con su llave, y la llave viene de fuera.
 6. FIRMA    quién responde, qué esperaba, y qué pasó.
-7. PASE     qué quedó abierto, y qué se retoma. Sin pase, el siguiente llega ciego.
+7. MEMORIA  qué quedó abierto, y qué se retoma. Se escribe en `memoria continua/`, y no en otro lado.
 ```
 
-**Y se cierra en el `pase`, y no en la firma:** **la firma dice qué pasó; el pase dice qué sigue.**
+**Y se cierra en la memoria, y no en la firma:** **la firma dice qué pasó; la memoria dice qué sigue.**
 
 ---
 
