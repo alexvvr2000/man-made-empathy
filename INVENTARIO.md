@@ -16,14 +16,14 @@
 
 | Lo que | Cuánto | Dónde | Cómo se comprueba |
 |---|---|---|---|
-| **archivos en el repositorio** | **140** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
+| **archivos en el repositorio** | **141** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
 | **fichas de obras** | **34** | **`Sincronización de almas/teoria/ejemplos/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **9** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
-| **piezas de teoría** | **19** | **`Sincronización de almas/teoria/`** | **contar los archivos** |
+| **piezas de teoría** | **55** | **`Sincronización de almas/teoria/`** | **contar los archivos** |
 | **piezas en `bin/`** | **5** | **`bin/`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
-| **commits en el historial** | **665** | **el historial de git** | **`git rev-list --count HEAD`** |
+| **commits en el historial** | **670** | **el historial de git** | **`git rev-list --count HEAD`** |
 | **días con commits** | **29** | **el git** | **agrupar por fecha** |
 | **primer commit** | **`505c659`, del 2026-10-01** | **el historial de git** | **`git log --reverse`** |
 

@@ -21,7 +21,7 @@
 
 > **`CC BY 4.0` licencia este repositorio, y sólo este repositorio.**
 
-**Lo que es del autor —los textos de `direcciones/`, `entes/`, `ideas/`, `bin/`, y la raíz— se puede usar, citar y adaptar, con atribución.**
+**Lo que es del autor —los textos de `direcciones/`, `entes/`, `teoria/`, `bin/`, y la raíz— se puede usar, citar y adaptar, con atribución.**
 
 **Y lo que NO cubre, y es lo que hay que decir en voz alta:**
 

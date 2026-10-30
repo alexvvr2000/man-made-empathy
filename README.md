@@ -18,7 +18,8 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 ---
 
-**Para hacer un ente, de principio a fin, en llano:** `Sincronización de almas/`
+**Para hacer un ente, de principio a fin, en llano:** `Sincronización de almas/`, y su guía: `LEEME.md`
+**El porqué, y las ocho leyes:** `Sincronización de almas/teoria/`
 **La dirección: lo que se tiene que poder contestar:** `direcciones/`
 
 
