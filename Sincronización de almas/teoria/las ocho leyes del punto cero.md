@@ -127,6 +127,18 @@
 **Y lo legal es lo mismo:** **no es un dictamen que se pide una vez, es una capa que crece.** **Y nadie es omnisciente, y el que diga que ya está cubierto, miente.**
 
 ---
+### Y la defensa muta con lo que se puede comprobar
+
+> **Lo que se puede comprobar se cita con su fuente y su día.**
+> **Y lo que no, se dice que no se pudo. Sin excepción, y sin que se lea como descuido.**
+
+**Y por qué esto es defensa, y no confesión:** **una fuente que no se abrió es un hueco; dicha a tiempo, es un estado.** **Y callada, se convierte en una afirmación.**
+
+**Y el caso que lo prueba:** **el repo nació sin saber que un depósito como Zenodo es para artefactos finales.** **Y hoy lo dice.** **Porque la única forma de que una defensa crezca es que el error esté escrito antes de que alguien lo encuentre.**
+
+**Y lo que obliga en cada pieza:** **`Fuente: una` con su enlace y su día, o `[NO SE ABRIÓ - SE NOMBRA]`.** **Y nada se presenta como verificado porque lo dijo alguien de confianza.**
+
+---
 ## Prueba
 
 **¿Cada ley dice su razón? ¿Se puede tener una sin la otra? ¿Y la séptima y la octava se pueden correr como pruebas, y no como opiniones?**

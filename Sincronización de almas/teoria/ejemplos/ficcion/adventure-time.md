@@ -1,9 +1,9 @@
 # ADVENTURE TIME · JAKE — la concordia que no se para antes de tiempo
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: el creador, la cadena, la fecha del piloto y de la serie. Y separa dos cosas: cuando se emitió el piloto, y cuando se reemitió.
+**Enlace:** https://en.wikipedia.org/wiki/Adventure_Time   (abierto el 2026-10-30)
 
 ---
 
@@ -12,9 +12,10 @@
 ```plaintext
 Escena:      un perro que se estira sin ninguna explicación, y un mundo que no pide que te lo expliquen
 Obra:        Adventure Time — Pendleton Ward; Cartoon Network, 2010
-Dónde:        piloto en 2007 («Adventure Time», corto de Random! Cartoons); serie del 5 de abril de 2010 al 3 de septiembre de 2018
+Dónde:        piloto emitido el 11 de enero de 2007 en Nicktoons, y reemitido en «Random! Cartoons» el 7 de diciembre de 2008; serie, del 5 de abril de 2010 al 3 de septiembre de 2018
 ¿Es así?:    verificado en su ficha (Wikipedia, «Adventure Time»)
 Qué provoca: ¿qué pasa cuando la obra decide que no hay que explicar nada, y sigue igual de bien?
+Dato de la fuente:  Ward buscaba combinar el humor subversivo con momentos «beautiful», y citó «Mi vecino Totoro» como inspiración
 Límite:      no enseña a escribir un mundo sin reglas; enseña que el mundo puede tener reglas y no decirlas
 ```
 

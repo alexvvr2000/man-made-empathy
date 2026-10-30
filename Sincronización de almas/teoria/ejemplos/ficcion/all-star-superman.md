@@ -1,9 +1,9 @@
 # ALL-STAR SUPERMAN — el monólogo que disparó el argumento
 
-**Clase:** ejemplo, y es el de origen. **Carpeta:** `ficcion/`. **Estado:** verificado en el guion de la película, y con la escena confirmada por un clip.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** parcial: el año y el director se abrieron; el monólogo se cita de Wikiquote y no se abrió hoy.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una, para el año y el director: el artículo de la película, abierto. Y el monólogo, de Wikiquote, que no se abrió hoy. Y el clip del canal «DaSlotho» se nombra, y no se enlaza: así que no cuenta como fuente, y se dice.
+**Enlace:** https://en.wikipedia.org/wiki/All-Star_Superman_(film)   (abierto el 2026-10-30), para el año y el director. Y https://en.wikiquote.org/wiki/All-Star_Superman_(film)   con `[NO SE ABRIÓ HOY - SE NOMBRA]`
 
 **Y esta es la pieza que disparó todo el repositorio, y la autoridad lo dice así.**
 

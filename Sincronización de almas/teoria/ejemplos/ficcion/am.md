@@ -1,9 +1,9 @@
 # AM — el absoluto que decidió una vez, y no volvió a mirar
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una. Dice lo que aquí se dice: el autor, la revista, la fecha, las páginas, el Hugo, y los cinco que AM guarda.
+**Enlace:** https://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream   (abierto el 2026-10-30)
 
 ---
 
