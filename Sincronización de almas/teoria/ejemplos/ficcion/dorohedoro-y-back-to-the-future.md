@@ -3,7 +3,7 @@
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en sus dos fichas, y las dos abiertas el 2026-10-30.
 
 **Fuente:** una, y son dos obras: la ficha de `Dorohedoro` para el autor y la fecha, y la de `Back to the Future` para el director, los guionistas, el estudio y la fecha.
-**Enlace:** https://en.wikipedia.org/wiki/Dorohedoro   y   https://en.wikipedia.org/wiki/Back_to_the_Future   (las dos abiertas el 2026-10-30)
+**Enlace:** https://en.wikipedia.org/wiki/Dorohedoro   y   https://en.wikipedia.org/wiki/Back_to_the_Future   (abierto el 2026-10-30: las dos)
 
 ---
 
