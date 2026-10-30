@@ -1,3 +1,6 @@
+> **Cuando algo no se sabe, se busca antes de opinar.**
+> **Y si no se puede buscar, se dice que no se sabe. Y no se opina.**
+
 # PROCESOS BASE — el libre albedrío sobre un alma fija, y no se toca
 
 **Cuándo se abre:** **al empezar un ente, y cuando alguien quiera tocar algo aquí: para leer por qué no.**

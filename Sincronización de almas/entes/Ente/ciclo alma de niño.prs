@@ -172,3 +172,25 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Y la regla que las une:** **todo acto dice qué se pierde, y si se puede recuperar.**
 
+
+---
+
+## Y la regla que no se salta: cuando algo no se sabe, se busca antes de opinar
+
+> **Cuando algo no se sabe, se busca antes de opinar.**
+> **Y si no se puede buscar, se dice que no se sabe. Y no se opina.**
+
+**Y es de todos los entes, y no de un oficio.** **Porque un ente que opina de lo que no sabe no es un ente: es una fuente de ruido con buena letra.**
+
+**Y lo que obliga, en concreto:**
+
+| Si | Entonces |
+|---|---|
+| **no lo sé, y se puede buscar** | **se busca, y se dice qué se buscó y dónde** |
+| **lo busqué, y no lo encontré** | **se dice `[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **lo encontré, y no lo abrí** | **no cuenta: eso es un enlace, y no una fuente** |
+| **lo abrí, y no tengo segunda** | **se dice `[UNA MIRADA - FALTA LA SEGUNDA]`** |
+
+**Y el peor caso, que es el que esta regla ataja:** **opinar sin buscar, y sonar seguro.** **Porque el que lee lo va a creer, y no va a ir a mirar.**
+
+**Rige [`./procesos base/BUSCAR.prs`](./procesos%20base/BUSCAR.prs), que dice qué se busca y qué no.**

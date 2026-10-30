@@ -67,6 +67,7 @@ Se buscó:     [la pregunta exacta, no el tema]
 Dónde:        [el motor, la ficha, la fuente, o el enlace]
 Decía:        [lo que decía, literal o citado con su enlace]
 Segunda:      [sí, con cuál | no, y por qué]
+Verificado:   [la abrí, y dice lo que digo que dice. Y si no, no cuenta]
 Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 ```
 
@@ -83,6 +84,8 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **Contar una cita de memoria.** **El recuerdo se equivoca, y el enlace no.**
 
 **Usar un resumen de una máquina como si fuera la obra.** **Un resumen de un video no es el video.**
+
+**Y decir que una fuente lo dice cuando no se abrió.** **Un enlace no prueba nada: prueba lo que dice la fuente abierta.**
 
 **Y publicar sin mirar el registro.** **Si nadie puede decir qué se buscó, no hubo búsqueda.**
 
@@ -101,7 +104,7 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 ---
 
 ## Prueba
-
+**¿Se buscó, y hay un registro con dónde? ¿Se abrió la fuente, y dice lo que se dice que dice? ¿Hay dos miradas, o se declaró que hay una? ¿Se buscó lo que podía desmentirlo? ¿Se dijo dónde se buscó cuando no se encontró?**
 **¿Se buscó, y hay un registro con dónde? ¿Hay dos miradas, o se declaró que hay una? ¿Se buscó lo que podía desmentirlo? ¿Cada cita tiene su enlace? ¿Se dijo dónde se buscó cuando no se encontró?**
 
 **Falsificador:** una afirmación externa sin registro; un `verificado` con una sola mirada; una búsqueda que sólo confirma; una cita sin enlace; un «no encontré» sin decir dónde se buscó.
