@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.** **Y porque tiene sus dos casos límite: el que ayuda tanto que borra al otro, y el que juntó sin condiciones y lo empeoró.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `0/salida/CONVIVIR.md`.** **Y de la autoridad: Videl es el estándar de los que viven en concordia — nunca fue tan poderosa como los sayayin, y como quiera encaja.**
+**De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, y de **un registro viejo, que vive en el historial**.** **Y de la autoridad: Videl es el estándar de los que viven en concordia — nunca fue tan poderosa como los sayayin, y como quiera encaja.**
 
 **Qué pregunta deja.** **¿Cómo se distingue la ayuda del sometimiento cuando el que ayuda tiene más capacidad?**
 

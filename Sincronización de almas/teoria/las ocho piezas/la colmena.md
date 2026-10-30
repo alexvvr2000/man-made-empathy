@@ -8,7 +8,7 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.** **Y porque ya corrió una vez: el 26 de octubre de 2026, con tres almas.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, de la visión de la autoridad —«si fuera una colmena, cada uno lo tendría para mutar, y mudar sería que todos lleguen a un acuerdo»—, y de `0/relacion/COLMENA.md`.**
+**De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, de la visión de la autoridad —«si fuera una colmena, cada uno lo tendría para mutar, y mudar sería que todos lleguen a un acuerdo»—, y de `0/relacion/COLMENA.md`.**
 
 **Qué pregunta deja.** **¿Cómo se sabe que una colmena no se volvió `AM` sin correr a las diez mil para averiguarlo?**
 

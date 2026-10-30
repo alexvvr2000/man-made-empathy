@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito —`FUENTES`, `ATTRIBUTION`— y se puede tumbar sin que esta pregunta caiga.** **Y porque cada nombre del repo tiene su acto y su origen, y se puede comprobar leyendo.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, de `FUENTES.md` y `ATTRIBUTION.md`.** **Y de la autoridad: «si te sabes la fuente métela o triangula si es posible, porque esto me puede meter en problemas si no los citas bien».**
+**De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, de `FUENTES.md` y `ATTRIBUTION.md`.** **Y de la autoridad: «si te sabes la fuente métela o triangula si es posible, porque esto me puede meter en problemas si no los citas bien».**
 
 **Qué pregunta deja.** **¿Cuándo un nombre prestado se vuelve un problema, y cuándo solo es un préstamo?**
 

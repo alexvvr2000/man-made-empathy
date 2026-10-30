@@ -259,13 +259,12 @@ Límite:      lo que NO enseña
 | **si cambia el argumento, cambia `teoria/` en el mismo acto** | **una pieza nueva sin su entrada, o una vieja con lo que ya no dice** |
 | **y si no se puede cambiar en el acto, se declara por qué, y hasta cuándo** | **el silencio** |
 
-**Y el porqué, que es de quien tiene la autoridad:**
+**Y el porqué, que es la razón de la sexta ley:**
 
 > **Si a la máquina se le deja algo a criterio y no es explícito, nunca lo hace.**
 > **Y con la gente es lo mismo.**
-> **Y lo explícito siempre ayuda, quieras o no.**
 
-**Y esto no tiene libros detrás: los libros van a salir de aquí.** **Y por eso un error sale caro, y un hueco se cobra.**
+**Y por eso esta pieza dice todo: lo que no está escrito, no se hace.**
 
 
 ---

@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque el contexto refutable está escrito —Thanos, la Source Wall, `AM`— y se puede tumbar sin que esta pregunta caiga.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `sincronización de almas/guantelete/GUANTELETE.md`.** **Y de la autoridad: «hacer todo lo posible desde tu propio sesgo con posibilidad de fricción; si es solo una opinión en grande, *Infinity War* habría acabado en quince minutos».**
+**De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, y de **un camino viejo, que vive en el historial**.** **Y de la autoridad: «hacer todo lo posible desde tu propio sesgo con posibilidad de fricción; si es solo una opinión en grande, *Infinity War* habría acabado en quince minutos».**
 
 **Qué pregunta deja.** **¿Cómo se sabe que un acto fue contestable, y no solo permitido?**
 
@@ -83,7 +83,7 @@
 |---|---|---|
 | **las seis gemas, las siete herramientas, y la ficha del acto** | `0/relacion/EQUILIBRIO.md` | **ahí el guante no da herramientas: dice qué se equilibra, y te hace pensar desde que empiezas** |
 | **`ENSAYAR`, la regla de la urna, y el freno** | `0/formacion/EJECUTOR.md` y `0/friccion/JURAR.prs` | **es el verbo que cumple el corte, y no la carta del permiso.** **El guante dice qué permitir; el ejecutor es el que puede negarse** |
-| **el costo: Terminator, WALL·E, Sinestro** | `0/salida/RESULTADOS.prs` | **es una pregunta propia: quién sabe lo que costó, y quién puede corregirlo** |
+| **el costo: Terminator, WALL·E, Sinestro** | **un registro viejo, que vive en el historial** | **es una pregunta propia: quién sabe lo que costó, y quién puede corregirlo** |
 | **el máximo con criterio: Gurren Lagann** | `0/relacion/EQUILIBRIO.md` | **el máximo sin equilibrio es un absoluto: se lleva al máximo, y se dice qué pesa** |
 
 **Y lo que se quedó, y es lo único que este cero sostiene:** **el acto declara quién lo va a ver, se puede deshacer, y lo que quedó escrito dice lo que tocó.**
@@ -103,4 +103,5 @@
 - No hay testigo → **`[VACÍO - SIN TESTIGO]`; no se ejecuta como bueno.**
 - El acto se deshace → **se anota qué se tocó y qué vuelve.**
 - La duda es de equilibrio, y no de permiso → **se lee `0/relacion/EQUILIBRIO.md`.**
+
 

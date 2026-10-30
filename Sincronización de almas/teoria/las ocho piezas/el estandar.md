@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito, y se puede tumbar sin que esta pregunta caiga.** **Y porque el estándar entero es la prueba: seis capacidades, seis verbos, y ninguno nombra lenguaje ni dominio.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de las correcciones de la autoridad: «todo el estándar está mal, el estándar es atemporal porque metes python; esta mierda va a envejecer mal». Y después: «los entes también son atemporales; todo faro es atemporal; mantis es de la era».**
+**De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, y de las correcciones de la autoridad: «todo el estándar está mal, el estándar es atemporal porque metes python; esta mierda va a envejecer mal». Y después: «los entes también son atemporales; todo faro es atemporal; mantis es de la era».**
 
 **Qué pregunta deja.** **¿Qué distingue un estándar de una moda con reglas?**
 

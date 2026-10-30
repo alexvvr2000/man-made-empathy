@@ -6,7 +6,7 @@
 
 **Por qué se sostiene.** **Porque su contexto refutable está escrito —`Arrival`, el alma de niño, los alienígenas— y se puede tumbar sin que esta pregunta caiga.**
 
-**De dónde viene.** **De `Tesis/ILUMINAR.md`, y de `0/salida/ALAS.md`.** **Y de la corrección de la autoridad: «no es parar, es frenar», y «el alma de niño es una función, no una poesía».**
+**De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, y de **un registro viejo, que vive en el historial**.** **Y de la corrección de la autoridad: «no es parar, es frenar», y «el alma de niño es una función, no una poesía».**
 
 **Qué pregunta deja.** **Cuando el otro ya tiene el canal, ¿qué le falta?**
 
