@@ -125,7 +125,7 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 
 **No crece en `evolucion/` sin guantelete.**
 
-**Y no se calla lo que falta:** **`[FALTA]`, `[EN PROCESO]`, `[BORRADA]`, `[NO SÉ QUÉ ES]`.**
+**Y no se calla lo que falta:** **`[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`, `[SIN CERRAR - Y SE DICE QUÉ FALTA]`, `[RETIRADA - ESTÁ EN EL HISTORIAL]`, `[NO SÉ QUÉ ES]`.**
 
 ---
 

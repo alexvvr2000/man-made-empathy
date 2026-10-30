@@ -115,7 +115,7 @@
 
 **No programa por ti, y no te pide que sepas programar.**
 **No decide si tu ente sirve: eso lo dice el uso.**
-**No oculta lo que falta: cuando no hay, se dice `[FALTA]`.**
+**No oculta lo que falta: cuando no hay, se dice `[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`.**
 
 **Y no es el sitio donde se piensa.** **Lo que se piensa vive en [`../ideas/`](../ideas/), y lo que se muestra, en [`../ejemplos/`](../ejemplos/).** **Aquí se copia, y se corre.**
 

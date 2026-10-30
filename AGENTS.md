@@ -121,9 +121,9 @@ al cerrar   → python bin/ciclo.py disparar    si movió una frontera
 
 **No entrega el proceso: lo entrega en la historia.** **Y el proceso de este trabajo vive fuera de la biblioteca, con quien lo escribió, y no en este repositorio.**
 
-**No esconde lo que falta.** Cuando no hay, se dice `[FALTA]`; cuando hay y no está listo, `[EN PROCESO]`; cuando se fue, `[BORRADA]`.
+**No esconde lo que falta.** Cuando no hay, se dice `[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`; cuando hay y no está listo, `[SIN CERRAR - Y SE DICE QUÉ FALTA]`; cuando se fue, `[RETIRADA - ESTÁ EN EL HISTORIAL]`.
 
-**Y la tesis escrita se borró:** **`[BORRADA - SE ESCRIBE OTRA VEZ]`.** **Lo que hoy la sostiene es `direcciones/` y `entes/`, y se puede usar sin ella.**
+**Y la tesis escrita se borró:** **`[RETIRADA - SE ESCRIBE OTRA VEZ]`.** **Lo que hoy la sostiene es `direcciones/` y `entes/`, y se puede usar sin ella.**
 
 ---
 

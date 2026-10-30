@@ -26,15 +26,16 @@
 
 ## Lo que ya está apuntado, y de dónde
 
-| La pieza | Dónde se apuntó | Estado |
+
+| La pieza | Dónde se apuntó | Su estado, y qué falta |
 |---|---|---|
-| **`Avengers: Infinity War`** — Marvel, 2018 | **`Thanos`, en su ficha, que se escribe cuando se cierre el MCU** | **`[EN PROCESO]`** |
-| **Thanos, y el guante** | **el argumento, `tocar sin pasarse`, `EQUILIBRIO`** | **`[EN PROCESO]`** — **y el guantelete del repo entero sale de aquí** |
-| **`Iron Man`** | **`tocar sin pasarse`: "Iron Man se planta ante el que puede"** | **`[EN PROCESO]`** |
-| **El taller de Stark** | **el `README`, y el `bin/` del proyecto** | **`[EN PROCESO]`** |
+| **`Avengers: Infinity War`** — Marvel, 2018 | **`Thanos`, en su ficha** | **`[UNA MIRADA - FALTA LA SEGUNDA]`**, y la escena del guante se cita de la película |
+| **Thanos, y el guante** | **el argumento, `tocar sin pasarse`, `EQUILIBRIO`** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** — **y el guantelete del proyecto entero sale de aquí** |
+| **`Iron Man`** | **`tocar sin pasarse`: "Iron Man se planta ante el que puede"** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **El taller de Stark** | **el `README`, y el `bin/` del proyecto** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
 | **La escena de Lex** | **`All-Star Superman`, y NO es del MCU** | **va aparte: [`./all-star-superman.md`](./all-star-superman.md)** |
 
-**Y lo que hay que corregir, y se anota aquí:** **el argumento mete `All-Star Superman` (DC) en la misma frase que el guantelete (Marvel).** **Son dos casas, y el argumento lo mezcla.** **Cuando se una el MCU, esa mezcla se separa.**
+**Y lo que se corrigió el 2026-10-29, y ya no es un pendiente:** **el argumento metía `All-Star Superman` (DC) en la misma frase que el guantelete (Marvel).** **Son dos casas, y ya están separadas:** **el guantelete sale de `Infinity War`, y Lex sale de `All-Star Superman`, y cada uno tiene su ficha.**
 
 ---
 

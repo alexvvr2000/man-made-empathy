@@ -54,9 +54,9 @@
 
 **Y por eso el repo usa tres marcas, y ninguna quiere decir «no importa»:**
 
-**`[FALTA]`:** **no hay, y se sabe que no hay.**
-**`[EN PROCESO]`:** **hay, y no está terminado.**
-**`[BORRADA]`:** **se fue, y se dice por qué.**
+**`[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`:** **no hay, y se sabe que no hay.**
+**`[SIN CERRAR - Y SE DICE QUÉ FALTA]`:** **hay, y no está terminado.**
+**`[RETIRADA - ESTÁ EN EL HISTORIAL]`:** **se fue, y se dice por qué.**
 
 ---
 
@@ -78,4 +78,4 @@
 
 **¿Está dicha cada cosa que falta, con su por qué y su cuándo? ¿Se distingue lo que se puede usar hoy de lo que todavía no? ¿El lector puede encontrar el hueco sin que se lo escondan?**
 
-**Falsificador:** un hueco que no se dice; un `[EN PROCESO]` presentado como terminado; una `v1` que se presenta como final.
+**Falsificador:** un hueco que no se dice; un `[SIN CERRAR - Y SE DICE QUÉ FALTA]` presentado como terminado; una `v1` que se presenta como final.

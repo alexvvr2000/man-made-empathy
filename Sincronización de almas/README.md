@@ -96,7 +96,7 @@ repo/
 
 **Hace:** **que alguien que no sabe programar haga un ente que se pueda contestar.**
 
-**No hace:** **no elige por ti qué construir, ni promete que salga bien.** **Y no esconde lo que falta: cuando no hay, se dice `[FALTA]`.**
+**No hace:** **no elige por ti qué construir, ni promete que salga bien.** **Y no esconde lo que falta: cuando no hay, se dice `[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`.**
 
 ---
 

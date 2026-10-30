@@ -63,6 +63,24 @@
 
 ---
 
+## Y como se dice lo que no esta cerrado, sin que parezca un borrador
+
+> **Una marca cuenta el hecho, y no excusa el trabajo.**
+
+**Y la diferencia, que es la que se ve en la cara:**
+
+| lo que parece un borrador | lo que es respetable |
+|---|---|
+| **`[EN PROCESO]`** — **"no me mires todavía"** | **`[SIN CERRAR - Y SE DICE QUÉ FALTA]`** — **"mirá, y así está"** |
+| **`[FALTA]`** — **"falta"** | **`[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`** — **"falta, y se sabe qué lo llena"** |
+| **`[BORRADA]`** — **"se fue"** | **`[RETIRADA - ESTÁ EN EL HISTORIAL]`** — **"se fue, y se puede encontrar"** |
+
+**Y la que NO se toca, aunque también suene a falta:** **`[SIN VERIFICAR]`** y **`[UNA MIRADA - FALTA LA SEGUNDA]`.** **Ésas no dicen "esto es un borrador": dicen "esto no se comprobó".** **Y quitarlas es mentir, y una mentira se cobra.**
+
+**Y la prueba:** **¿el lector puede saber qué hay, sin abrir el archivo?** **Si la marca le dice que hay algo y qué le falta, sirve.** **Si le dice que no mire, sobra.**
+
+---
+
 ## El corte que no se pregunta
 
 > **Cuando algo mejora en cualquiera —en un ente, en su memoria, o en un proyecto— lo que sirve a todos va al repo.**
@@ -115,7 +133,7 @@
 | **[`./RIESGO/ENDUREZER.prs`](./RIESGO/ENDUREZER.prs)** | **mirar tu trabajo con los ojos del que te va a demandar: el inventario, y las cinco preguntas** |
 | **[`./RIESGO/CRITERIO.prs`](./RIESGO/CRITERIO.prs)** | **decidir si la herramienta es la que hace falta, y no al revés** |
 
-**Y los demás se escriben cuando haga falta:** **`[FALTA]`, y no se inventan.**
+**Y los demás se escriben cuando haga falta:** **`[PENDIENTE - SE DICE QUÉ LA LLENARÍA]`, y no se inventan.**
 
 ---
 
