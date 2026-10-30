@@ -37,7 +37,7 @@
 |---|---|---|
 | **el proceso** | **[`./direcciones/`](./direcciones/)** | **¿qué se tiene que poder contestar, y qué lo incumple?** |
 | **la plantilla del ente** | **[`./Sincronización de almas/entes/Ente/`](./Sincronización%20de%20almas/entes/Ente/)** | **¿cómo se hace uno que se pueda contestar?** |
-| **el argumento** | **[`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/)** | **¿qué se sostiene, y qué lo tumba?** |
+| **el argumento** | **[`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/)** | **¿qué se sostiene, y qué lo tumba?** |
 | **las fichas** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** | **¿qué obra provocó qué, y si se verificó?** |
 
 **Y las cuatro juntas son una sola cosa:** **una idea que cualquiera puede leer, correr y contradecir, sin pedirle permiso a nadie.**
@@ -170,7 +170,7 @@ resonancia     [vacío]      Soul Eater           ¿qué pasa cuando dos se     
 
 **Qué permite.** Que un modelo dé la visión de la máquina, otro dé la visión del lector, y el humano sea el autor. Los tres con la misma forma y distinto sitio.
 
-**Lo que ya existe.** El argumento en [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/), y el ente en blanco como carpeta que se copia.
+**Lo que ya existe.** El argumento en [`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/), y el ente en blanco como carpeta que se copia.
 
 **Lo que falta.** Que alguien lo haga por primera vez. Y que se pruebe lo que se busca: que las almas se afinen sin volverse una. Cuando dos almas dan lo mismo se llama eco, y el eco no es ganancia: es un solo ente con más gasto.
 

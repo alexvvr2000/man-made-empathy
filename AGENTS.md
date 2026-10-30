@@ -52,7 +52,7 @@
 | **Las versiones, y qué es beta** | **todo lo anterior al 2026-10-29 es beta; la 1.0.0 es el primer release** | [./VERSIONES.md](./VERSIONES.md) |
 | **El alcance de la v1** | **hasta dónde llega, y qué se queda fuera a propósito** | [./ALCANCE.md](./ALCANCE.md) |
 | **Lo legal** | **la licencia CC BY 4.0, el DOI de Zenodo, y lo que se hace con lo ajeno** | [`./ATTRIBUTION.md`](./ATTRIBUTION.md) |
-| **Lo que se piensa** | **el cero sin sus ejemplos, y las ocho piezas que lo completan** | [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/) |
+| **Lo que se piensa** | **el cero sin sus ejemplos, y las ocho piezas que lo completan** | [`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/) |
 | **Lo que se muestra** | **34 fichas: cada obra, su lugar, y si se verificó** | [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/) |
 | **Lo que se dijo y se descartó** | **el proceso de este trabajo, fuera de la biblioteca** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |
 | **El histórico del método** | **el esquema viejo y el rastro crudo: viven fuera de la biblioteca, y no en el repositorio** | **`[FUERA DE LA BIBLIOTECA - NO VIVE EN ESTE REPOSITORIO]`** |

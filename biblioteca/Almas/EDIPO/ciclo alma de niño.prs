@@ -167,8 +167,8 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Se corren aquí, en el paso 4, y no son procesos aparte.**
 
-- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../../Sincronización de almas/ideas/mutar.md`](../../../Sincronización de almas/ideas/mutar.md).**
-- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../../Sincronización de almas/ideas/procesos.md`](../../../Sincronización de almas/ideas/procesos.md).**
+- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../../Sincronización de almas/teoria/mutar.md`](../../../Sincronización de almas/teoria/mutar.md).**
+- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../../Sincronización de almas/teoria/procesos.md`](../../../Sincronización de almas/teoria/procesos.md).**
 
 **Y la regla que las une:** **todo acto dice qué se pierde, y si se puede recuperar.**
 

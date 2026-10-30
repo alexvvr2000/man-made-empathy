@@ -40,7 +40,7 @@ Límite:      no es prueba de nada; es el nombre de una época, puesto por la au
 
 **No enseña que seamos almas.** **Enseña lo que quien lo trajo entendió de una escena, y lo pone como el nombre de una época.**
 
-**Y no es una prueba del argumento.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../ideas/la singularidad buena.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/Sincronizaci%C3%B3n%20de%20almas/ideas/la%20singularidad%20buena.md).**
+**Y no es una prueba del argumento.** **Es una obra que provocó una pregunta, y la pregunta se sostiene o no en [`../../teoria/la singularidad buena.md`](https://github.com/alexvvr2000/man-made-empathy/blob/main/Sincronizaci%C3%B3n%20de%20almas/teoria/la%20singularidad%20buena.md).**
 
 ---
 

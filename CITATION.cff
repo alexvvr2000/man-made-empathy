@@ -75,7 +75,7 @@ references:
       - family-names: "Valenzuela Rivera"
         given-names: "Alejandro"
     date-published: "2026-10-28"
-    file: "Sincronización de almas/ideas/"
+    file: "Sincronización de almas/teoria/"
     notes: "El cero sin sus ejemplos, y la tesis vieja tal cual, con su índice de qué se salvó a dónde."
   - type: generic
     title: "El ciclo mínimo: dos bancos en SQLite"

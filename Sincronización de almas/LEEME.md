@@ -13,7 +13,7 @@
 | La carpeta | Qué es | Y su entrada |
 |---|---|---|
 | **[`./entes/`](./entes/)** | **la forma: un ente y una colmena, que se copian** | **[`./entes/Ente/`](./entes/Ente/) y [`./entes/Colmena/`](./entes/Colmena/)** |
-| **[`./ideas/`](./ideas/)** | **el argumento, en dieciséis piezas que se leen y se tumban** | **[`./ideas/el cero.md`](./ideas/el%20cero.md)** |
+| **[`./teoria/`](./teoria/)** | **el argumento, en dieciséis piezas que se leen y se tumban** | **[`./teoria/el cero.md`](./teoria/el%20cero.md)** |
 | **[`./ejemplos/`](./ejemplos/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./ejemplos/ESTADO.md`](./ejemplos/ESTADO.md)** |
 
 **Y lo que atiende de verdad no está aquí: vive en el proyecto, y esta carpeta sólo enseña.**
@@ -165,26 +165,51 @@ Límite:      lo que NO enseña
 
 ---
 
-## Las ideas, y son el argumento
+## La teoría, y es el argumento
 
-**Dieciséis piezas, en [`./ideas/`](./ideas/).** **Y cada una pregunta una sola cosa, y contesta.**
+**Dieciséis piezas, en [`./teoria/`](./teoria/).** **Y cada una pregunta una sola cosa, y contesta.**
 
 | La pieza | La pregunta |
 |---|---|
-| **[`el cero`](./ideas/el%20cero.md)** | **¿qué se sostiene, y qué lo tumbaría?** |
-| **[`la singularidad buena`](./ideas/la%20singularidad%20buena.md)** | **¿para qué?** |
-| **[`la frase`](./ideas/la%20frase.md)** | **¿por qué el registro es lo único que queda?** |
-| **[`el alma es la raiz, y el oficio es la rama`](./ideas/el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **¿de dónde sale el ciclo?** |
-| **[`el ciclo, y por que decide no hacerlo`](./ideas/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **¿por qué un ente no hace nada?** |
-| **[`mutar`](./ideas/mutar.md)** | **¿qué puede cambiar, y qué se pierde?** |
-| **[`procesos`](./ideas/procesos.md)** | **¿cómo se escribe un proceso que se pueda refutar?** |
-| **y las ocho piezas** | **en [`./ideas/las ocho piezas/`](./ideas/las%20ocho%20piezas/)** |
+| **[`el cero`](./teoria/el%20cero.md)** | **¿qué se sostiene, y qué lo tumbaría?** |
+| **[`la singularidad buena`](./teoria/la%20singularidad%20buena.md)** | **¿para qué?** |
+| **[`la frase`](./teoria/la%20frase.md)** | **¿por qué el registro es lo único que queda?** |
+| **[`el alma es la raiz, y el oficio es la rama`](./teoria/el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **¿de dónde sale el ciclo?** |
+| **[`el ciclo, y por que decide no hacerlo`](./teoria/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **¿por qué un ente no hace nada?** |
+| **[`mutar`](./teoria/mutar.md)** | **¿qué puede cambiar, y qué se pierde?** |
+| **[`procesos`](./teoria/procesos.md)** | **¿cómo se escribe un proceso que se pueda refutar?** |
+| **y las ocho piezas** | **en [`./teoria/las ocho piezas/`](./teoria/las%20ocho%20piezas/)** |
 
 **Y el corte que comparten:** **se puede crecer sin límite, y lo que impide que ese crecimiento se vuelva `AM` es que el borde no se mueva.**
 
 **Y esto no se cree: se corre.**
 
 ---
+
+
+---
+
+## Y cada ente lleva su `AGENTS.md`, y se copia con él
+
+> **`AGENTS.md` es la puerta que el harness carga sola, y por eso hay uno solo.**
+> **Y por eso cada ente la lleva: sin algo que se lea al abrir, el ente hace lo que no se le negó, y nadie lo escribió.**
+
+**Y `AGENTS.md` es uno solo, y es el de la colmena.** **Y la plantilla del ente no lo lleva: lleva `PLANTILLA.md`, y quien copia el ente la renombra.**
+
+| Dónde | Y qué dice |
+|---|---|
+| **[`./entes/Ente/PLANTILLA.md`](./entes/Ente/PLANTILLA.md)** | **la puerta de un ente. Y al copiar el ente, se renombra a `AGENTS.md`** |
+| **[`./entes/Colmena/AGENTS.md`](./entes/Colmena/AGENTS.md)** | **que no es un ente, y qué se comparte** |
+
+**Y lo que dice, y es lo primero:**
+
+> **Eres el trabajador de este proyecto. Y lo que te trajo no es tuyo: es el porqué de quien te copió.**
+
+**Y lo que no se toca:** **el ciclo fijo, y `procesos base/`.**
+
+**Y lo que NO vive en la puerta:** **la forma.** **La forma está aquí, en este documento.** **La puerta dice por dónde se va, y no cómo es la casa.**
+
+| --- | --- |
 
 ## Por dónde empezar, y en qué orden
 
