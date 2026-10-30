@@ -30,6 +30,3 @@ EDIPO/evolucion/**/*.tra
 EDIPO/evolucion/*.jsonl
 EDIPO/evolucion/**/*.jsonl
 EDIPO/memoria continua/*.jsonl
-
-# y lo que nunca publica nadie, aunque algo lo deje pasar
-delirios/
