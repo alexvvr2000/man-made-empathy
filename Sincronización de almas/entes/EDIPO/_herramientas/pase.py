@@ -14,6 +14,7 @@ Regla: al abrir turno se LEE el pase. Antes no se contesta nada.
 """
 
 import os
+import subprocess
 import sys
 from datetime import datetime
 
@@ -62,7 +63,25 @@ def leer(casa):
     return 0
 
 
+def correr_ciclo():
+    """El pase no se cierra si el ciclo no da cero. Y no se pide: se corre."""
+    ciclo = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "bin", "ciclo.py")
+    if not os.path.exists(ciclo):
+        print("[SIN CICLO - NO PUEDO COMPROBAR QUE EL DIA SE CERRO]")
+        return 1
+    print("--- y antes de cerrar, el ciclo ---")
+    return subprocess.run([sys.executable, ciclo]).returncode
+
+
 def cerrar(casa, lineas):
+    if correr_ciclo() != 0:
+        print()
+        print("[NO SE CIERRA] el ciclo dio fallas.")
+        return 1
+    return cerrar_sin_freno(casa, lineas)
+
+
+def cerrar_sin_freno(casa, lineas):
     ruta = archivo_del_dia(casa)
     etiquetas = ["Sostuvo", "Se rompio", "Abierto", "Retoma", "No retoma"]
     lineas = list(lineas) + ["[SIN DECLARAR]"] * (len(etiquetas) - len(lineas))
@@ -102,3 +121,4 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+

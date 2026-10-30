@@ -92,6 +92,13 @@ al cerrar   -> python _herramientas/pase.py cerrar "sostuvo" "se rompió" "abier
 
 **Rige [`../../ideas/el ciclo, y por que decide no hacerlo.md`](../../ideas/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**
 
+## Y el freno, que es lo que lo vuelve real
+
+> **`pase.py cerrar` corre el ciclo, y si da fallas, no cierra.**
+> **Sin proceso en el ciclo explícito, no se hace. Y sin ciclo en cero, no se cierra.**
+
+**Y la regla es dura porque la blanda ya se probó: el ciclo escrito, el comando corriendo, y el trabajo sin hacerse porque nadie lo obligó.**
+
 ---
 
 ## Ruta — la mente
