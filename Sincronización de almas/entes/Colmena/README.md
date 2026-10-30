@@ -1,3 +1,5 @@
+**Y lo que no entra sin acuerdo:** **una tarea no entra al `evolucion/` compartido sin `ACUERDO.prs` corrido, y sin su `Contra`.** **Y el comando lo revisa: una tarea sin acuerdo, falla.**
+
 # LA COLMENA — varias almas, y ninguna es la jefa
 
 **Cuándo se abre:** **cuando hay más de un alma trabajando, y hay que saber quién manda.**
