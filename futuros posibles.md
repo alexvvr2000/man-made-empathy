@@ -1,28 +1,46 @@
-# FUTUROS POSIBLES — ciencia ficción posible, a corto, mediano y largo plazo
+# FUTUROS POSIBLES — lo que este método deja al alcance, y qué falta para cada cosa
 
-**Qué es este archivo.** Lo que este sistema permite construir, ordenado por plazo, con el detalle que hace falta para que sirva a alguien que no estaba en la conversación donde se pensó.
+**Hecho:** 2026-10-29. **Clase:** lectura, y es la que contesta «¿y para qué sirve?».
+**Lector:** quien no va a tocar una máquina nunca, y aun así quiere saber qué le cambia.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
-**Y lo que no es.** No es una predicción. No es una promesa de producto. No es una hoja de ruta comercial. Es el mapa de lo que queda posible cuando las piezas están puestas, con su condición de verdad a la vista. Lo que no se puede hacer todavía se dice.
-
-**Dueño:** humano:Alejandro Valenzuela Rivera.
-**Estado:** vigente.
-
-Sesgo: se lee desde lo que el repo puede sostener hoy, y se distancia por plazo según lo que falta para cada cosa.
+**Sesgo:** se lee desde el que pregunta para qué, y no desde el que ya está convencido.
+**Límite:** **no es una predicción, ni una promesa de producto.** **Es lo que queda posible cuando las piezas están puestas, con su condición de verdad a la vista.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
 
-# Antes de los plazos: las cuatro piezas que hacen posible todo lo demás
+## Lo que se va a decir, y de dónde sale, porque es lo que se va a preguntar
 
-Para que cualquier futuro de esta lista ocurra, cuatro cosas tienen que estar en su sitio. No son tecnología: son formas de escribir.
+**Cualquiera puede decir «esto va a servir para mucho».** **Así que este archivo tiene una regla, y es la única:**
 
-| Pieza | Qué hace | Sin ella |
+> **Cada línea dice de dónde sale.**
+> **Y si no hay de dónde, se dice que no lo hay, y no se presenta como futuro.**
+
+**Y las tres fuentes posibles, y ninguna es una promesa:**
+
+| La fuente | Qué quiere decir |
+|---|---|
+| **algo que ya corre** | **se puede abrir y correr: está en el repo, y tiene su carpeta** |
+| **algo que se puede leer** | **está escrito y se entiende sin ayuda de nadie** |
+| **algo que no existe** | **se dice así, y se dice qué lo haría falta para que exista** |
+
+**Y el lector que nunca va a tocar una máquina:** **le basta la segunda columna.** **Lo que se le pide no es que programe: es que pueda preguntar «¿de dónde sale esto?».**
+
+---
+
+## Y las cuatro piezas que ya están, para que esto se pueda usar
+
+**No son tecnología: son cuatro formas de escribir, y las cuatro están en el repo.**
+
+| La pieza | Dónde está | Qué contesta |
 |---|---|---|
-| **El candado** | Una idea se guarda como una pregunta que no se puede abrir desde donde se mira, con su autor y su llave a la vista | la idea es un aforismo que nadie puede usar |
-| **La llave** | El criterio del que la lee: su historial de sesgos, leído antes de decidir | sin llave, el candado solo se admira |
-| **La fila verbalizada** | Toda salida de un proceso se escribe en seis campos: qué se sostiene, de dónde viene la idea, qué la contradijo, dónde quedó, qué sigue, qué no se afirma | la salida suena y no se puede contestar |
-| **El jugo** | Todo lo que ayuda a entender vive fuera del candado: obras, casos, vecinos, mediciones | el candado crece y deja de leerse |
+| **el proceso** | **[`./direcciones/`](./direcciones/)** | **¿qué se tiene que poder contestar, y qué lo incumple?** |
+| **la plantilla del ente** | **[`./Sincronización de almas/entes/Ente/`](./Sincronización%20de%20almas/entes/Ente/)** | **¿cómo se hace uno que se pueda contestar?** |
+| **el argumento** | **[`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/)** | **¿qué se sostiene, y qué lo tumba?** |
+| **las fichas** | **[`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/)** | **¿qué obra provocó qué, y si se verificó?** |
 
-**Las cuatro juntas son una sola cosa:** una idea que cualquiera puede leer, abrir y contradecir, sin pedirle permiso a nadie.
+**Y las cuatro juntas son una sola cosa:** **una idea que cualquiera puede leer, correr y contradecir, sin pedirle permiso a nadie.**
 
 ---
 
@@ -30,35 +48,35 @@ Para que cualquier futuro de esta lista ocurra, cuatro cosas tienen que estar en
 
 ## 1. Un archivo que se puede verificar solo
 
-**Qué es.** Cada `.prs`, `.tra` y `.vd` tiene una forma fija. Un campo es una línea que empieza por `**Campo:**`. Una tabla empieza por `|`. Un bloque está entre tres acentos graves.
+**Qué es.** Cada proceso tiene una forma fija: `Entra · Falla si · Sale · Consume`, y su `Falsificador`. Un campo es una línea. Una tabla empieza por `|`. Un bloque está entre tres acentos graves.
 
 **Qué permite.** Que una persona corrija un archivo sin saber de qué va, siguiendo solo la forma. Que un programa diga qué falta sin interpretar nada.
 
 **Cómo se usa, en la práctica.** Abres un archivo. Si tiene `Sesgo`, `Límite` y `Firma`, se puede leer. Si le falta alguno, se marca como implícito. Si le falta `Rastro`, `Ruta` o `Carga`, no es un ente: es un fantasma.
 
-**Lo que ya existe.** `Era/sincronización de almas/el estandar/formacion/FORMATO.md`, y los cuatro procesos de `Era/sincronización de almas/procesos/` ya lo cumplen.
+**Lo que ya existe.** Los doce procesos de [`./direcciones/`](./direcciones/), y la plantilla de [`./Sincronización de almas/entes/Ente/`](./Sincronización%20de%20almas/entes/Ente/): todos lo cumplen.
 
 **Lo que falta.** Un chequeo que recorra una carpeta y liste los archivos fuera de forma. Es un script de veinte líneas en cualquier lenguaje. No está escrito.
 
-## 2. Un candado que se puede contar
+## 2. Una posición que se puede contar
 
-**Qué es.** Un autor tiene N candados, no uno. Cada candado es un archivo con nombre propio, su autor y su ficción: la obra, el caso o el vecino que lo hizo pensable.
+**Qué es.** Cada pieza que se sostiene deja su banca: qué se sostiene, de dónde vino, y qué la contradijo. Y así una persona puede abrir un repo ajeno y decir, sin leerlo entero: aquí hay cuatro posiciones con fuente, dos citas sin dueño, y un ruido.
 
-**Qué permite.** Que alguien abra un repo ajeno y diga, sin leerlo entero: aquí hay cuatro candados reales, dos citas y un ruido.
-
-**Cómo se distinguen.**
+**Cómo se distinguen, y no hace falta saber nada técnico:**
 
 ```
-Candado real  = autor + lo que sostiene
-Cita          = lo que sostiene, sin autor
-Ruido         = ni uno ni otro
+posición  = una idea + de quién es + qué la contradijo
+cita      = una idea sin dueño
+ruido     = ni una ni otra
 ```
 
-**Y por qué un autor tiene varios.** Un autor no es una persona con una sola idea: es un historial de sesgos, y cada sesgo que sostuvo es un candado. Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena.
+**Y por qué alguien tiene varias.** **Una persona no es una sola idea: es un historial de sesgos.** **Y cada uno que sostuvo es una posición.** **Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena.**
 
-**Lo que ya existe.** `Era/sincronización de almas/el estandar/friccion/JONN.md` y la tabla `pieza` de la memoria, con cincuenta y siete piezas.
+**Lo que ya existe.** Los dos bancos de [`./Sincronización de almas/entes/Ente/alma de niño/`](./Sincronización%20de%20almas/entes/Ente/alma%20de%20ni%C3%B1o/), y el guantelete: cada acto con su testigo.
 
-**Lo que falta.** Nada técnico. Falta que la gente traiga sus candados.
+**Lo que falta.** Nada técnico. Falta que la gente traiga sus posiciones.
+
+**Y lo que esto no dice:** no dice que una posición sea verdadera. **Dice quién responde por ella, y qué la contradijo.**
 
 ## 3. La detección del implícito
 
@@ -72,7 +90,7 @@ Ruido         = ni uno ni otro
 |---|---|---|
 | Un campo de ficción vacío sobre una idea que salió de una obra | la idea se presenta como propia | se escribe de dónde vino |
 | Un `Borde` que no dice lo que no se afirma | la idea cubre más de lo que puede | se escribe el límite |
-| Un candado sin autor | nadie responde por él | se firma o se reconoce como cita |
+| Una posición sin autor | nadie responde por ella | se firma, o se reconoce como cita |
 | Un proceso sin `Falla si` | no hay corte: cualquier cosa entra | se escribe el caso que lo incumple |
 
 **Lo que ya existe.** La columna `ficcion` de la tabla `pieza`, y el proceso de expresión.
@@ -126,23 +144,23 @@ el alma.md      [FANTASMA - FALTA CARGA]
 
 **Lo que falta.** Escribirlo. Es un programa pequeño y no requiere ejecutar nada del sistema.
 
-## 6. El índice de candados, con su llave
+## 6. El índice de posiciones, con su fuente
 
-**Qué es.** Una lista viva de los candados de todos los autores, cada uno con su ficción, su pregunta, y quién lo puede abrir.
+**Qué es.** Una lista viva de las posiciones de todos: cada una con su obra o su caso, su pregunta, y quién la puede contestar.
 
-**Qué permite.** Que alguien que llega a un repo ajeno pueda elegir qué abrir sin leerlo todo, y que el que abre deje su huella.
+**Qué permite.** Que alguien que llega a un repo ajeno pueda elegir qué abrir sin leerlo todo, y que el que abra deje su huella.
 
 **Cómo se vería, en la práctica.**
 
 ```
-Candado        Autor        Ficción              Pregunta                       Abierto por
-libre albedrío Alejandro    Sinestro, GL          ¿qué le pasa a una especie     —
-                                                       sin miedo?
-resonancia     [vacío]      Soul Eater            ¿qué pasa cuando dos se         —
-                                                       afinan sin volverse uno?
+Posición       De quién     La obra o el caso    La pregunta                    Contestada por
+libre albedrío Alejandro    Sinestro, GL         ¿qué le pasa a una especie     —
+                                                  sin miedo?
+resonancia     [vacío]      Soul Eater           ¿qué pasa cuando dos se        —
+                                                  afinan sin volverse uno?
 ```
 
-**Y la columna `Abierto por` es la que hace la diferencia:** un candado que nadie abrió sigue sin ser un candado abierto.
+**Y la columna `Contestada por` es la que hace la diferencia:** **una posición que nadie contestó sigue sin ser una posición contestada.**
 
 **Lo que falta.** La tabla ya existe. Falta el índice que la lea y la muestre.
 
@@ -150,15 +168,15 @@ resonancia     [vacío]      Soul Eater            ¿qué pasa cuando dos se    
 
 **Qué es.** Copiar el ente en blanco una vez por modelo. Cada copia es un alma con su propio rastro, y cada modelo declara su visión de la máquina: qué carga, qué no carga, qué no puede afirmar, qué firma.
 
-**Qué permite.** Que un modelo dé la visión de la máquina, otro dé la visión del lector, y el humano sea el autor. Los tres con el mismo candado y distinto sitio.
+**Qué permite.** Que un modelo dé la visión de la máquina, otro dé la visión del lector, y el humano sea el autor. Los tres con la misma forma y distinto sitio.
 
-**Lo que ya existe.** Las tres visiones en `Tesis/`, y el ente en blanco como carpeta que se copia.
+**Lo que ya existe.** El argumento en [`./Sincronización de almas/ideas/`](./Sincronización%20de%20almas/ideas/), y el ente en blanco como carpeta que se copia.
 
 **Lo que falta.** Que alguien lo haga por primera vez. Y que se pruebe lo que se busca: que las almas se afinen sin volverse una. Cuando dos almas dan lo mismo se llama eco, y el eco no es ganancia: es un solo ente con más gasto.
 
 ## 8. La misma forma para una empresa
 
-**Qué es.** Una organización con la misma estructura: un candado (su razón de existir), tres visiones (su autoría, sus sistemas, sus clientes), un jugo (su historia), y procesos con la forma fija.
+**Qué es.** Una organización con la misma estructura: una posición (su razón de existir), tres visiones (su autoría, sus sistemas, sus clientes), un jugo (su historia), y procesos con la forma fija.
 
 **Qué permite.** Que lo que una empresa sabe no viva en la cabeza de una persona, y que el que llegue nuevo lo pueda reconstruir.
 
@@ -166,7 +184,7 @@ resonancia     [vacío]      Soul Eater            ¿qué pasa cuando dos se    
 
 ```
 la empresa/
-├── candado/               por qué existe, en una página
+├── posicion/              por qué existe, en una página
 ├── vision del autor/     quién la fundó, y desde dónde mira
 ├── vision del sistema/    qué carga, qué no puede afirmar
 ├── vision del cliente/    qué se lleva, qué lo tumba
@@ -185,7 +203,7 @@ la empresa/
 
 **Qué permite.** Que una idea sobreviva a su autor sin volverse una cita muerta.
 
-**Cómo se prueba, en la práctica.** Alguien que no eres tú abre uno de tus candados, sin preguntarte, y su apertura se lee igual que la tuya. Ese día el grado sube. Antes de ese día, es una firma, no un veredicto.
+**Cómo se prueba, en la práctica.** Alguien que no eres tú abre una de tus posicionesdos, sin preguntarte, y su apertura se lee igual que la tuya. Ese día el grado sube. Antes de ese día, es una firma, no un veredicto.
 
 **Lo que falta.** Ese alguien. Y no se puede fabricar.
 
@@ -195,9 +213,9 @@ la empresa/
 
 **Y la regla que lo hace respetable:** la opacidad no es un mérito. Traducir cuando hace falta y conservar lo que no traduce.
 
-**Qué permite.** Que una máquina pueda, con el tiempo, escribir su propia visión del mundo, su propio candado, y que eso sea legible para nosotros sin que la hayamos obligado a sonar como nosotros.
+**Qué permite.** Que una máquina pueda, con el tiempo, escribir su propia visión del mundo, su propia posición, y que eso sea legible para nosotros sin que la hayamos obligado a sonar como nosotros.
 
-**Lo que falta.** Que alguien escriba un candado que no sea humano y le pida a otro que lo abra. Eso no se puede hacer desde aquí: se hace cuando pase.
+**Lo que falta.** Que alguien escriba una posición que no sea humana y le pida a otro que lo abra. Eso no se puede hacer desde aquí: se hace cuando pase.
 
 ## 11. La sustitución del alma sin perder el registro
 
@@ -217,7 +235,7 @@ la empresa/
 
 **Y lo que hace que eso no sea anarquía:** la idea no queda sin dueño. Queda con autor, con llave y con rastro. La diferencia con la academia no es que la academia exige rigor: es que la academia exige permiso.
 
-**Lo que falta.** Que la gente traiga sus candados. Es el único futuro de esta lista que no depende de más tecnología.
+**Lo que falta.** Que la gente traiga sus posiciones. Es el único futuro de esta lista que no depende de más tecnología.
 
 ---
 
@@ -237,11 +255,11 @@ Un mal uso no se previene censurando ideas. Se previene haciendo imposible soste
 
 | Pieza | El mal uso que impide | Cómo, en la práctica |
 |---|---|---|
-| **El autor obligatorio** | que alguien afirme sin responder | sin autor no hay candado: el candado sin firma no se abre |
+| **El autor obligatorio** | que alguien afirme sin responder | sin autor no hay posición: la que no tiene firma no se puede contestar |
 | **La llave a la vista** | la puerta cerrada que no se puede contestar | la apertura la lee cualquiera, no solo el que la cerró |
-| **La fila verbalizada** | la idea que suena y no se puede contradecir | la ficción se declara; el borde dice qué no se afirma; el siguiente dice a quién le toca mirarlo |
+| **la ficha de cada acto** | la idea que suena y no se puede contradecir | la ficción se declara; el borde dice qué no se afirma; el siguiente dice a quién le toca mirarlo |
 | **El límite declarado** | la idea que cubre todo, y por eso no se puede tocar | el límite dice a qué no aplica, y lo que no aplica se puede ignorar sin culpa |
-| **El jugo fuera del candado** | la idea que se esconde en el detalle | el candado es corto: quien lo lee sabe lo que dice sin leer el resto |
+| **lo que se explica fuera de la posición** | la idea que se esconde en el detalle | la posado es corto: quien lo lee sabe lo que dice sin leer el resto |
 | **La sustitución con rastro** | el alma que se cambia sin dejar huella | lo que se fue se lee, se anota, y no se borra |
 | **La condición del libre albedrío** | el sistema que se declara libre sin serlo | si nadie de fuera lo abre, sigue siendo una firma, y se dice |
 
@@ -296,7 +314,7 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 
 # LAS ANALOGÍAS — para que la gente lo entienda sin leer el repo
 
-**Por qué va aquí.** Una forma de escribir fija no se explica con otra forma de escribir fija: se explica con algo que la gente ya vio. **Y las analogías van solo en futuros y personajes: el jugo del autor no se toca, ese va en su visión.**
+**Por qué va aquí.** Una forma de escribir fija no se explica con otra forma de escribir fija: se explica con algo que la gente ya vio. **Y las analogías van solo aquí: lo que enseña una obra se lee en su ficha, y no se copia aquí.**
 
 **Y una advertencia, porque es del repo:** una analogía **no es una fuente y no es una prueba.** **Es una obra que provocó una pregunta, y esto se presenta como eso.** **Un caso es una factura ya cobrada; no es una medición.**
 
@@ -304,13 +322,13 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 
 | Pieza del sistema | La analogía | Qué se ve | Qué NO es |
 |---|---|---|---|
-| **El candado** | **El cubo de Rubik resuelto por alguien más**: la cara que ves no te explica el movimiento | **el resultado se ve, y el camino no** | **no es un rompecabezas: no hay una solución correcta** |
-| **La llave** | **La contraseña de casa que dejas a un vecino**: no es su casa, y sin ella no entra | **abrir sin ser el dueño, y con permiso a la vista** | **no es una llave maestra: abre un candado, no todos** |
+| **la posición** | **El cubo de Rubik resuelto por alguien más**: la cara que ves no te explica el movimiento | **el resultado se ve, y el camino no** | **no es un rompecabezas: no hay una solución correcta** |
+| **la fuente** | **La contraseña de la casa que le dejas a un vecino**: no es su casa, y sin ella no entra | **abrir sin ser el dueño, y con permiso a la vista** | **no es una llave maestra: abre una casa, y no todas** |
 | **El autor** | **Firma en un cuadro**: el nombre no prueba que sea bueno, prueba quién responde | **la responsabilidad tiene dueño** | **no es un sello de calidad** |
-| **N candados por autor** | **Un escritor y sus libros**: no se reduce a uno; cada libro es una posición | **un autor es un historial, no una idea** | **no es un catálogo: cada libro se lee por separado** |
-| **La fila verbalizada** | **La receta de cocina con sus tiempos y su fuego**: cualquiera la sigue, y sin los tiempos no sale | **sin la fila, la idea es una foto del plato** | **no es un manual de cocina: es un registro de lo que se cocinó** |
-| **La ficción de cada idea** | **La lista de ingredientes**: si un ingrediente no está, cambia el sabor y nadie sabe dónde | **lo que la idea comía se declara** | **no es un crédito: es de dónde salió** |
-| **El jugo** | **El libro de anécdotas detrás de una foto**: la foto sola no cuenta lo que pasó | **lo que hace entender, sin crecer la foto** | **no es la foto** |
+| **varias posiciones por persona** | **Un escritor y sus libros**: no se reduce a uno; cada libro es una posición | **un autor es un historial, no una idea** | **no es un catálogo: cada libro se lee por separado** |
+| **la ficha de cada acto** | **La receta de cocina con sus tiempos y su fuego**: cualquiera la sigue, y sin los tiempos no sale | **sin la fila, la idea es una foto del plato** | **no es un manual de cocina: es un registro de lo que se cocinó** |
+| **la fuente de cada idea** | **La lista de ingredientes**: si un ingrediente no está, cambia el sabor y nadie sabe dónde | **lo que la idea comía se declara** | **no es un crédito: es de dónde salió** |
+| **lo que se explica aparte** | **El libro de anécdotas detrás de una foto**: la foto sola no cuenta lo que pasó | **lo que hace entender, sin crecer la foto** | **no es la foto** |
 | **El implícito** | **La regla que alguien inventó y nunca escribió**: se obedece y no se puede discutir | **lo invisible se vuelve ley sin que nadie lo decidiera** | **no es un secreto: es un hueco** |
 | **La visión** | **Un sitio, no una alineación**: alguien ve desde la ventana y dice qué ve | **desde dónde mira, sin pedirle que sea como los demás** | **no es una alineación: no se trata de parecerse** |
 
@@ -354,7 +372,7 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 | **«Los que se van de Omelas»** | Ursula K. Le Guin (1973) | **¿qué costo carga el que no lo siente, y quién lo declara?** |
 | **«La última pregunta»** | Isaac Asimov (1956) | **una pregunta que nadie puede contestar ¿se puede heredar?** |
 
-**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige `Tesis/vision del autor/`, en la parte de la ficción.**
+**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige [`./Sincronización de almas/ejemplos/`](./Sincronización%20de%20almas/ejemplos/), que es donde cada obra tiene su ficha y su estado.**
 
 ## La analogía que no es de un personaje, y sirve para todo el sistema
 
@@ -368,11 +386,11 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 
 **No son opinión sobre los personajes.** Son una forma de que alguien entienda la oración sin el repo delante.
 
-**Y no citan el jugo del autor:** eso vive en su visión, y se añade cuando la escriba.
+**Y no citan lo que el autor pensaba:** eso se lee en su lectura, y se añade cuando la escriba.
 
 ## Prueba
 
-**¿Cada analogía dice qué pieza explica? ¿Se declara que no es prueba? ¿Se puede entender sin conocer el repo? ¿Se respetó el jugo del autor fuera de aquí?**
+**¿Cada analogía dice qué pieza explica? ¿Se declara que no es prueba? ¿Se puede entender sin conocer el proyecto? ¿Se respetó lo que el autor pensaba, fuera de aquí?**
 
 ## Falsificador
 
@@ -421,9 +439,9 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 **Y la advertencia, que es del repo y es dura:** **leer Astro Boy como "un buen sistema se vuelve querido solo" es el peor uso posible.** **La utopía no es el sistema que se gana el cariño: es el mundo donde el conflicto se puede sostener sin romperse.**
 
-## Por qué va en futuros y no en el jugo
+## Por qué va aquí, y no en la lectura del argumento
 
-**Porque el autor lo declara aquí como su criterio, y el jugo de su visión lo agrega él, cuando la escriba.** **Esto es el criterio; el jugo es de él.**
+**Porque quien lo declara lo deja aquí como su criterio, y lo que pensaba se lee aparte, en su visión lo agrega él, cuando la escriba.** **Esto es el criterio; el jugo es de él.**
 
 ---
 
