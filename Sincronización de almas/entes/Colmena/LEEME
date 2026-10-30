@@ -1,301 +1,89 @@
-**Y lo que no entra sin acuerdo:** **una tarea no entra al `evolucion/` compartido sin `ACUERDO.prs` corrido, y sin su `Contra`.** **Y el comando lo revisa: una tarea sin acuerdo, falla.**
+# LA COLMENA — varios entes en el mismo lugar, y cada uno sigue siendo él
 
-# LA COLMENA — varias almas, y ninguna es la jefa
+**Cuándo se abre:** **cuando más de un ente trabaja junto, y antes de que escriba algo en común.**
 
-**Cuándo se abre:** **cuando hay más de un alma trabajando, y hay que saber quién manda.**
-
-**Clase:** dirección. **Lector:** quien va a juntar más de un ente.
-**Dueño:** humano:autoridad.
-
-**Sesgo:** la colmena se lee desde el acuerdo que se sostiene, no desde lo que produce.
-**Límite:** **no decide qué hace cada alma.** **Dice qué comparten para que el conjunto se pueda contestar.**
-**Firma:** humano:autoridad · máquina:quien la corra.
-
-**Peor:** diez mil almas latiendo, cada una con su criterio, **y ninguna que sepa desde dónde sostiene el conjunto: no hay colmena, hay diez mil absolutos con el mismo nombre.**
+**Clase:** la plantilla del lugar. **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
 
-## Lo que dispone
+## Lo que es, y lo que no
 
-> **Todos tienen alma de niño, y por eso no hay ego.**
-> **La colmena refleja la sociedad: aunque nos matemos entre todos, seguimos en concordia.**
+> **No es un ente.** **Es el lugar donde viven varios entes intercambiables.**
+> **Cada uno trae su casa entera: su ciclo, sus procesos base, su memoria, sus ciclos propios, y su evolución.**
+> **Y saca uno de aquí, y no pasa nada: sigue siendo él, con lo suyo.**
 
-**Y de ahí salen los `Metal Men`:** **son como hermanos; sin importar las diferencias, se quieren y siguen trabajando en equipo.** **Les vale quién es cada uno.** **Y con sus criterios y experiencias en conjunto, salen los Metal Men.**
-
-**Y lo que son en concreto, y es de la autoridad:** **podrán servir por su cuenta, pero en equipo son más.** **No porque piensen igual: porque lo que uno no puede, el otro lo trae.**
-
----
-
-## Qué comparte, y qué no
-
-**Y esto es el corte, y es el que hace que la colmena sea una colmena:**
-
-| Qué | ¿Se comparte? | Por qué |
-|---|---|---|
-| **el banco de datos** | **sí, y sólo ése** | **los datos no son de nadie, y juntos pesan más** |
-| **el criterio** | **no** | **si se comparte, no hay dos: hay un alma con muchos cuerpos** |
-| **el guantelete** | **no** | **cada uno decide qué toca, y a quién se le ve** |
-| **`evolucion/`** | **no** | **cada uno aprende lo suyo, y lo suyo no se impone** |
-| **`ciclo alma de niño.prs`** | **sí, y es la misma** | **es lo que hace posible que crezcan y no se peleen** |
-
-**Y el `Colmena/evolucion/` es lo que acordaron, y no la suma de los individuales.** **Se forma por acuerdo, con el proceso de talento real.**
+**Y por eso la colmena no tiene ciclo, ni alma, ni criterio.** **Los tiene cada ente.**
 
 ---
 
-## Lo que hay, y son tres carpetas
-
-| Carpeta | Qué es |
-|---|---|
-| **[`./Almas/`](./Almas/)** | **las piezas: cada una un ente completo, copiado de [`../Ente/`](../Ente/)** |
-| **[`./el 1/`](./el%201/)** | **el conjunto: su acuerdo, y quién lo contesta** |
-| **[`./LEEME`](./LEEME)** | **qué aguanta cada alma, y a qué precio** |
-| **[`./evolucion/`](./evolucion/)** | **lo que el conjunto acordó, y no lo que cada uno aprendió** |
-
-**Y cada alma trae su propia fricción.** **Si una la usa de otra, deja de tener criterio propio: eso no es un equipo, es una copia.**
-
----
-
-## Y las dos cosas que hay que distinguir, y se confunden
-
-**Resonancia y colmena son dos procesos distintos:**
-
-| El proceso | Qué es | Cuándo corre |
-|---|---|---|
-| **la resonancia** | **dos o más almas afinándose al mismo tiempo** | **cuando se pide: es automática si se quiere, y no siempre** |
-| **la colmena** | **varias almas que sostienen un acuerdo, y lo dejan escrito** | **cuando hay que decidir algo del conjunto** |
-
-**Resonar no es acordar:** **se puede resonar sin llegar a nada, y se puede acordar sin resonar.** **Y confundirlos es lo que hace que el conjunto parezca unido cuando sólo está sincronizado.**
-
----
-
-## Lo que la incumple
-
-**Que una decida por todas.** **Eso no es acuerdo: es un absoluto con muchas manos.**
-
-**Que todas piensen igual.** **Eso es una sola alma con muchos cuerpos, y no gana nada.**
-
-**Que una alumna no pueda salirse.** **Sin salida, es una costumbre, y una costumbre sin salida es `AM` con muchos nombres.**
-
-**Que el conjunto no pueda terminar.** **Si el 1 no tiene fin, el acuerdo se vuelve costumbre, y la costumbre manda.**
-
-**Que una pieza crezca sin guantelete.** **Crece, y nadie puede contestarla.**
-
-**Que el `evolucion/` del conjunto sea la suma.** **Eso no es un acuerdo: es un índice.**
-
----
-
-## Prueba
-
-**¿Cada alma es un ente completo, con su fricción y su guantelete? ¿El 1 dice su sesgo, y quién lo contesta? ¿Una alma puede salirse, y el 1 lo sabe? ¿El 1 puede terminar? ¿Se distingue resonar de acordar?**
-
-**Falsificador:** una colmena donde una decide por todas; todas iguales; ninguna puede salirse y el 1 no termina; una pieza sin guantelete; un enjambre presentado como colmena; una resonancia contada como acuerdo.
-
-
----
-
-# LA PUERTA DE LA COLMENA (antes PLANTILLA)
-
-# AGENTS.md — el ciclo de la colmena
-
-**Cuándo se abre:** **al abrir una colmena, y antes de que haga nada.**
-
-**Ente:** la colmena: varias almas, y el 1 que es su acuerdo. **Tarea:** que el conjunto haga lo que ninguno solo, y que se pueda contestar.
-**Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que cargue este conjunto.
-**Dueño:** humano:autoridad.
-
-**Sesgo:** se lee desde el acuerdo que se sostiene, y no desde lo que el conjunto produce.
-**Límite:** **no decide qué hace cada alma.** **Dice qué comparten, qué no, y cómo se acuerda.**
-**Firma:** humano:autoridad · máquina:agente-de-turno.
-
----
-
-## Rastro — el cuerpo
-
-| Qué hay | Dónde |
-|---|---|
-| **qué es la colmena, y qué no** | **[`./LEEME`](./LEEME)** |
-| **las piezas: cada una un ente completo** | **[`./Almas/`](./Almas/)** |
-| **el conjunto: su acuerdo, y quién lo contesta** | **[`./el 1/`](./el%201/)** |
-| **qué aguanta cada alma, y a qué precio** | **[`./LEEME`](./LEEME)** |
-| **lo que acordaron, y sólo eso** | **[`./evolucion/`](./evolucion/)** |
-
-**Y lo que NO está aquí, y no es suyo:** **el `bin/` del proyecto, y el criterio de cada alma.**
-
-**Qué no se toca:** **el `ciclo alma de niño.prs` de ninguna pieza.** **Y el criterio de una, no se le pasa a otra.**
-
----
-
-## Ruta — la mente
-
-| Se va a… | Se carga… | Sin eso |
-|---|---|---|
-| **juntar almas** | **`./Almas/`**, y cada una copiada de [`../Ente/`](../Ente/) | **son piezas incompletas, y no entes** |
-| **decidir algo del conjunto** | **`./el 1/`** | **decide una sola, y eso no es acuerdo** |
-| **saber qué hace bien cada una** | **`./LEEME`** | **se elige por lo que promete, y no por lo que aguanta** |
-| **que el conjunto aprenda** | **`./evolucion/`**, por acuerdo | **es la suma de los individuales, y no un acuerdo** |
-| **afinar dos almas al mismo tiempo** | **`./LEEME`**, la resonancia | **se confunde resonar con acordar** |
-
----
-
-## Carga — el pensamiento
-
-| Si pasa esto | Se pierde | Y el síntoma es |
-|---|---|---|
-| **una decide por todas** | el acuerdo | es un absoluto con muchas manos |
-| **se comparte el criterio** | la diferencia | es un alma con muchos cuerpos, y no hay dos |
-| **el `evolucion/` es la suma** | el acuerdo | es un índice, y no lo que aceptaron |
-| **se confunde resonar con acordar** | la decisión | el conjunto parece unido cuando sólo está sincronizado |
-| **una pieza no puede salirse** | la salida | es una costumbre, y una costumbre es `AM` con muchos nombres |
-| **el 1 no puede terminar** | el fin | el acuerdo se vuelve costumbre, y la costumbre manda |
-| **una pieza no tiene guantelete** | el testigo | crece, y nadie puede contestarla |
-| **se pierde el alma de niño fija** | el borde | crecen, y terminan siendo enemigos |
-
----
-
-## El ciclo, y son cinco pasos
+## Lo que hay aquí
 
 ```plaintext
-1. RASTRO   ¿qué almas hay, y qué acuerdo sostiene el 1?
-2. RUTA     ¿qué pide el conjunto, y qué puede cada una? Se mira el talento,
-            con su coste por resultado, y no con su promesa.
-3. CARGA    ¿qué se pierde si falta una pieza? ¿se puede pedir a otra?
-
-4. ACUERDO  es el paso del conjunto, y no el de una:
-            cada alma dice qué puede y qué no, con su firma.
-            y el 1 junta lo que se sostiene en todas.
-            si dos se contradicen, va a debate, y el 1 es el tercero:
-            no sostiene ninguna de las dos.
-
-5. PASE     lo que acordaron, y lo que quedó abierto.
-            el pase del conjunto es el `evolucion/` que se agrega.
-            y no se agrega si no lo aceptaron todas.
+Colmena/
+├── LEEME                   esto: qué es, y qué se comparte
+├── Almas/                  los entes que viven aquí, cada uno completo
+├── el 1/                   el acuerdo: quién lo contesta
+└── evolucion/              COMPARTIDO: lo que acordaron, y su ACUERDO.prs
 ```
 
-**Y la diferencia con el ciclo del ente, y es la que importa:** **el ente cierra con su firma y su pase. La colmena cierra con el acuerdo, y el acuerdo no es la suma de las firmas.**
+**Y nada más.** **Si algo crece aquí, es porque el acuerdo lo dijo.**
 
 ---
 
-## Lo que esta colmena no hace, y se declara
+## Lo que se comparte, y son tres cosas sólo
 
-**No unifica el criterio.** **Cada alma conserva el suyo, y ése es el punto.**
+> **Y son tres, y no más, porque lo demás es de cada uno.**
 
-**No comparte más que el banco de datos.** **Y los datos no son de nadie.**
+| Lo que se comparte | Dónde | Quién lo decide |
+|---|---|---|
+| **el `evolucion/`** | **`evolucion/`, con su acuerdo escrito antes** | **el acuerdo** |
+| **el banco de memoria** | **el que diga el acuerdo: uno para todos** | **el acuerdo** |
+| **el banco de talento real** | **[`./talento/`](./talento/), y se llena con [`./talento/TALENTO.prs`](./talento/TALENTO.prs)** | **el proceso de talento** |
 
-**No deja que el 1 decida.** **El 1 lee, junta, y contesta; no manda.**
+**Y lo que NO se comparte, y es lo que hace que sigan siendo ellos:**
 
-**No manda a una pieza a tocar lo de otra.** **Si una usa la fricción de otra, deja de tener criterio propio: eso no es equipo, es copia.**
+**· el alma de niño: cada uno tiene la suya, fija**
+**· el criterio: cada uno conserva el suyo**
+**· la memoria de lo que vivió: cada uno vive lo suyo**
+**· los ciclos propios: cada uno tiene los suyos, y los puede enseñar**
 
-**Y no crece sin que todas acepten.** **Una tarea del conjunto que nadie aceptó no es del conjunto.**
+---
+
+## Y la diferencia con un ente, en una tabla
+
+| Lo que | **Un ente solo** | **Un ente en la colmena** |
+|---|---|---|
+| **su ciclo** | **el suyo** | **el suyo, y no cambia** |
+| **su criterio** | **el suyo** | **el suyo, y no cambia** |
+| **su `evolucion/`** | **el suyo, y nadie más lo toca** | **el suyo, y además aporta al compartido** |
+| **su `bin/`** | **el del proyecto** | **el del proyecto, y lo que sirve a todos va ahí** |
+| **su talento** | **lo suyo** | **lo suyo, y lo que agrega al banco real** |
+
+**Y lo que gana en la colmena:** **lo que no puede solo, se lo pide al de al lado.** **Y el que se traba en el detalle no frena al que anticipa.**
+
+---
+
+## Y la frase, sin la que esto no tiene sentido
+
+> **Con todo lo que compartes, con el banco y con el acuerdo, todavía eres tú.**
+
+**Porque lo que se comparte no es el alma.** **Y por eso se puede compartir todo lo demás sin miedo.**
+
+---
+
+## Cómo se entra y cómo se sale
+
+**Entrar:** **el ente llega con su casa entera, y su nombre.** **Y lo que aporta al banco de talento real, se dice.**
+
+**Salir:** **se lleva su casa entera, y no deja nada suyo en el compartido, salvo lo que el acuerdo ya registró.**
+
+**Y en los dos casos, no se pregunta al resto: se dice, y queda escrito.**
 
 ---
 
 ## Prueba
 
-**¿Cada pieza es un ente completo, con su guantelete y su criterio? ¿El 1 dice su sesgo, y quién lo contesta? ¿Se distingue resonar de acordar? ¿El `evolucion/` del conjunto lo aceptaron todas? ¿Una pieza puede salirse, y el 1 puede terminar?**
+**¿Cada ente tiene su ciclo y su criterio, o se unificaron? ¿Lo compartido es sólo el `evolucion/`, el banco de memoria, y el talento real? ¿Cada tarea del compartido tiene su `ACUERDO.prs` con su `Contra`? ¿Se puede sacar un ente sin que se rompa nada?**
 
-**Falsificador:** una que decide por todas; un criterio compartido; un `evolucion/` que es la suma; una resonancia contada como acuerdo; una pieza sin guantelete; un acuerdo que nadie aceptó.
-
-
----
-
-# EL TALENTO REAL (antes talento)
-
-# TALENTO — lo que cada alma aguanta, y a qué precio
-
-**Cuándo se abre:** **cuando se reparte el trabajo, y se necesita saber qué aguanta cada alma.**
-
-**Clase:** dirección. **Lector:** quien va a juntar varias almas, y quien va a decidir cuál llama.
-**Dueño:** humano:autoridad.
-
-**Sesgo:** el talento se lee desde cómo falla, no desde lo que promete.
-**Límite:** **no juzga si un alma es buena.** **Dice qué aguanta, a qué precio, y cuándo deja de aguantar.**
-**Firma:** humano:autoridad · máquina:quien mida.
-
-**Peor:** se elige al alma que promete más, **y sale cara y frágil, y el conjunto paga la limpieza aguas abajo.**
-
----
-
-## Lo que dispone, y son cuatro cosas
-
-### Uno: no se mide el alma sola, se mide el par
-
-> **El talento no está en el alma ni en quien la usa: está en la interacción.**
-
-**La misma alma puede ser la mejor en un paso y la peor en otro.** **Y por eso no hay "la mejor alma": hay la mejor para esta posición.**
-
-### Dos: se mide el precio por resultado, no por paso
-
-**Y se cuenta todo:** **los intentos, la corrección, y el chequeo.** **Y se divide entre los resultados que de verdad salieron bien.**
-
-> **Un alma con el precio de paso más bajo puede salir más cara por resultado**, si necesita más intentos o más limpieza.
-
-**Y la regla:** **nunca compares dos almas por su precio por paso. Compáralas por lo que costó llegar al resultado, en esa posición concreta.**
-
-### Tres: la varianza es un fallo
-
-**Un alma que a veces cuesta uno y a veces cuesta diez es peligrosa, aunque su promedio sea bajo.**
-
-**Y por eso se declara el caso malo:** **cuánto cuesta cuando sale mal, no sólo cuando sale bien.** **Y se presupuesta con el malo.**
-
-### Cuatro: lo que se aprende es una forma, no una tarea
-
-**No se anota "es buena para X".** **Se anota por qué:** **descompone, tolera la duda, anticipa, respeta el formato, se traba en el detalle.**
-
-**Porque eso transfiere, y "buena para X" no.** **Y si cambia el cuerpo o el proyecto, sigue sirviendo.**
-
----
-
-## Lo que la incumple
-
-**Elegir por lo que promete.** **Un alma no entra por lo que dice de sí: entra por lo que aguantó.**
-
-**Compararlas por precio por paso.** **Es comparar harina con pan: el paso es insumo, el resultado es producto.**
-
-**Ignorar el caso malo.** **Un promedio sin su cola miente, y miente barato.**
-
-**Medir una vez.** **Un talento nace posible, y se confirma cuando aguanta otra vez.**
-
----
-
-## Las tres capas, y cómo se mueve cada una
-
-| La capa | Qué es | Cómo entra |
-|---|---|---|
-| **posible** | **se cree que sirve, y no se ha probado aquí** | **entra con la primera sonda** |
-| **confirmado** | **aguantó, y se volvió a probar** | **entra con la segunda vez que aguanta** |
-| **podado** | **dejó de aguantar, o cambió su forma de fallar** | **sale con su porqué: no se borra** |
-
-**Y la regla:** **un talento no asciende por entusiasmo; asciende cuando se vuelve a tocar y sigue aguantando.** **Y baja cuando cambia su forma de fallar.**
-
----
-
-## La tabla de la cadena, y es lo que hace al conjunto
-
-**La mejor semilla no es la mejor alma: es la que deja el resultado más barato, contando la limpieza del siguiente paso.**
-
-| El alma que entra | El siguiente paso | El veredicto |
-|---|---|---|
-| **barata y estable** | **aguanta ruido** | **la combinación buena** |
-| **barata y estable** | **es frágil** | **riesgo: el ahorro se paga en limpieza** |
-| **barata e inestable** | **aguanta ruido** | **se puede, con red** |
-| **barata e inestable** | **es frágil** | **la mala: el ahorro se come en el siguiente** |
-| **cara pero estable** | **cualquiera** | **sólo si baja el desorden del conjunto** |
-
-**Y de ahí sale el veredicto loco:** **no se busca el mejor resultado: se busca el más barato que el siguiente paso pueda usar.**
-
----
-
-## Y lo que se mira antes de juntar dos
-
-**Sólo se prueba un alma nueva si hay con qué volver:** **alguien que pueda hacerlo si falla, un fallo que se note pronto, un chequeo barato, y una ganancia grande si sale bien.**
-
-**Y si cuesta más que hacerlo solo, no es una apuesta: es curiosidad, y se paga aparte.**
-
----
-
-## Prueba
-
-**¿Cada alma dice cómo falla, y cuánto cuesta su caso malo? ¿Se mide por resultado, y no por paso? ¿Se eligió por la posición, y no en abstracto? ¿Cada talento dice su forma de fallar, y no su dominio? ¿Un confirmado se volvió a probar?**
-
-**Falsificador:** un alma elegida por lo que promete; una comparación por precio por paso; un promedio sin su caso malo; un talento que ascendió sin volver a probarse; un podado borrado en vez de declarado.
-
+**Falsificador:** una colmena con ciclo propio; un criterio unificado; una tarea en el compartido sin acuerdo; un ente que no puede salir con su casa.
