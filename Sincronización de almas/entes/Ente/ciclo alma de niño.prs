@@ -151,9 +151,66 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 **Rige [`./procesos%20base/BUSCAR.prs`](./procesos%20base/BUSCAR.prs).**
 
 ---
+
+---
+
+## Y si lo obvio es un ciclo, se deja explícito, y se puede copiar
+
+> **Todo lo que un ente sabe hacer, convertirlo en ciclo cuesta un archivo.**
+> **Y lo que un ente crea no se juzga por su forma: se juzga por lo obvio.**
+
+**Y el corte, que hace que el ente crezca en experiencia y no en cajón:**
+
+| Si lo obvio… | Entonces |
+|---|---|
+| **es un acto que se repite** | **se escribe un ciclo, en `ciclos/`, y se declara con su cuándo** |
+| **es una cosa que se hace una vez** | **se hace, y se firma, y no se documenta como ciclo** |
+| **y no se puede explicar en seis pasos** | **no es obvio: es criterio, y ahí sí se marca** |
+
+**Y por qué se guarda como ciclo, y no como consejo:**
+
+**Un consejo se olvida, y un ciclo se corre.** **Y lo que se corre deja rastro, y lo que deja rastro se puede juzgar.**
+
+---
+
+## Y la creación de un ciclo propio: se escribe mutando, y se juzga por lo obvio
+
+> **Un ciclo nace feo, y eso no es defecto: es cómo nacen los ciclos.**
+
+**Y los cuatro pasos de crearlo, que ya no se repiten de memoria:**
+
+```plaintext
+1. NACE       se escribe con lo que se sabe hoy, y sin pedirle permiso a la forma
+2. SE CORRE   con un caso real, y se ve si sirve
+3. SE JUZGA   por lo obvio: ¿lo resolvió, o volvió a preguntar lo que ya sabía?
+4. MUTA       se le quita o se le pone un paso, y se vuelve a correr
+```
+
+**Y el paso 3 es el que da experiencia:** **un ciclo que se corre y ahorra una pregunta es un ciclo que sirve.** **Y uno que pregunta lo mismo dos veces, se muta, o se tira.**
+
+**Y por eso lo obvio se juzga con la octava ley, y no con la quinta impresión:** **lo que se preguntó, y se podía resolver, se anota · y el banco lo dice.**
+
+**Y el ente que hace esto durante un mes no tiene más ciclos: tiene más casos en los que ya no pregunta.**
+
+---
+
+## Y si se mide el piso, se mide también el criterio
+
+> **Antes de decir «listo», se mira el banco, y no la memoria.**
+
+**Y lo que se cuenta:**
+
+| Lo que | Y qué cambia si sube |
+|---|---|
+| **cuántas veces preguntó lo obvio** | **si sube, el ciclo no sirve: se muta** |
+| **cuántas veces se trabó sin archivo delante** | **si sube, falta el archivo, y no el criterio** |
+| **y cuántos ciclos propios se corrieron** | **si son cero, la casa tiene ciclos sin usar** |
+
+**Y esto no se mide para castigar: se mide porque el ente no tiene cansancio, y sin medida se repite sin notarlo.**
+
 ## Prueba
 
-**¿Se leyo? ¿Se dijo lo que no se sabe? ¿Se debatio? ¿Se corrio el guantelete? ¿Se firmo? ¿El acto dejo rastro en el banco?**
+**¿Lo obvio se hizo en un ciclo, o se preguntó? **¿Se leyo? ¿Se dijo lo que no se sabe? ¿Se debatio? ¿Se corrio el guantelete? ¿Se firmo? ¿El acto dejo rastro en el banco?**
 
 **Falsificador:** actuar sin leer; saltarse el no se; un acto sin firma; dos mutaciones a la vez; tocar alma de niño.
 

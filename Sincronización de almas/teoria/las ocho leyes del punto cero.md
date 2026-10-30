@@ -103,6 +103,20 @@
 
 **Y lo que se hace con lo que no se puede resolver:** **se marca, se dice qué falta, y se sigue con lo demás.** **Porque un acto que espera permiso de todo no es prudente: es un acto que no existe.**
 
+### Y si lo obvio es un acto que se repite, se vuelve ciclo
+
+> **Un consejo se olvida. Un ciclo se corre, y deja rastro.**
+> **Y lo que deja rastro se puede juzgar.**
+
+**Y por eso lo obvio que se repite se escribe en `ciclos/`, con su cuándo, y se corre.** **Y lo que se hace una vez, se hace y se firma, y no se documenta como ciclo.**
+
+**Y el ciclo que nace se crea mutando:** **se escribe con lo que se sabe, se corre con un caso real, se juzga por lo obvio, y se le quita o se le pone un paso.**
+
+**Y el juicio es el de la octava:** **¿el ciclo ahorró una pregunta, o la repitió?**
+
+**Porque así crece la experiencia:** **no con más ciclos, sino con más casos en los que ya no se pregunta.**
+
+---
 ## Prueba
 
 **¿Cada ley dice su razón? ¿Se puede tener una sin la otra? ¿Y la séptima y la octava se pueden correr como pruebas, y no como opiniones?**
