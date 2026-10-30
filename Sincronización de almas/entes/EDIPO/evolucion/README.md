@@ -1,5 +1,7 @@
 # EVOLUCIÓN — vacío, y es a propósito
 
+**Cuándo se abre:** **cuando EDIPO atiende algo y no sirvió, para que no se repita.**
+
 **Hecho:** 2026-10-29. **Clase:** la cuarta pieza. **Estado:** en blanco, y estrena hoy.
 
 ---

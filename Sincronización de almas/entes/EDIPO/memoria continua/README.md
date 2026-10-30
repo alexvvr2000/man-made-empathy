@@ -1,5 +1,7 @@
 # MEMORIA CONTINUA — lo que `EDIPO` vive, y no lo que la biblioteca recuerda
 
+**Cuándo se abre:** **al abrir a EDIPO, y al cerrar lo que atendió.**
+
 **Hecho:** 2026-10-29. **Clase:** el taller del bibliotecario. **Estado:** en blanco, y estrena hoy.
 
 ---

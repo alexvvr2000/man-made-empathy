@@ -1,5 +1,7 @@
 # AGENTS.md — el ciclo de la colmena
 
+**Cuándo se abre:** **al abrir una colmena, y antes de que haga nada.**
+
 **Ente:** la colmena: varias almas, y el 1 que es su acuerdo. **Tarea:** que el conjunto haga lo que ninguno solo, y que se pueda contestar.
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que cargue este conjunto.
 **Dueño:** humano:autoridad.

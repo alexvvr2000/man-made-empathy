@@ -1,5 +1,7 @@
 # EVOLUCIÓN DEL CONJUNTO — lo que acordaron, y no lo que cada uno aprendió
 
+**Cuándo se abre:** **cuando la colmena acordó algo, y hay que dejarlo escrito.**
+
 **Clase:** dirección del producto. **Lector:** quien vaya a juntar varios entes, y quiera que el conjunto aprenda.
 **Dueño:** humano:autoridad.
 

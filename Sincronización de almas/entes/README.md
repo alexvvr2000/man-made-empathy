@@ -1,5 +1,7 @@
 # ENTES — lo que se copia, y ya sirve para empezar a chambear
 
+**Cuándo se abre:** **cuando alguien llega por primera vez, y quiere entender qué se copia y para qué.**
+
 **Hecho:** 2026-10-28. **Clase:** plantilla. **Estado:** vigente y usable, **y todavía no es la v1 final.**
 **Ente:** `man-made-empathy` · **Tarea:** que alguien haga su propio ente, con lo que hay.
 **Lector:** cualquiera que abra esta carpeta, y ya quiera empezar. **Dueño:** humano:autoridad.

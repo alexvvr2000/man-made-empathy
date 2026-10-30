@@ -1,5 +1,7 @@
 # bin/ — de todos, y muta bajo criterio
 
+**Cuándo se abre:** **cuando el ente trabaja en un proyecto, y hay un taller que no es suyo.**
+
 **Clase:** el taller del proyecto. **Dueño:** nadie en particular, y todos los que pasen.
 **Estado:** vacío hoy, y crece.
 

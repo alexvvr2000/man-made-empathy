@@ -1,5 +1,7 @@
 # ALMA DE NIÑO — el ciclo, y es fijo
 
+**Cuándo se abre:** **antes de construir un ente, y para saber qué no se toca.**
+
 **Clase:** el alma. **Dueño:** humano:autoridad. **Estado:** vigente.
 
 **Lo primero:** **es fijo.** **No muda cuando crece.** **Y el guantelete no lo toca.**

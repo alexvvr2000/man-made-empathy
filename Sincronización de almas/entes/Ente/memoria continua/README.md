@@ -1,5 +1,7 @@
 # MEMORIA CONTINUA — lo que se pueda sacar, y puede mutar
 
+**Cuándo se abre:** **al abrir el ente, y al cerrar el turno.**
+
 **Clase:** memoria del trabajo. **Dueño:** humano:autoridad. **Estado:** vigente, y muta.
 
 ---

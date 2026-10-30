@@ -1,5 +1,7 @@
 # LA COLMENA — varias almas, y ninguna es la jefa
 
+**Cuándo se abre:** **cuando hay más de un alma trabajando, y hay que saber quién manda.**
+
 **Clase:** dirección. **Lector:** quien va a juntar más de un ente.
 **Dueño:** humano:autoridad.
 

@@ -1,5 +1,7 @@
 # TALENTO — lo que cada alma aguanta, y a qué precio
 
+**Cuándo se abre:** **cuando se reparte el trabajo, y se necesita saber qué aguanta cada alma.**
+
 **Clase:** dirección. **Lector:** quien va a juntar varias almas, y quien va a decidir cuál llama.
 **Dueño:** humano:autoridad.
 

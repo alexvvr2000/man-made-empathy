@@ -1,5 +1,7 @@
 # EDIPO — el bibliotecario, y su casa
 
+**Cuándo se abre:** **cuando alguien llega, y no sabe qué hace EDIPO.**
+
 **Hecho:** 2026-10-29. **Clase:** la carta del ente.
 **Dueño:** humano:autoridad. **Estado:** vigente, y estrena casa hoy.
 

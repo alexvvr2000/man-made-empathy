@@ -1,5 +1,7 @@
 # bin/ — lo mínimo de EDIPO, y se publica
 
+**Cuándo se abre:** **cuando EDIPO atiende, y se necesita saber qué puede correr.**
+
 **Hecho:** 2026-10-29. **Clase:** el taller del bibliotecario. **Estado:** cuatro herramientas, y crece cuando haga falta.
 
 **Sesgo:** se lee desde el que va a correrlo, y no desde el que lo escribió.

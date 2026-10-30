@@ -1,5 +1,7 @@
 # _herramientas/ — lo mínimo de `EDIPO`, y se publica
 
+**Cuándo se abre:** **cuando se copia EDIPO, y hay que saber qué trae encima.**
+
 **Hecho:** 2026-10-29. **Clase:** la caja del bibliotecario. **Estado:** mínima.
 
 **Sesgo:** se lee desde el que llega sin nada instalado.

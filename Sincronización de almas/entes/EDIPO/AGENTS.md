@@ -1,5 +1,7 @@
 # EDIPO — la puerta del bibliotecario
 
+**Cuándo se abre:** **al abrir EDIPO, y antes de contestar nada.**
+
 **Ente:** `EDIPO` · **Tarea:** atender: saber dónde están las cosas, cuáles se leen, y a quién pasárselas.
 **Lector:** `EDIPO` al abrir, y quien lo contrate.
 **Dueño:** **quien tiene la autoridad en el proyecto donde atiende.**

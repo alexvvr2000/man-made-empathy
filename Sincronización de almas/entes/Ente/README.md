@@ -1,5 +1,7 @@
 # EL ENTE — la pieza que viaja, y lo que la hace contestable
 
+**Cuándo se abre:** **cuando se va a copiar un ente, y antes de darle nombre.**
+
 **Clase:** dirección del producto. **Lector:** quien va a hacer un ente, y quien va a leer lo que hizo.
 **Dueño:** humano:autoridad.
 

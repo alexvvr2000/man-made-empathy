@@ -1,5 +1,7 @@
 # ALMAS — cada pieza es un ente completo
 
+**Cuándo se abre:** **cuando se arma una colmena, y se necesita saber qué es cada pieza.**
+
 **Clase:** dirección. **Lector:** quien va a meter la segunda alma.
 **Dueño:** humano:autoridad.
 

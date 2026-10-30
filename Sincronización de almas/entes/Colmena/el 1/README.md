@@ -1,5 +1,7 @@
 # EL 1 — el acuerdo, y quién lo contesta
 
+**Cuándo se abre:** **cuando la colmena va a acordar algo, y hay que saber quién lo contesta.**
+
 **Clase:** dirección. **Lector:** quien va a decidir por el conjunto, o va a leer por qué no hay jefe.
 **Dueño:** humano:autoridad.
 
