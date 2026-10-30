@@ -394,7 +394,7 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 
 ## Falsificador
 
-Una analogía presentada como prueba; una que necesita explicación para entenderse; una que atribuye a un personaje lo que no hace en su obra; una que se mete en el jugo del autor.
+Una analogía presentada como prueba; una que necesita explicación para entenderse; una que atribuye a un personaje lo que no hace en su obra; una que se mete en lo que la persona pensaba.
 
 ---
 
@@ -441,7 +441,7 @@ Una analogía presentada como prueba; una que necesita explicación para entende
 
 ## Por qué va aquí, y no en la lectura del argumento
 
-**Porque quien lo declara lo deja aquí como su criterio, y lo que pensaba se lee aparte, en su visión lo agrega él, cuando la escriba.** **Esto es el criterio; el jugo es de él.**
+**Porque quien lo declara lo deja aquí como su criterio, y lo que pensaba se lee aparte, en su lectura; y lo agrega cuando la escriba.** **Esto es el criterio; lo que pensaba es de quien lo pensó.**
 
 ---
 
