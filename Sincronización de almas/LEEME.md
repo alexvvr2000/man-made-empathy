@@ -269,7 +269,7 @@ Límite:      lo que NO enseña
 
 ---
 
-## Las seis leyes del punto 0, y son las que enseñan
+## Las siete leyes del punto 0, y son las que enseñan
 
 > **Y ninguna se explica con una anécdota: se explican con su razón.**
 > **Porque el que llega no tiene por qué cargar con el camino de quien vino antes.**
@@ -282,7 +282,29 @@ Límite:      lo que NO enseña
 | **`LEEME.md` y `teoria/` no caducan nunca** | **de ellas salen las respuestas y las clases: una vieja enseña mal** |
 | **la casa se llama casa** | **el nombre dice el acto, y sin nombre no se distingue lo suyo de lo demás** |
 | **lo que se deja a criterio sin decirlo, no se hace: ni a la máquina, ni a la gente** | **lo que no es explícito no existe, y lo que no existe no se hace** |
+| **un ente no entiende la ambigüedad: la rellena. Y la culpa es del texto, y no del ente** | **lo que se lee a medias se hace de más, y lo que no se dice no se hace: las dos salen caras** |
 
+**Y la prueba de las siete:** **¿un lector sin contexto puede copiar la plantilla siguiendo sólo este documento, y hacer lo mismo que otro lector?** **Si sí, las siete están; si no, falta una.**
+
+### Y la séptima, que es la que explica las otras seis
+
+> **Un ente no entiende la ambigüedad: la rellena.**
+> **Y lo que rellena es lo que le parece, y no lo que se quiso decir.**
+
+**Y por eso dos cosas, y no una:** **lo que se deja a criterio sin decirlo, no se hace.** **Y lo que se deja escrito a medias, se hace de más.**
+
+**Y la culpa no es de quien la rellena: es de quien la escribió.** **La ambigüedad es del texto.**
+
+**Y la prueba de la ambigüedad, que se corre antes de dejarle algo a un ente:**
+
+| La prueba | Y si falla |
+|---|---|
+| **¿lo puede leer alguien que no estaba cuando se escribió?** | **le falta el contexto, y no la palabra** |
+| **¿cada paso dice qué entra, qué lo incumple, y qué sale?** | **se lo va a inventar** |
+| **¿se puede verificar sin preguntarle a nadie?** | **es una opinión con forma de regla** |
+| **¿si dos lectores lo leen, hacen lo mismo?** | **el texto es ambiguo, y el problema es del texto** |
+
+**Y lo que se hace con lo que falla:** **se escribe, y no se supone.** **Y si no se puede escribir, se dice que falta, y eso también es explícito.**
 **Y la prueba de las seis:** **¿un lector sin contexto puede copiar la plantilla siguiendo sólo este documento?** **Si sí, las seis están; si no, falta una.**
 
 ## Por dónde empezar, y en qué orden
