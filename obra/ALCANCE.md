@@ -25,13 +25,13 @@
 |---|---|---|
 | **la idea, en una línea** | **una** | **[`./README.md`](../README.md)** |
 | **los procesos de dirección** | **9, cada uno con su falsificador** | **`./direcciones/`** |
-| **el ente y la colmena** | **la forma, y su ciclo fijo** | **`./Sincronización de almas/entes/`** |
-| **los dos hermanos que atienden** | **2, con sus tareas y sus cajas** | **`./biblioteca/`** |
-| **el argumento** | **19 piezas, y las ocho leyes** | **`./Sincronización de almas/teoria/el orden de las lecturas.md`** |
-| **las fichas de obras** | **34: 32 con una fuente, y 2 con ninguna, y cada una lo dice** | **`./Sincronización de almas/teoria/ejemplos/`** |
+| **el ente y la colmena** | **la forma, y su ciclo fijo** | **`./Alineación de entes/implementacion/`** |
+| **los dos hermanos que atienden** | **2, con sus tareas y sus cajas** | **`[YA NO ESTÁ: la biblioteca se retiró]`** |
+| **el argumento** | **19 piezas, y las ocho leyes** | **`./Alineación de entes/tesis/candados/1-el-argumento/00 el orden de las lecturas.md`** |
+| **las fichas de obras** | **33: las que tienen fuente, y 2 con ninguna, y cada una lo dice** | **`./Alineación de entes/tesis/ficcion/`** |
 | **las pruebas** | **6 escritas** | **`./Pruebas/`** |
-| **el taller del proyecto** | **lo que sirve a todos** | **`./bin/`** |
-| **la historia** | **674 commits, en 29 días** | **`./biblioteca/Almas/HERÓDOTO/`** |
+| **el taller del proyecto** | **lo que sirve a todos** | **`[YA NO ESTÁ]`** |
+| **la historia** | **674 commits, en 29 días** | **`[YA NO ESTÁ: la biblioteca se retiró]`** |
 
 ---
 
@@ -39,7 +39,7 @@
 
 | Lo que | Y cómo está |
 |---|---|
-| **`Sincronización de almas/`** | **el punto 0, y no cita nada de fuera** |
+| **`Alineación de entes/`** | **el punto 0, y no cita nada de fuera** |
 | **su puerta** | **un solo `AGENTS.md`, y un solo `LEEME.md`** |
 | **`teoria/`** | **19 piezas, y un orden de lectura** |
 | **los ejemplos** | **dentro de `teoria/ejemplos/`, y no sueltos** |
@@ -70,7 +70,7 @@
 
 | Lo que se retiró | Por qué |
 |---|---|
-| **`bin/ciclo.py` y `bin/esquema.sql`** | **hacían en SQLite lo que hoy hacen los bancos en texto, y nunca se instalaron.** **Dos formas de hacer lo mismo, y una sin usar, es ruido** |
+| **`[YA NO ESTÁ]` y `[YA NO ESTÁ]`** | **hacían en SQLite lo que hoy hacen los bancos en texto, y nunca se instalaron.** **Dos formas de hacer lo mismo, y una sin usar, es ruido** |
 | **`LO QUE FALTA.md`** | **se convirtió en este documento: un alcance, y no una lista de faltas** |
 | **`MUTAR.prs` y `PROCESOS.prs`** | **entraron al ciclo fijo, y su prosa fue a `teoria/`** |
 

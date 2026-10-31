@@ -17,11 +17,11 @@
 | Lo que | Cuánto | Dónde | Cómo se comprueba |
 |---|---|---|---|
 | **archivos en el repositorio** | **141** | **la raíz, y sus carpetas** | **contar los archivos, sin el `.git`** |
-| **fichas de obras** | **34** | **`Sincronización de almas/teoria/ejemplos/ficcion/`** | **contar los `.md`** |
+| **fichas de obras** | **33** | **`Alineación de entes/tesis/ficcion/`** | **contar los `.md`** |
 | **direcciones** | **9** | **`direcciones/`** | **contar los `.md`** |
 | **pruebas escritas** | **6** | **`Pruebas/`** | **contar los `.md`** |
-| **piezas de teoría** | **55** | **`Sincronización de almas/teoria/`** | **contar los archivos** |
-| **piezas en `bin/`** | **5** | **`bin/`** | **contar los archivos** |
+| **piezas de teoría** | **25** | **`Alineación de entes/tesis/candados/`** | **contar los archivos** |
+| **piezas en `[YA NO ESTÁ]`** | **5** | **`[YA NO ESTÁ]`** | **contar los archivos** |
 | **imágenes, clips, o audio** | **0** | **—** | **buscar `*.jpg`, `*.png`, `*.mp4`, `*.webp`** |
 | **commits en el historial** | **674** | **el historial de git** | **`git rev-list --count HEAD`** |
 | **días con commits** | **29** | **el git** | **agrupar por fecha** |
@@ -85,7 +85,7 @@
 
 ## Y el estado de verificación, que no es lo mismo que el inventario
 
-**Las 34 fichas están verificadas con una sola mirada, y ninguna con dos.** **La tabla completa está en `../Sincronización de almas/teoria/ejemplos/ESTADO`.**
+**Las 33 fichas están verificadas con una sola mirada, y ninguna con dos.** **La tabla completa está en `../Alineación de entes/tesis/ficcion/ESTADO`.**
 
 | Estado | Cuántas |
 |---|---|
