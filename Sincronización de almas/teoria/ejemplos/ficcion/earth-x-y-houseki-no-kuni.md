@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo, y son dos casos del mismo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha. **Y `Earth X` es Marvel, y NO es del MCU.**
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** dos, una por obra. **Y las dos se abrieron el 2026-10-31.**
+**Enlace:** https://en.wikipedia.org/wiki/Earth_X   y   https://en.wikipedia.org/wiki/Land_of_the_Lustrous   (las dos abiertas el 2026-10-31)
+**Para citarlo en un escrito público:** se busca la tercera, y se pide antes de usar.
+**Y se dice lo que se corrigió al abrir:** `Earth X` no es «1999» a secas, sino del 30 de marzo de 1999 al 30 de junio de 2000, en catorce números; y `Doug Braithwaite` y `Well-Bee` también dibujan, además de `John Paul Leon`.
 
 ---
 
