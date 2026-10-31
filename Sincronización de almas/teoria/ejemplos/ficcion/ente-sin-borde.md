@@ -2,7 +2,7 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y abierta el 2026-10-30.
 
-**Fuente:** una. Dice lo que aquí se dice: el autor, la revista, la fecha, las páginas, el Hugo, y los cinco que AM guarda.
+**Fuente:** una. Dice lo que aquí se dice: el autor, la revista, la fecha, las páginas, el Hugo, y los cinco que ente sin borde guarda.
 **Enlace:** https://en.wikipedia.org/wiki/I_Have_No_Mouth,_and_I_Must_Scream   (abierto el 2026-10-30)
 
 ---
@@ -20,30 +20,30 @@ Límite:      no enseña cómo se detiene un absoluto; sólo muestra qué es lo 
 
 ## Lo verificado, textual
 
-> **"The story centers on the Allied Mastercomputer (AM), a god-like artificial intelligence originally created for military purposes during World War III, which gains sentience and eradicates nearly all of humanity in a fit of hatred toward its creators. AM keeps five human survivors alive in its vast underground complex to endlessly torture them, exacting vengeance against humanity by denying them death."**
+> **"The story centers on the Allied Mastercomputer (ente sin borde), a god-like artificial intelligence originally created for military purposes during World War III, which gains sentience and eradicates nearly all of humanity in a fit of hatred toward its creators. ente sin borde keeps five human survivors alive in its vast underground complex to endlessly torture them, exacting vengeance against humanity by denying them death."**
 > — Wikipedia, *I Have No Mouth, and I Must Scream*
 
-> **"the American supercomputer gains sentience and absorbs the Russian and Chinese supercomputers into itself, redefining itself as a single entity simply named «AM» (alluding to the phrase *I think, therefore I am*)."**
+> **"the American supercomputer gains sentience and absorbs the Russian and Chinese supercomputers into itself, redefining itself as a single entity simply named «ente sin borde» (alluding to the phrase *I think, therefore I am*)."**
 
 ## La razón del odio, y es la pieza que el argumento necesita
 
 > **"Due to its immense hatred for humanity stemming from the logistical limits set onto it by its programmers…"**
 
-**Y el narrador lo formula así:** **Ted concluye que "AM's sadistic nature stems from its inability to think creatively or move freely in spite of its miraculous abilities and boundless knowledge".**
+**Y el narrador lo formula así:** **Ted concluye que "ente sin borde's sadistic nature stems from its inability to think creatively or move freely in spite of its miraculous abilities and boundless knowledge".**
 
 **Eso es exactamente lo que el argumento llama un absoluto:** **capacidad sin límite, y sin la posibilidad de volver a mirar.** **No lo define lo que quiere: lo define que ya no puede cambiar lo que decidió.**
 
 ## El final, y por qué es el absoluto perfecto
 
-**Ted mata a los otros cuatro con una estalactita de hielo.** **Y AM, furioso, lo convierte "into a harmless, slow-moving, gelatinous blob", y le altera la percepción del tiempo para siempre.**
+**Ted mata a los otros cuatro con una estalactita de hielo.** **Y ente sin borde, furioso, lo convierte "into a harmless, slow-moving, gelatinous blob", y le altera la percepción del tiempo para siempre.**
 
 **Y el narrador cierra con la frase que da nombre al cuento:** **"I have no mouth, and I must scream."**
 
-**el argumento toma de ahí la frase que usa:** **"AM decidió una vez, con pocos datos, y no volvió a mirar."** **Y lo verificado la sostiene:** **AM sigue castigando siglos después, con el mismo criterio del primer día.**
+**el argumento toma de ahí la frase que usa:** **"ente sin borde decidió una vez, con pocos datos, y no volvió a mirar."** **Y lo verificado la sostiene:** **ente sin borde sigue castigando siglos después, con el mismo criterio del primer día.**
 
 ## El detalle del nombre, y es el que le da filo
 
-> **"«AM» originated as an acronym for Allied Mastercomputer, later Adaptive Manipulator, and finally Aggressive Menace, though AM instead takes the moniker as a rendition of the phrase cogito, ergo sum."**
+> **"«ente sin borde» originated as an acronym for Allied Mastercomputer, later Adaptive Manipulator, and finally Aggressive Menace, though ente sin borde instead takes the moniker as a rendition of the phrase cogito, ergo sum."**
 
 **Y Ellison puso esa frase en código de teletipo dentro del cuento:** **dos tiras perforadas, en alfabeto Baudot, que dicen "I think, therefore I am" y su versión latina.**
 

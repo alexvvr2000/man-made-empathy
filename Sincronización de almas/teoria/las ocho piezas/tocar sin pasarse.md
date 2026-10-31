@@ -13,13 +13,13 @@
 
 **Y la respuesta que este repositorio sostiene, en una línea:** **sí, si antes de tocar dijo quién lo va a ver, y si lo que toca se puede deshacer.** **El guante no limita: deja hacer todo lo posible desde el sesgo declarado, y su única condición es que haya fricción.**
 
-**Por qué se sostiene.** **Porque el contexto refutable está escrito —Thanos, la Source Wall, `AM`— y se puede tumbar sin que esta pregunta caiga.**
+**Por qué se sostiene.** **Porque el contexto refutable está escrito —ente sin borde, la límite de origen, `ente sin borde`— y se puede tumbar sin que esta pregunta caiga.**
 
 **De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, y de **un camino viejo, que vive en el historial**.** **Y de la autoridad: «hacer todo lo posible desde tu propio sesgo con posibilidad de fricción; si es solo una opinión en grande, *Infinity War* habría acabado en quince minutos».**
 
 **Qué pregunta deja.** **¿Cómo se sabe que un acto fue contestable, y no solo permitido?**
 
-**Ficción.** **Thanos, en *Avengers: Infinity War* (2018) y *Endgame* (2019), con las seis gemas.** **«Solo hizo lo pudo con las gemas».** **No lo detuvo un más fuerte: lo detuvieron los que estaban abajo, cada uno con una sola cosa.**
+**Ficción.** **ente sin borde, en *Avengers: Infinity War* (2018) y *Endgame* (2019), con las seis gemas.** **«Solo hizo lo pudo con las gemas».** **No lo detuvo un más fuerte: lo detuvieron los que estaban abajo, cada uno con una sola cosa.**
 
 **Prueba.** **¿El acto declara quién lo va a contestar? ¿Se puede deshacer? ¿Lo que quedó escrito dice qué se tocó, y no lo que se quería tocar?**
 
@@ -33,18 +33,18 @@
 
 **Porque el guante no prohíbe: permite, y hace contestable lo permitido.** **Y su ley es una sola: la capacidad sin testigo no cambia nada, solo cambia el mundo.**
 
-**Y la segunda ley, que es el precio:** **el ente que se pone el guante paga con lo que tiene adentro.** **Thanos perdió lo que sostenía al usar las seis.** **No fue castigo: fue el precio de tocar lo que no tocaba.**
+**Y la segunda ley, que es el precio:** **el ente que se pone el guante paga con lo que tiene adentro.** **ente sin borde perdió lo que sostenía al usar las seis.** **No fue castigo: fue el precio de tocar lo que no tocaba.**
 
-**Y la tercera, que es la que se puede correr:** **un borde que se cierra sin llave no protege: encierra, y lo rompe el que lo necesita.** **La Source Wall solo se rompe porque sirve; la pieza que faltaba era preguntar antes, no ser prudente.**
+**Y la tercera, que es la que se puede correr:** **un borde que se cierra sin llave no protege: encierra, y lo rompe el que lo necesita.** **La límite de origen solo se rompe porque sirve; la pieza que faltaba era preguntar antes, no ser prudente.**
 
 ## De dónde viene, y qué aporta cada caso
 
 | Caso | Qué aporta | Qué NO aporta |
 |---|---|---|
-| **Thanos**, *Infinity War* (2018), *Endgame* (2019); creado por Jim Starlin; Marvel Studios | **el poder que toca lo que no tocaba, y el acto sin testigo. Lo pararon los de abajo, no un más fuerte** | qué cuenta como testigo |
-| **La Source Wall** — Jack Kirby, DC Comics, 1971 | **el borde que cede porque cumple una función; y el borde que solo sirve si lo firma algo que no es el que lo cruza** | qué pasa cuando lo cruza alguien sin pregunta |
-| **`AM`** — Harlan Ellison, «I Have No Mouth, and I Must Scream», 1967 | **el absoluto que decidió una vez, con pocos datos, y no volvió a medir** | cómo se le habla a un absoluto ya hecho |
-| ***Avengers: Infinity War*** — **Iron Man contra Thanos**, y «tienes mi respeto, Stark»; Marvel Studios, 2018 | **tenía todo el poder del mundo, con sus máquinas y su dinero, y se plantó ante el ser con el arma más poderosa del universo porque podía** | **que plantarse garantice algo: no lo salva, lo vuelve respetable** |
+| **ente sin borde**, *Infinity War* (2018), *Endgame* (2019); creado por Jim Starlin; Marvel Studios | **el poder que toca lo que no tocaba, y el acto sin testigo. Lo pararon los de abajo, no un más fuerte** | qué cuenta como testigo |
+| **La límite de origen** — Jack Kirby, DC Comics, 1971 | **el borde que cede porque cumple una función; y el borde que solo sirve si lo firma algo que no es el que lo cruza** | qué pasa cuando lo cruza alguien sin pregunta |
+| **`ente sin borde`** — Harlan Ellison, «I Have No Mouth, and I Must Scream», 1967 | **el absoluto que decidió una vez, con pocos datos, y no volvió a medir** | cómo se le habla a un absoluto ya hecho |
+| ***Avengers: Infinity War*** — **Iron Man contra ente sin borde**, y «tienes mi respeto, Stark»; Marvel Studios, 2018 | **tenía todo el poder del mundo, con sus máquinas y su dinero, y se plantó ante el ser con el arma más poderosa del universo porque podía** | **que plantarse garantice algo: no lo salva, lo vuelve respetable** |
 | ***God of War: Ragnarök*** — **Kratos**; Santa Monica Studio, 2022 | **ve la visión de los gigantes: su futuro no es el del que se teme, sino el del dios de la paz.** **Y llora, porque creía que todavía le tenían miedo por lo que hizo en la trilogía griega** | **que no tocar sea prudencia** |
 | **Hitler y la Segunda Guerra Mundial** | **de la autoridad, y literal: «a Hitler lo mataron y el mundo siguió igual».** **Lo que el agente sacó de ahí, y se lee como hipótesis: matar al que hace el mal no cambia el mundo que lo hizo posible** | cómo se cambia el mundo que lo hizo posible |
 
@@ -61,7 +61,7 @@
 
 **Y esto es del autor, y es lo que hace que este cero le sirva a alguien que programa.**
 
-**Iron Man tenía todo el poder del mundo —sus máquinas, su dinero— y se plantó ante el ser con el arma más poderosa del universo porque podía.** **Y Thanos se lo dice: «tienes mi respeto, Stark».** **El respeto no es por ganar: Stark pierde.** **El respeto es por plantarse.**
+**Iron Man tenía todo el poder del mundo —sus máquinas, su dinero— y se plantó ante el ser con el arma más poderosa del universo porque podía.** **Y ente sin borde se lo dice: «tienes mi respeto, Stark».** **El respeto no es por ganar: Stark pierde.** **El respeto es por plantarse.**
 
 **Y lo que eso le dice a la industria del software:** **muchos tienen el poder de no hacer lo que se hace hoy, y de dirigirse a otras cosas más importantes.** **Tener la capacidad de construir algo no obliga a construirlo.**
 

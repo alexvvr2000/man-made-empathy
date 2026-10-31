@@ -38,7 +38,7 @@
 |---|---|
 | **[`las ocho leyes del punto cero`](./las%20ocho%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
 | **[`la casa del ente`](./la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
-| **[`por que el guantelete no toca el alma`](./por%20que%20el%20guantelete%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
+| **[`por que el conducto no toca el alma`](./por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
 | **[`el alma es la raiz, y el oficio es la rama`](./el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |
 | **[`el ciclo, y por que decide no hacerlo`](./el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **por qué un ente no hace nada** |
 | **[`mutar`](./mutar.md)** | **qué puede cambiar, y qué se pierde** |

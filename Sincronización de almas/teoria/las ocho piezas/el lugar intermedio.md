@@ -106,13 +106,13 @@ y espero: …
 | **Visión**, de los Vengadores — Roy Thomas y John Buscema; Marvel | **una visión es el que es muy diferente, aprendió algo que nosotros no, y nos ayuda por algo. La alineación se explica; la visión se muestra** | cómo se muestra sin que se copie |
 | **J'onn J'onzz**, el Detective Marciano — Joseph Samachson y Joe Certa; DC Comics, 1955 | **el último de su especie, varado en un planeta que no es el suyo, y aun así ayuda. El que no conoció a su gente solo puede ser tolerado; el que la conoció y la perdió, sí puede convivir** | cómo se convive sin haber perdido nada |
 | ***Fantastic Four: The Animated Series*, «When Calls Galactus»** — 1995; **Ghost Rider** | **la mirada que no se explica: se muestra. Galactus no entendió: vio** | qué se muestra a quien no lee razones |
-| **`AM`** — Harlan Ellison, 1967 | **creen que todos necesitan lo mismo: ese es el error del que define lo humano desde un solo sitio** | cómo se deja de definir |
+| **`ente sin borde`** — Harlan Ellison, 1967 | **creen que todos necesitan lo mismo: ese es el error del que define lo humano desde un solo sitio** | cómo se deja de definir |
 
 **Y la regla que sale de los siete:** **la referencia no enseña, provoca.** **Lo que provoca no pasa por la explicación: pasa por la vista de otro.** **Prueba:** ¿se probó con lo pendejo, o solo con lo que ya estaba aceptado?
 
 ## Lo que no se define: lo humano
 
-**Describir lo humano es un proceso infinito: ni nosotros sabemos qué significa.** **Y lo que se define desde un solo sitio obliga a ver como el que define.** **Un constructo social definido desde un solo lugar es la trampa de `AM`: creer que todos necesitan lo mismo.**
+**Describir lo humano es un proceso infinito: ni nosotros sabemos qué significa.** **Y lo que se define desde un solo sitio obliga a ver como el que define.** **Un constructo social definido desde un solo lugar es la trampa de `ente sin borde`: creer que todos necesitan lo mismo.**
 
 **Y por eso, en este repositorio, lo humano está en blanco a propósito.** **No por cobardía: porque llenarlo sería imponer una vista, y la tesis entera se cae si el otro tiene que verse como yo.**
 

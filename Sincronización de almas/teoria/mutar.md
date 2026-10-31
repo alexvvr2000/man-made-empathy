@@ -32,4 +32,4 @@
 
 **Falsificador:** **un ente cuya fijeza está en la piel; una colmena que creció y no puede decir qué la mantiene igual; una evolución que no se puede explicar; un acto de quitar que se presenta como agregar; un rehacer sin decir qué no vuelve.**
 
-**Y lo demás que había en su `.prs` —el porqué, el miedo, `Undertale`, el caso de `AM`— vive en [`./la singularidad buena.md`](./la%20singularidad%20buena.md) y en [`./el cero.md`](./el%20cero.md).**
+**Y lo demás que había en su `.prs` —el porqué, el miedo, `Undertale`, el caso de `ente sin borde`— vive en [`./la singularidad buena.md`](./la%20singularidad%20buena.md) y en [`./el cero.md`](./el%20cero.md).**

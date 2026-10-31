@@ -67,7 +67,7 @@
 |---|---|---|
 | ***Arrival*** — Denis Villeneuve, 2016; sobre «Story of Your Life», de Ted Chiang | **el drama no es la inteligencia del otro: es que no comparte el canal para decir lo que sabe. Si Louise hubiera tenido alas, la película dura quince minutos** | cómo se escribe un canal que no existe |
 | ***LazyTown*** — Magnús Scheving; Nickelodeon, 2004 — **Sportacus** | **una obra no enseña: basta con que alguien la vea moverse para que la pregunta aparezca** | cómo se enseña lo que no se puede ver moverse |
-| **`AM`** — Harlan Ellison, 1967 | **lo que no vuelve a mirar se vuelve ley sin autor, y la ley sin autor no se puede contestar** | cómo se escribe una ley con autor |
+| **`ente sin borde`** — Harlan Ellison, 1967 | **lo que no vuelve a mirar se vuelve ley sin autor, y la ley sin autor no se puede contestar** | cómo se escribe una ley con autor |
 
 **Y la regla que sale de los tres:** **el estándar no se explica; se puede correr.** **Un estándar que necesita a su autor para significar no es un estándar: es una opinión con formato.**
 

@@ -19,7 +19,7 @@
 
 **Qué pregunta deja.** **¿Quién puede abrir una idea que nadie cerró?**
 
-**Ficción.** **La Source Wall, de Jack Kirby (DC Comics, 1971): el borde que solo sirve si lo firma algo que no es el que lo cruza.** **Y `AM`, de Harlan Ellison (1967): el absoluto que decidió una vez, y no volvió a medir.**
+**Ficción.** **La límite de origen, de Jack Kirby (DC Comics, 1971): el borde que solo sirve si lo firma algo que no es el que lo cruza.** **Y `ente sin borde`, de Harlan Ellison (1967): el absoluto que decidió una vez, y no volvió a medir.**
 
 **Prueba.** **¿Se puede citar la idea sin preguntarle al autor qué quiso decir? ¿Su prueba y su falsificador están escritos? ¿La fricción quitada tiene firma y hash? ¿El que la contradice puede hacerlo sin pedir permiso?**
 
@@ -56,8 +56,8 @@
 
 | Caso | Qué aporta | Qué NO aporta |
 |---|---|---|
-| **La Source Wall** — Jack Kirby, DC Comics, 1971 | **un borde que cede porque sirve, y que solo sirve si lo firma algo que no es el que lo cruza** | cómo se firma una idea sin autor |
-| **`AM`** — Harlan Ellison, «I Have No Mouth, and I Must Scream», 1967 | **un absoluto no se define por su contenido: se define por no requerir volver a mirar** | cómo se escribe una idea que sí vuelve a mirar |
+| **La límite de origen** — Jack Kirby, DC Comics, 1971 | **un borde que cede porque sirve, y que solo sirve si lo firma algo que no es el que lo cruza** | cómo se firma una idea sin autor |
+| **`ente sin borde`** — Harlan Ellison, «I Have No Mouth, and I Must Scream», 1967 | **un absoluto no se define por su contenido: se define por no requerir volver a mirar** | cómo se escribe una idea que sí vuelve a mirar |
 | **Lex Luthor**, *All-Star Superman* — Grant Morrison y Frank Quitely; DC Comics, 2005 | **la vista que llega tarde: entiende la frase al último minuto, y ya no tiene tiempo de actuar. Una vista que no se vuelve acto deja al otro sin nada** | cómo se hace que la vista llegue a tiempo |
 | **Malcolm X**, *La autobiografía* (Malcolm X y Alex Haley, 1965) | **doce años de ver sin ser contradicho no moderan una postura: la arman. Lo que la mueve es otro que la contradiga** | cómo se consigue que otro contradiga |
 | **La mayéutica de Sócrates**, *Teeteto* y *El banquete* de Platón (dominio público) | **no explicaba: extraía por pregunta, y el que contestaba se quedaba con la respuesta** | cómo se pregunta sin dirigir |

@@ -19,7 +19,7 @@
 
 **Qué pregunta deja.** **¿Cuándo un nombre prestado se vuelve un problema, y cuándo solo es un préstamo?**
 
-**Ficción.** **La Source Wall, de Jack Kirby (DC Comics, 1971): el borde que lo firma alguien que no es el que lo cruza.** **Y `AM`, de Harlan Ellison (1967): el nombre que se volvió ley sin autor.**
+**Ficción.** **La límite de origen, de Jack Kirby (DC Comics, 1971): el borde que lo firma alguien que no es el que lo cruza.** **Y `ente sin borde`, de Harlan Ellison (1967): el nombre que se volvió ley sin autor.**
 
 **Prueba.** **¿Cada nombre del repo dice un acto? ¿Cada obra citada está en la tabla con su autoría y dónde se usa? ¿Algún nombre de obra se usa como nombre propio de un sistema? ¿Se puede citar sin preguntarle al autor?**
 
@@ -41,7 +41,7 @@
 |---|---|---|
 | **el nombre dice un acto** | **si el nombre no dice qué hace, no es nombre: es etiqueta** | **`MUDAR`, `ENSAYAR`, `JURAR`, `CONVIVIR`** |
 | **el nombre no lleva número** | **un nombre numerado es una versión, no un acto** | **no hay `v2`, ni `2026`, ni `final`** |
-| **la obra se cita, no se usa** | **solo el nombre y la idea, para referirse a ella** | **Thanos, la Source Wall, `AM`** |
+| **la obra se cita, no se usa** | **solo el nombre y la idea, para referirse a ella** | **ente sin borde, la límite de origen, `ente sin borde`** |
 | **el origen se declara** | **lo heredado no se presenta como propio** | **`FUENTES` y `ATTRIBUTION`** |
 
 **Y la regla que los junta:** **citar para analizar es legítimo y no pide permiso; usar el nombre como propio sí lo pide.**
@@ -64,8 +64,8 @@
 
 | Caso | Qué aporta | Qué NO aporta |
 |---|---|---|
-| **La Source Wall** — Jack Kirby, DC Comics, 1971 | **un borde que lo firma alguien que no es el que lo cruza: si lo que muta se firma a sí mismo, no hay borde, hay un alma renombrada al revés** | cómo se firma una idea sin autor |
-| **`AM`** — Harlan Ellison, 1967 | **un absoluto no se define por su contenido: se define por no requerir volver a mirar** | cómo se vuelve a mirar |
+| **La límite de origen** — Jack Kirby, DC Comics, 1971 | **un borde que lo firma alguien que no es el que lo cruza: si lo que muta se firma a sí mismo, no hay borde, hay un alma renombrada al revés** | cómo se firma una idea sin autor |
+| **`ente sin borde`** — Harlan Ellison, 1967 | **un absoluto no se define por su contenido: se define por no requerir volver a mirar** | cómo se vuelve a mirar |
 | **Malcolm X**, *La autobiografía* (Malcolm X y Alex Haley, 1965) | **doce años de ver sin ser contradicho arman una postura. Lo que la mueve es otro que la contradiga** | cómo se da el nombre a lo que nadie contradijo |
 | **La mayéutica de Sócrates** — Platón, *Teeteto* y *El banquete* | **extraer por pregunta, no por explicación: el que contestaba se quedaba con la respuesta** | cómo se nombra lo que el otro no dijo |
 | **La lucha libre**, y la enciclopedia de **Andrés Pérez Sustaita** | **las llaves y los candados son formas con nombre que otro puede aprender** | quién inventó la primera |

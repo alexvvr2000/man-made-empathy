@@ -33,7 +33,7 @@
 |---|---|---|
 | **`adventure-time.md`** | **verificado** | verificado en su ficha. |
 | **`all-star-superman.md`** | **verificado** | verificado en el guion de la película, y con la escena confirmada por un clip. |
-| **`am.md`** | **verificado** | verificado en su ficha. |
+| **`ente-sin-borde.md`** | **verificado** | verificado en su ficha. |
 | **`arrival.md`** | **verificado** | verificado. |
 | **`arthur-morgan.md`** | **verificado** | verificado en su ficha. |
 | **`aya-y-manhunters.md`** | **verificado** | verificado en su ficha, y separado de `Lanterns`. |
@@ -58,7 +58,7 @@
 | **`red-dead-redemption.md`** | **verificado** | verificado en su ficha. |
 | **`soul-eater.md`** | **verificado** | verificado en su ficha. |
 | **`soul.md`** | **verificado** | verificado en su ficha. |
-| **`source-wall.md`** | **verificado** | verificado, y decidido. |
+| **`limite-de-origen.md`** | **verificado** | verificado, y decidido. |
 | **`story-of-your-life.md`** | **verificado** | verificado en su ficha. |
 | **`tachikoma.md`** | **verificado** | verificado, y con una sorpresa. |
 | **`undertale.md`** | **verificado** | verificado en su ficha. |

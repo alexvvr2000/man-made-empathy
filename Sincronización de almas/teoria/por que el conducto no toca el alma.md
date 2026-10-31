@@ -1,4 +1,4 @@
-# POR QUÉ EL GUANTELETE NO TOCA EL ALMA
+# POR QUÉ EL CONDUCTO NO TOCA EL ALMA
 
 **Hecho:** 2026-10-30. **Clase:** teoría. **Estado:** vigente.
 **Lector:** quien ya corrió el ciclo una vez, y quiere saber dónde está el borde.
@@ -39,9 +39,9 @@
 
 ---
 
-## Y el guantelete, que es lo que lo hace verificable
+## Y el conducto, que es lo que lo hace verificable
 
-**El guantelete permite; no prohíbe.** **Y lo que permite, lo deja contestable.**
+**El conducto permite; no prohíbe.** **Y lo que permite, lo deja contestable.**
 
 **Y por eso la frase de quien tiene la autoridad:**
 
@@ -53,6 +53,6 @@
 
 ## Prueba
 
-**¿El alma se toca, o sólo se nombra? ¿Lo demás puede rehacerse entero? ¿Y el guantelete deja rastro de lo que se perdió?**
+**¿El alma se toca, o sólo se nombra? ¿Lo demás puede rehacerse entero? ¿Y el conducto deja rastro de lo que se perdió?**
 
-**Falsificador:** un alma que evoluciona; un borde que se mueve con lo que juzga; un cambio sin qué se pierde; un guantelete que prohíbe en vez de permitir con rastro.
+**Falsificador:** un alma que evoluciona; un borde que se mueve con lo que juzga; un cambio sin qué se pierde; un conducto que prohíbe en vez de permitir con rastro.

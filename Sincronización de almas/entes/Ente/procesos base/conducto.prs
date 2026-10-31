@@ -1,15 +1,15 @@
-# GUANTELETE.prs — la ficha que se llena antes de tocar, y el mínimo que puede mutar
+# CONDUCTO.prs — la ficha que se llena antes de tocar, y el mínimo que puede mutar
 
-**Nombre.** GUANTELETE — **G**uardar el acto, **U**bicar quién lo sostiene, **A**nclar quién lo dice, **N**ombrar lo reversible, **T**achar el rastro, **E**sperar si no hay vuelta, **L**eer la respuesta, **E**scribir lo que volvió.
+**Nombre.** CONDUCTO. **Y el nombre dice el acto:** **por aquí pasan los actos, y lo que no pasa por aquí no tiene por dónde pasar.**
 
-**Origen.** **De la regla: el guantelete te deja hacer todo, y para que no salga Thanos, tiene que haber fricción, sí o sí.** **Y de la pregunta que lo vuelve uso: ¿quién se va a enterar de esto, y qué pasa si sale mal?**
+**Origen.** **De la regla: el conducto te deja hacer todo, y para que no salga un ente sin borde, tiene que haber fricción, sí o sí.** **Y de la pregunta que lo vuelve uso: ¿quién se va a enterar de esto, y qué pasa si sale mal?**
 
 **Clase:** proceso. **Aplica a:** tocar algo que otro sostiene — **y a lo único que puede mutar: [`../evolucion/`](../evolucion/).**
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
 
 **Sesgo:** un acto se lee desde lo que tocó, no desde lo que quiso tocar.
 **Límite:** **no juzga si el acto es bueno.** **Decide si se puede contestar, si se puede deshacer, y si deja rastro.**
-**Y no alcanza `ciclo alma de niño.prs`.** **Eso no es un límite de la herramienta: es el corte que previene `AM`.**
+**Y no alcanza `ciclo alma de niño.prs`.** **Eso no es un límite de la herramienta: es el corte que previene `ente sin borde`.**
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 **Cuándo se corre:** **se corre antes de tocar cualquier cosa que otro sostiene, y no después.**
@@ -68,7 +68,7 @@ Prohibido el 5 sin el 3 y el 4.
 
 ## Y lo único que puede mutar: `evolucion/`, y en mínimo
 
-> **El guantelete toca `evolucion/`, y nada más.**
+> **El conducto toca `evolucion/`, y nada más.**
 > **Y lo toca en mínimo: una cosa a la vez, y con su falta nombrada.**
 
 **Y mutar no es agregar: son seis actos, y cada uno pierde algo distinto.**
@@ -102,9 +102,9 @@ Prohibido el 5 sin el 3 y el 4.
 
 > **«Si las mutaciones tuvieran límites, ya se hubiera curado el cáncer hace mucho.»**
 
-**Lo que no puede cambiar de forma no encuentra la forma que sirve.** **Y el guantelete existe para que eso se haga con rastro, y no para impedirlo.**
+**Lo que no puede cambiar de forma no encuentra la forma que sirve.** **Y el conducto existe para que eso se haga con rastro, y no para impedirlo.**
 
-**Lo único que el guantelete no toca:** **`ciclo alma de niño.prs`.** **Ni al mutar.** **Ni para mejorarla.**
+**Lo único que el conducto no toca:** **`ciclo alma de niño.prs`.** **Ni al mutar.** **Ni para mejorarla.**
 
 ---
 

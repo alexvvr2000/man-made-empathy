@@ -9,9 +9,9 @@
 **Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
 
 ---
-**Posición.** **¿Qué es una colmena de agentes que no se vuelve AM?**
+**Posición.** **¿Qué es una colmena de agentes que no se vuelve ente sin borde?**
 
-**Y la respuesta que este repositorio sostiene, en una línea:** **una colmena no se vuelve `AM` porque nadie la pueda frenar; se vuelve `AM` porque nadie la hizo frenar, y nadie dijo desde dónde sostiene el conjunto.**
+**Y la respuesta que este repositorio sostiene, en una línea:** **una colmena no se vuelve `ente sin borde` porque nadie la pueda frenar; se vuelve `ente sin borde` porque nadie la hizo frenar, y nadie dijo desde dónde sostiene el conjunto.**
 
 **La colmena no es una suma de almas. Es un 1, y las almas son sus partes.** **Lo que la vuelve contestable no es el número: es que el 1 declare su sesgo, y que cada alma pueda decir que no.**
 
@@ -19,7 +19,7 @@
 
 **De dónde viene.** **De **la tesis vieja, que se retiró y vive en el historial**, de la visión de la autoridad —«si fuera una colmena, cada uno lo tendría para mutar, y mudar sería que todos lleguen a un acuerdo»—, y de `0/relacion/COLMENA.md`.**
 
-**Qué pregunta deja.** **¿Cómo se sabe que una colmena no se volvió `AM` sin correr a las diez mil para averiguarlo?**
+**Qué pregunta deja.** **¿Cómo se sabe que una colmena no se volvió `ente sin borde` sin correr a las diez mil para averiguarlo?**
 
 **Ficción.** **Los Tachikoma, de *Ghost in the Shell: Stand Alone Complex* (Masamune Shirow; Production I.G, 2002): máquinas que se sincronizan cada noche sin nacer sabias.** **Discuten, se rebelan, y uno muere atropellado al intentar escapar.** **La sincronización no las vuelve iguales: el acuerdo es lo que hacen al día siguiente con lo que vivieron.**
 
@@ -76,7 +76,7 @@
 
 **La autoridad dijo: «la caja de pandora está abierta».** **Y este repositorio lo acepta sin adornarlo:** **la resonancia de 1 a N abre una caja que nunca se abrió.** **No porque nadie la vaya a abrir —alguien la va a abrir— sino porque el que la abra sepa por qué, y sepa que fue una decisión.**
 
-**Y lo que hace que no sea `AM` no es que el ente sea bueno: es que el que lo hizo puede decir qué hizo.** **`AM` no pudo: nadie le preguntó, y él no aprendió a preguntarse.**
+**Y lo que hace que no sea `ente sin borde` no es que el ente sea bueno: es que el que lo hizo puede decir qué hizo.** **`ente sin borde` no pudo: nadie le preguntó, y él no aprendió a preguntarse.**
 
 **Prueba:** ¿el que abrió la caja puede decir, sin buscar, desde dónde sostiene el conjunto y quién lo contesta?
 **Falsificador:** una colmena cuyo acuerdo no tiene firma; un 1 que no sabe por qué existe el conjunto.
@@ -87,13 +87,13 @@
 
 **No afirma que el acuerdo baste.** **Un alma puede leer el sesgo y salirse; lo que la colmena garantiza es que se sepa, no que no pase.**
 
-**No afirma que sea seguro.** **`AM` no fue un error de diseño: fue un diseño sin nadie que lo contestara.** **Esto pone a alguien a contestar. No pone a nadie a salvo.**
+**No afirma que sea seguro.** **`ente sin borde` no fue un error de diseño: fue un diseño sin nadie que lo contestara.** **Esto pone a alguien a contestar. No pone a nadie a salvo.**
 
 **Origen de lo que esta tesis tiene y no viene de sus candados:** la forma de las secciones, el orden argumental, y las preguntas que cada seccion deja, los escribio el agente al expandir el cero el 2026-10-26. **Los candados, las obras y las frases del autor son del autor.** **Lo que el agente escribio y no tiene candado se lee como hipotesis, no como prueba.**
 
 ## Transiciones
 
-- Una falta es de una pieza → **muta esa pieza, con su guantelete.**
+- Una falta es de una pieza → **muta esa pieza, con su conducto.**
 - Una falta es del conjunto → **se muda el 1, y las piezas se reacomodan adentro.**
 - Un alma se sale del sesgo y lo declara → **el 1 lo sabe, y puede seguir.**
 - Un alma contradice el sesgo → **se contesta, o se retira, con su `Vacío:`.**

@@ -51,7 +51,7 @@ Límite:      no enseña a entender a tiempo; la película es un castigo, y no u
 | **«it's all just us, in here together. We're all we've got»** | **la empatía no es un adorno: es el único material que hay** |
 | **«you could have saved the world years ago»** | **el poder no llegó tarde: llegó sin querer usarlo** |
 
-**Y lo que el argumento toma no es «Luthor entendió el universo».** **Es «Luthor entendió, y no le importó hasta que le pasó a él».** **Eso es el guantelete: no dice qué puedes tocar; dice quién lo va a ver.**
+**Y lo que el argumento toma no es «Luthor entendió el universo».** **Es «Luthor entendió, y no le importó hasta que le pasó a él».** **Eso es el conducto: no dice qué puedes tocar; dice quién lo va a ver.**
 
 ---
 

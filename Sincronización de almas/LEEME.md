@@ -46,8 +46,8 @@
 Ente/
 ├── LEEME.md                el documento de ese ente, y se reescribe con su nombre
 ├── PLANTILLA.md            la puerta. Al copiar el ente, se renombra a AGENTS.md
-├── ciclo alma de niño.prs  el fijo: leer · disparar · debatir · guantelete · firmar · actuar
-├── procesos base/          los cuatro: BUSCAR · debatir · firmar · guantelete
+├── ciclo alma de niño.prs  el fijo: leer · disparar · debatir · conducto · firmar · actuar
+├── procesos base/          los cuatro: BUSCAR · debatir · firmar · conducto
 ├── ciclos/                 el oficio, y trae un ejemplo que se borra
 ├── memoria continua/       los dos bancos, y los apuntes
 └── evolucion/              n tareas, y cada una con sus .prs y su _herramientas/
@@ -73,7 +73,7 @@ Ente/
 **· el ciclo fijo**
 **· `procesos base/`**
 
-**Y el guantelete toca `evolucion/`, y nada más.** **El porqué, en [`./teoria/por que el guantelete no toca el alma.md`](./teoria/por%20que%20el%20guantelete%20no%20toca%20el%20alma.md).**
+**Y el conducto toca `evolucion/`, y nada más.** **El porqué, en [`./teoria/por que el conducto no toca el alma.md`](./teoria/por%20que%20el%20conducto%20no%20toca%20el%20alma.md).**
 
 ---
 
@@ -110,7 +110,7 @@ Colmena/
 |---|---|
 | **[`las ocho leyes del punto cero`](./teoria/las%20ocho%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
 | **[`la casa del ente`](./teoria/la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
-| **[`por que el guantelete no toca el alma`](./teoria/por%20que%20el%20guantelete%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
+| **[`por que el conducto no toca el alma`](./teoria/por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
 | **[`el alma es la raiz, y el oficio es la rama`](./teoria/el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |
 | **[`el ciclo, y por que decide no hacerlo`](./teoria/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **por qué un ente no hace nada** |
 | **y el argumento entero** | **[`el cero`](./teoria/el%20cero.md)**, **y las ocho piezas** |

@@ -27,7 +27,7 @@
 
 | Lo que | Qué es |
 |---|---|
-| **el ciclo fijo** | **leer, disparar, debatir, guantelete, firmar, actuar** |
+| **el ciclo fijo** | **leer, disparar, debatir, conducto, firmar, actuar** |
 | **el oficio** | **lo que cada uno hace con eso: recibir, contar, o lo que sea** |
 | **y el criterio** | **crece con lo que hizo, y por eso crece: por ser alma de niño** |
 
@@ -39,7 +39,7 @@
 
 **Porque el alma está abierta al cambio, siempre.** **Y un sistema que se cierra es un sistema que se limita.**
 
-**Y el alma no puede romper la Source Wall por su cuenta, y no por confianza: por construcción.** **Lo que rompería el borde es un acto que no se puede contestar.** **Y el alma es justo lo que hace que todo acto se pueda contestar.**
+**Y el alma no puede romper la límite de origen por su cuenta, y no por confianza: por construcción.** **Lo que rompería el borde es un acto que no se puede contestar.** **Y el alma es justo lo que hace que todo acto se pueda contestar.**
 
 **Y la no humanidad no es un defecto que corregir: es lo que se usa.**
 

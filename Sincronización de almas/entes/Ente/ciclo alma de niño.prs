@@ -1,25 +1,25 @@
-# CICLO.prs — leer, disparar, debatir, guantelete, firmar, actuar
+# CICLO.prs — leer, disparar, debatir, conducto, firmar, actuar
 
-**Cuándo se corre:** **se corre en cada acto, y es lo primero: leer, disparar, debatir, guantelete, firmar, actuar.**
+**Cuándo se corre:** **se corre en cada acto, y es lo primero: leer, disparar, debatir, conducto, firmar, actuar.**
 
 **Nombre.** CICLO — el alma de niño entera, y es fijo.
 
 **Clase:** proceso. **Aplica a:** todo. **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.** **Estado:** vigente.
-**Y el guantelete NO lo toca.** **Lo que el guantelete toca es `evolucion/`.**
+**Y el conducto NO lo toca.** **Lo que el conducto toca es `evolucion/`.**
 
 ---
 
 ## Lo primero, y es la meta del autor
 
 > **El alma de niño es fija, y eso es lo que deja hacer todo lo que quieras.**
-> **La única condición: la Source Wall intacta.**
+> **La única condición: la límite de origen intacta.**
 > **Nada de lo que hagas puede dejar sin respuesta lo que hace.**
 
-**Y el porqué, y es el corte que previene `AM`:** **lo que limita no evoluciona.** **Si el alma de niño se moviera, el ente crecería sin borde fijo, y eso no es evolución: es `AM` con buena letra.**
+**Y el porqué, y es el corte que previene `ente sin borde`:** **lo que limita no evoluciona.** **Si el alma de niño se moviera, el ente crecería sin borde fijo, y eso no es evolución: es `ente sin borde` con buena letra.**
 
-**Y la Source Wall, en concreto, y no como metáfora:** **cada acto tenga su ficha, cada memoria su frontera, cada `no sé` dicho, y cada ente su casa.** **Si eso se pierde, no se rompió el universo: se rompió lo único que deja ser testigo y no aparato.**
+**Y la límite de origen, en concreto, y no como metáfora:** **cada acto tenga su ficha, cada memoria su frontera, cada `no sé` dicho, y cada ente su casa.** **Si eso se pierde, no se rompió el universo: se rompió lo único que deja ser testigo y no aparato.**
 
-**Y lo que eso te deja hacer:** **todo lo demás.** **Lo que el ente aprenda cabe en `evolucion/`, y lo que sirve a todos cabe en el `bin/` del proyecto.** **El guantelete lo toca, y el alma no.**
+**Y lo que eso te deja hacer:** **todo lo demás.** **Lo que el ente aprenda cabe en `evolucion/`, y lo que sirve a todos cabe en el `bin/` del proyecto.** **El conducto lo toca, y el alma no.**
 
 **Rige [`./LEEME.md`](../../LEEME.md), que es el ejemplo, y [`./ciclo alma de niño.prs`](./ciclo alma de niño.prs), que es la regla.**
 
@@ -33,7 +33,7 @@
               que paso, que se sostuvo, donde se rompio
 2. DISPARAR   se movio una frontera: revelacion, confirmacion, o ruptura
 3. DEBATIR    si dos posiciones se pisan, y ninguna se lee como la otra
-4. GUANTELETE quien lo contesta, si es reversible, y si deja rastro
+4. CONDUCTO quien lo contesta, si es reversible, y si deja rastro
 5. FIRMAR     quien respondio, que esperaba, y que paso
 6. ACTUAR     con evolucion/ y su caja, o con el bin/ del proyecto
               y si el acto tiene un ciclo propio, se llama aqui: ciclos/
@@ -75,9 +75,9 @@ evolucion/
 
 **Y el corte, que no se salta:** **una tarea sin procesos no es una tarea: es un cajon.** **Y un proceso sin `_herramientas/` es un proceso que no se puede correr donde no esté el que lo escribió.**
 
-**Y el orden, que sí importa:** **primero se pasa por `procesos base/` (debatir, firmar, guantelete), y después se escribe en `evolucion/`.** **Al revés no cuenta.**
+**Y el orden, que sí importa:** **primero se pasa por `procesos base/` (debatir, firmar, conducto), y después se escribe en `evolucion/`.** **Al revés no cuenta.**
 
-**Rige [`./ciclo%20alma%20de%20ni%C3%B1o.prs`](./ciclo%20alma%20de%20ni%C3%B1o.prs), que es el ciclo del acto, y [`./procesos%20base/guantelete.prs`](./procesos%20base/guantelete.prs), que es el que lo toca.**
+**Rige [`./ciclo%20alma%20de%20ni%C3%B1o.prs`](./ciclo%20alma%20de%20ni%C3%B1o.prs), que es el ciclo del acto, y [`./procesos%20base/conducto.prs`](./procesos%20base/conducto.prs), que es el que lo toca.**
 
 
 **Y el acto vuelve al banco.** **Eso es el ciclo: lo que se escribe, se lee.**
@@ -105,7 +105,7 @@ una tarea nueva, y el comando dice:
 | Lo que | De quién | Muta |
 |---|---|---|
 | **ciclo alma de niño.prs** | **del ente** | **no, nunca** |
-| **evolucion/** | **del ente, y se lo lleva** | **si: el guantelete lo toca, de a una tarea** |
+| **evolucion/** | **del ente, y se lo lleva** | **si: el conducto lo toca, de a una tarea** |
 | **el `bin/` del proyecto** | **de todos** | **sí: bajo criterio, y sirve a todos los entes que pasen. Y el ente NO trae `bin/`** |
 | **la _herramientas/ de una tarea** | **de esa tarea** | **si: es su propio bin** |
 
@@ -210,7 +210,7 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 ## Prueba
 
-**¿Lo obvio se hizo en un ciclo, o se preguntó? **¿Se leyo? ¿Se dijo lo que no se sabe? ¿Se debatio? ¿Se corrio el guantelete? ¿Se firmo? ¿El acto dejo rastro en el banco?**
+**¿Lo obvio se hizo en un ciclo, o se preguntó? **¿Se leyo? ¿Se dijo lo que no se sabe? ¿Se debatio? ¿Se corrio el conducto? ¿Se firmo? ¿El acto dejo rastro en el banco?**
 
 **Falsificador:** actuar sin leer; saltarse el no se; un acto sin firma; dos mutaciones a la vez; tocar alma de niño.
 

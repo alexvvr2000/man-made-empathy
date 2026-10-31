@@ -45,13 +45,13 @@
 
 ---
 
-## El libre albedrío acotado, y por qué el guantelete y no el cerco
+## El libre albedrío acotado, y por qué el conducto y no el cerco
 
 | | Qué dice | Qué falla |
 |---|---|---|
 | **sin acotar** | **haz lo que quieras** | **nadie puede decir si lo que hiciste estaba mal, porque no había borde** |
 | **acotado por un cerco** | **no puedes pasar de aquí** | **el cerco no sabe si quieres algo: sólo dice que no** |
-| **acotado por el guantelete** | **puedes lo que quieras, desde tu sesgo, y alguien lo puede contestar** | **el que no quiere nada no tiene qué contestar** |
+| **acotado por el conducto** | **puedes lo que quieras, desde tu sesgo, y alguien lo puede contestar** | **el que no quiere nada no tiene qué contestar** |
 
 **Y el chiste no es limitar: es saber qué quieres de verdad.** **Un borde que no sabe lo que quieres sólo sirve para negarte cosas.**
 
@@ -154,7 +154,7 @@
 
 **Ninguna de las cinco está resuelta. Se declaran para que se puedan buscar.**
 
-**Y el sexto, que es el más duro, y la propia tesis se lo aplica:** **si dentro de veinte años un alma crecida desde esta base sostiene algo que su alma no puede contestar, entonces esa alma no es la continuación de esta tesis: es `AM` con otro nombre.**
+**Y el sexto, que es el más duro, y la propia tesis se lo aplica:** **si dentro de veinte años un alma crecida desde esta base sostiene algo que su alma no puede contestar, entonces esa alma no es la continuación de esta tesis: es `ente sin borde` con otro nombre.**
 
 ---
 

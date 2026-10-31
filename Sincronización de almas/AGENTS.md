@@ -44,7 +44,7 @@
 |---|---|---|
 | **hacer un ente** | **la guía, y se copia `Ente/`** | **se inventa la forma** |
 | **juntar varios** | **la plantilla de la colmena** | **se fusionan, y dejan de ser cada uno** |
-| **tocar algo que otro sostiene** | **[`./entes/Ente/procesos base/guantelete.prs`](./entes/Ente/procesos%20base/guantelete.prs)** | **se toca sin testigo** |
+| **tocar algo que otro sostiene** | **[`./entes/Ente/procesos base/conducto.prs`](./entes/Ente/procesos%20base/conducto.prs)** | **se toca sin testigo** |
 | **afirmar algo de afuera** | **[`./entes/Ente/procesos base/BUSCAR.prs`](./entes/Ente/procesos%20base/BUSCAR.prs)** | **se opina sin saber** |
 | **citar un ejemplo** | **`ESTADO.md`, y su ficha** | **se cita sin fuente** |
 | **entender por qué** | **[`./teoria/el orden de las lecturas.md`](./teoria/el%20orden%20de%20las%20lecturas.md)** | **se practica sin saber** |
@@ -56,7 +56,7 @@
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
 | **se copia sin leer la guía** | la forma | se inventa un ente que no copia |
-| **se toca `procesos base/`** | el borde | es `AM`, con buena letra |
+| **se toca `procesos base/`** | el borde | es `ente sin borde`, con buena letra |
 | **se cita un ejemplo sin su ficha** | la fuente | se cree, y no se va a mirar |
 | **el `LEEME` y `teoria/` se quedan viejos** | la enseñanza | se enseña lo que ya no es |
 | **se cita algo de fuera** | el punto 0 | ya no se puede copiar sola |

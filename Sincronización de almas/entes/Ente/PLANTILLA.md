@@ -42,14 +42,14 @@
 | Se va a… | Se carga… | Sin eso |
 |---|---|---|
 | **empezar** | **el ciclo fijo, paso 1: los bancos, y el piso de esta casa** | **se actúa a ciegas** |
-| **tocar algo que otro sostiene** | **`procesos base/guantelete.prs`** | **se toca sin testigo** |
+| **tocar algo que otro sostiene** | **`procesos base/conducto.prs`** | **se toca sin testigo** |
 | **recordar qué pasó** | **`memoria continua/banco de memoria.prs`** | **se repite el error** |
 | **sostener una posición** | **`memoria continua/banco de friccion.prs`** | **se obedece sin saber de dónde vino** |
 | **decidir entre dos cosas que yo mismo sostengo** | **`procesos base/debatir.prs`** | **se elige la que defiende mejor, y no la que aguanta** |
 | **responder por un acto** | **`procesos base/firmar.prs`** | **el error no tiene a quién reclamarle** |
 | **afirmar algo de afuera** | **`procesos base/BUSCAR.prs`** | **se opina sin saber, y se suena seguro** |
 | **agregar algo que aprendí** | **`evolucion/<la tarea>/`**, con sus procesos y su caja | **crece el cajón, y no el ente** |
-| **cambiar `evolucion/`** | **el guantelete**, y de a una tarea | **el cambio no se sabe qué lo movió** |
+| **cambiar `evolucion/`** | **el conducto**, y de a una tarea | **el cambio no se sabe qué lo movió** |
 
 ---
 
@@ -58,8 +58,8 @@
 | Si pasa esto | Se pierde | Y el síntoma es |
 |---|---|---|
 | **se actúa sin leer los bancos** | la falta | el ente no sabe qué cubre, ni a quién contesta |
-| **se toca sin guantelete** | el testigo | crece, y nadie puede contestarlo |
-| **se toca el ciclo o `procesos base/`** | el borde | es `AM`, con buena letra |
+| **se toca sin conducto** | el testigo | crece, y nadie puede contestarlo |
+| **se toca el ciclo o `procesos base/`** | el borde | es `ente sin borde`, con buena letra |
 | **se cambia `evolucion/` en dos cosas a la vez** | el rastro | no se sabe qué lo movió |
 | **se borra una tarea sin decir qué falta dejó** | el criterio | se repite el problema que esa tarea cubría |
 | **se opina sin buscar** | la fuente | se cree, y no se va a mirar |

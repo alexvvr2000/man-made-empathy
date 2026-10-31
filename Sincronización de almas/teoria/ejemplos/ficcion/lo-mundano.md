@@ -48,9 +48,9 @@ Límite:      no enseña que todo se reduzca a lo infantil; enseña que si no ba
 
 > **Si una idea no se sostiene con lo mundano, no sirve.**
 
-**Y eso no es una frase bonita: es una poda.** **Una idea que sólo se sostiene con `Octavia Butler`, `Teeteto` y `AM` no es una idea: es una cita con tres capas.**
+**Y eso no es una frase bonita: es una poda.** **Una idea que sólo se sostiene con `Octavia Butler`, `Teeteto` y `ente sin borde` no es una idea: es una cita con tres capas.**
 
-**Y la prueba, aplicada al repo:** **¿se puede contar en `Peppa Pig` lo que dice `GUANTELETE`?** **Sí: se le dice a Peppa qué va a tocar, y quién la va a ver.** **Y con eso, el guantelete ya no necesita `Thanos` para empezar.**
+**Y la prueba, aplicada al repo:** **¿se puede contar en `Peppa Pig` lo que dice `CONDUCTO`?** **Sí: se le dice a Peppa qué va a tocar, y quién la va a ver.** **Y con eso, el conducto ya no necesita `ente sin borde` para empezar.**
 
 **Y lo que eso significa:** **los ejemplos de acceso —los que se usan para explicar— no son los complejos.** **Complejos son para defender; mundanos son para llegar.**
 

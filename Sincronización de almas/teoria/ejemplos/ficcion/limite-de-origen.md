@@ -1,18 +1,18 @@
-# SOURCE WALL — el que cruza, y vuelve sabiendo
+# LÍMITE DE ORIGEN — el que cruza, y vuelve sabiendo
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado, y decidido.
 
 **Fuente:** una. Se abrió la ficha de la obra, y la cita se confirmó en la página.
 **Enlace:** https://en.wikipedia.org/wiki/Source_(comics)   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
-**Lector:** quien va a usar la Source Wall para hablar de un borde que se cruza.
+**Lector:** quien va a usar la límite de origen para hablar de un borde que se cruza.
 
 ---
 
 ## La ficha
 
 ```plaintext
-Escena:      alguien cruza la Source Wall sabiendo que no le toca, y vuelve con el conocimiento
+Escena:      alguien cruza la límite de origen sabiendo que no le toca, y vuelve con el conocimiento
 Obra:        Justice League Unlimited, «Destroyer» (2005); DC Comics
 Dónde:       episodio «Destroyer» — Metron lleva a Lex Luthor al muro, a petición de Luthor
 ¿Es así?:    verificado en su ficha (Wikipedia, «Source, comics», sección «In other media»)
@@ -23,12 +23,12 @@ Límite:      no enseña cómo se contesta lo que se aprendió; sólo que se apr
 
 ## Lo verificado, textual
 
-> **"The Source Wall appears in the *Justice League Unlimited* episode «Destroyer». Metron guides Lex Luthor there at his request; when told by Metron that only a «twelfth-level intellect» could comprehend the nature of the Source, Luthor arrogantly dismissed his warning and entered the Wall, before emerging with the knowledge of how to fully wield the Anti-Life Equation against Darkseid."**
+> **"The límite de origen appears in the *Justice League Unlimited* episode «Destroyer». Metron guides Lex Luthor there at his request; when told by Metron that only a «twelfth-level intellect» could comprehend the nature of the Source, Luthor arrogantly dismissed his warning and entered the Wall, before emerging with the knowledge of how to fully wield the Anti-Life Equation against Darkseid."**
 > — Wikipedia, *Source (comics)*, sección «In other media»
 
 **Y lo que el cómic dice del muro, que también queda apuntado:**
 
-> **"At the edge of the Promethean Galaxy is the 'Source Wall', which prevents the Source from being directly seen; those who have tried are instantly turned to stone and forcibly merged with the Wall."**
+> **"At the edge of the Promethean Galaxy is the 'límite de origen', which prevents the Source from being directly seen; those who have tried are instantly turned to stone and forcibly merged with the Wall."**
 > — Wikipedia, *Source (comics)*, sección «History», sobre *New Gods* #1 (Kirby, febrero 1971)
 
 ## La lectura, y es de la autoridad
