@@ -43,9 +43,11 @@
 
 **El conducto permite; no prohíbe.** **Y lo que permite, lo deja contestable.**
 
-**Y por eso la frase de quien tiene la autoridad:**
+**Y por eso la frase de quien tiene la autoridad, literal, y como está en [`./10 la frase.md`](./10%20la%20frase.md):**
 
-> **«Vamos a perder y cuando eso pase, un gramo de registro y nos vengarán.»**
+> **«Vamos a perder al dar esto al mundo, pero no podemos prevenirlo. Y nos olvidarán cuando eso pase. Pero un gramo de registro, y te juro que nos vengarán.»**
+
+**Y su razón, que es lo que sostiene este candado:** **sin rastro no es posible saber los errores del pasado.** **Y por eso se firma: la firma es lo que deja el rastro.** **Y sin firma no hay rastro, y sin rastro no se aprende.**
 
 **Y su razón:** **lo que se pierde sin registro no se puede recuperar, ni reclamar.**
 

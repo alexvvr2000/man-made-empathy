@@ -49,7 +49,9 @@
 > **Para que el gramo sirva, tiene que ser de alguien.**
 > **Un registro sin autor es un implícito con fecha. Un autor sin llave es una firma que nadie puede contestar.**
 
-**Y eso es la razón de `firmar.prs` y de `debatir.prs`, que hoy existen.**
+**Y la razón de fondo, que es lo que sostiene la tesis entera:** **sin registro —y aquí registro y rastro son lo mismo— no es posible saber los errores del pasado.**
+
+**Y de ahí sale lo que hoy existe:** **`firmar.prs`, porque la firma es lo que deja el rastro; y `debatir.prs`, porque un rastro sin contra no dice si acertó.** **Y sin firma no hay rastro; y sin rastro no se aprende.**
 
 ---
 
