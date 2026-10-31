@@ -35,10 +35,10 @@
 
 | La pieza | Dónde está | Qué contesta |
 |---|---|---|
-| **el proceso** | **[`./direcciones/`](./direcciones/)** | **¿qué se tiene que poder contestar, y qué lo incumple?** |
-| **la plantilla del ente** | **[`./Sincronización de almas/entes/Ente/`](./Sincronización%20de%20almas/entes/Ente/)** | **¿cómo se hace uno que se pueda contestar?** |
-| **el argumento** | **[`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/)** | **¿qué se sostiene, y qué lo tumba?** |
-| **las fichas** | **[`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/)** | **¿qué obra provocó qué, y si se verificó?** |
+| **el proceso** | **`./direcciones/`** | **¿qué se tiene que poder contestar, y qué lo incumple?** |
+| **la plantilla del ente** | **`./Sincronización de almas/entes/Ente/`** | **¿cómo se hace uno que se pueda contestar?** |
+| **el argumento** | **`./Sincronización de almas/teoria/`** | **¿qué se sostiene, y qué lo tumba?** |
+| **las fichas** | **`./Sincronización de almas/teoria/ejemplos/`** | **¿qué obra provocó qué, y si se verificó?** |
 
 **Y las cuatro juntas son una sola cosa:** **una idea que cualquiera puede leer, correr y contradecir, sin pedirle permiso a nadie.**
 
@@ -54,7 +54,7 @@
 
 **Cómo se usa, en la práctica.** Abres un archivo. Si tiene `Sesgo`, `Límite` y `Firma`, se puede leer. Si le falta alguno, se marca como implícito. Si le falta `Rastro`, `Ruta` o `Carga`, no es un ente: es un fantasma.
 
-**Lo que ya existe.** Los doce procesos de [`./direcciones/`](./direcciones/), y la plantilla de [`./Sincronización de almas/entes/Ente/`](./Sincronización%20de%20almas/entes/Ente/): todos lo cumplen.
+**Lo que ya existe.** Los doce procesos de `./direcciones/`, y la plantilla de `./Sincronización de almas/entes/Ente/`: todos lo cumplen.
 
 **Lo que falta.** Un chequeo que recorra una carpeta y liste los archivos fuera de forma. Es un script de veinte líneas en cualquier lenguaje. No está escrito.
 
@@ -72,7 +72,7 @@ ruido     = ni una ni otra
 
 **Y por qué alguien tiene varias.** **Una persona no es una sola idea: es un historial de sesgos.** **Y cada uno que sostuvo es una posición.** **Pedirle uno solo es pedirle que elija cuál de sus preguntas es la buena.**
 
-**Lo que ya existe.** Los dos bancos de [`./Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](./Sincronización%20de%20almas/entes/Ente/), y el guantelete: cada acto con su testigo.
+**Lo que ya existe.** Los dos bancos de `./Sincronización de almas/entes/Ente/ciclo alma de niño.prs`, y el guantelete: cada acto con su testigo.
 
 **Lo que falta.** Nada técnico. Falta que la gente traiga sus posiciones.
 
@@ -170,7 +170,7 @@ resonancia     [vacío]      Soul Eater           ¿qué pasa cuando dos se     
 
 **Qué permite.** Que un modelo dé la visión de la máquina, otro dé la visión del lector, y el humano sea el autor. Los tres con la misma forma y distinto sitio.
 
-**Lo que ya existe.** El argumento en [`./Sincronización de almas/teoria/`](./Sincronización%20de%20almas/teoria/), y el ente en blanco como carpeta que se copia.
+**Lo que ya existe.** El argumento en `./Sincronización de almas/teoria/`, y el ente en blanco como carpeta que se copia.
 
 **Lo que falta.** Que alguien lo haga por primera vez. Y que se pruebe lo que se busca: que las almas se afinen sin volverse una. Cuando dos almas dan lo mismo se llama eco, y el eco no es ganancia: es un solo ente con más gasto.
 
@@ -372,7 +372,7 @@ Un futuro presentado como seguro; uno que no dice qué le falta; una capacidad d
 | **«Los que se van de Omelas»** | Ursula K. Le Guin (1973) | **¿qué costo carga el que no lo siente, y quién lo declara?** |
 | **«La última pregunta»** | Isaac Asimov (1956) | **una pregunta que nadie puede contestar ¿se puede heredar?** |
 
-**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige [`./Sincronización de almas/teoria/ejemplos/`](./Sincronización%20de%20almas/teoria/ejemplos/), que es donde cada obra tiene su ficha y su estado.**
+**Y la advertencia que va con los libros:** se citan como **obras que preguntaron algo**, no como autoridad. **En esto, la obra provoca la pregunta; no la prueba.** **Rige `./Sincronización de almas/teoria/ejemplos/`, que es donde cada obra tiene su ficha y su estado.**
 
 ## La analogía que no es de un personaje, y sirve para todo el sistema
 

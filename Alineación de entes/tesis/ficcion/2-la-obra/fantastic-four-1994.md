@@ -50,6 +50,6 @@ Límite:      no enseña a mostrar sin destruir; enseña que hay quien no lee ex
 
 ## Y la advertencia de carpeta
 
-**Esto es Marvel, y NO del MCU.** **Va aparte, en su archivo, y no se junta con [`./mcu.md`](./mcu.md) cuando ese se cierre.**
+**Esto es Marvel, y NO del MCU.** **Va aparte, en su archivo, y no se junta con `./mcu.md` cuando ese se cierre.**
 
-**Rige [`../LEEME`](../../readme.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../../readme.md), la regla del ejemplo que no es absoluto.**

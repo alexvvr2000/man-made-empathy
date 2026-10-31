@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a [`../Sincronización de almas/entes/Ente/procesos base/guantelete.prs`](../Sincronización%20de%20almas/entes/Ente/procesos base/guantelete.prs) y [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización de almas/entes/Ente/ciclo alma de niño.prs). No los define: los carga.
+> Se usa junto a `../Sincronización de almas/entes/Ente/procesos base/conducto.prs` y [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Alineaci%C3%B3n%20de%20entes/implementacion/ente/ciclo%20alma%20de%20ni%C3%B1o.prs). No los define: los carga.
 
 Una sola pregunta: **¿la salida salió de la visión humana, y quien la produjo puede reconstruirla?**
 
@@ -28,7 +28,7 @@ Los dos se registran por separado. Uno puede dar sí y el otro no, y ninguno anu
 1. **Fijar la salida.** Qué se produjo y qué cambió en el mundo observable: un objeto, un proceso, un cambio de estado o una idea.
 2. **Registrar el cruce físico.** Buscar el antecesor humano. Si existe, `Cruce físico: no | Antecesor: [id]`. Si no existe, `Cruce físico: sí | Sin antecesor: [qué se buscó y no se halló]`.
 3. **Registrar el cruce de visión.** Entregar el registro a quien lo produjo y a un lector que no lo produjo. Si alguno lo reconstruye, `Cruce de visión: no | Quien reconstruye: [ejecutor|lector]`. Si ninguno puede, `Cruce de visión: sí | Falla de reconstrucción: [qué no se reconstruye]`.
-4. **Verificar las anclas.** `Vista`, `Vista faltante` y `Fuente`, según [`../direcciones/ACTOS/CONTEXTO.prs`](../direcciones/ACTOS/CONTEXTO.prs).
+4. **Verificar las anclas.** `Vista`, `Vista faltante` y `Fuente`, según [`../direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs).
 5. **Declarar el veredicto.** Uno por registro, con la cuenta que lo sostiene.
 
 ## Registro mínimo

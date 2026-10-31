@@ -58,4 +58,4 @@ Límite:      no enseña cómo se reparte el trabajo; sólo que el material deci
 
 **Y lo que la obra añade:** **el fondo compartido es un creador y un dispositivo; y el conjunto se vuelve una sola cosa cuando alguien lo controla.** **Eso es `Alloy`, y es el borde.**
 
-**Rige [`../LEEME`](../../readme.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../../readme.md), la regla del ejemplo que no es absoluto.**

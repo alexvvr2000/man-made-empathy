@@ -53,4 +53,4 @@ Límite:      no enseña a planear un arco largo; enseña la escala del salto
 
 **Y no enseña el final.** **Está verificado que terminó el 30 de septiembre de 2024, y no qué se sostuvo.**
 
-**Rige [`../LEEME`](../../readme.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../../readme.md), la regla del ejemplo que no es absoluto.**

@@ -30,7 +30,7 @@ Tres ejecutores, la misma tarea, el mismo proceso. **Nada más.**
 |---|---|
 | **misma tarea** | el enunciado no cambia entre ejecutores |
 | **mismo proceso** | el mismo `Entra | Falla | Sale | Consume`, sin adaptaciones |
-| **mismo piso** | rige [`../direcciones/ACTOS/CONTEXTO.prs`](../direcciones/ACTOS/CONTEXTO.prs) y su regla `Piso`: corre igual, emite veredicto, se puede correr sola |
+| **mismo piso** | rige [`../direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs) y su regla `Piso`: corre igual, emite veredicto, se puede correr sola |
 
 **Si el proceso se ajusta para un ejecutor, ya no se está midiendo el proceso: se está midiendo el ajuste.**
 
@@ -60,7 +60,7 @@ No por gusto: por **estabilidad**.
 
 ## La acuñación de la rama
 
-Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización de almas/entes/Ente/ciclo alma de niño.prs), y su regla del corte: .prs`. Aquí solo se declara **cuándo**: al cerrar cada posición.
+Cada corrida acuña el nombre de su rama. **La forma se cita, no se redefine:** rige [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Alineaci%C3%B3n%20de%20entes/implementacion/ente/ciclo%20alma%20de%20ni%C3%B1o.prs), y su regla del corte: .prs`. Aquí solo se declara **cuándo**: al cerrar cada posición.
 
 **Una rama sin nombre no existe en la conversación, y lo que no existe ahí desaparece.**
 
@@ -83,7 +83,7 @@ Un proceso puede ser perfectamente consistente **y perfectamente inútil**: tres
 **Entra:** una tarea, un proceso, y tres ejecutores de capacidad distinta, en el mismo piso.
 **Falla:** se adapta el proceso para un ejecutor; se corre una sola vez por ejecutor; se compara sin que el ejecutor sea estable; se elige la posición por gusto y no por repetición; se descarta el proceso en vez de guardarlo sin rama.
 **Sale:** la posición (`único`, `especializado` o `sin rama`), las corridas que la sostienen, y el nombre acuñado de la rama.
-**Consume:** quien va a mutar el proceso. Si la posición es `especializado`, va a [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización de almas/entes/Ente/ciclo alma de niño.prs) con dos ramas. Si es `sin rama`, se guarda con su `Vacío:` y no se toca.
+**Consume:** quien va a mutar el proceso. Si la posición es `especializado`, va a [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Alineaci%C3%B3n%20de%20entes/implementacion/ente/ciclo%20alma%20de%20ni%C3%B1o.prs) con dos ramas. Si es `sin rama`, se guarda con su `Vacío:` y no se toca.
 
 ## Ancla
 
@@ -128,8 +128,8 @@ se puede correr con dos modelos, o con dos personas
 
 ## Transiciones
 
-- La posición es `especializado` → [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Sincronización de almas/entes/Ente/ciclo alma de niño.prs), dos ramas con su `Acta`.
+- La posición es `especializado` → [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Alineaci%C3%B3n%20de%20entes/implementacion/ente/ciclo%20alma%20de%20ni%C3%B1o.prs), dos ramas con su `Acta`.
 - La posición es `sin rama` → se guarda con `Vacío:` y fecha; no se muta.
-- El piso no corre igual en dos ejecutores → [`../direcciones/ACTOS/CONTEXTO.prs`](../direcciones/ACTOS/CONTEXTO.prs); sin piso no hay prueba.
+- El piso no corre igual en dos ejecutores → [`../direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs); sin piso no hay prueba.
 - Hace falta juzgar si el proceso sirve → `./prueba de utilidad real.md`.
 - En cualquier otro caso → se entrega y se cierra.

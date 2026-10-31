@@ -40,7 +40,7 @@
 
 **Que lo fijo no está en la superficie.** **Si la fijeza estuviera en la piel, cualquier cambio de piel la mataría.**
 
-**Y el caso de `Undertale` —el de la obra que se vuelve otra sin dejar de ser la misma—** **vive en [`./la singularidad buena.md`](./09%20la%20singularidad%20buena.md), con su ficha en [`../ficcion/2-la-obra/undertale.md`](../ficcion/2-la-obra/undertale.md).**
+**Y el caso de `Undertale` —el de la obra que se vuelve otra sin dejar de ser la misma—** **vive en [`./la singularidad buena.md`](../1-el-argumento/09%20la%20singularidad%20buena.md), con su ficha en [`../ficcion/2-la-obra/undertale.md`](../../ficcion/2-la-obra/undertale.md).**
 
 ---
 

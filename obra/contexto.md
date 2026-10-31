@@ -1,7 +1,7 @@
 # CONTEXTO — de dónde corrió esto, con qué techo, y por qué empezó sin saber
 
 > **Esto no es atribución, ni agradecimientos: es de dónde vino.**
-> **A la gente se le agradece en [`./FUENTES.md`](./FUENTES.md). Lo legal está en [`./ATTRIBUTION.md`](./ATTRIBUTION.md).**
+> **A la gente se le agradece en [`./FUENTES.md`](../legal/FUENTES.md). Lo legal está en [`./ATTRIBUTION.md`](../legal/ATTRIBUTION.md).**
 
 **Hecho:** 2026-10-28. **Clase:** la perspectiva del usuario. **Estado:** vigente.
 
@@ -9,7 +9,7 @@
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que llega sin saber muchas cosas, y quiere ver de dónde venían los que ya estaban.
-**Límite:** **no es una dirección.** **Cómo se declara el origen está en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs), y es vago a propósito.** **Esto es lo de aquí: con qué se hizo, y qué nombres hubo.**
+**Límite:** **no es una dirección.** **Cómo se declara el origen está en [`./direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs), y es vago a propósito.** **Esto es lo de aquí: con qué se hizo, y qué nombres hubo.**
 **Firma:** **quien responde por el acto, con su nombre** · **y:** aquí.
 
 ---
@@ -85,9 +85,9 @@
 
 **No de aquí.**
 
-**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs), que es la dirección: dice cómo se declara, y es vaga a propósito.**
+**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs), que es la dirección: dice cómo se declara, y es vaga a propósito.**
 
-**Y los agradecimientos personales —los que enseñaron algo sin pedir nada— están en [`./FUENTES.md`](./FUENTES.md).**
+**Y los agradecimientos personales —los que enseñaron algo sin pedir nada— están en [`./FUENTES.md`](../legal/FUENTES.md).**
 
 ---
 

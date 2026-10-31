@@ -25,7 +25,7 @@
 | Qué hay | Dónde |
 |---|---|
 | **el ciclo, y es fijo** | **[./ciclo%20alma%20de%20niño.prs](./ciclo%20alma%20de%20ni%C3%B1o.prs)** |
-| **el libre albedrío sobre un alma fija** | **[`./procesos base/`](./procesos%20base/)** |
+| **el libre albedrío sobre un ente con alma de niño fija** | **[`./procesos base/`](./procesos%20base/)** |
 | **el oficio: los ciclos suyos** | **[`./ciclos/`](./ciclos/)** |
 | **los dos bancos** | **[`./memoria continua/`](./memoria%20continua/)** |
 | **lo que aprendió, en tareas que mutan** | **[`./evolucion/`](./evolucion/)** |

@@ -16,7 +16,7 @@
 > **Es el lugar donde viven varios entes intercambiables.**
 > **Cada uno trae su casa entera, y saca uno, y no pasa nada: sigue siendo él.**
 
-**Y por eso la colmena no tiene ciclo, ni alma, ni criterio.** **Los tiene cada ente.**
+**Y por eso la colmena no tiene ciclo, ni ente, ni criterio.** **Los tiene cada ente.**
 
 ---
 
@@ -30,7 +30,7 @@
 | **lo que cada uno aguanta, con su `TALENTO.prs`** | **[`./talento/`](./talento/)** |
 
 **Lo que se comparte, y son tres cosas sólo:** **el `evolucion/`, el banco de memoria, y el talento real.**
-**Y lo que no se comparte:** **el alma, el criterio, la memoria de cada uno, y sus ciclos.**
+**Y lo que no se comparte:** **el ente, el criterio, la memoria de cada uno, y sus ciclos.**
 
 ---
 

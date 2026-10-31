@@ -37,7 +37,7 @@ Límite:      no enseña que morirse ayude; enseña que sin margen se ve qué er
 
 **Y eso no es sacrificio heroico: es lo contrario de `Luthor`.** **`Luthor` entiende el universo y no hace nada; `Arthur` no entiende nada, y hace lo único que se podía hacer con el tiempo que le quedaba.**
 
-**Y por eso va separado de [`./red-dead-redemption.md`](./red-dead-redemption.md):** **ahí el hijo hereda la venganza; aquí el padre elige qué deja.** **Son dos juegos, y dos cosas distintas.**
+**Y por eso va separado de [`./red-dead-redemption.md`](../3-la-herencia/red-dead-redemption.md):** **ahí el hijo hereda la venganza; aquí el padre elige qué deja.** **Son dos juegos, y dos cosas distintas.**
 
 ---
 
@@ -59,4 +59,4 @@ Límite:      no enseña que morirse ayude; enseña que sin margen se ve qué er
 
 **Y su costo se declara, porque es la mitad del ejemplo:** **el juego se hizo con jornadas de cien horas, y la ficha lo dice.** **La concordia de `Arthur` la escribió gente que estaba viviendo lo contrario.**
 
-**Rige [`../LEEME`](../../readme.md), y su estado en [`../ESTADO`](../candados/19%20el%20estado%20de%20las%20fichas.md).**
+**Rige [`../LEEME`](../../../readme.md), y su estado en [`../ESTADO`](../../candados/4-lo-que-vive-juntos/19%20el%20estado%20de%20las%20fichas.md).**

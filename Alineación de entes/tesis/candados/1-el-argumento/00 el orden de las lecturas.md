@@ -13,7 +13,7 @@
 | **[`el cero`](./01%20el%20cero.md)** | **¿qué se sostiene aquí, y qué lo tumba?** **Es el argumento entero, de principio a fin** | **el más largo, y se lee una vez** |
 | **las ocho piezas** | **las ocho preguntas que el cero deja abiertas** | **una por pieza, y se leen cuando toquen** |
 | **las piezas de la forma** | **por qué la casa, el borde, y las leyes son así** | **cortas, y se leen al construir** |
-| **[`../ficcion/`](../ficcion/)** | **las 33 fichas: cada obra, qué provocó, y su fuente** | **no se leen seguidas: se abren cuando una pieza nombra una obra** |
+| **[`../ficcion/`](../README.md)** | **las 33 fichas: cada obra, qué provocó, y su fuente** | **no se leen seguidas: se abren cuando una pieza nombra una obra** |
 
 ---
 
@@ -21,14 +21,14 @@
 
 | La pieza | Y su pregunta |
 |---|---|
-| **[`abrir una idea`](./11%20abrir%20una%20idea.md)** | **¿cómo se abre una idea sin imponerla?** |
-| **[`convivir`](./17%20convivir.md)** | **¿se puede convivir sin someter al otro?** |
-| **[`el estandar`](./16%20el%20estandar.md)** | **¿cuándo un estándar sirve, y cuándo es la voz de uno?** |
-| **[`el lugar intermedio`](./13%20el%20lugar%20intermedio.md)** | **¿dónde queda lo que no es ni una cosa ni la otra?** |
-| **[`el nombre`](./12%20el%20nombre.md)** | **¿qué fija un nombre, y qué rompe?** |
-| **[`la colmena`](./18%20la%20colmena.md)** | **¿cuándo muchos son más, y cuándo se vuelven uno?** |
-| **[`tocar sin pasarse`](./14%20tocar%20sin%20pasarse.md)** | **¿cómo se toca lo ajeno sin quedarse con él?** |
-| **[`un alma crece`](./15%20un%20alma%20crece.md)** | **¿qué puede crecer sin dejar de ser la misma?** |
+| **[`abrir una idea`](../3-el-ojo/11%20abrir%20una%20idea.md)** | **¿cómo se abre una idea sin imponerla?** |
+| **[`convivir`](../3-el-ojo/17%20convivir.md)** | **¿se puede convivir sin someter al otro?** |
+| **[`el estandar`](../3-el-ojo/16%20el%20estandar.md)** | **¿cuándo un estándar sirve, y cuándo es la voz de uno?** |
+| **[`el lugar intermedio`](../3-el-ojo/13%20el%20lugar%20intermedio.md)** | **¿dónde queda lo que no es ni una cosa ni la otra?** |
+| **[`el nombre`](../3-el-ojo/12%20el%20nombre.md)** | **¿qué fija un nombre, y qué rompe?** |
+| **[`la colmena`](../4-lo-que-vive-juntos/18%20la%20colmena.md)** | **¿cuándo muchos son más, y cuándo se vuelven uno?** |
+| **[`tocar sin pasarse`](../3-el-ojo/14%20tocar%20sin%20pasarse.md)** | **¿cómo se toca lo ajeno sin quedarse con él?** |
+| **[`un alma crece`](../3-el-ojo/15%20un%20alma%20crece.md)** | **¿qué puede crecer sin dejar de ser la misma?** |
 
 ---
 
@@ -37,24 +37,24 @@
 | La pieza | Y su pregunta |
 |---|---|
 | **[`las ocho leyes del punto cero`](./02%20las%20ocho%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
-| **[`la casa del ente`](./04%20la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
-| **[`por que el conducto no toca el alma`](./06%20por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
-| **[`el alma es la raiz, y el oficio es la rama`](./03%20el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |
-| **[`el ciclo, y por que decide no hacerlo`](./05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **por qué un ente no hace nada** |
-| **[`mutar`](./07%20mutar.md)** | **qué puede cambiar, y qué se pierde** |
-| **[`procesos`](./08%20procesos.md)** | **cómo se escribe un proceso que se pueda refutar** |
+| **[`la casa del ente`](../2-la-forma/04%20la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
+| **[`por que el conducto no toca el alma`](../2-la-forma/06%20por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
+| **[`el alma es la raiz, y el oficio es la rama`](../2-la-forma/03%20el%20alma%20es%20la%20raiz%2C%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |
+| **[`el ciclo, y por que decide no hacerlo`](../2-la-forma/05%20el%20ciclo%2C%20y%20por%20que%20decide%20no%20hacerlo.md)** | **por qué un ente no hace nada** |
+| **[`mutar`](../2-la-forma/07%20mutar.md)** | **qué puede cambiar, y qué se pierde** |
+| **[`procesos`](../2-la-forma/08%20procesos.md)** | **cómo se escribe un proceso que se pueda refutar** |
 | **[`la frase`](./10%20la%20frase.md)** | **por qué el registro es lo único que queda** |
 | **[`la singularidad buena`](./09%20la%20singularidad%20buena.md)** | **¿para qué, si no es poder?** |
-| **[`la autoridad`](./21%20la%20autoridad.md)** | **quién dice la última palabra, y hasta dónde** |
-| **[`la memoria del ente`](./22%20la%20memoria%20del%20ente.md)** | **por qué hay dos memorias, y qué va en cada una** |
-| **[`cuándo está terminado`](./23%20cuándo%20está%20terminado.md)** | **con qué se dice «ya está», y no con la sensación** |
-| **[`nacer una colmena`](./24%20nacer%20una%20colmena.md)** | **cuándo dos son más, y cuándo son dos** |
+| **[`la autoridad`](../4-lo-que-vive-juntos/21%20la%20autoridad.md)** | **quién dice la última palabra, y hasta dónde** |
+| **[`la memoria del ente`](../4-lo-que-vive-juntos/22%20la%20memoria%20del%20ente.md)** | **por qué hay dos memorias, y qué va en cada una** |
+| **[`cuándo está terminado`](../4-lo-que-vive-juntos/23%20cu%C3%A1ndo%20est%C3%A1%20terminado.md)** | **con qué se dice «ya está», y no con la sensación** |
+| **[`nacer una colmena`](../4-lo-que-vive-juntos/24%20nacer%20una%20colmena.md)** | **cuándo dos son más, y cuándo son dos** |
 
 ---
 
 ## Y los ejemplos, que son la teoría pegada a una obra
 
-**33 fichas, en [`../ficcion/`](../ficcion/).** **Y su estado, una por una, en [`./19%20el%20estado%20de%20las%20fichas.md`](./19%20el%20estado%20de%20las%20fichas.md).**
+**33 fichas, en [`../ficcion/`](../README.md).** **Y su estado, una por una, en [`./19%20el%20estado%20de%20las%20fichas.md`](../4-lo-que-vive-juntos/19%20el%20estado%20de%20las%20fichas.md).**
 **Y la regla: un ejemplo no es absoluto porque nunca está solo, lleva su verificación pegada.**
 
 **Y hoy:** **32 con una fuente, 2 con ninguna, y ninguna con dos.**

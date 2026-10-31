@@ -47,7 +47,7 @@
 | ***Ghost in the Shell: Stand Alone Complex*** — Masamune Shirow; Production I.G, 2002 | **los Tachikoma: se sincronizan sin nacer sabios; discuten, se rebelan, y uno muere intentando escapar** | qué pasa cuando un alma se sale del sesgo |
 | ***Soul Eater*** — Atsushi Ōkubo; Square Enix, 2004 | **el arma y el meister resuenan y siguen siendo dos. Si la resonancia las vuelve una, no hay dos almas: hay una con dos nombres** | cómo se afina más de dos |
 
-**Y de la autoridad, que lo dijo mejor que cualquier obra:** **la resonancia entre dos es consciente; entre 1 y N no.** **Entre dos hay un acuerdo que se puede mirar a los ojos. Entre muchos, el acuerdo tiene que estar escrito, o no existe.**
+**Y de la autoridad, que lo dijo mejor que cualquier obra:** **la convergencia de rastro entre dos es consciente; entre 1 y N no.** **Entre dos hay un acuerdo que se puede mirar a los ojos. Entre muchos, el acuerdo tiene que estar escrito, o no existe.**
 
 ## El caso: se corrió el 26 de octubre de 2026
 

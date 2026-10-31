@@ -73,4 +73,4 @@ Límite:      no enseña que el ejemplo funcione solo; el que mira tiene que pod
 
 **Y el caso del medallista, ahora con fuente, enseña otra cosa:** **no es que el medallista se parezca a la obra; es que la obra hizo un medallista.** **Y el disfraz es la prueba de que la obra se le metió en el cuerpo.**
 
-**Rige [`../LEEME`](../../readme.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../../readme.md), la regla del ejemplo que no es absoluto.**

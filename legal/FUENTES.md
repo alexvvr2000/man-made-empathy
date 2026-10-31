@@ -1,7 +1,7 @@
 # FUENTES — los agradecimientos, y la regla de los nombres
 
 > **Esto no es una bibliografía: es gente.**
-> **Para lo legal, [`./ATTRIBUTION.md`](./ATTRIBUTION.md). Para de dónde vino lo que se usó, [`./contexto.md`](./contexto.md).**
+> **Para lo legal, [`./ATTRIBUTION.md`](./ATTRIBUTION.md). Para de dónde vino lo que se usó, [`./contexto.md`](../obra/contexto.md).**
 
 **Hecho:** 2026-10-28. **Clase:** registro. **Estado:** vigente.
 
@@ -9,7 +9,7 @@
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
 
 **Sesgo:** se lee desde el que podría reclamar, no desde el que eligió el nombre.
-**Límite:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: lo difícil es decir cómo se usaron, y eso vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs).**
+**Límite:** **no es una bibliografía.** **Con una IA al alcance, tener fuentes ya no es la parte difícil: lo difícil es decir cómo se usaron, y eso vive en [`./direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs).**
 **Firma:** **quien responde por el acto, con su nombre** · **y:** quien lo lea.
 
 ---
@@ -70,7 +70,7 @@
 
 **No de aquí.**
 
-**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.prs`](./direcciones/ACTOS/CONTEXTO.prs): una entrada por obra.**
+**Lo que una obra provocó, qué se tomó de ella, y qué no enseña, vive en [`./direcciones/ACTOS/CONTEXTO.prs`](../Alineaci%C3%B3n%20de%20entes/tesis/direcciones/CONTEXTO.prs): una entrada por obra.**
 
 **Y la razón de separarlo:** **las fuentes existen para no meterse en un problema legal; el contexto, para que la gente entienda.**
 

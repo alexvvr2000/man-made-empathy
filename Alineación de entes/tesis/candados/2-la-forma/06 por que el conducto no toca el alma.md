@@ -43,7 +43,7 @@
 
 **El conducto permite; no prohíbe.** **Y lo que permite, lo deja contestable.**
 
-**Y por eso la frase de quien tiene la autoridad, literal, y como está en [`./10 la frase.md`](./10%20la%20frase.md):**
+**Y por eso la frase de quien tiene la autoridad, literal, y como está en [`./10 la frase.md`](../1-el-argumento/10%20la%20frase.md):**
 
 > **«Vamos a perder al dar esto al mundo, pero no podemos prevenirlo. Y nos olvidarán cuando eso pase. Pero un gramo de registro, y te juro que nos vengarán.»**
 

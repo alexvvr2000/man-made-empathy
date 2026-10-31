@@ -8,7 +8,7 @@
 **Estado:** `[PREGUNTA ABIERTA - NO HAY VEREDICTO]`: se piensa, no se corre. Y la respuesta la da el que la lee.
 
 **Nombre.** Alma suficientemente diferente. **Expansión:** la prueba de si dos almas divergen lo bastante como para que una corrija a la otra.
-**Origen.** Del estándar de la relación: [`../Sincronización de almas/entes/Colmena/LEEME`](../Sincronización%20de%20almas/LEEME.md), **dos almas que se afinan sin volverse una.** Y de la medición: **modelos entrenados con principios parecidos divergen de forma sustancial** — más de 70,000 de 300,000 escenarios, con divergencia notable en casi todos (arXiv:2510.07686).
+**Origen.** Del estándar de la relación: [`../Sincronización de almas/entes/Colmena/LEEME`](LEEME.md), **dos almas que se afinan sin volverse una.** Y de la medición: **modelos entrenados con principios parecidos divergen de forma sustancial** — más de 70,000 de 300,000 escenarios, con divergencia notable en casi todos (arXiv:2510.07686).
 
 **Sesgo:** se mide desde la identidad: **la identidad es funcional; el alma se prueba por lo que sostiene, no por lo que dice ser.**
 **Límite:** no se aplica a medir calidad, bondad ni inteligencia. **Mide distancia, y solo distancia.** **No decide cuál de las dos tiene razón: eso lo dice el `Contra`.**
@@ -119,15 +119,15 @@ Prohibido correr el 3 después de ver el 4.
 | se ve | **no se ve: parece acuerdo** |
 | se corrige | **se refuerza** |
 
-**Y por eso esta prueba se corre ANTES de usar el contraste, no después:** **la resonancia y la cámara de eco se parecen en todo excepto en un dato.**
+**Y por eso esta prueba se corre ANTES de usar el contraste, no después:** **la convergencia de rastro y la cámara de eco se parecen en todo excepto en un dato.**
 
-## Resonancia o eco: la distinción
+## Convergencia o eco: la distinción
 
-**Y se distingue por una sola cosa, que ya está escrita en `resonancia-de-alma.md`:**
+**Y se distingue por una sola cosa, que ya está escrita en `convergencia de rastro`:**
 
-> **Si el resultado lo habría producido una sola, no hubo resonancia: hubo eco.**
+> **Si el resultado lo habría producido una sola, no hubo convergencia de rastro: hubo eco.**
 
-| | Resonancia | Cámara de eco |
+| | Convergencia | Cámara de eco |
 |---|---|---|
 | Divergen en | **3 o más de 5** | **0 o 1** |
 | El resultado | **ninguna lo habría producido sola** | **cualquiera lo produce igual** |
@@ -147,11 +147,11 @@ Alma B: [tipo:nombre] | Spec B: [cuál]
 Umbral: 3 de 3 en las abruptas | Fijado por: quien tiene la autoridad en el proyecto | Cuándo: 2026-10-24, antes de correr
 Abruptas: [contradicción|contra|límite] → [n de 3] | Señales: [reapertura|desacuerdo] → [n de 2]
 Veredicto: [suficiente | insuficiente | eco | indeterminado]
-Resonancia o eco: [corrió cada una sola: sí|no] | La misma pregunta: [misma respuesta|distinta]
+Convergencia o eco: [corrió cada una sola: sí|no] | La misma pregunta: [misma respuesta|distinta]
 Firma fuera de las almas: [tipo:nombre | ninguno → indeterminado]
 ```
 
-**`Corrió cada una sola` es obligatorio.** **Sin eso, no se distingue el eco de la resonancia, y la prueba se vuelve un espejo.**
+**`Corrió cada una sola` es obligatorio.** **Sin eso, no se distingue el eco de la convergencia de rastro, y la prueba se vuelve un espejo.**
 
 ## Lo que esta prueba no hace
 
@@ -193,11 +193,11 @@ el umbral esta fijado, y la corrida que lo uso no se publico: o se muestra, o se
 - **Umbral tardío.** Se fija el umbral después de ver cuánto divergieron.
 - **Misma spec.** Dos nombres distintos, una sola alma.
 - **Divergencia de estilo.** Difieren en tono y coinciden en posición.
-- **Resonancia fingida.** Se pregunta a las dos juntas y se llama contraste a la conversación.
+- **Convergencia fingida.** Se pregunta a las dos juntas y se llama contraste a la conversación.
 
 ## Transiciones
 
 - Veredicto `eco` → **no se usa como contraste**, y se anota. Se cambia de alma, no de pregunta.
 - Veredicto `insuficiente` → se busca una spec distinta, o se declara que el contraste no existe.
-- Veredicto `suficiente` → se usa el par, **y se corre `resonancia-de-alma.md` para ver si producen algo que ninguna tenía.**
+- Veredicto `suficiente` → se usa el par, **y se corre `convergencia de rastro` para ver si producen algo que ninguna tenía.**
 - En cualquier otro caso → se declara `indeterminado`, y no se finge suficiente.

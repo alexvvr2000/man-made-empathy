@@ -53,4 +53,4 @@ Límite:      no enseña a hacerlo; enseña el tamaño del gesto
 
 **Y no enseña que sacrificar una capacidad sea siempre el precio.** **Es el precio de Edward, y lo que la obra cuenta es que él lo aceptó.**
 
-**Rige [`../LEEME`](../../readme.md), la regla del ejemplo que no es absoluto.**
+**Rige [`../LEEME`](../../../readme.md), la regla del ejemplo que no es absoluto.**

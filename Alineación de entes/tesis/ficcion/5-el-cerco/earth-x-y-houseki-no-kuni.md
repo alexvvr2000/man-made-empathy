@@ -57,6 +57,6 @@ Límite:      no enseña a vivir sin muerte; enseña que la pregunta cambia cuan
 
 **No enseña que la inmortalidad sea buena o mala.** **Muestra el costo, y el costo lo paga cada uno.**
 
-**Y `Earth X` no se cuenta con el MCU.** **Es Marvel de 1999, y va aparte:** **rige [`./mcu.md`](./mcu.md), y su regla de no mezclar.**
+**Y `Earth X` no se cuenta con el MCU.** **Es Marvel de 1999, y va aparte:** **rige `./mcu.md`, y su regla de no mezclar.**
 
-**Rige [`../LEEME`](../../readme.md), y su estado en [`../ESTADO`](../candados/19%20el%20estado%20de%20las%20fichas.md).**
+**Rige [`../LEEME`](../../../readme.md), y su estado en [`../ESTADO`](../../candados/4-lo-que-vive-juntos/19%20el%20estado%20de%20las%20fichas.md).**

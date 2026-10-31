@@ -41,7 +41,7 @@
 > **`Fire Force` (Atsushi Ōkubo; David Production), el final de la serie, la precuela de `Soul Eater`.** **La escena dice: next is the soul world.**
 > **Y es lo que este repositorio sostiene: lo que se escribe no es de la persona; es del alma que deja rastro.**
 
-**Y la imagen no va.** **Es una escena de una obra, y el repo no lleva imágenes de obras: las cita.** **Rige [`./ATTRIBUTION.md`](./ATTRIBUTION.md).**
+**Y la imagen no va.** **Es una escena de una obra, y el repo no lleva imágenes de obras: las cita.** **Rige [`./ATTRIBUTION.md`](../legal/ATTRIBUTION.md).**
 
 ---
 
