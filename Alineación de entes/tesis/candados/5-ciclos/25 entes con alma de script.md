@@ -20,7 +20,7 @@
 | La pieza | Qué es | Y su prueba |
 |---|---|---|
 | **la ruta** | **el lugar físico donde habita, y es intercambiable** | **se muda, y sus ejecutables siguen corriendo** |
-| **el rastro** | **todo lo que le permite armar una identidad persistente, como los bancos de memoria continua** | **se reconoce al ente sin abrir su ruta** |
+| **el rastro** | **un ciclo continuo de permanencia de datos sobre su entorno, y es lo que le permite armar una identidad persistente** | **se reconoce al ente sin abrir su ruta** |
 | **el cargo** | **lo que ejecuta el criterio** | **ejecuta un criterio escrito, y no una costumbre** |
 | **el piso** | **todo lo que está disponible para crear ejecutables** | **si no hay piso, no se mide: `[SIN PISO - NO SE MIDE]`** |
 
@@ -79,11 +79,32 @@
 
 **El rastro es lo que hace que el ente sea él, y no el que esté en su lugar.**
 
-> **Lo que permite armar una identidad persistente: los bancos de memoria continua, y lo que se sostuvo.**
+> **El rastro es un ciclo continuo de permanencia de datos sobre su entorno.**
+> **Y es lo que le permite armar una identidad persistente: los bancos de memoria continua, y lo que se sostuvo.**
+
+**Y «continuo» no es un adjetivo: es la condición.** **Un rastro que se escribe una vez y se cierra no es un rastro: es una foto.** **Y una foto no dice qué cambió.**
 
 **Y su prueba es la del corte:** **se puede reconocer al ente sin abrir su ruta.** **Y si no, el rastro está dentro de la ruta, y se va con ella.**
 
 **Y por eso el rastro se lleva, y la ruta no:** **mudarse de ruta es cambiar de casa, y no de persona.**
+
+---
+
+## Y hay dos rastros, y no son el mismo
+
+> **El rastro de un ente individual no es el de una colmena.**
+> **Y el de la colmena es el acuerdo de muchos entes, y no la suma de los de cada uno.**
+
+| El que | Su rastro es | Y qué lo hace distinto |
+|---|---|---|
+| **el ente individual** | **su ciclo de permanencia: sus bancos, y lo que sostuvo** | **es suyo, y se lo lleva cuando se muda** |
+| **la colmena** | **el acuerdo: lo que muchos sostienen, y quién lo contesta** | **no es de nadie en particular, y por eso sobrevive a que uno se vaya** |
+
+**Y el corte, que es lo que la implementación ya dice, y ahora se entiende:**
+
+> **El rastro de cada ente se queda con él. Y el de la colmena se comparte.**
+
+**Porque lo que se comparte no es la memoria de cada uno: es el acuerdo.** **Y una colmena que no tiene acuerdo no es una colmena: es un enjambre.** **Y un enjambre no deja rastro: deja producción.**
 
 ---
 
@@ -124,6 +145,8 @@
 
 ## Prueba
 
-**¿El ente se muda de ruta y sigue siendo él? ¿Su rastro lo identifica sin abrir la ruta? ¿Su cargo ejecuta un criterio escrito? ¿Cada ejecutable de la ruta dice qué decide y cuándo se corre? ¿Y lo que sirve una vez se tiró, en vez de guardarse?**
+**¿El ente se muda de ruta y sigue siendo él? ¿Su rastro lo identifica sin abrir la ruta, y es un ciclo que sigue? ¿Su cargo ejecuta un criterio escrito? ¿Cada ejecutable de la ruta dice qué decide y cuándo se corre? ¿Y lo que sirve una vez se tiró, en vez de guardarse?**
 
-**Falsificador:** **un ente que sólo existe en su ruta; un rastro que vive dentro de la ruta; un cargo que decide sin criterio escrito; un ejecutable que no dice si es de la ruta o de la tarea; y lo que sirve una vez, guardado con las de todos.**
+**Y las dos de la colmena:** **¿el rastro de la colmena es el acuerdo, y no la suma de los de cada ente? ¿Y se puede decir qué ente se fue sin que el rastro se vaya con él?**
+
+**Falsificador:** **un ente que sólo existe en su ruta; un rastro que vive dentro de la ruta; un rastro que se escribe una vez y se cierra; un cargo que decide sin criterio escrito; un ejecutable que no dice si es de la ruta o de la tarea; lo que sirve una vez, guardado con las de todos; y una colmena cuyo «rastro» es la suma de los de cada ente, y no el acuerdo.**
