@@ -2,7 +2,7 @@
 
 **Unidad:** tarea. `Agente` se lee como `ejecutor`.
 
-> Se usa junto a `../Sincronización de almas/entes/Ente/procesos base/conducto.prs` y [`../Sincronización de almas/entes/Ente/ciclo alma de niño.prs`](../Alineaci%C3%B3n%20de%20entes/implementacion/ente/ciclo%20alma%20de%20ni%C3%B1o.prs). No los define: los carga.
+> Se usa junto a `../Alineación de entes/implementacion/ente/procesos base/conducto.prs` y [`../Alineación de entes/implementacion/ente/ciclo alma de niño.prs`](../Alineaci%C3%B3n%20de%20entes/implementacion/ente/ciclo%20alma%20de%20ni%C3%B1o.prs). No los define: los carga.
 
 Una sola pregunta: **¿la salida salió de la visión humana, y quien la produjo puede reconstruirla?**
 
