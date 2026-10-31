@@ -2,7 +2,8 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado, y decidido.
 
-**Fuente:** una. Se abrió la ficha de la obra.
+**Fuente:** una. Se abrió la ficha de la obra, y la cita se confirmó en la página.
+**Enlace:** https://en.wikipedia.org/wiki/Source_(comics)   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
 **Lector:** quien va a usar la Source Wall para hablar de un borde que se cruza.
 

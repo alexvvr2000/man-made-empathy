@@ -11,8 +11,10 @@
 
 **Clase:** ejemplo, y es uno solo. **Carpeta:** `ficcion/`. **Estado:** verificado en su parte verificable.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** tres, una por obra. Y cada una tiene su propia ficha, con su enlace abierto el 2026-10-31.
+**Enlace:** [`./fullmetal-alchemist.md`](./fullmetal-alchemist.md)   ·   [`./jujutsu-kaisen.md`](./jujutsu-kaisen.md)   ·   [`./final-fantasy-vii.md`](./final-fantasy-vii.md)   (las tres fichas, abiertas el 2026-10-31)
+**Para citarlo en un escrito público:** se buscan las segundas, y se piden antes de usar.
+**Y se dice lo que queda como declarado:** el «chiste» es de internet, y no de las obras. **No se le pone enlace, y no se abre: ${NO SE ABRIÓ}**.
 
 ---
 

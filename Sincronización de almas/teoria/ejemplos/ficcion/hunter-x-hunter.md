@@ -3,7 +3,9 @@
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
 
 **Fuente:** una. Se abrió la ficha de la obra.
+**Enlace:** https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y se dice lo que la fuente no dice:** los `cuatro finales` del mangaka no están en la página; quedan como declarado, y no como verificado.
 
 ---
 

@@ -3,7 +3,9 @@
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
 
 **Fuente:** una. Se abrió la ficha de la obra.
+**Enlace:** https://en.wikipedia.org/wiki/Soul_Eater   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y se dice lo que la fuente corrige:** el autor aparece como `Atsushi Ohkubo`, sin la `Ō`; el manga corrió del 12 de mayo de 2004 al 12 de agosto de 2013, con 25 tomos, y no desde mayo de 2003; los one-shots de 2003 son otra cosa; el anime de `Bones` es del 7 de abril de 2008 al 30 de marzo de 2009, con 51 episodios. La palabra `resonance` sí está en la fuente, como concepto de la historia.
 
 ---
 

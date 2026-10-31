@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en el guion de la serie, con una corrección.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** una, para la serie y el episodio. El guion se leyó en Wikiquote, y esa revisión está declarada arriba.
+**Enlace:** https://en.wikipedia.org/wiki/Lanterns_(TV_series)   (abierto el 2026-10-31)
+**Para citarlo en un escrito público:** se busca la tercera, y se pide antes de usar.
+**Y la cadena se precisa:** la fuente dice `HBO`, y estrena el 16 de agosto de 2026; la ficha decía `HBO Max`.
 
 ---
 

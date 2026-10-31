@@ -3,7 +3,9 @@
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
 
 **Fuente:** una. Se abrió la ficha de la obra.
+**Enlace:** https://en.wikipedia.org/wiki/The_Autobiography_of_Malcolm_X   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y la fecha se precisa:** la fuente dice publicada el 29 de octubre de 1965, y no sólo 1965.
 
 ---
 

@@ -2,7 +2,8 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
 
-**Fuente:** una. Se abrió la ficha de la obra.
+**Fuente:** una. Se abrió la ficha del personaje.
+**Enlace:** https://en.wikipedia.org/wiki/Martian_Manhunter   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
 
 ---

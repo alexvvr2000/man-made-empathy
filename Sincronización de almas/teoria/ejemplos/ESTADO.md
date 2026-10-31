@@ -3,7 +3,7 @@
 **Hecho:** 2026-10-28. **Clase:** índice de verificación. **Estado:** vigente, y se actualiza al verificar.
 **Lector:** quien va a citar un ejemplo, y quiere saber si puede.
 
-**Sesgo:** se lee desde el que no va a abrir las 34 fichas para saber qué está firme.
+**Sesgo:** se lee desde el que no va a abrir las 33 fichas para saber qué está firme.
 **Límite:** **no dice si la obra es buena, ni si la escena dice lo que el argumento quiere.** **Dice de dónde salió la ficha, y si se buscó.**
 **Firma:** **quien responde por el acto, con su nombre** · **y:** quien verifique.
 
@@ -25,7 +25,7 @@
 
 ---
 
-## Las 34, una por una
+## Las 33, una por una
 
 **Y el estado es el que declara cada ficha, sin corregirlo aquí.**
 
@@ -55,7 +55,6 @@
 | **`martian-manhunter.md`** | **verificado** | verificado en su ficha. |
 | **`mcu.md`** | **`declarado`** | `declarado`: no se ha verificado ninguna escena del `MCU`. Y no cierra hasta que se rescate del historial. |
 | **`metal-men.md`** | **verificado** | verificado. |
-| **`platon.md`** | **verificado** | verificado en su ficha. |
 | **`red-dead-redemption.md`** | **verificado** | verificado en su ficha. |
 | **`soul-eater.md`** | **verificado** | verificado en su ficha. |
 | **`soul.md`** | **verificado** | verificado en su ficha. |
@@ -84,7 +83,7 @@
 
 ## Y lo que todavía no se buscó, y es lo más importante
 
-**Ninguna de las 34 se buscó en una segunda fuente.** **Todas descansan en la ficha de Wikipedia, y una en el guion de su película.** **Eso es una sola mirada, y el repo pide dos.**
+**Ninguna de las 33 se buscó en una segunda fuente.** **Todas descansan en la ficha de Wikipedia, y una en el guion de su película.** **Eso es una sola mirada, y el repo pide dos.**
 
 **Y por eso esta tabla dice `verificado` y no `confirmado`:** **verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
 

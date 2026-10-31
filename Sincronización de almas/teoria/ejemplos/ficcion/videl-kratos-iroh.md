@@ -2,8 +2,9 @@
 
 **Clase:** ejemplo, y son tres casos. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y `Videl`/`Kratos` como `[SIN VERIFICAR]` de escena.
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** tres obras, y hoy se abrió una. Las otras dos quedan dichas como pendientes.
+**Enlace:** https://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender   (abiertas el 2026-10-31: las dos). Y faltan por abrir: `Dragon Ball` (Videl) y `God of War` (Kratos).
+**Para citarlo en un escrito público:** se buscan las tres, y se piden antes de usar.
 
 ---
 

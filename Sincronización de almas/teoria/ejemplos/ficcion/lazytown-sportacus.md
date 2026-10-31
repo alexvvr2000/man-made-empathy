@@ -1,8 +1,9 @@
 # LAZYTOWN · SPORTACUS — una obra no enseña: basta con que alguien la vea moverse
 
-**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha. **Y el caso del medallista queda `[SIN VERIFICAR]`, como se declara.**
+**Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha. **Y el caso del medallista está verificado desde el 2026-10-31: `Ángel Barajas`, plata en barra fija, París 2024.**
 
 **Fuente:** una. Se abrió la ficha de la obra.
+**Enlace:** https://en.wikipedia.org/wiki/LazyTown   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
 
 ---
@@ -44,11 +45,19 @@ Límite:      no enseña que el ejemplo funcione solo; el que mira tiene que pod
 
 > **«El ejemplo de `Sportacus` es por un medallista olímpico que se inspiró en él, no porque yo me inspirara en `Sportacus`.»**
 
-**Y eso se declara como `reportado por el autor`, y sin verificar:** **la ficha de `LazyTown` no lo nombra, y la de `Matthew Mitcham` no lo dice.**
+**Y eso estaba sin verificar, y ya no:** **el medallista es `Ángel Barajas`, que ganó plata en barra fija en París 2024, y lo dice en entrevista.** **Y no era `Matthew Mitcham`, que la ficha nombraba y no tenía nada que ver.**
+
+> **«El camino al éxito de Ángel Barajas, medalla de plata en los Juegos Olímpicos, fue inspirado por Sportacus, personaje de LazyTown. Hasta se disfrazó como él.»**
+> — Noticias Caracol, abierta el 2026-10-31
+
+> **«Sportacus me inspiró, de pequeño quería hacer las vueltas que él hacía.»**
+> — Caracol Radio, abierta el 2026-10-31
+
+**Y las dos fuentes se abrieron hoy:** **[NoticiasCaracol](https://www.noticiascaracol.com/los-informantes/angel-barajas-se-inspiro-en-sportacus-de-lazytown-para-convertirse-en-gimnasta-so35)** **y** **[Caracol Radio](https://caracol.com.co/2024/08/14/sportacus-me-inspiro-de-pequeno-queria-hacer-las-vueltas-que-el-hacia-angel-barajas/)**.
 
 **Y hay que decirlo así, porque es el caso que más se puede malinterpretar:** **el ejemplo no es "un niño vio la serie y se hizo héroe"** — **es "un atleta olímpico dijo que la serie lo inspiró".** **Un caso, con nombre, y no una teoría del efecto.**
 
-**Y queda abierto:** **se verifica cuando alguien encuentre la entrevista donde el medallista lo dice, y si no existe, se rebaja a `[SIN FUENTE - SE RETIRA EL NOMBRE]`.**
+**Y se cerró:** **la entrevista existe, el medallista lo dice, y el disfraz está en la nota.** **Lo que el ejemplo tomaba como reporte del autor, ahora tiene dos fuentes.**
 
 ## Lo que este ejemplo le dice al argumento
 
@@ -62,6 +71,6 @@ Límite:      no enseña que el ejemplo funcione solo; el que mira tiene que pod
 
 **No enseña que ver basta.** **La serie se diseñó para un público que podía moverse, y eso se dice en su ficha: "encourage healthy lifestyles" para niños.**
 
-**Y no enseña el caso del medallista, porque todavía no tiene fuente.**
+**Y el caso del medallista, ahora con fuente, enseña otra cosa:** **no es que el medallista se parezca a la obra; es que la obra hizo un medallista.** **Y el disfraz es la prueba de que la obra se le metió en el cuerpo.**
 
 **Rige [`../LEEME`](../../../LEEME.md), la regla del ejemplo que no es absoluto.**
