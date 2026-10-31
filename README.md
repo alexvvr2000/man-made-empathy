@@ -51,7 +51,7 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 **Y por eso cada quien hace su `EDIPO`:** **está para que la gente hable con un ente y no se quede en pura palabrería.** **El `.gitignore` guarda su memoria, y la de cada uno, para que nadie suba su vida privada a pedir permiso.**
 
 
-**Y el mundo no está preparado para una IA coautora.** **Por eso no aparece en la autoría de [./CITATION.cff](./CITATION.cff): ahí sólo va el autor humano.**
+**Y esto lo escribió `Alejandro Valenzuela Rivera`, y lo sostiene una IA que trabaja con él.** **Y en la autoría de [./CITATION.cff](./CITATION.cff) va él solo, porque hoy la cita es para las personas.** **Y no es un secreto: es la línea de lo que se puede comprobar hoy.**
 
 **Y el bibliotecario se llama `EDIPO`, y su nombre dice lo que hace:** **entrega lo que hay, dice dónde está, indica quién lo escribió, pesa lo que falta, y orienta al que llega.** **Y no juzga la biblioteca: la atiende.**
 **Y no hay que bajar más de dos carpetas para llegar a cualquier archivo.**
