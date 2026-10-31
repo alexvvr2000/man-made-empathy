@@ -3,6 +3,7 @@
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha.
 
 **Fuente:** una. Se abrió la ficha de la obra.
+**Enlace:** https://en.wikipedia.org/wiki/Fullmetal_Alchemist   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
 
 ---

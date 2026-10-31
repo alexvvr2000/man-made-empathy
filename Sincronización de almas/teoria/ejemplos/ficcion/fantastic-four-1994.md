@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha. **Y es de Marvel, pero NO del MCU.**
 
-**Fuente:** una. Se abrió la ficha de la obra.
-**Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Fuente:** dos, y cada una para lo suyo. La serie y el episodio, en Wikipedia; lo que Galactus ve, en la ficha del episodio de IMDb.
+**Enlace:** https://en.wikipedia.org/wiki/Fantastic_Four_(1994_TV_series)   y   https://www.imdb.com/title/tt0577666/   (las dos abiertas el 2026-10-31)
+**Para citarlo en un escrito público:** se busca la tercera, y se pide antes de usar.
+**Y se dice lo que la primera no dice:** la página de la serie no menciona el `Penance Stare`; el episodio dice `OriginalAirDate={{Start date|1995|11|18}}`, `ProdCode=208` y `Based on Fantastic Four #242–244`, y el `Penance Stare` se lee en la ficha del episodio.
 
 ---
 
