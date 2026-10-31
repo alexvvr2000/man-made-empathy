@@ -29,41 +29,41 @@
 
 **Y el estado es el que declara cada ficha, sin corregirlo aquí.**
 
-| La ficha | Estado | Lo que la ficha declara |
-|---|---|---|
-| **`adventure-time.md`** | **verificado** | verificado en su ficha. |
-| **`all-star-superman.md`** | **verificado** | verificado en el guion de la película, y con la escena confirmada por un clip. |
-| **`ente-sin-borde.md`** | **verificado** | verificado en su ficha. |
-| **`arrival.md`** | **verificado** | verificado. |
-| **`arthur-morgan.md`** | **verificado** | verificado en su ficha. |
-| **`aya-y-manhunters.md`** | **verificado** | verificado en su ficha, y separado de `Lanterns`. |
-| **`dorohedoro-y-back-to-the-future.md`** | **verificado** | verificado en su ficha. |
-| **`earth-x-y-houseki-no-kuni.md`** | **verificado** | verificado en su ficha. Y `Earth X` es Marvel, y NO es del MCU. |
-| **`fantastic-four-1994.md`** | **verificado** | verificado en su ficha. Y es de Marvel, pero NO del MCU. |
-| **`fire-force.md`** | **`declarado`** | declarado: la autoridad lo dijo, y no se abrió la escena. Es el nombre de una época, y está como tal. |
-| **`final-fantasy-vii.md`** | **verificado** | verificado en su ficha, y sin jugar: lo declara la autoridad. |
-| **`fullmetal-alchemist.md`** | **verificado** | verificado en su ficha. |
-| **`hunter-x-hunter.md`** | **verificado** | verificado en su ficha. |
-| **`jujutsu-kaisen.md`** | **verificado** | verificado en su ficha. |
-| **`la-semilla.md`** | **verificado** | verificado en su parte verificable. |
-| **`lanterns.md`** | **verificado** | verificado en el guion de la serie, con una corrección. |
-| **`lazytown-sportacus.md`** | **`parcial`** | verificado en su ficha. Y el caso del medallista queda `[SIN VERIFICAR]`, como se declara. |
-| **`lo-mundano.md`** | **verificado** | verificado en su parte verificable. |
-| **`lucky-luke.md`** | **`parcial`** | verificado en su ficha, y con la escena del hijo apuntada sin verificar. |
-| **`malcolm-x.md`** | **verificado** | verificado en su ficha. |
-| **`marceline.md`** | **`parcial`** | verificado en su ficha, y con la frase `[SIN VERIFICAR]`. |
-| **`martian-manhunter.md`** | **verificado** | verificado en su ficha. |
-| **`mcu.md`** | **`declarado`** | `declarado`: no se ha verificado ninguna escena del `MCU`. Y no cierra hasta que se rescate del historial. |
-| **`metal-men.md`** | **verificado** | verificado. |
-| **`red-dead-redemption.md`** | **verificado** | verificado en su ficha. |
-| **`soul-eater.md`** | **verificado** | verificado en su ficha. |
-| **`soul.md`** | **verificado** | verificado en su ficha. |
-| **`limite-de-origen.md`** | **verificado** | verificado, y decidido. |
-| **`story-of-your-life.md`** | **verificado** | verificado en su ficha. |
-| **`tachikoma.md`** | **verificado** | verificado, y con una sorpresa. |
-| **`undertale.md`** | **verificado** | verificado en su ficha. |
-| **`videl-kratos-iroh.md`** | **`parcial`** | verificado en su ficha, y `Videl`/`Kratos` como `[SIN VERIFICAR]` de escena. |
-| **`watchmen.md`** | **verificado** | verificado en su ficha. |
+| la ficha | su carpeta | su estado | por qué |
+|---|---|---|---|
+| **`arthur-morgan.md`** | `1-el-ente` | **verificado** | verificado en su ficha. |
+| **`ente-sin-borde.md`** | `1-el-ente` | **verificado** | verificado en su ficha. |
+| **`lo-mundano.md`** | `1-el-ente` | **verificado** | verificado en su ficha. |
+| **`marceline.md`** | `1-el-ente` | **parcial** | verificado en su ficha, y con una parte `[SIN VERIFICAR]`, como se declara. |
+| **`metal-men.md`** | `1-el-ente` | **verificado** | verificado en su ficha. |
+| **`tachikoma.md`** | `1-el-ente` | **verificado** | verificado en su ficha. |
+| **`adventure-time.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`fantastic-four-1994.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`fullmetal-alchemist.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`lazytown-sportacus.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`malcolm-x.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`undertale.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`watchmen.md`** | `2-la-obra` | **verificado** | verificado en su ficha. |
+| **`final-fantasy-vii.md`** | `3-la-herencia` | **verificado** | verificado en su ficha. |
+| **`fire-force.md`** | `3-la-herencia` | **parcial** | verificado en su ficha, y con una parte `[SIN VERIFICAR]`, como se declara. |
+| **`hunter-x-hunter.md`** | `3-la-herencia` | **verificado** | verificado en su ficha. |
+| **`jack-marston.md`** | `3-la-herencia` | **verificado** | verificado en su ficha. |
+| **`jujutsu-kaisen.md`** | `3-la-herencia` | **verificado** | verificado en su ficha. |
+| **`red-dead-redemption.md`** | `3-la-herencia` | **verificado** | verificado en su ficha. |
+| **`arrival.md`** | `4-el-encuentro` | **verificado** | verificado en su ficha. |
+| **`aya-y-manhunters.md`** | `4-el-encuentro` | **verificado** | verificado en su ficha. |
+| **`kratos.md`** | `4-el-encuentro` | **verificado** | verificado en su ficha. |
+| **`lanterns.md`** | `4-el-encuentro` | **parcial** | verificado en su ficha, y con una parte `[SIN VERIFICAR]`, como se declara. |
+| **`soul.md`** | `4-el-encuentro` | **verificado** | verificado en su ficha. |
+| **`story-of-your-life.md`** | `4-el-encuentro` | **verificado** | verificado en su ficha. |
+| **`videl.md`** | `4-el-encuentro` | **verificado** | verificado en su ficha. |
+| **`all-star-superman.md`** | `5-el-cerco` | **verificado** | verificado en su ficha. |
+| **`dorohedoro-y-back-to-the-future.md`** | `5-el-cerco` | **verificado** | verificado en su ficha. |
+| **`earth-x-y-houseki-no-kuni.md`** | `5-el-cerco` | **verificado** | verificado en su ficha. |
+| **`limite-de-origen.md`** | `5-el-cerco` | **verificado** | verificado en su ficha. |
+| **`soul-eater.md`** | `5-el-cerco` | **verificado** | verificado en su ficha. |
+| **`iroh.md`** | `6-dar-voz` | **verificado** | verificado en su ficha. |
+| **`martian-manhunter.md`** | `6-dar-voz` | **verificado** | verificado en su ficha. |
 
 ---
 
@@ -72,7 +72,7 @@
 | Estado | Cuántas |
 |---|---|
 | **`verificado`** | **28** |
-| **`parcial`** | **4**: `lazytown-sportacus`, `lucky-luke`, `marceline`, y `videl-kratos-iroh` |
+| **`parcial`** | **3**: `marceline`, `fire-force`, `lanterns`
 | **`declarado`** | **2**: el `MCU` y `fire-force` |
 
 **Y ninguna tiene segunda mirada.** **Verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
