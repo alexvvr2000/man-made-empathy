@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y con la escena del hijo apuntada sin verificar.
 
-**Fuente:** una. Se abrió la ficha de la obra.
+**Fuente:** una, para la serie y sus autores. La escena del hijo sigue `[SIN VERIFICAR]`.
+**Enlace:** https://en.wikipedia.org/wiki/Lucky_Luke   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y se dice lo que la fuente corrige:** `Dupuis` es del 49 al 67, no del 46; la serie pasó a `Dargaud` (68–88), a `Lucky Productions` (89–98) y a `Lucky Comics` (99 en adelante). Y `Goscinny` guioniza del 55 al 77, no desde el 46.
 
 ---
 
