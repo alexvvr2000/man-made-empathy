@@ -45,6 +45,10 @@
 | **[`procesos`](./08%20procesos.md)** | **cómo se escribe un proceso que se pueda refutar** |
 | **[`la frase`](./10%20la%20frase.md)** | **por qué el registro es lo único que queda** |
 | **[`la singularidad buena`](./09%20la%20singularidad%20buena.md)** | **¿para qué, si no es poder?** |
+| **[`la autoridad`](./21%20la%20autoridad.md)** | **quién dice la última palabra, y hasta dónde** |
+| **[`la memoria del ente`](./22%20la%20memoria%20del%20ente.md)** | **por qué hay dos memorias, y qué va en cada una** |
+| **[`cuándo está terminado`](./23%20cuándo%20está%20terminado.md)** | **con qué se dice «ya está», y no con la sensación** |
+| **[`nacer una colmena`](./24%20nacer%20una%20colmena.md)** | **cuándo dos son más, y cuándo son dos** |
 
 ---
 
