@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo, y es la regla de entrada de los demás. **Carpeta:** `ficcion/`. **Estado:** verificado en su parte verificable.
 
-**Fuente:** una. Se abrió la ficha de la obra.
+**Fuente:** una. Se abrió la ficha de la serie.
+**Enlace:** https://en.wikipedia.org/wiki/Peppa_Pig   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y se dice lo que la fuente no dice:** el 31 de mayo de 2004 no está en la página; la fuente dice que va por `Channel 5` y `Nick Jr.`, y los creadores y la compañía sí están.
 
 ---
 

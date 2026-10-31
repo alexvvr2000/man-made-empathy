@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y con la frase `[SIN VERIFICAR]`.
 
-**Fuente:** una. Se abrió la ficha de la obra.
+**Fuente:** una, para la serie. La frase del autor sigue `[SIN VERIFICAR]`.
+**Enlace:** https://en.wikipedia.org/wiki/Adventure_Time   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y la fecha deja de ser «2010–2018» a secas:** la fuente dice del 5 de abril de 2010 al 3 de septiembre de 2018, en `Cartoon Network Studios`.
 
 ---
 

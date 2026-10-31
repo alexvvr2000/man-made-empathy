@@ -2,8 +2,10 @@
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado.
 
-**Fuente:** una. Se abrió la ficha de la obra.
+**Fuente:** una, para el origen del equipo. La escena del vol. 2 (#1–4, 1993–1994) no se abrió.
+**Enlace:** https://en.wikipedia.org/wiki/Metal_Men   (abierto el 2026-10-31)
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
+**Y se dice lo que la fuente corrige:** el número es de `marzo–abril de 1962`, no de marzo a secas.
 
 ---
 
