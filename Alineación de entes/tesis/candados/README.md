@@ -6,7 +6,7 @@
 
 ---
 
-## Los cuatro grupos
+## Los cinco grupos
 
 | El grupo | La pregunta que contesta | Cuántas |
 |---|---|---|
@@ -14,6 +14,7 @@
 | **[`2-la-forma/`](./2-la-forma/)** | **¿cómo está hecho un ente, y qué puede cambiar? Y con qué se mide** | **7** |
 | **[`3-el-ojo/`](./3-el-ojo/)** | **¿cómo se mira, se nombra, y se toca?** | **7** |
 | **[`4-lo-que-vive-juntos/`](./4-lo-que-vive-juntos/)** | **¿qué pasa cuando son varios, y quién decide?** | **7** |
+| **[`5-ciclos/`](./5-ciclos/)** | **¿qué habita, y con qué se mide?** | **1** |
 
 ---
 
@@ -32,6 +33,12 @@
 ## 4. Lo que vive juntos — varios, y quién decide
 
 **[`18 la colmena`](./4-lo-que-vive-juntos/18%20la%20colmena.md)** · **[`19 el estado de las fichas`](./4-lo-que-vive-juntos/19%20el%20estado%20de%20las%20fichas.md)** · **[`20 cómo se verifica`](./4-lo-que-vive-juntos/20%20como%20se%20verifica.md)** · **[`21 la autoridad`](./4-lo-que-vive-juntos/21%20la%20autoridad.md)** · **[`22 la memoria del ente`](./4-lo-que-vive-juntos/22%20la%20memoria%20del%20ente.md)** · **[`23 cuándo está terminado`](./4-lo-que-vive-juntos/23%20cu%C3%A1ndo%20est%C3%A1%20terminado.md)** · **[`24 nacer una colmena`](./4-lo-que-vive-juntos/24%20nacer%20una%20colmena.md)**
+
+---
+
+## 5. Los ciclos — lo que habita, y con qué
+
+**[`25 entes con alma de script`](./5-ciclos/25%20entes%20con%20alma%20de%20script.md)** · **la ruta, el rastro, el cargo, y el piso**
 
 ---
 
