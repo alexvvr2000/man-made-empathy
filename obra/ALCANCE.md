@@ -27,7 +27,7 @@
 | **los procesos de dirección** | **9, cada uno con su falsificador** | **`./direcciones/`** |
 | **el ente y la colmena** | **la forma, y su ciclo fijo** | **`./Alineación de entes/implementacion/`** |
 | **los dos hermanos que atienden** | **2, con sus tareas y sus cajas** | **`[YA NO ESTÁ: la biblioteca se retiró]`** |
-| **el argumento** | **19 piezas, y las ocho leyes** | **`./Alineación de entes/tesis/candados/1-el-argumento/00 el orden de las lecturas.md`** |
+| **el argumento** | **19 piezas, y las ocho leyes** | **`./Alineación de entes/tesis/candados/1-el-argumento/01 el orden de las lecturas.md`** |
 | **las fichas de obras** | **33: las que tienen fuente, y 2 con ninguna, y cada una lo dice** | **`./Alineación de entes/tesis/ficcion/`** |
 | **las pruebas** | **6 escritas** | **`./Pruebas/`** |
 | **el taller del proyecto** | **lo que sirve a todos** | **`[YA NO ESTÁ]`** |

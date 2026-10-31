@@ -40,14 +40,14 @@
 
 **Que lo fijo no está en la superficie.** **Si la fijeza estuviera en la piel, cualquier cambio de piel la mataría.**
 
-**Y el caso de `Undertale` —el de la obra que se vuelve otra sin dejar de ser la misma—** **vive en [`./la singularidad buena.md`](../1-el-argumento/09%20la%20singularidad%20buena.md), con su ficha en [`../ficcion/2-la-obra/undertale.md`](../../ficcion/2-la-obra/undertale.md).**
+**Y el caso de `Undertale` —el de la obra que se vuelve otra sin dejar de ser la misma—** **vive en [`./la singularidad buena.md`](../1-el-argumento/04%20la%20singularidad%20buena.md), con su ficha en [`../ficcion/2-la-obra/undertale.md`](../../ficcion/2-la-obra/undertale.md).**
 
 ---
 
 ## Lo que este candado NO enseña
 
 **No enseña qué mutar, ni cuándo.** **Eso es de quien tiene la autoridad.**
-**Y no enseña cómo se hace la mutación:** **de eso se ocupa [`./el ciclo, y por que decide no hacerlo.md`](./05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**
+**Y no enseña cómo se hace la mutación:** **de eso se ocupa [`./el ciclo, y por que decide no hacerlo.md`](./03%20el%20ciclo%2C%20y%20por%20que%20decide%20no%20hacerlo.md).**
 
 ---
 

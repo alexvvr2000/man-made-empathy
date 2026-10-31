@@ -41,7 +41,7 @@
 
 **Que la prosa de un proceso no lo hace proceso.** **Lo hace el `Falla si`, y el falsificador.**
 
-**Y el caso de la cadena —el de los procesos que se llaman unos a otros—** **vive en [`./el ciclo, y por que decide no hacerlo.md`](./05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**
+**Y el caso de la cadena —el de los procesos que se llaman unos a otros—** **vive en [`./el ciclo, y por que decide no hacerlo.md`](./03%20el%20ciclo%2C%20y%20por%20que%20decide%20no%20hacerlo.md).**
 
 ---
 

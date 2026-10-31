@@ -23,7 +23,7 @@
 
 **La obra, con su autor y su año.** **Dónde está la escena.** **Y si se verificó, o si es `[SIN VERIFICAR]`.**
 
-**Y el estado de las 33, una por una, está en [`../candados/19 el estado de las fichas.md`](../candados/4-lo-que-vive-juntos/19%20el%20estado%20de%20las%20fichas.md).**
+**Y el estado de las 33, una por una, está en [`../candados/02 el estado de las fichas.md`](../candados/4-lo-que-vive-juntos/02%20el%20estado%20de%20las%20fichas.md).**
 
 ---
 
