@@ -1,9 +1,10 @@
-# MARCELLINE — el equilibrio es un ciclo sin fin
+# MARCELINE — el equilibrio es un ciclo sin fin
 
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** verificado en su ficha, y con la frase `[SIN VERIFICAR]`.
 
-**Fuente:** una, para la serie. La frase del autor sigue `[SIN VERIFICAR]`.
-**Enlace:** https://en.wikipedia.org/wiki/Adventure_Time   (abierto el 2026-10-31)
+**Fuente:** dos, para la serie y para el personaje. La frase del autor sigue `[SIN VERIFICAR]`.
+**Enlace:** https://en.wikipedia.org/wiki/Adventure_Time y https://en.wikipedia.org/wiki/Marceline_the_Vampire_Queen   (abiertos el 2026-10-31)
+**Y la ortografía, verificada:** el personaje es `Marceline`, con una `L`. `Marceline Abadeer`, de `Adventure Time`, creada por `Pendleton Ward`, y aparece por primera vez en `"Evicted!"` (2010).
 **Para citarlo en un escrito público:** se busca la segunda, y se pide antes de usar.
 **Y la fecha deja de ser «2010–2018» a secas:** la fuente dice del 5 de abril de 2010 al 3 de septiembre de 2018, en `Cartoon Network Studios`.
 

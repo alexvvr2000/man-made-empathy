@@ -36,11 +36,11 @@ Límite:      no enseña a continuar una obra ajena sin traicionarla; enseña qu
 
 **El argumento la citaba como "la venganza del hijo de Jhon Marston", y ese nombre estaba mal.** **Y está mal, y se corrige:**
 
-**No es `Lucky Luke`. Es `Red Dead Redemption` (2010), el primero, que es precuela del 2.** **Y el hijo es `Jack Marston`, no «Jhon».** **Jack caza al agente Edgar Ross al final del juego, para vengar a su padre John.**
+**No es `Lucky Luke`. Es `Red Dead Redemption` (2010), de `Rockstar San Diego` y `Rockstar Games`.** **Y el `2` (2018) es la precuela, no el `1`: el `1` es el que va después en el tiempo.** **Y el hijo es `Jack Marston`, no «Jhon».**
+
+**Y la escena ya tiene su ficha, y es `jack-marston.md`, hermana de `red-dead-redemption`.** **Y ahí se verifica: `Jack` entierra a `Abigail` junto a `John`, y después busca a `Ross` y lo mata en un duelo.** **Wikipedia, «Red Dead Redemption», abierta el `2026-10-31`.**
 
 **Y eso cambia el ejemplo para mejor, porque es más fuerte:** **no es un cómic donde el hijo se venga; es un juego donde TÚ juegas al hijo, y el epílogo es la venganza que hereda el punto.**
-
-**Y se apunta la ficha cuando se verifique:** **`Red Dead Redemption`, Rockstar San Diego, 2010; PlayStation 3 y Xbox 360.**
 
 **Y `Lucky Luke` se queda con lo que sí le toca:** **que una obra sobreviva a los dos que la hicieron, y el caso de `Buck Bingo`.**
 

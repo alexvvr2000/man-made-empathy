@@ -44,7 +44,7 @@
 
 **4. La escena y la lectura son dos cosas.** **La obra hace algo; el autor lee algo.** **Se verifica la obra, y la lectura se declara como del autor.**
 
-**5. Un nombre mal escrito no encuentra nada.** **`Jhon Marston` no existe; `Jack Marston`, sí.** **Si el nombre no resuelve, la ficha está mal, y se corrige la ficha antes de seguir.**
+**5. Un nombre mal escrito no encuentra nada.** **`Jhon Marston` no existe; `Jack Marston` y `John Marston`, sí.** **Si el nombre no resuelve, la ficha está mal, y se corrige la ficha antes de seguir.**
 
 **6. Dos miradas, o se dice que hay una.** **Una ficha de Wikipedia es una mirada.** **Para citarlo en un escrito público, se pide otra: otra ficha, otra edición, o el autor que lo vivió.**
 
