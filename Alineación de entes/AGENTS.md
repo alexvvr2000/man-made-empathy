@@ -31,7 +31,7 @@
 | **el porqué, y las ocho leyes** | **[`./tesis/candados/`](./tesis/candados/)** |
 | **la plantilla del ente** | **[`./implementacion/ente/`](./implementacion/ente/)** |
 | **la plantilla de la colmena** | **[`./implementacion/colmena/`](./implementacion/colmena/)** |
-| **los ejemplos, y su estado** | **[`./tesis/candados/ejemplos/ESTADO.md`](./tesis/candados/ejemplos/ESTADO.md)** |
+| **los ejemplos, y su estado** | **[`./tesis/candados/19%20el%20estado%20de%20las%20fichas.md`](./tesis/candados/19%20el%20estado%20de%20las%20fichas.md)** |
 | **la puerta de la colmena** | **[`./implementacion/colmena/PLANTILLA.md`](./implementacion/colmena/PLANTILLA.md)** |
 
 **Y del repo, y no de aquí:** **[`../../direcciones/`](../direcciones/)**, **[`../../biblioteca/`](../biblioteca/)**, **[`../../bin/`](../bin/)**, **y el expediente.**
@@ -47,7 +47,7 @@
 | **tocar algo que otro sostiene** | **[`./implementacion/ente/procesos base/conducto.prs`](./implementacion/ente/procesos%20base/conducto.prs)** | **se toca sin testigo** |
 | **afirmar algo de afuera** | **[`./implementacion/ente/procesos base/BUSCAR.prs`](./implementacion/ente/procesos%20base/BUSCAR.prs)** | **se opina sin saber** |
 | **citar un ejemplo** | **`ESTADO.md`, y su ficha** | **se cita sin fuente** |
-| **entender por qué** | **[`./tesis/candados/el orden de las lecturas.md`](./tesis/candados/el%20orden%20de%20las%20lecturas.md)** | **se practica sin saber** |
+| **entender por qué** | **[`./tesis/candados/el orden de las lecturas.md`](./tesis/candados/00%20el%20orden%20de%20las%20lecturas.md)** | **se practica sin saber** |
 
 ---
 

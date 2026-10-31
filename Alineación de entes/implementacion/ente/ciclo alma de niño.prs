@@ -224,8 +224,8 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Se corren aquí, en el paso 4, y no son procesos aparte.**
 
-- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../tesis/candados/mutar.md`](../../tesis/candados/mutar.md).**
-- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../tesis/candados/procesos.md`](../../tesis/candados/procesos.md).**
+- **`MUTAR`**: los seis actos —agregar, quitar, poner, ordenar, formato, rehacer— y qué se pierde en cada uno. **Rige [`../../tesis/candados/07%20mutar.md`](../../tesis/candados/07%20mutar.md).**
+- **`PROCESOS`**: cómo se escribe un `.prs` —`Cuándo se corre`, `Entra · Falla si · Sale · Consume`, la búsqueda, y el falsificador—. **Rige [`../../tesis/candados/08%20procesos.md`](../../tesis/candados/08%20procesos.md).**
 
 **Y la regla que las une:** **todo acto dice qué se pierde, y si se puede recuperar.**
 
@@ -323,7 +323,7 @@ Conclusión:   [se sostiene | se cae | no se pudo juzgar]
 
 **Y el criterio no crece pidiendo permiso: crece porque el banco dice cuántas veces se preguntó lo mismo.**
 
-**Rige [`../tesis/candados/las ocho leyes del punto cero.md`](../../tesis/candados/las%20ocho%20leyes%20del%20punto%20cero.md), que es la octava.**
+**Rige [`../tesis/candados/las ocho leyes del punto cero.md`](../../tesis/candados/02%20las%20ocho%20leyes%20del%20punto%20cero.md), que es la octava.**
 
 
 ---

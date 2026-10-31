@@ -31,4 +31,4 @@
 
 **Y su falsificador:** **un proceso que se acepta sin refutarlo; uno que no dice cuándo se corre; uno que no dice qué pasa si el otro dice no.**
 
-**Y la prosa que había en su `.prs` —el nombre, el porqué, y el caso de la cadena— vive en [`./el ciclo, y por que decide no hacerlo.md`](./el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**
+**Y la prosa que había en su `.prs` —el nombre, el porqué, y el caso de la cadena— vive en [`./el ciclo, y por que decide no hacerlo.md`](./05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md).**

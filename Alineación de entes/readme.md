@@ -12,8 +12,8 @@
 | La carpeta | Qué es | Y por dónde entrar |
 |---|---|---|
 | **[`./implementacion/`](./implementacion/)** | **la forma: un ente y una colmena, que se copian** | **[`./implementacion/ente/`](./implementacion/ente/)** |
-| **[`./tesis/candados/`](./tesis/candados/)** | **el argumento, los ejemplos, y el porqué de todo esto** | **[`./tesis/candados/las ocho leyes del punto cero.md`](./tesis/candados/las%20ocho%20leyes%20del%20punto%20cero.md)** |
-| **[`./tesis/ficcion/`](./tesis/ficcion/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./tesis/candados/ejemplos/ESTADO.md`](./tesis/candados/ejemplos/ESTADO.md)** |
+| **[`./tesis/candados/`](./tesis/candados/)** | **el argumento, los ejemplos, y el porqué de todo esto** | **[`./tesis/candados/las ocho leyes del punto cero.md`](./tesis/candados/02%20las%20ocho%20leyes%20del%20punto%20cero.md)** |
+| **[`./tesis/ficcion/`](./tesis/ficcion/)** | **34 fichas: cada obra, qué provocó, y su fuente** | **[`./tesis/candados/19%20el%20estado%20de%20las%20fichas.md`](./tesis/candados/19%20el%20estado%20de%20las%20fichas.md)** |
 
 **Y lo que atiende de verdad no está aquí: vive en el proyecto, y esta carpeta sólo enseña.**
 
@@ -73,7 +73,7 @@ Ente/
 **· el ciclo fijo**
 **· `procesos base/`**
 
-**Y el conducto toca `evolucion/`, y nada más.** **El porqué, en [`./tesis/candados/por que el conducto no toca el alma.md`](./tesis/candados/por%20que%20el%20conducto%20no%20toca%20el%20alma.md).**
+**Y el conducto toca `evolucion/`, y nada más.** **El porqué, en [`./tesis/candados/por que el conducto no toca el alma.md`](./tesis/candados/06%20por%20que%20el%20conducto%20no%20toca%20el%20alma.md).**
 
 ---
 
@@ -98,22 +98,22 @@ Colmena/
 
 **34 fichas, en [`./tesis/ficcion/`](./tesis/ficcion/).** **Y cada una dice: la escena, la obra, dónde está, si se verificó, qué provoca, y qué NO enseña.**
 
-**Y su estado, una por una, en [`./tesis/candados/ejemplos/ESTADO.md`](./tesis/candados/ejemplos/ESTADO.md).**
+**Y su estado, una por una, en [`./tesis/candados/19%20el%20estado%20de%20las%20fichas.md`](./tesis/candados/19%20el%20estado%20de%20las%20fichas.md).**
 
 ---
 
 ## La teoría, y cuándo se lee
 
-**Cuando quieras el porqué, y no antes.** **Y hay dieciocho piezas, y el orden de las lecturas está en [`./tesis/candados/LEEME.md`](./tesis/candados/el%20orden%20de%20las%20lecturas.md).**
+**Cuando quieras el porqué, y no antes.** **Y hay dieciocho piezas, y el orden de las lecturas está en [`./tesis/candados/LEEME.md`](./tesis/candados/00%20el%20orden%20de%20las%20lecturas.md).**
 
 | La pieza | Y qué contesta |
 |---|---|
-| **[`las ocho leyes del punto cero`](./tesis/candados/las%20ocho%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
-| **[`la casa del ente`](./tesis/candados/la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
-| **[`por que el conducto no toca el alma`](./tesis/candados/por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
-| **[`el alma es la raiz, y el oficio es la rama`](./tesis/candados/el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |
-| **[`el ciclo, y por que decide no hacerlo`](./tesis/candados/el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **por qué un ente no hace nada** |
-| **y el argumento entero** | **[`el cero`](./tesis/candados/el%20cero.md)**, **y las ocho piezas** |
+| **[`las ocho leyes del punto cero`](./tesis/candados/02%20las%20ocho%20leyes%20del%20punto%20cero.md)** | **por qué la forma es así** |
+| **[`la casa del ente`](./tesis/candados/04%20la%20casa%20del%20ente.md)** | **qué es lo suyo, y qué no** |
+| **[`por que el conducto no toca el alma`](./tesis/candados/06%20por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** | **dónde está el borde, y por qué** |
+| **[`el alma es la raiz, y el oficio es la rama`](./tesis/candados/03%20el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** | **de dónde sale el ciclo** |
+| **[`el ciclo, y por que decide no hacerlo`](./tesis/candados/05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** | **por qué un ente no hace nada** |
+| **y el argumento entero** | **[`el cero`](./tesis/candados/01%20el%20cero.md)**, **y las ocho piezas** |
 
 ---
 

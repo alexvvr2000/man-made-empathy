@@ -61,7 +61,7 @@ Falta:       [qué no se pudo, o «nada»]
 Segunda:     [sí, con cuál | no, y por qué]
 ```
 
-**Y ese registro se anota en [`./ESTADO`](./ESTADO.md), que es donde se lee.**
+**Y ese registro se anota en [`./ESTADO`](./19%20el%20estado%20de%20las%20fichas.md), que es donde se lee.**
 
 ---
 

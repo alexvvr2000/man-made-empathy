@@ -66,4 +66,4 @@ Límite:      no enseña a hacer una máquina empática; enseña que el que la h
 
 **Y no enseña que los `Manhunters` fueran malos por diseño.** **Se rebelaron, y eso es lo que los volvió el error.**
 
-**Rige [`../LEEME`](../../readme.md), y su estado en [`../ESTADO`](../candados/ejemplos/ESTADO.md).**
+**Rige [`../LEEME`](../../readme.md), y su estado en [`../ESTADO`](../candados/19%20el%20estado%20de%20las%20fichas.md).**

@@ -77,7 +77,7 @@
 
 **Y ninguna tiene segunda mirada.** **Verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
 
-**⚠️ Y eso sigue siendo la tarea de la `v1.1`:** **antes de citar cualquier ejemplo en un escrito público, se pide la segunda mirada.** **Rige [`./COMO SE VERIFICA.LEEME.md`](./COMO%20SE%20VERIFICA.LEEME.md).**
+**⚠️ Y eso sigue siendo la tarea de la `v1.1`:** **antes de citar cualquier ejemplo en un escrito público, se pide la segunda mirada.** **Rige [`./COMO SE VERIFICA.LEEME.md`](./20%20como%20se%20verifica.md).**
 
 ---
 
@@ -87,7 +87,7 @@
 
 **Y por eso esta tabla dice `verificado` y no `confirmado`:** **verificar es abrir la ficha; confirmar es que otra mirada independiente diga lo mismo.**
 
-**⚠️ Y una tarea declarada:** **antes de citar cualquier ejemplo en un escrito público, se pide la segunda mirada.** **Rige [`./COMO SE VERIFICA.LEEME.md`](./COMO%20SE%20VERIFICA.LEEME.md).**
+**⚠️ Y una tarea declarada:** **antes de citar cualquier ejemplo en un escrito público, se pide la segunda mirada.** **Rige [`./COMO SE VERIFICA.LEEME.md`](./20%20como%20se%20verifica.md).**
 
 ---
 

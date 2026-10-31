@@ -69,4 +69,4 @@ Límite:      no enseña que el miedo sea bueno; enseña que los que lo despreci
 
 **Y eso es lo que el repo llama `sesgo`:** **no es lo que se quita; es lo que se declara.**
 
-**Rige [`../LEEME`](../../readme.md), y su estado en [`../ESTADO`](../candados/ejemplos/ESTADO.md).**
+**Rige [`../LEEME`](../../readme.md), y su estado en [`../ESTADO`](../candados/19%20el%20estado%20de%20las%20fichas.md).**
