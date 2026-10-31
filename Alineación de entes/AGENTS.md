@@ -1,6 +1,6 @@
 # AGENTS.md — la puerta de la biblioteca
 
-**Ente:** **`man-made-empathy`**, y su parte que se entrega es `Sincronización de almas/`.
+**Ente:** **`man-made-empathy`**, y su parte que se entrega es `Alineación de entes/`.
 **Cuándo se abre:** **al abrir este repositorio, y antes de tocar nada.**
 **Clase:** se ejecuta. **Lector:** cualquier agente, humano o modelo, que abra este repositorio.
 **Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
@@ -13,7 +13,7 @@
 
 ## Lo primero: qué es esto, y qué se entrega
 
-> **La biblioteca es el punto 0: `Sincronización de almas/`.**
+> **La biblioteca es el punto 0: `Alineación de entes/`.**
 
 **Y lo que se copia es la forma, y no el contenido:** **un ente, y una colmena.** **Y quien los copia, escribe su propio `AGENTS.md` con su nombre.**
 

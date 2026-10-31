@@ -1,4 +1,4 @@
-# SINCRONIZACIÓN DE ALMAS — la guía para trabajar
+# ALINEACIÓN DE ENTES — la guía para trabajar
 
 **Cuándo se abre:** **cuando alguien va a copiar un ente, y quiere ponerse a trabajar hoy.**
 
