@@ -19,7 +19,7 @@
 
 **Y el corte que ordena todo:**
 
-> **`.prs` se corre. `.md` se lee.** **Y la guía entera está en [`./LEEME.md`](./LEEME.md).**
+> **`.prs` se corre. `.md` se lee.** **Y la guía entera está en [`./readme.md`](./readme.md).**
 
 ---
 
@@ -27,12 +27,12 @@
 
 | Qué hay | Dónde |
 |---|---|
-| **la guía: qué copiar, en qué orden, y qué no se toca** | **[`./LEEME.md`](./LEEME.md)** |
-| **el porqué, y las ocho leyes** | **[`./teoria/`](./teoria/)** |
-| **la plantilla del ente** | **[`./entes/Ente/`](./entes/Ente/)** |
-| **la plantilla de la colmena** | **[`./entes/Colmena/`](./entes/Colmena/)** |
-| **los ejemplos, y su estado** | **[`./teoria/ejemplos/ESTADO.md`](./teoria/ejemplos/ESTADO.md)** |
-| **la puerta de la colmena** | **[`./entes/Colmena/PLANTILLA.md`](./entes/Colmena/PLANTILLA.md)** |
+| **la guía: qué copiar, en qué orden, y qué no se toca** | **[`./readme.md`](./readme.md)** |
+| **el porqué, y las ocho leyes** | **[`./tesis/candados/`](./tesis/candados/)** |
+| **la plantilla del ente** | **[`./implementacion/ente/`](./implementacion/ente/)** |
+| **la plantilla de la colmena** | **[`./implementacion/colmena/`](./implementacion/colmena/)** |
+| **los ejemplos, y su estado** | **[`./tesis/candados/ejemplos/ESTADO.md`](./tesis/candados/ejemplos/ESTADO.md)** |
+| **la puerta de la colmena** | **[`./implementacion/colmena/PLANTILLA.md`](./implementacion/colmena/PLANTILLA.md)** |
 
 **Y del repo, y no de aquí:** **[`../../direcciones/`](../direcciones/)**, **[`../../biblioteca/`](../biblioteca/)**, **[`../../bin/`](../bin/)**, **y el expediente.**
 
@@ -44,10 +44,10 @@
 |---|---|---|
 | **hacer un ente** | **la guía, y se copia `Ente/`** | **se inventa la forma** |
 | **juntar varios** | **la plantilla de la colmena** | **se fusionan, y dejan de ser cada uno** |
-| **tocar algo que otro sostiene** | **[`./entes/Ente/procesos base/conducto.prs`](./entes/Ente/procesos%20base/conducto.prs)** | **se toca sin testigo** |
-| **afirmar algo de afuera** | **[`./entes/Ente/procesos base/BUSCAR.prs`](./entes/Ente/procesos%20base/BUSCAR.prs)** | **se opina sin saber** |
+| **tocar algo que otro sostiene** | **[`./implementacion/ente/procesos base/conducto.prs`](./implementacion/ente/procesos%20base/conducto.prs)** | **se toca sin testigo** |
+| **afirmar algo de afuera** | **[`./implementacion/ente/procesos base/BUSCAR.prs`](./implementacion/ente/procesos%20base/BUSCAR.prs)** | **se opina sin saber** |
 | **citar un ejemplo** | **`ESTADO.md`, y su ficha** | **se cita sin fuente** |
-| **entender por qué** | **[`./teoria/el orden de las lecturas.md`](./teoria/el%20orden%20de%20las%20lecturas.md)** | **se practica sin saber** |
+| **entender por qué** | **[`./tesis/candados/el orden de las lecturas.md`](./tesis/candados/el%20orden%20de%20las%20lecturas.md)** | **se practica sin saber** |
 
 ---
 
