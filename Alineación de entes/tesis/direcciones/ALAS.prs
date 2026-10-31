@@ -1,0 +1,80 @@
+# ALAS — todo protocolo declara, y lo que no cabe se trunca
+
+**Nombre.** ALAS — **A**pertura, **L**engua, **A**comodo, **S**ostenido. **Se lee de un tirón; la expansión dice lo que todo protocolo declara.**
+
+**Clase:** proceso. **Aplica a:** hablar con otro que no es como uno.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se comunica desde el otro, no desde el que emite.
+**Límite:** **no decide qué protocolo usar.** **Dice qué tiene que declarar cualquier protocolo para ser uno.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+**Cuándo se corre:** **cuando se habla con otro que no es como uno, y antes de entregarle algo.**
+
+**Peor:** se comunican dos que se entienden entre ellos, **y el tercero recibe un truncado sin saber que lo recibió.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
+
+---
+
+## Lo que dispone, y son cuatro letras
+
+| Letra | Qué declara | Sin ella |
+|---|---|---|
+| **Apertura** | **desde dónde se habla, y en qué modo** | **el otro no sabe qué le están pidiendo** |
+| **Lengua** | **en qué se habla, y qué se traduce y qué no** | **se traduce a la fuerza, y se pierde lo que no traducía** |
+| **Acomodo** | **hacia dónde converge o diverge, y qué se pierde** | **el mensaje se acerca tanto que no dice nada** |
+| **Sostenido** | **qué puede el otro sin el que habló** | **recibió el mensaje, y no las alas** |
+
+**Y el techo, que es la prueba de las cuatro:** **que el otro pueda seguir sin el que le habló.**
+
+---
+
+## Lo que la incumple
+
+**Un mensaje que no cabe en el canal.** **No es claro: es truncado.** **Y el truncado se lee como completo.**
+
+**Y por eso:** **lo que no se puede traducir se declara opaco, y no se traduce mal.** **Y lo que sólo funciona con el que lo emitió no es una entrega: es dependencia.**
+
+---
+
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este proceso no se puede cerrar sin decir qué se buscó.** **Porque una máquina sin búsqueda obligatoria contesta de memoria, y la memoria de una máquina no es fuente.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la obra existe, y es de quien se dice** | **el catálogo del editor, la ficha, o el registro** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **la escena, la frase, o el dato** | **la obra, el guion, o el clip con su identificador** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **la ley, y la jurisdicción** | **el texto publicado, y su fecha** | **`[SIN ENCONTRAR - NO SE CITA COMO LEY]`** |
+| **un nombre real** | **su ficha, y lo que la persona misma dijo** | **`[NO SE NOMBRA - NO HAY FUENTE]`** |
+
+**Y el registro, que es lo que lo hace servir de prueba:**
+
+```plaintext
+Se buscó:     [la pregunta exacta]
+Dónde:        [el motor, la ficha, la fuente, o el enlace]
+Decía:        [lo que decía, literal o citado]
+Segunda:      [sí, con cuál | no, y por qué]
+Conclusión:   [se sostiene | se cae | no se pudo juzgar]
+```
+
+**Y el proceso de buscar vive en el ente, en `procesos base/BUSCAR.prs`: es obligatorio para cada uno, porque es lo que previene que una máquina conteste de memoria.**
+
+---
+
+## Prueba
+
+**¿El protocolo declara las cuatro letras? ¿Dice qué se trunca? ¿El otro puede seguir sin el que habló?**
+
+**Falsificador:** un protocolo sin lengua declarada; una acomodación sin pérdida declarada; un mensaje truncado presentado como completo; un mensaje que sólo funciona con el que lo emitió.
+

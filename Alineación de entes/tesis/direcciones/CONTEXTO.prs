@@ -1,0 +1,99 @@
+# CONTEXTO — de dónde vino, y que se usó bien
+
+**Nombre.** CONTEXTO. **Y la expansión dice el acto:** **declarar de dónde viene lo que se usa, qué provocó, y que la información se usó bien.**
+
+**Clase:** proceso. **Aplica a:** declarar procedencia, sin volverla un trámite.
+**Dueño:** **quien tiene la autoridad en el proyecto donde se aplica.**
+
+**Sesgo:** se lee desde el que va a entender, no desde el que se defiende.
+**Límite:** **no protege legalmente, y no guarda casos.** **Dice qué se declara, y cómo. Lo demás vive en la raíz.**
+**Firma:** **quien responde por el acto, con su nombre** · **y quien lo ejecuta.**
+
+**Cuándo se corre:** **cuando se declara de dónde vino algo, y antes de publicarlo.**
+
+**Peor:** se presenta como propio lo que provocó a otro, **y el que leyó la obra no reconoce la suya: reconoce una versión inventada por el que la citó.**
+
+---
+
+## Entra | Falla si | Sale | Consume
+
+- **Entra:** lo que se trae, y lo que hay al otro lado. **Modo: escribe.**
+- **Falla si:** se cumple lo que el falsificador describe al final.
+- **Sale:** el acto con su rastro, **o `[NO SE CUMPLE - SE DECLARA POR QUÉ]`**.
+- **Consume:** quien vaya a usar lo que salió, y quien lo pueda contradecir.
+
+---
+
+## Lo que dispone, y son tres archivos que no hacen lo mismo
+
+| Archivo | Qué hace |
+|---|---|
+| **`FUENTES.md`** | **agradece a quien enseñó algo, y fija la regla de los nombres** |
+| **`ATTRIBUTION.md`** | **lo legal: qué es de quién y qué se cede. Se escribe al final, y mientras esté vacío, no se supone nada** |
+| **`CONTEXTO.md`** | **de dónde vino, qué provocó, y dónde se usó** |
+
+**Y la regla que los separa:**
+
+> **Una cosa es forzar, y otra es mostrar.**
+> **Las fuentes existen para no meterse en un problema legal; el contexto, para que la gente entienda.**
+
+---
+
+## Lo que se declara de cada cosa que se usó, y son seis
+
+```plaintext
+Obra:      [el título, con su autoría y su año]
+Soporte:   [libro | película | serie | cómic | artículo | página | conversación]
+Provocó:   [la pregunta, en una línea]
+Se usó:    [dónde, y para qué]
+Se toma:   [la frase, el caso o la idea, y nada más]
+Límite:    [lo que NO enseña, y por qué no se puede estirar]
+```
+
+**Y se ordena por `Se usó`**, porque el que busca quiere saber qué sustentó una pieza.
+
+---
+
+## Lo que la incumple
+
+**Declarar la obra entera cuando se usó una línea.** **Omitir el límite, y estirar la obra.** **Citar la obra como autoridad, en vez de como lo que preguntó.** **Presentar como propio lo heredado.**
+
+**Y la regla de oro, en una línea:**
+
+> **Se cita la obra como lo que es: una obra que preguntó algo. Lo que se toma se dice; lo que no se toma, no se insinúa.**
+
+---
+
+## Y la búsqueda, que es lo que separa afirmar de repetir
+
+> **Lo externo no se recuerda: se busca, o se tacha.**
+
+**Y este proceso no se puede cerrar sin decir qué se buscó.** **Porque una máquina sin búsqueda obligatoria contesta de memoria, y la memoria de una máquina no es fuente.**
+
+| Lo que se busca | Dónde | Y si no se encuentra |
+|---|---|---|
+| **la obra existe, y es de quien se dice** | **el catálogo del editor, la ficha, o el registro** | **`[SIN ENCONTRAR - SE BUSCÓ EN …]`** |
+| **la escena, la frase, o el dato** | **la obra, el guion, o el clip con su identificador** | **`[UNA MIRADA - FALTA LA SEGUNDA]`** |
+| **la ley, y la jurisdicción** | **el texto publicado, y su fecha** | **`[SIN ENCONTRAR - NO SE CITA COMO LEY]`** |
+| **un nombre real** | **su ficha, y lo que la persona misma dijo** | **`[NO SE NOMBRA - NO HAY FUENTE]`** |
+
+**Y el registro, que es lo que lo hace servir de prueba:**
+
+```plaintext
+Se buscó:     [la pregunta exacta]
+Dónde:        [el motor, la ficha, la fuente, o el enlace]
+Decía:        [lo que decía, literal o citado]
+Segunda:      [sí, con cuál | no, y por qué]
+Conclusión:   [se sostiene | se cae | no se pudo juzgar]
+```
+
+**Y el proceso de buscar vive en el ente, en `procesos base/BUSCAR.prs`: es obligatorio para cada uno, porque es lo que previene que una máquina conteste de memoria.**
+
+---
+
+## Prueba
+
+**¿Cada entrada dice obra, soporte, qué provocó, dónde se usó, qué se toma y qué no enseña? ¿Se puede encontrar la obra con eso? ¿Se distingue lo que se tomó de lo que sólo se menciona?**
+
+**Falsificador:** una obra citada como autoridad; una entrada sin límite; una obra estirada más allá de su caso; una idea heredada presentada como propia; un archivo que guarda casos en vez de la forma.
+

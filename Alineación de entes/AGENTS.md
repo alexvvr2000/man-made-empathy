@@ -34,7 +34,7 @@
 | **los ejemplos, y su estado** | **[`./tesis/candados/19%20el%20estado%20de%20las%20fichas.md`](./tesis/candados/19%20el%20estado%20de%20las%20fichas.md)** |
 | **la puerta de la colmena** | **[`./implementacion/colmena/PLANTILLA.md`](./implementacion/colmena/PLANTILLA.md)** |
 
-**Y del repo, y no de aquí:** **[`../../direcciones/`](../direcciones/)**, **[`../../biblioteca/`](../biblioteca/)**, **[`../../bin/`](../bin/)**, **y el expediente.**
+**Y del repo, y no de aquí:** **[`../../direcciones/`](tesis/direcciones/)**, **[`../../biblioteca/`](../biblioteca/)**, **[`../../bin/`](../bin/)**, **y el expediente.**
 
 ---
 
