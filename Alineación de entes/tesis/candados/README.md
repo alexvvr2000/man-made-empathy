@@ -11,7 +11,7 @@
 | El grupo | La pregunta que contesta | Cuántas |
 |---|---|---|
 | **[`1-el-argumento/`](./1-el-argumento/)** | **¿qué se sostiene aquí, y por qué?** | **5** |
-| **[`2-la-forma/`](./2-la-forma/)** | **¿cómo está hecho un ente, y qué puede cambiar?** | **6** |
+| **[`2-la-forma/`](./2-la-forma/)** | **¿cómo está hecho un ente, y qué puede cambiar? Y con qué se mide** | **7** |
 | **[`3-el-ojo/`](./3-el-ojo/)** | **¿cómo se mira, se nombra, y se toca?** | **7** |
 | **[`4-lo-que-vive-juntos/`](./4-lo-que-vive-juntos/)** | **¿qué pasa cuando son varios, y quién decide?** | **7** |
 
@@ -23,7 +23,7 @@
 
 ## 2. La forma — cómo está hecho, y qué puede cambiar
 
-**[`03 el alma es la raíz`](./2-la-forma/03%20el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** · **[`04 la casa`](./2-la-forma/04%20la%20casa%20del%20ente.md)** · **[`05 el ciclo`](./2-la-forma/05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** · **[`06 el conducto`](./2-la-forma/06%20por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** · **[`07 mutar`](./2-la-forma/07%20mutar.md)** · **[`08 procesos`](./2-la-forma/08%20procesos.md)**
+**[`03 el alma es la raíz`](./2-la-forma/03%20el%20alma%20es%20la%20raiz,%20y%20el%20oficio%20es%20la%20rama.md)** · **[`04 la casa`](./2-la-forma/04%20la%20casa%20del%20ente.md)** · **[`05 el ciclo`](./2-la-forma/05%20el%20ciclo,%20y%20por%20que%20decide%20no%20hacerlo.md)** · **[`06 el conducto`](./2-la-forma/06%20por%20que%20el%20conducto%20no%20toca%20el%20alma.md)** · **[`07 mutar`](./2-la-forma/07%20mutar.md)** · **[`08 procesos`](./2-la-forma/08%20procesos.md)** · **[`piso`](./2-la-forma/piso.md)**
 
 ## 3. El ojo — cómo se mira, se nombra, y se toca
 
