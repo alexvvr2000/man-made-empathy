@@ -3,7 +3,7 @@
 **Clase:** ejemplo. **Carpeta:** `ficcion/`. **Estado:** `declarado`: no se ha verificado ninguna escena del `MCU`.
 
 **Fuente:** ninguna. Lo declara quien lo trajo, y no hay fuente externa.
-**Y así queda, a propósito:** la ficha dice `declarado`, y `declarado` no se enlaza: enlazarla sería fingir una fuente que no existe.
+**Y así queda, a propósito:** esta ficha es `declarado`, y no tiene URL que dar: una fuente que no existe NO SE ABRIÓ, y no se finge.
 **Para citarlo en un escrito público:** se cita como declaración, y no como hecho.
 
 ---
