@@ -18,6 +18,20 @@ Esto se entiende sin saber el oficio. Si escarbas, encuentras lo que un comité 
 
 ---
 
+## Por qué esta tesis se sostiene con ficción
+
+> **La ficción es el motor, y no el adorno.**
+> **Es el reflejo de lo que no podemos negar: lo que alguien pudo imaginar de nosotros, y que nosotros todavía no sabemos decir.**
+> **Y aunque parezca que le quita seriedad, suma entendimiento.**
+
+**Y no es un atajo: es lo que el papel del paper no alcanza.** **Un paper dice lo que ya se puede probar, y va dirigido a quien ya lo cree.** **Y lo que aquí se piensa todavía no se puede probar: se puede mostrar.**
+
+**Los más grandes escritores de academia no pueden usar este tipo de motor, porque lleva corazón, y un proyecto para la gente necesita mucho de eso.** **Y cada ejemplo va con su obra, su escena, y si se verificó.** **Lo que no se verificó, lo dice.**
+
+**Y la ficción no es la prueba:** **la prueba es el uso.** **Si sirve, sirvió.**
+
+---
+
 **Para hacer un ente, de principio a fin, en llano:** `Sincronización de almas/`, y su guía: `LEEME.md`
 **El porqué, y las ocho leyes:** `Sincronización de almas/teoria/`
 **La dirección: lo que se tiene que poder contestar:** `direcciones/`
